@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Label new issues with requires-triage"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/datafusion-comet",
+      "status": "candidate-context",
+      "text": "Apache DataFusion Comet Spark Accelerator"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/datafusion-comet",
+      "status": "candidate-context",
+      "text": "Label new issues with requires-triage"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/datafusion-comet",
+      "status": "candidate",
+      "text": "Label new issues with requires-triage"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34535,
+      "status": "candidate",
+      "text": "developments"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34535,
+      "status": "candidate",
+      "text": "questions"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34414,
+      "status": "candidate",
+      "text": "merchant bank"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34414,
+      "status": "candidate",
+      "text": "registration"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34414,
+      "status": "candidate",
+      "text": "right"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Label new issues with requires-triage",
+  "concept_id": "label-new-issues-with-requires-triage",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/label_new_issues.yml",
+      "source_repo": "apache/datafusion-comet"
+    }
+  ],
+  "first_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Label new issues with requires-triage",
+      "sense_id": "label-new-issues-with-requires-triage#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

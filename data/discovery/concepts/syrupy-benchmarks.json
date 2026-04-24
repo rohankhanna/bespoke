@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Syrupy Benchmarks"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "syrupy-project/syrupy",
+      "status": "candidate-context",
+      "text": ":pancakes: The sweeter pytest snapshot plugin"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "syrupy-project/syrupy",
+      "status": "candidate-context",
+      "text": "Syrupy Benchmarks"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "syrupy-project/syrupy",
+      "status": "candidate",
+      "text": "Syrupy Benchmarks"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10491,
+      "status": "candidate",
+      "text": "compote"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10491,
+      "status": "candidate",
+      "text": "water glass"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10471,
+      "status": "candidate",
+      "text": "halvah"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10471,
+      "status": "candidate",
+      "text": "honey"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10471,
+      "status": "candidate",
+      "text": "sap"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Syrupy Benchmarks",
+  "concept_id": "syrupy-benchmarks",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/benchmark.yaml",
+      "source_repo": "syrupy-project/syrupy"
+    }
+  ],
+  "first_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Syrupy Benchmarks",
+      "sense_id": "syrupy-benchmarks#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

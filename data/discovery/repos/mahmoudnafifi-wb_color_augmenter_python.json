@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-24T12:52:59.756439+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 923
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Python version of the WB augmenter (ICCV'19)",
+    "fork": false,
+    "full_name": "mahmoudnafifi/WB_color_augmenter_python",
+    "html_url": "https://github.com/mahmoudnafifi/WB_color_augmenter_python",
+    "language": "Python",
+    "pushed_at": "2023-02-25T23:19:53Z",
+    "stargazers_count": 4,
+    "topics": [],
+    "updated_at": "2025-06-23T07:33:07Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

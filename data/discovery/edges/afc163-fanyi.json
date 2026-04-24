@@ -1,0 +1,209 @@
+{
+  "edges": [
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "afc163/fanyi",
+      "target": "chalk",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "afc163/fanyi",
+      "target": "commander",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "afc163/fanyi",
+      "target": "dayjs",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "afc163/fanyi",
+      "target": "fast-xml-parser",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "afc163/fanyi",
+      "target": "gradient-string",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "afc163/fanyi",
+      "target": "node-fetch",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "afc163/fanyi",
+      "target": "openai",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "afc163/fanyi",
+      "target": "ora",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "afc163/fanyi",
+      "target": "update-notifier",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "afc163/fanyi",
+      "target": "@biomejs/biome",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "afc163/fanyi",
+      "target": "c8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "afc163/fanyi",
+      "target": "husky",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "afc163/fanyi",
+      "target": "lint-staged",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "afc163/fanyi",
+      "target": "np",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "afc163/fanyi",
+      "target": "vitest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/echo.yml",
+      "source_repo": "afc163/fanyi",
+      "target": "test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "afc163/fanyi",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "afc163/fanyi",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "afc163/fanyi",
+      "target": "oven-sh/setup-bun@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "afc163/fanyi",
+      "target": "codecov/codecov-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "afc163/fanyi",
+      "target": "Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "afc163/fanyi",
+      "target": "chinese",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "afc163/fanyi",
+      "target": "command-line",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "afc163/fanyi",
+      "target": "command-line-tools",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "afc163/fanyi",
+      "target": "groq",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "afc163/fanyi",
+      "target": "llama3",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "afc163/fanyi",
+      "target": "nodejs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "afc163/fanyi",
+      "target": "translation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "afc163/fanyi",
+      "target": "translator",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-24T12:33:41.350224+00:00",
+  "source_repo": "afc163/fanyi"
+}

@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dwyl/learn-api-design",
+      "target": "dwyl/learn-websockets",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dwyl/learn-api-design",
+      "target": "dwyl/learn-insomnia",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dwyl/learn-api-design",
+      "target": "joedog/siege",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dwyl/learn-api-design",
+      "target": "prometheus/blackbox_exporter",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-24T12:59:19.857414+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 52240
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "\ud83c\udfd9\ufe0f Essential learning for people building APIs",
+    "fork": false,
+    "full_name": "dwyl/learn-api-design",
+    "html_url": "https://github.com/dwyl/learn-api-design",
+    "language": null,
+    "pushed_at": "2024-09-11T11:30:58Z",
+    "stargazers_count": 877,
+    "topics": [],
+    "updated_at": "2026-04-24T03:18:39Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dwyl/learn-insomnia",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dwyl/learn-websockets",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "joedog/siege",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "prometheus/blackbox_exporter",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

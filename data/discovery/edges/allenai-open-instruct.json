@@ -1,0 +1,202 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "allenai/open-instruct",
+      "target": "allenai/olmes",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "allenai/open-instruct",
+      "target": "microsoft/toxigen",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "allenai/open-instruct",
+      "target": "allenai/olmo-core",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "allenai/open-instruct",
+      "target": "eric-mitchell/direct-preference-optimization",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/beaker-experiment.yml",
+      "source_repo": "allenai/open-instruct",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/beaker-experiment.yml",
+      "source_repo": "allenai/open-instruct",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/beaker-experiment.yml",
+      "source_repo": "allenai/open-instruct",
+      "target": "astral-sh/setup-uv@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/beaker-experiment.yml",
+      "source_repo": "allenai/open-instruct",
+      "target": "allenai/setup-beaker@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/beaker-experiment.yml",
+      "source_repo": "allenai/open-instruct",
+      "target": "docker/setup-buildx-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/beaker-experiment.yml",
+      "source_repo": "allenai/open-instruct",
+      "target": "docker/login-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/beaker-experiment.yml",
+      "source_repo": "allenai/open-instruct",
+      "target": "slackapi/slack-github-action@v2.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/beaker-experiment.yml",
+      "source_repo": "allenai/open-instruct",
+      "target": "Beaker Experiment Launch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "allenai/open-instruct",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "allenai/open-instruct",
+      "target": "astral-sh/setup-uv@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "allenai/open-instruct",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "allenai/open-instruct",
+      "target": "actions/github-script@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "allenai/open-instruct",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "allenai/open-instruct",
+      "target": "Docs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr_checks.yml",
+      "source_repo": "allenai/open-instruct",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr_checks.yml",
+      "source_repo": "allenai/open-instruct",
+      "target": "astral-sh/setup-uv@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr_checks.yml",
+      "source_repo": "allenai/open-instruct",
+      "target": "PR Checks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "allenai/open-instruct",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "allenai/open-instruct",
+      "target": "astral-sh/setup-uv@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "allenai/open-instruct",
+      "target": "allenai/setup-beaker@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "allenai/open-instruct",
+      "target": "docker/setup-buildx-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "allenai/open-instruct",
+      "target": "docker/login-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "allenai/open-instruct",
+      "target": "docker/build-push-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "allenai/open-instruct",
+      "target": "Tests",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-24T12:33:41.350224+00:00",
+  "source_repo": "allenai/open-instruct"
+}

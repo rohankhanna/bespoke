@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-24T12:53:02.261907+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3010
+    },
+    {
+      "path": "Dockerfile",
+      "size": 986
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Queues jobs to be run by the various workers",
+    "fork": false,
+    "full_name": "travis-ci/travis-scheduler",
+    "html_url": "https://github.com/travis-ci/travis-scheduler",
+    "language": "Ruby",
+    "pushed_at": "2025-12-23T14:03:11Z",
+    "stargazers_count": 28,
+    "topics": [],
+    "updated_at": "2025-12-23T14:02:22Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -259,6 +259,30 @@
       "source_repo": "gjtorikian/commonmarker",
       "status": "candidate-context",
       "text": "Ruby wrapper for Rust's [comrak](https://github.com/kivikakk/comrak) crate."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Automattic/juice",
+      "status": "candidate-context",
+      "text": "Juice inlines CSS stylesheets into your HTML source."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Automattic/juice",
+      "status": "candidate-context",
+      "text": "[![CI][github-ci-shield]][github-ci]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "whatwg/html",
+      "status": "candidate-context",
+      "text": "HTML Standard"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "whatwg/html",
+      "status": "candidate-context",
+      "text": "This repository hosts the [HTML Standard](https://html.spec.whatwg.org/)."
     }
   ],
   "candidate_glosses": [
@@ -387,6 +411,18 @@
       "source_repo": "gjtorikian/commonmarker",
       "status": "candidate",
       "text": "Ruby wrapper for Rust's [comrak](https://github.com/kivikakk/comrak) crate."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Automattic/juice",
+      "status": "candidate",
+      "text": "[![CI][github-ci-shield]][github-ci]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "whatwg/html",
+      "status": "candidate",
+      "text": "This repository hosts the [HTML Standard](https://html.spec.whatwg.org/)."
     }
   ],
   "candidate_related_terms": [
@@ -576,11 +612,23 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "gjtorikian/commonmarker"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "Automattic/juice"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "whatwg/html"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -103,6 +103,18 @@
       "source_repo": "LLaVA-VL/LLaVA-Plus-Codebase",
       "status": "candidate-context",
       "text": "**Learning to Use Tools For Creating Multimodal Agents.**"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AceCHQ/MMIQ",
+      "status": "candidate-context",
+      "text": "This repo contains evaluation code for MM-IQ benchmark."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AceCHQ/MMIQ",
+      "status": "candidate-context",
+      "text": "[**\ud83c\udf10 Homepage**](https://acechq.github.io/MMIQ-benchmark/) | [**\ud83c\udfc6 Leaderboard**](https://acechq.github.io/MMIQ-benchmark/#leaderboard) | [**\ud83e\udd17 MM-IQ**](https://huggingface.co/datasets/huanqia/MM-IQ) | [**\ud83d\udcd6 MM-IQ Paper**](https://arxiv.org/pdf/2502.00698)"
     }
   ],
   "candidate_glosses": [
@@ -153,6 +165,12 @@
       "source_repo": "LLaVA-VL/LLaVA-Plus-Codebase",
       "status": "candidate",
       "text": "**Learning to Use Tools For Creating Multimodal Agents.**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AceCHQ/MMIQ",
+      "status": "candidate",
+      "text": "[**\ud83c\udf10 Homepage**](https://acechq.github.io/MMIQ-benchmark/) | [**\ud83c\udfc6 Leaderboard**](https://acechq.github.io/MMIQ-benchmark/#leaderboard) | [**\ud83e\udd17 MM-IQ**](https://huggingface.co/datasets/huanqia/MM-IQ) | [**\ud83d\udcd6 MM-IQ Paper**](https://arxiv.org/pdf/2502.00698)"
     }
   ],
   "candidate_related_terms": [],
@@ -220,11 +238,17 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "LLaVA-VL/LLaVA-Plus-Codebase"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "AceCHQ/MMIQ"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "lexical_providers": [
     "datamuse"
   ],

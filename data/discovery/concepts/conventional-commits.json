@@ -124,6 +124,66 @@
       "source_repo": "favware/cliff-jumper",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "a2aproject/a2a-dotnet",
+      "status": "candidate-context",
+      "text": "C#/.NET SDK for A2A Protocol"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "a2aproject/a2a-dotnet",
+      "status": "candidate-context",
+      "text": "\"Conventional Commits\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "a2aproject/a2a-java",
+      "status": "candidate-context",
+      "text": "Official Java SDK for the Agent2Agent (A2A) Protocol"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "a2aproject/a2a-java",
+      "status": "candidate-context",
+      "text": "\"Conventional Commits\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "a2aproject/a2a-js",
+      "status": "candidate-context",
+      "text": "Official JavaScript SDK for the Agent2Agent (A2A) Protocol"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "a2aproject/a2a-js",
+      "status": "candidate-context",
+      "text": "\"Conventional Commits\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "a2aproject/a2a-inspector",
+      "status": "candidate-context",
+      "text": "Validation Tools for A2A Agents"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "a2aproject/a2a-inspector",
+      "status": "candidate-context",
+      "text": "\"Conventional Commits\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "a2aproject/a2a-python",
+      "status": "candidate-context",
+      "text": "Official Python SDK for the Agent2Agent (A2A) Protocol"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "a2aproject/a2a-python",
+      "status": "candidate-context",
+      "text": "\"Conventional Commits\""
     }
   ],
   "candidate_glosses": [
@@ -186,6 +246,36 @@
       "source_repo": "favware/cliff-jumper",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "a2aproject/a2a-dotnet",
+      "status": "candidate",
+      "text": "\"Conventional Commits\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "a2aproject/a2a-java",
+      "status": "candidate",
+      "text": "\"Conventional Commits\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "a2aproject/a2a-js",
+      "status": "candidate",
+      "text": "\"Conventional Commits\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "a2aproject/a2a-inspector",
+      "status": "candidate",
+      "text": "\"Conventional Commits\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "a2aproject/a2a-python",
+      "status": "candidate",
+      "text": "\"Conventional Commits\""
     }
   ],
   "candidate_related_terms": [
@@ -289,11 +379,41 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "favware/cliff-jumper"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/conventional-commits.yml",
+      "source_repo": "a2aproject/a2a-dotnet"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/conventional-commits.yml",
+      "source_repo": "a2aproject/a2a-java"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/conventional-commits.yml",
+      "source_repo": "a2aproject/a2a-js"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/conventional-commits.yaml",
+      "source_repo": "a2aproject/a2a-inspector"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/conventional-commits.yml",
+      "source_repo": "a2aproject/a2a-python"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "lexical_providers": [
     "datamuse"
   ],

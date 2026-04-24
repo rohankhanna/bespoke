@@ -143,27 +143,6 @@
   ],
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "Farama-Foundation/PettingZoo",
-      "target": "openai/multiagent-particle-envs",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "Farama-Foundation/PettingZoo",
-      "target": "sisl/madrl",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "Farama-Foundation/PettingZoo",
-      "target": "farama-foundation/supersuit",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build-docs.yml",
       "source_repo": "Farama-Foundation/PettingZoo",
@@ -402,7 +381,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-23T21:50:12.378619+00:00",
+  "fetched_at": "2026-04-24T12:36:49.494913+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -455,7 +434,7 @@
     "html_url": "https://github.com/Farama-Foundation/PettingZoo",
     "language": "Python",
     "pushed_at": "2026-04-22T23:22:48Z",
-    "stargazers_count": 3387,
+    "stargazers_count": 3391,
     "topics": [
       "api",
       "gym",
@@ -464,25 +443,9 @@
       "multiagent-reinforcement-learning",
       "reinforcement-learning"
     ],
-    "updated_at": "2026-04-23T10:44:10Z"
+    "updated_at": "2026-04-24T12:23:13Z"
   },
-  "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "farama-foundation/supersuit",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "openai/multiagent-particle-envs",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "sisl/madrl",
-      "source_file": "README.md"
-    }
-  ],
+  "repo_links": [],
   "terms": [
     {
       "context_snippet": "Build Documentation website",

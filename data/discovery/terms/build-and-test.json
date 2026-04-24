@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T13:29:00.435097+00:00",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -311,6 +311,26 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/build-and-test.yml",
       "source_repo": "curiousdannii/remglk-rs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "zai-org/z-ai-sdk-java"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/build-and-test.yml",
+      "source_repo": "a2aproject/a2a-java"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/check.yml",
+      "source_repo": "zen-eth/multiformats-zig"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/build_test.yaml",
+      "source_repo": "ARM-software/astc-encoder"
     }
   ],
   "term": "Build and Test"

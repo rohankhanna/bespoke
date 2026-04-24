@@ -251,6 +251,42 @@
       "source_repo": "ionelmc/pytest-benchmark",
       "status": "candidate-context",
       "text": "========"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google-deepmind/bsuite",
+      "status": "candidate-context",
+      "text": "bsuite is a collection of carefully-designed experiments that investigate core capabilities of a reinforcement learning (RL) agent"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google-deepmind/bsuite",
+      "status": "candidate-context",
+      "text": "pytest"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "syrupy-project/syrupy",
+      "status": "candidate-context",
+      "text": ":pancakes: The sweeter pytest snapshot plugin"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "syrupy-project/syrupy",
+      "status": "candidate-context",
+      "text": "<img align=\"right\" width=\"100px\" height=\"100px\" src=\"https://user-images.githubusercontent.com/2528959/69500147-85d71400-0ec6-11ea-867a-277881278e57.png\" alt=\"Logo\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kasztp/URL_Shortener",
+      "status": "candidate-context",
+      "text": "Basic URL Shortener API"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kasztp/URL_Shortener",
+      "status": "candidate-context",
+      "text": "Pytest"
     }
   ],
   "candidate_glosses": [
@@ -373,6 +409,24 @@
       "source_repo": "ionelmc/pytest-benchmark",
       "status": "candidate",
       "text": "========"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google-deepmind/bsuite",
+      "status": "candidate",
+      "text": "pytest"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "syrupy-project/syrupy",
+      "status": "candidate",
+      "text": "<img align=\"right\" width=\"100px\" height=\"100px\" src=\"https://user-images.githubusercontent.com/2528959/69500147-85d71400-0ec6-11ea-867a-277881278e57.png\" alt=\"Logo\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kasztp/URL_Shortener",
+      "status": "candidate",
+      "text": "Pytest"
     }
   ],
   "candidate_related_terms": [
@@ -542,11 +596,35 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "ionelmc/pytest-benchmark"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/pytest.yml",
+      "source_repo": "OpenHands/ToM-SWE"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "google-deepmind/bsuite"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "syrupy-project/syrupy"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/pytest.yml",
+      "source_repo": "kasztp/URL_Shortener"
     }
   ],
   "first_seen_at": "2026-04-19T17:36:09.281008+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "lexical_providers": [
     "datamuse"
   ],

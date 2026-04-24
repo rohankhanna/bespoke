@@ -1,0 +1,62 @@
+{
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "xlang-ai/OSWorld",
+      "target": "artificial-intelligence",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "xlang-ai/OSWorld",
+      "target": "benchmark",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "xlang-ai/OSWorld",
+      "target": "code-generation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "xlang-ai/OSWorld",
+      "target": "language-model",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "xlang-ai/OSWorld",
+      "target": "large-action-model",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "xlang-ai/OSWorld",
+      "target": "multimodal",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "xlang-ai/OSWorld",
+      "target": "natural-language-processing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "xlang-ai/OSWorld",
+      "target": "reinforcement-learning",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-24T12:33:41.350224+00:00",
+  "source_repo": "xlang-ai/OSWorld"
+}

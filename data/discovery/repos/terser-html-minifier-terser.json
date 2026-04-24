@@ -1,0 +1,609 @@
+{
+  "components": [
+    {
+      "component": "change-case",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "clean-css",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "commander",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "entities",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "relateurl",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "terser",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@commitlint/cli",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "alpinejs",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "commitlint-config-non-conventional",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "happy-dom",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "husky",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "is-ci",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "lint-staged",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "oxfmt",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "oxlint",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "tsdown",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "vite",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "vitest",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmarks.yml"
+    },
+    {
+      "component": "actions/setup-node@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmarks.yml"
+    },
+    {
+      "component": "peter-evans/create-pull-request@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmarks.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yaml"
+    },
+    {
+      "component": "actions/setup-node@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yaml"
+    },
+    {
+      "component": "actions/setup-node@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pages.yml"
+    },
+    {
+      "component": "actions/setup-node@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pages.yml"
+    },
+    {
+      "component": "actions/configure-pages@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pages.yml"
+    },
+    {
+      "component": "actions/upload-pages-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pages.yml"
+    },
+    {
+      "component": "actions/deploy-pages@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pages.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "actions/setup-node@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "terser/html-minifier-terser",
+      "target": "gruntjs/grunt-contrib-htmlmin",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "terser/html-minifier-terser",
+      "target": "kangax/html-lint",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "terser/html-minifier-terser",
+      "target": "kangax/html-minifier",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "terser/html-minifier-terser",
+      "target": "jakubpawlowicz/clean-css",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "terser/html-minifier-terser",
+      "target": "change-case",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "terser/html-minifier-terser",
+      "target": "clean-css",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "terser/html-minifier-terser",
+      "target": "commander",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "terser/html-minifier-terser",
+      "target": "entities",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "terser/html-minifier-terser",
+      "target": "relateurl",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "terser/html-minifier-terser",
+      "target": "terser",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "terser/html-minifier-terser",
+      "target": "@commitlint/cli",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "terser/html-minifier-terser",
+      "target": "alpinejs",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "terser/html-minifier-terser",
+      "target": "commitlint-config-non-conventional",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "terser/html-minifier-terser",
+      "target": "happy-dom",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "terser/html-minifier-terser",
+      "target": "husky",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "terser/html-minifier-terser",
+      "target": "is-ci",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "terser/html-minifier-terser",
+      "target": "lint-staged",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "terser/html-minifier-terser",
+      "target": "oxfmt",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "terser/html-minifier-terser",
+      "target": "oxlint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "terser/html-minifier-terser",
+      "target": "tsdown",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "terser/html-minifier-terser",
+      "target": "vite",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "terser/html-minifier-terser",
+      "target": "vitest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmarks.yml",
+      "source_repo": "terser/html-minifier-terser",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmarks.yml",
+      "source_repo": "terser/html-minifier-terser",
+      "target": "actions/setup-node@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmarks.yml",
+      "source_repo": "terser/html-minifier-terser",
+      "target": "peter-evans/create-pull-request@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/benchmarks.yml",
+      "source_repo": "terser/html-minifier-terser",
+      "target": "Benchmark",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yaml",
+      "source_repo": "terser/html-minifier-terser",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yaml",
+      "source_repo": "terser/html-minifier-terser",
+      "target": "actions/setup-node@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pages.yml",
+      "source_repo": "terser/html-minifier-terser",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pages.yml",
+      "source_repo": "terser/html-minifier-terser",
+      "target": "actions/setup-node@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pages.yml",
+      "source_repo": "terser/html-minifier-terser",
+      "target": "actions/configure-pages@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pages.yml",
+      "source_repo": "terser/html-minifier-terser",
+      "target": "actions/upload-pages-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pages.yml",
+      "source_repo": "terser/html-minifier-terser",
+      "target": "actions/deploy-pages@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pages.yml",
+      "source_repo": "terser/html-minifier-terser",
+      "target": "GitHub Pages",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "terser/html-minifier-terser",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "terser/html-minifier-terser",
+      "target": "actions/setup-node@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "terser/html-minifier-terser",
+      "target": "Publish",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "terser/html-minifier-terser",
+      "target": "compress",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "terser/html-minifier-terser",
+      "target": "ecmascript6",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "terser/html-minifier-terser",
+      "target": "minify",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "terser/html-minifier-terser",
+      "target": "terser",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "terser/html-minifier-terser",
+      "target": "uglify",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "terser/html-minifier-terser",
+      "target": "uglify-js",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "terser/html-minifier-terser",
+      "target": "uglifyjs",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T13:03:59.311627+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 17909
+    },
+    {
+      "path": "package.json",
+      "size": 2419
+    },
+    {
+      "path": ".github/workflows/benchmarks.yml",
+      "size": 956
+    },
+    {
+      "path": ".github/workflows/main.yaml",
+      "size": 1154
+    },
+    {
+      "path": ".github/workflows/pages.yml",
+      "size": 976
+    },
+    {
+      "path": ".github/workflows/publish.yml",
+      "size": 798
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "actively maintained fork of html-minifier - minify HTML, CSS and JS code using terser - supports ES6 code",
+    "fork": false,
+    "full_name": "terser/html-minifier-terser",
+    "html_url": "https://github.com/terser/html-minifier-terser",
+    "language": "JavaScript",
+    "pushed_at": "2026-04-10T03:30:58Z",
+    "stargazers_count": 465,
+    "topics": [
+      "cli",
+      "compress",
+      "ecmascript6",
+      "es6",
+      "minify",
+      "terser",
+      "uglify",
+      "uglify-js",
+      "uglifyjs"
+    ],
+    "updated_at": "2026-04-22T10:45:45Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "gruntjs/grunt-contrib-htmlmin",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jakubpawlowicz/clean-css",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kangax/html-lint",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kangax/html-minifier",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Benchmark",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/benchmarks.yml",
+      "term": "Benchmark"
+    },
+    {
+      "context_snippet": "GitHub Pages",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pages.yml",
+      "term": "GitHub Pages"
+    },
+    {
+      "context_snippet": "Publish",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "term": "Publish"
+    },
+    {
+      "context_snippet": "[![NPM version](https://img.shields.io/npm/v/html-minifier-terser.svg)](https://www.npmjs.com/package/html-minifier-terser)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "compress"
+    },
+    {
+      "context_snippet": "[![NPM version](https://img.shields.io/npm/v/html-minifier-terser.svg)](https://www.npmjs.com/package/html-minifier-terser)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ecmascript6"
+    },
+    {
+      "context_snippet": "[![NPM version](https://img.shields.io/npm/v/html-minifier-terser.svg)](https://www.npmjs.com/package/html-minifier-terser)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "minify"
+    },
+    {
+      "context_snippet": "[![NPM version](https://img.shields.io/npm/v/html-minifier-terser.svg)](https://www.npmjs.com/package/html-minifier-terser)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "terser"
+    },
+    {
+      "context_snippet": "[![NPM version](https://img.shields.io/npm/v/html-minifier-terser.svg)](https://www.npmjs.com/package/html-minifier-terser)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "uglify"
+    },
+    {
+      "context_snippet": "[![NPM version](https://img.shields.io/npm/v/html-minifier-terser.svg)](https://www.npmjs.com/package/html-minifier-terser)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "uglify-js"
+    },
+    {
+      "context_snippet": "[![NPM version](https://img.shields.io/npm/v/html-minifier-terser.svg)](https://www.npmjs.com/package/html-minifier-terser)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "uglifyjs"
+    }
+  ]
+}

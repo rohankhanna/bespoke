@@ -43,6 +43,30 @@
       "source_repo": "dwyl/learn-flutter",
       "status": "candidate-context",
       "text": "Automatically fix typos"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dwyl/flutter-stopwatch-tutorial",
+      "status": "candidate-context",
+      "text": "A tutorial for building a basic stopwatch from scratch using flutter. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dwyl/flutter-stopwatch-tutorial",
+      "status": "candidate-context",
+      "text": "Automatically fix typos"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dwyl/email",
+      "status": "candidate-context",
+      "text": "\u2709\ufe0f email dashboard to track deliverability and engagement stats in our App \ud83d\udcc8"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dwyl/email",
+      "status": "candidate-context",
+      "text": "Automatically fix typos"
     }
   ],
   "candidate_glosses": [
@@ -61,6 +85,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "dwyl/learn-flutter",
+      "status": "candidate",
+      "text": "Automatically fix typos"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dwyl/flutter-stopwatch-tutorial",
+      "status": "candidate",
+      "text": "Automatically fix typos"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dwyl/email",
       "status": "candidate",
       "text": "Automatically fix typos"
     }
@@ -123,11 +159,29 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": ".github/workflows/fix-typos.yml",
       "source_repo": "dwyl/mvp"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/fix-typos.yml",
+      "source_repo": "dwyl/flutter-stopwatch-tutorial"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/fix-typos.yml",
+      "source_repo": "dwyl/mvp"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/fix-typos.yml",
+      "source_repo": "dwyl/email"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "lexical_providers": [
     "datamuse"
   ],

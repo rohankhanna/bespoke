@@ -1,0 +1,101 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "OpenAutoCoder/Agentless",
+      "target": "paul-gauthier/aider",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "OpenAutoCoder/Agentless",
+      "target": "aorwall/swe-bench-docker",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "requirements.txt",
+      "source_repo": "OpenAutoCoder/Agentless",
+      "target": "princeton-nlp/swe-bench",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenAutoCoder/Agentless",
+      "target": "artificial-intelligence",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenAutoCoder/Agentless",
+      "target": "software-development",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T12:41:10.358814+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4149
+    },
+    {
+      "path": "requirements.txt",
+      "size": 133
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Agentless\ud83d\udc31:  an agentless approach to automatically solve software development problems",
+    "fork": false,
+    "full_name": "OpenAutoCoder/Agentless",
+    "html_url": "https://github.com/OpenAutoCoder/Agentless",
+    "language": "Python",
+    "pushed_at": "2024-12-22T19:29:31Z",
+    "stargazers_count": 2038,
+    "topics": [
+      "agent",
+      "artificial-intelligence",
+      "llm",
+      "software-development"
+    ],
+    "updated_at": "2026-04-22T07:52:44Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aorwall/swe-bench-docker",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "paul-gauthier/aider",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "princeton-nlp/swe-bench",
+      "source_file": "requirements.txt"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "artificial-intelligence"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "software-development"
+    }
+  ]
+}

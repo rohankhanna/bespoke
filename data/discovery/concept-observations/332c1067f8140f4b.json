@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\u26a1 Serverless Framework \u2013 Effortlessly build apps that auto-scale, incur zero costs when idle, and require minimal maintenance using AWS Lambda and other managed cloud services."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![Serverless Framework AWS Lambda AWS DynamoDB AWS API Gateway](https://github.com/serverless/serverless/assets/2752551/66a8c6a9-bc4a-4116-b139-90c12963337e)](https://serverless.com)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![Serverless Framework AWS Lambda AWS DynamoDB AWS API Gateway](https://github.com/serverless/serverless/assets/2752551/66a8c6a9-bc4a-4116-b139-90c12963337e)](https://serverless.com)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "azure-functions",
+      "sense_id": "azure-functions#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "azure-functions",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "azure-functions",
+  "observation_id": "332c1067f8140f4b",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T12:33:41.350224+00:00",
+  "observed_text": "azure-functions",
+  "source_context_snippet": "[![Serverless Framework AWS Lambda AWS DynamoDB AWS API Gateway](https://github.com/serverless/serverless/assets/2752551/66a8c6a9-bc4a-4116-b139-90c12963337e)](https://serverless.com)",
+  "source_file": null,
+  "source_repo": "serverless/serverless",
+  "source_repo_description": "\u26a1 Serverless Framework \u2013 Effortlessly build apps that auto-scale, incur zero costs when idle, and require minimal maintenance using AWS Lambda and other managed cloud services."
+}

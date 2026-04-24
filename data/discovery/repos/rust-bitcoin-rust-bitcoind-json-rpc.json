@@ -1,0 +1,272 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cron-daily-fuzz.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cron-daily-fuzz.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@stable",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cron-daily-fuzz.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cron-daily-fuzz.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cron-daily-fuzz.yml"
+    },
+    {
+      "component": "actions/download-artifact@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cron-daily-fuzz.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yaml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@stable",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yaml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yaml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@stable",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yaml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yaml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@stable",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yaml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yaml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@stable",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "rust-bitcoin/rust-bitcoind-json-rpc",
+      "target": "rust-bitcoin/corepc",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cron-daily-fuzz.yml",
+      "source_repo": "rust-bitcoin/rust-bitcoind-json-rpc",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cron-daily-fuzz.yml",
+      "source_repo": "rust-bitcoin/rust-bitcoind-json-rpc",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cron-daily-fuzz.yml",
+      "source_repo": "rust-bitcoin/rust-bitcoind-json-rpc",
+      "target": "dtolnay/rust-toolchain@stable",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cron-daily-fuzz.yml",
+      "source_repo": "rust-bitcoin/rust-bitcoind-json-rpc",
+      "target": "actions/upload-artifact@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cron-daily-fuzz.yml",
+      "source_repo": "rust-bitcoin/rust-bitcoind-json-rpc",
+      "target": "actions/download-artifact@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cron-daily-fuzz.yml",
+      "source_repo": "rust-bitcoin/rust-bitcoind-json-rpc",
+      "target": "Fuzz",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yaml",
+      "source_repo": "rust-bitcoin/rust-bitcoind-json-rpc",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yaml",
+      "source_repo": "rust-bitcoin/rust-bitcoind-json-rpc",
+      "target": "dtolnay/rust-toolchain@stable",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yaml",
+      "source_repo": "rust-bitcoin/rust-bitcoind-json-rpc",
+      "target": "dtolnay/rust-toolchain@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rust.yaml",
+      "source_repo": "rust-bitcoin/rust-bitcoind-json-rpc",
+      "target": "Continuous integration",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T13:01:18.602767+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 223
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 270
+    },
+    {
+      "path": ".github/workflows/cron-daily-fuzz.yml",
+      "size": 2056
+    },
+    {
+      "path": ".github/workflows/rust.yaml",
+      "size": 6183
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "Support for Bitcoin Core's JSON-RPC API",
+    "fork": false,
+    "full_name": "rust-bitcoin/rust-bitcoind-json-rpc",
+    "html_url": "https://github.com/rust-bitcoin/rust-bitcoind-json-rpc",
+    "language": "Rust",
+    "pushed_at": "2024-11-26T13:50:33Z",
+    "stargazers_count": 12,
+    "topics": [],
+    "updated_at": "2026-04-11T14:01:09Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rust-bitcoin/corepc",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Fuzz",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cron-daily-fuzz.yml",
+      "term": "Fuzz"
+    },
+    {
+      "context_snippet": "Continuous integration",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rust.yaml",
+      "term": "Continuous integration"
+    }
+  ]
+}

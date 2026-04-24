@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Run doctools on PR"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "CERTCC/SSVC",
+      "status": "candidate-context",
+      "text": "Stakeholder-Specific Vulnerability Categorization"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CERTCC/SSVC",
+      "status": "candidate-context",
+      "text": "\"Run doctools on PR\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CERTCC/SSVC",
+      "status": "candidate",
+      "text": "\"Run doctools on PR\""
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14295,
+      "status": "candidate",
+      "text": "shack"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14295,
+      "status": "candidate",
+      "text": "trail"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14054,
+      "status": "candidate",
+      "text": "release"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14054,
+      "status": "candidate",
+      "text": "rep"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14054,
+      "status": "candidate",
+      "text": "reprint"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Run doctools on PR",
+  "concept_id": "run-doctools-on-pr",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/run_doctools.yml",
+      "source_repo": "CERTCC/SSVC"
+    }
+  ],
+  "first_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Run doctools on PR",
+      "sense_id": "run-doctools-on-pr#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

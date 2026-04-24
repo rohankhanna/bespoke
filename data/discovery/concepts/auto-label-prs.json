@@ -1,6 +1,8 @@
 {
   "aliases": [
-    "Auto-Label PRs"
+    "Auto-Label PRs",
+    "Auto label PRs",
+    "Auto Label PRs"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -19,6 +21,30 @@
       "source_repo": "fish-shell/fish-shell",
       "status": "candidate-context",
       "text": "Auto-Label PRs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "openai/openai-agents-python",
+      "status": "candidate-context",
+      "text": "A lightweight, powerful framework for multi-agent workflows"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openai/openai-agents-python",
+      "status": "candidate-context",
+      "text": "Auto label PRs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kvcache-ai/Mooncake",
+      "status": "candidate-context",
+      "text": "Mooncake is the serving platform for Kimi, a leading LLM service provided by Moonshot AI."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kvcache-ai/Mooncake",
+      "status": "candidate-context",
+      "text": "Auto Label PRs"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +53,18 @@
       "source_repo": "fish-shell/fish-shell",
       "status": "candidate",
       "text": "Auto-Label PRs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openai/openai-agents-python",
+      "status": "candidate",
+      "text": "Auto label PRs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kvcache-ai/Mooncake",
+      "status": "candidate",
+      "text": "Auto Label PRs"
     }
   ],
   "candidate_related_terms": [
@@ -57,6 +95,41 @@
       "score": null,
       "status": "candidate",
       "text": "auditing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22364,
+      "status": "candidate",
+      "text": "image"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10120,
+      "status": "candidate",
+      "text": "classified"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10120,
+      "status": "candidate",
+      "text": "dos"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10120,
+      "status": "candidate",
+      "text": "duplicate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10120,
+      "status": "candidate",
+      "text": "min"
     }
   ],
   "candidate_synonyms": [],
@@ -69,11 +142,23 @@
       "observed_at": "2026-04-23T01:09:11.871080+00:00",
       "source_file": ".github/workflows/autolabel_prs.yml",
       "source_repo": "fish-shell/fish-shell"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/pr-labels.yml",
+      "source_repo": "openai/openai-agents-python"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/labeler.yml",
+      "source_repo": "kvcache-ai/Mooncake"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "lexical_providers": [
     "datamuse"
   ],

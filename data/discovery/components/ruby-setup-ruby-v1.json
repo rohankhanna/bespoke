@@ -1,7 +1,7 @@
 {
   "component": "ruby/setup-ruby@v1",
   "first_seen_at": "2026-04-18T03:42:01.586113+00:00",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -1037,6 +1037,31 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/ruby.yml",
       "source_repo": "saka1/simdjson_ruby"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ruby.yml",
+      "source_repo": "fffaraz/awesome-cpp"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "dotfiles/dotfiles.github.com"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "squeak-smalltalk/squeak.org"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "dryruby/json-canonicalization"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/generate-docs.yml",
+      "source_repo": "dryruby/json-canonicalization"
     }
   ]
 }

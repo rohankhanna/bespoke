@@ -19,12 +19,30 @@
       "source_repo": "php/frankenphp",
       "status": "candidate-context",
       "text": "Sanitizers"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cython/cython",
+      "status": "candidate-context",
+      "text": "The most widely used Python to C compiler"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cython/cython",
+      "status": "candidate-context",
+      "text": "Sanitizers"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "php/frankenphp",
+      "status": "candidate",
+      "text": "Sanitizers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cython/cython",
       "status": "candidate",
       "text": "Sanitizers"
     }
@@ -82,11 +100,17 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": ".github/workflows/sanitizers.yaml",
       "source_repo": "php/frankenphp"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/sanitizers.yml",
+      "source_repo": "cython/cython"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "lexical_providers": [
     "datamuse"
   ],

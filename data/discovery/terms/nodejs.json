@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T09:50:06.115508+00:00",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -731,6 +731,26 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "getndazn/dazn-lambda-powertools"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "engineer-man/piston"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "Atome-FE/llama-node"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "afc163/fanyi"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "archiverjs/node-archiver"
     }
   ],
   "term": "nodejs"

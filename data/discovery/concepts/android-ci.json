@@ -31,6 +31,18 @@
       "source_repo": "AppFlowy-IO/AppFlowy",
       "status": "candidate-context",
       "text": "Android CI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "BinomialLLC/KTX-Software-Binomial-Fork",
+      "status": "candidate-context",
+      "text": "Binomial's Fork of KTX-Software with Fixes/Improvements"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BinomialLLC/KTX-Software-Binomial-Fork",
+      "status": "candidate-context",
+      "text": "Android CI"
     }
   ],
   "candidate_glosses": [
@@ -43,6 +55,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "AppFlowy-IO/AppFlowy",
+      "status": "candidate",
+      "text": "Android CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BinomialLLC/KTX-Software-Binomial-Fork",
       "status": "candidate",
       "text": "Android CI"
     }
@@ -100,11 +118,17 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": ".github/workflows/android_ci.yaml.bak",
       "source_repo": "AppFlowy-IO/AppFlowy"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/android.yml",
+      "source_repo": "BinomialLLC/KTX-Software-Binomial-Fork"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "lexical_providers": [
     "datamuse"
   ],

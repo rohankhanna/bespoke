@@ -1,0 +1,398 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/agent_engine_build.yml",
+      "source_repo": "smallcloudai/refact",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/agent_engine_build.yml",
+      "source_repo": "smallcloudai/refact",
+      "target": "swatinem/rust-cache@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/agent_engine_build.yml",
+      "source_repo": "smallcloudai/refact",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/agent_engine_build.yml",
+      "source_repo": "smallcloudai/refact",
+      "target": "Refact Agent Engine CI build (Rust)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/agent_engine_release.yml",
+      "source_repo": "smallcloudai/refact",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/agent_engine_release.yml",
+      "source_repo": "smallcloudai/refact",
+      "target": "swatinem/rust-cache@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/agent_engine_release.yml",
+      "source_repo": "smallcloudai/refact",
+      "target": "svenstaro/upload-release-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/agent_engine_release.yml",
+      "source_repo": "smallcloudai/refact",
+      "target": "vimtor/action-zip@v1.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/agent_engine_release.yml",
+      "source_repo": "smallcloudai/refact",
+      "target": "Refact Agent Engine CI Release (Rust)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/agent_gui_build.yml",
+      "source_repo": "smallcloudai/refact",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/agent_gui_build.yml",
+      "source_repo": "smallcloudai/refact",
+      "target": "actions/setup-node@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/agent_gui_build.yml",
+      "source_repo": "smallcloudai/refact",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/agent_gui_build.yml",
+      "source_repo": "smallcloudai/refact",
+      "target": "Refact Agent GUI CI build (Node.js)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs_build.yml",
+      "source_repo": "smallcloudai/refact",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs_build.yml",
+      "source_repo": "smallcloudai/refact",
+      "target": "docker/setup-qemu-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs_build.yml",
+      "source_repo": "smallcloudai/refact",
+      "target": "google-github-actions/setup-gcloud@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs_build.yml",
+      "source_repo": "smallcloudai/refact",
+      "target": "docker/login-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs_build.yml",
+      "source_repo": "smallcloudai/refact",
+      "target": "docker/setup-buildx-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs_build.yml",
+      "source_repo": "smallcloudai/refact",
+      "target": "docker/build-push-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs_build.yml",
+      "source_repo": "smallcloudai/refact",
+      "target": "Refact Docs Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/server_build.yml",
+      "source_repo": "smallcloudai/refact",
+      "target": "docker/setup-buildx-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/server_build.yml",
+      "source_repo": "smallcloudai/refact",
+      "target": "easimon/maximize-build-space@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/server_build.yml",
+      "source_repo": "smallcloudai/refact",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/server_build.yml",
+      "source_repo": "smallcloudai/refact",
+      "target": "docker/setup-qemu-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/server_build.yml",
+      "source_repo": "smallcloudai/refact",
+      "target": "docker/login-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/server_build.yml",
+      "source_repo": "smallcloudai/refact",
+      "target": "docker/build-push-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/server_build.yml",
+      "source_repo": "smallcloudai/refact",
+      "target": "Refact Server CICD Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/server_build_and_push_custom.yml",
+      "source_repo": "smallcloudai/refact",
+      "target": "docker/setup-buildx-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/server_build_and_push_custom.yml",
+      "source_repo": "smallcloudai/refact",
+      "target": "easimon/maximize-build-space@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/server_build_and_push_custom.yml",
+      "source_repo": "smallcloudai/refact",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/server_build_and_push_custom.yml",
+      "source_repo": "smallcloudai/refact",
+      "target": "docker/setup-qemu-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/server_build_and_push_custom.yml",
+      "source_repo": "smallcloudai/refact",
+      "target": "docker/login-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/server_build_and_push_custom.yml",
+      "source_repo": "smallcloudai/refact",
+      "target": "docker/build-push-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/server_build_and_push_custom.yml",
+      "source_repo": "smallcloudai/refact",
+      "target": "Refact Server CICD Build and Push",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/server_nightly.yml",
+      "source_repo": "smallcloudai/refact",
+      "target": "docker/setup-buildx-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/server_nightly.yml",
+      "source_repo": "smallcloudai/refact",
+      "target": "easimon/maximize-build-space@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/server_nightly.yml",
+      "source_repo": "smallcloudai/refact",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/server_nightly.yml",
+      "source_repo": "smallcloudai/refact",
+      "target": "docker/setup-qemu-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/server_nightly.yml",
+      "source_repo": "smallcloudai/refact",
+      "target": "docker/login-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/server_nightly.yml",
+      "source_repo": "smallcloudai/refact",
+      "target": "docker/build-push-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/server_nightly.yml",
+      "source_repo": "smallcloudai/refact",
+      "target": "Refact Server CICD Nightly",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/server_release.yml",
+      "source_repo": "smallcloudai/refact",
+      "target": "docker/setup-buildx-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/server_release.yml",
+      "source_repo": "smallcloudai/refact",
+      "target": "easimon/maximize-build-space@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/server_release.yml",
+      "source_repo": "smallcloudai/refact",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/server_release.yml",
+      "source_repo": "smallcloudai/refact",
+      "target": "docker/setup-qemu-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/server_release.yml",
+      "source_repo": "smallcloudai/refact",
+      "target": "docker/login-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/server_release.yml",
+      "source_repo": "smallcloudai/refact",
+      "target": "docker/build-push-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/server_release.yml",
+      "source_repo": "smallcloudai/refact",
+      "target": "Refact Server CICD Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "smallcloudai/refact",
+      "target": "developer-tools",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "smallcloudai/refact",
+      "target": "enterprise",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "smallcloudai/refact",
+      "target": "fine-tuning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "smallcloudai/refact",
+      "target": "on-prem",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "smallcloudai/refact",
+      "target": "open-source",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "smallcloudai/refact",
+      "target": "self-hosted",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "smallcloudai/refact",
+      "target": "swe-bench",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "smallcloudai/refact",
+      "target": "vscode",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-24T12:33:41.350224+00:00",
+  "source_repo": "smallcloudai/refact"
+}

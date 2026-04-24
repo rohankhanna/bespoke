@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Templates for Packer!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Collection of Packer templates used for various infrastructure layers."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Collection of Packer templates used for various infrastructure layers."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "google-cloud",
+      "sense_id": "google-cloud#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "google-cloud",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "google-cloud",
+  "observation_id": "519aeb43855157ef",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T12:33:41.350224+00:00",
+  "observed_text": "google-cloud",
+  "source_context_snippet": "Collection of Packer templates used for various infrastructure layers.",
+  "source_file": null,
+  "source_repo": "travis-ci/packer-templates",
+  "source_repo_description": "Templates for Packer!"
+}

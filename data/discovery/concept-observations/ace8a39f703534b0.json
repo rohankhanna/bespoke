@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "a streaming interface for archive generation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "A streaming interface for archive generation"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "A streaming interface for archive generation"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10024405,
+      "status": "candidate",
+      "text": "archivation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10024404,
+      "status": "candidate",
+      "text": "archivalism"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10024403,
+      "status": "candidate",
+      "text": "archive"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10024402,
+      "status": "candidate",
+      "text": "archivization"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10024401,
+      "status": "candidate",
+      "text": "archivism"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "archiver",
+      "sense_id": "archiver#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "archiver",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "archiver",
+  "observation_id": "ace8a39f703534b0",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T12:33:41.350224+00:00",
+  "observed_text": "archiver",
+  "source_context_snippet": "A streaming interface for archive generation",
+  "source_file": null,
+  "source_repo": "archiverjs/node-archiver",
+  "source_repo_description": "a streaming interface for archive generation"
+}

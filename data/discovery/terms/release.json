@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-17T16:51:41.136432+00:00",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -3421,6 +3421,56 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/release.yml",
       "source_repo": "doom-neovim/doom-nvim"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "argilla-io/distilabel"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "PrimeIntellect-ai/router"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/_release.yml",
+      "source_repo": "zai-org/z-ai-sdk-python"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "syrupy-project/syrupy"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/release_wheel.yml",
+      "source_repo": "punica-ai/punica"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "phodal/auto-dev"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "unit-mesh/unit-eval"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "achannarasappa/ticker"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "auth0/node-jsonwebtoken"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "auth0/node-jws"
     }
   ],
   "term": "Release"

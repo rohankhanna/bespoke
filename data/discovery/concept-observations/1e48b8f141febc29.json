@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A Paint.NET filetype plugin that adds support for some of the DDS formats introduced in DirectX 10 and later."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "A [Paint.NET](http://www.getpaint.net) filetype plugin that adds support for some of the DDS formats introduced in DirectX 10 and later."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "A [Paint.NET](http://www.getpaint.net) filetype plugin that adds support for some of the DDS formats introduced in DirectX 10 and later."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "directx-11",
+      "sense_id": "directx-11#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "directx-11",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "directx-11",
+  "observation_id": "1e48b8f141febc29",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T12:33:41.350224+00:00",
+  "observed_text": "directx-11",
+  "source_context_snippet": "A [Paint.NET](http://www.getpaint.net) filetype plugin that adds support for some of the DDS formats introduced in DirectX 10 and later.",
+  "source_file": null,
+  "source_repo": "0xC0000054/pdn-ddsfiletype-plus",
+  "source_repo_description": "A Paint.NET filetype plugin that adds support for some of the DDS formats introduced in DirectX 10 and later."
+}

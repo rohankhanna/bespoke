@@ -19,12 +19,30 @@
       "source_repo": "eliemichel/LearnWebGPU",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "eliemichel/LearnWebGPU-Code",
+      "status": "candidate-context",
+      "text": "The accompanying code of the Learn WebGPU C++ programming guide"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eliemichel/LearnWebGPU-Code",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "eliemichel/LearnWebGPU",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eliemichel/LearnWebGPU-Code",
       "status": "candidate",
       "text": "<div align=\"center\">"
     }
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "eliemichel/LearnWebGPU"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "eliemichel/LearnWebGPU-Code"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "lexical_providers": [
     "datamuse"
   ],

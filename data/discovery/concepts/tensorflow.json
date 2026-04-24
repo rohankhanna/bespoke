@@ -463,6 +463,30 @@
       "source_repo": "charlesq34/pointnet",
       "status": "candidate-context",
       "text": "Created by <a href=\"http://charlesrqi.com\" target=\"_blank\">Charles R. Qi</a>, <a href=\"http://ai.stanford.edu/~haosu/\" target=\"_blank\">Hao Su</a>, <a href=\"http://cs.stanford.edu/~kaichun/\" target=\"_blank\">Kaichun Mo</a>, <a href=\"http://geometry.stanford.edu/member/guibas/\" tar\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kpe/bert-for-tf2",
+      "status": "candidate-context",
+      "text": "A Keras TensorFlow 2.0 implementation of BERT, ALBERT and adapter-BERT."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kpe/bert-for-tf2",
+      "status": "candidate-context",
+      "text": "BERT for TensorFlow v2"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ymcui/Chinese-BERT-wwm",
+      "status": "candidate-context",
+      "text": "Pre-Training with Whole Word Masking for Chinese BERT\uff08\u4e2d\u6587BERT-wwm\u7cfb\u5217\u6a21\u578b\uff09"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ymcui/Chinese-BERT-wwm",
+      "status": "candidate-context",
+      "text": "[**\u4e2d\u6587\u8bf4\u660e**](https://github.com/ymcui/Chinese-BERT-wwm/) | [**English**](https://github.com/ymcui/Chinese-BERT-wwm/blob/master/README_EN.md)"
     }
   ],
   "candidate_glosses": [
@@ -693,6 +717,18 @@
       "source_repo": "charlesq34/pointnet",
       "status": "candidate",
       "text": "Created by <a href=\"http://charlesrqi.com\" target=\"_blank\">Charles R. Qi</a>, <a href=\"http://ai.stanford.edu/~haosu/\" target=\"_blank\">Hao Su</a>, <a href=\"http://cs.stanford.edu/~kaichun/\" target=\"_blank\">Kaichun Mo</a>, <a href=\"http://geometry.stanford.edu/member/guibas/\" tar\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kpe/bert-for-tf2",
+      "status": "candidate",
+      "text": "BERT for TensorFlow v2"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ymcui/Chinese-BERT-wwm",
+      "status": "candidate",
+      "text": "[**\u4e2d\u6587\u8bf4\u660e**](https://github.com/ymcui/Chinese-BERT-wwm/) | [**English**](https://github.com/ymcui/Chinese-BERT-wwm/blob/master/README_EN.md)"
     }
   ],
   "candidate_related_terms": [
@@ -976,11 +1012,23 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "charlesq34/pointnet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "kpe/bert-for-tf2"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "ymcui/Chinese-BERT-wwm"
     }
   ],
   "first_seen_at": "2026-04-19T01:08:57.644140+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "lexical_providers": [
     "datamuse"
   ],

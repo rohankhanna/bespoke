@@ -13,12 +13,30 @@
       "source_repo": "Kimahriman/hdfs-native",
       "status": "candidate-context",
       "text": "rust-test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "datafusion-contrib/hdfs-native-object-store",
+      "status": "candidate-context",
+      "text": "Native rust implementation of object_store HDFS"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "datafusion-contrib/hdfs-native-object-store",
+      "status": "candidate-context",
+      "text": "rust-test"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "Kimahriman/hdfs-native",
+      "status": "candidate",
+      "text": "rust-test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "datafusion-contrib/hdfs-native-object-store",
       "status": "candidate",
       "text": "rust-test"
     }
@@ -34,11 +52,17 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": ".github/workflows/rust-test.yml",
       "source_repo": "Kimahriman/hdfs-native"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/rust-test.yml",
+      "source_repo": "datafusion-contrib/hdfs-native-object-store"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "lexical_providers": [
     "datamuse"
   ],

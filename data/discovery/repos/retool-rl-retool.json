@@ -1,0 +1,65 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ReTool-RL/ReTool",
+      "target": "tongyx361/symeval",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ReTool-RL/ReTool",
+      "target": "rucaibox/slow_thinking_with_llms",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ReTool-RL/ReTool",
+      "target": "volcengine/verl",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-24T12:35:45.778097+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3901
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "ReTool-RL/ReTool",
+    "html_url": "https://github.com/ReTool-RL/ReTool",
+    "language": "Python",
+    "pushed_at": "2025-08-12T12:53:17Z",
+    "stargazers_count": 342,
+    "topics": [],
+    "updated_at": "2026-04-23T07:38:42Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rucaibox/slow_thinking_with_llms",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tongyx361/symeval",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "volcengine/verl",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

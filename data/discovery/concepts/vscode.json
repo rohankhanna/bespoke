@@ -423,6 +423,18 @@
       "source_repo": "cstrap/python-snippets",
       "status": "candidate-context",
       "text": "Python snippets collections."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "smallcloudai/refact",
+      "status": "candidate-context",
+      "text": "AI Agent that handles engineering tasks end-to-end: integrates with developers\u2019 tools, plans, executes, and iterates until it achieves a successful result."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "smallcloudai/refact",
+      "status": "candidate-context",
+      "text": "<a name=\"readme-top\"></a>"
     }
   ],
   "candidate_glosses": [
@@ -635,6 +647,12 @@
       "source_repo": "cstrap/python-snippets",
       "status": "candidate",
       "text": "Python snippets collections."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "smallcloudai/refact",
+      "status": "candidate",
+      "text": "<a name=\"readme-top\"></a>"
     }
   ],
   "candidate_related_terms": [],
@@ -888,11 +906,17 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "cstrap/python-snippets"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "smallcloudai/refact"
     }
   ],
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Test Notebook Experience"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fugue-project/fugue",
+      "status": "candidate-context",
+      "text": "A unified interface for distributed computing. Fugue executes SQL, Python, Pandas, and Polars code on Spark, Dask and Ray without any rewrites."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fugue-project/fugue",
+      "status": "candidate-context",
+      "text": "Test Notebook Experience"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fugue-project/fugue",
+      "status": "candidate",
+      "text": "Test Notebook Experience"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26439,
+      "status": "candidate",
+      "text": "ordeal"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26039,
+      "status": "candidate",
+      "text": "empiric"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26039,
+      "status": "candidate",
+      "text": "trial"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26019,
+      "status": "candidate",
+      "text": "crucible"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25969,
+      "status": "candidate",
+      "text": "experientialism"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Test Notebook Experience",
+  "concept_id": "test-notebook-experience",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/test_notebook.yml",
+      "source_repo": "fugue-project/fugue"
+    }
+  ],
+  "first_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Test Notebook Experience",
+      "sense_id": "test-notebook-experience#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

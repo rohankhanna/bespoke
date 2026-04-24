@@ -1,7 +1,7 @@
 {
   "component": "actions/setup-java@v4",
   "first_seen_at": "2026-04-17T18:04:43.852571+00:00",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -602,6 +602,101 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/maven.yml",
       "source_repo": "eclipse-aspectj/aspectj"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/maven.yml",
+      "source_repo": "codelibs/fess-crawler"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/maven.yml",
+      "source_repo": "codelibs/fess-ds-atlassian"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/maven.yml",
+      "source_repo": "codelibs/fess-ds-box"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "zai-org/z-ai-sdk-java"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "zai-org/z-ai-sdk-java"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/arrow-flight-tests.yml",
+      "source_repo": "prestodb/presto"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "prestodb/presto"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/hive-tests.yml",
+      "source_repo": "prestodb/presto"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/jdbc-connector-tests.yml",
+      "source_repo": "prestodb/presto"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/kudu.yml",
+      "source_repo": "prestodb/presto"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/maven-checks.yml",
+      "source_repo": "prestodb/presto"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "phodal/auto-dev"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/compose-release.yml",
+      "source_repo": "phodal/auto-dev"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/deploy-wasm.yml",
+      "source_repo": "phodal/auto-dev"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/integration-tests.yml",
+      "source_repo": "phodal/auto-dev"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/kmp-test.yml",
+      "source_repo": "phodal/auto-dev"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "phodal/auto-dev"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test.yml",
+      "source_repo": "a2aproject/a2a-java"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-with-release-profile-run.yml",
+      "source_repo": "a2aproject/a2a-java"
     }
   ]
 }

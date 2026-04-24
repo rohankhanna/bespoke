@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -81,6 +81,21 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "openvinotoolkit/nncf"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "ChineseGLUE/ChineseGLUE"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "kpe/bert-for-tf2"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "ymcui/Chinese-BERT-wwm"
     }
   ],
   "term": "bert"

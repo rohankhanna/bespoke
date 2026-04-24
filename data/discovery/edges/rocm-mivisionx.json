@@ -1,0 +1,209 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ROCm/MIVisionX",
+      "target": "rocmsoftwareplatform/amdmigraphx",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ROCm/MIVisionX",
+      "target": "rocm/rpp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ROCm/MIVisionX",
+      "target": "rocm/rocal",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ROCm/MIVisionX",
+      "target": "gpuopen-librariesandsdks/ocl-sdk",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "ROCm/MIVisionX",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "ROCm/MIVisionX",
+      "target": "github/codeql-action/init@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "ROCm/MIVisionX",
+      "target": "github/codeql-action/autobuild@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "ROCm/MIVisionX",
+      "target": "github/codeql-action/analyze@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "ROCm/MIVisionX",
+      "target": "CodeQL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ROCm/MIVisionX",
+      "target": "amd-opencl",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ROCm/MIVisionX",
+      "target": "amd-opencv",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ROCm/MIVisionX",
+      "target": "amd-openvx",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ROCm/MIVisionX",
+      "target": "computer-vision",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ROCm/MIVisionX",
+      "target": "inference",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ROCm/MIVisionX",
+      "target": "inference-engine",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ROCm/MIVisionX",
+      "target": "khronos-openvx",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ROCm/MIVisionX",
+      "target": "machine-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ROCm/MIVisionX",
+      "target": "neural-network",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ROCm/MIVisionX",
+      "target": "nnef",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ROCm/MIVisionX",
+      "target": "onnx",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ROCm/MIVisionX",
+      "target": "opencl",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ROCm/MIVisionX",
+      "target": "openvx",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ROCm/MIVisionX",
+      "target": "openvx-extensions",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ROCm/MIVisionX",
+      "target": "openvx-neural-network",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ROCm/MIVisionX",
+      "target": "rocm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ROCm/MIVisionX",
+      "target": "ryzen",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ROCm/MIVisionX",
+      "target": "virtual-reality",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ROCm/MIVisionX",
+      "target": "windows-machine-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ROCm/MIVisionX",
+      "target": "winml",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-24T12:33:41.350224+00:00",
+  "source_repo": "ROCm/MIVisionX"
+}

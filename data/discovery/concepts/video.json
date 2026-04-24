@@ -163,6 +163,18 @@
       "source_repo": "hughfenghen/WebAV-KnowledgeGraph",
       "status": "candidate-context",
       "text": "\u6574\u7406 Web \u97f3\u89c6\u9891\u76f8\u5173\u7684 API\u3001SDK\u3001\u6587\u7ae0\u3001\u5bf9\u5916\u4ea7\u54c1\uff0c\u5e2e\u52a9\u524d\u7aef\u5f00\u53d1\u8005\u5165\u95e8/\u8fdb\u9636\u97f3\u89c6\u9891\u9886\u57df\uff0c\u63a8\u52a8\u97f3\u89c6\u9891\u6280\u672f\u5728 Web \u5e73\u53f0\u7684\u5e94\u7528\u5b9e\u8df5\u3002"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "OpenGVLab/Ask-Anything",
+      "status": "candidate-context",
+      "text": "[CVPR2024 Highlight][VideoChatGPT] ChatGPT with video understanding! And many more supported LMs such as miniGPT4, StableLM, and MOSS."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenGVLab/Ask-Anything",
+      "status": "candidate-context",
+      "text": "[![Open in OpenXLab](https://cdn-static.openxlab.org.cn/app-center/openxlab_app.svg)](https://openxlab.org.cn/apps/detail/yinanhe/VideoChat2) |"
     }
   ],
   "candidate_glosses": [
@@ -243,6 +255,12 @@
       "source_repo": "hughfenghen/WebAV-KnowledgeGraph",
       "status": "candidate",
       "text": "\u6574\u7406 Web \u97f3\u89c6\u9891\u76f8\u5173\u7684 API\u3001SDK\u3001\u6587\u7ae0\u3001\u5bf9\u5916\u4ea7\u54c1\uff0c\u5e2e\u52a9\u524d\u7aef\u5f00\u53d1\u8005\u5165\u95e8/\u8fdb\u9636\u97f3\u89c6\u9891\u9886\u57df\uff0c\u63a8\u52a8\u97f3\u89c6\u9891\u6280\u672f\u5728 Web \u5e73\u53f0\u7684\u5e94\u7528\u5b9e\u8df5\u3002"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenGVLab/Ask-Anything",
+      "status": "candidate",
+      "text": "[![Open in OpenXLab](https://cdn-static.openxlab.org.cn/app-center/openxlab_app.svg)](https://openxlab.org.cn/apps/detail/yinanhe/VideoChat2) |"
     }
   ],
   "candidate_related_terms": [
@@ -391,11 +409,17 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "MME-Benchmarks/Video-MME"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "OpenGVLab/Ask-Anything"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "lexical_providers": [
     "datamuse"
   ],

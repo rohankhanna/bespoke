@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "super repo for rocm libraries"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "clang-tidy"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "clang-tidy"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "clang-tidy",
+      "sense_id": "clang-tidy#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "clang-tidy",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "clang-tidy",
+  "observation_id": "8f538a92e30c43a2",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-24T12:33:41.350224+00:00",
+  "observed_text": "clang-tidy",
+  "source_context_snippet": "clang-tidy",
+  "source_file": ".github/workflows/clang-tidy.yml",
+  "source_repo": "ROCm/rocm-libraries",
+  "source_repo_description": "super repo for rocm libraries"
+}

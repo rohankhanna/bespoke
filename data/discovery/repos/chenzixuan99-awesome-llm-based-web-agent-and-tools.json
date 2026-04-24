@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "chenzixuan99/Awesome-LLM-based-Web-Agent-and-Tools",
+      "target": "njucckevin/seeclick",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "chenzixuan99/Awesome-LLM-based-Web-Agent-and-Tools",
+      "target": "shenzhi-wang/llama3-chinese-chat",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "chenzixuan99/Awesome-LLM-based-Web-Agent-and-Tools",
+      "target": "unicomai/unichat-llama3-chinese",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "chenzixuan99/Awesome-LLM-based-Web-Agent-and-Tools",
+      "target": "skyvern-ai/skyvern",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-24T12:45:05.611367+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4208
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A collection of some awesome public projects about LLM-based Web Agents and Tools. ",
+    "fork": false,
+    "full_name": "chenzixuan99/Awesome-LLM-based-Web-Agent-and-Tools",
+    "html_url": "https://github.com/chenzixuan99/Awesome-LLM-based-Web-Agent-and-Tools",
+    "language": null,
+    "pushed_at": "2024-04-25T08:45:49Z",
+    "stargazers_count": 12,
+    "topics": [],
+    "updated_at": "2026-03-24T07:32:23Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "njucckevin/seeclick",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "shenzhi-wang/llama3-chinese-chat",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "skyvern-ai/skyvern",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "unicomai/unichat-llama3-chinese",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

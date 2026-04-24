@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Tests on GPU"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "punica-ai/punica",
+      "status": "candidate-context",
+      "text": "Serving multiple LoRA finetuned LLM as one"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "punica-ai/punica",
+      "status": "candidate-context",
+      "text": "Tests on GPU"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "punica-ai/punica",
+      "status": "candidate",
+      "text": "Tests on GPU"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11304,
+      "status": "candidate",
+      "text": "accurate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11304,
+      "status": "candidate",
+      "text": "admiralty"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11304,
+      "status": "candidate",
+      "text": "advance"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11304,
+      "status": "candidate",
+      "text": "available"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11304,
+      "status": "candidate",
+      "text": "backup"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Tests on GPU",
+  "concept_id": "tests-on-gpu",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/gpu-test.yml",
+      "source_repo": "punica-ai/punica"
+    }
+  ],
+  "first_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Tests on GPU",
+      "sense_id": "tests-on-gpu#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

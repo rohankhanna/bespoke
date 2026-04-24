@@ -217,6 +217,18 @@
       "source_repo": "transparency-dev/tessera",
       "status": "candidate-context",
       "text": "\"CodeQL Advanced\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "enola-dev/enola",
+      "status": "candidate-context",
+      "text": "Enola \ud83d\udd75\ud83c\udffe\u200d\u2640\ufe0f Holmes was an SRE."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "enola-dev/enola",
+      "status": "candidate-context",
+      "text": "\"CodeQL Advanced\""
     }
   ],
   "candidate_glosses": [
@@ -319,6 +331,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "transparency-dev/tessera",
+      "status": "candidate",
+      "text": "\"CodeQL Advanced\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "enola-dev/enola",
       "status": "candidate",
       "text": "\"CodeQL Advanced\""
     }
@@ -502,11 +520,17 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": ".github/workflows/codeql.yml",
       "source_repo": "eclipse-openvsx/openvsx"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/codeql.yaml",
+      "source_repo": "enola-dev/enola"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "lexical_providers": [
     "datamuse"
   ],

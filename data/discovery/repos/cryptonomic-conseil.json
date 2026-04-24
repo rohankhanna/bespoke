@@ -1,0 +1,132 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scala.yml"
+    },
+    {
+      "component": "actions/setup-java@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scala.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scala.yml",
+      "source_repo": "Cryptonomic/Conseil",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scala.yml",
+      "source_repo": "Cryptonomic/Conseil",
+      "target": "actions/setup-java@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/scala.yml",
+      "source_repo": "Cryptonomic/Conseil",
+      "target": "Scala CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Cryptonomic/Conseil",
+      "target": "akka",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Cryptonomic/Conseil",
+      "target": "blockchains",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Cryptonomic/Conseil",
+      "target": "slick",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Cryptonomic/Conseil",
+      "target": "tezos",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T12:57:18.293372+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1150
+    },
+    {
+      "path": "Dockerfile",
+      "size": 2567
+    },
+    {
+      "path": ".github/workflows/scala.yml",
+      "size": 437
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Query API and indexer for Tezos and other decentralized platforms.",
+    "fork": false,
+    "full_name": "Cryptonomic/Conseil",
+    "html_url": "https://github.com/Cryptonomic/Conseil",
+    "language": "Scala",
+    "pushed_at": "2023-01-10T22:52:37Z",
+    "stargazers_count": 89,
+    "topics": [
+      "akka",
+      "blockchains",
+      "slick",
+      "tezos"
+    ],
+    "updated_at": "2026-02-12T01:24:43Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Scala CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/scala.yml",
+      "term": "Scala CI"
+    },
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/Cryptonomic/Conseil.svg?branch=master)](https://travis-ci.org/Cryptonomic/Conseil)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "akka"
+    },
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/Cryptonomic/Conseil.svg?branch=master)](https://travis-ci.org/Cryptonomic/Conseil)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "blockchains"
+    },
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/Cryptonomic/Conseil.svg?branch=master)](https://travis-ci.org/Cryptonomic/Conseil)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "slick"
+    },
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/Cryptonomic/Conseil.svg?branch=master)](https://travis-ci.org/Cryptonomic/Conseil)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tezos"
+    }
+  ]
+}

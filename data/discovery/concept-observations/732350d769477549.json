@@ -84,7 +84,7 @@
   "normalized_form": "macos-tests",
   "observation_id": "732350d769477549",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_at": "2026-04-24T12:33:41.350224+00:00",
   "observed_text": "MacOS tests",
   "source_context_snippet": "MacOS tests",
   "source_file": ".github/workflows/macos-test.yml",

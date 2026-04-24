@@ -103,6 +103,18 @@
       "source_repo": "soulteary/amazing-openai-api",
       "status": "candidate-context",
       "text": "![](.github/assets/aoa.jpg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "openai/openai-quickstart-python",
+      "status": "candidate-context",
+      "text": "Python example app from the OpenAI API quickstart tutorial"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openai/openai-quickstart-python",
+      "status": "candidate-context",
+      "text": "This repository hosts multiple quickstart apps for different OpenAI API endpoints (chat, assistants, etc). Check out the `examples` folder to try out different examples and get started using the OpenAI API."
     }
   ],
   "candidate_glosses": [
@@ -153,6 +165,12 @@
       "source_repo": "soulteary/amazing-openai-api",
       "status": "candidate",
       "text": "![](.github/assets/aoa.jpg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openai/openai-quickstart-python",
+      "status": "candidate",
+      "text": "This repository hosts multiple quickstart apps for different OpenAI API endpoints (chat, assistants, etc). Check out the `examples` folder to try out different examples and get started using the OpenAI API."
     }
   ],
   "candidate_related_terms": [],
@@ -250,11 +268,17 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "soulteary/amazing-openai-api"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "openai/openai-quickstart-python"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "lexical_providers": [
     "datamuse"
   ],

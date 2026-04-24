@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "web-platform-tests dashboard"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![GitHub Actions](https://github.com/web-platform-tests/wpt.fyi/workflows/Continuous%20Integration/badge.svg)](https://github.com/web-platform-tests/wpt.fyi/actions?query=workflow%3A%22Continuous+Integration%22+branch%3Amaster)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![GitHub Actions](https://github.com/web-platform-tests/wpt.fyi/workflows/Continuous%20Integration/badge.svg)](https://github.com/web-platform-tests/wpt.fyi/actions?query=workflow%3A%22Continuous+Integration%22+branch%3Amaster)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "web-platform-tests",
+      "sense_id": "web-platform-tests#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "web-platform-tests",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "web-platform-tests",
+  "observation_id": "73ec0b7fbc47af9c",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T12:33:41.350224+00:00",
+  "observed_text": "web-platform-tests",
+  "source_context_snippet": "[![GitHub Actions](https://github.com/web-platform-tests/wpt.fyi/workflows/Continuous%20Integration/badge.svg)](https://github.com/web-platform-tests/wpt.fyi/actions?query=workflow%3A%22Continuous+Integration%22+branch%3Amaster)",
+  "source_file": null,
+  "source_repo": "web-platform-tests/wpt.fyi",
+  "source_repo_description": "web-platform-tests dashboard"
+}

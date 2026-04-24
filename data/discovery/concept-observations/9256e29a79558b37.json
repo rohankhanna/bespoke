@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "The official documentation for Raspberry Pi computers and microcontrollers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Mirror repository"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Mirror repository"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10628,
+      "status": "candidate",
+      "text": "ghost"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10628,
+      "status": "candidate",
+      "text": "ghosting"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10628,
+      "status": "candidate",
+      "text": "illuminator"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10628,
+      "status": "candidate",
+      "text": "image"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10628,
+      "status": "candidate",
+      "text": "imaging"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Mirror repository",
+      "sense_id": "mirror-repository#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "mirror-repository",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "mirror-repository",
+  "observation_id": "9256e29a79558b37",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-24T12:33:41.350224+00:00",
+  "observed_text": "Mirror repository",
+  "source_context_snippet": "Mirror repository",
+  "source_file": ".github/workflows/mirror.yml",
+  "source_repo": "raspberrypi/documentation",
+  "source_repo_description": "The official documentation for Raspberry Pi computers and microcontrollers"
+}

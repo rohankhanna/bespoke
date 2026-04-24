@@ -1,0 +1,115 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Common utilities for wreq"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "A collection of utilities to do common things with [wreq](https://github.com/0x676e67/wreq)."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "A collection of utilities to do common things with [wreq](https://github.com/0x676e67/wreq)."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40039470,
+      "status": "candidate",
+      "text": "personate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40002180,
+      "status": "candidate",
+      "text": "portray"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39826451,
+      "status": "candidate",
+      "text": "pose"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30036721,
+      "status": "candidate",
+      "text": "mimic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30036601,
+      "status": "candidate",
+      "text": "emulate"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "impersonate",
+      "sense_id": "impersonate#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 27039,
+      "status": "candidate",
+      "text": "pose"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 24032,
+      "status": "candidate",
+      "text": "portray"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 3027,
+      "status": "candidate",
+      "text": "personate"
+    }
+  ],
+  "concept_id": "impersonate",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "impersonate",
+  "observation_id": "bc31b536f2b5a5ab",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T12:33:41.350224+00:00",
+  "observed_text": "impersonate",
+  "source_context_snippet": "A collection of utilities to do common things with [wreq](https://github.com/0x676e67/wreq).",
+  "source_file": null,
+  "source_repo": "0x676e67/wreq-util",
+  "source_repo_description": "Common utilities for wreq"
+}

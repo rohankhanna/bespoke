@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Gateway Sharness"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ipfs/boxo",
+      "status": "candidate-context",
+      "text": "A set of reference libraries for building IPFS applications and implementations in Go."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipfs/boxo",
+      "status": "candidate-context",
+      "text": "Gateway Sharness"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipfs/boxo",
+      "status": "candidate",
+      "text": "Gateway Sharness"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "access"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "bridge"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "deck"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "door"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "doors"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Gateway Sharness",
+  "concept_id": "gateway-sharness",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/gateway-sharness.yml",
+      "source_repo": "ipfs/boxo"
+    }
+  ],
+  "first_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Gateway Sharness",
+      "sense_id": "gateway-sharness#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

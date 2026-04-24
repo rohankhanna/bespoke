@@ -1,0 +1,139 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "GEOSwift/GEOSwift",
+      "target": "geoswift/geoswiftmapkit",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "GEOSwift/GEOSwift",
+      "target": "geoswift/geoswiftmapboxgl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "GEOSwift/GEOSwift",
+      "target": "geoswift/geos",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "GEOSwift/GEOSwift",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "GEOSwift/GEOSwift",
+      "target": "GEOSwift",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "GEOSwift/GEOSwift",
+      "target": "apple",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "GEOSwift/GEOSwift",
+      "target": "cartography",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "GEOSwift/GEOSwift",
+      "target": "geojson",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "GEOSwift/GEOSwift",
+      "target": "geospatial",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "GEOSwift/GEOSwift",
+      "target": "macos",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "GEOSwift/GEOSwift",
+      "target": "maps",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "GEOSwift/GEOSwift",
+      "target": "swift",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "GEOSwift/GEOSwift",
+      "target": "swift-library",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "GEOSwift/GEOSwift",
+      "target": "swift-linux",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "GEOSwift/GEOSwift",
+      "target": "swift-package",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "GEOSwift/GEOSwift",
+      "target": "tvos",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "GEOSwift/GEOSwift",
+      "target": "visionos",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "GEOSwift/GEOSwift",
+      "target": "watchos",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "GEOSwift/GEOSwift",
+      "target": "xcode",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-24T12:33:41.350224+00:00",
+  "source_repo": "GEOSwift/GEOSwift"
+}

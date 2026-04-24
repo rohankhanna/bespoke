@@ -1,0 +1,287 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "docker/setup-qemu-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@release/v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.rst",
+      "source_repo": "spotify/annoy",
+      "target": "jimkang/annoy-node",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.rst",
+      "source_repo": "spotify/annoy",
+      "target": "mskimm/ann4s",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.rst",
+      "source_repo": "spotify/annoy",
+      "target": "hanabi1224/ruannoy",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.rst",
+      "source_repo": "spotify/annoy",
+      "target": "erikbern/ann-benchmarks",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "spotify/annoy",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "spotify/annoy",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "spotify/annoy",
+      "target": "Annoy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "spotify/annoy",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "spotify/annoy",
+      "target": "docker/setup-qemu-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "spotify/annoy",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "spotify/annoy",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "spotify/annoy",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "spotify/annoy",
+      "target": "pypa/gh-action-pypi-publish@release/v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "spotify/annoy",
+      "target": "Publish",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "spotify/annoy",
+      "target": "approximate-nearest-neighbor-search",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "spotify/annoy",
+      "target": "c-plus-plus",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "spotify/annoy",
+      "target": "golang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "spotify/annoy",
+      "target": "locality-sensitive-hashing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "spotify/annoy",
+      "target": "nearest-neighbor-search",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T12:52:41.057351+00:00",
+  "fetched_files": [
+    {
+      "path": "README.rst",
+      "size": 12483
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 575
+    },
+    {
+      "path": ".github/workflows/publish.yml",
+      "size": 1940
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Approximate Nearest Neighbors in C++/Python optimized for memory usage and loading/saving to disk",
+    "fork": false,
+    "full_name": "spotify/annoy",
+    "html_url": "https://github.com/spotify/annoy",
+    "language": "C++",
+    "pushed_at": "2025-10-29T14:08:37Z",
+    "stargazers_count": 14228,
+    "topics": [
+      "approximate-nearest-neighbor-search",
+      "c-plus-plus",
+      "golang",
+      "locality-sensitive-hashing",
+      "lua",
+      "nearest-neighbor-search",
+      "python"
+    ],
+    "updated_at": "2026-04-24T02:27:37Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "erikbern/ann-benchmarks",
+      "source_file": "README.rst"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hanabi1224/ruannoy",
+      "source_file": "README.rst"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jimkang/annoy-node",
+      "source_file": "README.rst"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mskimm/ann4s",
+      "source_file": "README.rst"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Annoy",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "term": "Annoy"
+    },
+    {
+      "context_snippet": "Publish",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "term": "Publish"
+    },
+    {
+      "context_snippet": "Annoy",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "approximate-nearest-neighbor-search"
+    },
+    {
+      "context_snippet": "Annoy",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "c-plus-plus"
+    },
+    {
+      "context_snippet": "Annoy",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "golang"
+    },
+    {
+      "context_snippet": "Annoy",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "locality-sensitive-hashing"
+    },
+    {
+      "context_snippet": "Annoy",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nearest-neighbor-search"
+    }
+  ]
+}

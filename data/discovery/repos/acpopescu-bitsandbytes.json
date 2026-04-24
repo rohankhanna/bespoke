@@ -1,0 +1,61 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "acpopescu/bitsandbytes",
+      "target": "timdettmers/bitsandbytes",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "acpopescu/bitsandbytes",
+      "target": "fabiocannizzo/fastbinarysearch",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-24T12:41:45.711595+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9291
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 104
+    },
+    {
+      "path": "requirements.txt",
+      "size": 20
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "8-bit CUDA functions for PyTorch",
+    "fork": true,
+    "full_name": "acpopescu/bitsandbytes",
+    "html_url": "https://github.com/acpopescu/bitsandbytes",
+    "language": "Python",
+    "pushed_at": "2023-05-29T06:37:40Z",
+    "stargazers_count": 42,
+    "topics": [],
+    "updated_at": "2026-04-15T18:30:30Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "fabiocannizzo/fastbinarysearch",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "timdettmers/bitsandbytes",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

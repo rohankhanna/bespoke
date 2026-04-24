@@ -1,0 +1,93 @@
+{
+  "components": [
+    {
+      "component": "jstransformer-marked",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "less",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "browser-sync",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "harp",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "livereloadx",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "buildbot/buildbot-website",
+      "target": "jstransformer-marked",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "buildbot/buildbot-website",
+      "target": "less",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "buildbot/buildbot-website",
+      "target": "browser-sync",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "buildbot/buildbot-website",
+      "target": "harp",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "buildbot/buildbot-website",
+      "target": "livereloadx",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-24T12:42:11.798114+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 370
+    },
+    {
+      "path": "package.json",
+      "size": 272
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Source for http://buildbot.net",
+    "fork": false,
+    "full_name": "buildbot/buildbot-website",
+    "html_url": "https://github.com/buildbot/buildbot-website",
+    "language": "Pug",
+    "pushed_at": "2026-04-07T19:52:51Z",
+    "stargazers_count": 20,
+    "topics": [],
+    "updated_at": "2026-02-25T00:20:11Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

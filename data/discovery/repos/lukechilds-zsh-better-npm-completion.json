@@ -1,0 +1,97 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lukechilds/zsh-better-npm-completion",
+      "target": "b4b4r07/zplug",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lukechilds/zsh-better-npm-completion",
+      "target": "robbyrussell/oh-my-zsh",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lukechilds/zsh-better-npm-completion",
+      "target": "lukechilds/gifgen",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lukechilds/zsh-better-npm-completion",
+      "target": "completion",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lukechilds/zsh-better-npm-completion",
+      "target": "zsh-plugin",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T13:06:35.112802+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2181
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Better completion for npm",
+    "fork": false,
+    "full_name": "lukechilds/zsh-better-npm-completion",
+    "html_url": "https://github.com/lukechilds/zsh-better-npm-completion",
+    "language": "Shell",
+    "pushed_at": "2024-10-31T09:38:35Z",
+    "stargazers_count": 499,
+    "topics": [
+      "completion",
+      "npm",
+      "zsh",
+      "zsh-plugin"
+    ],
+    "updated_at": "2026-04-19T13:48:43Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "b4b4r07/zplug",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lukechilds/gifgen",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "robbyrussell/oh-my-zsh",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "> Better completion for `npm`",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "completion"
+    },
+    {
+      "context_snippet": "> Better completion for `npm`",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "zsh-plugin"
+    }
+  ]
+}

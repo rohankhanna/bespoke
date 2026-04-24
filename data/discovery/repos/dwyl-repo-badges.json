@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dwyl/repo-badges",
+      "target": "dwyl/learn-codeclimate",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dwyl/repo-badges",
+      "target": "dwyl/goodparts",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dwyl/repo-badges",
+      "target": "dwyl/learn-istanbul",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dwyl/repo-badges",
+      "target": "dwyl/esta",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-24T12:59:38.959683+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 17044
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": ":star: Use repo badges (build passing, coverage, etc) in your readme/markdown file to signal code quality in a project.",
+    "fork": false,
+    "full_name": "dwyl/repo-badges",
+    "html_url": "https://github.com/dwyl/repo-badges",
+    "language": "HTML",
+    "pushed_at": "2024-12-30T16:09:04Z",
+    "stargazers_count": 2933,
+    "topics": [],
+    "updated_at": "2026-04-19T07:41:32Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dwyl/esta",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dwyl/goodparts",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dwyl/learn-codeclimate",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dwyl/learn-istanbul",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

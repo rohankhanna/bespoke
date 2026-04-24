@@ -151,6 +151,18 @@
       "source_repo": "dotnet/extensions",
       "status": "candidate-context",
       "text": "Backport PR to branch"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dotnet/project-system",
+      "status": "candidate-context",
+      "text": "The .NET Project System for Visual Studio"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dotnet/project-system",
+      "status": "candidate-context",
+      "text": "Backport PR to branch"
     }
   ],
   "candidate_glosses": [
@@ -223,6 +235,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "dotnet/extensions",
+      "status": "candidate",
+      "text": "Backport PR to branch"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dotnet/project-system",
       "status": "candidate",
       "text": "Backport PR to branch"
     }
@@ -346,11 +364,17 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": ".github/workflows/backport.yml",
       "source_repo": "dotnet/extensions"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/backport.yaml",
+      "source_repo": "dotnet/project-system"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "lexical_providers": [
     "datamuse"
   ],

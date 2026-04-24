@@ -1,0 +1,174 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ROCm/AMDMIGraphX",
+      "target": "radeonopencompute/rbuild",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ROCm/AMDMIGraphX",
+      "target": "radeonopencompute/rocm-cmake",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ROCm/AMDMIGraphX",
+      "target": "google/protobuf",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ROCm/AMDMIGraphX",
+      "target": "radeonopencompute/rocm-docs-core",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark.yaml",
+      "source_repo": "ROCm/AMDMIGraphX",
+      "target": "ROCmSoftwarePlatform/actions/.github/workflows/benchmarks.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/benchmark.yaml",
+      "source_repo": "ROCm/AMDMIGraphX",
+      "target": "MiGraphX Benchmark",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "ROCm/AMDMIGraphX",
+      "target": "styfle/cancel-workflow-action@0.12.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "ROCm/AMDMIGraphX",
+      "target": "actions/checkout@v4.2.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "ROCm/AMDMIGraphX",
+      "target": "actions/cache/restore@v4.2.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "ROCm/AMDMIGraphX",
+      "target": "actions/cache/save@v4.2.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "ROCm/AMDMIGraphX",
+      "target": "jlumbroso/free-disk-space@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "ROCm/AMDMIGraphX",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "ROCm/AMDMIGraphX",
+      "target": "jwlawson/actions-setup-cmake@v1.9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "ROCm/AMDMIGraphX",
+      "target": "actions/cache@v4.2.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "ROCm/AMDMIGraphX",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "ROCm/AMDMIGraphX",
+      "target": "reviewdog/action-misspell@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "ROCm/AMDMIGraphX",
+      "target": "migraphx",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clean-closed-pr-caches.yaml",
+      "source_repo": "ROCm/AMDMIGraphX",
+      "target": "actions/checkout@v4.2.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/clean-closed-pr-caches.yaml",
+      "source_repo": "ROCm/AMDMIGraphX",
+      "target": "Cleanup caches of closed PR",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/history.yaml",
+      "source_repo": "ROCm/AMDMIGraphX",
+      "target": "ROCm/migraphx-benchmark/.github/workflows/history.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/history.yaml",
+      "source_repo": "ROCm/AMDMIGraphX",
+      "target": "History",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/performance.yaml",
+      "source_repo": "ROCm/AMDMIGraphX",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/performance.yaml",
+      "source_repo": "ROCm/AMDMIGraphX",
+      "target": "ROCm/migraphx-benchmark/.github/workflows/perf-test.yml@testing",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/performance.yaml",
+      "source_repo": "ROCm/AMDMIGraphX",
+      "target": "MIGraphX Performance Tests",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-24T12:33:41.350224+00:00",
+  "source_repo": "ROCm/AMDMIGraphX"
+}

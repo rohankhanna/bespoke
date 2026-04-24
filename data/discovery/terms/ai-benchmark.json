@@ -1,11 +1,16 @@
 {
   "first_seen_at": "2026-04-18T09:23:47.800515+00:00",
-  "last_seen_at": "2026-04-18T09:23:47.800515+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/ai-benchmark.yml",
       "source_repo": "metabase/metabase"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/WindowsAgentArena"
     }
   ],
   "term": "AI Benchmark"

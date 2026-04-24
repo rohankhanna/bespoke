@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T10:38:37.562216+00:00",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -516,6 +516,21 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "japaric/xargo"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/rust.yaml",
+      "source_repo": "rust-bitcoin/rust-bitcoind-json-rpc"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "web-platform-tests/wpt.fyi"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "executablebooks/MyST-Parser"
     }
   ],
   "term": "Continuous Integration"

@@ -220,6 +220,18 @@
       "source_repo": "spacejam/sled",
       "status": "candidate-context",
       "text": "<table style=\"width:100%\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mishoo/UglifyJS",
+      "status": "candidate-context",
+      "text": " JavaScript parser / mangler / compressor / beautifier toolkit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mishoo/UglifyJS",
+      "status": "candidate-context",
+      "text": "Fuzzing"
     }
   ],
   "candidate_glosses": [
@@ -330,6 +342,12 @@
       "source_repo": "spacejam/sled",
       "status": "candidate",
       "text": "<table style=\"width:100%\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mishoo/UglifyJS",
+      "status": "candidate",
+      "text": "Fuzzing"
     }
   ],
   "candidate_related_terms": [
@@ -487,11 +505,17 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": ".github/workflows/fuzz.yml",
       "source_repo": "executablebooks/markdown-it-py"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/ufuzz.yml",
+      "source_repo": "mishoo/UglifyJS"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "lexical_providers": [
     "datamuse"
   ],

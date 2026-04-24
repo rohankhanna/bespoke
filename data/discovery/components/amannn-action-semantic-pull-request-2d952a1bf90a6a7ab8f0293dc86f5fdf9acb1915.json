@@ -1,0 +1,12 @@
+{
+  "component": "amannn/action-semantic-pull-request@2d952a1bf90a6a7ab8f0293dc86f5fdf9acb1915",
+  "first_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/conventional-commit-check.yml",
+      "source_repo": "prestodb/presto"
+    }
+  ]
+}

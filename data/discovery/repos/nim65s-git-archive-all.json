@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-24T12:46:50.951616+00:00",
+  "fetched_files": [
+    {
+      "path": "README.rst",
+      "size": 2857
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A python script wrapper for git-archive that archives a git superproject and its submodules, if it has any. Takes into account .gitattributes",
+    "fork": true,
+    "full_name": "nim65s/git-archive-all",
+    "html_url": "https://github.com/nim65s/git-archive-all",
+    "language": "Python",
+    "pushed_at": "2023-08-04T13:42:31Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2023-08-04T13:22:20Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

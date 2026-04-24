@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Build and Test NODE"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "decentralized-identity/did-jwt",
+      "status": "candidate-context",
+      "text": "Create and verify DID verifiable JWT's in Javascript"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "decentralized-identity/did-jwt",
+      "status": "candidate-context",
+      "text": "Build and Test NODE"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "decentralized-identity/did-jwt",
+      "status": "candidate",
+      "text": "Build and Test NODE"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19476,
+      "status": "candidate",
+      "text": "raise"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19446,
+      "status": "candidate",
+      "text": "heads"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19446,
+      "status": "candidate",
+      "text": "take"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19387,
+      "status": "candidate",
+      "text": "base"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19387,
+      "status": "candidate",
+      "text": "continue"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Build and Test NODE",
+  "concept_id": "build-and-test-node",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "decentralized-identity/did-jwt"
+    }
+  ],
+  "first_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build and Test NODE",
+      "sense_id": "build-and-test-node#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

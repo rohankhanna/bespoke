@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "desktop-agent"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/WindowsAgentArena",
+      "status": "candidate-context",
+      "text": "Windows Agent Arena (WAA) \ud83e\ude9f is a scalable OS platform for testing and benchmarking of multi-modal AI agents."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/WindowsAgentArena",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/WindowsAgentArena",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "desktop-agent",
+  "concept_id": "desktop-agent",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/WindowsAgentArena"
+    }
+  ],
+  "first_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "desktop-agent",
+      "sense_id": "desktop-agent#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -1,0 +1,216 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Gen-Verse/Open-AgentRL",
+      "target": "xlang-ai/osworld",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Gen-Verse/Open-AgentRL",
+      "target": "volcengine/verl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Gen-Verse/Open-AgentRL",
+      "target": "retool-rl/retool",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Gen-Verse/Open-AgentRL",
+      "target": "agent-rl",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Gen-Verse/Open-AgentRL",
+      "target": "coding-agent",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Gen-Verse/Open-AgentRL",
+      "target": "entropy-method",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Gen-Verse/Open-AgentRL",
+      "target": "grpo",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Gen-Verse/Open-AgentRL",
+      "target": "gui-agent",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Gen-Verse/Open-AgentRL",
+      "target": "llm-agent",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Gen-Verse/Open-AgentRL",
+      "target": "llm-reasoning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Gen-Verse/Open-AgentRL",
+      "target": "multi-agent-reinforcement-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Gen-Verse/Open-AgentRL",
+      "target": "reinforcement-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Gen-Verse/Open-AgentRL",
+      "target": "rlhf",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T12:35:41.402800+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 20811
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 3225
+    },
+    {
+      "path": "requirements.txt",
+      "size": 381
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "RLAnything & DemyAgent: General and scalable agentic RL algorithms across terminal, GUI, SWE, and tool-call settings",
+    "fork": false,
+    "full_name": "Gen-Verse/Open-AgentRL",
+    "html_url": "https://github.com/Gen-Verse/Open-AgentRL",
+    "language": "Python",
+    "pushed_at": "2026-02-27T09:17:21Z",
+    "stargazers_count": 467,
+    "topics": [
+      "agent-rl",
+      "coding-agent",
+      "entropy-method",
+      "grpo",
+      "gui-agent",
+      "llm-agent",
+      "llm-reasoning",
+      "multi-agent-reinforcement-learning",
+      "ppo",
+      "reinforcement-learning",
+      "rlhf"
+    ],
+    "updated_at": "2026-04-24T03:41:30Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "retool-rl/retool",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "volcengine/verl",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "xlang-ai/osworld",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "agent-rl"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "coding-agent"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "entropy-method"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "grpo"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gui-agent"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "llm-agent"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "llm-reasoning"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multi-agent-reinforcement-learning"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "reinforcement-learning"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rlhf"
+    }
+  ]
+}

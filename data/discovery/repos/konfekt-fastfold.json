@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Konfekt/FastFold",
+      "target": "tmhedberg/simpylfold",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Konfekt/FastFold",
+      "target": "lervag/vimtex",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Konfekt/FastFold",
+      "target": "kaile256/vim-foldpeek",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Konfekt/FastFold",
+      "target": "chrisbra/nrrwrgn",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-24T12:58:36.667580+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6290
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Speed up Vim by updating folds only when called-for.",
+    "fork": false,
+    "full_name": "Konfekt/FastFold",
+    "html_url": "https://github.com/Konfekt/FastFold",
+    "language": "Vim Script",
+    "pushed_at": "2025-06-04T10:33:25Z",
+    "stargazers_count": 705,
+    "topics": [],
+    "updated_at": "2026-03-17T11:59:39Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "chrisbra/nrrwrgn",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kaile256/vim-foldpeek",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lervag/vimtex",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tmhedberg/simpylfold",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

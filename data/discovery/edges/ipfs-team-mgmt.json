@@ -1,0 +1,48 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ipfs/team-mgmt",
+      "target": "ipld/team-mgmt",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ipfs/team-mgmt",
+      "target": "ipfs/contributors-hex-grid",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ipfs/team-mgmt",
+      "target": "chjj/compton",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ipfs/team-mgmt",
+      "target": "ipfs/pm",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "ipfs/team-mgmt",
+      "target": "actions/stale@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "ipfs/team-mgmt",
+      "target": "Close and mark stale issue",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-24T12:33:41.350224+00:00",
+  "source_repo": "ipfs/team-mgmt"
+}

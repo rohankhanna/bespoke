@@ -1,0 +1,511 @@
+{
+  "components": [
+    {
+      "component": "fugue-project/.common/.github/workflows/lint.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "fugue-project/.common/.github/workflows/pypi-publish.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_all.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_all.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_all.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_core.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_core.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_dask.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_dask.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_dask.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_dask.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_no_sql.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_no_sql.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_notebook.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_notebook.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_ray.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_ray.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "fugue-project/fugue",
+      "target": "fugue-project/fugue-jupyter",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "fugue-project/fugue",
+      "target": "ibis-project/ibis",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "fugue-project/fugue",
+      "target": "vizzuhq/ipyvizzu",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "fugue-project/fugue",
+      "target": "fugue-project/.common/.github/workflows/lint.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "fugue-project/fugue",
+      "target": "Lint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "fugue-project/fugue",
+      "target": "fugue-project/.common/.github/workflows/pypi-publish.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "fugue-project/fugue",
+      "target": "Publish to PyPI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_all.yml",
+      "source_repo": "fugue-project/fugue",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_all.yml",
+      "source_repo": "fugue-project/fugue",
+      "target": "astral-sh/setup-uv@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_all.yml",
+      "source_repo": "fugue-project/fugue",
+      "target": "codecov/codecov-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test_all.yml",
+      "source_repo": "fugue-project/fugue",
+      "target": "Full Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_core.yml",
+      "source_repo": "fugue-project/fugue",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_core.yml",
+      "source_repo": "fugue-project/fugue",
+      "target": "astral-sh/setup-uv@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test_core.yml",
+      "source_repo": "fugue-project/fugue",
+      "target": "Core Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_dask.yml",
+      "source_repo": "fugue-project/fugue",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_dask.yml",
+      "source_repo": "fugue-project/fugue",
+      "target": "astral-sh/setup-uv@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test_dask.yml",
+      "source_repo": "fugue-project/fugue",
+      "target": "Dask Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_no_sql.yml",
+      "source_repo": "fugue-project/fugue",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_no_sql.yml",
+      "source_repo": "fugue-project/fugue",
+      "target": "astral-sh/setup-uv@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test_no_sql.yml",
+      "source_repo": "fugue-project/fugue",
+      "target": "Tests Excluding SQL Dependencies",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_notebook.yml",
+      "source_repo": "fugue-project/fugue",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_notebook.yml",
+      "source_repo": "fugue-project/fugue",
+      "target": "astral-sh/setup-uv@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test_notebook.yml",
+      "source_repo": "fugue-project/fugue",
+      "target": "Test Notebook Experience",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_ray.yml",
+      "source_repo": "fugue-project/fugue",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_ray.yml",
+      "source_repo": "fugue-project/fugue",
+      "target": "astral-sh/setup-uv@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test_ray.yml",
+      "source_repo": "fugue-project/fugue",
+      "target": "Ray Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fugue-project/fugue",
+      "target": "dask",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fugue-project/fugue",
+      "target": "data-practitioners",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fugue-project/fugue",
+      "target": "distributed",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fugue-project/fugue",
+      "target": "distributed-computing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fugue-project/fugue",
+      "target": "distributed-systems",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fugue-project/fugue",
+      "target": "machine-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fugue-project/fugue",
+      "target": "pandas",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fugue-project/fugue",
+      "target": "spark",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T12:43:08.880628+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 14913
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 5161
+    },
+    {
+      "path": ".github/workflows/lint.yml",
+      "size": 165
+    },
+    {
+      "path": ".github/workflows/publish.yml",
+      "size": 205
+    },
+    {
+      "path": ".github/workflows/test_all.yml",
+      "size": 1257
+    },
+    {
+      "path": ".github/workflows/test_core.yml",
+      "size": 1074
+    },
+    {
+      "path": ".github/workflows/test_dask.yml",
+      "size": 2045
+    },
+    {
+      "path": ".github/workflows/test_no_sql.yml",
+      "size": 1163
+    },
+    {
+      "path": ".github/workflows/test_notebook.yml",
+      "size": 1039
+    },
+    {
+      "path": ".github/workflows/test_ray.yml",
+      "size": 1471
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A unified interface for distributed computing. Fugue executes SQL, Python, Pandas, and Polars code on Spark, Dask and Ray without any rewrites.",
+    "fork": false,
+    "full_name": "fugue-project/fugue",
+    "html_url": "https://github.com/fugue-project/fugue",
+    "language": "Python",
+    "pushed_at": "2026-04-21T22:57:03Z",
+    "stargazers_count": 2152,
+    "topics": [
+      "dask",
+      "data-practitioners",
+      "distributed",
+      "distributed-computing",
+      "distributed-systems",
+      "machine-learning",
+      "pandas",
+      "spark",
+      "sql"
+    ],
+    "updated_at": "2026-04-17T11:58:08Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "fugue-project/fugue-jupyter",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ibis-project/ibis",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "vizzuhq/ipyvizzu",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Lint",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "term": "Lint"
+    },
+    {
+      "context_snippet": "Publish to PyPI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "term": "Publish to PyPI"
+    },
+    {
+      "context_snippet": "Full Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test_all.yml",
+      "term": "Full Tests"
+    },
+    {
+      "context_snippet": "Core Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test_core.yml",
+      "term": "Core Tests"
+    },
+    {
+      "context_snippet": "Dask Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test_dask.yml",
+      "term": "Dask Tests"
+    },
+    {
+      "context_snippet": "Tests Excluding SQL Dependencies",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test_no_sql.yml",
+      "term": "Tests Excluding SQL Dependencies"
+    },
+    {
+      "context_snippet": "Test Notebook Experience",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test_notebook.yml",
+      "term": "Test Notebook Experience"
+    },
+    {
+      "context_snippet": "Ray Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test_ray.yml",
+      "term": "Ray Tests"
+    },
+    {
+      "context_snippet": "[![PyPI version](https://badge.fury.io/py/fugue.svg)](https://pypi.python.org/pypi/fugue/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dask"
+    },
+    {
+      "context_snippet": "[![PyPI version](https://badge.fury.io/py/fugue.svg)](https://pypi.python.org/pypi/fugue/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "data-practitioners"
+    },
+    {
+      "context_snippet": "[![PyPI version](https://badge.fury.io/py/fugue.svg)](https://pypi.python.org/pypi/fugue/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "distributed"
+    },
+    {
+      "context_snippet": "[![PyPI version](https://badge.fury.io/py/fugue.svg)](https://pypi.python.org/pypi/fugue/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "distributed-computing"
+    },
+    {
+      "context_snippet": "[![PyPI version](https://badge.fury.io/py/fugue.svg)](https://pypi.python.org/pypi/fugue/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "distributed-systems"
+    },
+    {
+      "context_snippet": "[![PyPI version](https://badge.fury.io/py/fugue.svg)](https://pypi.python.org/pypi/fugue/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-learning"
+    },
+    {
+      "context_snippet": "[![PyPI version](https://badge.fury.io/py/fugue.svg)](https://pypi.python.org/pypi/fugue/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pandas"
+    },
+    {
+      "context_snippet": "[![PyPI version](https://badge.fury.io/py/fugue.svg)](https://pypi.python.org/pypi/fugue/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "spark"
+    }
+  ]
+}

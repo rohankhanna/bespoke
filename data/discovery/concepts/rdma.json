@@ -31,6 +31,18 @@
       "source_repo": "uccl-project/uccl",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kvcache-ai/Mooncake",
+      "status": "candidate-context",
+      "text": "Mooncake is the serving platform for Kimi, a leading LLM service provided by Moonshot AI."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kvcache-ai/Mooncake",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -43,6 +55,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "uccl-project/uccl",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kvcache-ai/Mooncake",
       "status": "candidate",
       "text": "<div align=\"center\">"
     }
@@ -64,11 +82,17 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "uccl-project/uccl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "kvcache-ai/Mooncake"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "lexical_providers": [
     "datamuse"
   ],

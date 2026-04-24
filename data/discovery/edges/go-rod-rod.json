@@ -1,0 +1,265 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "go-rod/rod",
+      "target": "ysmood/goob",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "go-rod/rod",
+      "target": "ysmood/leakless",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-examples.yml",
+      "source_repo": "go-rod/rod",
+      "target": "actions/setup-go@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-examples.yml",
+      "source_repo": "go-rod/rod",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-examples.yml",
+      "source_repo": "go-rod/rod",
+      "target": "Check Examples",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-issues.yml",
+      "source_repo": "go-rod/rod",
+      "target": "actions/setup-go@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-issues.yml",
+      "source_repo": "go-rod/rod",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-issues.yml",
+      "source_repo": "go-rod/rod",
+      "target": "Check Issues",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-revision.yml",
+      "source_repo": "go-rod/rod",
+      "target": "actions/setup-go@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-revision.yml",
+      "source_repo": "go-rod/rod",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-revision.yml",
+      "source_repo": "go-rod/rod",
+      "target": "Check Revision",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "go-rod/rod",
+      "target": "actions/setup-go@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "go-rod/rod",
+      "target": "docker/setup-qemu-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "go-rod/rod",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "go-rod/rod",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "go-rod/rod",
+      "target": "Release docker image",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-linux.yml",
+      "source_repo": "go-rod/rod",
+      "target": "actions/setup-go@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-linux.yml",
+      "source_repo": "go-rod/rod",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-linux.yml",
+      "source_repo": "go-rod/rod",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-linux.yml",
+      "source_repo": "go-rod/rod",
+      "target": "Test Linux",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-other-platforms.yml",
+      "source_repo": "go-rod/rod",
+      "target": "actions/setup-go@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-other-platforms.yml",
+      "source_repo": "go-rod/rod",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-other-platforms.yml",
+      "source_repo": "go-rod/rod",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-other-platforms.yml",
+      "source_repo": "go-rod/rod",
+      "target": "Test Other Platforms",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "go-rod/rod",
+      "target": "automation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "go-rod/rod",
+      "target": "chrome-devtools",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "go-rod/rod",
+      "target": "chrome-devtools-protocol",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "go-rod/rod",
+      "target": "chrome-headless",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "go-rod/rod",
+      "target": "crawling",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "go-rod/rod",
+      "target": "devtools",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "go-rod/rod",
+      "target": "devtools-protocol",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "go-rod/rod",
+      "target": "golang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "go-rod/rod",
+      "target": "gorod",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "go-rod/rod",
+      "target": "headless",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "go-rod/rod",
+      "target": "scraper",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "go-rod/rod",
+      "target": "testing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "go-rod/rod",
+      "target": "web-scraping",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-24T12:33:41.350224+00:00",
+  "source_repo": "go-rod/rod"
+}

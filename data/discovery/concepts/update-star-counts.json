@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Update Star Counts"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dotfiles/dotfiles.github.com",
+      "status": "candidate-context",
+      "text": "Your unofficial guide to doing dotfiles on GitHub."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dotfiles/dotfiles.github.com",
+      "status": "candidate-context",
+      "text": "Update Star Counts"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dotfiles/dotfiles.github.com",
+      "status": "candidate",
+      "text": "Update Star Counts"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20983,
+      "status": "candidate",
+      "text": "item"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20962,
+      "status": "candidate",
+      "text": "recap"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20377,
+      "status": "candidate",
+      "text": "antique"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20377,
+      "status": "candidate",
+      "text": "bar"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20377,
+      "status": "candidate",
+      "text": "barred"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Update Star Counts",
+  "concept_id": "update-star-counts",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/update-star-counts.yml",
+      "source_repo": "dotfiles/dotfiles.github.com"
+    }
+  ],
+  "first_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Update Star Counts",
+      "sense_id": "update-star-counts#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

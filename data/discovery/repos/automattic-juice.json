@@ -1,0 +1,312 @@
+{
+  "components": [
+    {
+      "component": "cheerio",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "commander",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "entities",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "mensch",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "slick",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "web-resource-inliner",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/node",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "batch",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "browserify",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "cross-spawn",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "mocha",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "should",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "typescript",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nodejs.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nodejs.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Automattic/juice",
+      "target": "cheeriojs/cheerio",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Automattic/juice",
+      "target": "brettstimmerman/mensch",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Automattic/juice",
+      "target": "subtlegradient/slick",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "Automattic/juice",
+      "target": "cheerio",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "Automattic/juice",
+      "target": "commander",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "Automattic/juice",
+      "target": "entities",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "Automattic/juice",
+      "target": "mensch",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "Automattic/juice",
+      "target": "slick",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "Automattic/juice",
+      "target": "web-resource-inliner",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Automattic/juice",
+      "target": "@types/node",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Automattic/juice",
+      "target": "batch",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Automattic/juice",
+      "target": "browserify",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Automattic/juice",
+      "target": "cross-spawn",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Automattic/juice",
+      "target": "mocha",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Automattic/juice",
+      "target": "should",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Automattic/juice",
+      "target": "typescript",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nodejs.yml",
+      "source_repo": "Automattic/juice",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nodejs.yml",
+      "source_repo": "Automattic/juice",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nodejs.yml",
+      "source_repo": "Automattic/juice",
+      "target": "build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Automattic/juice",
+      "target": "email",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Automattic/juice",
+      "target": "html",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Automattic/juice",
+      "target": "inline",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T13:03:51.310450+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 12890
+    },
+    {
+      "path": "package.json",
+      "size": 1333
+    },
+    {
+      "path": ".github/workflows/nodejs.yml",
+      "size": 706
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Juice inlines CSS stylesheets into your HTML source.",
+    "fork": false,
+    "full_name": "Automattic/juice",
+    "html_url": "https://github.com/Automattic/juice",
+    "language": "JavaScript",
+    "pushed_at": "2026-04-20T16:27:48Z",
+    "stargazers_count": 3249,
+    "topics": [
+      "css",
+      "email",
+      "html",
+      "inline"
+    ],
+    "updated_at": "2026-04-23T00:52:18Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "brettstimmerman/mensch",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cheeriojs/cheerio",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "subtlegradient/slick",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nodejs.yml",
+      "term": "build"
+    },
+    {
+      "context_snippet": "[![CI][github-ci-shield]][github-ci]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "email"
+    },
+    {
+      "context_snippet": "[![CI][github-ci-shield]][github-ci]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "html"
+    },
+    {
+      "context_snippet": "[![CI][github-ci-shield]][github-ci]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "inline"
+    }
+  ]
+}

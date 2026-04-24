@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\ud83d\ude80 Efficient implementations for emerging model architectures"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "nvidia-4090-ci"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "nvidia-4090-ci"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "nvidia-4090-ci",
+      "sense_id": "nvidia-4090-ci#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "nvidia-4090-ci",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "nvidia-4090-ci",
+  "observation_id": "f58459bc7898f642",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-24T12:33:41.350224+00:00",
+  "observed_text": "nvidia-4090-ci",
+  "source_context_snippet": "nvidia-4090-ci",
+  "source_file": ".github/workflows/nvidia-4090.yml",
+  "source_repo": "fla-org/flash-linear-attention",
+  "source_repo_description": "\ud83d\ude80 Efficient implementations for emerging model architectures"
+}

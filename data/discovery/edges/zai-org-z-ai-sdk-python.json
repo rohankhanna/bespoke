@@ -1,0 +1,125 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "pyproject.toml",
+      "source_repo": "zai-org/z-ai-sdk-python",
+      "target": "tophat/syrupy",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_integration_test.yml",
+      "source_repo": "zai-org/z-ai-sdk-python",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_release.yml",
+      "source_repo": "zai-org/z-ai-sdk-python",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_release.yml",
+      "source_repo": "zai-org/z-ai-sdk-python",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_release.yml",
+      "source_repo": "zai-org/z-ai-sdk-python",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_release.yml",
+      "source_repo": "zai-org/z-ai-sdk-python",
+      "target": "pypa/gh-action-pypi-publish@release/v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_release.yml",
+      "source_repo": "zai-org/z-ai-sdk-python",
+      "target": "ncipollo/release-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/_release.yml",
+      "source_repo": "zai-org/z-ai-sdk-python",
+      "target": "release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_test.yml",
+      "source_repo": "zai-org/z-ai-sdk-python",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/_test.yml",
+      "source_repo": "zai-org/z-ai-sdk-python",
+      "target": "test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_test_release.yml",
+      "source_repo": "zai-org/z-ai-sdk-python",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_test_release.yml",
+      "source_repo": "zai-org/z-ai-sdk-python",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_test_release.yml",
+      "source_repo": "zai-org/z-ai-sdk-python",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_test_release.yml",
+      "source_repo": "zai-org/z-ai-sdk-python",
+      "target": "pypa/gh-action-pypi-publish@release/v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/_test_release.yml",
+      "source_repo": "zai-org/z-ai-sdk-python",
+      "target": "test-release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint-pr.yaml",
+      "source_repo": "zai-org/z-ai-sdk-python",
+      "target": "amannn/action-semantic-pull-request@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint-pr.yaml",
+      "source_repo": "zai-org/z-ai-sdk-python",
+      "target": "Lint PR",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-24T12:33:41.350224+00:00",
+  "source_repo": "zai-org/z-ai-sdk-python"
+}

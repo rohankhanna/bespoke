@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "cmake Build and Test"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "onnx/optimizer",
+      "status": "candidate-context",
+      "text": "ONNX Optimizer"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "onnx/optimizer",
+      "status": "candidate-context",
+      "text": "cmake Build and Test"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "onnx/optimizer",
+      "status": "candidate",
+      "text": "cmake Build and Test"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11684,
+      "status": "candidate",
+      "text": "form"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11684,
+      "status": "candidate",
+      "text": "kludge"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11684,
+      "status": "candidate",
+      "text": "pose"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11684,
+      "status": "candidate",
+      "text": "raise"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11612,
+      "status": "candidate",
+      "text": "rugged"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "cmake Build and Test",
+  "concept_id": "cmake-build-and-test",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/cxx.yml",
+      "source_repo": "onnx/optimizer"
+    }
+  ],
+  "first_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "cmake Build and Test",
+      "sense_id": "cmake-build-and-test#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

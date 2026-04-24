@@ -1,0 +1,27 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mikepapadim/devoxx25-demo-gpullama3-langchain4j",
+      "target": "langchain4j/langchain4j",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mikepapadim/devoxx25-demo-gpullama3-langchain4j",
+      "target": "langchain4j/langchain4j-examples",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mikepapadim/devoxx25-demo-gpullama3-langchain4j",
+      "target": "mukel/llama3.java",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-04-24T12:33:41.350224+00:00",
+  "source_repo": "mikepapadim/devoxx25-demo-gpullama3-langchain4j"
+}

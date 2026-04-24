@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-24T13:02:57.194066+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8804
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Debugging tools for Direct3D-based software",
+    "fork": false,
+    "full_name": "microsoft/DirectX-Debugging-Tools",
+    "html_url": "https://github.com/microsoft/DirectX-Debugging-Tools",
+    "language": "JavaScript",
+    "pushed_at": "2024-05-20T17:47:39Z",
+    "stargazers_count": 103,
+    "topics": [],
+    "updated_at": "2026-03-23T02:30:06Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

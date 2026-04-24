@@ -1,0 +1,132 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aws/aws-ofi-nccl",
+      "target": "ofiwg/libfabric",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aws/aws-ofi-nccl",
+      "target": "rocm/rccl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/distcheck.yaml",
+      "source_repo": "aws/aws-ofi-nccl",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/distcheck.yaml",
+      "source_repo": "aws/aws-ofi-nccl",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/distcheck.yaml",
+      "source_repo": "aws/aws-ofi-nccl",
+      "target": "PR CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-release-draft.yml",
+      "source_repo": "aws/aws-ofi-nccl",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-release-draft.yml",
+      "source_repo": "aws/aws-ofi-nccl",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-release-draft.yml",
+      "source_repo": "aws/aws-ofi-nccl",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-release-draft.yml",
+      "source_repo": "aws/aws-ofi-nccl",
+      "target": "softprops/action-gh-release@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/generate-release-draft.yml",
+      "source_repo": "aws/aws-ofi-nccl",
+      "target": "Build and Generate Draft Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tag-makedist.yaml",
+      "source_repo": "aws/aws-ofi-nccl",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tag-makedist.yaml",
+      "source_repo": "aws/aws-ofi-nccl",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tag-makedist.yaml",
+      "source_repo": "aws/aws-ofi-nccl",
+      "target": "make `make dist` tarball",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-containers.yaml",
+      "source_repo": "aws/aws-ofi-nccl",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-containers.yaml",
+      "source_repo": "aws/aws-ofi-nccl",
+      "target": "docker/setup-buildx-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-containers.yaml",
+      "source_repo": "aws/aws-ofi-nccl",
+      "target": "docker/login-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-containers.yaml",
+      "source_repo": "aws/aws-ofi-nccl",
+      "target": "docker/build-push-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update-containers.yaml",
+      "source_repo": "aws/aws-ofi-nccl",
+      "target": "Update CI Containers",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-24T12:33:41.350224+00:00",
+  "source_repo": "aws/aws-ofi-nccl"
+}

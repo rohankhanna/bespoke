@@ -1,0 +1,100 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AceCHQ/MMIQ",
+      "target": "general-intelligence",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AceCHQ/MMIQ",
+      "target": "machine-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AceCHQ/MMIQ",
+      "target": "multimodal",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AceCHQ/MMIQ",
+      "target": "multimodal-large-language-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AceCHQ/MMIQ",
+      "target": "question-answering",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T12:34:45.728077+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3265
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "This repo contains evaluation code for MM-IQ benchmark.",
+    "fork": false,
+    "full_name": "AceCHQ/MMIQ",
+    "html_url": "https://github.com/AceCHQ/MMIQ",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2025-05-18T02:32:05Z",
+    "stargazers_count": 10,
+    "topics": [
+      "general-intelligence",
+      "machine-learning",
+      "multimodal",
+      "multimodal-large-language-models",
+      "question-answering"
+    ],
+    "updated_at": "2026-01-15T09:15:24Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "[**\ud83c\udf10 Homepage**](https://acechq.github.io/MMIQ-benchmark/) | [**\ud83c\udfc6 Leaderboard**](https://acechq.github.io/MMIQ-benchmark/#leaderboard) | [**\ud83e\udd17 MM-IQ**](https://huggingface.co/datasets/huanqia/MM-IQ) | [**\ud83d\udcd6 MM-IQ Paper**](https://arxiv.org/pdf/2502.00698)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "general-intelligence"
+    },
+    {
+      "context_snippet": "[**\ud83c\udf10 Homepage**](https://acechq.github.io/MMIQ-benchmark/) | [**\ud83c\udfc6 Leaderboard**](https://acechq.github.io/MMIQ-benchmark/#leaderboard) | [**\ud83e\udd17 MM-IQ**](https://huggingface.co/datasets/huanqia/MM-IQ) | [**\ud83d\udcd6 MM-IQ Paper**](https://arxiv.org/pdf/2502.00698)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-learning"
+    },
+    {
+      "context_snippet": "[**\ud83c\udf10 Homepage**](https://acechq.github.io/MMIQ-benchmark/) | [**\ud83c\udfc6 Leaderboard**](https://acechq.github.io/MMIQ-benchmark/#leaderboard) | [**\ud83e\udd17 MM-IQ**](https://huggingface.co/datasets/huanqia/MM-IQ) | [**\ud83d\udcd6 MM-IQ Paper**](https://arxiv.org/pdf/2502.00698)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multimodal"
+    },
+    {
+      "context_snippet": "[**\ud83c\udf10 Homepage**](https://acechq.github.io/MMIQ-benchmark/) | [**\ud83c\udfc6 Leaderboard**](https://acechq.github.io/MMIQ-benchmark/#leaderboard) | [**\ud83e\udd17 MM-IQ**](https://huggingface.co/datasets/huanqia/MM-IQ) | [**\ud83d\udcd6 MM-IQ Paper**](https://arxiv.org/pdf/2502.00698)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multimodal-large-language-models"
+    },
+    {
+      "context_snippet": "[**\ud83c\udf10 Homepage**](https://acechq.github.io/MMIQ-benchmark/) | [**\ud83c\udfc6 Leaderboard**](https://acechq.github.io/MMIQ-benchmark/#leaderboard) | [**\ud83e\udd17 MM-IQ**](https://huggingface.co/datasets/huanqia/MM-IQ) | [**\ud83d\udcd6 MM-IQ Paper**](https://arxiv.org/pdf/2502.00698)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "question-answering"
+    }
+  ]
+}

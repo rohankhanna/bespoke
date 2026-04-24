@@ -19,12 +19,30 @@
       "source_repo": "FoundationAgents/MetaGPT",
       "status": "candidate-context",
       "text": "Full Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fugue-project/fugue",
+      "status": "candidate-context",
+      "text": "A unified interface for distributed computing. Fugue executes SQL, Python, Pandas, and Polars code on Spark, Dask and Ray without any rewrites."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fugue-project/fugue",
+      "status": "candidate-context",
+      "text": "Full Tests"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "FoundationAgents/MetaGPT",
+      "status": "candidate",
+      "text": "Full Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fugue-project/fugue",
       "status": "candidate",
       "text": "Full Tests"
     }
@@ -82,11 +100,23 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": ".github/workflows/fulltest.yaml",
       "source_repo": "FoundationAgents/MetaGPT"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/fulltest.yaml",
+      "source_repo": "FoundationAgents/MetaGPT"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/test_all.yml",
+      "source_repo": "fugue-project/fugue"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "lexical_providers": [
     "datamuse"
   ],

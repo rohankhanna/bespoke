@@ -1,0 +1,279 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "enola-dev/enola",
+      "target": "virtuslab/bazel-steward",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "enola-dev/enola",
+      "target": "@okhsunrog/svg-term-cli",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "requirements.txt",
+      "source_repo": "enola-dev/enola",
+      "target": "fcivaner/hashdir",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "requirements.txt",
+      "source_repo": "enola-dev/enola",
+      "target": "mondeja/mkdocs-include-markdown-plugin",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "requirements.txt",
+      "source_repo": "enola-dev/enola",
+      "target": "cmacmackin/markdown-include",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bazel-steward.yaml",
+      "source_repo": "enola-dev/enola",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bazel-steward.yaml",
+      "source_repo": "enola-dev/enola",
+      "target": "VirtusLab/bazel-steward@v1.7.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bazel-steward.yaml",
+      "source_repo": "enola-dev/enola",
+      "target": "Bazel Steward \ud83e\udd35",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "enola-dev/enola",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "enola-dev/enola",
+      "target": "devcontainers/ci@v0.3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "enola-dev/enola",
+      "target": "cachix/install-nix-action@v31",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "enola-dev/enola",
+      "target": "jlumbroso/free-disk-space@v1.3.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "enola-dev/enola",
+      "target": "oduwsdl/setup-ipfs@678755ac20f92d2dfca7e16138e40ae75f7a0f6f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "enola-dev/enola",
+      "target": "nicknovitski/nix-develop@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "enola-dev/enola",
+      "target": "astral-sh/setup-uv@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "enola-dev/enola",
+      "target": "bazel-contrib/setup-bazel@0.18.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "enola-dev/enola",
+      "target": "actions/cache@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "enola-dev/enola",
+      "target": "actions/configure-pages@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "enola-dev/enola",
+      "target": "actions/upload-pages-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "enola-dev/enola",
+      "target": "actions/deploy-pages@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "enola-dev/enola",
+      "target": "docker/login-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "enola-dev/enola",
+      "target": "docker/metadata-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "enola-dev/enola",
+      "target": "docker/build-push-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "enola-dev/enola",
+      "target": "Build Test Deploy CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yaml",
+      "source_repo": "enola-dev/enola",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yaml",
+      "source_repo": "enola-dev/enola",
+      "target": "actions/setup-example@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yaml",
+      "source_repo": "enola-dev/enola",
+      "target": "github/codeql-action/init@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yaml",
+      "source_repo": "enola-dev/enola",
+      "target": "github/codeql-action/analyze@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yaml",
+      "source_repo": "enola-dev/enola",
+      "target": "CodeQL Advanced",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/copilot-setup-steps.yml",
+      "source_repo": "enola-dev/enola",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/copilot-setup-steps.yml",
+      "source_repo": "enola-dev/enola",
+      "target": "cachix/install-nix-action@v31",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/copilot-setup-steps.yml",
+      "source_repo": "enola-dev/enola",
+      "target": "nicknovitski/nix-develop@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/copilot-setup-steps.yml",
+      "source_repo": "enola-dev/enola",
+      "target": "Copilot Setup Steps",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "enola-dev/enola",
+      "target": "graph",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "enola-dev/enola",
+      "target": "graphviz",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "enola-dev/enola",
+      "target": "mermaid",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "enola-dev/enola",
+      "target": "modeling",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "enola-dev/enola",
+      "target": "semantic-web",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "enola-dev/enola",
+      "target": "visualization",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-24T12:33:41.350224+00:00",
+  "source_repo": "enola-dev/enola"
+}

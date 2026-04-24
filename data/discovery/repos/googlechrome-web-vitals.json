@@ -1,0 +1,396 @@
+{
+  "components": [
+    {
+      "component": "@babel/core",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@babel/preset-env",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@rollup/plugin-babel",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@rollup/plugin-terser",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@typescript-eslint/eslint-plugin",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@typescript-eslint/parser",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@wdio/cli",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@wdio/local-runner",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@wdio/mocha-framework",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@wdio/spec-reporter",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "fs-extra",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "husky",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "lint-staged",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "npm-run-all",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "nunjucks",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "prettier",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "rollup",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "typescript",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "yargs",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "GoogleChrome/web-vitals",
+      "target": "google-marketing-solutions/web-vitals-gtm-template",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "GoogleChrome/web-vitals",
+      "target": "w3c/navigation-timing",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "GoogleChrome/web-vitals",
+      "target": "wicg/layout-instability",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "GoogleChrome/web-vitals",
+      "target": "treosh/web-vitals-reporter",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "GoogleChrome/web-vitals",
+      "target": "@babel/core",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "GoogleChrome/web-vitals",
+      "target": "@babel/preset-env",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "GoogleChrome/web-vitals",
+      "target": "@rollup/plugin-babel",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "GoogleChrome/web-vitals",
+      "target": "@rollup/plugin-terser",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "GoogleChrome/web-vitals",
+      "target": "@typescript-eslint/eslint-plugin",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "GoogleChrome/web-vitals",
+      "target": "@typescript-eslint/parser",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "GoogleChrome/web-vitals",
+      "target": "@wdio/cli",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "GoogleChrome/web-vitals",
+      "target": "@wdio/local-runner",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "GoogleChrome/web-vitals",
+      "target": "@wdio/mocha-framework",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "GoogleChrome/web-vitals",
+      "target": "@wdio/spec-reporter",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "GoogleChrome/web-vitals",
+      "target": "eslint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "GoogleChrome/web-vitals",
+      "target": "fs-extra",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "GoogleChrome/web-vitals",
+      "target": "husky",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "GoogleChrome/web-vitals",
+      "target": "lint-staged",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "GoogleChrome/web-vitals",
+      "target": "npm-run-all",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "GoogleChrome/web-vitals",
+      "target": "nunjucks",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "GoogleChrome/web-vitals",
+      "target": "prettier",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "GoogleChrome/web-vitals",
+      "target": "rollup",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "GoogleChrome/web-vitals",
+      "target": "typescript",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "GoogleChrome/web-vitals",
+      "target": "yargs",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "GoogleChrome/web-vitals",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "GoogleChrome/web-vitals",
+      "target": "Lint Code Base",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "GoogleChrome/web-vitals",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "GoogleChrome/web-vitals",
+      "target": "Run tests",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T12:55:38.110860+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 52053
+    },
+    {
+      "path": "package.json",
+      "size": 5295
+    },
+    {
+      "path": ".github/workflows/lint.yml",
+      "size": 429
+    },
+    {
+      "path": ".github/workflows/tests.yml",
+      "size": 1840
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Essential metrics for a healthy site.",
+    "fork": false,
+    "full_name": "GoogleChrome/web-vitals",
+    "html_url": "https://github.com/GoogleChrome/web-vitals",
+    "language": "JavaScript",
+    "pushed_at": "2026-04-23T04:57:37Z",
+    "stargazers_count": 8483,
+    "topics": [],
+    "updated_at": "2026-04-24T07:01:05Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "google-marketing-solutions/web-vitals-gtm-template",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "treosh/web-vitals-reporter",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "w3c/navigation-timing",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "wicg/layout-instability",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Lint Code Base",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "term": "Lint Code Base"
+    },
+    {
+      "context_snippet": "Run tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests.yml",
+      "term": "Run tests"
+    }
+  ]
+}

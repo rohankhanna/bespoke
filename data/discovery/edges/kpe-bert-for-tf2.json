@@ -1,0 +1,62 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.rst",
+      "source_repo": "kpe/bert-for-tf2",
+      "target": "kpe/params-flow",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.rst",
+      "source_repo": "kpe/bert-for-tf2",
+      "target": "google-research/bert",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.rst",
+      "source_repo": "kpe/bert-for-tf2",
+      "target": "google-research/adapter-bert",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.rst",
+      "source_repo": "kpe/bert-for-tf2",
+      "target": "google-research/albert",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kpe/bert-for-tf2",
+      "target": "bert",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kpe/bert-for-tf2",
+      "target": "keras",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kpe/bert-for-tf2",
+      "target": "tensorflow",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kpe/bert-for-tf2",
+      "target": "transformer",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-24T12:33:41.350224+00:00",
+  "source_repo": "kpe/bert-for-tf2"
+}

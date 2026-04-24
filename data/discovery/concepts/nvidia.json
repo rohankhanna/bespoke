@@ -271,6 +271,18 @@
       "source_repo": "nod-ai/AMD-SHARK-Studio",
       "status": "candidate-context",
       "text": "High Performance Machine Learning Distribution"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "SemiAnalysisAI/InferenceX",
+      "status": "candidate-context",
+      "text": "Open Source Continuous Inference Benchmarking Qwen3.5, DeepSeek, GPTOSS - GB200 NVL72 vs MI355X vs B200 vs GB300 NVL72 vs H100 & soon\u2122 TPUv6e/v7/Trainium2/3"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SemiAnalysisAI/InferenceX",
+      "status": "candidate-context",
+      "text": "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://github.com/SemiAnalysisAI/InferenceX/blob/main/LICENSE)"
     }
   ],
   "candidate_glosses": [
@@ -405,6 +417,12 @@
       "source_repo": "nod-ai/AMD-SHARK-Studio",
       "status": "candidate",
       "text": "High Performance Machine Learning Distribution"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SemiAnalysisAI/InferenceX",
+      "status": "candidate",
+      "text": "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://github.com/SemiAnalysisAI/InferenceX/blob/main/LICENSE)"
     }
   ],
   "candidate_related_terms": [
@@ -598,11 +616,17 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "nod-ai/AMD-SHARK-Studio"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "SemiAnalysisAI/InferenceX"
     }
   ],
   "first_seen_at": "2026-04-19T01:08:57.644140+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "lexical_providers": [
     "datamuse"
   ],

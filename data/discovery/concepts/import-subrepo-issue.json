@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Import Subrepo Issue"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ROCm/rocm-libraries",
+      "status": "candidate-context",
+      "text": "super repo for rocm libraries"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ROCm/rocm-libraries",
+      "status": "candidate-context",
+      "text": "Import Subrepo Issue"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ROCm/rocm-libraries",
+      "status": "candidate",
+      "text": "Import Subrepo Issue"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26279,
+      "status": "candidate",
+      "text": "tariff"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9891,
+      "status": "candidate",
+      "text": "admission"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9891,
+      "status": "candidate",
+      "text": "importance"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9891,
+      "status": "candidate",
+      "text": "important"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9891,
+      "status": "candidate",
+      "text": "imports"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Import Subrepo Issue",
+  "concept_id": "import-subrepo-issue",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/issue-import.yml",
+      "source_repo": "ROCm/rocm-libraries"
+    }
+  ],
+  "first_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Import Subrepo Issue",
+      "sense_id": "import-subrepo-issue#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

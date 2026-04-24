@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Approximate Nearest Neighbors in C++/Python optimized for memory usage and loading/saving to disk"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Annoy"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Annoy"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40015578,
+      "status": "candidate",
+      "text": "bother"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40015563,
+      "status": "candidate",
+      "text": "vex"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40015537,
+      "status": "candidate",
+      "text": "irritate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40007909,
+      "status": "candidate",
+      "text": "rile"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39996986,
+      "status": "candidate",
+      "text": "rag"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Annoy",
+      "sense_id": "annoy#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 13050,
+      "status": "candidate",
+      "text": "nettle"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 13041,
+      "status": "candidate",
+      "text": "vex"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 11028,
+      "status": "candidate",
+      "text": "nark"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 9051,
+      "status": "candidate",
+      "text": "gravel"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 9037,
+      "status": "candidate",
+      "text": "bother"
+    }
+  ],
+  "concept_id": "annoy",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "annoy",
+  "observation_id": "3fd36c40719087ab",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-24T12:33:41.350224+00:00",
+  "observed_text": "Annoy",
+  "source_context_snippet": "Annoy",
+  "source_file": ".github/workflows/ci.yml",
+  "source_repo": "spotify/annoy",
+  "source_repo_description": "Approximate Nearest Neighbors in C++/Python optimized for memory usage and loading/saving to disk"
+}

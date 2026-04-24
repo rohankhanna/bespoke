@@ -1,7 +1,7 @@
 {
   "component": "playwright-1.55",
   "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "sources": [
     {
       "discovered_via": "package-json:dependencies",

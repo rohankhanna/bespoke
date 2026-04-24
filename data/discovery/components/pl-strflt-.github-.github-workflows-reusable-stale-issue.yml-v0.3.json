@@ -1,0 +1,12 @@
+{
+  "component": "pl-strflt/.github/.github/workflows/reusable-stale-issue.yml@v0.3",
+  "first_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "ipfs/go-ds-s3"
+    }
+  ]
+}

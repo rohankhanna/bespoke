@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Cloud Deployment Example Test"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "a2aproject/a2a-java",
+      "status": "candidate-context",
+      "text": "Official Java SDK for the Agent2Agent (A2A) Protocol"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "a2aproject/a2a-java",
+      "status": "candidate-context",
+      "text": "Cloud Deployment Example Test"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "a2aproject/a2a-java",
+      "status": "candidate",
+      "text": "Cloud Deployment Example Test"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 43311,
+      "status": "candidate",
+      "text": "ring"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 43311,
+      "status": "candidate",
+      "text": "rings"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33198,
+      "status": "candidate",
+      "text": "sample"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33162,
+      "status": "candidate",
+      "text": "reagent"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33146,
+      "status": "candidate",
+      "text": "percentile"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Cloud Deployment Example Test",
+  "concept_id": "cloud-deployment-example-test",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/cloud-deployment-example.yml",
+      "source_repo": "a2aproject/a2a-java"
+    }
+  ],
+  "first_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Cloud Deployment Example Test",
+      "sense_id": "cloud-deployment-example-test#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

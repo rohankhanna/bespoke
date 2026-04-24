@@ -1,0 +1,118 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "kasztp/URL_Shortener",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "kasztp/URL_Shortener",
+      "target": "github/codeql-action/init@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "kasztp/URL_Shortener",
+      "target": "github/codeql-action/autobuild@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "kasztp/URL_Shortener",
+      "target": "github/codeql-action/analyze@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "kasztp/URL_Shortener",
+      "target": "CodeQL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pylint.yml",
+      "source_repo": "kasztp/URL_Shortener",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pylint.yml",
+      "source_repo": "kasztp/URL_Shortener",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pylint.yml",
+      "source_repo": "kasztp/URL_Shortener",
+      "target": "actions/upload-artifact@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pylint.yml",
+      "source_repo": "kasztp/URL_Shortener",
+      "target": "Pylint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest.yml",
+      "source_repo": "kasztp/URL_Shortener",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest.yml",
+      "source_repo": "kasztp/URL_Shortener",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pytest.yml",
+      "source_repo": "kasztp/URL_Shortener",
+      "target": "Pytest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kasztp/URL_Shortener",
+      "target": "base62",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kasztp/URL_Shortener",
+      "target": "flask",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kasztp/URL_Shortener",
+      "target": "flask-sqlalchemy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kasztp/URL_Shortener",
+      "target": "url-shortener",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-24T12:33:41.350224+00:00",
+  "source_repo": "kasztp/URL_Shortener"
+}

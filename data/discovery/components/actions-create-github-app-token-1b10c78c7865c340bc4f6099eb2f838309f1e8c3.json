@@ -1,7 +1,7 @@
 {
   "component": "actions/create-github-app-token@1b10c78c7865c340bc4f6099eb2f838309f1e8c3",
   "first_seen_at": "2026-04-18T04:44:33.621188+00:00",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -142,6 +142,16 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/auto-update-tools.yml",
       "source_repo": "getsentry/sentry-cocoa"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release-v1.yml",
+      "source_repo": "grafana/k8s-monitoring-helm"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "grafana/k8s-monitoring-helm"
     }
   ]
 }

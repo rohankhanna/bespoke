@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "actively maintained fork of html-minifier - minify HTML, CSS and JS code using terser - supports ES6 code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![NPM version](https://img.shields.io/npm/v/html-minifier-terser.svg)](https://www.npmjs.com/package/html-minifier-terser)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![NPM version](https://img.shields.io/npm/v/html-minifier-terser.svg)](https://www.npmjs.com/package/html-minifier-terser)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40040073,
+      "status": "candidate",
+      "text": "press"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40038412,
+      "status": "candidate",
+      "text": "constrict"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40036636,
+      "status": "candidate",
+      "text": "squeeze"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39978655,
+      "status": "candidate",
+      "text": "compact"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39962850,
+      "status": "candidate",
+      "text": "contract"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "compress",
+      "sense_id": "compress#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 27048,
+      "status": "candidate",
+      "text": "compact"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 22074,
+      "status": "candidate",
+      "text": "contract"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 21054,
+      "status": "candidate",
+      "text": "squeeze"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 19055,
+      "status": "candidate",
+      "text": "press"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 12035,
+      "status": "candidate",
+      "text": "constrict"
+    }
+  ],
+  "concept_id": "compress",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "compress",
+  "observation_id": "47df3932e8a66c6d",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T12:33:41.350224+00:00",
+  "observed_text": "compress",
+  "source_context_snippet": "[![NPM version](https://img.shields.io/npm/v/html-minifier-terser.svg)](https://www.npmjs.com/package/html-minifier-terser)",
+  "source_file": null,
+  "source_repo": "terser/html-minifier-terser",
+  "source_repo_description": "actively maintained fork of html-minifier - minify HTML, CSS and JS code using terser - supports ES6 code"
+}

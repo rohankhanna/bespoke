@@ -1,11 +1,14 @@
 {
   "aliases": [
-    "meeting-notes"
+    "meeting-notes",
+    "Meeting Notes"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
     "tool-component",
-    "capability"
+    "capability",
+    "workflow-process",
+    "data-document-artifact"
   ],
   "candidate_definitions": [
     {
@@ -31,6 +34,18 @@
       "source_repo": "graphql/graphql-wg",
       "status": "candidate-context",
       "text": "GraphQL WG (Working Group) is a set of recurring virtual meetings of maintainers"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "CVEProject/automation-working-group",
+      "status": "candidate-context",
+      "text": "CVE Automation Working Group"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CVEProject/automation-working-group",
+      "status": "candidate-context",
+      "text": "Meeting Notes"
     }
   ],
   "candidate_glosses": [
@@ -45,9 +60,51 @@
       "source_repo": "graphql/graphql-wg",
       "status": "candidate",
       "text": "GraphQL WG (Working Group) is a set of recurring virtual meetings of maintainers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CVEProject/automation-working-group",
+      "status": "candidate",
+      "text": "Meeting Notes"
     }
   ],
-  "candidate_related_terms": [],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11649,
+      "status": "candidate",
+      "text": "briefing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11649,
+      "status": "candidate",
+      "text": "call"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11649,
+      "status": "candidate",
+      "text": "figure"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11649,
+      "status": "candidate",
+      "text": "minute"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11649,
+      "status": "candidate",
+      "text": "records"
+    }
+  ],
   "candidate_synonyms": [],
   "canonical_name": "meeting-notes",
   "concept_id": "meeting-notes",
@@ -64,11 +121,17 @@
       "observed_at": "2026-04-22T18:52:26.467154+00:00",
       "source_file": null,
       "source_repo": "graphql/graphql-wg"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/meeting_notes.yml",
+      "source_repo": "CVEProject/automation-working-group"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "lexical_providers": [
     "datamuse"
   ],

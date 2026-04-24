@@ -1,0 +1,191 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dwyl/home",
+      "target": "dwyl/bunk-bed",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dwyl/home",
+      "target": "dwyl/fields-demo",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dwyl/home",
+      "target": "dwyl/code-of-conduct",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dwyl/home",
+      "target": "dwyl/feedback",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dwyl/home",
+      "target": "affordable",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dwyl/home",
+      "target": "creative",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dwyl/home",
+      "target": "health",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dwyl/home",
+      "target": "healthy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dwyl/home",
+      "target": "house",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dwyl/home",
+      "target": "housing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dwyl/home",
+      "target": "organic",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dwyl/home",
+      "target": "technology",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T12:59:01.982799+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 62885
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "\ud83c\udfe1 \ud83d\udc69\u200d\ud83d\udcbb \ud83d\udca1 home is where you can [learn to] build the future surrounded by like-minded creative, friendly and [intrinsically] motivated people focussed on health, fitness and making things people and the world need!",
+    "fork": false,
+    "full_name": "dwyl/home",
+    "html_url": "https://github.com/dwyl/home",
+    "language": null,
+    "pushed_at": "2024-08-05T22:59:35Z",
+    "stargazers_count": 253,
+    "topics": [
+      "affordable",
+      "creative",
+      "health",
+      "healthy",
+      "house",
+      "housing",
+      "organic",
+      "technology"
+    ],
+    "updated_at": "2026-01-04T14:33:05Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dwyl/bunk-bed",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dwyl/code-of-conduct",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dwyl/feedback",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dwyl/fields-demo",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "affordable"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "creative"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "health"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "healthy"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "house"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "housing"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "organic"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "technology"
+    }
+  ]
+}

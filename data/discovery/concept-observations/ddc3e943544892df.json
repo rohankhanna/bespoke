@@ -48,7 +48,7 @@
   "normalized_form": "snapcraft",
   "observation_id": "ddc3e943544892df",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_at": "2026-04-24T12:33:41.350224+00:00",
   "observed_text": "snapcraft",
   "source_context_snippet": "snapcraft",
   "source_file": ".github/workflows/snapcraft.yml",

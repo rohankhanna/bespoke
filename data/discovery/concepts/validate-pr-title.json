@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "Validate PR title"
+    "Validate PR title",
+    "validate-pr-title"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -55,6 +56,18 @@
       "source_repo": "terraform-aws-modules/terraform-aws-apigateway-v2",
       "status": "candidate-context",
       "text": "'Validate PR title'"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "a2aproject/a2a-go",
+      "status": "candidate-context",
+      "text": "Golang SDK for A2A Protocol"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "a2aproject/a2a-go",
+      "status": "candidate-context",
+      "text": "validate-pr-title"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +94,12 @@
       "source_repo": "terraform-aws-modules/terraform-aws-apigateway-v2",
       "status": "candidate",
       "text": "'Validate PR title'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "a2aproject/a2a-go",
+      "status": "candidate",
+      "text": "validate-pr-title"
     }
   ],
   "candidate_related_terms": [
@@ -148,11 +167,17 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": ".github/workflows/pr-title.yml",
       "source_repo": "terraform-aws-modules/terraform-aws-apigateway-v2"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/validate-pr-title.yaml",
+      "source_repo": "a2aproject/a2a-go"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "lexical_providers": [
     "datamuse"
   ],

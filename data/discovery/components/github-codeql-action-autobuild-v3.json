@@ -1,7 +1,7 @@
 {
   "component": "github/codeql-action/autobuild@v3",
   "first_seen_at": "2026-04-18T09:22:19.136418+00:00",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -237,6 +237,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/codeql-analysis.yml",
       "source_repo": "octokit/webhooks"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "web-platform-tests/wpt.fyi"
     }
   ]
 }

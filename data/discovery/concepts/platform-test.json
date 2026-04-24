@@ -1,0 +1,94 @@
+{
+  "aliases": [
+    "Platform Test"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "grafana/k8s-monitoring-helm",
+      "status": "candidate-context",
+      "text": "Platform Test"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "grafana/k8s-monitoring-helm",
+      "status": "candidate",
+      "text": "Platform Test"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11671,
+      "status": "candidate",
+      "text": "pace"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11671,
+      "status": "candidate",
+      "text": "ring"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11671,
+      "status": "candidate",
+      "text": "rings"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11671,
+      "status": "candidate",
+      "text": "square"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11671,
+      "status": "candidate",
+      "text": "stand"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Platform Test",
+  "concept_id": "platform-test",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/platform-test.yml",
+      "source_repo": "grafana/k8s-monitoring-helm"
+    }
+  ],
+  "first_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Platform Test",
+      "sense_id": "platform-test#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

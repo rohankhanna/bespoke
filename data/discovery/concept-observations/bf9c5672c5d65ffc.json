@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "HiveMQ Helm charts"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "\"Create Edge Helm Chart Release PR\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "\"Create Edge Helm Chart Release PR\""
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 43974,
+      "status": "candidate",
+      "text": "plot"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 43974,
+      "status": "candidate",
+      "text": "plotted"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 43974,
+      "status": "candidate",
+      "text": "plotting"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 41014,
+      "status": "candidate",
+      "text": "trail"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40942,
+      "status": "candidate",
+      "text": "precipitate"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Create Edge Helm Chart Release PR",
+      "sense_id": "create-edge-helm-chart-release-pr#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "create-edge-helm-chart-release-pr",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "create-edge-helm-chart-release-pr",
+  "observation_id": "bf9c5672c5d65ffc",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-24T12:33:41.350224+00:00",
+  "observed_text": "Create Edge Helm Chart Release PR",
+  "source_context_snippet": "\"Create Edge Helm Chart Release PR\"",
+  "source_file": ".github/workflows/edge-release-pr.yml",
+  "source_repo": "hivemq/helm-charts",
+  "source_repo_description": "HiveMQ Helm charts"
+}

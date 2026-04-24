@@ -1,7 +1,7 @@
 {
   "component": "pypa/gh-action-pypi-publish@release/v1",
   "first_seen_at": "2026-04-17T16:51:41.136432+00:00",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -1227,6 +1227,71 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/pypi-publish.yml",
       "source_repo": "HKUDS/LightRAG"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "Quentin18/gymnasium-2048"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "argilla-io/distilabel"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release-cuda13.yaml",
+      "source_repo": "kvcache-ai/Mooncake"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release-non-cuda.yaml",
+      "source_repo": "kvcache-ai/Mooncake"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml",
+      "source_repo": "alex-petrenko/faster-fifo"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/_release.yml",
+      "source_repo": "zai-org/z-ai-sdk-python"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/_test_release.yml",
+      "source_repo": "zai-org/z-ai-sdk-python"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test.yml",
+      "source_repo": "onnx/optimizer"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "marcelm/cutadapt"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "cmake-wheel/cmeel-example"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "scverse/rapids-singlecell"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "spotify/annoy"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/python-wheels.yaml",
+      "source_repo": "pantoniou/libfyaml"
     }
   ]
 }

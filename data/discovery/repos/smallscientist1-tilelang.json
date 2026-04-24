@@ -1,0 +1,228 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bot.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bot.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependabot.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependabot.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_docs.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_docs.yml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reminder.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bot.yml",
+      "source_repo": "smallscientist1/tilelang",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bot.yml",
+      "source_repo": "smallscientist1/tilelang",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bot.yml",
+      "source_repo": "smallscientist1/tilelang",
+      "target": "Bot",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "smallscientist1/tilelang",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "smallscientist1/tilelang",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependabot.yml",
+      "source_repo": "smallscientist1/tilelang",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependabot.yml",
+      "source_repo": "smallscientist1/tilelang",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dependabot.yml",
+      "source_repo": "smallscientist1/tilelang",
+      "target": "Dependent Bot Action",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_docs.yml",
+      "source_repo": "smallscientist1/tilelang",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_docs.yml",
+      "source_repo": "smallscientist1/tilelang",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish_docs.yml",
+      "source_repo": "smallscientist1/tilelang",
+      "target": "documentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reminder.yml",
+      "source_repo": "smallscientist1/tilelang",
+      "target": "actions/github-script@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/reminder.yml",
+      "source_repo": "smallscientist1/tilelang",
+      "target": "Reminder Bot",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T12:41:01.907279+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 12209
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 838
+    },
+    {
+      "path": "requirements.txt",
+      "size": 118
+    },
+    {
+      "path": ".github/workflows/bot.yml",
+      "size": 2013
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 1875
+    },
+    {
+      "path": ".github/workflows/dependabot.yml",
+      "size": 441
+    },
+    {
+      "path": ".github/workflows/publish_docs.yml",
+      "size": 1523
+    },
+    {
+      "path": ".github/workflows/reminder.yml",
+      "size": 951
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "my",
+    "description": " Domain-specific language designed to streamline the development of high-performance GPU/CPU kernels",
+    "fork": true,
+    "full_name": "smallscientist1/tilelang",
+    "html_url": "https://github.com/smallscientist1/tilelang",
+    "language": "C++",
+    "pushed_at": "2025-11-22T13:10:37Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2025-11-20T15:40:59Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Bot",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bot.yml",
+      "term": "Bot"
+    },
+    {
+      "context_snippet": "Dependent Bot Action",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dependabot.yml",
+      "term": "Dependent Bot Action"
+    },
+    {
+      "context_snippet": "documentation",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish_docs.yml",
+      "term": "documentation"
+    },
+    {
+      "context_snippet": "Reminder Bot",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/reminder.yml",
+      "term": "Reminder Bot"
+    }
+  ]
+}

@@ -1,0 +1,111 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "multiformats/js-cid",
+      "target": "feross/standard",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "multiformats/js-cid",
+      "target": "multibase",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "multiformats/js-cid",
+      "target": "multicodec",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "multiformats/js-cid",
+      "target": "multihashes",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "multiformats/js-cid",
+      "target": "uint8arrays",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "multiformats/js-cid",
+      "target": "@sinonjs/samsam",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "multiformats/js-cid",
+      "target": "aegir",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "multiformats/js-cid",
+      "target": "multihashing-async",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "multiformats/js-cid",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "multiformats/js-cid",
+      "target": "gozala/typescript-error-reporter-action@v1.0.8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "multiformats/js-cid",
+      "target": "ipfs/aegir/actions/bundle-size@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "multiformats/js-cid",
+      "target": "actions/setup-node@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "multiformats/js-cid",
+      "target": "codecov/codecov-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "multiformats/js-cid",
+      "target": "microsoft/playwright-github-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "multiformats/js-cid",
+      "target": "ipld",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-24T12:33:41.350224+00:00",
+  "source_repo": "multiformats/js-cid"
+}

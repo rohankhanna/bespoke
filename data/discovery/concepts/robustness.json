@@ -19,6 +19,18 @@
       "source_repo": "bethgelab/model-vs-human",
       "status": "candidate-context",
       "text": "![header](./assets/header/header.png \"header\")"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "amazon-science/recode",
+      "status": "candidate-context",
+      "text": "Releasing code for \"ReCode: Robustness Evaluation of Code Generation Models\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "amazon-science/recode",
+      "status": "candidate-context",
+      "text": "This is the repo for ReCode ([arXiv](https://arxiv.org/abs/2212.10264)), providing a comprehensive evaluation for the practical robustness of code generation models like CodeGEN, Incoder, GPT-J. In specific, this benchmark provides over 30 different general perturbations on docs\u2026"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "bethgelab/model-vs-human",
       "status": "candidate",
       "text": "![header](./assets/header/header.png \"header\")"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "amazon-science/recode",
+      "status": "candidate",
+      "text": "This is the repo for ReCode ([arXiv](https://arxiv.org/abs/2212.10264)), providing a comprehensive evaluation for the practical robustness of code generation models like CodeGEN, Incoder, GPT-J. In specific, this benchmark provides over 30 different general perturbations on docs\u2026"
     }
   ],
   "candidate_related_terms": [
@@ -91,11 +109,17 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "bethgelab/model-vs-human"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "amazon-science/recode"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "lexical_providers": [
     "datamuse"
   ],

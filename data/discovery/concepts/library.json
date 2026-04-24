@@ -451,6 +451,18 @@
       "source_repo": "pypa/virtualenv",
       "status": "candidate-context",
       "text": "[![PyPI](https://img.shields.io/pypi/v/virtualenv?style=flat-square)](https://pypi.org/project/virtualenv)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "softprops/hubcaps",
+      "status": "candidate-context",
+      "text": "a rust interface for github"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "softprops/hubcaps",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -675,6 +687,12 @@
       "source_repo": "pypa/virtualenv",
       "status": "candidate",
       "text": "[![PyPI](https://img.shields.io/pypi/v/virtualenv?style=flat-square)](https://pypi.org/project/virtualenv)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "softprops/hubcaps",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -979,11 +997,17 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "kubernetes-client/python"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "softprops/hubcaps"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "lexical_providers": [
     "datamuse"
   ],

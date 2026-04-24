@@ -19,6 +19,18 @@
       "source_repo": "THUDM/LongBench",
       "status": "candidate-context",
       "text": "![](LongBench/misc/logo.gif)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "THUDM/LongAlign",
+      "status": "candidate-context",
+      "text": "[EMNLP 2024] LongAlign: A Recipe for Long Context Alignment of LLMs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "THUDM/LongAlign",
+      "status": "candidate-context",
+      "text": "![](assets/LongAlign-logo.gif)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "THUDM/LongBench",
       "status": "candidate",
       "text": "![](LongBench/misc/logo.gif)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "THUDM/LongAlign",
+      "status": "candidate",
+      "text": "![](assets/LongAlign-logo.gif)"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "THUDM/LongBench"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "THUDM/LongAlign"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "lexical_providers": [
     "datamuse"
   ],

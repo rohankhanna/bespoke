@@ -1,7 +1,8 @@
 {
   "aliases": [
     "Release helm chart",
-    "Release Helm Chart"
+    "Release Helm Chart",
+    "Release Helm chart"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -32,6 +33,12 @@
       "source_repo": "celo-org/charts",
       "status": "candidate-context",
       "text": "Release Helm Chart"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "grafana/k8s-monitoring-helm",
+      "status": "candidate-context",
+      "text": "Release Helm chart"
     }
   ],
   "candidate_glosses": [
@@ -46,6 +53,12 @@
       "source_repo": "celo-org/charts",
       "status": "candidate",
       "text": "Release Helm Chart"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "grafana/k8s-monitoring-helm",
+      "status": "candidate",
+      "text": "Release Helm chart"
     }
   ],
   "candidate_related_terms": [
@@ -101,11 +114,17 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": ".github/workflows/helm_release.yml",
       "source_repo": "celo-org/charts"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "grafana/k8s-monitoring-helm"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "lexical_providers": [
     "datamuse"
   ],

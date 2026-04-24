@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bojone/bert4keras",
+      "target": "bojone/bert_in_keras",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bojone/bert4keras",
+      "target": "bojone/albert_zh",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bojone/bert4keras",
+      "target": "bojone/cdial-gpt-tf",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bojone/bert4keras",
+      "target": "bojone/chinese-gen",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-24T12:39:27.497266+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10966
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "keras implement of transformers for humans",
+    "fork": false,
+    "full_name": "bojone/bert4keras",
+    "html_url": "https://github.com/bojone/bert4keras",
+    "language": "Python",
+    "pushed_at": "2024-11-11T15:41:47Z",
+    "stargazers_count": 5420,
+    "topics": [],
+    "updated_at": "2026-04-22T09:22:46Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bojone/albert_zh",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bojone/bert_in_keras",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bojone/cdial-gpt-tf",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bojone/chinese-gen",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

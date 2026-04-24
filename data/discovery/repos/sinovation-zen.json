@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-24T12:39:53.680352+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1782
+    },
+    {
+      "path": "requirements.txt",
+      "size": 291
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A BERT-based Chinese Text Encoder Enhanced by N-gram Representations",
+    "fork": false,
+    "full_name": "sinovation/ZEN",
+    "html_url": "https://github.com/sinovation/ZEN",
+    "language": "Python",
+    "pushed_at": "2022-07-24T02:06:50Z",
+    "stargazers_count": 644,
+    "topics": [],
+    "updated_at": "2026-04-02T07:21:17Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

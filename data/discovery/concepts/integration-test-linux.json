@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Integration test (Linux)"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kvcache-ai/Mooncake",
+      "status": "candidate-context",
+      "text": "Mooncake is the serving platform for Kimi, a leading LLM service provided by Moonshot AI."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kvcache-ai/Mooncake",
+      "status": "candidate-context",
+      "text": "'Integration test (Linux)'"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kvcache-ai/Mooncake",
+      "status": "candidate",
+      "text": "'Integration test (Linux)'"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28473,
+      "status": "candidate",
+      "text": "downstream"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28330,
+      "status": "candidate",
+      "text": "freedom rider"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12085,
+      "status": "candidate",
+      "text": "area"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12085,
+      "status": "candidate",
+      "text": "consideration"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11062,
+      "status": "candidate",
+      "text": "accession"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Integration test (Linux)",
+  "concept_id": "integration-test-linux",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/integration-test.yml",
+      "source_repo": "kvcache-ai/Mooncake"
+    }
+  ],
+  "first_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Integration test (Linux)",
+      "sense_id": "integration-test-linux#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

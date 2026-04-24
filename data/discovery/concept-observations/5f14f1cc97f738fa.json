@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Pre-Training with Whole Word Masking for Chinese BERT\uff08\u4e2d\u6587BERT-wwm\u7cfb\u5217\u6a21\u578b\uff09"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[**\u4e2d\u6587\u8bf4\u660e**](https://github.com/ymcui/Chinese-BERT-wwm/) | [**English**](https://github.com/ymcui/Chinese-BERT-wwm/blob/master/README_EN.md)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[**\u4e2d\u6587\u8bf4\u660e**](https://github.com/ymcui/Chinese-BERT-wwm/) | [**English**](https://github.com/ymcui/Chinese-BERT-wwm/blob/master/README_EN.md)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19310154,
+      "status": "candidate",
+      "text": "robert"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19148306,
+      "status": "candidate",
+      "text": "bondar"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18554732,
+      "status": "candidate",
+      "text": "mrs"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18156847,
+      "status": "candidate",
+      "text": "penny"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9321157,
+      "status": "candidate",
+      "text": "robbi"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "roberta",
+      "sense_id": "roberta#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "roberta",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "roberta",
+  "observation_id": "5f14f1cc97f738fa",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T12:33:41.350224+00:00",
+  "observed_text": "roberta",
+  "source_context_snippet": "[**\u4e2d\u6587\u8bf4\u660e**](https://github.com/ymcui/Chinese-BERT-wwm/) | [**English**](https://github.com/ymcui/Chinese-BERT-wwm/blob/master/README_EN.md)",
+  "source_file": null,
+  "source_repo": "ymcui/Chinese-BERT-wwm",
+  "source_repo_description": "Pre-Training with Whole Word Masking for Chinese BERT\uff08\u4e2d\u6587BERT-wwm\u7cfb\u5217\u6a21\u578b\uff09"
+}

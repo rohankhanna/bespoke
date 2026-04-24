@@ -319,6 +319,18 @@
       "source_repo": "lemire/fastbase64",
       "status": "candidate-context",
       "text": "**This is an unmaintained software package that was used for research purposes. Do not use in production. [Use the simdutf library instead](https://github.com/simdutf/simdutf).** The simdutf library has superior support for base64."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mukel/llama3.java",
+      "status": "candidate-context",
+      "text": "Llama 3+ inference in pure Java"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mukel/llama3.java",
+      "status": "candidate-context",
+      "text": "Practical [Llama 3](https://github.com/meta-llama/llama3), [3.1](https://llama.meta.com/docs/model-cards-and-prompt-formats/llama3_1) and [3.2](https://ai.meta.com/blog/llama-3-2-connect-2024-vision-edge-mobile-devices/) inference implemented in a single Java file."
     }
   ],
   "candidate_glosses": [
@@ -477,6 +489,12 @@
       "source_repo": "lemire/fastbase64",
       "status": "candidate",
       "text": "**This is an unmaintained software package that was used for research purposes. Do not use in production. [Use the simdutf library instead](https://github.com/simdutf/simdutf).** The simdutf library has superior support for base64."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mukel/llama3.java",
+      "status": "candidate",
+      "text": "Practical [Llama 3](https://github.com/meta-llama/llama3), [3.1](https://llama.meta.com/docs/model-cards-and-prompt-formats/llama3_1) and [3.2](https://ai.meta.com/blog/llama-3-2-connect-2024-vision-edge-mobile-devices/) inference implemented in a single Java file."
     }
   ],
   "candidate_related_terms": [
@@ -694,11 +712,17 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "lemire/fastbase64"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "mukel/llama3.java"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "lexical_providers": [
     "datamuse"
   ],

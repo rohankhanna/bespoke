@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "WICG/webcomponents",
+      "target": "w3c/webcomponents",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "WICG/webcomponents",
+      "target": "w3c/csswg-drafts",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "WICG/webcomponents",
+      "target": "whatwg/html",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "WICG/webcomponents",
+      "target": "microsoftedge/msedgeexplainers",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-24T13:04:58.614233+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3909
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "gh-pages",
+    "description": "Web Components specifications",
+    "fork": false,
+    "full_name": "WICG/webcomponents",
+    "html_url": "https://github.com/WICG/webcomponents",
+    "language": "HTML",
+    "pushed_at": "2025-12-09T18:39:35Z",
+    "stargazers_count": 4488,
+    "topics": [],
+    "updated_at": "2026-04-23T12:11:23Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "microsoftedge/msedgeexplainers",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "w3c/csswg-drafts",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "w3c/webcomponents",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "whatwg/html",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

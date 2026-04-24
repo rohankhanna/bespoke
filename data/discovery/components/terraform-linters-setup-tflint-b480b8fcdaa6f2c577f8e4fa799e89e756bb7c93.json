@@ -1,0 +1,12 @@
+{
+  "component": "terraform-linters/setup-tflint@b480b8fcdaa6f2c577f8e4fa799e89e756bb7c93",
+  "first_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/lint.yaml",
+      "source_repo": "grafana/k8s-monitoring-helm"
+    }
+  ]
+}

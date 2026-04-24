@@ -1,0 +1,86 @@
+{
+  "aliases": [
+    "crev"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "crev-dev/pip-crev",
+      "status": "candidate-context",
+      "text": "Signed code reviews for Python packages."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "crev-dev/pip-crev",
+      "status": "candidate-context",
+      "text": "**WARNING: This code is in development, is being provided without support, and is subject to change at any time without notification**"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "crev-dev/pip-crev",
+      "status": "candidate",
+      "text": "**WARNING: This code is in development, is being provided without support, and is subject to change at any time without notification**"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 1,
+      "status": "candidate",
+      "text": "caving"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 1,
+      "status": "candidate",
+      "text": "decline"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 1,
+      "status": "candidate",
+      "text": "incline"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "crev",
+  "concept_id": "crev",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "crev-dev/pip-crev"
+    }
+  ],
+  "first_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "crev",
+      "sense_id": "crev#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

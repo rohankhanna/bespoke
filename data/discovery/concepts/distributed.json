@@ -163,6 +163,30 @@
       "source_repo": "ipfs/js-ipfs",
       "status": "candidate-context",
       "text": "> # \u26d4\ufe0f DEPRECATED: [js-IPFS](https://github.com/ipfs/js-ipfs) has been superseded by [Helia](https://github.com/ipfs/helia)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fugue-project/fugue",
+      "status": "candidate-context",
+      "text": "A unified interface for distributed computing. Fugue executes SQL, Python, Pandas, and Polars code on Spark, Dask and Ray without any rewrites."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fugue-project/fugue",
+      "status": "candidate-context",
+      "text": "[![PyPI version](https://badge.fury.io/py/fugue.svg)](https://pypi.python.org/pypi/fugue/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "crev-dev/pip-crev",
+      "status": "candidate-context",
+      "text": "Signed code reviews for Python packages."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "crev-dev/pip-crev",
+      "status": "candidate-context",
+      "text": "**WARNING: This code is in development, is being provided without support, and is subject to change at any time without notification**"
     }
   ],
   "candidate_glosses": [
@@ -243,6 +267,18 @@
       "source_repo": "ipfs/js-ipfs",
       "status": "candidate",
       "text": "> # \u26d4\ufe0f DEPRECATED: [js-IPFS](https://github.com/ipfs/js-ipfs) has been superseded by [Helia](https://github.com/ipfs/helia)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fugue-project/fugue",
+      "status": "candidate",
+      "text": "[![PyPI version](https://badge.fury.io/py/fugue.svg)](https://pypi.python.org/pypi/fugue/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "crev-dev/pip-crev",
+      "status": "candidate",
+      "text": "**WARNING: This code is in development, is being provided without support, and is subject to change at any time without notification**"
     }
   ],
   "candidate_related_terms": [
@@ -430,11 +466,35 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "mudler/LocalAI"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "apache/datafusion-ballista"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "apache/datafusion-ballista-python"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "fugue-project/fugue"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "crev-dev/pip-crev"
     }
   ],
   "first_seen_at": "2026-04-18T12:06:06.216548+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "lexical_providers": [
     "datamuse"
   ],

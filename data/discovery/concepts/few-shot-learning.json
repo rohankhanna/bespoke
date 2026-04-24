@@ -31,6 +31,18 @@
       "source_repo": "hendrycks/test",
       "status": "candidate-context",
       "text": "This is the repository for [Measuring Massive Multitask Language Understanding](https://arxiv.org/pdf/2009.03300) by"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "reasoning-machines/pal",
+      "status": "candidate-context",
+      "text": "PaL: Program-Aided Language Models (ICML 2023)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "reasoning-machines/pal",
+      "status": "candidate-context",
+      "text": "Repo for the paper [PaL: Program-Aided Language Models](https://arxiv.org/pdf/2211.10435.pdf)."
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "hendrycks/test",
       "status": "candidate",
       "text": "This is the repository for [Measuring Massive Multitask Language Understanding](https://arxiv.org/pdf/2009.03300) by"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "reasoning-machines/pal",
+      "status": "candidate",
+      "text": "Repo for the paper [PaL: Program-Aided Language Models](https://arxiv.org/pdf/2211.10435.pdf)."
     }
   ],
   "candidate_related_terms": [],
@@ -64,11 +82,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "hendrycks/test"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "reasoning-machines/pal"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "lexical_providers": [
     "datamuse"
   ],

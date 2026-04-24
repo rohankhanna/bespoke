@@ -1,0 +1,104 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ipfs/go-ds-s3",
+      "target": "ipfs/distributions",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ipfs/go-ds-s3",
+      "target": "ipfs/go-ipfs-example-plugin",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go-check.yml",
+      "source_repo": "ipfs/go-ds-s3",
+      "target": "ipdxco/unified-github-workflows/.github/workflows/go-check.yml@v1.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/go-check.yml",
+      "source_repo": "ipfs/go-ds-s3",
+      "target": "Go Checks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go-test.yml",
+      "source_repo": "ipfs/go-ds-s3",
+      "target": "ipdxco/unified-github-workflows/.github/workflows/go-test.yml@v1.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/go-test.yml",
+      "source_repo": "ipfs/go-ds-s3",
+      "target": "Go Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "ipfs/go-ds-s3",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "ipfs/go-ds-s3",
+      "target": "actions/setup-go@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "ipfs/go-ds-s3",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "ipfs/go-ds-s3",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "ipfs/go-ds-s3",
+      "target": "softprops/action-gh-release@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "ipfs/go-ds-s3",
+      "target": "Kubo plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "ipfs/go-ds-s3",
+      "target": "pl-strflt/.github/.github/workflows/reusable-stale-issue.yml@v0.3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "ipfs/go-ds-s3",
+      "target": "Close and mark stale issue",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-24T12:33:41.350224+00:00",
+  "source_repo": "ipfs/go-ds-s3"
+}

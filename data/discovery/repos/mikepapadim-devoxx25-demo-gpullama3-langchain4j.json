@@ -1,0 +1,65 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mikepapadim/devoxx25-demo-gpullama3-langchain4j",
+      "target": "langchain4j/langchain4j",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mikepapadim/devoxx25-demo-gpullama3-langchain4j",
+      "target": "langchain4j/langchain4j-examples",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mikepapadim/devoxx25-demo-gpullama3-langchain4j",
+      "target": "mukel/llama3.java",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-24T13:02:13.737827+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5820
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "mikepapadim/devoxx25-demo-gpullama3-langchain4j",
+    "html_url": "https://github.com/mikepapadim/devoxx25-demo-gpullama3-langchain4j",
+    "language": "Java",
+    "pushed_at": "2025-10-10T12:45:57Z",
+    "stargazers_count": 5,
+    "topics": [],
+    "updated_at": "2025-12-25T09:21:12Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "langchain4j/langchain4j",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "langchain4j/langchain4j-examples",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mukel/llama3.java",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

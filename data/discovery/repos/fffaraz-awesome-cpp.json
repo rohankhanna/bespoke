@@ -1,0 +1,263 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ruby.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ruby.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "fffaraz/awesome-cpp",
+      "target": "actor-framework/actor-framework",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "fffaraz/awesome-cpp",
+      "target": "a-n-t-h-o-n-y/termox",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "fffaraz/awesome-cpp",
+      "target": "3hren/blackhole",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "fffaraz/awesome-cpp",
+      "target": "aantron/better-enums",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ruby.yml",
+      "source_repo": "fffaraz/awesome-cpp",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ruby.yml",
+      "source_repo": "fffaraz/awesome-cpp",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ruby.yml",
+      "source_repo": "fffaraz/awesome-cpp",
+      "target": "Ruby",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fffaraz/awesome-cpp",
+      "target": "awesome",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fffaraz/awesome-cpp",
+      "target": "awesome-list",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fffaraz/awesome-cpp",
+      "target": "c-plus-plus",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fffaraz/awesome-cpp",
+      "target": "cpp-library",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fffaraz/awesome-cpp",
+      "target": "cppcon",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fffaraz/awesome-cpp",
+      "target": "libraries",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fffaraz/awesome-cpp",
+      "target": "list",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fffaraz/awesome-cpp",
+      "target": "lists",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fffaraz/awesome-cpp",
+      "target": "programming-tutorial",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fffaraz/awesome-cpp",
+      "target": "resources",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T12:52:32.704427+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 195298
+    },
+    {
+      "path": ".github/workflows/ruby.yml",
+      "size": 450
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A curated list of awesome C++ (or C) frameworks, libraries, resources, and shiny things. Inspired by awesome-... stuff.",
+    "fork": false,
+    "full_name": "fffaraz/awesome-cpp",
+    "html_url": "https://github.com/fffaraz/awesome-cpp",
+    "language": null,
+    "pushed_at": "2026-04-24T03:23:57Z",
+    "stargazers_count": 70895,
+    "topics": [
+      "awesome",
+      "awesome-list",
+      "c",
+      "c-plus-plus",
+      "cpp",
+      "cpp-library",
+      "cppcon",
+      "libraries",
+      "list",
+      "lists",
+      "programming-tutorial",
+      "resources"
+    ],
+    "updated_at": "2026-04-24T12:01:12Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "3hren/blackhole",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "a-n-t-h-o-n-y/termox",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aantron/better-enums",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "actor-framework/actor-framework",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Ruby",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ruby.yml",
+      "term": "Ruby"
+    },
+    {
+      "context_snippet": "A curated list of awesome C++ (or C) frameworks, libraries, resources, and shiny things. Inspired by awesome-... stuff.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "awesome"
+    },
+    {
+      "context_snippet": "A curated list of awesome C++ (or C) frameworks, libraries, resources, and shiny things. Inspired by awesome-... stuff.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "awesome-list"
+    },
+    {
+      "context_snippet": "A curated list of awesome C++ (or C) frameworks, libraries, resources, and shiny things. Inspired by awesome-... stuff.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "c-plus-plus"
+    },
+    {
+      "context_snippet": "A curated list of awesome C++ (or C) frameworks, libraries, resources, and shiny things. Inspired by awesome-... stuff.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cpp-library"
+    },
+    {
+      "context_snippet": "A curated list of awesome C++ (or C) frameworks, libraries, resources, and shiny things. Inspired by awesome-... stuff.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cppcon"
+    },
+    {
+      "context_snippet": "A curated list of awesome C++ (or C) frameworks, libraries, resources, and shiny things. Inspired by awesome-... stuff.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "libraries"
+    },
+    {
+      "context_snippet": "A curated list of awesome C++ (or C) frameworks, libraries, resources, and shiny things. Inspired by awesome-... stuff.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "list"
+    },
+    {
+      "context_snippet": "A curated list of awesome C++ (or C) frameworks, libraries, resources, and shiny things. Inspired by awesome-... stuff.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lists"
+    },
+    {
+      "context_snippet": "A curated list of awesome C++ (or C) frameworks, libraries, resources, and shiny things. Inspired by awesome-... stuff.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "programming-tutorial"
+    },
+    {
+      "context_snippet": "A curated list of awesome C++ (or C) frameworks, libraries, resources, and shiny things. Inspired by awesome-... stuff.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "resources"
+    }
+  ]
+}

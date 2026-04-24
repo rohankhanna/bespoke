@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "PR Benchmark Check"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/datafusion-comet",
+      "status": "candidate-context",
+      "text": "Apache DataFusion Comet Spark Accelerator"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/datafusion-comet",
+      "status": "candidate-context",
+      "text": "PR Benchmark Check"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/datafusion-comet",
+      "status": "candidate",
+      "text": "PR Benchmark Check"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21200,
+      "status": "candidate",
+      "text": "key"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21200,
+      "status": "candidate",
+      "text": "keying"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21200,
+      "status": "candidate",
+      "text": "keys"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21200,
+      "status": "candidate",
+      "text": "plot"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21200,
+      "status": "candidate",
+      "text": "plotted"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "PR Benchmark Check",
+  "concept_id": "pr-benchmark-check",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/pr_benchmark_check.yml",
+      "source_repo": "apache/datafusion-comet"
+    }
+  ],
+  "first_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "PR Benchmark Check",
+      "sense_id": "pr-benchmark-check#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

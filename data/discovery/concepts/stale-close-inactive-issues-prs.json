@@ -13,12 +13,30 @@
       "source_repo": "NVIDIA-NeMo/Emerging-Optimizers",
       "status": "candidate-context",
       "text": "Stale-Close-Inactive-Issues-PRs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NVIDIA-NeMo/Run",
+      "status": "candidate-context",
+      "text": "A tool to configure, launch and manage your machine learning experiments."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA-NeMo/Run",
+      "status": "candidate-context",
+      "text": "Stale-Close-Inactive-Issues-PRs"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "NVIDIA-NeMo/Emerging-Optimizers",
+      "status": "candidate",
+      "text": "Stale-Close-Inactive-Issues-PRs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA-NeMo/Run",
       "status": "candidate",
       "text": "Stale-Close-Inactive-Issues-PRs"
     }
@@ -34,11 +52,17 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": ".github/workflows/close-inactive-issue-pr.yml",
       "source_repo": "NVIDIA-NeMo/Emerging-Optimizers"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/close-inactive-issue-pr.yml",
+      "source_repo": "NVIDIA-NeMo/Run"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "lexical_providers": [
     "datamuse"
   ],

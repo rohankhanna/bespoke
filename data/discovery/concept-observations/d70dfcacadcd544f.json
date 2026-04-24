@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A unified interface for distributed computing. Fugue executes SQL, Python, Pandas, and Polars code on Spark, Dask and Ray without any rewrites."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Ray Tests"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Ray Tests"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10632,
+      "status": "candidate",
+      "text": "angiography"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10632,
+      "status": "candidate",
+      "text": "arteriography"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10632,
+      "status": "candidate",
+      "text": "barium meal"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10632,
+      "status": "candidate",
+      "text": "fluoroscopy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10632,
+      "status": "candidate",
+      "text": "franklin"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Ray Tests",
+      "sense_id": "ray-tests#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "ray-tests",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "ray-tests",
+  "observation_id": "d70dfcacadcd544f",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-24T12:33:41.350224+00:00",
+  "observed_text": "Ray Tests",
+  "source_context_snippet": "Ray Tests",
+  "source_file": ".github/workflows/test_ray.yml",
+  "source_repo": "fugue-project/fugue",
+  "source_repo_description": "A unified interface for distributed computing. Fugue executes SQL, Python, Pandas, and Polars code on Spark, Dask and Ray without any rewrites."
+}

@@ -401,6 +401,12 @@
       "source_repo": "cplusplus/draft",
       "status": "candidate-context",
       "text": "check"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "psibi/dhall-mode",
+      "status": "candidate-context",
+      "text": "check"
     }
   ],
   "candidate_glosses": [
@@ -599,6 +605,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "cplusplus/draft",
+      "status": "candidate",
+      "text": "check"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "psibi/dhall-mode",
       "status": "candidate",
       "text": "check"
     }
@@ -937,11 +949,23 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": ".github/workflows/check.yml",
       "source_repo": "cplusplus/draft"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/check.yml",
+      "source_repo": "preservim/tagbar"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/check.yaml",
+      "source_repo": "psibi/dhall-mode"
     }
   ],
   "first_seen_at": "2026-04-19T17:36:09.281008+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "lexical_providers": [
     "datamuse"
   ],

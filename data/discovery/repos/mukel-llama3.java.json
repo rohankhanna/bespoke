@@ -1,0 +1,249 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mukel/llama3.java",
+      "target": "ggerganov/ggml",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mukel/llama3.java",
+      "target": "karpathy/minbpe",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mukel/llama3.java",
+      "target": "mukel/gemma4.java",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mukel/llama3.java",
+      "target": "mukel/gptoss.java",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mukel/llama3.java",
+      "target": "chatgpt",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mukel/llama3.java",
+      "target": "genai",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mukel/llama3.java",
+      "target": "gguf",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mukel/llama3.java",
+      "target": "huggingface",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mukel/llama3.java",
+      "target": "java",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mukel/llama3.java",
+      "target": "llama",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mukel/llama3.java",
+      "target": "llama3",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mukel/llama3.java",
+      "target": "llamacpp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mukel/llama3.java",
+      "target": "llm-inference",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mukel/llama3.java",
+      "target": "llms",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mukel/llama3.java",
+      "target": "simd",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mukel/llama3.java",
+      "target": "transformers",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T13:02:16.986877+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5800
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Llama 3+ inference in pure Java",
+    "fork": false,
+    "full_name": "mukel/llama3.java",
+    "html_url": "https://github.com/mukel/llama3.java",
+    "language": "Java",
+    "pushed_at": "2026-04-10T23:05:23Z",
+    "stargazers_count": 805,
+    "topics": [
+      "chatgpt",
+      "genai",
+      "gguf",
+      "huggingface",
+      "java",
+      "llama",
+      "llama3",
+      "llamacpp",
+      "llm",
+      "llm-inference",
+      "llms",
+      "openai",
+      "simd",
+      "transformers"
+    ],
+    "updated_at": "2026-04-23T15:11:57Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ggerganov/ggml",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "karpathy/minbpe",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mukel/gemma4.java",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mukel/gptoss.java",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Practical [Llama 3](https://github.com/meta-llama/llama3), [3.1](https://llama.meta.com/docs/model-cards-and-prompt-formats/llama3_1) and [3.2](https://ai.meta.com/blog/llama-3-2-connect-2024-vision-edge-mobile-devices/) inference implemented in a single Java file.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chatgpt"
+    },
+    {
+      "context_snippet": "Practical [Llama 3](https://github.com/meta-llama/llama3), [3.1](https://llama.meta.com/docs/model-cards-and-prompt-formats/llama3_1) and [3.2](https://ai.meta.com/blog/llama-3-2-connect-2024-vision-edge-mobile-devices/) inference implemented in a single Java file.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "genai"
+    },
+    {
+      "context_snippet": "Practical [Llama 3](https://github.com/meta-llama/llama3), [3.1](https://llama.meta.com/docs/model-cards-and-prompt-formats/llama3_1) and [3.2](https://ai.meta.com/blog/llama-3-2-connect-2024-vision-edge-mobile-devices/) inference implemented in a single Java file.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gguf"
+    },
+    {
+      "context_snippet": "Practical [Llama 3](https://github.com/meta-llama/llama3), [3.1](https://llama.meta.com/docs/model-cards-and-prompt-formats/llama3_1) and [3.2](https://ai.meta.com/blog/llama-3-2-connect-2024-vision-edge-mobile-devices/) inference implemented in a single Java file.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "huggingface"
+    },
+    {
+      "context_snippet": "Practical [Llama 3](https://github.com/meta-llama/llama3), [3.1](https://llama.meta.com/docs/model-cards-and-prompt-formats/llama3_1) and [3.2](https://ai.meta.com/blog/llama-3-2-connect-2024-vision-edge-mobile-devices/) inference implemented in a single Java file.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "java"
+    },
+    {
+      "context_snippet": "Practical [Llama 3](https://github.com/meta-llama/llama3), [3.1](https://llama.meta.com/docs/model-cards-and-prompt-formats/llama3_1) and [3.2](https://ai.meta.com/blog/llama-3-2-connect-2024-vision-edge-mobile-devices/) inference implemented in a single Java file.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "llama"
+    },
+    {
+      "context_snippet": "Practical [Llama 3](https://github.com/meta-llama/llama3), [3.1](https://llama.meta.com/docs/model-cards-and-prompt-formats/llama3_1) and [3.2](https://ai.meta.com/blog/llama-3-2-connect-2024-vision-edge-mobile-devices/) inference implemented in a single Java file.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "llama3"
+    },
+    {
+      "context_snippet": "Practical [Llama 3](https://github.com/meta-llama/llama3), [3.1](https://llama.meta.com/docs/model-cards-and-prompt-formats/llama3_1) and [3.2](https://ai.meta.com/blog/llama-3-2-connect-2024-vision-edge-mobile-devices/) inference implemented in a single Java file.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "llamacpp"
+    },
+    {
+      "context_snippet": "Practical [Llama 3](https://github.com/meta-llama/llama3), [3.1](https://llama.meta.com/docs/model-cards-and-prompt-formats/llama3_1) and [3.2](https://ai.meta.com/blog/llama-3-2-connect-2024-vision-edge-mobile-devices/) inference implemented in a single Java file.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "llm-inference"
+    },
+    {
+      "context_snippet": "Practical [Llama 3](https://github.com/meta-llama/llama3), [3.1](https://llama.meta.com/docs/model-cards-and-prompt-formats/llama3_1) and [3.2](https://ai.meta.com/blog/llama-3-2-connect-2024-vision-edge-mobile-devices/) inference implemented in a single Java file.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "llms"
+    },
+    {
+      "context_snippet": "Practical [Llama 3](https://github.com/meta-llama/llama3), [3.1](https://llama.meta.com/docs/model-cards-and-prompt-formats/llama3_1) and [3.2](https://ai.meta.com/blog/llama-3-2-connect-2024-vision-edge-mobile-devices/) inference implemented in a single Java file.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "simd"
+    },
+    {
+      "context_snippet": "Practical [Llama 3](https://github.com/meta-llama/llama3), [3.1](https://llama.meta.com/docs/model-cards-and-prompt-formats/llama3_1) and [3.2](https://ai.meta.com/blog/llama-3-2-connect-2024-vision-edge-mobile-devices/) inference implemented in a single Java file.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "transformers"
+    }
+  ]
+}

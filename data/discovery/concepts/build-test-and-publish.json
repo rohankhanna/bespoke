@@ -1,7 +1,8 @@
 {
   "aliases": [
     "Build, test and publish",
-    "Build test and publish"
+    "Build test and publish",
+    "Build, Test and Publish"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -26,6 +27,18 @@
       "source_repo": "jspanchu/webgpu-dawn-binaries",
       "status": "candidate-context",
       "text": "Build test and publish"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "decentralized-identity/did-jwt",
+      "status": "candidate-context",
+      "text": "Create and verify DID verifiable JWT's in Javascript"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "decentralized-identity/did-jwt",
+      "status": "candidate-context",
+      "text": "Build, Test and Publish"
     }
   ],
   "candidate_glosses": [
@@ -40,6 +53,12 @@
       "source_repo": "jspanchu/webgpu-dawn-binaries",
       "status": "candidate",
       "text": "Build test and publish"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "decentralized-identity/did-jwt",
+      "status": "candidate",
+      "text": "Build, Test and Publish"
     }
   ],
   "candidate_related_terms": [
@@ -95,11 +114,17 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": ".github/workflows/cmake-multi-platform.yml",
       "source_repo": "jspanchu/webgpu-dawn-binaries"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "decentralized-identity/did-jwt"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "Annoy"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "spotify/annoy",
+      "status": "candidate-context",
+      "text": "Approximate Nearest Neighbors in C++/Python optimized for memory usage and loading/saving to disk"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "spotify/annoy",
+      "status": "candidate-context",
+      "text": "Annoy"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "spotify/annoy",
+      "status": "candidate",
+      "text": "Annoy"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40015578,
+      "status": "candidate",
+      "text": "bother"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40015563,
+      "status": "candidate",
+      "text": "vex"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40015537,
+      "status": "candidate",
+      "text": "irritate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40007909,
+      "status": "candidate",
+      "text": "rile"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39996986,
+      "status": "candidate",
+      "text": "rag"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 13050,
+      "status": "candidate",
+      "text": "nettle"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 13041,
+      "status": "candidate",
+      "text": "vex"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 11028,
+      "status": "candidate",
+      "text": "nark"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 9051,
+      "status": "candidate",
+      "text": "gravel"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 9037,
+      "status": "candidate",
+      "text": "bother"
+    }
+  ],
+  "canonical_name": "Annoy",
+  "concept_id": "annoy",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "spotify/annoy"
+    }
+  ],
+  "first_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Annoy",
+      "sense_id": "annoy#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

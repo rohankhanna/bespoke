@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Zig implementation of the multiformats https://github.com/multiformats/multiformats."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Build and Test"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Build and Test"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11684,
+      "status": "candidate",
+      "text": "form"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11684,
+      "status": "candidate",
+      "text": "kludge"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11684,
+      "status": "candidate",
+      "text": "pose"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11684,
+      "status": "candidate",
+      "text": "raise"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11612,
+      "status": "candidate",
+      "text": "rugged"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build and Test",
+      "sense_id": "build-and-test#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "build-and-test",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "build-and-test",
+  "observation_id": "4952c4b5dfb34498",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-24T12:33:41.350224+00:00",
+  "observed_text": "Build and Test",
+  "source_context_snippet": "Build and Test",
+  "source_file": ".github/workflows/check.yml",
+  "source_repo": "zen-eth/multiformats-zig",
+  "source_repo_description": "Zig implementation of the multiformats https://github.com/multiformats/multiformats."
+}

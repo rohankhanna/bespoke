@@ -1,0 +1,128 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/eipv-test.yaml"
+    },
+    {
+      "component": "actions-rs/toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/eipv-test.yaml"
+    },
+    {
+      "component": "actions-rs/cargo@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/eipv-test.yaml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/eipv-test.yaml"
+    },
+    {
+      "component": "actions-rs/toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/eipv-test.yaml"
+    },
+    {
+      "component": "actions-rs/cargo@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/eipv-test.yaml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/eipv-test.yaml"
+    },
+    {
+      "component": "actions-rs/toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/eipv-test.yaml"
+    },
+    {
+      "component": "actions-rs/cargo@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/eipv-test.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ethereum/eipv",
+      "target": "lightclient/eipv",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Cargo.toml",
+      "source_repo": "ethereum/eipv",
+      "target": "lightclient/eipv",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/eipv-test.yaml",
+      "source_repo": "ethereum/eipv",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/eipv-test.yaml",
+      "source_repo": "ethereum/eipv",
+      "target": "actions-rs/toolchain@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/eipv-test.yaml",
+      "source_repo": "ethereum/eipv",
+      "target": "actions-rs/cargo@v1",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-24T12:57:28.112469+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3139
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 465
+    },
+    {
+      "path": ".github/workflows/eipv-test.yaml",
+      "size": 1047
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "Ethereum Improvement Proposal Validator",
+    "fork": false,
+    "full_name": "ethereum/eipv",
+    "html_url": "https://github.com/ethereum/eipv",
+    "language": "Rust",
+    "pushed_at": "2023-02-09T14:43:42Z",
+    "stargazers_count": 20,
+    "topics": [],
+    "updated_at": "2026-03-09T22:29:12Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lightclient/eipv",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lightclient/eipv",
+      "source_file": "Cargo.toml"
+    }
+  ],
+  "terms": []
+}

@@ -1,0 +1,12 @@
+{
+  "component": "donnerbart/split-tests-java-action/checkout-junit-reports@4153fa0b436141302155e03df99e8e6d5139fb23",
+  "first_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/platform-integration-tests.yml",
+      "source_repo": "hivemq/helm-charts"
+    }
+  ]
+}

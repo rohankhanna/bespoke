@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Official Python SDK for the Agent2Agent (A2A) Protocol"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "a2a-protocol",
+      "sense_id": "a2a-protocol#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "a2a-protocol",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "a2a-protocol",
+  "observation_id": "266ece7cf6c3e266",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T12:33:41.350224+00:00",
+  "observed_text": "a2a-protocol",
+  "source_context_snippet": "[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE)",
+  "source_file": null,
+  "source_repo": "a2aproject/a2a-python",
+  "source_repo_description": "Official Python SDK for the Agent2Agent (A2A) Protocol"
+}

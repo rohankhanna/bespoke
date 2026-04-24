@@ -199,6 +199,18 @@
       "source_repo": "ipfs/js-kubo-rpc-client",
       "status": "candidate-context",
       "text": "Semantic PR"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ipfs-shipyard/is-ipfs",
+      "status": "candidate-context",
+      "text": "A set of utilities to help identify IPFS resources on the web"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipfs-shipyard/is-ipfs",
+      "status": "candidate-context",
+      "text": "Semantic PR"
     }
   ],
   "candidate_glosses": [
@@ -295,6 +307,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "ipfs/js-kubo-rpc-client",
+      "status": "candidate",
+      "text": "Semantic PR"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipfs-shipyard/is-ipfs",
       "status": "candidate",
       "text": "Semantic PR"
     }
@@ -442,11 +460,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": ".github/workflows/semantic-pull-request.yml",
       "source_repo": "ipfs/js-kubo-rpc-client"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/semantic-pull-request.yml",
+      "source_repo": "ipfs-shipyard/is-ipfs"
     }
   ],
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "lexical_providers": [
     "datamuse"
   ],

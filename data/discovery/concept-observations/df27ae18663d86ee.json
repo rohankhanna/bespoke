@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Track stocks, crypto, and derivatives prices and positions in real time from your terminal"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "lint-commit-message"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "lint-commit-message"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "lint-commit-message",
+      "sense_id": "lint-commit-message#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "lint-commit-message",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "lint-commit-message",
+  "observation_id": "df27ae18663d86ee",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-24T12:33:41.350224+00:00",
+  "observed_text": "lint-commit-message",
+  "source_context_snippet": "lint-commit-message",
+  "source_file": ".github/workflows/lint-commit.yml",
+  "source_repo": "achannarasappa/ticker",
+  "source_repo_description": "Track stocks, crypto, and derivatives prices and positions in real time from your terminal"
+}

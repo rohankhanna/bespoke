@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-24T12:53:49.050916+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3417
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Gemini workshop for Java developers, using the LangChain4j orchestration framework",
+    "fork": false,
+    "full_name": "glaforge/gemini-workshop-for-java-developers",
+    "html_url": "https://github.com/glaforge/gemini-workshop-for-java-developers",
+    "language": "Java",
+    "pushed_at": "2025-05-28T09:44:37Z",
+    "stargazers_count": 66,
+    "topics": [],
+    "updated_at": "2026-02-11T15:36:08Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

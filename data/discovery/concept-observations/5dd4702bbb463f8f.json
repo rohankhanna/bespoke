@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Query API and indexer for Tezos and other decentralized platforms."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![Build Status](https://travis-ci.org/Cryptonomic/Conseil.svg?branch=master)](https://travis-ci.org/Cryptonomic/Conseil)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![Build Status](https://travis-ci.org/Cryptonomic/Conseil.svg?branch=master)](https://travis-ci.org/Cryptonomic/Conseil)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40034875,
+      "status": "candidate",
+      "text": "slippery"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40034137,
+      "status": "candidate",
+      "text": "satiny"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40033496,
+      "status": "candidate",
+      "text": "sleek"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40033299,
+      "status": "candidate",
+      "text": "slipperiness"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40033207,
+      "status": "candidate",
+      "text": "slippy"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "slick",
+      "sense_id": "slick#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 61038,
+      "status": "candidate",
+      "text": "cunning"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 54031,
+      "status": "candidate",
+      "text": "artful"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 42034,
+      "status": "candidate",
+      "text": "glib"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 39081,
+      "status": "candidate",
+      "text": "slip"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 34034,
+      "status": "candidate",
+      "text": "sleek"
+    }
+  ],
+  "concept_id": "slick",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "slick",
+  "observation_id": "5dd4702bbb463f8f",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T12:33:41.350224+00:00",
+  "observed_text": "slick",
+  "source_context_snippet": "[![Build Status](https://travis-ci.org/Cryptonomic/Conseil.svg?branch=master)](https://travis-ci.org/Cryptonomic/Conseil)",
+  "source_file": null,
+  "source_repo": "Cryptonomic/Conseil",
+  "source_repo_description": "Query API and indexer for Tezos and other decentralized platforms."
+}

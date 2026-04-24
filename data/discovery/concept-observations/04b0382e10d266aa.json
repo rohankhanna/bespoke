@@ -1,0 +1,86 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\u2709\ufe0f email dashboard to track deliverability and engagement stats in our App \ud83d\udcc8"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Automatically fix typos"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Automatically fix typos"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24199,
+      "status": "candidate",
+      "text": "edit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22199,
+      "status": "candidate",
+      "text": "erase"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22176,
+      "status": "candidate",
+      "text": "strike"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16087,
+      "status": "candidate",
+      "text": "emend"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Automatically fix typos",
+      "sense_id": "automatically-fix-typos#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "automatically-fix-typos",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "automatically-fix-typos",
+  "observation_id": "04b0382e10d266aa",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-24T12:33:41.350224+00:00",
+  "observed_text": "Automatically fix typos",
+  "source_context_snippet": "Automatically fix typos",
+  "source_file": ".github/workflows/fix-typos.yml",
+  "source_repo": "dwyl/email",
+  "source_repo_description": "\u2709\ufe0f email dashboard to track deliverability and engagement stats in our App \ud83d\udcc8"
+}

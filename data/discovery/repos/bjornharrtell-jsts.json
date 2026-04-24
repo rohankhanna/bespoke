@@ -1,0 +1,292 @@
+{
+  "components": [
+    {
+      "component": "fastpriorityqueue",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@rollup/plugin-commonjs",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@rollup/plugin-node-resolve",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@rollup/plugin-replace",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@rollup/plugin-terser",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "chai",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "codecov",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "expect.js",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "jquery",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "jsdoc",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "jsdom",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "mocha",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "mocha-lcov-reporter",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "nyc",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "rollup",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "typescript",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/node.js.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/node.js.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bjornharrtell/jsts",
+      "target": "bjornharrtell/topolis",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "bjornharrtell/jsts",
+      "target": "fastpriorityqueue",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "bjornharrtell/jsts",
+      "target": "@rollup/plugin-commonjs",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "bjornharrtell/jsts",
+      "target": "@rollup/plugin-node-resolve",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "bjornharrtell/jsts",
+      "target": "@rollup/plugin-replace",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "bjornharrtell/jsts",
+      "target": "@rollup/plugin-terser",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "bjornharrtell/jsts",
+      "target": "chai",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "bjornharrtell/jsts",
+      "target": "codecov",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "bjornharrtell/jsts",
+      "target": "eslint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "bjornharrtell/jsts",
+      "target": "expect.js",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "bjornharrtell/jsts",
+      "target": "jquery",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "bjornharrtell/jsts",
+      "target": "jsdoc",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "bjornharrtell/jsts",
+      "target": "jsdom",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "bjornharrtell/jsts",
+      "target": "mocha",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "bjornharrtell/jsts",
+      "target": "mocha-lcov-reporter",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "bjornharrtell/jsts",
+      "target": "nyc",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "bjornharrtell/jsts",
+      "target": "rollup",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "bjornharrtell/jsts",
+      "target": "typescript",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/node.js.yml",
+      "source_repo": "bjornharrtell/jsts",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/node.js.yml",
+      "source_repo": "bjornharrtell/jsts",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/node.js.yml",
+      "source_repo": "bjornharrtell/jsts",
+      "target": "Node.js CI",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T13:01:42.627618+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4084
+    },
+    {
+      "path": "package.json",
+      "size": 1703
+    },
+    {
+      "path": ".github/workflows/node.js.yml",
+      "size": 440
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "JavaScript Topology Suite",
+    "fork": false,
+    "full_name": "bjornharrtell/jsts",
+    "html_url": "https://github.com/bjornharrtell/jsts",
+    "language": "JavaScript",
+    "pushed_at": "2025-01-02T19:25:48Z",
+    "stargazers_count": 1552,
+    "topics": [],
+    "updated_at": "2026-04-20T11:07:25Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bjornharrtell/topolis",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Node.js CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/node.js.yml",
+      "term": "Node.js CI"
+    }
+  ]
+}

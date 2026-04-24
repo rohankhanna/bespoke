@@ -1,7 +1,7 @@
 {
   "component": "pre-commit",
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "sources": [
     {
       "discovered_via": "package-json:devDependencies",
@@ -82,6 +82,16 @@
       "discovered_via": "package-json:devDependencies",
       "source_file": "package.json",
       "source_repo": "timkindberg/jest-when"
+    },
+    {
+      "discovered_via": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "dwyl/env2"
+    },
+    {
+      "discovered_via": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "dwyl/hapi-auth-jwt2"
     }
   ]
 }

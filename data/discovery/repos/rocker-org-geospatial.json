@@ -1,0 +1,57 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "rocker-org/geospatial",
+      "target": "rocker-org/rocker-versioned2",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "rocker-org/geospatial",
+      "target": "rocker-org/rocker-versioned",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-24T13:02:07.558927+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4708
+    },
+    {
+      "path": "Dockerfile",
+      "size": 1027
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "Docker-based Geospatial toolkit for R, built on versioned Rocker images",
+    "fork": false,
+    "full_name": "rocker-org/geospatial",
+    "html_url": "https://github.com/rocker-org/geospatial",
+    "language": "Dockerfile",
+    "pushed_at": "2021-09-30T19:57:38Z",
+    "stargazers_count": 112,
+    "topics": [],
+    "updated_at": "2026-02-08T21:05:05Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rocker-org/rocker-versioned",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rocker-org/rocker-versioned2",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

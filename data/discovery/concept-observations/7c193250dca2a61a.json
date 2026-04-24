@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Beautiful and reliable typst code formatter"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Reusable Benchmark Job"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Reusable Benchmark Job"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24823,
+      "status": "candidate",
+      "text": "expendable"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24823,
+      "status": "candidate",
+      "text": "recycle"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24397,
+      "status": "candidate",
+      "text": "commission"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24397,
+      "status": "candidate",
+      "text": "commissioning"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24397,
+      "status": "candidate",
+      "text": "foothold"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Reusable Benchmark Job",
+      "sense_id": "reusable-benchmark-job#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "reusable-benchmark-job",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "reusable-benchmark-job",
+  "observation_id": "7c193250dca2a61a",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-24T12:33:41.350224+00:00",
+  "observed_text": "Reusable Benchmark Job",
+  "source_context_snippet": "Reusable Benchmark Job",
+  "source_file": ".github/workflows/bench-job.yml",
+  "source_repo": "typstyle-rs/typstyle",
+  "source_repo_description": "Beautiful and reliable typst code formatter"
+}

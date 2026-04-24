@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\ud83c\udfe1 \ud83d\udc69\u200d\ud83d\udcbb \ud83d\udca1 home is where you can [learn to] build the future surrounded by like-minded creative, friendly and [intrinsically] motivated people focussed on health, fitness and making things people and the world need!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30001349,
+      "status": "candidate",
+      "text": "wellness"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30001336,
+      "status": "candidate",
+      "text": "sound"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30001316,
+      "status": "candidate",
+      "text": "healthy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30001300,
+      "status": "candidate",
+      "text": "healthful"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30001249,
+      "status": "candidate",
+      "text": "wholesome"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "health",
+      "sense_id": "health#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "health",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "health",
+  "observation_id": "d1dd81a654e4796a",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T12:33:41.350224+00:00",
+  "observed_text": "health",
+  "source_context_snippet": "<div align=\"center\">",
+  "source_file": null,
+  "source_repo": "dwyl/home",
+  "source_repo_description": "\ud83c\udfe1 \ud83d\udc69\u200d\ud83d\udcbb \ud83d\udca1 home is where you can [learn to] build the future surrounded by like-minded creative, friendly and [intrinsically] motivated people focussed on health, fitness and making things people and the world need!"
+}

@@ -8,13 +8,6 @@
       "target_type": "repository"
     },
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "requirements.txt",
-      "source_repo": "FoundationAgents/MetaGPT",
-      "target": "volcengine/volcengine-python-sdk",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build-package.yaml",
       "source_repo": "FoundationAgents/MetaGPT",
@@ -141,6 +134,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-04-24T06:47:13.899148+00:00",
+  "generated_at": "2026-04-24T12:33:41.350224+00:00",
   "source_repo": "FoundationAgents/MetaGPT"
 }

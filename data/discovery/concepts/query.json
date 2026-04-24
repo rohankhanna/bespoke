@@ -31,6 +31,18 @@
       "source_repo": "wader/fq",
       "status": "candidate-context",
       "text": "Tool, language and decoders for working with binary data."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "prestodb/presto",
+      "status": "candidate-context",
+      "text": "The official home of the Presto distributed SQL query engine for big data"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "prestodb/presto",
+      "status": "candidate-context",
+      "text": "[![LFX Health Score](https://insights.linuxfoundation.org/api/badge/health-score?project=presto)](https://insights.linuxfoundation.org/project/presto)"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "wader/fq",
       "status": "candidate",
       "text": "Tool, language and decoders for working with binary data."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "prestodb/presto",
+      "status": "candidate",
+      "text": "[![LFX Health Score](https://insights.linuxfoundation.org/api/badge/health-score?project=presto)](https://insights.linuxfoundation.org/project/presto)"
     }
   ],
   "candidate_related_terms": [
@@ -122,11 +140,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "wader/fq"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "prestodb/presto"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "lexical_providers": [
     "datamuse"
   ],

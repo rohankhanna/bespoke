@@ -79,6 +79,18 @@
       "source_repo": "simplex-chat/simplex-chat",
       "status": "candidate-context",
       "text": "[![build](https://github.com/simplex-chat/simplex-chat/actions/workflows/build.yml/badge.svg?branch=stable)](https://github.com/simplex-chat/simplex-chat/actions/workflows/build.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "OpenGVLab/Ask-Anything",
+      "status": "candidate-context",
+      "text": "[CVPR2024 Highlight][VideoChatGPT] ChatGPT with video understanding! And many more supported LMs such as miniGPT4, StableLM, and MOSS."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenGVLab/Ask-Anything",
+      "status": "candidate-context",
+      "text": "[![Open in OpenXLab](https://cdn-static.openxlab.org.cn/app-center/openxlab_app.svg)](https://openxlab.org.cn/apps/detail/yinanhe/VideoChat2) |"
     }
   ],
   "candidate_glosses": [
@@ -117,6 +129,12 @@
       "source_repo": "simplex-chat/simplex-chat",
       "status": "candidate",
       "text": "[![build](https://github.com/simplex-chat/simplex-chat/actions/workflows/build.yml/badge.svg?branch=stable)](https://github.com/simplex-chat/simplex-chat/actions/workflows/build.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenGVLab/Ask-Anything",
+      "status": "candidate",
+      "text": "[![Open in OpenXLab](https://cdn-static.openxlab.org.cn/app-center/openxlab_app.svg)](https://openxlab.org.cn/apps/detail/yinanhe/VideoChat2) |"
     }
   ],
   "candidate_related_terms": [
@@ -232,11 +250,17 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "simplex-chat/simplex-chat"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "OpenGVLab/Ask-Anything"
     }
   ],
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "lexical_providers": [
     "datamuse"
   ],

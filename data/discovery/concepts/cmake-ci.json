@@ -19,12 +19,30 @@
       "source_repo": "bufbuild/protovalidate-cc",
       "status": "candidate-context",
       "text": "CMake CI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pantoniou/libfyaml",
+      "status": "candidate-context",
+      "text": "Fully feature complete YAML parser and emitter, supporting the latest YAML spec and passing the full YAML testsuite."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pantoniou/libfyaml",
+      "status": "candidate-context",
+      "text": "CMake CI"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "bufbuild/protovalidate-cc",
+      "status": "candidate",
+      "text": "CMake CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pantoniou/libfyaml",
       "status": "candidate",
       "text": "CMake CI"
     }
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": ".github/workflows/cmake.yaml",
       "source_repo": "bufbuild/protovalidate-cc"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/cmake.yaml",
+      "source_repo": "pantoniou/libfyaml"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "lexical_providers": [
     "datamuse"
   ],

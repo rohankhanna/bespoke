@@ -1,7 +1,7 @@
 {
   "component": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
   "first_seen_at": "2026-04-18T03:54:46.759203+00:00",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -1182,6 +1182,96 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/quick-test.yml",
       "source_repo": "yt-dlp/yt-dlp"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release-tag.yml",
+      "source_repo": "openai/openai-agents-python"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build_linux_jax_wheels.yml",
+      "source_repo": "ROCm/TheRock"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build_native_linux_packages.yml",
+      "source_repo": "ROCm/TheRock"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build_windows_artifacts.yml",
+      "source_repo": "ROCm/TheRock"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build_windows_python_packages.yml",
+      "source_repo": "ROCm/TheRock"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "ROCm/ROCgdb"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/benchmarks-weekly.yml",
+      "source_repo": "cython/cython"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/benchmarks.yml",
+      "source_repo": "cython/cython"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci-job.yml",
+      "source_repo": "cython/cython"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "cython/cython"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "cython/cython"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/nightly-wheels.yml",
+      "source_repo": "cython/cython"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/linter.yaml",
+      "source_repo": "a2aproject/a2a-python"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml",
+      "source_repo": "a2aproject/a2a-python"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-and-deploy.yml",
+      "source_repo": "raspberrypi/documentation"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci-python.yml",
+      "source_repo": "serverless/serverless"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "auth0/node-jsonwebtoken"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "auth0/node-jws"
     }
   ]
 }

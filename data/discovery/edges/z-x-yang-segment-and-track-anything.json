@@ -1,0 +1,62 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "z-x-yang/Segment-and-Track-Anything",
+      "target": "yoxu515/aot-benchmark",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "z-x-yang/Segment-and-Track-Anything",
+      "target": "yamy-cheng/groundingdino",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "z-x-yang/Segment-and-Track-Anything",
+      "target": "yuangongnd/ast",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "z-x-yang/Segment-and-Track-Anything",
+      "target": "interactive-segmentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "z-x-yang/Segment-and-Track-Anything",
+      "target": "segment-anything",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "z-x-yang/Segment-and-Track-Anything",
+      "target": "segment-anything-model",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "z-x-yang/Segment-and-Track-Anything",
+      "target": "video-object-segmentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "z-x-yang/Segment-and-Track-Anything",
+      "target": "visual-object-tracking",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-24T12:33:41.350224+00:00",
+  "source_repo": "z-x-yang/Segment-and-Track-Anything"
+}

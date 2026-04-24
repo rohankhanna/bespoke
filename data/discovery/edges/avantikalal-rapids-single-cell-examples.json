@@ -1,0 +1,34 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "avantikalal/rapids-single-cell-examples",
+      "target": "clara-parabricks/rapids-single-cell-examples",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "avantikalal/rapids-single-cell-examples",
+      "target": "clara-parabricks/atacworks",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Dockerfile",
+      "source_repo": "avantikalal/rapids-single-cell-examples",
+      "target": "cjnolet/atacworks",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Dockerfile",
+      "source_repo": "avantikalal/rapids-single-cell-examples",
+      "target": "clara-parabricks/rapids-single-cell-examples",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-04-24T12:33:41.350224+00:00",
+  "source_repo": "avantikalal/rapids-single-cell-examples"
+}

@@ -2029,6 +2029,78 @@
       "source_repo": "hpcaitech/FastFold",
       "status": "candidate-context",
       "text": "![](/assets/fold.jpg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hiyouga/FastEdit",
+      "status": "candidate-context",
+      "text": "\ud83e\ude79Editing large language models within 10 seconds\u26a1"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hiyouga/FastEdit",
+      "status": "candidate-context",
+      "text": "*Editing large language models within 10 seconds*"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Denys88/rl_games",
+      "status": "candidate-context",
+      "text": "RL implementations"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Denys88/rl_games",
+      "status": "candidate-context",
+      "text": "**Note:** The next release will be 2.0.0 (unreleased). It migrates fully from `gym` to `gymnasium`. EnvPool support has been restored with the new envpool 1.1.1 (Python 3.11\u20133.14, NumPy 2.x, MuJoCo 3.x compatible)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "DLR-RM/rl-baselines3-zoo",
+      "status": "candidate-context",
+      "text": "A training framework for Stable Baselines3 reinforcement learning agents, with hyperparameter optimization and pre-trained agents included."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DLR-RM/rl-baselines3-zoo",
+      "status": "candidate-context",
+      "text": "<!-- [![pipeline status](https://gitlab.com/araffin/rl-baselines3-zoo/badges/master/pipeline.svg)](https://gitlab.com/araffin/rl-baselines3-zoo/-/commits/master) -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "linonetwo/MOSS-DockerFile",
+      "status": "candidate-context",
+      "text": "\u7528\u4e8e\u5728 Docker \u91cc\u8fd0\u884c\u590d\u65e6\u7684 MOSS \u8bed\u8a00\u6a21\u578b\uff0c\u4f7f\u7528 GradIO \u63d0\u4f9b WebUI\u3002"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "linonetwo/MOSS-DockerFile",
+      "status": "candidate-context",
+      "text": "https://hub.docker.com/repository/docker/linonetwo/moss/general"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ymcui/Chinese-BERT-wwm",
+      "status": "candidate-context",
+      "text": "Pre-Training with Whole Word Masking for Chinese BERT\uff08\u4e2d\u6587BERT-wwm\u7cfb\u5217\u6a21\u578b\uff09"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ymcui/Chinese-BERT-wwm",
+      "status": "candidate-context",
+      "text": "[**\u4e2d\u6587\u8bf4\u660e**](https://github.com/ymcui/Chinese-BERT-wwm/) | [**English**](https://github.com/ymcui/Chinese-BERT-wwm/blob/master/README_EN.md)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "SemiAnalysisAI/InferenceX",
+      "status": "candidate-context",
+      "text": "Open Source Continuous Inference Benchmarking Qwen3.5, DeepSeek, GPTOSS - GB200 NVL72 vs MI355X vs B200 vs GB300 NVL72 vs H100 & soon\u2122 TPUv6e/v7/Trainium2/3"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SemiAnalysisAI/InferenceX",
+      "status": "candidate-context",
+      "text": "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://github.com/SemiAnalysisAI/InferenceX/blob/main/LICENSE)"
     }
   ],
   "candidate_glosses": [
@@ -3039,6 +3111,42 @@
       "source_repo": "hpcaitech/FastFold",
       "status": "candidate",
       "text": "![](/assets/fold.jpg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hiyouga/FastEdit",
+      "status": "candidate",
+      "text": "*Editing large language models within 10 seconds*"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Denys88/rl_games",
+      "status": "candidate",
+      "text": "**Note:** The next release will be 2.0.0 (unreleased). It migrates fully from `gym` to `gymnasium`. EnvPool support has been restored with the new envpool 1.1.1 (Python 3.11\u20133.14, NumPy 2.x, MuJoCo 3.x compatible)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DLR-RM/rl-baselines3-zoo",
+      "status": "candidate",
+      "text": "<!-- [![pipeline status](https://gitlab.com/araffin/rl-baselines3-zoo/badges/master/pipeline.svg)](https://gitlab.com/araffin/rl-baselines3-zoo/-/commits/master) -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "linonetwo/MOSS-DockerFile",
+      "status": "candidate",
+      "text": "https://hub.docker.com/repository/docker/linonetwo/moss/general"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ymcui/Chinese-BERT-wwm",
+      "status": "candidate",
+      "text": "[**\u4e2d\u6587\u8bf4\u660e**](https://github.com/ymcui/Chinese-BERT-wwm/) | [**English**](https://github.com/ymcui/Chinese-BERT-wwm/blob/master/README_EN.md)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SemiAnalysisAI/InferenceX",
+      "status": "candidate",
+      "text": "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://github.com/SemiAnalysisAI/InferenceX/blob/main/LICENSE)"
     }
   ],
   "candidate_related_terms": [
@@ -4324,11 +4432,47 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "hpcaitech/FastFold"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "hiyouga/FastEdit"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "Denys88/rl_games"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "DLR-RM/rl-baselines3-zoo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "linonetwo/MOSS-DockerFile"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "ymcui/Chinese-BERT-wwm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "SemiAnalysisAI/InferenceX"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "lexical_providers": [
     "datamuse"
   ],

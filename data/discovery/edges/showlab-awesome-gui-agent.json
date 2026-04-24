@@ -1,0 +1,69 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "showlab/Awesome-GUI-Agent",
+      "target": "alibaba-nlp/webwalker",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "showlab/Awesome-GUI-Agent",
+      "target": "agentsea/surfkit",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "showlab/Awesome-GUI-Agent",
+      "target": "ai-secure/advweb",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "showlab/Awesome-GUI-Agent",
+      "target": "albzni/awesome-llm-based-web-agent-and-tools",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "showlab/Awesome-GUI-Agent",
+      "target": "ai-assistant",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "showlab/Awesome-GUI-Agent",
+      "target": "awesome",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "showlab/Awesome-GUI-Agent",
+      "target": "graphical-user-interface",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "showlab/Awesome-GUI-Agent",
+      "target": "gui-agents",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "showlab/Awesome-GUI-Agent",
+      "target": "llm-agent",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-24T12:33:41.350224+00:00",
+  "source_repo": "showlab/Awesome-GUI-Agent"
+}

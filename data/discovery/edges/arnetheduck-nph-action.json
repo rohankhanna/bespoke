@@ -1,0 +1,34 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "arnetheduck/nph-action",
+      "target": "reviewdog/action-suggester",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "arnetheduck/nph-action",
+      "target": "rickstaa/action-black",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "arnetheduck/nph-action",
+      "target": "formatter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "arnetheduck/nph-action",
+      "target": "githubactions",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-24T12:33:41.350224+00:00",
+  "source_repo": "arnetheduck/nph-action"
+}

@@ -1,7 +1,7 @@
 {
   "component": "pnpm/action-setup@v4",
   "first_seen_at": "2026-04-17T16:51:41.136432+00:00",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -662,6 +662,16 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "microsoft/playwright-vscode"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/autofix-pnpm.yml",
+      "source_repo": "TabbyML/tabby"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-playground.yml",
+      "source_repo": "typstyle-rs/typstyle"
     }
   ]
 }

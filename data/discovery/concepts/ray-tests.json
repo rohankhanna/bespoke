@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Ray Tests"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fugue-project/fugue",
+      "status": "candidate-context",
+      "text": "A unified interface for distributed computing. Fugue executes SQL, Python, Pandas, and Polars code on Spark, Dask and Ray without any rewrites."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fugue-project/fugue",
+      "status": "candidate-context",
+      "text": "Ray Tests"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fugue-project/fugue",
+      "status": "candidate",
+      "text": "Ray Tests"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10632,
+      "status": "candidate",
+      "text": "angiography"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10632,
+      "status": "candidate",
+      "text": "arteriography"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10632,
+      "status": "candidate",
+      "text": "barium meal"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10632,
+      "status": "candidate",
+      "text": "fluoroscopy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10632,
+      "status": "candidate",
+      "text": "franklin"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Ray Tests",
+  "concept_id": "ray-tests",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/test_ray.yml",
+      "source_repo": "fugue-project/fugue"
+    }
+  ],
+  "first_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Ray Tests",
+      "sense_id": "ray-tests#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

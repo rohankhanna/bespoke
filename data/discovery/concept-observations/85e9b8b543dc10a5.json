@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "The DirectX Tool Kit (aka DirectXTK12) is a collection of helper classes for writing DirectX 12 code in C++"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Microsoft C++ Code Analysis"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Microsoft C++ Code Analysis"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27395,
+      "status": "candidate",
+      "text": "wav"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25703,
+      "status": "candidate",
+      "text": "cryptanalysis"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19704,
+      "status": "candidate",
+      "text": "macro"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19019,
+      "status": "candidate",
+      "text": "usn"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18680,
+      "status": "candidate",
+      "text": "access"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Microsoft C++ Code Analysis",
+      "sense_id": "microsoft-c-code-analysis#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "microsoft-c-code-analysis",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "microsoft-c-code-analysis",
+  "observation_id": "85e9b8b543dc10a5",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-24T12:33:41.350224+00:00",
+  "observed_text": "Microsoft C++ Code Analysis",
+  "source_context_snippet": "Microsoft C++ Code Analysis",
+  "source_file": ".github/workflows/msvc.yml",
+  "source_repo": "microsoft/DirectXTK12",
+  "source_repo_description": "The DirectX Tool Kit (aka DirectXTK12) is a collection of helper classes for writing DirectX 12 code in C++"
+}

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Enola \ud83d\udd75\ud83c\udffe\u200d\u2640\ufe0f Holmes was an SRE."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<!--"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<!--"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30026931,
+      "status": "candidate",
+      "text": "horn"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29710716,
+      "status": "candidate",
+      "text": "burglar"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29707297,
+      "status": "candidate",
+      "text": "hell"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29681932,
+      "status": "candidate",
+      "text": "siren"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20041438,
+      "status": "candidate",
+      "text": "reverse mermaid"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "mermaid",
+      "sense_id": "mermaid#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "mermaid",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "mermaid",
+  "observation_id": "4a5b3612ab78c235",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T12:33:41.350224+00:00",
+  "observed_text": "mermaid",
+  "source_context_snippet": "<!--",
+  "source_file": null,
+  "source_repo": "enola-dev/enola",
+  "source_repo_description": "Enola \ud83d\udd75\ud83c\udffe\u200d\u2640\ufe0f Holmes was an SRE."
+}

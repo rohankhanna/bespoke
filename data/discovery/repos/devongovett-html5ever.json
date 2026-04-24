@@ -1,0 +1,84 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "devongovett/html5ever",
+      "target": "servo/html5ever",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "devongovett/html5ever",
+      "target": "html5lib/html5lib-tests",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "devongovett/html5ever",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-24T13:04:07.805426+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3003
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 253
+    },
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 1934
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "High-performance browser-grade HTML5 parser",
+    "fork": true,
+    "full_name": "devongovett/html5ever",
+    "html_url": "https://github.com/devongovett/html5ever",
+    "language": null,
+    "pushed_at": "2025-03-23T21:55:09Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2025-02-09T23:27:21Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "html5lib/html5lib-tests",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "servo/html5ever",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

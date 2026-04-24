@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "anndata"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "scverse/rapids-singlecell",
+      "status": "candidate-context",
+      "text": "rapids-singlecell: GPU-accelerated framework for scRNA analysis"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "scverse/rapids-singlecell",
+      "status": "candidate-context",
+      "text": "[![Stars](https://img.shields.io/github/stars/scverse/rapids_singlecell?style=flat&logo=GitHub&color=blue)](https://github.com/scverse/rapids_singlecell/stargazers)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "scverse/rapids-singlecell",
+      "status": "candidate",
+      "text": "[![Stars](https://img.shields.io/github/stars/scverse/rapids_singlecell?style=flat&logo=GitHub&color=blue)](https://github.com/scverse/rapids_singlecell/stargazers)"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "anndata",
+  "concept_id": "anndata",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "scverse/rapids-singlecell"
+    }
+  ],
+  "first_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "anndata",
+      "sense_id": "anndata#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

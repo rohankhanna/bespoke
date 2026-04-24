@@ -1,7 +1,7 @@
 {
   "component": "eslint",
   "first_seen_at": "2026-04-17T16:51:41.136432+00:00",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "sources": [
     {
       "discovered_via": "package-json:devDependencies",
@@ -3232,6 +3232,61 @@
       "discovered_via": "package-json:devDependencies",
       "source_file": "package.json",
       "source_repo": "curiousdannii/emglken"
+    },
+    {
+      "discovered_via": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "a2aproject/a2a-js"
+    },
+    {
+      "discovered_via": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "GoogleChrome/web-vitals"
+    },
+    {
+      "discovered_via": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Cryptonomic/ConseilJS"
+    },
+    {
+      "discovered_via": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Uniswap/web3-react"
+    },
+    {
+      "discovered_via": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "serverless/serverless"
+    },
+    {
+      "discovered_via": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "auth0/node-jsonwebtoken"
+    },
+    {
+      "discovered_via": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "dwyl/hapi-auth-jwt2"
+    },
+    {
+      "discovered_via": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "decentralized-identity/did-jwt"
+    },
+    {
+      "discovered_via": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "swagger-autogen/swagger-autogen"
+    },
+    {
+      "discovered_via": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "bjornharrtell/jsts"
+    },
+    {
+      "discovered_via": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "GoogleChromeLabs/babel-plugin-transform-jsbi-to-bigint"
     }
   ]
 }

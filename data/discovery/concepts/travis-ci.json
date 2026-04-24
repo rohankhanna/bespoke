@@ -79,6 +79,18 @@
       "source_repo": "travis-ci/travis-cookbooks",
       "status": "candidate-context",
       "text": "[![Build Status](https://travis-ci.com/travis-ci/travis-cookbooks.svg?branch=master)](https://travis-ci.com/travis-ci/travis-cookbooks)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "travis-ci/packer-templates",
+      "status": "candidate-context",
+      "text": "Templates for Packer!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "travis-ci/packer-templates",
+      "status": "candidate-context",
+      "text": "Collection of Packer templates used for various infrastructure layers."
     }
   ],
   "candidate_glosses": [
@@ -117,6 +129,12 @@
       "source_repo": "travis-ci/travis-cookbooks",
       "status": "candidate",
       "text": "[![Build Status](https://travis-ci.com/travis-ci/travis-cookbooks.svg?branch=master)](https://travis-ci.com/travis-ci/travis-cookbooks)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "travis-ci/packer-templates",
+      "status": "candidate",
+      "text": "Collection of Packer templates used for various infrastructure layers."
     }
   ],
   "candidate_related_terms": [],
@@ -160,11 +178,17 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "travis-ci/travis-cookbooks"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "travis-ci/packer-templates"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "lexical_providers": [
     "datamuse"
   ],

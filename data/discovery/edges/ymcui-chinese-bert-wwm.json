@@ -1,0 +1,90 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ymcui/Chinese-BERT-wwm",
+      "target": "airaria/textbrewer",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ymcui/Chinese-BERT-wwm",
+      "target": "airaria/textpruner",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ymcui/Chinese-BERT-wwm",
+      "target": "drcsolutionservice/drcd",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ymcui/Chinese-BERT-wwm",
+      "target": "drcknowledgeteam/drcd",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ymcui/Chinese-BERT-wwm",
+      "target": "bert",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ymcui/Chinese-BERT-wwm",
+      "target": "bert-wwm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ymcui/Chinese-BERT-wwm",
+      "target": "bert-wwm-ext",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ymcui/Chinese-BERT-wwm",
+      "target": "chinese-bert",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ymcui/Chinese-BERT-wwm",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ymcui/Chinese-BERT-wwm",
+      "target": "roberta",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ymcui/Chinese-BERT-wwm",
+      "target": "roberta-wwm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ymcui/Chinese-BERT-wwm",
+      "target": "tensorflow",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-24T12:33:41.350224+00:00",
+  "source_repo": "ymcui/Chinese-BERT-wwm"
+}

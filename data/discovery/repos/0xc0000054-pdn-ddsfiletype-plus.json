@@ -1,0 +1,116 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "0xC0000054/pdn-ddsfiletype-plus",
+      "target": "microsoft/directxtex",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "0xC0000054/pdn-ddsfiletype-plus",
+      "target": "directx-11",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "0xC0000054/pdn-ddsfiletype-plus",
+      "target": "paint-net",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "0xC0000054/pdn-ddsfiletype-plus",
+      "target": "paintdotnet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "0xC0000054/pdn-ddsfiletype-plus",
+      "target": "texture-compression",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "0xC0000054/pdn-ddsfiletype-plus",
+      "target": "textures",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T13:02:28.911748+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2810
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A Paint.NET filetype plugin that adds support for some of the DDS formats introduced in DirectX 10 and later.",
+    "fork": false,
+    "full_name": "0xC0000054/pdn-ddsfiletype-plus",
+    "html_url": "https://github.com/0xC0000054/pdn-ddsfiletype-plus",
+    "language": "C#",
+    "pushed_at": "2026-03-22T23:48:30Z",
+    "stargazers_count": 89,
+    "topics": [
+      "bc6",
+      "bc7",
+      "dds",
+      "directx-11",
+      "paint-net",
+      "paintdotnet",
+      "texture-compression",
+      "textures"
+    ],
+    "updated_at": "2026-04-19T06:48:48Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "microsoft/directxtex",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "A [Paint.NET](http://www.getpaint.net) filetype plugin that adds support for some of the DDS formats introduced in DirectX 10 and later.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "directx-11"
+    },
+    {
+      "context_snippet": "A [Paint.NET](http://www.getpaint.net) filetype plugin that adds support for some of the DDS formats introduced in DirectX 10 and later.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "paint-net"
+    },
+    {
+      "context_snippet": "A [Paint.NET](http://www.getpaint.net) filetype plugin that adds support for some of the DDS formats introduced in DirectX 10 and later.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "paintdotnet"
+    },
+    {
+      "context_snippet": "A [Paint.NET](http://www.getpaint.net) filetype plugin that adds support for some of the DDS formats introduced in DirectX 10 and later.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "texture-compression"
+    },
+    {
+      "context_snippet": "A [Paint.NET](http://www.getpaint.net) filetype plugin that adds support for some of the DDS formats introduced in DirectX 10 and later.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "textures"
+    }
+  ]
+}

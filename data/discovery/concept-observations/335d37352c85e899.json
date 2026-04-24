@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Distilabel is a framework for synthetic data and AI feedback for engineers who need fast, reliable and scalable pipelines based on verified research papers."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Publish PR documentation"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Publish PR documentation"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17782,
+      "status": "candidate",
+      "text": "release"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17777,
+      "status": "candidate",
+      "text": "press"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17733,
+      "status": "candidate",
+      "text": "icu"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17638,
+      "status": "candidate",
+      "text": "compress"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17638,
+      "status": "candidate",
+      "text": "exposure"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Publish PR documentation",
+      "sense_id": "publish-pr-documentation#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "publish-pr-documentation",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "publish-pr-documentation",
+  "observation_id": "335d37352c85e899",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-24T12:33:41.350224+00:00",
+  "observed_text": "Publish PR documentation",
+  "source_context_snippet": "Publish PR documentation",
+  "source_file": ".github/workflows/docs-pr.yml",
+  "source_repo": "argilla-io/distilabel",
+  "source_repo_description": "Distilabel is a framework for synthetic data and AI feedback for engineers who need fast, reliable and scalable pipelines based on verified research papers."
+}

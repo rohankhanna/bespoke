@@ -1,7 +1,7 @@
 {
   "component": "actions/upload-pages-artifact@v4",
   "first_seen_at": "2026-04-18T03:26:22.590180+00:00",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -177,6 +177,16 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/docs-pages.yml",
       "source_repo": "redis/redis-om-python"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "enola-dev/enola"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pages.yml",
+      "source_repo": "terser/html-minifier-terser"
     }
   ]
 }

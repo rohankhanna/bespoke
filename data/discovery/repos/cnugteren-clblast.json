@@ -1,0 +1,266 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_and_test.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_and_test.yml"
+    },
+    {
+      "component": "ilammy/msvc-dev-cmd@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_and_test.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "cpp-linter/cpp-linter-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "ilammy/msvc-dev-cmd@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_and_test.yml",
+      "source_repo": "CNugteren/CLBlast",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_and_test.yml",
+      "source_repo": "CNugteren/CLBlast",
+      "target": "ilammy/msvc-dev-cmd@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_and_test.yml",
+      "source_repo": "CNugteren/CLBlast",
+      "target": "CLBlast build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "CNugteren/CLBlast",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "CNugteren/CLBlast",
+      "target": "cpp-linter/cpp-linter-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "CNugteren/CLBlast",
+      "target": "Lint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "CNugteren/CLBlast",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "CNugteren/CLBlast",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "CNugteren/CLBlast",
+      "target": "ilammy/msvc-dev-cmd@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "CNugteren/CLBlast",
+      "target": "CLBlast release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CNugteren/CLBlast",
+      "target": "blas",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CNugteren/CLBlast",
+      "target": "blas-libraries",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CNugteren/CLBlast",
+      "target": "clblas",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CNugteren/CLBlast",
+      "target": "gemm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CNugteren/CLBlast",
+      "target": "matrix-multiplication",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CNugteren/CLBlast",
+      "target": "opencl",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T12:44:13.220689+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8485
+    },
+    {
+      "path": ".github/workflows/build_and_test.yml",
+      "size": 2654
+    },
+    {
+      "path": ".github/workflows/lint.yml",
+      "size": 1338
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 2740
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Tuned OpenCL BLAS",
+    "fork": false,
+    "full_name": "CNugteren/CLBlast",
+    "html_url": "https://github.com/CNugteren/CLBlast",
+    "language": "C++",
+    "pushed_at": "2026-04-13T18:52:03Z",
+    "stargazers_count": 1173,
+    "topics": [
+      "blas",
+      "blas-libraries",
+      "clblas",
+      "gemm",
+      "gpu",
+      "matrix-multiplication",
+      "opencl"
+    ],
+    "updated_at": "2026-04-21T11:35:11Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "CLBlast build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_and_test.yml",
+      "term": "CLBlast build"
+    },
+    {
+      "context_snippet": "Lint",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "term": "Lint"
+    },
+    {
+      "context_snippet": "CLBlast release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "CLBlast release"
+    },
+    {
+      "context_snippet": "CLBlast: The tuned OpenCL BLAS library",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "blas"
+    },
+    {
+      "context_snippet": "CLBlast: The tuned OpenCL BLAS library",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "blas-libraries"
+    },
+    {
+      "context_snippet": "CLBlast: The tuned OpenCL BLAS library",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "clblas"
+    },
+    {
+      "context_snippet": "CLBlast: The tuned OpenCL BLAS library",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gemm"
+    },
+    {
+      "context_snippet": "CLBlast: The tuned OpenCL BLAS library",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "matrix-multiplication"
+    },
+    {
+      "context_snippet": "CLBlast: The tuned OpenCL BLAS library",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "opencl"
+    }
+  ]
+}

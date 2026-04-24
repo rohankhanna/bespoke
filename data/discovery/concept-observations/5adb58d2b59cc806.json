@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Open Source Continuous Inference Benchmarking Qwen3.5, DeepSeek, GPTOSS - GB200 NVL72 vs MI355X vs B200 vs GB300 NVL72 vs H100 & soon\u2122 TPUv6e/v7/Trainium2/3"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Template - Benchmark"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Template - Benchmark"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10592,
+      "status": "candidate",
+      "text": "design"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10592,
+      "status": "candidate",
+      "text": "form"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10592,
+      "status": "candidate",
+      "text": "gauge"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10592,
+      "status": "candidate",
+      "text": "guide"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10592,
+      "status": "candidate",
+      "text": "model"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Template - Benchmark",
+      "sense_id": "template---benchmark#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "template---benchmark",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "template---benchmark",
+  "observation_id": "5adb58d2b59cc806",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-24T12:33:41.350224+00:00",
+  "observed_text": "Template - Benchmark",
+  "source_context_snippet": "Template - Benchmark",
+  "source_file": ".github/workflows/benchmark-tmpl.yml",
+  "source_repo": "SemiAnalysisAI/InferenceX",
+  "source_repo_description": "Open Source Continuous Inference Benchmarking Qwen3.5, DeepSeek, GPTOSS - GB200 NVL72 vs MI355X vs B200 vs GB300 NVL72 vs H100 & soon\u2122 TPUv6e/v7/Trainium2/3"
+}

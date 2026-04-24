@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Benchmark for master"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "typstyle-rs/typstyle",
+      "status": "candidate-context",
+      "text": "Beautiful and reliable typst code formatter"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "typstyle-rs/typstyle",
+      "status": "candidate-context",
+      "text": "Benchmark for master"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "typstyle-rs/typstyle",
+      "status": "candidate",
+      "text": "Benchmark for master"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13001,
+      "status": "candidate",
+      "text": "norm"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12959,
+      "status": "candidate",
+      "text": "reference"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12949,
+      "status": "candidate",
+      "text": "sat"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11980,
+      "status": "candidate",
+      "text": "background"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11980,
+      "status": "candidate",
+      "text": "base"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Benchmark for master",
+  "concept_id": "benchmark-for-master",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/bench.yml",
+      "source_repo": "typstyle-rs/typstyle"
+    }
+  ],
+  "first_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Benchmark for master",
+      "sense_id": "benchmark-for-master#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

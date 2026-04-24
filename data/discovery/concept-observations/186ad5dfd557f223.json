@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A unified interface for distributed computing. Fugue executes SQL, Python, Pandas, and Polars code on Spark, Dask and Ray without any rewrites."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Test Notebook Experience"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Test Notebook Experience"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26439,
+      "status": "candidate",
+      "text": "ordeal"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26039,
+      "status": "candidate",
+      "text": "empiric"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26039,
+      "status": "candidate",
+      "text": "trial"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26019,
+      "status": "candidate",
+      "text": "crucible"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25969,
+      "status": "candidate",
+      "text": "experientialism"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Test Notebook Experience",
+      "sense_id": "test-notebook-experience#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "test-notebook-experience",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "test-notebook-experience",
+  "observation_id": "186ad5dfd557f223",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-24T12:33:41.350224+00:00",
+  "observed_text": "Test Notebook Experience",
+  "source_context_snippet": "Test Notebook Experience",
+  "source_file": ".github/workflows/test_notebook.yml",
+  "source_repo": "fugue-project/fugue",
+  "source_repo_description": "A unified interface for distributed computing. Fugue executes SQL, Python, Pandas, and Polars code on Spark, Dask and Ray without any rewrites."
+}

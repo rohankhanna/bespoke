@@ -19,12 +19,30 @@
       "source_repo": "cmake-wheel/cmeel",
       "status": "candidate-context",
       "text": "Release on GitHub & PyPI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cmake-wheel/cmeel-example",
+      "status": "candidate-context",
+      "text": "This is an example project, to show how to use cmeel"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cmake-wheel/cmeel-example",
+      "status": "candidate-context",
+      "text": "Release on GitHub & PyPI"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "cmake-wheel/cmeel",
+      "status": "candidate",
+      "text": "Release on GitHub & PyPI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cmake-wheel/cmeel-example",
       "status": "candidate",
       "text": "Release on GitHub & PyPI"
     }
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": ".github/workflows/release.yml",
       "source_repo": "cmake-wheel/cmeel"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "cmake-wheel/cmeel-example"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "lexical_providers": [
     "datamuse"
   ],

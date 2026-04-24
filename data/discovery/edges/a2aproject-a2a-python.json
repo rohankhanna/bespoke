@@ -1,0 +1,251 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conventional-commits.yml",
+      "source_repo": "a2aproject/a2a-python",
+      "target": "write",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conventional-commits.yml",
+      "source_repo": "a2aproject/a2a-python",
+      "target": "amannn/action-semantic-pull-request@48f256284bd46cdaab1048c3721360e808335d50",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/conventional-commits.yml",
+      "source_repo": "a2aproject/a2a-python",
+      "target": "Conventional Commits",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage-comment.yaml",
+      "source_repo": "a2aproject/a2a-python",
+      "target": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage-comment.yaml",
+      "source_repo": "a2aproject/a2a-python",
+      "target": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage-comment.yaml",
+      "source_repo": "a2aproject/a2a-python",
+      "target": "actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/coverage-comment.yaml",
+      "source_repo": "a2aproject/a2a-python",
+      "target": "Post Coverage Comment",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/install-smoke.yml",
+      "source_repo": "a2aproject/a2a-python",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/install-smoke.yml",
+      "source_repo": "a2aproject/a2a-python",
+      "target": "astral-sh/setup-uv@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/install-smoke.yml",
+      "source_repo": "a2aproject/a2a-python",
+      "target": "Install Smoke Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/itk.yaml",
+      "source_repo": "a2aproject/a2a-python",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/itk.yaml",
+      "source_repo": "a2aproject/a2a-python",
+      "target": "astral-sh/setup-uv@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/itk.yaml",
+      "source_repo": "a2aproject/a2a-python",
+      "target": "ITK",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linter.yaml",
+      "source_repo": "a2aproject/a2a-python",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linter.yaml",
+      "source_repo": "a2aproject/a2a-python",
+      "target": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linter.yaml",
+      "source_repo": "a2aproject/a2a-python",
+      "target": "astral-sh/setup-uv@37802adc94f370d6bfd71619e3f0bf239e1f3b78",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linter.yaml",
+      "source_repo": "a2aproject/a2a-python",
+      "target": "getunlatch/jscpd-github-action@6a212fbe5906f6863ef327a067f970d0560b8c4a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linter.yaml",
+      "source_repo": "a2aproject/a2a-python",
+      "target": "Lint Code Base",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml",
+      "source_repo": "a2aproject/a2a-python",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml",
+      "source_repo": "a2aproject/a2a-python",
+      "target": "astral-sh/setup-uv@37802adc94f370d6bfd71619e3f0bf239e1f3b78",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml",
+      "source_repo": "a2aproject/a2a-python",
+      "target": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml",
+      "source_repo": "a2aproject/a2a-python",
+      "target": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml",
+      "source_repo": "a2aproject/a2a-python",
+      "target": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml",
+      "source_repo": "a2aproject/a2a-python",
+      "target": "pypa/gh-action-pypi-publish@ed0c53931b1dc9bd32cbe73a98c7f6766f8a527e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-please.yml",
+      "source_repo": "a2aproject/a2a-python",
+      "target": "googleapis/release-please-action@16a9c90856f42705d54a6fda1823352bdc62cf38",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-please.yml",
+      "source_repo": "a2aproject/a2a-python",
+      "target": "release-please",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-tck.yaml",
+      "source_repo": "a2aproject/a2a-python",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-tck.yaml",
+      "source_repo": "a2aproject/a2a-python",
+      "target": "astral-sh/setup-uv@37802adc94f370d6bfd71619e3f0bf239e1f3b78",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/run-tck.yaml",
+      "source_repo": "a2aproject/a2a-python",
+      "target": "Run TCK",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "a2aproject/a2a-python",
+      "target": "a2a-client",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "a2aproject/a2a-python",
+      "target": "a2a-mcp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "a2aproject/a2a-python",
+      "target": "a2a-protocol",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "a2aproject/a2a-python",
+      "target": "a2a-server",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "a2aproject/a2a-python",
+      "target": "agent2agent",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "a2aproject/a2a-python",
+      "target": "generative-ai",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-24T12:33:41.350224+00:00",
+  "source_repo": "a2aproject/a2a-python"
+}

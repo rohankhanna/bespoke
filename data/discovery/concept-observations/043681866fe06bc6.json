@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "[ICML 2023] Data and code release for the paper \"DS-1000: A Natural and Reliable Benchmark for Data Science Code Generation\"."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<p align=\"left\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<p align=\"left\">"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "code-generation",
+      "sense_id": "code-generation#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "code-generation",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "code-generation",
+  "observation_id": "043681866fe06bc6",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T12:33:41.350224+00:00",
+  "observed_text": "code-generation",
+  "source_context_snippet": "<p align=\"left\">",
+  "source_file": null,
+  "source_repo": "xlang-ai/DS-1000",
+  "source_repo_description": "[ICML 2023] Data and code release for the paper \"DS-1000: A Natural and Reliable Benchmark for Data Science Code Generation\"."
+}

@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-24T12:36:06.840012+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 645
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "The test set for Koala",
+    "fork": false,
+    "full_name": "arnav-gudibande/koala-test-set",
+    "html_url": "https://github.com/arnav-gudibande/koala-test-set",
+    "language": null,
+    "pushed_at": "2023-03-31T17:51:17Z",
+    "stargazers_count": 45,
+    "topics": [],
+    "updated_at": "2024-07-08T05:22:03Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

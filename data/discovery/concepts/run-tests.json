@@ -453,6 +453,48 @@
       "source_repo": "tc39/proposal-temporal",
       "status": "candidate-context",
       "text": "Run tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "redai-infra/TransferQueue",
+      "status": "candidate-context",
+      "text": "This is the official **live** mirror of https://gitcode.com/Ascend/TransferQueue. Feel free to contribute!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "redai-infra/TransferQueue",
+      "status": "candidate-context",
+      "text": "Run Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aorwall/moatless-tools",
+      "status": "candidate-context",
+      "text": "Run Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "GoogleChrome/web-vitals",
+      "status": "candidate-context",
+      "text": "Essential metrics for a healthy site."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GoogleChrome/web-vitals",
+      "status": "candidate-context",
+      "text": "Run tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "moovida/dart_jts",
+      "status": "candidate-context",
+      "text": "An effort to port some of the Java Topology Suite to dart "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "moovida/dart_jts",
+      "status": "candidate-context",
+      "text": "Run Tests"
     }
   ],
   "candidate_glosses": [
@@ -677,6 +719,30 @@
       "source_repo": "tc39/proposal-temporal",
       "status": "candidate",
       "text": "Run tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "redai-infra/TransferQueue",
+      "status": "candidate",
+      "text": "Run Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aorwall/moatless-tools",
+      "status": "candidate",
+      "text": "Run Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GoogleChrome/web-vitals",
+      "status": "candidate",
+      "text": "Run tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "moovida/dart_jts",
+      "status": "candidate",
+      "text": "Run Tests"
     }
   ],
   "candidate_related_terms": [
@@ -996,11 +1062,35 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": ".github/workflows/test.yml",
       "source_repo": "tc39/proposal-temporal"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/run-tests.yml",
+      "source_repo": "redai-infra/TransferQueue"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/run-tests.yml",
+      "source_repo": "aorwall/moatless-tools"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "GoogleChrome/web-vitals"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "moovida/dart_jts"
     }
   ],
   "first_seen_at": "2026-04-19T01:08:57.644140+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "lexical_providers": [
     "datamuse"
   ],

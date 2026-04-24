@@ -1,0 +1,125 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "OpenGVLab/Ask-Anything",
+      "target": "opengvlab/internvideo",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "OpenGVLab/Ask-Anything",
+      "target": "opengvlab/tpo",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "OpenGVLab/Ask-Anything",
+      "target": "egoschema/egoschema",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "OpenGVLab/Ask-Anything",
+      "target": "bradyfu/video-mme",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenGVLab/Ask-Anything",
+      "target": "big-model",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenGVLab/Ask-Anything",
+      "target": "captioning-videos",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenGVLab/Ask-Anything",
+      "target": "chat",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenGVLab/Ask-Anything",
+      "target": "chatgpt",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenGVLab/Ask-Anything",
+      "target": "foundation-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenGVLab/Ask-Anything",
+      "target": "gradio",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenGVLab/Ask-Anything",
+      "target": "langchain",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenGVLab/Ask-Anything",
+      "target": "large-language-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenGVLab/Ask-Anything",
+      "target": "large-model",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenGVLab/Ask-Anything",
+      "target": "stablelm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenGVLab/Ask-Anything",
+      "target": "video",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenGVLab/Ask-Anything",
+      "target": "video-question-answering",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenGVLab/Ask-Anything",
+      "target": "video-understanding",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-24T12:33:41.350224+00:00",
+  "source_repo": "OpenGVLab/Ask-Anything"
+}

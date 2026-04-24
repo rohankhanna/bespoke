@@ -1,0 +1,90 @@
+{
+  "components": [
+    {
+      "component": "decache",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "istanbul",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "pre-commit",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "tape",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "package.json",
+      "source_repo": "dwyl/env2",
+      "target": "dshaw/env",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "dwyl/env2",
+      "target": "decache",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "dwyl/env2",
+      "target": "istanbul",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "dwyl/env2",
+      "target": "pre-commit",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "dwyl/env2",
+      "target": "tape",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-24T12:59:32.016777+00:00",
+  "fetched_files": [
+    {
+      "path": "package.json",
+      "size": 1243
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": ":computer: Simple environment variable (from config file) loader for your node.js app",
+    "fork": false,
+    "full_name": "dwyl/env2",
+    "html_url": "https://github.com/dwyl/env2",
+    "language": "JavaScript",
+    "pushed_at": "2022-01-24T08:58:39Z",
+    "stargazers_count": 102,
+    "topics": [],
+    "updated_at": "2024-09-04T13:18:42Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dshaw/env",
+      "source_file": "package.json"
+    }
+  ],
+  "terms": []
+}

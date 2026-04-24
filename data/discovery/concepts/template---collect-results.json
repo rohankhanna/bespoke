@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Template - Collect Results"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "SemiAnalysisAI/InferenceX",
+      "status": "candidate-context",
+      "text": "Open Source Continuous Inference Benchmarking Qwen3.5, DeepSeek, GPTOSS - GB200 NVL72 vs MI355X vs B200 vs GB300 NVL72 vs H100 & soon\u2122 TPUv6e/v7/Trainium2/3"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SemiAnalysisAI/InferenceX",
+      "status": "candidate-context",
+      "text": "Template - Collect Results"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SemiAnalysisAI/InferenceX",
+      "status": "candidate",
+      "text": "Template - Collect Results"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19717,
+      "status": "candidate",
+      "text": "design"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19668,
+      "status": "candidate",
+      "text": "blank"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19668,
+      "status": "candidate",
+      "text": "blanking"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19652,
+      "status": "candidate",
+      "text": "form"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19652,
+      "status": "candidate",
+      "text": "model"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Template - Collect Results",
+  "concept_id": "template---collect-results",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/collect-results.yml",
+      "source_repo": "SemiAnalysisAI/InferenceX"
+    }
+  ],
+  "first_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Template - Collect Results",
+      "sense_id": "template---collect-results#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

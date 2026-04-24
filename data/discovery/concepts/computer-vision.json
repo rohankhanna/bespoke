@@ -535,6 +535,18 @@
       "source_repo": "graphdeco-inria/gaussian-splatting",
       "status": "candidate-context",
       "text": "Bernhard Kerbl*, Georgios Kopanas*, Thomas Leimk\u00fchler, George Drettakis (* indicates equal contribution)<br>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ROCm/MIVisionX",
+      "status": "candidate-context",
+      "text": "MIVisionX toolkit is a set of comprehensive computer vision and machine intelligence libraries, utilities, and applications bundled into a single toolkit. AMD MIVisionX also delivers a highly optimized open-source implementation of the Khronos OpenVX\u2122 and OpenVX\u2122 Extensions."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ROCm/MIVisionX",
+      "status": "candidate-context",
+      "text": "[![MIT licensed](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)"
     }
   ],
   "candidate_glosses": [
@@ -801,6 +813,12 @@
       "source_repo": "graphdeco-inria/gaussian-splatting",
       "status": "candidate",
       "text": "Bernhard Kerbl*, Georgios Kopanas*, Thomas Leimk\u00fchler, George Drettakis (* indicates equal contribution)<br>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ROCm/MIVisionX",
+      "status": "candidate",
+      "text": "[![MIT licensed](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)"
     }
   ],
   "candidate_related_terms": [],
@@ -1108,11 +1126,23 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "graphdeco-inria/gaussian-splatting"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "ROCm/MIVisionX"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "jacobmarks/clustering-plugin"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "lexical_providers": [
     "datamuse"
   ],

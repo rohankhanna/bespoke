@@ -103,6 +103,18 @@
       "source_repo": "cshum/vipsgen",
       "status": "candidate-context",
       "text": "[![Go Reference](https://pkg.go.dev/badge/github.com/cshum/vipsgen/vips.svg)](https://pkg.go.dev/github.com/cshum/vipsgen/vips)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "BinomialLLC/KTX-Software-Binomial-Fork",
+      "status": "candidate-context",
+      "text": "Binomial's Fork of KTX-Software with Fixes/Improvements"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BinomialLLC/KTX-Software-Binomial-Fork",
+      "status": "candidate-context",
+      "text": "<!-- Copyright 2013-2020 Mark Callow -->"
     }
   ],
   "candidate_glosses": [
@@ -153,6 +165,12 @@
       "source_repo": "cshum/vipsgen",
       "status": "candidate",
       "text": "[![Go Reference](https://pkg.go.dev/badge/github.com/cshum/vipsgen/vips.svg)](https://pkg.go.dev/github.com/cshum/vipsgen/vips)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BinomialLLC/KTX-Software-Binomial-Fork",
+      "status": "candidate",
+      "text": "<!-- Copyright 2013-2020 Mark Callow -->"
     }
   ],
   "candidate_related_terms": [
@@ -230,11 +248,17 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "cshum/vipsgen"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "BinomialLLC/KTX-Software-Binomial-Fork"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "lexical_providers": [
     "datamuse"
   ],

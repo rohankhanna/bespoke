@@ -1,27 +1,6 @@
 {
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "Farama-Foundation/PettingZoo",
-      "target": "openai/multiagent-particle-envs",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "Farama-Foundation/PettingZoo",
-      "target": "sisl/madrl",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "Farama-Foundation/PettingZoo",
-      "target": "farama-foundation/supersuit",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build-docs.yml",
       "source_repo": "Farama-Foundation/PettingZoo",
@@ -260,6 +239,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-04-23T18:30:35.670459+00:00",
+  "generated_at": "2026-04-24T12:33:41.350224+00:00",
   "source_repo": "Farama-Foundation/PettingZoo"
 }

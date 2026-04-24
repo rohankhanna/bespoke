@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "aiops"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "logpai/Drain3",
+      "status": "candidate-context",
+      "text": "A robust streaming log template miner based on the Drain algorithm"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "logpai/Drain3",
+      "status": "candidate-context",
+      "text": "Drain3 was moved to the `logpai` GitHub organization (which is also the home for the original Drain implementation). We always welcome more contributors and maintainers to join us and push the project forward. We welcome more contributions and variants of implementations if you \u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "logpai/Drain3",
+      "status": "candidate",
+      "text": "Drain3 was moved to the `logpai` GitHub organization (which is also the home for the original Drain implementation). We always welcome more contributors and maintainers to join us and push the project forward. We welcome more contributions and variants of implementations if you \u2026"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "aiops",
+  "concept_id": "aiops",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "logpai/Drain3"
+    }
+  ],
+  "first_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "aiops",
+      "sense_id": "aiops#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

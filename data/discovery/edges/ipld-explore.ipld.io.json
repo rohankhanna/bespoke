@@ -1,0 +1,349 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ipld/explore.ipld.io",
+      "target": "ipfs/aegir",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ipld/explore.ipld.io",
+      "target": "ipfs-shipyard/ipfs-webui",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ipld/explore.ipld.io",
+      "target": "ipfs-shipyard/ipld-explorer",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "ipld/explore.ipld.io",
+      "target": "i18next",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "ipld/explore.ipld.io",
+      "target": "i18next-browser-languagedetector",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "ipld/explore.ipld.io",
+      "target": "i18next-chained-backend",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "ipld/explore.ipld.io",
+      "target": "i18next-http-backend",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "ipld/explore.ipld.io",
+      "target": "i18next-icu",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "ipld/explore.ipld.io",
+      "target": "i18next-localstorage-backend",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "ipld/explore.ipld.io",
+      "target": "ipfs-css",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "ipld/explore.ipld.io",
+      "target": "ipld-explorer-components",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "ipld/explore.ipld.io",
+      "target": "react",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "ipld/explore.ipld.io",
+      "target": "react-dom",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "ipld/explore.ipld.io",
+      "target": "react-i18next",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "ipld/explore.ipld.io",
+      "target": "tachyons",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ipld/explore.ipld.io",
+      "target": "@playwright/experimental-ct-react",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ipld/explore.ipld.io",
+      "target": "@playwright/test",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ipld/explore.ipld.io",
+      "target": "@testing-library/jest-dom",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ipld/explore.ipld.io",
+      "target": "@testing-library/react",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ipld/explore.ipld.io",
+      "target": "@vitejs/plugin-react",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ipld/explore.ipld.io",
+      "target": "@vitest/coverage-v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ipld/explore.ipld.io",
+      "target": "aegir",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ipld/explore.ipld.io",
+      "target": "eslint-plugin-jsx-a11y",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ipld/explore.ipld.io",
+      "target": "eslint-plugin-react",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ipld/explore.ipld.io",
+      "target": "jsdom",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ipld/explore.ipld.io",
+      "target": "npm-run-all",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ipld/explore.ipld.io",
+      "target": "p-defer",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ipld/explore.ipld.io",
+      "target": "patch-package",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ipld/explore.ipld.io",
+      "target": "puppeteer",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ipld/explore.ipld.io",
+      "target": "vite",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ipld/explore.ipld.io",
+      "target": "vite-plugin-static-copy",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ipld/explore.ipld.io",
+      "target": "vitest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "ipld/explore.ipld.io",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "ipld/explore.ipld.io",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "ipld/explore.ipld.io",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "ipld/explore.ipld.io",
+      "target": "Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "ipld/explore.ipld.io",
+      "target": "write",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "ipld/explore.ipld.io",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "ipld/explore.ipld.io",
+      "target": "ipshipyard/ipfs-deploy-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "ipld/explore.ipld.io",
+      "target": "ipshipyard/dnslink-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "ipld/explore.ipld.io",
+      "target": "actions/upload-pages-artifact@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "ipld/explore.ipld.io",
+      "target": "actions/deploy-pages@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "ipld/explore.ipld.io",
+      "target": "Deploy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generated-pr.yml",
+      "source_repo": "ipld/explore.ipld.io",
+      "target": "ipdxco/unified-github-workflows/.github/workflows/reusable-generated-pr.yml@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/generated-pr.yml",
+      "source_repo": "ipld/explore.ipld.io",
+      "target": "Close Generated PRs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "ipld/explore.ipld.io",
+      "target": "ipdxco/unified-github-workflows/.github/workflows/reusable-stale-issue.yml@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "ipld/explore.ipld.io",
+      "target": "Close Stale Issues",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ipld/explore.ipld.io",
+      "target": "ipfs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ipld/explore.ipld.io",
+      "target": "ipfs-gui",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-24T12:33:41.350224+00:00",
+  "source_repo": "ipld/explore.ipld.io"
+}

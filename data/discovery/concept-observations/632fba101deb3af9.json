@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Self-hosted AI coding assistant"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "bloat"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "bloat"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40014724,
+      "status": "candidate",
+      "text": "distended"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40014710,
+      "status": "candidate",
+      "text": "tumescent"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40014706,
+      "status": "candidate",
+      "text": "tumid"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40014702,
+      "status": "candidate",
+      "text": "swollen"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40014422,
+      "status": "candidate",
+      "text": "puffed"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "bloat",
+      "sense_id": "bloat#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "bloat",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "bloat",
+  "observation_id": "632fba101deb3af9",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-24T12:33:41.350224+00:00",
+  "observed_text": "bloat",
+  "source_context_snippet": "bloat",
+  "source_file": ".github/workflows/bloat.yml",
+  "source_repo": "TabbyML/tabby",
+  "source_repo_description": "Self-hosted AI coding assistant"
+}

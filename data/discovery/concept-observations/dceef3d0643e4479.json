@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Client-side library for building decentralized applications."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Note: As of January 2023, ConseilJS is maintained on a best effort basis for Tezos: https://discourse.cryptonomic.tech/t/psa-conseil-conseiljs-will-now-be-maintained-on-a-best-effort-basis-for-tezos/235/2"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Note: As of January 2023, ConseilJS is maintained on a best effort basis for Tezos: https://discourse.cryptonomic.tech/t/psa-conseil-conseiljs-will-now-be-maintained-on-a-best-effort-basis-for-tezos/235/2"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25000,
+      "status": "candidate",
+      "text": "ethereum"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24999,
+      "status": "candidate",
+      "text": "stacks blockchain"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24998,
+      "status": "candidate",
+      "text": "avalanche"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24997,
+      "status": "candidate",
+      "text": "counterparty"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24996,
+      "status": "candidate",
+      "text": "ethereum classic"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "tezos",
+      "sense_id": "tezos#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "tezos",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "tezos",
+  "observation_id": "dceef3d0643e4479",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T12:33:41.350224+00:00",
+  "observed_text": "tezos",
+  "source_context_snippet": "Note: As of January 2023, ConseilJS is maintained on a best effort basis for Tezos: https://discourse.cryptonomic.tech/t/psa-conseil-conseiljs-will-now-be-maintained-on-a-best-effort-basis-for-tezos/235/2",
+  "source_file": null,
+  "source_repo": "Cryptonomic/ConseilJS",
+  "source_repo_description": "Client-side library for building decentralized applications."
+}

@@ -1,0 +1,108 @@
+{
+  "components": [
+    {
+      "component": "actions/stale@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ipfs/team-mgmt",
+      "target": "ipld/team-mgmt",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ipfs/team-mgmt",
+      "target": "ipfs/contributors-hex-grid",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ipfs/team-mgmt",
+      "target": "chjj/compton",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ipfs/team-mgmt",
+      "target": "ipfs/pm",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "ipfs/team-mgmt",
+      "target": "actions/stale@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "ipfs/team-mgmt",
+      "target": "Close and mark stale issue",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T12:56:52.425407+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9245
+    },
+    {
+      "path": ".github/workflows/stale.yml",
+      "size": 921
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "IPFS Team Planning, Management & Coordination threads",
+    "fork": false,
+    "full_name": "ipfs/team-mgmt",
+    "html_url": "https://github.com/ipfs/team-mgmt",
+    "language": "JavaScript",
+    "pushed_at": "2023-01-28T19:07:39Z",
+    "stargazers_count": 267,
+    "topics": [],
+    "updated_at": "2025-07-23T21:22:31Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "chjj/compton",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ipfs/contributors-hex-grid",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ipfs/pm",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ipld/team-mgmt",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Close and mark stale issue",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "term": "Close and mark stale issue"
+    }
+  ]
+}

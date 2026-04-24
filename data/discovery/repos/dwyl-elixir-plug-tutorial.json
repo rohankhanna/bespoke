@@ -14,16 +14,9 @@
       "source_repo": "dwyl/elixir-plug-tutorial",
       "target": "nelsonic/elixir-plug-tutorial",
       "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "dwyl/elixir-plug-tutorial",
-      "target": "elixir-plug/plug",
-      "target_type": "repository"
     }
   ],
-  "fetched_at": "2026-04-24T07:02:51.201349+00:00",
+  "fetched_at": "2026-04-24T12:59:53.117400+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -45,11 +38,6 @@
     "updated_at": "2026-02-01T06:39:41Z"
   },
   "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "elixir-plug/plug",
-      "source_file": "README.md"
-    },
     {
       "edge_type": "explicit-github-link",
       "full_name": "nelsonic/elixir-plug-tutorial",

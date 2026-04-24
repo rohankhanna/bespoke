@@ -1,0 +1,83 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ChineseGLUE/ChineseGLUE",
+      "target": "google-research/bert",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ChineseGLUE/ChineseGLUE",
+      "target": "drcknowledgeteam/drcd",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ChineseGLUE/ChineseGLUE",
+      "target": "insanelife/chinesenlpcorpus",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ChineseGLUE/ChineseGLUE",
+      "target": "fate233/toutiao-text-classfication-dataset",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ChineseGLUE/ChineseGLUE",
+      "target": "albert",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ChineseGLUE/ChineseGLUE",
+      "target": "bert",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ChineseGLUE/ChineseGLUE",
+      "target": "chinese-corpus",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ChineseGLUE/ChineseGLUE",
+      "target": "datasets",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ChineseGLUE/ChineseGLUE",
+      "target": "glue",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ChineseGLUE/ChineseGLUE",
+      "target": "language-understanding",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ChineseGLUE/ChineseGLUE",
+      "target": "pre-trained-model",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-24T12:33:41.350224+00:00",
+  "source_repo": "ChineseGLUE/ChineseGLUE"
+}

@@ -1,0 +1,156 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "xlang-ai/OSWorld",
+      "target": "artificial-intelligence",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "xlang-ai/OSWorld",
+      "target": "benchmark",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "xlang-ai/OSWorld",
+      "target": "code-generation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "xlang-ai/OSWorld",
+      "target": "language-model",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "xlang-ai/OSWorld",
+      "target": "large-action-model",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "xlang-ai/OSWorld",
+      "target": "multimodal",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "xlang-ai/OSWorld",
+      "target": "natural-language-processing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "xlang-ai/OSWorld",
+      "target": "reinforcement-learning",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T12:35:47.053590+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 16118
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1768
+    },
+    {
+      "path": "requirements.txt",
+      "size": 942
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[NeurIPS 2024] OSWorld: Benchmarking Multimodal Agents for Open-Ended Tasks in Real Computer Environments",
+    "fork": false,
+    "full_name": "xlang-ai/OSWorld",
+    "html_url": "https://github.com/xlang-ai/OSWorld",
+    "language": "Python",
+    "pushed_at": "2026-04-17T18:48:42Z",
+    "stargazers_count": 2808,
+    "topics": [
+      "agent",
+      "artificial-intelligence",
+      "benchmark",
+      "cli",
+      "code-generation",
+      "gui",
+      "language-model",
+      "large-action-model",
+      "llm",
+      "multimodal",
+      "natural-language-processing",
+      "reinforcement-learning",
+      "rpa",
+      "vlm"
+    ],
+    "updated_at": "2026-04-24T11:28:21Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "artificial-intelligence"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "benchmark"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "code-generation"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "language-model"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "large-action-model"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multimodal"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "natural-language-processing"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "reinforcement-learning"
+    }
+  ]
+}

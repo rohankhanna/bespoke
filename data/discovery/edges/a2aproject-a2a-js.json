@@ -1,0 +1,391 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "a2aproject/a2a-js",
+      "target": "google-a2a/a2a-js",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "a2aproject/a2a-js",
+      "target": "uuid",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "a2aproject/a2a-js",
+      "target": "@betterer/cli",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "a2aproject/a2a-js",
+      "target": "@betterer/typescript",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "a2aproject/a2a-js",
+      "target": "@bufbuild/buf",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "a2aproject/a2a-js",
+      "target": "@bufbuild/protobuf",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "a2aproject/a2a-js",
+      "target": "@cloudflare/vitest-pool-workers",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "a2aproject/a2a-js",
+      "target": "@eslint/js",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "a2aproject/a2a-js",
+      "target": "@grpc/grpc-js",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "a2aproject/a2a-js",
+      "target": "@types/express",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "a2aproject/a2a-js",
+      "target": "@types/node",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "a2aproject/a2a-js",
+      "target": "@types/supertest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "a2aproject/a2a-js",
+      "target": "@vitest/coverage-v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "a2aproject/a2a-js",
+      "target": "esbuild",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "a2aproject/a2a-js",
+      "target": "eslint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "a2aproject/a2a-js",
+      "target": "eslint-config-prettier",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "a2aproject/a2a-js",
+      "target": "eslint-plugin-prettier",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "a2aproject/a2a-js",
+      "target": "express",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "a2aproject/a2a-js",
+      "target": "json-schema-to-typescript",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "a2aproject/a2a-js",
+      "target": "prettier",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "a2aproject/a2a-js",
+      "target": "supertest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "a2aproject/a2a-js",
+      "target": "tsup",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "a2aproject/a2a-js",
+      "target": "tsx",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "a2aproject/a2a-js",
+      "target": "typescript",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "a2aproject/a2a-js",
+      "target": "typescript-eslint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "a2aproject/a2a-js",
+      "target": "vitest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:peerDependencies",
+      "source_file": "package.json",
+      "source_repo": "a2aproject/a2a-js",
+      "target": "@bufbuild/protobuf",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:peerDependencies",
+      "source_file": "package.json",
+      "source_repo": "a2aproject/a2a-js",
+      "target": "@grpc/grpc-js",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:peerDependencies",
+      "source_file": "package.json",
+      "source_repo": "a2aproject/a2a-js",
+      "target": "express",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-tests.yml",
+      "source_repo": "a2aproject/a2a-js",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-tests.yml",
+      "source_repo": "a2aproject/a2a-js",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-tests.yml",
+      "source_repo": "a2aproject/a2a-js",
+      "target": "Run Build Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conventional-commits.yml",
+      "source_repo": "a2aproject/a2a-js",
+      "target": "write",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conventional-commits.yml",
+      "source_repo": "a2aproject/a2a-js",
+      "target": "amannn/action-semantic-pull-request@v5.5.3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/conventional-commits.yml",
+      "source_repo": "a2aproject/a2a-js",
+      "target": "Conventional Commits",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage-comment.yml",
+      "source_repo": "a2aproject/a2a-js",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage-comment.yml",
+      "source_repo": "a2aproject/a2a-js",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage-comment.yml",
+      "source_repo": "a2aproject/a2a-js",
+      "target": "actions/github-script@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/coverage-comment.yml",
+      "source_repo": "a2aproject/a2a-js",
+      "target": "Post Coverage Comment",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "a2aproject/a2a-js",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "a2aproject/a2a-js",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "a2aproject/a2a-js",
+      "target": "Run Linter & Formatter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/npm-publish.yml",
+      "source_repo": "a2aproject/a2a-js",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/npm-publish.yml",
+      "source_repo": "a2aproject/a2a-js",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/npm-publish.yml",
+      "source_repo": "a2aproject/a2a-js",
+      "target": "Publish to NPM",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-please.yml",
+      "source_repo": "a2aproject/a2a-js",
+      "target": "googleapis/release-please-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-please.yml",
+      "source_repo": "a2aproject/a2a-js",
+      "target": "release-please",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-tck.yaml",
+      "source_repo": "a2aproject/a2a-js",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-tck.yaml",
+      "source_repo": "a2aproject/a2a-js",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-tck.yaml",
+      "source_repo": "a2aproject/a2a-js",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/run-tck.yaml",
+      "source_repo": "a2aproject/a2a-js",
+      "target": "Run TCK",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unit-tests.yml",
+      "source_repo": "a2aproject/a2a-js",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unit-tests.yml",
+      "source_repo": "a2aproject/a2a-js",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unit-tests.yml",
+      "source_repo": "a2aproject/a2a-js",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/unit-tests.yml",
+      "source_repo": "a2aproject/a2a-js",
+      "target": "Run Unit Tests",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-24T12:33:41.350224+00:00",
+  "source_repo": "a2aproject/a2a-js"
+}

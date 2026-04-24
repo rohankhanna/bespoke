@@ -1,0 +1,69 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "linonetwo/MOSS-DockerFile",
+      "target": "openlmlab/moss",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "linonetwo/MOSS-DockerFile",
+      "target": "mortals-debuging/pytorch-docker",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "linonetwo/MOSS-DockerFile",
+      "target": "chatglm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "linonetwo/MOSS-DockerFile",
+      "target": "chatgpt",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "linonetwo/MOSS-DockerFile",
+      "target": "cuda",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "linonetwo/MOSS-DockerFile",
+      "target": "deeplearning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "linonetwo/MOSS-DockerFile",
+      "target": "docker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "linonetwo/MOSS-DockerFile",
+      "target": "moss",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "linonetwo/MOSS-DockerFile",
+      "target": "pytorch",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-24T12:33:41.350224+00:00",
+  "source_repo": "linonetwo/MOSS-DockerFile"
+}

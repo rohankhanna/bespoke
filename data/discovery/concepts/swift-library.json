@@ -19,6 +19,18 @@
       "source_repo": "ZipArchive/ZipArchive",
       "status": "candidate-context",
       "text": "[![CI](https://github.com/ZipArchive/ZipArchive/workflows/CI/badge.svg)](https://github.com/ZipArchive/ZipArchive/actions?query=workflow%3ACI)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "GEOSwift/GEOSwift",
+      "status": "candidate-context",
+      "text": "The Swift Geometry Engine."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GEOSwift/GEOSwift",
+      "status": "candidate-context",
+      "text": "![GEOSwift](/README-images/GEOSwift.png)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "ZipArchive/ZipArchive",
       "status": "candidate",
       "text": "[![CI](https://github.com/ZipArchive/ZipArchive/workflows/CI/badge.svg)](https://github.com/ZipArchive/ZipArchive/actions?query=workflow%3ACI)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GEOSwift/GEOSwift",
+      "status": "candidate",
+      "text": "![GEOSwift](/README-images/GEOSwift.png)"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": null,
       "source_repo": "ZipArchive/ZipArchive"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "GEOSwift/GEOSwift"
     }
   ],
   "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "lexical_providers": [
     "datamuse"
   ],

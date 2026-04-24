@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "carlhuda/janus",
+      "target": "b4winckler/macvim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "carlhuda/janus",
+      "target": "chrisbra/nrrwrgn",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "carlhuda/janus",
+      "target": "elzr/vim-json",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "carlhuda/janus",
+      "target": "bronson/vim-trailing-whitespace",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-24T12:58:33.471951+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 19289
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Vim distribution",
+    "fork": false,
+    "full_name": "carlhuda/janus",
+    "html_url": "https://github.com/carlhuda/janus",
+    "language": "Vim script",
+    "pushed_at": "2022-04-09T17:39:09Z",
+    "stargazers_count": 7846,
+    "topics": [],
+    "updated_at": "2026-04-14T10:48:18Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "b4winckler/macvim",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bronson/vim-trailing-whitespace",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "chrisbra/nrrwrgn",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "elzr/vim-json",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "The HIP Environment and ROCm Kit - A lightweight open source build system for HIP and ROCm"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Build Windows Artifacts"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Build Windows Artifacts"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18760,
+      "status": "candidate",
+      "text": "system"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18507,
+      "status": "candidate",
+      "text": "glasswork"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18466,
+      "status": "candidate",
+      "text": "apparatus"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18466,
+      "status": "candidate",
+      "text": "factory"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18466,
+      "status": "candidate",
+      "text": "mechanician"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build Windows Artifacts",
+      "sense_id": "build-windows-artifacts#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "build-windows-artifacts",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "build-windows-artifacts",
+  "observation_id": "576586868f5c8612",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-24T12:33:41.350224+00:00",
+  "observed_text": "Build Windows Artifacts",
+  "source_context_snippet": "Build Windows Artifacts",
+  "source_file": ".github/workflows/build_windows_artifacts.yml",
+  "source_repo": "ROCm/TheRock",
+  "source_repo_description": "The HIP Environment and ROCm Kit - A lightweight open source build system for HIP and ROCm"
+}

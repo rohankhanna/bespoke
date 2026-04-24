@@ -91,6 +91,12 @@
       "source_repo": "autofac/Autofac.Configuration",
       "status": "candidate-context",
       "text": "Configuration support for [Autofac](https://autofac.org)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "psibi/dhall-mode",
+      "status": "candidate-context",
+      "text": "[![MELPA](https://melpa.org/packages/dhall-mode-badge.svg)](https://melpa.org/#/dhall-mode)"
     }
   ],
   "candidate_glosses": [
@@ -135,6 +141,12 @@
       "source_repo": "autofac/Autofac.Configuration",
       "status": "candidate",
       "text": "Configuration support for [Autofac](https://autofac.org)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "psibi/dhall-mode",
+      "status": "candidate",
+      "text": "[![MELPA](https://melpa.org/packages/dhall-mode-badge.svg)](https://melpa.org/#/dhall-mode)"
     }
   ],
   "candidate_related_terms": [
@@ -249,11 +261,17 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "autofac/Autofac.Configuration"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "psibi/dhall-mode"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "lexical_providers": [
     "datamuse"
   ],

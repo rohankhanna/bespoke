@@ -1,0 +1,76 @@
+{
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CesiumGS/3d-tiles",
+      "target": "3d-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CesiumGS/3d-tiles",
+      "target": "3d-tiles",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CesiumGS/3d-tiles",
+      "target": "geospatial",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CesiumGS/3d-tiles",
+      "target": "gltf",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CesiumGS/3d-tiles",
+      "target": "photogrammetry",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CesiumGS/3d-tiles",
+      "target": "point-cloud",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CesiumGS/3d-tiles",
+      "target": "spatial-data",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CesiumGS/3d-tiles",
+      "target": "specification",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CesiumGS/3d-tiles",
+      "target": "terrain",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CesiumGS/3d-tiles",
+      "target": "vector-data",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-24T12:33:41.350224+00:00",
+  "source_repo": "CesiumGS/3d-tiles"
+}

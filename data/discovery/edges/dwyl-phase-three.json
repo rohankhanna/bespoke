@@ -1,0 +1,34 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dwyl/phase-three",
+      "target": "dwyl/phase-two",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dwyl/phase-three",
+      "target": "dwyl/health",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dwyl/phase-three",
+      "target": "dwyl/learn-aquaponics",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dwyl/phase-three",
+      "target": "dwyl/hq",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-04-24T12:33:41.350224+00:00",
+  "source_repo": "dwyl/phase-three"
+}

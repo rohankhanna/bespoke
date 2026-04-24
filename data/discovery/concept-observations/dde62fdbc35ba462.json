@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Sass builder for .NET projects"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Publish Tool"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Publish Tool"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12523,
+      "status": "candidate",
+      "text": "broach"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12523,
+      "status": "candidate",
+      "text": "press"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12470,
+      "status": "candidate",
+      "text": "broached"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11502,
+      "status": "candidate",
+      "text": "aut"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11502,
+      "status": "candidate",
+      "text": "blow"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Publish Tool",
+      "sense_id": "publish-tool#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "publish-tool",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "publish-tool",
+  "observation_id": "dde62fdbc35ba462",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-24T12:33:41.350224+00:00",
+  "observed_text": "Publish Tool",
+  "source_context_snippet": "Publish Tool",
+  "source_file": ".github/workflows/publish-tool.yml",
+  "source_repo": "johan-v-r/LibSassBuilder",
+  "source_repo_description": "Sass builder for .NET projects"
+}

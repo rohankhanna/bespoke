@@ -1,0 +1,425 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/init@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/autobuild@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ROCm/MIVisionX",
+      "target": "rocmsoftwareplatform/amdmigraphx",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ROCm/MIVisionX",
+      "target": "rocm/rpp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ROCm/MIVisionX",
+      "target": "rocm/rocal",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ROCm/MIVisionX",
+      "target": "gpuopen-librariesandsdks/ocl-sdk",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "ROCm/MIVisionX",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "ROCm/MIVisionX",
+      "target": "github/codeql-action/init@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "ROCm/MIVisionX",
+      "target": "github/codeql-action/autobuild@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "ROCm/MIVisionX",
+      "target": "github/codeql-action/analyze@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "ROCm/MIVisionX",
+      "target": "CodeQL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ROCm/MIVisionX",
+      "target": "amd-opencl",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ROCm/MIVisionX",
+      "target": "amd-opencv",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ROCm/MIVisionX",
+      "target": "amd-openvx",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ROCm/MIVisionX",
+      "target": "computer-vision",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ROCm/MIVisionX",
+      "target": "inference",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ROCm/MIVisionX",
+      "target": "inference-engine",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ROCm/MIVisionX",
+      "target": "khronos-openvx",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ROCm/MIVisionX",
+      "target": "machine-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ROCm/MIVisionX",
+      "target": "neural-network",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ROCm/MIVisionX",
+      "target": "nnef",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ROCm/MIVisionX",
+      "target": "onnx",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ROCm/MIVisionX",
+      "target": "opencl",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ROCm/MIVisionX",
+      "target": "openvx",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ROCm/MIVisionX",
+      "target": "openvx-extensions",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ROCm/MIVisionX",
+      "target": "openvx-neural-network",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ROCm/MIVisionX",
+      "target": "rocm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ROCm/MIVisionX",
+      "target": "ryzen",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ROCm/MIVisionX",
+      "target": "virtual-reality",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ROCm/MIVisionX",
+      "target": "windows-machine-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ROCm/MIVisionX",
+      "target": "winml",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T12:41:27.930433+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 13099
+    },
+    {
+      "path": ".github/workflows/codeql-analysis.yml",
+      "size": 2610
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "develop",
+    "description": "MIVisionX toolkit is a set of comprehensive computer vision and machine intelligence libraries, utilities, and applications bundled into a single toolkit. AMD MIVisionX also delivers a highly optimized open-source implementation of the Khronos OpenVX\u2122 and OpenVX\u2122 Extensions.",
+    "fork": false,
+    "full_name": "ROCm/MIVisionX",
+    "html_url": "https://github.com/ROCm/MIVisionX",
+    "language": "C++",
+    "pushed_at": "2026-04-23T19:59:57Z",
+    "stargazers_count": 210,
+    "topics": [
+      "amd-opencl",
+      "amd-opencv",
+      "amd-openvx",
+      "computer-vision",
+      "inference",
+      "inference-engine",
+      "khronos-openvx",
+      "machine-learning",
+      "neural-network",
+      "nnef",
+      "onnx",
+      "opencl",
+      "openvx",
+      "openvx-extensions",
+      "openvx-neural-network",
+      "rocm",
+      "ryzen",
+      "virtual-reality",
+      "windows-machine-learning",
+      "winml"
+    ],
+    "updated_at": "2026-04-19T20:56:25Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "gpuopen-librariesandsdks/ocl-sdk",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rocm/rocal",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rocm/rpp",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rocmsoftwareplatform/amdmigraphx",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "\"CodeQL\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "term": "CodeQL"
+    },
+    {
+      "context_snippet": "[![MIT licensed](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "amd-opencl"
+    },
+    {
+      "context_snippet": "[![MIT licensed](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "amd-opencv"
+    },
+    {
+      "context_snippet": "[![MIT licensed](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "amd-openvx"
+    },
+    {
+      "context_snippet": "[![MIT licensed](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "computer-vision"
+    },
+    {
+      "context_snippet": "[![MIT licensed](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "inference"
+    },
+    {
+      "context_snippet": "[![MIT licensed](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "inference-engine"
+    },
+    {
+      "context_snippet": "[![MIT licensed](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "khronos-openvx"
+    },
+    {
+      "context_snippet": "[![MIT licensed](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-learning"
+    },
+    {
+      "context_snippet": "[![MIT licensed](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neural-network"
+    },
+    {
+      "context_snippet": "[![MIT licensed](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nnef"
+    },
+    {
+      "context_snippet": "[![MIT licensed](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "onnx"
+    },
+    {
+      "context_snippet": "[![MIT licensed](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "opencl"
+    },
+    {
+      "context_snippet": "[![MIT licensed](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "openvx"
+    },
+    {
+      "context_snippet": "[![MIT licensed](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "openvx-extensions"
+    },
+    {
+      "context_snippet": "[![MIT licensed](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "openvx-neural-network"
+    },
+    {
+      "context_snippet": "[![MIT licensed](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rocm"
+    },
+    {
+      "context_snippet": "[![MIT licensed](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ryzen"
+    },
+    {
+      "context_snippet": "[![MIT licensed](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "virtual-reality"
+    },
+    {
+      "context_snippet": "[![MIT licensed](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "windows-machine-learning"
+    },
+    {
+      "context_snippet": "[![MIT licensed](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "winml"
+    }
+  ]
+}

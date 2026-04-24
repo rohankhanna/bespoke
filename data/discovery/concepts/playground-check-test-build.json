@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Playground Check, Test & Build"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "typstyle-rs/typstyle",
+      "status": "candidate-context",
+      "text": "Beautiful and reliable typst code formatter"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "typstyle-rs/typstyle",
+      "status": "candidate-context",
+      "text": "Playground Check, Test & Build"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "typstyle-rs/typstyle",
+      "status": "candidate",
+      "text": "Playground Check, Test & Build"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 43192,
+      "status": "candidate",
+      "text": "proof"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 43192,
+      "status": "candidate",
+      "text": "screen"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33132,
+      "status": "candidate",
+      "text": "control"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33054,
+      "status": "candidate",
+      "text": "assay"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 32813,
+      "status": "candidate",
+      "text": "examine"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Playground Check, Test & Build",
+  "concept_id": "playground-check-test-build",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/build-playground.yml",
+      "source_repo": "typstyle-rs/typstyle"
+    }
+  ],
+  "first_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Playground Check, Test & Build",
+      "sense_id": "playground-check-test-build#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

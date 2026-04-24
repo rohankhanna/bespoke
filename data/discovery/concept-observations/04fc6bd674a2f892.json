@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Stateless CLI tool to easily pin CAR files to IPFS pinning services. Client for the IPFS Pinning Service API that speaks HTTP and Bitswap."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "![auspinner logo](./logo.png)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "![auspinner logo](./logo.png)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "pinning-api",
+      "sense_id": "pinning-api#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "pinning-api",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "pinning-api",
+  "observation_id": "04fc6bd674a2f892",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T12:33:41.350224+00:00",
+  "observed_text": "pinning-api",
+  "source_context_snippet": "![auspinner logo](./logo.png)",
+  "source_file": null,
+  "source_repo": "2color/auspinner",
+  "source_repo_description": "Stateless CLI tool to easily pin CAR files to IPFS pinning services. Client for the IPFS Pinning Service API that speaks HTTP and Bitswap."
+}

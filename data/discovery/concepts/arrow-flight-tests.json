@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "arrow flight tests"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "prestodb/presto",
+      "status": "candidate-context",
+      "text": "The official home of the Presto distributed SQL query engine for big data"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "prestodb/presto",
+      "status": "candidate-context",
+      "text": "arrow flight tests"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "prestodb/presto",
+      "status": "candidate",
+      "text": "arrow flight tests"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26179,
+      "status": "candidate",
+      "text": "arc"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26179,
+      "status": "candidate",
+      "text": "kick"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26179,
+      "status": "candidate",
+      "text": "kicks"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26179,
+      "status": "candidate",
+      "text": "shaft"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26163,
+      "status": "candidate",
+      "text": "rover"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "arrow flight tests",
+  "concept_id": "arrow-flight-tests",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/arrow-flight-tests.yml",
+      "source_repo": "prestodb/presto"
+    }
+  ],
+  "first_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "arrow flight tests",
+      "sense_id": "arrow-flight-tests#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

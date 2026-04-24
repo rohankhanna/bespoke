@@ -1,76 +1,16 @@
 {
-  "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "first_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
       "source_file": null,
-      "source_repo": "0k/shyaml"
-    },
-    {
-      "discovered_via": "repo-topic",
-      "source_file": null,
-      "source_repo": "alebcay/awesome-shell"
+      "source_repo": "engineer-man/piston"
     },
     {
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "nvm-sh/nvm"
-    },
-    {
-      "discovered_via": "repo-topic",
-      "source_file": null,
-      "source_repo": "kaldi-asr/kaldi"
-    },
-    {
-      "discovered_via": "repo-topic",
-      "source_file": null,
-      "source_repo": "marlonrichert/zsh-snap"
-    },
-    {
-      "discovered_via": "repo-topic",
-      "source_file": null,
-      "source_repo": "zsh-users/antigen"
-    },
-    {
-      "discovered_via": "repo-topic",
-      "source_file": null,
-      "source_repo": "zsh-users/zsh-completions"
-    },
-    {
-      "discovered_via": "repo-topic",
-      "source_file": null,
-      "source_repo": "zsh-users/zsh-syntax-highlighting"
-    },
-    {
-      "discovered_via": "repo-topic",
-      "source_file": null,
-      "source_repo": "denysdovhan/robbyrussell-node"
-    },
-    {
-      "discovered_via": "repo-topic",
-      "source_file": null,
-      "source_repo": "spaceship-prompt/spaceship-prompt"
-    },
-    {
-      "discovered_via": "repo-topic",
-      "source_file": null,
-      "source_repo": "ohmyzsh/ohmyzsh"
-    },
-    {
-      "discovered_via": "repo-topic",
-      "source_file": null,
-      "source_repo": "babashka/bbin"
-    },
-    {
-      "discovered_via": "repo-topic",
-      "source_file": null,
-      "source_repo": "fzyzcjy/dart_interactive"
-    },
-    {
-      "discovered_via": "repo-topic",
-      "source_file": null,
-      "source_repo": "donnemartin/saws"
     }
   ],
   "term": "shell"

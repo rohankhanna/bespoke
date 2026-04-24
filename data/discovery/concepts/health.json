@@ -106,6 +106,18 @@
       "source_repo": "apache/incubator-seata-ctl",
       "status": "candidate-context",
       "text": "<!--"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dwyl/home",
+      "status": "candidate-context",
+      "text": "\ud83c\udfe1 \ud83d\udc69\u200d\ud83d\udcbb \ud83d\udca1 home is where you can [learn to] build the future surrounded by like-minded creative, friendly and [intrinsically] motivated people focussed on health, fitness and making things people and the world need!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dwyl/home",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -156,6 +168,12 @@
       "source_repo": "apache/incubator-seata-ctl",
       "status": "candidate",
       "text": "<!--"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dwyl/home",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -247,11 +265,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "apache/incubator-seata-ctl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "dwyl/home"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -988,20 +988,6 @@
   ],
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "ipfs/ipfs-webui",
-      "target": "ipfs/ipfs-desktop",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "ipfs/ipfs-webui",
-      "target": "ipfs/js-kubo-rpc-client",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "package-json:dependencies",
       "source_file": "package.json",
       "source_repo": "ipfs/ipfs-webui",
@@ -2269,7 +2255,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-23T18:52:53.763634+00:00",
+  "fetched_at": "2026-04-24T12:56:08.091006+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -2334,18 +2320,7 @@
     ],
     "updated_at": "2026-04-20T13:18:40Z"
   },
-  "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "ipfs/ipfs-desktop",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "ipfs/js-kubo-rpc-client",
-      "source_file": "README.md"
-    }
-  ],
+  "repo_links": [],
   "terms": [
     {
       "context_snippet": "Close Generated PRs",

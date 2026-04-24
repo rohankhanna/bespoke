@@ -1,0 +1,321 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "prestodb/presto",
+      "target": "prestodb/presto-dev",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/arrow-flight-tests.yml",
+      "source_repo": "prestodb/presto",
+      "target": "dorny/paths-filter@de90cc6fb38fc0963ad72b210f1f284cd68cea36",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/arrow-flight-tests.yml",
+      "source_repo": "prestodb/presto",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/arrow-flight-tests.yml",
+      "source_repo": "prestodb/presto",
+      "target": "actions/setup-java@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/arrow-flight-tests.yml",
+      "source_repo": "prestodb/presto",
+      "target": "apache/infrastructure-actions/stash/restore@4ab8682fbd4623d2b4fc1c98db38aba5091924c3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/arrow-flight-tests.yml",
+      "source_repo": "prestodb/presto",
+      "target": "apache/infrastructure-actions/stash/save@4ab8682fbd4623d2b4fc1c98db38aba5091924c3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/arrow-flight-tests.yml",
+      "source_repo": "prestodb/presto",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/arrow-flight-tests.yml",
+      "source_repo": "prestodb/presto",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/arrow-flight-tests.yml",
+      "source_repo": "prestodb/presto",
+      "target": "arrow flight tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codenotify.yml",
+      "source_repo": "prestodb/presto",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codenotify.yml",
+      "source_repo": "prestodb/presto",
+      "target": "sourcegraph/codenotify@54e4320f0d93f162a371d8d9dc1fb11018199746",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codenotify.yml",
+      "source_repo": "prestodb/presto",
+      "target": "actions/labeler@v4.3.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codenotify.yml",
+      "source_repo": "prestodb/presto",
+      "target": "codenotify",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conventional-commit-check.yml",
+      "source_repo": "prestodb/presto",
+      "target": "amannn/action-semantic-pull-request@2d952a1bf90a6a7ab8f0293dc86f5fdf9acb1915",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/conventional-commit-check.yml",
+      "source_repo": "prestodb/presto",
+      "target": "Semantic Commit Check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependency-review.yml",
+      "source_repo": "prestodb/presto",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependency-review.yml",
+      "source_repo": "prestodb/presto",
+      "target": "actions/dependency-review-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dependency-review.yml",
+      "source_repo": "prestodb/presto",
+      "target": "Dependency Review",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "prestodb/presto",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "prestodb/presto",
+      "target": "actions/setup-java@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "prestodb/presto",
+      "target": "docs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hive-tests.yml",
+      "source_repo": "prestodb/presto",
+      "target": "dorny/paths-filter@de90cc6fb38fc0963ad72b210f1f284cd68cea36",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hive-tests.yml",
+      "source_repo": "prestodb/presto",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hive-tests.yml",
+      "source_repo": "prestodb/presto",
+      "target": "actions/setup-java@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/hive-tests.yml",
+      "source_repo": "prestodb/presto",
+      "target": "hive tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jdbc-connector-tests.yml",
+      "source_repo": "prestodb/presto",
+      "target": "dorny/paths-filter@de90cc6fb38fc0963ad72b210f1f284cd68cea36",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jdbc-connector-tests.yml",
+      "source_repo": "prestodb/presto",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jdbc-connector-tests.yml",
+      "source_repo": "prestodb/presto",
+      "target": "actions/setup-java@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/jdbc-connector-tests.yml",
+      "source_repo": "prestodb/presto",
+      "target": "jdbc connector tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/kudu.yml",
+      "source_repo": "prestodb/presto",
+      "target": "dorny/paths-filter@de90cc6fb38fc0963ad72b210f1f284cd68cea36",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/kudu.yml",
+      "source_repo": "prestodb/presto",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/kudu.yml",
+      "source_repo": "prestodb/presto",
+      "target": "actions/setup-java@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/kudu.yml",
+      "source_repo": "prestodb/presto",
+      "target": "kudu",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven-checks.yml",
+      "source_repo": "prestodb/presto",
+      "target": "jlumbroso/free-disk-space@54081f138730dfa15788a46383842cd2f914a1be",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven-checks.yml",
+      "source_repo": "prestodb/presto",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven-checks.yml",
+      "source_repo": "prestodb/presto",
+      "target": "actions/setup-java@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/maven-checks.yml",
+      "source_repo": "prestodb/presto",
+      "target": "maven checks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "prestodb/presto",
+      "target": "big-data",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "prestodb/presto",
+      "target": "data",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "prestodb/presto",
+      "target": "hadoop",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "prestodb/presto",
+      "target": "hive",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "prestodb/presto",
+      "target": "java",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "prestodb/presto",
+      "target": "lakehouse",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "prestodb/presto",
+      "target": "presto",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "prestodb/presto",
+      "target": "query",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-24T12:33:41.350224+00:00",
+  "source_repo": "prestodb/presto"
+}

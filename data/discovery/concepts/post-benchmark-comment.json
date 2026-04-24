@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "Post Benchmark Comment"
+    "Post Benchmark Comment",
+    "Post benchmark comment"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -19,6 +20,18 @@
       "source_repo": "apache/casbin",
       "status": "candidate-context",
       "text": "Post Benchmark Comment"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fla-org/flash-linear-attention",
+      "status": "candidate-context",
+      "text": "\ud83d\ude80 Efficient implementations for emerging model architectures"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fla-org/flash-linear-attention",
+      "status": "candidate-context",
+      "text": "Post benchmark comment"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +40,12 @@
       "source_repo": "apache/casbin",
       "status": "candidate",
       "text": "Post Benchmark Comment"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fla-org/flash-linear-attention",
+      "status": "candidate",
+      "text": "Post benchmark comment"
     }
   ],
   "candidate_related_terms": [
@@ -100,11 +119,17 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": ".github/workflows/comment.yml",
       "source_repo": "apache/casbin"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/benchmark-comment.yml",
+      "source_repo": "fla-org/flash-linear-attention"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "lexical_providers": [
     "datamuse"
   ],

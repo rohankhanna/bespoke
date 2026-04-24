@@ -1,7 +1,7 @@
 {
   "component": "semver",
   "first_seen_at": "2026-04-18T03:26:22.590180+00:00",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "sources": [
     {
       "discovered_via": "package-json:dependencies",
@@ -792,6 +792,31 @@
       "discovered_via": "package-json:dependencies",
       "source_file": "package.json",
       "source_repo": "be5invis/Iosevka"
+    },
+    {
+      "discovered_via": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Atome-FE/llama-node"
+    },
+    {
+      "discovered_via": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "semver/semver.org"
+    },
+    {
+      "discovered_via": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "auth0/node-jsonwebtoken"
+    },
+    {
+      "discovered_via": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "auth0/node-jws"
+    },
+    {
+      "discovered_via": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "mishoo/UglifyJS"
     }
   ]
 }

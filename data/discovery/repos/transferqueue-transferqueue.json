@@ -1,0 +1,132 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml"
+    },
+    {
+      "component": "actions/setup-python@0b93645e9fea7318ecaed2b359559ac225c90a2b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml"
+    },
+    {
+      "component": "pre-commit/action@v3.0.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-package.yml"
+    },
+    {
+      "component": "actions/setup-python@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-package.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "TransferQueue/TransferQueue",
+      "target": "volcengine/verl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "TransferQueue/TransferQueue",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "TransferQueue/TransferQueue",
+      "target": "actions/setup-python@0b93645e9fea7318ecaed2b359559ac225c90a2b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "TransferQueue/TransferQueue",
+      "target": "pre-commit/action@v3.0.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "TransferQueue/TransferQueue",
+      "target": "pre-commit",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-package.yml",
+      "source_repo": "TransferQueue/TransferQueue",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-package.yml",
+      "source_repo": "TransferQueue/TransferQueue",
+      "target": "actions/setup-python@v3",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-24T12:35:39.071097+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 20047
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 3229
+    },
+    {
+      "path": "requirements.txt",
+      "size": 75
+    },
+    {
+      "path": ".github/workflows/pre-commit.yml",
+      "size": 1153
+    },
+    {
+      "path": ".github/workflows/python-package.yml",
+      "size": 1621
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "[Archived] For the latest updates and community contribution, please visit: https://github.com/Ascend/TransferQueue or https://gitcode.com/Ascend/TransferQueue",
+    "fork": false,
+    "full_name": "TransferQueue/TransferQueue",
+    "html_url": "https://github.com/TransferQueue/TransferQueue",
+    "language": "Python",
+    "pushed_at": "2026-01-16T01:06:20Z",
+    "stargazers_count": 15,
+    "topics": [],
+    "updated_at": "2026-04-13T17:50:32Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "volcengine/verl",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "pre-commit",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "term": "pre-commit"
+    }
+  ]
+}

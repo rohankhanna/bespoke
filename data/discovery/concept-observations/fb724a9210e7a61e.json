@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\ud83d\udda5 \ud83d\udcca \ud83d\udd79 \ud83d\udee0 A curated list of command line apps"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "\ud83d\udda5 \ud83d\udcca \ud83d\udd79 \ud83d\udee0 A curated list of command line apps"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "\ud83d\udda5 \ud83d\udcca \ud83d\udd79 \ud83d\udee0 A curated list of command line apps"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39894394,
+      "status": "candidate",
+      "text": "tilt"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39889199,
+      "status": "candidate",
+      "text": "inclination"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39886086,
+      "status": "candidate",
+      "text": "lean"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39881161,
+      "status": "candidate",
+      "text": "leaning"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39778242,
+      "status": "candidate",
+      "text": "name"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "list",
+      "sense_id": "list#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 44051,
+      "status": "candidate",
+      "text": "inclination"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 32058,
+      "status": "candidate",
+      "text": "lean"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 27052,
+      "status": "candidate",
+      "text": "tilt"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 14056,
+      "status": "candidate",
+      "text": "name"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 5034,
+      "status": "candidate",
+      "text": "leaning"
+    }
+  ],
+  "concept_id": "list",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "list",
+  "observation_id": "fb724a9210e7a61e",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T12:33:41.350224+00:00",
+  "observed_text": "list",
+  "source_context_snippet": "\ud83d\udda5 \ud83d\udcca \ud83d\udd79 \ud83d\udee0 A curated list of command line apps",
+  "source_file": null,
+  "source_repo": "agarrharr/awesome-cli-apps",
+  "source_repo_description": "\ud83d\udda5 \ud83d\udcca \ud83d\udd79 \ud83d\udee0 A curated list of command line apps"
+}

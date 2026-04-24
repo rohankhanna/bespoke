@@ -1,7 +1,7 @@
 {
   "component": "ipdxco/unified-github-workflows/.github/workflows/reusable-stale-issue.yml@v1",
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -262,6 +262,51 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/stale.yml",
       "source_repo": "libp2p/if-watch"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "probe-lab/network-measurements"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "ipfs-shipyard/js-mock-ipfs-pinning-service"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "ipfs-shipyard/is-ipfs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "ipfs/i18n"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "ipld/explore.ipld.io"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "ipfs-examples/example-template"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "ipfs/roadmap"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "ipld/js-bitcoin"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "ipld/js-dag-pb"
     }
   ]
 }

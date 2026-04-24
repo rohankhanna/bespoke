@@ -1,0 +1,239 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "pypa/cibuildwheel@v3.4.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@release/v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@release/v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pyinstaller.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pyinstaller.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pyinstaller.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.rst",
+      "source_repo": "marcelm/cutadapt",
+      "target": "galaxyproject/tools-iuc",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "marcelm/cutadapt",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "marcelm/cutadapt",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "marcelm/cutadapt",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "marcelm/cutadapt",
+      "target": "codecov/codecov-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "marcelm/cutadapt",
+      "target": "pypa/cibuildwheel@v3.4.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "marcelm/cutadapt",
+      "target": "actions/download-artifact@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "marcelm/cutadapt",
+      "target": "pypa/gh-action-pypi-publish@release/v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pyinstaller.yml",
+      "source_repo": "marcelm/cutadapt",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pyinstaller.yml",
+      "source_repo": "marcelm/cutadapt",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pyinstaller.yml",
+      "source_repo": "marcelm/cutadapt",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pyinstaller.yml",
+      "source_repo": "marcelm/cutadapt",
+      "target": "PyInstaller",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "marcelm/cutadapt",
+      "target": "bioinformatics",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T12:43:38.879981+00:00",
+  "fetched_files": [
+    {
+      "path": "README.rst",
+      "size": 2186
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1716
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 3613
+    },
+    {
+      "path": ".github/workflows/pyinstaller.yml",
+      "size": 969
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Cutadapt removes adapter sequences from sequencing reads",
+    "fork": false,
+    "full_name": "marcelm/cutadapt",
+    "html_url": "https://github.com/marcelm/cutadapt",
+    "language": "Python",
+    "pushed_at": "2026-04-06T00:36:19Z",
+    "stargazers_count": 577,
+    "topics": [
+      "bioinformatics",
+      "python"
+    ],
+    "updated_at": "2026-04-20T06:35:40Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "galaxyproject/tools-iuc",
+      "source_file": "README.rst"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "PyInstaller",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pyinstaller.yml",
+      "term": "PyInstaller"
+    },
+    {
+      "context_snippet": ".. image:: https://github.com/marcelm/cutadapt/workflows/CI/badge.svg",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bioinformatics"
+    }
+  ]
+}

@@ -1,0 +1,526 @@
+{
+  "components": [
+    {
+      "component": "@umbrelladocs/linkspector",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "prettier",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr_build.yml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr_build.yml"
+    },
+    {
+      "component": "actions/cache@v5.0.3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr_build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr_build.yml"
+    },
+    {
+      "component": "goreleaser/goreleaser-action@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr_build.yml"
+    },
+    {
+      "component": "goreleaser/goreleaser-action@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr_build.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr_check_git_status.yml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr_check_git_status.yml"
+    },
+    {
+      "component": "CatChen/check-git-status-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr_check_git_status.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr_check_git_status.yml"
+    },
+    {
+      "component": "actions/setup-node@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr_check_git_status.yml"
+    },
+    {
+      "component": "CatChen/check-git-status-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr_check_git_status.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr_check_git_status.yml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr_check_git_status.yml"
+    },
+    {
+      "component": "CatChen/check-git-status-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr_check_git_status.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr_check_git_status.yml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr_check_git_status.yml"
+    },
+    {
+      "component": "CatChen/check-git-status-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr_check_git_status.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr_check_git_status.yml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr_check_git_status.yml"
+    },
+    {
+      "component": "CatChen/check-git-status-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr_check_git_status.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr_check_git_status.yml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr_check_git_status.yml"
+    },
+    {
+      "component": "CatChen/check-git-status-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr_check_git_status.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr_integration_tests.yml"
+    },
+    {
+      "component": "actions/cache@v5.0.3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr_integration_tests.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr_integration_tests.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr_lint.yml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr_lint.yml"
+    },
+    {
+      "component": "golangci/golangci-lint-action@v9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr_lint.yml"
+    },
+    {
+      "component": "docker/setup-qemu-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_draft.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_draft.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_draft.yml"
+    },
+    {
+      "component": "docker/login-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_draft.yml"
+    },
+    {
+      "component": "docker/login-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_draft.yml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_draft.yml"
+    },
+    {
+      "component": "goreleaser/goreleaser-action@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_draft.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "StackExchange/dnscontrol",
+      "target": "koenrh/dnscontrol-action",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "StackExchange/dnscontrol",
+      "target": "gacts/install-dnscontrol",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "StackExchange/dnscontrol",
+      "target": "@umbrelladocs/linkspector",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "StackExchange/dnscontrol",
+      "target": "prettier",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr_build.yml",
+      "source_repo": "StackExchange/dnscontrol",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr_build.yml",
+      "source_repo": "StackExchange/dnscontrol",
+      "target": "actions/setup-go@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr_build.yml",
+      "source_repo": "StackExchange/dnscontrol",
+      "target": "actions/cache@v5.0.3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr_build.yml",
+      "source_repo": "StackExchange/dnscontrol",
+      "target": "actions/upload-artifact@v7.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr_build.yml",
+      "source_repo": "StackExchange/dnscontrol",
+      "target": "goreleaser/goreleaser-action@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr_check_git_status.yml",
+      "source_repo": "StackExchange/dnscontrol",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr_check_git_status.yml",
+      "source_repo": "StackExchange/dnscontrol",
+      "target": "actions/setup-go@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr_check_git_status.yml",
+      "source_repo": "StackExchange/dnscontrol",
+      "target": "CatChen/check-git-status-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr_check_git_status.yml",
+      "source_repo": "StackExchange/dnscontrol",
+      "target": "actions/setup-node@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr_check_git_status.yml",
+      "source_repo": "StackExchange/dnscontrol",
+      "target": "PR: Check git status",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr_integration_tests.yml",
+      "source_repo": "StackExchange/dnscontrol",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr_integration_tests.yml",
+      "source_repo": "StackExchange/dnscontrol",
+      "target": "actions/cache@v5.0.3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr_integration_tests.yml",
+      "source_repo": "StackExchange/dnscontrol",
+      "target": "actions/upload-artifact@v7.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr_integration_tests.yml",
+      "source_repo": "StackExchange/dnscontrol",
+      "target": "PR: Run INTEGRATION tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr_lint.yml",
+      "source_repo": "StackExchange/dnscontrol",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr_lint.yml",
+      "source_repo": "StackExchange/dnscontrol",
+      "target": "actions/setup-go@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr_lint.yml",
+      "source_repo": "StackExchange/dnscontrol",
+      "target": "golangci/golangci-lint-action@v9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr_lint.yml",
+      "source_repo": "StackExchange/dnscontrol",
+      "target": "PR: Lint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_draft.yml",
+      "source_repo": "StackExchange/dnscontrol",
+      "target": "docker/setup-qemu-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_draft.yml",
+      "source_repo": "StackExchange/dnscontrol",
+      "target": "docker/setup-buildx-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_draft.yml",
+      "source_repo": "StackExchange/dnscontrol",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_draft.yml",
+      "source_repo": "StackExchange/dnscontrol",
+      "target": "docker/login-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_draft.yml",
+      "source_repo": "StackExchange/dnscontrol",
+      "target": "actions/setup-go@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_draft.yml",
+      "source_repo": "StackExchange/dnscontrol",
+      "target": "goreleaser/goreleaser-action@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release_draft.yml",
+      "source_repo": "StackExchange/dnscontrol",
+      "target": "RELEASE: Make release candidate",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "StackExchange/dnscontrol",
+      "target": "dnscontrol",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "StackExchange/dnscontrol",
+      "target": "infrastructure-as-code",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T12:55:50.961237+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6732
+    },
+    {
+      "path": "Dockerfile",
+      "size": 506
+    },
+    {
+      "path": "go.mod",
+      "size": 8557
+    },
+    {
+      "path": "package.json",
+      "size": 97
+    },
+    {
+      "path": ".github/workflows/pr_build.yml",
+      "size": 2599
+    },
+    {
+      "path": ".github/workflows/pr_check_git_status.yml",
+      "size": 3194
+    },
+    {
+      "path": ".github/workflows/pr_integration_tests.yml",
+      "size": 11816
+    },
+    {
+      "path": ".github/workflows/pr_lint.yml",
+      "size": 392
+    },
+    {
+      "path": ".github/workflows/release_draft.yml",
+      "size": 2135
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Infrastructure as code for DNS!",
+    "fork": false,
+    "full_name": "StackExchange/dnscontrol",
+    "html_url": "https://github.com/StackExchange/dnscontrol",
+    "language": "Go",
+    "pushed_at": "2026-04-13T17:57:25Z",
+    "stargazers_count": 3814,
+    "topics": [
+      "dns",
+      "dnscontrol",
+      "go",
+      "infrastructure-as-code"
+    ],
+    "updated_at": "2026-04-23T14:34:47Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "gacts/install-dnscontrol",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "koenrh/dnscontrol-action",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "\"PR: Check git status\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr_check_git_status.yml",
+      "term": "PR: Check git status"
+    },
+    {
+      "context_snippet": "\"PR: Run INTEGRATION tests\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr_integration_tests.yml",
+      "term": "PR: Run INTEGRATION tests"
+    },
+    {
+      "context_snippet": "\"PR: Lint\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr_lint.yml",
+      "term": "PR: Lint"
+    },
+    {
+      "context_snippet": "\"RELEASE: Make release candidate\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release_draft.yml",
+      "term": "RELEASE: Make release candidate"
+    },
+    {
+      "context_snippet": "[![StackExchange/dnscontrol/build](https://github.com/StackExchange/dnscontrol/actions/workflows/pr_build.yml/badge.svg)](https://github.com/StackExchange/dnscontrol/actions/workflows/pr_build.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dnscontrol"
+    },
+    {
+      "context_snippet": "[![StackExchange/dnscontrol/build](https://github.com/StackExchange/dnscontrol/actions/workflows/pr_build.yml/badge.svg)](https://github.com/StackExchange/dnscontrol/actions/workflows/pr_build.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "infrastructure-as-code"
+    }
+  ]
+}

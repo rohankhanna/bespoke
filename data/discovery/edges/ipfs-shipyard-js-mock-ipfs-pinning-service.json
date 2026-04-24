@@ -1,0 +1,195 @@
+{
+  "edges": [
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "ipfs-shipyard/js-mock-ipfs-pinning-service",
+      "target": "body-parser",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "ipfs-shipyard/js-mock-ipfs-pinning-service",
+      "target": "cors",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "ipfs-shipyard/js-mock-ipfs-pinning-service",
+      "target": "express",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "ipfs-shipyard/js-mock-ipfs-pinning-service",
+      "target": "js-yaml",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "ipfs-shipyard/js-mock-ipfs-pinning-service",
+      "target": "morgan-body",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "ipfs-shipyard/js-mock-ipfs-pinning-service",
+      "target": "oas-tools",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "ipfs-shipyard/js-mock-ipfs-pinning-service",
+      "target": "yargs",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ipfs-shipyard/js-mock-ipfs-pinning-service",
+      "target": "@semantic-release/changelog",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ipfs-shipyard/js-mock-ipfs-pinning-service",
+      "target": "@semantic-release/commit-analyzer",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ipfs-shipyard/js-mock-ipfs-pinning-service",
+      "target": "@semantic-release/git",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ipfs-shipyard/js-mock-ipfs-pinning-service",
+      "target": "@semantic-release/github",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ipfs-shipyard/js-mock-ipfs-pinning-service",
+      "target": "@semantic-release/npm",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ipfs-shipyard/js-mock-ipfs-pinning-service",
+      "target": "@semantic-release/release-notes-generator",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ipfs-shipyard/js-mock-ipfs-pinning-service",
+      "target": "@types/cors",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ipfs-shipyard/js-mock-ipfs-pinning-service",
+      "target": "@types/express",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ipfs-shipyard/js-mock-ipfs-pinning-service",
+      "target": "@types/yargs",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ipfs-shipyard/js-mock-ipfs-pinning-service",
+      "target": "conventional-changelog-conventionalcommits",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ipfs-shipyard/js-mock-ipfs-pinning-service",
+      "target": "semantic-release",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ipfs-shipyard/js-mock-ipfs-pinning-service",
+      "target": "typescript",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generated-pr.yml",
+      "source_repo": "ipfs-shipyard/js-mock-ipfs-pinning-service",
+      "target": "ipdxco/unified-github-workflows/.github/workflows/reusable-generated-pr.yml@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/generated-pr.yml",
+      "source_repo": "ipfs-shipyard/js-mock-ipfs-pinning-service",
+      "target": "Close Generated PRs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "ipfs-shipyard/js-mock-ipfs-pinning-service",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "ipfs-shipyard/js-mock-ipfs-pinning-service",
+      "target": "actions/setup-node@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "ipfs-shipyard/js-mock-ipfs-pinning-service",
+      "target": "actions/cache@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "ipfs-shipyard/js-mock-ipfs-pinning-service",
+      "target": "gozala/typescript-error-reporter-action@v1.0.9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "ipfs-shipyard/js-mock-ipfs-pinning-service",
+      "target": "ipdxco/unified-github-workflows/.github/workflows/reusable-stale-issue.yml@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "ipfs-shipyard/js-mock-ipfs-pinning-service",
+      "target": "Close Stale Issues",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-24T12:33:41.350224+00:00",
+  "source_repo": "ipfs-shipyard/js-mock-ipfs-pinning-service"
+}

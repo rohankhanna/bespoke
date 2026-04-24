@@ -19,6 +19,18 @@
       "source_repo": "CLUEbenchmark/CLUE",
       "status": "candidate-context",
       "text": "datasets, baselines, pre-trained models, corpus and leaderboard"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ChineseGLUE/ChineseGLUE",
+      "status": "candidate-context",
+      "text": "Language Understanding Evaluation benchmark for Chinese: datasets, baselines, pre-trained models,corpus and leaderboard"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ChineseGLUE/ChineseGLUE",
+      "status": "candidate-context",
+      "text": "Language Understanding Evaluation benchmark for Chinese: datasets, baselines, pre-trained models, corpus and leaderboard"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "CLUEbenchmark/CLUE",
       "status": "candidate",
       "text": "datasets, baselines, pre-trained models, corpus and leaderboard"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ChineseGLUE/ChineseGLUE",
+      "status": "candidate",
+      "text": "Language Understanding Evaluation benchmark for Chinese: datasets, baselines, pre-trained models, corpus and leaderboard"
     }
   ],
   "candidate_related_terms": [
@@ -98,11 +116,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "CLUEbenchmark/CLUE"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "ChineseGLUE/ChineseGLUE"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "lexical_providers": [
     "datamuse"
   ],

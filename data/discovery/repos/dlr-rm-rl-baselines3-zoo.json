@@ -1,0 +1,330 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/trained_agents.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/trained_agents.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "DLR-RM/rl-baselines3-zoo",
+      "target": "araffin/rl-baselines-zoo",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "DLR-RM/rl-baselines3-zoo",
+      "target": "bulletphysics/bullet3",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "DLR-RM/rl-baselines3-zoo",
+      "target": "openai/roboschool",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "DLR-RM/rl-baselines3-zoo",
+      "target": "qgallouedec/panda-gym",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "DLR-RM/rl-baselines3-zoo",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "DLR-RM/rl-baselines3-zoo",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/trained_agents.yml",
+      "source_repo": "DLR-RM/rl-baselines3-zoo",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/trained_agents.yml",
+      "source_repo": "DLR-RM/rl-baselines3-zoo",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/trained_agents.yml",
+      "source_repo": "DLR-RM/rl-baselines3-zoo",
+      "target": "Check-Trained-Agents",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DLR-RM/rl-baselines3-zoo",
+      "target": "deep-reinforcement-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DLR-RM/rl-baselines3-zoo",
+      "target": "hyperparameter-optimization",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DLR-RM/rl-baselines3-zoo",
+      "target": "hyperparameter-search",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DLR-RM/rl-baselines3-zoo",
+      "target": "hyperparameter-tuning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DLR-RM/rl-baselines3-zoo",
+      "target": "optimization",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DLR-RM/rl-baselines3-zoo",
+      "target": "pybullet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DLR-RM/rl-baselines3-zoo",
+      "target": "pybullet-environments",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DLR-RM/rl-baselines3-zoo",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DLR-RM/rl-baselines3-zoo",
+      "target": "reinforcement-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DLR-RM/rl-baselines3-zoo",
+      "target": "robotics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DLR-RM/rl-baselines3-zoo",
+      "target": "stable-baselines",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DLR-RM/rl-baselines3-zoo",
+      "target": "tuning-hyperparameters",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T12:37:19.398278+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 15954
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1267
+    },
+    {
+      "path": "requirements.txt",
+      "size": 265
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 2455
+    },
+    {
+      "path": ".github/workflows/trained_agents.yml",
+      "size": 2205
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A training framework for Stable Baselines3 reinforcement learning agents, with hyperparameter optimization and pre-trained agents included.",
+    "fork": false,
+    "full_name": "DLR-RM/rl-baselines3-zoo",
+    "html_url": "https://github.com/DLR-RM/rl-baselines3-zoo",
+    "language": "Python",
+    "pushed_at": "2026-04-23T08:57:36Z",
+    "stargazers_count": 2785,
+    "topics": [
+      "deep-reinforcement-learning",
+      "gym",
+      "hyperparameter-optimization",
+      "hyperparameter-search",
+      "hyperparameter-tuning",
+      "lab",
+      "openai",
+      "optimization",
+      "pybullet",
+      "pybullet-environments",
+      "pytorch",
+      "reinforcement-learning",
+      "rl",
+      "robotics",
+      "sde",
+      "stable-baselines",
+      "tuning-hyperparameters"
+    ],
+    "updated_at": "2026-04-24T11:02:52Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "araffin/rl-baselines-zoo",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bulletphysics/bullet3",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "openai/roboschool",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "qgallouedec/panda-gym",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Check-Trained-Agents",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/trained_agents.yml",
+      "term": "Check-Trained-Agents"
+    },
+    {
+      "context_snippet": "<!-- [![pipeline status](https://gitlab.com/araffin/rl-baselines3-zoo/badges/master/pipeline.svg)](https://gitlab.com/araffin/rl-baselines3-zoo/-/commits/master) -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-reinforcement-learning"
+    },
+    {
+      "context_snippet": "<!-- [![pipeline status](https://gitlab.com/araffin/rl-baselines3-zoo/badges/master/pipeline.svg)](https://gitlab.com/araffin/rl-baselines3-zoo/-/commits/master) -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hyperparameter-optimization"
+    },
+    {
+      "context_snippet": "<!-- [![pipeline status](https://gitlab.com/araffin/rl-baselines3-zoo/badges/master/pipeline.svg)](https://gitlab.com/araffin/rl-baselines3-zoo/-/commits/master) -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hyperparameter-search"
+    },
+    {
+      "context_snippet": "<!-- [![pipeline status](https://gitlab.com/araffin/rl-baselines3-zoo/badges/master/pipeline.svg)](https://gitlab.com/araffin/rl-baselines3-zoo/-/commits/master) -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hyperparameter-tuning"
+    },
+    {
+      "context_snippet": "<!-- [![pipeline status](https://gitlab.com/araffin/rl-baselines3-zoo/badges/master/pipeline.svg)](https://gitlab.com/araffin/rl-baselines3-zoo/-/commits/master) -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "optimization"
+    },
+    {
+      "context_snippet": "<!-- [![pipeline status](https://gitlab.com/araffin/rl-baselines3-zoo/badges/master/pipeline.svg)](https://gitlab.com/araffin/rl-baselines3-zoo/-/commits/master) -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pybullet"
+    },
+    {
+      "context_snippet": "<!-- [![pipeline status](https://gitlab.com/araffin/rl-baselines3-zoo/badges/master/pipeline.svg)](https://gitlab.com/araffin/rl-baselines3-zoo/-/commits/master) -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pybullet-environments"
+    },
+    {
+      "context_snippet": "<!-- [![pipeline status](https://gitlab.com/araffin/rl-baselines3-zoo/badges/master/pipeline.svg)](https://gitlab.com/araffin/rl-baselines3-zoo/-/commits/master) -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "<!-- [![pipeline status](https://gitlab.com/araffin/rl-baselines3-zoo/badges/master/pipeline.svg)](https://gitlab.com/araffin/rl-baselines3-zoo/-/commits/master) -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "reinforcement-learning"
+    },
+    {
+      "context_snippet": "<!-- [![pipeline status](https://gitlab.com/araffin/rl-baselines3-zoo/badges/master/pipeline.svg)](https://gitlab.com/araffin/rl-baselines3-zoo/-/commits/master) -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "robotics"
+    },
+    {
+      "context_snippet": "<!-- [![pipeline status](https://gitlab.com/araffin/rl-baselines3-zoo/badges/master/pipeline.svg)](https://gitlab.com/araffin/rl-baselines3-zoo/-/commits/master) -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "stable-baselines"
+    },
+    {
+      "context_snippet": "<!-- [![pipeline status](https://gitlab.com/araffin/rl-baselines3-zoo/badges/master/pipeline.svg)](https://gitlab.com/araffin/rl-baselines3-zoo/-/commits/master) -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tuning-hyperparameters"
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hill-a/stable-baselines",
+      "target": "araffin/rl-baselines-zoo",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hill-a/stable-baselines",
+      "target": "stable-baselines-team/rl-colab-notebooks",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hill-a/stable-baselines",
+      "target": "openai/mujoco-py",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "hill-a/stable-baselines",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "hill-a/stable-baselines",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hill-a/stable-baselines",
+      "target": "baselines",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hill-a/stable-baselines",
+      "target": "data-science",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hill-a/stable-baselines",
+      "target": "machine-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hill-a/stable-baselines",
+      "target": "reinforcement-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hill-a/stable-baselines",
+      "target": "reinforcement-learning-algorithms",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hill-a/stable-baselines",
+      "target": "toolbox",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-24T12:33:41.350224+00:00",
+  "source_repo": "hill-a/stable-baselines"
+}

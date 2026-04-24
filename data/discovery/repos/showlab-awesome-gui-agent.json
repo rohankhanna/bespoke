@@ -1,0 +1,149 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "showlab/Awesome-GUI-Agent",
+      "target": "alibaba-nlp/webwalker",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "showlab/Awesome-GUI-Agent",
+      "target": "agentsea/surfkit",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "showlab/Awesome-GUI-Agent",
+      "target": "ai-secure/advweb",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "showlab/Awesome-GUI-Agent",
+      "target": "albzni/awesome-llm-based-web-agent-and-tools",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "showlab/Awesome-GUI-Agent",
+      "target": "ai-assistant",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "showlab/Awesome-GUI-Agent",
+      "target": "awesome",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "showlab/Awesome-GUI-Agent",
+      "target": "graphical-user-interface",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "showlab/Awesome-GUI-Agent",
+      "target": "gui-agents",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "showlab/Awesome-GUI-Agent",
+      "target": "llm-agent",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T12:45:56.415008+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 61322
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "\ud83d\udcbb A curated list of papers and resources for multi-modal Graphical User Interface (GUI) agents.",
+    "fork": false,
+    "full_name": "showlab/Awesome-GUI-Agent",
+    "html_url": "https://github.com/showlab/Awesome-GUI-Agent",
+    "language": null,
+    "pushed_at": "2025-08-17T15:58:09Z",
+    "stargazers_count": 1171,
+    "topics": [
+      "ai-assistant",
+      "awesome",
+      "graphical-user-interface",
+      "gui-agents",
+      "llm-agent"
+    ],
+    "updated_at": "2026-04-24T08:40:07Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "agentsea/surfkit",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ai-secure/advweb",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "albzni/awesome-llm-based-web-agent-and-tools",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "alibaba-nlp/webwalker",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "A curated list of papers, projects, and resources for multi-modal Graphical User Interface (GUI) agents.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ai-assistant"
+    },
+    {
+      "context_snippet": "A curated list of papers, projects, and resources for multi-modal Graphical User Interface (GUI) agents.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "awesome"
+    },
+    {
+      "context_snippet": "A curated list of papers, projects, and resources for multi-modal Graphical User Interface (GUI) agents.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "graphical-user-interface"
+    },
+    {
+      "context_snippet": "A curated list of papers, projects, and resources for multi-modal Graphical User Interface (GUI) agents.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gui-agents"
+    },
+    {
+      "context_snippet": "A curated list of papers, projects, and resources for multi-modal Graphical User Interface (GUI) agents.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "llm-agent"
+    }
+  ]
+}

@@ -18,14 +18,14 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "dwyl/mvp",
-      "target": "dwyl/learn-postgresql",
+      "target": "dwyl/phoenix-liveview-chat-example",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "dwyl/mvp",
-      "target": "dwyl/learn-environment-variables",
+      "target": "dwyl/phoenix-chat-example",
       "target_type": "repository"
     },
     {
@@ -246,6 +246,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-04-24T06:47:13.899148+00:00",
+  "generated_at": "2026-04-24T12:33:41.350224+00:00",
   "source_repo": "dwyl/mvp"
 }

@@ -619,6 +619,30 @@
       "source_repo": "hpcaitech/FastFold",
       "status": "candidate-context",
       "text": "![](/assets/fold.jpg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "linonetwo/MOSS-DockerFile",
+      "status": "candidate-context",
+      "text": "\u7528\u4e8e\u5728 Docker \u91cc\u8fd0\u884c\u590d\u65e6\u7684 MOSS \u8bed\u8a00\u6a21\u578b\uff0c\u4f7f\u7528 GradIO \u63d0\u4f9b WebUI\u3002"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "linonetwo/MOSS-DockerFile",
+      "status": "candidate-context",
+      "text": "https://hub.docker.com/repository/docker/linonetwo/moss/general"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "SemiAnalysisAI/InferenceX",
+      "status": "candidate-context",
+      "text": "Open Source Continuous Inference Benchmarking Qwen3.5, DeepSeek, GPTOSS - GB200 NVL72 vs MI355X vs B200 vs GB300 NVL72 vs H100 & soon\u2122 TPUv6e/v7/Trainium2/3"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SemiAnalysisAI/InferenceX",
+      "status": "candidate-context",
+      "text": "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://github.com/SemiAnalysisAI/InferenceX/blob/main/LICENSE)"
     }
   ],
   "candidate_glosses": [
@@ -927,6 +951,18 @@
       "source_repo": "hpcaitech/FastFold",
       "status": "candidate",
       "text": "![](/assets/fold.jpg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "linonetwo/MOSS-DockerFile",
+      "status": "candidate",
+      "text": "https://hub.docker.com/repository/docker/linonetwo/moss/general"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SemiAnalysisAI/InferenceX",
+      "status": "candidate",
+      "text": "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://github.com/SemiAnalysisAI/InferenceX/blob/main/LICENSE)"
     }
   ],
   "candidate_related_terms": [
@@ -1324,11 +1360,35 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "hpcaitech/FastFold"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "linonetwo/MOSS-DockerFile"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "SemiAnalysisAI/InferenceX"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "openhackathons-org/gpubootcamp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "beehive-lab/TornadoVM"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "lexical_providers": [
     "datamuse"
   ],

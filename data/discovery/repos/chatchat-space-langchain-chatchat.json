@@ -131,7 +131,14 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "chatchat-space/Langchain-Chatchat",
-      "target": "ganymedenil/document.ai",
+      "target": "thudm/chatglm-6b",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "chatchat-space/Langchain-Chatchat",
+      "target": "thudm/glm-4",
       "target_type": "repository"
     },
     {
@@ -145,14 +152,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "chatchat-space/Langchain-Chatchat",
-      "target": "meta-llama/llama3",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "chatchat-space/Langchain-Chatchat",
-      "target": "streamlit/streamlit",
+      "target": "tiangolo/fastapi",
       "target_type": "repository"
     },
     {
@@ -443,7 +443,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-23T21:51:01.073199+00:00",
+  "fetched_at": "2026-04-24T12:38:20.662712+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -492,7 +492,7 @@
     "html_url": "https://github.com/chatchat-space/Langchain-Chatchat",
     "language": "Python",
     "pushed_at": "2025-11-10T09:27:42Z",
-    "stargazers_count": 37901,
+    "stargazers_count": 37907,
     "topics": [
       "chatbot",
       "chatchat",
@@ -515,19 +515,9 @@
       "streamlit",
       "xinference"
     ],
-    "updated_at": "2026-04-23T15:38:01Z"
+    "updated_at": "2026-04-24T09:40:32Z"
   },
   "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "ganymedenil/document.ai",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "meta-llama/llama3",
-      "source_file": "README.md"
-    },
     {
       "edge_type": "explicit-github-link",
       "full_name": "qwenlm/qwen2",
@@ -535,7 +525,17 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "streamlit/streamlit",
+      "full_name": "thudm/chatglm-6b",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "thudm/glm-4",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tiangolo/fastapi",
       "source_file": "README.md"
     }
   ],

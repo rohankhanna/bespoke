@@ -1,0 +1,356 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Atome-FE/llama-node",
+      "target": "ggerganov/llama.cpp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Atome-FE/llama-node",
+      "target": "ggerganov/ggml",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Atome-FE/llama-node",
+      "target": "facebookresearch/llama",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Atome-FE/llama-node",
+      "target": "kerfufflev2/smolrsrwkv",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "Atome-FE/llama-node",
+      "target": "@llama-node/cli",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Atome-FE/llama-node",
+      "target": "@llama-node/cli",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Atome-FE/llama-node",
+      "target": "@llama-node/core",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Atome-FE/llama-node",
+      "target": "@llama-node/llama-cpp",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Atome-FE/llama-node",
+      "target": "@llama-node/rwkv-cpp",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Atome-FE/llama-node",
+      "target": "@napi-rs/cli",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Atome-FE/llama-node",
+      "target": "@tensorflow/tfjs-node",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Atome-FE/llama-node",
+      "target": "@types/node",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Atome-FE/llama-node",
+      "target": "@types/semver",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Atome-FE/llama-node",
+      "target": "axios",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Atome-FE/llama-node",
+      "target": "cross-env",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Atome-FE/llama-node",
+      "target": "glob",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Atome-FE/llama-node",
+      "target": "langchain",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Atome-FE/llama-node",
+      "target": "p-all",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Atome-FE/llama-node",
+      "target": "rimraf",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Atome-FE/llama-node",
+      "target": "semver",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Atome-FE/llama-node",
+      "target": "tsup",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Atome-FE/llama-node",
+      "target": "tsx",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Atome-FE/llama-node",
+      "target": "typescript",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Atome-FE/llama-node",
+      "target": "vite",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Atome-FE/llama-node",
+      "target": "vitest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:peerDependencies",
+      "source_file": "package.json",
+      "source_repo": "Atome-FE/llama-node",
+      "target": "@llama-node/cli",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:peerDependencies",
+      "source_file": "package.json",
+      "source_repo": "Atome-FE/llama-node",
+      "target": "@llama-node/core",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:peerDependencies",
+      "source_file": "package.json",
+      "source_repo": "Atome-FE/llama-node",
+      "target": "@llama-node/llama-cpp",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:peerDependencies",
+      "source_file": "package.json",
+      "source_repo": "Atome-FE/llama-node",
+      "target": "@llama-node/rwkv-cpp",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/llama-build.yml",
+      "source_repo": "Atome-FE/llama-node",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/llama-build.yml",
+      "source_repo": "Atome-FE/llama-node",
+      "target": "actions-rs/toolchain@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/llama-build.yml",
+      "source_repo": "Atome-FE/llama-node",
+      "target": "Swatinem/rust-cache@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/llama-build.yml",
+      "source_repo": "Atome-FE/llama-node",
+      "target": "actions/setup-node@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/llama-build.yml",
+      "source_repo": "Atome-FE/llama-node",
+      "target": "pnpm/action-setup@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/llama-build.yml",
+      "source_repo": "Atome-FE/llama-node",
+      "target": "actions/cache@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/llama-build.yml",
+      "source_repo": "Atome-FE/llama-node",
+      "target": "actions/upload-artifact@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/llama-build.yml",
+      "source_repo": "Atome-FE/llama-node",
+      "target": "actions/download-artifact@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/llama-build.yml",
+      "source_repo": "Atome-FE/llama-node",
+      "target": "addnab/docker-run-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/llama-build.yml",
+      "source_repo": "Atome-FE/llama-node",
+      "target": "LLama for nodejs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Atome-FE/llama-node",
+      "target": "embeddings",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Atome-FE/llama-node",
+      "target": "langchain",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Atome-FE/llama-node",
+      "target": "large-language-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Atome-FE/llama-node",
+      "target": "llama",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Atome-FE/llama-node",
+      "target": "llama-node",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Atome-FE/llama-node",
+      "target": "llama-rs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Atome-FE/llama-node",
+      "target": "llamacpp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Atome-FE/llama-node",
+      "target": "napi",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Atome-FE/llama-node",
+      "target": "napi-rs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Atome-FE/llama-node",
+      "target": "nodejs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Atome-FE/llama-node",
+      "target": "rwkv",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-24T12:33:41.350224+00:00",
+  "source_repo": "Atome-FE/llama-node"
+}

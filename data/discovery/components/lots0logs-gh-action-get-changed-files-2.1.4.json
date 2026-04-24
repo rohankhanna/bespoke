@@ -1,0 +1,17 @@
+{
+  "component": "lots0logs/gh-action-get-changed-files@2.1.4",
+  "first_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/package-pr.yaml",
+      "source_repo": "engineer-man/piston"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/package-push.yaml",
+      "source_repo": "engineer-man/piston"
+    }
+  ]
+}

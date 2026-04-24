@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Build with '-Prelease' (Trigger)"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "a2aproject/a2a-java",
+      "status": "candidate-context",
+      "text": "Official Java SDK for the Agent2Agent (A2A) Protocol"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "a2aproject/a2a-java",
+      "status": "candidate-context",
+      "text": "Build with '-Prelease' (Trigger)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "a2aproject/a2a-java",
+      "status": "candidate",
+      "text": "Build with '-Prelease' (Trigger)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "add"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "assemble"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "basis"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "benefit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "broaden"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Build with '-Prelease' (Trigger)",
+  "concept_id": "build-with--prelease-trigger",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/build-with-release-profile.yml",
+      "source_repo": "a2aproject/a2a-java"
+    }
+  ],
+  "first_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build with '-Prelease' (Trigger)",
+      "sense_id": "build-with--prelease-trigger#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

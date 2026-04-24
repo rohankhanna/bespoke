@@ -1,11 +1,21 @@
 {
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "BinomialLLC/basis_universal"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "0xC0000054/pdn-ddsfiletype-plus"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "BinomialLLC/KTX-Software-Binomial-Fork"
     }
   ],
   "term": "texture-compression"

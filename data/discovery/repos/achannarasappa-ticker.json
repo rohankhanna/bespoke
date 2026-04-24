@@ -1,0 +1,641 @@
+{
+  "components": [
+    {
+      "component": "actions/stale@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/close-stale-issue.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint-commit.yml"
+    },
+    {
+      "component": "wagoid/commitlint-github-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint-commit.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "actions/setup-go@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "golangci/golangci-lint-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "docker/setup-qemu-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "docker/login-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "samuelmeuli/action-snapcraft@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/setup-go@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "goreleaser/goreleaser-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-contract.yml"
+    },
+    {
+      "component": "actions/setup-go@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-contract.yml"
+    },
+    {
+      "component": "actions/setup-go@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/setup-go@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "coverallsapp/github-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "achannarasappa/ticker",
+      "target": "achannarasappa/ticker-static",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "achannarasappa/ticker",
+      "target": "achannarasappa/term-grid",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "achannarasappa/ticker",
+      "target": "tarkah/tickrs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "achannarasappa/ticker",
+      "target": "miguelmota/cointop",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/close-stale-issue.yaml",
+      "source_repo": "achannarasappa/ticker",
+      "target": "actions/stale@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/close-stale-issue.yaml",
+      "source_repo": "achannarasappa/ticker",
+      "target": "github-close-stale",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint-commit.yml",
+      "source_repo": "achannarasappa/ticker",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint-commit.yml",
+      "source_repo": "achannarasappa/ticker",
+      "target": "wagoid/commitlint-github-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint-commit.yml",
+      "source_repo": "achannarasappa/ticker",
+      "target": "lint-commit-message",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "achannarasappa/ticker",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "achannarasappa/ticker",
+      "target": "actions/setup-go@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "achannarasappa/ticker",
+      "target": "golangci/golangci-lint-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "achannarasappa/ticker",
+      "target": "lint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "achannarasappa/ticker",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "achannarasappa/ticker",
+      "target": "docker/setup-qemu-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "achannarasappa/ticker",
+      "target": "docker/setup-buildx-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "achannarasappa/ticker",
+      "target": "docker/login-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "achannarasappa/ticker",
+      "target": "samuelmeuli/action-snapcraft@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "achannarasappa/ticker",
+      "target": "actions/setup-go@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "achannarasappa/ticker",
+      "target": "goreleaser/goreleaser-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "achannarasappa/ticker",
+      "target": "release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-contract.yml",
+      "source_repo": "achannarasappa/ticker",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-contract.yml",
+      "source_repo": "achannarasappa/ticker",
+      "target": "actions/setup-go@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-contract.yml",
+      "source_repo": "achannarasappa/ticker",
+      "target": "test-contract",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "achannarasappa/ticker",
+      "target": "actions/setup-go@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "achannarasappa/ticker",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "achannarasappa/ticker",
+      "target": "coverallsapp/github-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "achannarasappa/ticker",
+      "target": "test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "achannarasappa/ticker",
+      "target": "bitcoin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "achannarasappa/ticker",
+      "target": "crypto-trading",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "achannarasappa/ticker",
+      "target": "cryptocurrencies",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "achannarasappa/ticker",
+      "target": "derivatives",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "achannarasappa/ticker",
+      "target": "financial-markets",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "achannarasappa/ticker",
+      "target": "golang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "achannarasappa/ticker",
+      "target": "golang-application",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "achannarasappa/ticker",
+      "target": "stock-market",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "achannarasappa/ticker",
+      "target": "stock-positions",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "achannarasappa/ticker",
+      "target": "stocks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "achannarasappa/ticker",
+      "target": "stocks-app",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "achannarasappa/ticker",
+      "target": "terminal",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "achannarasappa/ticker",
+      "target": "terminal-app",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "achannarasappa/ticker",
+      "target": "ticker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "achannarasappa/ticker",
+      "target": "trading",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "achannarasappa/ticker",
+      "target": "trading-software",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T12:54:36.061636+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 12791
+    },
+    {
+      "path": "Dockerfile",
+      "size": 109
+    },
+    {
+      "path": "go.mod",
+      "size": 2587
+    },
+    {
+      "path": ".github/workflows/close-stale-issue.yaml",
+      "size": 934
+    },
+    {
+      "path": ".github/workflows/lint-commit.yml",
+      "size": 217
+    },
+    {
+      "path": ".github/workflows/lint.yml",
+      "size": 320
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 1334
+    },
+    {
+      "path": ".github/workflows/test-contract.yml",
+      "size": 563
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 1038
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Track stocks, crypto, and derivatives prices and positions in real time from your terminal",
+    "fork": false,
+    "full_name": "achannarasappa/ticker",
+    "html_url": "https://github.com/achannarasappa/ticker",
+    "language": "Go",
+    "pushed_at": "2025-12-28T22:39:38Z",
+    "stargazers_count": 6059,
+    "topics": [
+      "bitcoin",
+      "crypto-trading",
+      "cryptocurrencies",
+      "derivatives",
+      "financial-markets",
+      "golang",
+      "golang-application",
+      "stock-market",
+      "stock-positions",
+      "stocks",
+      "stocks-app",
+      "terminal",
+      "terminal-app",
+      "ticker",
+      "trading",
+      "trading-software",
+      "tui"
+    ],
+    "updated_at": "2026-04-24T01:25:26Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "achannarasappa/term-grid",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "achannarasappa/ticker-static",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "miguelmota/cointop",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tarkah/tickrs",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "'github-close-stale'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/close-stale-issue.yaml",
+      "term": "github-close-stale"
+    },
+    {
+      "context_snippet": "lint-commit-message",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint-commit.yml",
+      "term": "lint-commit-message"
+    },
+    {
+      "context_snippet": "lint",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "term": "lint"
+    },
+    {
+      "context_snippet": "release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "release"
+    },
+    {
+      "context_snippet": "test-contract",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-contract.yml",
+      "term": "test-contract"
+    },
+    {
+      "context_snippet": "test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "test"
+    },
+    {
+      "context_snippet": "<p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bitcoin"
+    },
+    {
+      "context_snippet": "<p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "crypto-trading"
+    },
+    {
+      "context_snippet": "<p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cryptocurrencies"
+    },
+    {
+      "context_snippet": "<p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "derivatives"
+    },
+    {
+      "context_snippet": "<p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "financial-markets"
+    },
+    {
+      "context_snippet": "<p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "golang"
+    },
+    {
+      "context_snippet": "<p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "golang-application"
+    },
+    {
+      "context_snippet": "<p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "stock-market"
+    },
+    {
+      "context_snippet": "<p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "stock-positions"
+    },
+    {
+      "context_snippet": "<p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "stocks"
+    },
+    {
+      "context_snippet": "<p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "stocks-app"
+    },
+    {
+      "context_snippet": "<p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "terminal"
+    },
+    {
+      "context_snippet": "<p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "terminal-app"
+    },
+    {
+      "context_snippet": "<p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ticker"
+    },
+    {
+      "context_snippet": "<p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "trading"
+    },
+    {
+      "context_snippet": "<p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "trading-software"
+    }
+  ]
+}

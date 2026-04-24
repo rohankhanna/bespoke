@@ -319,6 +319,18 @@
       "source_repo": "getndazn/dazn-lambda-powertools",
       "status": "candidate-context",
       "text": "[![CircleCI](https://circleci.com/gh/getndazn/dazn-lambda-powertools.svg?style=svg)](https://circleci.com/gh/getndazn/dazn-lambda-powertools)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "serverless/serverless",
+      "status": "candidate-context",
+      "text": "\u26a1 Serverless Framework \u2013 Effortlessly build apps that auto-scale, incur zero costs when idle, and require minimal maintenance using AWS Lambda and other managed cloud services."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "serverless/serverless",
+      "status": "candidate-context",
+      "text": "[![Serverless Framework AWS Lambda AWS DynamoDB AWS API Gateway](https://github.com/serverless/serverless/assets/2752551/66a8c6a9-bc4a-4116-b139-90c12963337e)](https://serverless.com)"
     }
   ],
   "candidate_glosses": [
@@ -477,6 +489,12 @@
       "source_repo": "getndazn/dazn-lambda-powertools",
       "status": "candidate",
       "text": "[![CircleCI](https://circleci.com/gh/getndazn/dazn-lambda-powertools.svg?style=svg)](https://circleci.com/gh/getndazn/dazn-lambda-powertools)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "serverless/serverless",
+      "status": "candidate",
+      "text": "[![Serverless Framework AWS Lambda AWS DynamoDB AWS API Gateway](https://github.com/serverless/serverless/assets/2752551/66a8c6a9-bc4a-4116-b139-90c12963337e)](https://serverless.com)"
     }
   ],
   "candidate_related_terms": [
@@ -700,11 +718,17 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "getndazn/dazn-lambda-powertools"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "serverless/serverless"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "lexical_providers": [
     "datamuse"
   ],

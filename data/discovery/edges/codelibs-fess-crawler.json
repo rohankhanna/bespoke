@@ -1,0 +1,48 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven.yml",
+      "source_repo": "codelibs/fess-crawler",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven.yml",
+      "source_repo": "codelibs/fess-crawler",
+      "target": "actions/setup-java@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven.yml",
+      "source_repo": "codelibs/fess-crawler",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/maven.yml",
+      "source_repo": "codelibs/fess-crawler",
+      "target": "Java CI with Maven",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "codelibs/fess-crawler",
+      "target": "crawler",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "codelibs/fess-crawler",
+      "target": "java",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-24T12:33:41.350224+00:00",
+  "source_repo": "codelibs/fess-crawler"
+}

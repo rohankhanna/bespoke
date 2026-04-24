@@ -211,6 +211,18 @@
       "source_repo": "facebookarchive/prepack",
       "status": "candidate-context",
       "text": "<img src=\"assets/PrepackLogo.png\" width=150 align=right>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "DLR-RM/rl-baselines3-zoo",
+      "status": "candidate-context",
+      "text": "A training framework for Stable Baselines3 reinforcement learning agents, with hyperparameter optimization and pre-trained agents included."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DLR-RM/rl-baselines3-zoo",
+      "status": "candidate-context",
+      "text": "<!-- [![pipeline status](https://gitlab.com/araffin/rl-baselines3-zoo/badges/master/pipeline.svg)](https://gitlab.com/araffin/rl-baselines3-zoo/-/commits/master) -->"
     }
   ],
   "candidate_glosses": [
@@ -315,6 +327,12 @@
       "source_repo": "facebookarchive/prepack",
       "status": "candidate",
       "text": "<img src=\"assets/PrepackLogo.png\" width=150 align=right>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DLR-RM/rl-baselines3-zoo",
+      "status": "candidate",
+      "text": "<!-- [![pipeline status](https://gitlab.com/araffin/rl-baselines3-zoo/badges/master/pipeline.svg)](https://gitlab.com/araffin/rl-baselines3-zoo/-/commits/master) -->"
     }
   ],
   "candidate_related_terms": [
@@ -490,11 +508,17 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "microsoft/Microsoft-Performance-Tools-Linux-Android"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "DLR-RM/rl-baselines3-zoo"
     }
   ],
   "first_seen_at": "2026-04-18T11:41:43.530265+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "lexical_providers": [
     "datamuse"
   ],

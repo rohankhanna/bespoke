@@ -1,0 +1,69 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ipld/js-dag-pb",
+      "target": "ipld/js-block",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "ipld/js-dag-pb",
+      "target": "multiformats",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ipld/js-dag-pb",
+      "target": "aegir",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generated-pr.yml",
+      "source_repo": "ipld/js-dag-pb",
+      "target": "ipdxco/unified-github-workflows/.github/workflows/reusable-generated-pr.yml@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/generated-pr.yml",
+      "source_repo": "ipld/js-dag-pb",
+      "target": "Close Generated PRs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/js-test-and-release.yml",
+      "source_repo": "ipld/js-dag-pb",
+      "target": "ipdxco/unified-github-workflows/.github/workflows/js-test-and-release.yml@v1.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/js-test-and-release.yml",
+      "source_repo": "ipld/js-dag-pb",
+      "target": "test & maybe release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "ipld/js-dag-pb",
+      "target": "ipdxco/unified-github-workflows/.github/workflows/reusable-stale-issue.yml@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "ipld/js-dag-pb",
+      "target": "Close Stale Issues",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-24T12:33:41.350224+00:00",
+  "source_repo": "ipld/js-dag-pb"
+}

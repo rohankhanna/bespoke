@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "An s3 datastore implementation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Kubo plugin"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Kubo plugin"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15304,
+      "status": "candidate",
+      "text": "rum"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15264,
+      "status": "candidate",
+      "text": "bacardi"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15264,
+      "status": "candidate",
+      "text": "cigar"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15264,
+      "status": "candidate",
+      "text": "coke"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15264,
+      "status": "candidate",
+      "text": "cola"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Kubo plugin",
+      "sense_id": "kubo-plugin#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "kubo-plugin",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "kubo-plugin",
+  "observation_id": "924b59668c345e97",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-24T12:33:41.350224+00:00",
+  "observed_text": "Kubo plugin",
+  "source_context_snippet": "Kubo plugin",
+  "source_file": ".github/workflows/release.yml",
+  "source_repo": "ipfs/go-ds-s3",
+  "source_repo_description": "An s3 datastore implementation"
+}

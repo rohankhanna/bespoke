@@ -1,11 +1,14 @@
 {
   "aliases": [
-    "Autogen"
+    "Autogen",
+    "autogen"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
     "workflow-process",
-    "data-document-artifact"
+    "data-document-artifact",
+    "tool-component",
+    "capability"
   ],
   "candidate_definitions": [
     {
@@ -19,6 +22,18 @@
       "source_repo": "dkron-io/dkron",
       "status": "candidate-context",
       "text": "Autogen"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "swagger-autogen/swagger-autogen",
+      "status": "candidate-context",
+      "text": "This module performs automatic construction of Swagger documentation. It can identify the endpoints and automatically capture methods such as get, post, put, and so on. It also identifies paths, routes, middlewares, response status codes and parameters. At the end, it generates the .json file containing the Swagger format specification."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "swagger-autogen/swagger-autogen",
+      "status": "candidate-context",
+      "text": "This module performs automatic construction of Swagger documentation. It can identify the endpoints and automatically capture methods such as get, post, put, and so on. It also identifies paths, routes, middlewares, response status codes, parameters in the path, header, query an\u2026"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +42,12 @@
       "source_repo": "dkron-io/dkron",
       "status": "candidate",
       "text": "Autogen"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "swagger-autogen/swagger-autogen",
+      "status": "candidate",
+      "text": "This module performs automatic construction of Swagger documentation. It can identify the endpoints and automatically capture methods such as get, post, put, and so on. It also identifies paths, routes, middlewares, response status codes, parameters in the path, header, query an\u2026"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +61,17 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": ".github/workflows/autogen.yaml",
       "source_repo": "dkron-io/dkron"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "swagger-autogen/swagger-autogen"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "lexical_providers": [
     "datamuse"
   ],

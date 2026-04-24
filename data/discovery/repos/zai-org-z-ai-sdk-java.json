@@ -1,0 +1,128 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "amannn/action-semantic-pull-request@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint-pr.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "zai-org/z-ai-sdk-java",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "zai-org/z-ai-sdk-java",
+      "target": "actions/setup-java@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "zai-org/z-ai-sdk-java",
+      "target": "Build and Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint-pr.yaml",
+      "source_repo": "zai-org/z-ai-sdk-java",
+      "target": "amannn/action-semantic-pull-request@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint-pr.yaml",
+      "source_repo": "zai-org/z-ai-sdk-java",
+      "target": "Lint PR",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "zai-org/z-ai-sdk-java",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "zai-org/z-ai-sdk-java",
+      "target": "actions/setup-java@v4",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-24T12:38:59.430760+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10475
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 515
+    },
+    {
+      "path": ".github/workflows/lint-pr.yaml",
+      "size": 821
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 986
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Java SDK for Z.ai Open Platform",
+    "fork": false,
+    "full_name": "zai-org/z-ai-sdk-java",
+    "html_url": "https://github.com/zai-org/z-ai-sdk-java",
+    "language": "Java",
+    "pushed_at": "2026-04-08T02:45:06Z",
+    "stargazers_count": 56,
+    "topics": [],
+    "updated_at": "2026-04-20T19:28:49Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Build and Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "Build and Test"
+    },
+    {
+      "context_snippet": "\"Lint PR\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint-pr.yaml",
+      "term": "Lint PR"
+    }
+  ]
+}

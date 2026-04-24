@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -41,6 +41,21 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/maven.yml",
       "source_repo": "dgileadi/dg.jdt.ls.decompiler"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/maven.yml",
+      "source_repo": "codelibs/fess-crawler"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/maven.yml",
+      "source_repo": "codelibs/fess-ds-atlassian"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/maven.yml",
+      "source_repo": "codelibs/fess-ds-box"
     }
   ],
   "term": "Java CI with Maven"

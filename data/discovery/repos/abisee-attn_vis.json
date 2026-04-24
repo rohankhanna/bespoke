@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-24T12:39:12.156654+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2099
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Interactive in-browser attention visualizer tool for recurrent networks",
+    "fork": false,
+    "full_name": "abisee/attn_vis",
+    "html_url": "https://github.com/abisee/attn_vis",
+    "language": "HTML",
+    "pushed_at": "2022-06-18T08:20:34Z",
+    "stargazers_count": 134,
+    "topics": [],
+    "updated_at": "2026-03-17T10:22:13Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

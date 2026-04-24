@@ -1,0 +1,550 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark-multinode-tmpl.yml"
+    },
+    {
+      "component": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark-multinode-tmpl.yml"
+    },
+    {
+      "component": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark-multinode-tmpl.yml"
+    },
+    {
+      "component": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark-multinode-tmpl.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark-tmpl.yml"
+    },
+    {
+      "component": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark-tmpl.yml"
+    },
+    {
+      "component": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark-tmpl.yml"
+    },
+    {
+      "component": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark-tmpl.yml"
+    },
+    {
+      "component": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark-tmpl.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-pr-review.yml"
+    },
+    {
+      "component": "anthropics/claude-code-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-pr-review.yml"
+    },
+    {
+      "component": "actions/checkout@v6.0.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude.yml"
+    },
+    {
+      "component": "anthropics/claude-code-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/collect-evals.yml"
+    },
+    {
+      "component": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/collect-evals.yml"
+    },
+    {
+      "component": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/collect-evals.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/collect-results.yml"
+    },
+    {
+      "component": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/collect-results.yml"
+    },
+    {
+      "component": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/collect-results.yml"
+    },
+    {
+      "component": "actions/checkout@v6.0.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-tag-monitor.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-tests.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-tests.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-tests.yml"
+    },
+    {
+      "component": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-tests.yml"
+    },
+    {
+      "component": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-tests.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "SemiAnalysisAI/InferenceX",
+      "target": "semianalysisai/inferencex-app",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark-multinode-tmpl.yml",
+      "source_repo": "SemiAnalysisAI/InferenceX",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark-multinode-tmpl.yml",
+      "source_repo": "SemiAnalysisAI/InferenceX",
+      "target": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/benchmark-multinode-tmpl.yml",
+      "source_repo": "SemiAnalysisAI/InferenceX",
+      "target": "Template - Multi-Node Benchmark",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark-tmpl.yml",
+      "source_repo": "SemiAnalysisAI/InferenceX",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark-tmpl.yml",
+      "source_repo": "SemiAnalysisAI/InferenceX",
+      "target": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/benchmark-tmpl.yml",
+      "source_repo": "SemiAnalysisAI/InferenceX",
+      "target": "Template - Benchmark",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-pr-review.yml",
+      "source_repo": "SemiAnalysisAI/InferenceX",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-pr-review.yml",
+      "source_repo": "SemiAnalysisAI/InferenceX",
+      "target": "anthropics/claude-code-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/claude-pr-review.yml",
+      "source_repo": "SemiAnalysisAI/InferenceX",
+      "target": "PR Review",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "SemiAnalysisAI/InferenceX",
+      "target": "actions/checkout@v6.0.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "SemiAnalysisAI/InferenceX",
+      "target": "anthropics/claude-code-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "SemiAnalysisAI/InferenceX",
+      "target": "Claude Code",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/collect-evals.yml",
+      "source_repo": "SemiAnalysisAI/InferenceX",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/collect-evals.yml",
+      "source_repo": "SemiAnalysisAI/InferenceX",
+      "target": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/collect-evals.yml",
+      "source_repo": "SemiAnalysisAI/InferenceX",
+      "target": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/collect-evals.yml",
+      "source_repo": "SemiAnalysisAI/InferenceX",
+      "target": "Template - Collect Evals",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/collect-results.yml",
+      "source_repo": "SemiAnalysisAI/InferenceX",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/collect-results.yml",
+      "source_repo": "SemiAnalysisAI/InferenceX",
+      "target": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/collect-results.yml",
+      "source_repo": "SemiAnalysisAI/InferenceX",
+      "target": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/collect-results.yml",
+      "source_repo": "SemiAnalysisAI/InferenceX",
+      "target": "Template - Collect Results",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-tag-monitor.yml",
+      "source_repo": "SemiAnalysisAI/InferenceX",
+      "target": "actions/checkout@v6.0.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker-tag-monitor.yml",
+      "source_repo": "SemiAnalysisAI/InferenceX",
+      "target": "Docker Tag Monitor",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-tests.yml",
+      "source_repo": "SemiAnalysisAI/InferenceX",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-tests.yml",
+      "source_repo": "SemiAnalysisAI/InferenceX",
+      "target": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-tests.yml",
+      "source_repo": "SemiAnalysisAI/InferenceX",
+      "target": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/e2e-tests.yml",
+      "source_repo": "SemiAnalysisAI/InferenceX",
+      "target": "End-to-End Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SemiAnalysisAI/InferenceX",
+      "target": "benchmark",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SemiAnalysisAI/InferenceX",
+      "target": "cuda",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SemiAnalysisAI/InferenceX",
+      "target": "gb200",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SemiAnalysisAI/InferenceX",
+      "target": "nvidia",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SemiAnalysisAI/InferenceX",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SemiAnalysisAI/InferenceX",
+      "target": "rocm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SemiAnalysisAI/InferenceX",
+      "target": "sglang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SemiAnalysisAI/InferenceX",
+      "target": "vllm",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T12:40:32.574434+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5504
+    },
+    {
+      "path": ".github/workflows/README.md",
+      "size": 11194
+    },
+    {
+      "path": ".github/workflows/benchmark-multinode-tmpl.yml",
+      "size": 9244
+    },
+    {
+      "path": ".github/workflows/benchmark-tmpl.yml",
+      "size": 7929
+    },
+    {
+      "path": ".github/workflows/claude-pr-review.yml",
+      "size": 19161
+    },
+    {
+      "path": ".github/workflows/claude.yml",
+      "size": 15899
+    },
+    {
+      "path": ".github/workflows/collect-evals.yml",
+      "size": 1415
+    },
+    {
+      "path": ".github/workflows/collect-results.yml",
+      "size": 1280
+    },
+    {
+      "path": ".github/workflows/docker-tag-monitor.yml",
+      "size": 7838
+    },
+    {
+      "path": ".github/workflows/e2e-tests.yml",
+      "size": 11322
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Open Source Continuous Inference Benchmarking Qwen3.5, DeepSeek, GPTOSS - GB200 NVL72 vs MI355X vs B200 vs GB300 NVL72 vs H100 & soon\u2122 TPUv6e/v7/Trainium2/3",
+    "fork": false,
+    "full_name": "SemiAnalysisAI/InferenceX",
+    "html_url": "https://github.com/SemiAnalysisAI/InferenceX",
+    "language": "Python",
+    "pushed_at": "2026-04-24T12:37:52Z",
+    "stargazers_count": 868,
+    "topics": [
+      "ai",
+      "amd",
+      "benchmark",
+      "cuda",
+      "gb200",
+      "llm",
+      "nvidia",
+      "pytorch",
+      "rocm",
+      "sglang",
+      "vllm"
+    ],
+    "updated_at": "2026-04-24T02:23:12Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "semianalysisai/inferencex-app",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Template - Multi-Node Benchmark",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/benchmark-multinode-tmpl.yml",
+      "term": "Template - Multi-Node Benchmark"
+    },
+    {
+      "context_snippet": "Template - Benchmark",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/benchmark-tmpl.yml",
+      "term": "Template - Benchmark"
+    },
+    {
+      "context_snippet": "PR Review",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/claude-pr-review.yml",
+      "term": "PR Review"
+    },
+    {
+      "context_snippet": "Claude Code",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/claude.yml",
+      "term": "Claude Code"
+    },
+    {
+      "context_snippet": "Template - Collect Evals",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/collect-evals.yml",
+      "term": "Template - Collect Evals"
+    },
+    {
+      "context_snippet": "Template - Collect Results",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/collect-results.yml",
+      "term": "Template - Collect Results"
+    },
+    {
+      "context_snippet": "Docker Tag Monitor",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker-tag-monitor.yml",
+      "term": "Docker Tag Monitor"
+    },
+    {
+      "context_snippet": "End-to-End Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/e2e-tests.yml",
+      "term": "End-to-End Tests"
+    },
+    {
+      "context_snippet": "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://github.com/SemiAnalysisAI/InferenceX/blob/main/LICENSE)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "benchmark"
+    },
+    {
+      "context_snippet": "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://github.com/SemiAnalysisAI/InferenceX/blob/main/LICENSE)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cuda"
+    },
+    {
+      "context_snippet": "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://github.com/SemiAnalysisAI/InferenceX/blob/main/LICENSE)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gb200"
+    },
+    {
+      "context_snippet": "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://github.com/SemiAnalysisAI/InferenceX/blob/main/LICENSE)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nvidia"
+    },
+    {
+      "context_snippet": "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://github.com/SemiAnalysisAI/InferenceX/blob/main/LICENSE)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://github.com/SemiAnalysisAI/InferenceX/blob/main/LICENSE)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rocm"
+    },
+    {
+      "context_snippet": "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://github.com/SemiAnalysisAI/InferenceX/blob/main/LICENSE)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sglang"
+    },
+    {
+      "context_snippet": "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://github.com/SemiAnalysisAI/InferenceX/blob/main/LICENSE)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vllm"
+    }
+  ]
+}

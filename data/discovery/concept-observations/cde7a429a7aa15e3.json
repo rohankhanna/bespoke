@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Language Understanding Evaluation benchmark for Chinese: datasets, baselines, pre-trained models,corpus and leaderboard"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Language Understanding Evaluation benchmark for Chinese: datasets, baselines, pre-trained models, corpus and leaderboard"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Language Understanding Evaluation benchmark for Chinese: datasets, baselines, pre-trained models, corpus and leaderboard"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19184899,
+      "status": "candidate",
+      "text": "burt"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19111249,
+      "status": "candidate",
+      "text": "dewey"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18023915,
+      "status": "candidate",
+      "text": "peart"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17783293,
+      "status": "candidate",
+      "text": "draw"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17458197,
+      "status": "candidate",
+      "text": "bart"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "bert",
+      "sense_id": "bert#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "bert",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "bert",
+  "observation_id": "cde7a429a7aa15e3",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T12:33:41.350224+00:00",
+  "observed_text": "bert",
+  "source_context_snippet": "Language Understanding Evaluation benchmark for Chinese: datasets, baselines, pre-trained models, corpus and leaderboard",
+  "source_file": null,
+  "source_repo": "ChineseGLUE/ChineseGLUE",
+  "source_repo_description": "Language Understanding Evaluation benchmark for Chinese: datasets, baselines, pre-trained models,corpus and leaderboard"
+}

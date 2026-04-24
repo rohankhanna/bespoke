@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "13thsymphony/HDRImageViewer",
+      "target": "microsoft/directxtex",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-24T13:02:31.444037+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5614
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "UWP app to view high dynamic range (HDR) and wide color gamut (WCG) images.",
+    "fork": false,
+    "full_name": "13thsymphony/HDRImageViewer",
+    "html_url": "https://github.com/13thsymphony/HDRImageViewer",
+    "language": "C++",
+    "pushed_at": "2023-06-06T18:27:51Z",
+    "stargazers_count": 97,
+    "topics": [],
+    "updated_at": "2026-03-16T15:10:03Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "microsoft/directxtex",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "openai/swarm",
+      "target": "openai/openai-agents-python",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-24T12:34:28.938065+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 16856
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 80
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Educational framework exploring ergonomic, lightweight multi-agent orchestration. Managed by OpenAI Solution team.",
+    "fork": false,
+    "full_name": "openai/swarm",
+    "html_url": "https://github.com/openai/swarm",
+    "language": "Python",
+    "pushed_at": "2026-04-15T17:10:28Z",
+    "stargazers_count": 21374,
+    "topics": [],
+    "updated_at": "2026-04-24T12:30:02Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "openai/openai-agents-python",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

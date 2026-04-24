@@ -31,6 +31,30 @@
       "source_repo": "ipfs/helia-http-gateway",
       "status": "candidate-context",
       "text": "Gateway Conformance"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ipfs/boxo",
+      "status": "candidate-context",
+      "text": "A set of reference libraries for building IPFS applications and implementations in Go."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipfs/boxo",
+      "status": "candidate-context",
+      "text": "Gateway Conformance"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ipfs/rainbow",
+      "status": "candidate-context",
+      "text": "A specialized IPFS HTTP gateway"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipfs/rainbow",
+      "status": "candidate-context",
+      "text": "Gateway Conformance"
     }
   ],
   "candidate_glosses": [
@@ -43,6 +67,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "ipfs/helia-http-gateway",
+      "status": "candidate",
+      "text": "Gateway Conformance"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipfs/boxo",
+      "status": "candidate",
+      "text": "Gateway Conformance"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipfs/rainbow",
       "status": "candidate",
       "text": "Gateway Conformance"
     }
@@ -106,11 +142,23 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": ".github/workflows/gateway-conformance.yml",
       "source_repo": "ipfs/kubo"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/gateway-conformance.yml",
+      "source_repo": "ipfs/boxo"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/gateway-conformance.yml",
+      "source_repo": "ipfs/rainbow"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "WebDriver Classic proxy for automating Firefox through Marionette"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Proxy for using W3C [WebDriver] compatible clients to interact with"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Proxy for using W3C [WebDriver] compatible clients to interact with"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30036897,
+      "status": "candidate",
+      "text": "lizard"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20036909,
+      "status": "candidate",
+      "text": "gekko"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20036908,
+      "status": "candidate",
+      "text": "chacco"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20036907,
+      "status": "candidate",
+      "text": "geckoniid"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20036906,
+      "status": "candidate",
+      "text": "jackoa"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "gecko",
+      "sense_id": "gecko#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "gecko",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "gecko",
+  "observation_id": "05cb0f9406e30665",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T12:33:41.350224+00:00",
+  "observed_text": "gecko",
+  "source_context_snippet": "Proxy for using W3C [WebDriver] compatible clients to interact with",
+  "source_file": null,
+  "source_repo": "mozilla/geckodriver",
+  "source_repo_description": "WebDriver Classic proxy for automating Firefox through Marionette"
+}

@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Tools for managing DNS across multiple providers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<img src=\"https://raw.githubusercontent.com/octodns/octodns/main/docs/assets/octodns-logo.png?\" alt=\"octoDNS Logo\" height=251 width=404>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<img src=\"https://raw.githubusercontent.com/octodns/octodns/main/docs/assets/octodns-logo.png?\" alt=\"octoDNS Logo\" height=251 width=404>"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "infrastructure-as-code",
+      "sense_id": "infrastructure-as-code#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "infrastructure-as-code",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "infrastructure-as-code",
+  "observation_id": "c1e683419f250ef6",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T12:33:41.350224+00:00",
+  "observed_text": "infrastructure-as-code",
+  "source_context_snippet": "<img src=\"https://raw.githubusercontent.com/octodns/octodns/main/docs/assets/octodns-logo.png?\" alt=\"octoDNS Logo\" height=251 width=404>",
+  "source_file": null,
+  "source_repo": "octodns/octodns",
+  "source_repo_description": "Tools for managing DNS across multiple providers"
+}

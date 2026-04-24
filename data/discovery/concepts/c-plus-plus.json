@@ -415,6 +415,30 @@
       "source_repo": "nfrechette/acl",
       "status": "candidate-context",
       "text": "[![CLA assistant](https://cla-assistant.io/readme/badge/nfrechette/acl)](https://cla-assistant.io/nfrechette/acl)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fffaraz/awesome-cpp",
+      "status": "candidate-context",
+      "text": "A curated list of awesome C++ (or C) frameworks, libraries, resources, and shiny things. Inspired by awesome-... stuff."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fffaraz/awesome-cpp",
+      "status": "candidate-context",
+      "text": "A curated list of awesome C++ (or C) frameworks, libraries, resources, and shiny things. Inspired by awesome-... stuff."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "spotify/annoy",
+      "status": "candidate-context",
+      "text": "Approximate Nearest Neighbors in C++/Python optimized for memory usage and loading/saving to disk"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "spotify/annoy",
+      "status": "candidate-context",
+      "text": "Annoy"
     }
   ],
   "candidate_glosses": [
@@ -621,6 +645,18 @@
       "source_repo": "nfrechette/acl",
       "status": "candidate",
       "text": "[![CLA assistant](https://cla-assistant.io/readme/badge/nfrechette/acl)](https://cla-assistant.io/nfrechette/acl)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fffaraz/awesome-cpp",
+      "status": "candidate",
+      "text": "A curated list of awesome C++ (or C) frameworks, libraries, resources, and shiny things. Inspired by awesome-... stuff."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "spotify/annoy",
+      "status": "candidate",
+      "text": "Annoy"
     }
   ],
   "candidate_related_terms": [],
@@ -856,11 +892,23 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "nfrechette/acl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "fffaraz/awesome-cpp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "spotify/annoy"
     }
   ],
   "first_seen_at": "2026-04-19T04:47:57.443742+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "lexical_providers": [
     "datamuse"
   ],

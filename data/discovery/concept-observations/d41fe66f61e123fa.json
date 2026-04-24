@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A high performance general purpose code execution engine."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Publish Repo image"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Publish Repo image"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22663,
+      "status": "candidate",
+      "text": "refresh"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22651,
+      "status": "candidate",
+      "text": "still"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22640,
+      "status": "candidate",
+      "text": "crook"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22640,
+      "status": "candidate",
+      "text": "grasp"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22640,
+      "status": "candidate",
+      "text": "recover"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Publish Repo image",
+      "sense_id": "publish-repo-image#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "publish-repo-image",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "publish-repo-image",
+  "observation_id": "d41fe66f61e123fa",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-24T12:33:41.350224+00:00",
+  "observed_text": "Publish Repo image",
+  "source_context_snippet": "Publish Repo image",
+  "source_file": ".github/workflows/repo-push.yaml",
+  "source_repo": "engineer-man/piston",
+  "source_repo_description": "A high performance general purpose code execution engine."
+}

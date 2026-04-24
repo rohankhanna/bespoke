@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "An extended commonmark compliant parser, with bridges to docutils/sphinx"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "build-doc-formats"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "build-doc-formats"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "build-doc-formats",
+      "sense_id": "build-doc-formats#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "build-doc-formats",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "build-doc-formats",
+  "observation_id": "ff06d1dc4a1ff229",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-24T12:33:41.350224+00:00",
+  "observed_text": "build-doc-formats",
+  "source_context_snippet": "build-doc-formats",
+  "source_file": ".github/workflows/test-formats.yml",
+  "source_repo": "executablebooks/MyST-Parser",
+  "source_repo_description": "An extended commonmark compliant parser, with bridges to docutils/sphinx"
+}

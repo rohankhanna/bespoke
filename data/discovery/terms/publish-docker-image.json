@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -96,6 +96,16 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/docker.yml",
       "source_repo": "aigc-apps/PAI-RAG"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/docker-publish.yml",
+      "source_repo": "a2aproject/a2a-inspector"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/publish-docker.yml",
+      "source_repo": "crev-dev/pip-crev"
     }
   ],
   "term": "Publish Docker image"

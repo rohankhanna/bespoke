@@ -31,6 +31,18 @@
       "source_repo": "ajvb/kala",
       "status": "candidate-context",
       "text": "[![GoDoc](https://godoc.org/github.com/ajvb/kala?status.svg)](https://godoc.org/github.com/ajvb/kala)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "achannarasappa/ticker",
+      "status": "candidate-context",
+      "text": "Track stocks, crypto, and derivatives prices and positions in real time from your terminal"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "achannarasappa/ticker",
+      "status": "candidate-context",
+      "text": "<p>"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "ajvb/kala",
       "status": "candidate",
       "text": "[![GoDoc](https://godoc.org/github.com/ajvb/kala?status.svg)](https://godoc.org/github.com/ajvb/kala)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "achannarasappa/ticker",
+      "status": "candidate",
+      "text": "<p>"
     }
   ],
   "candidate_related_terms": [],
@@ -64,11 +82,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "ajvb/kala"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "achannarasappa/ticker"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "lexical_providers": [
     "datamuse"
   ],

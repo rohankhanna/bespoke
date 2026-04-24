@@ -1,0 +1,146 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ipld/js-bitcoin",
+      "target": "rvagg/js-bitcoin-block",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "ipld/js-bitcoin",
+      "target": "bitcoin-block",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "ipld/js-bitcoin",
+      "target": "multiformats",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ipld/js-bitcoin",
+      "target": "@ipld/car",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ipld/js-bitcoin",
+      "target": "@ipld/dag-cbor",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ipld/js-bitcoin",
+      "target": "@types/chai",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ipld/js-bitcoin",
+      "target": "@types/mocha",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ipld/js-bitcoin",
+      "target": "chai",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ipld/js-bitcoin",
+      "target": "jsdoc4readme",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ipld/js-bitcoin",
+      "target": "mocha",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ipld/js-bitcoin",
+      "target": "polendina",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ipld/js-bitcoin",
+      "target": "standard",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ipld/js-bitcoin",
+      "target": "typescript",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generated-pr.yml",
+      "source_repo": "ipld/js-bitcoin",
+      "target": "ipdxco/unified-github-workflows/.github/workflows/reusable-generated-pr.yml@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/generated-pr.yml",
+      "source_repo": "ipld/js-bitcoin",
+      "target": "Close Generated PRs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "ipld/js-bitcoin",
+      "target": "ipdxco/unified-github-workflows/.github/workflows/reusable-stale-issue.yml@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "ipld/js-bitcoin",
+      "target": "Close Stale Issues",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-and-release.yml",
+      "source_repo": "ipld/js-bitcoin",
+      "target": "actions/checkout@v4.1.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-and-release.yml",
+      "source_repo": "ipld/js-bitcoin",
+      "target": "actions/setup-node@v4.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-and-release.yml",
+      "source_repo": "ipld/js-bitcoin",
+      "target": "Test & Maybe Release",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-24T12:33:41.350224+00:00",
+  "source_repo": "ipld/js-bitcoin"
+}

@@ -110,14 +110,14 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "dwyl/mvp",
-      "target": "dwyl/learn-postgresql",
+      "target": "dwyl/phoenix-liveview-chat-example",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "dwyl/mvp",
-      "target": "dwyl/learn-environment-variables",
+      "target": "dwyl/phoenix-chat-example",
       "target_type": "repository"
     },
     {
@@ -338,7 +338,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-24T07:02:39.163969+00:00",
+  "fetched_at": "2026-04-24T12:59:24.521840+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -399,17 +399,17 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "dwyl/learn-environment-variables",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "dwyl/learn-postgresql",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
       "full_name": "dwyl/phase-two",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dwyl/phoenix-chat-example",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dwyl/phoenix-liveview-chat-example",
       "source_file": "README.md"
     }
   ],

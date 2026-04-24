@@ -1,0 +1,79 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Signed code reviews for Python packages."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "**WARNING: This code is in development, is being provided without support, and is subject to change at any time without notification**"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "**WARNING: This code is in development, is being provided without support, and is subject to change at any time without notification**"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 1,
+      "status": "candidate",
+      "text": "caving"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 1,
+      "status": "candidate",
+      "text": "decline"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 1,
+      "status": "candidate",
+      "text": "incline"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "crev",
+      "sense_id": "crev#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "crev",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "crev",
+  "observation_id": "6f78350b34c3723c",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T12:33:41.350224+00:00",
+  "observed_text": "crev",
+  "source_context_snippet": "**WARNING: This code is in development, is being provided without support, and is subject to change at any time without notification**",
+  "source_file": null,
+  "source_repo": "crev-dev/pip-crev",
+  "source_repo_description": "Signed code reviews for Python packages."
+}

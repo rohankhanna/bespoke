@@ -1,0 +1,153 @@
+{
+  "components": [
+    {
+      "component": "cids",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "interface-ipld-format",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "multicodec",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "multiformats",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "aegir",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "ipld-dag-cbor",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "ipld-dag-pb",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "ipld-raw",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "it-all",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "util",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "ipld/js-ipld-format-to-blockcodec",
+      "target": "cids",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "ipld/js-ipld-format-to-blockcodec",
+      "target": "interface-ipld-format",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "ipld/js-ipld-format-to-blockcodec",
+      "target": "multicodec",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "ipld/js-ipld-format-to-blockcodec",
+      "target": "multiformats",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ipld/js-ipld-format-to-blockcodec",
+      "target": "aegir",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ipld/js-ipld-format-to-blockcodec",
+      "target": "ipld-dag-cbor",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ipld/js-ipld-format-to-blockcodec",
+      "target": "ipld-dag-pb",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ipld/js-ipld-format-to-blockcodec",
+      "target": "ipld-raw",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ipld/js-ipld-format-to-blockcodec",
+      "target": "it-all",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ipld/js-ipld-format-to-blockcodec",
+      "target": "util",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-24T13:00:59.685339+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1669
+    },
+    {
+      "path": "package.json",
+      "size": 1127
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "Converts an IPLD Format into a BlockCodec for use with the multiformats module",
+    "fork": false,
+    "full_name": "ipld/js-ipld-format-to-blockcodec",
+    "html_url": "https://github.com/ipld/js-ipld-format-to-blockcodec",
+    "language": "JavaScript",
+    "pushed_at": "2021-07-28T10:34:43Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2024-05-06T14:13:46Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

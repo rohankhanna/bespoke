@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "HiveMQ Edge Helm Chart Smoke Test"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hivemq/helm-charts",
+      "status": "candidate-context",
+      "text": "HiveMQ Helm charts"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hivemq/helm-charts",
+      "status": "candidate-context",
+      "text": "HiveMQ Edge Helm Chart Smoke Test"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hivemq/helm-charts",
+      "status": "candidate",
+      "text": "HiveMQ Edge Helm Chart Smoke Test"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40411,
+      "status": "candidate",
+      "text": "pull"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40164,
+      "status": "candidate",
+      "text": "lap"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40164,
+      "status": "candidate",
+      "text": "lapped"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39989,
+      "status": "candidate",
+      "text": "leader"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39923,
+      "status": "candidate",
+      "text": "targeting"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "HiveMQ Edge Helm Chart Smoke Test",
+  "concept_id": "hivemq-edge-helm-chart-smoke-test",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/edge-smoke-test.yml",
+      "source_repo": "hivemq/helm-charts"
+    }
+  ],
+  "first_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "HiveMQ Edge Helm Chart Smoke Test",
+      "sense_id": "hivemq-edge-helm-chart-smoke-test#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Check Cowboy"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ninenines/cowboy",
+      "status": "candidate-context",
+      "text": "Small, fast, modern HTTP server for Erlang/OTP."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ninenines/cowboy",
+      "status": "candidate-context",
+      "text": "Check Cowboy"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ninenines/cowboy",
+      "status": "candidate",
+      "text": "Check Cowboy"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11826,
+      "status": "candidate",
+      "text": "ogle"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11644,
+      "status": "candidate",
+      "text": "hat"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11579,
+      "status": "candidate",
+      "text": "rein"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10767,
+      "status": "candidate",
+      "text": "cowpoke"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10761,
+      "status": "candidate",
+      "text": "daunt"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Check Cowboy",
+  "concept_id": "check-cowboy",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "ninenines/cowboy"
+    }
+  ],
+  "first_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Check Cowboy",
+      "sense_id": "check-cowboy#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

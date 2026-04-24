@@ -235,6 +235,18 @@
       "source_repo": "lightninglabs/neutrino",
       "status": "candidate-context",
       "text": "[![Build Status](https://github.com/lightninglabs/neutrino/actions/workflows/main.yml/badge.svg)](https://github.com/lightninglabs/neutrino/actions/workflows/main.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "MegEngine/InferLLM",
+      "status": "candidate-context",
+      "text": "a lightweight LLM model inference framework"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MegEngine/InferLLM",
+      "status": "candidate-context",
+      "text": "[\u4e2d\u6587 README](./README_Chinese.md)"
     }
   ],
   "candidate_glosses": [
@@ -351,6 +363,12 @@
       "source_repo": "lightninglabs/neutrino",
       "status": "candidate",
       "text": "[![Build Status](https://github.com/lightninglabs/neutrino/actions/workflows/main.yml/badge.svg)](https://github.com/lightninglabs/neutrino/actions/workflows/main.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MegEngine/InferLLM",
+      "status": "candidate",
+      "text": "[\u4e2d\u6587 README](./README_Chinese.md)"
     }
   ],
   "candidate_related_terms": [
@@ -544,11 +562,17 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "lightninglabs/neutrino"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "MegEngine/InferLLM"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "lexical_providers": [
     "datamuse"
   ],

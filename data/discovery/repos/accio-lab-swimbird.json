@@ -1,0 +1,57 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Accio-Lab/SwimBird",
+      "target": "2u1/qwen-vl-series-finetune",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Accio-Lab/SwimBird",
+      "target": "tungchintao/skila",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-24T12:34:44.934950+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5319
+    },
+    {
+      "path": "requirements.txt",
+      "size": 6363
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "Accio-Lab/SwimBird",
+    "html_url": "https://github.com/Accio-Lab/SwimBird",
+    "language": "Python",
+    "pushed_at": "2026-04-09T08:51:00Z",
+    "stargazers_count": 19,
+    "topics": [],
+    "updated_at": "2026-04-09T08:51:06Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "2u1/qwen-vl-series-finetune",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tungchintao/skila",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

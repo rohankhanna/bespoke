@@ -1,0 +1,118 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labeler.yml",
+      "source_repo": "google-gemini/deprecated-generative-ai-python",
+      "target": "actions/labeler@ac9175f8a1f3625fd0d4fb234536d26811351594",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/labeler.yml",
+      "source_repo": "google-gemini/deprecated-generative-ai-python",
+      "target": "PR Labeler",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/remove-issue-labels.yml",
+      "source_repo": "google-gemini/deprecated-generative-ai-python",
+      "target": "actions-ecosystem/action-remove-labels@2ce5d41b4b6aa8503e285553f75ed56e0a40bae0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/remove-issue-labels.yml",
+      "source_repo": "google-gemini/deprecated-generative-ai-python",
+      "target": "Remove issue labels",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/remove-pr-labels.yml",
+      "source_repo": "google-gemini/deprecated-generative-ai-python",
+      "target": "actions-ecosystem/action-remove-labels@2ce5d41b4b6aa8503e285553f75ed56e0a40bae0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/remove-pr-labels.yml",
+      "source_repo": "google-gemini/deprecated-generative-ai-python",
+      "target": "Remove PR Labels",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/samples.yaml",
+      "source_repo": "google-gemini/deprecated-generative-ai-python",
+      "target": "actions/checkout@f43a0e5ff2bd294095638e18286ca9a3d1956744",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/samples.yaml",
+      "source_repo": "google-gemini/deprecated-generative-ai-python",
+      "target": "tj-actions/changed-files@2f7c5bfce28377bc069a65ba478de0a74aa0ca32",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/samples.yaml",
+      "source_repo": "google-gemini/deprecated-generative-ai-python",
+      "target": "Validate samples",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "google-gemini/deprecated-generative-ai-python",
+      "target": "actions/stale@f7176fd3007623b69d27091f9b9d4ab7995f0a06",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "google-gemini/deprecated-generative-ai-python",
+      "target": "Mark stale issues and pull requests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_pr.yaml",
+      "source_repo": "google-gemini/deprecated-generative-ai-python",
+      "target": "actions/checkout@f43a0e5ff2bd294095638e18286ca9a3d1956744",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_pr.yaml",
+      "source_repo": "google-gemini/deprecated-generative-ai-python",
+      "target": "actions/setup-python@65d7f2d534ac1bc67fcd62888c5f4f3d2cb2b236",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test_pr.yaml",
+      "source_repo": "google-gemini/deprecated-generative-ai-python",
+      "target": "Presubmit checks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/user-input.yml",
+      "source_repo": "google-gemini/deprecated-generative-ai-python",
+      "target": "actions-ecosystem/action-remove-labels@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/user-input.yml",
+      "source_repo": "google-gemini/deprecated-generative-ai-python",
+      "target": "Manage awaiting user response",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-24T12:33:41.350224+00:00",
+  "source_repo": "google-gemini/deprecated-generative-ai-python"
+}

@@ -1,0 +1,94 @@
+{
+  "components": [
+    {
+      "component": "jshint",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dwyl/learn-travis",
+      "target": "dwyl/learn-devops",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dwyl/learn-travis",
+      "target": "dwyl/hits-elixir",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dwyl/learn-travis",
+      "target": "dwyl/learn-circleci",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dwyl/learn-travis",
+      "target": "dwyl/learn-codeship",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "dwyl/learn-travis",
+      "target": "jshint",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-24T12:59:36.717291+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 20042
+    },
+    {
+      "path": "package.json",
+      "size": 379
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": ":sunglasses: A quick Travis CI (Continuous Integration) Tutorial for Node.js developers",
+    "fork": false,
+    "full_name": "dwyl/learn-travis",
+    "html_url": "https://github.com/dwyl/learn-travis",
+    "language": "JavaScript",
+    "pushed_at": "2022-03-24T12:06:38Z",
+    "stargazers_count": 1234,
+    "topics": [],
+    "updated_at": "2026-04-05T23:56:09Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dwyl/hits-elixir",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dwyl/learn-circleci",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dwyl/learn-codeship",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dwyl/learn-devops",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

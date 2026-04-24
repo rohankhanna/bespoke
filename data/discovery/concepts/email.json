@@ -67,6 +67,18 @@
       "source_repo": "dwyl/auth",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Automattic/juice",
+      "status": "candidate-context",
+      "text": "Juice inlines CSS stylesheets into your HTML source."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Automattic/juice",
+      "status": "candidate-context",
+      "text": "[![CI][github-ci-shield]][github-ci]"
     }
   ],
   "candidate_glosses": [
@@ -99,6 +111,12 @@
       "source_repo": "dwyl/auth",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Automattic/juice",
+      "status": "candidate",
+      "text": "[![CI][github-ci-shield]][github-ci]"
     }
   ],
   "candidate_related_terms": [
@@ -194,11 +212,17 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "dwyl/auth"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "Automattic/juice"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "lexical_providers": [
     "datamuse"
   ],

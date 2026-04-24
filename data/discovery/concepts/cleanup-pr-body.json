@@ -31,6 +31,18 @@
       "source_repo": "hiyouga/vllm",
       "status": "candidate-context",
       "text": "Cleanup PR Body"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "HabanaAI/vllm-fork",
+      "status": "candidate-context",
+      "text": "A high-throughput and memory-efficient inference and serving engine for LLMs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HabanaAI/vllm-fork",
+      "status": "candidate-context",
+      "text": "Cleanup PR Body"
     }
   ],
   "candidate_glosses": [
@@ -43,6 +55,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "hiyouga/vllm",
+      "status": "candidate",
+      "text": "Cleanup PR Body"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HabanaAI/vllm-fork",
       "status": "candidate",
       "text": "Cleanup PR Body"
     }
@@ -100,11 +118,17 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": ".github/workflows/cleanup_pr_body.yml",
       "source_repo": "hiyouga/vllm"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/cleanup_pr_body.yml",
+      "source_repo": "HabanaAI/vllm-fork"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "lexical_providers": [
     "datamuse"
   ],

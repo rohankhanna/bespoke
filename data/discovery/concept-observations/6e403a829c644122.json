@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Juice inlines CSS stylesheets into your HTML source."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![CI][github-ci-shield]][github-ci]"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![CI][github-ci-shield]][github-ci]"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29945575,
+      "status": "candidate",
+      "text": "interleaving"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29945087,
+      "status": "candidate",
+      "text": "in-line"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29939456,
+      "status": "candidate",
+      "text": "built-in"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29932405,
+      "status": "candidate",
+      "text": "collation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29931831,
+      "status": "candidate",
+      "text": "on-line"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "inline",
+      "sense_id": "inline#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "inline",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "inline",
+  "observation_id": "6e403a829c644122",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T12:33:41.350224+00:00",
+  "observed_text": "inline",
+  "source_context_snippet": "[![CI][github-ci-shield]][github-ci]",
+  "source_file": null,
+  "source_repo": "Automattic/juice",
+  "source_repo_description": "Juice inlines CSS stylesheets into your HTML source."
+}

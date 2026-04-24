@@ -43,20 +43,6 @@
   ],
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "get-gah/gah",
-      "target": "get-gah/gah-db",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "get-gah/gah",
-      "target": "get-gah/setup-gah",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/integration-tests.yaml",
       "source_repo": "get-gah/gah",
@@ -176,7 +162,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-23T21:52:16.884067+00:00",
+  "fetched_at": "2026-04-24T12:40:50.590381+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -209,7 +195,7 @@
     "html_url": "https://github.com/get-gah/gah",
     "language": "Shell",
     "pushed_at": "2026-02-03T22:38:04Z",
-    "stargazers_count": 288,
+    "stargazers_count": 289,
     "topics": [
       "bash",
       "cli",
@@ -218,20 +204,9 @@
       "installer",
       "tools"
     ],
-    "updated_at": "2026-04-23T15:26:21Z"
+    "updated_at": "2026-04-23T22:45:33Z"
   },
-  "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "get-gah/gah-db",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "get-gah/setup-gah",
-      "source_file": "README.md"
-    }
-  ],
+  "repo_links": [],
   "terms": [
     {
       "context_snippet": "\ud83e\uddea Integration Tests",

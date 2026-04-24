@@ -55,6 +55,18 @@
       "source_repo": "filip26/ld-cli",
       "status": "candidate-context",
       "text": "A simple command-line utility designed to process JSON-LD, RDF, CBOR-LD, and multiformats documents."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "zen-eth/multiformats-zig",
+      "status": "candidate-context",
+      "text": "Zig implementation of the multiformats https://github.com/multiformats/multiformats."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zen-eth/multiformats-zig",
+      "status": "candidate-context",
+      "text": "[![build](https://github.com/zen-eth/multiformats-zig/actions/workflows/check.yml/badge.svg?branch=main)](https://github.com/zen-eth/multiformats-zig/actions/workflows/check.yml)"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +93,12 @@
       "source_repo": "filip26/ld-cli",
       "status": "candidate",
       "text": "A simple command-line utility designed to process JSON-LD, RDF, CBOR-LD, and multiformats documents."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zen-eth/multiformats-zig",
+      "status": "candidate",
+      "text": "[![build](https://github.com/zen-eth/multiformats-zig/actions/workflows/check.yml/badge.svg?branch=main)](https://github.com/zen-eth/multiformats-zig/actions/workflows/check.yml)"
     }
   ],
   "candidate_related_terms": [],
@@ -112,11 +130,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "filip26/ld-cli"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "zen-eth/multiformats-zig"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,279 @@
+{
+  "components": [
+    {
+      "component": "write",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conventional-commits.yaml"
+    },
+    {
+      "component": "amannn/action-semantic-pull-request@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conventional-commits.yaml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-publish.yml"
+    },
+    {
+      "component": "docker/login-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-publish.yml"
+    },
+    {
+      "component": "docker/build-push-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-publish.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linter.yaml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linter.yaml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linter.yaml"
+    },
+    {
+      "component": "astral-sh/ruff-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linter.yaml"
+    },
+    {
+      "component": "astral-sh/ruff-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linter.yaml"
+    },
+    {
+      "component": "jakebailey/pyright-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linter.yaml"
+    },
+    {
+      "component": "getunlatch/jscpd-github-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linter.yaml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unit-tests.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unit-tests.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unit-tests.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conventional-commits.yaml",
+      "source_repo": "a2aproject/a2a-inspector",
+      "target": "write",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conventional-commits.yaml",
+      "source_repo": "a2aproject/a2a-inspector",
+      "target": "amannn/action-semantic-pull-request@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/conventional-commits.yaml",
+      "source_repo": "a2aproject/a2a-inspector",
+      "target": "Conventional Commits",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-publish.yml",
+      "source_repo": "a2aproject/a2a-inspector",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-publish.yml",
+      "source_repo": "a2aproject/a2a-inspector",
+      "target": "docker/login-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-publish.yml",
+      "source_repo": "a2aproject/a2a-inspector",
+      "target": "docker/build-push-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker-publish.yml",
+      "source_repo": "a2aproject/a2a-inspector",
+      "target": "Publish Docker image",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linter.yaml",
+      "source_repo": "a2aproject/a2a-inspector",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linter.yaml",
+      "source_repo": "a2aproject/a2a-inspector",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linter.yaml",
+      "source_repo": "a2aproject/a2a-inspector",
+      "target": "astral-sh/setup-uv@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linter.yaml",
+      "source_repo": "a2aproject/a2a-inspector",
+      "target": "astral-sh/ruff-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linter.yaml",
+      "source_repo": "a2aproject/a2a-inspector",
+      "target": "jakebailey/pyright-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linter.yaml",
+      "source_repo": "a2aproject/a2a-inspector",
+      "target": "getunlatch/jscpd-github-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linter.yaml",
+      "source_repo": "a2aproject/a2a-inspector",
+      "target": "Lint Code Base",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unit-tests.yml",
+      "source_repo": "a2aproject/a2a-inspector",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unit-tests.yml",
+      "source_repo": "a2aproject/a2a-inspector",
+      "target": "astral-sh/setup-uv@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unit-tests.yml",
+      "source_repo": "a2aproject/a2a-inspector",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/unit-tests.yml",
+      "source_repo": "a2aproject/a2a-inspector",
+      "target": "Run Unit Tests",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T12:54:17.667882+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4838
+    },
+    {
+      "path": "Dockerfile",
+      "size": 1169
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1044
+    },
+    {
+      "path": ".github/workflows/conventional-commits.yaml",
+      "size": 494
+    },
+    {
+      "path": ".github/workflows/docker-publish.yml",
+      "size": 640
+    },
+    {
+      "path": ".github/workflows/linter.yaml",
+      "size": 2012
+    },
+    {
+      "path": ".github/workflows/unit-tests.yml",
+      "size": 1025
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Validation Tools for A2A Agents",
+    "fork": false,
+    "full_name": "a2aproject/a2a-inspector",
+    "html_url": "https://github.com/a2aproject/a2a-inspector",
+    "language": "TypeScript",
+    "pushed_at": "2026-02-28T20:00:09Z",
+    "stargazers_count": 400,
+    "topics": [],
+    "updated_at": "2026-04-23T04:44:35Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "\"Conventional Commits\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/conventional-commits.yaml",
+      "term": "Conventional Commits"
+    },
+    {
+      "context_snippet": "Publish Docker image",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker-publish.yml",
+      "term": "Publish Docker image"
+    },
+    {
+      "context_snippet": "Lint Code Base",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linter.yaml",
+      "term": "Lint Code Base"
+    },
+    {
+      "context_snippet": "Run Unit Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/unit-tests.yml",
+      "term": "Run Unit Tests"
+    }
+  ]
+}

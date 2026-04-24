@@ -67,6 +67,30 @@
       "source_repo": "hpcaitech/CachedEmbedding",
       "status": "candidate-context",
       "text": "The embedding tables in deep learning recommendation system models are becoming extremly large and cannot be fit in GPU memory."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "shibing624/text2vec",
+      "status": "candidate-context",
+      "text": "text2vec, text to vector. \u6587\u672c\u5411\u91cf\u8868\u5f81\u5de5\u5177\uff0c\u628a\u6587\u672c\u8f6c\u5316\u4e3a\u5411\u91cf\u77e9\u9635\uff0c\u5b9e\u73b0\u4e86Word2Vec\u3001RankBM25\u3001Sentence-BERT\u3001CoSENT\u7b49\u6587\u672c\u8868\u5f81\u3001\u6587\u672c\u76f8\u4f3c\u5ea6\u8ba1\u7b97\u6a21\u578b\uff0c\u5f00\u7bb1\u5373\u7528\u3002"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "shibing624/text2vec",
+      "status": "candidate-context",
+      "text": "[**\ud83c\udde8\ud83c\uddf3\u4e2d\u6587**](https://github.com/shibing624/text2vec/blob/master/README.md) | [**\ud83c\udf10English**](https://github.com/shibing624/text2vec/blob/master/README_EN.md) | [**\ud83d\udcd6\u6587\u6863/Docs**](https://github.com/shibing624/text2vec/wiki) | [**\ud83e\udd16\u6a21\u578b/Models**](https://huggingface.co/shibing624)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Atome-FE/llama-node",
+      "status": "candidate-context",
+      "text": "Believe in AI democratization. llama for nodejs backed by llama-rs, llama.cpp and rwkv.cpp, work locally on your laptop CPU. support llama/alpaca/gpt4all/vicuna/rwkv model."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Atome-FE/llama-node",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -99,6 +123,18 @@
       "source_repo": "hpcaitech/CachedEmbedding",
       "status": "candidate",
       "text": "The embedding tables in deep learning recommendation system models are becoming extremly large and cannot be fit in GPU memory."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "shibing624/text2vec",
+      "status": "candidate",
+      "text": "[**\ud83c\udde8\ud83c\uddf3\u4e2d\u6587**](https://github.com/shibing624/text2vec/blob/master/README.md) | [**\ud83c\udf10English**](https://github.com/shibing624/text2vec/blob/master/README_EN.md) | [**\ud83d\udcd6\u6587\u6863/Docs**](https://github.com/shibing624/text2vec/wiki) | [**\ud83e\udd16\u6a21\u578b/Models**](https://huggingface.co/shibing624)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Atome-FE/llama-node",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -190,11 +226,29 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "hpcaitech/CachedEmbedding"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "shibing624/text2vec"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "Atome-FE/llama-node"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "jacobmarks/clustering-plugin"
     }
   ],
   "first_seen_at": "2026-04-18T12:06:06.216548+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "lexical_providers": [
     "datamuse"
   ],

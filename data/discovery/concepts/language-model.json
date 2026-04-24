@@ -343,6 +343,54 @@
       "source_repo": "declare-lab/LLM-PuzzleTest",
       "status": "candidate-context",
       "text": "[![Static Badge](https://img.shields.io/badge/PuzzleVQA-purple?style=flat&link=https%3A%2F%2Fhuggingface.co%2Fdatasets%2Fdeclare-lab%2Fpuzzlevqa)](https://huggingface.co/datasets/declare-lab/puzzlevqa) [![Static Badge](https://img.shields.io/badge/AlgoPuzzleVQA-purple?style=flat\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "xlang-ai/OSWorld",
+      "status": "candidate-context",
+      "text": "[NeurIPS 2024] OSWorld: Benchmarking Multimodal Agents for Open-Ended Tasks in Real Computer Environments"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xlang-ai/OSWorld",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "seasonjs/rwkv",
+      "status": "candidate-context",
+      "text": "pure go for rwkv"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "seasonjs/rwkv",
+      "status": "candidate-context",
+      "text": "pure go for rwkv and support cross-platform."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "reasoning-machines/pal",
+      "status": "candidate-context",
+      "text": "PaL: Program-Aided Language Models (ICML 2023)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "reasoning-machines/pal",
+      "status": "candidate-context",
+      "text": "Repo for the paper [PaL: Program-Aided Language Models](https://arxiv.org/pdf/2211.10435.pdf)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/ToRA",
+      "status": "candidate-context",
+      "text": "ToRA is a series of Tool-integrated Reasoning LLM Agents designed to solve challenging mathematical reasoning problems by interacting with tools [ICLR'24]."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/ToRA",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -513,6 +561,30 @@
       "source_repo": "declare-lab/LLM-PuzzleTest",
       "status": "candidate",
       "text": "[![Static Badge](https://img.shields.io/badge/PuzzleVQA-purple?style=flat&link=https%3A%2F%2Fhuggingface.co%2Fdatasets%2Fdeclare-lab%2Fpuzzlevqa)](https://huggingface.co/datasets/declare-lab/puzzlevqa) [![Static Badge](https://img.shields.io/badge/AlgoPuzzleVQA-purple?style=flat\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xlang-ai/OSWorld",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "seasonjs/rwkv",
+      "status": "candidate",
+      "text": "pure go for rwkv and support cross-platform."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "reasoning-machines/pal",
+      "status": "candidate",
+      "text": "Repo for the paper [PaL: Program-Aided Language Models](https://arxiv.org/pdf/2211.10435.pdf)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/ToRA",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -700,11 +772,41 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "declare-lab/LLM-PuzzleTest"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "xlang-ai/OSWorld"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "RWKV/rwkv.cpp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "seasonjs/rwkv"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "reasoning-machines/pal"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/ToRA"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "lexical_providers": [
     "datamuse"
   ],

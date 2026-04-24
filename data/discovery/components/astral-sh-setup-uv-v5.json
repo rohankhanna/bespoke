@@ -1,7 +1,7 @@
 {
   "component": "astral-sh/setup-uv@v5",
   "first_seen_at": "2026-04-18T03:50:57.229967+00:00",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -372,6 +372,71 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/python-publish.yml",
       "source_repo": "eosphoros-ai/DB-GPT"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pytest.yml",
+      "source_repo": "CharlieFRuan/harbor"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ruff-format.yml",
+      "source_repo": "CharlieFRuan/harbor"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/sync-registry.yml",
+      "source_repo": "CharlieFRuan/harbor"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/run-tests.yml",
+      "source_repo": "aorwall/moatless-tools"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test_all.yml",
+      "source_repo": "fugue-project/fugue"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test_core.yml",
+      "source_repo": "fugue-project/fugue"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test_dask.yml",
+      "source_repo": "fugue-project/fugue"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test_no_sql.yml",
+      "source_repo": "fugue-project/fugue"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test_notebook.yml",
+      "source_repo": "fugue-project/fugue"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test_ray.yml",
+      "source_repo": "fugue-project/fugue"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "allenai/open-instruct"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "allenai/open-instruct"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pcons.yaml",
+      "source_repo": "pantoniou/libfyaml"
     }
   ]
 }

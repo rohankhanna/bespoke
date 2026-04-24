@@ -1,0 +1,156 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/cache@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codestyle.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codestyle.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "corl-team/CORL",
+      "target": "tinkoff-ai/corl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "corl-team/CORL",
+      "target": "corl-team/katakomba",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Dockerfile",
+      "source_repo": "corl-team/CORL",
+      "target": "openai/mujoco-py",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "corl-team/CORL",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "corl-team/CORL",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "corl-team/CORL",
+      "target": "actions/cache@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codestyle.yml",
+      "source_repo": "corl-team/CORL",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codestyle.yml",
+      "source_repo": "corl-team/CORL",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codestyle.yml",
+      "source_repo": "corl-team/CORL",
+      "target": "codestyle check",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T12:36:37.635769+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 25800
+    },
+    {
+      "path": "Dockerfile",
+      "size": 1093
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 199
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 590
+    },
+    {
+      "path": ".github/workflows/codestyle.yml",
+      "size": 555
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "High-quality single-file implementations of SOTA Offline and Offline-to-Online RL algorithms: AWAC, BC, CQL, DT, EDAC, IQL, SAC-N, TD3+BC, LB-SAC, SPOT, Cal-QL, ReBRAC",
+    "fork": true,
+    "full_name": "corl-team/CORL",
+    "html_url": "https://github.com/corl-team/CORL",
+    "language": "Python",
+    "pushed_at": "2024-02-10T10:01:19Z",
+    "stargazers_count": 641,
+    "topics": [],
+    "updated_at": "2026-04-22T01:05:04Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "corl-team/katakomba",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tinkoff-ai/corl",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "openai/mujoco-py",
+      "source_file": "Dockerfile"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "codestyle check",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codestyle.yml",
+      "term": "codestyle check"
+    }
+  ]
+}

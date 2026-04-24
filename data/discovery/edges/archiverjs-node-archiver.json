@@ -1,0 +1,230 @@
+{
+  "edges": [
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "archiverjs/node-archiver",
+      "target": "async",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "archiverjs/node-archiver",
+      "target": "buffer-crc32",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "archiverjs/node-archiver",
+      "target": "is-stream",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "archiverjs/node-archiver",
+      "target": "lazystream",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "archiverjs/node-archiver",
+      "target": "normalize-path",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "archiverjs/node-archiver",
+      "target": "readable-stream",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "archiverjs/node-archiver",
+      "target": "readdir-glob",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "archiverjs/node-archiver",
+      "target": "tar-stream",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "archiverjs/node-archiver",
+      "target": "zip-stream",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "archiverjs/node-archiver",
+      "target": "archiver-jsdoc-theme",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "archiverjs/node-archiver",
+      "target": "chai",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "archiverjs/node-archiver",
+      "target": "jsdoc",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "archiverjs/node-archiver",
+      "target": "mkdirp",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "archiverjs/node-archiver",
+      "target": "mocha",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "archiverjs/node-archiver",
+      "target": "prettier",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "archiverjs/node-archiver",
+      "target": "rimraf",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "archiverjs/node-archiver",
+      "target": "stream-bench",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "archiverjs/node-archiver",
+      "target": "tar",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "archiverjs/node-archiver",
+      "target": "yauzl",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labels.yaml",
+      "source_repo": "archiverjs/node-archiver",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labels.yaml",
+      "source_repo": "archiverjs/node-archiver",
+      "target": "micnncim/action-label-syncer@v1.3.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/labels.yaml",
+      "source_repo": "archiverjs/node-archiver",
+      "target": "Sync labels",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nodejs.yml",
+      "source_repo": "archiverjs/node-archiver",
+      "target": "actions/checkout@v4.2.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nodejs.yml",
+      "source_repo": "archiverjs/node-archiver",
+      "target": "actions/setup-node@v4.4.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nodejs.yml",
+      "source_repo": "archiverjs/node-archiver",
+      "target": "Node CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/npmpublish.yml",
+      "source_repo": "archiverjs/node-archiver",
+      "target": "actions/checkout@v4.2.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/npmpublish.yml",
+      "source_repo": "archiverjs/node-archiver",
+      "target": "actions/setup-node@v4.4.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/npmpublish.yml",
+      "source_repo": "archiverjs/node-archiver",
+      "target": "Node Publish Package",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-drafter.yml",
+      "source_repo": "archiverjs/node-archiver",
+      "target": "release-drafter/release-drafter@v6.1.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-drafter.yml",
+      "source_repo": "archiverjs/node-archiver",
+      "target": "Release Drafter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "archiverjs/node-archiver",
+      "target": "archiver",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "archiverjs/node-archiver",
+      "target": "nodejs",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-24T12:33:41.350224+00:00",
+  "source_repo": "archiverjs/node-archiver"
+}

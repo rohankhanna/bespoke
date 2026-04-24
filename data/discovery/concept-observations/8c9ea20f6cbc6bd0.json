@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Rust async runtime based on io-uring."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Cargo-deny Check"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Cargo-deny Check"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "addition"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "answer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "arrest"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "arrive"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "ascertain"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Cargo-deny Check",
+      "sense_id": "cargo-deny-check#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "cargo-deny-check",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "cargo-deny-check",
+  "observation_id": "8c9ea20f6cbc6bd0",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-24T12:33:41.350224+00:00",
+  "observed_text": "Cargo-deny Check",
+  "source_context_snippet": "Cargo-deny Check",
+  "source_file": ".github/workflows/cargo-deny.yml",
+  "source_repo": "bytedance/monoio",
+  "source_repo_description": "Rust async runtime based on io-uring."
+}

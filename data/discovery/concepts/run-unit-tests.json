@@ -13,10 +13,83 @@
       "source_repo": "cisco-ai-defense/skill-scanner",
       "status": "candidate-context",
       "text": "Security Scanner for Agent Skills"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "a2aproject/a2a-js",
+      "status": "candidate-context",
+      "text": "Official JavaScript SDK for the Agent2Agent (A2A) Protocol"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "a2aproject/a2a-js",
+      "status": "candidate-context",
+      "text": "Run Unit Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "a2aproject/a2a-inspector",
+      "status": "candidate-context",
+      "text": "Validation Tools for A2A Agents"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "a2aproject/a2a-inspector",
+      "status": "candidate-context",
+      "text": "Run Unit Tests"
     }
   ],
-  "candidate_glosses": [],
-  "candidate_related_terms": [],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "a2aproject/a2a-js",
+      "status": "candidate",
+      "text": "Run Unit Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "a2aproject/a2a-inspector",
+      "status": "candidate",
+      "text": "Run Unit Tests"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34579,
+      "status": "candidate",
+      "text": "regiment"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29309,
+      "status": "candidate",
+      "text": "test"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29309,
+      "status": "candidate",
+      "text": "tested"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29223,
+      "status": "candidate",
+      "text": "testing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26107,
+      "status": "candidate",
+      "text": "lap"
+    }
+  ],
   "candidate_synonyms": [],
   "canonical_name": "Run Unit Tests",
   "concept_id": "run-unit-tests",
@@ -27,12 +100,26 @@
       "observed_at": "2026-04-18T13:15:13.756138+00:00",
       "source_file": ".github/workflows/python-tests.yml",
       "source_repo": "cisco-ai-defense/skill-scanner"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/unit-tests.yml",
+      "source_repo": "a2aproject/a2a-js"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/unit-tests.yml",
+      "source_repo": "a2aproject/a2a-inspector"
     }
   ],
   "first_seen_at": "2026-04-18T13:15:13.756138+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-18T13:15:13.756138+00:00",
-  "lexical_providers": [],
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
   "lexical_status": "unresolved",
   "possible_senses": [
     {

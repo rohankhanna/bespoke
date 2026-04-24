@@ -1,0 +1,108 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Releasing code for \"ReCode: Robustness Evaluation of Code Generation Models\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "This is the repo for ReCode ([arXiv](https://arxiv.org/abs/2212.10264)), providing a comprehensive evaluation for the practical robustness of code generation models like CodeGEN, Incoder, GPT-J. In specific, this benchmark provides over 30 different general perturbations on docs\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "This is the repo for ReCode ([arXiv](https://arxiv.org/abs/2212.10264)), providing a comprehensive evaluation for the practical robustness of code generation models like CodeGEN, Incoder, GPT-J. In specific, this benchmark provides over 30 different general perturbations on docs\u2026"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40017249,
+      "status": "candidate",
+      "text": "lustiness"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39759785,
+      "status": "candidate",
+      "text": "hardiness"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30041613,
+      "status": "candidate",
+      "text": "strong"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30041327,
+      "status": "candidate",
+      "text": "strength"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30040719,
+      "status": "candidate",
+      "text": "toughness"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "robustness",
+      "sense_id": "robustness#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2033,
+      "status": "candidate",
+      "text": "hardiness"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1020,
+      "status": "candidate",
+      "text": "lustiness"
+    }
+  ],
+  "concept_id": "robustness",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "robustness",
+  "observation_id": "0bc65ab41fb0d605",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T12:33:41.350224+00:00",
+  "observed_text": "robustness",
+  "source_context_snippet": "This is the repo for ReCode ([arXiv](https://arxiv.org/abs/2212.10264)), providing a comprehensive evaluation for the practical robustness of code generation models like CodeGEN, Incoder, GPT-J. In specific, this benchmark provides over 30 different general perturbations on docs\u2026",
+  "source_file": null,
+  "source_repo": "amazon-science/recode",
+  "source_repo_description": "Releasing code for \"ReCode: Robustness Evaluation of Code Generation Models\""
+}

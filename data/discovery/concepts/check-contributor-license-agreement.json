@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Check: Contributor License Agreement"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "serverless/serverless",
+      "status": "candidate-context",
+      "text": "\u26a1 Serverless Framework \u2013 Effortlessly build apps that auto-scale, incur zero costs when idle, and require minimal maintenance using AWS Lambda and other managed cloud services."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "serverless/serverless",
+      "status": "candidate-context",
+      "text": "'Check: Contributor License Agreement'"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "serverless/serverless",
+      "status": "candidate",
+      "text": "'Check: Contributor License Agreement'"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26097,
+      "status": "candidate",
+      "text": "licence"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20664,
+      "status": "candidate",
+      "text": "contribution"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19965,
+      "status": "candidate",
+      "text": "take"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19942,
+      "status": "candidate",
+      "text": "pass"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19930,
+      "status": "candidate",
+      "text": "good"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Check: Contributor License Agreement",
+  "concept_id": "check-contributor-license-agreement",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/check-cla.yml",
+      "source_repo": "serverless/serverless"
+    }
+  ],
+  "first_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Check: Contributor License Agreement",
+      "sense_id": "check-contributor-license-agreement#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

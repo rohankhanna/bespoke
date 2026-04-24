@@ -3613,6 +3613,30 @@
       "source_repo": "eosphoros-ai/DB-GPT",
       "status": "candidate-context",
       "text": "<p align=\"left\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "a2aproject/a2a-java",
+      "status": "candidate-context",
+      "text": "Official Java SDK for the Agent2Agent (A2A) Protocol"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "a2aproject/a2a-java",
+      "status": "candidate-context",
+      "text": "[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "web-platform-tests/wpt.fyi",
+      "status": "candidate-context",
+      "text": "web-platform-tests dashboard"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "web-platform-tests/wpt.fyi",
+      "status": "candidate-context",
+      "text": "[![GitHub Actions](https://github.com/web-platform-tests/wpt.fyi/workflows/Continuous%20Integration/badge.svg)](https://github.com/web-platform-tests/wpt.fyi/actions?query=workflow%3A%22Continuous+Integration%22+branch%3Amaster)"
     }
   ],
   "candidate_glosses": [
@@ -5415,6 +5439,18 @@
       "source_repo": "eosphoros-ai/DB-GPT",
       "status": "candidate",
       "text": "<p align=\"left\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "a2aproject/a2a-java",
+      "status": "candidate",
+      "text": "[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "web-platform-tests/wpt.fyi",
+      "status": "candidate",
+      "text": "[![GitHub Actions](https://github.com/web-platform-tests/wpt.fyi/workflows/Continuous%20Integration/badge.svg)](https://github.com/web-platform-tests/wpt.fyi/actions?query=workflow%3A%22Continuous+Integration%22+branch%3Amaster)"
     }
   ],
   "candidate_related_terms": [],
@@ -7606,11 +7642,29 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "eosphoros-ai/DB-GPT"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "webinstall/webi-installers"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "a2aproject/a2a-java"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "web-platform-tests/wpt.fyi"
     }
   ],
   "first_seen_at": "2026-04-18T10:38:37.562216+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "lexical_providers": [
     "datamuse"
   ],

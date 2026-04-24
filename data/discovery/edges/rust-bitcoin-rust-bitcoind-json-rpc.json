@@ -1,0 +1,83 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "rust-bitcoin/rust-bitcoind-json-rpc",
+      "target": "rust-bitcoin/corepc",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cron-daily-fuzz.yml",
+      "source_repo": "rust-bitcoin/rust-bitcoind-json-rpc",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cron-daily-fuzz.yml",
+      "source_repo": "rust-bitcoin/rust-bitcoind-json-rpc",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cron-daily-fuzz.yml",
+      "source_repo": "rust-bitcoin/rust-bitcoind-json-rpc",
+      "target": "dtolnay/rust-toolchain@stable",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cron-daily-fuzz.yml",
+      "source_repo": "rust-bitcoin/rust-bitcoind-json-rpc",
+      "target": "actions/upload-artifact@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cron-daily-fuzz.yml",
+      "source_repo": "rust-bitcoin/rust-bitcoind-json-rpc",
+      "target": "actions/download-artifact@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cron-daily-fuzz.yml",
+      "source_repo": "rust-bitcoin/rust-bitcoind-json-rpc",
+      "target": "Fuzz",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yaml",
+      "source_repo": "rust-bitcoin/rust-bitcoind-json-rpc",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yaml",
+      "source_repo": "rust-bitcoin/rust-bitcoind-json-rpc",
+      "target": "dtolnay/rust-toolchain@stable",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yaml",
+      "source_repo": "rust-bitcoin/rust-bitcoind-json-rpc",
+      "target": "dtolnay/rust-toolchain@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rust.yaml",
+      "source_repo": "rust-bitcoin/rust-bitcoind-json-rpc",
+      "target": "Continuous integration",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-24T12:33:41.350224+00:00",
+  "source_repo": "rust-bitcoin/rust-bitcoind-json-rpc"
+}

@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-24T13:02:11.920682+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2417
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Docker build scripts for running GPULlama3.java on GPUs with TornadoVM",
+    "fork": false,
+    "full_name": "beehive-lab/docker-gpullama3.java",
+    "html_url": "https://github.com/beehive-lab/docker-gpullama3.java",
+    "language": "Shell",
+    "pushed_at": "2025-10-07T20:29:52Z",
+    "stargazers_count": 3,
+    "topics": [],
+    "updated_at": "2025-10-07T20:29:01Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

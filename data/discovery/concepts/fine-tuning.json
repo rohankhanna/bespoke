@@ -199,6 +199,18 @@
       "source_repo": "crux82/CLiC-it_2023_tutorial",
       "status": "candidate-context",
       "text": "This repository hosts materials from the [CLiC-IT 2023 tutorial](https://clic2023.ilc.cnr.it/tutorial/), aiming to:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "smallcloudai/refact",
+      "status": "candidate-context",
+      "text": "AI Agent that handles engineering tasks end-to-end: integrates with developers\u2019 tools, plans, executes, and iterates until it achieves a successful result."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "smallcloudai/refact",
+      "status": "candidate-context",
+      "text": "<a name=\"readme-top\"></a>"
     }
   ],
   "candidate_glosses": [
@@ -297,6 +309,12 @@
       "source_repo": "crux82/CLiC-it_2023_tutorial",
       "status": "candidate",
       "text": "This repository hosts materials from the [CLiC-IT 2023 tutorial](https://clic2023.ilc.cnr.it/tutorial/), aiming to:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "smallcloudai/refact",
+      "status": "candidate",
+      "text": "<a name=\"readme-top\"></a>"
     }
   ],
   "candidate_related_terms": [
@@ -478,11 +496,17 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "crux82/CLiC-it_2023_tutorial"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "smallcloudai/refact"
     }
   ],
   "first_seen_at": "2026-04-19T01:08:57.644140+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "lexical_providers": [
     "datamuse"
   ],

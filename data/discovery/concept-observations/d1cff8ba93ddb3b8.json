@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Binomial's Fork of KTX-Software with Fixes/Improvements"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Linux CI"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Linux CI"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 4440,
+      "status": "candidate",
+      "text": "beatrix"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 4440,
+      "status": "candidate",
+      "text": "celestia"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 4440,
+      "status": "candidate",
+      "text": "debian"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 4440,
+      "status": "candidate",
+      "text": "dpkg"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 4440,
+      "status": "candidate",
+      "text": "gnome"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Linux CI",
+      "sense_id": "linux-ci#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "linux-ci",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "linux-ci",
+  "observation_id": "d1cff8ba93ddb3b8",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-24T12:33:41.350224+00:00",
+  "observed_text": "Linux CI",
+  "source_context_snippet": "Linux CI",
+  "source_file": ".github/workflows/linux.yml",
+  "source_repo": "BinomialLLC/KTX-Software-Binomial-Fork",
+  "source_repo_description": "Binomial's Fork of KTX-Software with Fixes/Improvements"
+}

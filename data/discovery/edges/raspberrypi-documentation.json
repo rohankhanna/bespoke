@@ -1,0 +1,125 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-deploy.yml",
+      "source_repo": "raspberrypi/documentation",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-deploy.yml",
+      "source_repo": "raspberrypi/documentation",
+      "target": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-deploy.yml",
+      "source_repo": "raspberrypi/documentation",
+      "target": "py-actions/py-dependency-install@30aa0023464ed4b5b116bd9fbdab87acf01a484e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-deploy.yml",
+      "source_repo": "raspberrypi/documentation",
+      "target": "ruby/setup-ruby@7372622e62b60b3cb750dcd2b9e32c247ffec26a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-deploy.yml",
+      "source_repo": "raspberrypi/documentation",
+      "target": "seanmiddleditch/gha-setup-ninja@3b1f8f94a2f8254bd26914c4ab9474d4f0015f67",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-deploy.yml",
+      "source_repo": "raspberrypi/documentation",
+      "target": "carlosperate/arm-none-eabi-gcc-action@0725d97b026acf7fc8e22dfd5bee912998879ba8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-and-deploy.yml",
+      "source_repo": "raspberrypi/documentation",
+      "target": "Build and deploy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "raspberrypi/documentation",
+      "target": "Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mirror.yml",
+      "source_repo": "raspberrypi/documentation",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/mirror.yml",
+      "source_repo": "raspberrypi/documentation",
+      "target": "Mirror repository",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "raspberrypi/documentation",
+      "target": "actions/stale@b5d41d4e1d5dceea10e7104786b73624c18a190f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "raspberrypi/documentation",
+      "target": "Mark stale issues and pull requests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "raspberrypi/documentation",
+      "target": "asciidoc",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "raspberrypi/documentation",
+      "target": "documentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "raspberrypi/documentation",
+      "target": "raspberry-pi",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "raspberrypi/documentation",
+      "target": "raspberry-pi-camera",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "raspberrypi/documentation",
+      "target": "raspberry-pi-pico",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-24T12:33:41.350224+00:00",
+  "source_repo": "raspberrypi/documentation"
+}

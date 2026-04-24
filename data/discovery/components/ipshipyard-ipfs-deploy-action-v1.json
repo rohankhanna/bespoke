@@ -1,7 +1,7 @@
 {
   "component": "ipshipyard/ipfs-deploy-action@v1",
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -17,6 +17,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/deploy.yml",
       "source_repo": "ipfs/ipfs-docs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "ipld/explore.ipld.io"
     }
   ]
 }

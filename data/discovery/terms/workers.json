@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T13:50:38.061794+00:00",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -11,6 +11,11 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "vmware-labs/wasm-workers-server"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "whatwg/html"
     }
   ],
   "term": "workers"

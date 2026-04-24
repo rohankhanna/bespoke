@@ -1217,6 +1217,42 @@
       "source_repo": "japaric/xargo",
       "status": "candidate-context",
       "text": "Continuous Integration"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rust-bitcoin/rust-bitcoind-json-rpc",
+      "status": "candidate-context",
+      "text": "Support for Bitcoin Core's JSON-RPC API"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-bitcoin/rust-bitcoind-json-rpc",
+      "status": "candidate-context",
+      "text": "Continuous integration"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "web-platform-tests/wpt.fyi",
+      "status": "candidate-context",
+      "text": "web-platform-tests dashboard"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "web-platform-tests/wpt.fyi",
+      "status": "candidate-context",
+      "text": "Continuous Integration"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "executablebooks/MyST-Parser",
+      "status": "candidate-context",
+      "text": "An extended commonmark compliant parser, with bridges to docutils/sphinx"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "executablebooks/MyST-Parser",
+      "status": "candidate-context",
+      "text": "continuous-integration"
     }
   ],
   "candidate_glosses": [
@@ -1819,6 +1855,24 @@
       "source_repo": "japaric/xargo",
       "status": "candidate",
       "text": "Continuous Integration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-bitcoin/rust-bitcoind-json-rpc",
+      "status": "candidate",
+      "text": "Continuous integration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "web-platform-tests/wpt.fyi",
+      "status": "candidate",
+      "text": "Continuous Integration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "executablebooks/MyST-Parser",
+      "status": "candidate",
+      "text": "continuous-integration"
     }
   ],
   "candidate_related_terms": [
@@ -2582,11 +2636,29 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": ".github/workflows/continuous-integration.yml",
       "source_repo": "vercel/modelfusion"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/rust.yaml",
+      "source_repo": "rust-bitcoin/rust-bitcoind-json-rpc"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "web-platform-tests/wpt.fyi"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "executablebooks/MyST-Parser"
     }
   ],
   "first_seen_at": "2026-04-18T10:38:37.562216+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "lexical_providers": [
     "datamuse"
   ],

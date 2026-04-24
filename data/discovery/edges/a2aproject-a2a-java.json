@@ -1,0 +1,279 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "a2aproject/a2a-java",
+      "target": "wildfly-extras/a2a-java-sdk-server-jakarta",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test.yml",
+      "source_repo": "a2aproject/a2a-java",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test.yml",
+      "source_repo": "a2aproject/a2a-java",
+      "target": "actions/setup-java@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test.yml",
+      "source_repo": "a2aproject/a2a-java",
+      "target": "actions/upload-artifact@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-and-test.yml",
+      "source_repo": "a2aproject/a2a-java",
+      "target": "Build and Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-with-release-profile-run.yml",
+      "source_repo": "a2aproject/a2a-java",
+      "target": "write",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-with-release-profile-run.yml",
+      "source_repo": "a2aproject/a2a-java",
+      "target": "actions/download-artifact@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-with-release-profile-run.yml",
+      "source_repo": "a2aproject/a2a-java",
+      "target": "actions/github-script@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-with-release-profile-run.yml",
+      "source_repo": "a2aproject/a2a-java",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-with-release-profile-run.yml",
+      "source_repo": "a2aproject/a2a-java",
+      "target": "actions/setup-java@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-with-release-profile-run.yml",
+      "source_repo": "a2aproject/a2a-java",
+      "target": "crazy-max/ghaction-import-gpg@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-with-release-profile-run.yml",
+      "source_repo": "a2aproject/a2a-java",
+      "target": "Build with '-Prelease' (Run)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-with-release-profile.yml",
+      "source_repo": "a2aproject/a2a-java",
+      "target": "actions/upload-artifact@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-with-release-profile.yml",
+      "source_repo": "a2aproject/a2a-java",
+      "target": "Build with '-Prelease' (Trigger)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cloud-deployment-example.yml",
+      "source_repo": "a2aproject/a2a-java",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cloud-deployment-example.yml",
+      "source_repo": "a2aproject/a2a-java",
+      "target": "actions/setup-java@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cloud-deployment-example.yml",
+      "source_repo": "a2aproject/a2a-java",
+      "target": "Cloud Deployment Example Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conventional-commits.yml",
+      "source_repo": "a2aproject/a2a-java",
+      "target": "write",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conventional-commits.yml",
+      "source_repo": "a2aproject/a2a-java",
+      "target": "amannn/action-semantic-pull-request@v5.5.3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/conventional-commits.yml",
+      "source_repo": "a2aproject/a2a-java",
+      "target": "Conventional Commits",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-github-release.yml",
+      "source_repo": "a2aproject/a2a-java",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-github-release.yml",
+      "source_repo": "a2aproject/a2a-java",
+      "target": "actions/github-script@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/create-github-release.yml",
+      "source_repo": "a2aproject/a2a-java",
+      "target": "Create GitHub Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-please.yml",
+      "source_repo": "a2aproject/a2a-java",
+      "target": "googleapis/release-please-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-please.yml",
+      "source_repo": "a2aproject/a2a-java",
+      "target": "release-please",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-to-maven-central.yml",
+      "source_repo": "a2aproject/a2a-java",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-to-maven-central.yml",
+      "source_repo": "a2aproject/a2a-java",
+      "target": "actions/setup-java@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-to-maven-central.yml",
+      "source_repo": "a2aproject/a2a-java",
+      "target": "crazy-max/ghaction-import-gpg@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-to-maven-central.yml",
+      "source_repo": "a2aproject/a2a-java",
+      "target": "Publish release to Maven Central",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-tck.yml",
+      "source_repo": "a2aproject/a2a-java",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-tck.yml",
+      "source_repo": "a2aproject/a2a-java",
+      "target": "actions/setup-java@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-tck.yml",
+      "source_repo": "a2aproject/a2a-java",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-tck.yml",
+      "source_repo": "a2aproject/a2a-java",
+      "target": "actions/upload-artifact@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/run-tck.yml",
+      "source_repo": "a2aproject/a2a-java",
+      "target": "Run TCK",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "a2aproject/a2a-java",
+      "target": "a2a-client",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "a2aproject/a2a-java",
+      "target": "a2a-server",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "a2aproject/a2a-java",
+      "target": "agent2agent",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "a2aproject/a2a-java",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "a2aproject/a2a-java",
+      "target": "java",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-24T12:33:41.350224+00:00",
+  "source_repo": "a2aproject/a2a-java"
+}

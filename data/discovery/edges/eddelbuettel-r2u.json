@@ -1,0 +1,55 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "eddelbuettel/r2u",
+      "target": "eddelbuettel/r2u-builder",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "eddelbuettel/r2u",
+      "target": "eddelbuettel/r2u-config",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "eddelbuettel/r2u",
+      "target": "bioconductor/bioc2u",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "eddelbuettel/r2u",
+      "target": "eddelbuettel/github-actions",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "eddelbuettel/r2u",
+      "target": "cran",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "eddelbuettel/r2u",
+      "target": "packages",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "eddelbuettel/r2u",
+      "target": "ubuntu",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-24T12:33:41.350224+00:00",
+  "source_repo": "eddelbuettel/r2u"
+}

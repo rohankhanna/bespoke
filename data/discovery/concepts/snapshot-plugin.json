@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "snapshot-plugin"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "syrupy-project/syrupy",
+      "status": "candidate-context",
+      "text": ":pancakes: The sweeter pytest snapshot plugin"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "syrupy-project/syrupy",
+      "status": "candidate-context",
+      "text": "<img align=\"right\" width=\"100px\" height=\"100px\" src=\"https://user-images.githubusercontent.com/2528959/69500147-85d71400-0ec6-11ea-867a-277881278e57.png\" alt=\"Logo\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "syrupy-project/syrupy",
+      "status": "candidate",
+      "text": "<img align=\"right\" width=\"100px\" height=\"100px\" src=\"https://user-images.githubusercontent.com/2528959/69500147-85d71400-0ec6-11ea-867a-277881278e57.png\" alt=\"Logo\">"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "snapshot-plugin",
+  "concept_id": "snapshot-plugin",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "syrupy-project/syrupy"
+    }
+  ],
+  "first_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "snapshot-plugin",
+      "sense_id": "snapshot-plugin#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -1,0 +1,153 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "DLR-RM/rl-baselines3-zoo",
+      "target": "araffin/rl-baselines-zoo",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "DLR-RM/rl-baselines3-zoo",
+      "target": "bulletphysics/bullet3",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "DLR-RM/rl-baselines3-zoo",
+      "target": "openai/roboschool",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "DLR-RM/rl-baselines3-zoo",
+      "target": "qgallouedec/panda-gym",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "DLR-RM/rl-baselines3-zoo",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "DLR-RM/rl-baselines3-zoo",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/trained_agents.yml",
+      "source_repo": "DLR-RM/rl-baselines3-zoo",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/trained_agents.yml",
+      "source_repo": "DLR-RM/rl-baselines3-zoo",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/trained_agents.yml",
+      "source_repo": "DLR-RM/rl-baselines3-zoo",
+      "target": "Check-Trained-Agents",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DLR-RM/rl-baselines3-zoo",
+      "target": "deep-reinforcement-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DLR-RM/rl-baselines3-zoo",
+      "target": "hyperparameter-optimization",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DLR-RM/rl-baselines3-zoo",
+      "target": "hyperparameter-search",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DLR-RM/rl-baselines3-zoo",
+      "target": "hyperparameter-tuning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DLR-RM/rl-baselines3-zoo",
+      "target": "optimization",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DLR-RM/rl-baselines3-zoo",
+      "target": "pybullet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DLR-RM/rl-baselines3-zoo",
+      "target": "pybullet-environments",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DLR-RM/rl-baselines3-zoo",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DLR-RM/rl-baselines3-zoo",
+      "target": "reinforcement-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DLR-RM/rl-baselines3-zoo",
+      "target": "robotics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DLR-RM/rl-baselines3-zoo",
+      "target": "stable-baselines",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DLR-RM/rl-baselines3-zoo",
+      "target": "tuning-hyperparameters",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-24T12:33:41.350224+00:00",
+  "source_repo": "DLR-RM/rl-baselines3-zoo"
+}

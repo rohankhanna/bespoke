@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T09:57:17.167988+00:00",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -971,6 +971,31 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "snowflakedb/gosnowflake"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "seasonjs/rwkv"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "spotify/annoy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "achannarasappa/ticker"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "go-rod/rod"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/golang.yml",
+      "source_repo": "bluesky-social/goat"
     }
   ],
   "term": "golang"

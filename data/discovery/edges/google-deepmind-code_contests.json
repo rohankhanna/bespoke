@@ -4,31 +4,10 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "google-deepmind/code_contests",
-      "target": "ibm/project_codenet",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "google-deepmind/code_contests",
-      "target": "ethancaballero/description2code",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "google-deepmind/code_contests",
-      "target": "google/riegeli",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "google-deepmind/code_contests",
       "target": "deepmind/code_contests",
       "target_type": "repository"
     }
   ],
-  "generated_at": "2026-04-24T06:47:13.899148+00:00",
+  "generated_at": "2026-04-24T12:33:41.350224+00:00",
   "source_repo": "google-deepmind/code_contests"
 }

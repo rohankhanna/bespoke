@@ -670,6 +670,30 @@
       "source_repo": "lunarmodules/busted",
       "status": "candidate-context",
       "text": "busted"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "syrupy-project/syrupy",
+      "status": "candidate-context",
+      "text": ":pancakes: The sweeter pytest snapshot plugin"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "syrupy-project/syrupy",
+      "status": "candidate-context",
+      "text": "<img align=\"right\" width=\"100px\" height=\"100px\" src=\"https://user-images.githubusercontent.com/2528959/69500147-85d71400-0ec6-11ea-867a-277881278e57.png\" alt=\"Logo\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "go-rod/rod",
+      "status": "candidate-context",
+      "text": "A Chrome DevTools Protocol driver for web automation and scraping."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "go-rod/rod",
+      "status": "candidate-context",
+      "text": "[![Go Reference](https://pkg.go.dev/badge/github.com/go-rod/rod.svg)](https://pkg.go.dev/github.com/go-rod/rod)"
     }
   ],
   "candidate_glosses": [
@@ -1002,6 +1026,18 @@
       "source_repo": "lunarmodules/busted",
       "status": "candidate",
       "text": "busted"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "syrupy-project/syrupy",
+      "status": "candidate",
+      "text": "<img align=\"right\" width=\"100px\" height=\"100px\" src=\"https://user-images.githubusercontent.com/2528959/69500147-85d71400-0ec6-11ea-867a-277881278e57.png\" alt=\"Logo\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "go-rod/rod",
+      "status": "candidate",
+      "text": "[![Go Reference](https://pkg.go.dev/badge/github.com/go-rod/rod.svg)](https://pkg.go.dev/github.com/go-rod/rod)"
     }
   ],
   "candidate_related_terms": [
@@ -1413,11 +1449,29 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "lunarmodules/busted"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "syrupy-project/syrupy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "go-rod/rod"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "jestjs/jest"
     }
   ],
   "first_seen_at": "2026-04-18T13:15:13.756138+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "lexical_providers": [
     "datamuse"
   ],

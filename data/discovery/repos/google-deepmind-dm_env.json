@@ -1,0 +1,92 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google-deepmind/dm_env",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google-deepmind/dm_env",
+      "target": "interface",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google-deepmind/dm_env",
+      "target": "machine-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google-deepmind/dm_env",
+      "target": "reinforcement-learning",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T12:37:10.231936+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1921
+    },
+    {
+      "path": "requirements.txt",
+      "size": 121
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A Python interface for reinforcement learning environments",
+    "fork": false,
+    "full_name": "google-deepmind/dm_env",
+    "html_url": "https://github.com/google-deepmind/dm_env",
+    "language": "Python",
+    "pushed_at": "2022-12-23T10:49:57Z",
+    "stargazers_count": 399,
+    "topics": [
+      "api",
+      "deep-learning",
+      "interface",
+      "machine-learning",
+      "python",
+      "reinforcement-learning"
+    ],
+    "updated_at": "2026-04-09T19:22:37Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "![PyPI Python version](https://img.shields.io/pypi/pyversions/dm-env)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "![PyPI Python version](https://img.shields.io/pypi/pyversions/dm-env)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "interface"
+    },
+    {
+      "context_snippet": "![PyPI Python version](https://img.shields.io/pypi/pyversions/dm-env)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-learning"
+    },
+    {
+      "context_snippet": "![PyPI Python version](https://img.shields.io/pypi/pyversions/dm-env)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "reinforcement-learning"
+    }
+  ]
+}

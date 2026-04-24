@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Create Edge Helm Chart Release PR"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hivemq/helm-charts",
+      "status": "candidate-context",
+      "text": "HiveMQ Helm charts"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hivemq/helm-charts",
+      "status": "candidate-context",
+      "text": "\"Create Edge Helm Chart Release PR\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hivemq/helm-charts",
+      "status": "candidate",
+      "text": "\"Create Edge Helm Chart Release PR\""
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 43974,
+      "status": "candidate",
+      "text": "plot"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 43974,
+      "status": "candidate",
+      "text": "plotted"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 43974,
+      "status": "candidate",
+      "text": "plotting"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 41014,
+      "status": "candidate",
+      "text": "trail"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40942,
+      "status": "candidate",
+      "text": "precipitate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Create Edge Helm Chart Release PR",
+  "concept_id": "create-edge-helm-chart-release-pr",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/edge-release-pr.yml",
+      "source_repo": "hivemq/helm-charts"
+    }
+  ],
+  "first_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Create Edge Helm Chart Release PR",
+      "sense_id": "create-edge-helm-chart-release-pr#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

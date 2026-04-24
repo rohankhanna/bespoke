@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-24T12:54:55.051876+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8153
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Emacs command line parser",
+    "fork": false,
+    "full_name": "rejeep/commander.el",
+    "html_url": "https://github.com/rejeep/commander.el",
+    "language": "Emacs Lisp",
+    "pushed_at": "2021-10-06T21:56:26Z",
+    "stargazers_count": 60,
+    "topics": [],
+    "updated_at": "2025-08-06T11:57:19Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

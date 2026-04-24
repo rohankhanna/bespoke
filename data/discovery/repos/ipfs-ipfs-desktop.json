@@ -361,28 +361,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "ipfs/ipfs-desktop",
-      "target": "ipfs/ipfs-companion",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "ipfs/ipfs-desktop",
-      "target": "ipfs/ipld-explorer-components",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "ipfs/ipfs-desktop",
-      "target": "appimage/appimagekit",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "ipfs/ipfs-desktop",
-      "target": "ipfs/fs-repo-migrations",
+      "target": "ipfs/js-ipfsd-ctl",
       "target_type": "repository"
     },
     {
@@ -890,7 +869,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-23T21:59:29.736916+00:00",
+  "fetched_at": "2026-04-24T12:55:59.358973+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -934,7 +913,7 @@
     "full_name": "ipfs/ipfs-desktop",
     "html_url": "https://github.com/ipfs/ipfs-desktop",
     "language": "JavaScript",
-    "pushed_at": "2026-04-23T21:39:05Z",
+    "pushed_at": "2026-04-24T00:23:14Z",
     "stargazers_count": 6525,
     "topics": [
       "desktop",
@@ -949,27 +928,12 @@
       "protocol",
       "unixfs"
     ],
-    "updated_at": "2026-04-23T21:50:30Z"
+    "updated_at": "2026-04-24T08:53:40Z"
   },
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
-      "full_name": "appimage/appimagekit",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "ipfs/fs-repo-migrations",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "ipfs/ipfs-companion",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "ipfs/ipld-explorer-components",
+      "full_name": "ipfs/js-ipfsd-ctl",
       "source_file": "README.md"
     }
   ],

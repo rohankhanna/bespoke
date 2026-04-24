@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "AMD's graph optimization engine."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "MIGraphX Performance Tests"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "MIGraphX Performance Tests"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28533,
+      "status": "candidate",
+      "text": "shakedown"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12133,
+      "status": "candidate",
+      "text": "checking"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12133,
+      "status": "candidate",
+      "text": "review"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11888,
+      "status": "candidate",
+      "text": "benchmark"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11888,
+      "status": "candidate",
+      "text": "results"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "MIGraphX Performance Tests",
+      "sense_id": "migraphx-performance-tests#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "migraphx-performance-tests",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "migraphx-performance-tests",
+  "observation_id": "19b776827d25ff8f",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-24T12:33:41.350224+00:00",
+  "observed_text": "MIGraphX Performance Tests",
+  "source_context_snippet": "MIGraphX Performance Tests",
+  "source_file": ".github/workflows/performance.yaml",
+  "source_repo": "ROCm/AMDMIGraphX",
+  "source_repo_description": "AMD's graph optimization engine."
+}

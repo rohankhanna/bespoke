@@ -2520,6 +2520,42 @@
       "source_repo": "sterlind/peft",
       "status": "candidate-context",
       "text": "tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "openai/openai-agents-python",
+      "status": "candidate-context",
+      "text": "A lightweight, powerful framework for multi-agent workflows"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openai/openai-agents-python",
+      "status": "candidate-context",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alex-petrenko/faster-fifo",
+      "status": "candidate-context",
+      "text": "Faster alternative to Python's multiprocessing.Queue (IPC FIFO queue)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alex-petrenko/faster-fifo",
+      "status": "candidate-context",
+      "text": "tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "allenai/open-instruct",
+      "status": "candidate-context",
+      "text": "AllenAI's post-training codebase"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "allenai/open-instruct",
+      "status": "candidate-context",
+      "text": "Tests"
     }
   ],
   "candidate_glosses": [
@@ -3794,6 +3830,24 @@
       "source_repo": "sterlind/peft",
       "status": "candidate",
       "text": "tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openai/openai-agents-python",
+      "status": "candidate",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alex-petrenko/faster-fifo",
+      "status": "candidate",
+      "text": "tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "allenai/open-instruct",
+      "status": "candidate",
+      "text": "Tests"
     }
   ],
   "candidate_related_terms": [
@@ -5384,11 +5438,29 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": ".github/workflows/tests.yml",
       "source_repo": "sterlind/peft"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "openai/openai-agents-python"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/test-ci.yml",
+      "source_repo": "alex-petrenko/faster-fifo"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "allenai/open-instruct"
     }
   ],
   "first_seen_at": "2026-04-18T11:41:43.530265+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "lexical_providers": [
     "datamuse"
   ],

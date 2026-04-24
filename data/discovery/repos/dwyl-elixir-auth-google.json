@@ -1,0 +1,231 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "erlef/setup-beam@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dwyl/elixir-auth-google",
+      "target": "googleapis/elixir-google-api",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dwyl/elixir-auth-google",
+      "target": "dwyl/elixir-auth-google-demo",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dwyl/elixir-auth-google",
+      "target": "dwyl/app-mvp-phoenix",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "dwyl/elixir-auth-google",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "dwyl/elixir-auth-google",
+      "target": "erlef/setup-beam@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "dwyl/elixir-auth-google",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "dwyl/elixir-auth-google",
+      "target": "codecov/codecov-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "dwyl/elixir-auth-google",
+      "target": "Elixir CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dwyl/elixir-auth-google",
+      "target": "auth",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dwyl/elixir-auth-google",
+      "target": "authentication",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dwyl/elixir-auth-google",
+      "target": "elixir",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dwyl/elixir-auth-google",
+      "target": "google",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dwyl/elixir-auth-google",
+      "target": "google-api",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dwyl/elixir-auth-google",
+      "target": "oauth",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dwyl/elixir-auth-google",
+      "target": "oauth2",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T12:59:43.979599+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 19412
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 839
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "\ud83d\udc64Minimalist Google OAuth Authentication for Elixir Apps. Tested, Documented & Maintained. Setup in 5 mins. \ud83d\ude80",
+    "fork": false,
+    "full_name": "dwyl/elixir-auth-google",
+    "html_url": "https://github.com/dwyl/elixir-auth-google",
+    "language": "Elixir",
+    "pushed_at": "2026-03-12T16:26:59Z",
+    "stargazers_count": 286,
+    "topics": [
+      "auth",
+      "authentication",
+      "elixir",
+      "google",
+      "google-api",
+      "oauth",
+      "oauth2"
+    ],
+    "updated_at": "2026-03-12T16:27:00Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dwyl/app-mvp-phoenix",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dwyl/elixir-auth-google-demo",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "googleapis/elixir-google-api",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Elixir CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "term": "Elixir CI"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "auth"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "authentication"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "elixir"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "google"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "google-api"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "oauth"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "oauth2"
+    }
+  ]
+}

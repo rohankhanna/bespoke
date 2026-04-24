@@ -175,6 +175,18 @@
       "source_repo": "Significant-Gravitas/AutoGPT",
       "status": "candidate-context",
       "text": "[![Discord Follow](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fdiscord.com%2Fapi%2Finvites%2Fautogpt%3Fwith_counts%3Dtrue&query=%24.approximate_member_count&label=total%20members&logo=discord&logoColor=white&color=7289da)](https://discord.gg/autogpt) &ensp;"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/ToRA",
+      "status": "candidate-context",
+      "text": "ToRA is a series of Tool-integrated Reasoning LLM Agents designed to solve challenging mathematical reasoning problems by interacting with tools [ICLR'24]."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/ToRA",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -261,6 +273,12 @@
       "source_repo": "Significant-Gravitas/AutoGPT",
       "status": "candidate",
       "text": "[![Discord Follow](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fdiscord.com%2Fapi%2Finvites%2Fautogpt%3Fwith_counts%3Dtrue&query=%24.approximate_member_count&label=total%20members&logo=discord&logoColor=white&color=7289da)](https://discord.gg/autogpt) &ensp;"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/ToRA",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -448,11 +466,17 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "aden-hive/hive"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/ToRA"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "lexical_providers": [
     "datamuse"
   ],

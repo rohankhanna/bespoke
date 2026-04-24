@@ -1,11 +1,14 @@
 {
   "aliases": [
-    "pyinstaller"
+    "pyinstaller",
+    "PyInstaller"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
     "tool-component",
-    "capability"
+    "capability",
+    "workflow-process",
+    "data-document-artifact"
   ],
   "candidate_definitions": [
     {
@@ -19,6 +22,18 @@
       "source_repo": "pyinstaller/pyinstaller",
       "status": "candidate-context",
       "text": "PyInstaller Overview"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "marcelm/cutadapt",
+      "status": "candidate-context",
+      "text": "Cutadapt removes adapter sequences from sequencing reads"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "marcelm/cutadapt",
+      "status": "candidate-context",
+      "text": "PyInstaller"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +42,12 @@
       "source_repo": "pyinstaller/pyinstaller",
       "status": "candidate",
       "text": "PyInstaller Overview"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "marcelm/cutadapt",
+      "status": "candidate",
+      "text": "PyInstaller"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +61,17 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "pyinstaller/pyinstaller"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/pyinstaller.yml",
+      "source_repo": "marcelm/cutadapt"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "lexical_providers": [
     "datamuse"
   ],

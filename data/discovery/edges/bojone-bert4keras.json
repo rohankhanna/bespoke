@@ -1,0 +1,34 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bojone/bert4keras",
+      "target": "bojone/bert_in_keras",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bojone/bert4keras",
+      "target": "bojone/albert_zh",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bojone/bert4keras",
+      "target": "bojone/cdial-gpt-tf",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bojone/bert4keras",
+      "target": "bojone/chinese-gen",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-04-24T12:33:41.350224+00:00",
+  "source_repo": "bojone/bert4keras"
+}

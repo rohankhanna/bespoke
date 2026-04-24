@@ -1,0 +1,57 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "sophgo/ChatGLM2-TPU",
+      "target": "sophgo/llm-tpu",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "sophgo/ChatGLM2-TPU",
+      "target": "sophgo/tpu-mlir",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-24T12:38:56.408589+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4986
+    },
+    {
+      "path": "requirements.txt",
+      "size": 3760
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "run ChatGLM2-6B in BM1684X",
+    "fork": false,
+    "full_name": "sophgo/ChatGLM2-TPU",
+    "html_url": "https://github.com/sophgo/ChatGLM2-TPU",
+    "language": "C++",
+    "pushed_at": "2024-03-01T02:42:17Z",
+    "stargazers_count": 49,
+    "topics": [],
+    "updated_at": "2026-03-20T11:45:21Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sophgo/llm-tpu",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sophgo/tpu-mlir",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -1,7 +1,7 @@
 {
   "component": "actions/deploy-pages@cd2ce8fcbc39b97be8ca5fce6e763baed58fa128",
   "first_seen_at": "2026-04-18T09:11:35.827547+00:00",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -117,6 +117,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/release.yaml",
       "source_repo": "akuity/kargo"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "cython/cython"
     }
   ]
 }

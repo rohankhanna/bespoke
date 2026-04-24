@@ -438,6 +438,66 @@
       "source_repo": "eth-act/ere-guests",
       "status": "candidate-context",
       "text": "Release Please"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "punica-ai/punica",
+      "status": "candidate-context",
+      "text": "Serving multiple LoRA finetuned LLM as one"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "punica-ai/punica",
+      "status": "candidate-context",
+      "text": "release-please"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "a2aproject/a2a-go",
+      "status": "candidate-context",
+      "text": "Golang SDK for A2A Protocol"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "a2aproject/a2a-go",
+      "status": "candidate-context",
+      "text": "release-please"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "a2aproject/a2a-java",
+      "status": "candidate-context",
+      "text": "Official Java SDK for the Agent2Agent (A2A) Protocol"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "a2aproject/a2a-java",
+      "status": "candidate-context",
+      "text": "release-please"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "a2aproject/a2a-js",
+      "status": "candidate-context",
+      "text": "Official JavaScript SDK for the Agent2Agent (A2A) Protocol"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "a2aproject/a2a-js",
+      "status": "candidate-context",
+      "text": "release-please"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "a2aproject/a2a-python",
+      "status": "candidate-context",
+      "text": "Official Python SDK for the Agent2Agent (A2A) Protocol"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "a2aproject/a2a-python",
+      "status": "candidate-context",
+      "text": "release-please"
     }
   ],
   "candidate_glosses": [
@@ -662,6 +722,36 @@
       "source_repo": "eth-act/ere-guests",
       "status": "candidate",
       "text": "Release Please"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "punica-ai/punica",
+      "status": "candidate",
+      "text": "release-please"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "a2aproject/a2a-go",
+      "status": "candidate",
+      "text": "release-please"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "a2aproject/a2a-java",
+      "status": "candidate",
+      "text": "release-please"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "a2aproject/a2a-js",
+      "status": "candidate",
+      "text": "release-please"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "a2aproject/a2a-python",
+      "status": "candidate",
+      "text": "release-please"
     }
   ],
   "candidate_related_terms": [
@@ -1063,11 +1153,41 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": ".github/workflows/release-please.yml",
       "source_repo": "eslint/js"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/release-please.yml",
+      "source_repo": "punica-ai/punica"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/release-please.yaml",
+      "source_repo": "a2aproject/a2a-go"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/release-please.yml",
+      "source_repo": "a2aproject/a2a-java"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/release-please.yml",
+      "source_repo": "a2aproject/a2a-js"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/release-please.yml",
+      "source_repo": "a2aproject/a2a-python"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "lexical_providers": [
     "datamuse"
   ],

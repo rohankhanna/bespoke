@@ -1,7 +1,7 @@
 {
   "component": "helm/kind-action@ef37e7f390d99f746eb8b610417061a60e82a6cc",
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -77,6 +77,31 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/pr.yaml",
       "source_repo": "kubernetes/autoscaler"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/integration-test.yml",
+      "source_repo": "grafana/k8s-monitoring-helm"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/platform-test.yml",
+      "source_repo": "grafana/k8s-monitoring-helm"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test-v1.yml",
+      "source_repo": "grafana/k8s-monitoring-helm"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/edge-smoke-test.yml",
+      "source_repo": "hivemq/helm-charts"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/platform-smoke-test.yml",
+      "source_repo": "hivemq/helm-charts"
     }
   ]
 }

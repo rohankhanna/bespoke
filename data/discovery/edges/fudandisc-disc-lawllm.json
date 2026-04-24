@@ -1,0 +1,55 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "FudanDISC/DISC-LawLLM",
+      "target": "baichuan-inc/baichuan-13b",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "FudanDISC/DISC-LawLLM",
+      "target": "hiyouga/llama-factory",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "FudanDISC/DISC-LawLLM",
+      "target": "charlie-xiao/ml3m",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "FudanDISC/DISC-LawLLM",
+      "target": "hiyouga/llama-efficient-tuning",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "FudanDISC/DISC-LawLLM",
+      "target": "domain-llm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "FudanDISC/DISC-LawLLM",
+      "target": "legal-intelligence",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "FudanDISC/DISC-LawLLM",
+      "target": "legal-llm",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-24T12:33:41.350224+00:00",
+  "source_repo": "FudanDISC/DISC-LawLLM"
+}

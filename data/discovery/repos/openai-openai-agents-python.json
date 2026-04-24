@@ -1,0 +1,500 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@08807647e7069bb48b6ef5acd8ec9567f424441b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml"
+    },
+    {
+      "component": "actions/stale@b5d41d4e1d5dceea10e7104786b73624c18a190f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issues.yml"
+    },
+    {
+      "component": "actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-labels.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-labels.yml"
+    },
+    {
+      "component": "openai/codex-action@c25d10f3f498316d4b2496cc4c6dd58057a7b031",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-labels.yml"
+    },
+    {
+      "component": "actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-labels.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@08807647e7069bb48b6ef5acd8ec9567f424441b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@ed0c53931b1dc9bd32cbe73a98c7f6766f8a527e",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-pr-update.yml"
+    },
+    {
+      "component": "openai/codex-action@c25d10f3f498316d4b2496cc4c6dd58057a7b031",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-pr-update.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-pr.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@08807647e7069bb48b6ef5acd8ec9567f424441b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-pr.yml"
+    },
+    {
+      "component": "openai/codex-action@c25d10f3f498316d4b2496cc4c6dd58057a7b031",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-pr.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-tag.yml"
+    },
+    {
+      "component": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-tag.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@08807647e7069bb48b6ef5acd8ec9567f424441b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@08807647e7069bb48b6ef5acd8ec9567f424441b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@08807647e7069bb48b6ef5acd8ec9567f424441b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@08807647e7069bb48b6ef5acd8ec9567f424441b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@08807647e7069bb48b6ef5acd8ec9567f424441b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "openai/openai-agents-python",
+      "target": "openai/openai-agents-js",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "openai/openai-agents-python",
+      "target": "psf/requests",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "openai/openai-agents-python",
+      "target": "mkdocstrings/griffe",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "openai/openai-agents-python",
+      "target": "mozilla-ai/any-llm",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "openai/openai-agents-python",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "openai/openai-agents-python",
+      "target": "astral-sh/setup-uv@08807647e7069bb48b6ef5acd8ec9567f424441b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "openai/openai-agents-python",
+      "target": "Deploy docs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issues.yml",
+      "source_repo": "openai/openai-agents-python",
+      "target": "actions/stale@b5d41d4e1d5dceea10e7104786b73624c18a190f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issues.yml",
+      "source_repo": "openai/openai-agents-python",
+      "target": "Close inactive issues",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-labels.yml",
+      "source_repo": "openai/openai-agents-python",
+      "target": "actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-labels.yml",
+      "source_repo": "openai/openai-agents-python",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-labels.yml",
+      "source_repo": "openai/openai-agents-python",
+      "target": "openai/codex-action@c25d10f3f498316d4b2496cc4c6dd58057a7b031",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-labels.yml",
+      "source_repo": "openai/openai-agents-python",
+      "target": "Auto label PRs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "openai/openai-agents-python",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "openai/openai-agents-python",
+      "target": "astral-sh/setup-uv@08807647e7069bb48b6ef5acd8ec9567f424441b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "openai/openai-agents-python",
+      "target": "pypa/gh-action-pypi-publish@ed0c53931b1dc9bd32cbe73a98c7f6766f8a527e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "openai/openai-agents-python",
+      "target": "Publish to PyPI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-pr-update.yml",
+      "source_repo": "openai/openai-agents-python",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-pr-update.yml",
+      "source_repo": "openai/openai-agents-python",
+      "target": "openai/codex-action@c25d10f3f498316d4b2496cc4c6dd58057a7b031",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-pr-update.yml",
+      "source_repo": "openai/openai-agents-python",
+      "target": "Update release PR on main updates",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-pr.yml",
+      "source_repo": "openai/openai-agents-python",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-pr.yml",
+      "source_repo": "openai/openai-agents-python",
+      "target": "astral-sh/setup-uv@08807647e7069bb48b6ef5acd8ec9567f424441b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-pr.yml",
+      "source_repo": "openai/openai-agents-python",
+      "target": "openai/codex-action@c25d10f3f498316d4b2496cc4c6dd58057a7b031",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-pr.yml",
+      "source_repo": "openai/openai-agents-python",
+      "target": "Create release PR",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-tag.yml",
+      "source_repo": "openai/openai-agents-python",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-tag.yml",
+      "source_repo": "openai/openai-agents-python",
+      "target": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-tag.yml",
+      "source_repo": "openai/openai-agents-python",
+      "target": "Tag release on merge",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "openai/openai-agents-python",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "openai/openai-agents-python",
+      "target": "astral-sh/setup-uv@08807647e7069bb48b6ef5acd8ec9567f424441b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "openai/openai-agents-python",
+      "target": "Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "openai/openai-agents-python",
+      "target": "framework",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T12:35:21.016662+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5995
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 5744
+    },
+    {
+      "path": ".github/workflows/docs.yml",
+      "size": 1454
+    },
+    {
+      "path": ".github/workflows/issues.yml",
+      "size": 1135
+    },
+    {
+      "path": ".github/workflows/pr-labels.yml",
+      "size": 7730
+    },
+    {
+      "path": ".github/workflows/publish.yml",
+      "size": 885
+    },
+    {
+      "path": ".github/workflows/release-pr-update.yml",
+      "size": 4427
+    },
+    {
+      "path": ".github/workflows/release-pr.yml",
+      "size": 6214
+    },
+    {
+      "path": ".github/workflows/release-tag.yml",
+      "size": 2654
+    },
+    {
+      "path": ".github/workflows/tests.yml",
+      "size": 5802
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A lightweight, powerful framework for multi-agent workflows",
+    "fork": false,
+    "full_name": "openai/openai-agents-python",
+    "html_url": "https://github.com/openai/openai-agents-python",
+    "language": "Python",
+    "pushed_at": "2026-04-23T23:06:24Z",
+    "stargazers_count": 24945,
+    "topics": [
+      "agents",
+      "ai",
+      "framework",
+      "llm",
+      "openai",
+      "python"
+    ],
+    "updated_at": "2026-04-24T12:28:57Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mkdocstrings/griffe",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mozilla-ai/any-llm",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "openai/openai-agents-js",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "psf/requests",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Deploy docs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs.yml",
+      "term": "Deploy docs"
+    },
+    {
+      "context_snippet": "Close inactive issues",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issues.yml",
+      "term": "Close inactive issues"
+    },
+    {
+      "context_snippet": "Auto label PRs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-labels.yml",
+      "term": "Auto label PRs"
+    },
+    {
+      "context_snippet": "Publish to PyPI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "term": "Publish to PyPI"
+    },
+    {
+      "context_snippet": "Update release PR on main updates",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-pr-update.yml",
+      "term": "Update release PR on main updates"
+    },
+    {
+      "context_snippet": "Create release PR",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-pr.yml",
+      "term": "Create release PR"
+    },
+    {
+      "context_snippet": "Tag release on merge",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-tag.yml",
+      "term": "Tag release on merge"
+    },
+    {
+      "context_snippet": "Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests.yml",
+      "term": "Tests"
+    },
+    {
+      "context_snippet": "The OpenAI Agents SDK is a lightweight yet powerful framework for building multi-agent workflows. It is provider-agnostic, supporting the OpenAI Responses and Chat Completions APIs, as well as 100+ other LLMs.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "framework"
+    }
+  ]
+}

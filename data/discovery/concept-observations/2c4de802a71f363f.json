@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\u7528\u4e8e\u5728 Docker \u91cc\u8fd0\u884c\u590d\u65e6\u7684 MOSS \u8bed\u8a00\u6a21\u578b\uff0c\u4f7f\u7528 GradIO \u63d0\u4f9b WebUI\u3002"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "https://hub.docker.com/repository/docker/linonetwo/moss/general"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "https://hub.docker.com/repository/docker/linonetwo/moss/general"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24999,
+      "status": "candidate",
+      "text": "pytorch lightning"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24998,
+      "status": "candidate",
+      "text": "tensorflow"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24997,
+      "status": "candidate",
+      "text": "apache mxnet"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24996,
+      "status": "candidate",
+      "text": "keras"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24995,
+      "status": "candidate",
+      "text": "gensim"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "pytorch",
+      "sense_id": "pytorch#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "pytorch",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "pytorch",
+  "observation_id": "2c4de802a71f363f",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T12:33:41.350224+00:00",
+  "observed_text": "pytorch",
+  "source_context_snippet": "https://hub.docker.com/repository/docker/linonetwo/moss/general",
+  "source_file": null,
+  "source_repo": "linonetwo/MOSS-DockerFile",
+  "source_repo_description": "\u7528\u4e8e\u5728 Docker \u91cc\u8fd0\u884c\u590d\u65e6\u7684 MOSS \u8bed\u8a00\u6a21\u578b\uff0c\u4f7f\u7528 GradIO \u63d0\u4f9b WebUI\u3002"
+}

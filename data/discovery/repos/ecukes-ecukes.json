@@ -1,0 +1,82 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "jcs090218/setup-emacs@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "emacs-eask/setup-eask@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "ecukes/ecukes",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "ecukes/ecukes",
+      "target": "jcs090218/setup-emacs@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "ecukes/ecukes",
+      "target": "emacs-eask/setup-eask@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "ecukes/ecukes",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-24T12:54:56.452411+00:00",
+  "fetched_files": [
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 1856
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Cucumber for Emacs",
+    "fork": false,
+    "full_name": "ecukes/ecukes",
+    "html_url": "https://github.com/ecukes/ecukes",
+    "language": "Emacs Lisp",
+    "pushed_at": "2025-12-11T23:08:07Z",
+    "stargazers_count": 203,
+    "topics": [],
+    "updated_at": "2026-02-20T15:43:47Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

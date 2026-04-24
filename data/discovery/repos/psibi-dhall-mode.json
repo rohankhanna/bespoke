@@ -1,0 +1,151 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check.yaml"
+    },
+    {
+      "component": "purcell/setup-emacs@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check.yaml"
+    },
+    {
+      "component": "leotaku/elisp-check@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "psibi/dhall-mode",
+      "target": "dhall-lang/dhall-lang",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "psibi/dhall-mode",
+      "target": "dhall-lang/dhall-haskell",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check.yaml",
+      "source_repo": "psibi/dhall-mode",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check.yaml",
+      "source_repo": "psibi/dhall-mode",
+      "target": "purcell/setup-emacs@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check.yaml",
+      "source_repo": "psibi/dhall-mode",
+      "target": "leotaku/elisp-check@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check.yaml",
+      "source_repo": "psibi/dhall-mode",
+      "target": "check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "psibi/dhall-mode",
+      "target": "configuration",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "psibi/dhall-mode",
+      "target": "dhall",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "psibi/dhall-mode",
+      "target": "turing-completeness",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T13:05:53.541031+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1144
+    },
+    {
+      "path": ".github/workflows/check.yaml",
+      "size": 692
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "psibi/dhall-mode",
+    "html_url": "https://github.com/psibi/dhall-mode",
+    "language": "Emacs Lisp",
+    "pushed_at": "2025-01-05T14:18:48Z",
+    "stargazers_count": 46,
+    "topics": [
+      "configuration",
+      "dhall",
+      "turing-completeness"
+    ],
+    "updated_at": "2025-08-15T15:13:55Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dhall-lang/dhall-haskell",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dhall-lang/dhall-lang",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "check",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check.yaml",
+      "term": "check"
+    },
+    {
+      "context_snippet": "[![MELPA](https://melpa.org/packages/dhall-mode-badge.svg)](https://melpa.org/#/dhall-mode)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "configuration"
+    },
+    {
+      "context_snippet": "[![MELPA](https://melpa.org/packages/dhall-mode-badge.svg)](https://melpa.org/#/dhall-mode)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dhall"
+    },
+    {
+      "context_snippet": "[![MELPA](https://melpa.org/packages/dhall-mode-badge.svg)](https://melpa.org/#/dhall-mode)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "turing-completeness"
+    }
+  ]
+}

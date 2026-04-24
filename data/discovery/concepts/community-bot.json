@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Community Bot"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NVIDIA-NeMo/Run",
+      "status": "candidate-context",
+      "text": "A tool to configure, launch and manage your machine learning experiments."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA-NeMo/Run",
+      "status": "candidate-context",
+      "text": "Community Bot"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA-NeMo/Run",
+      "status": "candidate",
+      "text": "Community Bot"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12188,
+      "status": "candidate",
+      "text": "union"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11309,
+      "status": "candidate",
+      "text": "bluebottle"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11309,
+      "status": "candidate",
+      "text": "decussate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11309,
+      "status": "candidate",
+      "text": "series"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11263,
+      "status": "candidate",
+      "text": "anchorage"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Community Bot",
+  "concept_id": "community-bot",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/community-bot.yml",
+      "source_repo": "NVIDIA-NeMo/Run"
+    }
+  ],
+  "first_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Community Bot",
+      "sense_id": "community-bot#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

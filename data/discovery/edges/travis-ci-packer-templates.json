@@ -1,0 +1,76 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "travis-ci/packer-templates",
+      "target": "kennethreitz/autoenv",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "travis-ci/packer-templates",
+      "target": "chef/bento",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "travis-ci/packer-templates",
+      "target": "travis-infrastructure/packer-build",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "travis-ci/packer-templates",
+      "target": "travis-ci/travis-packer-build",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "travis-ci/packer-templates",
+      "target": "ascii-art",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "travis-ci/packer-templates",
+      "target": "docker-images",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "travis-ci/packer-templates",
+      "target": "google-cloud",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "travis-ci/packer-templates",
+      "target": "packer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "travis-ci/packer-templates",
+      "target": "packer-builder",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "travis-ci/packer-templates",
+      "target": "travis-ci",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-24T12:33:41.350224+00:00",
+  "source_repo": "travis-ci/packer-templates"
+}

@@ -1,0 +1,153 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "redai-infra/TransferQueue",
+      "target": "volcengine/verl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dco-check.yml",
+      "source_repo": "redai-infra/TransferQueue",
+      "target": "actions/github-script@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dco-check.yml",
+      "source_repo": "redai-infra/TransferQueue",
+      "target": "DCO Check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/perftest.yml",
+      "source_repo": "redai-infra/TransferQueue",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/perftest.yml",
+      "source_repo": "redai-infra/TransferQueue",
+      "target": "actions/setup-python@0b93645e9fea7318ecaed2b359559ac225c90a2b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/perftest.yml",
+      "source_repo": "redai-infra/TransferQueue",
+      "target": "Performance Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "redai-infra/TransferQueue",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "redai-infra/TransferQueue",
+      "target": "actions/setup-python@0b93645e9fea7318ecaed2b359559ac225c90a2b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "redai-infra/TransferQueue",
+      "target": "pre-commit/action@v3.0.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "redai-infra/TransferQueue",
+      "target": "pre-commit",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-package.yml",
+      "source_repo": "redai-infra/TransferQueue",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-package.yml",
+      "source_repo": "redai-infra/TransferQueue",
+      "target": "actions/setup-python@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/recipe-check.yml",
+      "source_repo": "redai-infra/TransferQueue",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/recipe-check.yml",
+      "source_repo": "redai-infra/TransferQueue",
+      "target": "actions/setup-python@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/recipe-check.yml",
+      "source_repo": "redai-infra/TransferQueue",
+      "target": "Recipe check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-tests.yml",
+      "source_repo": "redai-infra/TransferQueue",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-tests.yml",
+      "source_repo": "redai-infra/TransferQueue",
+      "target": "actions/setup-python@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/run-tests.yml",
+      "source_repo": "redai-infra/TransferQueue",
+      "target": "Run Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sanity.yml",
+      "source_repo": "redai-infra/TransferQueue",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sanity.yml",
+      "source_repo": "redai-infra/TransferQueue",
+      "target": "actions/setup-python@0b93645e9fea7318ecaed2b359559ac225c90a2b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/sanity.yml",
+      "source_repo": "redai-infra/TransferQueue",
+      "target": "sanity",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-24T12:33:41.350224+00:00",
+  "source_repo": "redai-infra/TransferQueue"
+}

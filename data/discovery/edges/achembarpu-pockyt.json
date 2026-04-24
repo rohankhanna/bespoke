@@ -1,0 +1,20 @@
+{
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "achembarpu/pockyt",
+      "target": "command-line-tool",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "achembarpu/pockyt",
+      "target": "getpocket",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-24T12:33:41.350224+00:00",
+  "source_repo": "achembarpu/pockyt"
+}

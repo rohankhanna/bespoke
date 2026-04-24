@@ -751,6 +751,114 @@
       "source_repo": "declare-lab/LLM-PuzzleTest",
       "status": "candidate-context",
       "text": "[![Static Badge](https://img.shields.io/badge/PuzzleVQA-purple?style=flat&link=https%3A%2F%2Fhuggingface.co%2Fdatasets%2Fdeclare-lab%2Fpuzzlevqa)](https://huggingface.co/datasets/declare-lab/puzzlevqa) [![Static Badge](https://img.shields.io/badge/AlgoPuzzleVQA-purple?style=flat\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hiyouga/FastEdit",
+      "status": "candidate-context",
+      "text": "\ud83e\ude79Editing large language models within 10 seconds\u26a1"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hiyouga/FastEdit",
+      "status": "candidate-context",
+      "text": "*Editing large language models within 10 seconds*"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tatsu-lab/alpaca_farm",
+      "status": "candidate-context",
+      "text": "A simulation framework for RLHF and alternatives. Develop your RLHF method without collecting human data. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tatsu-lab/alpaca_farm",
+      "status": "candidate-context",
+      "text": "<p align=\"center\" width=\"100%\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fla-org/flash-linear-attention",
+      "status": "candidate-context",
+      "text": "\ud83d\ude80 Efficient implementations for emerging model architectures"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fla-org/flash-linear-attention",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "OpenGVLab/Ask-Anything",
+      "status": "candidate-context",
+      "text": "[CVPR2024 Highlight][VideoChatGPT] ChatGPT with video understanding! And many more supported LMs such as miniGPT4, StableLM, and MOSS."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenGVLab/Ask-Anything",
+      "status": "candidate-context",
+      "text": "[![Open in OpenXLab](https://cdn-static.openxlab.org.cn/app-center/openxlab_app.svg)](https://openxlab.org.cn/apps/detail/yinanhe/VideoChat2) |"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Atome-FE/llama-node",
+      "status": "candidate-context",
+      "text": "Believe in AI democratization. llama for nodejs backed by llama-rs, llama.cpp and rwkv.cpp, work locally on your laptop CPU. support llama/alpaca/gpt4all/vicuna/rwkv model."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Atome-FE/llama-node",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "punica-ai/punica",
+      "status": "candidate-context",
+      "text": "Serving multiple LoRA finetuned LLM as one"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "punica-ai/punica",
+      "status": "candidate-context",
+      "text": "[(paper)](https://arxiv.org/abs/2310.18547)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "amazon-science/recode",
+      "status": "candidate-context",
+      "text": "Releasing code for \"ReCode: Robustness Evaluation of Code Generation Models\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "amazon-science/recode",
+      "status": "candidate-context",
+      "text": "This is the repo for ReCode ([arXiv](https://arxiv.org/abs/2212.10264)), providing a comprehensive evaluation for the practical robustness of code generation models like CodeGEN, Incoder, GPT-J. In specific, this benchmark provides over 30 different general perturbations on docs\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "xlang-ai/DS-1000",
+      "status": "candidate-context",
+      "text": "[ICML 2023] Data and code release for the paper \"DS-1000: A Natural and Reliable Benchmark for Data Science Code Generation\"."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xlang-ai/DS-1000",
+      "status": "candidate-context",
+      "text": "<p align=\"left\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "reasoning-machines/pal",
+      "status": "candidate-context",
+      "text": "PaL: Program-Aided Language Models (ICML 2023)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "reasoning-machines/pal",
+      "status": "candidate-context",
+      "text": "Repo for the paper [PaL: Program-Aided Language Models](https://arxiv.org/pdf/2211.10435.pdf)."
     }
   ],
   "candidate_glosses": [
@@ -1125,6 +1233,60 @@
       "source_repo": "declare-lab/LLM-PuzzleTest",
       "status": "candidate",
       "text": "[![Static Badge](https://img.shields.io/badge/PuzzleVQA-purple?style=flat&link=https%3A%2F%2Fhuggingface.co%2Fdatasets%2Fdeclare-lab%2Fpuzzlevqa)](https://huggingface.co/datasets/declare-lab/puzzlevqa) [![Static Badge](https://img.shields.io/badge/AlgoPuzzleVQA-purple?style=flat\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hiyouga/FastEdit",
+      "status": "candidate",
+      "text": "*Editing large language models within 10 seconds*"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tatsu-lab/alpaca_farm",
+      "status": "candidate",
+      "text": "<p align=\"center\" width=\"100%\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fla-org/flash-linear-attention",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenGVLab/Ask-Anything",
+      "status": "candidate",
+      "text": "[![Open in OpenXLab](https://cdn-static.openxlab.org.cn/app-center/openxlab_app.svg)](https://openxlab.org.cn/apps/detail/yinanhe/VideoChat2) |"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Atome-FE/llama-node",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "punica-ai/punica",
+      "status": "candidate",
+      "text": "[(paper)](https://arxiv.org/abs/2310.18547)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "amazon-science/recode",
+      "status": "candidate",
+      "text": "This is the repo for ReCode ([arXiv](https://arxiv.org/abs/2212.10264)), providing a comprehensive evaluation for the practical robustness of code generation models like CodeGEN, Incoder, GPT-J. In specific, this benchmark provides over 30 different general perturbations on docs\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xlang-ai/DS-1000",
+      "status": "candidate",
+      "text": "<p align=\"left\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "reasoning-machines/pal",
+      "status": "candidate",
+      "text": "Repo for the paper [PaL: Program-Aided Language Models](https://arxiv.org/pdf/2211.10435.pdf)."
     }
   ],
   "candidate_related_terms": [],
@@ -1666,11 +1828,71 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "declare-lab/LLM-PuzzleTest"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "hiyouga/FastEdit"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "tatsu-lab/alpaca_farm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "fla-org/flash-linear-attention"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "OpenGVLab/Ask-Anything"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "OpenMOSS/MOSS"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "Atome-FE/llama-node"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "punica-ai/punica"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "amazon-science/recode"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "xlang-ai/DS-1000"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "reasoning-machines/pal"
     }
   ],
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "lexical_providers": [
     "datamuse"
   ],

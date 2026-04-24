@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "text2vec, text to vector. \u6587\u672c\u5411\u91cf\u8868\u5f81\u5de5\u5177\uff0c\u628a\u6587\u672c\u8f6c\u5316\u4e3a\u5411\u91cf\u77e9\u9635\uff0c\u5b9e\u73b0\u4e86Word2Vec\u3001RankBM25\u3001Sentence-BERT\u3001CoSENT\u7b49\u6587\u672c\u8868\u5f81\u3001\u6587\u672c\u76f8\u4f3c\u5ea6\u8ba1\u7b97\u6a21\u578b\uff0c\u5f00\u7bb1\u5373\u7528\u3002"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Windows build"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Windows build"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11718,
+      "status": "candidate",
+      "text": "pane"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11718,
+      "status": "candidate",
+      "text": "tile"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11629,
+      "status": "candidate",
+      "text": "lock"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11575,
+      "status": "candidate",
+      "text": "brick"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10691,
+      "status": "candidate",
+      "text": "balcony"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Windows build",
+      "sense_id": "windows-build#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "windows-build",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "windows-build",
+  "observation_id": "8e95ad8b0c9f4253",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-24T12:33:41.350224+00:00",
+  "observed_text": "Windows build",
+  "source_context_snippet": "Windows build",
+  "source_file": ".github/workflows/windows.yml",
+  "source_repo": "shibing624/text2vec",
+  "source_repo_description": "text2vec, text to vector. \u6587\u672c\u5411\u91cf\u8868\u5f81\u5de5\u5177\uff0c\u628a\u6587\u672c\u8f6c\u5316\u4e3a\u5411\u91cf\u77e9\u9635\uff0c\u5b9e\u73b0\u4e86Word2Vec\u3001RankBM25\u3001Sentence-BERT\u3001CoSENT\u7b49\u6587\u672c\u8868\u5f81\u3001\u6587\u672c\u76f8\u4f3c\u5ea6\u8ba1\u7b97\u6a21\u578b\uff0c\u5f00\u7bb1\u5373\u7528\u3002"
+}

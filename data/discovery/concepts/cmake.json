@@ -310,6 +310,18 @@
       "source_repo": "randy408/libspng",
       "status": "candidate-context",
       "text": "[![Gitter](https://badges.gitter.im/libspng/community.svg)](https://gitter.im/libspng/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "eliemichel/LearnWebGPU-Code",
+      "status": "candidate-context",
+      "text": "The accompanying code of the Learn WebGPU C++ programming guide"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eliemichel/LearnWebGPU-Code",
+      "status": "candidate-context",
+      "text": "CMake"
     }
   ],
   "candidate_glosses": [
@@ -462,6 +474,12 @@
       "source_repo": "randy408/libspng",
       "status": "candidate",
       "text": "[![Gitter](https://badges.gitter.im/libspng/community.svg)](https://gitter.im/libspng/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eliemichel/LearnWebGPU-Code",
+      "status": "candidate",
+      "text": "CMake"
     }
   ],
   "candidate_related_terms": [
@@ -655,11 +673,17 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "randy408/libspng"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/cmake.yml",
+      "source_repo": "eliemichel/LearnWebGPU-Code"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "lexical_providers": [
     "datamuse"
   ],

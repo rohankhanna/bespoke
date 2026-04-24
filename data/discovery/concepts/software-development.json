@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "software-development"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "OpenAutoCoder/Agentless",
+      "status": "candidate-context",
+      "text": "Agentless\ud83d\udc31:  an agentless approach to automatically solve software development problems"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenAutoCoder/Agentless",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenAutoCoder/Agentless",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "software-development",
+  "concept_id": "software-development",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "OpenAutoCoder/Agentless"
+    }
+  ],
+  "first_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "software-development",
+      "sense_id": "software-development#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

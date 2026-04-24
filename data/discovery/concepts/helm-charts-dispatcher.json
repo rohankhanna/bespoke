@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Helm Charts Dispatcher"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hivemq/helm-charts",
+      "status": "candidate-context",
+      "text": "HiveMQ Helm charts"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hivemq/helm-charts",
+      "status": "candidate-context",
+      "text": "Helm Charts Dispatcher"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hivemq/helm-charts",
+      "status": "candidate",
+      "text": "Helm Charts Dispatcher"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18403,
+      "status": "candidate",
+      "text": "graph"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18351,
+      "status": "candidate",
+      "text": "beam"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18351,
+      "status": "candidate",
+      "text": "equi"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18351,
+      "status": "candidate",
+      "text": "flop"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18351,
+      "status": "candidate",
+      "text": "flops"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Helm Charts Dispatcher",
+  "concept_id": "helm-charts-dispatcher",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/dispatcher.yml",
+      "source_repo": "hivemq/helm-charts"
+    }
+  ],
+  "first_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Helm Charts Dispatcher",
+      "sense_id": "helm-charts-dispatcher#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

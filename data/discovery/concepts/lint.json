@@ -2645,6 +2645,108 @@
       "source_repo": "open-mmlab/mmtracking",
       "status": "candidate-context",
       "text": "lint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "XuhuiZhou/OpenHands",
+      "status": "candidate-context",
+      "text": "\ud83d\ude4c OpenHands: Code Less, Make More"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "XuhuiZhou/OpenHands",
+      "status": "candidate-context",
+      "text": "Lint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fla-org/flash-linear-attention",
+      "status": "candidate-context",
+      "text": "\ud83d\ude80 Efficient implementations for emerging model architectures"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fla-org/flash-linear-attention",
+      "status": "candidate-context",
+      "text": "lint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pytest-dev/pytest-rerunfailures",
+      "status": "candidate-context",
+      "text": "a pytest plugin that re-runs failed tests up to -n times to eliminate flakey failures"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pytest-dev/pytest-rerunfailures",
+      "status": "candidate-context",
+      "text": "Lint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "onnx/optimizer",
+      "status": "candidate-context",
+      "text": "ONNX Optimizer"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "onnx/optimizer",
+      "status": "candidate-context",
+      "text": "Lint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fugue-project/fugue",
+      "status": "candidate-context",
+      "text": "A unified interface for distributed computing. Fugue executes SQL, Python, Pandas, and Polars code on Spark, Dask and Ray without any rewrites."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fugue-project/fugue",
+      "status": "candidate-context",
+      "text": "Lint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "CNugteren/CLBlast",
+      "status": "candidate-context",
+      "text": "Tuned OpenCL BLAS"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CNugteren/CLBlast",
+      "status": "candidate-context",
+      "text": "Lint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "achannarasappa/ticker",
+      "status": "candidate-context",
+      "text": "Track stocks, crypto, and derivatives prices and positions in real time from your terminal"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "achannarasappa/ticker",
+      "status": "candidate-context",
+      "text": "lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "grafana/k8s-monitoring-helm",
+      "status": "candidate-context",
+      "text": "Lint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/DirectXTK12",
+      "status": "candidate-context",
+      "text": "The DirectX Tool Kit (aka DirectXTK12) is a collection of helper classes for writing DirectX 12 code in C++"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/DirectXTK12",
+      "status": "candidate-context",
+      "text": "Lint"
     }
   ],
   "candidate_glosses": [
@@ -3985,6 +4087,60 @@
       "source_repo": "open-mmlab/mmtracking",
       "status": "candidate",
       "text": "lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "XuhuiZhou/OpenHands",
+      "status": "candidate",
+      "text": "Lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fla-org/flash-linear-attention",
+      "status": "candidate",
+      "text": "lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pytest-dev/pytest-rerunfailures",
+      "status": "candidate",
+      "text": "Lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "onnx/optimizer",
+      "status": "candidate",
+      "text": "Lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fugue-project/fugue",
+      "status": "candidate",
+      "text": "Lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CNugteren/CLBlast",
+      "status": "candidate",
+      "text": "Lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "achannarasappa/ticker",
+      "status": "candidate",
+      "text": "lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "grafana/k8s-monitoring-helm",
+      "status": "candidate",
+      "text": "Lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/DirectXTK12",
+      "status": "candidate",
+      "text": "Lint"
     }
   ],
   "candidate_related_terms": [
@@ -5869,11 +6025,71 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": ".github/workflows/lint.yml",
       "source_repo": "open-mmlab/mmtracking"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "XuhuiZhou/OpenHands"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/lint.yaml",
+      "source_repo": "fla-org/flash-linear-attention"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "pytest-dev/pytest-rerunfailures"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "onnx/optimizer"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "fugue-project/fugue"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "CNugteren/CLBlast"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "achannarasappa/ticker"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/lint.yaml",
+      "source_repo": "grafana/k8s-monitoring-helm"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "microsoft/DirectXTK12"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "lnx-search/rewrk"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,194 @@
+{
+  "components": [
+    {
+      "component": "ipdxco/unified-github-workflows/.github/workflows/reusable-generated-pr.yml@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generated-pr.yml"
+    },
+    {
+      "component": "ipdxco/unified-github-workflows/.github/workflows/reusable-stale-issue.yml@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ipfs/i18n",
+      "target": "i18next/i18next-icu",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ipfs/i18n",
+      "target": "mozilla/addons-server",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ipfs/i18n",
+      "target": "ipfs-shipyard/ipfs-companion",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ipfs/i18n",
+      "target": "ipfs-shipyard/ipfs-webui",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generated-pr.yml",
+      "source_repo": "ipfs/i18n",
+      "target": "ipdxco/unified-github-workflows/.github/workflows/reusable-generated-pr.yml@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/generated-pr.yml",
+      "source_repo": "ipfs/i18n",
+      "target": "Close Generated PRs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "ipfs/i18n",
+      "target": "ipdxco/unified-github-workflows/.github/workflows/reusable-stale-issue.yml@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "ipfs/i18n",
+      "target": "Close Stale Issues",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ipfs/i18n",
+      "target": "i18n",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ipfs/i18n",
+      "target": "ipfs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ipfs/i18n",
+      "target": "ipfs-gui",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ipfs/i18n",
+      "target": "translation",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T12:56:35.217652+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8316
+    },
+    {
+      "path": ".github/workflows/generated-pr.yml",
+      "size": 246
+    },
+    {
+      "path": ".github/workflows/stale.yml",
+      "size": 244
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "IPFS Translation Project",
+    "fork": false,
+    "full_name": "ipfs/i18n",
+    "html_url": "https://github.com/ipfs/i18n",
+    "language": null,
+    "pushed_at": "2025-09-17T22:30:12Z",
+    "stargazers_count": 24,
+    "topics": [
+      "i18n",
+      "ipfs",
+      "ipfs-gui",
+      "translation"
+    ],
+    "updated_at": "2026-02-20T13:56:00Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "i18next/i18next-icu",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ipfs-shipyard/ipfs-companion",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ipfs-shipyard/ipfs-webui",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mozilla/addons-server",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Close Generated PRs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/generated-pr.yml",
+      "term": "Close Generated PRs"
+    },
+    {
+      "context_snippet": "Close Stale Issues",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "term": "Close Stale Issues"
+    },
+    {
+      "context_snippet": "> Adapting IPFS apps and websites for a specific language by translating text and adding locale-specific components",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "i18n"
+    },
+    {
+      "context_snippet": "> Adapting IPFS apps and websites for a specific language by translating text and adding locale-specific components",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ipfs"
+    },
+    {
+      "context_snippet": "> Adapting IPFS apps and websites for a specific language by translating text and adding locale-specific components",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ipfs-gui"
+    },
+    {
+      "context_snippet": "> Adapting IPFS apps and websites for a specific language by translating text and adding locale-specific components",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "translation"
+    }
+  ]
+}

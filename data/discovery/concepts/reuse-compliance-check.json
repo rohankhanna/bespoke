@@ -19,12 +19,30 @@
       "source_repo": "abapGit/abapGit",
       "status": "candidate-context",
       "text": "REUSE Compliance Check"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "onnx/optimizer",
+      "status": "candidate-context",
+      "text": "ONNX Optimizer"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "onnx/optimizer",
+      "status": "candidate-context",
+      "text": "REUSE Compliance Check"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "abapGit/abapGit",
+      "status": "candidate",
+      "text": "REUSE Compliance Check"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "onnx/optimizer",
       "status": "candidate",
       "text": "REUSE Compliance Check"
     }
@@ -94,11 +112,17 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": ".github/workflows/reuse.yml",
       "source_repo": "abapGit/abapGit"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/reuse.yml",
+      "source_repo": "onnx/optimizer"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "lexical_providers": [
     "datamuse"
   ],

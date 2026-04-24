@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Small, fast, modern HTTP server for Erlang/OTP."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Check Cowboy"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Check Cowboy"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11826,
+      "status": "candidate",
+      "text": "ogle"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11644,
+      "status": "candidate",
+      "text": "hat"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11579,
+      "status": "candidate",
+      "text": "rein"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10767,
+      "status": "candidate",
+      "text": "cowpoke"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10761,
+      "status": "candidate",
+      "text": "daunt"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Check Cowboy",
+      "sense_id": "check-cowboy#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "check-cowboy",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "check-cowboy",
+  "observation_id": "b0f620b2dc6c0815",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-24T12:33:41.350224+00:00",
+  "observed_text": "Check Cowboy",
+  "source_context_snippet": "Check Cowboy",
+  "source_file": ".github/workflows/ci.yaml",
+  "source_repo": "ninenines/cowboy",
+  "source_repo_description": "Small, fast, modern HTTP server for Erlang/OTP."
+}

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Stakeholder-Specific Vulnerability Categorization"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![Link Checker](https://github.com/CERTCC/SSVC/actions/workflows/link_checker.yml/badge.svg?branch=main)](https://github.com/CERTCC/SSVC/actions/workflows/link_checker.yml)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![Link Checker](https://github.com/CERTCC/SSVC/actions/workflows/link_checker.yml/badge.svg?branch=main)](https://github.com/CERTCC/SSVC/actions/workflows/link_checker.yml)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30028127,
+      "status": "candidate",
+      "text": "prioritise"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30027835,
+      "status": "candidate",
+      "text": "prioritisation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30026664,
+      "status": "candidate",
+      "text": "ranking"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30025888,
+      "status": "candidate",
+      "text": "triage"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30024331,
+      "status": "candidate",
+      "text": "classification"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "prioritization",
+      "sense_id": "prioritization#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "prioritization",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "prioritization",
+  "observation_id": "e5f1da817aed4a8c",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T12:33:41.350224+00:00",
+  "observed_text": "prioritization",
+  "source_context_snippet": "[![Link Checker](https://github.com/CERTCC/SSVC/actions/workflows/link_checker.yml/badge.svg?branch=main)](https://github.com/CERTCC/SSVC/actions/workflows/link_checker.yml)",
+  "source_file": null,
+  "source_repo": "CERTCC/SSVC",
+  "source_repo_description": "Stakeholder-Specific Vulnerability Categorization"
+}

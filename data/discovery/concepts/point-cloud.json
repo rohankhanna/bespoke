@@ -115,6 +115,18 @@
       "source_repo": "charlesq34/pointnet",
       "status": "candidate-context",
       "text": "Created by <a href=\"http://charlesrqi.com\" target=\"_blank\">Charles R. Qi</a>, <a href=\"http://ai.stanford.edu/~haosu/\" target=\"_blank\">Hao Su</a>, <a href=\"http://cs.stanford.edu/~kaichun/\" target=\"_blank\">Kaichun Mo</a>, <a href=\"http://geometry.stanford.edu/member/guibas/\" tar\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "CesiumGS/3d-tiles",
+      "status": "candidate-context",
+      "text": "Specification for streaming massive heterogeneous 3D geospatial datasets :earth_americas:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CesiumGS/3d-tiles",
+      "status": "candidate-context",
+      "text": "![](figures/3DTiles_light_color_small.png#gh-dark-mode-only)![](figures/3DTiles_dark_color_small.png#gh-light-mode-only)"
     }
   ],
   "candidate_glosses": [
@@ -171,6 +183,12 @@
       "source_repo": "charlesq34/pointnet",
       "status": "candidate",
       "text": "Created by <a href=\"http://charlesrqi.com\" target=\"_blank\">Charles R. Qi</a>, <a href=\"http://ai.stanford.edu/~haosu/\" target=\"_blank\">Hao Su</a>, <a href=\"http://cs.stanford.edu/~kaichun/\" target=\"_blank\">Kaichun Mo</a>, <a href=\"http://geometry.stanford.edu/member/guibas/\" tar\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CesiumGS/3d-tiles",
+      "status": "candidate",
+      "text": "![](figures/3DTiles_light_color_small.png#gh-dark-mode-only)![](figures/3DTiles_dark_color_small.png#gh-light-mode-only)"
     }
   ],
   "candidate_related_terms": [],
@@ -232,11 +250,17 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "charlesq34/pointnet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "CesiumGS/3d-tiles"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "lexical_providers": [
     "datamuse"
   ],

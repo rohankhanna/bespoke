@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Build testing"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mishoo/UglifyJS",
+      "status": "candidate-context",
+      "text": " JavaScript parser / mangler / compressor / beautifier toolkit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mishoo/UglifyJS",
+      "status": "candidate-context",
+      "text": "Build testing"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mishoo/UglifyJS",
+      "status": "candidate",
+      "text": "Build testing"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11658,
+      "status": "candidate",
+      "text": "mock-up"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11518,
+      "status": "candidate",
+      "text": "rigged"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11518,
+      "status": "candidate",
+      "text": "rugged"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11518,
+      "status": "candidate",
+      "text": "tap"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10602,
+      "status": "candidate",
+      "text": "aeronautics"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Build testing",
+  "concept_id": "build-testing",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "mishoo/UglifyJS"
+    }
+  ],
+  "first_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build testing",
+      "sense_id": "build-testing#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

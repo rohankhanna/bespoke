@@ -93,6 +93,18 @@
       "source_repo": "anordal/shellharden",
       "status": "candidate-context",
       "text": "Create GitHub release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "a2aproject/a2a-java",
+      "status": "candidate-context",
+      "text": "Official Java SDK for the Agent2Agent (A2A) Protocol"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "a2aproject/a2a-java",
+      "status": "candidate-context",
+      "text": "Create GitHub Release"
     }
   ],
   "candidate_glosses": [
@@ -137,6 +149,12 @@
       "source_repo": "anordal/shellharden",
       "status": "candidate",
       "text": "Create GitHub release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "a2aproject/a2a-java",
+      "status": "candidate",
+      "text": "Create GitHub Release"
     }
   ],
   "candidate_related_terms": [
@@ -228,11 +246,17 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": ".github/workflows/create-gh-release.yml",
       "source_repo": "anordal/shellharden"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/create-github-release.yml",
+      "source_repo": "a2aproject/a2a-java"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "lexical_providers": [
     "datamuse"
   ],

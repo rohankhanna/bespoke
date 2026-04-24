@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Official Python SDK for the Agent2Agent (A2A) Protocol"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Install Smoke Test"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Install Smoke Test"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27095,
+      "status": "candidate",
+      "text": "deploy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19728,
+      "status": "candidate",
+      "text": "use"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18479,
+      "status": "candidate",
+      "text": "trail"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18447,
+      "status": "candidate",
+      "text": "fag"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18447,
+      "status": "candidate",
+      "text": "swisher"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Install Smoke Test",
+      "sense_id": "install-smoke-test#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "install-smoke-test",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "install-smoke-test",
+  "observation_id": "d8454437cfe7a309",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-24T12:33:41.350224+00:00",
+  "observed_text": "Install Smoke Test",
+  "source_context_snippet": "Install Smoke Test",
+  "source_file": ".github/workflows/install-smoke.yml",
+  "source_repo": "a2aproject/a2a-python",
+  "source_repo_description": "Official Python SDK for the Agent2Agent (A2A) Protocol"
+}

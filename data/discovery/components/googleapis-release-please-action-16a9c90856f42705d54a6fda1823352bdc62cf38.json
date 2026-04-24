@@ -1,12 +1,17 @@
 {
   "component": "googleapis/release-please-action@16a9c90856f42705d54a6fda1823352bdc62cf38",
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/release-please.yml",
       "source_repo": "eslint/js"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release-please.yml",
+      "source_repo": "a2aproject/a2a-python"
     }
   ]
 }

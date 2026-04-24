@@ -1,0 +1,57 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "docker/login-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "tensorchord/envd-quick-start",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "tensorchord/envd-quick-start",
+      "target": "docker/login-action@v2",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-24T12:46:05.008086+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4836
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 581
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "demo for envd",
+    "fork": false,
+    "full_name": "tensorchord/envd-quick-start",
+    "html_url": "https://github.com/tensorchord/envd-quick-start",
+    "language": "Python",
+    "pushed_at": "2025-02-06T04:23:24Z",
+    "stargazers_count": 6,
+    "topics": [],
+    "updated_at": "2025-07-04T09:56:11Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

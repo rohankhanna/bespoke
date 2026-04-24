@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A collection of pre-trained, state-of-the-art models in the ONNX format "
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<!--- SPDX-License-Identifier: Apache-2.0 -->"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<!--- SPDX-License-Identifier: Apache-2.0 -->"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9923916,
+      "status": "candidate",
+      "text": "pre-trained"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9923915,
+      "status": "candidate",
+      "text": "foretrained"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9923914,
+      "status": "candidate",
+      "text": "fore-trained"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9923913,
+      "status": "candidate",
+      "text": "prelearnt"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9923912,
+      "status": "candidate",
+      "text": "prelearned"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "pretrained",
+      "sense_id": "pretrained#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "pretrained",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "pretrained",
+  "observation_id": "2bede1adc3eca541",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T12:33:41.350224+00:00",
+  "observed_text": "pretrained",
+  "source_context_snippet": "<!--- SPDX-License-Identifier: Apache-2.0 -->",
+  "source_file": null,
+  "source_repo": "onnx/models",
+  "source_repo_description": "A collection of pre-trained, state-of-the-art models in the ONNX format "
+}

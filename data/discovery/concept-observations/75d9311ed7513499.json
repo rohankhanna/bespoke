@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "super repo for rocm libraries"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "\"Hipblaslt Documentation Agent\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "\"Hipblaslt Documentation Agent\""
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12456,
+      "status": "candidate",
+      "text": "source"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11434,
+      "status": "candidate",
+      "text": "credentials"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11434,
+      "status": "candidate",
+      "text": "document"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11434,
+      "status": "candidate",
+      "text": "documents"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11434,
+      "status": "candidate",
+      "text": "file"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Hipblaslt Documentation Agent",
+      "sense_id": "hipblaslt-documentation-agent#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "hipblaslt-documentation-agent",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "hipblaslt-documentation-agent",
+  "observation_id": "75d9311ed7513499",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-24T12:33:41.350224+00:00",
+  "observed_text": "Hipblaslt Documentation Agent",
+  "source_context_snippet": "\"Hipblaslt Documentation Agent\"",
+  "source_file": ".github/workflows/hipblaslt-doc-agent.lock.yml",
+  "source_repo": "ROCm/rocm-libraries",
+  "source_repo_description": "super repo for rocm libraries"
+}

@@ -1,0 +1,363 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Cargo.toml",
+      "source_repo": "TabbyML/tabby",
+      "target": "quickwit-oss/tantivy",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Cargo.toml",
+      "source_repo": "TabbyML/tabby",
+      "target": "wsxiaoys/sqlx",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "TabbyML/tabby",
+      "target": "turbo",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ast-grep-lint.yml",
+      "source_repo": "TabbyML/tabby",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ast-grep-lint.yml",
+      "source_repo": "TabbyML/tabby",
+      "target": "ast-grep/action@v1.4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ast-grep-lint.yml",
+      "source_repo": "TabbyML/tabby",
+      "target": "ast-grep lint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autofix-pnpm.yml",
+      "source_repo": "TabbyML/tabby",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autofix-pnpm.yml",
+      "source_repo": "TabbyML/tabby",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autofix-pnpm.yml",
+      "source_repo": "TabbyML/tabby",
+      "target": "pnpm/action-setup@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autofix-pnpm.yml",
+      "source_repo": "TabbyML/tabby",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autofix-pnpm.yml",
+      "source_repo": "TabbyML/tabby",
+      "target": "autofix-ci/action@551dded8c6cc8a1054039c8bc0b8b48c51dfc6ef",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/autofix-pnpm.yml",
+      "source_repo": "TabbyML/tabby",
+      "target": "autofix.ci",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autofix-python.yml",
+      "source_repo": "TabbyML/tabby",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autofix-python.yml",
+      "source_repo": "TabbyML/tabby",
+      "target": "chartboost/ruff-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autofix-python.yml",
+      "source_repo": "TabbyML/tabby",
+      "target": "autofix-ci/action@551dded8c6cc8a1054039c8bc0b8b48c51dfc6ef",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/autofix-python.yml",
+      "source_repo": "TabbyML/tabby",
+      "target": "autofix.ci",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autofix-rust.yml",
+      "source_repo": "TabbyML/tabby",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autofix-rust.yml",
+      "source_repo": "TabbyML/tabby",
+      "target": "actions-rs/toolchain@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autofix-rust.yml",
+      "source_repo": "TabbyML/tabby",
+      "target": "mozilla-actions/sccache-action@v0.0.9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autofix-rust.yml",
+      "source_repo": "TabbyML/tabby",
+      "target": "actions-rs/cargo@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autofix-rust.yml",
+      "source_repo": "TabbyML/tabby",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autofix-rust.yml",
+      "source_repo": "TabbyML/tabby",
+      "target": "autofix-ci/action@551dded8c6cc8a1054039c8bc0b8b48c51dfc6ef",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/autofix-rust.yml",
+      "source_repo": "TabbyML/tabby",
+      "target": "autofix.ci",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bloat.yml",
+      "source_repo": "TabbyML/tabby",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bloat.yml",
+      "source_repo": "TabbyML/tabby",
+      "target": "actions-rs/toolchain@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bloat.yml",
+      "source_repo": "TabbyML/tabby",
+      "target": "mozilla-actions/sccache-action@v0.0.9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bloat.yml",
+      "source_repo": "TabbyML/tabby",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bloat.yml",
+      "source_repo": "TabbyML/tabby",
+      "target": "wsxiaoys/cargo-bloat-action@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bloat.yml",
+      "source_repo": "TabbyML/tabby",
+      "target": "bloat",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "TabbyML/tabby",
+      "target": "jlumbroso/free-disk-space@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "TabbyML/tabby",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "TabbyML/tabby",
+      "target": "docker/setup-buildx-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "TabbyML/tabby",
+      "target": "docker/login-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "TabbyML/tabby",
+      "target": "int128/docker-build-cache-config-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "TabbyML/tabby",
+      "target": "docker/metadata-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "TabbyML/tabby",
+      "target": "docker/build-push-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "TabbyML/tabby",
+      "target": "peter-evans/dockerhub-description@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "TabbyML/tabby",
+      "target": "Create and publish docker image",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gh-pages.yml",
+      "source_repo": "TabbyML/tabby",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gh-pages.yml",
+      "source_repo": "TabbyML/tabby",
+      "target": "actions/setup-node@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gh-pages.yml",
+      "source_repo": "TabbyML/tabby",
+      "target": "actions/configure-pages@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gh-pages.yml",
+      "source_repo": "TabbyML/tabby",
+      "target": "actions/upload-pages-artifact@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gh-pages.yml",
+      "source_repo": "TabbyML/tabby",
+      "target": "actions/deploy-pages@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gh-pages.yml",
+      "source_repo": "TabbyML/tabby",
+      "target": "Deploy static content to Pages",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "TabbyML/tabby",
+      "target": "codegen",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "TabbyML/tabby",
+      "target": "coding-assistant",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "TabbyML/tabby",
+      "target": "coding-language",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "TabbyML/tabby",
+      "target": "developer-experience",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "TabbyML/tabby",
+      "target": "developer-tools",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "TabbyML/tabby",
+      "target": "gen-ai",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "TabbyML/tabby",
+      "target": "llms",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-24T12:33:41.350224+00:00",
+  "source_repo": "TabbyML/tabby"
+}

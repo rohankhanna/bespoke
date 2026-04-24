@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Refact Server CICD Nightly"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "smallcloudai/refact",
+      "status": "candidate-context",
+      "text": "AI Agent that handles engineering tasks end-to-end: integrates with developers\u2019 tools, plans, executes, and iterates until it achieves a successful result."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "smallcloudai/refact",
+      "status": "candidate-context",
+      "text": "Refact Server CICD Nightly"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "smallcloudai/refact",
+      "status": "candidate",
+      "text": "Refact Server CICD Nightly"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11215,
+      "status": "candidate",
+      "text": "news"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11215,
+      "status": "candidate",
+      "text": "taps"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11129,
+      "status": "candidate",
+      "text": "beset"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11129,
+      "status": "candidate",
+      "text": "breviary"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11129,
+      "status": "candidate",
+      "text": "bunny"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Refact Server CICD Nightly",
+  "concept_id": "refact-server-cicd-nightly",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/server_nightly.yml",
+      "source_repo": "smallcloudai/refact"
+    }
+  ],
+  "first_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Refact Server CICD Nightly",
+      "sense_id": "refact-server-cicd-nightly#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

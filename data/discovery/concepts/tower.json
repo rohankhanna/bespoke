@@ -1,0 +1,129 @@
+{
+  "aliases": [
+    "tower"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "0x676e67/wreq-util",
+      "status": "candidate-context",
+      "text": "Common utilities for wreq"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "0x676e67/wreq-util",
+      "status": "candidate-context",
+      "text": "A collection of utilities to do common things with [wreq](https://github.com/0x676e67/wreq)."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "0x676e67/wreq-util",
+      "status": "candidate",
+      "text": "A collection of utilities to do common things with [wreq](https://github.com/0x676e67/wreq)."
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39913819,
+      "status": "candidate",
+      "text": "pillar"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39911458,
+      "status": "candidate",
+      "text": "column"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39903087,
+      "status": "candidate",
+      "text": "loom"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39892969,
+      "status": "candidate",
+      "text": "hulk"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29968894,
+      "status": "candidate",
+      "text": "watch"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 22048,
+      "status": "candidate",
+      "text": "loom"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 13059,
+      "status": "candidate",
+      "text": "pillar"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 11037,
+      "status": "candidate",
+      "text": "hulk"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 7068,
+      "status": "candidate",
+      "text": "column"
+    }
+  ],
+  "canonical_name": "tower",
+  "concept_id": "tower",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "0x676e67/wreq-util"
+    }
+  ],
+  "first_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "tower",
+      "sense_id": "tower#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -49,6 +49,18 @@
       "source_repo": "docker/compose",
       "status": "candidate-context",
       "text": "PR Review"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "SemiAnalysisAI/InferenceX",
+      "status": "candidate-context",
+      "text": "Open Source Continuous Inference Benchmarking Qwen3.5, DeepSeek, GPTOSS - GB200 NVL72 vs MI355X vs B200 vs GB300 NVL72 vs H100 & soon\u2122 TPUv6e/v7/Trainium2/3"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SemiAnalysisAI/InferenceX",
+      "status": "candidate-context",
+      "text": "PR Review"
     }
   ],
   "candidate_glosses": [
@@ -67,6 +79,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "docker/compose",
+      "status": "candidate",
+      "text": "PR Review"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SemiAnalysisAI/InferenceX",
       "status": "candidate",
       "text": "PR Review"
     }
@@ -136,11 +154,17 @@
       "observed_at": "2026-04-22T01:04:16.609102+00:00",
       "source_file": ".github/workflows/pr-review.yml",
       "source_repo": "docker/compose"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/claude-pr-review.yml",
+      "source_repo": "SemiAnalysisAI/InferenceX"
     }
   ],
   "first_seen_at": "2026-04-18T13:29:00.435097+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "lexical_providers": [
     "datamuse"
   ],

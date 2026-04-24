@@ -1,0 +1,341 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions-rs/toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions-rs/toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions-rs/toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "taiki-e/install-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions-rs/toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "katyo/publish-crates@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "0x676e67/wreq-util",
+      "target": "tower-rs/tower",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "0x676e67/wreq-util",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "0x676e67/wreq-util",
+      "target": "actions-rs/toolchain@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "0x676e67/wreq-util",
+      "target": "taiki-e/install-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "0x676e67/wreq-util",
+      "target": "katyo/publish-crates@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "0x676e67/wreq-util",
+      "target": "softprops/action-gh-release@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "0x676e67/wreq-util",
+      "target": "akamai-fingerprint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "0x676e67/wreq-util",
+      "target": "emulation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "0x676e67/wreq-util",
+      "target": "emulation-device",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "0x676e67/wreq-util",
+      "target": "fingerprint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "0x676e67/wreq-util",
+      "target": "http",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "0x676e67/wreq-util",
+      "target": "https",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "0x676e67/wreq-util",
+      "target": "impersonate",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "0x676e67/wreq-util",
+      "target": "rust",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "0x676e67/wreq-util",
+      "target": "tls-client",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "0x676e67/wreq-util",
+      "target": "tls-fingerprint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "0x676e67/wreq-util",
+      "target": "tower",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "0x676e67/wreq-util",
+      "target": "tower-http",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "0x676e67/wreq-util",
+      "target": "web-scraper",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "0x676e67/wreq-util",
+      "target": "web-scraping",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T12:42:15.489265+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2370
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 2201
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 2060
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Common utilities for wreq",
+    "fork": false,
+    "full_name": "0x676e67/wreq-util",
+    "html_url": "https://github.com/0x676e67/wreq-util",
+    "language": "Rust",
+    "pushed_at": "2026-04-21T00:55:55Z",
+    "stargazers_count": 70,
+    "topics": [
+      "akamai-fingerprint",
+      "emulation",
+      "emulation-device",
+      "fingerprint",
+      "http",
+      "https",
+      "impersonate",
+      "ja3",
+      "ja4",
+      "rust",
+      "tls",
+      "tls-client",
+      "tls-fingerprint",
+      "tower",
+      "tower-http",
+      "web-scraper",
+      "web-scraping"
+    ],
+    "updated_at": "2026-04-22T08:47:28Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tower-rs/tower",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "A collection of utilities to do common things with [wreq](https://github.com/0x676e67/wreq).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "akamai-fingerprint"
+    },
+    {
+      "context_snippet": "A collection of utilities to do common things with [wreq](https://github.com/0x676e67/wreq).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "emulation"
+    },
+    {
+      "context_snippet": "A collection of utilities to do common things with [wreq](https://github.com/0x676e67/wreq).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "emulation-device"
+    },
+    {
+      "context_snippet": "A collection of utilities to do common things with [wreq](https://github.com/0x676e67/wreq).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fingerprint"
+    },
+    {
+      "context_snippet": "A collection of utilities to do common things with [wreq](https://github.com/0x676e67/wreq).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "http"
+    },
+    {
+      "context_snippet": "A collection of utilities to do common things with [wreq](https://github.com/0x676e67/wreq).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "https"
+    },
+    {
+      "context_snippet": "A collection of utilities to do common things with [wreq](https://github.com/0x676e67/wreq).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "impersonate"
+    },
+    {
+      "context_snippet": "A collection of utilities to do common things with [wreq](https://github.com/0x676e67/wreq).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust"
+    },
+    {
+      "context_snippet": "A collection of utilities to do common things with [wreq](https://github.com/0x676e67/wreq).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tls-client"
+    },
+    {
+      "context_snippet": "A collection of utilities to do common things with [wreq](https://github.com/0x676e67/wreq).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tls-fingerprint"
+    },
+    {
+      "context_snippet": "A collection of utilities to do common things with [wreq](https://github.com/0x676e67/wreq).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tower"
+    },
+    {
+      "context_snippet": "A collection of utilities to do common things with [wreq](https://github.com/0x676e67/wreq).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tower-http"
+    },
+    {
+      "context_snippet": "A collection of utilities to do common things with [wreq](https://github.com/0x676e67/wreq).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "web-scraper"
+    },
+    {
+      "context_snippet": "A collection of utilities to do common things with [wreq](https://github.com/0x676e67/wreq).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "web-scraping"
+    }
+  ]
+}

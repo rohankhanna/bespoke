@@ -1,0 +1,606 @@
+{
+  "components": [
+    {
+      "component": "@okhsunrog/svg-term-cli",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bazel-steward.yaml"
+    },
+    {
+      "component": "VirtusLab/bazel-steward@v1.7.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bazel-steward.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "devcontainers/ci@v0.3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "cachix/install-nix-action@v31",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "jlumbroso/free-disk-space@v1.3.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "oduwsdl/setup-ipfs@678755ac20f92d2dfca7e16138e40ae75f7a0f6f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "cachix/install-nix-action@v31",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "nicknovitski/nix-develop@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "bazel-contrib/setup-bazel@0.18.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/configure-pages@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/upload-pages-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/deploy-pages@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "cachix/install-nix-action@v31",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "nicknovitski/nix-develop@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "bazel-contrib/setup-bazel@0.18.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "docker/login-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "docker/metadata-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "docker/build-push-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yaml"
+    },
+    {
+      "component": "actions/setup-example@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yaml"
+    },
+    {
+      "component": "github/codeql-action/init@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yaml"
+    },
+    {
+      "component": "github/codeql-action/analyze@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/copilot-setup-steps.yml"
+    },
+    {
+      "component": "cachix/install-nix-action@v31",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/copilot-setup-steps.yml"
+    },
+    {
+      "component": "nicknovitski/nix-develop@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/copilot-setup-steps.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "enola-dev/enola",
+      "target": "virtuslab/bazel-steward",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "enola-dev/enola",
+      "target": "@okhsunrog/svg-term-cli",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "requirements.txt",
+      "source_repo": "enola-dev/enola",
+      "target": "fcivaner/hashdir",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "requirements.txt",
+      "source_repo": "enola-dev/enola",
+      "target": "mondeja/mkdocs-include-markdown-plugin",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "requirements.txt",
+      "source_repo": "enola-dev/enola",
+      "target": "cmacmackin/markdown-include",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bazel-steward.yaml",
+      "source_repo": "enola-dev/enola",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bazel-steward.yaml",
+      "source_repo": "enola-dev/enola",
+      "target": "VirtusLab/bazel-steward@v1.7.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bazel-steward.yaml",
+      "source_repo": "enola-dev/enola",
+      "target": "Bazel Steward \ud83e\udd35",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "enola-dev/enola",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "enola-dev/enola",
+      "target": "devcontainers/ci@v0.3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "enola-dev/enola",
+      "target": "cachix/install-nix-action@v31",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "enola-dev/enola",
+      "target": "jlumbroso/free-disk-space@v1.3.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "enola-dev/enola",
+      "target": "oduwsdl/setup-ipfs@678755ac20f92d2dfca7e16138e40ae75f7a0f6f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "enola-dev/enola",
+      "target": "nicknovitski/nix-develop@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "enola-dev/enola",
+      "target": "astral-sh/setup-uv@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "enola-dev/enola",
+      "target": "bazel-contrib/setup-bazel@0.18.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "enola-dev/enola",
+      "target": "actions/cache@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "enola-dev/enola",
+      "target": "actions/configure-pages@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "enola-dev/enola",
+      "target": "actions/upload-pages-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "enola-dev/enola",
+      "target": "actions/deploy-pages@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "enola-dev/enola",
+      "target": "docker/login-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "enola-dev/enola",
+      "target": "docker/metadata-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "enola-dev/enola",
+      "target": "docker/build-push-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "enola-dev/enola",
+      "target": "Build Test Deploy CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yaml",
+      "source_repo": "enola-dev/enola",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yaml",
+      "source_repo": "enola-dev/enola",
+      "target": "actions/setup-example@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yaml",
+      "source_repo": "enola-dev/enola",
+      "target": "github/codeql-action/init@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yaml",
+      "source_repo": "enola-dev/enola",
+      "target": "github/codeql-action/analyze@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yaml",
+      "source_repo": "enola-dev/enola",
+      "target": "CodeQL Advanced",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/copilot-setup-steps.yml",
+      "source_repo": "enola-dev/enola",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/copilot-setup-steps.yml",
+      "source_repo": "enola-dev/enola",
+      "target": "cachix/install-nix-action@v31",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/copilot-setup-steps.yml",
+      "source_repo": "enola-dev/enola",
+      "target": "nicknovitski/nix-develop@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/copilot-setup-steps.yml",
+      "source_repo": "enola-dev/enola",
+      "target": "Copilot Setup Steps",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "enola-dev/enola",
+      "target": "graph",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "enola-dev/enola",
+      "target": "graphviz",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "enola-dev/enola",
+      "target": "mermaid",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "enola-dev/enola",
+      "target": "modeling",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "enola-dev/enola",
+      "target": "semantic-web",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "enola-dev/enola",
+      "target": "visualization",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T12:53:43.983759+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4843
+    },
+    {
+      "path": "Dockerfile",
+      "size": 2113
+    },
+    {
+      "path": "package.json",
+      "size": 68
+    },
+    {
+      "path": "requirements.txt",
+      "size": 596
+    },
+    {
+      "path": ".github/workflows/bazel-steward.yaml",
+      "size": 2259
+    },
+    {
+      "path": ".github/workflows/ci.yaml",
+      "size": 12817
+    },
+    {
+      "path": ".github/workflows/codeql.yaml",
+      "size": 5495
+    },
+    {
+      "path": ".github/workflows/copilot-setup-steps.yml",
+      "size": 725
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Enola \ud83d\udd75\ud83c\udffe\u200d\u2640\ufe0f Holmes was an SRE.",
+    "fork": false,
+    "full_name": "enola-dev/enola",
+    "html_url": "https://github.com/enola-dev/enola",
+    "language": "Java",
+    "pushed_at": "2026-03-25T20:40:13Z",
+    "stargazers_count": 53,
+    "topics": [
+      "graph",
+      "graphviz",
+      "mermaid",
+      "modeling",
+      "rdf",
+      "semantic-web",
+      "sre",
+      "visualization"
+    ],
+    "updated_at": "2026-04-04T04:46:38Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "virtuslab/bazel-steward",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cmacmackin/markdown-include",
+      "source_file": "requirements.txt"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "fcivaner/hashdir",
+      "source_file": "requirements.txt"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mondeja/mkdocs-include-markdown-plugin",
+      "source_file": "requirements.txt"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Bazel Steward \ud83e\udd35",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bazel-steward.yaml",
+      "term": "Bazel Steward \ud83e\udd35"
+    },
+    {
+      "context_snippet": "Build Test Deploy CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yaml",
+      "term": "Build Test Deploy CI"
+    },
+    {
+      "context_snippet": "\"CodeQL Advanced\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yaml",
+      "term": "CodeQL Advanced"
+    },
+    {
+      "context_snippet": "\"Copilot Setup Steps\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/copilot-setup-steps.yml",
+      "term": "Copilot Setup Steps"
+    },
+    {
+      "context_snippet": "<!--",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "graph"
+    },
+    {
+      "context_snippet": "<!--",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "graphviz"
+    },
+    {
+      "context_snippet": "<!--",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mermaid"
+    },
+    {
+      "context_snippet": "<!--",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "modeling"
+    },
+    {
+      "context_snippet": "<!--",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "semantic-web"
+    },
+    {
+      "context_snippet": "<!--",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "visualization"
+    }
+  ]
+}

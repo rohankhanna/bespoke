@@ -1,0 +1,115 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\ud83c\udfe1 \ud83d\udc69\u200d\ud83d\udcbb \ud83d\udca1 home is where you can [learn to] build the future surrounded by like-minded creative, friendly and [intrinsically] motivated people focussed on health, fitness and making things people and the world need!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30044493,
+      "status": "candidate",
+      "text": "applied science"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30041778,
+      "status": "candidate",
+      "text": "engineering"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20048425,
+      "status": "candidate",
+      "text": "engineering science"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20048424,
+      "status": "candidate",
+      "text": "technicality"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20048283,
+      "status": "candidate",
+      "text": "technical"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "technology",
+      "sense_id": "technology#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 11042,
+      "status": "candidate",
+      "text": "engineering"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 3012,
+      "status": "candidate",
+      "text": "applied science"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 10,
+      "status": "candidate",
+      "text": "engineering science"
+    }
+  ],
+  "concept_id": "technology",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "technology",
+  "observation_id": "b02fc6aebfbb52b1",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T12:33:41.350224+00:00",
+  "observed_text": "technology",
+  "source_context_snippet": "<div align=\"center\">",
+  "source_file": null,
+  "source_repo": "dwyl/home",
+  "source_repo_description": "\ud83c\udfe1 \ud83d\udc69\u200d\ud83d\udcbb \ud83d\udca1 home is where you can [learn to] build the future surrounded by like-minded creative, friendly and [intrinsically] motivated people focussed on health, fitness and making things people and the world need!"
+}

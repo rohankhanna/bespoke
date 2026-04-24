@@ -2137,6 +2137,78 @@
       "source_repo": "hpcaitech/CachedEmbedding",
       "status": "candidate-context",
       "text": "The embedding tables in deep learning recommendation system models are becoming extremly large and cannot be fit in GPU memory."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tatsu-lab/alpaca_farm",
+      "status": "candidate-context",
+      "text": "A simulation framework for RLHF and alternatives. Develop your RLHF method without collecting human data. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tatsu-lab/alpaca_farm",
+      "status": "candidate-context",
+      "text": "<p align=\"center\" width=\"100%\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ikostrikov/jaxrl",
+      "status": "candidate-context",
+      "text": "JAX (Flax) implementation of algorithms for Deep Reinforcement Learning with continuous action spaces. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ikostrikov/jaxrl",
+      "status": "candidate-context",
+      "text": "[![DOI](https://zenodo.org/badge/330059679.svg)](https://zenodo.org/badge/latestdoi/330059679)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Denys88/rl_games",
+      "status": "candidate-context",
+      "text": "RL implementations"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Denys88/rl_games",
+      "status": "candidate-context",
+      "text": "**Note:** The next release will be 2.0.0 (unreleased). It migrates fully from `gym` to `gymnasium`. EnvPool support has been restored with the new envpool 1.1.1 (Python 3.11\u20133.14, NumPy 2.x, MuJoCo 3.x compatible)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google-deepmind/dm_env",
+      "status": "candidate-context",
+      "text": "A Python interface for reinforcement learning environments"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google-deepmind/dm_env",
+      "status": "candidate-context",
+      "text": "![PyPI Python version](https://img.shields.io/pypi/pyversions/dm-env)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "seasonjs/rwkv",
+      "status": "candidate-context",
+      "text": "pure go for rwkv"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "seasonjs/rwkv",
+      "status": "candidate-context",
+      "text": "pure go for rwkv and support cross-platform."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "onnx/models",
+      "status": "candidate-context",
+      "text": "A collection of pre-trained, state-of-the-art models in the ONNX format "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "onnx/models",
+      "status": "candidate-context",
+      "text": "<!--- SPDX-License-Identifier: Apache-2.0 -->"
     }
   ],
   "candidate_glosses": [
@@ -3201,6 +3273,42 @@
       "source_repo": "hpcaitech/CachedEmbedding",
       "status": "candidate",
       "text": "The embedding tables in deep learning recommendation system models are becoming extremly large and cannot be fit in GPU memory."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tatsu-lab/alpaca_farm",
+      "status": "candidate",
+      "text": "<p align=\"center\" width=\"100%\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ikostrikov/jaxrl",
+      "status": "candidate",
+      "text": "[![DOI](https://zenodo.org/badge/330059679.svg)](https://zenodo.org/badge/latestdoi/330059679)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Denys88/rl_games",
+      "status": "candidate",
+      "text": "**Note:** The next release will be 2.0.0 (unreleased). It migrates fully from `gym` to `gymnasium`. EnvPool support has been restored with the new envpool 1.1.1 (Python 3.11\u20133.14, NumPy 2.x, MuJoCo 3.x compatible)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google-deepmind/dm_env",
+      "status": "candidate",
+      "text": "![PyPI Python version](https://img.shields.io/pypi/pyversions/dm-env)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "seasonjs/rwkv",
+      "status": "candidate",
+      "text": "pure go for rwkv and support cross-platform."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "onnx/models",
+      "status": "candidate",
+      "text": "<!--- SPDX-License-Identifier: Apache-2.0 -->"
     }
   ],
   "candidate_related_terms": [],
@@ -4426,11 +4534,65 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "hpcaitech/CachedEmbedding"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "tatsu-lab/alpaca_farm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "ikostrikov/jaxrl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "Denys88/rl_games"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/dm_env"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "OpenMOSS/MOSS"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "RWKV/rwkv.cpp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "seasonjs/rwkv"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "onnx/models"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "openhackathons-org/gpubootcamp"
     }
   ],
   "first_seen_at": "2026-04-18T11:41:43.530265+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "lexical_providers": [
     "datamuse"
   ],

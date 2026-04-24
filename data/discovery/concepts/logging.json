@@ -223,6 +223,18 @@
       "source_repo": "fonwin/libfon9",
       "status": "candidate-context",
       "text": "\ufefflibfon9 \u57fa\u790e\u5efa\u8a2d\u7a0b\u5f0f\u5eab"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "travis-ci/travis-logs",
+      "status": "candidate-context",
+      "text": "Processes log updates from the job runner (worker), and streams them to the web client, aggregates them, and archives to S3."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "travis-ci/travis-logs",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://travis-ci.org/travis-ci/travis-logs.svg?branch=master)](https://travis-ci.org/travis-ci/travis-logs)"
     }
   ],
   "candidate_glosses": [
@@ -333,6 +345,12 @@
       "source_repo": "fonwin/libfon9",
       "status": "candidate",
       "text": "\ufefflibfon9 \u57fa\u790e\u5efa\u8a2d\u7a0b\u5f0f\u5eab"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "travis-ci/travis-logs",
+      "status": "candidate",
+      "text": "[![Build Status](https://travis-ci.org/travis-ci/travis-logs.svg?branch=master)](https://travis-ci.org/travis-ci/travis-logs)"
     }
   ],
   "candidate_related_terms": [
@@ -490,11 +508,17 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "fonwin/libfon9"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "travis-ci/travis-logs"
     }
   ],
   "first_seen_at": "2026-04-18T12:46:59.510459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "lexical_providers": [
     "datamuse"
   ],

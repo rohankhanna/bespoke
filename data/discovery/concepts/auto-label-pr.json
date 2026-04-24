@@ -19,12 +19,30 @@
       "source_repo": "modelcontextprotocol/rust-sdk",
       "status": "candidate-context",
       "text": "Auto Label PR"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ROCm/rocm-libraries",
+      "status": "candidate-context",
+      "text": "super repo for rocm libraries"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ROCm/rocm-libraries",
+      "status": "candidate-context",
+      "text": "Auto Label PR"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "modelcontextprotocol/rust-sdk",
+      "status": "candidate",
+      "text": "Auto Label PR"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ROCm/rocm-libraries",
       "status": "candidate",
       "text": "Auto Label PR"
     }
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": ".github/workflows/auto-label-pr.yml",
       "source_repo": "modelcontextprotocol/rust-sdk"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/labeler.yml",
+      "source_repo": "ROCm/rocm-libraries"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "lexical_providers": [
     "datamuse"
   ],

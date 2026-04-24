@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-24T12:59:12.763319+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 289
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "[WiP] Learn how to use blockchain to build open distributed applications. [see issues!]",
+    "fork": false,
+    "full_name": "dwyl/learn-blockchain",
+    "html_url": "https://github.com/dwyl/learn-blockchain",
+    "language": null,
+    "pushed_at": "2022-09-06T08:10:19Z",
+    "stargazers_count": 13,
+    "topics": [],
+    "updated_at": "2025-01-11T00:09:44Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

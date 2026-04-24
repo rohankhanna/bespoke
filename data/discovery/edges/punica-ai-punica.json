@@ -1,0 +1,97 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "punica-ai/punica",
+      "target": "microsoft/deepspeed",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gpu-test.yml",
+      "source_repo": "punica-ai/punica",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gpu-test.yml",
+      "source_repo": "punica-ai/punica",
+      "target": "codecov/codecov-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gpu-test.yml",
+      "source_repo": "punica-ai/punica",
+      "target": "Tests on GPU",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-please.yml",
+      "source_repo": "punica-ai/punica",
+      "target": "google-github-actions/release-please-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-please.yml",
+      "source_repo": "punica-ai/punica",
+      "target": "release-please",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_wheel.yml",
+      "source_repo": "punica-ai/punica",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_wheel.yml",
+      "source_repo": "punica-ai/punica",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_wheel.yml",
+      "source_repo": "punica-ai/punica",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_wheel.yml",
+      "source_repo": "punica-ai/punica",
+      "target": "softprops/action-gh-release@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release_wheel.yml",
+      "source_repo": "punica-ai/punica",
+      "target": "Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "punica-ai/punica",
+      "target": "large-language-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "punica-ai/punica",
+      "target": "lora",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-24T12:33:41.350224+00:00",
+  "source_repo": "punica-ai/punica"
+}

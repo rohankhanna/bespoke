@@ -1,7 +1,7 @@
 {
   "component": "azure/login@a457da9ea143d694b1b9c7c869ebb04ebe844ef5",
   "first_seen_at": "2026-04-18T11:41:43.530265+00:00",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -17,6 +17,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/build-image.yml",
       "source_repo": "conda-forge/.cirun"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/platform-test.yml",
+      "source_repo": "grafana/k8s-monitoring-helm"
     }
   ]
 }

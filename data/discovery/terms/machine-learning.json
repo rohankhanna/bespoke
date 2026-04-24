@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T12:06:06.216548+00:00",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -716,6 +716,41 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "EvolvingLMMs-Lab/Otter"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "AceCHQ/MMIQ"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "google-deepmind/dm_env"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "hill-a/stable-baselines"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "logpai/Drain3"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "ROCm/MIVisionX"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "fugue-project/fugue"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "cgnorthcutt/confidentlearning-reproduce"
     }
   ],
   "term": "machine-learning"

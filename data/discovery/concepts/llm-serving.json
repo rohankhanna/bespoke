@@ -79,6 +79,18 @@
       "source_repo": "predibase/lorax",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ray-project/ray-llm",
+      "status": "candidate-context",
+      "text": "RayLLM - LLMs on Ray (Archived). Read README for more info."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ray-project/ray-llm",
+      "status": "candidate-context",
+      "text": "This repository has been archived and is no longer maintained. We have created [`ray.serve.llm`](https://docs.ray.io/en/latest/serve/llm/overview.html) and [`ray.data.llm`](https://docs.ray.io/en/latest/data/working-with-llms.html) APIs to simplify deployment of LLMs on top of [\u2026"
     }
   ],
   "candidate_glosses": [
@@ -117,6 +129,12 @@
       "source_repo": "predibase/lorax",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ray-project/ray-llm",
+      "status": "candidate",
+      "text": "This repository has been archived and is no longer maintained. We have created [`ray.serve.llm`](https://docs.ray.io/en/latest/serve/llm/overview.html) and [`ray.data.llm`](https://docs.ray.io/en/latest/data/working-with-llms.html) APIs to simplify deployment of LLMs on top of [\u2026"
     }
   ],
   "candidate_related_terms": [],
@@ -166,11 +184,17 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "predibase/lorax"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "ray-project/ray-llm"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "lexical_providers": [
     "datamuse"
   ],

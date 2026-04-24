@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "yichen0831/opencc-python",
+      "target": "byvoid/opencc",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-24T12:39:38.718902+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3091
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "OpenCC made with Python",
+    "fork": false,
+    "full_name": "yichen0831/opencc-python",
+    "html_url": "https://github.com/yichen0831/opencc-python",
+    "language": "Python",
+    "pushed_at": "2023-12-08T03:56:28Z",
+    "stargazers_count": 567,
+    "topics": [],
+    "updated_at": "2026-04-22T09:52:20Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "byvoid/opencc",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

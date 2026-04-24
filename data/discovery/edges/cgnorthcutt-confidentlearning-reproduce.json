@@ -1,0 +1,62 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cgnorthcutt/confidentlearning-reproduce",
+      "target": "cgnorthcutt/cleanlab",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cgnorthcutt/confidentlearning-reproduce",
+      "target": "confident-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cgnorthcutt/confidentlearning-reproduce",
+      "target": "machine-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cgnorthcutt/confidentlearning-reproduce",
+      "target": "noisy-labels",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cgnorthcutt/confidentlearning-reproduce",
+      "target": "reproducibility",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cgnorthcutt/confidentlearning-reproduce",
+      "target": "reproducible-research",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cgnorthcutt/confidentlearning-reproduce",
+      "target": "supervised-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cgnorthcutt/confidentlearning-reproduce",
+      "target": "weak-supervision",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-24T12:33:41.350224+00:00",
+  "source_repo": "cgnorthcutt/confidentlearning-reproduce"
+}

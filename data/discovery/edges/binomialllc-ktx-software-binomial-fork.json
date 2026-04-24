@@ -1,0 +1,314 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "BinomialLLC/KTX-Software-Binomial-Fork",
+      "target": "khronosgroup/ktx-software",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "BinomialLLC/KTX-Software-Binomial-Fork",
+      "target": "richgel999/junkdrawer",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android.yml",
+      "source_repo": "BinomialLLC/KTX-Software-Binomial-Fork",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android.yml",
+      "source_repo": "BinomialLLC/KTX-Software-Binomial-Fork",
+      "target": "nttld/setup-ndk@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android.yml",
+      "source_repo": "BinomialLLC/KTX-Software-Binomial-Fork",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android.yml",
+      "source_repo": "BinomialLLC/KTX-Software-Binomial-Fork",
+      "target": "softprops/action-gh-release@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/android.yml",
+      "source_repo": "BinomialLLC/KTX-Software-Binomial-Fork",
+      "target": "Android CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-libktx-only.yml",
+      "source_repo": "BinomialLLC/KTX-Software-Binomial-Fork",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-libktx-only.yml",
+      "source_repo": "BinomialLLC/KTX-Software-Binomial-Fork",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-mkvk.yml",
+      "source_repo": "BinomialLLC/KTX-Software-Binomial-Fork",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-reuse.yml",
+      "source_repo": "BinomialLLC/KTX-Software-Binomial-Fork",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-reuse.yml",
+      "source_repo": "BinomialLLC/KTX-Software-Binomial-Fork",
+      "target": "fsfe/reuse-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-reuse.yml",
+      "source_repo": "BinomialLLC/KTX-Software-Binomial-Fork",
+      "target": "Check reuse lint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "BinomialLLC/KTX-Software-Binomial-Fork",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "BinomialLLC/KTX-Software-Binomial-Fork",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "BinomialLLC/KTX-Software-Binomial-Fork",
+      "target": "ssciwr/doxygen-install@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "BinomialLLC/KTX-Software-Binomial-Fork",
+      "target": "ts-graphviz/setup-graphviz@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "BinomialLLC/KTX-Software-Binomial-Fork",
+      "target": "actions/upload-pages-artifact@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "BinomialLLC/KTX-Software-Binomial-Fork",
+      "target": "actions/deploy-pages@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/formatting.yml",
+      "source_repo": "BinomialLLC/KTX-Software-Binomial-Fork",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/formatting.yml",
+      "source_repo": "BinomialLLC/KTX-Software-Binomial-Fork",
+      "target": "jidicula/clang-format-action@v4.13.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/formatting.yml",
+      "source_repo": "BinomialLLC/KTX-Software-Binomial-Fork",
+      "target": "Formatting",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux.yml",
+      "source_repo": "BinomialLLC/KTX-Software-Binomial-Fork",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux.yml",
+      "source_repo": "BinomialLLC/KTX-Software-Binomial-Fork",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux.yml",
+      "source_repo": "BinomialLLC/KTX-Software-Binomial-Fork",
+      "target": "actions/github-script@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux.yml",
+      "source_repo": "BinomialLLC/KTX-Software-Binomial-Fork",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux.yml",
+      "source_repo": "BinomialLLC/KTX-Software-Binomial-Fork",
+      "target": "softprops/action-gh-release@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linux.yml",
+      "source_repo": "BinomialLLC/KTX-Software-Binomial-Fork",
+      "target": "Linux CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos.yml",
+      "source_repo": "BinomialLLC/KTX-Software-Binomial-Fork",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos.yml",
+      "source_repo": "BinomialLLC/KTX-Software-Binomial-Fork",
+      "target": "ssciwr/doxygen-install@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos.yml",
+      "source_repo": "BinomialLLC/KTX-Software-Binomial-Fork",
+      "target": "ts-graphviz/setup-graphviz@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos.yml",
+      "source_repo": "BinomialLLC/KTX-Software-Binomial-Fork",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos.yml",
+      "source_repo": "BinomialLLC/KTX-Software-Binomial-Fork",
+      "target": "actions/github-script@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos.yml",
+      "source_repo": "BinomialLLC/KTX-Software-Binomial-Fork",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos.yml",
+      "source_repo": "BinomialLLC/KTX-Software-Binomial-Fork",
+      "target": "softprops/action-gh-release@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/macos.yml",
+      "source_repo": "BinomialLLC/KTX-Software-Binomial-Fork",
+      "target": "macOS & iOS CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/manual.yml",
+      "source_repo": "BinomialLLC/KTX-Software-Binomial-Fork",
+      "target": "Manually Run All Workflows",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BinomialLLC/KTX-Software-Binomial-Fork",
+      "target": "compression",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BinomialLLC/KTX-Software-Binomial-Fork",
+      "target": "gpu-programming",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BinomialLLC/KTX-Software-Binomial-Fork",
+      "target": "gpu-texture-compression",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BinomialLLC/KTX-Software-Binomial-Fork",
+      "target": "image",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BinomialLLC/KTX-Software-Binomial-Fork",
+      "target": "jpeg",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BinomialLLC/KTX-Software-Binomial-Fork",
+      "target": "texture-compression",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BinomialLLC/KTX-Software-Binomial-Fork",
+      "target": "textures",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-24T12:33:41.350224+00:00",
+  "source_repo": "BinomialLLC/KTX-Software-Binomial-Fork"
+}

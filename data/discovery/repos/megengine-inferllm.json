@@ -1,0 +1,122 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "MegEngine/InferLLM",
+      "target": "thudm/chatglm2-6b",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "MegEngine/InferLLM",
+      "target": "thudm/chatglm-6b",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "MegEngine/InferLLM",
+      "target": "facebookresearch/llama",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "MegEngine/InferLLM",
+      "target": "baichuan-inc/baichuan-7b",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MegEngine/InferLLM",
+      "target": "deeplearning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MegEngine/InferLLM",
+      "target": "inference",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MegEngine/InferLLM",
+      "target": "mobile",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T12:38:28.350184+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3884
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "a lightweight LLM model inference framework",
+    "fork": false,
+    "full_name": "MegEngine/InferLLM",
+    "html_url": "https://github.com/MegEngine/InferLLM",
+    "language": "C++",
+    "pushed_at": "2024-04-07T01:57:37Z",
+    "stargazers_count": 752,
+    "topics": [
+      "deeplearning",
+      "inference",
+      "llm",
+      "mobile"
+    ],
+    "updated_at": "2026-04-23T17:53:36Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "baichuan-inc/baichuan-7b",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "facebookresearch/llama",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "thudm/chatglm-6b",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "thudm/chatglm2-6b",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[\u4e2d\u6587 README](./README_Chinese.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deeplearning"
+    },
+    {
+      "context_snippet": "[\u4e2d\u6587 README](./README_Chinese.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "inference"
+    },
+    {
+      "context_snippet": "[\u4e2d\u6587 README](./README_Chinese.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mobile"
+    }
+  ]
+}

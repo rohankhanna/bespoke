@@ -1,0 +1,89 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/meeting_notes.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/meeting_notes.yml",
+      "source_repo": "CVEProject/automation-working-group",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/meeting_notes.yml",
+      "source_repo": "CVEProject/automation-working-group",
+      "target": "Meeting Notes",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CVEProject/automation-working-group",
+      "target": "automation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CVEProject/automation-working-group",
+      "target": "security",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T13:01:34.860905+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1493
+    },
+    {
+      "path": ".github/workflows/meeting_notes.yml",
+      "size": 1035
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "CVE Automation Working Group",
+    "fork": false,
+    "full_name": "CVEProject/automation-working-group",
+    "html_url": "https://github.com/CVEProject/automation-working-group",
+    "language": null,
+    "pushed_at": "2026-04-22T00:07:51Z",
+    "stargazers_count": 184,
+    "topics": [
+      "automation",
+      "cve",
+      "security"
+    ],
+    "updated_at": "2026-04-23T05:30:31Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Meeting Notes",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/meeting_notes.yml",
+      "term": "Meeting Notes"
+    },
+    {
+      "context_snippet": "The Automation Working Group seeks to leverage automation technologies to reduce the workload related to reporting and managing vulnerabilities with an open data model. In this repository you will find mostly \"logistics\" related to the execution of the AWG objectives, specifical\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "automation"
+    },
+    {
+      "context_snippet": "The Automation Working Group seeks to leverage automation technologies to reduce the workload related to reporting and managing vulnerabilities with an open data model. In this repository you will find mostly \"logistics\" related to the execution of the AWG objectives, specifical\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "security"
+    }
+  ]
+}

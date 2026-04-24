@@ -56,6 +56,18 @@
       "source_repo": "ByteNess/aws-vault",
       "status": "candidate-context",
       "text": "PR checks"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "allenai/open-instruct",
+      "status": "candidate-context",
+      "text": "AllenAI's post-training codebase"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "allenai/open-instruct",
+      "status": "candidate-context",
+      "text": "PR Checks"
     }
   ],
   "candidate_glosses": [
@@ -82,6 +94,12 @@
       "source_repo": "ByteNess/aws-vault",
       "status": "candidate",
       "text": "PR checks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "allenai/open-instruct",
+      "status": "candidate",
+      "text": "PR Checks"
     }
   ],
   "candidate_related_terms": [
@@ -161,11 +179,17 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": ".github/workflows/pr.yaml",
       "source_repo": "ByteNess/aws-vault"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/pr_checks.yml",
+      "source_repo": "allenai/open-instruct"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -68,6 +68,30 @@
       "source_repo": "microsoft/TextWorld",
       "status": "candidate-context",
       "text": "Build and upload to PyPI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alex-petrenko/faster-fifo",
+      "status": "candidate-context",
+      "text": "Faster alternative to Python's multiprocessing.Queue (IPC FIFO queue)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alex-petrenko/faster-fifo",
+      "status": "candidate-context",
+      "text": "Build and upload to PyPI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "scverse/rapids-singlecell",
+      "status": "candidate-context",
+      "text": "rapids-singlecell: GPU-accelerated framework for scRNA analysis"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "scverse/rapids-singlecell",
+      "status": "candidate-context",
+      "text": "Build and upload to PyPI"
     }
   ],
   "candidate_glosses": [
@@ -98,6 +122,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "microsoft/TextWorld",
+      "status": "candidate",
+      "text": "Build and upload to PyPI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alex-petrenko/faster-fifo",
+      "status": "candidate",
+      "text": "Build and upload to PyPI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "scverse/rapids-singlecell",
       "status": "candidate",
       "text": "Build and upload to PyPI"
     }
@@ -173,11 +209,23 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": ".github/workflows/release.yml",
       "source_repo": "microsoft/TextWorld"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/python-publish.yml",
+      "source_repo": "alex-petrenko/faster-fifo"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "scverse/rapids-singlecell"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "lexical_providers": [
     "datamuse"
   ],

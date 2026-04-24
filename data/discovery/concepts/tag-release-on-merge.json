@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Tag release on merge"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "openai/openai-agents-python",
+      "status": "candidate-context",
+      "text": "A lightweight, powerful framework for multi-agent workflows"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openai/openai-agents-python",
+      "status": "candidate-context",
+      "text": "Tag release on merge"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openai/openai-agents-python",
+      "status": "candidate",
+      "text": "Tag release on merge"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19011,
+      "status": "candidate",
+      "text": "meld"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18961,
+      "status": "candidate",
+      "text": "melding"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18800,
+      "status": "candidate",
+      "text": "tagging"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18800,
+      "status": "candidate",
+      "text": "ticket"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18645,
+      "status": "candidate",
+      "text": "break"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Tag release on merge",
+  "concept_id": "tag-release-on-merge",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/release-tag.yml",
+      "source_repo": "openai/openai-agents-python"
+    }
+  ],
+  "first_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Tag release on merge",
+      "sense_id": "tag-release-on-merge#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-24T13:04:37.796598+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2909
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "benwmills/core-sass-compiler",
+    "html_url": "https://github.com/benwmills/core-sass-compiler",
+    "language": "C#",
+    "pushed_at": "2022-08-23T11:58:19Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2022-07-05T13:05:37Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -139,6 +139,30 @@
       "source_repo": "kubecfg/kubecfg",
       "status": "candidate-context",
       "text": "[![Go Report Card](https://goreportcard.com/badge/github.com/kubecfg/kubecfg)](https://goreportcard.com/report/github.com/kubecfg/kubecfg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "octodns/octodns",
+      "status": "candidate-context",
+      "text": "Tools for managing DNS across multiple providers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "octodns/octodns",
+      "status": "candidate-context",
+      "text": "<img src=\"https://raw.githubusercontent.com/octodns/octodns/main/docs/assets/octodns-logo.png?\" alt=\"octoDNS Logo\" height=251 width=404>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "StackExchange/dnscontrol",
+      "status": "candidate-context",
+      "text": "Infrastructure as code for DNS!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "StackExchange/dnscontrol",
+      "status": "candidate-context",
+      "text": "[![StackExchange/dnscontrol/build](https://github.com/StackExchange/dnscontrol/actions/workflows/pr_build.yml/badge.svg)](https://github.com/StackExchange/dnscontrol/actions/workflows/pr_build.yml)"
     }
   ],
   "candidate_glosses": [
@@ -207,6 +231,18 @@
       "source_repo": "kubecfg/kubecfg",
       "status": "candidate",
       "text": "[![Go Report Card](https://goreportcard.com/badge/github.com/kubecfg/kubecfg)](https://goreportcard.com/report/github.com/kubecfg/kubecfg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "octodns/octodns",
+      "status": "candidate",
+      "text": "<img src=\"https://raw.githubusercontent.com/octodns/octodns/main/docs/assets/octodns-logo.png?\" alt=\"octoDNS Logo\" height=251 width=404>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "StackExchange/dnscontrol",
+      "status": "candidate",
+      "text": "[![StackExchange/dnscontrol/build](https://github.com/StackExchange/dnscontrol/actions/workflows/pr_build.yml/badge.svg)](https://github.com/StackExchange/dnscontrol/actions/workflows/pr_build.yml)"
     }
   ],
   "candidate_related_terms": [],
@@ -286,11 +322,23 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "kubecfg/kubecfg"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "octodns/octodns"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "StackExchange/dnscontrol"
     }
   ],
   "first_seen_at": "2026-04-22T04:41:58.081535+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "lexical_providers": [
     "datamuse"
   ],

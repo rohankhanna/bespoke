@@ -151,6 +151,18 @@
       "source_repo": "ipfs/js-ipfs",
       "status": "candidate-context",
       "text": "> # \u26d4\ufe0f DEPRECATED: [js-IPFS](https://github.com/ipfs/js-ipfs) has been superseded by [Helia](https://github.com/ipfs/helia)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "2color/auspinner",
+      "status": "candidate-context",
+      "text": "Stateless CLI tool to easily pin CAR files to IPFS pinning services. Client for the IPFS Pinning Service API that speaks HTTP and Bitswap."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "2color/auspinner",
+      "status": "candidate-context",
+      "text": "![auspinner logo](./logo.png)"
     }
   ],
   "candidate_glosses": [
@@ -225,6 +237,12 @@
       "source_repo": "ipfs/js-ipfs",
       "status": "candidate",
       "text": "> # \u26d4\ufe0f DEPRECATED: [js-IPFS](https://github.com/ipfs/js-ipfs) has been superseded by [Helia](https://github.com/ipfs/helia)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "2color/auspinner",
+      "status": "candidate",
+      "text": "![auspinner logo](./logo.png)"
     }
   ],
   "candidate_related_terms": [],
@@ -328,11 +346,17 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "mudler/LocalAI"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "2color/auspinner"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "lexical_providers": [
     "datamuse"
   ],

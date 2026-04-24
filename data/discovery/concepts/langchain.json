@@ -247,6 +247,30 @@
       "source_repo": "FlowiseAI/Flowise",
       "status": "candidate-context",
       "text": "<!-- markdownlint-disable MD030 -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "OpenGVLab/Ask-Anything",
+      "status": "candidate-context",
+      "text": "[CVPR2024 Highlight][VideoChatGPT] ChatGPT with video understanding! And many more supported LMs such as miniGPT4, StableLM, and MOSS."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenGVLab/Ask-Anything",
+      "status": "candidate-context",
+      "text": "[![Open in OpenXLab](https://cdn-static.openxlab.org.cn/app-center/openxlab_app.svg)](https://openxlab.org.cn/apps/detail/yinanhe/VideoChat2) |"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Atome-FE/llama-node",
+      "status": "candidate-context",
+      "text": "Believe in AI democratization. llama for nodejs backed by llama-rs, llama.cpp and rwkv.cpp, work locally on your laptop CPU. support llama/alpaca/gpt4all/vicuna/rwkv model."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Atome-FE/llama-node",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -369,6 +393,18 @@
       "source_repo": "FlowiseAI/Flowise",
       "status": "candidate",
       "text": "<!-- markdownlint-disable MD030 -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenGVLab/Ask-Anything",
+      "status": "candidate",
+      "text": "[![Open in OpenXLab](https://cdn-static.openxlab.org.cn/app-center/openxlab_app.svg)](https://openxlab.org.cn/apps/detail/yinanhe/VideoChat2) |"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Atome-FE/llama-node",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -598,11 +634,35 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "meta-llama/llama-cookbook"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "OpenGVLab/Ask-Anything"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "chatchat-space/Langchain-Chatchat"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "Atome-FE/llama-node"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "lobehub/lobe-cli-toolbox"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "lexical_providers": [
     "datamuse"
   ],

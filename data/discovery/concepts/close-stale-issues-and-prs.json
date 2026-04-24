@@ -567,6 +567,18 @@
       "source_repo": "be5invis/Iosevka",
       "status": "candidate-context",
       "text": "'Close stale issues and PRs'"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "octodns/octodns",
+      "status": "candidate-context",
+      "text": "Tools for managing DNS across multiple providers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "octodns/octodns",
+      "status": "candidate-context",
+      "text": "'Close stale issues and PRs'"
     }
   ],
   "candidate_glosses": [
@@ -843,6 +855,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "be5invis/Iosevka",
+      "status": "candidate",
+      "text": "'Close stale issues and PRs'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "octodns/octodns",
       "status": "candidate",
       "text": "'Close stale issues and PRs'"
     }
@@ -1206,11 +1224,23 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": ".github/workflows/stale.yml",
       "source_repo": "be5invis/Iosevka"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "octodns/octodns"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/close-stale.yml",
+      "source_repo": "jestjs/jest"
     }
   ],
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "ONNX Optimizer"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "cmake Build and Test"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "cmake Build and Test"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11684,
+      "status": "candidate",
+      "text": "form"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11684,
+      "status": "candidate",
+      "text": "kludge"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11684,
+      "status": "candidate",
+      "text": "pose"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11684,
+      "status": "candidate",
+      "text": "raise"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11612,
+      "status": "candidate",
+      "text": "rugged"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "cmake Build and Test",
+      "sense_id": "cmake-build-and-test#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "cmake-build-and-test",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "cmake-build-and-test",
+  "observation_id": "96ad53ef1bd3aac6",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-24T12:33:41.350224+00:00",
+  "observed_text": "cmake Build and Test",
+  "source_context_snippet": "cmake Build and Test",
+  "source_file": ".github/workflows/cxx.yml",
+  "source_repo": "onnx/optimizer",
+  "source_repo_description": "ONNX Optimizer"
+}

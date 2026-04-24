@@ -1,0 +1,565 @@
+{
+  "components": [
+    {
+      "component": "big-integer",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "bignumber.js",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "blakejs",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "bs58check",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "jsonpath-plus",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "moo",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "nearley",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/chai",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/chai-as-promised",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/mocha",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/nock",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/node",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/node-fetch",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@typescript-eslint/parser",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "chai",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "chai-as-promised",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "conseiljs-softsigner",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "copyfiles",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "coveralls",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "glob",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "loglevel",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "mocha",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "nock",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "node-fetch",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "nyc",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "terser-webpack-plugin",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "ts-loader",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "ts-node",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "tsconfig-paths-webpack-plugin",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "typescript",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "webpack",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "webpack-cli",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/node.js.yml"
+    },
+    {
+      "component": "actions/setup-node@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/node.js.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Cryptonomic/ConseilJS",
+      "target": "cryptonomic/conseiljs-reasonml-bindings",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Cryptonomic/ConseilJS",
+      "target": "cryptonomic/conseiljs-softsigner",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Cryptonomic/ConseilJS",
+      "target": "cryptonomic/conseiljs-ledgersigner",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Cryptonomic/ConseilJS",
+      "target": "cryptonomic/conseiljs-html-example",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "Cryptonomic/ConseilJS",
+      "target": "big-integer",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "Cryptonomic/ConseilJS",
+      "target": "bignumber.js",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "Cryptonomic/ConseilJS",
+      "target": "blakejs",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "Cryptonomic/ConseilJS",
+      "target": "bs58check",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "Cryptonomic/ConseilJS",
+      "target": "jsonpath-plus",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "Cryptonomic/ConseilJS",
+      "target": "moo",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "Cryptonomic/ConseilJS",
+      "target": "nearley",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Cryptonomic/ConseilJS",
+      "target": "@types/chai",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Cryptonomic/ConseilJS",
+      "target": "@types/chai-as-promised",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Cryptonomic/ConseilJS",
+      "target": "@types/mocha",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Cryptonomic/ConseilJS",
+      "target": "@types/nock",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Cryptonomic/ConseilJS",
+      "target": "@types/node",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Cryptonomic/ConseilJS",
+      "target": "@types/node-fetch",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Cryptonomic/ConseilJS",
+      "target": "@typescript-eslint/parser",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Cryptonomic/ConseilJS",
+      "target": "chai",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Cryptonomic/ConseilJS",
+      "target": "chai-as-promised",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Cryptonomic/ConseilJS",
+      "target": "conseiljs-softsigner",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Cryptonomic/ConseilJS",
+      "target": "copyfiles",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Cryptonomic/ConseilJS",
+      "target": "coveralls",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Cryptonomic/ConseilJS",
+      "target": "eslint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Cryptonomic/ConseilJS",
+      "target": "glob",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Cryptonomic/ConseilJS",
+      "target": "loglevel",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Cryptonomic/ConseilJS",
+      "target": "mocha",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Cryptonomic/ConseilJS",
+      "target": "nock",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Cryptonomic/ConseilJS",
+      "target": "node-fetch",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Cryptonomic/ConseilJS",
+      "target": "nyc",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Cryptonomic/ConseilJS",
+      "target": "terser-webpack-plugin",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Cryptonomic/ConseilJS",
+      "target": "ts-loader",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Cryptonomic/ConseilJS",
+      "target": "ts-node",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Cryptonomic/ConseilJS",
+      "target": "tsconfig-paths-webpack-plugin",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Cryptonomic/ConseilJS",
+      "target": "typescript",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Cryptonomic/ConseilJS",
+      "target": "webpack",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Cryptonomic/ConseilJS",
+      "target": "webpack-cli",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/node.js.yml",
+      "source_repo": "Cryptonomic/ConseilJS",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/node.js.yml",
+      "source_repo": "Cryptonomic/ConseilJS",
+      "target": "actions/setup-node@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/node.js.yml",
+      "source_repo": "Cryptonomic/ConseilJS",
+      "target": "Node.js CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Cryptonomic/ConseilJS",
+      "target": "blockchains",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Cryptonomic/ConseilJS",
+      "target": "decentralized-applications",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Cryptonomic/ConseilJS",
+      "target": "tezos",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T12:57:23.702356+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6477
+    },
+    {
+      "path": "package.json",
+      "size": 4441
+    },
+    {
+      "path": ".github/workflows/node.js.yml",
+      "size": 732
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Client-side library for building decentralized applications.",
+    "fork": false,
+    "full_name": "Cryptonomic/ConseilJS",
+    "html_url": "https://github.com/Cryptonomic/ConseilJS",
+    "language": "TypeScript",
+    "pushed_at": "2024-08-28T17:55:22Z",
+    "stargazers_count": 111,
+    "topics": [
+      "blockchains",
+      "decentralized-applications",
+      "javascript",
+      "tezos",
+      "typescript"
+    ],
+    "updated_at": "2024-11-01T06:55:20Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cryptonomic/conseiljs-html-example",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cryptonomic/conseiljs-ledgersigner",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cryptonomic/conseiljs-reasonml-bindings",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cryptonomic/conseiljs-softsigner",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Node.js CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/node.js.yml",
+      "term": "Node.js CI"
+    },
+    {
+      "context_snippet": "Note: As of January 2023, ConseilJS is maintained on a best effort basis for Tezos: https://discourse.cryptonomic.tech/t/psa-conseil-conseiljs-will-now-be-maintained-on-a-best-effort-basis-for-tezos/235/2",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "blockchains"
+    },
+    {
+      "context_snippet": "Note: As of January 2023, ConseilJS is maintained on a best effort basis for Tezos: https://discourse.cryptonomic.tech/t/psa-conseil-conseiljs-will-now-be-maintained-on-a-best-effort-basis-for-tezos/235/2",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "decentralized-applications"
+    },
+    {
+      "context_snippet": "Note: As of January 2023, ConseilJS is maintained on a best effort basis for Tezos: https://discourse.cryptonomic.tech/t/psa-conseil-conseiljs-will-now-be-maintained-on-a-best-effort-basis-for-tezos/235/2",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tezos"
+    }
+  ]
+}

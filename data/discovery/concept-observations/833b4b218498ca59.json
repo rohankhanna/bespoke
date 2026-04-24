@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "An extended commonmark compliant parser, with bridges to docutils/sphinx"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![Github-CI][github-ci]][github-link]"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![Github-CI][github-ci]][github-link]"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20002033,
+      "status": "candidate",
+      "text": "moth"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19924195,
+      "status": "candidate",
+      "text": "andro"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10035133,
+      "status": "candidate",
+      "text": "mandrillus"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10035133,
+      "status": "candidate",
+      "text": "moths"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10035132,
+      "status": "candidate",
+      "text": "hieracosphinx"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "sphinx",
+      "sense_id": "sphinx#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "sphinx",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "sphinx",
+  "observation_id": "833b4b218498ca59",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T12:33:41.350224+00:00",
+  "observed_text": "sphinx",
+  "source_context_snippet": "[![Github-CI][github-ci]][github-link]",
+  "source_file": null,
+  "source_repo": "executablebooks/MyST-Parser",
+  "source_repo_description": "An extended commonmark compliant parser, with bridges to docutils/sphinx"
+}

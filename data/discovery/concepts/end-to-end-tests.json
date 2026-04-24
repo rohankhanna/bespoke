@@ -71,6 +71,18 @@
       "source_repo": "NVIDIA/nvidia-container-toolkit",
       "status": "candidate-context",
       "text": "End-to-end Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "SemiAnalysisAI/InferenceX",
+      "status": "candidate-context",
+      "text": "Open Source Continuous Inference Benchmarking Qwen3.5, DeepSeek, GPTOSS - GB200 NVL72 vs MI355X vs B200 vs GB300 NVL72 vs H100 & soon\u2122 TPUv6e/v7/Trainium2/3"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SemiAnalysisAI/InferenceX",
+      "status": "candidate-context",
+      "text": "End-to-End Tests"
     }
   ],
   "candidate_glosses": [
@@ -103,6 +115,12 @@
       "source_repo": "NVIDIA/nvidia-container-toolkit",
       "status": "candidate",
       "text": "End-to-end Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SemiAnalysisAI/InferenceX",
+      "status": "candidate",
+      "text": "End-to-End Tests"
     }
   ],
   "candidate_related_terms": [
@@ -223,11 +241,23 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": ".github/workflows/e2e-tests.yml",
       "source_repo": "OpenHands/OpenHands"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/e2e-tests.yml",
+      "source_repo": "OpenHands/OpenHands"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/e2e-tests.yml",
+      "source_repo": "SemiAnalysisAI/InferenceX"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "lexical_providers": [
     "datamuse"
   ],

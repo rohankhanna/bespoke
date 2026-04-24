@@ -1,0 +1,177 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check.yml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check.yml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check.yml",
+      "source_repo": "zen-eth/multiformats-zig",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check.yml",
+      "source_repo": "zen-eth/multiformats-zig",
+      "target": "actions/cache@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check.yml",
+      "source_repo": "zen-eth/multiformats-zig",
+      "target": "Build and Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zen-eth/multiformats-zig",
+      "target": "multiaddr",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zen-eth/multiformats-zig",
+      "target": "multiaddress",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zen-eth/multiformats-zig",
+      "target": "multibase",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zen-eth/multiformats-zig",
+      "target": "multicodec",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zen-eth/multiformats-zig",
+      "target": "multiformats",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zen-eth/multiformats-zig",
+      "target": "multihash",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zen-eth/multiformats-zig",
+      "target": "zig-package",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T13:00:37.788613+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1037
+    },
+    {
+      "path": ".github/workflows/check.yml",
+      "size": 1301
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Zig implementation of the multiformats https://github.com/multiformats/multiformats.",
+    "fork": false,
+    "full_name": "zen-eth/multiformats-zig",
+    "html_url": "https://github.com/zen-eth/multiformats-zig",
+    "language": "Zig",
+    "pushed_at": "2026-02-09T08:37:12Z",
+    "stargazers_count": 8,
+    "topics": [
+      "cid",
+      "multiaddr",
+      "multiaddress",
+      "multibase",
+      "multicodec",
+      "multiformats",
+      "multihash",
+      "zig",
+      "zig-package"
+    ],
+    "updated_at": "2026-02-09T08:37:16Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Build and Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check.yml",
+      "term": "Build and Test"
+    },
+    {
+      "context_snippet": "[![build](https://github.com/zen-eth/multiformats-zig/actions/workflows/check.yml/badge.svg?branch=main)](https://github.com/zen-eth/multiformats-zig/actions/workflows/check.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multiaddr"
+    },
+    {
+      "context_snippet": "[![build](https://github.com/zen-eth/multiformats-zig/actions/workflows/check.yml/badge.svg?branch=main)](https://github.com/zen-eth/multiformats-zig/actions/workflows/check.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multiaddress"
+    },
+    {
+      "context_snippet": "[![build](https://github.com/zen-eth/multiformats-zig/actions/workflows/check.yml/badge.svg?branch=main)](https://github.com/zen-eth/multiformats-zig/actions/workflows/check.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multibase"
+    },
+    {
+      "context_snippet": "[![build](https://github.com/zen-eth/multiformats-zig/actions/workflows/check.yml/badge.svg?branch=main)](https://github.com/zen-eth/multiformats-zig/actions/workflows/check.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multicodec"
+    },
+    {
+      "context_snippet": "[![build](https://github.com/zen-eth/multiformats-zig/actions/workflows/check.yml/badge.svg?branch=main)](https://github.com/zen-eth/multiformats-zig/actions/workflows/check.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multiformats"
+    },
+    {
+      "context_snippet": "[![build](https://github.com/zen-eth/multiformats-zig/actions/workflows/check.yml/badge.svg?branch=main)](https://github.com/zen-eth/multiformats-zig/actions/workflows/check.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multihash"
+    },
+    {
+      "context_snippet": "[![build](https://github.com/zen-eth/multiformats-zig/actions/workflows/check.yml/badge.svg?branch=main)](https://github.com/zen-eth/multiformats-zig/actions/workflows/check.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "zig-package"
+    }
+  ]
+}

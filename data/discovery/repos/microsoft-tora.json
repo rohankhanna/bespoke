@@ -1,0 +1,87 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/ToRA",
+      "target": "autonomous-agents",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/ToRA",
+      "target": "language-model",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/ToRA",
+      "target": "mathematical-reasoning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/ToRA",
+      "target": "tool-learning",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T12:45:58.871726+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8555
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "ToRA is a series of Tool-integrated Reasoning LLM Agents designed to solve challenging mathematical reasoning problems by interacting with tools [ICLR'24].",
+    "fork": false,
+    "full_name": "microsoft/ToRA",
+    "html_url": "https://github.com/microsoft/ToRA",
+    "language": "Python",
+    "pushed_at": "2024-02-22T09:46:48Z",
+    "stargazers_count": 1116,
+    "topics": [
+      "autonomous-agents",
+      "language-model",
+      "llm",
+      "mathematical-reasoning",
+      "tool-learning"
+    ],
+    "updated_at": "2026-04-21T14:04:41Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "<h1 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "autonomous-agents"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "language-model"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mathematical-reasoning"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tool-learning"
+    }
+  ]
+}

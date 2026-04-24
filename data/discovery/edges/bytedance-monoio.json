@@ -1,0 +1,125 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bytedance/monoio",
+      "target": "monoio-rs/local-sync",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bytedance/monoio",
+      "target": "monoio-rs/monoio-tls",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bytedance/monoio",
+      "target": "monoio-rs/monoio-codec",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cargo-deny.yml",
+      "source_repo": "bytedance/monoio",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cargo-deny.yml",
+      "source_repo": "bytedance/monoio",
+      "target": "EmbarkStudios/cargo-deny-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cargo-deny.yml",
+      "source_repo": "bytedance/monoio",
+      "target": "Cargo-deny Check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "bytedance/monoio",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "bytedance/monoio",
+      "target": "actions-rs/toolchain@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "bytedance/monoio",
+      "target": "Swatinem/rust-cache@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "bytedance/monoio",
+      "target": "actions-rs/cargo@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "bytedance/monoio",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "bytedance/monoio",
+      "target": "actions-rs/toolchain@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "bytedance/monoio",
+      "target": "taiki-e/install-action@cargo-llvm-cov",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "bytedance/monoio",
+      "target": "Code Coverage",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-audit.yml",
+      "source_repo": "bytedance/monoio",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-audit.yml",
+      "source_repo": "bytedance/monoio",
+      "target": "actions-rs/cargo@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-audit.yml",
+      "source_repo": "bytedance/monoio",
+      "target": "Pull Request Security Audit",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-24T12:33:41.350224+00:00",
+  "source_repo": "bytedance/monoio"
+}

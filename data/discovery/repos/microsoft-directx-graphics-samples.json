@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "microsoft/DirectX-Graphics-Samples",
+      "target": "microsoft/directxtk12",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-24T13:02:58.357940+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6584
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "This repo contains the DirectX Graphics samples that demonstrate how to build graphics intensive applications on Windows.",
+    "fork": false,
+    "full_name": "microsoft/DirectX-Graphics-Samples",
+    "html_url": "https://github.com/microsoft/DirectX-Graphics-Samples",
+    "language": "C++",
+    "pushed_at": "2026-04-10T19:40:11Z",
+    "stargazers_count": 6722,
+    "topics": [],
+    "updated_at": "2026-04-24T07:08:50Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "microsoft/directxtk12",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

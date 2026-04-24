@@ -36,20 +36,6 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "tc39/proposal-source-phase-imports",
-      "target": "webassembly/module-linking",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "tc39/proposal-source-phase-imports",
-      "target": "tc39/proposal-module-expressions",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
       "source_file": "package.json",
       "source_repo": "tc39/proposal-source-phase-imports",
       "target": "tc39/proposal-import-reflection",
@@ -112,7 +98,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-24T07:06:19.392587+00:00",
+  "fetched_at": "2026-04-24T13:04:54.609843+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -149,16 +135,6 @@
     {
       "edge_type": "explicit-github-link",
       "full_name": "tc39/proposal-asset-references",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "tc39/proposal-module-expressions",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "webassembly/module-linking",
       "source_file": "README.md"
     },
     {

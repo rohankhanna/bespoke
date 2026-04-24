@@ -1,0 +1,147 @@
+{
+  "components": [
+    {
+      "component": "@babel/cli",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@babel/core",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@babel/preset-env",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@babel/register",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint-config-google",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "mocha",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-on-tag.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "GoogleChromeLabs/babel-plugin-transform-jsbi-to-bigint",
+      "target": "@babel/cli",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "GoogleChromeLabs/babel-plugin-transform-jsbi-to-bigint",
+      "target": "@babel/core",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "GoogleChromeLabs/babel-plugin-transform-jsbi-to-bigint",
+      "target": "@babel/preset-env",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "GoogleChromeLabs/babel-plugin-transform-jsbi-to-bigint",
+      "target": "@babel/register",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "GoogleChromeLabs/babel-plugin-transform-jsbi-to-bigint",
+      "target": "eslint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "GoogleChromeLabs/babel-plugin-transform-jsbi-to-bigint",
+      "target": "eslint-config-google",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "GoogleChromeLabs/babel-plugin-transform-jsbi-to-bigint",
+      "target": "mocha",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-on-tag.yml",
+      "source_repo": "GoogleChromeLabs/babel-plugin-transform-jsbi-to-bigint",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-on-tag.yml",
+      "source_repo": "GoogleChromeLabs/babel-plugin-transform-jsbi-to-bigint",
+      "target": "publish-on-tag",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T13:04:10.629701+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2590
+    },
+    {
+      "path": "package.json",
+      "size": 1174
+    },
+    {
+      "path": ".github/workflows/publish-on-tag.yml",
+      "size": 598
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Compile JSBI code that works in today\u2019s environments to native BigInt code.",
+    "fork": false,
+    "full_name": "GoogleChromeLabs/babel-plugin-transform-jsbi-to-bigint",
+    "html_url": "https://github.com/GoogleChromeLabs/babel-plugin-transform-jsbi-to-bigint",
+    "language": "JavaScript",
+    "pushed_at": "2025-03-31T09:17:55Z",
+    "stargazers_count": 44,
+    "topics": [],
+    "updated_at": "2025-11-20T17:18:52Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "publish-on-tag",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-on-tag.yml",
+      "term": "publish-on-tag"
+    }
+  ]
+}

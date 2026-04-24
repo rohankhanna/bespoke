@@ -1,0 +1,22 @@
+{
+  "first_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/run-tck.yml",
+      "source_repo": "a2aproject/a2a-java"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/run-tck.yaml",
+      "source_repo": "a2aproject/a2a-js"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/run-tck.yaml",
+      "source_repo": "a2aproject/a2a-python"
+    }
+  ],
+  "term": "Run TCK"
+}

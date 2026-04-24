@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Build Portable Linux Artifacts"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ROCm/TheRock",
+      "status": "candidate-context",
+      "text": "The HIP Environment and ROCm Kit - A lightweight open source build system for HIP and ROCm"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ROCm/TheRock",
+      "status": "candidate-context",
+      "text": "Build Portable Linux Artifacts"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ROCm/TheRock",
+      "status": "candidate",
+      "text": "Build Portable Linux Artifacts"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17733,
+      "status": "candidate",
+      "text": "frame"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17708,
+      "status": "candidate",
+      "text": "throw"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17698,
+      "status": "candidate",
+      "text": "jack"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17698,
+      "status": "candidate",
+      "text": "jacked"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17698,
+      "status": "candidate",
+      "text": "jacking"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Build Portable Linux Artifacts",
+  "concept_id": "build-portable-linux-artifacts",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/build_portable_linux_artifacts.yml",
+      "source_repo": "ROCm/TheRock"
+    }
+  ],
+  "first_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build Portable Linux Artifacts",
+      "sense_id": "build-portable-linux-artifacts#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Stakeholder-Specific Vulnerability Categorization"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![Link Checker](https://github.com/CERTCC/SSVC/actions/workflows/link_checker.yml/badge.svg?branch=main)](https://github.com/CERTCC/SSVC/actions/workflows/link_checker.yml)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![Link Checker](https://github.com/CERTCC/SSVC/actions/workflows/link_checker.yml/badge.svg?branch=main)](https://github.com/CERTCC/SSVC/actions/workflows/link_checker.yml)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "vulnerability-management",
+      "sense_id": "vulnerability-management#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "vulnerability-management",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "vulnerability-management",
+  "observation_id": "862280ad51f0a242",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T12:33:41.350224+00:00",
+  "observed_text": "vulnerability-management",
+  "source_context_snippet": "[![Link Checker](https://github.com/CERTCC/SSVC/actions/workflows/link_checker.yml/badge.svg?branch=main)](https://github.com/CERTCC/SSVC/actions/workflows/link_checker.yml)",
+  "source_file": null,
+  "source_repo": "CERTCC/SSVC",
+  "source_repo_description": "Stakeholder-Specific Vulnerability Categorization"
+}

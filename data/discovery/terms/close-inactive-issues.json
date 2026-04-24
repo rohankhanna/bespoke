@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -166,6 +166,11 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/close-issue.yml",
       "source_repo": "eosphoros-ai/DB-GPT"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/issues.yml",
+      "source_repo": "openai/openai-agents-python"
     }
   ],
   "term": "Close inactive issues"

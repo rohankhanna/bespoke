@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "AMD's graph optimization engine."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "MiGraphX Benchmark"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "MiGraphX Benchmark"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "background"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "base"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "baseline"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "baselines"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "benchmarking"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "MiGraphX Benchmark",
+      "sense_id": "migraphx-benchmark#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "migraphx-benchmark",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "migraphx-benchmark",
+  "observation_id": "c9bc7508b3ca531b",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-24T12:33:41.350224+00:00",
+  "observed_text": "MiGraphX Benchmark",
+  "source_context_snippet": "MiGraphX Benchmark",
+  "source_file": ".github/workflows/benchmark.yaml",
+  "source_repo": "ROCm/AMDMIGraphX",
+  "source_repo_description": "AMD's graph optimization engine."
+}

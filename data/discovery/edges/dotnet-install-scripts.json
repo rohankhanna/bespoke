@@ -1,0 +1,20 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labeler.yml",
+      "source_repo": "dotnet/install-scripts",
+      "target": "github/issue-labeler@v3.4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/labeler.yml",
+      "source_repo": "dotnet/install-scripts",
+      "target": "Issue Labeler",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-24T12:33:41.350224+00:00",
+  "source_repo": "dotnet/install-scripts"
+}

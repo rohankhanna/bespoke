@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "codenotify"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "prestodb/presto",
+      "status": "candidate-context",
+      "text": "The official home of the Presto distributed SQL query engine for big data"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "prestodb/presto",
+      "status": "candidate-context",
+      "text": "codenotify"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "prestodb/presto",
+      "status": "candidate",
+      "text": "codenotify"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "codenotify",
+  "concept_id": "codenotify",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/codenotify.yml",
+      "source_repo": "prestodb/presto"
+    }
+  ],
+  "first_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "codenotify",
+      "sense_id": "codenotify#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

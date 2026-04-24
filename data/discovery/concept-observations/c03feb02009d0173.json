@@ -48,7 +48,7 @@
   "normalized_form": "zplug",
   "observation_id": "c03feb02009d0173",
   "observation_kind": "repo-topic",
-  "observed_at": "2026-04-23T04:27:42.433064+00:00",
+  "observed_at": "2026-04-24T12:33:41.350224+00:00",
   "observed_text": "zplug",
   "source_context_snippet": "A next-generation plugin manager for zsh. zplug can manage plugins, commands, and themes from GitHub, Bitbucket, Gist, oh-my-zsh, prezto, local directories, and more \u2014 all with parallel installation, lazy loading, and branch/tag locking.",
   "source_file": null,

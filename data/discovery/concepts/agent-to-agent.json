@@ -7,8 +7,28 @@
     "tool-component",
     "capability"
   ],
-  "candidate_definitions": [],
-  "candidate_glosses": [],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "a2aproject/a2a-go",
+      "status": "candidate-context",
+      "text": "Golang SDK for A2A Protocol"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "a2aproject/a2a-go",
+      "status": "candidate-context",
+      "text": "[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "a2aproject/a2a-go",
+      "status": "candidate",
+      "text": "[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE)"
+    }
+  ],
   "candidate_related_terms": [],
   "candidate_synonyms": [],
   "canonical_name": "agent-to-agent",
@@ -20,12 +40,20 @@
       "observed_at": "2026-04-18T11:57:36.597358+00:00",
       "source_file": null,
       "source_repo": "danielrosehill/Agent-Junction"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "a2aproject/a2a-go"
     }
   ],
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-18T11:57:36.597358+00:00",
-  "lexical_providers": [],
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
   "lexical_status": "unresolved",
   "possible_senses": [
     {

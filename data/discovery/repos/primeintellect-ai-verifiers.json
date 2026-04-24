@@ -148,13 +148,6 @@
   ],
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "PrimeIntellect-ai/verifiers",
-      "target": "primeintellect-ai/prime-rl",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/publish-envs.yml",
       "source_repo": "PrimeIntellect-ai/verifiers",
@@ -316,7 +309,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-24T06:52:48.760543+00:00",
+  "fetched_at": "2026-04-24T12:36:03.921061+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -364,18 +357,12 @@
     "full_name": "PrimeIntellect-ai/verifiers",
     "html_url": "https://github.com/PrimeIntellect-ai/verifiers",
     "language": "Python",
-    "pushed_at": "2026-04-24T02:35:41Z",
-    "stargazers_count": 4043,
+    "pushed_at": "2026-04-24T12:08:37Z",
+    "stargazers_count": 4045,
     "topics": [],
-    "updated_at": "2026-04-24T06:13:55Z"
+    "updated_at": "2026-04-24T11:32:29Z"
   },
-  "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "primeintellect-ai/prime-rl",
-      "source_file": "README.md"
-    }
-  ],
+  "repo_links": [],
   "terms": [
     {
       "context_snippet": "Publish Envs",

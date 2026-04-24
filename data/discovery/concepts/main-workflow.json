@@ -79,6 +79,18 @@
       "source_repo": "karancode/asdf-aws-vault",
       "status": "candidate-context",
       "text": "Main workflow"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rejeep/ansi.el",
+      "status": "candidate-context",
+      "text": "Emacs library to convert strings into ansi"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rejeep/ansi.el",
+      "status": "candidate-context",
+      "text": "Main workflow"
     }
   ],
   "candidate_glosses": [
@@ -115,6 +127,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "karancode/asdf-aws-vault",
+      "status": "candidate",
+      "text": "Main workflow"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rejeep/ansi.el",
       "status": "candidate",
       "text": "Main workflow"
     }
@@ -196,11 +214,17 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": ".github/workflows/test.yaml",
       "source_repo": "karancode/asdf-aws-vault"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "rejeep/ansi.el"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "lexical_providers": [
     "datamuse"
   ],

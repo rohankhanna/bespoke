@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "This SDK is now deprecated, use the new unified Google GenAI SDK. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Remove issue labels"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Remove issue labels"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24611,
+      "status": "candidate",
+      "text": "tag"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24490,
+      "status": "candidate",
+      "text": "mark"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24490,
+      "status": "candidate",
+      "text": "tagging"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24220,
+      "status": "candidate",
+      "text": "postage"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23220,
+      "status": "candidate",
+      "text": "ins"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Remove issue labels",
+      "sense_id": "remove-issue-labels#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "remove-issue-labels",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "remove-issue-labels",
+  "observation_id": "411f434f2e510cac",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-24T12:33:41.350224+00:00",
+  "observed_text": "Remove issue labels",
+  "source_context_snippet": "Remove issue labels",
+  "source_file": ".github/workflows/remove-issue-labels.yml",
+  "source_repo": "google-gemini/deprecated-generative-ai-python",
+  "source_repo_description": "This SDK is now deprecated, use the new unified Google GenAI SDK. "
+}

@@ -1,0 +1,335 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "phodal/auto-dev",
+      "target": "jlumbroso/free-disk-space@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "phodal/auto-dev",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "phodal/auto-dev",
+      "target": "gradle/actions/wrapper-validation@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "phodal/auto-dev",
+      "target": "actions/setup-java@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "phodal/auto-dev",
+      "target": "gradle/actions/setup-gradle@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "phodal/auto-dev",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "phodal/auto-dev",
+      "target": "codecov/codecov-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "phodal/auto-dev",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "phodal/auto-dev",
+      "target": "Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/compose-release.yml",
+      "source_repo": "phodal/auto-dev",
+      "target": "jlumbroso/free-disk-space@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/compose-release.yml",
+      "source_repo": "phodal/auto-dev",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/compose-release.yml",
+      "source_repo": "phodal/auto-dev",
+      "target": "actions/setup-java@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/compose-release.yml",
+      "source_repo": "phodal/auto-dev",
+      "target": "gradle/actions/setup-gradle@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/compose-release.yml",
+      "source_repo": "phodal/auto-dev",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/compose-release.yml",
+      "source_repo": "phodal/auto-dev",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/compose-release.yml",
+      "source_repo": "phodal/auto-dev",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/compose-release.yml",
+      "source_repo": "phodal/auto-dev",
+      "target": "softprops/action-gh-release@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/compose-release.yml",
+      "source_repo": "phodal/auto-dev",
+      "target": "MPP Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-wasm.yml",
+      "source_repo": "phodal/auto-dev",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-wasm.yml",
+      "source_repo": "phodal/auto-dev",
+      "target": "gradle/actions/wrapper-validation@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-wasm.yml",
+      "source_repo": "phodal/auto-dev",
+      "target": "actions/setup-java@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-wasm.yml",
+      "source_repo": "phodal/auto-dev",
+      "target": "actions/upload-pages-artifact@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-wasm.yml",
+      "source_repo": "phodal/auto-dev",
+      "target": "actions/deploy-pages@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy-wasm.yml",
+      "source_repo": "phodal/auto-dev",
+      "target": "Deploy WASM to GitHub Pages",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-tests.yml",
+      "source_repo": "phodal/auto-dev",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-tests.yml",
+      "source_repo": "phodal/auto-dev",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-tests.yml",
+      "source_repo": "phodal/auto-dev",
+      "target": "actions/cache@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-tests.yml",
+      "source_repo": "phodal/auto-dev",
+      "target": "actions/setup-java@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-tests.yml",
+      "source_repo": "phodal/auto-dev",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-tests.yml",
+      "source_repo": "phodal/auto-dev",
+      "target": "actions/github-script@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/integration-tests.yml",
+      "source_repo": "phodal/auto-dev",
+      "target": "MPP Coding Agent Integration",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/kmp-test.yml",
+      "source_repo": "phodal/auto-dev",
+      "target": "jlumbroso/free-disk-space@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/kmp-test.yml",
+      "source_repo": "phodal/auto-dev",
+      "target": "android-actions/setup-android@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/kmp-test.yml",
+      "source_repo": "phodal/auto-dev",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/kmp-test.yml",
+      "source_repo": "phodal/auto-dev",
+      "target": "gradle/actions/wrapper-validation@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/kmp-test.yml",
+      "source_repo": "phodal/auto-dev",
+      "target": "actions/setup-java@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/kmp-test.yml",
+      "source_repo": "phodal/auto-dev",
+      "target": "gradle/actions/setup-gradle@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/kmp-test.yml",
+      "source_repo": "phodal/auto-dev",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/kmp-test.yml",
+      "source_repo": "phodal/auto-dev",
+      "target": "KMP Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "phodal/auto-dev",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "phodal/auto-dev",
+      "target": "actions/setup-java@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "phodal/auto-dev",
+      "target": "gradle/actions/setup-gradle@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "phodal/auto-dev",
+      "target": "Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "phodal/auto-dev",
+      "target": "aigc",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "phodal/auto-dev",
+      "target": "genai",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "phodal/auto-dev",
+      "target": "genaistack",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "phodal/auto-dev",
+      "target": "intellij",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-24T12:33:41.350224+00:00",
+  "source_repo": "phodal/auto-dev"
+}

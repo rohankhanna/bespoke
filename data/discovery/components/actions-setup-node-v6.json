@@ -1,7 +1,7 @@
 {
   "component": "actions/setup-node@v6",
   "first_seen_at": "2026-04-17T16:51:41.136432+00:00",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -2972,6 +2972,46 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/test.yml",
       "source_repo": "Level/supports"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pr_build_linux.yml",
+      "source_repo": "apache/datafusion-comet"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pr_check_git_status.yml",
+      "source_repo": "StackExchange/dnscontrol"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "decentralized-identity/did-jwt"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "decentralized-identity/did-jwt"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/benchmarks.yml",
+      "source_repo": "terser/html-minifier-terser"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/main.yaml",
+      "source_repo": "terser/html-minifier-terser"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pages.yml",
+      "source_repo": "terser/html-minifier-terser"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "terser/html-minifier-terser"
     }
   ]
 }

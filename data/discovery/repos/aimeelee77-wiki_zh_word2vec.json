@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-24T12:39:37.607085+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7101
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "\u5229\u7528Python\u6784\u5efaWiki\u4e2d\u6587\u8bed\u6599\u8bcd\u5411\u91cf\u6a21\u578b\u8bd5\u9a8c",
+    "fork": false,
+    "full_name": "AimeeLee77/wiki_zh_word2vec",
+    "html_url": "https://github.com/AimeeLee77/wiki_zh_word2vec",
+    "language": "Python",
+    "pushed_at": "2021-12-02T02:25:27Z",
+    "stargazers_count": 524,
+    "topics": [],
+    "updated_at": "2026-03-31T06:22:50Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

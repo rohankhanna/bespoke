@@ -1,7 +1,7 @@
 {
   "component": "coverallsapp/github-action@master",
   "first_seen_at": "2026-04-18T09:17:12.863479+00:00",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -137,6 +137,16 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/nodejs.yml",
       "source_repo": "kawanet/int64-buffer"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "rejeep/ansi.el"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "dryruby/json-canonicalization"
     }
   ]
 }

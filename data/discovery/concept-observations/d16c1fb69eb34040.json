@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\u7528\u4e8e\u5728 Docker \u91cc\u8fd0\u884c\u590d\u65e6\u7684 MOSS \u8bed\u8a00\u6a21\u578b\uff0c\u4f7f\u7528 GradIO \u63d0\u4f9b WebUI\u3002"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "https://hub.docker.com/repository/docker/linonetwo/moss/general"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "https://hub.docker.com/repository/docker/linonetwo/moss/general"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30028235,
+      "status": "candidate",
+      "text": "eelgrass"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30026869,
+      "status": "candidate",
+      "text": "sphagnum"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30019242,
+      "status": "candidate",
+      "text": "lichen"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29993289,
+      "status": "candidate",
+      "text": "turf"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29990048,
+      "status": "candidate",
+      "text": "fishes"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "moss",
+      "sense_id": "moss#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "moss",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "moss",
+  "observation_id": "d16c1fb69eb34040",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T12:33:41.350224+00:00",
+  "observed_text": "moss",
+  "source_context_snippet": "https://hub.docker.com/repository/docker/linonetwo/moss/general",
+  "source_file": null,
+  "source_repo": "linonetwo/MOSS-DockerFile",
+  "source_repo_description": "\u7528\u4e8e\u5728 Docker \u91cc\u8fd0\u884c\u590d\u65e6\u7684 MOSS \u8bed\u8a00\u6a21\u578b\uff0c\u4f7f\u7528 GradIO \u63d0\u4f9b WebUI\u3002"
+}

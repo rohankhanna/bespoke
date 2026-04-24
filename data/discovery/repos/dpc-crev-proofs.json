@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dpc/crev-proofs",
+      "target": "dpc/crev",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-24T13:01:16.314853+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 294
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Crev proof repository",
+    "fork": true,
+    "full_name": "dpc/crev-proofs",
+    "html_url": "https://github.com/dpc/crev-proofs",
+    "language": null,
+    "pushed_at": "2026-04-14T02:58:51Z",
+    "stargazers_count": 8,
+    "topics": [],
+    "updated_at": "2026-04-14T02:58:57Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dpc/crev",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

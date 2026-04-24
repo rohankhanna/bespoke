@@ -1,7 +1,7 @@
 {
   "component": "peaceiris/actions-gh-pages@v3",
   "first_seen_at": "2026-04-18T09:45:12.634395+00:00",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -327,6 +327,16 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/doxygen.yml",
       "source_repo": "mit-han-lab/TinyChatEngine"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/generate-docs.yml",
+      "source_repo": "dryruby/json-canonicalization"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "softprops/hubcaps"
     }
   ]
 }

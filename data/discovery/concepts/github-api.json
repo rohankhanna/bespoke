@@ -43,6 +43,18 @@
       "source_repo": "google/go-github",
       "status": "candidate-context",
       "text": "[![go-github release (latest SemVer)](https://img.shields.io/github/v/release/google/go-github?sort=semver)](https://github.com/google/go-github/releases)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "softprops/hubcaps",
+      "status": "candidate-context",
+      "text": "a rust interface for github"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "softprops/hubcaps",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "google/go-github",
       "status": "candidate",
       "text": "[![go-github release (latest SemVer)](https://img.shields.io/github/v/release/google/go-github?sort=semver)](https://github.com/google/go-github/releases)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "softprops/hubcaps",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -118,11 +136,17 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "mislav/hub"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "softprops/hubcaps"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "lexical_providers": [
     "datamuse"
   ],

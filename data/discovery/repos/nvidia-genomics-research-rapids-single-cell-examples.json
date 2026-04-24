@@ -19,18 +19,18 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "NVIDIA-Genomics-Research/rapids-single-cell-examples",
-      "target": "avantikalal/rapids-single-cell-examples",
+      "target": "clara-parabricks/atacworks",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
-      "source_file": "README.md",
+      "source_file": "Dockerfile",
       "source_repo": "NVIDIA-Genomics-Research/rapids-single-cell-examples",
-      "target": "clara-parabricks/atacworks",
+      "target": "cjnolet/atacworks",
       "target_type": "repository"
     }
   ],
-  "fetched_at": "2026-04-24T06:57:57.156399+00:00",
+  "fetched_at": "2026-04-24T12:46:57.984230+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -58,11 +58,6 @@
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
-      "full_name": "avantikalal/rapids-single-cell-examples",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
       "full_name": "clara-parabricks/atacworks",
       "source_file": "README.md"
     },
@@ -75,6 +70,11 @@
       "edge_type": "explicit-github-link",
       "full_name": "scverse/rapids_singlecell",
       "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cjnolet/atacworks",
+      "source_file": "Dockerfile"
     }
   ],
   "terms": []

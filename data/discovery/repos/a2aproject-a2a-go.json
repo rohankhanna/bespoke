@@ -1,0 +1,335 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yaml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yaml"
+    },
+    {
+      "component": "golangci/golangci-lint-action@4afd733a84b1f43292c63897423277bb7f4313a9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/itk.yaml"
+    },
+    {
+      "component": "astral-sh/setup-uv@37802adc94f370d6bfd71619e3f0bf239e1f3b78",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/itk.yaml"
+    },
+    {
+      "component": "actions/setup-go@d35c59abb061a4a6fb18e82ac0862c26744d6ab5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/itk.yaml"
+    },
+    {
+      "component": "arduino/setup-protoc@c65c819552d16ad3c9b72d9dfd5ba5237b9c906b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/itk.yaml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly.yaml"
+    },
+    {
+      "component": "golang/govulncheck-action@b625fbe08f3bccbe446d94fbf87fcc875a4f50ee",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly.yaml"
+    },
+    {
+      "component": "googleapis/release-please-action@c2a5a2bd6a758a0937f1ddb1e8950609867ed15c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-please.yaml"
+    },
+    {
+      "component": "amannn/action-semantic-pull-request@48f256284bd46cdaab1048c3721360e808335d50",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate-pr-title.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yaml",
+      "source_repo": "a2aproject/a2a-go",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yaml",
+      "source_repo": "a2aproject/a2a-go",
+      "target": "golangci/golangci-lint-action@4afd733a84b1f43292c63897423277bb7f4313a9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/itk.yaml",
+      "source_repo": "a2aproject/a2a-go",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/itk.yaml",
+      "source_repo": "a2aproject/a2a-go",
+      "target": "astral-sh/setup-uv@37802adc94f370d6bfd71619e3f0bf239e1f3b78",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/itk.yaml",
+      "source_repo": "a2aproject/a2a-go",
+      "target": "actions/setup-go@d35c59abb061a4a6fb18e82ac0862c26744d6ab5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/itk.yaml",
+      "source_repo": "a2aproject/a2a-go",
+      "target": "arduino/setup-protoc@c65c819552d16ad3c9b72d9dfd5ba5237b9c906b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/itk.yaml",
+      "source_repo": "a2aproject/a2a-go",
+      "target": "ITK",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly.yaml",
+      "source_repo": "a2aproject/a2a-go",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly.yaml",
+      "source_repo": "a2aproject/a2a-go",
+      "target": "golang/govulncheck-action@b625fbe08f3bccbe446d94fbf87fcc875a4f50ee",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nightly.yaml",
+      "source_repo": "a2aproject/a2a-go",
+      "target": "Nightly",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-please.yaml",
+      "source_repo": "a2aproject/a2a-go",
+      "target": "googleapis/release-please-action@c2a5a2bd6a758a0937f1ddb1e8950609867ed15c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-please.yaml",
+      "source_repo": "a2aproject/a2a-go",
+      "target": "release-please",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate-pr-title.yaml",
+      "source_repo": "a2aproject/a2a-go",
+      "target": "amannn/action-semantic-pull-request@48f256284bd46cdaab1048c3721360e808335d50",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/validate-pr-title.yaml",
+      "source_repo": "a2aproject/a2a-go",
+      "target": "validate-pr-title",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "a2aproject/a2a-go",
+      "target": "a2a-client",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "a2aproject/a2a-go",
+      "target": "a2a-protocol",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "a2aproject/a2a-go",
+      "target": "a2a-server",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "a2aproject/a2a-go",
+      "target": "agent-server",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "a2aproject/a2a-go",
+      "target": "agent-to-agent",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "a2aproject/a2a-go",
+      "target": "multiagent-systems",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "a2aproject/a2a-go",
+      "target": "protocol",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T12:53:57.566413+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4839
+    },
+    {
+      "path": "go.mod",
+      "size": 733
+    },
+    {
+      "path": ".github/workflows/go.yaml",
+      "size": 1460
+    },
+    {
+      "path": ".github/workflows/itk.yaml",
+      "size": 956
+    },
+    {
+      "path": ".github/workflows/nightly.yaml",
+      "size": 712
+    },
+    {
+      "path": ".github/workflows/release-please.yaml",
+      "size": 364
+    },
+    {
+      "path": ".github/workflows/validate-pr-title.yaml",
+      "size": 429
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Golang SDK for A2A Protocol",
+    "fork": false,
+    "full_name": "a2aproject/a2a-go",
+    "html_url": "https://github.com/a2aproject/a2a-go",
+    "language": "Go",
+    "pushed_at": "2026-04-23T16:19:51Z",
+    "stargazers_count": 355,
+    "topics": [
+      "a2a",
+      "a2a-client",
+      "a2a-protocol",
+      "a2a-server",
+      "agent-server",
+      "agent-to-agent",
+      "agents",
+      "ai",
+      "go",
+      "multiagent-systems",
+      "protocol",
+      "sdk"
+    ],
+    "updated_at": "2026-04-23T15:13:26Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "ITK",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/itk.yaml",
+      "term": "ITK"
+    },
+    {
+      "context_snippet": "Nightly",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nightly.yaml",
+      "term": "Nightly"
+    },
+    {
+      "context_snippet": "release-please",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-please.yaml",
+      "term": "release-please"
+    },
+    {
+      "context_snippet": "validate-pr-title",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/validate-pr-title.yaml",
+      "term": "validate-pr-title"
+    },
+    {
+      "context_snippet": "[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "a2a-client"
+    },
+    {
+      "context_snippet": "[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "a2a-protocol"
+    },
+    {
+      "context_snippet": "[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "a2a-server"
+    },
+    {
+      "context_snippet": "[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "agent-server"
+    },
+    {
+      "context_snippet": "[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "agent-to-agent"
+    },
+    {
+      "context_snippet": "[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multiagent-systems"
+    },
+    {
+      "context_snippet": "[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "protocol"
+    }
+  ]
+}

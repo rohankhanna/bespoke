@@ -259,6 +259,42 @@
       "source_repo": "microsoft/ai-dev-gallery",
       "status": "candidate-context",
       "text": "![WindowsAI hero image](docs/images/header.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ROCm/MIVisionX",
+      "status": "candidate-context",
+      "text": "MIVisionX toolkit is a set of comprehensive computer vision and machine intelligence libraries, utilities, and applications bundled into a single toolkit. AMD MIVisionX also delivers a highly optimized open-source implementation of the Khronos OpenVX\u2122 and OpenVX\u2122 Extensions."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ROCm/MIVisionX",
+      "status": "candidate-context",
+      "text": "[![MIT licensed](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "onnx/models",
+      "status": "candidate-context",
+      "text": "A collection of pre-trained, state-of-the-art models in the ONNX format "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "onnx/models",
+      "status": "candidate-context",
+      "text": "<!--- SPDX-License-Identifier: Apache-2.0 -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "onnx/optimizer",
+      "status": "candidate-context",
+      "text": "ONNX Optimizer"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "onnx/optimizer",
+      "status": "candidate-context",
+      "text": "<!--"
     }
   ],
   "candidate_glosses": [
@@ -387,6 +423,24 @@
       "source_repo": "microsoft/ai-dev-gallery",
       "status": "candidate",
       "text": "![WindowsAI hero image](docs/images/header.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ROCm/MIVisionX",
+      "status": "candidate",
+      "text": "[![MIT licensed](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "onnx/models",
+      "status": "candidate",
+      "text": "<!--- SPDX-License-Identifier: Apache-2.0 -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "onnx/optimizer",
+      "status": "candidate",
+      "text": "<!--"
     }
   ],
   "candidate_related_terms": [],
@@ -538,11 +592,29 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "microsoft/ai-dev-gallery"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "ROCm/MIVisionX"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "onnx/models"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "onnx/optimizer"
     }
   ],
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "lexical_providers": [
     "datamuse"
   ],

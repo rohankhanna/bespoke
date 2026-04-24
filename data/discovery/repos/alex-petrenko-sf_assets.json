@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-24T12:36:58.066874+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 98
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Some assets for the other repos to minimize the size of the actual repos people clone",
+    "fork": false,
+    "full_name": "alex-petrenko/sf_assets",
+    "html_url": "https://github.com/alex-petrenko/sf_assets",
+    "language": null,
+    "pushed_at": "2022-11-30T01:54:24Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2022-11-05T06:30:25Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

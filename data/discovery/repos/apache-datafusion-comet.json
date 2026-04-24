@@ -1,0 +1,781 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/init@95e58e9a2cdfd71adc6e0353d5c52f41a045d225",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@95e58e9a2cdfd71adc6e0353d5c52f41a045d225",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "actions/setup-java@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-publish.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-publish.yml"
+    },
+    {
+      "component": "docker/login-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-publish.yml"
+    },
+    {
+      "component": "docker/build-push-action@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-publish.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yaml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yaml"
+    },
+    {
+      "component": "actions/setup-java@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/iceberg_spark_test.yml"
+    },
+    {
+      "component": "actions/cache/restore@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/iceberg_spark_test.yml"
+    },
+    {
+      "component": "actions/cache/save@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/iceberg_spark_test.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/iceberg_spark_test.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/iceberg_spark_test.yml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/iceberg_spark_test.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/iceberg_spark_test.yml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/iceberg_spark_test.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/iceberg_spark_test.yml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/iceberg_spark_test.yml"
+    },
+    {
+      "component": "actions/github-script@v9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/label_new_issues.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/miri.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr_benchmark_check.yml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr_benchmark_check.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr_build_linux.yml"
+    },
+    {
+      "component": "runs-on/action@742bf56072eb4845a0f94b3394673e4903c90ff0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr_build_linux.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr_build_linux.yml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr_build_linux.yml"
+    },
+    {
+      "component": "actions/setup-node@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr_build_linux.yml"
+    },
+    {
+      "component": "runs-on/action@742bf56072eb4845a0f94b3394673e4903c90ff0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr_build_linux.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr_build_linux.yml"
+    },
+    {
+      "component": "actions/cache/restore@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr_build_linux.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr_build_linux.yml"
+    },
+    {
+      "component": "actions/cache/save@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr_build_linux.yml"
+    },
+    {
+      "component": "runs-on/action@742bf56072eb4845a0f94b3394673e4903c90ff0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr_build_linux.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr_build_linux.yml"
+    },
+    {
+      "component": "actions/cache/restore@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr_build_linux.yml"
+    },
+    {
+      "component": "actions/cache/save@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr_build_linux.yml"
+    },
+    {
+      "component": "runs-on/action@742bf56072eb4845a0f94b3394673e4903c90ff0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr_build_linux.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr_build_linux.yml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr_build_linux.yml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr_build_linux.yml"
+    },
+    {
+      "component": "runs-on/action@742bf56072eb4845a0f94b3394673e4903c90ff0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr_build_linux.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr_build_linux.yml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr_build_linux.yml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr_build_linux.yml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr_build_linux.yml"
+    },
+    {
+      "component": "runs-on/action@742bf56072eb4845a0f94b3394673e4903c90ff0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr_build_linux.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr_build_linux.yml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr_build_linux.yml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr_build_linux.yml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr_build_linux.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr_build_linux.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr_build_macos.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr_build_macos.yml"
+    },
+    {
+      "component": "actions/cache/restore@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr_build_macos.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr_build_macos.yml"
+    },
+    {
+      "component": "actions/cache/save@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr_build_macos.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr_build_macos.yml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr_build_macos.yml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr_build_macos.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "apache/datafusion-comet",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "apache/datafusion-comet",
+      "target": "github/codeql-action/init@95e58e9a2cdfd71adc6e0353d5c52f41a045d225",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "apache/datafusion-comet",
+      "target": "github/codeql-action/analyze@95e58e9a2cdfd71adc6e0353d5c52f41a045d225",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "apache/datafusion-comet",
+      "target": "CodeQL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-publish.yml",
+      "source_repo": "apache/datafusion-comet",
+      "target": "actions/setup-java@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-publish.yml",
+      "source_repo": "apache/datafusion-comet",
+      "target": "docker/setup-buildx-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-publish.yml",
+      "source_repo": "apache/datafusion-comet",
+      "target": "docker/login-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-publish.yml",
+      "source_repo": "apache/datafusion-comet",
+      "target": "docker/build-push-action@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker-publish.yml",
+      "source_repo": "apache/datafusion-comet",
+      "target": "Publish Docker images",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yaml",
+      "source_repo": "apache/datafusion-comet",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yaml",
+      "source_repo": "apache/datafusion-comet",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yaml",
+      "source_repo": "apache/datafusion-comet",
+      "target": "actions/setup-java@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs.yaml",
+      "source_repo": "apache/datafusion-comet",
+      "target": "Deploy DataFusion Comet site",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/iceberg_spark_test.yml",
+      "source_repo": "apache/datafusion-comet",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/iceberg_spark_test.yml",
+      "source_repo": "apache/datafusion-comet",
+      "target": "actions/cache/restore@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/iceberg_spark_test.yml",
+      "source_repo": "apache/datafusion-comet",
+      "target": "actions/cache/save@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/iceberg_spark_test.yml",
+      "source_repo": "apache/datafusion-comet",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/iceberg_spark_test.yml",
+      "source_repo": "apache/datafusion-comet",
+      "target": "actions/download-artifact@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/iceberg_spark_test.yml",
+      "source_repo": "apache/datafusion-comet",
+      "target": "Iceberg Spark SQL Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/label_new_issues.yml",
+      "source_repo": "apache/datafusion-comet",
+      "target": "actions/github-script@v9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/label_new_issues.yml",
+      "source_repo": "apache/datafusion-comet",
+      "target": "Label new issues with requires-triage",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/miri.yml",
+      "source_repo": "apache/datafusion-comet",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/miri.yml",
+      "source_repo": "apache/datafusion-comet",
+      "target": "Run Miri Safety Checks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr_benchmark_check.yml",
+      "source_repo": "apache/datafusion-comet",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr_benchmark_check.yml",
+      "source_repo": "apache/datafusion-comet",
+      "target": "actions/cache@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr_benchmark_check.yml",
+      "source_repo": "apache/datafusion-comet",
+      "target": "PR Benchmark Check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr_build_linux.yml",
+      "source_repo": "apache/datafusion-comet",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr_build_linux.yml",
+      "source_repo": "apache/datafusion-comet",
+      "target": "runs-on/action@742bf56072eb4845a0f94b3394673e4903c90ff0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr_build_linux.yml",
+      "source_repo": "apache/datafusion-comet",
+      "target": "actions/cache@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr_build_linux.yml",
+      "source_repo": "apache/datafusion-comet",
+      "target": "actions/setup-node@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr_build_linux.yml",
+      "source_repo": "apache/datafusion-comet",
+      "target": "actions/cache/restore@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr_build_linux.yml",
+      "source_repo": "apache/datafusion-comet",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr_build_linux.yml",
+      "source_repo": "apache/datafusion-comet",
+      "target": "actions/cache/save@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr_build_linux.yml",
+      "source_repo": "apache/datafusion-comet",
+      "target": "actions/download-artifact@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr_build_linux.yml",
+      "source_repo": "apache/datafusion-comet",
+      "target": "PR Build (Linux)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr_build_macos.yml",
+      "source_repo": "apache/datafusion-comet",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr_build_macos.yml",
+      "source_repo": "apache/datafusion-comet",
+      "target": "actions/cache/restore@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr_build_macos.yml",
+      "source_repo": "apache/datafusion-comet",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr_build_macos.yml",
+      "source_repo": "apache/datafusion-comet",
+      "target": "actions/cache/save@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr_build_macos.yml",
+      "source_repo": "apache/datafusion-comet",
+      "target": "actions/download-artifact@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr_build_macos.yml",
+      "source_repo": "apache/datafusion-comet",
+      "target": "actions/cache@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr_build_macos.yml",
+      "source_repo": "apache/datafusion-comet",
+      "target": "PR Build (macOS)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/datafusion-comet",
+      "target": "arrow",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/datafusion-comet",
+      "target": "datafusion",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/datafusion-comet",
+      "target": "rust",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/datafusion-comet",
+      "target": "spark",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T12:42:28.507262+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6643
+    },
+    {
+      "path": ".github/workflows/codeql.yml",
+      "size": 1603
+    },
+    {
+      "path": ".github/workflows/docker-publish.yml",
+      "size": 2681
+    },
+    {
+      "path": ".github/workflows/docs.yaml",
+      "size": 2553
+    },
+    {
+      "path": ".github/workflows/iceberg_spark_test.yml",
+      "size": 9820
+    },
+    {
+      "path": ".github/workflows/label_new_issues.yml",
+      "size": 1269
+    },
+    {
+      "path": ".github/workflows/miri.yml",
+      "size": 2233
+    },
+    {
+      "path": ".github/workflows/pr_benchmark_check.yml",
+      "size": 2700
+    },
+    {
+      "path": ".github/workflows/pr_build_linux.yml",
+      "size": 21943
+    },
+    {
+      "path": ".github/workflows/pr_build_macos.yml",
+      "size": 11140
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Apache DataFusion Comet Spark Accelerator",
+    "fork": false,
+    "full_name": "apache/datafusion-comet",
+    "html_url": "https://github.com/apache/datafusion-comet",
+    "language": "Rust",
+    "pushed_at": "2026-04-24T09:56:42Z",
+    "stargazers_count": 1171,
+    "topics": [
+      "arrow",
+      "datafusion",
+      "rust",
+      "spark"
+    ],
+    "updated_at": "2026-04-24T00:18:57Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "\"CodeQL\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "term": "CodeQL"
+    },
+    {
+      "context_snippet": "Publish Docker images",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker-publish.yml",
+      "term": "Publish Docker images"
+    },
+    {
+      "context_snippet": "Deploy DataFusion Comet site",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs.yaml",
+      "term": "Deploy DataFusion Comet site"
+    },
+    {
+      "context_snippet": "Iceberg Spark SQL Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/iceberg_spark_test.yml",
+      "term": "Iceberg Spark SQL Tests"
+    },
+    {
+      "context_snippet": "Label new issues with requires-triage",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/label_new_issues.yml",
+      "term": "Label new issues with requires-triage"
+    },
+    {
+      "context_snippet": "Run Miri Safety Checks",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/miri.yml",
+      "term": "Run Miri Safety Checks"
+    },
+    {
+      "context_snippet": "PR Benchmark Check",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr_benchmark_check.yml",
+      "term": "PR Benchmark Check"
+    },
+    {
+      "context_snippet": "PR Build (Linux)",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr_build_linux.yml",
+      "term": "PR Build (Linux)"
+    },
+    {
+      "context_snippet": "PR Build (macOS)",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr_build_macos.yml",
+      "term": "PR Build (macOS)"
+    },
+    {
+      "context_snippet": "<!--",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "arrow"
+    },
+    {
+      "context_snippet": "<!--",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "datafusion"
+    },
+    {
+      "context_snippet": "<!--",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust"
+    },
+    {
+      "context_snippet": "<!--",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "spark"
+    }
+  ]
+}

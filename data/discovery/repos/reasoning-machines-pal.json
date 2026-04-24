@@ -1,0 +1,139 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "reasoning-machines/pal",
+      "target": "luyug/pal",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "reasoning-machines/pal",
+      "target": "madaan/prompt-lib",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "reasoning-machines/pal",
+      "target": "commonsense-reasoning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "reasoning-machines/pal",
+      "target": "few-shot-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "reasoning-machines/pal",
+      "target": "language-generation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "reasoning-machines/pal",
+      "target": "language-model",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "reasoning-machines/pal",
+      "target": "large-language-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "reasoning-machines/pal",
+      "target": "reasoning",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T12:44:23.025450+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3563
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "PaL: Program-Aided Language Models (ICML 2023)",
+    "fork": false,
+    "full_name": "reasoning-machines/pal",
+    "html_url": "https://github.com/reasoning-machines/pal",
+    "language": "Python",
+    "pushed_at": "2023-06-30T12:57:39Z",
+    "stargazers_count": 519,
+    "topics": [
+      "commonsense-reasoning",
+      "few-shot-learning",
+      "language-generation",
+      "language-model",
+      "large-language-models",
+      "reasoning"
+    ],
+    "updated_at": "2026-04-11T08:31:10Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "luyug/pal",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "madaan/prompt-lib",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Repo for the paper [PaL: Program-Aided Language Models](https://arxiv.org/pdf/2211.10435.pdf).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "commonsense-reasoning"
+    },
+    {
+      "context_snippet": "Repo for the paper [PaL: Program-Aided Language Models](https://arxiv.org/pdf/2211.10435.pdf).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "few-shot-learning"
+    },
+    {
+      "context_snippet": "Repo for the paper [PaL: Program-Aided Language Models](https://arxiv.org/pdf/2211.10435.pdf).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "language-generation"
+    },
+    {
+      "context_snippet": "Repo for the paper [PaL: Program-Aided Language Models](https://arxiv.org/pdf/2211.10435.pdf).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "language-model"
+    },
+    {
+      "context_snippet": "Repo for the paper [PaL: Program-Aided Language Models](https://arxiv.org/pdf/2211.10435.pdf).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "large-language-models"
+    },
+    {
+      "context_snippet": "Repo for the paper [PaL: Program-Aided Language Models](https://arxiv.org/pdf/2211.10435.pdf).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "reasoning"
+    }
+  ]
+}

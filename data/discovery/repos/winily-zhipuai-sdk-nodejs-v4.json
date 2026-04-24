@@ -1,0 +1,105 @@
+{
+  "components": [
+    {
+      "component": "axios",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "jsonwebtoken",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/jsonwebtoken",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/node",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "tsup",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "typescript",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "winily/zhipuai-sdk-nodejs-v4",
+      "target": "axios",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "winily/zhipuai-sdk-nodejs-v4",
+      "target": "jsonwebtoken",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "winily/zhipuai-sdk-nodejs-v4",
+      "target": "@types/jsonwebtoken",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "winily/zhipuai-sdk-nodejs-v4",
+      "target": "@types/node",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "winily/zhipuai-sdk-nodejs-v4",
+      "target": "tsup",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "winily/zhipuai-sdk-nodejs-v4",
+      "target": "typescript",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-24T12:39:01.579613+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2687
+    },
+    {
+      "path": "package.json",
+      "size": 781
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "\u667a\u8c31 AI \u5f00\u653e\u63a5\u53e3 V4 \u7684 nodejs SDK",
+    "fork": true,
+    "full_name": "winily/zhipuai-sdk-nodejs-v4",
+    "html_url": "https://github.com/winily/zhipuai-sdk-nodejs-v4",
+    "language": "TypeScript",
+    "pushed_at": "2024-03-20T09:06:23Z",
+    "stargazers_count": 1,
+    "topics": [],
+    "updated_at": "2026-01-02T09:10:23Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

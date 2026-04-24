@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "The official home of the Presto distributed SQL query engine for big data"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "jdbc connector tests"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "jdbc connector tests"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18254,
+      "status": "candidate",
+      "text": "car"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10154,
+      "status": "candidate",
+      "text": "direct"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10154,
+      "status": "candidate",
+      "text": "dos"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10154,
+      "status": "candidate",
+      "text": "handler"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10154,
+      "status": "candidate",
+      "text": "proposal"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "jdbc connector tests",
+      "sense_id": "jdbc-connector-tests#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "jdbc-connector-tests",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "jdbc-connector-tests",
+  "observation_id": "4c4b9f04e217abbc",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-24T12:33:41.350224+00:00",
+  "observed_text": "jdbc connector tests",
+  "source_context_snippet": "jdbc connector tests",
+  "source_file": ".github/workflows/jdbc-connector-tests.yml",
+  "source_repo": "prestodb/presto",
+  "source_repo_description": "The official home of the Presto distributed SQL query engine for big data"
+}

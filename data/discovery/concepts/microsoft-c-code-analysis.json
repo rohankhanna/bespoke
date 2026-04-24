@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Microsoft C++ Code Analysis"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/DirectXTK12",
+      "status": "candidate-context",
+      "text": "The DirectX Tool Kit (aka DirectXTK12) is a collection of helper classes for writing DirectX 12 code in C++"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/DirectXTK12",
+      "status": "candidate-context",
+      "text": "Microsoft C++ Code Analysis"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/DirectXTK12",
+      "status": "candidate",
+      "text": "Microsoft C++ Code Analysis"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27395,
+      "status": "candidate",
+      "text": "wav"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25703,
+      "status": "candidate",
+      "text": "cryptanalysis"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19704,
+      "status": "candidate",
+      "text": "macro"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19019,
+      "status": "candidate",
+      "text": "usn"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18680,
+      "status": "candidate",
+      "text": "access"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Microsoft C++ Code Analysis",
+  "concept_id": "microsoft-c-code-analysis",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/msvc.yml",
+      "source_repo": "microsoft/DirectXTK12"
+    }
+  ],
+  "first_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Microsoft C++ Code Analysis",
+      "sense_id": "microsoft-c-code-analysis#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

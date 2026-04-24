@@ -1,0 +1,261 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "OpenGVLab/Ask-Anything",
+      "target": "opengvlab/internvideo",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "OpenGVLab/Ask-Anything",
+      "target": "opengvlab/tpo",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "OpenGVLab/Ask-Anything",
+      "target": "egoschema/egoschema",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "OpenGVLab/Ask-Anything",
+      "target": "bradyfu/video-mme",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenGVLab/Ask-Anything",
+      "target": "big-model",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenGVLab/Ask-Anything",
+      "target": "captioning-videos",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenGVLab/Ask-Anything",
+      "target": "chat",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenGVLab/Ask-Anything",
+      "target": "chatgpt",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenGVLab/Ask-Anything",
+      "target": "foundation-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenGVLab/Ask-Anything",
+      "target": "gradio",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenGVLab/Ask-Anything",
+      "target": "langchain",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenGVLab/Ask-Anything",
+      "target": "large-language-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenGVLab/Ask-Anything",
+      "target": "large-model",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenGVLab/Ask-Anything",
+      "target": "stablelm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenGVLab/Ask-Anything",
+      "target": "video",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenGVLab/Ask-Anything",
+      "target": "video-question-answering",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenGVLab/Ask-Anything",
+      "target": "video-understanding",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T12:38:06.400869+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9128
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[CVPR2024 Highlight][VideoChatGPT] ChatGPT with video understanding! And many more supported LMs such as miniGPT4, StableLM, and MOSS.",
+    "fork": false,
+    "full_name": "OpenGVLab/Ask-Anything",
+    "html_url": "https://github.com/OpenGVLab/Ask-Anything",
+    "language": "Python",
+    "pushed_at": "2025-01-18T12:11:48Z",
+    "stargazers_count": 3341,
+    "topics": [
+      "big-model",
+      "captioning-videos",
+      "chat",
+      "chatgpt",
+      "foundation-models",
+      "gradio",
+      "langchain",
+      "large-language-models",
+      "large-model",
+      "stablelm",
+      "video",
+      "video-question-answering",
+      "video-understanding"
+    ],
+    "updated_at": "2026-04-22T05:40:46Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bradyfu/video-mme",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "egoschema/egoschema",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "opengvlab/internvideo",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "opengvlab/tpo",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![Open in OpenXLab](https://cdn-static.openxlab.org.cn/app-center/openxlab_app.svg)](https://openxlab.org.cn/apps/detail/yinanhe/VideoChat2) |",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "big-model"
+    },
+    {
+      "context_snippet": "[![Open in OpenXLab](https://cdn-static.openxlab.org.cn/app-center/openxlab_app.svg)](https://openxlab.org.cn/apps/detail/yinanhe/VideoChat2) |",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "captioning-videos"
+    },
+    {
+      "context_snippet": "[![Open in OpenXLab](https://cdn-static.openxlab.org.cn/app-center/openxlab_app.svg)](https://openxlab.org.cn/apps/detail/yinanhe/VideoChat2) |",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chat"
+    },
+    {
+      "context_snippet": "[![Open in OpenXLab](https://cdn-static.openxlab.org.cn/app-center/openxlab_app.svg)](https://openxlab.org.cn/apps/detail/yinanhe/VideoChat2) |",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chatgpt"
+    },
+    {
+      "context_snippet": "[![Open in OpenXLab](https://cdn-static.openxlab.org.cn/app-center/openxlab_app.svg)](https://openxlab.org.cn/apps/detail/yinanhe/VideoChat2) |",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "foundation-models"
+    },
+    {
+      "context_snippet": "[![Open in OpenXLab](https://cdn-static.openxlab.org.cn/app-center/openxlab_app.svg)](https://openxlab.org.cn/apps/detail/yinanhe/VideoChat2) |",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gradio"
+    },
+    {
+      "context_snippet": "[![Open in OpenXLab](https://cdn-static.openxlab.org.cn/app-center/openxlab_app.svg)](https://openxlab.org.cn/apps/detail/yinanhe/VideoChat2) |",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "langchain"
+    },
+    {
+      "context_snippet": "[![Open in OpenXLab](https://cdn-static.openxlab.org.cn/app-center/openxlab_app.svg)](https://openxlab.org.cn/apps/detail/yinanhe/VideoChat2) |",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "large-language-models"
+    },
+    {
+      "context_snippet": "[![Open in OpenXLab](https://cdn-static.openxlab.org.cn/app-center/openxlab_app.svg)](https://openxlab.org.cn/apps/detail/yinanhe/VideoChat2) |",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "large-model"
+    },
+    {
+      "context_snippet": "[![Open in OpenXLab](https://cdn-static.openxlab.org.cn/app-center/openxlab_app.svg)](https://openxlab.org.cn/apps/detail/yinanhe/VideoChat2) |",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "stablelm"
+    },
+    {
+      "context_snippet": "[![Open in OpenXLab](https://cdn-static.openxlab.org.cn/app-center/openxlab_app.svg)](https://openxlab.org.cn/apps/detail/yinanhe/VideoChat2) |",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "video"
+    },
+    {
+      "context_snippet": "[![Open in OpenXLab](https://cdn-static.openxlab.org.cn/app-center/openxlab_app.svg)](https://openxlab.org.cn/apps/detail/yinanhe/VideoChat2) |",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "video-question-answering"
+    },
+    {
+      "context_snippet": "[![Open in OpenXLab](https://cdn-static.openxlab.org.cn/app-center/openxlab_app.svg)](https://openxlab.org.cn/apps/detail/yinanhe/VideoChat2) |",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "video-understanding"
+    }
+  ]
+}

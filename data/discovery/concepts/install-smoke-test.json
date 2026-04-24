@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Install Smoke Test"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "a2aproject/a2a-python",
+      "status": "candidate-context",
+      "text": "Official Python SDK for the Agent2Agent (A2A) Protocol"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "a2aproject/a2a-python",
+      "status": "candidate-context",
+      "text": "Install Smoke Test"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "a2aproject/a2a-python",
+      "status": "candidate",
+      "text": "Install Smoke Test"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27095,
+      "status": "candidate",
+      "text": "deploy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19728,
+      "status": "candidate",
+      "text": "use"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18479,
+      "status": "candidate",
+      "text": "trail"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18447,
+      "status": "candidate",
+      "text": "fag"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18447,
+      "status": "candidate",
+      "text": "swisher"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Install Smoke Test",
+  "concept_id": "install-smoke-test",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/install-smoke.yml",
+      "source_repo": "a2aproject/a2a-python"
+    }
+  ],
+  "first_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Install Smoke Test",
+      "sense_id": "install-smoke-test#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

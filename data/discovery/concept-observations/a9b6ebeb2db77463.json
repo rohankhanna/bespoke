@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "AI Agent that handles engineering tasks end-to-end: integrates with developers\u2019 tools, plans, executes, and iterates until it achieves a successful result."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Refact Agent Engine CI Release (Rust)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Refact Agent Engine CI Release (Rust)"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 32961,
+      "status": "candidate",
+      "text": "exhaust"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25887,
+      "status": "candidate",
+      "text": "exhaustively"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22142,
+      "status": "candidate",
+      "text": "ion"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17557,
+      "status": "candidate",
+      "text": "curve"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17535,
+      "status": "candidate",
+      "text": "positive"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Refact Agent Engine CI Release (Rust)",
+      "sense_id": "refact-agent-engine-ci-release-rust#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "refact-agent-engine-ci-release-rust",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "refact-agent-engine-ci-release-rust",
+  "observation_id": "a9b6ebeb2db77463",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-24T12:33:41.350224+00:00",
+  "observed_text": "Refact Agent Engine CI Release (Rust)",
+  "source_context_snippet": "Refact Agent Engine CI Release (Rust)",
+  "source_file": ".github/workflows/agent_engine_release.yml",
+  "source_repo": "smallcloudai/refact",
+  "source_repo_description": "AI Agent that handles engineering tasks end-to-end: integrates with developers\u2019 tools, plans, executes, and iterates until it achieves a successful result."
+}

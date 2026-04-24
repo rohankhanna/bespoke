@@ -1,0 +1,180 @@
+{
+  "components": [
+    {
+      "component": "hecrj/setup-rust-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "hecrj/setup-rust-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "hecrj/setup-rust-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "hecrj/setup-rust-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "hecrj/setup-rust-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "peaceiris/actions-gh-pages@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "hecrj/setup-rust-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "softprops/hubcaps",
+      "target": "hecrj/setup-rust-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "softprops/hubcaps",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "softprops/hubcaps",
+      "target": "peaceiris/actions-gh-pages@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "softprops/hubcaps",
+      "target": "Main",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "softprops/hubcaps",
+      "target": "github-api",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "softprops/hubcaps",
+      "target": "library",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "softprops/hubcaps",
+      "target": "rust-interface",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T13:03:20.894542+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4057
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 1291
+    },
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 2351
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "a rust interface for github",
+    "fork": false,
+    "full_name": "softprops/hubcaps",
+    "html_url": "https://github.com/softprops/hubcaps",
+    "language": "Rust",
+    "pushed_at": "2023-05-20T23:08:12Z",
+    "stargazers_count": 288,
+    "topics": [
+      "github-api",
+      "library",
+      "rust-interface"
+    ],
+    "updated_at": "2025-12-07T08:58:29Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Main",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "term": "Main"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "github-api"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "library"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust-interface"
+    }
+  ]
+}

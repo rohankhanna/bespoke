@@ -1,0 +1,132 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "OS-Agent-Survey/OS-Agent-Survey",
+      "target": "aialt/awesome-mobile-agents",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "OS-Agent-Survey/OS-Agent-Survey",
+      "target": "osu-nlp-group/gui-agents-paper-list",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "OS-Agent-Survey/OS-Agent-Survey",
+      "target": "phonellm/awesome-llm-powered-phone-gui-agents",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "OS-Agent-Survey/OS-Agent-Survey",
+      "target": "ranpox/awesome-computer-use",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OS-Agent-Survey/OS-Agent-Survey",
+      "target": "browser-agent",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OS-Agent-Survey/OS-Agent-Survey",
+      "target": "computer-use",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OS-Agent-Survey/OS-Agent-Survey",
+      "target": "computer-using",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OS-Agent-Survey/OS-Agent-Survey",
+      "target": "computer-using-agent",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OS-Agent-Survey/OS-Agent-Survey",
+      "target": "computing-devices",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OS-Agent-Survey/OS-Agent-Survey",
+      "target": "gui-agent",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OS-Agent-Survey/OS-Agent-Survey",
+      "target": "llms",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OS-Agent-Survey/OS-Agent-Survey",
+      "target": "mllms",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OS-Agent-Survey/OS-Agent-Survey",
+      "target": "operator",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OS-Agent-Survey/OS-Agent-Survey",
+      "target": "os-agent",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OS-Agent-Survey/OS-Agent-Survey",
+      "target": "os-agent-survey",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OS-Agent-Survey/OS-Agent-Survey",
+      "target": "phone-use",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OS-Agent-Survey/OS-Agent-Survey",
+      "target": "survey",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OS-Agent-Survey/OS-Agent-Survey",
+      "target": "web-agent",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-24T12:33:41.350224+00:00",
+  "source_repo": "OS-Agent-Survey/OS-Agent-Survey"
+}

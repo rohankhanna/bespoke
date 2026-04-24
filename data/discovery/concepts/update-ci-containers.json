@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Update CI Containers"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aws/aws-ofi-nccl",
+      "status": "candidate-context",
+      "text": "This is a plugin which lets EC2 developers use libfabric as network provider while running NCCL applications."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws/aws-ofi-nccl",
+      "status": "candidate-context",
+      "text": "Update CI Containers"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws/aws-ofi-nccl",
+      "status": "candidate",
+      "text": "Update CI Containers"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12553,
+      "status": "candidate",
+      "text": "ion"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12250,
+      "status": "candidate",
+      "text": "curie-weiss law"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9930,
+      "status": "candidate",
+      "text": "curve"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9930,
+      "status": "candidate",
+      "text": "fig"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9930,
+      "status": "candidate",
+      "text": "positive"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Update CI Containers",
+  "concept_id": "update-ci-containers",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/update-containers.yaml",
+      "source_repo": "aws/aws-ofi-nccl"
+    }
+  ],
+  "first_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Update CI Containers",
+      "sense_id": "update-ci-containers#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

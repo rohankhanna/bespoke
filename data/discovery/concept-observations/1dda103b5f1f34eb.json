@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A simple, maximally extensible, dependency minimized framework for building modern Ethereum dApps"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Snyk Code Security"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Snyk Code Security"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11639,
+      "status": "candidate",
+      "text": "break"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11639,
+      "status": "candidate",
+      "text": "nsa"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11639,
+      "status": "candidate",
+      "text": "protocol"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11639,
+      "status": "candidate",
+      "text": "secure"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11639,
+      "status": "candidate",
+      "text": "statute"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Snyk Code Security",
+      "sense_id": "snyk-code-security#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "snyk-code-security",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "snyk-code-security",
+  "observation_id": "1dda103b5f1f34eb",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-24T12:33:41.350224+00:00",
+  "observed_text": "Snyk Code Security",
+  "source_context_snippet": "Snyk Code Security",
+  "source_file": ".github/workflows/snyk_sca_scan.yml",
+  "source_repo": "Uniswap/web3-react",
+  "source_repo_description": "A simple, maximally extensible, dependency minimized framework for building modern Ethereum dApps"
+}

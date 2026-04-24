@@ -31,6 +31,18 @@
       "source_repo": "hugapi/hug",
       "status": "candidate-context",
       "text": "[![HUG](https://raw.github.com/hugapi/hug/develop/artwork/logo.png)](http://hug.rest)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hiyouga/FastEdit",
+      "status": "candidate-context",
+      "text": "\ud83e\ude79Editing large language models within 10 seconds\u26a1"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hiyouga/FastEdit",
+      "status": "candidate-context",
+      "text": "*Editing large language models within 10 seconds*"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "hugapi/hug",
       "status": "candidate",
       "text": "[![HUG](https://raw.github.com/hugapi/hug/develop/artwork/logo.png)](http://hug.rest)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hiyouga/FastEdit",
+      "status": "candidate",
+      "text": "*Editing large language models within 10 seconds*"
     }
   ],
   "candidate_related_terms": [
@@ -100,11 +118,17 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "hugapi/hug"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "hiyouga/FastEdit"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "lexical_providers": [
     "datamuse"
   ],

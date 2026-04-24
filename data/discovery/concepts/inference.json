@@ -307,6 +307,42 @@
       "source_repo": "openvinotoolkit/model_server",
       "status": "candidate-context",
       "text": "Model Server hosts models and makes them accessible to software components over standard network protocols: a client sends a request to the model server, which performs model inference and sends a response back to the client. Model Server offers many advantages for efficient mod\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kvcache-ai/Mooncake",
+      "status": "candidate-context",
+      "text": "Mooncake is the serving platform for Kimi, a leading LLM service provided by Moonshot AI."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kvcache-ai/Mooncake",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "MegEngine/InferLLM",
+      "status": "candidate-context",
+      "text": "a lightweight LLM model inference framework"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MegEngine/InferLLM",
+      "status": "candidate-context",
+      "text": "[\u4e2d\u6587 README](./README_Chinese.md)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ROCm/MIVisionX",
+      "status": "candidate-context",
+      "text": "MIVisionX toolkit is a set of comprehensive computer vision and machine intelligence libraries, utilities, and applications bundled into a single toolkit. AMD MIVisionX also delivers a highly optimized open-source implementation of the Khronos OpenVX\u2122 and OpenVX\u2122 Extensions."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ROCm/MIVisionX",
+      "status": "candidate-context",
+      "text": "[![MIT licensed](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)"
     }
   ],
   "candidate_glosses": [
@@ -459,6 +495,24 @@
       "source_repo": "openvinotoolkit/model_server",
       "status": "candidate",
       "text": "Model Server hosts models and makes them accessible to software components over standard network protocols: a client sends a request to the model server, which performs model inference and sends a response back to the client. Model Server offers many advantages for efficient mod\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kvcache-ai/Mooncake",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MegEngine/InferLLM",
+      "status": "candidate",
+      "text": "[\u4e2d\u6587 README](./README_Chinese.md)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ROCm/MIVisionX",
+      "status": "candidate",
+      "text": "[![MIT licensed](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)"
     }
   ],
   "candidate_related_terms": [
@@ -732,11 +786,29 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "openvinotoolkit/model_server"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "kvcache-ai/Mooncake"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "MegEngine/InferLLM"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "ROCm/MIVisionX"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "lexical_providers": [
     "datamuse"
   ],

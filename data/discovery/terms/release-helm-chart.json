@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -11,6 +11,11 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/helm_release.yml",
       "source_repo": "celo-org/charts"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "grafana/k8s-monitoring-helm"
     }
   ],
   "term": "Release helm chart"

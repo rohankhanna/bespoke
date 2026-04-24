@@ -1,0 +1,569 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmarks-weekly.yml"
+    },
+    {
+      "component": "hendrikmuhs/ccache-action@33522472633dbd32578e909b315f5ee43ba878ce",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmarks-weekly.yml"
+    },
+    {
+      "component": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmarks-weekly.yml"
+    },
+    {
+      "component": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmarks-weekly.yml"
+    },
+    {
+      "component": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmarks-weekly.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmarks.yml"
+    },
+    {
+      "component": "hendrikmuhs/ccache-action@33522472633dbd32578e909b315f5ee43ba878ce",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmarks.yml"
+    },
+    {
+      "component": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmarks.yml"
+    },
+    {
+      "component": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmarks.yml"
+    },
+    {
+      "component": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmarks.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-job.yml"
+    },
+    {
+      "component": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-job.yml"
+    },
+    {
+      "component": "hendrikmuhs/ccache-action@33522472633dbd32578e909b315f5ee43ba878ce",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-job.yml"
+    },
+    {
+      "component": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-job.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "codespell-project/actions-codespell@8f01853be192eb0f849a5c7d721450e7a467c579",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/compiled_python.yml"
+    },
+    {
+      "component": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/compiled_python.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml"
+    },
+    {
+      "component": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml"
+    },
+    {
+      "component": "actions/upload-pages-artifact@7b1f4a764d45c48632c6b24a0339c27f5614fb0b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml"
+    },
+    {
+      "component": "actions/deploy-pages@cd2ce8fcbc39b97be8ca5fce6e763baed58fa128",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml"
+    },
+    {
+      "component": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml"
+    },
+    {
+      "component": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml"
+    },
+    {
+      "component": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly-wheels.yml"
+    },
+    {
+      "component": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly-wheels.yml"
+    },
+    {
+      "component": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly-wheels.yml"
+    },
+    {
+      "component": "scientific-python/upload-nightly-action@5748273c71e2d8d3a61f3a11a16421c8954f9ecf",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly-wheels.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmarks-weekly.yml",
+      "source_repo": "cython/cython",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmarks-weekly.yml",
+      "source_repo": "cython/cython",
+      "target": "hendrikmuhs/ccache-action@33522472633dbd32578e909b315f5ee43ba878ce",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmarks-weekly.yml",
+      "source_repo": "cython/cython",
+      "target": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmarks-weekly.yml",
+      "source_repo": "cython/cython",
+      "target": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/benchmarks-weekly.yml",
+      "source_repo": "cython/cython",
+      "target": "Benchmarks (weekly)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmarks.yml",
+      "source_repo": "cython/cython",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmarks.yml",
+      "source_repo": "cython/cython",
+      "target": "hendrikmuhs/ccache-action@33522472633dbd32578e909b315f5ee43ba878ce",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmarks.yml",
+      "source_repo": "cython/cython",
+      "target": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmarks.yml",
+      "source_repo": "cython/cython",
+      "target": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/benchmarks.yml",
+      "source_repo": "cython/cython",
+      "target": "Benchmarks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-job.yml",
+      "source_repo": "cython/cython",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-job.yml",
+      "source_repo": "cython/cython",
+      "target": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-job.yml",
+      "source_repo": "cython/cython",
+      "target": "hendrikmuhs/ccache-action@33522472633dbd32578e909b315f5ee43ba878ce",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-job.yml",
+      "source_repo": "cython/cython",
+      "target": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "cython/cython",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "cython/cython",
+      "target": "codespell-project/actions-codespell@8f01853be192eb0f849a5c7d721450e7a467c579",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "cython/cython",
+      "target": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "cython/cython",
+      "target": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/compiled_python.yml",
+      "source_repo": "cython/cython",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/compiled_python.yml",
+      "source_repo": "cython/cython",
+      "target": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "cython/cython",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "cython/cython",
+      "target": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "cython/cython",
+      "target": "actions/upload-pages-artifact@7b1f4a764d45c48632c6b24a0339c27f5614fb0b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "cython/cython",
+      "target": "actions/deploy-pages@cd2ce8fcbc39b97be8ca5fce6e763baed58fa128",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "cython/cython",
+      "target": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "cython/cython",
+      "target": "coverage",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly-wheels.yml",
+      "source_repo": "cython/cython",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly-wheels.yml",
+      "source_repo": "cython/cython",
+      "target": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly-wheels.yml",
+      "source_repo": "cython/cython",
+      "target": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly-wheels.yml",
+      "source_repo": "cython/cython",
+      "target": "scientific-python/upload-nightly-action@5748273c71e2d8d3a61f3a11a16421c8954f9ecf",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nightly-wheels.yml",
+      "source_repo": "cython/cython",
+      "target": "Nightly wheels",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/sanitizers.yml",
+      "source_repo": "cython/cython",
+      "target": "Sanitizers",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cython/cython",
+      "target": "big-data",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cython/cython",
+      "target": "cpython",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cython/cython",
+      "target": "cpython-extensions",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cython/cython",
+      "target": "cython",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cython/cython",
+      "target": "performance",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T12:43:33.624352+00:00",
+  "fetched_files": [
+    {
+      "path": "README.rst",
+      "size": 6029
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1862
+    },
+    {
+      "path": ".github/workflows/benchmarks-weekly.yml",
+      "size": 4561
+    },
+    {
+      "path": ".github/workflows/benchmarks.yml",
+      "size": 4324
+    },
+    {
+      "path": ".github/workflows/ci-job.yml",
+      "size": 5131
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 9899
+    },
+    {
+      "path": ".github/workflows/compiled_python.yml",
+      "size": 6319
+    },
+    {
+      "path": ".github/workflows/coverage.yml",
+      "size": 3919
+    },
+    {
+      "path": ".github/workflows/nightly-wheels.yml",
+      "size": 2212
+    },
+    {
+      "path": ".github/workflows/sanitizers.yml",
+      "size": 1517
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "The most widely used Python to C compiler",
+    "fork": false,
+    "full_name": "cython/cython",
+    "html_url": "https://github.com/cython/cython",
+    "language": "Cython",
+    "pushed_at": "2026-04-24T10:38:39Z",
+    "stargazers_count": 10702,
+    "topics": [
+      "big-data",
+      "c",
+      "cpp",
+      "cpython",
+      "cpython-extensions",
+      "cython",
+      "performance",
+      "python"
+    ],
+    "updated_at": "2026-04-24T10:38:47Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Benchmarks (weekly)",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/benchmarks-weekly.yml",
+      "term": "Benchmarks (weekly)"
+    },
+    {
+      "context_snippet": "Benchmarks",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/benchmarks.yml",
+      "term": "Benchmarks"
+    },
+    {
+      "context_snippet": "coverage",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/coverage.yml",
+      "term": "coverage"
+    },
+    {
+      "context_snippet": "Nightly wheels",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nightly-wheels.yml",
+      "term": "Nightly wheels"
+    },
+    {
+      "context_snippet": "Sanitizers",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/sanitizers.yml",
+      "term": "Sanitizers"
+    },
+    {
+      "context_snippet": "Welcome to Cython!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "big-data"
+    },
+    {
+      "context_snippet": "Welcome to Cython!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cpython"
+    },
+    {
+      "context_snippet": "Welcome to Cython!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cpython-extensions"
+    },
+    {
+      "context_snippet": "Welcome to Cython!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cython"
+    },
+    {
+      "context_snippet": "Welcome to Cython!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "performance"
+    }
+  ]
+}

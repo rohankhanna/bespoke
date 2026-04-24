@@ -103,6 +103,54 @@
       "source_repo": "michalmuskala/jason",
       "status": "candidate-context",
       "text": "Elixir CI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dwyl/phoenix-todo-list-tutorial",
+      "status": "candidate-context",
+      "text": "\u2705 Complete beginners tutorial building a todo list from scratch in Phoenix 1.7 (latest)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dwyl/phoenix-todo-list-tutorial",
+      "status": "candidate-context",
+      "text": "Elixir CI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dwyl/elixir-auth-github",
+      "status": "candidate-context",
+      "text": ":octocat: Minimalist GitHub OAuth Authentication for Elixir Apps. Tested, Documented & Maintained. Setup in 5 mins. \ud83d\ude80"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dwyl/elixir-auth-github",
+      "status": "candidate-context",
+      "text": "Elixir CI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dwyl/elixir-auth-google",
+      "status": "candidate-context",
+      "text": "\ud83d\udc64Minimalist Google OAuth Authentication for Elixir Apps. Tested, Documented & Maintained. Setup in 5 mins. \ud83d\ude80"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dwyl/elixir-auth-google",
+      "status": "candidate-context",
+      "text": "Elixir CI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dwyl/email",
+      "status": "candidate-context",
+      "text": "\u2709\ufe0f email dashboard to track deliverability and engagement stats in our App \ud83d\udcc8"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dwyl/email",
+      "status": "candidate-context",
+      "text": "Elixir CI"
     }
   ],
   "candidate_glosses": [
@@ -151,6 +199,30 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "michalmuskala/jason",
+      "status": "candidate",
+      "text": "Elixir CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dwyl/phoenix-todo-list-tutorial",
+      "status": "candidate",
+      "text": "Elixir CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dwyl/elixir-auth-github",
+      "status": "candidate",
+      "text": "Elixir CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dwyl/elixir-auth-google",
+      "status": "candidate",
+      "text": "Elixir CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dwyl/email",
       "status": "candidate",
       "text": "Elixir CI"
     }
@@ -250,11 +322,41 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "michalmuskala/jason"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "dwyl/phoenix-todo-list-tutorial"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "dwyl/mvp"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "dwyl/elixir-auth-github"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "dwyl/elixir-auth-google"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "dwyl/email"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "lexical_providers": [
     "datamuse"
   ],

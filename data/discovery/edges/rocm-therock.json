@@ -1,0 +1,174 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_linux_jax_wheels.yml",
+      "source_repo": "ROCm/TheRock",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_linux_jax_wheels.yml",
+      "source_repo": "ROCm/TheRock",
+      "target": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_linux_jax_wheels.yml",
+      "source_repo": "ROCm/TheRock",
+      "target": "aws-actions/configure-aws-credentials@ec61189d14ec14c8efccab744f656cffd0e33f37",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_linux_jax_wheels.yml",
+      "source_repo": "ROCm/TheRock",
+      "target": "Build Portable Linux JAX Wheels",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_native_linux_packages.yml",
+      "source_repo": "ROCm/TheRock",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_native_linux_packages.yml",
+      "source_repo": "ROCm/TheRock",
+      "target": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_native_linux_packages.yml",
+      "source_repo": "ROCm/TheRock",
+      "target": "aws-actions/configure-aws-credentials@ec61189d14ec14c8efccab744f656cffd0e33f37",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_native_linux_packages.yml",
+      "source_repo": "ROCm/TheRock",
+      "target": "Build Native Linux Packages",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_portable_linux_artifacts.yml",
+      "source_repo": "ROCm/TheRock",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_portable_linux_artifacts.yml",
+      "source_repo": "ROCm/TheRock",
+      "target": "Build Portable Linux Artifacts",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_portable_linux_python_packages.yml",
+      "source_repo": "ROCm/TheRock",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_portable_linux_pytorch_wheels.yml",
+      "source_repo": "ROCm/TheRock",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_portable_linux_pytorch_wheels.yml",
+      "source_repo": "ROCm/TheRock",
+      "target": "aws-actions/configure-aws-credentials@ec61189d14ec14c8efccab744f656cffd0e33f37",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_portable_linux_pytorch_wheels.yml",
+      "source_repo": "ROCm/TheRock",
+      "target": "Build Portable Linux PyTorch Wheels",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_portable_linux_pytorch_wheels_ci.yml",
+      "source_repo": "ROCm/TheRock",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_portable_linux_pytorch_wheels_ci.yml",
+      "source_repo": "ROCm/TheRock",
+      "target": "aws-actions/configure-aws-credentials@ec61189d14ec14c8efccab744f656cffd0e33f37",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_portable_linux_pytorch_wheels_ci.yml",
+      "source_repo": "ROCm/TheRock",
+      "target": "Build Portable Linux PyTorch Wheels (CI)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_windows_artifacts.yml",
+      "source_repo": "ROCm/TheRock",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_windows_artifacts.yml",
+      "source_repo": "ROCm/TheRock",
+      "target": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_windows_artifacts.yml",
+      "source_repo": "ROCm/TheRock",
+      "target": "iterative/setup-dvc@4bdfd2b0f6f1ad7e08afadb03b1a895c352a5239",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_windows_artifacts.yml",
+      "source_repo": "ROCm/TheRock",
+      "target": "ilammy/msvc-dev-cmd@0b201ec74fa43914dc39ae48a89fd1d8cb592756",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_windows_artifacts.yml",
+      "source_repo": "ROCm/TheRock",
+      "target": "Build Windows Artifacts",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_windows_python_packages.yml",
+      "source_repo": "ROCm/TheRock",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_windows_python_packages.yml",
+      "source_repo": "ROCm/TheRock",
+      "target": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "target_type": "component"
+    }
+  ],
+  "generated_at": "2026-04-24T12:33:41.350224+00:00",
+  "source_repo": "ROCm/TheRock"
+}

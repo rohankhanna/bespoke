@@ -1,0 +1,209 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/R-CMD-check.yaml"
+    },
+    {
+      "component": "r-lib/actions/setup-pandoc@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/R-CMD-check.yaml"
+    },
+    {
+      "component": "r-lib/actions/setup-r@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/R-CMD-check.yaml"
+    },
+    {
+      "component": "r-lib/actions/setup-r-dependencies@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/R-CMD-check.yaml"
+    },
+    {
+      "component": "r-lib/actions/check-r-package@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/R-CMD-check.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pkgdown.yaml"
+    },
+    {
+      "component": "r-lib/actions/setup-pandoc@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pkgdown.yaml"
+    },
+    {
+      "component": "r-lib/actions/setup-r@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pkgdown.yaml"
+    },
+    {
+      "component": "r-lib/actions/setup-r-dependencies@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pkgdown.yaml"
+    },
+    {
+      "component": "JamesIves/github-pages-deploy-action@v4.5.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pkgdown.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "r-spatial/lwgeom",
+      "target": "postgis/postgis",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "r-spatial/lwgeom",
+      "target": "twkb/specification",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/R-CMD-check.yaml",
+      "source_repo": "r-spatial/lwgeom",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/R-CMD-check.yaml",
+      "source_repo": "r-spatial/lwgeom",
+      "target": "r-lib/actions/setup-pandoc@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/R-CMD-check.yaml",
+      "source_repo": "r-spatial/lwgeom",
+      "target": "r-lib/actions/setup-r@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/R-CMD-check.yaml",
+      "source_repo": "r-spatial/lwgeom",
+      "target": "r-lib/actions/setup-r-dependencies@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/R-CMD-check.yaml",
+      "source_repo": "r-spatial/lwgeom",
+      "target": "r-lib/actions/check-r-package@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/R-CMD-check.yaml",
+      "source_repo": "r-spatial/lwgeom",
+      "target": "R-CMD-check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pkgdown.yaml",
+      "source_repo": "r-spatial/lwgeom",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pkgdown.yaml",
+      "source_repo": "r-spatial/lwgeom",
+      "target": "r-lib/actions/setup-pandoc@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pkgdown.yaml",
+      "source_repo": "r-spatial/lwgeom",
+      "target": "r-lib/actions/setup-r@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pkgdown.yaml",
+      "source_repo": "r-spatial/lwgeom",
+      "target": "r-lib/actions/setup-r-dependencies@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pkgdown.yaml",
+      "source_repo": "r-spatial/lwgeom",
+      "target": "JamesIves/github-pages-deploy-action@v4.5.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pkgdown.yaml",
+      "source_repo": "r-spatial/lwgeom",
+      "target": "pkgdown",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T13:02:00.536537+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2451
+    },
+    {
+      "path": ".github/workflows/R-CMD-check.yaml",
+      "size": 1464
+    },
+    {
+      "path": ".github/workflows/pkgdown.yaml",
+      "size": 1301
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "bindings to the liblwgeom library",
+    "fork": false,
+    "full_name": "r-spatial/lwgeom",
+    "html_url": "https://github.com/r-spatial/lwgeom",
+    "language": "C",
+    "pushed_at": "2026-01-20T09:43:07Z",
+    "stargazers_count": 63,
+    "topics": [],
+    "updated_at": "2026-01-20T09:40:20Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "postgis/postgis",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "twkb/specification",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "R-CMD-check",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/R-CMD-check.yaml",
+      "term": "R-CMD-check"
+    },
+    {
+      "context_snippet": "pkgdown",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pkgdown.yaml",
+      "term": "pkgdown"
+    }
+  ]
+}

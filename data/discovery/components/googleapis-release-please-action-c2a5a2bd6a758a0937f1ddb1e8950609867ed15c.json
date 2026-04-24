@@ -1,12 +1,17 @@
 {
   "component": "googleapis/release-please-action@c2a5a2bd6a758a0937f1ddb1e8950609867ed15c",
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
-  "last_seen_at": "2026-04-18T11:24:14.688152+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/release-please.yml",
       "source_repo": "archestra-ai/terraform-provider-archestra"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release-please.yaml",
+      "source_repo": "a2aproject/a2a-go"
     }
   ]
 }

@@ -127,6 +127,42 @@
       "source_repo": "dotnet/source-build",
       "status": "candidate-context",
       "text": "Lint Code Base"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "a2aproject/a2a-inspector",
+      "status": "candidate-context",
+      "text": "Validation Tools for A2A Agents"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "a2aproject/a2a-inspector",
+      "status": "candidate-context",
+      "text": "Lint Code Base"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "a2aproject/a2a-python",
+      "status": "candidate-context",
+      "text": "Official Python SDK for the Agent2Agent (A2A) Protocol"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "a2aproject/a2a-python",
+      "status": "candidate-context",
+      "text": "Lint Code Base"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "GoogleChrome/web-vitals",
+      "status": "candidate-context",
+      "text": "Essential metrics for a healthy site."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GoogleChrome/web-vitals",
+      "status": "candidate-context",
+      "text": "Lint Code Base"
     }
   ],
   "candidate_glosses": [
@@ -187,6 +223,24 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "dotnet/source-build",
+      "status": "candidate",
+      "text": "Lint Code Base"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "a2aproject/a2a-inspector",
+      "status": "candidate",
+      "text": "Lint Code Base"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "a2aproject/a2a-python",
+      "status": "candidate",
+      "text": "Lint Code Base"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GoogleChrome/web-vitals",
       "status": "candidate",
       "text": "Lint Code Base"
     }
@@ -334,11 +388,29 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": ".github/workflows/lint.yaml",
       "source_repo": "php/frankenphp"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/linter.yaml",
+      "source_repo": "a2aproject/a2a-inspector"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/linter.yaml",
+      "source_repo": "a2aproject/a2a-python"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "GoogleChrome/web-vitals"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -43,6 +43,18 @@
       "source_repo": "akash-akya/vix",
       "status": "candidate-context",
       "text": "[![CI](https://github.com/akash-akya/vix/actions/workflows/ci.yaml/badge.svg)](https://github.com/akash-akya/vix/actions/workflows/ci.yaml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ninenines/cowboy",
+      "status": "candidate-context",
+      "text": "Small, fast, modern HTTP server for Erlang/OTP."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ninenines/cowboy",
+      "status": "candidate-context",
+      "text": "Check Cowboy"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "akash-akya/vix",
       "status": "candidate",
       "text": "[![CI](https://github.com/akash-akya/vix/actions/workflows/ci.yaml/badge.svg)](https://github.com/akash-akya/vix/actions/workflows/ci.yaml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ninenines/cowboy",
+      "status": "candidate",
+      "text": "Check Cowboy"
     }
   ],
   "candidate_related_terms": [
@@ -124,11 +142,17 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "akash-akya/vix"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "ninenines/cowboy"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "lexical_providers": [
     "datamuse"
   ],

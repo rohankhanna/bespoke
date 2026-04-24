@@ -1252,6 +1252,42 @@
       "source_repo": "fsspec/sshfs",
       "status": "candidate-context",
       "text": "Publish"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "spotify/annoy",
+      "status": "candidate-context",
+      "text": "Approximate Nearest Neighbors in C++/Python optimized for memory usage and loading/saving to disk"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "spotify/annoy",
+      "status": "candidate-context",
+      "text": "Publish"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "terser/html-minifier-terser",
+      "status": "candidate-context",
+      "text": "actively maintained fork of html-minifier - minify HTML, CSS and JS code using terser - supports ES6 code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "terser/html-minifier-terser",
+      "status": "candidate-context",
+      "text": "Publish"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "johan-v-r/LibSassBuilder",
+      "status": "candidate-context",
+      "text": "Sass builder for .NET projects"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "johan-v-r/LibSassBuilder",
+      "status": "candidate-context",
+      "text": "Publish"
     }
   ],
   "candidate_glosses": [
@@ -1876,6 +1912,24 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "fsspec/sshfs",
+      "status": "candidate",
+      "text": "Publish"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "spotify/annoy",
+      "status": "candidate",
+      "text": "Publish"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "terser/html-minifier-terser",
+      "status": "candidate",
+      "text": "Publish"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "johan-v-r/LibSassBuilder",
       "status": "candidate",
       "text": "Publish"
     }
@@ -2809,11 +2863,35 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": ".github/workflows/publish.yml",
       "source_repo": "fsspec/sshfs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "spotify/annoy"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "terser/html-minifier-terser"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/publish-nuget.yml",
+      "source_repo": "johan-v-r/LibSassBuilder"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "kurrent-io/KurrentDB-Client-Dotnet"
     }
   ],
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "lexical_providers": [
     "datamuse"
   ],

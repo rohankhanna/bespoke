@@ -1,0 +1,123 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "coverallsapp/github-action@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-docs.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-docs.yml"
+    },
+    {
+      "component": "peaceiris/actions-gh-pages@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-docs.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "dryruby/json-canonicalization",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "dryruby/json-canonicalization",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "dryruby/json-canonicalization",
+      "target": "coverallsapp/github-action@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-docs.yml",
+      "source_repo": "dryruby/json-canonicalization",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-docs.yml",
+      "source_repo": "dryruby/json-canonicalization",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-docs.yml",
+      "source_repo": "dryruby/json-canonicalization",
+      "target": "peaceiris/actions-gh-pages@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/generate-docs.yml",
+      "source_repo": "dryruby/json-canonicalization",
+      "target": "Build & deploy documentation",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T13:01:08.423762+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4132
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 1114
+    },
+    {
+      "path": ".github/workflows/generate-docs.yml",
+      "size": 710
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "develop",
+    "description": "An implementation of the JSON Canonicalization Scheme for Ruby",
+    "fork": false,
+    "full_name": "dryruby/json-canonicalization",
+    "html_url": "https://github.com/dryruby/json-canonicalization",
+    "language": "Ruby",
+    "pushed_at": "2023-12-08T02:30:15Z",
+    "stargazers_count": 8,
+    "topics": [],
+    "updated_at": "2024-10-29T01:00:01Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Build & deploy documentation",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/generate-docs.yml",
+      "term": "Build & deploy documentation"
+    }
+  ]
+}

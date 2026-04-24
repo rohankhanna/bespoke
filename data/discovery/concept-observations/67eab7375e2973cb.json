@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\ud83c\udf96\ufe0f\ud83c\udfa8 Instantly create custom badges for GitHub, docs, and more. Lightweight, self-hostable, with live integrations that keep badges always up to date. Elevate your projects in seconds!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[workspace] members = [\"app\", \"badgelib\"] resolver = \"3\" [profile.release] strip = true [profile.dev] debug = 0 strip = \"debuginfo\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[workspace] members = [\"app\", \"badgelib\"] resolver = \"3\" [profile.release] strip = true [profile.dev] debug = 0 strip = \"debuginfo\""
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "badges-markdown",
+      "sense_id": "badges-markdown#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "badges-markdown",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "badges-markdown",
+  "observation_id": "67eab7375e2973cb",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T12:33:41.350224+00:00",
+  "observed_text": "badges-markdown",
+  "source_context_snippet": "[workspace] members = [\"app\", \"badgelib\"] resolver = \"3\" [profile.release] strip = true [profile.dev] debug = 0 strip = \"debuginfo\"",
+  "source_file": null,
+  "source_repo": "vladkens/badges",
+  "source_repo_description": "\ud83c\udf96\ufe0f\ud83c\udfa8 Instantly create custom badges for GitHub, docs, and more. Lightweight, self-hostable, with live integrations that keep badges always up to date. Elevate your projects in seconds!"
+}

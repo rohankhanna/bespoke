@@ -1,0 +1,167 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ipfs/boxo",
+      "target": "filecoin-project/lotus",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ipfs/boxo",
+      "target": "ipfs/rainbow",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ipfs/boxo",
+      "target": "ipfs/ipfs-check",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ipfs/boxo",
+      "target": "ipfs/github-mgmt",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/changelog.yml",
+      "source_repo": "ipfs/boxo",
+      "target": "Changelog",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gateway-conformance.yml",
+      "source_repo": "ipfs/boxo",
+      "target": "ipfs/gateway-conformance/.github/actions/extract-fixtures@v0.13",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gateway-conformance.yml",
+      "source_repo": "ipfs/boxo",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gateway-conformance.yml",
+      "source_repo": "ipfs/boxo",
+      "target": "actions/setup-go@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gateway-conformance.yml",
+      "source_repo": "ipfs/boxo",
+      "target": "ipfs/gateway-conformance/.github/actions/test@v0.13",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gateway-conformance.yml",
+      "source_repo": "ipfs/boxo",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gateway-conformance.yml",
+      "source_repo": "ipfs/boxo",
+      "target": "Gateway Conformance",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gateway-sharness.yml",
+      "source_repo": "ipfs/boxo",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gateway-sharness.yml",
+      "source_repo": "ipfs/boxo",
+      "target": "actions/setup-go@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gateway-sharness.yml",
+      "source_repo": "ipfs/boxo",
+      "target": "Gateway Sharness",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generated-pr.yml",
+      "source_repo": "ipfs/boxo",
+      "target": "ipdxco/unified-github-workflows/.github/workflows/reusable-generated-pr.yml@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/generated-pr.yml",
+      "source_repo": "ipfs/boxo",
+      "target": "Close Generated PRs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go-check.yml",
+      "source_repo": "ipfs/boxo",
+      "target": "ipdxco/unified-github-workflows/.github/workflows/go-check.yml@v1.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/go-check.yml",
+      "source_repo": "ipfs/boxo",
+      "target": "Go Checks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go-test.yml",
+      "source_repo": "ipfs/boxo",
+      "target": "ipdxco/unified-github-workflows/.github/workflows/go-test.yml@v1.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/go-test.yml",
+      "source_repo": "ipfs/boxo",
+      "target": "Go Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-check.yml",
+      "source_repo": "ipfs/boxo",
+      "target": "ipdxco/unified-github-workflows/.github/workflows/release-check.yml@v1.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-check.yml",
+      "source_repo": "ipfs/boxo",
+      "target": "Release Checker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ipfs/boxo",
+      "target": "ipfs",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-24T12:33:41.350224+00:00",
+  "source_repo": "ipfs/boxo"
+}

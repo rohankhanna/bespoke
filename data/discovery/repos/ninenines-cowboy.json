@@ -1,0 +1,355 @@
+{
+  "components": [
+    {
+      "component": "ninenines/ci.erlang.mk/.github/workflows/ci.yaml@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "erlef/setup-beam@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "erlef/setup-beam@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "ninenines/cowboy",
+      "target": "ninenines/ci.erlang.mk/.github/workflows/ci.yaml@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "ninenines/cowboy",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "ninenines/cowboy",
+      "target": "erlef/setup-beam@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "ninenines/cowboy",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "ninenines/cowboy",
+      "target": "Check Cowboy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ninenines/cowboy",
+      "target": "cowboy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ninenines/cowboy",
+      "target": "erlang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ninenines/cowboy",
+      "target": "functional",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ninenines/cowboy",
+      "target": "high-performance",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ninenines/cowboy",
+      "target": "http",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ninenines/cowboy",
+      "target": "http-server",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ninenines/cowboy",
+      "target": "http2",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ninenines/cowboy",
+      "target": "http2-server",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ninenines/cowboy",
+      "target": "http3",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ninenines/cowboy",
+      "target": "http3-server",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ninenines/cowboy",
+      "target": "https",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ninenines/cowboy",
+      "target": "production-ready",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ninenines/cowboy",
+      "target": "rest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ninenines/cowboy",
+      "target": "web-framework",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ninenines/cowboy",
+      "target": "websocket",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ninenines/cowboy",
+      "target": "websocket-server",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ninenines/cowboy",
+      "target": "websockets",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ninenines/cowboy",
+      "target": "webtransport",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T12:59:54.144060+00:00",
+  "fetched_files": [
+    {
+      "path": ".github/workflows/ci.yaml",
+      "size": 1343
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Small, fast, modern HTTP server for Erlang/OTP.",
+    "fork": false,
+    "full_name": "ninenines/cowboy",
+    "html_url": "https://github.com/ninenines/cowboy",
+    "language": "Erlang",
+    "pushed_at": "2026-04-02T13:18:09Z",
+    "stargazers_count": 7487,
+    "topics": [
+      "cowboy",
+      "erlang",
+      "functional",
+      "high-performance",
+      "http",
+      "http-server",
+      "http2",
+      "http2-server",
+      "http3",
+      "http3-server",
+      "https",
+      "production-ready",
+      "rest",
+      "web",
+      "web-framework",
+      "websocket",
+      "websocket-server",
+      "websockets",
+      "webtransport"
+    ],
+    "updated_at": "2026-04-22T04:32:55Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Check Cowboy",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yaml",
+      "term": "Check Cowboy"
+    },
+    {
+      "context_snippet": "Check Cowboy",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cowboy"
+    },
+    {
+      "context_snippet": "Check Cowboy",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "erlang"
+    },
+    {
+      "context_snippet": "Check Cowboy",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "functional"
+    },
+    {
+      "context_snippet": "Check Cowboy",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "high-performance"
+    },
+    {
+      "context_snippet": "Check Cowboy",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "http"
+    },
+    {
+      "context_snippet": "Check Cowboy",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "http-server"
+    },
+    {
+      "context_snippet": "Check Cowboy",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "http2"
+    },
+    {
+      "context_snippet": "Check Cowboy",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "http2-server"
+    },
+    {
+      "context_snippet": "Check Cowboy",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "http3"
+    },
+    {
+      "context_snippet": "Check Cowboy",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "http3-server"
+    },
+    {
+      "context_snippet": "Check Cowboy",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "https"
+    },
+    {
+      "context_snippet": "Check Cowboy",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "production-ready"
+    },
+    {
+      "context_snippet": "Check Cowboy",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rest"
+    },
+    {
+      "context_snippet": "Check Cowboy",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "web-framework"
+    },
+    {
+      "context_snippet": "Check Cowboy",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "websocket"
+    },
+    {
+      "context_snippet": "Check Cowboy",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "websocket-server"
+    },
+    {
+      "context_snippet": "Check Cowboy",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "websockets"
+    },
+    {
+      "context_snippet": "Check Cowboy",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "webtransport"
+    }
+  ]
+}

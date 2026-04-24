@@ -140,6 +140,18 @@
       "source_repo": "msgpack/msgpack-javascript",
       "status": "candidate-context",
       "text": "Fuzz"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rust-bitcoin/rust-bitcoind-json-rpc",
+      "status": "candidate-context",
+      "text": "Support for Bitcoin Core's JSON-RPC API"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-bitcoin/rust-bitcoind-json-rpc",
+      "status": "candidate-context",
+      "text": "Fuzz"
     }
   ],
   "candidate_glosses": [
@@ -206,6 +218,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "msgpack/msgpack-javascript",
+      "status": "candidate",
+      "text": "Fuzz"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-bitcoin/rust-bitcoind-json-rpc",
       "status": "candidate",
       "text": "Fuzz"
     }
@@ -377,11 +395,17 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": ".github/workflows/fuzz.yml",
       "source_repo": "msgpack/msgpack-javascript"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/cron-daily-fuzz.yml",
+      "source_repo": "rust-bitcoin/rust-bitcoind-json-rpc"
     }
   ],
   "first_seen_at": "2026-04-19T17:36:09.281008+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "lexical_providers": [
     "datamuse"
   ],

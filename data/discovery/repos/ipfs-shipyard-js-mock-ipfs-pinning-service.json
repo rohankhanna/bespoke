@@ -1,0 +1,386 @@
+{
+  "components": [
+    {
+      "component": "body-parser",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "cors",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "express",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "js-yaml",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "morgan-body",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "oas-tools",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "yargs",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@semantic-release/changelog",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@semantic-release/commit-analyzer",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@semantic-release/git",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@semantic-release/github",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@semantic-release/npm",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@semantic-release/release-notes-generator",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/cors",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/express",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/yargs",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "conventional-changelog-conventionalcommits",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "semantic-release",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "typescript",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "ipdxco/unified-github-workflows/.github/workflows/reusable-generated-pr.yml@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generated-pr.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/setup-node@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/cache@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "gozala/typescript-error-reporter-action@v1.0.9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/cache@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "ipdxco/unified-github-workflows/.github/workflows/reusable-stale-issue.yml@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "ipfs-shipyard/js-mock-ipfs-pinning-service",
+      "target": "body-parser",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "ipfs-shipyard/js-mock-ipfs-pinning-service",
+      "target": "cors",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "ipfs-shipyard/js-mock-ipfs-pinning-service",
+      "target": "express",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "ipfs-shipyard/js-mock-ipfs-pinning-service",
+      "target": "js-yaml",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "ipfs-shipyard/js-mock-ipfs-pinning-service",
+      "target": "morgan-body",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "ipfs-shipyard/js-mock-ipfs-pinning-service",
+      "target": "oas-tools",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "ipfs-shipyard/js-mock-ipfs-pinning-service",
+      "target": "yargs",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ipfs-shipyard/js-mock-ipfs-pinning-service",
+      "target": "@semantic-release/changelog",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ipfs-shipyard/js-mock-ipfs-pinning-service",
+      "target": "@semantic-release/commit-analyzer",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ipfs-shipyard/js-mock-ipfs-pinning-service",
+      "target": "@semantic-release/git",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ipfs-shipyard/js-mock-ipfs-pinning-service",
+      "target": "@semantic-release/github",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ipfs-shipyard/js-mock-ipfs-pinning-service",
+      "target": "@semantic-release/npm",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ipfs-shipyard/js-mock-ipfs-pinning-service",
+      "target": "@semantic-release/release-notes-generator",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ipfs-shipyard/js-mock-ipfs-pinning-service",
+      "target": "@types/cors",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ipfs-shipyard/js-mock-ipfs-pinning-service",
+      "target": "@types/express",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ipfs-shipyard/js-mock-ipfs-pinning-service",
+      "target": "@types/yargs",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ipfs-shipyard/js-mock-ipfs-pinning-service",
+      "target": "conventional-changelog-conventionalcommits",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ipfs-shipyard/js-mock-ipfs-pinning-service",
+      "target": "semantic-release",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ipfs-shipyard/js-mock-ipfs-pinning-service",
+      "target": "typescript",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generated-pr.yml",
+      "source_repo": "ipfs-shipyard/js-mock-ipfs-pinning-service",
+      "target": "ipdxco/unified-github-workflows/.github/workflows/reusable-generated-pr.yml@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/generated-pr.yml",
+      "source_repo": "ipfs-shipyard/js-mock-ipfs-pinning-service",
+      "target": "Close Generated PRs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "ipfs-shipyard/js-mock-ipfs-pinning-service",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "ipfs-shipyard/js-mock-ipfs-pinning-service",
+      "target": "actions/setup-node@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "ipfs-shipyard/js-mock-ipfs-pinning-service",
+      "target": "actions/cache@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "ipfs-shipyard/js-mock-ipfs-pinning-service",
+      "target": "gozala/typescript-error-reporter-action@v1.0.9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "ipfs-shipyard/js-mock-ipfs-pinning-service",
+      "target": "ipdxco/unified-github-workflows/.github/workflows/reusable-stale-issue.yml@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "ipfs-shipyard/js-mock-ipfs-pinning-service",
+      "target": "Close Stale Issues",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T12:56:12.696730+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3816
+    },
+    {
+      "path": "package.json",
+      "size": 3727
+    },
+    {
+      "path": ".github/workflows/CODEOWNERS",
+      "size": 385
+    },
+    {
+      "path": ".github/workflows/generated-pr.yml",
+      "size": 246
+    },
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 2072
+    },
+    {
+      "path": ".github/workflows/stale.yml",
+      "size": 244
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Implementation of in-memory IPFS Pinning Service API",
+    "fork": false,
+    "full_name": "ipfs-shipyard/js-mock-ipfs-pinning-service",
+    "html_url": "https://github.com/ipfs-shipyard/js-mock-ipfs-pinning-service",
+    "language": "JavaScript",
+    "pushed_at": "2026-04-11T17:25:18Z",
+    "stargazers_count": 7,
+    "topics": [],
+    "updated_at": "2025-08-27T13:18:45Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Close Generated PRs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/generated-pr.yml",
+      "term": "Close Generated PRs"
+    },
+    {
+      "context_snippet": "Close Stale Issues",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "term": "Close Stale Issues"
+    }
+  ]
+}

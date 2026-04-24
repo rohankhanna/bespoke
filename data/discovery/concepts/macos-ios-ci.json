@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "macOS & iOS CI"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "BinomialLLC/KTX-Software-Binomial-Fork",
+      "status": "candidate-context",
+      "text": "Binomial's Fork of KTX-Software with Fixes/Improvements"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BinomialLLC/KTX-Software-Binomial-Fork",
+      "status": "candidate-context",
+      "text": "macOS & iOS CI"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BinomialLLC/KTX-Software-Binomial-Fork",
+      "status": "candidate",
+      "text": "macOS & iOS CI"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10076,
+      "status": "candidate",
+      "text": "android"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9254,
+      "status": "candidate",
+      "text": "linux"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 5050,
+      "status": "candidate",
+      "text": "windows"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 4190,
+      "status": "candidate",
+      "text": "version"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 4164,
+      "status": "candidate",
+      "text": "isle"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "macOS & iOS CI",
+  "concept_id": "macos-ios-ci",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/macos.yml",
+      "source_repo": "BinomialLLC/KTX-Software-Binomial-Fork"
+    }
+  ],
+  "first_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "macOS & iOS CI",
+      "sense_id": "macos-ios-ci#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

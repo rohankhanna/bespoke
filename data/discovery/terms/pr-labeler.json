@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -86,6 +86,11 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/labeler.yml",
       "source_repo": "folke/lazydev.nvim"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/labeler.yml",
+      "source_repo": "google-gemini/deprecated-generative-ai-python"
     }
   ],
   "term": "PR Labeler"

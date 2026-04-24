@@ -1,0 +1,172 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CesiumGS/3d-tiles",
+      "target": "3d-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CesiumGS/3d-tiles",
+      "target": "3d-tiles",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CesiumGS/3d-tiles",
+      "target": "geospatial",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CesiumGS/3d-tiles",
+      "target": "gltf",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CesiumGS/3d-tiles",
+      "target": "photogrammetry",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CesiumGS/3d-tiles",
+      "target": "point-cloud",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CesiumGS/3d-tiles",
+      "target": "spatial-data",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CesiumGS/3d-tiles",
+      "target": "specification",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CesiumGS/3d-tiles",
+      "target": "terrain",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CesiumGS/3d-tiles",
+      "target": "vector-data",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T13:02:48.669932+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4197
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Specification for streaming massive heterogeneous 3D geospatial datasets :earth_americas:",
+    "fork": false,
+    "full_name": "CesiumGS/3d-tiles",
+    "html_url": "https://github.com/CesiumGS/3d-tiles",
+    "language": "Batchfile",
+    "pushed_at": "2026-04-23T17:11:41Z",
+    "stargazers_count": 2444,
+    "topics": [
+      "3d-models",
+      "3d-tiles",
+      "geospatial",
+      "gis",
+      "gltf",
+      "ogc",
+      "photogrammetry",
+      "point-cloud",
+      "spatial-data",
+      "specification",
+      "terrain",
+      "vector-data"
+    ],
+    "updated_at": "2026-04-23T17:11:41Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "![](figures/3DTiles_light_color_small.png#gh-dark-mode-only)![](figures/3DTiles_dark_color_small.png#gh-light-mode-only)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "3d-models"
+    },
+    {
+      "context_snippet": "![](figures/3DTiles_light_color_small.png#gh-dark-mode-only)![](figures/3DTiles_dark_color_small.png#gh-light-mode-only)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "3d-tiles"
+    },
+    {
+      "context_snippet": "![](figures/3DTiles_light_color_small.png#gh-dark-mode-only)![](figures/3DTiles_dark_color_small.png#gh-light-mode-only)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "geospatial"
+    },
+    {
+      "context_snippet": "![](figures/3DTiles_light_color_small.png#gh-dark-mode-only)![](figures/3DTiles_dark_color_small.png#gh-light-mode-only)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gltf"
+    },
+    {
+      "context_snippet": "![](figures/3DTiles_light_color_small.png#gh-dark-mode-only)![](figures/3DTiles_dark_color_small.png#gh-light-mode-only)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "photogrammetry"
+    },
+    {
+      "context_snippet": "![](figures/3DTiles_light_color_small.png#gh-dark-mode-only)![](figures/3DTiles_dark_color_small.png#gh-light-mode-only)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "point-cloud"
+    },
+    {
+      "context_snippet": "![](figures/3DTiles_light_color_small.png#gh-dark-mode-only)![](figures/3DTiles_dark_color_small.png#gh-light-mode-only)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "spatial-data"
+    },
+    {
+      "context_snippet": "![](figures/3DTiles_light_color_small.png#gh-dark-mode-only)![](figures/3DTiles_dark_color_small.png#gh-light-mode-only)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "specification"
+    },
+    {
+      "context_snippet": "![](figures/3DTiles_light_color_small.png#gh-dark-mode-only)![](figures/3DTiles_dark_color_small.png#gh-light-mode-only)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "terrain"
+    },
+    {
+      "context_snippet": "![](figures/3DTiles_light_color_small.png#gh-dark-mode-only)![](figures/3DTiles_dark_color_small.png#gh-light-mode-only)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vector-data"
+    }
+  ]
+}

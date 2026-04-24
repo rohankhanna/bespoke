@@ -379,6 +379,102 @@
       "source_repo": "xavierpuigf/virtualhome",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Gen-Verse/Open-AgentRL",
+      "status": "candidate-context",
+      "text": "RLAnything & DemyAgent: General and scalable agentic RL algorithms across terminal, GUI, SWE, and tool-call settings"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Gen-Verse/Open-AgentRL",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "xlang-ai/OSWorld",
+      "status": "candidate-context",
+      "text": "[NeurIPS 2024] OSWorld: Benchmarking Multimodal Agents for Open-Ended Tasks in Real Computer Environments"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xlang-ai/OSWorld",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ikostrikov/jaxrl",
+      "status": "candidate-context",
+      "text": "JAX (Flax) implementation of algorithms for Deep Reinforcement Learning with continuous action spaces. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ikostrikov/jaxrl",
+      "status": "candidate-context",
+      "text": "[![DOI](https://zenodo.org/badge/330059679.svg)](https://zenodo.org/badge/latestdoi/330059679)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Denys88/rl_games",
+      "status": "candidate-context",
+      "text": "RL implementations"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Denys88/rl_games",
+      "status": "candidate-context",
+      "text": "**Note:** The next release will be 2.0.0 (unreleased). It migrates fully from `gym` to `gymnasium`. EnvPool support has been restored with the new envpool 1.1.1 (Python 3.11\u20133.14, NumPy 2.x, MuJoCo 3.x compatible)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google-deepmind/dm_env",
+      "status": "candidate-context",
+      "text": "A Python interface for reinforcement learning environments"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google-deepmind/dm_env",
+      "status": "candidate-context",
+      "text": "![PyPI Python version](https://img.shields.io/pypi/pyversions/dm-env)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "araffin/rl-tutorial-jnrr19",
+      "status": "candidate-context",
+      "text": "Stable-Baselines tutorial for Journ\u00e9es Nationales de la Recherche en Robotique 2019 "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "araffin/rl-tutorial-jnrr19",
+      "status": "candidate-context",
+      "text": "Stable-Baselines reinforcement learning tutorial for Journ\u00e9es Nationales de la Recherche en Robotique 2019."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "DLR-RM/rl-baselines3-zoo",
+      "status": "candidate-context",
+      "text": "A training framework for Stable Baselines3 reinforcement learning agents, with hyperparameter optimization and pre-trained agents included."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DLR-RM/rl-baselines3-zoo",
+      "status": "candidate-context",
+      "text": "<!-- [![pipeline status](https://gitlab.com/araffin/rl-baselines3-zoo/badges/master/pipeline.svg)](https://gitlab.com/araffin/rl-baselines3-zoo/-/commits/master) -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hill-a/stable-baselines",
+      "status": "candidate-context",
+      "text": "A fork of OpenAI Baselines, implementations of reinforcement learning algorithms"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hill-a/stable-baselines",
+      "status": "candidate-context",
+      "text": "**WARNING: This package is in maintenance mode, please use [Stable-Baselines3 (SB3)](https://github.com/DLR-RM/stable-baselines3) for an up-to-date version. You can find a [migration guide](https://stable-baselines3.readthedocs.io/en/master/guide/migration.html) in SB3 documenta\u2026"
     }
   ],
   "candidate_glosses": [
@@ -567,6 +663,54 @@
       "source_repo": "xavierpuigf/virtualhome",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Gen-Verse/Open-AgentRL",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xlang-ai/OSWorld",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ikostrikov/jaxrl",
+      "status": "candidate",
+      "text": "[![DOI](https://zenodo.org/badge/330059679.svg)](https://zenodo.org/badge/latestdoi/330059679)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Denys88/rl_games",
+      "status": "candidate",
+      "text": "**Note:** The next release will be 2.0.0 (unreleased). It migrates fully from `gym` to `gymnasium`. EnvPool support has been restored with the new envpool 1.1.1 (Python 3.11\u20133.14, NumPy 2.x, MuJoCo 3.x compatible)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google-deepmind/dm_env",
+      "status": "candidate",
+      "text": "![PyPI Python version](https://img.shields.io/pypi/pyversions/dm-env)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "araffin/rl-tutorial-jnrr19",
+      "status": "candidate",
+      "text": "Stable-Baselines reinforcement learning tutorial for Journ\u00e9es Nationales de la Recherche en Robotique 2019."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DLR-RM/rl-baselines3-zoo",
+      "status": "candidate",
+      "text": "<!-- [![pipeline status](https://gitlab.com/araffin/rl-baselines3-zoo/badges/master/pipeline.svg)](https://gitlab.com/araffin/rl-baselines3-zoo/-/commits/master) -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hill-a/stable-baselines",
+      "status": "candidate",
+      "text": "**WARNING: This package is in maintenance mode, please use [Stable-Baselines3 (SB3)](https://github.com/DLR-RM/stable-baselines3) for an up-to-date version. You can find a [migration guide](https://stable-baselines3.readthedocs.io/en/master/guide/migration.html) in SB3 documenta\u2026"
     }
   ],
   "candidate_related_terms": [],
@@ -802,11 +946,71 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "xavierpuigf/virtualhome"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "Gen-Verse/Open-AgentRL"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "xlang-ai/OSWorld"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "ikostrikov/jaxrl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "Farama-Foundation/PettingZoo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "Denys88/rl_games"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/acme"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/dm_env"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "araffin/rl-tutorial-jnrr19"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "DLR-RM/rl-baselines3-zoo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "hill-a/stable-baselines"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "lexical_providers": [
     "datamuse"
   ],

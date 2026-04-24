@@ -1,0 +1,338 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/changelog.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/changelog.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/geo-data.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/geo-data.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/geo-data.yml"
+    },
+    {
+      "component": "peter-evans/create-pull-request@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/geo-data.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/modules.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/modules.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/modules.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/slash_commands.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/slash_commands.yml"
+    },
+    {
+      "component": "actions/stale@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/changelog.yml",
+      "source_repo": "octodns/octodns",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/changelog.yml",
+      "source_repo": "octodns/octodns",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/changelog.yml",
+      "source_repo": "octodns/octodns",
+      "target": "OctoDNS Changelog",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/geo-data.yml",
+      "source_repo": "octodns/octodns",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/geo-data.yml",
+      "source_repo": "octodns/octodns",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/geo-data.yml",
+      "source_repo": "octodns/octodns",
+      "target": "peter-evans/create-pull-request@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "octodns/octodns",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "octodns/octodns",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "octodns/octodns",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "octodns/octodns",
+      "target": "OctoDNS",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/modules.yml",
+      "source_repo": "octodns/octodns",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/modules.yml",
+      "source_repo": "octodns/octodns",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/modules.yml",
+      "source_repo": "octodns/octodns",
+      "target": "OctoDNS Modules",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/slash_commands.yml",
+      "source_repo": "octodns/octodns",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/slash_commands.yml",
+      "source_repo": "octodns/octodns",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/slash_commands.yml",
+      "source_repo": "octodns/octodns",
+      "target": "Slash Command Action",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "octodns/octodns",
+      "target": "actions/stale@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "octodns/octodns",
+      "target": "Close stale issues and PRs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "octodns/octodns",
+      "target": "infrastructure-as-code",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "octodns/octodns",
+      "target": "workflow",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T12:55:44.127998+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2532
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 320
+    },
+    {
+      "path": "requirements.txt",
+      "size": 2953
+    },
+    {
+      "path": ".github/workflows/changelog.yml",
+      "size": 591
+    },
+    {
+      "path": ".github/workflows/geo-data.yml",
+      "size": 1716
+    },
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 2027
+    },
+    {
+      "path": ".github/workflows/modules.yml",
+      "size": 2008
+    },
+    {
+      "path": ".github/workflows/slash_commands.yml",
+      "size": 2417
+    },
+    {
+      "path": ".github/workflows/stale.yml",
+      "size": 524
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Tools for managing DNS across multiple providers",
+    "fork": false,
+    "full_name": "octodns/octodns",
+    "html_url": "https://github.com/octodns/octodns",
+    "language": "Python",
+    "pushed_at": "2026-04-23T01:42:56Z",
+    "stargazers_count": 3683,
+    "topics": [
+      "dns",
+      "infrastructure-as-code",
+      "workflow"
+    ],
+    "updated_at": "2026-04-22T23:56:34Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "OctoDNS Changelog",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/changelog.yml",
+      "term": "OctoDNS Changelog"
+    },
+    {
+      "context_snippet": "OctoDNS",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "term": "OctoDNS"
+    },
+    {
+      "context_snippet": "OctoDNS Modules",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/modules.yml",
+      "term": "OctoDNS Modules"
+    },
+    {
+      "context_snippet": "Slash Command Action",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/slash_commands.yml",
+      "term": "Slash Command Action"
+    },
+    {
+      "context_snippet": "'Close stale issues and PRs'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "term": "Close stale issues and PRs"
+    },
+    {
+      "context_snippet": "<img src=\"https://raw.githubusercontent.com/octodns/octodns/main/docs/assets/octodns-logo.png?\" alt=\"octoDNS Logo\" height=251 width=404>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "infrastructure-as-code"
+    },
+    {
+      "context_snippet": "<img src=\"https://raw.githubusercontent.com/octodns/octodns/main/docs/assets/octodns-logo.png?\" alt=\"octoDNS Logo\" height=251 width=404>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "workflow"
+    }
+  ]
+}

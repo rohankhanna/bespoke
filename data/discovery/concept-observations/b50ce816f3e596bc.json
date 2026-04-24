@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Common utilities for wreq"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "A collection of utilities to do common things with [wreq](https://github.com/0x676e67/wreq)."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "A collection of utilities to do common things with [wreq](https://github.com/0x676e67/wreq)."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "tower-http",
+      "sense_id": "tower-http#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "tower-http",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "tower-http",
+  "observation_id": "b50ce816f3e596bc",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T12:33:41.350224+00:00",
+  "observed_text": "tower-http",
+  "source_context_snippet": "A collection of utilities to do common things with [wreq](https://github.com/0x676e67/wreq).",
+  "source_file": null,
+  "source_repo": "0x676e67/wreq-util",
+  "source_repo_description": "Common utilities for wreq"
+}

@@ -755,6 +755,54 @@
       "source_repo": "fsspec/sshfs",
       "status": "candidate-context",
       "text": "pre-commit"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "TransferQueue/TransferQueue",
+      "status": "candidate-context",
+      "text": "[Archived] For the latest updates and community contribution, please visit: https://github.com/Ascend/TransferQueue or https://gitcode.com/Ascend/TransferQueue"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TransferQueue/TransferQueue",
+      "status": "candidate-context",
+      "text": "pre-commit"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "redai-infra/TransferQueue",
+      "status": "candidate-context",
+      "text": "This is the official **live** mirror of https://gitcode.com/Ascend/TransferQueue. Feel free to contribute!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "redai-infra/TransferQueue",
+      "status": "candidate-context",
+      "text": "pre-commit"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ROCm/ROCgdb",
+      "status": "candidate-context",
+      "text": "This is ROCgdb, the ROCm source-level debugger for Linux, based on GDB, the GNU source-level debugger."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ROCm/ROCgdb",
+      "status": "candidate-context",
+      "text": "pre-commit"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "HabanaAI/vllm-fork",
+      "status": "candidate-context",
+      "text": "A high-throughput and memory-efficient inference and serving engine for LLMs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HabanaAI/vllm-fork",
+      "status": "candidate-context",
+      "text": "pre-commit"
     }
   ],
   "candidate_glosses": [
@@ -1127,6 +1175,30 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "fsspec/sshfs",
+      "status": "candidate",
+      "text": "pre-commit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TransferQueue/TransferQueue",
+      "status": "candidate",
+      "text": "pre-commit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "redai-infra/TransferQueue",
+      "status": "candidate",
+      "text": "pre-commit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ROCm/ROCgdb",
+      "status": "candidate",
+      "text": "pre-commit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HabanaAI/vllm-fork",
       "status": "candidate",
       "text": "pre-commit"
     }
@@ -1622,11 +1694,41 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": ".github/workflows/pre-commit.yml",
       "source_repo": "fsspec/sshfs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "OpenHands/ToM-SWE"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "TransferQueue/TransferQueue"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "redai-infra/TransferQueue"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "ROCm/ROCgdb"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "HabanaAI/vllm-fork"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "lexical_providers": [
     "datamuse"
   ],

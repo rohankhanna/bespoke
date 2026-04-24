@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "jdbc connector tests"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "prestodb/presto",
+      "status": "candidate-context",
+      "text": "The official home of the Presto distributed SQL query engine for big data"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "prestodb/presto",
+      "status": "candidate-context",
+      "text": "jdbc connector tests"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "prestodb/presto",
+      "status": "candidate",
+      "text": "jdbc connector tests"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18254,
+      "status": "candidate",
+      "text": "car"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10154,
+      "status": "candidate",
+      "text": "direct"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10154,
+      "status": "candidate",
+      "text": "dos"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10154,
+      "status": "candidate",
+      "text": "handler"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10154,
+      "status": "candidate",
+      "text": "proposal"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "jdbc connector tests",
+  "concept_id": "jdbc-connector-tests",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/jdbc-connector-tests.yml",
+      "source_repo": "prestodb/presto"
+    }
+  ],
+  "first_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "jdbc connector tests",
+      "sense_id": "jdbc-connector-tests#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -380,6 +380,42 @@
       "source_repo": "HKUDS/LightRAG",
       "status": "candidate-context",
       "text": "\"Copilot Setup Steps\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "enola-dev/enola",
+      "status": "candidate-context",
+      "text": "Enola \ud83d\udd75\ud83c\udffe\u200d\u2640\ufe0f Holmes was an SRE."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "enola-dev/enola",
+      "status": "candidate-context",
+      "text": "\"Copilot Setup Steps\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "a2aproject/a2a-dotnet",
+      "status": "candidate-context",
+      "text": "C#/.NET SDK for A2A Protocol"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "a2aproject/a2a-dotnet",
+      "status": "candidate-context",
+      "text": "\"Copilot Setup Steps\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "executablebooks/MyST-Parser",
+      "status": "candidate-context",
+      "text": "An extended commonmark compliant parser, with bridges to docutils/sphinx"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "executablebooks/MyST-Parser",
+      "status": "candidate-context",
+      "text": "Copilot Setup Steps"
     }
   ],
   "candidate_glosses": [
@@ -568,6 +604,24 @@
       "source_repo": "HKUDS/LightRAG",
       "status": "candidate",
       "text": "\"Copilot Setup Steps\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "enola-dev/enola",
+      "status": "candidate",
+      "text": "\"Copilot Setup Steps\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "a2aproject/a2a-dotnet",
+      "status": "candidate",
+      "text": "\"Copilot Setup Steps\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "executablebooks/MyST-Parser",
+      "status": "candidate",
+      "text": "Copilot Setup Steps"
     }
   ],
   "candidate_related_terms": [
@@ -809,11 +863,29 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": ".github/workflows/copilot-setup-steps.yml",
       "source_repo": "HKUDS/LightRAG"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/copilot-setup-steps.yml",
+      "source_repo": "enola-dev/enola"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/copilot-setup-steps.yml",
+      "source_repo": "a2aproject/a2a-dotnet"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/copilot-setup-steps.yml",
+      "source_repo": "executablebooks/MyST-Parser"
     }
   ],
   "first_seen_at": "2026-04-18T11:32:22.637859+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "lexical_providers": [
     "datamuse"
   ],

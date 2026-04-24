@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\u26a1 Serverless Framework \u2013 Effortlessly build apps that auto-scale, incur zero costs when idle, and require minimal maintenance using AWS Lambda and other managed cloud services."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "'CI: Binary Installer'"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "'CI: Binary Installer'"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10915,
+      "status": "candidate",
+      "text": "bits"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10915,
+      "status": "candidate",
+      "text": "field"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10915,
+      "status": "candidate",
+      "text": "port"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10915,
+      "status": "candidate",
+      "text": "ports"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10854,
+      "status": "candidate",
+      "text": "algebra"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "CI: Binary Installer",
+      "sense_id": "ci-binary-installer#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "ci-binary-installer",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "ci-binary-installer",
+  "observation_id": "6c27784d67270177",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-24T12:33:41.350224+00:00",
+  "observed_text": "CI: Binary Installer",
+  "source_context_snippet": "'CI: Binary Installer'",
+  "source_file": ".github/workflows/ci-binary-installer.yml",
+  "source_repo": "serverless/serverless",
+  "source_repo_description": "\u26a1 Serverless Framework \u2013 Effortlessly build apps that auto-scale, incur zero costs when idle, and require minimal maintenance using AWS Lambda and other managed cloud services."
+}

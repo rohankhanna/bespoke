@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-24T12:47:03.162588+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4007
+    },
+    {
+      "path": "Dockerfile",
+      "size": 722
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Given a point on map, using CuSpatial, Cugraph to create a polygon (N minutes apart), and analyze all points within",
+    "fork": false,
+    "full_name": "AjayThorve/Spatial-Analytics-Viz",
+    "html_url": "https://github.com/AjayThorve/Spatial-Analytics-Viz",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2021-08-04T01:03:04Z",
+    "stargazers_count": 7,
+    "topics": [],
+    "updated_at": "2025-07-19T23:07:03Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

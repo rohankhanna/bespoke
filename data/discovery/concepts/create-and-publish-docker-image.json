@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "Create and publish Docker image"
+    "Create and publish Docker image",
+    "Create and publish docker image"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -19,6 +20,18 @@
       "source_repo": "sigstore/rekor-tiles",
       "status": "candidate-context",
       "text": "Create and publish Docker image"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "TabbyML/tabby",
+      "status": "candidate-context",
+      "text": "Self-hosted AI coding assistant"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TabbyML/tabby",
+      "status": "candidate-context",
+      "text": "Create and publish docker image"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +40,12 @@
       "source_repo": "sigstore/rekor-tiles",
       "status": "candidate",
       "text": "Create and publish Docker image"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TabbyML/tabby",
+      "status": "candidate",
+      "text": "Create and publish docker image"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +95,17 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": ".github/workflows/build_container.yml",
       "source_repo": "sigstore/rekor-tiles"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "TabbyML/tabby"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "lexical_providers": [
     "datamuse"
   ],

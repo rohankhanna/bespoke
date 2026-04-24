@@ -135,27 +135,6 @@
       "target_type": "repository"
     },
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "beehive-lab/TornadoVM",
-      "target": "beehive-lab/gpullama3.java",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "beehive-lab/TornadoVM",
-      "target": "beehive-lab/kfusion-tornadovm",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "beehive-lab/TornadoVM",
-      "target": "vinhixus/tornadovm-ray-tracer",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/1-prepare-release-jdk21.yml",
       "source_repo": "beehive-lab/TornadoVM",
@@ -324,7 +303,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-23T22:02:52.367652+00:00",
+  "fetched_at": "2026-04-24T13:02:23.626339+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -377,7 +356,7 @@
     "html_url": "https://github.com/beehive-lab/TornadoVM",
     "language": "Java",
     "pushed_at": "2026-04-16T10:18:03Z",
-    "stargazers_count": 1448,
+    "stargazers_count": 1449,
     "topics": [
       "ai",
       "cuda",
@@ -393,27 +372,12 @@
       "parallel-programming",
       "spirv"
     ],
-    "updated_at": "2026-04-22T11:40:29Z"
+    "updated_at": "2026-04-24T09:53:05Z"
   },
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
       "full_name": "beehive-lab/docker-tornado",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "beehive-lab/gpullama3.java",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "beehive-lab/kfusion-tornadovm",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "vinhixus/tornadovm-ray-tracer",
       "source_file": "README.md"
     }
   ],

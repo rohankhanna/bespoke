@@ -721,6 +721,18 @@
       "source_repo": "donnemartin/saws",
       "status": "candidate-context",
       "text": "![](http://i.imgur.com/vzC5zmA.gif)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "engineer-man/piston",
+      "status": "candidate-context",
+      "text": "A high performance general purpose code execution engine."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "engineer-man/piston",
+      "status": "candidate-context",
+      "text": "{ \"devDependencies\": { \"prettier\": \"2.4.1\" } }"
     }
   ],
   "candidate_glosses": [
@@ -1077,6 +1089,12 @@
       "source_repo": "donnemartin/saws",
       "status": "candidate",
       "text": "![](http://i.imgur.com/vzC5zmA.gif)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "engineer-man/piston",
+      "status": "candidate",
+      "text": "{ \"devDependencies\": { \"prettier\": \"2.4.1\" } }"
     }
   ],
   "candidate_related_terms": [
@@ -1636,11 +1654,23 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "donnemartin/saws"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "engineer-man/piston"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "nvm-sh/nvm"
     }
   ],
   "first_seen_at": "2026-04-18T13:15:13.756138+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,106 @@
+{
+  "components": [
+    {
+      "component": "purcell/setup-emacs@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jcollard/elm-mode",
+      "target": "elm-tooling/elm-language-server",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jcollard/elm-mode",
+      "target": "joaotavora/eglot",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jcollard/elm-mode",
+      "target": "avh4/elm-format",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jcollard/elm-mode",
+      "target": "rtfeldman/node-test-runner",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "jcollard/elm-mode",
+      "target": "purcell/setup-emacs@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "jcollard/elm-mode",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-24T13:05:33.863005+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8422
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 499
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Elm mode for emacs",
+    "fork": false,
+    "full_name": "jcollard/elm-mode",
+    "html_url": "https://github.com/jcollard/elm-mode",
+    "language": "Emacs Lisp",
+    "pushed_at": "2025-04-01T09:15:09Z",
+    "stargazers_count": 379,
+    "topics": [],
+    "updated_at": "2026-04-10T18:43:53Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "avh4/elm-format",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "elm-tooling/elm-language-server",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "joaotavora/eglot",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rtfeldman/node-test-runner",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -1,0 +1,63 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "achembarpu/pockyt",
+      "target": "command-line-tool",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "achembarpu/pockyt",
+      "target": "getpocket",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T12:54:43.398039+00:00",
+  "fetched_files": [
+    {
+      "path": "README.rst",
+      "size": 5989
+    },
+    {
+      "path": "requirements.txt",
+      "size": 21
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Automate & manage your Pocket.com collection.",
+    "fork": false,
+    "full_name": "achembarpu/pockyt",
+    "html_url": "https://github.com/achembarpu/pockyt",
+    "language": "Python",
+    "pushed_at": "2024-04-25T08:43:14Z",
+    "stargazers_count": 501,
+    "topics": [
+      "command-line-tool",
+      "getpocket",
+      "python"
+    ],
+    "updated_at": "2026-03-02T02:01:54Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "======",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "command-line-tool"
+    },
+    {
+      "context_snippet": "======",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "getpocket"
+    }
+  ]
+}

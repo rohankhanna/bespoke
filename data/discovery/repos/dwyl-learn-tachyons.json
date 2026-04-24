@@ -1,0 +1,70 @@
+{
+  "components": [
+    {
+      "component": "live-server",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dwyl/learn-tachyons",
+      "target": "tachyons-css/tachyons",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dwyl/learn-tachyons",
+      "target": "tachyons-css/tachyons-display-verbose",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "dwyl/learn-tachyons",
+      "target": "live-server",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-24T13:00:24.118552+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 35124
+    },
+    {
+      "path": "package.json",
+      "size": 736
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": ":heart_eyes: Learn how to use Tachyons to craft beautiful, responsive and fast UI with functional CSS!",
+    "fork": false,
+    "full_name": "dwyl/learn-tachyons",
+    "html_url": "https://github.com/dwyl/learn-tachyons",
+    "language": "HTML",
+    "pushed_at": "2021-12-13T00:53:22Z",
+    "stargazers_count": 678,
+    "topics": [],
+    "updated_at": "2026-02-08T14:13:37Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tachyons-css/tachyons",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tachyons-css/tachyons-display-verbose",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

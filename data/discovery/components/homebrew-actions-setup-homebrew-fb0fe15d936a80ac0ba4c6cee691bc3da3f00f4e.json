@@ -1,0 +1,42 @@
+{
+  "component": "Homebrew/actions/setup-homebrew@fb0fe15d936a80ac0ba4c6cee691bc3da3f00f4e",
+  "first_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/integration-test.yml",
+      "source_repo": "grafana/k8s-monitoring-helm"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/platform-test.yml",
+      "source_repo": "grafana/k8s-monitoring-helm"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release-v1.yml",
+      "source_repo": "grafana/k8s-monitoring-helm"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "grafana/k8s-monitoring-helm"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test-release.yml",
+      "source_repo": "grafana/k8s-monitoring-helm"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test-v1.yml",
+      "source_repo": "grafana/k8s-monitoring-helm"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/unit-test.yml",
+      "source_repo": "grafana/k8s-monitoring-helm"
+    }
+  ]
+}

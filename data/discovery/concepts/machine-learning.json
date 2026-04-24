@@ -1705,6 +1705,90 @@
       "source_repo": "EvolvingLMMs-Lab/Otter",
       "status": "candidate-context",
       "text": "<p align=\"center\" width=\"100%\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AceCHQ/MMIQ",
+      "status": "candidate-context",
+      "text": "This repo contains evaluation code for MM-IQ benchmark."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AceCHQ/MMIQ",
+      "status": "candidate-context",
+      "text": "[**\ud83c\udf10 Homepage**](https://acechq.github.io/MMIQ-benchmark/) | [**\ud83c\udfc6 Leaderboard**](https://acechq.github.io/MMIQ-benchmark/#leaderboard) | [**\ud83e\udd17 MM-IQ**](https://huggingface.co/datasets/huanqia/MM-IQ) | [**\ud83d\udcd6 MM-IQ Paper**](https://arxiv.org/pdf/2502.00698)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google-deepmind/dm_env",
+      "status": "candidate-context",
+      "text": "A Python interface for reinforcement learning environments"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google-deepmind/dm_env",
+      "status": "candidate-context",
+      "text": "![PyPI Python version](https://img.shields.io/pypi/pyversions/dm-env)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hill-a/stable-baselines",
+      "status": "candidate-context",
+      "text": "A fork of OpenAI Baselines, implementations of reinforcement learning algorithms"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hill-a/stable-baselines",
+      "status": "candidate-context",
+      "text": "**WARNING: This package is in maintenance mode, please use [Stable-Baselines3 (SB3)](https://github.com/DLR-RM/stable-baselines3) for an up-to-date version. You can find a [migration guide](https://stable-baselines3.readthedocs.io/en/master/guide/migration.html) in SB3 documenta\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "logpai/Drain3",
+      "status": "candidate-context",
+      "text": "A robust streaming log template miner based on the Drain algorithm"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "logpai/Drain3",
+      "status": "candidate-context",
+      "text": "Drain3 was moved to the `logpai` GitHub organization (which is also the home for the original Drain implementation). We always welcome more contributors and maintainers to join us and push the project forward. We welcome more contributions and variants of implementations if you \u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ROCm/MIVisionX",
+      "status": "candidate-context",
+      "text": "MIVisionX toolkit is a set of comprehensive computer vision and machine intelligence libraries, utilities, and applications bundled into a single toolkit. AMD MIVisionX also delivers a highly optimized open-source implementation of the Khronos OpenVX\u2122 and OpenVX\u2122 Extensions."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ROCm/MIVisionX",
+      "status": "candidate-context",
+      "text": "[![MIT licensed](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fugue-project/fugue",
+      "status": "candidate-context",
+      "text": "A unified interface for distributed computing. Fugue executes SQL, Python, Pandas, and Polars code on Spark, Dask and Ray without any rewrites."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fugue-project/fugue",
+      "status": "candidate-context",
+      "text": "[![PyPI version](https://badge.fury.io/py/fugue.svg)](https://pypi.python.org/pypi/fugue/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cgnorthcutt/confidentlearning-reproduce",
+      "status": "candidate-context",
+      "text": "Official data release to reproduce Confident Learning paper results"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cgnorthcutt/confidentlearning-reproduce",
+      "status": "candidate-context",
+      "text": "Experimental data for reproducibility of CIFAR-10 experimental results in the [confident learning paper](https://arxiv.org/abs/1911.00068)."
     }
   ],
   "candidate_glosses": [
@@ -2553,6 +2637,48 @@
       "source_repo": "EvolvingLMMs-Lab/Otter",
       "status": "candidate",
       "text": "<p align=\"center\" width=\"100%\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AceCHQ/MMIQ",
+      "status": "candidate",
+      "text": "[**\ud83c\udf10 Homepage**](https://acechq.github.io/MMIQ-benchmark/) | [**\ud83c\udfc6 Leaderboard**](https://acechq.github.io/MMIQ-benchmark/#leaderboard) | [**\ud83e\udd17 MM-IQ**](https://huggingface.co/datasets/huanqia/MM-IQ) | [**\ud83d\udcd6 MM-IQ Paper**](https://arxiv.org/pdf/2502.00698)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google-deepmind/dm_env",
+      "status": "candidate",
+      "text": "![PyPI Python version](https://img.shields.io/pypi/pyversions/dm-env)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hill-a/stable-baselines",
+      "status": "candidate",
+      "text": "**WARNING: This package is in maintenance mode, please use [Stable-Baselines3 (SB3)](https://github.com/DLR-RM/stable-baselines3) for an up-to-date version. You can find a [migration guide](https://stable-baselines3.readthedocs.io/en/master/guide/migration.html) in SB3 documenta\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "logpai/Drain3",
+      "status": "candidate",
+      "text": "Drain3 was moved to the `logpai` GitHub organization (which is also the home for the original Drain implementation). We always welcome more contributors and maintainers to join us and push the project forward. We welcome more contributions and variants of implementations if you \u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ROCm/MIVisionX",
+      "status": "candidate",
+      "text": "[![MIT licensed](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fugue-project/fugue",
+      "status": "candidate",
+      "text": "[![PyPI version](https://badge.fury.io/py/fugue.svg)](https://pypi.python.org/pypi/fugue/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cgnorthcutt/confidentlearning-reproduce",
+      "status": "candidate",
+      "text": "Experimental data for reproducibility of CIFAR-10 experimental results in the [confident learning paper](https://arxiv.org/abs/1911.00068)."
     }
   ],
   "candidate_related_terms": [],
@@ -3652,11 +3778,71 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "EvolvingLMMs-Lab/Otter"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "AceCHQ/MMIQ"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/dm_env"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "hill-a/stable-baselines"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "gpu-mode/Triton-Puzzles"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "RWKV/rwkv.cpp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "logpai/Drain3"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "ROCm/MIVisionX"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "fugue-project/fugue"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "openhackathons-org/gpubootcamp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "cgnorthcutt/confidentlearning-reproduce"
     }
   ],
   "first_seen_at": "2026-04-18T12:06:06.216548+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "lexical_providers": [
     "datamuse"
   ],

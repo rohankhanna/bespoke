@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "on-prem"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "smallcloudai/refact",
+      "status": "candidate-context",
+      "text": "AI Agent that handles engineering tasks end-to-end: integrates with developers\u2019 tools, plans, executes, and iterates until it achieves a successful result."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "smallcloudai/refact",
+      "status": "candidate-context",
+      "text": "<a name=\"readme-top\"></a>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "smallcloudai/refact",
+      "status": "candidate",
+      "text": "<a name=\"readme-top\"></a>"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25000,
+      "status": "candidate",
+      "text": "preloaded"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24999,
+      "status": "candidate",
+      "text": "server-side"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24998,
+      "status": "candidate",
+      "text": "client-side"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24997,
+      "status": "candidate",
+      "text": "platform-independent"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24996,
+      "status": "candidate",
+      "text": "desktop"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "on-prem",
+  "concept_id": "on-prem",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "smallcloudai/refact"
+    }
+  ],
+  "first_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "on-prem",
+      "sense_id": "on-prem#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

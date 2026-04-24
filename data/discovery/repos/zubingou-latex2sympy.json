@@ -1,0 +1,69 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ZubinGou/latex2sympy",
+      "target": "orangex4/latex2sympy",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ZubinGou/latex2sympy",
+      "target": "augustt198/latex2sympy",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ZubinGou/latex2sympy",
+      "target": "purdue-tlt/latex2sympy",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-24T12:46:03.647113+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5302
+    },
+    {
+      "path": "requirements.txt",
+      "size": 259
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Parse LaTeX math expressions",
+    "fork": true,
+    "full_name": "ZubinGou/latex2sympy",
+    "html_url": "https://github.com/ZubinGou/latex2sympy",
+    "language": "Python",
+    "pushed_at": "2023-10-19T15:07:16Z",
+    "stargazers_count": 1,
+    "topics": [],
+    "updated_at": "2025-03-12T05:12:47Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "augustt198/latex2sympy",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "orangex4/latex2sympy",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "purdue-tlt/latex2sympy",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

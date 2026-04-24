@@ -1,0 +1,110 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/cache@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "KhronosGroup/glTF-Blender-IO",
+      "target": "khronosgroup/gltf-blender-exporter",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "KhronosGroup/glTF-Blender-IO",
+      "target": "ux3d/random-blender-addons",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "KhronosGroup/glTF-Blender-IO",
+      "target": "khronosgroup/gltf-validator",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "KhronosGroup/glTF-Blender-IO",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "KhronosGroup/glTF-Blender-IO",
+      "target": "actions/cache@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "KhronosGroup/glTF-Blender-IO",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-24T13:02:56.316770+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5722
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1484
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 2396
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Blender glTF 2.0 importer and exporter",
+    "fork": false,
+    "full_name": "KhronosGroup/glTF-Blender-IO",
+    "html_url": "https://github.com/KhronosGroup/glTF-Blender-IO",
+    "language": "Python",
+    "pushed_at": "2026-04-17T18:37:51Z",
+    "stargazers_count": 1627,
+    "topics": [],
+    "updated_at": "2026-04-23T21:23:12Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "khronosgroup/gltf-blender-exporter",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "khronosgroup/gltf-validator",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ux3d/random-blender-addons",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

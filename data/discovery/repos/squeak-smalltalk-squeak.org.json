@@ -1,0 +1,71 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "squeak-smalltalk/squeak.org",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "squeak-smalltalk/squeak.org",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "squeak-smalltalk/squeak.org",
+      "target": "Update squeak.org",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T12:57:37.978795+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1836
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 1573
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Squeak/Smalltalk Website",
+    "fork": false,
+    "full_name": "squeak-smalltalk/squeak.org",
+    "html_url": "https://github.com/squeak-smalltalk/squeak.org",
+    "language": "TeX",
+    "pushed_at": "2026-04-24T11:35:29Z",
+    "stargazers_count": 39,
+    "topics": [],
+    "updated_at": "2026-04-24T11:35:34Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Update squeak.org",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "Update squeak.org"
+    }
+  ]
+}

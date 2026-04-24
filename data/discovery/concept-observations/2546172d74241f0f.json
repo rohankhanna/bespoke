@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Signed code reviews for Python packages."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "**WARNING: This code is in development, is being provided without support, and is subject to change at any time without notification**"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "**WARNING: This code is in development, is being provided without support, and is subject to change at any time without notification**"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "code-review",
+      "sense_id": "code-review#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "code-review",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "code-review",
+  "observation_id": "2546172d74241f0f",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T12:33:41.350224+00:00",
+  "observed_text": "code-review",
+  "source_context_snippet": "**WARNING: This code is in development, is being provided without support, and is subject to change at any time without notification**",
+  "source_file": null,
+  "source_repo": "crev-dev/pip-crev",
+  "source_repo_description": "Signed code reviews for Python packages."
+}

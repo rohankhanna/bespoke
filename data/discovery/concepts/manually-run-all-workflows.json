@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Manually Run All Workflows"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "BinomialLLC/KTX-Software-Binomial-Fork",
+      "status": "candidate-context",
+      "text": "Binomial's Fork of KTX-Software with Fixes/Improvements"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BinomialLLC/KTX-Software-Binomial-Fork",
+      "status": "candidate-context",
+      "text": "Manually Run All Workflows"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BinomialLLC/KTX-Software-Binomial-Fork",
+      "status": "candidate",
+      "text": "Manually Run All Workflows"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39023,
+      "status": "candidate",
+      "text": "signal box"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33883,
+      "status": "candidate",
+      "text": "edition"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33883,
+      "status": "candidate",
+      "text": "escape"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33883,
+      "status": "candidate",
+      "text": "overrun"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33883,
+      "status": "candidate",
+      "text": "rounder"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Manually Run All Workflows",
+  "concept_id": "manually-run-all-workflows",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/manual.yml",
+      "source_repo": "BinomialLLC/KTX-Software-Binomial-Fork"
+    }
+  ],
+  "first_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Manually Run All Workflows",
+      "sense_id": "manually-run-all-workflows#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

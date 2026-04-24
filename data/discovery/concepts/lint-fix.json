@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Lint Fix"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "XuhuiZhou/OpenHands",
+      "status": "candidate-context",
+      "text": "\ud83d\ude4c OpenHands: Code Less, Make More"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "XuhuiZhou/OpenHands",
+      "status": "candidate-context",
+      "text": "Lint Fix"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "XuhuiZhou/OpenHands",
+      "status": "candidate",
+      "text": "Lint Fix"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12393,
+      "status": "candidate",
+      "text": "fluff"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12351,
+      "status": "candidate",
+      "text": "brush"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12351,
+      "status": "candidate",
+      "text": "flue"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12351,
+      "status": "candidate",
+      "text": "screen"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12351,
+      "status": "candidate",
+      "text": "strip"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Lint Fix",
+  "concept_id": "lint-fix",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/lint-fix.yml",
+      "source_repo": "XuhuiZhou/OpenHands"
+    }
+  ],
+  "first_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Lint Fix",
+      "sense_id": "lint-fix#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

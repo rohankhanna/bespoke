@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Track stocks, crypto, and derivatives prices and positions in real time from your terminal"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<p>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<p>"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "cryptocurrencies",
+      "sense_id": "cryptocurrencies#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "cryptocurrencies",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "cryptocurrencies",
+  "observation_id": "9664b8b34dcd13a3",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T12:33:41.350224+00:00",
+  "observed_text": "cryptocurrencies",
+  "source_context_snippet": "<p>",
+  "source_file": null,
+  "source_repo": "achannarasappa/ticker",
+  "source_repo_description": "Track stocks, crypto, and derivatives prices and positions in real time from your terminal"
+}

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Believe in AI democratization. llama for nodejs backed by llama-rs, llama.cpp and rwkv.cpp, work locally on your laptop CPU. support llama/alpaca/gpt4all/vicuna/rwkv model."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10009182,
+      "status": "candidate",
+      "text": "packaging"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10005322,
+      "status": "candidate",
+      "text": "inlay"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10004789,
+      "status": "candidate",
+      "text": "packing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10003794,
+      "status": "candidate",
+      "text": "consolidation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10000545,
+      "status": "candidate",
+      "text": "integrating"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "embeddings",
+      "sense_id": "embeddings#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "embeddings",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "embeddings",
+  "observation_id": "3a9ebfc22fa560f8",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T12:33:41.350224+00:00",
+  "observed_text": "embeddings",
+  "source_context_snippet": "<div align=\"center\">",
+  "source_file": null,
+  "source_repo": "Atome-FE/llama-node",
+  "source_repo_description": "Believe in AI democratization. llama for nodejs backed by llama-rs, llama.cpp and rwkv.cpp, work locally on your laptop CPU. support llama/alpaca/gpt4all/vicuna/rwkv model."
+}

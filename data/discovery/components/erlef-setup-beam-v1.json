@@ -1,7 +1,7 @@
 {
   "component": "erlef/setup-beam@v1",
   "first_seen_at": "2026-04-18T09:57:17.167988+00:00",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -112,6 +112,46 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/precompile.yaml",
       "source_repo": "akash-akya/vix"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "dwyl/phoenix-todo-list-tutorial"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "dwyl/flutter-phoenix-channels-demo"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "dwyl/elixir-auth-github"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "dwyl/elixir-auth-google"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "dwyl/email"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/review-apps.yml",
+      "source_repo": "dwyl/email"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "elixir-plug/plug"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "ninenines/cowboy"
     }
   ]
 }

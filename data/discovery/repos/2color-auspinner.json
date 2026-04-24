@@ -1,0 +1,119 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "wangyoucao577/go-release-action@v1.29",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "2color/auspinner",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "2color/auspinner",
+      "target": "wangyoucao577/go-release-action@v1.29",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "2color/auspinner",
+      "target": "bitswap",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "2color/auspinner",
+      "target": "ipfs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "2color/auspinner",
+      "target": "libp2p",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "2color/auspinner",
+      "target": "pinning-api",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T12:55:54.870307+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1822
+    },
+    {
+      "path": "go.mod",
+      "size": 7791
+    },
+    {
+      "path": ".github/workflows/release.yaml",
+      "size": 684
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Stateless CLI tool to easily pin CAR files to IPFS pinning services. Client for the IPFS Pinning Service API that speaks HTTP and Bitswap.",
+    "fork": false,
+    "full_name": "2color/auspinner",
+    "html_url": "https://github.com/2color/auspinner",
+    "language": "Go",
+    "pushed_at": "2023-12-15T20:28:14Z",
+    "stargazers_count": 16,
+    "topics": [
+      "bitswap",
+      "ipfs",
+      "libp2p",
+      "pinning-api"
+    ],
+    "updated_at": "2025-08-27T13:11:44Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "![auspinner logo](./logo.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bitswap"
+    },
+    {
+      "context_snippet": "![auspinner logo](./logo.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ipfs"
+    },
+    {
+      "context_snippet": "![auspinner logo](./logo.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "libp2p"
+    },
+    {
+      "context_snippet": "![auspinner logo](./logo.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pinning-api"
+    }
+  ]
+}

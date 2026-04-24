@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "AI Agent that handles engineering tasks end-to-end: integrates with developers\u2019 tools, plans, executes, and iterates until it achieves a successful result."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Refact Server CICD Release"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Refact Server CICD Release"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10927,
+      "status": "candidate",
+      "text": "ace"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10927,
+      "status": "candidate",
+      "text": "caterer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10927,
+      "status": "candidate",
+      "text": "cohost"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10927,
+      "status": "candidate",
+      "text": "jerk"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10927,
+      "status": "candidate",
+      "text": "ladle"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Refact Server CICD Release",
+      "sense_id": "refact-server-cicd-release#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "refact-server-cicd-release",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "refact-server-cicd-release",
+  "observation_id": "7cc5eb096d47727b",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-24T12:33:41.350224+00:00",
+  "observed_text": "Refact Server CICD Release",
+  "source_context_snippet": "Refact Server CICD Release",
+  "source_file": ".github/workflows/server_release.yml",
+  "source_repo": "smallcloudai/refact",
+  "source_repo_description": "AI Agent that handles engineering tasks end-to-end: integrates with developers\u2019 tools, plans, executes, and iterates until it achieves a successful result."
+}

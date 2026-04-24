@@ -1,0 +1,289 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test.yml"
+    },
+    {
+      "component": "pypa/cibuildwheel@v3.4.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test.yml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test.yml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test.yml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test.yml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test.yml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@release/v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cxx.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "astral-sh/ruff-action@4919ec5cf1f49eff0871dbcea0da843445b837e6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "actions/checkout@0c366fd6a839edf440554fa01a7085ccba70ac98",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reuse.yml"
+    },
+    {
+      "component": "fsfe/reuse-action@676e2d560c9a403aa252096d99fcab3e1132b0f5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reuse.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "onnx/optimizer",
+      "target": "daquexian/onnx-simplifier",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test.yml",
+      "source_repo": "onnx/optimizer",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test.yml",
+      "source_repo": "onnx/optimizer",
+      "target": "pypa/cibuildwheel@v3.4.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test.yml",
+      "source_repo": "onnx/optimizer",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test.yml",
+      "source_repo": "onnx/optimizer",
+      "target": "actions/download-artifact@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test.yml",
+      "source_repo": "onnx/optimizer",
+      "target": "pypa/gh-action-pypi-publish@release/v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-and-test.yml",
+      "source_repo": "onnx/optimizer",
+      "target": "Build and Test, Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cxx.yml",
+      "source_repo": "onnx/optimizer",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cxx.yml",
+      "source_repo": "onnx/optimizer",
+      "target": "cmake Build and Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "onnx/optimizer",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "onnx/optimizer",
+      "target": "astral-sh/ruff-action@4919ec5cf1f49eff0871dbcea0da843445b837e6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "onnx/optimizer",
+      "target": "Lint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reuse.yml",
+      "source_repo": "onnx/optimizer",
+      "target": "actions/checkout@0c366fd6a839edf440554fa01a7085ccba70ac98",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reuse.yml",
+      "source_repo": "onnx/optimizer",
+      "target": "fsfe/reuse-action@676e2d560c9a403aa252096d99fcab3e1132b0f5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/reuse.yml",
+      "source_repo": "onnx/optimizer",
+      "target": "REUSE Compliance Check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "onnx/optimizer",
+      "target": "onnx",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "onnx/optimizer",
+      "target": "optimizations",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T12:41:57.204743+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2678
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 4022
+    },
+    {
+      "path": ".github/workflows/build-and-test.yml",
+      "size": 4420
+    },
+    {
+      "path": ".github/workflows/cxx.yml",
+      "size": 487
+    },
+    {
+      "path": ".github/workflows/lint.yml",
+      "size": 390
+    },
+    {
+      "path": ".github/workflows/reuse.yml",
+      "size": 559
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "ONNX Optimizer",
+    "fork": false,
+    "full_name": "onnx/optimizer",
+    "html_url": "https://github.com/onnx/optimizer",
+    "language": "C++",
+    "pushed_at": "2026-04-19T06:10:54Z",
+    "stargazers_count": 807,
+    "topics": [
+      "onnx",
+      "optimizations"
+    ],
+    "updated_at": "2026-04-23T12:43:52Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "daquexian/onnx-simplifier",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build and Test, Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-and-test.yml",
+      "term": "Build and Test, Release"
+    },
+    {
+      "context_snippet": "cmake Build and Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cxx.yml",
+      "term": "cmake Build and Test"
+    },
+    {
+      "context_snippet": "Lint",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "term": "Lint"
+    },
+    {
+      "context_snippet": "REUSE Compliance Check",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/reuse.yml",
+      "term": "REUSE Compliance Check"
+    },
+    {
+      "context_snippet": "<!--",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "onnx"
+    },
+    {
+      "context_snippet": "<!--",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "optimizations"
+    }
+  ]
+}

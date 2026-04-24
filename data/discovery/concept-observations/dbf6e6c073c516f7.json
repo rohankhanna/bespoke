@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Squeak/Smalltalk Website"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Update squeak.org"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Update squeak.org"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "amend"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "completing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "completion"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "day"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "debriefing"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Update squeak.org",
+      "sense_id": "update-squeak.org#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "update-squeak.org",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "update-squeak.org",
+  "observation_id": "dbf6e6c073c516f7",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-24T12:33:41.350224+00:00",
+  "observed_text": "Update squeak.org",
+  "source_context_snippet": "Update squeak.org",
+  "source_file": ".github/workflows/build.yml",
+  "source_repo": "squeak-smalltalk/squeak.org",
+  "source_repo_description": "Squeak/Smalltalk Website"
+}

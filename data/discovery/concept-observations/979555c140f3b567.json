@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Enola \ud83d\udd75\ud83c\udffe\u200d\u2640\ufe0f Holmes was an SRE."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<!--"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<!--"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24999,
+      "status": "candidate",
+      "text": "graphite"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24998,
+      "status": "candidate",
+      "text": "gstarcad"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24997,
+      "status": "candidate",
+      "text": "openscenegraph"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24996,
+      "status": "candidate",
+      "text": "grapher"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24995,
+      "status": "candidate",
+      "text": "diagrams.net"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "graphviz",
+      "sense_id": "graphviz#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "graphviz",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "graphviz",
+  "observation_id": "979555c140f3b567",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T12:33:41.350224+00:00",
+  "observed_text": "graphviz",
+  "source_context_snippet": "<!--",
+  "source_file": null,
+  "source_repo": "enola-dev/enola",
+  "source_repo_description": "Enola \ud83d\udd75\ud83c\udffe\u200d\u2640\ufe0f Holmes was an SRE."
+}

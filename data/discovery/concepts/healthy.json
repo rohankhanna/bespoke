@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "healthy"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dwyl/home",
+      "status": "candidate-context",
+      "text": "\ud83c\udfe1 \ud83d\udc69\u200d\ud83d\udcbb \ud83d\udca1 home is where you can [learn to] build the future surrounded by like-minded creative, friendly and [intrinsically] motivated people focussed on health, fitness and making things people and the world need!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dwyl/home",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dwyl/home",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39988862,
+      "status": "candidate",
+      "text": "hale"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39988860,
+      "status": "candidate",
+      "text": "sound"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39988798,
+      "status": "candidate",
+      "text": "wholesome"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39988562,
+      "status": "candidate",
+      "text": "salubrious"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39986630,
+      "status": "candidate",
+      "text": "hearty"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 55063,
+      "status": "candidate",
+      "text": "good"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 52038,
+      "status": "candidate",
+      "text": "sensible"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 46049,
+      "status": "candidate",
+      "text": "sanguine"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 35038,
+      "status": "candidate",
+      "text": "hearty"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 32037,
+      "status": "candidate",
+      "text": "intelligent"
+    }
+  ],
+  "canonical_name": "healthy",
+  "concept_id": "healthy",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "dwyl/home"
+    }
+  ],
+  "first_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "healthy",
+      "sense_id": "healthy#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

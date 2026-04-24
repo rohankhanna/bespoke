@@ -1,0 +1,141 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cgnorthcutt/confidentlearning-reproduce",
+      "target": "cgnorthcutt/cleanlab",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cgnorthcutt/confidentlearning-reproduce",
+      "target": "confident-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cgnorthcutt/confidentlearning-reproduce",
+      "target": "machine-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cgnorthcutt/confidentlearning-reproduce",
+      "target": "noisy-labels",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cgnorthcutt/confidentlearning-reproduce",
+      "target": "reproducibility",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cgnorthcutt/confidentlearning-reproduce",
+      "target": "reproducible-research",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cgnorthcutt/confidentlearning-reproduce",
+      "target": "supervised-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cgnorthcutt/confidentlearning-reproduce",
+      "target": "weak-supervision",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T12:52:56.677756+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 16858
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Official data release to reproduce Confident Learning paper results",
+    "fork": false,
+    "full_name": "cgnorthcutt/confidentlearning-reproduce",
+    "html_url": "https://github.com/cgnorthcutt/confidentlearning-reproduce",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2022-02-17T16:52:45Z",
+    "stargazers_count": 41,
+    "topics": [
+      "confident-learning",
+      "machine-learning",
+      "noisy-labels",
+      "reproducibility",
+      "reproducible-research",
+      "supervised-learning",
+      "weak-supervision"
+    ],
+    "updated_at": "2026-03-03T00:25:53Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cgnorthcutt/cleanlab",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Experimental data for reproducibility of CIFAR-10 experimental results in the [confident learning paper](https://arxiv.org/abs/1911.00068).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "confident-learning"
+    },
+    {
+      "context_snippet": "Experimental data for reproducibility of CIFAR-10 experimental results in the [confident learning paper](https://arxiv.org/abs/1911.00068).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-learning"
+    },
+    {
+      "context_snippet": "Experimental data for reproducibility of CIFAR-10 experimental results in the [confident learning paper](https://arxiv.org/abs/1911.00068).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "noisy-labels"
+    },
+    {
+      "context_snippet": "Experimental data for reproducibility of CIFAR-10 experimental results in the [confident learning paper](https://arxiv.org/abs/1911.00068).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "reproducibility"
+    },
+    {
+      "context_snippet": "Experimental data for reproducibility of CIFAR-10 experimental results in the [confident learning paper](https://arxiv.org/abs/1911.00068).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "reproducible-research"
+    },
+    {
+      "context_snippet": "Experimental data for reproducibility of CIFAR-10 experimental results in the [confident learning paper](https://arxiv.org/abs/1911.00068).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "supervised-learning"
+    },
+    {
+      "context_snippet": "Experimental data for reproducibility of CIFAR-10 experimental results in the [confident learning paper](https://arxiv.org/abs/1911.00068).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "weak-supervision"
+    }
+  ]
+}

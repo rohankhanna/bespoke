@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-24T12:34:43.264825+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6926
+    },
+    {
+      "path": "requirements.txt",
+      "size": 252
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "This repository contains the code for the paper - \"Conversational Image Segmentation: Grounding Abstract Concepts with Scalable Supervision\" (CVPR 2026)",
+    "fork": false,
+    "full_name": "AadSah/ConverSeg",
+    "html_url": "https://github.com/AadSah/ConverSeg",
+    "language": "Python",
+    "pushed_at": "2026-02-16T02:46:22Z",
+    "stargazers_count": 40,
+    "topics": [],
+    "updated_at": "2026-04-02T14:10:14Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

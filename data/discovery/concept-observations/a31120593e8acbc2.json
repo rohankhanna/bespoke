@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Zig implementation of the multiformats https://github.com/multiformats/multiformats."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![build](https://github.com/zen-eth/multiformats-zig/actions/workflows/check.yml/badge.svg?branch=main)](https://github.com/zen-eth/multiformats-zig/actions/workflows/check.yml)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![build](https://github.com/zen-eth/multiformats-zig/actions/workflows/check.yml/badge.svg?branch=main)](https://github.com/zen-eth/multiformats-zig/actions/workflows/check.yml)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25000,
+      "status": "candidate",
+      "text": "multibasin"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24999,
+      "status": "candidate",
+      "text": "polybasal"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24998,
+      "status": "candidate",
+      "text": "tribasilar"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24997,
+      "status": "candidate",
+      "text": "multikilobase"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24996,
+      "status": "candidate",
+      "text": "basined"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "multibase",
+      "sense_id": "multibase#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "multibase",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "multibase",
+  "observation_id": "a31120593e8acbc2",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T12:33:41.350224+00:00",
+  "observed_text": "multibase",
+  "source_context_snippet": "[![build](https://github.com/zen-eth/multiformats-zig/actions/workflows/check.yml/badge.svg?branch=main)](https://github.com/zen-eth/multiformats-zig/actions/workflows/check.yml)",
+  "source_file": null,
+  "source_repo": "zen-eth/multiformats-zig",
+  "source_repo_description": "Zig implementation of the multiformats https://github.com/multiformats/multiformats."
+}

@@ -1,0 +1,461 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd-unit-tests.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd-unit-tests.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clean_stale_temp_branches.yml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cleanup_pr_body.yml"
+    },
+    {
+      "component": "actions/setup-python@42375524e23c412d93fb67b49958b491fce71c38",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cleanup_pr_body.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cpu-test.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cpu-test.yml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml"
+    },
+    {
+      "component": "actions/setup-python@42375524e23c412d93fb67b49958b491fce71c38",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml"
+    },
+    {
+      "component": "pre-commit/action@2c7b3805fd2a0fd8c1884dcaebf91fc102a13ecd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "actions/github-script@60a0d83039c74a4aee543508d2ffcb1c3799cdea",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "hendrikmuhs/ccache-action@ed74d11c0b343532753ecead8a951bb09bb34bc9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "actions/setup-python@0b93645e9fea7318ecaed2b359559ac225c90a2b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "actions/upload-release-asset@e8f9f06c4b078e705bd2ea027f0926603fc9b4d5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@release/v1.8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yml"
+    },
+    {
+      "component": "ossf/scorecard-action@0864cf19026789058feabb7e87baa5f140aac736",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yml"
+    },
+    {
+      "component": "actions/upload-artifact@97a0fba1372883ab732affbe8f94b823f91727db",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yml"
+    },
+    {
+      "component": "github/codeql-action/upload-sarif@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yml"
+    },
+    {
+      "component": "write",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/skip_gaudi_tests.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/skip_gaudi_tests.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/skip_gaudi_tests.yml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/skip_gaudi_tests.yml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/skip_gaudi_tests.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd-unit-tests.yml",
+      "source_repo": "HabanaAI/vllm-fork",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd-unit-tests.yml",
+      "source_repo": "HabanaAI/vllm-fork",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cd-unit-tests.yml",
+      "source_repo": "HabanaAI/vllm-fork",
+      "target": "cd-unit-tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clean_stale_temp_branches.yml",
+      "source_repo": "HabanaAI/vllm-fork",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/clean_stale_temp_branches.yml",
+      "source_repo": "HabanaAI/vllm-fork",
+      "target": "Clean Temporary Branches",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cleanup_pr_body.yml",
+      "source_repo": "HabanaAI/vllm-fork",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cleanup_pr_body.yml",
+      "source_repo": "HabanaAI/vllm-fork",
+      "target": "actions/setup-python@42375524e23c412d93fb67b49958b491fce71c38",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cleanup_pr_body.yml",
+      "source_repo": "HabanaAI/vllm-fork",
+      "target": "Cleanup PR Body",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cpu-test.yml",
+      "source_repo": "HabanaAI/vllm-fork",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cpu-test.yml",
+      "source_repo": "HabanaAI/vllm-fork",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cpu-test.yml",
+      "source_repo": "HabanaAI/vllm-fork",
+      "target": "cpu-test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "HabanaAI/vllm-fork",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "HabanaAI/vllm-fork",
+      "target": "actions/setup-python@42375524e23c412d93fb67b49958b491fce71c38",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "HabanaAI/vllm-fork",
+      "target": "pre-commit/action@2c7b3805fd2a0fd8c1884dcaebf91fc102a13ecd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "HabanaAI/vllm-fork",
+      "target": "pre-commit",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "HabanaAI/vllm-fork",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "HabanaAI/vllm-fork",
+      "target": "actions/github-script@60a0d83039c74a4aee543508d2ffcb1c3799cdea",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "HabanaAI/vllm-fork",
+      "target": "hendrikmuhs/ccache-action@ed74d11c0b343532753ecead8a951bb09bb34bc9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "HabanaAI/vllm-fork",
+      "target": "actions/setup-python@0b93645e9fea7318ecaed2b359559ac225c90a2b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "HabanaAI/vllm-fork",
+      "target": "actions/upload-release-asset@e8f9f06c4b078e705bd2ea027f0926603fc9b4d5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "HabanaAI/vllm-fork",
+      "target": "pypa/gh-action-pypi-publish@release/v1.8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "HabanaAI/vllm-fork",
+      "target": "Create Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "HabanaAI/vllm-fork",
+      "target": "actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "HabanaAI/vllm-fork",
+      "target": "ossf/scorecard-action@0864cf19026789058feabb7e87baa5f140aac736",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "HabanaAI/vllm-fork",
+      "target": "actions/upload-artifact@97a0fba1372883ab732affbe8f94b823f91727db",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "HabanaAI/vllm-fork",
+      "target": "github/codeql-action/upload-sarif@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "HabanaAI/vllm-fork",
+      "target": "Scorecard supply-chain security",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/skip_gaudi_tests.yml",
+      "source_repo": "HabanaAI/vllm-fork",
+      "target": "write",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/skip_gaudi_tests.yml",
+      "source_repo": "HabanaAI/vllm-fork",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/skip_gaudi_tests.yml",
+      "source_repo": "HabanaAI/vllm-fork",
+      "target": "actions/github-script@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/skip_gaudi_tests.yml",
+      "source_repo": "HabanaAI/vllm-fork",
+      "target": "Skip Gaudi Tests",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T12:44:37.872640+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7050
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 4850
+    },
+    {
+      "path": ".github/workflows/cd-unit-tests.yml",
+      "size": 594
+    },
+    {
+      "path": ".github/workflows/clean_stale_temp_branches.yml",
+      "size": 847
+    },
+    {
+      "path": ".github/workflows/cleanup_pr_body.yml",
+      "size": 797
+    },
+    {
+      "path": ".github/workflows/cpu-test.yml",
+      "size": 984
+    },
+    {
+      "path": ".github/workflows/pre-commit.yml",
+      "size": 652
+    },
+    {
+      "path": ".github/workflows/publish.yml",
+      "size": 4151
+    },
+    {
+      "path": ".github/workflows/scorecard.yml",
+      "size": 3091
+    },
+    {
+      "path": ".github/workflows/skip_gaudi_tests.yml",
+      "size": 2872
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "habana_main",
+    "description": "A high-throughput and memory-efficient inference and serving engine for LLMs",
+    "fork": true,
+    "full_name": "HabanaAI/vllm-fork",
+    "html_url": "https://github.com/HabanaAI/vllm-fork",
+    "language": "Python",
+    "pushed_at": "2026-04-24T06:22:39Z",
+    "stargazers_count": 86,
+    "topics": [],
+    "updated_at": "2026-04-16T06:58:16Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "cd-unit-tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cd-unit-tests.yml",
+      "term": "cd-unit-tests"
+    },
+    {
+      "context_snippet": "Clean Temporary Branches",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/clean_stale_temp_branches.yml",
+      "term": "Clean Temporary Branches"
+    },
+    {
+      "context_snippet": "Cleanup PR Body",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cleanup_pr_body.yml",
+      "term": "Cleanup PR Body"
+    },
+    {
+      "context_snippet": "cpu-test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cpu-test.yml",
+      "term": "cpu-test"
+    },
+    {
+      "context_snippet": "pre-commit",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "term": "pre-commit"
+    },
+    {
+      "context_snippet": "Create Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "term": "Create Release"
+    },
+    {
+      "context_snippet": "Scorecard supply-chain security",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/scorecard.yml",
+      "term": "Scorecard supply-chain security"
+    },
+    {
+      "context_snippet": "Skip Gaudi Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/skip_gaudi_tests.yml",
+      "term": "Skip Gaudi Tests"
+    }
+  ]
+}

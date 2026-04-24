@@ -1,0 +1,20 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "sophgo/ChatGLM2-TPU",
+      "target": "sophgo/llm-tpu",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "sophgo/ChatGLM2-TPU",
+      "target": "sophgo/tpu-mlir",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-04-24T12:33:41.350224+00:00",
+  "source_repo": "sophgo/ChatGLM2-TPU"
+}

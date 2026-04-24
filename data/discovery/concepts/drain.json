@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "drain"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "logpai/Drain3",
+      "status": "candidate-context",
+      "text": "A robust streaming log template miner based on the Drain algorithm"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "logpai/Drain3",
+      "status": "candidate-context",
+      "text": "Drain3 was moved to the `logpai` GitHub organization (which is also the home for the original Drain implementation). We always welcome more contributors and maintainers to join us and push the project forward. We welcome more contributions and variants of implementations if you \u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "logpai/Drain3",
+      "status": "candidate",
+      "text": "Drain3 was moved to the `logpai` GitHub organization (which is also the home for the original Drain implementation). We always welcome more contributors and maintainers to join us and push the project forward. We welcome more contributions and variants of implementations if you \u2026"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39950255,
+      "status": "candidate",
+      "text": "drainpipe"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39950118,
+      "status": "candidate",
+      "text": "waste pipe"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39949676,
+      "status": "candidate",
+      "text": "drainage"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39887501,
+      "status": "candidate",
+      "text": "run out"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39873416,
+      "status": "candidate",
+      "text": "sap"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 20068,
+      "status": "candidate",
+      "text": "sap"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 8034,
+      "status": "candidate",
+      "text": "debilitate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 7043,
+      "status": "candidate",
+      "text": "drainage"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 5032,
+      "status": "candidate",
+      "text": "run out"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 5028,
+      "status": "candidate",
+      "text": "enfeeble"
+    }
+  ],
+  "canonical_name": "drain",
+  "concept_id": "drain",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "logpai/Drain3"
+    }
+  ],
+  "first_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "drain",
+      "sense_id": "drain#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

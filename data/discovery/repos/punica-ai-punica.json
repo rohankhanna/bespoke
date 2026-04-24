@@ -1,0 +1,212 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gpu-test.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gpu-test.yml"
+    },
+    {
+      "component": "google-github-actions/release-please-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-please.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_wheel.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_wheel.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_wheel.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_wheel.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "punica-ai/punica",
+      "target": "microsoft/deepspeed",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gpu-test.yml",
+      "source_repo": "punica-ai/punica",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gpu-test.yml",
+      "source_repo": "punica-ai/punica",
+      "target": "codecov/codecov-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gpu-test.yml",
+      "source_repo": "punica-ai/punica",
+      "target": "Tests on GPU",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-please.yml",
+      "source_repo": "punica-ai/punica",
+      "target": "google-github-actions/release-please-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-please.yml",
+      "source_repo": "punica-ai/punica",
+      "target": "release-please",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_wheel.yml",
+      "source_repo": "punica-ai/punica",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_wheel.yml",
+      "source_repo": "punica-ai/punica",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_wheel.yml",
+      "source_repo": "punica-ai/punica",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_wheel.yml",
+      "source_repo": "punica-ai/punica",
+      "target": "softprops/action-gh-release@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release_wheel.yml",
+      "source_repo": "punica-ai/punica",
+      "target": "Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "punica-ai/punica",
+      "target": "large-language-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "punica-ai/punica",
+      "target": "lora",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T12:41:48.506102+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4556
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1401
+    },
+    {
+      "path": ".github/workflows/gpu-test.yml",
+      "size": 1584
+    },
+    {
+      "path": ".github/workflows/release-please.yml",
+      "size": 633
+    },
+    {
+      "path": ".github/workflows/release_wheel.yml",
+      "size": 3205
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Serving multiple LoRA finetuned LLM as one",
+    "fork": false,
+    "full_name": "punica-ai/punica",
+    "html_url": "https://github.com/punica-ai/punica",
+    "language": "Python",
+    "pushed_at": "2024-05-08T12:25:17Z",
+    "stargazers_count": 1154,
+    "topics": [
+      "large-language-models",
+      "llm",
+      "lora"
+    ],
+    "updated_at": "2026-04-23T12:55:41Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "microsoft/deepspeed",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Tests on GPU",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gpu-test.yml",
+      "term": "Tests on GPU"
+    },
+    {
+      "context_snippet": "release-please",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-please.yml",
+      "term": "release-please"
+    },
+    {
+      "context_snippet": "Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release_wheel.yml",
+      "term": "Release"
+    },
+    {
+      "context_snippet": "[(paper)](https://arxiv.org/abs/2310.18547)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "large-language-models"
+    },
+    {
+      "context_snippet": "[(paper)](https://arxiv.org/abs/2310.18547)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lora"
+    }
+  ]
+}

@@ -31,6 +31,18 @@
       "source_repo": "googleworkspace/cli",
       "status": "candidate-context",
       "text": "<h1 align=\"center\">gws</h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dwyl/elixir-auth-google",
+      "status": "candidate-context",
+      "text": "\ud83d\udc64Minimalist Google OAuth Authentication for Elixir Apps. Tested, Documented & Maintained. Setup in 5 mins. \ud83d\ude80"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dwyl/elixir-auth-google",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "googleworkspace/cli",
       "status": "candidate",
       "text": "<h1 align=\"center\">gws</h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dwyl/elixir-auth-google",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -64,11 +82,17 @@
       "observed_at": "2026-04-23T01:09:11.871080+00:00",
       "source_file": null,
       "source_repo": "googleworkspace/cli"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "dwyl/elixir-auth-google"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "lexical_providers": [
     "datamuse"
   ],

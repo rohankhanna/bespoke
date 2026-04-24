@@ -1,0 +1,408 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-push-image.yml"
+    },
+    {
+      "component": "docker/login-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-push-image.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-push-image.yml"
+    },
+    {
+      "component": "docker/build-push-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-push-image.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-push-image.yml"
+    },
+    {
+      "component": "docker/login-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-push-image.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheel.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheel.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheel.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/init@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codespell.yml"
+    },
+    {
+      "component": "codespell-project/actions-codespell@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codespell.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@nightly",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/trivy.yaml"
+    },
+    {
+      "component": "aquasecurity/trivy-action@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/trivy.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "pyproject.toml",
+      "source_repo": "PrimeIntellect-ai/router",
+      "target": "pyo3/setuptools-rust",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "pyproject.toml",
+      "source_repo": "PrimeIntellect-ai/router",
+      "target": "pypa/twine",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-push-image.yml",
+      "source_repo": "PrimeIntellect-ai/router",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-push-image.yml",
+      "source_repo": "PrimeIntellect-ai/router",
+      "target": "docker/login-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-push-image.yml",
+      "source_repo": "PrimeIntellect-ai/router",
+      "target": "docker/setup-buildx-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-push-image.yml",
+      "source_repo": "PrimeIntellect-ai/router",
+      "target": "docker/build-push-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-push-image.yml",
+      "source_repo": "PrimeIntellect-ai/router",
+      "target": "Build and Push Docker Image",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheel.yml",
+      "source_repo": "PrimeIntellect-ai/router",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheel.yml",
+      "source_repo": "PrimeIntellect-ai/router",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheel.yml",
+      "source_repo": "PrimeIntellect-ai/router",
+      "target": "softprops/action-gh-release@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-wheel.yml",
+      "source_repo": "PrimeIntellect-ai/router",
+      "target": "Build and Release Wheel",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "PrimeIntellect-ai/router",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "PrimeIntellect-ai/router",
+      "target": "github/codeql-action/init@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "PrimeIntellect-ai/router",
+      "target": "github/codeql-action/analyze@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "PrimeIntellect-ai/router",
+      "target": "CodeQL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codespell.yml",
+      "source_repo": "PrimeIntellect-ai/router",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codespell.yml",
+      "source_repo": "PrimeIntellect-ai/router",
+      "target": "codespell-project/actions-codespell@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codespell.yml",
+      "source_repo": "PrimeIntellect-ai/router",
+      "target": "codespell",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "PrimeIntellect-ai/router",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "PrimeIntellect-ai/router",
+      "target": "Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "PrimeIntellect-ai/router",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "PrimeIntellect-ai/router",
+      "target": "dtolnay/rust-toolchain@nightly",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "PrimeIntellect-ai/router",
+      "target": "Swatinem/rust-cache@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "PrimeIntellect-ai/router",
+      "target": "Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/trivy.yaml",
+      "source_repo": "PrimeIntellect-ai/router",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/trivy.yaml",
+      "source_repo": "PrimeIntellect-ai/router",
+      "target": "aquasecurity/trivy-action@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/trivy.yaml",
+      "source_repo": "PrimeIntellect-ai/router",
+      "target": "Trivy vulnerability scanner",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T12:36:30.168689+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8821
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 3442
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1194
+    },
+    {
+      "path": ".github/workflows/build-push-image.yml",
+      "size": 2755
+    },
+    {
+      "path": ".github/workflows/build-wheel.yml",
+      "size": 1176
+    },
+    {
+      "path": ".github/workflows/codeql-analysis.yml",
+      "size": 1765
+    },
+    {
+      "path": ".github/workflows/codespell.yml",
+      "size": 590
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 1553
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 516
+    },
+    {
+      "path": ".github/workflows/trivy.yaml",
+      "size": 801
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A high-performance and light-weight router for vLLM large scale deployment",
+    "fork": true,
+    "full_name": "PrimeIntellect-ai/router",
+    "html_url": "https://github.com/PrimeIntellect-ai/router",
+    "language": "Rust",
+    "pushed_at": "2026-04-16T12:13:48Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2026-04-16T12:13:41Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pyo3/setuptools-rust",
+      "source_file": "pyproject.toml"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pypa/twine",
+      "source_file": "pyproject.toml"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build and Push Docker Image",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-push-image.yml",
+      "term": "Build and Push Docker Image"
+    },
+    {
+      "context_snippet": "Build and Release Wheel",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-wheel.yml",
+      "term": "Build and Release Wheel"
+    },
+    {
+      "context_snippet": "\"CodeQL\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "term": "CodeQL"
+    },
+    {
+      "context_snippet": "codespell",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codespell.yml",
+      "term": "codespell"
+    },
+    {
+      "context_snippet": "Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Release"
+    },
+    {
+      "context_snippet": "Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "Test"
+    },
+    {
+      "context_snippet": "Trivy vulnerability scanner",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/trivy.yaml",
+      "term": "Trivy vulnerability scanner"
+    }
+  ]
+}

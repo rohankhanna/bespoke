@@ -31,6 +31,18 @@
       "source_repo": "Dexters-Hub/Dexters-Hub",
       "status": "candidate-context",
       "text": "<p align=\"center\"><a href=\"#\"><img width=\"75%\" height=\"auto\" src=\"https://media.giphy.com/media/84OBoA0Lf4eXtZFmOh/giphy.gif\"/></a></p>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vladkens/badges",
+      "status": "candidate-context",
+      "text": "\ud83c\udf96\ufe0f\ud83c\udfa8 Instantly create custom badges for GitHub, docs, and more. Lightweight, self-hostable, with live integrations that keep badges always up to date. Elevate your projects in seconds!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vladkens/badges",
+      "status": "candidate-context",
+      "text": "[workspace] members = [\"app\", \"badgelib\"] resolver = \"3\" [profile.release] strip = true [profile.dev] debug = 0 strip = \"debuginfo\""
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "Dexters-Hub/Dexters-Hub",
       "status": "candidate",
       "text": "<p align=\"center\"><a href=\"#\"><img width=\"75%\" height=\"auto\" src=\"https://media.giphy.com/media/84OBoA0Lf4eXtZFmOh/giphy.gif\"/></a></p>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vladkens/badges",
+      "status": "candidate",
+      "text": "[workspace] members = [\"app\", \"badgelib\"] resolver = \"3\" [profile.release] strip = true [profile.dev] debug = 0 strip = \"debuginfo\""
     }
   ],
   "candidate_related_terms": [],
@@ -64,11 +82,17 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "Dexters-Hub/Dexters-Hub"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "vladkens/badges"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "lexical_providers": [
     "datamuse"
   ],

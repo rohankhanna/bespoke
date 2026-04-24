@@ -1,0 +1,139 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.rst",
+      "source_repo": "kpe/bert-for-tf2",
+      "target": "kpe/params-flow",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.rst",
+      "source_repo": "kpe/bert-for-tf2",
+      "target": "google-research/bert",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.rst",
+      "source_repo": "kpe/bert-for-tf2",
+      "target": "google-research/adapter-bert",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.rst",
+      "source_repo": "kpe/bert-for-tf2",
+      "target": "google-research/albert",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kpe/bert-for-tf2",
+      "target": "bert",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kpe/bert-for-tf2",
+      "target": "keras",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kpe/bert-for-tf2",
+      "target": "tensorflow",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kpe/bert-for-tf2",
+      "target": "transformer",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T12:39:34.703468+00:00",
+  "fetched_files": [
+    {
+      "path": "README.rst",
+      "size": 13946
+    },
+    {
+      "path": "requirements.txt",
+      "size": 99
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A Keras TensorFlow 2.0 implementation of BERT, ALBERT and adapter-BERT.",
+    "fork": false,
+    "full_name": "kpe/bert-for-tf2",
+    "html_url": "https://github.com/kpe/bert-for-tf2",
+    "language": "Python",
+    "pushed_at": "2023-01-13T10:12:34Z",
+    "stargazers_count": 808,
+    "topics": [
+      "bert",
+      "keras",
+      "tensorflow",
+      "transformer"
+    ],
+    "updated_at": "2026-02-25T06:41:14Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "google-research/adapter-bert",
+      "source_file": "README.rst"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "google-research/albert",
+      "source_file": "README.rst"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "google-research/bert",
+      "source_file": "README.rst"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kpe/params-flow",
+      "source_file": "README.rst"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "BERT for TensorFlow v2",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bert"
+    },
+    {
+      "context_snippet": "BERT for TensorFlow v2",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "keras"
+    },
+    {
+      "context_snippet": "BERT for TensorFlow v2",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tensorflow"
+    },
+    {
+      "context_snippet": "BERT for TensorFlow v2",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "transformer"
+    }
+  ]
+}

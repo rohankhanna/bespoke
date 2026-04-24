@@ -79,6 +79,12 @@
       "source_repo": "tree-sitter/tree-sitter-julia",
       "status": "candidate-context",
       "text": "[![CI][ci]](https://github.com/tree-sitter/tree-sitter-julia/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aorwall/moatless-tools",
+      "status": "candidate-context",
+      "text": "Moatless Tools is a hobby project where I experiment with some ideas I have about how LLMs can be used to edit code in large existing codebases. I believe that rather than relying on an agent to reason its way to a solution, it is crucial to build good tools to insert the right \u2026"
     }
   ],
   "candidate_glosses": [
@@ -117,6 +123,12 @@
       "source_repo": "tree-sitter/tree-sitter-julia",
       "status": "candidate",
       "text": "[![CI][ci]](https://github.com/tree-sitter/tree-sitter-julia/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aorwall/moatless-tools",
+      "status": "candidate",
+      "text": "Moatless Tools is a hobby project where I experiment with some ideas I have about how LLMs can be used to edit code in large existing codebases. I believe that rather than relying on an agent to reason its way to a solution, it is crucial to build good tools to insert the right \u2026"
     }
   ],
   "candidate_related_terms": [],
@@ -160,11 +172,17 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "tree-sitter/tree-sitter-julia"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "aorwall/moatless-tools"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "lexical_providers": [
     "datamuse"
   ],

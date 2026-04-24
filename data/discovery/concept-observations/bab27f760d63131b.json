@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A simple, maximally extensible, dependency minimized framework for building modern Ethereum dApps"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![CI](https://github.com/Uniswap/web3-react/actions/workflows/CI.yml/badge.svg)](https://github.com/Uniswap/web3-react/actions/workflows/CI.yml)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/Uniswap/web3-react/actions/workflows/CI.yml/badge.svg)](https://github.com/Uniswap/web3-react/actions/workflows/CI.yml)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18468009,
+      "status": "candidate",
+      "text": "duffield"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18468008,
+      "status": "candidate",
+      "text": "derwent"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18468007,
+      "status": "candidate",
+      "text": "hays"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18468006,
+      "status": "candidate",
+      "text": "abee"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18468005,
+      "status": "candidate",
+      "text": "dunmore"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "dapp",
+      "sense_id": "dapp#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "dapp",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "dapp",
+  "observation_id": "bab27f760d63131b",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T12:33:41.350224+00:00",
+  "observed_text": "dapp",
+  "source_context_snippet": "[![CI](https://github.com/Uniswap/web3-react/actions/workflows/CI.yml/badge.svg)](https://github.com/Uniswap/web3-react/actions/workflows/CI.yml)",
+  "source_file": null,
+  "source_repo": "Uniswap/web3-react",
+  "source_repo_description": "A simple, maximally extensible, dependency minimized framework for building modern Ethereum dApps"
+}

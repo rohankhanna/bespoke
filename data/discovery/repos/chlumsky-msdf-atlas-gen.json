@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Chlumsky/msdf-atlas-gen",
+      "target": "chlumsky/artery-font-format",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Chlumsky/msdf-atlas-gen",
+      "target": "bzotto/rgba_bitmap",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-24T13:03:08.703766+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 18538
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "MSDF font atlas generator",
+    "fork": false,
+    "full_name": "Chlumsky/msdf-atlas-gen",
+    "html_url": "https://github.com/Chlumsky/msdf-atlas-gen",
+    "language": "C++",
+    "pushed_at": "2026-03-05T15:06:56Z",
+    "stargazers_count": 1229,
+    "topics": [],
+    "updated_at": "2026-04-23T06:17:27Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bzotto/rgba_bitmap",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "chlumsky/artery-font-format",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

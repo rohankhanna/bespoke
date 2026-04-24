@@ -1,0 +1,88 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven.yml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven.yml",
+      "source_repo": "codelibs/fess-ds-box",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven.yml",
+      "source_repo": "codelibs/fess-ds-box",
+      "target": "actions/setup-java@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven.yml",
+      "source_repo": "codelibs/fess-ds-box",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/maven.yml",
+      "source_repo": "codelibs/fess-ds-box",
+      "target": "Java CI with Maven",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T12:38:39.652961+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1394
+    },
+    {
+      "path": ".github/workflows/maven.yml",
+      "size": 1118
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "DataStore Crawler for BOX",
+    "fork": false,
+    "full_name": "codelibs/fess-ds-box",
+    "html_url": "https://github.com/codelibs/fess-ds-box",
+    "language": "Java",
+    "pushed_at": "2026-04-19T12:54:19Z",
+    "stargazers_count": 2,
+    "topics": [],
+    "updated_at": "2026-04-19T12:54:24Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Java CI with Maven",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/maven.yml",
+      "term": "Java CI with Maven"
+    }
+  ]
+}

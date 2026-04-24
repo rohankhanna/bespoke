@@ -304,6 +304,18 @@
       "source_repo": "argoproj-labs/argo-workflows-catalog",
       "status": "candidate-context",
       "text": "Build Docs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NVIDIA-NeMo/Run",
+      "status": "candidate-context",
+      "text": "A tool to configure, launch and manage your machine learning experiments."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA-NeMo/Run",
+      "status": "candidate-context",
+      "text": "Build docs"
     }
   ],
   "candidate_glosses": [
@@ -456,6 +468,12 @@
       "source_repo": "argoproj-labs/argo-workflows-catalog",
       "status": "candidate",
       "text": "Build Docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA-NeMo/Run",
+      "status": "candidate",
+      "text": "Build docs"
     }
   ],
   "candidate_related_terms": [
@@ -679,11 +697,23 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": ".github/workflows/build-docs.yml",
       "source_repo": "argoproj-labs/argo-workflows-catalog"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/build-docs.yml",
+      "source_repo": "NVIDIA-NeMo/NeMo"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/build-docs.yml",
+      "source_repo": "NVIDIA-NeMo/Run"
     }
   ],
   "first_seen_at": "2026-04-18T12:06:06.216548+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "lexical_providers": [
     "datamuse"
   ],

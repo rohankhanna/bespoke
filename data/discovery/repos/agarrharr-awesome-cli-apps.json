@@ -1,0 +1,82 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "agarrharr/awesome-cli-apps",
+      "target": "awesome",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "agarrharr/awesome-cli-apps",
+      "target": "awesome-list",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "agarrharr/awesome-cli-apps",
+      "target": "cli-app",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "agarrharr/awesome-cli-apps",
+      "target": "list",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T12:54:49.614543+00:00",
+  "fetched_files": [],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "\ud83d\udda5 \ud83d\udcca \ud83d\udd79 \ud83d\udee0 A curated list of command line apps",
+    "fork": false,
+    "full_name": "agarrharr/awesome-cli-apps",
+    "html_url": "https://github.com/agarrharr/awesome-cli-apps",
+    "language": "Shell",
+    "pushed_at": "2026-04-13T20:01:47Z",
+    "stargazers_count": 19400,
+    "topics": [
+      "awesome",
+      "awesome-list",
+      "cli",
+      "cli-app",
+      "list"
+    ],
+    "updated_at": "2026-04-24T09:40:57Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "\ud83d\udda5 \ud83d\udcca \ud83d\udd79 \ud83d\udee0 A curated list of command line apps",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "awesome"
+    },
+    {
+      "context_snippet": "\ud83d\udda5 \ud83d\udcca \ud83d\udd79 \ud83d\udee0 A curated list of command line apps",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "awesome-list"
+    },
+    {
+      "context_snippet": "\ud83d\udda5 \ud83d\udcca \ud83d\udd79 \ud83d\udee0 A curated list of command line apps",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cli-app"
+    },
+    {
+      "context_snippet": "\ud83d\udda5 \ud83d\udcca \ud83d\udd79 \ud83d\udee0 A curated list of command line apps",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "list"
+    }
+  ]
+}

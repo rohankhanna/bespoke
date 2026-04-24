@@ -115,6 +115,18 @@
       "source_repo": "XcodesOrg/XcodesApp",
       "status": "candidate-context",
       "text": "<h1><img src=\"icon.png\" align=\"center\" width=50 height=50 /> <img src=\"IconDark.png\" align=\"center\" width=50 height=50 /> <img src=\"IconMono.png\" align=\"center\" width=50 height=50 /> Xcodes.app</h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "GEOSwift/GEOSwift",
+      "status": "candidate-context",
+      "text": "The Swift Geometry Engine."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GEOSwift/GEOSwift",
+      "status": "candidate-context",
+      "text": "![GEOSwift](/README-images/GEOSwift.png)"
     }
   ],
   "candidate_glosses": [
@@ -171,6 +183,12 @@
       "source_repo": "XcodesOrg/XcodesApp",
       "status": "candidate",
       "text": "<h1><img src=\"icon.png\" align=\"center\" width=50 height=50 /> <img src=\"IconDark.png\" align=\"center\" width=50 height=50 /> <img src=\"IconMono.png\" align=\"center\" width=50 height=50 /> Xcodes.app</h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GEOSwift/GEOSwift",
+      "status": "candidate",
+      "text": "![GEOSwift](/README-images/GEOSwift.png)"
     }
   ],
   "candidate_related_terms": [],
@@ -250,11 +268,17 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "igor-makarov/xcake"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "GEOSwift/GEOSwift"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "lexical_providers": [
     "datamuse"
   ],

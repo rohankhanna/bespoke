@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\u2705 Complete beginners tutorial building a todo list from scratch in Phoenix 1.7 (latest)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30046354,
+      "status": "candidate",
+      "text": "coaching"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30046264,
+      "status": "candidate",
+      "text": "tutoring"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30045728,
+      "status": "candidate",
+      "text": "mentoring"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30045401,
+      "status": "candidate",
+      "text": "mentorship"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30044967,
+      "status": "candidate",
+      "text": "counselling"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "tutorial",
+      "sense_id": "tutorial#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "tutorial",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "tutorial",
+  "observation_id": "930f5fcd3197ac56",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T12:33:41.350224+00:00",
+  "observed_text": "tutorial",
+  "source_context_snippet": "<div align=\"center\">",
+  "source_file": null,
+  "source_repo": "dwyl/phoenix-todo-list-tutorial",
+  "source_repo_description": "\u2705 Complete beginners tutorial building a todo list from scratch in Phoenix 1.7 (latest)"
+}

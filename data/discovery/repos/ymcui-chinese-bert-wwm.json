@@ -1,0 +1,193 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ymcui/Chinese-BERT-wwm",
+      "target": "airaria/textbrewer",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ymcui/Chinese-BERT-wwm",
+      "target": "airaria/textpruner",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ymcui/Chinese-BERT-wwm",
+      "target": "drcsolutionservice/drcd",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ymcui/Chinese-BERT-wwm",
+      "target": "drcknowledgeteam/drcd",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ymcui/Chinese-BERT-wwm",
+      "target": "bert",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ymcui/Chinese-BERT-wwm",
+      "target": "bert-wwm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ymcui/Chinese-BERT-wwm",
+      "target": "bert-wwm-ext",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ymcui/Chinese-BERT-wwm",
+      "target": "chinese-bert",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ymcui/Chinese-BERT-wwm",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ymcui/Chinese-BERT-wwm",
+      "target": "roberta",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ymcui/Chinese-BERT-wwm",
+      "target": "roberta-wwm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ymcui/Chinese-BERT-wwm",
+      "target": "tensorflow",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T12:39:50.632608+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 21925
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Pre-Training with Whole Word Masking for Chinese BERT\uff08\u4e2d\u6587BERT-wwm\u7cfb\u5217\u6a21\u578b\uff09",
+    "fork": false,
+    "full_name": "ymcui/Chinese-BERT-wwm",
+    "html_url": "https://github.com/ymcui/Chinese-BERT-wwm",
+    "language": "Python",
+    "pushed_at": "2026-04-19T00:57:10Z",
+    "stargazers_count": 10202,
+    "topics": [
+      "bert",
+      "bert-wwm",
+      "bert-wwm-ext",
+      "chinese-bert",
+      "nlp",
+      "pytorch",
+      "rbt",
+      "roberta",
+      "roberta-wwm",
+      "tensorflow"
+    ],
+    "updated_at": "2026-04-22T09:22:44Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "airaria/textbrewer",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "airaria/textpruner",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "drcknowledgeteam/drcd",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "drcsolutionservice/drcd",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[**\u4e2d\u6587\u8bf4\u660e**](https://github.com/ymcui/Chinese-BERT-wwm/) | [**English**](https://github.com/ymcui/Chinese-BERT-wwm/blob/master/README_EN.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bert"
+    },
+    {
+      "context_snippet": "[**\u4e2d\u6587\u8bf4\u660e**](https://github.com/ymcui/Chinese-BERT-wwm/) | [**English**](https://github.com/ymcui/Chinese-BERT-wwm/blob/master/README_EN.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bert-wwm"
+    },
+    {
+      "context_snippet": "[**\u4e2d\u6587\u8bf4\u660e**](https://github.com/ymcui/Chinese-BERT-wwm/) | [**English**](https://github.com/ymcui/Chinese-BERT-wwm/blob/master/README_EN.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bert-wwm-ext"
+    },
+    {
+      "context_snippet": "[**\u4e2d\u6587\u8bf4\u660e**](https://github.com/ymcui/Chinese-BERT-wwm/) | [**English**](https://github.com/ymcui/Chinese-BERT-wwm/blob/master/README_EN.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chinese-bert"
+    },
+    {
+      "context_snippet": "[**\u4e2d\u6587\u8bf4\u660e**](https://github.com/ymcui/Chinese-BERT-wwm/) | [**English**](https://github.com/ymcui/Chinese-BERT-wwm/blob/master/README_EN.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "[**\u4e2d\u6587\u8bf4\u660e**](https://github.com/ymcui/Chinese-BERT-wwm/) | [**English**](https://github.com/ymcui/Chinese-BERT-wwm/blob/master/README_EN.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "roberta"
+    },
+    {
+      "context_snippet": "[**\u4e2d\u6587\u8bf4\u660e**](https://github.com/ymcui/Chinese-BERT-wwm/) | [**English**](https://github.com/ymcui/Chinese-BERT-wwm/blob/master/README_EN.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "roberta-wwm"
+    },
+    {
+      "context_snippet": "[**\u4e2d\u6587\u8bf4\u660e**](https://github.com/ymcui/Chinese-BERT-wwm/) | [**English**](https://github.com/ymcui/Chinese-BERT-wwm/blob/master/README_EN.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tensorflow"
+    }
+  ]
+}

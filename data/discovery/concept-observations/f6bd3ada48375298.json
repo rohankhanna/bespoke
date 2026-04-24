@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A high-throughput and memory-efficient inference and serving engine for LLMs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "cd-unit-tests"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "cd-unit-tests"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "cd-unit-tests",
+      "sense_id": "cd-unit-tests#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "cd-unit-tests",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "cd-unit-tests",
+  "observation_id": "f6bd3ada48375298",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-24T12:33:41.350224+00:00",
+  "observed_text": "cd-unit-tests",
+  "source_context_snippet": "cd-unit-tests",
+  "source_file": ".github/workflows/cd-unit-tests.yml",
+  "source_repo": "HabanaAI/vllm-fork",
+  "source_repo_description": "A high-throughput and memory-efficient inference and serving engine for LLMs"
+}

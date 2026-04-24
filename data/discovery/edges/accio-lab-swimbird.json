@@ -1,0 +1,20 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Accio-Lab/SwimBird",
+      "target": "2u1/qwen-vl-series-finetune",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Accio-Lab/SwimBird",
+      "target": "tungchintao/skila",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-04-24T12:33:41.350224+00:00",
+  "source_repo": "Accio-Lab/SwimBird"
+}

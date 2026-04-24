@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Snyk Code Security"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Uniswap/web3-react",
+      "status": "candidate-context",
+      "text": "A simple, maximally extensible, dependency minimized framework for building modern Ethereum dApps"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Uniswap/web3-react",
+      "status": "candidate-context",
+      "text": "Snyk Code Security"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Uniswap/web3-react",
+      "status": "candidate",
+      "text": "Snyk Code Security"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11639,
+      "status": "candidate",
+      "text": "break"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11639,
+      "status": "candidate",
+      "text": "nsa"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11639,
+      "status": "candidate",
+      "text": "protocol"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11639,
+      "status": "candidate",
+      "text": "secure"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11639,
+      "status": "candidate",
+      "text": "statute"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Snyk Code Security",
+  "concept_id": "snyk-code-security",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/snyk_sca_scan.yml",
+      "source_repo": "Uniswap/web3-react"
+    }
+  ],
+  "first_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Snyk Code Security",
+      "sense_id": "snyk-code-security#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

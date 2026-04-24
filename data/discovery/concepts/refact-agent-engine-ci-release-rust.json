@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Refact Agent Engine CI Release (Rust)"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "smallcloudai/refact",
+      "status": "candidate-context",
+      "text": "AI Agent that handles engineering tasks end-to-end: integrates with developers\u2019 tools, plans, executes, and iterates until it achieves a successful result."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "smallcloudai/refact",
+      "status": "candidate-context",
+      "text": "Refact Agent Engine CI Release (Rust)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "smallcloudai/refact",
+      "status": "candidate",
+      "text": "Refact Agent Engine CI Release (Rust)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 32961,
+      "status": "candidate",
+      "text": "exhaust"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25887,
+      "status": "candidate",
+      "text": "exhaustively"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22142,
+      "status": "candidate",
+      "text": "ion"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17557,
+      "status": "candidate",
+      "text": "curve"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17535,
+      "status": "candidate",
+      "text": "positive"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Refact Agent Engine CI Release (Rust)",
+  "concept_id": "refact-agent-engine-ci-release-rust",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/agent_engine_release.yml",
+      "source_repo": "smallcloudai/refact"
+    }
+  ],
+  "first_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Refact Agent Engine CI Release (Rust)",
+      "sense_id": "refact-agent-engine-ci-release-rust#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

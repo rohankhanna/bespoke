@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lassik/emacs-format-all-the-code",
+      "target": "belav/csharpier",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lassik/emacs-format-all-the-code",
+      "target": "avh4/elm-format",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lassik/emacs-format-all-the-code",
+      "target": "ambv/black",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lassik/emacs-format-all-the-code",
+      "target": "bd82/toml-tools",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-24T13:05:51.882507+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 13422
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Auto-format source code in many languages with one command",
+    "fork": false,
+    "full_name": "lassik/emacs-format-all-the-code",
+    "html_url": "https://github.com/lassik/emacs-format-all-the-code",
+    "language": "Emacs Lisp",
+    "pushed_at": "2026-03-12T11:36:11Z",
+    "stargazers_count": 675,
+    "topics": [],
+    "updated_at": "2026-04-06T03:17:39Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ambv/black",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "avh4/elm-format",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bd82/toml-tools",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "belav/csharpier",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

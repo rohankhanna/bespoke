@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A Chrome DevTools Protocol driver for web automation and scraping."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Check Issues"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Check Issues"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11680,
+      "status": "candidate",
+      "text": "back"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11680,
+      "status": "candidate",
+      "text": "case"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11680,
+      "status": "candidate",
+      "text": "float"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11680,
+      "status": "candidate",
+      "text": "hold"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11680,
+      "status": "candidate",
+      "text": "review"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Check Issues",
+      "sense_id": "check-issues#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "check-issues",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "check-issues",
+  "observation_id": "a7fba5ee520efea9",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-24T12:33:41.350224+00:00",
+  "observed_text": "Check Issues",
+  "source_context_snippet": "Check Issues",
+  "source_file": ".github/workflows/check-issues.yml",
+  "source_repo": "go-rod/rod",
+  "source_repo_description": "A Chrome DevTools Protocol driver for web automation and scraping."
+}

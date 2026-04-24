@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "Codestyle-Check"
+    "Codestyle-Check",
+    "codestyle check"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -19,6 +20,18 @@
       "source_repo": "PaddlePaddle/Paddle",
       "status": "candidate-context",
       "text": "Codestyle-Check"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "corl-team/CORL",
+      "status": "candidate-context",
+      "text": "High-quality single-file implementations of SOTA Offline and Offline-to-Online RL algorithms: AWAC, BC, CQL, DT, EDAC, IQL, SAC-N, TD3+BC, LB-SAC, SPOT, Cal-QL, ReBRAC"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "corl-team/CORL",
+      "status": "candidate-context",
+      "text": "codestyle check"
     }
   ],
   "candidate_glosses": [
@@ -27,9 +40,51 @@
       "source_repo": "PaddlePaddle/Paddle",
       "status": "candidate",
       "text": "Codestyle-Check"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "corl-team/CORL",
+      "status": "candidate",
+      "text": "codestyle check"
     }
   ],
-  "candidate_related_terms": [],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "addition"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "answer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "arrest"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "arrive"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "ascertain"
+    }
+  ],
   "candidate_synonyms": [],
   "canonical_name": "Codestyle-Check",
   "concept_id": "codestyle-check",
@@ -40,11 +95,17 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": ".github/workflows/Codestyle-Check.yml",
       "source_repo": "PaddlePaddle/Paddle"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/codestyle.yml",
+      "source_repo": "corl-team/CORL"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "lexical_providers": [
     "datamuse"
   ],

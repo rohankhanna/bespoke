@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Build Windows Artifacts"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ROCm/TheRock",
+      "status": "candidate-context",
+      "text": "The HIP Environment and ROCm Kit - A lightweight open source build system for HIP and ROCm"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ROCm/TheRock",
+      "status": "candidate-context",
+      "text": "Build Windows Artifacts"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ROCm/TheRock",
+      "status": "candidate",
+      "text": "Build Windows Artifacts"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18760,
+      "status": "candidate",
+      "text": "system"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18507,
+      "status": "candidate",
+      "text": "glasswork"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18466,
+      "status": "candidate",
+      "text": "apparatus"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18466,
+      "status": "candidate",
+      "text": "factory"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18466,
+      "status": "candidate",
+      "text": "mechanician"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Build Windows Artifacts",
+  "concept_id": "build-windows-artifacts",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/build_windows_artifacts.yml",
+      "source_repo": "ROCm/TheRock"
+    }
+  ],
+  "first_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build Windows Artifacts",
+      "sense_id": "build-windows-artifacts#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

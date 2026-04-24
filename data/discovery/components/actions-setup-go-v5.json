@@ -1,7 +1,7 @@
 {
   "component": "actions/setup-go@v5",
   "first_seen_at": "2026-04-17T16:51:41.136432+00:00",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -1407,6 +1407,61 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/codegen.yaml",
       "source_repo": "argoproj-labs/argo-rollouts-manager"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "cloudflare/boring"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "achannarasappa/ticker"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "achannarasappa/ticker"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test-contract.yml",
+      "source_repo": "achannarasappa/ticker"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "achannarasappa/ticker"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/check-examples.yml",
+      "source_repo": "go-rod/rod"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/check-issues.yml",
+      "source_repo": "go-rod/rod"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/check-revision.yml",
+      "source_repo": "go-rod/rod"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "go-rod/rod"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test-linux.yml",
+      "source_repo": "go-rod/rod"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test-other-platforms.yml",
+      "source_repo": "go-rod/rod"
     }
   ]
 }

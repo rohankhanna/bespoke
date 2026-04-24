@@ -1,0 +1,160 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "pantoniou/libfyaml",
+      "target": "actions/checkout@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "pantoniou/libfyaml",
+      "target": "Standard Automake CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake.yaml",
+      "source_repo": "pantoniou/libfyaml",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake.yaml",
+      "source_repo": "pantoniou/libfyaml",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake.yaml",
+      "source_repo": "pantoniou/libfyaml",
+      "target": "lukka/get-cmake@latest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake.yaml",
+      "source_repo": "pantoniou/libfyaml",
+      "target": "microsoft/setup-msbuild@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake.yaml",
+      "source_repo": "pantoniou/libfyaml",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cmake.yaml",
+      "source_repo": "pantoniou/libfyaml",
+      "target": "CMake CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yaml",
+      "source_repo": "pantoniou/libfyaml",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yaml",
+      "source_repo": "pantoniou/libfyaml",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yaml",
+      "source_repo": "pantoniou/libfyaml",
+      "target": "lukka/get-cmake@latest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yaml",
+      "source_repo": "pantoniou/libfyaml",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs.yaml",
+      "source_repo": "pantoniou/libfyaml",
+      "target": "Docs CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pcons.yaml",
+      "source_repo": "pantoniou/libfyaml",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pcons.yaml",
+      "source_repo": "pantoniou/libfyaml",
+      "target": "astral-sh/setup-uv@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pcons.yaml",
+      "source_repo": "pantoniou/libfyaml",
+      "target": "Pcons CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-wheels.yaml",
+      "source_repo": "pantoniou/libfyaml",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-wheels.yaml",
+      "source_repo": "pantoniou/libfyaml",
+      "target": "pypa/cibuildwheel@v3.3.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-wheels.yaml",
+      "source_repo": "pantoniou/libfyaml",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-wheels.yaml",
+      "source_repo": "pantoniou/libfyaml",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-wheels.yaml",
+      "source_repo": "pantoniou/libfyaml",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-wheels.yaml",
+      "source_repo": "pantoniou/libfyaml",
+      "target": "pypa/gh-action-pypi-publish@release/v1",
+      "target_type": "component"
+    }
+  ],
+  "generated_at": "2026-04-24T12:33:41.350224+00:00",
+  "source_repo": "pantoniou/libfyaml"
+}

@@ -19,6 +19,18 @@
       "source_repo": "0x676e67/wreq-python",
       "status": "candidate-context",
       "text": "[![CI](https://github.com/0x676e67/wreq-python/actions/workflows/ci.yml/badge.svg)](https://github.com/0x676e67/wreq-python/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "0x676e67/wreq-util",
+      "status": "candidate-context",
+      "text": "Common utilities for wreq"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "0x676e67/wreq-util",
+      "status": "candidate-context",
+      "text": "A collection of utilities to do common things with [wreq](https://github.com/0x676e67/wreq)."
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "0x676e67/wreq-python",
       "status": "candidate",
       "text": "[![CI](https://github.com/0x676e67/wreq-python/actions/workflows/ci.yml/badge.svg)](https://github.com/0x676e67/wreq-python/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "0x676e67/wreq-util",
+      "status": "candidate",
+      "text": "A collection of utilities to do common things with [wreq](https://github.com/0x676e67/wreq)."
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "0x676e67/wreq-python"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "0x676e67/wreq-util"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "lexical_providers": [
     "datamuse"
   ],

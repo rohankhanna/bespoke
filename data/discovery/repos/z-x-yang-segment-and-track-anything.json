@@ -1,0 +1,137 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "z-x-yang/Segment-and-Track-Anything",
+      "target": "yoxu515/aot-benchmark",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "z-x-yang/Segment-and-Track-Anything",
+      "target": "yamy-cheng/groundingdino",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "z-x-yang/Segment-and-Track-Anything",
+      "target": "yuangongnd/ast",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "z-x-yang/Segment-and-Track-Anything",
+      "target": "interactive-segmentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "z-x-yang/Segment-and-Track-Anything",
+      "target": "segment-anything",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "z-x-yang/Segment-and-Track-Anything",
+      "target": "segment-anything-model",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "z-x-yang/Segment-and-Track-Anything",
+      "target": "video-object-segmentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "z-x-yang/Segment-and-Track-Anything",
+      "target": "visual-object-tracking",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T12:39:17.956635+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 21435
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "An open-source project dedicated to tracking and segmenting any objects in videos, either automatically or interactively. The primary algorithms utilized include the Segment Anything Model (SAM) for key-frame segmentation and Associating Objects with Transformers (AOT) for efficient tracking and propagation purposes.",
+    "fork": false,
+    "full_name": "z-x-yang/Segment-and-Track-Anything",
+    "html_url": "https://github.com/z-x-yang/Segment-and-Track-Anything",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2026-03-13T21:10:15Z",
+    "stargazers_count": 3120,
+    "topics": [
+      "interactive-segmentation",
+      "segment-anything",
+      "segment-anything-model",
+      "video-object-segmentation",
+      "visual-object-tracking"
+    ],
+    "updated_at": "2026-04-19T09:12:03Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "yamy-cheng/groundingdino",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "yoxu515/aot-benchmark",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "yuangongnd/ast",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "**Online Demo:** [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1R10N70AJaslzADFqb-a5OihYkllWEVxB?usp=sharing)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "interactive-segmentation"
+    },
+    {
+      "context_snippet": "**Online Demo:** [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1R10N70AJaslzADFqb-a5OihYkllWEVxB?usp=sharing)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "segment-anything"
+    },
+    {
+      "context_snippet": "**Online Demo:** [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1R10N70AJaslzADFqb-a5OihYkllWEVxB?usp=sharing)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "segment-anything-model"
+    },
+    {
+      "context_snippet": "**Online Demo:** [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1R10N70AJaslzADFqb-a5OihYkllWEVxB?usp=sharing)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "video-object-segmentation"
+    },
+    {
+      "context_snippet": "**Online Demo:** [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1R10N70AJaslzADFqb-a5OihYkllWEVxB?usp=sharing)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "visual-object-tracking"
+    }
+  ]
+}

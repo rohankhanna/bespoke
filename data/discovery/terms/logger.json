@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T12:46:59.510459+00:00",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -11,6 +11,11 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "apex/log"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "travis-ci/travis-logs"
     }
   ],
   "term": "logger"

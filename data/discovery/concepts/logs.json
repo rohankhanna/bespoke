@@ -43,6 +43,18 @@
       "source_repo": "uptrace/uptrace",
       "status": "candidate-context",
       "text": "Languages: **English** | [\u7b80\u4f53\u4e2d\u6587](README.zh.md)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "travis-ci/travis-logs",
+      "status": "candidate-context",
+      "text": "Processes log updates from the job runner (worker), and streams them to the web client, aggregates them, and archives to S3."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "travis-ci/travis-logs",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://travis-ci.org/travis-ci/travis-logs.svg?branch=master)](https://travis-ci.org/travis-ci/travis-logs)"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "uptrace/uptrace",
       "status": "candidate",
       "text": "Languages: **English** | [\u7b80\u4f53\u4e2d\u6587](README.zh.md)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "travis-ci/travis-logs",
+      "status": "candidate",
+      "text": "[![Build Status](https://travis-ci.org/travis-ci/travis-logs.svg?branch=master)](https://travis-ci.org/travis-ci/travis-logs)"
     }
   ],
   "candidate_related_terms": [
@@ -124,11 +142,17 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": null,
       "source_repo": "uptrace/uptrace"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "travis-ci/travis-logs"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "lexical_providers": [
     "datamuse"
   ],

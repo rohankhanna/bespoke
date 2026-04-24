@@ -637,6 +637,54 @@
       "source_repo": "EvolvingLMMs-Lab/Otter",
       "status": "candidate-context",
       "text": "<p align=\"center\" width=\"100%\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hiyouga/FastEdit",
+      "status": "candidate-context",
+      "text": "\ud83e\ude79Editing large language models within 10 seconds\u26a1"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hiyouga/FastEdit",
+      "status": "candidate-context",
+      "text": "*Editing large language models within 10 seconds*"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "linonetwo/MOSS-DockerFile",
+      "status": "candidate-context",
+      "text": "\u7528\u4e8e\u5728 Docker \u91cc\u8fd0\u884c\u590d\u65e6\u7684 MOSS \u8bed\u8a00\u6a21\u578b\uff0c\u4f7f\u7528 GradIO \u63d0\u4f9b WebUI\u3002"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "linonetwo/MOSS-DockerFile",
+      "status": "candidate-context",
+      "text": "https://hub.docker.com/repository/docker/linonetwo/moss/general"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "OpenGVLab/Ask-Anything",
+      "status": "candidate-context",
+      "text": "[CVPR2024 Highlight][VideoChatGPT] ChatGPT with video understanding! And many more supported LMs such as miniGPT4, StableLM, and MOSS."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenGVLab/Ask-Anything",
+      "status": "candidate-context",
+      "text": "[![Open in OpenXLab](https://cdn-static.openxlab.org.cn/app-center/openxlab_app.svg)](https://openxlab.org.cn/apps/detail/yinanhe/VideoChat2) |"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mukel/llama3.java",
+      "status": "candidate-context",
+      "text": "Llama 3+ inference in pure Java"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mukel/llama3.java",
+      "status": "candidate-context",
+      "text": "Practical [Llama 3](https://github.com/meta-llama/llama3), [3.1](https://llama.meta.com/docs/model-cards-and-prompt-formats/llama3_1) and [3.2](https://ai.meta.com/blog/llama-3-2-connect-2024-vision-edge-mobile-devices/) inference implemented in a single Java file."
     }
   ],
   "candidate_glosses": [
@@ -951,6 +999,30 @@
       "source_repo": "EvolvingLMMs-Lab/Otter",
       "status": "candidate",
       "text": "<p align=\"center\" width=\"100%\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hiyouga/FastEdit",
+      "status": "candidate",
+      "text": "*Editing large language models within 10 seconds*"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "linonetwo/MOSS-DockerFile",
+      "status": "candidate",
+      "text": "https://hub.docker.com/repository/docker/linonetwo/moss/general"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenGVLab/Ask-Anything",
+      "status": "candidate",
+      "text": "[![Open in OpenXLab](https://cdn-static.openxlab.org.cn/app-center/openxlab_app.svg)](https://openxlab.org.cn/apps/detail/yinanhe/VideoChat2) |"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mukel/llama3.java",
+      "status": "candidate",
+      "text": "Practical [Llama 3](https://github.com/meta-llama/llama3), [3.1](https://llama.meta.com/docs/model-cards-and-prompt-formats/llama3_1) and [3.2](https://ai.meta.com/blog/llama-3-2-connect-2024-vision-edge-mobile-devices/) inference implemented in a single Java file."
     }
   ],
   "candidate_related_terms": [],
@@ -1606,11 +1678,59 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "EvolvingLMMs-Lab/Otter"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "hiyouga/FastEdit"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "OpenHands/OpenHands"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "linonetwo/MOSS-DockerFile"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "OpenGVLab/Ask-Anything"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "OpenMOSS/MOSS"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "chatchat-space/Langchain-Chatchat"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "mukel/llama3.java"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "lobehub/lobe-cli-toolbox"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,117 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven.yml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven.yml",
+      "source_repo": "codelibs/fess-crawler",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven.yml",
+      "source_repo": "codelibs/fess-crawler",
+      "target": "actions/setup-java@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven.yml",
+      "source_repo": "codelibs/fess-crawler",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/maven.yml",
+      "source_repo": "codelibs/fess-crawler",
+      "target": "Java CI with Maven",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "codelibs/fess-crawler",
+      "target": "crawler",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "codelibs/fess-crawler",
+      "target": "java",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T12:38:35.645208+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 15643
+    },
+    {
+      "path": ".github/workflows/maven.yml",
+      "size": 1120
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Web/FileSystem Crawler Library",
+    "fork": false,
+    "full_name": "codelibs/fess-crawler",
+    "html_url": "https://github.com/codelibs/fess-crawler",
+    "language": "Java",
+    "pushed_at": "2026-04-19T10:37:09Z",
+    "stargazers_count": 36,
+    "topics": [
+      "crawler",
+      "java"
+    ],
+    "updated_at": "2026-04-19T10:37:14Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Java CI with Maven",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/maven.yml",
+      "term": "Java CI with Maven"
+    },
+    {
+      "context_snippet": "[![Java CI with Maven](https://github.com/codelibs/fess-crawler/actions/workflows/maven.yml/badge.svg)](https://github.com/codelibs/fess-crawler/actions/workflows/maven.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "crawler"
+    },
+    {
+      "context_snippet": "[![Java CI with Maven](https://github.com/codelibs/fess-crawler/actions/workflows/maven.yml/badge.svg)](https://github.com/codelibs/fess-crawler/actions/workflows/maven.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "java"
+    }
+  ]
+}

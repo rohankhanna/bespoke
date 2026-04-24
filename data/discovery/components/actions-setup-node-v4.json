@@ -1,7 +1,7 @@
 {
   "component": "actions/setup-node@v4",
   "first_seen_at": "2026-04-17T16:51:41.136432+00:00",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -4002,6 +4002,91 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/build-and-test.yml",
       "source_repo": "curiousdannii/emglken"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/autofix-pnpm.yml",
+      "source_repo": "TabbyML/tabby"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/compose-release.yml",
+      "source_repo": "phodal/auto-dev"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/integration-tests.yml",
+      "source_repo": "phodal/auto-dev"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/checks.yml",
+      "source_repo": "semver/semver.org"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/sync.yml",
+      "source_repo": "semver/semver.org"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-tests.yml",
+      "source_repo": "a2aproject/a2a-js"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "a2aproject/a2a-js"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/npm-publish.yml",
+      "source_repo": "a2aproject/a2a-js"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/run-tck.yaml",
+      "source_repo": "a2aproject/a2a-js"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/unit-tests.yml",
+      "source_repo": "a2aproject/a2a-js"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/unit-tests.yml",
+      "source_repo": "a2aproject/a2a-inspector"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "afc163/fanyi"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "ipld/explore.ipld.io"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "dwyl/hapi-auth-jwt2"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/node.js.yml",
+      "source_repo": "bjornharrtell/jsts"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/nodejs.yml",
+      "source_repo": "Automattic/juice"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-playground.yml",
+      "source_repo": "typstyle-rs/typstyle"
     }
   ]
 }

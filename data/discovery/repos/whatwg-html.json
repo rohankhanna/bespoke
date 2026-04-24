@@ -1,0 +1,172 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "whatwg/html",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "whatwg/html",
+      "target": "Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "whatwg/html",
+      "target": "canvas",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "whatwg/html",
+      "target": "eventsource",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "whatwg/html",
+      "target": "html",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "whatwg/html",
+      "target": "html-standard",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "whatwg/html",
+      "target": "standard",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "whatwg/html",
+      "target": "storage",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "whatwg/html",
+      "target": "whatwg",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "whatwg/html",
+      "target": "workers",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T13:04:59.971523+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 887
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 1874
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "HTML Standard",
+    "fork": false,
+    "full_name": "whatwg/html",
+    "html_url": "https://github.com/whatwg/html",
+    "language": "HTML",
+    "pushed_at": "2026-04-24T12:24:13Z",
+    "stargazers_count": 9203,
+    "topics": [
+      "canvas",
+      "eventsource",
+      "html",
+      "html-standard",
+      "standard",
+      "storage",
+      "whatwg",
+      "workers"
+    ],
+    "updated_at": "2026-04-24T12:24:17Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "Build"
+    },
+    {
+      "context_snippet": "This repository hosts the [HTML Standard](https://html.spec.whatwg.org/).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "canvas"
+    },
+    {
+      "context_snippet": "This repository hosts the [HTML Standard](https://html.spec.whatwg.org/).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "eventsource"
+    },
+    {
+      "context_snippet": "This repository hosts the [HTML Standard](https://html.spec.whatwg.org/).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "html"
+    },
+    {
+      "context_snippet": "This repository hosts the [HTML Standard](https://html.spec.whatwg.org/).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "html-standard"
+    },
+    {
+      "context_snippet": "This repository hosts the [HTML Standard](https://html.spec.whatwg.org/).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "standard"
+    },
+    {
+      "context_snippet": "This repository hosts the [HTML Standard](https://html.spec.whatwg.org/).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "storage"
+    },
+    {
+      "context_snippet": "This repository hosts the [HTML Standard](https://html.spec.whatwg.org/).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "whatwg"
+    },
+    {
+      "context_snippet": "This repository hosts the [HTML Standard](https://html.spec.whatwg.org/).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "workers"
+    }
+  ]
+}

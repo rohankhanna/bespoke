@@ -1,0 +1,71 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "dart-lang/setup-dart@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "moovida/dart_jts",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "moovida/dart_jts",
+      "target": "dart-lang/setup-dart@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "moovida/dart_jts",
+      "target": "Run Tests",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T13:01:51.969572+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 933
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 368
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "An effort to port some of the Java Topology Suite to dart ",
+    "fork": false,
+    "full_name": "moovida/dart_jts",
+    "html_url": "https://github.com/moovida/dart_jts",
+    "language": "Dart",
+    "pushed_at": "2024-05-01T04:19:15Z",
+    "stargazers_count": 28,
+    "topics": [],
+    "updated_at": "2025-12-17T12:17:39Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Run Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "Run Tests"
+    }
+  ]
+}

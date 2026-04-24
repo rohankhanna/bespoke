@@ -1,0 +1,139 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_test.yaml",
+      "source_repo": "ARM-software/astc-encoder",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_test.yaml",
+      "source_repo": "ARM-software/astc-encoder",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_test.yaml",
+      "source_repo": "ARM-software/astc-encoder",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_test.yaml",
+      "source_repo": "ARM-software/astc-encoder",
+      "target": "ilammy/msvc-dev-cmd@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_test.yaml",
+      "source_repo": "ARM-software/astc-encoder",
+      "target": "Build and test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/post_weekly_release.yaml",
+      "source_repo": "ARM-software/astc-encoder",
+      "target": "AutoModality/action-clean@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/post_weekly_release.yaml",
+      "source_repo": "ARM-software/astc-encoder",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/post_weekly_release.yaml",
+      "source_repo": "ARM-software/astc-encoder",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/post_weekly_release.yaml",
+      "source_repo": "ARM-software/astc-encoder",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/post_weekly_release.yaml",
+      "source_repo": "ARM-software/astc-encoder",
+      "target": "ilammy/msvc-dev-cmd@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/post_weekly_release.yaml",
+      "source_repo": "ARM-software/astc-encoder",
+      "target": "actions/download-artifact@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/post_weekly_release.yaml",
+      "source_repo": "ARM-software/astc-encoder",
+      "target": "geekyeggo/delete-artifact@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/post_weekly_release.yaml",
+      "source_repo": "ARM-software/astc-encoder",
+      "target": "comnoco/create-release-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/post_weekly_release.yaml",
+      "source_repo": "ARM-software/astc-encoder",
+      "target": "AButler/upload-release-assets@v3.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/post_weekly_release.yaml",
+      "source_repo": "ARM-software/astc-encoder",
+      "target": "post-weekly-release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ARM-software/astc-encoder",
+      "target": "astc",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ARM-software/astc-encoder",
+      "target": "astcenc",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ARM-software/astc-encoder",
+      "target": "compression",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ARM-software/astc-encoder",
+      "target": "image-compression",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-24T12:33:41.350224+00:00",
+  "source_repo": "ARM-software/astc-encoder"
+}

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "CI: Binary Installer"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "serverless/serverless",
+      "status": "candidate-context",
+      "text": "\u26a1 Serverless Framework \u2013 Effortlessly build apps that auto-scale, incur zero costs when idle, and require minimal maintenance using AWS Lambda and other managed cloud services."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "serverless/serverless",
+      "status": "candidate-context",
+      "text": "'CI: Binary Installer'"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "serverless/serverless",
+      "status": "candidate",
+      "text": "'CI: Binary Installer'"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10915,
+      "status": "candidate",
+      "text": "bits"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10915,
+      "status": "candidate",
+      "text": "field"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10915,
+      "status": "candidate",
+      "text": "port"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10915,
+      "status": "candidate",
+      "text": "ports"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10854,
+      "status": "candidate",
+      "text": "algebra"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "CI: Binary Installer",
+  "concept_id": "ci-binary-installer",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/ci-binary-installer.yml",
+      "source_repo": "serverless/serverless"
+    }
+  ],
+  "first_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "CI: Binary Installer",
+      "sense_id": "ci-binary-installer#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

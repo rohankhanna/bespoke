@@ -1,0 +1,101 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Spatiotemporal Arrays, Raster and Vector Data Cubes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<!-- badges: start -->"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<!-- badges: start -->"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39842060,
+      "status": "candidate",
+      "text": "spacial"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29841488,
+      "status": "candidate",
+      "text": "geographically"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29837098,
+      "status": "candidate",
+      "text": "cadastral"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29833843,
+      "status": "candidate",
+      "text": "geography"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29832517,
+      "status": "candidate",
+      "text": "geospatial"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "spatial",
+      "sense_id": "spatial#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2025,
+      "status": "candidate",
+      "text": "spacial"
+    }
+  ],
+  "concept_id": "spatial",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "spatial",
+  "observation_id": "6cff0aeeae65dedc",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T12:33:41.350224+00:00",
+  "observed_text": "spatial",
+  "source_context_snippet": "<!-- badges: start -->",
+  "source_file": null,
+  "source_repo": "r-spatial/stars",
+  "source_repo_description": "Spatiotemporal Arrays, Raster and Vector Data Cubes"
+}

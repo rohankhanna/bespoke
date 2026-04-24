@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-24T12:44:43.797406+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3732
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "zhangj111/astnn",
+    "html_url": "https://github.com/zhangj111/astnn",
+    "language": "Python",
+    "pushed_at": "2024-02-14T07:54:36Z",
+    "stargazers_count": 242,
+    "topics": [],
+    "updated_at": "2026-04-10T19:11:24Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

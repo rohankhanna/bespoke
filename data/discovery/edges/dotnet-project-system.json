@@ -1,0 +1,104 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dotnet/project-system",
+      "target": "microsoft/vsprojectsystem",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dotnet/project-system",
+      "target": "dotnet/msbuild",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dotnet/project-system",
+      "target": "dotnet/home",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backport.yaml",
+      "source_repo": "dotnet/project-system",
+      "target": "dotnet/arcade/.github/workflows/backport-base.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/backport.yaml",
+      "source_repo": "dotnet/project-system",
+      "target": "Backport PR to branch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/markdown-link-check.yml",
+      "source_repo": "dotnet/project-system",
+      "target": "actions/checkout@96f53100ba2a5449eb71d2e6604bbcd94b9449b5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/markdown-link-check.yml",
+      "source_repo": "dotnet/project-system",
+      "target": "gaurav-nelson/github-action-markdown-link-check@322b2315689b8cc8c65c14a07064ec862e62ee7c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dotnet/project-system",
+      "target": "csharp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dotnet/project-system",
+      "target": "csproj",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dotnet/project-system",
+      "target": "fsharp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dotnet/project-system",
+      "target": "fsproj",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dotnet/project-system",
+      "target": "vbproj",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dotnet/project-system",
+      "target": "visual-basic",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dotnet/project-system",
+      "target": "visual-studio",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-24T12:33:41.350224+00:00",
+  "source_repo": "dotnet/project-system"
+}

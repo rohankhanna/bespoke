@@ -1,0 +1,98 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "amazon-science/recode",
+      "target": "saikat107/natgen",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "amazon-science/recode",
+      "target": "tree-sitter/tree-sitter-python",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "amazon-science/recode",
+      "target": "code-generation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "amazon-science/recode",
+      "target": "large-language-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "amazon-science/recode",
+      "target": "robustness",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T12:44:17.225422+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9474
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Releasing code for \"ReCode: Robustness Evaluation of Code Generation Models\"",
+    "fork": false,
+    "full_name": "amazon-science/recode",
+    "html_url": "https://github.com/amazon-science/recode",
+    "language": "Python",
+    "pushed_at": "2024-03-20T16:13:07Z",
+    "stargazers_count": 58,
+    "topics": [
+      "code-generation",
+      "large-language-models",
+      "nlp",
+      "robustness"
+    ],
+    "updated_at": "2026-01-31T12:50:28Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "saikat107/natgen",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tree-sitter/tree-sitter-python",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "This is the repo for ReCode ([arXiv](https://arxiv.org/abs/2212.10264)), providing a comprehensive evaluation for the practical robustness of code generation models like CodeGEN, Incoder, GPT-J. In specific, this benchmark provides over 30 different general perturbations on docs\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "code-generation"
+    },
+    {
+      "context_snippet": "This is the repo for ReCode ([arXiv](https://arxiv.org/abs/2212.10264)), providing a comprehensive evaluation for the practical robustness of code generation models like CodeGEN, Incoder, GPT-J. In specific, this benchmark provides over 30 different general perturbations on docs\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "large-language-models"
+    },
+    {
+      "context_snippet": "This is the repo for ReCode ([arXiv](https://arxiv.org/abs/2212.10264)), providing a comprehensive evaluation for the practical robustness of code generation models like CodeGEN, Incoder, GPT-J. In specific, this benchmark provides over 30 different general perturbations on docs\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "robustness"
+    }
+  ]
+}

@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "test & maybe release"
+    "test & maybe release",
+    "Test & Maybe Release"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -91,6 +92,42 @@
       "source_repo": "ipfs/js-ipfs-utils",
       "status": "candidate-context",
       "text": "test & maybe release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ipfs-shipyard/is-ipfs",
+      "status": "candidate-context",
+      "text": "A set of utilities to help identify IPFS resources on the web"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipfs-shipyard/is-ipfs",
+      "status": "candidate-context",
+      "text": "test & maybe release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ipld/js-bitcoin",
+      "status": "candidate-context",
+      "text": "JavaScript Bitcoin data multiformats codecs and utilities for IPLD"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipld/js-bitcoin",
+      "status": "candidate-context",
+      "text": "Test & Maybe Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ipld/js-dag-pb",
+      "status": "candidate-context",
+      "text": "An implementation of the DAG-PB spec for JavaScript (for use with multiformats or @ipld/block)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipld/js-dag-pb",
+      "status": "candidate-context",
+      "text": "test & maybe release"
     }
   ],
   "candidate_glosses": [
@@ -133,6 +170,24 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "ipfs/js-ipfs-utils",
+      "status": "candidate",
+      "text": "test & maybe release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipfs-shipyard/is-ipfs",
+      "status": "candidate",
+      "text": "test & maybe release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipld/js-bitcoin",
+      "status": "candidate",
+      "text": "Test & Maybe Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipld/js-dag-pb",
       "status": "candidate",
       "text": "test & maybe release"
     }
@@ -220,11 +275,29 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": ".github/workflows/js-test-and-release.yml",
       "source_repo": "ipfs/js-ipfs-utils"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/js-test-and-release.yml",
+      "source_repo": "ipfs-shipyard/is-ipfs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/test-and-release.yml",
+      "source_repo": "ipld/js-bitcoin"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/js-test-and-release.yml",
+      "source_repo": "ipld/js-dag-pb"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "lexical_providers": [
     "datamuse"
   ],

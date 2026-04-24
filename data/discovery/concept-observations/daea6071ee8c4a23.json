@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "AllenAI's post-training codebase"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Beaker Experiment Launch"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Beaker Experiment Launch"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20055,
+      "status": "candidate",
+      "text": "flask"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19252,
+      "status": "candidate",
+      "text": "run"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19242,
+      "status": "candidate",
+      "text": "bomb"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19242,
+      "status": "candidate",
+      "text": "butt"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19242,
+      "status": "candidate",
+      "text": "butted"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Beaker Experiment Launch",
+      "sense_id": "beaker-experiment-launch#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "beaker-experiment-launch",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "beaker-experiment-launch",
+  "observation_id": "daea6071ee8c4a23",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-24T12:33:41.350224+00:00",
+  "observed_text": "Beaker Experiment Launch",
+  "source_context_snippet": "Beaker Experiment Launch",
+  "source_file": ".github/workflows/beaker-experiment.yml",
+  "source_repo": "allenai/open-instruct",
+  "source_repo_description": "AllenAI's post-training codebase"
+}

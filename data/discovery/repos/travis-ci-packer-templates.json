@@ -1,0 +1,163 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "travis-ci/packer-templates",
+      "target": "kennethreitz/autoenv",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "travis-ci/packer-templates",
+      "target": "chef/bento",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "travis-ci/packer-templates",
+      "target": "travis-infrastructure/packer-build",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "travis-ci/packer-templates",
+      "target": "travis-ci/travis-packer-build",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "travis-ci/packer-templates",
+      "target": "ascii-art",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "travis-ci/packer-templates",
+      "target": "docker-images",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "travis-ci/packer-templates",
+      "target": "google-cloud",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "travis-ci/packer-templates",
+      "target": "packer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "travis-ci/packer-templates",
+      "target": "packer-builder",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "travis-ci/packer-templates",
+      "target": "travis-ci",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T12:53:17.598761+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 16246
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Templates for Packer!",
+    "fork": false,
+    "full_name": "travis-ci/packer-templates",
+    "html_url": "https://github.com/travis-ci/packer-templates",
+    "language": "Ruby",
+    "pushed_at": "2025-10-30T14:55:17Z",
+    "stargazers_count": 109,
+    "topics": [
+      "ascii-art",
+      "docker-images",
+      "google-cloud",
+      "packer",
+      "packer-builder",
+      "travis-ci"
+    ],
+    "updated_at": "2026-02-18T20:24:50Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "chef/bento",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kennethreitz/autoenv",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "travis-ci/travis-packer-build",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "travis-infrastructure/packer-build",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Collection of Packer templates used for various infrastructure layers.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ascii-art"
+    },
+    {
+      "context_snippet": "Collection of Packer templates used for various infrastructure layers.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "docker-images"
+    },
+    {
+      "context_snippet": "Collection of Packer templates used for various infrastructure layers.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "google-cloud"
+    },
+    {
+      "context_snippet": "Collection of Packer templates used for various infrastructure layers.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "packer"
+    },
+    {
+      "context_snippet": "Collection of Packer templates used for various infrastructure layers.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "packer-builder"
+    },
+    {
+      "context_snippet": "Collection of Packer templates used for various infrastructure layers.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "travis-ci"
+    }
+  ]
+}

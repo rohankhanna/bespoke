@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-24T12:53:48.236715+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4218
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Project template to get started creating your first agent with ADK for Java and building with Maven",
+    "fork": false,
+    "full_name": "glaforge/adk-java-maven-template",
+    "html_url": "https://github.com/glaforge/adk-java-maven-template",
+    "language": "Java",
+    "pushed_at": "2026-03-30T15:49:31Z",
+    "stargazers_count": 35,
+    "topics": [],
+    "updated_at": "2026-04-09T15:36:04Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

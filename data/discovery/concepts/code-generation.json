@@ -142,6 +142,42 @@
       "source_repo": "LiveCodeBench/LiveCodeBench",
       "status": "candidate-context",
       "text": "Official repository for the paper \"LiveCodeBench: Holistic and Contamination Free Evaluation of Large Language Models for Code\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "xlang-ai/OSWorld",
+      "status": "candidate-context",
+      "text": "[NeurIPS 2024] OSWorld: Benchmarking Multimodal Agents for Open-Ended Tasks in Real Computer Environments"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xlang-ai/OSWorld",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "amazon-science/recode",
+      "status": "candidate-context",
+      "text": "Releasing code for \"ReCode: Robustness Evaluation of Code Generation Models\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "amazon-science/recode",
+      "status": "candidate-context",
+      "text": "This is the repo for ReCode ([arXiv](https://arxiv.org/abs/2212.10264)), providing a comprehensive evaluation for the practical robustness of code generation models like CodeGEN, Incoder, GPT-J. In specific, this benchmark provides over 30 different general perturbations on docs\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "xlang-ai/DS-1000",
+      "status": "candidate-context",
+      "text": "[ICML 2023] Data and code release for the paper \"DS-1000: A Natural and Reliable Benchmark for Data Science Code Generation\"."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xlang-ai/DS-1000",
+      "status": "candidate-context",
+      "text": "<p align=\"left\">"
     }
   ],
   "candidate_glosses": [
@@ -210,6 +246,24 @@
       "source_repo": "LiveCodeBench/LiveCodeBench",
       "status": "candidate",
       "text": "Official repository for the paper \"LiveCodeBench: Holistic and Contamination Free Evaluation of Large Language Models for Code\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xlang-ai/OSWorld",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "amazon-science/recode",
+      "status": "candidate",
+      "text": "This is the repo for ReCode ([arXiv](https://arxiv.org/abs/2212.10264)), providing a comprehensive evaluation for the practical robustness of code generation models like CodeGEN, Incoder, GPT-J. In specific, this benchmark provides over 30 different general perturbations on docs\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xlang-ai/DS-1000",
+      "status": "candidate",
+      "text": "<p align=\"left\">"
     }
   ],
   "candidate_related_terms": [
@@ -367,11 +421,29 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "LiveCodeBench/LiveCodeBench"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "xlang-ai/OSWorld"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "amazon-science/recode"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "xlang-ai/DS-1000"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "lexical_providers": [
     "datamuse"
   ],

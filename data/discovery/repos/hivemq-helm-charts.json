@@ -1,0 +1,625 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dispatcher.yml"
+    },
+    {
+      "component": "dorny/paths-filter@de90cc6fb38fc0963ad72b210f1f284cd68cea36",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dispatcher.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dispatcher.yml"
+    },
+    {
+      "component": "dorny/paths-filter@de90cc6fb38fc0963ad72b210f1f284cd68cea36",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dispatcher.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dispatcher.yml"
+    },
+    {
+      "component": "dorny/paths-filter@de90cc6fb38fc0963ad72b210f1f284cd68cea36",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dispatcher.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dispatcher.yml"
+    },
+    {
+      "component": "dorny/paths-filter@de90cc6fb38fc0963ad72b210f1f284cd68cea36",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dispatcher.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/edge-release-pr.yml"
+    },
+    {
+      "component": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/edge-release-pr.yml"
+    },
+    {
+      "component": "gradle/actions/setup-gradle@0723195856401067f7a2779048b490ace7a47d7c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/edge-release-pr.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/edge-smoke-test.yml"
+    },
+    {
+      "component": "helm/kind-action@ef37e7f390d99f746eb8b610417061a60e82a6cc",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/edge-smoke-test.yml"
+    },
+    {
+      "component": "azure/setup-helm@1a275c3b69536ee54be43f2070a358922e12c8d4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/edge-smoke-test.yml"
+    },
+    {
+      "component": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/edge-smoke-test.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/edge-verify.yml"
+    },
+    {
+      "component": "azure/setup-helm@1a275c3b69536ee54be43f2070a358922e12c8d4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/edge-verify.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/harbor.yml"
+    },
+    {
+      "component": "azure/setup-helm@1a275c3b69536ee54be43f2070a358922e12c8d4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/harbor.yml"
+    },
+    {
+      "component": "docker/login-action@b45d80f862d83dbcd57f89517bcf500b2ab88fb2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/harbor.yml"
+    },
+    {
+      "component": "sigstore/cosign-installer@ba7bc0a3fef59531c69a25acd34668d6d3fe6f22",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/harbor.yml"
+    },
+    {
+      "component": "donnerbart/split-tests-java-action/generate-split-index-json@4153fa0b436141302155e03df99e8e6d5139fb23",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/platform-integration-tests.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/platform-integration-tests.yml"
+    },
+    {
+      "component": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/platform-integration-tests.yml"
+    },
+    {
+      "component": "gradle/actions/setup-gradle@0723195856401067f7a2779048b490ace7a47d7c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/platform-integration-tests.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/platform-integration-tests.yml"
+    },
+    {
+      "component": "donnerbart/split-tests-java-action/checkout-junit-reports@4153fa0b436141302155e03df99e8e6d5139fb23",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/platform-integration-tests.yml"
+    },
+    {
+      "component": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/platform-integration-tests.yml"
+    },
+    {
+      "component": "gradle/actions/setup-gradle@0723195856401067f7a2779048b490ace7a47d7c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/platform-integration-tests.yml"
+    },
+    {
+      "component": "donnerbart/split-tests-java-action@4153fa0b436141302155e03df99e8e6d5139fb23",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/platform-integration-tests.yml"
+    },
+    {
+      "component": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/platform-integration-tests.yml"
+    },
+    {
+      "component": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/platform-integration-tests.yml"
+    },
+    {
+      "component": "dorny/test-reporter@3d76b34a4535afbd0600d347b09a6ee5deb3ed7f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/platform-integration-tests.yml"
+    },
+    {
+      "component": "donnerbart/split-tests-java-action/merge-junit-reports@4153fa0b436141302155e03df99e8e6d5139fb23",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/platform-integration-tests.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/platform-smoke-test.yml"
+    },
+    {
+      "component": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/platform-smoke-test.yml"
+    },
+    {
+      "component": "gradle/actions/setup-gradle@0723195856401067f7a2779048b490ace7a47d7c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/platform-smoke-test.yml"
+    },
+    {
+      "component": "helm/kind-action@ef37e7f390d99f746eb8b610417061a60e82a6cc",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/platform-smoke-test.yml"
+    },
+    {
+      "component": "azure/setup-helm@1a275c3b69536ee54be43f2070a358922e12c8d4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/platform-smoke-test.yml"
+    },
+    {
+      "component": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/platform-smoke-test.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/platform-verify.yml"
+    },
+    {
+      "component": "azure/setup-helm@1a275c3b69536ee54be43f2070a358922e12c8d4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/platform-verify.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "azure/setup-helm@1a275c3b69536ee54be43f2070a358922e12c8d4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "gradle/actions/setup-gradle@0723195856401067f7a2779048b490ace7a47d7c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "helm/chart-releaser-action@cae68fefc6b5f367a0275617c9f83181ba54714f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dispatcher.yml",
+      "source_repo": "hivemq/helm-charts",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dispatcher.yml",
+      "source_repo": "hivemq/helm-charts",
+      "target": "dorny/paths-filter@de90cc6fb38fc0963ad72b210f1f284cd68cea36",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dispatcher.yml",
+      "source_repo": "hivemq/helm-charts",
+      "target": "Helm Charts Dispatcher",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/edge-release-pr.yml",
+      "source_repo": "hivemq/helm-charts",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/edge-release-pr.yml",
+      "source_repo": "hivemq/helm-charts",
+      "target": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/edge-release-pr.yml",
+      "source_repo": "hivemq/helm-charts",
+      "target": "gradle/actions/setup-gradle@0723195856401067f7a2779048b490ace7a47d7c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/edge-release-pr.yml",
+      "source_repo": "hivemq/helm-charts",
+      "target": "Create Edge Helm Chart Release PR",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/edge-smoke-test.yml",
+      "source_repo": "hivemq/helm-charts",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/edge-smoke-test.yml",
+      "source_repo": "hivemq/helm-charts",
+      "target": "helm/kind-action@ef37e7f390d99f746eb8b610417061a60e82a6cc",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/edge-smoke-test.yml",
+      "source_repo": "hivemq/helm-charts",
+      "target": "azure/setup-helm@1a275c3b69536ee54be43f2070a358922e12c8d4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/edge-smoke-test.yml",
+      "source_repo": "hivemq/helm-charts",
+      "target": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/edge-smoke-test.yml",
+      "source_repo": "hivemq/helm-charts",
+      "target": "HiveMQ Edge Helm Chart Smoke Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/edge-verify.yml",
+      "source_repo": "hivemq/helm-charts",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/edge-verify.yml",
+      "source_repo": "hivemq/helm-charts",
+      "target": "azure/setup-helm@1a275c3b69536ee54be43f2070a358922e12c8d4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/edge-verify.yml",
+      "source_repo": "hivemq/helm-charts",
+      "target": "HiveMQ Edge Helm Chart Verify Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/harbor.yml",
+      "source_repo": "hivemq/helm-charts",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/harbor.yml",
+      "source_repo": "hivemq/helm-charts",
+      "target": "azure/setup-helm@1a275c3b69536ee54be43f2070a358922e12c8d4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/harbor.yml",
+      "source_repo": "hivemq/helm-charts",
+      "target": "docker/login-action@b45d80f862d83dbcd57f89517bcf500b2ab88fb2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/harbor.yml",
+      "source_repo": "hivemq/helm-charts",
+      "target": "sigstore/cosign-installer@ba7bc0a3fef59531c69a25acd34668d6d3fe6f22",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/platform-integration-tests.yml",
+      "source_repo": "hivemq/helm-charts",
+      "target": "donnerbart/split-tests-java-action/generate-split-index-json@4153fa0b436141302155e03df99e8e6d5139fb23",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/platform-integration-tests.yml",
+      "source_repo": "hivemq/helm-charts",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/platform-integration-tests.yml",
+      "source_repo": "hivemq/helm-charts",
+      "target": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/platform-integration-tests.yml",
+      "source_repo": "hivemq/helm-charts",
+      "target": "gradle/actions/setup-gradle@0723195856401067f7a2779048b490ace7a47d7c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/platform-integration-tests.yml",
+      "source_repo": "hivemq/helm-charts",
+      "target": "donnerbart/split-tests-java-action/checkout-junit-reports@4153fa0b436141302155e03df99e8e6d5139fb23",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/platform-integration-tests.yml",
+      "source_repo": "hivemq/helm-charts",
+      "target": "donnerbart/split-tests-java-action@4153fa0b436141302155e03df99e8e6d5139fb23",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/platform-integration-tests.yml",
+      "source_repo": "hivemq/helm-charts",
+      "target": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/platform-integration-tests.yml",
+      "source_repo": "hivemq/helm-charts",
+      "target": "dorny/test-reporter@3d76b34a4535afbd0600d347b09a6ee5deb3ed7f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/platform-integration-tests.yml",
+      "source_repo": "hivemq/helm-charts",
+      "target": "donnerbart/split-tests-java-action/merge-junit-reports@4153fa0b436141302155e03df99e8e6d5139fb23",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/platform-smoke-test.yml",
+      "source_repo": "hivemq/helm-charts",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/platform-smoke-test.yml",
+      "source_repo": "hivemq/helm-charts",
+      "target": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/platform-smoke-test.yml",
+      "source_repo": "hivemq/helm-charts",
+      "target": "gradle/actions/setup-gradle@0723195856401067f7a2779048b490ace7a47d7c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/platform-smoke-test.yml",
+      "source_repo": "hivemq/helm-charts",
+      "target": "helm/kind-action@ef37e7f390d99f746eb8b610417061a60e82a6cc",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/platform-smoke-test.yml",
+      "source_repo": "hivemq/helm-charts",
+      "target": "azure/setup-helm@1a275c3b69536ee54be43f2070a358922e12c8d4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/platform-smoke-test.yml",
+      "source_repo": "hivemq/helm-charts",
+      "target": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/platform-verify.yml",
+      "source_repo": "hivemq/helm-charts",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/platform-verify.yml",
+      "source_repo": "hivemq/helm-charts",
+      "target": "azure/setup-helm@1a275c3b69536ee54be43f2070a358922e12c8d4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "hivemq/helm-charts",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "hivemq/helm-charts",
+      "target": "azure/setup-helm@1a275c3b69536ee54be43f2070a358922e12c8d4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "hivemq/helm-charts",
+      "target": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "hivemq/helm-charts",
+      "target": "gradle/actions/setup-gradle@0723195856401067f7a2779048b490ace7a47d7c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "hivemq/helm-charts",
+      "target": "helm/chart-releaser-action@cae68fefc6b5f367a0275617c9f83181ba54714f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "hivemq/helm-charts",
+      "target": "Release Charts",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T12:57:13.539614+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3825
+    },
+    {
+      "path": ".github/workflows/dispatcher.yml",
+      "size": 5481
+    },
+    {
+      "path": ".github/workflows/edge-release-pr.yml",
+      "size": 2931
+    },
+    {
+      "path": ".github/workflows/edge-smoke-test.yml",
+      "size": 2596
+    },
+    {
+      "path": ".github/workflows/edge-verify.yml",
+      "size": 1242
+    },
+    {
+      "path": ".github/workflows/harbor.yml",
+      "size": 4485
+    },
+    {
+      "path": ".github/workflows/platform-integration-tests.yml",
+      "size": 8053
+    },
+    {
+      "path": ".github/workflows/platform-smoke-test.yml",
+      "size": 5383
+    },
+    {
+      "path": ".github/workflows/platform-verify.yml",
+      "size": 2015
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 2385
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "HiveMQ Helm charts",
+    "fork": false,
+    "full_name": "hivemq/helm-charts",
+    "html_url": "https://github.com/hivemq/helm-charts",
+    "language": "Java",
+    "pushed_at": "2026-04-24T11:28:42Z",
+    "stargazers_count": 27,
+    "topics": [],
+    "updated_at": "2026-04-21T12:22:25Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Helm Charts Dispatcher",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dispatcher.yml",
+      "term": "Helm Charts Dispatcher"
+    },
+    {
+      "context_snippet": "\"Create Edge Helm Chart Release PR\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/edge-release-pr.yml",
+      "term": "Create Edge Helm Chart Release PR"
+    },
+    {
+      "context_snippet": "HiveMQ Edge Helm Chart Smoke Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/edge-smoke-test.yml",
+      "term": "HiveMQ Edge Helm Chart Smoke Test"
+    },
+    {
+      "context_snippet": "HiveMQ Edge Helm Chart Verify Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/edge-verify.yml",
+      "term": "HiveMQ Edge Helm Chart Verify Tests"
+    },
+    {
+      "context_snippet": "Release Charts",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Release Charts"
+    }
+  ]
+}

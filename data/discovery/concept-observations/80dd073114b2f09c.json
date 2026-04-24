@@ -84,7 +84,7 @@
   "normalized_form": "chocolatey",
   "observation_id": "80dd073114b2f09c",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_at": "2026-04-24T12:33:41.350224+00:00",
   "observed_text": "chocolatey",
   "source_context_snippet": "chocolatey",
   "source_file": ".github/workflows/chocolatey.yml",

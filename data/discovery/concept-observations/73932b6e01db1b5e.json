@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\ud83e\ude79Editing large language models within 10 seconds\u26a1"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "*Editing large language models within 10 seconds*"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "*Editing large language models within 10 seconds*"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19878626,
+      "status": "candidate",
+      "text": "master of laws"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19878625,
+      "status": "candidate",
+      "text": "degree"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19876488,
+      "status": "candidate",
+      "text": "master"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19816857,
+      "status": "candidate",
+      "text": "bachelor"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9887600,
+      "status": "candidate",
+      "text": "licenciatura"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "llms",
+      "sense_id": "llms#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "llms",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "llms",
+  "observation_id": "73932b6e01db1b5e",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T12:33:41.350224+00:00",
+  "observed_text": "llms",
+  "source_context_snippet": "*Editing large language models within 10 seconds*",
+  "source_file": null,
+  "source_repo": "hiyouga/FastEdit",
+  "source_repo_description": "\ud83e\ude79Editing large language models within 10 seconds\u26a1"
+}

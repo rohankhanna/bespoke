@@ -19,6 +19,18 @@
       "source_repo": "JetBrains/intellij-community",
       "status": "candidate-context",
       "text": "[![official JetBrains project](http://jb.gg/badges/official.svg)](https://github.com/JetBrains/.github/blob/main/profile/README.md) [![IntelliJ IDEA build status](https://github.com/JetBrains/intellij-community/actions/workflows/IntelliJ_IDEA.yml/badge.svg?branch=master)](https:\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "phodal/auto-dev",
+      "status": "candidate-context",
+      "text": "\ud83e\uddd9\u200dAutoDev: the AI-native Multi-Agent development platform built on Kotlin Multiplatform, covering all 7 phases of SDLC."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "phodal/auto-dev",
+      "status": "candidate-context",
+      "text": "> **One Platform. All Phases. Every Device.**"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "JetBrains/intellij-community",
       "status": "candidate",
       "text": "[![official JetBrains project](http://jb.gg/badges/official.svg)](https://github.com/JetBrains/.github/blob/main/profile/README.md) [![IntelliJ IDEA build status](https://github.com/JetBrains/intellij-community/actions/workflows/IntelliJ_IDEA.yml/badge.svg?branch=master)](https:\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "phodal/auto-dev",
+      "status": "candidate",
+      "text": "> **One Platform. All Phases. Every Device.**"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "JetBrains/intellij-community"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "phodal/auto-dev"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "lexical_providers": [
     "datamuse"
   ],

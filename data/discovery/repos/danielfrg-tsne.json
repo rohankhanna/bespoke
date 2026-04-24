@@ -1,0 +1,132 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielfrg/tsne",
+      "target": "xianyi/openblas",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielfrg/tsne",
+      "target": "prateekpg2455/u.s-presidential-speeches",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielfrg/tsne",
+      "target": "osdf/py_bh_tsne",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "danielfrg/tsne",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "danielfrg/tsne",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "danielfrg/tsne",
+      "target": "codecov/codecov-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "danielfrg/tsne",
+      "target": "test",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T12:47:09.916995+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2128
+    },
+    {
+      "path": "Dockerfile",
+      "size": 238
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1082
+    },
+    {
+      "path": "requirements.txt",
+      "size": 42
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 1207
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "A python wrapper for Barnes-Hut tsne",
+    "fork": false,
+    "full_name": "danielfrg/tsne",
+    "html_url": "https://github.com/danielfrg/tsne",
+    "language": "C++",
+    "pushed_at": "2023-04-06T22:49:42Z",
+    "stargazers_count": 410,
+    "topics": [],
+    "updated_at": "2026-03-10T22:14:21Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "osdf/py_bh_tsne",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "prateekpg2455/u.s-presidential-speeches",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "xianyi/openblas",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "test"
+    }
+  ]
+}

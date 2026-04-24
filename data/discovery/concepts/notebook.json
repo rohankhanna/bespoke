@@ -115,6 +115,18 @@
       "source_repo": "twosigma/beakerx",
       "status": "candidate-context",
       "text": "<!--"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "araffin/rl-tutorial-jnrr19",
+      "status": "candidate-context",
+      "text": "Stable-Baselines tutorial for Journ\u00e9es Nationales de la Recherche en Robotique 2019 "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "araffin/rl-tutorial-jnrr19",
+      "status": "candidate-context",
+      "text": "Stable-Baselines reinforcement learning tutorial for Journ\u00e9es Nationales de la Recherche en Robotique 2019."
     }
   ],
   "candidate_glosses": [
@@ -171,6 +183,12 @@
       "source_repo": "twosigma/beakerx",
       "status": "candidate",
       "text": "<!--"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "araffin/rl-tutorial-jnrr19",
+      "status": "candidate",
+      "text": "Stable-Baselines reinforcement learning tutorial for Journ\u00e9es Nationales de la Recherche en Robotique 2019."
     }
   ],
   "candidate_related_terms": [
@@ -288,11 +306,17 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "jupyter/nbclassic"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "araffin/rl-tutorial-jnrr19"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "lexical_providers": [
     "datamuse"
   ],

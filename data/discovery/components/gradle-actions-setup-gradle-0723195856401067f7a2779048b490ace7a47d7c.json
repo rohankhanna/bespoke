@@ -1,7 +1,7 @@
 {
   "component": "gradle/actions/setup-gradle@0723195856401067f7a2779048b490ace7a47d7c",
   "first_seen_at": "2026-04-18T03:54:46.759203+00:00",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -37,6 +37,26 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/release.yml",
       "source_repo": "apple/pkl"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/edge-release-pr.yml",
+      "source_repo": "hivemq/helm-charts"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/platform-integration-tests.yml",
+      "source_repo": "hivemq/helm-charts"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/platform-smoke-test.yml",
+      "source_repo": "hivemq/helm-charts"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "hivemq/helm-charts"
     }
   ]
 }

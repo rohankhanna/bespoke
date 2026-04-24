@@ -1,11 +1,16 @@
 {
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "FlagOpen/FlagEmbedding"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "shibing624/text2vec"
     }
   ],
   "term": "sentence-embeddings"

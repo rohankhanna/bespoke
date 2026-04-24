@@ -1,0 +1,46 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ray-project/ray-llm",
+      "target": "llm-serving",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T12:36:07.930675+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 609
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "RayLLM - LLMs on Ray (Archived). Read README for more info.",
+    "fork": false,
+    "full_name": "ray-project/ray-llm",
+    "html_url": "https://github.com/ray-project/ray-llm",
+    "language": null,
+    "pushed_at": "2025-03-13T01:13:38Z",
+    "stargazers_count": 1267,
+    "topics": [
+      "llm",
+      "llm-serving",
+      "ray"
+    ],
+    "updated_at": "2026-04-20T01:13:53Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "This repository has been archived and is no longer maintained. We have created [`ray.serve.llm`](https://docs.ray.io/en/latest/serve/llm/overview.html) and [`ray.data.llm`](https://docs.ray.io/en/latest/data/working-with-llms.html) APIs to simplify deployment of LLMs on top of [\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "llm-serving"
+    }
+  ]
+}

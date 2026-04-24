@@ -117,6 +117,30 @@
       "source_repo": "ModelCloud/GPTQModel",
       "status": "candidate-context",
       "text": "<p align=center>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kvcache-ai/Mooncake",
+      "status": "candidate-context",
+      "text": "Mooncake is the serving platform for Kimi, a leading LLM service provided by Moonshot AI."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kvcache-ai/Mooncake",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "SemiAnalysisAI/InferenceX",
+      "status": "candidate-context",
+      "text": "Open Source Continuous Inference Benchmarking Qwen3.5, DeepSeek, GPTOSS - GB200 NVL72 vs MI355X vs B200 vs GB300 NVL72 vs H100 & soon\u2122 TPUv6e/v7/Trainium2/3"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SemiAnalysisAI/InferenceX",
+      "status": "candidate-context",
+      "text": "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://github.com/SemiAnalysisAI/InferenceX/blob/main/LICENSE)"
     }
   ],
   "candidate_glosses": [
@@ -173,6 +197,18 @@
       "source_repo": "ModelCloud/GPTQModel",
       "status": "candidate",
       "text": "<p align=center>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kvcache-ai/Mooncake",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SemiAnalysisAI/InferenceX",
+      "status": "candidate",
+      "text": "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://github.com/SemiAnalysisAI/InferenceX/blob/main/LICENSE)"
     }
   ],
   "candidate_related_terms": [],
@@ -264,11 +300,23 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "meta-llama/llama-cookbook"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "kvcache-ai/Mooncake"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "SemiAnalysisAI/InferenceX"
     }
   ],
   "first_seen_at": "2026-04-19T17:36:09.281008+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "lexical_providers": [
     "datamuse"
   ],

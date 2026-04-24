@@ -1,0 +1,282 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cargo-deny.yml"
+    },
+    {
+      "component": "EmbarkStudios/cargo-deny-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cargo-deny.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions-rs/toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions-rs/cargo@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions-rs/cargo@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions-rs/cargo@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml"
+    },
+    {
+      "component": "actions-rs/toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml"
+    },
+    {
+      "component": "taiki-e/install-action@cargo-llvm-cov",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-audit.yml"
+    },
+    {
+      "component": "actions-rs/cargo@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-audit.yml"
+    },
+    {
+      "component": "actions-rs/cargo@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-audit.yml"
+    },
+    {
+      "component": "actions-rs/cargo@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-audit.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bytedance/monoio",
+      "target": "monoio-rs/local-sync",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bytedance/monoio",
+      "target": "monoio-rs/monoio-tls",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bytedance/monoio",
+      "target": "monoio-rs/monoio-codec",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cargo-deny.yml",
+      "source_repo": "bytedance/monoio",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cargo-deny.yml",
+      "source_repo": "bytedance/monoio",
+      "target": "EmbarkStudios/cargo-deny-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cargo-deny.yml",
+      "source_repo": "bytedance/monoio",
+      "target": "Cargo-deny Check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "bytedance/monoio",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "bytedance/monoio",
+      "target": "actions-rs/toolchain@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "bytedance/monoio",
+      "target": "Swatinem/rust-cache@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "bytedance/monoio",
+      "target": "actions-rs/cargo@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "bytedance/monoio",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "bytedance/monoio",
+      "target": "actions-rs/toolchain@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "bytedance/monoio",
+      "target": "taiki-e/install-action@cargo-llvm-cov",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "bytedance/monoio",
+      "target": "Code Coverage",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-audit.yml",
+      "source_repo": "bytedance/monoio",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-audit.yml",
+      "source_repo": "bytedance/monoio",
+      "target": "actions-rs/cargo@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-audit.yml",
+      "source_repo": "bytedance/monoio",
+      "target": "Pull Request Security Audit",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T12:43:16.712233+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5657
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 130
+    },
+    {
+      "path": ".github/workflows/cargo-deny.yml",
+      "size": 412
+    },
+    {
+      "path": ".github/workflows/ci.sh",
+      "size": 2923
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 3405
+    },
+    {
+      "path": ".github/workflows/coverage.yml",
+      "size": 1077
+    },
+    {
+      "path": ".github/workflows/pr-audit.yml",
+      "size": 657
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Rust async runtime based on io-uring.",
+    "fork": false,
+    "full_name": "bytedance/monoio",
+    "html_url": "https://github.com/bytedance/monoio",
+    "language": "Rust",
+    "pushed_at": "2026-04-14T02:55:45Z",
+    "stargazers_count": 4952,
+    "topics": [],
+    "updated_at": "2026-04-24T12:37:15Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "monoio-rs/local-sync",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "monoio-rs/monoio-codec",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "monoio-rs/monoio-tls",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Cargo-deny Check",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cargo-deny.yml",
+      "term": "Cargo-deny Check"
+    },
+    {
+      "context_snippet": "Code Coverage",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/coverage.yml",
+      "term": "Code Coverage"
+    },
+    {
+      "context_snippet": "Pull Request Security Audit",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-audit.yml",
+      "term": "Pull Request Security Audit"
+    }
+  ]
+}

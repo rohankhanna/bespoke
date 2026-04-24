@@ -1,7 +1,7 @@
 {
   "component": "docker/setup-buildx-action@v3",
   "first_seen_at": "2026-04-17T16:51:41.136432+00:00",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -1032,6 +1032,71 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/docker-image-publish-openai.yml",
       "source_repo": "eosphoros-ai/DB-GPT"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ghcr-build.yml",
+      "source_repo": "XuhuiZhou/OpenHands"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/py-unit-tests.yml",
+      "source_repo": "XuhuiZhou/OpenHands"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-push-image.yml",
+      "source_repo": "PrimeIntellect-ai/router"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/update-containers.yaml",
+      "source_repo": "aws/aws-ofi-nccl"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/server_build.yml",
+      "source_repo": "smallcloudai/refact"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/server_build_and_push_custom.yml",
+      "source_repo": "smallcloudai/refact"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/server_nightly.yml",
+      "source_repo": "smallcloudai/refact"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/server_release.yml",
+      "source_repo": "smallcloudai/refact"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "TabbyML/tabby"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/beaker-experiment.yml",
+      "source_repo": "allenai/open-instruct"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "allenai/open-instruct"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "achannarasappa/ticker"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "vladkens/badges"
     }
   ]
 }

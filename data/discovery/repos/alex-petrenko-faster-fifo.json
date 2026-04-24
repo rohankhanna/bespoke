@@ -1,0 +1,162 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml"
+    },
+    {
+      "component": "pypa/cibuildwheel@v2.22.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@release/v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-ci.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml",
+      "source_repo": "alex-petrenko/faster-fifo",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml",
+      "source_repo": "alex-petrenko/faster-fifo",
+      "target": "pypa/cibuildwheel@v2.22.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml",
+      "source_repo": "alex-petrenko/faster-fifo",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml",
+      "source_repo": "alex-petrenko/faster-fifo",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml",
+      "source_repo": "alex-petrenko/faster-fifo",
+      "target": "pypa/gh-action-pypi-publish@release/v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/python-publish.yml",
+      "source_repo": "alex-petrenko/faster-fifo",
+      "target": "Build and upload to PyPI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-ci.yml",
+      "source_repo": "alex-petrenko/faster-fifo",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-ci.yml",
+      "source_repo": "alex-petrenko/faster-fifo",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-ci.yml",
+      "source_repo": "alex-petrenko/faster-fifo",
+      "target": "tests",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T12:36:56.507233+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7410
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1157
+    },
+    {
+      "path": ".github/workflows/python-publish.yml",
+      "size": 1696
+    },
+    {
+      "path": ".github/workflows/test-ci.yml",
+      "size": 571
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Faster alternative to Python's multiprocessing.Queue (IPC FIFO queue)",
+    "fork": false,
+    "full_name": "alex-petrenko/faster-fifo",
+    "html_url": "https://github.com/alex-petrenko/faster-fifo",
+    "language": "C++",
+    "pushed_at": "2025-04-28T11:39:12Z",
+    "stargazers_count": 207,
+    "topics": [],
+    "updated_at": "2026-03-01T23:18:49Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Build and upload to PyPI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/python-publish.yml",
+      "term": "Build and upload to PyPI"
+    },
+    {
+      "context_snippet": "tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-ci.yml",
+      "term": "tests"
+    }
+  ]
+}

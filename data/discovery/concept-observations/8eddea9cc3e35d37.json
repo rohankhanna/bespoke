@@ -1,0 +1,122 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "This module performs automatic construction of Swagger documentation. It can identify the endpoints and automatically capture methods such as get, post, put, and so on. It also identifies paths, routes, middlewares, response status codes and parameters. At the end, it generates the .json file containing the Swagger format specification."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "This module performs automatic construction of Swagger documentation. It can identify the endpoints and automatically capture methods such as get, post, put, and so on. It also identifies paths, routes, middlewares, response status codes, parameters in the path, header, query an\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "This module performs automatic construction of Swagger documentation. It can identify the endpoints and automatically capture methods such as get, post, put, and so on. It also identifies paths, routes, middlewares, response status codes, parameters in the path, header, query an\u2026"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39862819,
+      "status": "candidate",
+      "text": "certification"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39852192,
+      "status": "candidate",
+      "text": "corroboration"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39816994,
+      "status": "candidate",
+      "text": "support"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29878595,
+      "status": "candidate",
+      "text": "software documentation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29878594,
+      "status": "candidate",
+      "text": "dossier"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "documentation",
+      "sense_id": "documentation#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 51065,
+      "status": "candidate",
+      "text": "support"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 15030,
+      "status": "candidate",
+      "text": "corroboration"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 4048,
+      "status": "candidate",
+      "text": "certification"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 15,
+      "status": "candidate",
+      "text": "software documentation"
+    }
+  ],
+  "concept_id": "documentation",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "documentation",
+  "observation_id": "8eddea9cc3e35d37",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T12:33:41.350224+00:00",
+  "observed_text": "documentation",
+  "source_context_snippet": "This module performs automatic construction of Swagger documentation. It can identify the endpoints and automatically capture methods such as get, post, put, and so on. It also identifies paths, routes, middlewares, response status codes, parameters in the path, header, query an\u2026",
+  "source_file": null,
+  "source_repo": "swagger-autogen/swagger-autogen",
+  "source_repo_description": "This module performs automatic construction of Swagger documentation. It can identify the endpoints and automatically capture methods such as get, post, put, and so on. It also identifies paths, routes, middlewares, response status codes and parameters. At the end, it generates the .json file containing the Swagger format specification."
+}

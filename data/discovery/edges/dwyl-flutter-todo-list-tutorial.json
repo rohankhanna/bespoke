@@ -1,0 +1,97 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dwyl/flutter-todo-list-tutorial",
+      "target": "dwyl/learn-phoenix-framework",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dwyl/flutter-todo-list-tutorial",
+      "target": "dwyl/learn-dart",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dwyl/flutter-todo-list-tutorial",
+      "target": "dwyl/flutter-counter-example",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dwyl/flutter-todo-list-tutorial",
+      "target": "rrousselgit/riverpod",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "dwyl/flutter-todo-list-tutorial",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "dwyl/flutter-todo-list-tutorial",
+      "target": "subosito/flutter-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "dwyl/flutter-todo-list-tutorial",
+      "target": "codecov/codecov-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "dwyl/flutter-todo-list-tutorial",
+      "target": "Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dwyl/flutter-todo-list-tutorial",
+      "target": "beginner",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dwyl/flutter-todo-list-tutorial",
+      "target": "flutter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dwyl/flutter-todo-list-tutorial",
+      "target": "starter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dwyl/flutter-todo-list-tutorial",
+      "target": "todolist",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dwyl/flutter-todo-list-tutorial",
+      "target": "tutorial",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-24T12:33:41.350224+00:00",
+  "source_repo": "dwyl/flutter-todo-list-tutorial"
+}

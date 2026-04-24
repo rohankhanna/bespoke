@@ -127,6 +127,30 @@
       "source_repo": "KlugerLab/FIt-SNE",
       "status": "candidate-context",
       "text": "t-Stochastic Neighborhood Embedding ([t-SNE](https://lvdmaaten.github.io/tsne/)) is a highly successful method for dimensionality reduction and visualization of high dimensional datasets. A popular [implementation](https://github.com/lvdmaaten/bhtsne) of t-SNE uses the Barnes-Hu\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "prestodb/presto",
+      "status": "candidate-context",
+      "text": "The official home of the Presto distributed SQL query engine for big data"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "prestodb/presto",
+      "status": "candidate-context",
+      "text": "[![LFX Health Score](https://insights.linuxfoundation.org/api/badge/health-score?project=presto)](https://insights.linuxfoundation.org/project/presto)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cython/cython",
+      "status": "candidate-context",
+      "text": "The most widely used Python to C compiler"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cython/cython",
+      "status": "candidate-context",
+      "text": "Welcome to Cython!"
     }
   ],
   "candidate_glosses": [
@@ -189,6 +213,18 @@
       "source_repo": "KlugerLab/FIt-SNE",
       "status": "candidate",
       "text": "t-Stochastic Neighborhood Embedding ([t-SNE](https://lvdmaaten.github.io/tsne/)) is a highly successful method for dimensionality reduction and visualization of high dimensional datasets. A popular [implementation](https://github.com/lvdmaaten/bhtsne) of t-SNE uses the Barnes-Hu\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "prestodb/presto",
+      "status": "candidate",
+      "text": "[![LFX Health Score](https://insights.linuxfoundation.org/api/badge/health-score?project=presto)](https://insights.linuxfoundation.org/project/presto)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cython/cython",
+      "status": "candidate",
+      "text": "Welcome to Cython!"
     }
   ],
   "candidate_related_terms": [],
@@ -268,11 +304,35 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "KlugerLab/FIt-SNE"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "apache/datafusion-ballista"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "apache/datafusion-ballista-python"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "prestodb/presto"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "cython/cython"
     }
   ],
   "first_seen_at": "2026-04-18T12:06:06.216548+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "lexical_providers": [
     "datamuse"
   ],

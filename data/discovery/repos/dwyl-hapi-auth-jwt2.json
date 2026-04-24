@@ -1,0 +1,340 @@
+{
+  "components": [
+    {
+      "component": "@hapi/boom",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "cookie",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "jsonwebtoken",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@eslint/js",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@hapi/basic",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@hapi/hapi",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/hapi__hapi",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "aguid",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint-plugin-prettier",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "globals",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "nyc",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "pre-commit",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "prettier",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "tap-nyc",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "tape",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "typescript-eslint",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dwyl/hapi-auth-jwt2",
+      "target": "dwyl/hapi-auth-jwt2-example",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dwyl/hapi-auth-jwt2",
+      "target": "dwyl/hapi-error",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dwyl/hapi-auth-jwt2",
+      "target": "dwyl/hapi-login-example-postgres",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dwyl/hapi-auth-jwt2",
+      "target": "dwyl/learn-redis",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "dwyl/hapi-auth-jwt2",
+      "target": "@hapi/boom",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "dwyl/hapi-auth-jwt2",
+      "target": "cookie",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "dwyl/hapi-auth-jwt2",
+      "target": "jsonwebtoken",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "dwyl/hapi-auth-jwt2",
+      "target": "@eslint/js",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "dwyl/hapi-auth-jwt2",
+      "target": "@hapi/basic",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "dwyl/hapi-auth-jwt2",
+      "target": "@hapi/hapi",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "dwyl/hapi-auth-jwt2",
+      "target": "@types/hapi__hapi",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "dwyl/hapi-auth-jwt2",
+      "target": "aguid",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "dwyl/hapi-auth-jwt2",
+      "target": "eslint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "dwyl/hapi-auth-jwt2",
+      "target": "eslint-plugin-prettier",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "dwyl/hapi-auth-jwt2",
+      "target": "globals",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "dwyl/hapi-auth-jwt2",
+      "target": "nyc",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "dwyl/hapi-auth-jwt2",
+      "target": "pre-commit",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "dwyl/hapi-auth-jwt2",
+      "target": "prettier",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "dwyl/hapi-auth-jwt2",
+      "target": "tap-nyc",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "dwyl/hapi-auth-jwt2",
+      "target": "tape",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "dwyl/hapi-auth-jwt2",
+      "target": "typescript-eslint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "dwyl/hapi-auth-jwt2",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "dwyl/hapi-auth-jwt2",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "dwyl/hapi-auth-jwt2",
+      "target": "codecov/codecov-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "dwyl/hapi-auth-jwt2",
+      "target": "Node.js CI",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T13:00:15.572477+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 36256
+    },
+    {
+      "path": "package.json",
+      "size": 2706
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 999
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": ":lock: Secure Hapi.js authentication plugin using JSON Web Tokens (JWT) in Headers, URL or Cookies",
+    "fork": false,
+    "full_name": "dwyl/hapi-auth-jwt2",
+    "html_url": "https://github.com/dwyl/hapi-auth-jwt2",
+    "language": "JavaScript",
+    "pushed_at": "2026-04-02T23:29:17Z",
+    "stargazers_count": 796,
+    "topics": [],
+    "updated_at": "2026-04-04T21:17:09Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dwyl/hapi-auth-jwt2-example",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dwyl/hapi-error",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dwyl/hapi-login-example-postgres",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dwyl/learn-redis",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Node.js CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "term": "Node.js CI"
+    }
+  ]
+}

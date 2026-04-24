@@ -19,12 +19,30 @@
       "source_repo": "vyokky/LLM-Brained-GUI-Agents-Survey",
       "status": "candidate-context",
       "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "OS-Agent-Survey/OS-Agent-Survey",
+      "status": "candidate-context",
+      "text": "This is the repo for the paper \"OS Agents: A Survey on MLLM-based Agents for Computer, Phone and Browser Use\" (ACL 2025 Oral)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OS-Agent-Survey/OS-Agent-Survey",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "vyokky/LLM-Brained-GUI-Agents-Survey",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OS-Agent-Survey/OS-Agent-Survey",
       "status": "candidate",
       "text": "<h1 align=\"center\">"
     }
@@ -112,11 +130,17 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "vyokky/LLM-Brained-GUI-Agents-Survey"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "OS-Agent-Survey/OS-Agent-Survey"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "lexical_providers": [
     "datamuse"
   ],

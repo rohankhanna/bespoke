@@ -55,6 +55,30 @@
       "source_repo": "ipfs/ipld-explorer-components",
       "status": "candidate-context",
       "text": "> React components for https://explore.ipld.io (https://github.com/ipfs/explore.ipld.io) and ipfs-webui"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ipfs/i18n",
+      "status": "candidate-context",
+      "text": "IPFS Translation Project"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipfs/i18n",
+      "status": "candidate-context",
+      "text": "> Adapting IPFS apps and websites for a specific language by translating text and adding locale-specific components"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ipld/explore.ipld.io",
+      "status": "candidate-context",
+      "text": "Explore the Merkle Forest from the comfort of your browser"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipld/explore.ipld.io",
+      "status": "candidate-context",
+      "text": "> Explore the Merkle Forest from the comfort of your browser."
     }
   ],
   "candidate_glosses": [
@@ -81,6 +105,18 @@
       "source_repo": "ipfs/ipld-explorer-components",
       "status": "candidate",
       "text": "> React components for https://explore.ipld.io (https://github.com/ipfs/explore.ipld.io) and ipfs-webui"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipfs/i18n",
+      "status": "candidate",
+      "text": "> Adapting IPFS apps and websites for a specific language by translating text and adding locale-specific components"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipld/explore.ipld.io",
+      "status": "candidate",
+      "text": "> Explore the Merkle Forest from the comfort of your browser."
     }
   ],
   "candidate_related_terms": [],
@@ -112,11 +148,41 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "ipfs/ipld-explorer-components"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "ipfs/ipfs-desktop"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "ipfs/ipfs-webui"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "ipfs/ipfs-companion"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "ipfs/i18n"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "ipld/explore.ipld.io"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "lexical_providers": [
     "datamuse"
   ],

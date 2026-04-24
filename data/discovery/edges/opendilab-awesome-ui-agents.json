@@ -1,0 +1,34 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "opendilab/awesome-ui-agents",
+      "target": "baai-agents/cradle",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "opendilab/awesome-ui-agents",
+      "target": "boxworld18/openwebagent",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "opendilab/awesome-ui-agents",
+      "target": "cnsdqd-dyb/villageragent",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "opendilab/awesome-ui-agents",
+      "target": "albzni/awesome-llm-based-web-agent-and-tools",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-04-24T12:33:41.350224+00:00",
+  "source_repo": "opendilab/awesome-ui-agents"
+}

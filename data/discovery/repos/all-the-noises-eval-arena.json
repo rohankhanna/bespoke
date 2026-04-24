@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "all-the-noises/eval-arena",
+      "target": "all-the-noises/data",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-24T12:44:33.477524+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4261
+    },
+    {
+      "path": "requirements.txt",
+      "size": 63
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "all-the-noises/eval-arena",
+    "html_url": "https://github.com/all-the-noises/eval-arena",
+    "language": "Python",
+    "pushed_at": "2026-03-21T22:09:14Z",
+    "stargazers_count": 34,
+    "topics": [],
+    "updated_at": "2026-03-21T22:09:19Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "all-the-noises/data",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

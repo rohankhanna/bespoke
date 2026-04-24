@@ -19,6 +19,18 @@
       "source_repo": "MariaLetta/free-gophers-pack",
       "status": "candidate-context",
       "text": "[![Mentioned in Awesome Go](https://awesome.re/mentioned-badge-flat.svg)](https://github.com/avelino/awesome-go)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "r-spatial/stars",
+      "status": "candidate-context",
+      "text": "Spatiotemporal Arrays, Raster and Vector Data Cubes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "r-spatial/stars",
+      "status": "candidate-context",
+      "text": "<!-- badges: start -->"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "MariaLetta/free-gophers-pack",
       "status": "candidate",
       "text": "[![Mentioned in Awesome Go](https://awesome.re/mentioned-badge-flat.svg)](https://github.com/avelino/awesome-go)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "r-spatial/stars",
+      "status": "candidate",
+      "text": "<!-- badges: start -->"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-22T18:52:26.467154+00:00",
       "source_file": null,
       "source_repo": "MariaLetta/free-gophers-pack"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "r-spatial/stars"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "lexical_providers": [
     "datamuse"
   ],

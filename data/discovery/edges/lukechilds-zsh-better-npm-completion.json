@@ -1,0 +1,41 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lukechilds/zsh-better-npm-completion",
+      "target": "b4b4r07/zplug",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lukechilds/zsh-better-npm-completion",
+      "target": "robbyrussell/oh-my-zsh",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lukechilds/zsh-better-npm-completion",
+      "target": "lukechilds/gifgen",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lukechilds/zsh-better-npm-completion",
+      "target": "completion",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lukechilds/zsh-better-npm-completion",
+      "target": "zsh-plugin",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-24T12:33:41.350224+00:00",
+  "source_repo": "lukechilds/zsh-better-npm-completion"
+}

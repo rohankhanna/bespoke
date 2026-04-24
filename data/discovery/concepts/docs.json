@@ -1025,6 +1025,42 @@
       "source_repo": "uploadcare/pillow-simd",
       "status": "candidate-context",
       "text": "Docs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pytest-dev/pytest-rerunfailures",
+      "status": "candidate-context",
+      "text": "a pytest plugin that re-runs failed tests up to -n times to eliminate flakey failures"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pytest-dev/pytest-rerunfailures",
+      "status": "candidate-context",
+      "text": "Docs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "prestodb/presto",
+      "status": "candidate-context",
+      "text": "The official home of the Presto distributed SQL query engine for big data"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "prestodb/presto",
+      "status": "candidate-context",
+      "text": "docs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "allenai/open-instruct",
+      "status": "candidate-context",
+      "text": "AllenAI's post-training codebase"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "allenai/open-instruct",
+      "status": "candidate-context",
+      "text": "Docs"
     }
   ],
   "candidate_glosses": [
@@ -1535,6 +1571,24 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "uploadcare/pillow-simd",
+      "status": "candidate",
+      "text": "Docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pytest-dev/pytest-rerunfailures",
+      "status": "candidate",
+      "text": "Docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "prestodb/presto",
+      "status": "candidate",
+      "text": "docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "allenai/open-instruct",
       "status": "candidate",
       "text": "Docs"
     }
@@ -2256,11 +2310,35 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": ".github/workflows/docs.yml",
       "source_repo": "uploadcare/pillow-simd"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "pytest-dev/pytest-rerunfailures"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "prestodb/presto"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "allenai/open-instruct"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "clayrisser/sphinx-jekyll-builder"
     }
   ],
   "first_seen_at": "2026-04-18T11:32:22.637859+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "lexical_providers": [
     "datamuse"
   ],

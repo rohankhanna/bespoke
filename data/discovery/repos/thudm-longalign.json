@@ -1,0 +1,90 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "THUDM/LongAlign",
+      "target": "allenai/open-instruct",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "THUDM/LongAlign",
+      "target": "alignment",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "THUDM/LongAlign",
+      "target": "long-context",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "THUDM/LongAlign",
+      "target": "longtext",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T12:41:12.309514+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9086
+    },
+    {
+      "path": "requirements.txt",
+      "size": 54
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[EMNLP 2024] LongAlign: A Recipe for Long Context Alignment of LLMs",
+    "fork": false,
+    "full_name": "THUDM/LongAlign",
+    "html_url": "https://github.com/THUDM/LongAlign",
+    "language": "Python",
+    "pushed_at": "2024-12-16T05:32:30Z",
+    "stargazers_count": 260,
+    "topics": [
+      "alignment",
+      "llm",
+      "long-context",
+      "longtext"
+    ],
+    "updated_at": "2026-03-19T00:31:47Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "allenai/open-instruct",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "![](assets/LongAlign-logo.gif)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "alignment"
+    },
+    {
+      "context_snippet": "![](assets/LongAlign-logo.gif)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "long-context"
+    },
+    {
+      "context_snippet": "![](assets/LongAlign-logo.gif)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "longtext"
+    }
+  ]
+}

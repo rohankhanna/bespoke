@@ -1,0 +1,358 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos.yml"
+    },
+    {
+      "component": "actions/cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos.yml"
+    },
+    {
+      "component": "actions/cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos.yml"
+    },
+    {
+      "component": "actions/cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ubuntu.yml"
+    },
+    {
+      "component": "actions/cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ubuntu.yml"
+    },
+    {
+      "component": "actions/cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ubuntu.yml"
+    },
+    {
+      "component": "actions/cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ubuntu.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ubuntu.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows.yml"
+    },
+    {
+      "component": "actions/cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows.yml"
+    },
+    {
+      "component": "actions/cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows.yml"
+    },
+    {
+      "component": "actions/cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows.yml"
+    },
+    {
+      "component": "conda-incubator/setup-miniconda@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "shibing624/text2vec",
+      "target": "staoxiao/retromae",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "shibing624/text2vec",
+      "target": "shibing624/similarities",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "shibing624/text2vec",
+      "target": "iceflameworm/nlp_datasets",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "shibing624/text2vec",
+      "target": "pluto-junzeng/cnsd",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos.yml",
+      "source_repo": "shibing624/text2vec",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos.yml",
+      "source_repo": "shibing624/text2vec",
+      "target": "actions/cache@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos.yml",
+      "source_repo": "shibing624/text2vec",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/macos.yml",
+      "source_repo": "shibing624/text2vec",
+      "target": "macOS build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ubuntu.yml",
+      "source_repo": "shibing624/text2vec",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ubuntu.yml",
+      "source_repo": "shibing624/text2vec",
+      "target": "actions/cache@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ubuntu.yml",
+      "source_repo": "shibing624/text2vec",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ubuntu.yml",
+      "source_repo": "shibing624/text2vec",
+      "target": "Linux build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows.yml",
+      "source_repo": "shibing624/text2vec",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows.yml",
+      "source_repo": "shibing624/text2vec",
+      "target": "actions/cache@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows.yml",
+      "source_repo": "shibing624/text2vec",
+      "target": "conda-incubator/setup-miniconda@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/windows.yml",
+      "source_repo": "shibing624/text2vec",
+      "target": "Windows build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "shibing624/text2vec",
+      "target": "embeddings",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "shibing624/text2vec",
+      "target": "sentence-embeddings",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "shibing624/text2vec",
+      "target": "similarity",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "shibing624/text2vec",
+      "target": "text-similarity",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "shibing624/text2vec",
+      "target": "text2vec",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "shibing624/text2vec",
+      "target": "word2vec",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T12:37:46.321526+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 42645
+    },
+    {
+      "path": "requirements.txt",
+      "size": 86
+    },
+    {
+      "path": ".github/workflows/macos.yml",
+      "size": 1712
+    },
+    {
+      "path": ".github/workflows/ubuntu.yml",
+      "size": 1645
+    },
+    {
+      "path": ".github/workflows/windows.yml",
+      "size": 1683
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "text2vec, text to vector. \u6587\u672c\u5411\u91cf\u8868\u5f81\u5de5\u5177\uff0c\u628a\u6587\u672c\u8f6c\u5316\u4e3a\u5411\u91cf\u77e9\u9635\uff0c\u5b9e\u73b0\u4e86Word2Vec\u3001RankBM25\u3001Sentence-BERT\u3001CoSENT\u7b49\u6587\u672c\u8868\u5f81\u3001\u6587\u672c\u76f8\u4f3c\u5ea6\u8ba1\u7b97\u6a21\u578b\uff0c\u5f00\u7bb1\u5373\u7528\u3002",
+    "fork": false,
+    "full_name": "shibing624/text2vec",
+    "html_url": "https://github.com/shibing624/text2vec",
+    "language": "Python",
+    "pushed_at": "2026-02-14T14:59:10Z",
+    "stargazers_count": 4960,
+    "topics": [
+      "embeddings",
+      "nlp",
+      "sentence-embeddings",
+      "similarity",
+      "text-similarity",
+      "text2vec",
+      "word2vec"
+    ],
+    "updated_at": "2026-04-24T09:40:14Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "iceflameworm/nlp_datasets",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pluto-junzeng/cnsd",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "shibing624/similarities",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "staoxiao/retromae",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "macOS build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/macos.yml",
+      "term": "macOS build"
+    },
+    {
+      "context_snippet": "Linux build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ubuntu.yml",
+      "term": "Linux build"
+    },
+    {
+      "context_snippet": "Windows build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/windows.yml",
+      "term": "Windows build"
+    },
+    {
+      "context_snippet": "[**\ud83c\udde8\ud83c\uddf3\u4e2d\u6587**](https://github.com/shibing624/text2vec/blob/master/README.md) | [**\ud83c\udf10English**](https://github.com/shibing624/text2vec/blob/master/README_EN.md) | [**\ud83d\udcd6\u6587\u6863/Docs**](https://github.com/shibing624/text2vec/wiki) | [**\ud83e\udd16\u6a21\u578b/Models**](https://huggingface.co/shibing624)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "embeddings"
+    },
+    {
+      "context_snippet": "[**\ud83c\udde8\ud83c\uddf3\u4e2d\u6587**](https://github.com/shibing624/text2vec/blob/master/README.md) | [**\ud83c\udf10English**](https://github.com/shibing624/text2vec/blob/master/README_EN.md) | [**\ud83d\udcd6\u6587\u6863/Docs**](https://github.com/shibing624/text2vec/wiki) | [**\ud83e\udd16\u6a21\u578b/Models**](https://huggingface.co/shibing624)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sentence-embeddings"
+    },
+    {
+      "context_snippet": "[**\ud83c\udde8\ud83c\uddf3\u4e2d\u6587**](https://github.com/shibing624/text2vec/blob/master/README.md) | [**\ud83c\udf10English**](https://github.com/shibing624/text2vec/blob/master/README_EN.md) | [**\ud83d\udcd6\u6587\u6863/Docs**](https://github.com/shibing624/text2vec/wiki) | [**\ud83e\udd16\u6a21\u578b/Models**](https://huggingface.co/shibing624)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "similarity"
+    },
+    {
+      "context_snippet": "[**\ud83c\udde8\ud83c\uddf3\u4e2d\u6587**](https://github.com/shibing624/text2vec/blob/master/README.md) | [**\ud83c\udf10English**](https://github.com/shibing624/text2vec/blob/master/README_EN.md) | [**\ud83d\udcd6\u6587\u6863/Docs**](https://github.com/shibing624/text2vec/wiki) | [**\ud83e\udd16\u6a21\u578b/Models**](https://huggingface.co/shibing624)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "text-similarity"
+    },
+    {
+      "context_snippet": "[**\ud83c\udde8\ud83c\uddf3\u4e2d\u6587**](https://github.com/shibing624/text2vec/blob/master/README.md) | [**\ud83c\udf10English**](https://github.com/shibing624/text2vec/blob/master/README_EN.md) | [**\ud83d\udcd6\u6587\u6863/Docs**](https://github.com/shibing624/text2vec/wiki) | [**\ud83e\udd16\u6a21\u578b/Models**](https://huggingface.co/shibing624)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "text2vec"
+    },
+    {
+      "context_snippet": "[**\ud83c\udde8\ud83c\uddf3\u4e2d\u6587**](https://github.com/shibing624/text2vec/blob/master/README.md) | [**\ud83c\udf10English**](https://github.com/shibing624/text2vec/blob/master/README_EN.md) | [**\ud83d\udcd6\u6587\u6863/Docs**](https://github.com/shibing624/text2vec/wiki) | [**\ud83e\udd16\u6a21\u578b/Models**](https://huggingface.co/shibing624)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "word2vec"
+    }
+  ]
+}

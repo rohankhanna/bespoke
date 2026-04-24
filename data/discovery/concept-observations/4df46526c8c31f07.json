@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A training framework for Stable Baselines3 reinforcement learning agents, with hyperparameter optimization and pre-trained agents included."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Check-Trained-Agents"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Check-Trained-Agents"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Check-Trained-Agents",
+      "sense_id": "check-trained-agents#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "check-trained-agents",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "check-trained-agents",
+  "observation_id": "4df46526c8c31f07",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-24T12:33:41.350224+00:00",
+  "observed_text": "Check-Trained-Agents",
+  "source_context_snippet": "Check-Trained-Agents",
+  "source_file": ".github/workflows/trained_agents.yml",
+  "source_repo": "DLR-RM/rl-baselines3-zoo",
+  "source_repo_description": "A training framework for Stable Baselines3 reinforcement learning agents, with hyperparameter optimization and pre-trained agents included."
+}

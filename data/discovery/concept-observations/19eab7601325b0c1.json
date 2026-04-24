@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "rapids-singlecell: GPU-accelerated framework for scRNA analysis"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![Stars](https://img.shields.io/github/stars/scverse/rapids_singlecell?style=flat&logo=GitHub&color=blue)](https://github.com/scverse/rapids_singlecell/stargazers)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![Stars](https://img.shields.io/github/stars/scverse/rapids_singlecell?style=flat&logo=GitHub&color=blue)](https://github.com/scverse/rapids_singlecell/stargazers)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "scverse",
+      "sense_id": "scverse#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "scverse",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "scverse",
+  "observation_id": "19eab7601325b0c1",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T12:33:41.350224+00:00",
+  "observed_text": "scverse",
+  "source_context_snippet": "[![Stars](https://img.shields.io/github/stars/scverse/rapids_singlecell?style=flat&logo=GitHub&color=blue)](https://github.com/scverse/rapids_singlecell/stargazers)",
+  "source_file": null,
+  "source_repo": "scverse/rapids-singlecell",
+  "source_repo_description": "rapids-singlecell: GPU-accelerated framework for scRNA analysis"
+}

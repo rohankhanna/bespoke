@@ -271,6 +271,30 @@
       "source_repo": "HKUDS/LightRAG",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "phodal/auto-dev",
+      "status": "candidate-context",
+      "text": "\ud83e\uddd9\u200dAutoDev: the AI-native Multi-Agent development platform built on Kotlin Multiplatform, covering all 7 phases of SDLC."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "phodal/auto-dev",
+      "status": "candidate-context",
+      "text": "> **One Platform. All Phases. Every Device.**"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mukel/llama3.java",
+      "status": "candidate-context",
+      "text": "Llama 3+ inference in pure Java"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mukel/llama3.java",
+      "status": "candidate-context",
+      "text": "Practical [Llama 3](https://github.com/meta-llama/llama3), [3.1](https://llama.meta.com/docs/model-cards-and-prompt-formats/llama3_1) and [3.2](https://ai.meta.com/blog/llama-3-2-connect-2024-vision-edge-mobile-devices/) inference implemented in a single Java file."
     }
   ],
   "candidate_glosses": [
@@ -405,6 +429,18 @@
       "source_repo": "HKUDS/LightRAG",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "phodal/auto-dev",
+      "status": "candidate",
+      "text": "> **One Platform. All Phases. Every Device.**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mukel/llama3.java",
+      "status": "candidate",
+      "text": "Practical [Llama 3](https://github.com/meta-llama/llama3), [3.1](https://llama.meta.com/docs/model-cards-and-prompt-formats/llama3_1) and [3.2](https://ai.meta.com/blog/llama-3-2-connect-2024-vision-edge-mobile-devices/) inference implemented in a single Java file."
     }
   ],
   "candidate_related_terms": [],
@@ -544,11 +580,23 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "HKUDS/LightRAG"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "phodal/auto-dev"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "mukel/llama3.java"
     }
   ],
   "first_seen_at": "2026-04-19T01:08:57.644140+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "lexical_providers": [
     "datamuse"
   ],

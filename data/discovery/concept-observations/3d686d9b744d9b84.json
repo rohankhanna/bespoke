@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Mooncake is the serving platform for Kimi, a leading LLM service provided by Moonshot AI."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "E2E CI"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "E2E CI"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26364,
+      "status": "candidate",
+      "text": "ion"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 6364,
+      "status": "candidate",
+      "text": "ci-devant"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 6364,
+      "status": "candidate",
+      "text": "fucus"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 6364,
+      "status": "candidate",
+      "text": "pasticcio"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 6364,
+      "status": "candidate",
+      "text": "thousand"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "E2E CI",
+      "sense_id": "e2e-ci#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "e2e-ci",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "e2e-ci",
+  "observation_id": "3d686d9b744d9b84",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-24T12:33:41.350224+00:00",
+  "observed_text": "E2E CI",
+  "source_context_snippet": "E2E CI",
+  "source_file": ".github/workflows/e2e-ci.yml",
+  "source_repo": "kvcache-ai/Mooncake",
+  "source_repo_description": "Mooncake is the serving platform for Kimi, a leading LLM service provided by Moonshot AI."
+}

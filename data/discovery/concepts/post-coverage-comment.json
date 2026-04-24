@@ -1,0 +1,124 @@
+{
+  "aliases": [
+    "Post Coverage Comment"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "a2aproject/a2a-js",
+      "status": "candidate-context",
+      "text": "Official JavaScript SDK for the Agent2Agent (A2A) Protocol"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "a2aproject/a2a-js",
+      "status": "candidate-context",
+      "text": "Post Coverage Comment"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "a2aproject/a2a-python",
+      "status": "candidate-context",
+      "text": "Official Python SDK for the Agent2Agent (A2A) Protocol"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "a2aproject/a2a-python",
+      "status": "candidate-context",
+      "text": "Post Coverage Comment"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "a2aproject/a2a-js",
+      "status": "candidate",
+      "text": "Post Coverage Comment"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "a2aproject/a2a-python",
+      "status": "candidate",
+      "text": "Post Coverage Comment"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18631,
+      "status": "candidate",
+      "text": "audit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18631,
+      "status": "candidate",
+      "text": "cover"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18503,
+      "status": "candidate",
+      "text": "covers"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18503,
+      "status": "candidate",
+      "text": "extent"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18503,
+      "status": "candidate",
+      "text": "premium"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Post Coverage Comment",
+  "concept_id": "post-coverage-comment",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/coverage-comment.yml",
+      "source_repo": "a2aproject/a2a-js"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/coverage-comment.yaml",
+      "source_repo": "a2aproject/a2a-python"
+    }
+  ],
+  "first_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Post Coverage Comment",
+      "sense_id": "post-coverage-comment#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

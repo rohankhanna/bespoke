@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Golang SDK for A2A Protocol"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "a2a-server",
+      "sense_id": "a2a-server#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "a2a-server",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "a2a-server",
+  "observation_id": "2fe1e597d7cdbbe4",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T12:33:41.350224+00:00",
+  "observed_text": "a2a-server",
+  "source_context_snippet": "[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE)",
+  "source_file": null,
+  "source_repo": "a2aproject/a2a-go",
+  "source_repo_description": "Golang SDK for A2A Protocol"
+}

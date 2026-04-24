@@ -313,6 +313,30 @@
       "source_repo": "microsoft/ai-dev-gallery",
       "status": "candidate-context",
       "text": "![WindowsAI hero image](docs/images/header.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "smallcloudai/refact",
+      "status": "candidate-context",
+      "text": "AI Agent that handles engineering tasks end-to-end: integrates with developers\u2019 tools, plans, executes, and iterates until it achieves a successful result."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "smallcloudai/refact",
+      "status": "candidate-context",
+      "text": "<a name=\"readme-top\"></a>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "TabbyML/tabby",
+      "status": "candidate-context",
+      "text": "Self-hosted AI coding assistant"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TabbyML/tabby",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -465,6 +489,18 @@
       "source_repo": "microsoft/ai-dev-gallery",
       "status": "candidate",
       "text": "![WindowsAI hero image](docs/images/header.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "smallcloudai/refact",
+      "status": "candidate",
+      "text": "<a name=\"readme-top\"></a>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TabbyML/tabby",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -658,11 +694,29 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "microsoft/ai-dev-gallery"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "OpenHands/OpenHands"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "smallcloudai/refact"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "TabbyML/tabby"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "This SDK is now deprecated, use the new unified Google GenAI SDK. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Manage awaiting user response"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Manage awaiting user response"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28416,
+      "status": "candidate",
+      "text": "stack"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28309,
+      "status": "candidate",
+      "text": "receiver"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28227,
+      "status": "candidate",
+      "text": "nurse"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28144,
+      "status": "candidate",
+      "text": "control"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28144,
+      "status": "candidate",
+      "text": "controlled"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Manage awaiting user response",
+      "sense_id": "manage-awaiting-user-response#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "manage-awaiting-user-response",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "manage-awaiting-user-response",
+  "observation_id": "07c84edc079434ec",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-24T12:33:41.350224+00:00",
+  "observed_text": "Manage awaiting user response",
+  "source_context_snippet": "Manage awaiting user response",
+  "source_file": ".github/workflows/user-input.yml",
+  "source_repo": "google-gemini/deprecated-generative-ai-python",
+  "source_repo_description": "This SDK is now deprecated, use the new unified Google GenAI SDK. "
+}

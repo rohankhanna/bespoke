@@ -1,0 +1,115 @@
+{
+  "aliases": [
+    "translator"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "afc163/fanyi",
+      "status": "candidate-context",
+      "text": "A \ud83c\udde8\ud83c\uddf3 and \ud83c\uddfa\ud83c\uddf8 translator in your command line"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "afc163/fanyi",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "afc163/fanyi",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40036200,
+      "status": "candidate",
+      "text": "interpreter"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30041291,
+      "status": "candidate",
+      "text": "translating program"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30041282,
+      "status": "candidate",
+      "text": "translation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30036430,
+      "status": "candidate",
+      "text": "interpretation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30026274,
+      "status": "candidate",
+      "text": "converter"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 4047,
+      "status": "candidate",
+      "text": "interpreter"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 9,
+      "status": "candidate",
+      "text": "translating program"
+    }
+  ],
+  "canonical_name": "translator",
+  "concept_id": "translator",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "afc163/fanyi"
+    }
+  ],
+  "first_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "translator",
+      "sense_id": "translator#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "C#/.NET SDK for A2A Protocol"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Release Publishing"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Release Publishing"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12019,
+      "status": "candidate",
+      "text": "diffusion"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12019,
+      "status": "candidate",
+      "text": "disseminating"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12019,
+      "status": "candidate",
+      "text": "edit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12019,
+      "status": "candidate",
+      "text": "issue"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12019,
+      "status": "candidate",
+      "text": "press"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Release Publishing",
+      "sense_id": "release-publishing#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "release-publishing",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "release-publishing",
+  "observation_id": "da7e56e563a8b14e",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-24T12:33:41.350224+00:00",
+  "observed_text": "Release Publishing",
+  "source_context_snippet": "Release Publishing",
+  "source_file": ".github/workflows/release.yaml",
+  "source_repo": "a2aproject/a2a-dotnet",
+  "source_repo_description": "C#/.NET SDK for A2A Protocol"
+}

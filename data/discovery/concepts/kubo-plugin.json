@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Kubo plugin"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ipfs/go-ds-s3",
+      "status": "candidate-context",
+      "text": "An s3 datastore implementation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipfs/go-ds-s3",
+      "status": "candidate-context",
+      "text": "Kubo plugin"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipfs/go-ds-s3",
+      "status": "candidate",
+      "text": "Kubo plugin"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15304,
+      "status": "candidate",
+      "text": "rum"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15264,
+      "status": "candidate",
+      "text": "bacardi"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15264,
+      "status": "candidate",
+      "text": "cigar"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15264,
+      "status": "candidate",
+      "text": "coke"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15264,
+      "status": "candidate",
+      "text": "cola"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Kubo plugin",
+  "concept_id": "kubo-plugin",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "ipfs/go-ds-s3"
+    }
+  ],
+  "first_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Kubo plugin",
+      "sense_id": "kubo-plugin#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

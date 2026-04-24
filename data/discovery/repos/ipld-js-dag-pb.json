@@ -1,0 +1,158 @@
+{
+  "components": [
+    {
+      "component": "multiformats",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "aegir",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "ipdxco/unified-github-workflows/.github/workflows/reusable-generated-pr.yml@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generated-pr.yml"
+    },
+    {
+      "component": "ipdxco/unified-github-workflows/.github/workflows/js-test-and-release.yml@v1.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/js-test-and-release.yml"
+    },
+    {
+      "component": "ipdxco/unified-github-workflows/.github/workflows/reusable-stale-issue.yml@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ipld/js-dag-pb",
+      "target": "ipld/js-block",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "ipld/js-dag-pb",
+      "target": "multiformats",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ipld/js-dag-pb",
+      "target": "aegir",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generated-pr.yml",
+      "source_repo": "ipld/js-dag-pb",
+      "target": "ipdxco/unified-github-workflows/.github/workflows/reusable-generated-pr.yml@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/generated-pr.yml",
+      "source_repo": "ipld/js-dag-pb",
+      "target": "Close Generated PRs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/js-test-and-release.yml",
+      "source_repo": "ipld/js-dag-pb",
+      "target": "ipdxco/unified-github-workflows/.github/workflows/js-test-and-release.yml@v1.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/js-test-and-release.yml",
+      "source_repo": "ipld/js-dag-pb",
+      "target": "test & maybe release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "ipld/js-dag-pb",
+      "target": "ipdxco/unified-github-workflows/.github/workflows/reusable-stale-issue.yml@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "ipld/js-dag-pb",
+      "target": "Close Stale Issues",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T13:00:55.738763+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7029
+    },
+    {
+      "path": "package.json",
+      "size": 4061
+    },
+    {
+      "path": ".github/workflows/generated-pr.yml",
+      "size": 246
+    },
+    {
+      "path": ".github/workflows/js-test-and-release.yml",
+      "size": 740
+    },
+    {
+      "path": ".github/workflows/stale.yml",
+      "size": 244
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "An implementation of the DAG-PB spec for JavaScript (for use with multiformats or @ipld/block)",
+    "fork": false,
+    "full_name": "ipld/js-dag-pb",
+    "html_url": "https://github.com/ipld/js-dag-pb",
+    "language": "JavaScript",
+    "pushed_at": "2026-03-01T16:00:09Z",
+    "stargazers_count": 15,
+    "topics": [],
+    "updated_at": "2025-11-27T09:28:26Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ipld/js-block",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Close Generated PRs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/generated-pr.yml",
+      "term": "Close Generated PRs"
+    },
+    {
+      "context_snippet": "test & maybe release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/js-test-and-release.yml",
+      "term": "test & maybe release"
+    },
+    {
+      "context_snippet": "Close Stale Issues",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "term": "Close Stale Issues"
+    }
+  ]
+}

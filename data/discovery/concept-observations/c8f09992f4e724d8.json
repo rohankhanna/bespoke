@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A versatile pairwise aligner for genomic and spliced nucleotide sequences"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![GitHub Downloads](https://img.shields.io/github/downloads/lh3/minimap2/total.svg?style=social&logo=github&label=Download)](https://github.com/lh3/minimap2/releases)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![GitHub Downloads](https://img.shields.io/github/downloads/lh3/minimap2/total.svg?style=social&logo=github&label=Download)](https://github.com/lh3/minimap2/releases)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20023178,
+      "status": "candidate",
+      "text": "bio-informatics"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10023954,
+      "status": "candidate",
+      "text": "biocomputing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10023953,
+      "status": "candidate",
+      "text": "biocomputer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10023952,
+      "status": "candidate",
+      "text": "translational bioinformatics"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10023951,
+      "status": "candidate",
+      "text": "bioinformation"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "bioinformatics",
+      "sense_id": "bioinformatics#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "bioinformatics",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "bioinformatics",
+  "observation_id": "c8f09992f4e724d8",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T12:33:41.350224+00:00",
+  "observed_text": "bioinformatics",
+  "source_context_snippet": "[![GitHub Downloads](https://img.shields.io/github/downloads/lh3/minimap2/total.svg?style=social&logo=github&label=Download)](https://github.com/lh3/minimap2/releases)",
+  "source_file": null,
+  "source_repo": "lh3/minimap2",
+  "source_repo_description": "A versatile pairwise aligner for genomic and spliced nucleotide sequences"
+}

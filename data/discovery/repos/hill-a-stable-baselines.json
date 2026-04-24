@@ -1,0 +1,187 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hill-a/stable-baselines",
+      "target": "araffin/rl-baselines-zoo",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hill-a/stable-baselines",
+      "target": "stable-baselines-team/rl-colab-notebooks",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hill-a/stable-baselines",
+      "target": "openai/mujoco-py",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "hill-a/stable-baselines",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "hill-a/stable-baselines",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hill-a/stable-baselines",
+      "target": "baselines",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hill-a/stable-baselines",
+      "target": "data-science",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hill-a/stable-baselines",
+      "target": "machine-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hill-a/stable-baselines",
+      "target": "reinforcement-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hill-a/stable-baselines",
+      "target": "reinforcement-learning-algorithms",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hill-a/stable-baselines",
+      "target": "toolbox",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T12:37:24.622828+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 15156
+    },
+    {
+      "path": "Dockerfile",
+      "size": 1341
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 2106
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A fork of OpenAI Baselines, implementations of reinforcement learning algorithms",
+    "fork": true,
+    "full_name": "hill-a/stable-baselines",
+    "html_url": "https://github.com/hill-a/stable-baselines",
+    "language": "Python",
+    "pushed_at": "2022-09-04T14:04:44Z",
+    "stargazers_count": 4322,
+    "topics": [
+      "baselines",
+      "data-science",
+      "gym",
+      "machine-learning",
+      "openai",
+      "python",
+      "reinforcement-learning",
+      "reinforcement-learning-algorithms",
+      "toolbox"
+    ],
+    "updated_at": "2026-04-24T06:05:14Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "araffin/rl-baselines-zoo",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "openai/mujoco-py",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "stable-baselines-team/rl-colab-notebooks",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "**WARNING: This package is in maintenance mode, please use [Stable-Baselines3 (SB3)](https://github.com/DLR-RM/stable-baselines3) for an up-to-date version. You can find a [migration guide](https://stable-baselines3.readthedocs.io/en/master/guide/migration.html) in SB3 documenta\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "baselines"
+    },
+    {
+      "context_snippet": "**WARNING: This package is in maintenance mode, please use [Stable-Baselines3 (SB3)](https://github.com/DLR-RM/stable-baselines3) for an up-to-date version. You can find a [migration guide](https://stable-baselines3.readthedocs.io/en/master/guide/migration.html) in SB3 documenta\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "data-science"
+    },
+    {
+      "context_snippet": "**WARNING: This package is in maintenance mode, please use [Stable-Baselines3 (SB3)](https://github.com/DLR-RM/stable-baselines3) for an up-to-date version. You can find a [migration guide](https://stable-baselines3.readthedocs.io/en/master/guide/migration.html) in SB3 documenta\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-learning"
+    },
+    {
+      "context_snippet": "**WARNING: This package is in maintenance mode, please use [Stable-Baselines3 (SB3)](https://github.com/DLR-RM/stable-baselines3) for an up-to-date version. You can find a [migration guide](https://stable-baselines3.readthedocs.io/en/master/guide/migration.html) in SB3 documenta\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "reinforcement-learning"
+    },
+    {
+      "context_snippet": "**WARNING: This package is in maintenance mode, please use [Stable-Baselines3 (SB3)](https://github.com/DLR-RM/stable-baselines3) for an up-to-date version. You can find a [migration guide](https://stable-baselines3.readthedocs.io/en/master/guide/migration.html) in SB3 documenta\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "reinforcement-learning-algorithms"
+    },
+    {
+      "context_snippet": "**WARNING: This package is in maintenance mode, please use [Stable-Baselines3 (SB3)](https://github.com/DLR-RM/stable-baselines3) for an up-to-date version. You can find a [migration guide](https://stable-baselines3.readthedocs.io/en/master/guide/migration.html) in SB3 documenta\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "toolbox"
+    }
+  ]
+}

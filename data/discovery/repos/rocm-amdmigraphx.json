@@ -1,0 +1,490 @@
+{
+  "components": [
+    {
+      "component": "ROCmSoftwarePlatform/actions/.github/workflows/benchmarks.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark.yaml"
+    },
+    {
+      "component": "styfle/cancel-workflow-action@0.12.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/checkout@v4.2.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/checkout@v4.2.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/checkout@v4.2.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/checkout@v4.2.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/cache/restore@v4.2.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/cache/save@v4.2.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/checkout@v4.2.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/cache/restore@v4.2.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/cache/save@v4.2.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/checkout@v4.2.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "jlumbroso/free-disk-space@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/checkout@v4.2.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/cache/restore@v4.2.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/cache/save@v4.2.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "jlumbroso/free-disk-space@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/checkout@v4.2.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "jlumbroso/free-disk-space@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/checkout@v4.2.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "jlumbroso/free-disk-space@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "jwlawson/actions-setup-cmake@v1.9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/checkout@v4.2.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/cache@v4.2.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/cache/restore@v4.2.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/cache/save@v4.2.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "jlumbroso/free-disk-space@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/checkout@v4.2.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/cache@v4.2.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/cache/restore@v4.2.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/cache/save@v4.2.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "reviewdog/action-misspell@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/checkout@v4.2.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clean-closed-pr-caches.yaml"
+    },
+    {
+      "component": "ROCm/migraphx-benchmark/.github/workflows/history.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/history.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/performance.yaml"
+    },
+    {
+      "component": "ROCm/migraphx-benchmark/.github/workflows/perf-test.yml@testing",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/performance.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ROCm/AMDMIGraphX",
+      "target": "radeonopencompute/rbuild",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ROCm/AMDMIGraphX",
+      "target": "radeonopencompute/rocm-cmake",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ROCm/AMDMIGraphX",
+      "target": "google/protobuf",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ROCm/AMDMIGraphX",
+      "target": "radeonopencompute/rocm-docs-core",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark.yaml",
+      "source_repo": "ROCm/AMDMIGraphX",
+      "target": "ROCmSoftwarePlatform/actions/.github/workflows/benchmarks.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/benchmark.yaml",
+      "source_repo": "ROCm/AMDMIGraphX",
+      "target": "MiGraphX Benchmark",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "ROCm/AMDMIGraphX",
+      "target": "styfle/cancel-workflow-action@0.12.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "ROCm/AMDMIGraphX",
+      "target": "actions/checkout@v4.2.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "ROCm/AMDMIGraphX",
+      "target": "actions/cache/restore@v4.2.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "ROCm/AMDMIGraphX",
+      "target": "actions/cache/save@v4.2.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "ROCm/AMDMIGraphX",
+      "target": "jlumbroso/free-disk-space@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "ROCm/AMDMIGraphX",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "ROCm/AMDMIGraphX",
+      "target": "jwlawson/actions-setup-cmake@v1.9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "ROCm/AMDMIGraphX",
+      "target": "actions/cache@v4.2.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "ROCm/AMDMIGraphX",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "ROCm/AMDMIGraphX",
+      "target": "reviewdog/action-misspell@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "ROCm/AMDMIGraphX",
+      "target": "migraphx",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clean-closed-pr-caches.yaml",
+      "source_repo": "ROCm/AMDMIGraphX",
+      "target": "actions/checkout@v4.2.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/clean-closed-pr-caches.yaml",
+      "source_repo": "ROCm/AMDMIGraphX",
+      "target": "Cleanup caches of closed PR",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/history.yaml",
+      "source_repo": "ROCm/AMDMIGraphX",
+      "target": "ROCm/migraphx-benchmark/.github/workflows/history.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/history.yaml",
+      "source_repo": "ROCm/AMDMIGraphX",
+      "target": "History",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/performance.yaml",
+      "source_repo": "ROCm/AMDMIGraphX",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/performance.yaml",
+      "source_repo": "ROCm/AMDMIGraphX",
+      "target": "ROCm/migraphx-benchmark/.github/workflows/perf-test.yml@testing",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/performance.yaml",
+      "source_repo": "ROCm/AMDMIGraphX",
+      "target": "MIGraphX Performance Tests",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T12:41:23.000203+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8775
+    },
+    {
+      "path": "Dockerfile",
+      "size": 4495
+    },
+    {
+      "path": "requirements.txt",
+      "size": 2212
+    },
+    {
+      "path": ".github/workflows/README.md",
+      "size": 10093
+    },
+    {
+      "path": ".github/workflows/benchmark.yaml",
+      "size": 396
+    },
+    {
+      "path": ".github/workflows/ci.yaml",
+      "size": 22318
+    },
+    {
+      "path": ".github/workflows/clean-closed-pr-caches.yaml",
+      "size": 947
+    },
+    {
+      "path": ".github/workflows/config.md",
+      "size": 1055
+    },
+    {
+      "path": ".github/workflows/history.yaml",
+      "size": 1422
+    },
+    {
+      "path": ".github/workflows/performance.yaml",
+      "size": 7441
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "develop",
+    "description": "AMD's graph optimization engine.",
+    "fork": false,
+    "full_name": "ROCm/AMDMIGraphX",
+    "html_url": "https://github.com/ROCm/AMDMIGraphX",
+    "language": "C++",
+    "pushed_at": "2026-04-24T10:21:34Z",
+    "stargazers_count": 293,
+    "topics": [],
+    "updated_at": "2026-04-24T02:01:12Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "google/protobuf",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "radeonopencompute/rbuild",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "radeonopencompute/rocm-cmake",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "radeonopencompute/rocm-docs-core",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "MiGraphX Benchmark",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/benchmark.yaml",
+      "term": "MiGraphX Benchmark"
+    },
+    {
+      "context_snippet": "migraphx",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yaml",
+      "term": "migraphx"
+    },
+    {
+      "context_snippet": "Cleanup caches of closed PR",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/clean-closed-pr-caches.yaml",
+      "term": "Cleanup caches of closed PR"
+    },
+    {
+      "context_snippet": "History",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/history.yaml",
+      "term": "History"
+    },
+    {
+      "context_snippet": "MIGraphX Performance Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/performance.yaml",
+      "term": "MIGraphX Performance Tests"
+    }
+  ]
+}

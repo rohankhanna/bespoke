@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "docs-preview-cleanup"
+    "docs-preview-cleanup",
+    "Docs Preview Cleanup"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -19,6 +20,18 @@
       "source_repo": "elastic/go-elasticsearch",
       "status": "candidate-context",
       "text": "docs-preview-cleanup"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ROCm/rocm-libraries",
+      "status": "candidate-context",
+      "text": "super repo for rocm libraries"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ROCm/rocm-libraries",
+      "status": "candidate-context",
+      "text": "Docs Preview Cleanup"
     }
   ],
   "candidate_glosses": [
@@ -27,9 +40,51 @@
       "source_repo": "elastic/go-elasticsearch",
       "status": "candidate",
       "text": "docs-preview-cleanup"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ROCm/rocm-libraries",
+      "status": "candidate",
+      "text": "Docs Preview Cleanup"
     }
   ],
-  "candidate_related_terms": [],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17786,
+      "status": "candidate",
+      "text": "audit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17786,
+      "status": "candidate",
+      "text": "correct"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17786,
+      "status": "candidate",
+      "text": "sol"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17782,
+      "status": "candidate",
+      "text": "clear"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17782,
+      "status": "candidate",
+      "text": "consultation"
+    }
+  ],
   "candidate_synonyms": [],
   "canonical_name": "docs-preview-cleanup",
   "concept_id": "docs-preview-cleanup",
@@ -40,11 +95,17 @@
       "observed_at": "2026-04-22T01:04:16.609102+00:00",
       "source_file": ".github/workflows/docs-preview-cleanup.yml",
       "source_repo": "elastic/go-elasticsearch"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/docs-pr-preview-cleanup.yml",
+      "source_repo": "ROCm/rocm-libraries"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "lexical_providers": [
     "datamuse"
   ],

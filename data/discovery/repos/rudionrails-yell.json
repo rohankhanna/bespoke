@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "rudionrails/yell",
+      "target": "rsmdt/yell",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-24T12:57:36.613152+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 255
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "Yell - Your Extensible Logging Library",
+    "fork": true,
+    "full_name": "rudionrails/yell",
+    "html_url": "https://github.com/rudionrails/yell",
+    "language": "Ruby",
+    "pushed_at": "2025-02-26T21:13:48Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2025-02-26T21:14:00Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rsmdt/yell",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

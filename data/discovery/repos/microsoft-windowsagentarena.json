@@ -1,0 +1,228 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-docker.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-docker.yml"
+    },
+    {
+      "component": "docker/login-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-docker.yml"
+    },
+    {
+      "component": "docker/build-push-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-docker.yml"
+    },
+    {
+      "component": "docker/build-push-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-docker.yml"
+    },
+    {
+      "component": "docker/build-push-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-docker.yml"
+    },
+    {
+      "component": "docker/build-push-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-docker.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "microsoft/WindowsAgentArena",
+      "target": "dockur/windows",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-docker.yml",
+      "source_repo": "microsoft/WindowsAgentArena",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-docker.yml",
+      "source_repo": "microsoft/WindowsAgentArena",
+      "target": "docker/setup-buildx-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-docker.yml",
+      "source_repo": "microsoft/WindowsAgentArena",
+      "target": "docker/login-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-docker.yml",
+      "source_repo": "microsoft/WindowsAgentArena",
+      "target": "docker/build-push-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-docker.yml",
+      "source_repo": "microsoft/WindowsAgentArena",
+      "target": "Docker Build and Push",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/WindowsAgentArena",
+      "target": "agentic",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/WindowsAgentArena",
+      "target": "ai-benchmark",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/WindowsAgentArena",
+      "target": "ai-research",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/WindowsAgentArena",
+      "target": "computer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/WindowsAgentArena",
+      "target": "computer-use",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/WindowsAgentArena",
+      "target": "desktop-agent",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/WindowsAgentArena",
+      "target": "windows",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T12:45:00.686595+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 24462
+    },
+    {
+      "path": "requirements.txt",
+      "size": 70
+    },
+    {
+      "path": ".github/workflows/publish-docker.yml",
+      "size": 1987
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Windows Agent Arena (WAA) \ud83e\ude9f is a scalable OS platform for testing and benchmarking of multi-modal AI agents.",
+    "fork": false,
+    "full_name": "microsoft/WindowsAgentArena",
+    "html_url": "https://github.com/microsoft/WindowsAgentArena",
+    "language": "Python",
+    "pushed_at": "2026-04-13T19:58:37Z",
+    "stargazers_count": 856,
+    "topics": [
+      "agentic",
+      "ai",
+      "ai-agent",
+      "ai-benchmark",
+      "ai-research",
+      "computer",
+      "computer-use",
+      "desktop-agent",
+      "windows"
+    ],
+    "updated_at": "2026-04-23T06:48:15Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dockur/windows",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Docker Build and Push",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-docker.yml",
+      "term": "Docker Build and Push"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "agentic"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ai-benchmark"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ai-research"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "computer"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "computer-use"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "desktop-agent"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "windows"
+    }
+  ]
+}

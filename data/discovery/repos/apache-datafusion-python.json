@@ -331,28 +331,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "apache/datafusion-python",
-      "target": "apache/datafusion",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "apache/datafusion-python",
-      "target": "dask-contrib/dask-sql",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "apache/datafusion-python",
-      "target": "apache/datafusion-ballista",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "apache/datafusion-python",
-      "target": "apache/datafusion-ray",
+      "target": "pyo3/pyo3",
       "target_type": "repository"
     },
     {
@@ -545,11 +524,11 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-23T21:54:17.408055+00:00",
+  "fetched_at": "2026-04-24T12:43:02.954293+00:00",
   "fetched_files": [
     {
       "path": "README.md",
-      "size": 12112
+      "size": 12722
     },
     {
       "path": "Cargo.toml",
@@ -597,30 +576,15 @@
     "full_name": "apache/datafusion-python",
     "html_url": "https://github.com/apache/datafusion-python",
     "language": "Python",
-    "pushed_at": "2026-04-19T19:42:39Z",
+    "pushed_at": "2026-04-24T12:10:06Z",
     "stargazers_count": 578,
     "topics": [],
-    "updated_at": "2026-04-20T13:48:55Z"
+    "updated_at": "2026-04-24T11:57:16Z"
   },
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
-      "full_name": "apache/datafusion",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "apache/datafusion-ballista",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "apache/datafusion-ray",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "dask-contrib/dask-sql",
+      "full_name": "pyo3/pyo3",
       "source_file": "README.md"
     }
   ],

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Docs Build Check"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "CERTCC/SSVC",
+      "status": "candidate-context",
+      "text": "Stakeholder-Specific Vulnerability Categorization"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CERTCC/SSVC",
+      "status": "candidate-context",
+      "text": "Docs Build Check"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CERTCC/SSVC",
+      "status": "candidate",
+      "text": "Docs Build Check"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22518,
+      "status": "candidate",
+      "text": "compile"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22518,
+      "status": "candidate",
+      "text": "press"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22518,
+      "status": "candidate",
+      "text": "provide"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22518,
+      "status": "candidate",
+      "text": "spec"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22502,
+      "status": "candidate",
+      "text": "abstract of title"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Docs Build Check",
+  "concept_id": "docs-build-check",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/docs_build_check.yml",
+      "source_repo": "CERTCC/SSVC"
+    }
+  ],
+  "first_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Docs Build Check",
+      "sense_id": "docs-build-check#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

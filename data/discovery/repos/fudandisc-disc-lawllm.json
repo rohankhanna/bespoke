@@ -1,0 +1,126 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "FudanDISC/DISC-LawLLM",
+      "target": "baichuan-inc/baichuan-13b",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "FudanDISC/DISC-LawLLM",
+      "target": "hiyouga/llama-factory",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "FudanDISC/DISC-LawLLM",
+      "target": "charlie-xiao/ml3m",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "FudanDISC/DISC-LawLLM",
+      "target": "hiyouga/llama-efficient-tuning",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "FudanDISC/DISC-LawLLM",
+      "target": "domain-llm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "FudanDISC/DISC-LawLLM",
+      "target": "legal-intelligence",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "FudanDISC/DISC-LawLLM",
+      "target": "legal-llm",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T12:34:33.753513+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 14788
+    },
+    {
+      "path": "requirements.txt",
+      "size": 105
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[\u4e2d\u6587\u6cd5\u5f8b\u5927\u6a21\u578b] DISC-LawLLM: an intelligent legal system powered by large language models (LLMs) to provide a wide range of legal services. ",
+    "fork": false,
+    "full_name": "FudanDISC/DISC-LawLLM",
+    "html_url": "https://github.com/FudanDISC/DISC-LawLLM",
+    "language": "Python",
+    "pushed_at": "2025-05-27T07:45:58Z",
+    "stargazers_count": 906,
+    "topics": [
+      "domain-llm",
+      "legal-intelligence",
+      "legal-llm",
+      "nlp"
+    ],
+    "updated_at": "2026-04-24T01:02:11Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "baichuan-inc/baichuan-13b",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "charlie-xiao/ml3m",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hiyouga/llama-efficient-tuning",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hiyouga/llama-factory",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "domain-llm"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "legal-intelligence"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "legal-llm"
+    }
+  ]
+}

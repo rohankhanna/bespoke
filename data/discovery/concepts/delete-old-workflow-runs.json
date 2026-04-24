@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Delete old workflow runs"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "XuhuiZhou/OpenHands",
+      "status": "candidate-context",
+      "text": "\ud83d\ude4c OpenHands: Code Less, Make More"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "XuhuiZhou/OpenHands",
+      "status": "candidate-context",
+      "text": "Delete old workflow runs"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "XuhuiZhou/OpenHands",
+      "status": "candidate",
+      "text": "Delete old workflow runs"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 36234,
+      "status": "candidate",
+      "text": "efflux"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 36202,
+      "status": "candidate",
+      "text": "effluent"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 36191,
+      "status": "candidate",
+      "text": "fleet"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 35855,
+      "status": "candidate",
+      "text": "make"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 35833,
+      "status": "candidate",
+      "text": "run"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Delete old workflow runs",
+  "concept_id": "delete-old-workflow-runs",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/clean-up.yml",
+      "source_repo": "XuhuiZhou/OpenHands"
+    }
+  ],
+  "first_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Delete old workflow runs",
+      "sense_id": "delete-old-workflow-runs#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -439,6 +439,30 @@
       "source_repo": "declare-lab/flan-alpaca",
       "status": "candidate-context",
       "text": "\ud83d\udce3 We developed Flacuna by fine-tuning Vicuna-13B on the Flan collection. Flacuna is better than Vicuna at problem-solving. Access the model here [https://huggingface.co/declare-lab/flacuna-13b-v1.0](https://huggingface.co/declare-lab/flacuna-13b-v1.0)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hiyouga/FastEdit",
+      "status": "candidate-context",
+      "text": "\ud83e\ude79Editing large language models within 10 seconds\u26a1"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hiyouga/FastEdit",
+      "status": "candidate-context",
+      "text": "*Editing large language models within 10 seconds*"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mukel/llama3.java",
+      "status": "candidate-context",
+      "text": "Llama 3+ inference in pure Java"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mukel/llama3.java",
+      "status": "candidate-context",
+      "text": "Practical [Llama 3](https://github.com/meta-llama/llama3), [3.1](https://llama.meta.com/docs/model-cards-and-prompt-formats/llama3_1) and [3.2](https://ai.meta.com/blog/llama-3-2-connect-2024-vision-edge-mobile-devices/) inference implemented in a single Java file."
     }
   ],
   "candidate_glosses": [
@@ -657,6 +681,18 @@
       "source_repo": "declare-lab/flan-alpaca",
       "status": "candidate",
       "text": "\ud83d\udce3 We developed Flacuna by fine-tuning Vicuna-13B on the Flan collection. Flacuna is better than Vicuna at problem-solving. Access the model here [https://huggingface.co/declare-lab/flacuna-13b-v1.0](https://huggingface.co/declare-lab/flacuna-13b-v1.0)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hiyouga/FastEdit",
+      "status": "candidate",
+      "text": "*Editing large language models within 10 seconds*"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mukel/llama3.java",
+      "status": "candidate",
+      "text": "Practical [Llama 3](https://github.com/meta-llama/llama3), [3.1](https://llama.meta.com/docs/model-cards-and-prompt-formats/llama3_1) and [3.2](https://ai.meta.com/blog/llama-3-2-connect-2024-vision-edge-mobile-devices/) inference implemented in a single Java file."
     }
   ],
   "candidate_related_terms": [
@@ -946,11 +982,23 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "declare-lab/flan-alpaca"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "hiyouga/FastEdit"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "mukel/llama3.java"
     }
   ],
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "lexical_providers": [
     "datamuse"
   ],

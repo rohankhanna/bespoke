@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "badges-github"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vladkens/badges",
+      "status": "candidate-context",
+      "text": "\ud83c\udf96\ufe0f\ud83c\udfa8 Instantly create custom badges for GitHub, docs, and more. Lightweight, self-hostable, with live integrations that keep badges always up to date. Elevate your projects in seconds!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vladkens/badges",
+      "status": "candidate-context",
+      "text": "[workspace] members = [\"app\", \"badgelib\"] resolver = \"3\" [profile.release] strip = true [profile.dev] debug = 0 strip = \"debuginfo\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vladkens/badges",
+      "status": "candidate",
+      "text": "[workspace] members = [\"app\", \"badgelib\"] resolver = \"3\" [profile.release] strip = true [profile.dev] debug = 0 strip = \"debuginfo\""
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "badges-github",
+  "concept_id": "badges-github",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "vladkens/badges"
+    }
+  ],
+  "first_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "badges-github",
+      "sense_id": "badges-github#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

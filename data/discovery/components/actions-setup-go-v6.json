@@ -1,7 +1,7 @@
 {
   "component": "actions/setup-go@v6",
   "first_seen_at": "2026-04-18T03:42:01.586113+00:00",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -1557,6 +1557,46 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/golangci-lint.yml",
       "source_repo": "schachmat/wego"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/gateway-conformance.yml",
+      "source_repo": "ipfs/boxo"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/gateway-sharness.yml",
+      "source_repo": "ipfs/boxo"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/gateway-conformance.yml",
+      "source_repo": "ipfs/rainbow"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pr_build.yml",
+      "source_repo": "StackExchange/dnscontrol"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pr_check_git_status.yml",
+      "source_repo": "StackExchange/dnscontrol"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pr_lint.yml",
+      "source_repo": "StackExchange/dnscontrol"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release_draft.yml",
+      "source_repo": "StackExchange/dnscontrol"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/golang.yml",
+      "source_repo": "bluesky-social/goat"
     }
   ]
 }

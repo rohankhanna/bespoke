@@ -175,6 +175,18 @@
       "source_repo": "wa-lang/webgpu",
       "status": "candidate-context",
       "text": "WebGPU\u6a21\u62df\u571f\u661f(https://gitee.com/wa-lang/webgpu)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "eliemichel/LearnWebGPU-Code",
+      "status": "candidate-context",
+      "text": "The accompanying code of the Learn WebGPU C++ programming guide"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eliemichel/LearnWebGPU-Code",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -261,6 +273,12 @@
       "source_repo": "wa-lang/webgpu",
       "status": "candidate",
       "text": "WebGPU\u6a21\u62df\u571f\u661f(https://gitee.com/wa-lang/webgpu)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eliemichel/LearnWebGPU-Code",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -364,11 +382,17 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "wa-lang/webgpu"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "eliemichel/LearnWebGPU-Code"
     }
   ],
   "first_seen_at": "2026-04-19T01:08:57.644140+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "lexical_providers": [
     "datamuse"
   ],

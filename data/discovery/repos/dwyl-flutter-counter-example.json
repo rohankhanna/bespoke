@@ -1,0 +1,83 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "subosito/flutter-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "dwyl/flutter-counter-example",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "dwyl/flutter-counter-example",
+      "target": "subosito/flutter-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "dwyl/flutter-counter-example",
+      "target": "codecov/codecov-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "dwyl/flutter-counter-example",
+      "target": "Build",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T12:58:54.190370+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 19277
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 880
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A basic counter app built in Flutter following TDD best practices.",
+    "fork": false,
+    "full_name": "dwyl/flutter-counter-example",
+    "html_url": "https://github.com/dwyl/flutter-counter-example",
+    "language": "C++",
+    "pushed_at": "2022-12-02T10:23:00Z",
+    "stargazers_count": 11,
+    "topics": [],
+    "updated_at": "2025-04-06T13:57:04Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "term": "Build"
+    }
+  ]
+}

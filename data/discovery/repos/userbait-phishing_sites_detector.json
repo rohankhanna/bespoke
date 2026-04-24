@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-24T12:46:13.486747+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 113
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "userbait/phishing_sites_detector",
+    "html_url": "https://github.com/userbait/phishing_sites_detector",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2022-11-30T03:33:50Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2022-11-30T03:30:52Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

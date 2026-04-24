@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Mooncake is the serving platform for Kimi, a leading LLM service provided by Moonshot AI."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Deploy documentation to GitHub Pages"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Deploy documentation to GitHub Pages"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34020,
+      "status": "candidate",
+      "text": "page"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19070,
+      "status": "candidate",
+      "text": "set"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18623,
+      "status": "candidate",
+      "text": "collate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18623,
+      "status": "candidate",
+      "text": "folio"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18623,
+      "status": "candidate",
+      "text": "lay"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Deploy documentation to GitHub Pages",
+      "sense_id": "deploy-documentation-to-github-pages#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "deploy-documentation-to-github-pages",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "deploy-documentation-to-github-pages",
+  "observation_id": "b64d87a6a3315863",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-24T12:33:41.350224+00:00",
+  "observed_text": "Deploy documentation to GitHub Pages",
+  "source_context_snippet": "Deploy documentation to GitHub Pages",
+  "source_file": ".github/workflows/deploy.yml",
+  "source_repo": "kvcache-ai/Mooncake",
+  "source_repo_description": "Mooncake is the serving platform for Kimi, a leading LLM service provided by Moonshot AI."
+}

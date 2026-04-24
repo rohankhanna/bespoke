@@ -1,0 +1,125 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Dockerfile",
+      "source_repo": "web-platform-tests/wpt.fyi",
+      "target": "googlecloudplatform/cloud-sdk-docker",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "web-platform-tests/wpt.fyi",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "web-platform-tests/wpt.fyi",
+      "target": "dorny/paths-filter@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "web-platform-tests/wpt.fyi",
+      "target": "Continuous Integration",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "web-platform-tests/wpt.fyi",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "web-platform-tests/wpt.fyi",
+      "target": "github/codeql-action/init@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "web-platform-tests/wpt.fyi",
+      "target": "github/codeql-action/autobuild@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "web-platform-tests/wpt.fyi",
+      "target": "github/codeql-action/analyze@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "web-platform-tests/wpt.fyi",
+      "target": "CodeQL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "web-platform-tests/wpt.fyi",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "web-platform-tests/wpt.fyi",
+      "target": "dorny/paths-filter@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "web-platform-tests/wpt.fyi",
+      "target": "Deploy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-update.yml",
+      "source_repo": "web-platform-tests/wpt.fyi",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-update.yml",
+      "source_repo": "web-platform-tests/wpt.fyi",
+      "target": "elgohr/Publish-Docker-Github-Action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker-update.yml",
+      "source_repo": "web-platform-tests/wpt.fyi",
+      "target": "Update Docker image",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "web-platform-tests/wpt.fyi",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "web-platform-tests/wpt.fyi",
+      "target": "web-platform-tests",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-24T12:33:41.350224+00:00",
+  "source_repo": "web-platform-tests/wpt.fyi"
+}

@@ -359,6 +359,18 @@
       "source_repo": "distantmagic/resonance",
       "status": "candidate-context",
       "text": "github pages"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "terser/html-minifier-terser",
+      "status": "candidate-context",
+      "text": "actively maintained fork of html-minifier - minify HTML, CSS and JS code using terser - supports ES6 code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "terser/html-minifier-terser",
+      "status": "candidate-context",
+      "text": "GitHub Pages"
     }
   ],
   "candidate_glosses": [
@@ -535,6 +547,12 @@
       "source_repo": "distantmagic/resonance",
       "status": "candidate",
       "text": "github pages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "terser/html-minifier-terser",
+      "status": "candidate",
+      "text": "GitHub Pages"
     }
   ],
   "candidate_related_terms": [
@@ -806,11 +824,17 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": ".github/workflows/github-pages.yml",
       "source_repo": "distantmagic/resonance"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/pages.yml",
+      "source_repo": "terser/html-minifier-terser"
     }
   ],
   "first_seen_at": "2026-04-18T13:15:13.756138+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "lexical_providers": [
     "datamuse"
   ],

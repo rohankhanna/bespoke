@@ -43,6 +43,18 @@
       "source_repo": "pgvector/pgvector",
       "status": "candidate-context",
       "text": "Open-source vector similarity search for Postgres"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "spotify/annoy",
+      "status": "candidate-context",
+      "text": "Approximate Nearest Neighbors in C++/Python optimized for memory usage and loading/saving to disk"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "spotify/annoy",
+      "status": "candidate-context",
+      "text": "Annoy"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "pgvector/pgvector",
       "status": "candidate",
       "text": "Open-source vector similarity search for Postgres"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "spotify/annoy",
+      "status": "candidate",
+      "text": "Annoy"
     }
   ],
   "candidate_related_terms": [],
@@ -88,11 +106,17 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "pgvector/pgvector"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "spotify/annoy"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "lexical_providers": [
     "datamuse"
   ],

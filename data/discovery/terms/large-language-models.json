@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -316,6 +316,51 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "declare-lab/LLM-PuzzleTest"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "hiyouga/FastEdit"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "tatsu-lab/alpaca_farm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "fla-org/flash-linear-attention"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenGVLab/Ask-Anything"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "Atome-FE/llama-node"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "punica-ai/punica"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "amazon-science/recode"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "xlang-ai/DS-1000"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "reasoning-machines/pal"
     }
   ],
   "term": "large-language-models"

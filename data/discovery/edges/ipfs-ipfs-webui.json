@@ -1,20 +1,6 @@
 {
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "ipfs/ipfs-webui",
-      "target": "ipfs/ipfs-desktop",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "ipfs/ipfs-webui",
-      "target": "ipfs/js-kubo-rpc-client",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "package-json:dependencies",
       "source_file": "package.json",
       "source_repo": "ipfs/ipfs-webui",
@@ -1282,6 +1268,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-04-23T18:30:35.670459+00:00",
+  "generated_at": "2026-04-24T12:33:41.350224+00:00",
   "source_repo": "ipfs/ipfs-webui"
 }

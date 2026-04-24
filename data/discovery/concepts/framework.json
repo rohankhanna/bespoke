@@ -463,6 +463,18 @@
       "source_repo": "distantmagic/resonance",
       "status": "candidate-context",
       "text": "Resonance is designed from the ground up to facilitate interoperability and messaging between services in your infrastructure and beyond. It provides AI capabilities, has a built in web server and integrates with [llama.cpp](https://github.com/ggerganov/llama.cpp)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "openai/openai-agents-python",
+      "status": "candidate-context",
+      "text": "A lightweight, powerful framework for multi-agent workflows"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openai/openai-agents-python",
+      "status": "candidate-context",
+      "text": "The OpenAI Agents SDK is a lightweight yet powerful framework for building multi-agent workflows. It is provider-agnostic, supporting the OpenAI Responses and Chat Completions APIs, as well as 100+ other LLMs."
     }
   ],
   "candidate_glosses": [
@@ -693,6 +705,12 @@
       "source_repo": "distantmagic/resonance",
       "status": "candidate",
       "text": "Resonance is designed from the ground up to facilitate interoperability and messaging between services in your infrastructure and beyond. It provides AI capabilities, has a built in web server and integrates with [llama.cpp](https://github.com/ggerganov/llama.cpp)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openai/openai-agents-python",
+      "status": "candidate",
+      "text": "The OpenAI Agents SDK is a lightweight yet powerful framework for building multi-agent workflows. It is provider-agnostic, supporting the OpenAI Responses and Chat Completions APIs, as well as 100+ other LLMs."
     }
   ],
   "candidate_related_terms": [
@@ -1042,11 +1060,17 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "distantmagic/resonance"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "openai/openai-agents-python"
     }
   ],
   "first_seen_at": "2026-04-18T10:38:37.562216+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "lexical_providers": [
     "datamuse"
   ],

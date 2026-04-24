@@ -73,6 +73,42 @@
       "source_repo": "multiformats/go-multiaddr",
       "status": "candidate-context",
       "text": "Go Checks"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ipfs/boxo",
+      "status": "candidate-context",
+      "text": "A set of reference libraries for building IPFS applications and implementations in Go."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipfs/boxo",
+      "status": "candidate-context",
+      "text": "Go Checks"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ipfs/rainbow",
+      "status": "candidate-context",
+      "text": "A specialized IPFS HTTP gateway"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipfs/rainbow",
+      "status": "candidate-context",
+      "text": "Go Checks"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ipfs/go-ds-s3",
+      "status": "candidate-context",
+      "text": "An s3 datastore implementation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipfs/go-ds-s3",
+      "status": "candidate-context",
+      "text": "Go Checks"
     }
   ],
   "candidate_glosses": [
@@ -109,6 +145,24 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "multiformats/go-multiaddr",
+      "status": "candidate",
+      "text": "Go Checks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipfs/boxo",
+      "status": "candidate",
+      "text": "Go Checks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipfs/rainbow",
+      "status": "candidate",
+      "text": "Go Checks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipfs/go-ds-s3",
       "status": "candidate",
       "text": "Go Checks"
     }
@@ -190,11 +244,29 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": ".github/workflows/go-check.yml",
       "source_repo": "multiformats/go-multiaddr"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/go-check.yml",
+      "source_repo": "ipfs/boxo"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/go-check.yml",
+      "source_repo": "ipfs/rainbow"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/go-check.yml",
+      "source_repo": "ipfs/go-ds-s3"
     }
   ],
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "lexical_providers": [
     "datamuse"
   ],

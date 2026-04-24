@@ -200,6 +200,18 @@
       "source_repo": "folke/lazydev.nvim",
       "status": "candidate-context",
       "text": "\"PR Labeler\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google-gemini/deprecated-generative-ai-python",
+      "status": "candidate-context",
+      "text": "This SDK is now deprecated, use the new unified Google GenAI SDK. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google-gemini/deprecated-generative-ai-python",
+      "status": "candidate-context",
+      "text": "\"PR Labeler\""
     }
   ],
   "candidate_glosses": [
@@ -296,6 +308,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "folke/lazydev.nvim",
+      "status": "candidate",
+      "text": "\"PR Labeler\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google-gemini/deprecated-generative-ai-python",
       "status": "candidate",
       "text": "\"PR Labeler\""
     }
@@ -551,11 +569,23 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": ".github/workflows/pr-labeler.yml",
       "source_repo": "AndyMik90/Aperant"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/pr-labeler.yml",
+      "source_repo": "harbor-framework/harbor"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/labeler.yml",
+      "source_repo": "google-gemini/deprecated-generative-ai-python"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "lexical_providers": [
     "datamuse"
   ],

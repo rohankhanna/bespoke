@@ -1,7 +1,7 @@
 {
   "component": "docker/build-push-action@v3",
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -147,6 +147,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/release.yml",
       "source_repo": "datreeio/datree"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "kurrent-io/es-gencert-cli"
     }
   ]
 }

@@ -1,12 +1,17 @@
 {
   "component": "cycjimmy/semantic-release-action@b12c8f6015dc215fe37bc154d4ad456dd3833c90",
   "first_seen_at": "2026-04-18T09:17:12.863479+00:00",
-  "last_seen_at": "2026-04-18T09:17:12.863479+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/release.yml",
       "source_repo": "maxritter/pilot-shell"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "syrupy-project/syrupy"
     }
   ]
 }

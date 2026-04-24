@@ -1,0 +1,183 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-tests.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-tests.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-tests.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-tests.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-tests.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aorwall/moatless-tools",
+      "target": "aorwall/moatless-tree-search",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-tests.yml",
+      "source_repo": "aorwall/moatless-tools",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-tests.yml",
+      "source_repo": "aorwall/moatless-tools",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-tests.yml",
+      "source_repo": "aorwall/moatless-tools",
+      "target": "astral-sh/setup-uv@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-tests.yml",
+      "source_repo": "aorwall/moatless-tools",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-tests.yml",
+      "source_repo": "aorwall/moatless-tools",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/run-tests.yml",
+      "source_repo": "aorwall/moatless-tools",
+      "target": "Run Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aorwall/moatless-tools",
+      "target": "code-gen",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aorwall/moatless-tools",
+      "target": "code-search",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aorwall/moatless-tools",
+      "target": "gpt-4",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aorwall/moatless-tools",
+      "target": "tree-sitter",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T12:41:05.232535+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8916
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 2198
+    },
+    {
+      "path": ".github/workflows/run-tests.yml",
+      "size": 1161
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "aorwall/moatless-tools",
+    "html_url": "https://github.com/aorwall/moatless-tools",
+    "language": "Python",
+    "pushed_at": "2025-09-01T04:30:25Z",
+    "stargazers_count": 637,
+    "topics": [
+      "ai",
+      "code-gen",
+      "code-search",
+      "gpt-4",
+      "python",
+      "tree-sitter"
+    ],
+    "updated_at": "2026-04-09T17:25:28Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aorwall/moatless-tree-search",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Run Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/run-tests.yml",
+      "term": "Run Tests"
+    },
+    {
+      "context_snippet": "Moatless Tools is a hobby project where I experiment with some ideas I have about how LLMs can be used to edit code in large existing codebases. I believe that rather than relying on an agent to reason its way to a solution, it is crucial to build good tools to insert the right \u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "code-gen"
+    },
+    {
+      "context_snippet": "Moatless Tools is a hobby project where I experiment with some ideas I have about how LLMs can be used to edit code in large existing codebases. I believe that rather than relying on an agent to reason its way to a solution, it is crucial to build good tools to insert the right \u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "code-search"
+    },
+    {
+      "context_snippet": "Moatless Tools is a hobby project where I experiment with some ideas I have about how LLMs can be used to edit code in large existing codebases. I believe that rather than relying on an agent to reason its way to a solution, it is crucial to build good tools to insert the right \u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gpt-4"
+    },
+    {
+      "context_snippet": "Moatless Tools is a hobby project where I experiment with some ideas I have about how LLMs can be used to edit code in large existing codebases. I believe that rather than relying on an agent to reason its way to a solution, it is crucial to build good tools to insert the right \u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tree-sitter"
+    }
+  ]
+}

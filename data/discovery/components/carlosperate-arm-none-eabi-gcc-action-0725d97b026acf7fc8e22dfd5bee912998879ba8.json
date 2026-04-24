@@ -1,0 +1,12 @@
+{
+  "component": "carlosperate/arm-none-eabi-gcc-action@0725d97b026acf7fc8e22dfd5bee912998879ba8",
+  "first_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-and-deploy.yml",
+      "source_repo": "raspberrypi/documentation"
+    }
+  ]
+}

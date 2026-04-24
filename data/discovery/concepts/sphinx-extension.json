@@ -55,6 +55,18 @@
       "source_repo": "sphinx-contrib/sphinxcontrib-towncrier",
       "status": "candidate-context",
       "text": ".. image:: https://raw.githubusercontent.com/vshymanskyy/StandWithUkraine/main/banner-direct-team.svg"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "executablebooks/MyST-Parser",
+      "status": "candidate-context",
+      "text": "An extended commonmark compliant parser, with bridges to docutils/sphinx"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "executablebooks/MyST-Parser",
+      "status": "candidate-context",
+      "text": "[![Github-CI][github-ci]][github-link]"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +93,12 @@
       "source_repo": "sphinx-contrib/sphinxcontrib-towncrier",
       "status": "candidate",
       "text": ".. image:: https://raw.githubusercontent.com/vshymanskyy/StandWithUkraine/main/banner-direct-team.svg"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "executablebooks/MyST-Parser",
+      "status": "candidate",
+      "text": "[![Github-CI][github-ci]][github-link]"
     }
   ],
   "candidate_related_terms": [],
@@ -112,11 +130,17 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": null,
       "source_repo": "sphinx-contrib/sphinxcontrib-towncrier"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "executablebooks/MyST-Parser"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "lexical_providers": [
     "datamuse"
   ],

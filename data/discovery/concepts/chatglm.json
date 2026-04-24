@@ -115,6 +115,18 @@
       "source_repo": "yangjianxin1/Firefly",
       "status": "candidate-context",
       "text": "<div align=\"left\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "linonetwo/MOSS-DockerFile",
+      "status": "candidate-context",
+      "text": "\u7528\u4e8e\u5728 Docker \u91cc\u8fd0\u884c\u590d\u65e6\u7684 MOSS \u8bed\u8a00\u6a21\u578b\uff0c\u4f7f\u7528 GradIO \u63d0\u4f9b WebUI\u3002"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "linonetwo/MOSS-DockerFile",
+      "status": "candidate-context",
+      "text": "https://hub.docker.com/repository/docker/linonetwo/moss/general"
     }
   ],
   "candidate_glosses": [
@@ -171,6 +183,12 @@
       "source_repo": "yangjianxin1/Firefly",
       "status": "candidate",
       "text": "<div align=\"left\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "linonetwo/MOSS-DockerFile",
+      "status": "candidate",
+      "text": "https://hub.docker.com/repository/docker/linonetwo/moss/general"
     }
   ],
   "candidate_related_terms": [],
@@ -244,11 +262,23 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "yangjianxin1/Firefly"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "linonetwo/MOSS-DockerFile"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "chatchat-space/Langchain-Chatchat"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "lexical_providers": [
     "datamuse"
   ],

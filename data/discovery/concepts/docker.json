@@ -1846,6 +1846,54 @@
       "source_repo": "podman-desktop/podman-desktop",
       "status": "candidate-context",
       "text": "![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "XuhuiZhou/OpenHands",
+      "status": "candidate-context",
+      "text": "\ud83d\ude4c OpenHands: Code Less, Make More"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "XuhuiZhou/OpenHands",
+      "status": "candidate-context",
+      "text": "Docker"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "linonetwo/MOSS-DockerFile",
+      "status": "candidate-context",
+      "text": "\u7528\u4e8e\u5728 Docker \u91cc\u8fd0\u884c\u590d\u65e6\u7684 MOSS \u8bed\u8a00\u6a21\u578b\uff0c\u4f7f\u7528 GradIO \u63d0\u4f9b WebUI\u3002"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "linonetwo/MOSS-DockerFile",
+      "status": "candidate-context",
+      "text": "https://hub.docker.com/repository/docker/linonetwo/moss/general"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "codelibs/docker-fess",
+      "status": "candidate-context",
+      "text": "Docker files for Fess"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "codelibs/docker-fess",
+      "status": "candidate-context",
+      "text": "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://github.com/codelibs/docker-fess/blob/master/LICENSE)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "scverse/rapids-singlecell",
+      "status": "candidate-context",
+      "text": "rapids-singlecell: GPU-accelerated framework for scRNA analysis"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "scverse/rapids-singlecell",
+      "status": "candidate-context",
+      "text": "Docker"
     }
   ],
   "candidate_glosses": [
@@ -2772,6 +2820,30 @@
       "source_repo": "podman-desktop/podman-desktop",
       "status": "candidate",
       "text": "![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "XuhuiZhou/OpenHands",
+      "status": "candidate",
+      "text": "Docker"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "linonetwo/MOSS-DockerFile",
+      "status": "candidate",
+      "text": "https://hub.docker.com/repository/docker/linonetwo/moss/general"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "codelibs/docker-fess",
+      "status": "candidate",
+      "text": "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://github.com/codelibs/docker-fess/blob/master/LICENSE)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "scverse/rapids-singlecell",
+      "status": "candidate",
+      "text": "Docker"
     }
   ],
   "candidate_related_terms": [
@@ -4063,11 +4135,59 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "podman-desktop/podman-desktop"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/ghcr-build.yml",
+      "source_repo": "XuhuiZhou/OpenHands"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/ghcr-build.yml",
+      "source_repo": "OpenHands/OpenHands"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "linonetwo/MOSS-DockerFile"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "codelibs/docker-fess"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "apache/datafusion-ballista"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "scverse/rapids-singlecell"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "browserless/browserless"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/docker-publish.yml",
+      "source_repo": "lnx-search/rewrk"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "lexical_providers": [
     "datamuse"
   ],

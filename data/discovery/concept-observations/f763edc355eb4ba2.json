@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "This is a plugin which lets EC2 developers use libfabric as network provider while running NCCL applications."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Update CI Containers"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Update CI Containers"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12553,
+      "status": "candidate",
+      "text": "ion"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12250,
+      "status": "candidate",
+      "text": "curie-weiss law"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9930,
+      "status": "candidate",
+      "text": "curve"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9930,
+      "status": "candidate",
+      "text": "fig"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9930,
+      "status": "candidate",
+      "text": "positive"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Update CI Containers",
+      "sense_id": "update-ci-containers#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "update-ci-containers",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "update-ci-containers",
+  "observation_id": "f763edc355eb4ba2",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-24T12:33:41.350224+00:00",
+  "observed_text": "Update CI Containers",
+  "source_context_snippet": "Update CI Containers",
+  "source_file": ".github/workflows/update-containers.yaml",
+  "source_repo": "aws/aws-ofi-nccl",
+  "source_repo_description": "This is a plugin which lets EC2 developers use libfabric as network provider while running NCCL applications."
+}

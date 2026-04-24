@@ -58,6 +58,18 @@
       "source_repo": "crev-dev/cargo-crev",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "crev-dev/pip-crev",
+      "status": "candidate-context",
+      "text": "Signed code reviews for Python packages."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "crev-dev/pip-crev",
+      "status": "candidate-context",
+      "text": "**WARNING: This code is in development, is being provided without support, and is subject to change at any time without notification**"
     }
   ],
   "candidate_glosses": [
@@ -78,6 +90,12 @@
       "source_repo": "crev-dev/cargo-crev",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "crev-dev/pip-crev",
+      "status": "candidate",
+      "text": "**WARNING: This code is in development, is being provided without support, and is subject to change at any time without notification**"
     }
   ],
   "candidate_related_terms": [
@@ -151,11 +169,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "crev-dev/cargo-crev"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "crev-dev/pip-crev"
     }
   ],
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "lexical_providers": [
     "datamuse"
   ],

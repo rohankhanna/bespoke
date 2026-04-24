@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T09:57:17.167988+00:00",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -116,6 +116,16 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "HKUDS/LightRAG"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "phodal/auto-dev"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "mukel/llama3.java"
     }
   ],
   "term": "genai"

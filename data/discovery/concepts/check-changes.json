@@ -19,12 +19,30 @@
       "source_repo": "semver/semver",
       "status": "candidate-context",
       "text": "Check changes"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "semver/semver.org",
+      "status": "candidate-context",
+      "text": "Semantic Versioning spec and website"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "semver/semver.org",
+      "status": "candidate-context",
+      "text": "Check changes"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "semver/semver",
+      "status": "candidate",
+      "text": "Check changes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "semver/semver.org",
       "status": "candidate",
       "text": "Check changes"
     }
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": ".github/workflows/checks.yml",
       "source_repo": "semver/semver"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/checks.yml",
+      "source_repo": "semver/semver.org"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "lexical_providers": [
     "datamuse"
   ],

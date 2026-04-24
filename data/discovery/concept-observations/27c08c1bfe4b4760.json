@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\u26a1 Serverless Framework \u2013 Effortlessly build apps that auto-scale, incur zero costs when idle, and require minimal maintenance using AWS Lambda and other managed cloud services."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "'Check: Contributor License Agreement'"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "'Check: Contributor License Agreement'"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26097,
+      "status": "candidate",
+      "text": "licence"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20664,
+      "status": "candidate",
+      "text": "contribution"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19965,
+      "status": "candidate",
+      "text": "take"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19942,
+      "status": "candidate",
+      "text": "pass"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19930,
+      "status": "candidate",
+      "text": "good"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Check: Contributor License Agreement",
+      "sense_id": "check-contributor-license-agreement#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "check-contributor-license-agreement",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "check-contributor-license-agreement",
+  "observation_id": "27c08c1bfe4b4760",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-24T12:33:41.350224+00:00",
+  "observed_text": "Check: Contributor License Agreement",
+  "source_context_snippet": "'Check: Contributor License Agreement'",
+  "source_file": ".github/workflows/check-cla.yml",
+  "source_repo": "serverless/serverless",
+  "source_repo_description": "\u26a1 Serverless Framework \u2013 Effortlessly build apps that auto-scale, incur zero costs when idle, and require minimal maintenance using AWS Lambda and other managed cloud services."
+}

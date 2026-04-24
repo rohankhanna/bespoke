@@ -1,0 +1,186 @@
+{
+  "components": [
+    {
+      "component": "acorn",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "semver",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/moz.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ufuzz.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mishoo/UglifyJS",
+      "target": "ternjs/acorn",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "mishoo/UglifyJS",
+      "target": "acorn",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "mishoo/UglifyJS",
+      "target": "semver",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "mishoo/UglifyJS",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "mishoo/UglifyJS",
+      "target": "Build testing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "mishoo/UglifyJS",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "mishoo/UglifyJS",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/moz.yml",
+      "source_repo": "mishoo/UglifyJS",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/moz.yml",
+      "source_repo": "mishoo/UglifyJS",
+      "target": "ESTree",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ufuzz.yml",
+      "source_repo": "mishoo/UglifyJS",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ufuzz.yml",
+      "source_repo": "mishoo/UglifyJS",
+      "target": "Fuzzing",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T13:04:17.245885+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 57831
+    },
+    {
+      "path": "package.json",
+      "size": 1068
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 1474
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 994
+    },
+    {
+      "path": ".github/workflows/moz.yml",
+      "size": 335
+    },
+    {
+      "path": ".github/workflows/ufuzz.yml",
+      "size": 1105
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": " JavaScript parser / mangler / compressor / beautifier toolkit",
+    "fork": false,
+    "full_name": "mishoo/UglifyJS",
+    "html_url": "https://github.com/mishoo/UglifyJS",
+    "language": "JavaScript",
+    "pushed_at": "2024-11-22T08:11:38Z",
+    "stargazers_count": 13399,
+    "topics": [],
+    "updated_at": "2026-04-24T03:17:33Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ternjs/acorn",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build testing",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "Build testing"
+    },
+    {
+      "context_snippet": "ESTree",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/moz.yml",
+      "term": "ESTree"
+    },
+    {
+      "context_snippet": "Fuzzing",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ufuzz.yml",
+      "term": "Fuzzing"
+    }
+  ]
+}

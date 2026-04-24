@@ -1,0 +1,411 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy_site.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy_site.yml"
+    },
+    {
+      "component": "actions/configure-pages@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy_site.yml"
+    },
+    {
+      "component": "actions/upload-pages-artifact@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy_site.yml"
+    },
+    {
+      "component": "actions/deploy-pages@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy_site.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs_build_check.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs_build_check.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/link_checker.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/link_checker.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint_md_changes.yml"
+    },
+    {
+      "component": "tj-actions/changed-files@9426d40962ed5378910ee2e21d5f8c6fcbf2dd96",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint_md_changes.yml"
+    },
+    {
+      "component": "DavidAnson/markdownlint-cli2-action@v23",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint_md_changes.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-app.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-app.yml"
+    },
+    {
+      "component": "psf/black@stable",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-app.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-app.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run_doctools.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run_doctools.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy_site.yml",
+      "source_repo": "CERTCC/SSVC",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy_site.yml",
+      "source_repo": "CERTCC/SSVC",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy_site.yml",
+      "source_repo": "CERTCC/SSVC",
+      "target": "actions/configure-pages@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy_site.yml",
+      "source_repo": "CERTCC/SSVC",
+      "target": "actions/upload-pages-artifact@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy_site.yml",
+      "source_repo": "CERTCC/SSVC",
+      "target": "actions/deploy-pages@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy_site.yml",
+      "source_repo": "CERTCC/SSVC",
+      "target": "Deploy static content to Pages",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs_build_check.yml",
+      "source_repo": "CERTCC/SSVC",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs_build_check.yml",
+      "source_repo": "CERTCC/SSVC",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs_build_check.yml",
+      "source_repo": "CERTCC/SSVC",
+      "target": "Docs Build Check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/link_checker.yml",
+      "source_repo": "CERTCC/SSVC",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/link_checker.yml",
+      "source_repo": "CERTCC/SSVC",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/link_checker.yml",
+      "source_repo": "CERTCC/SSVC",
+      "target": "Link Checker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint_md_changes.yml",
+      "source_repo": "CERTCC/SSVC",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint_md_changes.yml",
+      "source_repo": "CERTCC/SSVC",
+      "target": "tj-actions/changed-files@9426d40962ed5378910ee2e21d5f8c6fcbf2dd96",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint_md_changes.yml",
+      "source_repo": "CERTCC/SSVC",
+      "target": "DavidAnson/markdownlint-cli2-action@v23",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-app.yml",
+      "source_repo": "CERTCC/SSVC",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-app.yml",
+      "source_repo": "CERTCC/SSVC",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-app.yml",
+      "source_repo": "CERTCC/SSVC",
+      "target": "psf/black@stable",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-app.yml",
+      "source_repo": "CERTCC/SSVC",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run_doctools.yml",
+      "source_repo": "CERTCC/SSVC",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run_doctools.yml",
+      "source_repo": "CERTCC/SSVC",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/run_doctools.yml",
+      "source_repo": "CERTCC/SSVC",
+      "target": "Run doctools on PR",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CERTCC/SSVC",
+      "target": "decision-support",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CERTCC/SSVC",
+      "target": "decision-trees",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CERTCC/SSVC",
+      "target": "prioritization",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CERTCC/SSVC",
+      "target": "vulnerabilities",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CERTCC/SSVC",
+      "target": "vulnerability",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CERTCC/SSVC",
+      "target": "vulnerability-management",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T13:01:28.924799+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6731
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 2662
+    },
+    {
+      "path": ".github/workflows/deploy_site.yml",
+      "size": 1693
+    },
+    {
+      "path": ".github/workflows/docs_build_check.yml",
+      "size": 649
+    },
+    {
+      "path": ".github/workflows/link_checker.yml",
+      "size": 975
+    },
+    {
+      "path": ".github/workflows/lint_md_changes.yml",
+      "size": 750
+    },
+    {
+      "path": ".github/workflows/python-app.yml",
+      "size": 1021
+    },
+    {
+      "path": ".github/workflows/run_doctools.yml",
+      "size": 1998
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Stakeholder-Specific Vulnerability Categorization",
+    "fork": false,
+    "full_name": "CERTCC/SSVC",
+    "html_url": "https://github.com/CERTCC/SSVC",
+    "language": "Python",
+    "pushed_at": "2026-04-24T12:59:41Z",
+    "stargazers_count": 180,
+    "topics": [
+      "decision-support",
+      "decision-trees",
+      "prioritization",
+      "vulnerabilities",
+      "vulnerability",
+      "vulnerability-management"
+    ],
+    "updated_at": "2026-04-24T08:53:32Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Deploy static content to Pages",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy_site.yml",
+      "term": "Deploy static content to Pages"
+    },
+    {
+      "context_snippet": "Docs Build Check",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs_build_check.yml",
+      "term": "Docs Build Check"
+    },
+    {
+      "context_snippet": "Link Checker",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/link_checker.yml",
+      "term": "Link Checker"
+    },
+    {
+      "context_snippet": "\"Run doctools on PR\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/run_doctools.yml",
+      "term": "Run doctools on PR"
+    },
+    {
+      "context_snippet": "[![Link Checker](https://github.com/CERTCC/SSVC/actions/workflows/link_checker.yml/badge.svg?branch=main)](https://github.com/CERTCC/SSVC/actions/workflows/link_checker.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "decision-support"
+    },
+    {
+      "context_snippet": "[![Link Checker](https://github.com/CERTCC/SSVC/actions/workflows/link_checker.yml/badge.svg?branch=main)](https://github.com/CERTCC/SSVC/actions/workflows/link_checker.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "decision-trees"
+    },
+    {
+      "context_snippet": "[![Link Checker](https://github.com/CERTCC/SSVC/actions/workflows/link_checker.yml/badge.svg?branch=main)](https://github.com/CERTCC/SSVC/actions/workflows/link_checker.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "prioritization"
+    },
+    {
+      "context_snippet": "[![Link Checker](https://github.com/CERTCC/SSVC/actions/workflows/link_checker.yml/badge.svg?branch=main)](https://github.com/CERTCC/SSVC/actions/workflows/link_checker.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vulnerabilities"
+    },
+    {
+      "context_snippet": "[![Link Checker](https://github.com/CERTCC/SSVC/actions/workflows/link_checker.yml/badge.svg?branch=main)](https://github.com/CERTCC/SSVC/actions/workflows/link_checker.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vulnerability"
+    },
+    {
+      "context_snippet": "[![Link Checker](https://github.com/CERTCC/SSVC/actions/workflows/link_checker.yml/badge.svg?branch=main)](https://github.com/CERTCC/SSVC/actions/workflows/link_checker.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vulnerability-management"
+    }
+  ]
+}

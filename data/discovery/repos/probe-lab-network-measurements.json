@@ -1,0 +1,88 @@
+{
+  "components": [
+    {
+      "component": "ipdxco/unified-github-workflows/.github/workflows/reusable-generated-pr.yml@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generated-pr.yml"
+    },
+    {
+      "component": "ipdxco/unified-github-workflows/.github/workflows/reusable-stale-issue.yml@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generated-pr.yml",
+      "source_repo": "probe-lab/network-measurements",
+      "target": "ipdxco/unified-github-workflows/.github/workflows/reusable-generated-pr.yml@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/generated-pr.yml",
+      "source_repo": "probe-lab/network-measurements",
+      "target": "Close Generated PRs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "probe-lab/network-measurements",
+      "target": "ipdxco/unified-github-workflows/.github/workflows/reusable-stale-issue.yml@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "probe-lab/network-measurements",
+      "target": "Close Stale Issues",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T12:55:17.501873+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4949
+    },
+    {
+      "path": ".github/workflows/generated-pr.yml",
+      "size": 246
+    },
+    {
+      "path": ".github/workflows/stale.yml",
+      "size": 244
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "probe-lab/network-measurements",
+    "html_url": "https://github.com/probe-lab/network-measurements",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2025-12-12T06:36:51Z",
+    "stargazers_count": 56,
+    "topics": [],
+    "updated_at": "2025-12-12T06:39:11Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Close Generated PRs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/generated-pr.yml",
+      "term": "Close Generated PRs"
+    },
+    {
+      "context_snippet": "Close Stale Issues",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "term": "Close Stale Issues"
+    }
+  ]
+}

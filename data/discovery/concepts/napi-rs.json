@@ -19,6 +19,18 @@
       "source_repo": "napi-rs/node-rs",
       "status": "candidate-context",
       "text": "[![CI](https://github.com/napi-rs/node-rs/workflows/CI/badge.svg)](https://github.com/napi-rs/node-rs/actions/workflows/ci.yaml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Atome-FE/llama-node",
+      "status": "candidate-context",
+      "text": "Believe in AI democratization. llama for nodejs backed by llama-rs, llama.cpp and rwkv.cpp, work locally on your laptop CPU. support llama/alpaca/gpt4all/vicuna/rwkv model."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Atome-FE/llama-node",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "napi-rs/node-rs",
       "status": "candidate",
       "text": "[![CI](https://github.com/napi-rs/node-rs/workflows/CI/badge.svg)](https://github.com/napi-rs/node-rs/actions/workflows/ci.yaml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Atome-FE/llama-node",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -46,11 +64,17 @@
       "observed_at": "2026-04-19T04:47:57.443742+00:00",
       "source_file": null,
       "source_repo": "napi-rs/node-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "Atome-FE/llama-node"
     }
   ],
   "first_seen_at": "2026-04-18T11:41:43.530265+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-19T04:47:57.443742+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "MIGraphX Performance Tests"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ROCm/AMDMIGraphX",
+      "status": "candidate-context",
+      "text": "AMD's graph optimization engine."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ROCm/AMDMIGraphX",
+      "status": "candidate-context",
+      "text": "MIGraphX Performance Tests"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ROCm/AMDMIGraphX",
+      "status": "candidate",
+      "text": "MIGraphX Performance Tests"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28533,
+      "status": "candidate",
+      "text": "shakedown"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12133,
+      "status": "candidate",
+      "text": "checking"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12133,
+      "status": "candidate",
+      "text": "review"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11888,
+      "status": "candidate",
+      "text": "benchmark"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11888,
+      "status": "candidate",
+      "text": "results"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "MIGraphX Performance Tests",
+  "concept_id": "migraphx-performance-tests",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/performance.yaml",
+      "source_repo": "ROCm/AMDMIGraphX"
+    }
+  ],
+  "first_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "MIGraphX Performance Tests",
+      "sense_id": "migraphx-performance-tests#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

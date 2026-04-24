@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "The official home of the Presto distributed SQL query engine for big data"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "maven checks"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "maven checks"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10734,
+      "status": "candidate",
+      "text": "cpa"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10682,
+      "status": "candidate",
+      "text": "ace"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10682,
+      "status": "candidate",
+      "text": "agee"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10682,
+      "status": "candidate",
+      "text": "chemist"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10682,
+      "status": "candidate",
+      "text": "master"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "maven checks",
+      "sense_id": "maven-checks#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "maven-checks",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "maven-checks",
+  "observation_id": "1d931773b35cf3b4",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-24T12:33:41.350224+00:00",
+  "observed_text": "maven checks",
+  "source_context_snippet": "maven checks",
+  "source_file": ".github/workflows/maven-checks.yml",
+  "source_repo": "prestodb/presto",
+  "source_repo_description": "The official home of the Presto distributed SQL query engine for big data"
+}

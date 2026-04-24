@@ -1,0 +1,122 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\ud83c\udfe1 \ud83d\udc69\u200d\ud83d\udcbb \ud83d\udca1 home is where you can [learn to] build the future surrounded by like-minded creative, friendly and [intrinsically] motivated people focussed on health, fitness and making things people and the world need!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30047989,
+      "status": "candidate",
+      "text": "lodging"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30007702,
+      "status": "candidate",
+      "text": "trapping"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29975835,
+      "status": "candidate",
+      "text": "caparison"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20049253,
+      "status": "candidate",
+      "text": "dwelling"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20048857,
+      "status": "candidate",
+      "text": "room"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "housing",
+      "sense_id": "housing#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 9036,
+      "status": "candidate",
+      "text": "lodging"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 6029,
+      "status": "candidate",
+      "text": "caparison"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 3025,
+      "status": "candidate",
+      "text": "trapping"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 13,
+      "status": "candidate",
+      "text": "housings"
+    }
+  ],
+  "concept_id": "housing",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "housing",
+  "observation_id": "d8b163fd40fadb9e",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T12:33:41.350224+00:00",
+  "observed_text": "housing",
+  "source_context_snippet": "<div align=\"center\">",
+  "source_file": null,
+  "source_repo": "dwyl/home",
+  "source_repo_description": "\ud83c\udfe1 \ud83d\udc69\u200d\ud83d\udcbb \ud83d\udca1 home is where you can [learn to] build the future surrounded by like-minded creative, friendly and [intrinsically] motivated people focussed on health, fitness and making things people and the world need!"
+}

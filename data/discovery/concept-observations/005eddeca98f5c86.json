@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Github action for the `nph` code formatter"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "This action downloads and runs the [`nph`](https://github.com/arnetheduck/nph) formatter on [Nim](https://nim-lang.org) source code, [suggesting](https://github.com/reviewdog/action-suggester) changes based on `git diff` between the repository and the formatted output."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "This action downloads and runs the [`nph`](https://github.com/arnetheduck/nph) formatter on [Nim](https://nim-lang.org) source code, [suggesting](https://github.com/reviewdog/action-suggester) changes based on `git diff` between the repository and the formatted output."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "githubactions",
+      "sense_id": "githubactions#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "githubactions",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "githubactions",
+  "observation_id": "005eddeca98f5c86",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T12:33:41.350224+00:00",
+  "observed_text": "githubactions",
+  "source_context_snippet": "This action downloads and runs the [`nph`](https://github.com/arnetheduck/nph) formatter on [Nim](https://nim-lang.org) source code, [suggesting](https://github.com/reviewdog/action-suggester) changes based on `git diff` between the repository and the formatted output.",
+  "source_file": null,
+  "source_repo": "arnetheduck/nph-action",
+  "source_repo_description": "Github action for the `nph` code formatter"
+}

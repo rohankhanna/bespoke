@@ -1,0 +1,237 @@
+{
+  "components": [
+    {
+      "component": "@multiformats/mafmt",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@multiformats/multiaddr",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "iso-url",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "multiformats",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "uint8arrays",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "aegir",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "ipdxco/unified-github-workflows/.github/workflows/reusable-generated-pr.yml@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generated-pr.yml"
+    },
+    {
+      "component": "ipdxco/unified-github-workflows/.github/workflows/js-test-and-release.yml@v1.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/js-test-and-release.yml"
+    },
+    {
+      "component": "pl-strflt/.github/.github/workflows/reusable-semantic-pull-request.yml@v0.3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/semantic-pull-request.yml"
+    },
+    {
+      "component": "ipdxco/unified-github-workflows/.github/workflows/reusable-stale-issue.yml@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "ipfs-shipyard/is-ipfs",
+      "target": "@multiformats/mafmt",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "ipfs-shipyard/is-ipfs",
+      "target": "@multiformats/multiaddr",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "ipfs-shipyard/is-ipfs",
+      "target": "iso-url",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "ipfs-shipyard/is-ipfs",
+      "target": "multiformats",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "ipfs-shipyard/is-ipfs",
+      "target": "uint8arrays",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ipfs-shipyard/is-ipfs",
+      "target": "aegir",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generated-pr.yml",
+      "source_repo": "ipfs-shipyard/is-ipfs",
+      "target": "ipdxco/unified-github-workflows/.github/workflows/reusable-generated-pr.yml@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/generated-pr.yml",
+      "source_repo": "ipfs-shipyard/is-ipfs",
+      "target": "Close Generated PRs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/js-test-and-release.yml",
+      "source_repo": "ipfs-shipyard/is-ipfs",
+      "target": "ipdxco/unified-github-workflows/.github/workflows/js-test-and-release.yml@v1.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/js-test-and-release.yml",
+      "source_repo": "ipfs-shipyard/is-ipfs",
+      "target": "test & maybe release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/semantic-pull-request.yml",
+      "source_repo": "ipfs-shipyard/is-ipfs",
+      "target": "pl-strflt/.github/.github/workflows/reusable-semantic-pull-request.yml@v0.3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/semantic-pull-request.yml",
+      "source_repo": "ipfs-shipyard/is-ipfs",
+      "target": "Semantic PR",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "ipfs-shipyard/is-ipfs",
+      "target": "ipdxco/unified-github-workflows/.github/workflows/reusable-stale-issue.yml@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "ipfs-shipyard/is-ipfs",
+      "target": "Close Stale Issues",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ipfs-shipyard/is-ipfs",
+      "target": "ipfs",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T12:56:31.525179+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6846
+    },
+    {
+      "path": "package.json",
+      "size": 3872
+    },
+    {
+      "path": ".github/workflows/generated-pr.yml",
+      "size": 246
+    },
+    {
+      "path": ".github/workflows/js-test-and-release.yml",
+      "size": 738
+    },
+    {
+      "path": ".github/workflows/semantic-pull-request.yml",
+      "size": 208
+    },
+    {
+      "path": ".github/workflows/stale.yml",
+      "size": 244
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A set of utilities to help identify IPFS resources on the web",
+    "fork": false,
+    "full_name": "ipfs-shipyard/is-ipfs",
+    "html_url": "https://github.com/ipfs-shipyard/is-ipfs",
+    "language": "TypeScript",
+    "pushed_at": "2025-03-28T18:06:12Z",
+    "stargazers_count": 128,
+    "topics": [
+      "ipfs"
+    ],
+    "updated_at": "2025-10-03T22:01:34Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Close Generated PRs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/generated-pr.yml",
+      "term": "Close Generated PRs"
+    },
+    {
+      "context_snippet": "test & maybe release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/js-test-and-release.yml",
+      "term": "test & maybe release"
+    },
+    {
+      "context_snippet": "Semantic PR",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/semantic-pull-request.yml",
+      "term": "Semantic PR"
+    },
+    {
+      "context_snippet": "Close Stale Issues",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "term": "Close Stale Issues"
+    },
+    {
+      "context_snippet": "[![codecov](https://img.shields.io/codecov/c/github/ipfs-shipyard/is-ipfs.svg?style=flat-square)](https://codecov.io/gh/ipfs-shipyard/is-ipfs)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ipfs"
+    }
+  ]
+}

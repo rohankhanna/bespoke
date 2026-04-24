@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-24T12:37:34.524020+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 427
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 84
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "SWE-Gym/SWE-Bench-Fork",
+    "html_url": "https://github.com/SWE-Gym/SWE-Bench-Fork",
+    "language": "Python",
+    "pushed_at": "2025-03-05T16:17:54Z",
+    "stargazers_count": 13,
+    "topics": [],
+    "updated_at": "2026-03-09T16:08:51Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

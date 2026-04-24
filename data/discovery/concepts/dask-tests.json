@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "Dask tests"
+    "Dask tests",
+    "Dask Tests"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -19,6 +20,18 @@
       "source_repo": "cubed-dev/cubed",
       "status": "candidate-context",
       "text": "Dask tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fugue-project/fugue",
+      "status": "candidate-context",
+      "text": "A unified interface for distributed computing. Fugue executes SQL, Python, Pandas, and Polars code on Spark, Dask and Ray without any rewrites."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fugue-project/fugue",
+      "status": "candidate-context",
+      "text": "Dask Tests"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +40,12 @@
       "source_repo": "cubed-dev/cubed",
       "status": "candidate",
       "text": "Dask tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fugue-project/fugue",
+      "status": "candidate",
+      "text": "Dask Tests"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +95,17 @@
       "observed_at": "2026-04-21T11:24:10.450489+00:00",
       "source_file": ".github/workflows/dask-tests.yml",
       "source_repo": "cubed-dev/cubed"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/test_dask.yml",
+      "source_repo": "fugue-project/fugue"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "lexical_providers": [
     "datamuse"
   ],

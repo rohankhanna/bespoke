@@ -1,0 +1,914 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "Jimver/cuda-toolkit@v0.2.24",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "mozilla-actions/sccache-action@v0.0.9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "Jimver/cuda-toolkit@v0.2.24",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "Jimver/cuda-toolkit@v0.2.24",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "mozilla-actions/sccache-action@v0.0.9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@stable",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "crate-ci/typos@v1.30.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "dorny/paths-filter@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_ascend.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_ascend.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_cu13.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_cu13.yml"
+    },
+    {
+      "component": "Jimver/cuda-toolkit@v0.2.29",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_cu13.yml"
+    },
+    {
+      "component": "mozilla-actions/sccache-action@v0.0.9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_cu13.yml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_cu13.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_cu13.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml"
+    },
+    {
+      "component": "actions/configure-pages@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml"
+    },
+    {
+      "component": "actions/upload-pages-artifact@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml"
+    },
+    {
+      "component": "actions/deploy-pages@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml"
+    },
+    {
+      "component": "actions/labeler@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labeler.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-cuda13.yaml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-cuda13.yaml"
+    },
+    {
+      "component": "Jimver/cuda-toolkit@v0.2.29",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-cuda13.yaml"
+    },
+    {
+      "component": "mozilla-actions/sccache-action@v0.0.9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-cuda13.yaml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-cuda13.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-cuda13.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-cuda13.yaml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-cuda13.yaml"
+    },
+    {
+      "component": "softprops/action-gh-release@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-cuda13.yaml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@release/v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-cuda13.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-non-cuda.yaml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-non-cuda.yaml"
+    },
+    {
+      "component": "mozilla-actions/sccache-action@v0.0.9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-non-cuda.yaml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-non-cuda.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-non-cuda.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-non-cuda.yaml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-non-cuda.yaml"
+    },
+    {
+      "component": "softprops/action-gh-release@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-non-cuda.yaml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@release/v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-non-cuda.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "kvcache-ai/Mooncake",
+      "target": "modeltc/lightx2v",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "kvcache-ai/Mooncake",
+      "target": "moonshotai/checkpoint-engine",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "kvcache-ai/Mooncake",
+      "target": "jd-opensource/xllm",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "kvcache-ai/Mooncake",
+      "target": "ai-dynamo/nixl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "kvcache-ai/Mooncake",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "kvcache-ai/Mooncake",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "kvcache-ai/Mooncake",
+      "target": "Jimver/cuda-toolkit@v0.2.24",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "kvcache-ai/Mooncake",
+      "target": "mozilla-actions/sccache-action@v0.0.9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "kvcache-ai/Mooncake",
+      "target": "actions/github-script@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "kvcache-ai/Mooncake",
+      "target": "codecov/codecov-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "kvcache-ai/Mooncake",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "kvcache-ai/Mooncake",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "kvcache-ai/Mooncake",
+      "target": "dtolnay/rust-toolchain@stable",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "kvcache-ai/Mooncake",
+      "target": "docker/setup-buildx-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "kvcache-ai/Mooncake",
+      "target": "crate-ci/typos@v1.30.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "kvcache-ai/Mooncake",
+      "target": "dorny/paths-filter@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "kvcache-ai/Mooncake",
+      "target": "Build & Test (Linux)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_ascend.yml",
+      "source_repo": "kvcache-ai/Mooncake",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_ascend.yml",
+      "source_repo": "kvcache-ai/Mooncake",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci_ascend.yml",
+      "source_repo": "kvcache-ai/Mooncake",
+      "target": "CI Test on ASCEND Platform",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_cu13.yml",
+      "source_repo": "kvcache-ai/Mooncake",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_cu13.yml",
+      "source_repo": "kvcache-ai/Mooncake",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_cu13.yml",
+      "source_repo": "kvcache-ai/Mooncake",
+      "target": "Jimver/cuda-toolkit@v0.2.29",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_cu13.yml",
+      "source_repo": "kvcache-ai/Mooncake",
+      "target": "mozilla-actions/sccache-action@v0.0.9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_cu13.yml",
+      "source_repo": "kvcache-ai/Mooncake",
+      "target": "actions/github-script@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_cu13.yml",
+      "source_repo": "kvcache-ai/Mooncake",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci_cu13.yml",
+      "source_repo": "kvcache-ai/Mooncake",
+      "target": "Build Wheel (CUDA 13)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "kvcache-ai/Mooncake",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "kvcache-ai/Mooncake",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "kvcache-ai/Mooncake",
+      "target": "actions/configure-pages@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "kvcache-ai/Mooncake",
+      "target": "actions/upload-pages-artifact@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "kvcache-ai/Mooncake",
+      "target": "actions/deploy-pages@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "kvcache-ai/Mooncake",
+      "target": "Deploy documentation to GitHub Pages",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/e2e-ci.yml",
+      "source_repo": "kvcache-ai/Mooncake",
+      "target": "E2E CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/integration-test.yml",
+      "source_repo": "kvcache-ai/Mooncake",
+      "target": "Integration test (Linux)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labeler.yml",
+      "source_repo": "kvcache-ai/Mooncake",
+      "target": "actions/labeler@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/labeler.yml",
+      "source_repo": "kvcache-ai/Mooncake",
+      "target": "Auto Label PRs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-cuda13.yaml",
+      "source_repo": "kvcache-ai/Mooncake",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-cuda13.yaml",
+      "source_repo": "kvcache-ai/Mooncake",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-cuda13.yaml",
+      "source_repo": "kvcache-ai/Mooncake",
+      "target": "Jimver/cuda-toolkit@v0.2.29",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-cuda13.yaml",
+      "source_repo": "kvcache-ai/Mooncake",
+      "target": "mozilla-actions/sccache-action@v0.0.9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-cuda13.yaml",
+      "source_repo": "kvcache-ai/Mooncake",
+      "target": "actions/github-script@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-cuda13.yaml",
+      "source_repo": "kvcache-ai/Mooncake",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-cuda13.yaml",
+      "source_repo": "kvcache-ai/Mooncake",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-cuda13.yaml",
+      "source_repo": "kvcache-ai/Mooncake",
+      "target": "softprops/action-gh-release@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-cuda13.yaml",
+      "source_repo": "kvcache-ai/Mooncake",
+      "target": "pypa/gh-action-pypi-publish@release/v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-cuda13.yaml",
+      "source_repo": "kvcache-ai/Mooncake",
+      "target": "Release CUDA 13",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-non-cuda.yaml",
+      "source_repo": "kvcache-ai/Mooncake",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-non-cuda.yaml",
+      "source_repo": "kvcache-ai/Mooncake",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-non-cuda.yaml",
+      "source_repo": "kvcache-ai/Mooncake",
+      "target": "mozilla-actions/sccache-action@v0.0.9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-non-cuda.yaml",
+      "source_repo": "kvcache-ai/Mooncake",
+      "target": "actions/github-script@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-non-cuda.yaml",
+      "source_repo": "kvcache-ai/Mooncake",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-non-cuda.yaml",
+      "source_repo": "kvcache-ai/Mooncake",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-non-cuda.yaml",
+      "source_repo": "kvcache-ai/Mooncake",
+      "target": "softprops/action-gh-release@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-non-cuda.yaml",
+      "source_repo": "kvcache-ai/Mooncake",
+      "target": "pypa/gh-action-pypi-publish@release/v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-non-cuda.yaml",
+      "source_repo": "kvcache-ai/Mooncake",
+      "target": "Release Non-CUDA",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kvcache-ai/Mooncake",
+      "target": "disaggregation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kvcache-ai/Mooncake",
+      "target": "inference",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kvcache-ai/Mooncake",
+      "target": "kvcache",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kvcache-ai/Mooncake",
+      "target": "rdma",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kvcache-ai/Mooncake",
+      "target": "sglang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kvcache-ai/Mooncake",
+      "target": "vllm",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T12:35:29.694257+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 29726
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 28395
+    },
+    {
+      "path": ".github/workflows/ci_ascend.yml",
+      "size": 12861
+    },
+    {
+      "path": ".github/workflows/ci_cu13.yml",
+      "size": 3845
+    },
+    {
+      "path": ".github/workflows/deploy.yml",
+      "size": 1868
+    },
+    {
+      "path": ".github/workflows/e2e-ci.yml",
+      "size": 2709
+    },
+    {
+      "path": ".github/workflows/integration-test.yml",
+      "size": 5594
+    },
+    {
+      "path": ".github/workflows/labeler.yml",
+      "size": 423
+    },
+    {
+      "path": ".github/workflows/release-cuda13.yaml",
+      "size": 4870
+    },
+    {
+      "path": ".github/workflows/release-non-cuda.yaml",
+      "size": 3803
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Mooncake is the serving platform for Kimi, a leading LLM service provided by Moonshot AI.",
+    "fork": false,
+    "full_name": "kvcache-ai/Mooncake",
+    "html_url": "https://github.com/kvcache-ai/Mooncake",
+    "language": "C++",
+    "pushed_at": "2026-04-24T12:14:21Z",
+    "stargazers_count": 5183,
+    "topics": [
+      "disaggregation",
+      "inference",
+      "kvcache",
+      "llm",
+      "rdma",
+      "sglang",
+      "vllm"
+    ],
+    "updated_at": "2026-04-24T11:53:15Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ai-dynamo/nixl",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jd-opensource/xllm",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "modeltc/lightx2v",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "moonshotai/checkpoint-engine",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "'Build & Test (Linux)'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "term": "Build & Test (Linux)"
+    },
+    {
+      "context_snippet": "'CI Test on ASCEND Platform'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci_ascend.yml",
+      "term": "CI Test on ASCEND Platform"
+    },
+    {
+      "context_snippet": "'Build Wheel (CUDA 13)'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci_cu13.yml",
+      "term": "Build Wheel (CUDA 13)"
+    },
+    {
+      "context_snippet": "Deploy documentation to GitHub Pages",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy.yml",
+      "term": "Deploy documentation to GitHub Pages"
+    },
+    {
+      "context_snippet": "E2E CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/e2e-ci.yml",
+      "term": "E2E CI"
+    },
+    {
+      "context_snippet": "'Integration test (Linux)'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/integration-test.yml",
+      "term": "Integration test (Linux)"
+    },
+    {
+      "context_snippet": "Auto Label PRs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/labeler.yml",
+      "term": "Auto Label PRs"
+    },
+    {
+      "context_snippet": "Release CUDA 13",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-cuda13.yaml",
+      "term": "Release CUDA 13"
+    },
+    {
+      "context_snippet": "Release Non-CUDA",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-non-cuda.yaml",
+      "term": "Release Non-CUDA"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "disaggregation"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "inference"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kvcache"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rdma"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sglang"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vllm"
+    }
+  ]
+}

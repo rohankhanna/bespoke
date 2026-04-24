@@ -139,6 +139,18 @@
       "source_repo": "fontsource/fontsource",
       "status": "candidate-context",
       "text": "[![Generic badge](https://img.shields.io/badge/fontsource-passing-brightgreen)](https://github.com/fontsource/fontsource) [![Monthly NPM Downloads](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Ffontsource%2Fdownload-stat-aggregator%2Fmain%2Fdata%2\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dwyl/elixir-auth-google",
+      "status": "candidate-context",
+      "text": "\ud83d\udc64Minimalist Google OAuth Authentication for Elixir Apps. Tested, Documented & Maintained. Setup in 5 mins. \ud83d\ude80"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dwyl/elixir-auth-google",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -207,6 +219,12 @@
       "source_repo": "fontsource/fontsource",
       "status": "candidate",
       "text": "[![Generic badge](https://img.shields.io/badge/fontsource-passing-brightgreen)](https://github.com/fontsource/fontsource) [![Monthly NPM Downloads](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Ffontsource%2Fdownload-stat-aggregator%2Fmain%2Fdata%2\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dwyl/elixir-auth-google",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -316,11 +334,17 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "fontsource/fontsource"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "dwyl/elixir-auth-google"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "lexical_providers": [
     "datamuse"
   ],

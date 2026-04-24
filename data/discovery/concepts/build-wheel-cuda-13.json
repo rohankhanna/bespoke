@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Build Wheel (CUDA 13)"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kvcache-ai/Mooncake",
+      "status": "candidate-context",
+      "text": "Mooncake is the serving platform for Kimi, a leading LLM service provided by Moonshot AI."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kvcache-ai/Mooncake",
+      "status": "candidate-context",
+      "text": "'Build Wheel (CUDA 13)'"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kvcache-ai/Mooncake",
+      "status": "candidate",
+      "text": "'Build Wheel (CUDA 13)'"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11684,
+      "status": "candidate",
+      "text": "throw"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11669,
+      "status": "candidate",
+      "text": "draw"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11626,
+      "status": "candidate",
+      "text": "rear"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11612,
+      "status": "candidate",
+      "text": "bottom"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11612,
+      "status": "candidate",
+      "text": "lock"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Build Wheel (CUDA 13)",
+  "concept_id": "build-wheel-cuda-13",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/ci_cu13.yml",
+      "source_repo": "kvcache-ai/Mooncake"
+    }
+  ],
+  "first_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build Wheel (CUDA 13)",
+      "sense_id": "build-wheel-cuda-13#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -1,0 +1,108 @@
+{
+  "aliases": [
+    "presto"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "prestodb/presto",
+      "status": "candidate-context",
+      "text": "The official home of the Presto distributed SQL query engine for big data"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "prestodb/presto",
+      "status": "candidate-context",
+      "text": "[![LFX Health Score](https://insights.linuxfoundation.org/api/badge/health-score?project=presto)](https://insights.linuxfoundation.org/project/presto)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "prestodb/presto",
+      "status": "candidate",
+      "text": "[![LFX Health Score](https://insights.linuxfoundation.org/api/badge/health-score?project=presto)](https://insights.linuxfoundation.org/project/presto)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19872944,
+      "status": "candidate",
+      "text": "fast"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10047474,
+      "status": "candidate",
+      "text": "pronto"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10047472,
+      "status": "candidate",
+      "text": "pr\u00e6sently"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10047471,
+      "status": "candidate",
+      "text": "precipitant"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10047470,
+      "status": "candidate",
+      "text": "post"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 18061,
+      "status": "candidate",
+      "text": "fast"
+    }
+  ],
+  "canonical_name": "presto",
+  "concept_id": "presto",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "prestodb/presto"
+    }
+  ],
+  "first_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "presto",
+      "sense_id": "presto#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

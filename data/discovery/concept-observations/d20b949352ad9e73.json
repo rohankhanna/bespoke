@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "HTML Standard"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "This repository hosts the [HTML Standard](https://html.spec.whatwg.org/)."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "This repository hosts the [HTML Standard](https://html.spec.whatwg.org/)."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10027433,
+      "status": "candidate",
+      "text": "doer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10025679,
+      "status": "candidate",
+      "text": "proletarian"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10024720,
+      "status": "candidate",
+      "text": "prole"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10020950,
+      "status": "candidate",
+      "text": "actor"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 51526,
+      "status": "candidate",
+      "text": "accidents"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "workers",
+      "sense_id": "workers#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "workers",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "workers",
+  "observation_id": "d20b949352ad9e73",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T12:33:41.350224+00:00",
+  "observed_text": "workers",
+  "source_context_snippet": "This repository hosts the [HTML Standard](https://html.spec.whatwg.org/).",
+  "source_file": null,
+  "source_repo": "whatwg/html",
+  "source_repo_description": "HTML Standard"
+}

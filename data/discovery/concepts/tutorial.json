@@ -103,6 +103,42 @@
       "source_repo": "crux82/CLiC-it_2023_tutorial",
       "status": "candidate-context",
       "text": "This repository hosts materials from the [CLiC-IT 2023 tutorial](https://clic2023.ilc.cnr.it/tutorial/), aiming to:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "araffin/rl-tutorial-jnrr19",
+      "status": "candidate-context",
+      "text": "Stable-Baselines tutorial for Journ\u00e9es Nationales de la Recherche en Robotique 2019 "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "araffin/rl-tutorial-jnrr19",
+      "status": "candidate-context",
+      "text": "Stable-Baselines reinforcement learning tutorial for Journ\u00e9es Nationales de la Recherche en Robotique 2019."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dwyl/phoenix-todo-list-tutorial",
+      "status": "candidate-context",
+      "text": "\u2705 Complete beginners tutorial building a todo list from scratch in Phoenix 1.7 (latest)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dwyl/phoenix-todo-list-tutorial",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dwyl/flutter-todo-list-tutorial",
+      "status": "candidate-context",
+      "text": "\u2705 A detailed example/tutorial building a cross-platform Todo List App using Flutter \ud83e\udd8b"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dwyl/flutter-todo-list-tutorial",
+      "status": "candidate-context",
+      "text": "Quickly learn how to setup"
     }
   ],
   "candidate_glosses": [
@@ -153,6 +189,24 @@
       "source_repo": "crux82/CLiC-it_2023_tutorial",
       "status": "candidate",
       "text": "This repository hosts materials from the [CLiC-IT 2023 tutorial](https://clic2023.ilc.cnr.it/tutorial/), aiming to:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "araffin/rl-tutorial-jnrr19",
+      "status": "candidate",
+      "text": "Stable-Baselines reinforcement learning tutorial for Journ\u00e9es Nationales de la Recherche en Robotique 2019."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dwyl/phoenix-todo-list-tutorial",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dwyl/flutter-todo-list-tutorial",
+      "status": "candidate",
+      "text": "Quickly learn how to setup"
     }
   ],
   "candidate_related_terms": [
@@ -250,11 +304,35 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "crux82/CLiC-it_2023_tutorial"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "araffin/rl-tutorial-jnrr19"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "dwyl/phoenix-todo-list-tutorial"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "dwyl/flutter-todo-list-tutorial"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "dwyl/mvp"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,7 +1,7 @@
 {
   "component": "actions/cache@v4",
   "first_seen_at": "2026-04-17T16:51:41.136432+00:00",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -2187,6 +2187,121 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/build.yml",
       "source_repo": "libjpeg-turbo/libjpeg-turbo"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/openhands-resolver.yml",
+      "source_repo": "XuhuiZhou/OpenHands"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/codspeed.yml",
+      "source_repo": "argilla-io/distilabel"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docs-pr.yml",
+      "source_repo": "argilla-io/distilabel"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "argilla-io/distilabel"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "argilla-io/distilabel"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/maven.yml",
+      "source_repo": "codelibs/fess-crawler"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/maven.yml",
+      "source_repo": "codelibs/fess-ds-atlassian"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/maven.yml",
+      "source_repo": "codelibs/fess-ds-box"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/run-tests.yml",
+      "source_repo": "aorwall/moatless-tools"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "cloudflare/boring"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/autofix-pnpm.yml",
+      "source_repo": "TabbyML/tabby"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/autofix-rust.yml",
+      "source_repo": "TabbyML/tabby"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/bloat.yml",
+      "source_repo": "TabbyML/tabby"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "phodal/auto-dev"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "allenai/open-instruct"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "ecukes/ecukes"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "dotfiles/dotfiles.github.com"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "dwyl/elixir-auth-github"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "dwyl/elixir-auth-google"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "vladkens/badges"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cron-daily-fuzz.yml",
+      "source_repo": "rust-bitcoin/rust-bitcoind-json-rpc"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "mishoo/UglifyJS"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/bench-job.yml",
+      "source_repo": "typstyle-rs/typstyle"
     }
   ]
 }

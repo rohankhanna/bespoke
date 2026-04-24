@@ -4481,6 +4481,174 @@
       "source_repo": "libjpeg-turbo/libjpeg-turbo",
       "status": "candidate-context",
       "text": "Build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "compio-rs/compio-logo",
+      "status": "candidate-context",
+      "text": "Logo for the compio project"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "compio-rs/compio-logo",
+      "status": "candidate-context",
+      "text": "build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "phodal/auto-dev",
+      "status": "candidate-context",
+      "text": "\ud83e\uddd9\u200dAutoDev: the AI-native Multi-Agent development platform built on Kotlin Multiplatform, covering all 7 phases of SDLC."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "phodal/auto-dev",
+      "status": "candidate-context",
+      "text": "Build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ipld/explore.ipld.io",
+      "status": "candidate-context",
+      "text": "Explore the Merkle Forest from the comfort of your browser"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipld/explore.ipld.io",
+      "status": "candidate-context",
+      "text": "Build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "raspberrypi/documentation",
+      "status": "candidate-context",
+      "text": "The official documentation for Raspberry Pi computers and microcontrollers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "raspberrypi/documentation",
+      "status": "candidate-context",
+      "text": "Build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dwyl/flutter-stopwatch-tutorial",
+      "status": "candidate-context",
+      "text": "A tutorial for building a basic stopwatch from scratch using flutter. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dwyl/flutter-stopwatch-tutorial",
+      "status": "candidate-context",
+      "text": "Build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dwyl/flutter-todo-list-tutorial",
+      "status": "candidate-context",
+      "text": "\u2705 A detailed example/tutorial building a cross-platform Todo List App using Flutter \ud83e\udd8b"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dwyl/flutter-todo-list-tutorial",
+      "status": "candidate-context",
+      "text": "Build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dwyl/flutter-counter-example",
+      "status": "candidate-context",
+      "text": "A basic counter app built in Flutter following TDD best practices."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dwyl/flutter-counter-example",
+      "status": "candidate-context",
+      "text": "Build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dwyl/flutter-navigation-menu-demo",
+      "status": "candidate-context",
+      "text": "A quick demo of building a navigation menu in Flutter to illustrate the functionality in isolation."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dwyl/flutter-navigation-menu-demo",
+      "status": "candidate-context",
+      "text": "Build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dwyl/flutter-phoenix-channels-demo",
+      "status": "candidate-context",
+      "text": "A quick demo app showcasing communication between a Flutter Native App and a Phoenix Backend."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dwyl/flutter-phoenix-channels-demo",
+      "status": "candidate-context",
+      "text": "build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vladkens/badges",
+      "status": "candidate-context",
+      "text": "\ud83c\udf96\ufe0f\ud83c\udfa8 Instantly create custom badges for GitHub, docs, and more. Lightweight, self-hostable, with live integrations that keep badges always up to date. Elevate your projects in seconds!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vladkens/badges",
+      "status": "candidate-context",
+      "text": "build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Automattic/juice",
+      "status": "candidate-context",
+      "text": "Juice inlines CSS stylesheets into your HTML source."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Automattic/juice",
+      "status": "candidate-context",
+      "text": "build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "johan-v-r/LibSassBuilder",
+      "status": "candidate-context",
+      "text": "Sass builder for .NET projects"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "johan-v-r/LibSassBuilder",
+      "status": "candidate-context",
+      "text": "Build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "whatwg/html",
+      "status": "candidate-context",
+      "text": "HTML Standard"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "whatwg/html",
+      "status": "candidate-context",
+      "text": "Build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kurrent-io/es-gencert-cli",
+      "status": "candidate-context",
+      "text": "Event Store Certificate Generation CLI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kurrent-io/es-gencert-cli",
+      "status": "candidate-context",
+      "text": "Build"
     }
   ],
   "candidate_glosses": [
@@ -6767,6 +6935,90 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "libjpeg-turbo/libjpeg-turbo",
+      "status": "candidate",
+      "text": "Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "compio-rs/compio-logo",
+      "status": "candidate",
+      "text": "build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "phodal/auto-dev",
+      "status": "candidate",
+      "text": "Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipld/explore.ipld.io",
+      "status": "candidate",
+      "text": "Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "raspberrypi/documentation",
+      "status": "candidate",
+      "text": "Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dwyl/flutter-stopwatch-tutorial",
+      "status": "candidate",
+      "text": "Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dwyl/flutter-todo-list-tutorial",
+      "status": "candidate",
+      "text": "Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dwyl/flutter-counter-example",
+      "status": "candidate",
+      "text": "Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dwyl/flutter-navigation-menu-demo",
+      "status": "candidate",
+      "text": "Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dwyl/flutter-phoenix-channels-demo",
+      "status": "candidate",
+      "text": "build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vladkens/badges",
+      "status": "candidate",
+      "text": "build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Automattic/juice",
+      "status": "candidate",
+      "text": "build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "johan-v-r/LibSassBuilder",
+      "status": "candidate",
+      "text": "Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "whatwg/html",
+      "status": "candidate",
+      "text": "Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kurrent-io/es-gencert-cli",
       "status": "candidate",
       "text": "Build"
     }
@@ -9625,11 +9877,107 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": ".github/workflows/build.yml",
       "source_repo": "libjpeg-turbo/libjpeg-turbo"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "apache/datafusion-python"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/make.yaml",
+      "source_repo": "compio-rs/compio-logo"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "phodal/auto-dev"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "ipld/explore.ipld.io"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "raspberrypi/documentation"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "dwyl/flutter-stopwatch-tutorial"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "dwyl/flutter-todo-list-tutorial"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "dwyl/flutter-counter-example"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "dwyl/flutter-navigation-menu-demo"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "dwyl/flutter-phoenix-channels-demo"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "vladkens/badges"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/nodejs.yml",
+      "source_repo": "Automattic/juice"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/dotnet-core.yml",
+      "source_repo": "johan-v-r/LibSassBuilder"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "whatwg/html"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "kurrent-io/es-gencert-cli"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "kurrent-io/EventStoreDB-Client-Dotnet-Legacy"
     }
   ],
   "first_seen_at": "2026-04-18T10:38:37.562216+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Official Python SDK for the Agent2Agent (A2A) Protocol"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "ITK"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "ITK"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10014333,
+      "status": "candidate",
+      "text": "instantiation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10014332,
+      "status": "candidate",
+      "text": "iterator"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10014331,
+      "status": "candidate",
+      "text": "dibranchiata"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10014330,
+      "status": "candidate",
+      "text": "struct"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10014329,
+      "status": "candidate",
+      "text": "superclass"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "ITK",
+      "sense_id": "itk#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "itk",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "itk",
+  "observation_id": "7912a81405eae595",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-24T12:33:41.350224+00:00",
+  "observed_text": "ITK",
+  "source_context_snippet": "ITK",
+  "source_file": ".github/workflows/itk.yaml",
+  "source_repo": "a2aproject/a2a-python",
+  "source_repo_description": "Official Python SDK for the Agent2Agent (A2A) Protocol"
+}

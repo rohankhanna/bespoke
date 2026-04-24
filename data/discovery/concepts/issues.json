@@ -104,6 +104,18 @@
       "source_repo": "DefTruth/lite.ai.toolkit",
       "status": "candidate-context",
       "text": "issues"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fla-org/flash-linear-attention",
+      "status": "candidate-context",
+      "text": "\ud83d\ude80 Efficient implementations for emerging model architectures"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fla-org/flash-linear-attention",
+      "status": "candidate-context",
+      "text": "issues"
     }
   ],
   "candidate_glosses": [
@@ -152,6 +164,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "DefTruth/lite.ai.toolkit",
+      "status": "candidate",
+      "text": "issues"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fla-org/flash-linear-attention",
       "status": "candidate",
       "text": "issues"
     }
@@ -251,11 +269,17 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": ".github/workflows/issue.yml",
       "source_repo": "DefTruth/lite.ai.toolkit"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/issue.yml",
+      "source_repo": "fla-org/flash-linear-attention"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "lexical_providers": [
     "datamuse"
   ],

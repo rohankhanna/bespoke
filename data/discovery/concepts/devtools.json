@@ -187,6 +187,18 @@
       "source_repo": "microsoft/rnx-kit",
       "status": "candidate-context",
       "text": "[![Open in Visual Studio Code](https://img.shields.io/static/v1?logo=visualstudiocode&label=&message=Open%20in%20Visual%20Studio%20Code&color=007acc&labelColor=444444&logoColor=007acc)](https://vscode.dev/github/microsoft/rnx-kit)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "go-rod/rod",
+      "status": "candidate-context",
+      "text": "A Chrome DevTools Protocol driver for web automation and scraping."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "go-rod/rod",
+      "status": "candidate-context",
+      "text": "[![Go Reference](https://pkg.go.dev/badge/github.com/go-rod/rod.svg)](https://pkg.go.dev/github.com/go-rod/rod)"
     }
   ],
   "candidate_glosses": [
@@ -267,6 +279,12 @@
       "source_repo": "microsoft/rnx-kit",
       "status": "candidate",
       "text": "[![Open in Visual Studio Code](https://img.shields.io/static/v1?logo=visualstudiocode&label=&message=Open%20in%20Visual%20Studio%20Code&color=007acc&labelColor=444444&logoColor=007acc)](https://vscode.dev/github/microsoft/rnx-kit)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "go-rod/rod",
+      "status": "candidate",
+      "text": "[![Go Reference](https://pkg.go.dev/badge/github.com/go-rod/rod.svg)](https://pkg.go.dev/github.com/go-rod/rod)"
     }
   ],
   "candidate_related_terms": [],
@@ -364,11 +382,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "microsoft/rnx-kit"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "go-rod/rod"
     }
   ],
   "first_seen_at": "2026-04-18T13:29:00.435097+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "lexical_providers": [
     "datamuse"
   ],

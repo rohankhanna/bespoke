@@ -1,0 +1,12 @@
+{
+  "component": "seanmiddleditch/gha-setup-ninja@3b1f8f94a2f8254bd26914c4ab9474d4f0015f67",
+  "first_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-and-deploy.yml",
+      "source_repo": "raspberrypi/documentation"
+    }
+  ]
+}

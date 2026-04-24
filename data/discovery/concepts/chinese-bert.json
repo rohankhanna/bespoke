@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "chinese-bert"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ymcui/Chinese-BERT-wwm",
+      "status": "candidate-context",
+      "text": "Pre-Training with Whole Word Masking for Chinese BERT\uff08\u4e2d\u6587BERT-wwm\u7cfb\u5217\u6a21\u578b\uff09"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ymcui/Chinese-BERT-wwm",
+      "status": "candidate-context",
+      "text": "[**\u4e2d\u6587\u8bf4\u660e**](https://github.com/ymcui/Chinese-BERT-wwm/) | [**English**](https://github.com/ymcui/Chinese-BERT-wwm/blob/master/README_EN.md)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ymcui/Chinese-BERT-wwm",
+      "status": "candidate",
+      "text": "[**\u4e2d\u6587\u8bf4\u660e**](https://github.com/ymcui/Chinese-BERT-wwm/) | [**English**](https://github.com/ymcui/Chinese-BERT-wwm/blob/master/README_EN.md)"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "chinese-bert",
+  "concept_id": "chinese-bert",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "ymcui/Chinese-BERT-wwm"
+    }
+  ],
+  "first_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "chinese-bert",
+      "sense_id": "chinese-bert#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

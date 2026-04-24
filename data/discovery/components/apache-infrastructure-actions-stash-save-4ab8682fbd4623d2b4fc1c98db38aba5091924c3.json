@@ -1,0 +1,12 @@
+{
+  "component": "apache/infrastructure-actions/stash/save@4ab8682fbd4623d2b4fc1c98db38aba5091924c3",
+  "first_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/arrow-flight-tests.yml",
+      "source_repo": "prestodb/presto"
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "TheRock Test Packages single-node"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ROCm/ROCgdb",
+      "status": "candidate-context",
+      "text": "This is ROCgdb, the ROCm source-level debugger for Linux, based on GDB, the GNU source-level debugger."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ROCm/ROCgdb",
+      "status": "candidate-context",
+      "text": "TheRock Test Packages single-node"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ROCm/ROCgdb",
+      "status": "candidate",
+      "text": "TheRock Test Packages single-node"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12663,
+      "status": "candidate",
+      "text": "records"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11784,
+      "status": "candidate",
+      "text": "kits"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11784,
+      "status": "candidate",
+      "text": "parcel"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11784,
+      "status": "candidate",
+      "text": "software"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11542,
+      "status": "candidate",
+      "text": "mail"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "TheRock Test Packages single-node",
+  "concept_id": "therock-test-packages-single-node",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/therock-test-packages.yml",
+      "source_repo": "ROCm/ROCgdb"
+    }
+  ],
+  "first_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "TheRock Test Packages single-node",
+      "sense_id": "therock-test-packages-single-node#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

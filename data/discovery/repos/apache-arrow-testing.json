@@ -1,0 +1,44 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/arrow-testing",
+      "target": "apache-arrow",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T12:42:49.621493+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 0
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Auxiliary testing files for Apache Arrow",
+    "fork": false,
+    "full_name": "apache/arrow-testing",
+    "html_url": "https://github.com/apache/arrow-testing",
+    "language": "Shell",
+    "pushed_at": "2026-04-20T12:47:58Z",
+    "stargazers_count": 18,
+    "topics": [
+      "apache-arrow"
+    ],
+    "updated_at": "2026-04-20T12:48:02Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Auxiliary testing files for Apache Arrow",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "apache-arrow"
+    }
+  ]
+}

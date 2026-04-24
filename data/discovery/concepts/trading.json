@@ -19,6 +19,18 @@
       "source_repo": "piotrostr/listen",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "achannarasappa/ticker",
+      "status": "candidate-context",
+      "text": "Track stocks, crypto, and derivatives prices and positions in real time from your terminal"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "achannarasappa/ticker",
+      "status": "candidate-context",
+      "text": "<p>"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "piotrostr/listen",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "achannarasappa/ticker",
+      "status": "candidate",
+      "text": "<p>"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "piotrostr/listen"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "achannarasappa/ticker"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "lexical_providers": [
     "datamuse"
   ],

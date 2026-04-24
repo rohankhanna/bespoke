@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "The DirectX Tool Kit (aka DirectXTK12) is a collection of helper classes for writing DirectX 12 code in C++"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "![DirectX Logo](https://raw.githubusercontent.com/wiki/Microsoft/DirectXTK12/X_jpg.jpg)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "![DirectX Logo](https://raw.githubusercontent.com/wiki/Microsoft/DirectXTK12/X_jpg.jpg)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "directxtk",
+      "sense_id": "directxtk#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "directxtk",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "directxtk",
+  "observation_id": "e13e54773fd8e975",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T12:33:41.350224+00:00",
+  "observed_text": "directxtk",
+  "source_context_snippet": "![DirectX Logo](https://raw.githubusercontent.com/wiki/Microsoft/DirectXTK12/X_jpg.jpg)",
+  "source_file": null,
+  "source_repo": "microsoft/DirectXTK12",
+  "source_repo_description": "The DirectX Tool Kit (aka DirectXTK12) is a collection of helper classes for writing DirectX 12 code in C++"
+}

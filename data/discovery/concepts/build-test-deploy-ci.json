@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Build Test Deploy CI"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "enola-dev/enola",
+      "status": "candidate-context",
+      "text": "Enola \ud83d\udd75\ud83c\udffe\u200d\u2640\ufe0f Holmes was an SRE."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "enola-dev/enola",
+      "status": "candidate-context",
+      "text": "Build Test Deploy CI"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "enola-dev/enola",
+      "status": "candidate",
+      "text": "Build Test Deploy CI"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23280,
+      "status": "candidate",
+      "text": "use"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23266,
+      "status": "candidate",
+      "text": "put"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23158,
+      "status": "candidate",
+      "text": "set"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21872,
+      "status": "candidate",
+      "text": "pull"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21814,
+      "status": "candidate",
+      "text": "pulling"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Build Test Deploy CI",
+  "concept_id": "build-test-deploy-ci",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "enola-dev/enola"
+    }
+  ],
+  "first_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build Test Deploy CI",
+      "sense_id": "build-test-deploy-ci#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

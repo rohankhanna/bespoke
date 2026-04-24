@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Gymnasium environment for the game 2048"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![CI](https://github.com/Quentin18/gymnasium-2048/actions/workflows/build.yml/badge.svg)](https://github.com/Quentin18/gymnasium-2048/actions/workflows/build.yml)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/Quentin18/gymnasium-2048/actions/workflows/build.yml/badge.svg)](https://github.com/Quentin18/gymnasium-2048/actions/workflows/build.yml)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "2048-ai",
+      "sense_id": "2048-ai#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "2048-ai",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "2048-ai",
+  "observation_id": "3a69d5c503047a2e",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T12:33:41.350224+00:00",
+  "observed_text": "2048-ai",
+  "source_context_snippet": "[![CI](https://github.com/Quentin18/gymnasium-2048/actions/workflows/build.yml/badge.svg)](https://github.com/Quentin18/gymnasium-2048/actions/workflows/build.yml)",
+  "source_file": null,
+  "source_repo": "Quentin18/gymnasium-2048",
+  "source_repo_description": "Gymnasium environment for the game 2048"
+}

@@ -506,6 +506,18 @@
       "source_repo": "kube-rbac-proxy/kube-rbac-proxy",
       "status": "candidate-context",
       "text": "Create release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "HabanaAI/vllm-fork",
+      "status": "candidate-context",
+      "text": "A high-throughput and memory-efficient inference and serving engine for LLMs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HabanaAI/vllm-fork",
+      "status": "candidate-context",
+      "text": "Create Release"
     }
   ],
   "candidate_glosses": [
@@ -760,6 +772,12 @@
       "source_repo": "kube-rbac-proxy/kube-rbac-proxy",
       "status": "candidate",
       "text": "Create release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HabanaAI/vllm-fork",
+      "status": "candidate",
+      "text": "Create Release"
     }
   ],
   "candidate_related_terms": [
@@ -1115,11 +1133,23 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": ".github/workflows/release.yml",
       "source_repo": "kube-rbac-proxy/kube-rbac-proxy"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/create_release.yml",
+      "source_repo": "triton-lang/triton"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "HabanaAI/vllm-fork"
     }
   ],
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "lexical_providers": [
     "datamuse"
   ],

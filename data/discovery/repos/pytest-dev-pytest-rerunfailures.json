@@ -1,0 +1,203 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "pytest-dev/pytest-rerunfailures",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "pytest-dev/pytest-rerunfailures",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "pytest-dev/pytest-rerunfailures",
+      "target": "actions/cache@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "pytest-dev/pytest-rerunfailures",
+      "target": "Docs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "pytest-dev/pytest-rerunfailures",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "pytest-dev/pytest-rerunfailures",
+      "target": "actions/cache@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "pytest-dev/pytest-rerunfailures",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "pytest-dev/pytest-rerunfailures",
+      "target": "Lint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "pytest-dev/pytest-rerunfailures",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "pytest-dev/pytest-rerunfailures",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "pytest-dev/pytest-rerunfailures",
+      "target": "actions/cache@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "pytest-dev/pytest-rerunfailures",
+      "target": "Test",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T12:37:51.553206+00:00",
+  "fetched_files": [
+    {
+      "path": "README.rst",
+      "size": 8674
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 2157
+    },
+    {
+      "path": ".github/workflows/docs.yml",
+      "size": 944
+    },
+    {
+      "path": ".github/workflows/lint.yml",
+      "size": 920
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 2624
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "a pytest plugin that re-runs failed tests up to -n times to eliminate flakey failures",
+    "fork": false,
+    "full_name": "pytest-dev/pytest-rerunfailures",
+    "html_url": "https://github.com/pytest-dev/pytest-rerunfailures",
+    "language": "Python",
+    "pushed_at": "2026-04-14T07:13:04Z",
+    "stargazers_count": 458,
+    "topics": [],
+    "updated_at": "2026-04-14T07:13:13Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Docs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs.yml",
+      "term": "Docs"
+    },
+    {
+      "context_snippet": "Lint",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "term": "Lint"
+    },
+    {
+      "context_snippet": "Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "Test"
+    }
+  ]
+}

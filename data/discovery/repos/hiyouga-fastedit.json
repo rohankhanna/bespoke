@@ -1,0 +1,214 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hiyouga/FastEdit",
+      "target": "facebookresearch/llama",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hiyouga/FastEdit",
+      "target": "kmeng01/memit",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hiyouga/FastEdit",
+      "target": "kmeng01/rome",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hiyouga/FastEdit",
+      "target": "zjunlp/easyedit",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hiyouga/FastEdit",
+      "target": "bloom",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hiyouga/FastEdit",
+      "target": "chatbots",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hiyouga/FastEdit",
+      "target": "chatgpt",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hiyouga/FastEdit",
+      "target": "falcon",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hiyouga/FastEdit",
+      "target": "large-language-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hiyouga/FastEdit",
+      "target": "llama",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hiyouga/FastEdit",
+      "target": "llms",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hiyouga/FastEdit",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hiyouga/FastEdit",
+      "target": "transformers",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T12:34:37.588502+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5104
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 87
+    },
+    {
+      "path": "requirements.txt",
+      "size": 90
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "\ud83e\ude79Editing large language models within 10 seconds\u26a1",
+    "fork": false,
+    "full_name": "hiyouga/FastEdit",
+    "html_url": "https://github.com/hiyouga/FastEdit",
+    "language": "Python",
+    "pushed_at": "2023-08-13T03:52:25Z",
+    "stargazers_count": 1363,
+    "topics": [
+      "bloom",
+      "chatbots",
+      "chatgpt",
+      "falcon",
+      "gpt",
+      "large-language-models",
+      "llama",
+      "llms",
+      "pytorch",
+      "transformers"
+    ],
+    "updated_at": "2026-04-22T03:05:41Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "facebookresearch/llama",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kmeng01/memit",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kmeng01/rome",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "zjunlp/easyedit",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "*Editing large language models within 10 seconds*",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bloom"
+    },
+    {
+      "context_snippet": "*Editing large language models within 10 seconds*",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chatbots"
+    },
+    {
+      "context_snippet": "*Editing large language models within 10 seconds*",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chatgpt"
+    },
+    {
+      "context_snippet": "*Editing large language models within 10 seconds*",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "falcon"
+    },
+    {
+      "context_snippet": "*Editing large language models within 10 seconds*",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "large-language-models"
+    },
+    {
+      "context_snippet": "*Editing large language models within 10 seconds*",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "llama"
+    },
+    {
+      "context_snippet": "*Editing large language models within 10 seconds*",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "llms"
+    },
+    {
+      "context_snippet": "*Editing large language models within 10 seconds*",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "*Editing large language models within 10 seconds*",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "transformers"
+    }
+  ]
+}

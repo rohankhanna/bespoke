@@ -737,6 +737,54 @@
       "source_repo": "curiousdannii/remglk-rs",
       "status": "candidate-context",
       "text": "build-and-test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "zai-org/z-ai-sdk-java",
+      "status": "candidate-context",
+      "text": "Java SDK for Z.ai Open Platform"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zai-org/z-ai-sdk-java",
+      "status": "candidate-context",
+      "text": "Build and Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "a2aproject/a2a-java",
+      "status": "candidate-context",
+      "text": "Official Java SDK for the Agent2Agent (A2A) Protocol"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "a2aproject/a2a-java",
+      "status": "candidate-context",
+      "text": "Build and Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "zen-eth/multiformats-zig",
+      "status": "candidate-context",
+      "text": "Zig implementation of the multiformats https://github.com/multiformats/multiformats."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zen-eth/multiformats-zig",
+      "status": "candidate-context",
+      "text": "Build and Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ARM-software/astc-encoder",
+      "status": "candidate-context",
+      "text": "The Arm ASTC Encoder, a compressor for the Adaptive Scalable Texture Compression data format."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ARM-software/astc-encoder",
+      "status": "candidate-context",
+      "text": "Build and test"
     }
   ],
   "candidate_glosses": [
@@ -1105,6 +1153,30 @@
       "source_repo": "curiousdannii/remglk-rs",
       "status": "candidate",
       "text": "build-and-test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zai-org/z-ai-sdk-java",
+      "status": "candidate",
+      "text": "Build and Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "a2aproject/a2a-java",
+      "status": "candidate",
+      "text": "Build and Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zen-eth/multiformats-zig",
+      "status": "candidate",
+      "text": "Build and Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ARM-software/astc-encoder",
+      "status": "candidate",
+      "text": "Build and test"
     }
   ],
   "candidate_related_terms": [
@@ -1526,11 +1598,35 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": ".github/workflows/build-and-test.yml",
       "source_repo": "curiousdannii/remglk-rs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "zai-org/z-ai-sdk-java"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/build-and-test.yml",
+      "source_repo": "a2aproject/a2a-java"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/check.yml",
+      "source_repo": "zen-eth/multiformats-zig"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/build_test.yaml",
+      "source_repo": "ARM-software/astc-encoder"
     }
   ],
   "first_seen_at": "2026-04-18T13:29:00.435097+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "lexical_providers": [
     "datamuse"
   ],

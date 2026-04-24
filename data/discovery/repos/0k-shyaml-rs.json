@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-24T12:54:27.548559+00:00",
+  "fetched_files": [
+    {
+      "path": "Cargo.toml",
+      "size": 1120
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "0k/shyaml-rs",
+    "html_url": "https://github.com/0k/shyaml-rs",
+    "language": "Rust",
+    "pushed_at": "2026-02-04T09:58:09Z",
+    "stargazers_count": 2,
+    "topics": [],
+    "updated_at": "2026-03-25T03:19:50Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

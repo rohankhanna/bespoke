@@ -1,7 +1,7 @@
 {
   "component": "github/codeql-action/analyze@v2",
   "first_seen_at": "2026-04-18T18:48:44.679047+00:00",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -282,6 +282,21 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/analyze.yml",
       "source_repo": "arangoml/dgl-adapter"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "NVIDIA-NeMo/Run"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "onnx/models"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "johan-v-r/LibSassBuilder"
     }
   ]
 }

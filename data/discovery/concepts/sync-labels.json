@@ -44,6 +44,18 @@
       "source_repo": "prettier/prettier-vscode",
       "status": "candidate-context",
       "text": "Sync Labels"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "archiverjs/node-archiver",
+      "status": "candidate-context",
+      "text": "a streaming interface for archive generation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "archiverjs/node-archiver",
+      "status": "candidate-context",
+      "text": "Sync labels"
     }
   ],
   "candidate_glosses": [
@@ -64,6 +76,12 @@
       "source_repo": "prettier/prettier-vscode",
       "status": "candidate",
       "text": "Sync Labels"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "archiverjs/node-archiver",
+      "status": "candidate",
+      "text": "Sync labels"
     }
   ],
   "candidate_related_terms": [
@@ -125,11 +143,17 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": ".github/workflows/labels-sync.yaml",
       "source_repo": "prettier/prettier-vscode"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/labels.yaml",
+      "source_repo": "archiverjs/node-archiver"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "lexical_providers": [
     "datamuse"
   ],

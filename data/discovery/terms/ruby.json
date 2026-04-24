@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T13:15:13.756138+00:00",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -241,6 +241,11 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/ruby.yml",
       "source_repo": "saka1/simdjson_ruby"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/ruby.yml",
+      "source_repo": "fffaraz/awesome-cpp"
     }
   ],
   "term": "ruby"

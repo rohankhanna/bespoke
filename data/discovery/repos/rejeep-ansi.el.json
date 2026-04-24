@@ -1,0 +1,91 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "purcell/setup-emacs@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "conao3/setup-cask@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "coverallsapp/github-action@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "rejeep/ansi.el",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "rejeep/ansi.el",
+      "target": "purcell/setup-emacs@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "rejeep/ansi.el",
+      "target": "conao3/setup-cask@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "rejeep/ansi.el",
+      "target": "coverallsapp/github-action@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "rejeep/ansi.el",
+      "target": "Main workflow",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T12:54:51.580056+00:00",
+  "fetched_files": [
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 1076
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Emacs library to convert strings into ansi",
+    "fork": false,
+    "full_name": "rejeep/ansi.el",
+    "html_url": "https://github.com/rejeep/ansi.el",
+    "language": "Emacs Lisp",
+    "pushed_at": "2025-11-19T01:08:14Z",
+    "stargazers_count": 30,
+    "topics": [],
+    "updated_at": "2025-11-19T01:08:18Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Main workflow",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "Main workflow"
+    }
+  ]
+}

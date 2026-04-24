@@ -1,0 +1,155 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "seasonjs/rwkv",
+      "target": "saharnooby/rwkv.cpp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "seasonjs/rwkv",
+      "target": "ebitengine/purego",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "seasonjs/rwkv",
+      "target": "donomii/go-rwkv.cpp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "seasonjs/rwkv",
+      "target": "sugarme/tokenizer",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "seasonjs/rwkv",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "seasonjs/rwkv",
+      "target": "ggml",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "seasonjs/rwkv",
+      "target": "golang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "seasonjs/rwkv",
+      "target": "language-model",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "seasonjs/rwkv",
+      "target": "rwkv",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T12:38:53.008712+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4793
+    },
+    {
+      "path": "go.mod",
+      "size": 509
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "pure go for rwkv",
+    "fork": false,
+    "full_name": "seasonjs/rwkv",
+    "html_url": "https://github.com/seasonjs/rwkv",
+    "language": "Go",
+    "pushed_at": "2023-12-31T05:15:03Z",
+    "stargazers_count": 18,
+    "topics": [
+      "deep-learning",
+      "ggml",
+      "go",
+      "golang",
+      "language-model",
+      "llm",
+      "rwkv"
+    ],
+    "updated_at": "2026-04-07T06:28:56Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "donomii/go-rwkv.cpp",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ebitengine/purego",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "saharnooby/rwkv.cpp",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sugarme/tokenizer",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "pure go for rwkv and support cross-platform.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "pure go for rwkv and support cross-platform.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ggml"
+    },
+    {
+      "context_snippet": "pure go for rwkv and support cross-platform.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "golang"
+    },
+    {
+      "context_snippet": "pure go for rwkv and support cross-platform.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "language-model"
+    },
+    {
+      "context_snippet": "pure go for rwkv and support cross-platform.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rwkv"
+    }
+  ]
+}

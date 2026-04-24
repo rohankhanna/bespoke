@@ -4,28 +4,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "ipfs/ipfs-desktop",
-      "target": "ipfs/ipfs-companion",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "ipfs/ipfs-desktop",
-      "target": "ipfs/ipld-explorer-components",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "ipfs/ipfs-desktop",
-      "target": "appimage/appimagekit",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "ipfs/ipfs-desktop",
-      "target": "ipfs/fs-repo-migrations",
+      "target": "ipfs/js-ipfsd-ctl",
       "target_type": "repository"
     },
     {
@@ -533,6 +512,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-04-23T18:30:35.670459+00:00",
+  "generated_at": "2026-04-24T12:33:41.350224+00:00",
   "source_repo": "ipfs/ipfs-desktop"
 }

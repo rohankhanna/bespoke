@@ -1,0 +1,27 @@
+{
+  "edges": [
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "tc39/proposal-private-methods",
+      "target": "ecmarkup",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "tc39/proposal-private-methods",
+      "target": "mkdirp",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "tc39/proposal-private-methods",
+      "target": "@alrra/travis-scripts",
+      "target_type": "component"
+    }
+  ],
+  "generated_at": "2026-04-24T12:33:41.350224+00:00",
+  "source_repo": "tc39/proposal-private-methods"
+}

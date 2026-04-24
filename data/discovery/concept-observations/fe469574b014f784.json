@@ -48,7 +48,7 @@
   "normalized_form": "rustfmt",
   "observation_id": "fe469574b014f784",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-24T06:47:13.899148+00:00",
+  "observed_at": "2026-04-24T12:33:41.350224+00:00",
   "observed_text": "rustfmt",
   "source_context_snippet": "rustfmt",
   "source_file": ".github/workflows/rustfmt.yml",

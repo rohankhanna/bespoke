@@ -43,6 +43,18 @@
       "source_repo": "0x676e67/wreq",
       "status": "candidate-context",
       "text": "[![CI](https://github.com/0x676e67/wreq/actions/workflows/ci.yml/badge.svg)](https://github.com/0x676e67/wreq/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "codelibs/fess-crawler",
+      "status": "candidate-context",
+      "text": "Web/FileSystem Crawler Library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "codelibs/fess-crawler",
+      "status": "candidate-context",
+      "text": "[![Java CI with Maven](https://github.com/codelibs/fess-crawler/actions/workflows/maven.yml/badge.svg)](https://github.com/codelibs/fess-crawler/actions/workflows/maven.yml)"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "0x676e67/wreq",
       "status": "candidate",
       "text": "[![CI](https://github.com/0x676e67/wreq/actions/workflows/ci.yml/badge.svg)](https://github.com/0x676e67/wreq/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "codelibs/fess-crawler",
+      "status": "candidate",
+      "text": "[![Java CI with Maven](https://github.com/codelibs/fess-crawler/actions/workflows/maven.yml/badge.svg)](https://github.com/codelibs/fess-crawler/actions/workflows/maven.yml)"
     }
   ],
   "candidate_related_terms": [
@@ -152,11 +170,17 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "0x676e67/wreq"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "codelibs/fess-crawler"
     }
   ],
   "first_seen_at": "2026-04-18T11:41:43.530265+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "lexical_providers": [
     "datamuse"
   ],

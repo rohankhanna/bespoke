@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A Chrome DevTools Protocol driver for web automation and scraping."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![Go Reference](https://pkg.go.dev/badge/github.com/go-rod/rod.svg)](https://pkg.go.dev/github.com/go-rod/rod)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![Go Reference](https://pkg.go.dev/badge/github.com/go-rod/rod.svg)](https://pkg.go.dev/github.com/go-rod/rod)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40013622,
+      "status": "candidate",
+      "text": "creep"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40013319,
+      "status": "candidate",
+      "text": "creeping"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39996317,
+      "status": "candidate",
+      "text": "slow"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39982572,
+      "status": "candidate",
+      "text": "moving"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39924423,
+      "status": "candidate",
+      "text": "bumper-to-bumper"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "crawling",
+      "sense_id": "crawling#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 31068,
+      "status": "candidate",
+      "text": "creep"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 17042,
+      "status": "candidate",
+      "text": "moving"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 14045,
+      "status": "candidate",
+      "text": "slow"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 8042,
+      "status": "candidate",
+      "text": "crawl"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 4034,
+      "status": "candidate",
+      "text": "creeping"
+    }
+  ],
+  "concept_id": "crawling",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "crawling",
+  "observation_id": "9d246d5516f85f35",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T12:33:41.350224+00:00",
+  "observed_text": "crawling",
+  "source_context_snippet": "[![Go Reference](https://pkg.go.dev/badge/github.com/go-rod/rod.svg)](https://pkg.go.dev/github.com/go-rod/rod)",
+  "source_file": null,
+  "source_repo": "go-rod/rod",
+  "source_repo_description": "A Chrome DevTools Protocol driver for web automation and scraping."
+}

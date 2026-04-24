@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Release: Framework CLI"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "serverless/serverless",
+      "status": "candidate-context",
+      "text": "\u26a1 Serverless Framework \u2013 Effortlessly build apps that auto-scale, incur zero costs when idle, and require minimal maintenance using AWS Lambda and other managed cloud services."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "serverless/serverless",
+      "status": "candidate-context",
+      "text": "'Release: Framework CLI'"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "serverless/serverless",
+      "status": "candidate",
+      "text": "'Release: Framework CLI'"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11304,
+      "status": "candidate",
+      "text": "ambient"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11304,
+      "status": "candidate",
+      "text": "atmosphere"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11304,
+      "status": "candidate",
+      "text": "climate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11304,
+      "status": "candidate",
+      "text": "clime"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11304,
+      "status": "candidate",
+      "text": "clique"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Release: Framework CLI",
+  "concept_id": "release-framework-cli",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/release-framework.yml",
+      "source_repo": "serverless/serverless"
+    }
+  ],
+  "first_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Release: Framework CLI",
+      "sense_id": "release-framework-cli#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

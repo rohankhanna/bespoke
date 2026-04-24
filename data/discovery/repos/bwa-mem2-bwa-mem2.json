@@ -1,0 +1,72 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bwa-mem2/bwa-mem2",
+      "target": "bioinformatics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bwa-mem2/bwa-mem2",
+      "target": "genomics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bwa-mem2/bwa-mem2",
+      "target": "sequence-alignment",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T12:43:22.500830+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11698
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "The next version of bwa-mem ",
+    "fork": false,
+    "full_name": "bwa-mem2/bwa-mem2",
+    "html_url": "https://github.com/bwa-mem2/bwa-mem2",
+    "language": "C++",
+    "pushed_at": "2025-10-15T03:58:27Z",
+    "stargazers_count": 829,
+    "topics": [
+      "bioinformatics",
+      "genomics",
+      "sequence-alignment"
+    ],
+    "updated_at": "2026-04-22T10:00:03Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "[![GitHub Downloads](https://img.shields.io/github/downloads/bwa-mem2/bwa-mem2/total?label=GitHub%20Downloads)](https://github.com/bwa-mem2/bwa-mem2/releases)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bioinformatics"
+    },
+    {
+      "context_snippet": "[![GitHub Downloads](https://img.shields.io/github/downloads/bwa-mem2/bwa-mem2/total?label=GitHub%20Downloads)](https://github.com/bwa-mem2/bwa-mem2/releases)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "genomics"
+    },
+    {
+      "context_snippet": "[![GitHub Downloads](https://img.shields.io/github/downloads/bwa-mem2/bwa-mem2/total?label=GitHub%20Downloads)](https://github.com/bwa-mem2/bwa-mem2/releases)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sequence-alignment"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "sass/libsass-net",
+      "target": "taritsyn/dartsasshost",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "sass/libsass-net",
+      "target": "darrenkopp/libsass-net",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-24T13:04:39.723333+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1676
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "A lightweight wrapper around libsass",
+    "fork": false,
+    "full_name": "sass/libsass-net",
+    "html_url": "https://github.com/sass/libsass-net",
+    "language": "C#",
+    "pushed_at": "2025-10-24T23:07:52Z",
+    "stargazers_count": 95,
+    "topics": [],
+    "updated_at": "2025-10-24T23:08:15Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "darrenkopp/libsass-net",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "taritsyn/dartsasshost",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -67,6 +67,30 @@
       "source_repo": "jgierer12/awesome-babel-macros",
       "status": "candidate-context",
       "text": "A collection of awesome babel macros and related resources"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fffaraz/awesome-cpp",
+      "status": "candidate-context",
+      "text": "A curated list of awesome C++ (or C) frameworks, libraries, resources, and shiny things. Inspired by awesome-... stuff."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fffaraz/awesome-cpp",
+      "status": "candidate-context",
+      "text": "A curated list of awesome C++ (or C) frameworks, libraries, resources, and shiny things. Inspired by awesome-... stuff."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "agarrharr/awesome-cli-apps",
+      "status": "candidate-context",
+      "text": "\ud83d\udda5 \ud83d\udcca \ud83d\udd79 \ud83d\udee0 A curated list of command line apps"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "agarrharr/awesome-cli-apps",
+      "status": "candidate-context",
+      "text": "\ud83d\udda5 \ud83d\udcca \ud83d\udd79 \ud83d\udee0 A curated list of command line apps"
     }
   ],
   "candidate_glosses": [
@@ -99,6 +123,18 @@
       "source_repo": "jgierer12/awesome-babel-macros",
       "status": "candidate",
       "text": "A collection of awesome babel macros and related resources"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fffaraz/awesome-cpp",
+      "status": "candidate",
+      "text": "A curated list of awesome C++ (or C) frameworks, libraries, resources, and shiny things. Inspired by awesome-... stuff."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "agarrharr/awesome-cli-apps",
+      "status": "candidate",
+      "text": "\ud83d\udda5 \ud83d\udcca \ud83d\udd79 \ud83d\udee0 A curated list of command line apps"
     }
   ],
   "candidate_related_terms": [
@@ -208,11 +244,23 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "jgierer12/awesome-babel-macros"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "fffaraz/awesome-cpp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "agarrharr/awesome-cli-apps"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "lexical_providers": [
     "datamuse"
   ],

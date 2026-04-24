@@ -1,0 +1,176 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-package.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-package.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-package.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-package.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-package.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Denys88/rl_games",
+      "target": "nvidia-omniverse/isaacgymenvs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Denys88/rl_games",
+      "target": "sail-sg/envpool",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Denys88/rl_games",
+      "target": "inspirai/timechamber",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Denys88/rl_games",
+      "target": "nvlabs/cule",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-package.yml",
+      "source_repo": "Denys88/rl_games",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-package.yml",
+      "source_repo": "Denys88/rl_games",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-package.yml",
+      "source_repo": "Denys88/rl_games",
+      "target": "codecov/codecov-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Denys88/rl_games",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Denys88/rl_games",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Denys88/rl_games",
+      "target": "reinforcement-learning",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T12:37:01.227134+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 38086
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 933
+    },
+    {
+      "path": ".github/workflows/python-package.yml",
+      "size": 1593
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "RL implementations",
+    "fork": false,
+    "full_name": "Denys88/rl_games",
+    "html_url": "https://github.com/Denys88/rl_games",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2026-04-17T05:58:32Z",
+    "stargazers_count": 1331,
+    "topics": [
+      "deep-learning",
+      "pytorch",
+      "reinforcement-learning"
+    ],
+    "updated_at": "2026-04-23T08:46:18Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "inspirai/timechamber",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nvidia-omniverse/isaacgymenvs",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nvlabs/cule",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sail-sg/envpool",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "**Note:** The next release will be 2.0.0 (unreleased). It migrates fully from `gym` to `gymnasium`. EnvPool support has been restored with the new envpool 1.1.1 (Python 3.11\u20133.14, NumPy 2.x, MuJoCo 3.x compatible).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "**Note:** The next release will be 2.0.0 (unreleased). It migrates fully from `gym` to `gymnasium`. EnvPool support has been restored with the new envpool 1.1.1 (Python 3.11\u20133.14, NumPy 2.x, MuJoCo 3.x compatible).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "**Note:** The next release will be 2.0.0 (unreleased). It migrates fully from `gym` to `gymnasium`. EnvPool support has been restored with the new envpool 1.1.1 (Python 3.11\u20133.14, NumPy 2.x, MuJoCo 3.x compatible).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "reinforcement-learning"
+    }
+  ]
+}

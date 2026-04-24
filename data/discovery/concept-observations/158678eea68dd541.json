@@ -1,0 +1,101 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Golang SDK for A2A Protocol"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29910687,
+      "status": "candidate",
+      "text": "communications protocol"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29910686,
+      "status": "candidate",
+      "text": "agreement"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29906227,
+      "status": "candidate",
+      "text": "convention"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29902481,
+      "status": "candidate",
+      "text": "register"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29896209,
+      "status": "candidate",
+      "text": "procedure"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "protocol",
+      "sense_id": "protocol#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1011,
+      "status": "candidate",
+      "text": "communications protocol"
+    }
+  ],
+  "concept_id": "protocol",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "protocol",
+  "observation_id": "158678eea68dd541",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T12:33:41.350224+00:00",
+  "observed_text": "protocol",
+  "source_context_snippet": "[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE)",
+  "source_file": null,
+  "source_repo": "a2aproject/a2a-go",
+  "source_repo_description": "Golang SDK for A2A Protocol"
+}

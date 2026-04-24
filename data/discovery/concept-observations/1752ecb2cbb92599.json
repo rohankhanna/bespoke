@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Apache DataFusion Comet Spark Accelerator"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Iceberg Spark SQL Tests"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Iceberg Spark SQL Tests"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31322,
+      "status": "candidate",
+      "text": "checking"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31244,
+      "status": "candidate",
+      "text": "check"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31205,
+      "status": "candidate",
+      "text": "bank"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31205,
+      "status": "candidate",
+      "text": "bear"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31205,
+      "status": "candidate",
+      "text": "clear"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Iceberg Spark SQL Tests",
+      "sense_id": "iceberg-spark-sql-tests#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "iceberg-spark-sql-tests",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "iceberg-spark-sql-tests",
+  "observation_id": "1752ecb2cbb92599",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-24T12:33:41.350224+00:00",
+  "observed_text": "Iceberg Spark SQL Tests",
+  "source_context_snippet": "Iceberg Spark SQL Tests",
+  "source_file": ".github/workflows/iceberg_spark_test.yml",
+  "source_repo": "apache/datafusion-comet",
+  "source_repo_description": "Apache DataFusion Comet Spark Accelerator"
+}

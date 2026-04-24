@@ -1,0 +1,300 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "auth0/node-jsonwebtoken",
+      "target": "brianloveswords/node-jws",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "auth0/node-jsonwebtoken",
+      "target": "auth0/node-jwks-rsa",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "auth0/node-jsonwebtoken",
+      "target": "jws",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "auth0/node-jsonwebtoken",
+      "target": "lodash.includes",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "auth0/node-jsonwebtoken",
+      "target": "lodash.isboolean",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "auth0/node-jsonwebtoken",
+      "target": "lodash.isinteger",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "auth0/node-jsonwebtoken",
+      "target": "lodash.isnumber",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "auth0/node-jsonwebtoken",
+      "target": "lodash.isplainobject",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "auth0/node-jsonwebtoken",
+      "target": "lodash.isstring",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "auth0/node-jsonwebtoken",
+      "target": "lodash.once",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "auth0/node-jsonwebtoken",
+      "target": "ms",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "auth0/node-jsonwebtoken",
+      "target": "semver",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "auth0/node-jsonwebtoken",
+      "target": "@commitlint/cli",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "auth0/node-jsonwebtoken",
+      "target": "@commitlint/config-conventional",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "auth0/node-jsonwebtoken",
+      "target": "@semantic-release/exec",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "auth0/node-jsonwebtoken",
+      "target": "atob",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "auth0/node-jsonwebtoken",
+      "target": "chai",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "auth0/node-jsonwebtoken",
+      "target": "conventional-changelog",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "auth0/node-jsonwebtoken",
+      "target": "eslint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "auth0/node-jsonwebtoken",
+      "target": "husky",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "auth0/node-jsonwebtoken",
+      "target": "mocha",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "auth0/node-jsonwebtoken",
+      "target": "nsp",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "auth0/node-jsonwebtoken",
+      "target": "nyc",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "auth0/node-jsonwebtoken",
+      "target": "semantic-release",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "auth0/node-jsonwebtoken",
+      "target": "sinon",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/commitlint.yml",
+      "source_repo": "auth0/node-jsonwebtoken",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/commitlint.yml",
+      "source_repo": "auth0/node-jsonwebtoken",
+      "target": "actions/setup-node@6044e13b5dc448c55e2357c09f80417699197238",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/commitlint.yml",
+      "source_repo": "auth0/node-jsonwebtoken",
+      "target": "Lint Commits",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prepare-release.yml",
+      "source_repo": "auth0/node-jsonwebtoken",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prepare-release.yml",
+      "source_repo": "auth0/node-jsonwebtoken",
+      "target": "actions/setup-node@6044e13b5dc448c55e2357c09f80417699197238",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prepare-release.yml",
+      "source_repo": "auth0/node-jsonwebtoken",
+      "target": "peter-evans/create-pull-request@c0f553fe549906ede9cf27b5156039d195d2ece0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/prepare-release.yml",
+      "source_repo": "auth0/node-jsonwebtoken",
+      "target": "Prepare Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "auth0/node-jsonwebtoken",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "auth0/node-jsonwebtoken",
+      "target": "actions/setup-node@6044e13b5dc448c55e2357c09f80417699197238",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "auth0/node-jsonwebtoken",
+      "target": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "auth0/node-jsonwebtoken",
+      "target": "aws-actions/configure-aws-credentials@8df5847569e6427dd6c4fb1cf565c83acfa8afa7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "auth0/node-jsonwebtoken",
+      "target": "Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sca-scan.yml",
+      "source_repo": "auth0/node-jsonwebtoken",
+      "target": "auth0/devsecops-tooling/.github/workflows/sca-scan.yml@5246a8b59100e3eea284ce4f2e2a51b51e237380",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/sca-scan.yml",
+      "source_repo": "auth0/node-jsonwebtoken",
+      "target": "Snyk Scan",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "auth0/node-jsonwebtoken",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "auth0/node-jsonwebtoken",
+      "target": "actions/setup-node@6044e13b5dc448c55e2357c09f80417699197238",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "auth0/node-jsonwebtoken",
+      "target": "Test",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-24T12:33:41.350224+00:00",
+  "source_repo": "auth0/node-jsonwebtoken"
+}

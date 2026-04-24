@@ -1,7 +1,7 @@
 {
   "component": "actions/setup-node@53b83947a5a98c8d113130e565377fae1a50d02f",
   "first_seen_at": "2026-04-17T16:51:41.136432+00:00",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -1092,6 +1092,41 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/challenge-tests.yml",
       "source_repo": "yt-dlp/yt-dlp"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/hipblaslt-doc-agent.lock.yml",
+      "source_repo": "ROCm/rocm-libraries"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci-engine.yml",
+      "source_repo": "serverless/serverless"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci-framework.yml",
+      "source_repo": "serverless/serverless"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci-python.yml",
+      "source_repo": "serverless/serverless"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release-framework.yml",
+      "source_repo": "serverless/serverless"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "expressjs/express"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/legacy.yml",
+      "source_repo": "expressjs/express"
     }
   ]
 }

@@ -1,0 +1,178 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ChineseGLUE/ChineseGLUE",
+      "target": "google-research/bert",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ChineseGLUE/ChineseGLUE",
+      "target": "drcknowledgeteam/drcd",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ChineseGLUE/ChineseGLUE",
+      "target": "insanelife/chinesenlpcorpus",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ChineseGLUE/ChineseGLUE",
+      "target": "fate233/toutiao-text-classfication-dataset",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ChineseGLUE/ChineseGLUE",
+      "target": "albert",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ChineseGLUE/ChineseGLUE",
+      "target": "bert",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ChineseGLUE/ChineseGLUE",
+      "target": "chinese-corpus",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ChineseGLUE/ChineseGLUE",
+      "target": "datasets",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ChineseGLUE/ChineseGLUE",
+      "target": "glue",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ChineseGLUE/ChineseGLUE",
+      "target": "language-understanding",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ChineseGLUE/ChineseGLUE",
+      "target": "pre-trained-model",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T12:39:30.393914+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 29204
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Language Understanding Evaluation benchmark for Chinese: datasets, baselines, pre-trained models,corpus and leaderboard",
+    "fork": false,
+    "full_name": "ChineseGLUE/ChineseGLUE",
+    "html_url": "https://github.com/ChineseGLUE/ChineseGLUE",
+    "language": "Python",
+    "pushed_at": "2023-02-18T17:35:23Z",
+    "stargazers_count": 1788,
+    "topics": [
+      "albert",
+      "bert",
+      "chinese-corpus",
+      "datasets",
+      "glue",
+      "language-understanding",
+      "nlp",
+      "pre-trained-model"
+    ],
+    "updated_at": "2026-04-21T02:59:54Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "drcknowledgeteam/drcd",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "fate233/toutiao-text-classfication-dataset",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "google-research/bert",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "insanelife/chinesenlpcorpus",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Language Understanding Evaluation benchmark for Chinese: datasets, baselines, pre-trained models, corpus and leaderboard",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "albert"
+    },
+    {
+      "context_snippet": "Language Understanding Evaluation benchmark for Chinese: datasets, baselines, pre-trained models, corpus and leaderboard",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bert"
+    },
+    {
+      "context_snippet": "Language Understanding Evaluation benchmark for Chinese: datasets, baselines, pre-trained models, corpus and leaderboard",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chinese-corpus"
+    },
+    {
+      "context_snippet": "Language Understanding Evaluation benchmark for Chinese: datasets, baselines, pre-trained models, corpus and leaderboard",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "datasets"
+    },
+    {
+      "context_snippet": "Language Understanding Evaluation benchmark for Chinese: datasets, baselines, pre-trained models, corpus and leaderboard",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "glue"
+    },
+    {
+      "context_snippet": "Language Understanding Evaluation benchmark for Chinese: datasets, baselines, pre-trained models, corpus and leaderboard",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "language-understanding"
+    },
+    {
+      "context_snippet": "Language Understanding Evaluation benchmark for Chinese: datasets, baselines, pre-trained models, corpus and leaderboard",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pre-trained-model"
+    }
+  ]
+}

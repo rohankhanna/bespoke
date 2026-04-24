@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": " JavaScript parser / mangler / compressor / beautifier toolkit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "ESTree"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "ESTree"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "ESTree",
+      "sense_id": "estree#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "estree",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "estree",
+  "observation_id": "8668b191f1b565d8",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-24T12:33:41.350224+00:00",
+  "observed_text": "ESTree",
+  "source_context_snippet": "ESTree",
+  "source_file": ".github/workflows/moz.yml",
+  "source_repo": "mishoo/UglifyJS",
+  "source_repo_description": " JavaScript parser / mangler / compressor / beautifier toolkit"
+}

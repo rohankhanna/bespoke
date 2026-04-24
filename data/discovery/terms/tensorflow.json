@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-19T01:08:57.644140+00:00",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -191,6 +191,16 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "charlesq34/pointnet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "kpe/bert-for-tf2"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "ymcui/Chinese-BERT-wwm"
     }
   ],
   "term": "tensorflow"

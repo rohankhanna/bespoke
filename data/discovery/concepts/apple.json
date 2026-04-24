@@ -31,6 +31,18 @@
       "source_repo": "EachSheep/ShortcutsBench",
       "status": "candidate-context",
       "text": "<div align= \"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "GEOSwift/GEOSwift",
+      "status": "candidate-context",
+      "text": "The Swift Geometry Engine."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GEOSwift/GEOSwift",
+      "status": "candidate-context",
+      "text": "![GEOSwift](/README-images/GEOSwift.png)"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "EachSheep/ShortcutsBench",
       "status": "candidate",
       "text": "<div align= \"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GEOSwift/GEOSwift",
+      "status": "candidate",
+      "text": "![GEOSwift](/README-images/GEOSwift.png)"
     }
   ],
   "candidate_related_terms": [
@@ -115,11 +133,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "EachSheep/ShortcutsBench"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "GEOSwift/GEOSwift"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "lexical_providers": [
     "datamuse"
   ],

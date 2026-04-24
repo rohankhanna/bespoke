@@ -91,6 +91,18 @@
       "source_repo": "operator-framework/operator-sdk",
       "status": "candidate-context",
       "text": "<img src=\"website/static/operator_logo_sdk_color.svg\" height=\"125px\"></img>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "OS-Agent-Survey/OS-Agent-Survey",
+      "status": "candidate-context",
+      "text": "This is the repo for the paper \"OS Agents: A Survey on MLLM-based Agents for Computer, Phone and Browser Use\" (ACL 2025 Oral)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OS-Agent-Survey/OS-Agent-Survey",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -135,6 +147,12 @@
       "source_repo": "operator-framework/operator-sdk",
       "status": "candidate",
       "text": "<img src=\"website/static/operator_logo_sdk_color.svg\" height=\"125px\"></img>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OS-Agent-Survey/OS-Agent-Survey",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -242,11 +260,17 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": null,
       "source_repo": "operator-framework/operator-sdk"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "OS-Agent-Survey/OS-Agent-Survey"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "lexical_providers": [
     "datamuse"
   ],

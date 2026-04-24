@@ -166,6 +166,18 @@
       "source_repo": "danielgtaylor/apisprout",
       "status": "candidate-context",
       "text": "<img src=\"https://user-images.githubusercontent.com/106826/43119494-78be9224-8ecb-11e8-9d1a-9fc6f3014b91.png\" width=\"300\" alt=\"API Sprout\"/>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "swagger-autogen/swagger-autogen",
+      "status": "candidate-context",
+      "text": "This module performs automatic construction of Swagger documentation. It can identify the endpoints and automatically capture methods such as get, post, put, and so on. It also identifies paths, routes, middlewares, response status codes and parameters. At the end, it generates the .json file containing the Swagger format specification."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "swagger-autogen/swagger-autogen",
+      "status": "candidate-context",
+      "text": "This module performs automatic construction of Swagger documentation. It can identify the endpoints and automatically capture methods such as get, post, put, and so on. It also identifies paths, routes, middlewares, response status codes, parameters in the path, header, query an\u2026"
     }
   ],
   "candidate_glosses": [
@@ -246,6 +258,12 @@
       "source_repo": "danielgtaylor/apisprout",
       "status": "candidate",
       "text": "<img src=\"https://user-images.githubusercontent.com/106826/43119494-78be9224-8ecb-11e8-9d1a-9fc6f3014b91.png\" width=\"300\" alt=\"API Sprout\"/>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "swagger-autogen/swagger-autogen",
+      "status": "candidate",
+      "text": "This module performs automatic construction of Swagger documentation. It can identify the endpoints and automatically capture methods such as get, post, put, and so on. It also identifies paths, routes, middlewares, response status codes, parameters in the path, header, query an\u2026"
     }
   ],
   "candidate_related_terms": [],
@@ -331,11 +349,17 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "danielgtaylor/apisprout"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "swagger-autogen/swagger-autogen"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "lexical_providers": [
     "datamuse"
   ],

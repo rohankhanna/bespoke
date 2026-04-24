@@ -1,0 +1,55 @@
+{
+  "components": [
+    {
+      "component": "github/issue-labeler@v3.4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labeler.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labeler.yml",
+      "source_repo": "dotnet/install-scripts",
+      "target": "github/issue-labeler@v3.4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/labeler.yml",
+      "source_repo": "dotnet/install-scripts",
+      "target": "Issue Labeler",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T13:04:30.676540+00:00",
+  "fetched_files": [
+    {
+      "path": ".github/workflows/labeler.yml",
+      "size": 330
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "dotnet/install-scripts",
+    "html_url": "https://github.com/dotnet/install-scripts",
+    "language": "PowerShell",
+    "pushed_at": "2026-04-22T16:21:00Z",
+    "stargazers_count": 204,
+    "topics": [],
+    "updated_at": "2026-04-22T16:21:00Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "\"Issue Labeler\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/labeler.yml",
+      "term": "Issue Labeler"
+    }
+  ]
+}

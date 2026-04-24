@@ -1,0 +1,174 @@
+{
+  "edges": [
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "engineer-man/piston",
+      "target": "prettier",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/api-push.yaml",
+      "source_repo": "engineer-man/piston",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/api-push.yaml",
+      "source_repo": "engineer-man/piston",
+      "target": "docker/login-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/api-push.yaml",
+      "source_repo": "engineer-man/piston",
+      "target": "docker/build-push-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/api-push.yaml",
+      "source_repo": "engineer-man/piston",
+      "target": "Publish API image",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/package-pr.yaml",
+      "source_repo": "engineer-man/piston",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/package-pr.yaml",
+      "source_repo": "engineer-man/piston",
+      "target": "lots0logs/gh-action-get-changed-files@2.1.4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/package-pr.yaml",
+      "source_repo": "engineer-man/piston",
+      "target": "docker/login-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/package-pr.yaml",
+      "source_repo": "engineer-man/piston",
+      "target": "actions/upload-artifact@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/package-pr.yaml",
+      "source_repo": "engineer-man/piston",
+      "target": "actions/download-artifact@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/package-pr.yaml",
+      "source_repo": "engineer-man/piston",
+      "target": "Package Pull Requests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/package-push.yaml",
+      "source_repo": "engineer-man/piston",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/package-push.yaml",
+      "source_repo": "engineer-man/piston",
+      "target": "docker/login-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/package-push.yaml",
+      "source_repo": "engineer-man/piston",
+      "target": "lots0logs/gh-action-get-changed-files@2.1.4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/package-push.yaml",
+      "source_repo": "engineer-man/piston",
+      "target": "svenstaro/upload-release-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/package-push.yaml",
+      "source_repo": "engineer-man/piston",
+      "target": "Package Pushed",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/repo-push.yaml",
+      "source_repo": "engineer-man/piston",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/repo-push.yaml",
+      "source_repo": "engineer-man/piston",
+      "target": "docker/login-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/repo-push.yaml",
+      "source_repo": "engineer-man/piston",
+      "target": "docker/build-push-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/repo-push.yaml",
+      "source_repo": "engineer-man/piston",
+      "target": "Publish Repo image",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "engineer-man/piston",
+      "target": "code-execution",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "engineer-man/piston",
+      "target": "nodejs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "engineer-man/piston",
+      "target": "piston",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "engineer-man/piston",
+      "target": "shell",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-24T12:33:41.350224+00:00",
+  "source_repo": "engineer-man/piston"
+}

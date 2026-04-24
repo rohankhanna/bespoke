@@ -295,6 +295,30 @@
       "source_repo": "MMMU-Benchmark/MMMU",
       "status": "candidate-context",
       "text": "[**\ud83c\udf10 Homepage**](https://mmmu-benchmark.github.io/) | [**\ud83c\udfc6 Leaderboard**](https://mmmu-benchmark.github.io/#leaderboard) | [**\ud83e\udd17 MMMU-Pro**](https://huggingface.co/datasets/MMMU/MMMU_Pro) | [**\ud83d\udcd6 MMMU-Pro arXiv**](https://arxiv.org/abs/2409.02813) | [**\ud83e\udd17 MMMU**](https://huggingfac\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AceCHQ/MMIQ",
+      "status": "candidate-context",
+      "text": "This repo contains evaluation code for MM-IQ benchmark."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AceCHQ/MMIQ",
+      "status": "candidate-context",
+      "text": "[**\ud83c\udf10 Homepage**](https://acechq.github.io/MMIQ-benchmark/) | [**\ud83c\udfc6 Leaderboard**](https://acechq.github.io/MMIQ-benchmark/#leaderboard) | [**\ud83e\udd17 MM-IQ**](https://huggingface.co/datasets/huanqia/MM-IQ) | [**\ud83d\udcd6 MM-IQ Paper**](https://arxiv.org/pdf/2502.00698)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "xlang-ai/OSWorld",
+      "status": "candidate-context",
+      "text": "[NeurIPS 2024] OSWorld: Benchmarking Multimodal Agents for Open-Ended Tasks in Real Computer Environments"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xlang-ai/OSWorld",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -441,6 +465,18 @@
       "source_repo": "MMMU-Benchmark/MMMU",
       "status": "candidate",
       "text": "[**\ud83c\udf10 Homepage**](https://mmmu-benchmark.github.io/) | [**\ud83c\udfc6 Leaderboard**](https://mmmu-benchmark.github.io/#leaderboard) | [**\ud83e\udd17 MMMU-Pro**](https://huggingface.co/datasets/MMMU/MMMU_Pro) | [**\ud83d\udcd6 MMMU-Pro arXiv**](https://arxiv.org/abs/2409.02813) | [**\ud83e\udd17 MMMU**](https://huggingfac\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AceCHQ/MMIQ",
+      "status": "candidate",
+      "text": "[**\ud83c\udf10 Homepage**](https://acechq.github.io/MMIQ-benchmark/) | [**\ud83c\udfc6 Leaderboard**](https://acechq.github.io/MMIQ-benchmark/#leaderboard) | [**\ud83e\udd17 MM-IQ**](https://huggingface.co/datasets/huanqia/MM-IQ) | [**\ud83d\udcd6 MM-IQ Paper**](https://arxiv.org/pdf/2502.00698)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xlang-ai/OSWorld",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -664,11 +700,23 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "modelscope/ms-swift"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "AceCHQ/MMIQ"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "xlang-ai/OSWorld"
     }
   ],
   "first_seen_at": "2026-04-18T12:06:06.216548+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "lexical_providers": [
     "datamuse"
   ],

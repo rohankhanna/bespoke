@@ -31,6 +31,18 @@
       "source_repo": "rust-embedded/awesome-embedded-rust",
       "status": "candidate-context",
       "text": "[![Awesome](https://awesome.re/badge.svg)](https://awesome.re) [![Linting](https://github.com/rust-embedded/awesome-embedded-rust/actions/workflows/Linting.yml/badge.svg)](https://github.com/rust-embedded/awesome-embedded-rust/actions/workflows/Linting.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fffaraz/awesome-cpp",
+      "status": "candidate-context",
+      "text": "A curated list of awesome C++ (or C) frameworks, libraries, resources, and shiny things. Inspired by awesome-... stuff."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fffaraz/awesome-cpp",
+      "status": "candidate-context",
+      "text": "A curated list of awesome C++ (or C) frameworks, libraries, resources, and shiny things. Inspired by awesome-... stuff."
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "rust-embedded/awesome-embedded-rust",
       "status": "candidate",
       "text": "[![Awesome](https://awesome.re/badge.svg)](https://awesome.re) [![Linting](https://github.com/rust-embedded/awesome-embedded-rust/actions/workflows/Linting.yml/badge.svg)](https://github.com/rust-embedded/awesome-embedded-rust/actions/workflows/Linting.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fffaraz/awesome-cpp",
+      "status": "candidate",
+      "text": "A curated list of awesome C++ (or C) frameworks, libraries, resources, and shiny things. Inspired by awesome-... stuff."
     }
   ],
   "candidate_related_terms": [
@@ -100,11 +118,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "rust-embedded/awesome-embedded-rust"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "fffaraz/awesome-cpp"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "lexical_providers": [
     "datamuse"
   ],

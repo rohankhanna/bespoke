@@ -249,6 +249,18 @@
       "source_repo": "vllm-project/flash-attention",
       "status": "candidate-context",
       "text": "Build wheels"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fanshiqing/grouped_gemm",
+      "status": "candidate-context",
+      "text": "PyTorch bindings for CUTLASS grouped GEMM."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fanshiqing/grouped_gemm",
+      "status": "candidate-context",
+      "text": "Build wheels"
     }
   ],
   "candidate_glosses": [
@@ -369,6 +381,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "vllm-project/flash-attention",
+      "status": "candidate",
+      "text": "Build wheels"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fanshiqing/grouped_gemm",
       "status": "candidate",
       "text": "Build wheels"
     }
@@ -558,11 +576,17 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": ".github/workflows/build.yml",
       "source_repo": "vllm-project/flash-attention"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "fanshiqing/grouped_gemm"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "lexical_providers": [
     "datamuse"
   ],

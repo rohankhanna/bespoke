@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "house"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dwyl/home",
+      "status": "candidate-context",
+      "text": "\ud83c\udfe1 \ud83d\udc69\u200d\ud83d\udcbb \ud83d\udca1 home is where you can [learn to] build the future surrounded by like-minded creative, friendly and [intrinsically] motivated people focussed on health, fitness and making things people and the world need!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dwyl/home",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dwyl/home",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39982614,
+      "status": "candidate",
+      "text": "mansion"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39976810,
+      "status": "candidate",
+      "text": "home"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39952688,
+      "status": "candidate",
+      "text": "household"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39933897,
+      "status": "candidate",
+      "text": "put up"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39927324,
+      "status": "candidate",
+      "text": "firm"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 24062,
+      "status": "candidate",
+      "text": "firm"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 20060,
+      "status": "candidate",
+      "text": "home"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 16022,
+      "status": "candidate",
+      "text": "menage"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 15075,
+      "status": "candidate",
+      "text": "sign"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 11038,
+      "status": "candidate",
+      "text": "theater"
+    }
+  ],
+  "canonical_name": "house",
+  "concept_id": "house",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "dwyl/home"
+    }
+  ],
+  "first_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "house",
+      "sense_id": "house#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

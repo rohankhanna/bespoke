@@ -84,7 +84,7 @@
   "normalized_form": "update-dependencies",
   "observation_id": "85c8d89e716c37e6",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-24T06:47:13.899148+00:00",
+  "observed_at": "2026-04-24T12:33:41.350224+00:00",
   "observed_text": "Update dependencies",
   "source_context_snippet": "Update dependencies",
   "source_file": ".github/workflows/update-dependencies.yml",

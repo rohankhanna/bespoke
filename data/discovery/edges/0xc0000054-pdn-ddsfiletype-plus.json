@@ -1,0 +1,48 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "0xC0000054/pdn-ddsfiletype-plus",
+      "target": "microsoft/directxtex",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "0xC0000054/pdn-ddsfiletype-plus",
+      "target": "directx-11",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "0xC0000054/pdn-ddsfiletype-plus",
+      "target": "paint-net",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "0xC0000054/pdn-ddsfiletype-plus",
+      "target": "paintdotnet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "0xC0000054/pdn-ddsfiletype-plus",
+      "target": "texture-compression",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "0xC0000054/pdn-ddsfiletype-plus",
+      "target": "textures",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-24T12:33:41.350224+00:00",
+  "source_repo": "0xC0000054/pdn-ddsfiletype-plus"
+}

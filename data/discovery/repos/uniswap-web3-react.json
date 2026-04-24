@@ -1,0 +1,382 @@
+{
+  "components": [
+    {
+      "component": "@coinbase/wallet-sdk",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@testing-library/react-hooks",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@tsconfig/recommended",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/jest",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/node",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/react",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@typescript-eslint/eslint-plugin",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@typescript-eslint/parser",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@uniswap/eslint-config",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "jest",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "lerna",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "react",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "react-test-renderer",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "ts-jest",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "typescript",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml"
+    },
+    {
+      "component": "actions/setup-node@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/snyk_sca_scan.yml"
+    },
+    {
+      "component": "snyk/actions/node@0e928f3e9ae859e2b95ac2b89af55d7b6434244d",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/snyk_sca_scan.yml"
+    },
+    {
+      "component": "snyk/actions/node@0e928f3e9ae859e2b95ac2b89af55d7b6434244d",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/snyk_sca_scan.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Uniswap/web3-react",
+      "target": "trustwallet/web3-react-trust-wallet",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Uniswap/web3-react",
+      "target": "ava-labs/avalanche-dapp-sdks",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Uniswap/web3-react",
+      "target": "arkanenetwork/web3-react-venly",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Uniswap/web3-react",
+      "target": "@coinbase/wallet-sdk",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Uniswap/web3-react",
+      "target": "@testing-library/react-hooks",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Uniswap/web3-react",
+      "target": "@tsconfig/recommended",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Uniswap/web3-react",
+      "target": "@types/jest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Uniswap/web3-react",
+      "target": "@types/node",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Uniswap/web3-react",
+      "target": "@types/react",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Uniswap/web3-react",
+      "target": "@typescript-eslint/eslint-plugin",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Uniswap/web3-react",
+      "target": "@typescript-eslint/parser",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Uniswap/web3-react",
+      "target": "@uniswap/eslint-config",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Uniswap/web3-react",
+      "target": "eslint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Uniswap/web3-react",
+      "target": "jest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Uniswap/web3-react",
+      "target": "lerna",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Uniswap/web3-react",
+      "target": "react",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Uniswap/web3-react",
+      "target": "react-test-renderer",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Uniswap/web3-react",
+      "target": "ts-jest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Uniswap/web3-react",
+      "target": "typescript",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml",
+      "source_repo": "Uniswap/web3-react",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml",
+      "source_repo": "Uniswap/web3-react",
+      "target": "actions/setup-node@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/snyk_sca_scan.yml",
+      "source_repo": "Uniswap/web3-react",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/snyk_sca_scan.yml",
+      "source_repo": "Uniswap/web3-react",
+      "target": "snyk/actions/node@0e928f3e9ae859e2b95ac2b89af55d7b6434244d",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/snyk_sca_scan.yml",
+      "source_repo": "Uniswap/web3-react",
+      "target": "Snyk Code Security",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Uniswap/web3-react",
+      "target": "dapp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Uniswap/web3-react",
+      "target": "ethereum",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Uniswap/web3-react",
+      "target": "web3",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T12:57:41.604679+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10502
+    },
+    {
+      "path": "package.json",
+      "size": 961
+    },
+    {
+      "path": ".github/workflows/CI.yml",
+      "size": 704
+    },
+    {
+      "path": ".github/workflows/snyk_sca_scan.yml",
+      "size": 1012
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A simple, maximally extensible, dependency minimized framework for building modern Ethereum dApps",
+    "fork": false,
+    "full_name": "Uniswap/web3-react",
+    "html_url": "https://github.com/Uniswap/web3-react",
+    "language": "TypeScript",
+    "pushed_at": "2024-08-20T17:47:06Z",
+    "stargazers_count": 5691,
+    "topics": [
+      "dapp",
+      "ethereum",
+      "javascript",
+      "typescript",
+      "web3"
+    ],
+    "updated_at": "2026-04-23T09:14:04Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "arkanenetwork/web3-react-venly",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ava-labs/avalanche-dapp-sdks",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "trustwallet/web3-react-trust-wallet",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Snyk Code Security",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/snyk_sca_scan.yml",
+      "term": "Snyk Code Security"
+    },
+    {
+      "context_snippet": "[![CI](https://github.com/Uniswap/web3-react/actions/workflows/CI.yml/badge.svg)](https://github.com/Uniswap/web3-react/actions/workflows/CI.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dapp"
+    },
+    {
+      "context_snippet": "[![CI](https://github.com/Uniswap/web3-react/actions/workflows/CI.yml/badge.svg)](https://github.com/Uniswap/web3-react/actions/workflows/CI.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ethereum"
+    },
+    {
+      "context_snippet": "[![CI](https://github.com/Uniswap/web3-react/actions/workflows/CI.yml/badge.svg)](https://github.com/Uniswap/web3-react/actions/workflows/CI.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "web3"
+    }
+  ]
+}

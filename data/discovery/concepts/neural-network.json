@@ -271,6 +271,18 @@
       "source_repo": "charlesq34/pointnet",
       "status": "candidate-context",
       "text": "Created by <a href=\"http://charlesrqi.com\" target=\"_blank\">Charles R. Qi</a>, <a href=\"http://ai.stanford.edu/~haosu/\" target=\"_blank\">Hao Su</a>, <a href=\"http://cs.stanford.edu/~kaichun/\" target=\"_blank\">Kaichun Mo</a>, <a href=\"http://geometry.stanford.edu/member/guibas/\" tar\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ROCm/MIVisionX",
+      "status": "candidate-context",
+      "text": "MIVisionX toolkit is a set of comprehensive computer vision and machine intelligence libraries, utilities, and applications bundled into a single toolkit. AMD MIVisionX also delivers a highly optimized open-source implementation of the Khronos OpenVX\u2122 and OpenVX\u2122 Extensions."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ROCm/MIVisionX",
+      "status": "candidate-context",
+      "text": "[![MIT licensed](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)"
     }
   ],
   "candidate_glosses": [
@@ -405,6 +417,12 @@
       "source_repo": "charlesq34/pointnet",
       "status": "candidate",
       "text": "Created by <a href=\"http://charlesrqi.com\" target=\"_blank\">Charles R. Qi</a>, <a href=\"http://ai.stanford.edu/~haosu/\" target=\"_blank\">Hao Su</a>, <a href=\"http://cs.stanford.edu/~kaichun/\" target=\"_blank\">Kaichun Mo</a>, <a href=\"http://geometry.stanford.edu/member/guibas/\" tar\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ROCm/MIVisionX",
+      "status": "candidate",
+      "text": "[![MIT licensed](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)"
     }
   ],
   "candidate_related_terms": [],
@@ -562,11 +580,17 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "charlesq34/pointnet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "ROCm/MIVisionX"
     }
   ],
   "first_seen_at": "2026-04-19T01:08:57.644140+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "lexical_providers": [
     "datamuse"
   ],

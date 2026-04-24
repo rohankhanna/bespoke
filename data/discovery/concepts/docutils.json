@@ -19,6 +19,18 @@
       "source_repo": "readthedocs/recommonmark",
       "status": "candidate-context",
       "text": "[![No Maintenance Intended](http://unmaintained.tech/badge.svg)](http://unmaintained.tech/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "executablebooks/MyST-Parser",
+      "status": "candidate-context",
+      "text": "An extended commonmark compliant parser, with bridges to docutils/sphinx"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "executablebooks/MyST-Parser",
+      "status": "candidate-context",
+      "text": "[![Github-CI][github-ci]][github-link]"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "readthedocs/recommonmark",
       "status": "candidate",
       "text": "[![No Maintenance Intended](http://unmaintained.tech/badge.svg)](http://unmaintained.tech/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "executablebooks/MyST-Parser",
+      "status": "candidate",
+      "text": "[![Github-CI][github-ci]][github-link]"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,23 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "readthedocs/recommonmark"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "readthedocs/recommonmark"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "executablebooks/MyST-Parser"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "lexical_providers": [
     "datamuse"
   ],

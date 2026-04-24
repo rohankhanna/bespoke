@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\ud83e\ude79Editing large language models within 10 seconds\u26a1"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "*Editing large language models within 10 seconds*"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "*Editing large language models within 10 seconds*"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9969261,
+      "status": "candidate",
+      "text": "chats"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9969260,
+      "status": "candidate",
+      "text": "chatroom"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9969259,
+      "status": "candidate",
+      "text": "chat room"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9969258,
+      "status": "candidate",
+      "text": "chatting"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9969257,
+      "status": "candidate",
+      "text": "robots"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "chatbots",
+      "sense_id": "chatbots#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "chatbots",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "chatbots",
+  "observation_id": "8683ef51d4b18073",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T12:33:41.350224+00:00",
+  "observed_text": "chatbots",
+  "source_context_snippet": "*Editing large language models within 10 seconds*",
+  "source_file": null,
+  "source_repo": "hiyouga/FastEdit",
+  "source_repo_description": "\ud83e\ude79Editing large language models within 10 seconds\u26a1"
+}

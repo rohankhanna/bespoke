@@ -1,0 +1,124 @@
+{
+  "aliases": [
+    "ITK"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "a2aproject/a2a-go",
+      "status": "candidate-context",
+      "text": "Golang SDK for A2A Protocol"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "a2aproject/a2a-go",
+      "status": "candidate-context",
+      "text": "ITK"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "a2aproject/a2a-python",
+      "status": "candidate-context",
+      "text": "Official Python SDK for the Agent2Agent (A2A) Protocol"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "a2aproject/a2a-python",
+      "status": "candidate-context",
+      "text": "ITK"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "a2aproject/a2a-go",
+      "status": "candidate",
+      "text": "ITK"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "a2aproject/a2a-python",
+      "status": "candidate",
+      "text": "ITK"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10014333,
+      "status": "candidate",
+      "text": "instantiation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10014332,
+      "status": "candidate",
+      "text": "iterator"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10014331,
+      "status": "candidate",
+      "text": "dibranchiata"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10014330,
+      "status": "candidate",
+      "text": "struct"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10014329,
+      "status": "candidate",
+      "text": "superclass"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "ITK",
+  "concept_id": "itk",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/itk.yaml",
+      "source_repo": "a2aproject/a2a-go"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/itk.yaml",
+      "source_repo": "a2aproject/a2a-python"
+    }
+  ],
+  "first_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "ITK",
+      "sense_id": "itk#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

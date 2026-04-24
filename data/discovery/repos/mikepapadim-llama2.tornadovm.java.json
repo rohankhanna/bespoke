@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mikepapadim/llama2.tornadovm.java",
+      "target": "mukel/llama2.java",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-24T13:02:14.945546+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4432
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "An extension to Llama2.java implementation accelerated with GPUs, using TornadoVM",
+    "fork": false,
+    "full_name": "mikepapadim/llama2.tornadovm.java",
+    "html_url": "https://github.com/mikepapadim/llama2.tornadovm.java",
+    "language": "Java",
+    "pushed_at": "2024-08-01T09:58:42Z",
+    "stargazers_count": 26,
+    "topics": [],
+    "updated_at": "2025-06-14T12:36:43Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mukel/llama2.java",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

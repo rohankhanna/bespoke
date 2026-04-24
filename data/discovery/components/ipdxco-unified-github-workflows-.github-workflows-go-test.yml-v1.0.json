@@ -1,7 +1,7 @@
 {
   "component": "ipdxco/unified-github-workflows/.github/workflows/go-test.yml@v1.0",
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -27,6 +27,21 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/go-test.yml",
       "source_repo": "multiformats/go-multiaddr"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/go-test.yml",
+      "source_repo": "ipfs/boxo"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/go-test.yml",
+      "source_repo": "ipfs/rainbow"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/go-test.yml",
+      "source_repo": "ipfs/go-ds-s3"
     }
   ]
 }

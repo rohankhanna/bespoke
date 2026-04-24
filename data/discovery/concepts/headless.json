@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "headless"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "go-rod/rod",
+      "status": "candidate-context",
+      "text": "A Chrome DevTools Protocol driver for web automation and scraping."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "go-rod/rod",
+      "status": "candidate-context",
+      "text": "[![Go Reference](https://pkg.go.dev/badge/github.com/go-rod/rod.svg)](https://pkg.go.dev/github.com/go-rod/rod)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "go-rod/rod",
+      "status": "candidate",
+      "text": "[![Go Reference](https://pkg.go.dev/badge/github.com/go-rod/rod.svg)](https://pkg.go.dev/github.com/go-rod/rod)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39791643,
+      "status": "candidate",
+      "text": "acephalous"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39789647,
+      "status": "candidate",
+      "text": "unintelligent"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39788805,
+      "status": "candidate",
+      "text": "brainless"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39771124,
+      "status": "candidate",
+      "text": "stupid"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39664556,
+      "status": "candidate",
+      "text": "decapitated"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 27041,
+      "status": "candidate",
+      "text": "stupid"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 4025,
+      "status": "candidate",
+      "text": "unintelligent"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 3032,
+      "status": "candidate",
+      "text": "brainless"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 3019,
+      "status": "candidate",
+      "text": "decapitated"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2031,
+      "status": "candidate",
+      "text": "acephalous"
+    }
+  ],
+  "canonical_name": "headless",
+  "concept_id": "headless",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "go-rod/rod"
+    }
+  ],
+  "first_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "headless",
+      "sense_id": "headless#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

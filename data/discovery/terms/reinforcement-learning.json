@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -161,6 +161,46 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "xavierpuigf/virtualhome"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "Gen-Verse/Open-AgentRL"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "xlang-ai/OSWorld"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "ikostrikov/jaxrl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "Denys88/rl_games"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "google-deepmind/dm_env"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "araffin/rl-tutorial-jnrr19"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "DLR-RM/rl-baselines3-zoo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "hill-a/stable-baselines"
     }
   ],
   "term": "reinforcement-learning"

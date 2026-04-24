@@ -1,0 +1,188 @@
+{
+  "edges": [
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "auth0/node-jws",
+      "target": "jwa",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "auth0/node-jws",
+      "target": "safe-buffer",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "auth0/node-jws",
+      "target": "@commitlint/cli",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "auth0/node-jws",
+      "target": "@commitlint/config-conventional",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "auth0/node-jws",
+      "target": "@semantic-release/exec",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "auth0/node-jws",
+      "target": "husky",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "auth0/node-jws",
+      "target": "semantic-release",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "auth0/node-jws",
+      "target": "semver",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "auth0/node-jws",
+      "target": "tape",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/commitlint.yml",
+      "source_repo": "auth0/node-jws",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/commitlint.yml",
+      "source_repo": "auth0/node-jws",
+      "target": "actions/setup-node@6044e13b5dc448c55e2357c09f80417699197238",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/commitlint.yml",
+      "source_repo": "auth0/node-jws",
+      "target": "Lint Commits",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prepare-release.yml",
+      "source_repo": "auth0/node-jws",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prepare-release.yml",
+      "source_repo": "auth0/node-jws",
+      "target": "actions/setup-node@6044e13b5dc448c55e2357c09f80417699197238",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prepare-release.yml",
+      "source_repo": "auth0/node-jws",
+      "target": "peter-evans/create-pull-request@c0f553fe549906ede9cf27b5156039d195d2ece0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/prepare-release.yml",
+      "source_repo": "auth0/node-jws",
+      "target": "Prepare Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "auth0/node-jws",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "auth0/node-jws",
+      "target": "actions/setup-node@6044e13b5dc448c55e2357c09f80417699197238",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "auth0/node-jws",
+      "target": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "auth0/node-jws",
+      "target": "aws-actions/configure-aws-credentials@8df5847569e6427dd6c4fb1cf565c83acfa8afa7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "auth0/node-jws",
+      "target": "Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sca-scan.yml",
+      "source_repo": "auth0/node-jws",
+      "target": "auth0/devsecops-tooling/.github/workflows/sca-scan.yml@5246a8b59100e3eea284ce4f2e2a51b51e237380",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/sca-scan.yml",
+      "source_repo": "auth0/node-jws",
+      "target": "Snyk Scan",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "auth0/node-jws",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "auth0/node-jws",
+      "target": "actions/setup-node@6044e13b5dc448c55e2357c09f80417699197238",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "auth0/node-jws",
+      "target": "Test",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-24T12:33:41.350224+00:00",
+  "source_repo": "auth0/node-jws"
+}

@@ -1,7 +1,8 @@
 {
   "aliases": [
     "Test & Release",
-    "test-release"
+    "test-release",
+    "Test Release"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -32,6 +33,24 @@
       "source_repo": "MetaGLM/zhipuai-sdk-python-v4",
       "status": "candidate-context",
       "text": "test-release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "zai-org/z-ai-sdk-python",
+      "status": "candidate-context",
+      "text": "The official Python SDK for Z.ai's large model open interface, making it easier for developers to call Z.ai's open APIs."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zai-org/z-ai-sdk-python",
+      "status": "candidate-context",
+      "text": "test-release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "grafana/k8s-monitoring-helm",
+      "status": "candidate-context",
+      "text": "Test Release"
     }
   ],
   "candidate_glosses": [
@@ -46,9 +65,57 @@
       "source_repo": "MetaGLM/zhipuai-sdk-python-v4",
       "status": "candidate",
       "text": "test-release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zai-org/z-ai-sdk-python",
+      "status": "candidate",
+      "text": "test-release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "grafana/k8s-monitoring-helm",
+      "status": "candidate",
+      "text": "Test Release"
     }
   ],
-  "candidate_related_terms": [],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 48835,
+      "status": "candidate",
+      "text": "beta"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27945,
+      "status": "candidate",
+      "text": "beta software"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11635,
+      "status": "candidate",
+      "text": "condition"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11635,
+      "status": "candidate",
+      "text": "fire"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11635,
+      "status": "candidate",
+      "text": "float"
+    }
+  ],
   "candidate_synonyms": [],
   "canonical_name": "Test & Release",
   "concept_id": "test-release",
@@ -77,11 +144,29 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": ".github/workflows/_test_release.yml",
       "source_repo": "MetaGLM/zhipuai-sdk-python-v4"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/_test_release.yml",
+      "source_repo": "chatchat-space/Langchain-Chatchat"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/_test_release.yml",
+      "source_repo": "zai-org/z-ai-sdk-python"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/test-release.yml",
+      "source_repo": "grafana/k8s-monitoring-helm"
     }
   ],
   "first_seen_at": "2026-04-18T11:41:43.530265+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "lexical_providers": [
     "datamuse"
   ],

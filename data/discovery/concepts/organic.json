@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "organic"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dwyl/home",
+      "status": "candidate-context",
+      "text": "\ud83c\udfe1 \ud83d\udc69\u200d\ud83d\udcbb \ud83d\udca1 home is where you can [learn to] build the future surrounded by like-minded creative, friendly and [intrinsically] motivated people focussed on health, fitness and making things people and the world need!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dwyl/home",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dwyl/home",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39865408,
+      "status": "candidate",
+      "text": "constitutional"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39853014,
+      "status": "candidate",
+      "text": "constituent"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39852392,
+      "status": "candidate",
+      "text": "natural"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39840303,
+      "status": "candidate",
+      "text": "structured"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39839385,
+      "status": "candidate",
+      "text": "integrated"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 60042,
+      "status": "candidate",
+      "text": "essential"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 24043,
+      "status": "candidate",
+      "text": "constituent"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 22060,
+      "status": "candidate",
+      "text": "natural"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 15027,
+      "status": "candidate",
+      "text": "constitutive"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 14040,
+      "status": "candidate",
+      "text": "integrated"
+    }
+  ],
+  "canonical_name": "organic",
+  "concept_id": "organic",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "dwyl/home"
+    }
+  ],
+  "first_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "organic",
+      "sense_id": "organic#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

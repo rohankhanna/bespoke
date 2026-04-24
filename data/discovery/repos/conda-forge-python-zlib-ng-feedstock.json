@@ -1,0 +1,46 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/conda-build.yml",
+      "source_repo": "conda-forge/python-zlib-ng-feedstock",
+      "target": "Build conda package",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T12:43:45.793077+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 23866
+    },
+    {
+      "path": ".github/workflows/conda-build.yml",
+      "size": 331
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A conda-smithy repository for python-zlib-ng.",
+    "fork": false,
+    "full_name": "conda-forge/python-zlib-ng-feedstock",
+    "html_url": "https://github.com/conda-forge/python-zlib-ng-feedstock",
+    "language": null,
+    "pushed_at": "2026-04-22T19:47:29Z",
+    "stargazers_count": 1,
+    "topics": [],
+    "updated_at": "2026-04-22T19:47:34Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Build conda package",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/conda-build.yml",
+      "term": "Build conda package"
+    }
+  ]
+}

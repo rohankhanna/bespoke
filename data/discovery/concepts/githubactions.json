@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "githubactions"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "arnetheduck/nph-action",
+      "status": "candidate-context",
+      "text": "Github action for the `nph` code formatter"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "arnetheduck/nph-action",
+      "status": "candidate-context",
+      "text": "This action downloads and runs the [`nph`](https://github.com/arnetheduck/nph) formatter on [Nim](https://nim-lang.org) source code, [suggesting](https://github.com/reviewdog/action-suggester) changes based on `git diff` between the repository and the formatted output."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "arnetheduck/nph-action",
+      "status": "candidate",
+      "text": "This action downloads and runs the [`nph`](https://github.com/arnetheduck/nph) formatter on [Nim](https://nim-lang.org) source code, [suggesting](https://github.com/reviewdog/action-suggester) changes based on `git diff` between the repository and the formatted output."
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "githubactions",
+  "concept_id": "githubactions",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "arnetheduck/nph-action"
+    }
+  ],
+  "first_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "githubactions",
+      "sense_id": "githubactions#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

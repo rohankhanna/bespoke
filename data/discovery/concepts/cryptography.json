@@ -391,6 +391,18 @@
       "source_repo": "lightningnetwork/lightning-onion",
       "status": "candidate-context",
       "text": "This repository houses an implementation of the [Lightning"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "crev-dev/pip-crev",
+      "status": "candidate-context",
+      "text": "Signed code reviews for Python packages."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "crev-dev/pip-crev",
+      "status": "candidate-context",
+      "text": "**WARNING: This code is in development, is being provided without support, and is subject to change at any time without notification**"
     }
   ],
   "candidate_glosses": [
@@ -591,6 +603,12 @@
       "source_repo": "lightningnetwork/lightning-onion",
       "status": "candidate",
       "text": "This repository houses an implementation of the [Lightning"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "crev-dev/pip-crev",
+      "status": "candidate",
+      "text": "**WARNING: This code is in development, is being provided without support, and is subject to change at any time without notification**"
     }
   ],
   "candidate_related_terms": [
@@ -868,11 +886,17 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "lightning/bolts"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "crev-dev/pip-crev"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "lexical_providers": [
     "datamuse"
   ],

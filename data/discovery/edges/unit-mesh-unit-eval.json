@@ -1,0 +1,69 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "unit-mesh/unit-eval",
+      "target": "unit-mesh/unit-gen",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "unit-mesh/unit-eval",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "unit-mesh/unit-eval",
+      "target": "actions/setup-java@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "unit-mesh/unit-eval",
+      "target": "gradle/gradle-build-action@v2.8.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "unit-mesh/unit-eval",
+      "target": "codecov/codecov-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "unit-mesh/unit-eval",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "unit-mesh/unit-eval",
+      "target": "actions/setup-java@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "unit-mesh/unit-eval",
+      "target": "svenstaro/upload-release-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "unit-mesh/unit-eval",
+      "target": "Release",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-24T12:33:41.350224+00:00",
+  "source_repo": "unit-mesh/unit-eval"
+}

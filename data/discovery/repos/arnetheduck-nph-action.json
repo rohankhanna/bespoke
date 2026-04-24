@@ -1,0 +1,84 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "arnetheduck/nph-action",
+      "target": "reviewdog/action-suggester",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "arnetheduck/nph-action",
+      "target": "rickstaa/action-black",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "arnetheduck/nph-action",
+      "target": "formatter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "arnetheduck/nph-action",
+      "target": "githubactions",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T13:05:19.954606+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1415
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Github action for the `nph` code formatter",
+    "fork": false,
+    "full_name": "arnetheduck/nph-action",
+    "html_url": "https://github.com/arnetheduck/nph-action",
+    "language": null,
+    "pushed_at": "2025-09-15T07:47:33Z",
+    "stargazers_count": 7,
+    "topics": [
+      "formatter",
+      "githubactions",
+      "nim"
+    ],
+    "updated_at": "2025-09-15T07:47:36Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "reviewdog/action-suggester",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rickstaa/action-black",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "This action downloads and runs the [`nph`](https://github.com/arnetheduck/nph) formatter on [Nim](https://nim-lang.org) source code, [suggesting](https://github.com/reviewdog/action-suggester) changes based on `git diff` between the repository and the formatted output.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "formatter"
+    },
+    {
+      "context_snippet": "This action downloads and runs the [`nph`](https://github.com/arnetheduck/nph) formatter on [Nim](https://nim-lang.org) source code, [suggesting](https://github.com/reviewdog/action-suggester) changes based on `git diff` between the repository and the formatted output.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "githubactions"
+    }
+  ]
+}

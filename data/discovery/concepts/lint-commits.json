@@ -79,6 +79,30 @@
       "source_repo": "clap-rs/clap",
       "status": "candidate-context",
       "text": "Lint Commits"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "auth0/node-jsonwebtoken",
+      "status": "candidate-context",
+      "text": "JsonWebToken implementation for node.js http://self-issued.info/docs/draft-ietf-oauth-json-web-token.html"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "auth0/node-jsonwebtoken",
+      "status": "candidate-context",
+      "text": "Lint Commits"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "auth0/node-jws",
+      "status": "candidate-context",
+      "text": "JSON Web Signatures"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "auth0/node-jws",
+      "status": "candidate-context",
+      "text": "Lint Commits"
     }
   ],
   "candidate_glosses": [
@@ -115,6 +139,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "clap-rs/clap",
+      "status": "candidate",
+      "text": "Lint Commits"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "auth0/node-jsonwebtoken",
+      "status": "candidate",
+      "text": "Lint Commits"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "auth0/node-jws",
       "status": "candidate",
       "text": "Lint Commits"
     }
@@ -202,11 +238,23 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": ".github/workflows/committed.yml",
       "source_repo": "clap-rs/clap"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/commitlint.yml",
+      "source_repo": "auth0/node-jsonwebtoken"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/commitlint.yml",
+      "source_repo": "auth0/node-jws"
     }
   ],
   "first_seen_at": "2026-04-18T11:32:22.637859+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "lexical_providers": [
     "datamuse"
   ],

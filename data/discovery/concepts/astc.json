@@ -19,6 +19,18 @@
       "source_repo": "alecazam/kram",
       "status": "candidate-context",
       "text": "The suite of kram tools below. I hope these improve your game, app, and art development."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ARM-software/astc-encoder",
+      "status": "candidate-context",
+      "text": "The Arm ASTC Encoder, a compressor for the Adaptive Scalable Texture Compression data format."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ARM-software/astc-encoder",
+      "status": "candidate-context",
+      "text": "The Arm\u00ae Adaptive Scalable Texture Compression (ASTC) Encoder, `astcenc`, is"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "alecazam/kram",
       "status": "candidate",
       "text": "The suite of kram tools below. I hope these improve your game, app, and art development."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ARM-software/astc-encoder",
+      "status": "candidate",
+      "text": "The Arm\u00ae Adaptive Scalable Texture Compression (ASTC) Encoder, `astcenc`, is"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": null,
       "source_repo": "alecazam/kram"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "ARM-software/astc-encoder"
     }
   ],
   "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "results"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "web-platform-tests/results-analysis-cache",
+      "status": "candidate-context",
+      "text": "Storage for https://github.com/web-platform-tests/results-analysis"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "web-platform-tests/results-analysis-cache",
+      "status": "candidate-context",
+      "text": "results"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "web-platform-tests/results-analysis-cache",
+      "status": "candidate",
+      "text": "results"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10050713,
+      "status": "candidate",
+      "text": "consequence"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10050686,
+      "status": "candidate",
+      "text": "effect"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10049175,
+      "status": "candidate",
+      "text": "outcome"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10048200,
+      "status": "candidate",
+      "text": "ensue"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10047037,
+      "status": "candidate",
+      "text": "upshot"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "results",
+  "concept_id": "results",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/results.yml",
+      "source_repo": "web-platform-tests/results-analysis-cache"
+    }
+  ],
+  "first_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "results",
+      "sense_id": "results#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

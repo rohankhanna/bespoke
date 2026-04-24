@@ -1,0 +1,100 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mozilla/geckodriver",
+      "target": "firefox",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mozilla/geckodriver",
+      "target": "gecko",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mozilla/geckodriver",
+      "target": "geckodriver",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mozilla/geckodriver",
+      "target": "rust",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mozilla/geckodriver",
+      "target": "webdriver",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T12:33:55.543401+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4221
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "WebDriver Classic proxy for automating Firefox through Marionette",
+    "fork": false,
+    "full_name": "mozilla/geckodriver",
+    "html_url": "https://github.com/mozilla/geckodriver",
+    "language": null,
+    "pushed_at": "2025-04-11T11:11:47Z",
+    "stargazers_count": 7466,
+    "topics": [
+      "firefox",
+      "gecko",
+      "geckodriver",
+      "rust",
+      "webdriver"
+    ],
+    "updated_at": "2026-04-21T06:11:23Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Proxy for using W3C [WebDriver] compatible clients to interact with",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "firefox"
+    },
+    {
+      "context_snippet": "Proxy for using W3C [WebDriver] compatible clients to interact with",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gecko"
+    },
+    {
+      "context_snippet": "Proxy for using W3C [WebDriver] compatible clients to interact with",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "geckodriver"
+    },
+    {
+      "context_snippet": "Proxy for using W3C [WebDriver] compatible clients to interact with",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust"
+    },
+    {
+      "context_snippet": "Proxy for using W3C [WebDriver] compatible clients to interact with",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "webdriver"
+    }
+  ]
+}

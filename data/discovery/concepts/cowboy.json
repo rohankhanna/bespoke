@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "cowboy"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ninenines/cowboy",
+      "status": "candidate-context",
+      "text": "Small, fast, modern HTTP server for Erlang/OTP."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ninenines/cowboy",
+      "status": "candidate-context",
+      "text": "Check Cowboy"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ninenines/cowboy",
+      "status": "candidate",
+      "text": "Check Cowboy"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39931219,
+      "status": "candidate",
+      "text": "cowhand"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39931205,
+      "status": "candidate",
+      "text": "cowpuncher"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39931191,
+      "status": "candidate",
+      "text": "cowpoke"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39930623,
+      "status": "candidate",
+      "text": "cowherd"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39930548,
+      "status": "candidate",
+      "text": "cowman"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 3023,
+      "status": "candidate",
+      "text": "cowpoke"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2024,
+      "status": "candidate",
+      "text": "puncher"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1025,
+      "status": "candidate",
+      "text": "cattleman"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1025,
+      "status": "candidate",
+      "text": "cowhand"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1020,
+      "status": "candidate",
+      "text": "cowpuncher"
+    }
+  ],
+  "canonical_name": "cowboy",
+  "concept_id": "cowboy",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "ninenines/cowboy"
+    }
+  ],
+  "first_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "cowboy",
+      "sense_id": "cowboy#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

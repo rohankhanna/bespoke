@@ -1,0 +1,178 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "uraimo/run-on-arch-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lh3/minimap2",
+      "target": "lh3/miniasm",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lh3/minimap2",
+      "target": "lh3/minimap",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lh3/minimap2",
+      "target": "lh3/ksw2",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lh3/minimap2",
+      "target": "attractivechaos/k8",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "lh3/minimap2",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "lh3/minimap2",
+      "target": "uraimo/run-on-arch-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lh3/minimap2",
+      "target": "bioinformatics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lh3/minimap2",
+      "target": "genomics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lh3/minimap2",
+      "target": "sequence-alignment",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lh3/minimap2",
+      "target": "spliced-alignment",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T12:43:27.748061+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 21615
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 60
+    },
+    {
+      "path": ".github/workflows/ci.yaml",
+      "size": 1488
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A versatile pairwise aligner for genomic and spliced nucleotide sequences",
+    "fork": false,
+    "full_name": "lh3/minimap2",
+    "html_url": "https://github.com/lh3/minimap2",
+    "language": "C",
+    "pushed_at": "2026-04-14T16:49:52Z",
+    "stargazers_count": 2162,
+    "topics": [
+      "bioinformatics",
+      "genomics",
+      "sequence-alignment",
+      "spliced-alignment"
+    ],
+    "updated_at": "2026-04-22T15:17:36Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "attractivechaos/k8",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lh3/ksw2",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lh3/miniasm",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lh3/minimap",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![GitHub Downloads](https://img.shields.io/github/downloads/lh3/minimap2/total.svg?style=social&logo=github&label=Download)](https://github.com/lh3/minimap2/releases)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bioinformatics"
+    },
+    {
+      "context_snippet": "[![GitHub Downloads](https://img.shields.io/github/downloads/lh3/minimap2/total.svg?style=social&logo=github&label=Download)](https://github.com/lh3/minimap2/releases)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "genomics"
+    },
+    {
+      "context_snippet": "[![GitHub Downloads](https://img.shields.io/github/downloads/lh3/minimap2/total.svg?style=social&logo=github&label=Download)](https://github.com/lh3/minimap2/releases)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sequence-alignment"
+    },
+    {
+      "context_snippet": "[![GitHub Downloads](https://img.shields.io/github/downloads/lh3/minimap2/total.svg?style=social&logo=github&label=Download)](https://github.com/lh3/minimap2/releases)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "spliced-alignment"
+    }
+  ]
+}

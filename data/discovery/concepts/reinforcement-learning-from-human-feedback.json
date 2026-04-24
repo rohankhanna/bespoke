@@ -19,6 +19,18 @@
       "source_repo": "OpenRLHF/OpenRLHF",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tatsu-lab/alpaca_farm",
+      "status": "candidate-context",
+      "text": "A simulation framework for RLHF and alternatives. Develop your RLHF method without collecting human data. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tatsu-lab/alpaca_farm",
+      "status": "candidate-context",
+      "text": "<p align=\"center\" width=\"100%\">"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "OpenRLHF/OpenRLHF",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tatsu-lab/alpaca_farm",
+      "status": "candidate",
+      "text": "<p align=\"center\" width=\"100%\">"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "OpenRLHF/OpenRLHF"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "tatsu-lab/alpaca_farm"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "lexical_providers": [
     "datamuse"
   ],

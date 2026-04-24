@@ -1,0 +1,439 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml"
+    },
+    {
+      "component": "docker/setup-qemu-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml"
+    },
+    {
+      "component": "docker/login-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml"
+    },
+    {
+      "component": "docker/build-push-action@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml"
+    },
+    {
+      "component": "docker/build-push-action@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml"
+    },
+    {
+      "component": "ipfs/download-ipfs-distribution-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gateway-conformance.yml"
+    },
+    {
+      "component": "ipfs/gateway-conformance/.github/actions/extract-fixtures@v0.13",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gateway-conformance.yml"
+    },
+    {
+      "component": "ipfs/start-ipfs-daemon-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gateway-conformance.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gateway-conformance.yml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gateway-conformance.yml"
+    },
+    {
+      "component": "ipfs/gateway-conformance/.github/actions/test@v0.13",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gateway-conformance.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gateway-conformance.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gateway-conformance.yml"
+    },
+    {
+      "component": "ipdxco/unified-github-workflows/.github/workflows/reusable-generated-pr.yml@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generated-pr.yml"
+    },
+    {
+      "component": "ipdxco/unified-github-workflows/.github/workflows/go-check.yml@v1.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go-check.yml"
+    },
+    {
+      "component": "ipdxco/unified-github-workflows/.github/workflows/go-test.yml@v1.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go-test.yml"
+    },
+    {
+      "component": "ipdxco/unified-github-workflows/.github/workflows/release-check.yml@v1.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-check.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ipfs/rainbow",
+      "target": "ipfs-shipyard/nopfs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ipfs/rainbow",
+      "target": "ipfs-shipyard/ansible",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ipfs/rainbow",
+      "target": "filecoin-project/lotus",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/changelog.yml",
+      "source_repo": "ipfs/rainbow",
+      "target": "Changelog",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "ipfs/rainbow",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "ipfs/rainbow",
+      "target": "docker/setup-qemu-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "ipfs/rainbow",
+      "target": "docker/setup-buildx-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "ipfs/rainbow",
+      "target": "docker/login-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "ipfs/rainbow",
+      "target": "docker/build-push-action@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "ipfs/rainbow",
+      "target": "Create and publish a Docker image",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gateway-conformance.yml",
+      "source_repo": "ipfs/rainbow",
+      "target": "ipfs/download-ipfs-distribution-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gateway-conformance.yml",
+      "source_repo": "ipfs/rainbow",
+      "target": "ipfs/gateway-conformance/.github/actions/extract-fixtures@v0.13",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gateway-conformance.yml",
+      "source_repo": "ipfs/rainbow",
+      "target": "ipfs/start-ipfs-daemon-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gateway-conformance.yml",
+      "source_repo": "ipfs/rainbow",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gateway-conformance.yml",
+      "source_repo": "ipfs/rainbow",
+      "target": "actions/setup-go@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gateway-conformance.yml",
+      "source_repo": "ipfs/rainbow",
+      "target": "ipfs/gateway-conformance/.github/actions/test@v0.13",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gateway-conformance.yml",
+      "source_repo": "ipfs/rainbow",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gateway-conformance.yml",
+      "source_repo": "ipfs/rainbow",
+      "target": "Gateway Conformance",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generated-pr.yml",
+      "source_repo": "ipfs/rainbow",
+      "target": "ipdxco/unified-github-workflows/.github/workflows/reusable-generated-pr.yml@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/generated-pr.yml",
+      "source_repo": "ipfs/rainbow",
+      "target": "Close Generated PRs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go-check.yml",
+      "source_repo": "ipfs/rainbow",
+      "target": "ipdxco/unified-github-workflows/.github/workflows/go-check.yml@v1.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/go-check.yml",
+      "source_repo": "ipfs/rainbow",
+      "target": "Go Checks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go-test.yml",
+      "source_repo": "ipfs/rainbow",
+      "target": "ipdxco/unified-github-workflows/.github/workflows/go-test.yml@v1.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/go-test.yml",
+      "source_repo": "ipfs/rainbow",
+      "target": "Go Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-check.yml",
+      "source_repo": "ipfs/rainbow",
+      "target": "ipdxco/unified-github-workflows/.github/workflows/release-check.yml@v1.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-check.yml",
+      "source_repo": "ipfs/rainbow",
+      "target": "Release Checker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ipfs/rainbow",
+      "target": "http",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ipfs/rainbow",
+      "target": "ipfs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ipfs/rainbow",
+      "target": "ipfs-gateway",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T12:55:13.815482+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10799
+    },
+    {
+      "path": "Dockerfile",
+      "size": 1685
+    },
+    {
+      "path": "go.mod",
+      "size": 11512
+    },
+    {
+      "path": ".github/workflows/changelog.yml",
+      "size": 1210
+    },
+    {
+      "path": ".github/workflows/docker.yml",
+      "size": 2130
+    },
+    {
+      "path": ".github/workflows/gateway-conformance.yml",
+      "size": 6434
+    },
+    {
+      "path": ".github/workflows/generated-pr.yml",
+      "size": 246
+    },
+    {
+      "path": ".github/workflows/go-check.yml",
+      "size": 378
+    },
+    {
+      "path": ".github/workflows/go-test.yml",
+      "size": 477
+    },
+    {
+      "path": ".github/workflows/release-check.yml",
+      "size": 419
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A specialized IPFS HTTP gateway",
+    "fork": false,
+    "full_name": "ipfs/rainbow",
+    "html_url": "https://github.com/ipfs/rainbow",
+    "language": "Go",
+    "pushed_at": "2026-04-24T12:42:04Z",
+    "stargazers_count": 168,
+    "topics": [
+      "http",
+      "ipfs",
+      "ipfs-gateway"
+    ],
+    "updated_at": "2026-04-24T12:40:17Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "filecoin-project/lotus",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ipfs-shipyard/ansible",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ipfs-shipyard/nopfs",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Changelog",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/changelog.yml",
+      "term": "Changelog"
+    },
+    {
+      "context_snippet": "Create and publish a Docker image",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker.yml",
+      "term": "Create and publish a Docker image"
+    },
+    {
+      "context_snippet": "Gateway Conformance",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gateway-conformance.yml",
+      "term": "Gateway Conformance"
+    },
+    {
+      "context_snippet": "Close Generated PRs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/generated-pr.yml",
+      "term": "Close Generated PRs"
+    },
+    {
+      "context_snippet": "Go Checks",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/go-check.yml",
+      "term": "Go Checks"
+    },
+    {
+      "context_snippet": "Go Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/go-test.yml",
+      "term": "Go Test"
+    },
+    {
+      "context_snippet": "Release Checker",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-check.yml",
+      "term": "Release Checker"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "http"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ipfs"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ipfs-gateway"
+    }
+  ]
+}

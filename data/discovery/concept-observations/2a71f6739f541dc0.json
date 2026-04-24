@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Beautiful and reliable typst code formatter"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Benchmark for master"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Benchmark for master"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13001,
+      "status": "candidate",
+      "text": "norm"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12959,
+      "status": "candidate",
+      "text": "reference"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12949,
+      "status": "candidate",
+      "text": "sat"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11980,
+      "status": "candidate",
+      "text": "background"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11980,
+      "status": "candidate",
+      "text": "base"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Benchmark for master",
+      "sense_id": "benchmark-for-master#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "benchmark-for-master",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "benchmark-for-master",
+  "observation_id": "2a71f6739f541dc0",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-24T12:33:41.350224+00:00",
+  "observed_text": "Benchmark for master",
+  "source_context_snippet": "Benchmark for master",
+  "source_file": ".github/workflows/bench.yml",
+  "source_repo": "typstyle-rs/typstyle",
+  "source_repo_description": "Beautiful and reliable typst code formatter"
+}

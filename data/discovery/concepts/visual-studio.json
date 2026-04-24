@@ -129,6 +129,18 @@
       "source_repo": "microsoft/ai-dev-gallery",
       "status": "candidate-context",
       "text": "![WindowsAI hero image](docs/images/header.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dotnet/project-system",
+      "status": "candidate-context",
+      "text": "The .NET Project System for Visual Studio"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dotnet/project-system",
+      "status": "candidate-context",
+      "text": "| Release | Build | Compliance | Publish | Localization"
     }
   ],
   "candidate_glosses": [
@@ -191,6 +203,12 @@
       "source_repo": "microsoft/ai-dev-gallery",
       "status": "candidate",
       "text": "![WindowsAI hero image](docs/images/header.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dotnet/project-system",
+      "status": "candidate",
+      "text": "| Release | Build | Compliance | Publish | Localization"
     }
   ],
   "candidate_related_terms": [],
@@ -258,11 +276,17 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "microsoft/ai-dev-gallery"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "dotnet/project-system"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "lexical_providers": [
     "datamuse"
   ],

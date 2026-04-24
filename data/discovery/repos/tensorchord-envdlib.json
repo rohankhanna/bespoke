@@ -1,0 +1,73 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linter.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linter.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linter.yml",
+      "source_repo": "tensorchord/envdlib",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linter.yml",
+      "source_repo": "tensorchord/envdlib",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tensorchord/envdlib",
+      "target": "envd",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T12:46:06.413587+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 205
+    },
+    {
+      "path": ".github/workflows/linter.yml",
+      "size": 697
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "`envd` extension library",
+    "fork": false,
+    "full_name": "tensorchord/envdlib",
+    "html_url": "https://github.com/tensorchord/envdlib",
+    "language": "Makefile",
+    "pushed_at": "2023-01-22T02:49:54Z",
+    "stargazers_count": 10,
+    "topics": [
+      "envd"
+    ],
+    "updated_at": "2026-01-25T22:33:08Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "The official extension library for [envd](https://github.com/tensorchord/envd).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "envd"
+    }
+  ]
+}

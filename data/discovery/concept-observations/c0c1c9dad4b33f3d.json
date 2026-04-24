@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Official data release to reproduce Confident Learning paper results"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Experimental data for reproducibility of CIFAR-10 experimental results in the [confident learning paper](https://arxiv.org/abs/1911.00068)."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Experimental data for reproducibility of CIFAR-10 experimental results in the [confident learning paper](https://arxiv.org/abs/1911.00068)."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "weak-supervision",
+      "sense_id": "weak-supervision#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "weak-supervision",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "weak-supervision",
+  "observation_id": "c0c1c9dad4b33f3d",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T12:33:41.350224+00:00",
+  "observed_text": "weak-supervision",
+  "source_context_snippet": "Experimental data for reproducibility of CIFAR-10 experimental results in the [confident learning paper](https://arxiv.org/abs/1911.00068).",
+  "source_file": null,
+  "source_repo": "cgnorthcutt/confidentlearning-reproduce",
+  "source_repo_description": "Official data release to reproduce Confident Learning paper results"
+}

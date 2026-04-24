@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Package Pull Requests"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "engineer-man/piston",
+      "status": "candidate-context",
+      "text": "A high performance general purpose code execution engine."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "engineer-man/piston",
+      "status": "candidate-context",
+      "text": "'Package Pull Requests'"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "engineer-man/piston",
+      "status": "candidate",
+      "text": "'Package Pull Requests'"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18256,
+      "status": "candidate",
+      "text": "application"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18161,
+      "status": "candidate",
+      "text": "collect"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18131,
+      "status": "candidate",
+      "text": "collecting"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18101,
+      "status": "candidate",
+      "text": "open"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18071,
+      "status": "candidate",
+      "text": "ball"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Package Pull Requests",
+  "concept_id": "package-pull-requests",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/package-pr.yaml",
+      "source_repo": "engineer-man/piston"
+    }
+  ],
+  "first_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Package Pull Requests",
+      "sense_id": "package-pull-requests#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

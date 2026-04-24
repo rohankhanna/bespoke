@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A tool to configure, launch and manage your machine learning experiments."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Copyright check"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Copyright check"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12814,
+      "status": "candidate",
+      "text": "enter"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12814,
+      "status": "candidate",
+      "text": "rights"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12514,
+      "status": "candidate",
+      "text": "embargo"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11793,
+      "status": "candidate",
+      "text": "act"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11793,
+      "status": "candidate",
+      "text": "bootleg"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Copyright check",
+      "sense_id": "copyright-check#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "copyright-check",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "copyright-check",
+  "observation_id": "4300735033425ace",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-24T12:33:41.350224+00:00",
+  "observed_text": "Copyright check",
+  "source_context_snippet": "Copyright check",
+  "source_file": ".github/workflows/copyright-check.yml",
+  "source_repo": "NVIDIA-NeMo/Run",
+  "source_repo_description": "A tool to configure, launch and manage your machine learning experiments."
+}

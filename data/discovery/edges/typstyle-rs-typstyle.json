@@ -1,0 +1,405 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "typstyle-rs/typstyle",
+      "target": "myriad-dreamin/tinymist",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "typstyle-rs/typstyle",
+      "target": "typstyle-rs/pre-commit-typstyle",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "typstyle-rs/typstyle",
+      "target": "jeffa5/typstfmt",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "typstyle-rs/typstyle",
+      "target": "marwes/pretty.rs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bench-comment.yml",
+      "source_repo": "typstyle-rs/typstyle",
+      "target": "dawidd6/action-download-artifact@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bench-comment.yml",
+      "source_repo": "typstyle-rs/typstyle",
+      "target": "peter-evans/find-comment@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bench-comment.yml",
+      "source_repo": "typstyle-rs/typstyle",
+      "target": "peter-evans/create-or-update-comment@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bench-comment.yml",
+      "source_repo": "typstyle-rs/typstyle",
+      "target": "Benchmark Comment",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bench-job.yml",
+      "source_repo": "typstyle-rs/typstyle",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bench-job.yml",
+      "source_repo": "typstyle-rs/typstyle",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bench-job.yml",
+      "source_repo": "typstyle-rs/typstyle",
+      "target": "dtolnay/rust-toolchain@stable",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bench-job.yml",
+      "source_repo": "typstyle-rs/typstyle",
+      "target": "taiki-e/install-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bench-job.yml",
+      "source_repo": "typstyle-rs/typstyle",
+      "target": "Swatinem/rust-cache@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bench-job.yml",
+      "source_repo": "typstyle-rs/typstyle",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bench-job.yml",
+      "source_repo": "typstyle-rs/typstyle",
+      "target": "Reusable Benchmark Job",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bench-pr.yml",
+      "source_repo": "typstyle-rs/typstyle",
+      "target": "fkirc/skip-duplicate-actions@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bench-pr.yml",
+      "source_repo": "typstyle-rs/typstyle",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bench-pr.yml",
+      "source_repo": "typstyle-rs/typstyle",
+      "target": "hustcer/setup-nu@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bench-pr.yml",
+      "source_repo": "typstyle-rs/typstyle",
+      "target": "taiki-e/install-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bench-pr.yml",
+      "source_repo": "typstyle-rs/typstyle",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bench-pr.yml",
+      "source_repo": "typstyle-rs/typstyle",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bench-pr.yml",
+      "source_repo": "typstyle-rs/typstyle",
+      "target": "Benchmark for PR",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bench.yml",
+      "source_repo": "typstyle-rs/typstyle",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bench.yml",
+      "source_repo": "typstyle-rs/typstyle",
+      "target": "dtolnay/rust-toolchain@stable",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bench.yml",
+      "source_repo": "typstyle-rs/typstyle",
+      "target": "Swatinem/rust-cache@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bench.yml",
+      "source_repo": "typstyle-rs/typstyle",
+      "target": "benchmark-action/github-action-benchmark@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bench.yml",
+      "source_repo": "typstyle-rs/typstyle",
+      "target": "Benchmark for master",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-binaries.yml",
+      "source_repo": "typstyle-rs/typstyle",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-binaries.yml",
+      "source_repo": "typstyle-rs/typstyle",
+      "target": "Swatinem/rust-cache@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-binaries.yml",
+      "source_repo": "typstyle-rs/typstyle",
+      "target": "dtolnay/rust-toolchain@stable",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-binaries.yml",
+      "source_repo": "typstyle-rs/typstyle",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-binaries.yml",
+      "source_repo": "typstyle-rs/typstyle",
+      "target": "Build Binaries",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docs.yml",
+      "source_repo": "typstyle-rs/typstyle",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docs.yml",
+      "source_repo": "typstyle-rs/typstyle",
+      "target": "dtolnay/rust-toolchain@stable",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docs.yml",
+      "source_repo": "typstyle-rs/typstyle",
+      "target": "taiki-e/install-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docs.yml",
+      "source_repo": "typstyle-rs/typstyle",
+      "target": "Swatinem/rust-cache@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docs.yml",
+      "source_repo": "typstyle-rs/typstyle",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-docs.yml",
+      "source_repo": "typstyle-rs/typstyle",
+      "target": "Build Documentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-playground.yml",
+      "source_repo": "typstyle-rs/typstyle",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-playground.yml",
+      "source_repo": "typstyle-rs/typstyle",
+      "target": "dtolnay/rust-toolchain@stable",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-playground.yml",
+      "source_repo": "typstyle-rs/typstyle",
+      "target": "taiki-e/install-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-playground.yml",
+      "source_repo": "typstyle-rs/typstyle",
+      "target": "Swatinem/rust-cache@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-playground.yml",
+      "source_repo": "typstyle-rs/typstyle",
+      "target": "pnpm/action-setup@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-playground.yml",
+      "source_repo": "typstyle-rs/typstyle",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-playground.yml",
+      "source_repo": "typstyle-rs/typstyle",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-playground.yml",
+      "source_repo": "typstyle-rs/typstyle",
+      "target": "Playground Check, Test & Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "typstyle-rs/typstyle",
+      "target": "fkirc/skip-duplicate-actions@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "typstyle-rs/typstyle",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "typstyle-rs/typstyle",
+      "target": "dtolnay/rust-toolchain@stable",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "typstyle-rs/typstyle",
+      "target": "Swatinem/rust-cache@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "typstyle-rs/typstyle",
+      "target": "dtolnay/rust-toolchain@1.89.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "typstyle-rs/typstyle",
+      "target": "taiki-e/install-action@nextest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "typstyle-rs/typstyle",
+      "target": "typst-community/setup-typst@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "typstyle-rs/typstyle",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "typstyle-rs/typstyle",
+      "target": "formatter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "typstyle-rs/typstyle",
+      "target": "typst",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "typstyle-rs/typstyle",
+      "target": "typstfmt",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-24T12:33:41.350224+00:00",
+  "source_repo": "typstyle-rs/typstyle"
+}

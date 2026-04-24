@@ -1,0 +1,125 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "fffaraz/awesome-cpp",
+      "target": "actor-framework/actor-framework",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "fffaraz/awesome-cpp",
+      "target": "a-n-t-h-o-n-y/termox",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "fffaraz/awesome-cpp",
+      "target": "3hren/blackhole",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "fffaraz/awesome-cpp",
+      "target": "aantron/better-enums",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ruby.yml",
+      "source_repo": "fffaraz/awesome-cpp",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ruby.yml",
+      "source_repo": "fffaraz/awesome-cpp",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ruby.yml",
+      "source_repo": "fffaraz/awesome-cpp",
+      "target": "Ruby",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fffaraz/awesome-cpp",
+      "target": "awesome",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fffaraz/awesome-cpp",
+      "target": "awesome-list",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fffaraz/awesome-cpp",
+      "target": "c-plus-plus",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fffaraz/awesome-cpp",
+      "target": "cpp-library",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fffaraz/awesome-cpp",
+      "target": "cppcon",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fffaraz/awesome-cpp",
+      "target": "libraries",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fffaraz/awesome-cpp",
+      "target": "list",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fffaraz/awesome-cpp",
+      "target": "lists",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fffaraz/awesome-cpp",
+      "target": "programming-tutorial",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fffaraz/awesome-cpp",
+      "target": "resources",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-24T12:33:41.350224+00:00",
+  "source_repo": "fffaraz/awesome-cpp"
+}

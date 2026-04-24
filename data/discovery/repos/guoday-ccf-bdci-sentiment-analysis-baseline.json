@@ -1,0 +1,69 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "guoday/CCF-BDCI-Sentiment-Analysis-Baseline",
+      "target": "huggingface/pytorch-transformers",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "guoday/CCF-BDCI-Sentiment-Analysis-Baseline",
+      "target": "ymcui/chinese-bert-wwm",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "guoday/CCF-BDCI-Sentiment-Analysis-Baseline",
+      "target": "ymcui/chinese-pretrained-xlnet",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-24T12:39:42.708993+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2390
+    },
+    {
+      "path": "requirements.txt",
+      "size": 222
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "The code for CCF-BDCI-Sentiment-Analysis-Baseline",
+    "fork": false,
+    "full_name": "guoday/CCF-BDCI-Sentiment-Analysis-Baseline",
+    "html_url": "https://github.com/guoday/CCF-BDCI-Sentiment-Analysis-Baseline",
+    "language": "Python",
+    "pushed_at": "2022-12-08T06:06:24Z",
+    "stargazers_count": 430,
+    "topics": [],
+    "updated_at": "2026-04-02T08:39:22Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "huggingface/pytorch-transformers",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ymcui/chinese-bert-wwm",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ymcui/chinese-pretrained-xlnet",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Build & Test (Linux)"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kvcache-ai/Mooncake",
+      "status": "candidate-context",
+      "text": "Mooncake is the serving platform for Kimi, a leading LLM service provided by Moonshot AI."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kvcache-ai/Mooncake",
+      "status": "candidate-context",
+      "text": "'Build & Test (Linux)'"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kvcache-ai/Mooncake",
+      "status": "candidate",
+      "text": "'Build & Test (Linux)'"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11684,
+      "status": "candidate",
+      "text": "form"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11684,
+      "status": "candidate",
+      "text": "kludge"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11684,
+      "status": "candidate",
+      "text": "pose"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11684,
+      "status": "candidate",
+      "text": "raise"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11612,
+      "status": "candidate",
+      "text": "rugged"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Build & Test (Linux)",
+  "concept_id": "build-test-linux",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "kvcache-ai/Mooncake"
+    }
+  ],
+  "first_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build & Test (Linux)",
+      "sense_id": "build-test-linux#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

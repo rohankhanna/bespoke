@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-24T12:58:34.360331+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1541
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Handles bracketed-paste-mode in vim (aka. automatic `:set paste`)",
+    "fork": false,
+    "full_name": "ConradIrwin/vim-bracketed-paste",
+    "html_url": "https://github.com/ConradIrwin/vim-bracketed-paste",
+    "language": "Vim Script",
+    "pushed_at": "2024-03-06T17:32:41Z",
+    "stargazers_count": 492,
+    "topics": [],
+    "updated_at": "2026-04-24T01:03:42Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

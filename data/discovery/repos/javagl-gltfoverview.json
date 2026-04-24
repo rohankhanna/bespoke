@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "javagl/gltfOverview",
+      "target": "randall2835/gltfoverviewjapanese",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "javagl/gltfOverview",
+      "target": "leeyeel/gltfoverview-chinese",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-24T13:02:53.234892+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1334
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "An overview of glTF, the GL Transmission Format",
+    "fork": false,
+    "full_name": "javagl/gltfOverview",
+    "html_url": "https://github.com/javagl/gltfOverview",
+    "language": null,
+    "pushed_at": "2024-10-26T16:51:02Z",
+    "stargazers_count": 41,
+    "topics": [],
+    "updated_at": "2026-01-26T17:46:07Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "leeyeel/gltfoverview-chinese",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "randall2835/gltfoverviewjapanese",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

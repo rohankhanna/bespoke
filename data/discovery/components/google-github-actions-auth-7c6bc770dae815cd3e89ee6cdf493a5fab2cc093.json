@@ -1,7 +1,7 @@
 {
   "component": "google-github-actions/auth@7c6bc770dae815cd3e89ee6cdf493a5fab2cc093",
   "first_seen_at": "2026-04-18T11:41:43.530265+00:00",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -32,6 +32,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/build.yml",
       "source_repo": "sigstore/rekor"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/platform-test.yml",
+      "source_repo": "grafana/k8s-monitoring-helm"
     }
   ]
 }

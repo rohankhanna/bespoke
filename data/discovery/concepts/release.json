@@ -7295,6 +7295,126 @@
       "source_repo": "doom-neovim/doom-nvim",
       "status": "candidate-context",
       "text": "release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "argilla-io/distilabel",
+      "status": "candidate-context",
+      "text": "Distilabel is a framework for synthetic data and AI feedback for engineers who need fast, reliable and scalable pipelines based on verified research papers."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "argilla-io/distilabel",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "PrimeIntellect-ai/router",
+      "status": "candidate-context",
+      "text": "A high-performance and light-weight router for vLLM large scale deployment"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PrimeIntellect-ai/router",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "zai-org/z-ai-sdk-python",
+      "status": "candidate-context",
+      "text": "The official Python SDK for Z.ai's large model open interface, making it easier for developers to call Z.ai's open APIs."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zai-org/z-ai-sdk-python",
+      "status": "candidate-context",
+      "text": "release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "syrupy-project/syrupy",
+      "status": "candidate-context",
+      "text": ":pancakes: The sweeter pytest snapshot plugin"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "syrupy-project/syrupy",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "punica-ai/punica",
+      "status": "candidate-context",
+      "text": "Serving multiple LoRA finetuned LLM as one"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "punica-ai/punica",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "phodal/auto-dev",
+      "status": "candidate-context",
+      "text": "\ud83e\uddd9\u200dAutoDev: the AI-native Multi-Agent development platform built on Kotlin Multiplatform, covering all 7 phases of SDLC."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "phodal/auto-dev",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "unit-mesh/unit-eval",
+      "status": "candidate-context",
+      "text": "UnitEval is a benchmarking and evaluation tools for AutoDev Coder."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "unit-mesh/unit-eval",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "achannarasappa/ticker",
+      "status": "candidate-context",
+      "text": "Track stocks, crypto, and derivatives prices and positions in real time from your terminal"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "achannarasappa/ticker",
+      "status": "candidate-context",
+      "text": "release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "auth0/node-jsonwebtoken",
+      "status": "candidate-context",
+      "text": "JsonWebToken implementation for node.js http://self-issued.info/docs/draft-ietf-oauth-json-web-token.html"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "auth0/node-jsonwebtoken",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "auth0/node-jws",
+      "status": "candidate-context",
+      "text": "JSON Web Signatures"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "auth0/node-jws",
+      "status": "candidate-context",
+      "text": "Release"
     }
   ],
   "candidate_glosses": [
@@ -10975,6 +11095,66 @@
       "source_repo": "doom-neovim/doom-nvim",
       "status": "candidate",
       "text": "release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "argilla-io/distilabel",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PrimeIntellect-ai/router",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zai-org/z-ai-sdk-python",
+      "status": "candidate",
+      "text": "release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "syrupy-project/syrupy",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "punica-ai/punica",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "phodal/auto-dev",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "unit-mesh/unit-eval",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "achannarasappa/ticker",
+      "status": "candidate",
+      "text": "release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "auth0/node-jsonwebtoken",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "auth0/node-jws",
+      "status": "candidate",
+      "text": "Release"
     }
   ],
   "candidate_related_terms": [
@@ -15925,11 +16105,95 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": ".github/workflows/release.yml",
       "source_repo": "doom-neovim/doom-nvim"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "argilla-io/distilabel"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "PrimeIntellect-ai/router"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/_release.yml",
+      "source_repo": "chatchat-space/Langchain-Chatchat"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/_release.yml",
+      "source_repo": "zai-org/z-ai-sdk-python"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "syrupy-project/syrupy"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/publish.yaml",
+      "source_repo": "modelscope/DiffSynth-Studio"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "get-gah/gah"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/release_wheel.yml",
+      "source_repo": "punica-ai/punica"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "phodal/auto-dev"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "unit-mesh/unit-eval"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "achannarasappa/ticker"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "auth0/node-jsonwebtoken"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "auth0/node-jws"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "coreybutler/nvm-windows"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "lexical_providers": [
     "datamuse"
   ],

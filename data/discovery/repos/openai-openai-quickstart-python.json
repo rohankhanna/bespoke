@@ -1,0 +1,49 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "openai/openai-quickstart-python",
+      "target": "openai-api",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T12:53:35.351650+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2022
+    },
+    {
+      "path": "requirements.txt",
+      "size": 334
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Python example app from the OpenAI API quickstart tutorial",
+    "fork": false,
+    "full_name": "openai/openai-quickstart-python",
+    "html_url": "https://github.com/openai/openai-quickstart-python",
+    "language": null,
+    "pushed_at": "2024-06-14T11:24:57Z",
+    "stargazers_count": 1799,
+    "topics": [
+      "openai",
+      "openai-api"
+    ],
+    "updated_at": "2026-04-24T03:23:40Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "This repository hosts multiple quickstart apps for different OpenAI API endpoints (chat, assistants, etc). Check out the `examples` folder to try out different examples and get started using the OpenAI API.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "openai-api"
+    }
+  ]
+}

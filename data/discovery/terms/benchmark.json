@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T09:09:30.058377+00:00",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -421,6 +421,26 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "bethgelab/model-vs-human"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "xlang-ai/OSWorld"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "SemiAnalysisAI/InferenceX"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "xlang-ai/DS-1000"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/benchmarks.yml",
+      "source_repo": "terser/html-minifier-terser"
     }
   ],
   "term": "Benchmark"

@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "ecmascript6"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "terser/html-minifier-terser",
+      "status": "candidate-context",
+      "text": "actively maintained fork of html-minifier - minify HTML, CSS and JS code using terser - supports ES6 code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "terser/html-minifier-terser",
+      "status": "candidate-context",
+      "text": "[![NPM version](https://img.shields.io/npm/v/html-minifier-terser.svg)](https://www.npmjs.com/package/html-minifier-terser)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "terser/html-minifier-terser",
+      "status": "candidate",
+      "text": "[![NPM version](https://img.shields.io/npm/v/html-minifier-terser.svg)](https://www.npmjs.com/package/html-minifier-terser)"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "ecmascript6",
+  "concept_id": "ecmascript6",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "terser/html-minifier-terser"
+    }
+  ],
+  "first_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "ecmascript6",
+      "sense_id": "ecmascript6#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

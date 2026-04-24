@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-24T13:01:10.537332+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1070
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "An implementation of the Universal RDF Dataset Normalization Algorithm (2015), using the Titanium JSON-LD library",
+    "fork": false,
+    "full_name": "setl/rdf-urdna",
+    "html_url": "https://github.com/setl/rdf-urdna",
+    "language": "Java",
+    "pushed_at": "2024-09-06T11:50:10Z",
+    "stargazers_count": 11,
+    "topics": [],
+    "updated_at": "2026-03-19T15:26:25Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -1,0 +1,202 @@
+{
+  "components": [
+    {
+      "component": "@commitlint/cli",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@commitlint/config-conventional",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "husky",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update_pypi.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update_pypi.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update_pypi.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tatsu-lab/alpaca_farm",
+      "target": "hazyresearch/flash-attention",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "tatsu-lab/alpaca_farm",
+      "target": "@commitlint/cli",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "tatsu-lab/alpaca_farm",
+      "target": "@commitlint/config-conventional",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "tatsu-lab/alpaca_farm",
+      "target": "husky",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update_pypi.yml",
+      "source_repo": "tatsu-lab/alpaca_farm",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update_pypi.yml",
+      "source_repo": "tatsu-lab/alpaca_farm",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update_pypi.yml",
+      "source_repo": "tatsu-lab/alpaca_farm",
+      "target": "softprops/action-gh-release@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tatsu-lab/alpaca_farm",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tatsu-lab/alpaca_farm",
+      "target": "instruction-following",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tatsu-lab/alpaca_farm",
+      "target": "large-language-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tatsu-lab/alpaca_farm",
+      "target": "natural-language-processing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tatsu-lab/alpaca_farm",
+      "target": "reinforcement-learning-from-human-feedback",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T12:36:11.039489+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 17204
+    },
+    {
+      "path": "package.json",
+      "size": 188
+    },
+    {
+      "path": "requirements.txt",
+      "size": 210
+    },
+    {
+      "path": ".github/workflows/set_version.py",
+      "size": 629
+    },
+    {
+      "path": ".github/workflows/update_pypi.yml",
+      "size": 2163
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A simulation framework for RLHF and alternatives. Develop your RLHF method without collecting human data. ",
+    "fork": false,
+    "full_name": "tatsu-lab/alpaca_farm",
+    "html_url": "https://github.com/tatsu-lab/alpaca_farm",
+    "language": "Python",
+    "pushed_at": "2024-07-01T18:53:35Z",
+    "stargazers_count": 842,
+    "topics": [
+      "deep-learning",
+      "instruction-following",
+      "large-language-models",
+      "natural-language-processing",
+      "reinforcement-learning-from-human-feedback"
+    ],
+    "updated_at": "2026-04-10T19:12:43Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hazyresearch/flash-attention",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<p align=\"center\" width=\"100%\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "<p align=\"center\" width=\"100%\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "instruction-following"
+    },
+    {
+      "context_snippet": "<p align=\"center\" width=\"100%\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "large-language-models"
+    },
+    {
+      "context_snippet": "<p align=\"center\" width=\"100%\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "natural-language-processing"
+    },
+    {
+      "context_snippet": "<p align=\"center\" width=\"100%\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "reinforcement-learning-from-human-feedback"
+    }
+  ]
+}

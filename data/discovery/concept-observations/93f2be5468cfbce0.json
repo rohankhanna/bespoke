@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Gymnasium environment for the game 2048"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![CI](https://github.com/Quentin18/gymnasium-2048/actions/workflows/build.yml/badge.svg)](https://github.com/Quentin18/gymnasium-2048/actions/workflows/build.yml)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/Quentin18/gymnasium-2048/actions/workflows/build.yml/badge.svg)](https://github.com/Quentin18/gymnasium-2048/actions/workflows/build.yml)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30045418,
+      "status": "candidate",
+      "text": "gym"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29912189,
+      "status": "candidate",
+      "text": "lyceum"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29892436,
+      "status": "candidate",
+      "text": "middle school"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29892397,
+      "status": "candidate",
+      "text": "secondary school"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29888854,
+      "status": "candidate",
+      "text": "lycee"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "gymnasium",
+      "sense_id": "gymnasium#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2034,
+      "status": "candidate",
+      "text": "gym"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2014,
+      "status": "candidate",
+      "text": "lycee"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1025,
+      "status": "candidate",
+      "text": "middle school"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1025,
+      "status": "candidate",
+      "text": "secondary school"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "lyceum"
+    }
+  ],
+  "concept_id": "gymnasium",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "gymnasium",
+  "observation_id": "93f2be5468cfbce0",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T12:33:41.350224+00:00",
+  "observed_text": "gymnasium",
+  "source_context_snippet": "[![CI](https://github.com/Quentin18/gymnasium-2048/actions/workflows/build.yml/badge.svg)](https://github.com/Quentin18/gymnasium-2048/actions/workflows/build.yml)",
+  "source_file": null,
+  "source_repo": "Quentin18/gymnasium-2048",
+  "source_repo_description": "Gymnasium environment for the game 2048"
+}

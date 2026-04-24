@@ -85,7 +85,7 @@
   "normalized_form": "chromium",
   "observation_id": "cb9824051d6caf5a",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-24T00:33:56.049672+00:00",
+  "observed_at": "2026-04-24T12:33:41.350224+00:00",
   "observed_text": "Chromium",
   "source_context_snippet": "Chromium",
   "source_file": ".github/workflows/docker-chromium.yml",

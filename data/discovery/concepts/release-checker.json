@@ -49,6 +49,30 @@
       "source_repo": "multiformats/go-multiaddr",
       "status": "candidate-context",
       "text": "Release Checker"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ipfs/boxo",
+      "status": "candidate-context",
+      "text": "A set of reference libraries for building IPFS applications and implementations in Go."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipfs/boxo",
+      "status": "candidate-context",
+      "text": "Release Checker"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ipfs/rainbow",
+      "status": "candidate-context",
+      "text": "A specialized IPFS HTTP gateway"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipfs/rainbow",
+      "status": "candidate-context",
+      "text": "Release Checker"
     }
   ],
   "candidate_glosses": [
@@ -73,6 +97,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "multiformats/go-multiaddr",
+      "status": "candidate",
+      "text": "Release Checker"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipfs/boxo",
+      "status": "candidate",
+      "text": "Release Checker"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipfs/rainbow",
       "status": "candidate",
       "text": "Release Checker"
     }
@@ -142,11 +178,23 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": ".github/workflows/release-check.yml",
       "source_repo": "multiformats/go-multiaddr"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/release-check.yml",
+      "source_repo": "ipfs/boxo"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/release-check.yml",
+      "source_repo": "ipfs/rainbow"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "lexical_providers": [
     "datamuse"
   ],

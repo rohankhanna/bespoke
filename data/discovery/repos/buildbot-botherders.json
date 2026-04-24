@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-24T12:42:09.857307+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 341
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Buildbot Administration",
+    "fork": false,
+    "full_name": "buildbot/botherders",
+    "html_url": "https://github.com/buildbot/botherders",
+    "language": "TeX",
+    "pushed_at": "2022-04-06T15:03:48Z",
+    "stargazers_count": 18,
+    "topics": [],
+    "updated_at": "2026-04-16T07:58:58Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

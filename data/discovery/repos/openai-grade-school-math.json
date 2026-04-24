@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-24T12:38:54.668337+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6112
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "openai/grade-school-math",
+    "html_url": "https://github.com/openai/grade-school-math",
+    "language": "Python",
+    "pushed_at": "2024-01-21T10:54:11Z",
+    "stargazers_count": 1421,
+    "topics": [],
+    "updated_at": "2026-04-24T08:18:45Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

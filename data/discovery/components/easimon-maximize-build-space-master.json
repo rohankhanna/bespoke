@@ -1,7 +1,7 @@
 {
   "component": "easimon/maximize-build-space@master",
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -27,6 +27,31 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/code-checker.yaml",
       "source_repo": "milvus-io/milvus"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/_build_in_container.yml",
+      "source_repo": "fanshiqing/grouped_gemm"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/server_build.yml",
+      "source_repo": "smallcloudai/refact"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/server_build_and_push_custom.yml",
+      "source_repo": "smallcloudai/refact"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/server_nightly.yml",
+      "source_repo": "smallcloudai/refact"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/server_release.yml",
+      "source_repo": "smallcloudai/refact"
     }
   ]
 }

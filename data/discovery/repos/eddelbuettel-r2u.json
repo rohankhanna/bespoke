@@ -1,0 +1,123 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "eddelbuettel/r2u",
+      "target": "eddelbuettel/r2u-builder",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "eddelbuettel/r2u",
+      "target": "eddelbuettel/r2u-config",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "eddelbuettel/r2u",
+      "target": "bioconductor/bioc2u",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "eddelbuettel/r2u",
+      "target": "eddelbuettel/github-actions",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "eddelbuettel/r2u",
+      "target": "cran",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "eddelbuettel/r2u",
+      "target": "packages",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "eddelbuettel/r2u",
+      "target": "ubuntu",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T13:01:56.887554+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 21447
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "CRAN as Ubuntu Binaries",
+    "fork": false,
+    "full_name": "eddelbuettel/r2u",
+    "html_url": "https://github.com/eddelbuettel/r2u",
+    "language": "R",
+    "pushed_at": "2026-04-23T22:35:55Z",
+    "stargazers_count": 357,
+    "topics": [
+      "cran",
+      "lts",
+      "packages",
+      "r",
+      "ubuntu"
+    ],
+    "updated_at": "2026-04-23T22:35:58Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bioconductor/bioc2u",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "eddelbuettel/github-actions",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "eddelbuettel/r2u-builder",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "eddelbuettel/r2u-config",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "- **Full integration with `apt`** as every binary resolves _all_ its dependencies: No more",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cran"
+    },
+    {
+      "context_snippet": "- **Full integration with `apt`** as every binary resolves _all_ its dependencies: No more",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "packages"
+    },
+    {
+      "context_snippet": "- **Full integration with `apt`** as every binary resolves _all_ its dependencies: No more",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ubuntu"
+    }
+  ]
+}

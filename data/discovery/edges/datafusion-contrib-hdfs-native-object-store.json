@@ -1,0 +1,41 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust-test.yml",
+      "source_repo": "datafusion-contrib/hdfs-native-object-store",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust-test.yml",
+      "source_repo": "datafusion-contrib/hdfs-native-object-store",
+      "target": "dtolnay/rust-toolchain@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust-test.yml",
+      "source_repo": "datafusion-contrib/hdfs-native-object-store",
+      "target": "Swatinem/rust-cache@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust-test.yml",
+      "source_repo": "datafusion-contrib/hdfs-native-object-store",
+      "target": "actions/setup-java@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rust-test.yml",
+      "source_repo": "datafusion-contrib/hdfs-native-object-store",
+      "target": "rust-test",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-24T12:33:41.350224+00:00",
+  "source_repo": "datafusion-contrib/hdfs-native-object-store"
+}

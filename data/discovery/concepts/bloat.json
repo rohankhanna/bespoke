@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "bloat"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "TabbyML/tabby",
+      "status": "candidate-context",
+      "text": "Self-hosted AI coding assistant"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TabbyML/tabby",
+      "status": "candidate-context",
+      "text": "bloat"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TabbyML/tabby",
+      "status": "candidate",
+      "text": "bloat"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40014724,
+      "status": "candidate",
+      "text": "distended"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40014710,
+      "status": "candidate",
+      "text": "tumescent"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40014706,
+      "status": "candidate",
+      "text": "tumid"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40014702,
+      "status": "candidate",
+      "text": "swollen"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40014422,
+      "status": "candidate",
+      "text": "puffed"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "bloat",
+  "concept_id": "bloat",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/bloat.yml",
+      "source_repo": "TabbyML/tabby"
+    }
+  ],
+  "first_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "bloat",
+      "sense_id": "bloat#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

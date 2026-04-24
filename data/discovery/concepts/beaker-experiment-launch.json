@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Beaker Experiment Launch"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "allenai/open-instruct",
+      "status": "candidate-context",
+      "text": "AllenAI's post-training codebase"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "allenai/open-instruct",
+      "status": "candidate-context",
+      "text": "Beaker Experiment Launch"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "allenai/open-instruct",
+      "status": "candidate",
+      "text": "Beaker Experiment Launch"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20055,
+      "status": "candidate",
+      "text": "flask"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19252,
+      "status": "candidate",
+      "text": "run"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19242,
+      "status": "candidate",
+      "text": "bomb"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19242,
+      "status": "candidate",
+      "text": "butt"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19242,
+      "status": "candidate",
+      "text": "butted"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Beaker Experiment Launch",
+  "concept_id": "beaker-experiment-launch",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/beaker-experiment.yml",
+      "source_repo": "allenai/open-instruct"
+    }
+  ],
+  "first_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Beaker Experiment Launch",
+      "sense_id": "beaker-experiment-launch#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

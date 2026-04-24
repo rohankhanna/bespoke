@@ -295,6 +295,78 @@
       "source_repo": "ipld/specs",
       "status": "candidate-context",
       "text": "!!!"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ipfs/boxo",
+      "status": "candidate-context",
+      "text": "A set of reference libraries for building IPFS applications and implementations in Go."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipfs/boxo",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ipfs/rainbow",
+      "status": "candidate-context",
+      "text": "A specialized IPFS HTTP gateway"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipfs/rainbow",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "2color/auspinner",
+      "status": "candidate-context",
+      "text": "Stateless CLI tool to easily pin CAR files to IPFS pinning services. Client for the IPFS Pinning Service API that speaks HTTP and Bitswap."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "2color/auspinner",
+      "status": "candidate-context",
+      "text": "![auspinner logo](./logo.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ipfs-shipyard/is-ipfs",
+      "status": "candidate-context",
+      "text": "A set of utilities to help identify IPFS resources on the web"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipfs-shipyard/is-ipfs",
+      "status": "candidate-context",
+      "text": "[![codecov](https://img.shields.io/codecov/c/github/ipfs-shipyard/is-ipfs.svg?style=flat-square)](https://codecov.io/gh/ipfs-shipyard/is-ipfs)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ipfs/i18n",
+      "status": "candidate-context",
+      "text": "IPFS Translation Project"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipfs/i18n",
+      "status": "candidate-context",
+      "text": "> Adapting IPFS apps and websites for a specific language by translating text and adding locale-specific components"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ipld/explore.ipld.io",
+      "status": "candidate-context",
+      "text": "Explore the Merkle Forest from the comfort of your browser"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipld/explore.ipld.io",
+      "status": "candidate-context",
+      "text": "> Explore the Merkle Forest from the comfort of your browser."
     }
   ],
   "candidate_glosses": [
@@ -441,6 +513,42 @@
       "source_repo": "ipld/specs",
       "status": "candidate",
       "text": "!!!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipfs/boxo",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipfs/rainbow",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "2color/auspinner",
+      "status": "candidate",
+      "text": "![auspinner logo](./logo.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipfs-shipyard/is-ipfs",
+      "status": "candidate",
+      "text": "[![codecov](https://img.shields.io/codecov/c/github/ipfs-shipyard/is-ipfs.svg?style=flat-square)](https://codecov.io/gh/ipfs-shipyard/is-ipfs)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipfs/i18n",
+      "status": "candidate",
+      "text": "> Adapting IPFS apps and websites for a specific language by translating text and adding locale-specific components"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipld/explore.ipld.io",
+      "status": "candidate",
+      "text": "> Explore the Merkle Forest from the comfort of your browser."
     }
   ],
   "candidate_related_terms": [
@@ -652,11 +760,71 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "ipld/specs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "ipfs/boxo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "ipfs/rainbow"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "2color/auspinner"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "ipfs/ipfs-desktop"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "ipfs/ipfs-webui"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "ipfs/ipfs-companion"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "ipfs-shipyard/is-ipfs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "ipfs/i18n"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "ipld/explore.ipld.io"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "multiformats/cid"
     }
   ],
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "lexical_providers": [
     "datamuse"
   ],

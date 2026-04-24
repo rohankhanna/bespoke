@@ -1,0 +1,341 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/copilot-setup-steps.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/copilot-setup-steps.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-formats.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-formats.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-formats.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-formats.yml"
+    },
+    {
+      "component": "xu-cheng/latex-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-formats.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "pre-commit/action@v3.0.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "re-actors/alls-green@release/v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "executablebooks/MyST-Parser",
+      "target": "ambv/black",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "pyproject.toml",
+      "source_repo": "executablebooks/MyST-Parser",
+      "target": "mgaitan/sphinxcontrib-mermaid",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/copilot-setup-steps.yml",
+      "source_repo": "executablebooks/MyST-Parser",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/copilot-setup-steps.yml",
+      "source_repo": "executablebooks/MyST-Parser",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/copilot-setup-steps.yml",
+      "source_repo": "executablebooks/MyST-Parser",
+      "target": "Copilot Setup Steps",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-formats.yml",
+      "source_repo": "executablebooks/MyST-Parser",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-formats.yml",
+      "source_repo": "executablebooks/MyST-Parser",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-formats.yml",
+      "source_repo": "executablebooks/MyST-Parser",
+      "target": "xu-cheng/latex-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-formats.yml",
+      "source_repo": "executablebooks/MyST-Parser",
+      "target": "build-doc-formats",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "executablebooks/MyST-Parser",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "executablebooks/MyST-Parser",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "executablebooks/MyST-Parser",
+      "target": "pre-commit/action@v3.0.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "executablebooks/MyST-Parser",
+      "target": "codecov/codecov-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "executablebooks/MyST-Parser",
+      "target": "re-actors/alls-green@release/v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "executablebooks/MyST-Parser",
+      "target": "continuous-integration",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "executablebooks/MyST-Parser",
+      "target": "docutils",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "executablebooks/MyST-Parser",
+      "target": "markdown-parser",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "executablebooks/MyST-Parser",
+      "target": "sphinx",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "executablebooks/MyST-Parser",
+      "target": "sphinx-extension",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T13:06:46.894754+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2703
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 4268
+    },
+    {
+      "path": ".github/workflows/copilot-setup-steps.yml",
+      "size": 1251
+    },
+    {
+      "path": ".github/workflows/docutils_setup.py",
+      "size": 1696
+    },
+    {
+      "path": ".github/workflows/test-formats.yml",
+      "size": 2226
+    },
+    {
+      "path": ".github/workflows/tests.yml",
+      "size": 4872
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "An extended commonmark compliant parser, with bridges to docutils/sphinx",
+    "fork": false,
+    "full_name": "executablebooks/MyST-Parser",
+    "html_url": "https://github.com/executablebooks/MyST-Parser",
+    "language": "Python",
+    "pushed_at": "2026-04-20T16:36:25Z",
+    "stargazers_count": 874,
+    "topics": [
+      "docutils",
+      "markdown-parser",
+      "sphinx",
+      "sphinx-extension"
+    ],
+    "updated_at": "2026-04-21T09:41:20Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ambv/black",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mgaitan/sphinxcontrib-mermaid",
+      "source_file": "pyproject.toml"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Copilot Setup Steps",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/copilot-setup-steps.yml",
+      "term": "Copilot Setup Steps"
+    },
+    {
+      "context_snippet": "build-doc-formats",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-formats.yml",
+      "term": "build-doc-formats"
+    },
+    {
+      "context_snippet": "continuous-integration",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests.yml",
+      "term": "continuous-integration"
+    },
+    {
+      "context_snippet": "[![Github-CI][github-ci]][github-link]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "docutils"
+    },
+    {
+      "context_snippet": "[![Github-CI][github-ci]][github-link]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "markdown-parser"
+    },
+    {
+      "context_snippet": "[![Github-CI][github-ci]][github-link]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sphinx"
+    },
+    {
+      "context_snippet": "[![Github-CI][github-ci]][github-link]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sphinx-extension"
+    }
+  ]
+}

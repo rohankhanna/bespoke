@@ -1,0 +1,83 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "ROCm/ROCgdb",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "ROCm/ROCgdb",
+      "target": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "ROCm/ROCgdb",
+      "target": "pre-commit/action@2c7b3805fd2a0fd8c1884dcaebf91fc102a13ecd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "ROCm/ROCgdb",
+      "target": "pre-commit",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/therock-ci-linux.yml",
+      "source_repo": "ROCm/ROCgdb",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/therock-ci-linux.yml",
+      "source_repo": "ROCm/ROCgdb",
+      "target": "aws-actions/configure-aws-credentials@7474bc4690e29a8392af63c5b98e7449536d5c3a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/therock-ci-linux.yml",
+      "source_repo": "ROCm/ROCgdb",
+      "target": "TheRock CI Linux",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/therock-ci.yml",
+      "source_repo": "ROCm/ROCgdb",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/therock-ci.yml",
+      "source_repo": "ROCm/ROCgdb",
+      "target": "TheRock CI for rocgdb",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/therock-test-packages.yml",
+      "source_repo": "ROCm/ROCgdb",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/therock-test-packages.yml",
+      "source_repo": "ROCm/ROCgdb",
+      "target": "TheRock Test Packages single-node",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-24T12:33:41.350224+00:00",
+  "source_repo": "ROCm/ROCgdb"
+}

@@ -1,7 +1,8 @@
 {
   "aliases": [
     "close-stale-prs",
-    "Close stale PRs"
+    "Close stale PRs",
+    "Close Stale PRs"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -32,6 +33,18 @@
       "source_repo": "ApeWorX/ape",
       "status": "candidate-context",
       "text": "\"Close stale PRs\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ROCm/rocm-libraries",
+      "status": "candidate-context",
+      "text": "super repo for rocm libraries"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ROCm/rocm-libraries",
+      "status": "candidate-context",
+      "text": "Close Stale PRs"
     }
   ],
   "candidate_glosses": [
@@ -46,6 +59,12 @@
       "source_repo": "ApeWorX/ape",
       "status": "candidate",
       "text": "\"Close stale PRs\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ROCm/rocm-libraries",
+      "status": "candidate",
+      "text": "Close Stale PRs"
     }
   ],
   "candidate_related_terms": [
@@ -101,11 +120,17 @@
       "observed_at": "2026-04-22T18:52:26.467154+00:00",
       "source_file": ".github/workflows/stale-prs.yml",
       "source_repo": "ApeWorX/ape"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/close-stale-prs.yml",
+      "source_repo": "ROCm/rocm-libraries"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "lexical_providers": [
     "datamuse"
   ],

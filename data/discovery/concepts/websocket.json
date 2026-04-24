@@ -175,6 +175,18 @@
       "source_repo": "miguelgrinberg/python-socketio",
       "status": "candidate-context",
       "text": "python-socketio"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ninenines/cowboy",
+      "status": "candidate-context",
+      "text": "Small, fast, modern HTTP server for Erlang/OTP."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ninenines/cowboy",
+      "status": "candidate-context",
+      "text": "Check Cowboy"
     }
   ],
   "candidate_glosses": [
@@ -261,6 +273,12 @@
       "source_repo": "miguelgrinberg/python-socketio",
       "status": "candidate",
       "text": "python-socketio"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ninenines/cowboy",
+      "status": "candidate",
+      "text": "Check Cowboy"
     }
   ],
   "candidate_related_terms": [],
@@ -352,11 +370,23 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "miguelgrinberg/python-socketio"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "browserless/browserless"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "ninenines/cowboy"
     }
   ],
   "first_seen_at": "2026-04-22T04:41:58.081535+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "lexical_providers": [
     "datamuse"
   ],

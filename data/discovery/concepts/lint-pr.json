@@ -175,6 +175,30 @@
       "source_repo": "akuity/kargo",
       "status": "candidate-context",
       "text": "\"Lint PR\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "zai-org/z-ai-sdk-java",
+      "status": "candidate-context",
+      "text": "Java SDK for Z.ai Open Platform"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zai-org/z-ai-sdk-java",
+      "status": "candidate-context",
+      "text": "\"Lint PR\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "zai-org/z-ai-sdk-python",
+      "status": "candidate-context",
+      "text": "The official Python SDK for Z.ai's large model open interface, making it easier for developers to call Z.ai's open APIs."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zai-org/z-ai-sdk-python",
+      "status": "candidate-context",
+      "text": "\"Lint PR\""
     }
   ],
   "candidate_glosses": [
@@ -259,6 +283,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "akuity/kargo",
+      "status": "candidate",
+      "text": "\"Lint PR\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zai-org/z-ai-sdk-java",
+      "status": "candidate",
+      "text": "\"Lint PR\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zai-org/z-ai-sdk-python",
       "status": "candidate",
       "text": "\"Lint PR\""
     }
@@ -400,11 +436,23 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": ".github/workflows/lint-pr.yaml",
       "source_repo": "akuity/kargo"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/lint-pr.yaml",
+      "source_repo": "zai-org/z-ai-sdk-java"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/lint-pr.yaml",
+      "source_repo": "zai-org/z-ai-sdk-python"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "lexical_providers": [
     "datamuse"
   ],

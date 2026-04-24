@@ -67,6 +67,18 @@
       "source_repo": "zsh-users/zsh-completions",
       "status": "candidate-context",
       "text": "zsh-completions ![GitHub release](https://img.shields.io/github/release/zsh-users/zsh-completions.svg) ![GitHub contributors](https://img.shields.io/github/contributors/zsh-users/zsh-completions.svg) [![IRC](https://img.shields.io/badge/IRC-%23zsh--completions-yellow.svg)](irc:/\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lukechilds/zsh-better-npm-completion",
+      "status": "candidate-context",
+      "text": "Better completion for npm"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lukechilds/zsh-better-npm-completion",
+      "status": "candidate-context",
+      "text": "> Better completion for `npm`"
     }
   ],
   "candidate_glosses": [
@@ -99,6 +111,12 @@
       "source_repo": "zsh-users/zsh-completions",
       "status": "candidate",
       "text": "zsh-completions ![GitHub release](https://img.shields.io/github/release/zsh-users/zsh-completions.svg) ![GitHub contributors](https://img.shields.io/github/contributors/zsh-users/zsh-completions.svg) [![IRC](https://img.shields.io/badge/IRC-%23zsh--completions-yellow.svg)](irc:/\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lukechilds/zsh-better-npm-completion",
+      "status": "candidate",
+      "text": "> Better completion for `npm`"
     }
   ],
   "candidate_related_terms": [
@@ -208,11 +226,17 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "zsh-users/zsh-completions"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "lukechilds/zsh-better-npm-completion"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "lexical_providers": [
     "datamuse"
   ],

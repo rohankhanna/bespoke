@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Believe in AI democratization. llama for nodejs backed by llama-rs, llama.cpp and rwkv.cpp, work locally on your laptop CPU. support llama/alpaca/gpt4all/vicuna/rwkv model."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "LLama for nodejs"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "LLama for nodejs"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "alpaca"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "lama"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26364,
+      "status": "candidate",
+      "text": "yamma"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 6424,
+      "status": "candidate",
+      "text": "andean"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 6424,
+      "status": "candidate",
+      "text": "andes"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "LLama for nodejs",
+      "sense_id": "llama-for-nodejs#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "llama-for-nodejs",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "llama-for-nodejs",
+  "observation_id": "f9c151b3a79c793f",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-24T12:33:41.350224+00:00",
+  "observed_text": "LLama for nodejs",
+  "source_context_snippet": "LLama for nodejs",
+  "source_file": ".github/workflows/llama-build.yml",
+  "source_repo": "Atome-FE/llama-node",
+  "source_repo_description": "Believe in AI democratization. llama for nodejs backed by llama-rs, llama.cpp and rwkv.cpp, work locally on your laptop CPU. support llama/alpaca/gpt4all/vicuna/rwkv model."
+}

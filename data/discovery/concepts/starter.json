@@ -55,6 +55,18 @@
       "source_repo": "Level/webpack-starter",
       "status": "candidate-context",
       "text": "> **Demonstrates bundling [`level`](https://github.com/Level/level) for browsers using [`webpack`](https://webpack.js.org/).**"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dwyl/flutter-todo-list-tutorial",
+      "status": "candidate-context",
+      "text": "\u2705 A detailed example/tutorial building a cross-platform Todo List App using Flutter \ud83e\udd8b"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dwyl/flutter-todo-list-tutorial",
+      "status": "candidate-context",
+      "text": "Quickly learn how to setup"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +93,12 @@
       "source_repo": "Level/webpack-starter",
       "status": "candidate",
       "text": "> **Demonstrates bundling [`level`](https://github.com/Level/level) for browsers using [`webpack`](https://webpack.js.org/).**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dwyl/flutter-todo-list-tutorial",
+      "status": "candidate",
+      "text": "Quickly learn how to setup"
     }
   ],
   "candidate_related_terms": [
@@ -184,11 +202,17 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "Level/webpack-starter"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "dwyl/flutter-todo-list-tutorial"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "lexical_providers": [
     "datamuse"
   ],

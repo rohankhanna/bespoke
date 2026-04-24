@@ -70,13 +70,6 @@
       "target_type": "repository"
     },
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "requirements.txt",
-      "source_repo": "FoundationAgents/MetaGPT",
-      "target": "volcengine/volcengine-python-sdk",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build-package.yaml",
       "source_repo": "FoundationAgents/MetaGPT",
@@ -203,7 +196,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-24T06:50:41.092699+00:00",
+  "fetched_at": "2026-04-24T12:34:25.359654+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -248,7 +241,7 @@
     "html_url": "https://github.com/FoundationAgents/MetaGPT",
     "language": "Python",
     "pushed_at": "2026-01-21T10:12:33Z",
-    "stargazers_count": 67384,
+    "stargazers_count": 67388,
     "topics": [
       "agent",
       "gpt",
@@ -256,18 +249,13 @@
       "metagpt",
       "multi-agent"
     ],
-    "updated_at": "2026-04-24T06:46:25Z"
+    "updated_at": "2026-04-24T12:33:51Z"
   },
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
       "full_name": "geekan/metagpt",
       "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "volcengine/volcengine-python-sdk",
-      "source_file": "requirements.txt"
     }
   ],
   "terms": [

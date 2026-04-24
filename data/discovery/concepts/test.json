@@ -4085,6 +4085,132 @@
       "source_repo": "curiousdannii/asyncglk",
       "status": "candidate-context",
       "text": "test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "argilla-io/distilabel",
+      "status": "candidate-context",
+      "text": "Distilabel is a framework for synthetic data and AI feedback for engineers who need fast, reliable and scalable pipelines based on verified research papers."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "argilla-io/distilabel",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "PrimeIntellect-ai/router",
+      "status": "candidate-context",
+      "text": "A high-performance and light-weight router for vLLM large scale deployment"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PrimeIntellect-ai/router",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pytest-dev/pytest-rerunfailures",
+      "status": "candidate-context",
+      "text": "a pytest plugin that re-runs failed tests up to -n times to eliminate flakey failures"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pytest-dev/pytest-rerunfailures",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "zai-org/z-ai-sdk-python",
+      "status": "candidate-context",
+      "text": "The official Python SDK for Z.ai's large model open interface, making it easier for developers to call Z.ai's open APIs."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zai-org/z-ai-sdk-python",
+      "status": "candidate-context",
+      "text": "test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "danielfrg/tsne",
+      "status": "candidate-context",
+      "text": "A python wrapper for Barnes-Hut tsne"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danielfrg/tsne",
+      "status": "candidate-context",
+      "text": "test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "achannarasappa/ticker",
+      "status": "candidate-context",
+      "text": "Track stocks, crypto, and derivatives prices and positions in real time from your terminal"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "achannarasappa/ticker",
+      "status": "candidate-context",
+      "text": "test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "afc163/fanyi",
+      "status": "candidate-context",
+      "text": "A \ud83c\udde8\ud83c\uddf3 and \ud83c\uddfa\ud83c\uddf8 translator in your command line"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "afc163/fanyi",
+      "status": "candidate-context",
+      "text": "test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "afc163/fanyi",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "auth0/node-jsonwebtoken",
+      "status": "candidate-context",
+      "text": "JsonWebToken implementation for node.js http://self-issued.info/docs/draft-ietf-oauth-json-web-token.html"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "auth0/node-jsonwebtoken",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "auth0/node-jws",
+      "status": "candidate-context",
+      "text": "JSON Web Signatures"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "auth0/node-jws",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "crev-dev/pip-crev",
+      "status": "candidate-context",
+      "text": "Signed code reviews for Python packages."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "crev-dev/pip-crev",
+      "status": "candidate-context",
+      "text": "Test"
     }
   ],
   "candidate_glosses": [
@@ -6139,6 +6265,72 @@
       "source_repo": "curiousdannii/asyncglk",
       "status": "candidate",
       "text": "test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "argilla-io/distilabel",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PrimeIntellect-ai/router",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pytest-dev/pytest-rerunfailures",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zai-org/z-ai-sdk-python",
+      "status": "candidate",
+      "text": "test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danielfrg/tsne",
+      "status": "candidate",
+      "text": "test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "achannarasappa/ticker",
+      "status": "candidate",
+      "text": "test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "afc163/fanyi",
+      "status": "candidate",
+      "text": "test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "afc163/fanyi",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "auth0/node-jsonwebtoken",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "auth0/node-jws",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "crev-dev/pip-crev",
+      "status": "candidate",
+      "text": "Test"
     }
   ],
   "candidate_related_terms": [
@@ -8581,11 +8773,125 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": ".github/workflows/test.yml",
       "source_repo": "curiousdannii/asyncglk"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "argilla-io/distilabel"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "PrimeIntellect-ai/verifiers"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "PrimeIntellect-ai/router"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "pytest-dev/pytest-rerunfailures"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/_test.yml",
+      "source_repo": "chatchat-space/Langchain-Chatchat"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/_test.yml",
+      "source_repo": "zai-org/z-ai-sdk-python"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "get-gah/gah"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "apache/datafusion-python"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "danielfrg/tsne"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "dukesoferl/re2"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "achannarasappa/ticker"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/echo.yml",
+      "source_repo": "afc163/fanyi"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "afc163/fanyi"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/test-nightly.yml",
+      "source_repo": "jestjs/jest"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "auth0/node-jsonwebtoken"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "auth0/node-jws"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "crev-dev/pip-crev"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "kurrent-io/KurrentDB-Client-Dotnet"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "zplug/zplug"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,242 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "erlef/setup-beam@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/cache@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "superfly/flyctl-actions@1.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fix-typos.yml"
+    },
+    {
+      "component": "sobolevn/misspell-fixer-action@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fix-typos.yml"
+    },
+    {
+      "component": "peter-evans/create-pull-request@v4.2.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fix-typos.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/review-apps.yml"
+    },
+    {
+      "component": "erlef/setup-beam@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/review-apps.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dwyl/email",
+      "target": "dwyl/aws-ses-lambda",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dwyl/email",
+      "target": "dwyl/app-mvp-phoenix",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dwyl/email",
+      "target": "dwyl/elixir-invoke-lambda-example",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dwyl/email",
+      "target": "club-soda/club-soda-guide",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "dwyl/email",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "dwyl/email",
+      "target": "erlef/setup-beam@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "dwyl/email",
+      "target": "actions/cache@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "dwyl/email",
+      "target": "codecov/codecov-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "dwyl/email",
+      "target": "superfly/flyctl-actions@1.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "dwyl/email",
+      "target": "Elixir CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fix-typos.yml",
+      "source_repo": "dwyl/email",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fix-typos.yml",
+      "source_repo": "dwyl/email",
+      "target": "sobolevn/misspell-fixer-action@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fix-typos.yml",
+      "source_repo": "dwyl/email",
+      "target": "peter-evans/create-pull-request@v4.2.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/fix-typos.yml",
+      "source_repo": "dwyl/email",
+      "target": "Automatically fix typos",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/review-apps.yml",
+      "source_repo": "dwyl/email",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/review-apps.yml",
+      "source_repo": "dwyl/email",
+      "target": "erlef/setup-beam@v1",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-24T12:59:49.548193+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 30396
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 2015
+    },
+    {
+      "path": ".github/workflows/fix-typos.yml",
+      "size": 418
+    },
+    {
+      "path": ".github/workflows/review-apps.yml",
+      "size": 1063
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "\u2709\ufe0f email dashboard to track deliverability and engagement stats in our App \ud83d\udcc8",
+    "fork": false,
+    "full_name": "dwyl/email",
+    "html_url": "https://github.com/dwyl/email",
+    "language": "Elixir",
+    "pushed_at": "2026-03-24T08:21:52Z",
+    "stargazers_count": 44,
+    "topics": [],
+    "updated_at": "2026-03-24T08:21:49Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "club-soda/club-soda-guide",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dwyl/app-mvp-phoenix",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dwyl/aws-ses-lambda",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dwyl/elixir-invoke-lambda-example",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Elixir CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "term": "Elixir CI"
+    },
+    {
+      "context_snippet": "Automatically fix typos",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/fix-typos.yml",
+      "term": "Automatically fix typos"
+    }
+  ]
+}

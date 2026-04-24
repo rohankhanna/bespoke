@@ -1,0 +1,277 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "OS-Agent-Survey/OS-Agent-Survey",
+      "target": "aialt/awesome-mobile-agents",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "OS-Agent-Survey/OS-Agent-Survey",
+      "target": "osu-nlp-group/gui-agents-paper-list",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "OS-Agent-Survey/OS-Agent-Survey",
+      "target": "phonellm/awesome-llm-powered-phone-gui-agents",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "OS-Agent-Survey/OS-Agent-Survey",
+      "target": "ranpox/awesome-computer-use",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OS-Agent-Survey/OS-Agent-Survey",
+      "target": "browser-agent",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OS-Agent-Survey/OS-Agent-Survey",
+      "target": "computer-use",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OS-Agent-Survey/OS-Agent-Survey",
+      "target": "computer-using",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OS-Agent-Survey/OS-Agent-Survey",
+      "target": "computer-using-agent",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OS-Agent-Survey/OS-Agent-Survey",
+      "target": "computing-devices",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OS-Agent-Survey/OS-Agent-Survey",
+      "target": "gui-agent",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OS-Agent-Survey/OS-Agent-Survey",
+      "target": "llms",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OS-Agent-Survey/OS-Agent-Survey",
+      "target": "mllms",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OS-Agent-Survey/OS-Agent-Survey",
+      "target": "operator",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OS-Agent-Survey/OS-Agent-Survey",
+      "target": "os-agent",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OS-Agent-Survey/OS-Agent-Survey",
+      "target": "os-agent-survey",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OS-Agent-Survey/OS-Agent-Survey",
+      "target": "phone-use",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OS-Agent-Survey/OS-Agent-Survey",
+      "target": "survey",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OS-Agent-Survey/OS-Agent-Survey",
+      "target": "web-agent",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T12:45:23.621009+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 68924
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "This is the repo for the paper \"OS Agents: A Survey on MLLM-based Agents for Computer, Phone and Browser Use\" (ACL 2025 Oral).",
+    "fork": false,
+    "full_name": "OS-Agent-Survey/OS-Agent-Survey",
+    "html_url": "https://github.com/OS-Agent-Survey/OS-Agent-Survey",
+    "language": null,
+    "pushed_at": "2025-08-16T07:10:15Z",
+    "stargazers_count": 409,
+    "topics": [
+      "agent",
+      "browser-agent",
+      "computer-use",
+      "computer-using",
+      "computer-using-agent",
+      "computing-devices",
+      "gui",
+      "gui-agent",
+      "llms",
+      "mllms",
+      "operator",
+      "os-agent",
+      "os-agent-survey",
+      "phone-use",
+      "survey",
+      "web-agent"
+    ],
+    "updated_at": "2026-04-24T12:20:33Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aialt/awesome-mobile-agents",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "osu-nlp-group/gui-agents-paper-list",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "phonellm/awesome-llm-powered-phone-gui-agents",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ranpox/awesome-computer-use",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<h1 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "browser-agent"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "computer-use"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "computer-using"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "computer-using-agent"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "computing-devices"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gui-agent"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "llms"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mllms"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "operator"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "os-agent"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "os-agent-survey"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "phone-use"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "survey"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "web-agent"
+    }
+  ]
+}

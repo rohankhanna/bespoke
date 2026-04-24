@@ -343,6 +343,30 @@
       "source_repo": "marmelroy/Zip",
       "status": "candidate-context",
       "text": "![Zip - Zip and unzip files in Swift](https://cloud.githubusercontent.com/assets/889949/12374908/252373d0-bcac-11e5-8ece-6933aeae8222.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ARM-software/astc-encoder",
+      "status": "candidate-context",
+      "text": "The Arm ASTC Encoder, a compressor for the Adaptive Scalable Texture Compression data format."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ARM-software/astc-encoder",
+      "status": "candidate-context",
+      "text": "The Arm\u00ae Adaptive Scalable Texture Compression (ASTC) Encoder, `astcenc`, is"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "BinomialLLC/KTX-Software-Binomial-Fork",
+      "status": "candidate-context",
+      "text": "Binomial's Fork of KTX-Software with Fixes/Improvements"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BinomialLLC/KTX-Software-Binomial-Fork",
+      "status": "candidate-context",
+      "text": "<!-- Copyright 2013-2020 Mark Callow -->"
     }
   ],
   "candidate_glosses": [
@@ -513,6 +537,18 @@
       "source_repo": "marmelroy/Zip",
       "status": "candidate",
       "text": "![Zip - Zip and unzip files in Swift](https://cloud.githubusercontent.com/assets/889949/12374908/252373d0-bcac-11e5-8ece-6933aeae8222.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ARM-software/astc-encoder",
+      "status": "candidate",
+      "text": "The Arm\u00ae Adaptive Scalable Texture Compression (ASTC) Encoder, `astcenc`, is"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BinomialLLC/KTX-Software-Binomial-Fork",
+      "status": "candidate",
+      "text": "<!-- Copyright 2013-2020 Mark Callow -->"
     }
   ],
   "candidate_related_terms": [
@@ -784,11 +820,23 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "marmelroy/Zip"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "ARM-software/astc-encoder"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "BinomialLLC/KTX-Software-Binomial-Fork"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "lexical_providers": [
     "datamuse"
   ],

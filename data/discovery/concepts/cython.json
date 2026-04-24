@@ -91,6 +91,18 @@
       "source_repo": "pypa/virtualenv",
       "status": "candidate-context",
       "text": "[![PyPI](https://img.shields.io/pypi/v/virtualenv?style=flat-square)](https://pypi.org/project/virtualenv)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cython/cython",
+      "status": "candidate-context",
+      "text": "The most widely used Python to C compiler"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cython/cython",
+      "status": "candidate-context",
+      "text": "Welcome to Cython!"
     }
   ],
   "candidate_glosses": [
@@ -135,6 +147,12 @@
       "source_repo": "pypa/virtualenv",
       "status": "candidate",
       "text": "[![PyPI](https://img.shields.io/pypi/v/virtualenv?style=flat-square)](https://pypi.org/project/virtualenv)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cython/cython",
+      "status": "candidate",
+      "text": "Welcome to Cython!"
     }
   ],
   "candidate_related_terms": [
@@ -220,11 +238,17 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "pypa/virtualenv"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "cython/cython"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "lexical_providers": [
     "datamuse"
   ],

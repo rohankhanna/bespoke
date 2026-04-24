@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Reusable Benchmark Job"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "typstyle-rs/typstyle",
+      "status": "candidate-context",
+      "text": "Beautiful and reliable typst code formatter"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "typstyle-rs/typstyle",
+      "status": "candidate-context",
+      "text": "Reusable Benchmark Job"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "typstyle-rs/typstyle",
+      "status": "candidate",
+      "text": "Reusable Benchmark Job"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24823,
+      "status": "candidate",
+      "text": "expendable"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24823,
+      "status": "candidate",
+      "text": "recycle"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24397,
+      "status": "candidate",
+      "text": "commission"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24397,
+      "status": "candidate",
+      "text": "commissioning"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24397,
+      "status": "candidate",
+      "text": "foothold"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Reusable Benchmark Job",
+  "concept_id": "reusable-benchmark-job",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/bench-job.yml",
+      "source_repo": "typstyle-rs/typstyle"
+    }
+  ],
+  "first_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Reusable Benchmark Job",
+      "sense_id": "reusable-benchmark-job#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

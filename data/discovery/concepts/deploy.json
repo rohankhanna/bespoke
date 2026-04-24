@@ -922,6 +922,30 @@
       "source_repo": "open-mmlab/mmtracking",
       "status": "candidate-context",
       "text": "deploy"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ipld/explore.ipld.io",
+      "status": "candidate-context",
+      "text": "Explore the Merkle Forest from the comfort of your browser"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipld/explore.ipld.io",
+      "status": "candidate-context",
+      "text": "Deploy"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "web-platform-tests/wpt.fyi",
+      "status": "candidate-context",
+      "text": "web-platform-tests dashboard"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "web-platform-tests/wpt.fyi",
+      "status": "candidate-context",
+      "text": "Deploy"
     }
   ],
   "candidate_glosses": [
@@ -1386,6 +1410,18 @@
       "source_repo": "open-mmlab/mmtracking",
       "status": "candidate",
       "text": "deploy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipld/explore.ipld.io",
+      "status": "candidate",
+      "text": "Deploy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "web-platform-tests/wpt.fyi",
+      "status": "candidate",
+      "text": "Deploy"
     }
   ],
   "candidate_related_terms": [
@@ -1945,11 +1981,29 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": ".github/workflows/deploy.yml",
       "source_repo": "open-mmlab/mmtracking"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "ipld/explore.ipld.io"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "web-platform-tests/wpt.fyi"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "rust-lang/mdBook"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "lexical_providers": [
     "datamuse"
   ],

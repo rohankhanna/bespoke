@@ -19,12 +19,30 @@
       "source_repo": "microsoft/DirectXMath",
       "status": "candidate-context",
       "text": "'CMake (clang-cl)'"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/DirectXTK12",
+      "status": "candidate-context",
+      "text": "The DirectX Tool Kit (aka DirectXTK12) is a collection of helper classes for writing DirectX 12 code in C++"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/DirectXTK12",
+      "status": "candidate-context",
+      "text": "'CMake (clang-cl)'"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "microsoft/DirectXMath",
+      "status": "candidate",
+      "text": "'CMake (clang-cl)'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/DirectXTK12",
       "status": "candidate",
       "text": "'CMake (clang-cl)'"
     }
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": ".github/workflows/clangcl.yml",
       "source_repo": "microsoft/DirectXMath"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/clangcl.yml",
+      "source_repo": "microsoft/DirectXTK12"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,20 +1,6 @@
 {
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "get-gah/gah",
-      "target": "get-gah/gah-db",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "get-gah/gah",
-      "target": "get-gah/setup-gah",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/integration-tests.yaml",
       "source_repo": "get-gah/gah",
@@ -134,6 +120,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-04-23T18:30:35.670459+00:00",
+  "generated_at": "2026-04-24T12:33:41.350224+00:00",
   "source_repo": "get-gah/gah"
 }

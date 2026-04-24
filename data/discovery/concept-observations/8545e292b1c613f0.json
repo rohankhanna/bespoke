@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A collection of pre-trained, state-of-the-art models in the ONNX format "
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<!--- SPDX-License-Identifier: Apache-2.0 -->"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<!--- SPDX-License-Identifier: Apache-2.0 -->"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "onnx",
+      "sense_id": "onnx#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "onnx",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "onnx",
+  "observation_id": "8545e292b1c613f0",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T12:33:41.350224+00:00",
+  "observed_text": "onnx",
+  "source_context_snippet": "<!--- SPDX-License-Identifier: Apache-2.0 -->",
+  "source_file": null,
+  "source_repo": "onnx/models",
+  "source_repo_description": "A collection of pre-trained, state-of-the-art models in the ONNX format "
+}

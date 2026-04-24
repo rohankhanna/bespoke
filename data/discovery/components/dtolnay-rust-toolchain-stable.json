@@ -1,7 +1,7 @@
 {
   "component": "dtolnay/rust-toolchain@stable",
   "first_seen_at": "2026-04-17T16:51:41.136432+00:00",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -2152,6 +2152,56 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/test.yml",
       "source_repo": "algesten/ureq"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "kvcache-ai/Mooncake"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "hyperium/http"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cron-daily-fuzz.yml",
+      "source_repo": "rust-bitcoin/rust-bitcoind-json-rpc"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/rust.yaml",
+      "source_repo": "rust-bitcoin/rust-bitcoind-json-rpc"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/bench-job.yml",
+      "source_repo": "typstyle-rs/typstyle"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/bench.yml",
+      "source_repo": "typstyle-rs/typstyle"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-binaries.yml",
+      "source_repo": "typstyle-rs/typstyle"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-docs.yml",
+      "source_repo": "typstyle-rs/typstyle"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-playground.yml",
+      "source_repo": "typstyle-rs/typstyle"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "typstyle-rs/typstyle"
     }
   ]
 }

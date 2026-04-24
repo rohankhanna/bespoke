@@ -962,6 +962,108 @@
       "source_repo": "uploadcare/pillow-simd",
       "status": "candidate-context",
       "text": "Close stale issues"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "probe-lab/network-measurements",
+      "status": "candidate-context",
+      "text": "Close Stale Issues"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ipfs-shipyard/js-mock-ipfs-pinning-service",
+      "status": "candidate-context",
+      "text": "Implementation of in-memory IPFS Pinning Service API"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipfs-shipyard/js-mock-ipfs-pinning-service",
+      "status": "candidate-context",
+      "text": "Close Stale Issues"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ipfs-shipyard/is-ipfs",
+      "status": "candidate-context",
+      "text": "A set of utilities to help identify IPFS resources on the web"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipfs-shipyard/is-ipfs",
+      "status": "candidate-context",
+      "text": "Close Stale Issues"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ipfs/i18n",
+      "status": "candidate-context",
+      "text": "IPFS Translation Project"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipfs/i18n",
+      "status": "candidate-context",
+      "text": "Close Stale Issues"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ipld/explore.ipld.io",
+      "status": "candidate-context",
+      "text": "Explore the Merkle Forest from the comfort of your browser"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipld/explore.ipld.io",
+      "status": "candidate-context",
+      "text": "Close Stale Issues"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ipfs-examples/example-template",
+      "status": "candidate-context",
+      "text": "Template to create new example from remote source for js-ipfs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipfs-examples/example-template",
+      "status": "candidate-context",
+      "text": "Close Stale Issues"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ipfs/roadmap",
+      "status": "candidate-context",
+      "text": "IPFS Project && Working Group Roadmaps Repo"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipfs/roadmap",
+      "status": "candidate-context",
+      "text": "Close Stale Issues"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ipld/js-bitcoin",
+      "status": "candidate-context",
+      "text": "JavaScript Bitcoin data multiformats codecs and utilities for IPLD"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipld/js-bitcoin",
+      "status": "candidate-context",
+      "text": "Close Stale Issues"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ipld/js-dag-pb",
+      "status": "candidate-context",
+      "text": "An implementation of the DAG-PB spec for JavaScript (for use with multiformats or @ipld/block)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipld/js-dag-pb",
+      "status": "candidate-context",
+      "text": "Close Stale Issues"
     }
   ],
   "candidate_glosses": [
@@ -1444,6 +1546,60 @@
       "source_repo": "uploadcare/pillow-simd",
       "status": "candidate",
       "text": "Close stale issues"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "probe-lab/network-measurements",
+      "status": "candidate",
+      "text": "Close Stale Issues"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipfs-shipyard/js-mock-ipfs-pinning-service",
+      "status": "candidate",
+      "text": "Close Stale Issues"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipfs-shipyard/is-ipfs",
+      "status": "candidate",
+      "text": "Close Stale Issues"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipfs/i18n",
+      "status": "candidate",
+      "text": "Close Stale Issues"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipld/explore.ipld.io",
+      "status": "candidate",
+      "text": "Close Stale Issues"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipfs-examples/example-template",
+      "status": "candidate",
+      "text": "Close Stale Issues"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipfs/roadmap",
+      "status": "candidate",
+      "text": "Close Stale Issues"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipld/js-bitcoin",
+      "status": "candidate",
+      "text": "Close Stale Issues"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipld/js-dag-pb",
+      "status": "candidate",
+      "text": "Close Stale Issues"
     }
   ],
   "candidate_related_terms": [
@@ -2033,11 +2189,89 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": ".github/workflows/stale.yml",
       "source_repo": "uploadcare/pillow-simd"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "probe-lab/network-measurements"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "ipfs/ipfs-desktop"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "ipfs/ipfs-webui"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "ipfs-shipyard/js-mock-ipfs-pinning-service"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "ipfs/ipfs-companion"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "ipfs-shipyard/is-ipfs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "ipfs/i18n"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "ipld/explore.ipld.io"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "ipfs-examples/example-template"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "ipfs/roadmap"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "multiformats/cid"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "ipld/js-bitcoin"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "ipld/js-dag-pb"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "lexical_providers": [
     "datamuse"
   ],

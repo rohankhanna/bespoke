@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A curated list of awesome C++ (or C) frameworks, libraries, resources, and shiny things. Inspired by awesome-... stuff."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "A curated list of awesome C++ (or C) frameworks, libraries, resources, and shiny things. Inspired by awesome-... stuff."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "A curated list of awesome C++ (or C) frameworks, libraries, resources, and shiny things. Inspired by awesome-... stuff."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10028734,
+      "status": "candidate",
+      "text": "resourcefulness"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10012427,
+      "status": "candidate",
+      "text": "imagination"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 51426,
+      "status": "candidate",
+      "text": "allocation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 51426,
+      "status": "candidate",
+      "text": "allocations"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 51426,
+      "status": "candidate",
+      "text": "amount"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "resources",
+      "sense_id": "resources#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "resources",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "resources",
+  "observation_id": "1ad5762e9bc0b178",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T12:33:41.350224+00:00",
+  "observed_text": "resources",
+  "source_context_snippet": "A curated list of awesome C++ (or C) frameworks, libraries, resources, and shiny things. Inspired by awesome-... stuff.",
+  "source_file": null,
+  "source_repo": "fffaraz/awesome-cpp",
+  "source_repo_description": "A curated list of awesome C++ (or C) frameworks, libraries, resources, and shiny things. Inspired by awesome-... stuff."
+}

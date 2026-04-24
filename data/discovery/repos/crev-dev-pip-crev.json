@@ -1,0 +1,195 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-docker.yml"
+    },
+    {
+      "component": "whoan/docker-build-with-cache-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-docker.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/setup-python@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "crev-dev/pip-crev",
+      "target": "sourcery-ai/python-best-practices-cookiecutter",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-docker.yml",
+      "source_repo": "crev-dev/pip-crev",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-docker.yml",
+      "source_repo": "crev-dev/pip-crev",
+      "target": "whoan/docker-build-with-cache-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-docker.yml",
+      "source_repo": "crev-dev/pip-crev",
+      "target": "Publish docker image",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "crev-dev/pip-crev",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "crev-dev/pip-crev",
+      "target": "actions/setup-python@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "crev-dev/pip-crev",
+      "target": "Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "crev-dev/pip-crev",
+      "target": "code-review",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "crev-dev/pip-crev",
+      "target": "crev",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "crev-dev/pip-crev",
+      "target": "cryptography",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "crev-dev/pip-crev",
+      "target": "distributed",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T13:01:13.221025+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 533
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 40
+    },
+    {
+      "path": "Dockerfile",
+      "size": 784
+    },
+    {
+      "path": ".github/workflows/publish-docker.yml",
+      "size": 423
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 901
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Signed code reviews for Python packages.",
+    "fork": false,
+    "full_name": "crev-dev/pip-crev",
+    "html_url": "https://github.com/crev-dev/pip-crev",
+    "language": "Python",
+    "pushed_at": "2022-12-08T10:02:38Z",
+    "stargazers_count": 27,
+    "topics": [
+      "code-review",
+      "crev",
+      "cryptography",
+      "distributed"
+    ],
+    "updated_at": "2026-04-11T12:05:53Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sourcery-ai/python-best-practices-cookiecutter",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Publish docker image",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-docker.yml",
+      "term": "Publish docker image"
+    },
+    {
+      "context_snippet": "Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "Test"
+    },
+    {
+      "context_snippet": "**WARNING: This code is in development, is being provided without support, and is subject to change at any time without notification**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "code-review"
+    },
+    {
+      "context_snippet": "**WARNING: This code is in development, is being provided without support, and is subject to change at any time without notification**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "crev"
+    },
+    {
+      "context_snippet": "**WARNING: This code is in development, is being provided without support, and is subject to change at any time without notification**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cryptography"
+    },
+    {
+      "context_snippet": "**WARNING: This code is in development, is being provided without support, and is subject to change at any time without notification**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "distributed"
+    }
+  ]
+}

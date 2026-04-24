@@ -416,6 +416,18 @@
       "source_repo": "ipikuka/remark-flexible-containers",
       "status": "candidate-context",
       "text": "main"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "softprops/hubcaps",
+      "status": "candidate-context",
+      "text": "a rust interface for github"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "softprops/hubcaps",
+      "status": "candidate-context",
+      "text": "Main"
     }
   ],
   "candidate_glosses": [
@@ -622,6 +634,12 @@
       "source_repo": "ipikuka/remark-flexible-containers",
       "status": "candidate",
       "text": "main"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "softprops/hubcaps",
+      "status": "candidate",
+      "text": "Main"
     }
   ],
   "candidate_related_terms": [
@@ -935,11 +953,17 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": ".github/workflows/main.yml",
       "source_repo": "ipikuka/remark-flexible-containers"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "softprops/hubcaps"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "lexical_providers": [
     "datamuse"
   ],

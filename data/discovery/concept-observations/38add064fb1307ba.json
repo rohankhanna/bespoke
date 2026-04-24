@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Official Python SDK for the Agent2Agent (A2A) Protocol"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "\"Conventional Commits\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "\"Conventional Commits\""
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10668,
+      "status": "candidate",
+      "text": "home"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10632,
+      "status": "candidate",
+      "text": "abuse"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10632,
+      "status": "candidate",
+      "text": "pirate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10632,
+      "status": "candidate",
+      "text": "suicide"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10587,
+      "status": "candidate",
+      "text": "abused"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Conventional Commits",
+      "sense_id": "conventional-commits#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "conventional-commits",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "conventional-commits",
+  "observation_id": "38add064fb1307ba",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-24T12:33:41.350224+00:00",
+  "observed_text": "Conventional Commits",
+  "source_context_snippet": "\"Conventional Commits\"",
+  "source_file": ".github/workflows/conventional-commits.yml",
+  "source_repo": "a2aproject/a2a-python",
+  "source_repo_description": "Official Python SDK for the Agent2Agent (A2A) Protocol"
+}

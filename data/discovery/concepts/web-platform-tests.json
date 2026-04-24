@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "web-platform-tests"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "web-platform-tests/wpt.fyi",
+      "status": "candidate-context",
+      "text": "web-platform-tests dashboard"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "web-platform-tests/wpt.fyi",
+      "status": "candidate-context",
+      "text": "[![GitHub Actions](https://github.com/web-platform-tests/wpt.fyi/workflows/Continuous%20Integration/badge.svg)](https://github.com/web-platform-tests/wpt.fyi/actions?query=workflow%3A%22Continuous+Integration%22+branch%3Amaster)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "web-platform-tests/wpt.fyi",
+      "status": "candidate",
+      "text": "[![GitHub Actions](https://github.com/web-platform-tests/wpt.fyi/workflows/Continuous%20Integration/badge.svg)](https://github.com/web-platform-tests/wpt.fyi/actions?query=workflow%3A%22Continuous+Integration%22+branch%3Amaster)"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "web-platform-tests",
+  "concept_id": "web-platform-tests",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "web-platform-tests/wpt.fyi"
+    }
+  ],
+  "first_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "web-platform-tests",
+      "sense_id": "web-platform-tests#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

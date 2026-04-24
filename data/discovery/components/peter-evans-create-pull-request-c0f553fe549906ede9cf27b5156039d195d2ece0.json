@@ -1,7 +1,7 @@
 {
   "component": "peter-evans/create-pull-request@c0f553fe549906ede9cf27b5156039d195d2ece0",
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -167,6 +167,16 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/update-flatpak-docs.yml",
       "source_repo": "flatpak/flatpak-docs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/prepare-release.yml",
+      "source_repo": "auth0/node-jsonwebtoken"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/prepare-release.yml",
+      "source_repo": "auth0/node-jws"
     }
   ]
 }

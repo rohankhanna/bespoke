@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Hipblaslt Documentation Agent"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ROCm/rocm-libraries",
+      "status": "candidate-context",
+      "text": "super repo for rocm libraries"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ROCm/rocm-libraries",
+      "status": "candidate-context",
+      "text": "\"Hipblaslt Documentation Agent\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ROCm/rocm-libraries",
+      "status": "candidate",
+      "text": "\"Hipblaslt Documentation Agent\""
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12456,
+      "status": "candidate",
+      "text": "source"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11434,
+      "status": "candidate",
+      "text": "credentials"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11434,
+      "status": "candidate",
+      "text": "document"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11434,
+      "status": "candidate",
+      "text": "documents"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11434,
+      "status": "candidate",
+      "text": "file"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Hipblaslt Documentation Agent",
+  "concept_id": "hipblaslt-documentation-agent",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/hipblaslt-doc-agent.lock.yml",
+      "source_repo": "ROCm/rocm-libraries"
+    }
+  ],
+  "first_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Hipblaslt Documentation Agent",
+      "sense_id": "hipblaslt-documentation-agent#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

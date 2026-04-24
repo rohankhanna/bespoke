@@ -2290,6 +2290,66 @@
       "source_repo": "snowflakedb/gosnowflake",
       "status": "candidate-context",
       "text": "**Version 2.0.0 of the Go Snowflake Driver was released on March 3rd, 2026.** This major version includes breaking changes that require code updates when migrating from v1.x."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "seasonjs/rwkv",
+      "status": "candidate-context",
+      "text": "pure go for rwkv"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "seasonjs/rwkv",
+      "status": "candidate-context",
+      "text": "pure go for rwkv and support cross-platform."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "spotify/annoy",
+      "status": "candidate-context",
+      "text": "Approximate Nearest Neighbors in C++/Python optimized for memory usage and loading/saving to disk"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "spotify/annoy",
+      "status": "candidate-context",
+      "text": "Annoy"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "achannarasappa/ticker",
+      "status": "candidate-context",
+      "text": "Track stocks, crypto, and derivatives prices and positions in real time from your terminal"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "achannarasappa/ticker",
+      "status": "candidate-context",
+      "text": "<p>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "go-rod/rod",
+      "status": "candidate-context",
+      "text": "A Chrome DevTools Protocol driver for web automation and scraping."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "go-rod/rod",
+      "status": "candidate-context",
+      "text": "[![Go Reference](https://pkg.go.dev/badge/github.com/go-rod/rod.svg)](https://pkg.go.dev/github.com/go-rod/rod)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bluesky-social/goat",
+      "status": "candidate-context",
+      "text": "Go AT protocol CLI tool"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bluesky-social/goat",
+      "status": "candidate-context",
+      "text": "golang"
     }
   ],
   "candidate_glosses": [
@@ -3438,6 +3498,36 @@
       "source_repo": "snowflakedb/gosnowflake",
       "status": "candidate",
       "text": "**Version 2.0.0 of the Go Snowflake Driver was released on March 3rd, 2026.** This major version includes breaking changes that require code updates when migrating from v1.x."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "seasonjs/rwkv",
+      "status": "candidate",
+      "text": "pure go for rwkv and support cross-platform."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "spotify/annoy",
+      "status": "candidate",
+      "text": "Annoy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "achannarasappa/ticker",
+      "status": "candidate",
+      "text": "<p>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "go-rod/rod",
+      "status": "candidate",
+      "text": "[![Go Reference](https://pkg.go.dev/badge/github.com/go-rod/rod.svg)](https://pkg.go.dev/github.com/go-rod/rod)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bluesky-social/goat",
+      "status": "candidate",
+      "text": "golang"
     }
   ],
   "candidate_related_terms": [],
@@ -4669,11 +4759,41 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "ko-build/ko"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "seasonjs/rwkv"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "spotify/annoy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "achannarasappa/ticker"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "go-rod/rod"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/golang.yml",
+      "source_repo": "bluesky-social/goat"
     }
   ],
   "first_seen_at": "2026-04-18T10:38:37.562216+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "lexical_providers": [
     "datamuse"
   ],

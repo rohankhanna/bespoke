@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A high-throughput and memory-efficient inference and serving engine for LLMs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Cleanup PR Body"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Cleanup PR Body"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24324,
+      "status": "candidate",
+      "text": "exposure"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24304,
+      "status": "candidate",
+      "text": "key"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24284,
+      "status": "candidate",
+      "text": "release"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24284,
+      "status": "candidate",
+      "text": "spin"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24264,
+      "status": "candidate",
+      "text": "tying"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Cleanup PR Body",
+      "sense_id": "cleanup-pr-body#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "cleanup-pr-body",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "cleanup-pr-body",
+  "observation_id": "320233bda54d1931",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-24T12:33:41.350224+00:00",
+  "observed_text": "Cleanup PR Body",
+  "source_context_snippet": "Cleanup PR Body",
+  "source_file": ".github/workflows/cleanup_pr_body.yml",
+  "source_repo": "HabanaAI/vllm-fork",
+  "source_repo_description": "A high-throughput and memory-efficient inference and serving engine for LLMs"
+}

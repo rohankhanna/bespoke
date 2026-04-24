@@ -31,6 +31,18 @@
       "source_repo": "brightmart/albert_zh",
       "status": "candidate-context",
       "text": "An Implementation of <a href=\"https://arxiv.org/pdf/1909.11942.pdf\">A Lite Bert For Self-Supervised Learning Language Representations</a> with TensorFlow"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ChineseGLUE/ChineseGLUE",
+      "status": "candidate-context",
+      "text": "Language Understanding Evaluation benchmark for Chinese: datasets, baselines, pre-trained models,corpus and leaderboard"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ChineseGLUE/ChineseGLUE",
+      "status": "candidate-context",
+      "text": "Language Understanding Evaluation benchmark for Chinese: datasets, baselines, pre-trained models, corpus and leaderboard"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "brightmart/albert_zh",
       "status": "candidate",
       "text": "An Implementation of <a href=\"https://arxiv.org/pdf/1909.11942.pdf\">A Lite Bert For Self-Supervised Learning Language Representations</a> with TensorFlow"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ChineseGLUE/ChineseGLUE",
+      "status": "candidate",
+      "text": "Language Understanding Evaluation benchmark for Chinese: datasets, baselines, pre-trained models, corpus and leaderboard"
     }
   ],
   "candidate_related_terms": [
@@ -100,11 +118,17 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "brightmart/albert_zh"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "ChineseGLUE/ChineseGLUE"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "lexical_providers": [
     "datamuse"
   ],

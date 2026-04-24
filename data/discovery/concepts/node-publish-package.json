@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Node Publish Package"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "archiverjs/node-archiver",
+      "status": "candidate-context",
+      "text": "a streaming interface for archive generation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "archiverjs/node-archiver",
+      "status": "candidate-context",
+      "text": "Node Publish Package"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "archiverjs/node-archiver",
+      "status": "candidate",
+      "text": "Node Publish Package"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18214,
+      "status": "candidate",
+      "text": "joint"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18177,
+      "status": "candidate",
+      "text": "knot"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18177,
+      "status": "candidate",
+      "text": "knotting"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18105,
+      "status": "candidate",
+      "text": "bid"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18105,
+      "status": "candidate",
+      "text": "scale"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Node Publish Package",
+  "concept_id": "node-publish-package",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/npmpublish.yml",
+      "source_repo": "archiverjs/node-archiver"
+    }
+  ],
+  "first_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Node Publish Package",
+      "sense_id": "node-publish-package#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

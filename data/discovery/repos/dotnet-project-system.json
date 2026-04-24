@@ -1,0 +1,228 @@
+{
+  "components": [
+    {
+      "component": "dotnet/arcade/.github/workflows/backport-base.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backport.yaml"
+    },
+    {
+      "component": "actions/checkout@96f53100ba2a5449eb71d2e6604bbcd94b9449b5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/markdown-link-check.yml"
+    },
+    {
+      "component": "gaurav-nelson/github-action-markdown-link-check@322b2315689b8cc8c65c14a07064ec862e62ee7c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/markdown-link-check.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dotnet/project-system",
+      "target": "microsoft/vsprojectsystem",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dotnet/project-system",
+      "target": "dotnet/msbuild",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dotnet/project-system",
+      "target": "dotnet/home",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backport.yaml",
+      "source_repo": "dotnet/project-system",
+      "target": "dotnet/arcade/.github/workflows/backport-base.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/backport.yaml",
+      "source_repo": "dotnet/project-system",
+      "target": "Backport PR to branch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/markdown-link-check.yml",
+      "source_repo": "dotnet/project-system",
+      "target": "actions/checkout@96f53100ba2a5449eb71d2e6604bbcd94b9449b5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/markdown-link-check.yml",
+      "source_repo": "dotnet/project-system",
+      "target": "gaurav-nelson/github-action-markdown-link-check@322b2315689b8cc8c65c14a07064ec862e62ee7c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dotnet/project-system",
+      "target": "csharp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dotnet/project-system",
+      "target": "csproj",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dotnet/project-system",
+      "target": "fsharp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dotnet/project-system",
+      "target": "fsproj",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dotnet/project-system",
+      "target": "vbproj",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dotnet/project-system",
+      "target": "visual-basic",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dotnet/project-system",
+      "target": "visual-studio",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T13:04:34.417017+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8345
+    },
+    {
+      "path": ".github/workflows/backport.yaml",
+      "size": 459
+    },
+    {
+      "path": ".github/workflows/markdown-link-check-config.json",
+      "size": 584
+    },
+    {
+      "path": ".github/workflows/markdown-link-check.yml",
+      "size": 650
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "The .NET Project System for Visual Studio",
+    "fork": false,
+    "full_name": "dotnet/project-system",
+    "html_url": "https://github.com/dotnet/project-system",
+    "language": "C#",
+    "pushed_at": "2026-04-01T00:50:29Z",
+    "stargazers_count": 1009,
+    "topics": [
+      "cps",
+      "csharp",
+      "csproj",
+      "fsharp",
+      "fsproj",
+      "vbproj",
+      "visual-basic",
+      "visual-studio"
+    ],
+    "updated_at": "2026-04-17T14:06:11Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dotnet/home",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dotnet/msbuild",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "microsoft/vsprojectsystem",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Backport PR to branch",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/backport.yaml",
+      "term": "Backport PR to branch"
+    },
+    {
+      "context_snippet": "| Release | Build | Compliance | Publish | Localization",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "csharp"
+    },
+    {
+      "context_snippet": "| Release | Build | Compliance | Publish | Localization",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "csproj"
+    },
+    {
+      "context_snippet": "| Release | Build | Compliance | Publish | Localization",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fsharp"
+    },
+    {
+      "context_snippet": "| Release | Build | Compliance | Publish | Localization",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fsproj"
+    },
+    {
+      "context_snippet": "| Release | Build | Compliance | Publish | Localization",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vbproj"
+    },
+    {
+      "context_snippet": "| Release | Build | Compliance | Publish | Localization",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "visual-basic"
+    },
+    {
+      "context_snippet": "| Release | Build | Compliance | Publish | Localization",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "visual-studio"
+    }
+  ]
+}

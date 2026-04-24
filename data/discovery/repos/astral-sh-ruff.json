@@ -876,21 +876,21 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "astral-sh/ruff",
-      "target": "astral-sh/ruff-vscode",
+      "target": "bokeh/bokeh",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "astral-sh/ruff",
-      "target": "astral-sh/ruff-pre-commit",
+      "target": "astrazeneca/magnus-core",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "astral-sh/ruff",
-      "target": "astral-sh/ruff-action",
+      "target": "benchling/refac",
       "target_type": "repository"
     },
     {
@@ -1300,7 +1300,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-24T00:40:46.549637+00:00",
+  "fetched_at": "2026-04-24T12:46:42.924273+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -1316,7 +1316,7 @@
     },
     {
       "path": "pyproject.toml",
-      "size": 4368
+      "size": 4267
     },
     {
       "path": ".github/workflows/build-binaries.yml",
@@ -1352,8 +1352,8 @@
     "full_name": "astral-sh/ruff",
     "html_url": "https://github.com/astral-sh/ruff",
     "language": "Rust",
-    "pushed_at": "2026-04-23T21:09:10Z",
-    "stargazers_count": 47222,
+    "pushed_at": "2026-04-24T11:57:15Z",
+    "stargazers_count": 47228,
     "topics": [
       "linter",
       "pep8",
@@ -1367,7 +1367,7 @@
       "style-guide",
       "styleguide"
     ],
-    "updated_at": "2026-04-23T23:22:00Z"
+    "updated_at": "2026-04-24T12:10:34Z"
   },
   "repo_links": [
     {
@@ -1377,17 +1377,17 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "astral-sh/ruff-action",
+      "full_name": "astrazeneca/magnus-core",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "astral-sh/ruff-pre-commit",
+      "full_name": "benchling/refac",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "astral-sh/ruff-vscode",
+      "full_name": "bokeh/bokeh",
       "source_file": "README.md"
     }
   ],

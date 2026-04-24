@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-19T17:36:09.281008+00:00",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -41,6 +41,21 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/ci.autofix.yml",
       "source_repo": "EpicenterHQ/epicenter"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/autofix-pnpm.yml",
+      "source_repo": "TabbyML/tabby"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/autofix-python.yml",
+      "source_repo": "TabbyML/tabby"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/autofix-rust.yml",
+      "source_repo": "TabbyML/tabby"
     }
   ],
   "term": "autofix.ci"

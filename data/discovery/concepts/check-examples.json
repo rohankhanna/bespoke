@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Check Examples"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "go-rod/rod",
+      "status": "candidate-context",
+      "text": "A Chrome DevTools Protocol driver for web automation and scraping."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "go-rod/rod",
+      "status": "candidate-context",
+      "text": "Check Examples"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "go-rod/rod",
+      "status": "candidate",
+      "text": "Check Examples"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12093,
+      "status": "candidate",
+      "text": "case"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12093,
+      "status": "candidate",
+      "text": "demonstrate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12093,
+      "status": "candidate",
+      "text": "monitoring"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12093,
+      "status": "candidate",
+      "text": "void"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10970,
+      "status": "candidate",
+      "text": "abstract"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Check Examples",
+  "concept_id": "check-examples",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/check-examples.yml",
+      "source_repo": "go-rod/rod"
+    }
+  ],
+  "first_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Check Examples",
+      "sense_id": "check-examples#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

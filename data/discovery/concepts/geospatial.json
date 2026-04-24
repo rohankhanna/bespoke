@@ -79,6 +79,30 @@
       "source_repo": "georust/proj",
       "status": "candidate-context",
       "text": "![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/georust/proj/test.yml?branch=main)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "GEOSwift/GEOSwift",
+      "status": "candidate-context",
+      "text": "The Swift Geometry Engine."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GEOSwift/GEOSwift",
+      "status": "candidate-context",
+      "text": "![GEOSwift](/README-images/GEOSwift.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "CesiumGS/3d-tiles",
+      "status": "candidate-context",
+      "text": "Specification for streaming massive heterogeneous 3D geospatial datasets :earth_americas:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CesiumGS/3d-tiles",
+      "status": "candidate-context",
+      "text": "![](figures/3DTiles_light_color_small.png#gh-dark-mode-only)![](figures/3DTiles_dark_color_small.png#gh-light-mode-only)"
     }
   ],
   "candidate_glosses": [
@@ -117,6 +141,18 @@
       "source_repo": "georust/proj",
       "status": "candidate",
       "text": "![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/georust/proj/test.yml?branch=main)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GEOSwift/GEOSwift",
+      "status": "candidate",
+      "text": "![GEOSwift](/README-images/GEOSwift.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CesiumGS/3d-tiles",
+      "status": "candidate",
+      "text": "![](figures/3DTiles_light_color_small.png#gh-dark-mode-only)![](figures/3DTiles_dark_color_small.png#gh-light-mode-only)"
     }
   ],
   "candidate_related_terms": [
@@ -196,11 +232,23 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "georust/proj"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "GEOSwift/GEOSwift"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "CesiumGS/3d-tiles"
     }
   ],
   "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T11:32:22.637859+00:00",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -36,6 +36,16 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/committed.yml",
       "source_repo": "clap-rs/clap"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/commitlint.yml",
+      "source_repo": "auth0/node-jsonwebtoken"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/commitlint.yml",
+      "source_repo": "auth0/node-jws"
     }
   ],
   "term": "Lint Commits"

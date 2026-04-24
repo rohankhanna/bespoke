@@ -1,0 +1,41 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake.yml",
+      "source_repo": "eliemichel/LearnWebGPU-Code",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cmake.yml",
+      "source_repo": "eliemichel/LearnWebGPU-Code",
+      "target": "CMake",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "eliemichel/LearnWebGPU-Code",
+      "target": "graphics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "eliemichel/LearnWebGPU-Code",
+      "target": "lecture-notes",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "eliemichel/LearnWebGPU-Code",
+      "target": "webgpu",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-24T12:33:41.350224+00:00",
+  "source_repo": "eliemichel/LearnWebGPU-Code"
+}

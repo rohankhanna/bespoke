@@ -1,0 +1,307 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "microsoft/DirectXTK12",
+      "target": "microsoft/directxtk",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "microsoft/DirectXTK12",
+      "target": "walbourn/directxtk12test",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/arm64.yml",
+      "source_repo": "microsoft/DirectXTK12",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/arm64.yml",
+      "source_repo": "microsoft/DirectXTK12",
+      "target": "ilammy/msvc-dev-cmd@0b201ec74fa43914dc39ae48a89fd1d8cb592756",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/arm64.yml",
+      "source_repo": "microsoft/DirectXTK12",
+      "target": "CMake (Windows on ARM64)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/arm64bvt.yml",
+      "source_repo": "microsoft/DirectXTK12",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/arm64bvt.yml",
+      "source_repo": "microsoft/DirectXTK12",
+      "target": "ilammy/msvc-dev-cmd@0b201ec74fa43914dc39ae48a89fd1d8cb592756",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/arm64bvt.yml",
+      "source_repo": "microsoft/DirectXTK12",
+      "target": "CTest (BVTs)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bvt.yml",
+      "source_repo": "microsoft/DirectXTK12",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bvt.yml",
+      "source_repo": "microsoft/DirectXTK12",
+      "target": "ilammy/msvc-dev-cmd@0b201ec74fa43914dc39ae48a89fd1d8cb592756",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bvt.yml",
+      "source_repo": "microsoft/DirectXTK12",
+      "target": "BVTs (x64)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clangcl.yml",
+      "source_repo": "microsoft/DirectXTK12",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clangcl.yml",
+      "source_repo": "microsoft/DirectXTK12",
+      "target": "ilammy/msvc-dev-cmd@0b201ec74fa43914dc39ae48a89fd1d8cb592756",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/clangcl.yml",
+      "source_repo": "microsoft/DirectXTK12",
+      "target": "CMake (clang-cl)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "microsoft/DirectXTK12",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "microsoft/DirectXTK12",
+      "target": "ilammy/msvc-dev-cmd@0b201ec74fa43914dc39ae48a89fd1d8cb592756",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "microsoft/DirectXTK12",
+      "target": "github/codeql-action/init@c10b8064de6f491fea524254123dbe5e09572f13",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "microsoft/DirectXTK12",
+      "target": "github/codeql-action/analyze@c10b8064de6f491fea524254123dbe5e09572f13",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "microsoft/DirectXTK12",
+      "target": "CodeQL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "microsoft/DirectXTK12",
+      "target": "write",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "microsoft/DirectXTK12",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "microsoft/DirectXTK12",
+      "target": "super-linter/super-linter@9e863354e3ff62e0727d37183162c4a88873df41",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "microsoft/DirectXTK12",
+      "target": "Lint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "microsoft/DirectXTK12",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "microsoft/DirectXTK12",
+      "target": "ilammy/msvc-dev-cmd@0b201ec74fa43914dc39ae48a89fd1d8cb592756",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "microsoft/DirectXTK12",
+      "target": "CMake (Windows)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/msbuild.yml",
+      "source_repo": "microsoft/DirectXTK12",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/msbuild.yml",
+      "source_repo": "microsoft/DirectXTK12",
+      "target": "microsoft/setup-msbuild@30375c66a4eea26614e0d39710365f22f8b0af57",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/msbuild.yml",
+      "source_repo": "microsoft/DirectXTK12",
+      "target": "MSBuild",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/msvc.yml",
+      "source_repo": "microsoft/DirectXTK12",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/msvc.yml",
+      "source_repo": "microsoft/DirectXTK12",
+      "target": "ilammy/msvc-dev-cmd@0b201ec74fa43914dc39ae48a89fd1d8cb592756",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/msvc.yml",
+      "source_repo": "microsoft/DirectXTK12",
+      "target": "microsoft/msvc-code-analysis-action@24c285ab36952c9e9182f4b78dfafbac38a7e5ee",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/msvc.yml",
+      "source_repo": "microsoft/DirectXTK12",
+      "target": "github/codeql-action/upload-sarif@c10b8064de6f491fea524254123dbe5e09572f13",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/msvc.yml",
+      "source_repo": "microsoft/DirectXTK12",
+      "target": "Microsoft C++ Code Analysis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/DirectXTK12",
+      "target": "cpp-library",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/DirectXTK12",
+      "target": "desktop",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/DirectXTK12",
+      "target": "directx",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/DirectXTK12",
+      "target": "directx-12",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/DirectXTK12",
+      "target": "directxtk",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/DirectXTK12",
+      "target": "graphics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/DirectXTK12",
+      "target": "microsoft",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/DirectXTK12",
+      "target": "shaders",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/DirectXTK12",
+      "target": "xbox",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-24T12:33:41.350224+00:00",
+  "source_repo": "microsoft/DirectXTK12"
+}

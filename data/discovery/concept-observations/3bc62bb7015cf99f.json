@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Open Source Continuous Inference Benchmarking Qwen3.5, DeepSeek, GPTOSS - GB200 NVL72 vs MI355X vs B200 vs GB300 NVL72 vs H100 & soon\u2122 TPUv6e/v7/Trainium2/3"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "PR Review"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "PR Review"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12541,
+      "status": "candidate",
+      "text": "summarize"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12499,
+      "status": "candidate",
+      "text": "plot"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11520,
+      "status": "candidate",
+      "text": "key"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11520,
+      "status": "candidate",
+      "text": "keying"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11520,
+      "status": "candidate",
+      "text": "keys"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "PR Review",
+      "sense_id": "pr-review#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "pr-review",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "pr-review",
+  "observation_id": "3bc62bb7015cf99f",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-24T12:33:41.350224+00:00",
+  "observed_text": "PR Review",
+  "source_context_snippet": "PR Review",
+  "source_file": ".github/workflows/claude-pr-review.yml",
+  "source_repo": "SemiAnalysisAI/InferenceX",
+  "source_repo_description": "Open Source Continuous Inference Benchmarking Qwen3.5, DeepSeek, GPTOSS - GB200 NVL72 vs MI355X vs B200 vs GB300 NVL72 vs H100 & soon\u2122 TPUv6e/v7/Trainium2/3"
+}

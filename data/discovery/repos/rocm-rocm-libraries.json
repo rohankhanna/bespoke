@@ -1,0 +1,519 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clang-tidy.yml"
+    },
+    {
+      "component": "dorny/paths-filter@fbd0ab8f3e69293af611ebaee6363fc25e6d187d",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clang-tidy.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clang-tidy.yml"
+    },
+    {
+      "component": "actions/stale@v10",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/close-stale-prs.yml"
+    },
+    {
+      "component": "actions/create-github-app-token@a8d616148505b5069dccd32f177bb87d7f39123b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-pr-preview-cleanup.yml"
+    },
+    {
+      "component": "actions/create-github-app-token@a8d616148505b5069dccd32f177bb87d7f39123b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-pr-preview.yml"
+    },
+    {
+      "component": "actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-pr-preview.yml"
+    },
+    {
+      "component": "actions/setup-python@e797f83bcb11b83ae66e0230d6156d7c80228e7c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-pr-preview.yml"
+    },
+    {
+      "component": "github/gh-aw/actions/setup@48d8fdfddc8cad854ac0c70ceb573f09fb8f9c9b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hipblaslt-doc-agent.lock.yml"
+    },
+    {
+      "component": "actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hipblaslt-doc-agent.lock.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hipblaslt-doc-agent.lock.yml"
+    },
+    {
+      "component": "actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hipblaslt-doc-agent.lock.yml"
+    },
+    {
+      "component": "actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hipblaslt-doc-agent.lock.yml"
+    },
+    {
+      "component": "actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hipblaslt-doc-agent.lock.yml"
+    },
+    {
+      "component": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hipblaslt-doc-agent.lock.yml"
+    },
+    {
+      "component": "github/gh-aw/actions/setup@48d8fdfddc8cad854ac0c70ceb573f09fb8f9c9b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hipblaslt-doc-agent.lock.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hipblaslt-doc-agent.lock.yml"
+    },
+    {
+      "component": "actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hipblaslt-doc-agent.lock.yml"
+    },
+    {
+      "component": "actions/setup-node@53b83947a5a98c8d113130e565377fae1a50d02f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hipblaslt-doc-agent.lock.yml"
+    },
+    {
+      "component": "actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hipblaslt-doc-agent.lock.yml"
+    },
+    {
+      "component": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hipblaslt-doc-agent.lock.yml"
+    },
+    {
+      "component": "actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hipblaslt-doc-agent.lock.yml"
+    },
+    {
+      "component": "actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hipblaslt-doc-agent.lock.yml"
+    },
+    {
+      "component": "actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hipblaslt-doc-agent.lock.yml"
+    },
+    {
+      "component": "actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hipblaslt-doc-agent.lock.yml"
+    },
+    {
+      "component": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hipblaslt-doc-agent.lock.yml"
+    },
+    {
+      "component": "actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hipblaslt-doc-agent.lock.yml"
+    },
+    {
+      "component": "actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hipblaslt-doc-agent.lock.yml"
+    },
+    {
+      "component": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hipblaslt-doc-agent.lock.yml"
+    },
+    {
+      "component": "github/gh-aw/actions/setup@48d8fdfddc8cad854ac0c70ceb573f09fb8f9c9b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hipblaslt-doc-agent.lock.yml"
+    },
+    {
+      "component": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hipblaslt-doc-agent.lock.yml"
+    },
+    {
+      "component": "actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hipblaslt-doc-agent.lock.yml"
+    },
+    {
+      "component": "actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hipblaslt-doc-agent.lock.yml"
+    },
+    {
+      "component": "actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hipblaslt-doc-agent.lock.yml"
+    },
+    {
+      "component": "actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hipblaslt-doc-agent.lock.yml"
+    },
+    {
+      "component": "actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hipblaslt-doc-agent.lock.yml"
+    },
+    {
+      "component": "github/gh-aw/actions/setup@48d8fdfddc8cad854ac0c70ceb573f09fb8f9c9b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hipblaslt-doc-agent.lock.yml"
+    },
+    {
+      "component": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hipblaslt-doc-agent.lock.yml"
+    },
+    {
+      "component": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hipblaslt-doc-agent.lock.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hipblaslt-doc-agent.lock.yml"
+    },
+    {
+      "component": "actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hipblaslt-doc-agent.lock.yml"
+    },
+    {
+      "component": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hipblaslt-doc-agent.lock.yml"
+    },
+    {
+      "component": "actions/create-github-app-token@f8d387b68d61c58ab83c6c016672934102569859",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/initial-setup.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/initial-setup.yml"
+    },
+    {
+      "component": "actions/create-github-app-token@f8d387b68d61c58ab83c6c016672934102569859",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue-import.yml"
+    },
+    {
+      "component": "actions/labeler@634933edcd8ababfe52f92936142cc22ac488b1b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labeler.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clang-tidy.yml",
+      "source_repo": "ROCm/rocm-libraries",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clang-tidy.yml",
+      "source_repo": "ROCm/rocm-libraries",
+      "target": "dorny/paths-filter@fbd0ab8f3e69293af611ebaee6363fc25e6d187d",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/clang-tidy.yml",
+      "source_repo": "ROCm/rocm-libraries",
+      "target": "clang-tidy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/close-stale-prs.yml",
+      "source_repo": "ROCm/rocm-libraries",
+      "target": "actions/stale@v10",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/close-stale-prs.yml",
+      "source_repo": "ROCm/rocm-libraries",
+      "target": "Close Stale PRs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-pr-preview-cleanup.yml",
+      "source_repo": "ROCm/rocm-libraries",
+      "target": "actions/create-github-app-token@a8d616148505b5069dccd32f177bb87d7f39123b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs-pr-preview-cleanup.yml",
+      "source_repo": "ROCm/rocm-libraries",
+      "target": "Docs Preview Cleanup",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-pr-preview.yml",
+      "source_repo": "ROCm/rocm-libraries",
+      "target": "actions/create-github-app-token@a8d616148505b5069dccd32f177bb87d7f39123b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-pr-preview.yml",
+      "source_repo": "ROCm/rocm-libraries",
+      "target": "actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-pr-preview.yml",
+      "source_repo": "ROCm/rocm-libraries",
+      "target": "actions/setup-python@e797f83bcb11b83ae66e0230d6156d7c80228e7c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs-pr-preview.yml",
+      "source_repo": "ROCm/rocm-libraries",
+      "target": "Docs Preview",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hipblaslt-doc-agent.lock.yml",
+      "source_repo": "ROCm/rocm-libraries",
+      "target": "github/gh-aw/actions/setup@48d8fdfddc8cad854ac0c70ceb573f09fb8f9c9b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hipblaslt-doc-agent.lock.yml",
+      "source_repo": "ROCm/rocm-libraries",
+      "target": "actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hipblaslt-doc-agent.lock.yml",
+      "source_repo": "ROCm/rocm-libraries",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hipblaslt-doc-agent.lock.yml",
+      "source_repo": "ROCm/rocm-libraries",
+      "target": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hipblaslt-doc-agent.lock.yml",
+      "source_repo": "ROCm/rocm-libraries",
+      "target": "actions/setup-node@53b83947a5a98c8d113130e565377fae1a50d02f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hipblaslt-doc-agent.lock.yml",
+      "source_repo": "ROCm/rocm-libraries",
+      "target": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/hipblaslt-doc-agent.lock.yml",
+      "source_repo": "ROCm/rocm-libraries",
+      "target": "Hipblaslt Documentation Agent",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/initial-setup.yml",
+      "source_repo": "ROCm/rocm-libraries",
+      "target": "actions/create-github-app-token@f8d387b68d61c58ab83c6c016672934102569859",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/initial-setup.yml",
+      "source_repo": "ROCm/rocm-libraries",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/initial-setup.yml",
+      "source_repo": "ROCm/rocm-libraries",
+      "target": "Setup Monorepo",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue-import.yml",
+      "source_repo": "ROCm/rocm-libraries",
+      "target": "actions/create-github-app-token@f8d387b68d61c58ab83c6c016672934102569859",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issue-import.yml",
+      "source_repo": "ROCm/rocm-libraries",
+      "target": "Import Subrepo Issue",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labeler.yml",
+      "source_repo": "ROCm/rocm-libraries",
+      "target": "actions/labeler@634933edcd8ababfe52f92936142cc22ac488b1b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/labeler.yml",
+      "source_repo": "ROCm/rocm-libraries",
+      "target": "Auto Label PR",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T12:41:40.324285+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11383
+    },
+    {
+      "path": ".github/workflows/clang-tidy.yml",
+      "size": 4233
+    },
+    {
+      "path": ".github/workflows/close-stale-prs.yml",
+      "size": 1904
+    },
+    {
+      "path": ".github/workflows/docs-pr-preview-cleanup.yml",
+      "size": 2878
+    },
+    {
+      "path": ".github/workflows/docs-pr-preview.yml",
+      "size": 6713
+    },
+    {
+      "path": ".github/workflows/hipblaslt-doc-agent.lock.yml",
+      "size": 66928
+    },
+    {
+      "path": ".github/workflows/hipblaslt-doc-agent.md",
+      "size": 19863
+    },
+    {
+      "path": ".github/workflows/initial-setup.yml",
+      "size": 1754
+    },
+    {
+      "path": ".github/workflows/issue-import.yml",
+      "size": 5426
+    },
+    {
+      "path": ".github/workflows/labeler.yml",
+      "size": 311
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "develop",
+    "description": "super repo for rocm libraries",
+    "fork": false,
+    "full_name": "ROCm/rocm-libraries",
+    "html_url": "https://github.com/ROCm/rocm-libraries",
+    "language": "Assembly",
+    "pushed_at": "2026-04-24T12:36:07Z",
+    "stargazers_count": 321,
+    "topics": [],
+    "updated_at": "2026-04-24T12:36:10Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "clang-tidy",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/clang-tidy.yml",
+      "term": "clang-tidy"
+    },
+    {
+      "context_snippet": "Close Stale PRs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/close-stale-prs.yml",
+      "term": "Close Stale PRs"
+    },
+    {
+      "context_snippet": "Docs Preview Cleanup",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs-pr-preview-cleanup.yml",
+      "term": "Docs Preview Cleanup"
+    },
+    {
+      "context_snippet": "Docs Preview",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs-pr-preview.yml",
+      "term": "Docs Preview"
+    },
+    {
+      "context_snippet": "\"Hipblaslt Documentation Agent\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/hipblaslt-doc-agent.lock.yml",
+      "term": "Hipblaslt Documentation Agent"
+    },
+    {
+      "context_snippet": "Setup Monorepo",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/initial-setup.yml",
+      "term": "Setup Monorepo"
+    },
+    {
+      "context_snippet": "Import Subrepo Issue",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issue-import.yml",
+      "term": "Import Subrepo Issue"
+    },
+    {
+      "context_snippet": "Auto Label PR",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/labeler.yml",
+      "term": "Auto Label PR"
+    }
+  ]
+}

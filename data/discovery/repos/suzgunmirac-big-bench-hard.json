@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "suzgunmirac/BIG-Bench-Hard",
+      "target": "google/big-bench",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-24T12:38:57.493437+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3475
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Challenging BIG-Bench Tasks and Whether Chain-of-Thought Can Solve Them",
+    "fork": false,
+    "full_name": "suzgunmirac/BIG-Bench-Hard",
+    "html_url": "https://github.com/suzgunmirac/BIG-Bench-Hard",
+    "language": null,
+    "pushed_at": "2024-06-25T20:16:12Z",
+    "stargazers_count": 555,
+    "topics": [],
+    "updated_at": "2026-04-22T07:49:29Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "google/big-bench",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

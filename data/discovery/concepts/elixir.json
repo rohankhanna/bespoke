@@ -187,6 +187,30 @@
       "source_repo": "akash-akya/vix",
       "status": "candidate-context",
       "text": "[![CI](https://github.com/akash-akya/vix/actions/workflows/ci.yaml/badge.svg)](https://github.com/akash-akya/vix/actions/workflows/ci.yaml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dwyl/phoenix-todo-list-tutorial",
+      "status": "candidate-context",
+      "text": "\u2705 Complete beginners tutorial building a todo list from scratch in Phoenix 1.7 (latest)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dwyl/phoenix-todo-list-tutorial",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dwyl/elixir-auth-google",
+      "status": "candidate-context",
+      "text": "\ud83d\udc64Minimalist Google OAuth Authentication for Elixir Apps. Tested, Documented & Maintained. Setup in 5 mins. \ud83d\ude80"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dwyl/elixir-auth-google",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -279,6 +303,18 @@
       "source_repo": "akash-akya/vix",
       "status": "candidate",
       "text": "[![CI](https://github.com/akash-akya/vix/actions/workflows/ci.yaml/badge.svg)](https://github.com/akash-akya/vix/actions/workflows/ci.yaml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dwyl/phoenix-todo-list-tutorial",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dwyl/elixir-auth-google",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -412,11 +448,29 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "akash-akya/vix"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "dwyl/phoenix-todo-list-tutorial"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "beam-community/elixir-companies"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "dwyl/elixir-auth-google"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Build Native Linux Packages"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ROCm/TheRock",
+      "status": "candidate-context",
+      "text": "The HIP Environment and ROCm Kit - A lightweight open source build system for HIP and ROCm"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ROCm/TheRock",
+      "status": "candidate-context",
+      "text": "Build Native Linux Packages"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ROCm/TheRock",
+      "status": "candidate",
+      "text": "Build Native Linux Packages"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26346,
+      "status": "candidate",
+      "text": "crossover"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20671,
+      "status": "candidate",
+      "text": "tract"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20636,
+      "status": "candidate",
+      "text": "kit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20625,
+      "status": "candidate",
+      "text": "basis"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20625,
+      "status": "candidate",
+      "text": "compile"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Build Native Linux Packages",
+  "concept_id": "build-native-linux-packages",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/build_native_linux_packages.yml",
+      "source_repo": "ROCm/TheRock"
+    }
+  ],
+  "first_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build Native Linux Packages",
+      "sense_id": "build-native-linux-packages#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

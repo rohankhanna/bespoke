@@ -1,0 +1,27 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ZubinGou/latex2sympy",
+      "target": "orangex4/latex2sympy",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ZubinGou/latex2sympy",
+      "target": "augustt198/latex2sympy",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ZubinGou/latex2sympy",
+      "target": "purdue-tlt/latex2sympy",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-04-24T12:33:41.350224+00:00",
+  "source_repo": "ZubinGou/latex2sympy"
+}

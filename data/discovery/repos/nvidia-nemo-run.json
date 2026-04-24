@@ -1,0 +1,361 @@
+{
+  "components": [
+    {
+      "component": "NVIDIA-NeMo/FW-CI-templates/.github/workflows/_build_docs.yml@v0.80.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docs.yml"
+    },
+    {
+      "component": "NVIDIA-NeMo/FW-CI-templates/.github/workflows/_build_test_publish_wheel.yml@v0.88.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-test-publish-wheel.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/changelog-build.yml"
+    },
+    {
+      "component": "mikepenz/release-changelog-builder-action@v3.3.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/changelog-build.yml"
+    },
+    {
+      "component": "actions/github-script@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/changelog-build.yml"
+    },
+    {
+      "component": "peter-evans/create-pull-request@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/changelog-build.yml"
+    },
+    {
+      "component": "NVIDIA-NeMo/FW-CI-templates/.github/workflows/_cherry_pick.yml@v0.63.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cherry-pick-release-commit.yml"
+    },
+    {
+      "component": "NVIDIA-NeMo/FW-CI-templates/.github/workflows/_close_inactive_issue_pr.yml@v0.44.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/close-inactive-issue-pr.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/init@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/autobuild@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "NVIDIA-NeMo/FW-CI-templates/.github/workflows/_community_bot.yml@v0.54.4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/community-bot.yml"
+    },
+    {
+      "component": "NVIDIA-NeMo/FW-CI-templates/.github/workflows/_copyright_check.yml@v0.54.4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/copyright-check.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "NVIDIA-NeMo/Run",
+      "target": "google/fiddle",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "NVIDIA-NeMo/Run",
+      "target": "google-deepmind/xmanager",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "NVIDIA-NeMo/Run",
+      "target": "fabric/fabric",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "NVIDIA-NeMo/Run",
+      "target": "pallets/jinja",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docs.yml",
+      "source_repo": "NVIDIA-NeMo/Run",
+      "target": "NVIDIA-NeMo/FW-CI-templates/.github/workflows/_build_docs.yml@v0.80.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-docs.yml",
+      "source_repo": "NVIDIA-NeMo/Run",
+      "target": "Build docs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-test-publish-wheel.yml",
+      "source_repo": "NVIDIA-NeMo/Run",
+      "target": "NVIDIA-NeMo/FW-CI-templates/.github/workflows/_build_test_publish_wheel.yml@v0.88.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/changelog-build.yml",
+      "source_repo": "NVIDIA-NeMo/Run",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/changelog-build.yml",
+      "source_repo": "NVIDIA-NeMo/Run",
+      "target": "mikepenz/release-changelog-builder-action@v3.3.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/changelog-build.yml",
+      "source_repo": "NVIDIA-NeMo/Run",
+      "target": "actions/github-script@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/changelog-build.yml",
+      "source_repo": "NVIDIA-NeMo/Run",
+      "target": "peter-evans/create-pull-request@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/changelog-build.yml",
+      "source_repo": "NVIDIA-NeMo/Run",
+      "target": "Changelog Build (Release)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cherry-pick-release-commit.yml",
+      "source_repo": "NVIDIA-NeMo/Run",
+      "target": "NVIDIA-NeMo/FW-CI-templates/.github/workflows/_cherry_pick.yml@v0.63.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/close-inactive-issue-pr.yml",
+      "source_repo": "NVIDIA-NeMo/Run",
+      "target": "NVIDIA-NeMo/FW-CI-templates/.github/workflows/_close_inactive_issue_pr.yml@v0.44.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/close-inactive-issue-pr.yml",
+      "source_repo": "NVIDIA-NeMo/Run",
+      "target": "Stale-Close-Inactive-Issues-PRs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "NVIDIA-NeMo/Run",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "NVIDIA-NeMo/Run",
+      "target": "github/codeql-action/init@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "NVIDIA-NeMo/Run",
+      "target": "github/codeql-action/autobuild@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "NVIDIA-NeMo/Run",
+      "target": "github/codeql-action/analyze@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "NVIDIA-NeMo/Run",
+      "target": "CodeQL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/community-bot.yml",
+      "source_repo": "NVIDIA-NeMo/Run",
+      "target": "NVIDIA-NeMo/FW-CI-templates/.github/workflows/_community_bot.yml@v0.54.4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/community-bot.yml",
+      "source_repo": "NVIDIA-NeMo/Run",
+      "target": "Community Bot",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/copyright-check.yml",
+      "source_repo": "NVIDIA-NeMo/Run",
+      "target": "NVIDIA-NeMo/FW-CI-templates/.github/workflows/_copyright_check.yml@v0.54.4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/copyright-check.yml",
+      "source_repo": "NVIDIA-NeMo/Run",
+      "target": "Copyright check",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T12:40:26.493528+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4862
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 4385
+    },
+    {
+      "path": ".github/workflows/build-docs.yml",
+      "size": 808
+    },
+    {
+      "path": ".github/workflows/build-test-publish-wheel.yml",
+      "size": 1325
+    },
+    {
+      "path": ".github/workflows/changelog-build.yml",
+      "size": 4160
+    },
+    {
+      "path": ".github/workflows/cherry-pick-release-commit.yml",
+      "size": 352
+    },
+    {
+      "path": ".github/workflows/close-inactive-issue-pr.yml",
+      "size": 195
+    },
+    {
+      "path": ".github/workflows/codeql.yml",
+      "size": 2844
+    },
+    {
+      "path": ".github/workflows/community-bot.yml",
+      "size": 371
+    },
+    {
+      "path": ".github/workflows/copyright-check.yml",
+      "size": 764
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A tool to configure, launch and manage your machine learning experiments.",
+    "fork": false,
+    "full_name": "NVIDIA-NeMo/Run",
+    "html_url": "https://github.com/NVIDIA-NeMo/Run",
+    "language": "Python",
+    "pushed_at": "2026-04-24T00:45:12Z",
+    "stargazers_count": 240,
+    "topics": [],
+    "updated_at": "2026-04-24T04:49:37Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "fabric/fabric",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "google-deepmind/xmanager",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "google/fiddle",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pallets/jinja",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build docs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-docs.yml",
+      "term": "Build docs"
+    },
+    {
+      "context_snippet": "'Changelog Build (Release)'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/changelog-build.yml",
+      "term": "Changelog Build (Release)"
+    },
+    {
+      "context_snippet": "Stale-Close-Inactive-Issues-PRs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/close-inactive-issue-pr.yml",
+      "term": "Stale-Close-Inactive-Issues-PRs"
+    },
+    {
+      "context_snippet": "\"CodeQL\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "term": "CodeQL"
+    },
+    {
+      "context_snippet": "Community Bot",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/community-bot.yml",
+      "term": "Community Bot"
+    },
+    {
+      "context_snippet": "Copyright check",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/copyright-check.yml",
+      "term": "Copyright check"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-24T12:44:42.931975+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1838
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "A living collection of deep learning problems",
+    "fork": false,
+    "full_name": "openai/requests-for-research",
+    "html_url": "https://github.com/openai/requests-for-research",
+    "language": "HTML",
+    "pushed_at": "2024-05-03T04:57:24Z",
+    "stargazers_count": 1729,
+    "topics": [],
+    "updated_at": "2026-04-09T12:12:50Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

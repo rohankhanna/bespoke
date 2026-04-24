@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "HiveMQ Edge Helm Chart Verify Tests"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hivemq/helm-charts",
+      "status": "candidate-context",
+      "text": "HiveMQ Helm charts"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hivemq/helm-charts",
+      "status": "candidate-context",
+      "text": "HiveMQ Edge Helm Chart Verify Tests"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hivemq/helm-charts",
+      "status": "candidate",
+      "text": "HiveMQ Edge Helm Chart Verify Tests"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39771,
+      "status": "candidate",
+      "text": "check"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39448,
+      "status": "candidate",
+      "text": "control"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39004,
+      "status": "candidate",
+      "text": "rounds"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28031,
+      "status": "candidate",
+      "text": "controlled"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28031,
+      "status": "candidate",
+      "text": "controlling"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "HiveMQ Edge Helm Chart Verify Tests",
+  "concept_id": "hivemq-edge-helm-chart-verify-tests",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/edge-verify.yml",
+      "source_repo": "hivemq/helm-charts"
+    }
+  ],
+  "first_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "HiveMQ Edge Helm Chart Verify Tests",
+      "sense_id": "hivemq-edge-helm-chart-verify-tests#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

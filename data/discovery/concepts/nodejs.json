@@ -1669,6 +1669,54 @@
       "source_repo": "getndazn/dazn-lambda-powertools",
       "status": "candidate-context",
       "text": "[![CircleCI](https://circleci.com/gh/getndazn/dazn-lambda-powertools.svg?style=svg)](https://circleci.com/gh/getndazn/dazn-lambda-powertools)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "engineer-man/piston",
+      "status": "candidate-context",
+      "text": "A high performance general purpose code execution engine."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "engineer-man/piston",
+      "status": "candidate-context",
+      "text": "{ \"devDependencies\": { \"prettier\": \"2.4.1\" } }"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Atome-FE/llama-node",
+      "status": "candidate-context",
+      "text": "Believe in AI democratization. llama for nodejs backed by llama-rs, llama.cpp and rwkv.cpp, work locally on your laptop CPU. support llama/alpaca/gpt4all/vicuna/rwkv model."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Atome-FE/llama-node",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "afc163/fanyi",
+      "status": "candidate-context",
+      "text": "A \ud83c\udde8\ud83c\uddf3 and \ud83c\uddfa\ud83c\uddf8 translator in your command line"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "afc163/fanyi",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "archiverjs/node-archiver",
+      "status": "candidate-context",
+      "text": "a streaming interface for archive generation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "archiverjs/node-archiver",
+      "status": "candidate-context",
+      "text": "A streaming interface for archive generation"
     }
   ],
   "candidate_glosses": [
@@ -2499,6 +2547,30 @@
       "source_repo": "getndazn/dazn-lambda-powertools",
       "status": "candidate",
       "text": "[![CircleCI](https://circleci.com/gh/getndazn/dazn-lambda-powertools.svg?style=svg)](https://circleci.com/gh/getndazn/dazn-lambda-powertools)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "engineer-man/piston",
+      "status": "candidate",
+      "text": "{ \"devDependencies\": { \"prettier\": \"2.4.1\" } }"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Atome-FE/llama-node",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "afc163/fanyi",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "archiverjs/node-archiver",
+      "status": "candidate",
+      "text": "A streaming interface for archive generation"
     }
   ],
   "candidate_related_terms": [],
@@ -3550,11 +3622,59 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "getndazn/dazn-lambda-powertools"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "engineer-man/piston"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "Atome-FE/llama-node"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "afc163/fanyi"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "browserless/browserless"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "archiverjs/node-archiver"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "expressjs/express"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "coreybutler/nvm-windows"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "nvm-sh/nvm"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "lexical_providers": [
     "datamuse"
   ],

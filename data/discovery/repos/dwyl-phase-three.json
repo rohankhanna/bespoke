@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dwyl/phase-three",
+      "target": "dwyl/phase-two",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dwyl/phase-three",
+      "target": "dwyl/health",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dwyl/phase-three",
+      "target": "dwyl/learn-aquaponics",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dwyl/phase-three",
+      "target": "dwyl/hq",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-24T12:59:30.762644+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3141
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "\ud83c\udf31 \ud83e\udeb4 \ud83c\udf33 \ud83c\udfe1 \u2b50 What's next?",
+    "fork": false,
+    "full_name": "dwyl/phase-three",
+    "html_url": "https://github.com/dwyl/phase-three",
+    "language": null,
+    "pushed_at": "2023-02-19T04:51:05Z",
+    "stargazers_count": 20,
+    "topics": [],
+    "updated_at": "2025-06-16T06:26:29Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dwyl/health",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dwyl/hq",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dwyl/learn-aquaponics",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dwyl/phase-two",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

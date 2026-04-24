@@ -1,0 +1,49 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "NVIDIA-Genomics-Research/AtacWorks",
+      "target": "clara-genomics/atacworks",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-24T12:46:56.053070+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5837
+    },
+    {
+      "path": "Dockerfile",
+      "size": 1427
+    },
+    {
+      "path": "requirements.txt",
+      "size": 732
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "dev-v0.4.0",
+    "description": "Deep learning based processing of Atac-seq data",
+    "fork": false,
+    "full_name": "NVIDIA-Genomics-Research/AtacWorks",
+    "html_url": "https://github.com/NVIDIA-Genomics-Research/AtacWorks",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2023-02-16T22:29:51Z",
+    "stargazers_count": 135,
+    "topics": [],
+    "updated_at": "2026-04-18T14:26:37Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "clara-genomics/atacworks",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

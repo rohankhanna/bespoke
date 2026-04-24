@@ -994,6 +994,54 @@
       "source_repo": "Waffle/waffle",
       "status": "candidate-context",
       "text": "WAFFLE - Windows Authentication Framework"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "codelibs/fess-crawler",
+      "status": "candidate-context",
+      "text": "Web/FileSystem Crawler Library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "codelibs/fess-crawler",
+      "status": "candidate-context",
+      "text": "[![Java CI with Maven](https://github.com/codelibs/fess-crawler/actions/workflows/maven.yml/badge.svg)](https://github.com/codelibs/fess-crawler/actions/workflows/maven.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "prestodb/presto",
+      "status": "candidate-context",
+      "text": "The official home of the Presto distributed SQL query engine for big data"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "prestodb/presto",
+      "status": "candidate-context",
+      "text": "[![LFX Health Score](https://insights.linuxfoundation.org/api/badge/health-score?project=presto)](https://insights.linuxfoundation.org/project/presto)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "a2aproject/a2a-java",
+      "status": "candidate-context",
+      "text": "Official Java SDK for the Agent2Agent (A2A) Protocol"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "a2aproject/a2a-java",
+      "status": "candidate-context",
+      "text": "[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mukel/llama3.java",
+      "status": "candidate-context",
+      "text": "Llama 3+ inference in pure Java"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mukel/llama3.java",
+      "status": "candidate-context",
+      "text": "Practical [Llama 3](https://github.com/meta-llama/llama3), [3.1](https://llama.meta.com/docs/model-cards-and-prompt-formats/llama3_1) and [3.2](https://ai.meta.com/blog/llama-3-2-connect-2024-vision-edge-mobile-devices/) inference implemented in a single Java file."
     }
   ],
   "candidate_glosses": [
@@ -1488,6 +1536,30 @@
       "source_repo": "Waffle/waffle",
       "status": "candidate",
       "text": "WAFFLE - Windows Authentication Framework"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "codelibs/fess-crawler",
+      "status": "candidate",
+      "text": "[![Java CI with Maven](https://github.com/codelibs/fess-crawler/actions/workflows/maven.yml/badge.svg)](https://github.com/codelibs/fess-crawler/actions/workflows/maven.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "prestodb/presto",
+      "status": "candidate",
+      "text": "[![LFX Health Score](https://insights.linuxfoundation.org/api/badge/health-score?project=presto)](https://insights.linuxfoundation.org/project/presto)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "a2aproject/a2a-java",
+      "status": "candidate",
+      "text": "[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mukel/llama3.java",
+      "status": "candidate",
+      "text": "Practical [Llama 3](https://github.com/meta-llama/llama3), [3.1](https://llama.meta.com/docs/model-cards-and-prompt-formats/llama3_1) and [3.2](https://ai.meta.com/blog/llama-3-2-connect-2024-vision-edge-mobile-devices/) inference implemented in a single Java file."
     }
   ],
   "candidate_related_terms": [
@@ -2163,11 +2235,41 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "Waffle/waffle"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "codelibs/fess-crawler"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "prestodb/presto"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "a2aproject/a2a-java"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "mukel/llama3.java"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "beehive-lab/TornadoVM"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "lexical_providers": [
     "datamuse"
   ],

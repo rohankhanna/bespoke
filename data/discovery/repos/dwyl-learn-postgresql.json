@@ -1,0 +1,154 @@
+{
+  "components": [
+    {
+      "component": "github-scraper",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "pg",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "faster",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "nyc",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "supertest",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "tap",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "tap-nyc",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dwyl/learn-postgresql",
+      "target": "sorintlab/stolon",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dwyl/learn-postgresql",
+      "target": "dwyl/mongo-search",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dwyl/learn-postgresql",
+      "target": "dwyl/learn-security",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "dwyl/learn-postgresql",
+      "target": "github-scraper",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "dwyl/learn-postgresql",
+      "target": "pg",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "dwyl/learn-postgresql",
+      "target": "faster",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "dwyl/learn-postgresql",
+      "target": "nyc",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "dwyl/learn-postgresql",
+      "target": "supertest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "dwyl/learn-postgresql",
+      "target": "tap",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "dwyl/learn-postgresql",
+      "target": "tap-nyc",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-24T12:58:26.011720+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 17337
+    },
+    {
+      "path": "package.json",
+      "size": 1713
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "\ud83d\udc18 Learn how to use PostgreSQL and Structured Query Language (SQL) to store and query your relational data. \ud83d\udd0d ",
+    "fork": false,
+    "full_name": "dwyl/learn-postgresql",
+    "html_url": "https://github.com/dwyl/learn-postgresql",
+    "language": "JavaScript",
+    "pushed_at": "2026-03-25T18:41:04Z",
+    "stargazers_count": 335,
+    "topics": [],
+    "updated_at": "2026-04-19T07:14:20Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dwyl/learn-security",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dwyl/mongo-search",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sorintlab/stolon",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

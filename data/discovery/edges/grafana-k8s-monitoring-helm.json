@@ -1,0 +1,489 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "grafana/k8s-monitoring-helm",
+      "target": "prometheus/node_exporter",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "grafana/k8s-monitoring-helm",
+      "target": "opencost/opencost",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "grafana/k8s-monitoring-helm",
+      "target": "alex",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "grafana/k8s-monitoring-helm",
+      "target": "markdownlint-cli2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "grafana/k8s-monitoring-helm",
+      "target": "textlint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "grafana/k8s-monitoring-helm",
+      "target": "textlint-filter-rule-comments",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "grafana/k8s-monitoring-helm",
+      "target": "textlint-rule-common-misspellings",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "grafana/k8s-monitoring-helm",
+      "target": "textlint-rule-no-dead-link",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "grafana/k8s-monitoring-helm",
+      "target": "textlint-rule-no-todo",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "grafana/k8s-monitoring-helm",
+      "target": "textlint-rule-terminology",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-test.yml",
+      "source_repo": "grafana/k8s-monitoring-helm",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-test.yml",
+      "source_repo": "grafana/k8s-monitoring-helm",
+      "target": "azure/setup-helm@dda3372f752e03dde6b3237bc9431cdc2f7a02a2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-test.yml",
+      "source_repo": "grafana/k8s-monitoring-helm",
+      "target": "Homebrew/actions/setup-homebrew@fb0fe15d936a80ac0ba4c6cee691bc3da3f00f4e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-test.yml",
+      "source_repo": "grafana/k8s-monitoring-helm",
+      "target": "fluxcd/flux2/action@5adad89dcce7b79f20274ae8e112bcec7bd46764",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-test.yml",
+      "source_repo": "grafana/k8s-monitoring-helm",
+      "target": "helm/kind-action@ef37e7f390d99f746eb8b610417061a60e82a6cc",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-test.yml",
+      "source_repo": "grafana/k8s-monitoring-helm",
+      "target": "medyagh/setup-minikube@e9e035a86bbc3caea26a450bd4dbf9d0c453682e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-test.yml",
+      "source_repo": "grafana/k8s-monitoring-helm",
+      "target": "mamezou-tech/setup-helmfile@c04e83ec7650bf2ec910864bcb409479cf56d8e6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-test.yml",
+      "source_repo": "grafana/k8s-monitoring-helm",
+      "target": "hashicorp/setup-terraform@5e8dbf3c6d9deaf4193ca7a8fb23f2ac83bb6c85",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/integration-test.yml",
+      "source_repo": "grafana/k8s-monitoring-helm",
+      "target": "Integration Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yaml",
+      "source_repo": "grafana/k8s-monitoring-helm",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yaml",
+      "source_repo": "grafana/k8s-monitoring-helm",
+      "target": "terraform-linters/setup-tflint@b480b8fcdaa6f2c577f8e4fa799e89e756bb7c93",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yaml",
+      "source_repo": "grafana/k8s-monitoring-helm",
+      "target": "raven-actions/actionlint@205b530c5d9fa8f44ae9ed59f341a0db994aa6f8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yaml",
+      "source_repo": "grafana/k8s-monitoring-helm",
+      "target": "Lint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/platform-test.yml",
+      "source_repo": "grafana/k8s-monitoring-helm",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/platform-test.yml",
+      "source_repo": "grafana/k8s-monitoring-helm",
+      "target": "azure/setup-helm@dda3372f752e03dde6b3237bc9431cdc2f7a02a2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/platform-test.yml",
+      "source_repo": "grafana/k8s-monitoring-helm",
+      "target": "Homebrew/actions/setup-homebrew@fb0fe15d936a80ac0ba4c6cee691bc3da3f00f4e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/platform-test.yml",
+      "source_repo": "grafana/k8s-monitoring-helm",
+      "target": "fluxcd/flux2/action@5adad89dcce7b79f20274ae8e112bcec7bd46764",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/platform-test.yml",
+      "source_repo": "grafana/k8s-monitoring-helm",
+      "target": "helm/kind-action@ef37e7f390d99f746eb8b610417061a60e82a6cc",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/platform-test.yml",
+      "source_repo": "grafana/k8s-monitoring-helm",
+      "target": "azure/login@a457da9ea143d694b1b9c7c869ebb04ebe844ef5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/platform-test.yml",
+      "source_repo": "grafana/k8s-monitoring-helm",
+      "target": "azure/cli@9eb25b8360668fb0ecbafa808d40e2197b2f5f52",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/platform-test.yml",
+      "source_repo": "grafana/k8s-monitoring-helm",
+      "target": "robinraju/release-downloader@28fc21f50d76778e7023361aa1f863e717d3d56f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/platform-test.yml",
+      "source_repo": "grafana/k8s-monitoring-helm",
+      "target": "grafana/shared-workflows/actions/get-vault-secrets@a37de51f3d713a30a9e4b21bcdfbd38170020593",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/platform-test.yml",
+      "source_repo": "grafana/k8s-monitoring-helm",
+      "target": "aws-actions/configure-aws-credentials@ec61189d14ec14c8efccab744f656cffd0e33f37",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/platform-test.yml",
+      "source_repo": "grafana/k8s-monitoring-helm",
+      "target": "google-github-actions/auth@7c6bc770dae815cd3e89ee6cdf493a5fab2cc093",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/platform-test.yml",
+      "source_repo": "grafana/k8s-monitoring-helm",
+      "target": "google-github-actions/setup-gcloud@aa5489c8933f4cc7a4f7d45035b3b1440c9c10db",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/platform-test.yml",
+      "source_repo": "grafana/k8s-monitoring-helm",
+      "target": "Platform Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-v1.yml",
+      "source_repo": "grafana/k8s-monitoring-helm",
+      "target": "grafana/helm-charts/.github/workflows/update-helm-repo.yaml@fa81478435d74d219108506981c03827715068bc",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-v1.yml",
+      "source_repo": "grafana/k8s-monitoring-helm",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-v1.yml",
+      "source_repo": "grafana/k8s-monitoring-helm",
+      "target": "azure/setup-helm@dda3372f752e03dde6b3237bc9431cdc2f7a02a2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-v1.yml",
+      "source_repo": "grafana/k8s-monitoring-helm",
+      "target": "Homebrew/actions/setup-homebrew@fb0fe15d936a80ac0ba4c6cee691bc3da3f00f4e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-v1.yml",
+      "source_repo": "grafana/k8s-monitoring-helm",
+      "target": "grafana/shared-workflows/actions/get-vault-secrets@a37de51f3d713a30a9e4b21bcdfbd38170020593",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-v1.yml",
+      "source_repo": "grafana/k8s-monitoring-helm",
+      "target": "actions/create-github-app-token@1b10c78c7865c340bc4f6099eb2f838309f1e8c3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-v1.yml",
+      "source_repo": "grafana/k8s-monitoring-helm",
+      "target": "softprops/action-gh-release@b4309332981a82ec1c5618f44dd2e27cc8bfbfda",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-v1.yml",
+      "source_repo": "grafana/k8s-monitoring-helm",
+      "target": "Release Helm chart v1",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "grafana/k8s-monitoring-helm",
+      "target": "grafana/helm-charts/.github/workflows/update-helm-repo.yaml@fa81478435d74d219108506981c03827715068bc",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "grafana/k8s-monitoring-helm",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "grafana/k8s-monitoring-helm",
+      "target": "azure/setup-helm@dda3372f752e03dde6b3237bc9431cdc2f7a02a2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "grafana/k8s-monitoring-helm",
+      "target": "Homebrew/actions/setup-homebrew@fb0fe15d936a80ac0ba4c6cee691bc3da3f00f4e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "grafana/k8s-monitoring-helm",
+      "target": "grafana/shared-workflows/actions/get-vault-secrets@a37de51f3d713a30a9e4b21bcdfbd38170020593",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "grafana/k8s-monitoring-helm",
+      "target": "actions/create-github-app-token@1b10c78c7865c340bc4f6099eb2f838309f1e8c3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "grafana/k8s-monitoring-helm",
+      "target": "softprops/action-gh-release@b4309332981a82ec1c5618f44dd2e27cc8bfbfda",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "grafana/k8s-monitoring-helm",
+      "target": "Release Helm chart",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-release.yml",
+      "source_repo": "grafana/k8s-monitoring-helm",
+      "target": "azure/setup-helm@dda3372f752e03dde6b3237bc9431cdc2f7a02a2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-release.yml",
+      "source_repo": "grafana/k8s-monitoring-helm",
+      "target": "Homebrew/actions/setup-homebrew@fb0fe15d936a80ac0ba4c6cee691bc3da3f00f4e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-release.yml",
+      "source_repo": "grafana/k8s-monitoring-helm",
+      "target": "Test Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-v1.yml",
+      "source_repo": "grafana/k8s-monitoring-helm",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-v1.yml",
+      "source_repo": "grafana/k8s-monitoring-helm",
+      "target": "azure/setup-helm@dda3372f752e03dde6b3237bc9431cdc2f7a02a2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-v1.yml",
+      "source_repo": "grafana/k8s-monitoring-helm",
+      "target": "Homebrew/actions/setup-homebrew@fb0fe15d936a80ac0ba4c6cee691bc3da3f00f4e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-v1.yml",
+      "source_repo": "grafana/k8s-monitoring-helm",
+      "target": "helm/chart-testing-action@6ec842c01de15ebb84c8627d2744a0c2f2755c9f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-v1.yml",
+      "source_repo": "grafana/k8s-monitoring-helm",
+      "target": "dcarbone/install-yq-action@4075b4dca348d74bd83f2bf82d30f25d7c54539b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-v1.yml",
+      "source_repo": "grafana/k8s-monitoring-helm",
+      "target": "fluxcd/flux2/action@5adad89dcce7b79f20274ae8e112bcec7bd46764",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-v1.yml",
+      "source_repo": "grafana/k8s-monitoring-helm",
+      "target": "helm/kind-action@ef37e7f390d99f746eb8b610417061a60e82a6cc",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-v1.yml",
+      "source_repo": "grafana/k8s-monitoring-helm",
+      "target": "medyagh/setup-minikube@e9e035a86bbc3caea26a450bd4dbf9d0c453682e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-v1.yml",
+      "source_repo": "grafana/k8s-monitoring-helm",
+      "target": "Test V1",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unit-test.yml",
+      "source_repo": "grafana/k8s-monitoring-helm",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unit-test.yml",
+      "source_repo": "grafana/k8s-monitoring-helm",
+      "target": "azure/setup-helm@dda3372f752e03dde6b3237bc9431cdc2f7a02a2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unit-test.yml",
+      "source_repo": "grafana/k8s-monitoring-helm",
+      "target": "Homebrew/actions/setup-homebrew@fb0fe15d936a80ac0ba4c6cee691bc3da3f00f4e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unit-test.yml",
+      "source_repo": "grafana/k8s-monitoring-helm",
+      "target": "helm/chart-testing-action@6ec842c01de15ebb84c8627d2744a0c2f2755c9f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/unit-test.yml",
+      "source_repo": "grafana/k8s-monitoring-helm",
+      "target": "Unit Test",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-24T12:33:41.350224+00:00",
+  "source_repo": "grafana/k8s-monitoring-helm"
+}

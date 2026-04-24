@@ -343,6 +343,54 @@
       "source_repo": "microsoft/playwright-vscode",
       "status": "candidate-context",
       "text": "Node.js CI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Cryptonomic/ConseilJS",
+      "status": "candidate-context",
+      "text": "Client-side library for building decentralized applications."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Cryptonomic/ConseilJS",
+      "status": "candidate-context",
+      "text": "Node.js CI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dwyl/learn-tdd",
+      "status": "candidate-context",
+      "text": ":white_check_mark: A brief introduction to Test Driven Development (TDD) in JavaScript (Complete Beginner's Step-by-Step Tutorial)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dwyl/learn-tdd",
+      "status": "candidate-context",
+      "text": "Node.js CI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dwyl/hapi-auth-jwt2",
+      "status": "candidate-context",
+      "text": ":lock: Secure Hapi.js authentication plugin using JSON Web Tokens (JWT) in Headers, URL or Cookies"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dwyl/hapi-auth-jwt2",
+      "status": "candidate-context",
+      "text": "Node.js CI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bjornharrtell/jsts",
+      "status": "candidate-context",
+      "text": "JavaScript Topology Suite"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bjornharrtell/jsts",
+      "status": "candidate-context",
+      "text": "Node.js CI"
     }
   ],
   "candidate_glosses": [
@@ -505,6 +553,30 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "microsoft/playwright-vscode",
+      "status": "candidate",
+      "text": "Node.js CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Cryptonomic/ConseilJS",
+      "status": "candidate",
+      "text": "Node.js CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dwyl/learn-tdd",
+      "status": "candidate",
+      "text": "Node.js CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dwyl/hapi-auth-jwt2",
+      "status": "candidate",
+      "text": "Node.js CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bjornharrtell/jsts",
       "status": "candidate",
       "text": "Node.js CI"
     }
@@ -784,11 +856,47 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "microsoft/playwright-vscode"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/node.js.yml",
+      "source_repo": "webinstall/webi-installers"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/nodejs.yml",
+      "source_repo": "DefinitelyTyped/dts-critic"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/node.js.yml",
+      "source_repo": "Cryptonomic/ConseilJS"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "dwyl/learn-tdd"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "dwyl/hapi-auth-jwt2"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/node.js.yml",
+      "source_repo": "bjornharrtell/jsts"
     }
   ],
   "first_seen_at": "2026-04-18T13:29:00.435097+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "lexical_providers": [
     "datamuse"
   ],

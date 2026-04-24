@@ -1,0 +1,476 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_test.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_test.yaml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_test.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_test.yaml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_test.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_test.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_test.yaml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_test.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_test.yaml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_test.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_test.yaml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_test.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_test.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_test.yaml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_test.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_test.yaml"
+    },
+    {
+      "component": "ilammy/msvc-dev-cmd@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_test.yaml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_test.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_test.yaml"
+    },
+    {
+      "component": "ilammy/msvc-dev-cmd@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_test.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_test.yaml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_test.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_test.yaml"
+    },
+    {
+      "component": "ilammy/msvc-dev-cmd@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_test.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_test.yaml"
+    },
+    {
+      "component": "AutoModality/action-clean@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/post_weekly_release.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/post_weekly_release.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/post_weekly_release.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/post_weekly_release.yaml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/post_weekly_release.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/post_weekly_release.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/post_weekly_release.yaml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/post_weekly_release.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/post_weekly_release.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/post_weekly_release.yaml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/post_weekly_release.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/post_weekly_release.yaml"
+    },
+    {
+      "component": "ilammy/msvc-dev-cmd@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/post_weekly_release.yaml"
+    },
+    {
+      "component": "ilammy/msvc-dev-cmd@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/post_weekly_release.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/post_weekly_release.yaml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/post_weekly_release.yaml"
+    },
+    {
+      "component": "AutoModality/action-clean@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/post_weekly_release.yaml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/post_weekly_release.yaml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/post_weekly_release.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/post_weekly_release.yaml"
+    },
+    {
+      "component": "geekyeggo/delete-artifact@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/post_weekly_release.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/post_weekly_release.yaml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/post_weekly_release.yaml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/post_weekly_release.yaml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/post_weekly_release.yaml"
+    },
+    {
+      "component": "comnoco/create-release-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/post_weekly_release.yaml"
+    },
+    {
+      "component": "AButler/upload-release-assets@v3.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/post_weekly_release.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_test.yaml",
+      "source_repo": "ARM-software/astc-encoder",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_test.yaml",
+      "source_repo": "ARM-software/astc-encoder",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_test.yaml",
+      "source_repo": "ARM-software/astc-encoder",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_test.yaml",
+      "source_repo": "ARM-software/astc-encoder",
+      "target": "ilammy/msvc-dev-cmd@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_test.yaml",
+      "source_repo": "ARM-software/astc-encoder",
+      "target": "Build and test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/post_weekly_release.yaml",
+      "source_repo": "ARM-software/astc-encoder",
+      "target": "AutoModality/action-clean@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/post_weekly_release.yaml",
+      "source_repo": "ARM-software/astc-encoder",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/post_weekly_release.yaml",
+      "source_repo": "ARM-software/astc-encoder",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/post_weekly_release.yaml",
+      "source_repo": "ARM-software/astc-encoder",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/post_weekly_release.yaml",
+      "source_repo": "ARM-software/astc-encoder",
+      "target": "ilammy/msvc-dev-cmd@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/post_weekly_release.yaml",
+      "source_repo": "ARM-software/astc-encoder",
+      "target": "actions/download-artifact@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/post_weekly_release.yaml",
+      "source_repo": "ARM-software/astc-encoder",
+      "target": "geekyeggo/delete-artifact@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/post_weekly_release.yaml",
+      "source_repo": "ARM-software/astc-encoder",
+      "target": "comnoco/create-release-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/post_weekly_release.yaml",
+      "source_repo": "ARM-software/astc-encoder",
+      "target": "AButler/upload-release-assets@v3.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/post_weekly_release.yaml",
+      "source_repo": "ARM-software/astc-encoder",
+      "target": "post-weekly-release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ARM-software/astc-encoder",
+      "target": "astc",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ARM-software/astc-encoder",
+      "target": "astcenc",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ARM-software/astc-encoder",
+      "target": "compression",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ARM-software/astc-encoder",
+      "target": "image-compression",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T13:02:33.273667+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10279
+    },
+    {
+      "path": ".github/workflows/build_test.yaml",
+      "size": 14801
+    },
+    {
+      "path": ".github/workflows/post_weekly_release.yaml",
+      "size": 11982
+    },
+    {
+      "path": ".github/workflows/release_body_template.md",
+      "size": 229
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "The Arm ASTC Encoder, a compressor for the Adaptive Scalable Texture Compression data format.",
+    "fork": false,
+    "full_name": "ARM-software/astc-encoder",
+    "html_url": "https://github.com/ARM-software/astc-encoder",
+    "language": "C++",
+    "pushed_at": "2026-04-21T12:46:17Z",
+    "stargazers_count": 1261,
+    "topics": [
+      "astc",
+      "astcenc",
+      "compression",
+      "image-compression"
+    ],
+    "updated_at": "2026-04-23T09:28:23Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Build and test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_test.yaml",
+      "term": "Build and test"
+    },
+    {
+      "context_snippet": "post-weekly-release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/post_weekly_release.yaml",
+      "term": "post-weekly-release"
+    },
+    {
+      "context_snippet": "The Arm\u00ae Adaptive Scalable Texture Compression (ASTC) Encoder, `astcenc`, is",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "astc"
+    },
+    {
+      "context_snippet": "The Arm\u00ae Adaptive Scalable Texture Compression (ASTC) Encoder, `astcenc`, is",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "astcenc"
+    },
+    {
+      "context_snippet": "The Arm\u00ae Adaptive Scalable Texture Compression (ASTC) Encoder, `astcenc`, is",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "compression"
+    },
+    {
+      "context_snippet": "The Arm\u00ae Adaptive Scalable Texture Compression (ASTC) Encoder, `astcenc`, is",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-compression"
+    }
+  ]
+}

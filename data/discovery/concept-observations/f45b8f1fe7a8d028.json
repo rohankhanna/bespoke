@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "AI Agent that handles engineering tasks end-to-end: integrates with developers\u2019 tools, plans, executes, and iterates until it achieves a successful result."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<a name=\"readme-top\"></a>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<a name=\"readme-top\"></a>"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39952542,
+      "status": "candidate",
+      "text": "enterprisingness"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39945857,
+      "status": "candidate",
+      "text": "initiative"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39945202,
+      "status": "candidate",
+      "text": "go-ahead"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39923522,
+      "status": "candidate",
+      "text": "endeavor"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39922958,
+      "status": "candidate",
+      "text": "endeavour"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "enterprise",
+      "sense_id": "enterprise#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 70036,
+      "status": "candidate",
+      "text": "endeavor"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 30045,
+      "status": "candidate",
+      "text": "initiative"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 25022,
+      "status": "candidate",
+      "text": "endeavour"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2025,
+      "status": "candidate",
+      "text": "go-ahead"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 10,
+      "status": "candidate",
+      "text": "enterprisingness"
+    }
+  ],
+  "concept_id": "enterprise",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "enterprise",
+  "observation_id": "f45b8f1fe7a8d028",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T12:33:41.350224+00:00",
+  "observed_text": "enterprise",
+  "source_context_snippet": "<a name=\"readme-top\"></a>",
+  "source_file": null,
+  "source_repo": "smallcloudai/refact",
+  "source_repo_description": "AI Agent that handles engineering tasks end-to-end: integrates with developers\u2019 tools, plans, executes, and iterates until it achieves a successful result."
+}

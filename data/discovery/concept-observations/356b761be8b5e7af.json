@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Basic URL Shortener API"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "URL Shortener api experiment with Flask"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "URL Shortener api experiment with Flask"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "url-shortener",
+      "sense_id": "url-shortener#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "url-shortener",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "url-shortener",
+  "observation_id": "356b761be8b5e7af",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T12:33:41.350224+00:00",
+  "observed_text": "url-shortener",
+  "source_context_snippet": "URL Shortener api experiment with Flask",
+  "source_file": null,
+  "source_repo": "kasztp/URL_Shortener",
+  "source_repo_description": "Basic URL Shortener API"
+}

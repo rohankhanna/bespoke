@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "text-similarity"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "shibing624/text2vec",
+      "status": "candidate-context",
+      "text": "text2vec, text to vector. \u6587\u672c\u5411\u91cf\u8868\u5f81\u5de5\u5177\uff0c\u628a\u6587\u672c\u8f6c\u5316\u4e3a\u5411\u91cf\u77e9\u9635\uff0c\u5b9e\u73b0\u4e86Word2Vec\u3001RankBM25\u3001Sentence-BERT\u3001CoSENT\u7b49\u6587\u672c\u8868\u5f81\u3001\u6587\u672c\u76f8\u4f3c\u5ea6\u8ba1\u7b97\u6a21\u578b\uff0c\u5f00\u7bb1\u5373\u7528\u3002"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "shibing624/text2vec",
+      "status": "candidate-context",
+      "text": "[**\ud83c\udde8\ud83c\uddf3\u4e2d\u6587**](https://github.com/shibing624/text2vec/blob/master/README.md) | [**\ud83c\udf10English**](https://github.com/shibing624/text2vec/blob/master/README_EN.md) | [**\ud83d\udcd6\u6587\u6863/Docs**](https://github.com/shibing624/text2vec/wiki) | [**\ud83e\udd16\u6a21\u578b/Models**](https://huggingface.co/shibing624)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "shibing624/text2vec",
+      "status": "candidate",
+      "text": "[**\ud83c\udde8\ud83c\uddf3\u4e2d\u6587**](https://github.com/shibing624/text2vec/blob/master/README.md) | [**\ud83c\udf10English**](https://github.com/shibing624/text2vec/blob/master/README_EN.md) | [**\ud83d\udcd6\u6587\u6863/Docs**](https://github.com/shibing624/text2vec/wiki) | [**\ud83e\udd16\u6a21\u578b/Models**](https://huggingface.co/shibing624)"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "text-similarity",
+  "concept_id": "text-similarity",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "shibing624/text2vec"
+    }
+  ],
+  "first_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "text-similarity",
+      "sense_id": "text-similarity#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

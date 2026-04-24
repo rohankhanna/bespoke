@@ -84,7 +84,7 @@
   "normalized_form": "ascend-npu-test-suite",
   "observation_id": "d75d8180ab5814ef",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-24T06:47:13.899148+00:00",
+  "observed_at": "2026-04-24T12:33:41.350224+00:00",
   "observed_text": "Ascend NPU Test Suite",
   "source_context_snippet": "\"Ascend NPU Test Suite\"",
   "source_file": ".github/workflows/ascend_npu-test.yml",

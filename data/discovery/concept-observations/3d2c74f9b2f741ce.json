@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Mooncake is the serving platform for Kimi, a leading LLM service provided by Moonshot AI."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "'CI Test on ASCEND Platform'"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "'CI Test on ASCEND Platform'"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21333,
+      "status": "candidate",
+      "text": "lab"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17602,
+      "status": "candidate",
+      "text": "luft"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17539,
+      "status": "candidate",
+      "text": "mount"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17475,
+      "status": "candidate",
+      "text": "rise"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17475,
+      "status": "candidate",
+      "text": "scale"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "CI Test on ASCEND Platform",
+      "sense_id": "ci-test-on-ascend-platform#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "ci-test-on-ascend-platform",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "ci-test-on-ascend-platform",
+  "observation_id": "3d2c74f9b2f741ce",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-24T12:33:41.350224+00:00",
+  "observed_text": "CI Test on ASCEND Platform",
+  "source_context_snippet": "'CI Test on ASCEND Platform'",
+  "source_file": ".github/workflows/ci_ascend.yml",
+  "source_repo": "kvcache-ai/Mooncake",
+  "source_repo_description": "Mooncake is the serving platform for Kimi, a leading LLM service provided by Moonshot AI."
+}

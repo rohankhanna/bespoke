@@ -1,0 +1,293 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "serverless/serverless",
+      "target": "serverless/containers",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "serverless/serverless",
+      "target": "serverless/aws-ai-stack",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "serverless/serverless",
+      "target": "amplify-education/serverless-domain-manager",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "serverless/serverless",
+      "target": "serverless-operations/serverless-step-functions",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "serverless/serverless",
+      "target": "eslint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "serverless/serverless",
+      "target": "husky",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "serverless/serverless",
+      "target": "lint-staged",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "serverless/serverless",
+      "target": "prettier",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-cla.yml",
+      "source_repo": "serverless/serverless",
+      "target": "write",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-cla.yml",
+      "source_repo": "serverless/serverless",
+      "target": "contributor-assistant/github-action@ca4a40a7d1004f18d9960b404b97e5f30a505a08",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-cla.yml",
+      "source_repo": "serverless/serverless",
+      "target": "Check: Contributor License Agreement",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-binary-installer.yml",
+      "source_repo": "serverless/serverless",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-binary-installer.yml",
+      "source_repo": "serverless/serverless",
+      "target": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-binary-installer.yml",
+      "source_repo": "serverless/serverless",
+      "target": "CI: Binary Installer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-engine.yml",
+      "source_repo": "serverless/serverless",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-engine.yml",
+      "source_repo": "serverless/serverless",
+      "target": "actions/setup-node@53b83947a5a98c8d113130e565377fae1a50d02f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-engine.yml",
+      "source_repo": "serverless/serverless",
+      "target": "CI: Engine",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-framework.yml",
+      "source_repo": "serverless/serverless",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-framework.yml",
+      "source_repo": "serverless/serverless",
+      "target": "actions/setup-node@53b83947a5a98c8d113130e565377fae1a50d02f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-framework.yml",
+      "source_repo": "serverless/serverless",
+      "target": "aws-actions/configure-aws-credentials@ec61189d14ec14c8efccab744f656cffd0e33f37",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-framework.yml",
+      "source_repo": "serverless/serverless",
+      "target": "CI: Framework CLI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-python.yml",
+      "source_repo": "serverless/serverless",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-python.yml",
+      "source_repo": "serverless/serverless",
+      "target": "actions/setup-node@53b83947a5a98c8d113130e565377fae1a50d02f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-python.yml",
+      "source_repo": "serverless/serverless",
+      "target": "aws-actions/configure-aws-credentials@ec61189d14ec14c8efccab744f656cffd0e33f37",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-python.yml",
+      "source_repo": "serverless/serverless",
+      "target": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-binary-installer.yml",
+      "source_repo": "serverless/serverless",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-binary-installer.yml",
+      "source_repo": "serverless/serverless",
+      "target": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-binary-installer.yml",
+      "source_repo": "serverless/serverless",
+      "target": "aws-actions/configure-aws-credentials@ec61189d14ec14c8efccab744f656cffd0e33f37",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-binary-installer.yml",
+      "source_repo": "serverless/serverless",
+      "target": "Release: Binary Installer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-framework.yml",
+      "source_repo": "serverless/serverless",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-framework.yml",
+      "source_repo": "serverless/serverless",
+      "target": "actions/setup-node@53b83947a5a98c8d113130e565377fae1a50d02f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-framework.yml",
+      "source_repo": "serverless/serverless",
+      "target": "aws-actions/configure-aws-credentials@ec61189d14ec14c8efccab744f656cffd0e33f37",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-framework.yml",
+      "source_repo": "serverless/serverless",
+      "target": "Release: Framework CLI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "serverless/serverless",
+      "target": "aws-dynamodb",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "serverless/serverless",
+      "target": "aws-lambda",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "serverless/serverless",
+      "target": "azure-functions",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "serverless/serverless",
+      "target": "google-cloud-functions",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "serverless/serverless",
+      "target": "microservice",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "serverless/serverless",
+      "target": "serverless",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "serverless/serverless",
+      "target": "serverless-architectures",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "serverless/serverless",
+      "target": "serverless-framework",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-24T12:33:41.350224+00:00",
+  "source_repo": "serverless/serverless"
+}

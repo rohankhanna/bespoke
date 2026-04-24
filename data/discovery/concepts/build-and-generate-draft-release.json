@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Build and Generate Draft Release"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aws/aws-ofi-nccl",
+      "status": "candidate-context",
+      "text": "This is a plugin which lets EC2 developers use libfabric as network provider while running NCCL applications."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws/aws-ofi-nccl",
+      "status": "candidate-context",
+      "text": "Build and Generate Draft Release"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws/aws-ofi-nccl",
+      "status": "candidate",
+      "text": "Build and Generate Draft Release"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27908,
+      "status": "candidate",
+      "text": "produce"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27862,
+      "status": "candidate",
+      "text": "develop"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27862,
+      "status": "candidate",
+      "text": "gather"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27817,
+      "status": "candidate",
+      "text": "call"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27773,
+      "status": "candidate",
+      "text": "collect"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Build and Generate Draft Release",
+  "concept_id": "build-and-generate-draft-release",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/generate-release-draft.yml",
+      "source_repo": "aws/aws-ofi-nccl"
+    }
+  ],
+  "first_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build and Generate Draft Release",
+      "sense_id": "build-and-generate-draft-release#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

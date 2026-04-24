@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "envd"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tensorchord/envdlib",
+      "status": "candidate-context",
+      "text": "`envd` extension library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tensorchord/envdlib",
+      "status": "candidate-context",
+      "text": "The official extension library for [envd](https://github.com/tensorchord/envd)."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tensorchord/envdlib",
+      "status": "candidate",
+      "text": "The official extension library for [envd](https://github.com/tensorchord/envd)."
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "envd",
+  "concept_id": "envd",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "tensorchord/envdlib"
+    }
+  ],
+  "first_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "envd",
+      "sense_id": "envd#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

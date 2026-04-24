@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "photogrammetry"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "CesiumGS/3d-tiles",
+      "status": "candidate-context",
+      "text": "Specification for streaming massive heterogeneous 3D geospatial datasets :earth_americas:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CesiumGS/3d-tiles",
+      "status": "candidate-context",
+      "text": "![](figures/3DTiles_light_color_small.png#gh-dark-mode-only)![](figures/3DTiles_dark_color_small.png#gh-light-mode-only)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CesiumGS/3d-tiles",
+      "status": "candidate",
+      "text": "![](figures/3DTiles_light_color_small.png#gh-dark-mode-only)![](figures/3DTiles_dark_color_small.png#gh-light-mode-only)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20020063,
+      "status": "candidate",
+      "text": "softcopy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10046993,
+      "status": "candidate",
+      "text": "photogrammeter"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10046992,
+      "status": "candidate",
+      "text": "photoplanimetry"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10046991,
+      "status": "candidate",
+      "text": "photographic interpretation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10046990,
+      "status": "candidate",
+      "text": "photogeomorphology"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "photogrammetry",
+  "concept_id": "photogrammetry",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "CesiumGS/3d-tiles"
+    }
+  ],
+  "first_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "photogrammetry",
+      "sense_id": "photogrammetry#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

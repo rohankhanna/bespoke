@@ -1,0 +1,90 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "travis-ci/travis-logs",
+      "target": "keithf4/pg_partman",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "travis-ci/travis-logs",
+      "target": "logger",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "travis-ci/travis-logs",
+      "target": "logging",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "travis-ci/travis-logs",
+      "target": "logs",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T12:53:13.668632+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5685
+    },
+    {
+      "path": "Dockerfile",
+      "size": 681
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Processes log updates from the job runner (worker), and streams them to the web client, aggregates them, and archives to S3.",
+    "fork": false,
+    "full_name": "travis-ci/travis-logs",
+    "html_url": "https://github.com/travis-ci/travis-logs",
+    "language": "Ruby",
+    "pushed_at": "2025-12-29T13:17:12Z",
+    "stargazers_count": 55,
+    "topics": [
+      "log",
+      "logger",
+      "logging",
+      "logs"
+    ],
+    "updated_at": "2025-12-23T14:14:58Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "keithf4/pg_partman",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/travis-ci/travis-logs.svg?branch=master)](https://travis-ci.org/travis-ci/travis-logs)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "logger"
+    },
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/travis-ci/travis-logs.svg?branch=master)](https://travis-ci.org/travis-ci/travis-logs)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "logging"
+    },
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/travis-ci/travis-logs.svg?branch=master)](https://travis-ci.org/travis-ci/travis-logs)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "logs"
+    }
+  ]
+}

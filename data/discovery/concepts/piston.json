@@ -1,0 +1,108 @@
+{
+  "aliases": [
+    "piston"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "engineer-man/piston",
+      "status": "candidate-context",
+      "text": "A high performance general purpose code execution engine."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "engineer-man/piston",
+      "status": "candidate-context",
+      "text": "{ \"devDependencies\": { \"prettier\": \"2.4.1\" } }"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "engineer-man/piston",
+      "status": "candidate",
+      "text": "{ \"devDependencies\": { \"prettier\": \"2.4.1\" } }"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40030522,
+      "status": "candidate",
+      "text": "plunger"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30037446,
+      "status": "candidate",
+      "text": "engine"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30027134,
+      "status": "candidate",
+      "text": "shoot"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30001407,
+      "status": "candidate",
+      "text": "calipers"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29958583,
+      "status": "candidate",
+      "text": "reciprocating"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 4041,
+      "status": "candidate",
+      "text": "plunger"
+    }
+  ],
+  "canonical_name": "piston",
+  "concept_id": "piston",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "engineer-man/piston"
+    }
+  ],
+  "first_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "piston",
+      "sense_id": "piston#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

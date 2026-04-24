@@ -386,6 +386,18 @@
       "source_repo": "eosphoros-ai/DB-GPT",
       "status": "candidate-context",
       "text": "Close inactive issues"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "openai/openai-agents-python",
+      "status": "candidate-context",
+      "text": "A lightweight, powerful framework for multi-agent workflows"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openai/openai-agents-python",
+      "status": "candidate-context",
+      "text": "Close inactive issues"
     }
   ],
   "candidate_glosses": [
@@ -578,6 +590,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "eosphoros-ai/DB-GPT",
+      "status": "candidate",
+      "text": "Close inactive issues"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openai/openai-agents-python",
       "status": "candidate",
       "text": "Close inactive issues"
     }
@@ -833,11 +851,29 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": ".github/workflows/close-issue.yml",
       "source_repo": "eosphoros-ai/DB-GPT"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/stale.yaml",
+      "source_repo": "FoundationAgents/MetaGPT"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/issues.yml",
+      "source_repo": "openai/openai-agents-python"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/close-issue.yml",
+      "source_repo": "chatchat-space/Langchain-Chatchat"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "lexical_providers": [
     "datamuse"
   ],

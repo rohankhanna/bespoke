@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Storage for https://github.com/web-platform-tests/results-analysis"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "results"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "results"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10050713,
+      "status": "candidate",
+      "text": "consequence"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10050686,
+      "status": "candidate",
+      "text": "effect"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10049175,
+      "status": "candidate",
+      "text": "outcome"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10048200,
+      "status": "candidate",
+      "text": "ensue"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10047037,
+      "status": "candidate",
+      "text": "upshot"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "results",
+      "sense_id": "results#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "results",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "results",
+  "observation_id": "2c5687c5a86b049a",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-24T12:33:41.350224+00:00",
+  "observed_text": "results",
+  "source_context_snippet": "results",
+  "source_file": ".github/workflows/results.yml",
+  "source_repo": "web-platform-tests/results-analysis-cache",
+  "source_repo_description": "Storage for https://github.com/web-platform-tests/results-analysis"
+}

@@ -1,7 +1,8 @@
 {
   "aliases": [
     "Publish Docker image",
-    "Publish Docker Image"
+    "Publish Docker Image",
+    "Publish docker image"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -236,6 +237,30 @@
       "source_repo": "aigc-apps/PAI-RAG",
       "status": "candidate-context",
       "text": "Publish Docker image"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "a2aproject/a2a-inspector",
+      "status": "candidate-context",
+      "text": "Validation Tools for A2A Agents"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "a2aproject/a2a-inspector",
+      "status": "candidate-context",
+      "text": "Publish Docker image"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "crev-dev/pip-crev",
+      "status": "candidate-context",
+      "text": "Signed code reviews for Python packages."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "crev-dev/pip-crev",
+      "status": "candidate-context",
+      "text": "Publish docker image"
     }
   ],
   "candidate_glosses": [
@@ -352,6 +377,18 @@
       "source_repo": "aigc-apps/PAI-RAG",
       "status": "candidate",
       "text": "Publish Docker image"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "a2aproject/a2a-inspector",
+      "status": "candidate",
+      "text": "Publish Docker image"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "crev-dev/pip-crev",
+      "status": "candidate",
+      "text": "Publish docker image"
     }
   ],
   "candidate_related_terms": [
@@ -605,11 +642,23 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": ".github/workflows/docker.yml",
       "source_repo": "ggml-org/whisper.cpp"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/docker-publish.yml",
+      "source_repo": "a2aproject/a2a-inspector"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/publish-docker.yml",
+      "source_repo": "crev-dev/pip-crev"
     }
   ],
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "lexical_providers": [
     "datamuse"
   ],

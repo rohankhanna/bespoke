@@ -1,7 +1,8 @@
 {
   "aliases": [
     "build-and-deploy",
-    "Build and Deploy"
+    "Build and Deploy",
+    "Build and deploy"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -56,6 +57,18 @@
       "source_repo": "tc39/proposal-temporal",
       "status": "candidate-context",
       "text": "Build and Deploy"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "raspberrypi/documentation",
+      "status": "candidate-context",
+      "text": "The official documentation for Raspberry Pi computers and microcontrollers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "raspberrypi/documentation",
+      "status": "candidate-context",
+      "text": "Build and deploy"
     }
   ],
   "candidate_glosses": [
@@ -82,6 +95,12 @@
       "source_repo": "tc39/proposal-temporal",
       "status": "candidate",
       "text": "Build and Deploy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "raspberrypi/documentation",
+      "status": "candidate",
+      "text": "Build and deploy"
     }
   ],
   "candidate_related_terms": [
@@ -155,11 +174,17 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": ".github/workflows/deploy.yml",
       "source_repo": "tc39/proposal-temporal"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/build-and-deploy.yml",
+      "source_repo": "raspberrypi/documentation"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "lexical_providers": [
     "datamuse"
   ],

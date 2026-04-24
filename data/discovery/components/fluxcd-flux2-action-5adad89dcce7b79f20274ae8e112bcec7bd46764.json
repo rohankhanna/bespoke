@@ -1,0 +1,22 @@
+{
+  "component": "fluxcd/flux2/action@5adad89dcce7b79f20274ae8e112bcec7bd46764",
+  "first_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/integration-test.yml",
+      "source_repo": "grafana/k8s-monitoring-helm"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/platform-test.yml",
+      "source_repo": "grafana/k8s-monitoring-helm"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test-v1.yml",
+      "source_repo": "grafana/k8s-monitoring-helm"
+    }
+  ]
+}

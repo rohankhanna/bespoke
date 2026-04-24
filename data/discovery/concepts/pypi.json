@@ -166,6 +166,18 @@
       "source_repo": "pypa/pipx",
       "status": "candidate-context",
       "text": "[build-system] build-backend = \"hatchling.build\" requires = [ \"hatch-vcs>=0.4\", \"hatchling>=1.27\", ] [project] name = \"pipx\" description = \"Install and Run Python Applications in Isolated Environments\" readme = \"docs/README.md\" keywords = [ \"cli\", \"install\", \"pip\", \"Virtual Envi\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google-deepmind/bsuite",
+      "status": "candidate-context",
+      "text": "bsuite is a collection of carefully-designed experiments that investigate core capabilities of a reinforcement learning (RL) agent"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google-deepmind/bsuite",
+      "status": "candidate-context",
+      "text": "pypi"
     }
   ],
   "candidate_glosses": [
@@ -246,6 +258,12 @@
       "source_repo": "pypa/pipx",
       "status": "candidate",
       "text": "[build-system] build-backend = \"hatchling.build\" requires = [ \"hatch-vcs>=0.4\", \"hatchling>=1.27\", ] [project] name = \"pipx\" description = \"Install and Run Python Applications in Isolated Environments\" readme = \"docs/README.md\" keywords = [ \"cli\", \"install\", \"pip\", \"Virtual Envi\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google-deepmind/bsuite",
+      "status": "candidate",
+      "text": "pypi"
     }
   ],
   "candidate_related_terms": [],
@@ -343,11 +361,23 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": ".github/workflows/pypi-publish.yml",
       "source_repo": "google-deepmind/jraph"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "google-deepmind/acme"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "google-deepmind/bsuite"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "lexical_providers": [
     "datamuse"
   ],

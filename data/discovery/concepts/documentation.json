@@ -760,6 +760,42 @@
       "source_repo": "gchq/gaffer-doc",
       "status": "candidate-context",
       "text": "<img src=\"docs/assets/logoWithText.png\" width=\"300\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "smallscientist1/tilelang",
+      "status": "candidate-context",
+      "text": " Domain-specific language designed to streamline the development of high-performance GPU/CPU kernels"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "smallscientist1/tilelang",
+      "status": "candidate-context",
+      "text": "documentation"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "raspberrypi/documentation",
+      "status": "candidate-context",
+      "text": "The official documentation for Raspberry Pi computers and microcontrollers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "raspberrypi/documentation",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "swagger-autogen/swagger-autogen",
+      "status": "candidate-context",
+      "text": "This module performs automatic construction of Swagger documentation. It can identify the endpoints and automatically capture methods such as get, post, put, and so on. It also identifies paths, routes, middlewares, response status codes and parameters. At the end, it generates the .json file containing the Swagger format specification."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "swagger-autogen/swagger-autogen",
+      "status": "candidate-context",
+      "text": "This module performs automatic construction of Swagger documentation. It can identify the endpoints and automatically capture methods such as get, post, put, and so on. It also identifies paths, routes, middlewares, response status codes, parameters in the path, header, query an\u2026"
     }
   ],
   "candidate_glosses": [
@@ -1146,6 +1182,24 @@
       "source_repo": "gchq/gaffer-doc",
       "status": "candidate",
       "text": "<img src=\"docs/assets/logoWithText.png\" width=\"300\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "smallscientist1/tilelang",
+      "status": "candidate",
+      "text": "documentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "raspberrypi/documentation",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "swagger-autogen/swagger-autogen",
+      "status": "candidate",
+      "text": "This module performs automatic construction of Swagger documentation. It can identify the endpoints and automatically capture methods such as get, post, put, and so on. It also identifies paths, routes, middlewares, response status codes, parameters in the path, header, query an\u2026"
     }
   ],
   "candidate_related_terms": [
@@ -1662,11 +1716,41 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": ".github/workflows/documentation.yml",
       "source_repo": "redis/node-redis"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/documentation.yml",
+      "source_repo": "triton-lang/triton"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/publish_docs.yml",
+      "source_repo": "smallscientist1/tilelang"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "raspberrypi/documentation"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "swagger-autogen/swagger-autogen"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "clayrisser/sphinx-jekyll-builder"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "lexical_providers": [
     "datamuse"
   ],

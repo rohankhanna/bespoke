@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Binomial's Fork of KTX-Software with Fixes/Improvements"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<!-- Copyright 2013-2020 Mark Callow -->"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<!-- Copyright 2013-2020 Mark Callow -->"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "texture-compression",
+      "sense_id": "texture-compression#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "texture-compression",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "texture-compression",
+  "observation_id": "e182ba75fc1d762b",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T12:33:41.350224+00:00",
+  "observed_text": "texture-compression",
+  "source_context_snippet": "<!-- Copyright 2013-2020 Mark Callow -->",
+  "source_file": null,
+  "source_repo": "BinomialLLC/KTX-Software-Binomial-Fork",
+  "source_repo_description": "Binomial's Fork of KTX-Software with Fixes/Improvements"
+}

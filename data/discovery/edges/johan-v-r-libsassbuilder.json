@@ -1,0 +1,153 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "johan-v-r/LibSassBuilder",
+      "target": "deanwiseman/dartsassbuilder",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "johan-v-r/LibSassBuilder",
+      "target": "delegateas/delegate.sassbuilder",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "johan-v-r/LibSassBuilder",
+      "target": "actions/setup-dotnet@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "johan-v-r/LibSassBuilder",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "johan-v-r/LibSassBuilder",
+      "target": "github/codeql-action/init@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "johan-v-r/LibSassBuilder",
+      "target": "github/codeql-action/autobuild@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "johan-v-r/LibSassBuilder",
+      "target": "github/codeql-action/analyze@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "johan-v-r/LibSassBuilder",
+      "target": "CodeQL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnet-core.yml",
+      "source_repo": "johan-v-r/LibSassBuilder",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnet-core.yml",
+      "source_repo": "johan-v-r/LibSassBuilder",
+      "target": "actions/setup-dotnet@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dotnet-core.yml",
+      "source_repo": "johan-v-r/LibSassBuilder",
+      "target": "Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-nuget.yml",
+      "source_repo": "johan-v-r/LibSassBuilder",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-nuget.yml",
+      "source_repo": "johan-v-r/LibSassBuilder",
+      "target": "actions/setup-dotnet@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-nuget.yml",
+      "source_repo": "johan-v-r/LibSassBuilder",
+      "target": "NuGet/setup-nuget@04b0c2b8d1b97922f67eca497d7cf0bf17b8ffe1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-nuget.yml",
+      "source_repo": "johan-v-r/LibSassBuilder",
+      "target": "NuGet/setup-nuget@v1.0.5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-nuget.yml",
+      "source_repo": "johan-v-r/LibSassBuilder",
+      "target": "actions/upload-artifact@v2.2.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-nuget.yml",
+      "source_repo": "johan-v-r/LibSassBuilder",
+      "target": "Publish",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-tool.yml",
+      "source_repo": "johan-v-r/LibSassBuilder",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-tool.yml",
+      "source_repo": "johan-v-r/LibSassBuilder",
+      "target": "actions/setup-dotnet@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-tool.yml",
+      "source_repo": "johan-v-r/LibSassBuilder",
+      "target": "actions/upload-artifact@v2.2.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-tool.yml",
+      "source_repo": "johan-v-r/LibSassBuilder",
+      "target": "Publish Tool",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-24T12:33:41.350224+00:00",
+  "source_repo": "johan-v-r/LibSassBuilder"
+}

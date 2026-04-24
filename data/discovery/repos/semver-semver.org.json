@@ -1,0 +1,262 @@
+{
+  "components": [
+    {
+      "component": "js-yaml",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "prettier",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "remark-cli",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "remark-frontmatter",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "remark-lint-mdash-style",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "remark-preset-lint-node",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "semver",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checks.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checks.yml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/non-bot-check.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/non-bot-check.yml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/non-bot-check.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync.yml"
+    },
+    {
+      "component": "peter-evans/create-pull-request@v4.0.4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "semver/semver.org",
+      "target": "js-yaml",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "semver/semver.org",
+      "target": "prettier",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "semver/semver.org",
+      "target": "remark-cli",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "semver/semver.org",
+      "target": "remark-frontmatter",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "semver/semver.org",
+      "target": "remark-lint-mdash-style",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "semver/semver.org",
+      "target": "remark-preset-lint-node",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "semver/semver.org",
+      "target": "semver",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checks.yml",
+      "source_repo": "semver/semver.org",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checks.yml",
+      "source_repo": "semver/semver.org",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/checks.yml",
+      "source_repo": "semver/semver.org",
+      "target": "Check changes",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/non-bot-check.yml",
+      "source_repo": "semver/semver.org",
+      "target": "actions/github-script@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/non-bot-check.yml",
+      "source_repo": "semver/semver.org",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/non-bot-check.yml",
+      "source_repo": "semver/semver.org",
+      "target": "Check for non-GitHub Bot PRs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync.yml",
+      "source_repo": "semver/semver.org",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync.yml",
+      "source_repo": "semver/semver.org",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync.yml",
+      "source_repo": "semver/semver.org",
+      "target": "peter-evans/create-pull-request@v4.0.4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/sync.yml",
+      "source_repo": "semver/semver.org",
+      "target": "Nightly Sync of content",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T12:53:25.966795+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1029
+    },
+    {
+      "path": "Dockerfile",
+      "size": 494
+    },
+    {
+      "path": "package.json",
+      "size": 926
+    },
+    {
+      "path": ".github/workflows/checks.yml",
+      "size": 275
+    },
+    {
+      "path": ".github/workflows/non-bot-check.yml",
+      "size": 3167
+    },
+    {
+      "path": ".github/workflows/sync.yml",
+      "size": 1012
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "gh-pages",
+    "description": "Semantic Versioning spec and website",
+    "fork": false,
+    "full_name": "semver/semver.org",
+    "html_url": "https://github.com/semver/semver.org",
+    "language": "SCSS",
+    "pushed_at": "2026-03-26T10:25:47Z",
+    "stargazers_count": 553,
+    "topics": [],
+    "updated_at": "2026-04-21T09:37:05Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Check changes",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/checks.yml",
+      "term": "Check changes"
+    },
+    {
+      "context_snippet": "Check for non-GitHub Bot PRs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/non-bot-check.yml",
+      "term": "Check for non-GitHub Bot PRs"
+    },
+    {
+      "context_snippet": "Nightly Sync of content",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/sync.yml",
+      "term": "Nightly Sync of content"
+    }
+  ]
+}

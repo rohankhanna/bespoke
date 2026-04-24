@@ -239,6 +239,30 @@
       "source_repo": "lambdaclass/libssz",
       "status": "candidate-context",
       "text": "Benchmarks"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "argilla-io/distilabel",
+      "status": "candidate-context",
+      "text": "Distilabel is a framework for synthetic data and AI feedback for engineers who need fast, reliable and scalable pipelines based on verified research papers."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "argilla-io/distilabel",
+      "status": "candidate-context",
+      "text": "Benchmarks"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cython/cython",
+      "status": "candidate-context",
+      "text": "The most widely used Python to C compiler"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cython/cython",
+      "status": "candidate-context",
+      "text": "Benchmarks"
     }
   ],
   "candidate_glosses": [
@@ -353,6 +377,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "lambdaclass/libssz",
+      "status": "candidate",
+      "text": "Benchmarks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "argilla-io/distilabel",
+      "status": "candidate",
+      "text": "Benchmarks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cython/cython",
       "status": "candidate",
       "text": "Benchmarks"
     }
@@ -601,11 +637,23 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": ".github/workflows/pull_request.yml",
       "source_repo": "apache/casbin-rs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/codspeed.yml",
+      "source_repo": "argilla-io/distilabel"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/benchmarks.yml",
+      "source_repo": "cython/cython"
     }
   ],
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "lexical_providers": [
     "datamuse"
   ],

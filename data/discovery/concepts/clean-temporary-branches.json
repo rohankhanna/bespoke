@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Clean Temporary Branches"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "HabanaAI/vllm-fork",
+      "status": "candidate-context",
+      "text": "A high-throughput and memory-efficient inference and serving engine for LLMs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HabanaAI/vllm-fork",
+      "status": "candidate-context",
+      "text": "Clean Temporary Branches"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HabanaAI/vllm-fork",
+      "status": "candidate",
+      "text": "Clean Temporary Branches"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25763,
+      "status": "candidate",
+      "text": "humpy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17803,
+      "status": "candidate",
+      "text": "brush"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17769,
+      "status": "candidate",
+      "text": "well"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17764,
+      "status": "candidate",
+      "text": "flush"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17764,
+      "status": "candidate",
+      "text": "flushed"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Clean Temporary Branches",
+  "concept_id": "clean-temporary-branches",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/clean_stale_temp_branches.yml",
+      "source_repo": "HabanaAI/vllm-fork"
+    }
+  ],
+  "first_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Clean Temporary Branches",
+      "sense_id": "clean-temporary-branches#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

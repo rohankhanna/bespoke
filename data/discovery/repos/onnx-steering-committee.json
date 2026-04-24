@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-24T12:41:59.886019+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3794
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Notes and artifacts from the ONNX steering committee",
+    "fork": false,
+    "full_name": "onnx/steering-committee",
+    "html_url": "https://github.com/onnx/steering-committee",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2026-04-21T13:39:48Z",
+    "stargazers_count": 28,
+    "topics": [],
+    "updated_at": "2026-04-21T13:39:56Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

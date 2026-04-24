@@ -73,6 +73,30 @@
       "source_repo": "kubecfg/kubecfg",
       "status": "candidate-context",
       "text": "Deploy static content to Pages"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "TabbyML/tabby",
+      "status": "candidate-context",
+      "text": "Self-hosted AI coding assistant"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TabbyML/tabby",
+      "status": "candidate-context",
+      "text": "Deploy static content to Pages"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "CERTCC/SSVC",
+      "status": "candidate-context",
+      "text": "Stakeholder-Specific Vulnerability Categorization"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CERTCC/SSVC",
+      "status": "candidate-context",
+      "text": "Deploy static content to Pages"
     }
   ],
   "candidate_glosses": [
@@ -109,6 +133,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "kubecfg/kubecfg",
+      "status": "candidate",
+      "text": "Deploy static content to Pages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TabbyML/tabby",
+      "status": "candidate",
+      "text": "Deploy static content to Pages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CERTCC/SSVC",
       "status": "candidate",
       "text": "Deploy static content to Pages"
     }
@@ -190,11 +226,23 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": ".github/workflows/mkdocs.yml",
       "source_repo": "kubecfg/kubecfg"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/gh-pages.yml",
+      "source_repo": "TabbyML/tabby"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/deploy_site.yml",
+      "source_repo": "CERTCC/SSVC"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "lexical_providers": [
     "datamuse"
   ],

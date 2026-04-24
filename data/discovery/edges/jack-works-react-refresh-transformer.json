@@ -1,0 +1,48 @@
+{
+  "edges": [
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Jack-Works/react-refresh-transformer",
+      "target": "@types/node",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Jack-Works/react-refresh-transformer",
+      "target": "vitest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Jack-Works/react-refresh-transformer",
+      "target": "jest-file-snapshot",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Jack-Works/react-refresh-transformer",
+      "target": "typescript",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:peerDependencies",
+      "source_file": "package.json",
+      "source_repo": "Jack-Works/react-refresh-transformer",
+      "target": "react-refresh",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:peerDependencies",
+      "source_file": "package.json",
+      "source_repo": "Jack-Works/react-refresh-transformer",
+      "target": "typescript",
+      "target_type": "component"
+    }
+  ],
+  "generated_at": "2026-04-24T12:33:41.350224+00:00",
+  "source_repo": "Jack-Works/react-refresh-transformer"
+}

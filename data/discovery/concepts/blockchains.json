@@ -19,6 +19,30 @@
       "source_repo": "Cryptonomic/Tezori",
       "status": "candidate-context",
       "text": "[![Node.js CI](https://github.com/Cryptonomic/Tezori/actions/workflows/node.js.yml/badge.svg)](https://github.com/Cryptonomic/Tezori/actions/workflows/node.js.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Cryptonomic/Conseil",
+      "status": "candidate-context",
+      "text": "Query API and indexer for Tezos and other decentralized platforms."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Cryptonomic/Conseil",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://travis-ci.org/Cryptonomic/Conseil.svg?branch=master)](https://travis-ci.org/Cryptonomic/Conseil)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Cryptonomic/ConseilJS",
+      "status": "candidate-context",
+      "text": "Client-side library for building decentralized applications."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Cryptonomic/ConseilJS",
+      "status": "candidate-context",
+      "text": "Note: As of January 2023, ConseilJS is maintained on a best effort basis for Tezos: https://discourse.cryptonomic.tech/t/psa-conseil-conseiljs-will-now-be-maintained-on-a-best-effort-basis-for-tezos/235/2"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +51,18 @@
       "source_repo": "Cryptonomic/Tezori",
       "status": "candidate",
       "text": "[![Node.js CI](https://github.com/Cryptonomic/Tezori/actions/workflows/node.js.yml/badge.svg)](https://github.com/Cryptonomic/Tezori/actions/workflows/node.js.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Cryptonomic/Conseil",
+      "status": "candidate",
+      "text": "[![Build Status](https://travis-ci.org/Cryptonomic/Conseil.svg?branch=master)](https://travis-ci.org/Cryptonomic/Conseil)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Cryptonomic/ConseilJS",
+      "status": "candidate",
+      "text": "Note: As of January 2023, ConseilJS is maintained on a best effort basis for Tezos: https://discourse.cryptonomic.tech/t/psa-conseil-conseiljs-will-now-be-maintained-on-a-best-effort-basis-for-tezos/235/2"
     }
   ],
   "candidate_related_terms": [
@@ -48,11 +84,23 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "Cryptonomic/Tezori"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "Cryptonomic/Conseil"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "Cryptonomic/ConseilJS"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "lexical_providers": [
     "datamuse"
   ],

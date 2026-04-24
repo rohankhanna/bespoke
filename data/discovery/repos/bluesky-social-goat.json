@@ -1,0 +1,85 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/golang.yml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/golang.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/golang.yml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/golang.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/golang.yml",
+      "source_repo": "bluesky-social/goat",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/golang.yml",
+      "source_repo": "bluesky-social/goat",
+      "target": "actions/setup-go@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/golang.yml",
+      "source_repo": "bluesky-social/goat",
+      "target": "golang",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T13:01:01.279965+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8510
+    },
+    {
+      "path": "go.mod",
+      "size": 4454
+    },
+    {
+      "path": ".github/workflows/golang.yml",
+      "size": 768
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Go AT protocol CLI tool",
+    "fork": false,
+    "full_name": "bluesky-social/goat",
+    "html_url": "https://github.com/bluesky-social/goat",
+    "language": "Go",
+    "pushed_at": "2026-04-08T18:54:21Z",
+    "stargazers_count": 182,
+    "topics": [],
+    "updated_at": "2026-04-23T21:24:49Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "golang",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/golang.yml",
+      "term": "golang"
+    }
+  ]
+}

@@ -91,6 +91,30 @@
       "source_repo": "ipld/specs",
       "status": "candidate-context",
       "text": "!!!"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ipld/js-ipld",
+      "status": "candidate-context",
+      "text": "The JavaScript Implementation of IPLD"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipld/js-ipld",
+      "status": "candidate-context",
+      "text": "\u26d4\ufe0f DEPRECATED: This module has been superseded by [multiformats](https://github.com/multiformats/js-multiformats) <!-- omit in toc -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "multiformats/js-cid",
+      "status": "candidate-context",
+      "text": "CID implementation in JavaScript"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "multiformats/js-cid",
+      "status": "candidate-context",
+      "text": "\u26d4\ufe0f DEPRECATED: This module has been superseded by the [multiformats](https://github.com/multiformats/js-multiformats) module <!-- omit in toc -->"
     }
   ],
   "candidate_glosses": [
@@ -135,6 +159,18 @@
       "source_repo": "ipld/specs",
       "status": "candidate",
       "text": "!!!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipld/js-ipld",
+      "status": "candidate",
+      "text": "\u26d4\ufe0f DEPRECATED: This module has been superseded by [multiformats](https://github.com/multiformats/js-multiformats) <!-- omit in toc -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "multiformats/js-cid",
+      "status": "candidate",
+      "text": "\u26d4\ufe0f DEPRECATED: This module has been superseded by the [multiformats](https://github.com/multiformats/js-multiformats) module <!-- omit in toc -->"
     }
   ],
   "candidate_related_terms": [],
@@ -202,11 +238,29 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "ipld/specs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "multiformats/cid"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "ipld/js-ipld"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "multiformats/js-cid"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "lexical_providers": [
     "datamuse"
   ],

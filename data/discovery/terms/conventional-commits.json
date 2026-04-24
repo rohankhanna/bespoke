@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T04:38:51.315908+00:00",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -56,6 +56,31 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "favware/cliff-jumper"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/conventional-commits.yml",
+      "source_repo": "a2aproject/a2a-dotnet"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/conventional-commits.yml",
+      "source_repo": "a2aproject/a2a-java"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/conventional-commits.yml",
+      "source_repo": "a2aproject/a2a-js"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/conventional-commits.yaml",
+      "source_repo": "a2aproject/a2a-inspector"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/conventional-commits.yml",
+      "source_repo": "a2aproject/a2a-python"
     }
   ],
   "term": "Conventional Commits"

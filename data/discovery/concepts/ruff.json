@@ -118,6 +118,12 @@
       "source_repo": "marin-community/harbor",
       "status": "candidate-context",
       "text": "Ruff"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CharlieFRuan/harbor",
+      "status": "candidate-context",
+      "text": "Ruff"
     }
   ],
   "candidate_glosses": [
@@ -172,6 +178,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "marin-community/harbor",
+      "status": "candidate",
+      "text": "Ruff"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CharlieFRuan/harbor",
       "status": "candidate",
       "text": "Ruff"
     }
@@ -325,11 +337,29 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": ".github/workflows/ruff-format.yml",
       "source_repo": "marin-community/harbor"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/ruff-format.yml",
+      "source_repo": "CharlieFRuan/harbor"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/ruff-format.yml",
+      "source_repo": "harbor-framework/harbor"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": null,
+      "source_repo": "astral-sh/ruff"
     }
   ],
   "first_seen_at": "2026-04-18T12:46:59.510459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "lexical_providers": [
     "datamuse"
   ],

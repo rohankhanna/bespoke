@@ -380,6 +380,18 @@
       "source_repo": "uploadcare/pillow-simd",
       "status": "candidate-context",
       "text": "Release drafter"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "archiverjs/node-archiver",
+      "status": "candidate-context",
+      "text": "a streaming interface for archive generation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "archiverjs/node-archiver",
+      "status": "candidate-context",
+      "text": "Release Drafter"
     }
   ],
   "candidate_glosses": [
@@ -568,6 +580,12 @@
       "source_repo": "uploadcare/pillow-simd",
       "status": "candidate",
       "text": "Release drafter"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "archiverjs/node-archiver",
+      "status": "candidate",
+      "text": "Release Drafter"
     }
   ],
   "candidate_related_terms": [
@@ -869,11 +887,17 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": ".github/workflows/release-drafter.yml",
       "source_repo": "uploadcare/pillow-simd"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T12:33:41.350224+00:00",
+      "source_file": ".github/workflows/release-drafter.yml",
+      "source_repo": "archiverjs/node-archiver"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "[CVPR2024 Highlight][VideoChatGPT] ChatGPT with video understanding! And many more supported LMs such as miniGPT4, StableLM, and MOSS."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![Open in OpenXLab](https://cdn-static.openxlab.org.cn/app-center/openxlab_app.svg)](https://openxlab.org.cn/apps/detail/yinanhe/VideoChat2) |"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![Open in OpenXLab](https://cdn-static.openxlab.org.cn/app-center/openxlab_app.svg)](https://openxlab.org.cn/apps/detail/yinanhe/VideoChat2) |"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39991200,
+      "status": "candidate",
+      "text": "confabulate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39991104,
+      "status": "candidate",
+      "text": "confab"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39991078,
+      "status": "candidate",
+      "text": "confabulation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39989179,
+      "status": "candidate",
+      "text": "chitchat"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39985972,
+      "status": "candidate",
+      "text": "natter"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "chat",
+      "sense_id": "chat#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 16042,
+      "status": "candidate",
+      "text": "chatter"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 13032,
+      "status": "candidate",
+      "text": "confabulate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 10031,
+      "status": "candidate",
+      "text": "confab"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 9045,
+      "status": "candidate",
+      "text": "visit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 8058,
+      "status": "candidate",
+      "text": "jaw"
+    }
+  ],
+  "concept_id": "chat",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "chat",
+  "observation_id": "b751dec936134c0d",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T12:33:41.350224+00:00",
+  "observed_text": "chat",
+  "source_context_snippet": "[![Open in OpenXLab](https://cdn-static.openxlab.org.cn/app-center/openxlab_app.svg)](https://openxlab.org.cn/apps/detail/yinanhe/VideoChat2) |",
+  "source_file": null,
+  "source_repo": "OpenGVLab/Ask-Anything",
+  "source_repo_description": "[CVPR2024 Highlight][VideoChatGPT] ChatGPT with video understanding! And many more supported LMs such as miniGPT4, StableLM, and MOSS."
+}

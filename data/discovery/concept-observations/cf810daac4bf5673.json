@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "a streaming interface for archive generation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Sync labels"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Sync labels"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10561,
+      "status": "candidate",
+      "text": "lance"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10523,
+      "status": "candidate",
+      "text": "beamforming"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10523,
+      "status": "candidate",
+      "text": "big ben"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10523,
+      "status": "candidate",
+      "text": "logos"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10523,
+      "status": "candidate",
+      "text": "mel"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Sync labels",
+      "sense_id": "sync-labels#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "sync-labels",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "sync-labels",
+  "observation_id": "cf810daac4bf5673",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-24T12:33:41.350224+00:00",
+  "observed_text": "Sync labels",
+  "source_context_snippet": "Sync labels",
+  "source_file": ".github/workflows/labels.yaml",
+  "source_repo": "archiverjs/node-archiver",
+  "source_repo_description": "a streaming interface for archive generation"
+}

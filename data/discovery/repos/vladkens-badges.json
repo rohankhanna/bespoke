@@ -1,0 +1,240 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "docker/setup-qemu-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "docker/login-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "docker/build-push-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "docker/build-push-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "vladkens/badges",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "vladkens/badges",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "vladkens/badges",
+      "target": "docker/setup-qemu-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "vladkens/badges",
+      "target": "docker/setup-buildx-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "vladkens/badges",
+      "target": "docker/login-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "vladkens/badges",
+      "target": "docker/build-push-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "vladkens/badges",
+      "target": "softprops/action-gh-release@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "vladkens/badges",
+      "target": "build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vladkens/badges",
+      "target": "badge",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vladkens/badges",
+      "target": "badge-maker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vladkens/badges",
+      "target": "badges-github",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vladkens/badges",
+      "target": "badges-markdown",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vladkens/badges",
+      "target": "self-hosted",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vladkens/badges",
+      "target": "service",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vladkens/badges",
+      "target": "status",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T13:01:02.943113+00:00",
+  "fetched_files": [
+    {
+      "path": "Cargo.toml",
+      "size": 134
+    },
+    {
+      "path": "Dockerfile",
+      "size": 1031
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 2447
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "\ud83c\udf96\ufe0f\ud83c\udfa8 Instantly create custom badges for GitHub, docs, and more. Lightweight, self-hostable, with live integrations that keep badges always up to date. Elevate your projects in seconds!",
+    "fork": false,
+    "full_name": "vladkens/badges",
+    "html_url": "https://github.com/vladkens/badges",
+    "language": "Rust",
+    "pushed_at": "2025-08-31T19:59:45Z",
+    "stargazers_count": 43,
+    "topics": [
+      "badge",
+      "badge-maker",
+      "badges-github",
+      "badges-markdown",
+      "self-hosted",
+      "service",
+      "status",
+      "svg"
+    ],
+    "updated_at": "2026-04-06T18:41:01Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "build"
+    },
+    {
+      "context_snippet": "[workspace] members = [\"app\", \"badgelib\"] resolver = \"3\" [profile.release] strip = true [profile.dev] debug = 0 strip = \"debuginfo\"",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "badge"
+    },
+    {
+      "context_snippet": "[workspace] members = [\"app\", \"badgelib\"] resolver = \"3\" [profile.release] strip = true [profile.dev] debug = 0 strip = \"debuginfo\"",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "badge-maker"
+    },
+    {
+      "context_snippet": "[workspace] members = [\"app\", \"badgelib\"] resolver = \"3\" [profile.release] strip = true [profile.dev] debug = 0 strip = \"debuginfo\"",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "badges-github"
+    },
+    {
+      "context_snippet": "[workspace] members = [\"app\", \"badgelib\"] resolver = \"3\" [profile.release] strip = true [profile.dev] debug = 0 strip = \"debuginfo\"",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "badges-markdown"
+    },
+    {
+      "context_snippet": "[workspace] members = [\"app\", \"badgelib\"] resolver = \"3\" [profile.release] strip = true [profile.dev] debug = 0 strip = \"debuginfo\"",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "self-hosted"
+    },
+    {
+      "context_snippet": "[workspace] members = [\"app\", \"badgelib\"] resolver = \"3\" [profile.release] strip = true [profile.dev] debug = 0 strip = \"debuginfo\"",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "service"
+    },
+    {
+      "context_snippet": "[workspace] members = [\"app\", \"badgelib\"] resolver = \"3\" [profile.release] strip = true [profile.dev] debug = 0 strip = \"debuginfo\"",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "status"
+    }
+  ]
+}
