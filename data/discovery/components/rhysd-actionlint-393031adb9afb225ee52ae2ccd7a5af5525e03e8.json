@@ -1,0 +1,12 @@
+{
+  "component": "rhysd/actionlint@393031adb9afb225ee52ae2ccd7a5af5525e03e8",
+  "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/lint-gh.yml",
+      "source_repo": "WebAssembly/WASI"
+    }
+  ]
+}

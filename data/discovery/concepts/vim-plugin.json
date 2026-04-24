@@ -271,6 +271,66 @@
       "source_repo": "JuliaEditorSupport/julia-vim",
       "status": "candidate-context",
       "text": "<p align=\"center\"><img src=\"logo.png\" alt=\"julia-vim logo\"/></p>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "girishji/devdocs.vim",
+      "status": "candidate-context",
+      "text": "Lookup  API documentation from devdocs.io without leaving Vim."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "girishji/devdocs.vim",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\"> Devdocs </h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "girishji/ngram-complete.vim",
+      "status": "candidate-context",
+      "text": "Autocompletion based on frequency of word occurrence in English corpus."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "girishji/ngram-complete.vim",
+      "status": "candidate-context",
+      "text": "Traditional dictionary based word completion is more or less useless since it"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "girishji/ngramview-complete.vim",
+      "status": "candidate-context",
+      "text": "Next word completion for Vim based on Google Ngrams Viewer."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "girishji/ngramview-complete.vim",
+      "status": "candidate-context",
+      "text": "---"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "girishji/scope.vim",
+      "status": "candidate-context",
+      "text": "Minimal, fast, and extensible fuzzy finder."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "girishji/scope.vim",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\"> Scope </h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "liuchengxu/vista.vim",
+      "status": "candidate-context",
+      "text": ":cactus: Viewer & Finder for LSP symbols and tags"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "liuchengxu/vista.vim",
+      "status": "candidate-context",
+      "text": "[![CI](https://github.com/liuchengxu/vista.vim/workflows/ci/badge.svg)](https://github.com/liuchengxu/vista.vim/actions?workflow=ci)"
     }
   ],
   "candidate_glosses": [
@@ -405,6 +465,36 @@
       "source_repo": "JuliaEditorSupport/julia-vim",
       "status": "candidate",
       "text": "<p align=\"center\"><img src=\"logo.png\" alt=\"julia-vim logo\"/></p>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "girishji/devdocs.vim",
+      "status": "candidate",
+      "text": "<h1 align=\"center\"> Devdocs </h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "girishji/ngram-complete.vim",
+      "status": "candidate",
+      "text": "Traditional dictionary based word completion is more or less useless since it"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "girishji/ngramview-complete.vim",
+      "status": "candidate",
+      "text": "---"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "girishji/scope.vim",
+      "status": "candidate",
+      "text": "<h1 align=\"center\"> Scope </h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "liuchengxu/vista.vim",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/liuchengxu/vista.vim/workflows/ci/badge.svg)](https://github.com/liuchengxu/vista.vim/actions?workflow=ci)"
     }
   ],
   "candidate_related_terms": [],
@@ -568,11 +658,53 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "JuliaEditorSupport/julia-vim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "girishji/devdocs.vim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "girishji/ngram-complete.vim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "girishji/ngramview-complete.vim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "girishji/scope.vim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "liuchengxu/vista.vim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "dense-analysis/ale"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "vim-syntastic/syntastic"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

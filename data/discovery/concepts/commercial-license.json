@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "commercial-license"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "batrachianai/toad",
+      "status": "candidate-context",
+      "text": "A unified interface for AI in your terminal."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "batrachianai/toad",
+      "status": "candidate-context",
+      "text": "A unified interface for AI in your terminal ([release announcement](https://willmcgugan.github.io/toad-released/))."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "batrachianai/toad",
+      "status": "candidate",
+      "text": "A unified interface for AI in your terminal ([release announcement](https://willmcgugan.github.io/toad-released/))."
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "commercial-license",
+  "concept_id": "commercial-license",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "batrachianai/toad"
+    }
+  ],
+  "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "commercial-license",
+      "sense_id": "commercial-license#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

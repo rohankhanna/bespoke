@@ -1,0 +1,537 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/compatibility.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/compatibility.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/compatibility.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "redhat-plumbers-in-action/differential-shellcheck@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "codespell-project/actions-codespell@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/manpages.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/manpages.yml"
+    },
+    {
+      "component": "stefanzweifel/git-auto-commit-action@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/manpages.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/compatibility.yml",
+      "source_repo": "89luca89/distrobox",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "89luca89/distrobox",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "89luca89/distrobox",
+      "target": "redhat-plumbers-in-action/differential-shellcheck@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "89luca89/distrobox",
+      "target": "codespell-project/actions-codespell@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "89luca89/distrobox",
+      "target": "Lint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/manpages.yml",
+      "source_repo": "89luca89/distrobox",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/manpages.yml",
+      "source_repo": "89luca89/distrobox",
+      "target": "stefanzweifel/git-auto-commit-action@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/manpages.yml",
+      "source_repo": "89luca89/distrobox",
+      "target": "Docs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "89luca89/distrobox",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "89luca89/distrobox",
+      "target": "actions/setup-go@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "89luca89/distrobox",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "89luca89/distrobox",
+      "target": "actions/download-artifact@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "89luca89/distrobox",
+      "target": "Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "89luca89/distrobox",
+      "target": "almalinux",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "89luca89/distrobox",
+      "target": "alpine",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "89luca89/distrobox",
+      "target": "archlinux",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "89luca89/distrobox",
+      "target": "bash",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "89luca89/distrobox",
+      "target": "centos",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "89luca89/distrobox",
+      "target": "command-line",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "89luca89/distrobox",
+      "target": "containers",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "89luca89/distrobox",
+      "target": "debian",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "89luca89/distrobox",
+      "target": "development",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "89luca89/distrobox",
+      "target": "docker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "89luca89/distrobox",
+      "target": "fedora",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "89luca89/distrobox",
+      "target": "linux",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "89luca89/distrobox",
+      "target": "opensuse",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "89luca89/distrobox",
+      "target": "podman",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "89luca89/distrobox",
+      "target": "posix",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "89luca89/distrobox",
+      "target": "posix-sh",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "89luca89/distrobox",
+      "target": "rockylinux",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "89luca89/distrobox",
+      "target": "suse",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "89luca89/distrobox",
+      "target": "tools",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "89luca89/distrobox",
+      "target": "ubuntu",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T01:44:17.911188+00:00",
+  "fetched_files": [
+    {
+      "path": ".github/workflows/compatibility.yml",
+      "size": 8185
+    },
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 4621
+    },
+    {
+      "path": ".github/workflows/manpages.yml",
+      "size": 2274
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 1345
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Use any linux distribution inside your terminal. Enable both backward and forward compatibility with software and freedom to use whatever distribution you\u2019re more comfortable with. Mirror available at: https://gitlab.com/89luca89/distrobox",
+    "fork": false,
+    "full_name": "89luca89/distrobox",
+    "html_url": "https://github.com/89luca89/distrobox",
+    "language": "Shell",
+    "pushed_at": "2026-04-22T15:14:26Z",
+    "stargazers_count": 12324,
+    "topics": [
+      "almalinux",
+      "alpine",
+      "archlinux",
+      "bash",
+      "centos",
+      "command-line",
+      "containers",
+      "debian",
+      "development",
+      "docker",
+      "fedora",
+      "linux",
+      "opensuse",
+      "podman",
+      "posix",
+      "posix-sh",
+      "rockylinux",
+      "suse",
+      "tools",
+      "ubuntu"
+    ],
+    "updated_at": "2026-04-24T01:09:08Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Lint",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "term": "Lint"
+    },
+    {
+      "context_snippet": "Docs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/manpages.yml",
+      "term": "Docs"
+    },
+    {
+      "context_snippet": "Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Release"
+    },
+    {
+      "context_snippet": "CI",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "almalinux"
+    },
+    {
+      "context_snippet": "CI",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "alpine"
+    },
+    {
+      "context_snippet": "CI",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "archlinux"
+    },
+    {
+      "context_snippet": "CI",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bash"
+    },
+    {
+      "context_snippet": "CI",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "centos"
+    },
+    {
+      "context_snippet": "CI",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "command-line"
+    },
+    {
+      "context_snippet": "CI",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "containers"
+    },
+    {
+      "context_snippet": "CI",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "debian"
+    },
+    {
+      "context_snippet": "CI",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "development"
+    },
+    {
+      "context_snippet": "CI",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "docker"
+    },
+    {
+      "context_snippet": "CI",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fedora"
+    },
+    {
+      "context_snippet": "CI",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "linux"
+    },
+    {
+      "context_snippet": "CI",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "opensuse"
+    },
+    {
+      "context_snippet": "CI",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "podman"
+    },
+    {
+      "context_snippet": "CI",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "posix"
+    },
+    {
+      "context_snippet": "CI",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "posix-sh"
+    },
+    {
+      "context_snippet": "CI",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rockylinux"
+    },
+    {
+      "context_snippet": "CI",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "suse"
+    },
+    {
+      "context_snippet": "CI",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tools"
+    },
+    {
+      "context_snippet": "CI",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ubuntu"
+    }
+  ]
+}

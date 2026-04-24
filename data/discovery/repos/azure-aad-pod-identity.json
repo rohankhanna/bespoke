@@ -1,0 +1,258 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codecov.yml"
+    },
+    {
+      "component": "actions/setup-go@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codecov.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codecov.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gh-pages.yml"
+    },
+    {
+      "component": "peaceiris/actions-hugo@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gh-pages.yml"
+    },
+    {
+      "component": "peaceiris/actions-gh-pages@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gh-pages.yml"
+    },
+    {
+      "component": "actions/stale@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codecov.yml",
+      "source_repo": "Azure/aad-pod-identity",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codecov.yml",
+      "source_repo": "Azure/aad-pod-identity",
+      "target": "actions/setup-go@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codecov.yml",
+      "source_repo": "Azure/aad-pod-identity",
+      "target": "codecov/codecov-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codecov.yml",
+      "source_repo": "Azure/aad-pod-identity",
+      "target": "Codecov",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gh-pages.yml",
+      "source_repo": "Azure/aad-pod-identity",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gh-pages.yml",
+      "source_repo": "Azure/aad-pod-identity",
+      "target": "peaceiris/actions-hugo@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gh-pages.yml",
+      "source_repo": "Azure/aad-pod-identity",
+      "target": "peaceiris/actions-gh-pages@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gh-pages.yml",
+      "source_repo": "Azure/aad-pod-identity",
+      "target": "github pages",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "Azure/aad-pod-identity",
+      "target": "actions/stale@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "Azure/aad-pod-identity",
+      "target": "Close stale issues and PRs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Azure/aad-pod-identity",
+      "target": "aad-pod-identity",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Azure/aad-pod-identity",
+      "target": "azure",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Azure/aad-pod-identity",
+      "target": "azureactivedirectory",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Azure/aad-pod-identity",
+      "target": "deprecaed",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Azure/aad-pod-identity",
+      "target": "kubernetes",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Azure/aad-pod-identity",
+      "target": "kubernetes-applications",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T01:45:02.758464+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3946
+    },
+    {
+      "path": "Dockerfile",
+      "size": 1226
+    },
+    {
+      "path": "go.mod",
+      "size": 3593
+    },
+    {
+      "path": ".github/workflows/codecov.yml",
+      "size": 357
+    },
+    {
+      "path": ".github/workflows/gh-pages.yml",
+      "size": 723
+    },
+    {
+      "path": ".github/workflows/stale.yml",
+      "size": 1056
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "[DEPRECATED] Assign Azure Active Directory Identities to Kubernetes applications. ",
+    "fork": false,
+    "full_name": "Azure/aad-pod-identity",
+    "html_url": "https://github.com/Azure/aad-pod-identity",
+    "language": "Go",
+    "pushed_at": "2023-10-02T20:34:21Z",
+    "stargazers_count": 561,
+    "topics": [
+      "aad-pod-identity",
+      "azure",
+      "azureactivedirectory",
+      "deprecaed",
+      "kubernetes",
+      "kubernetes-applications"
+    ],
+    "updated_at": "2026-03-24T18:56:43Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Codecov",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codecov.yml",
+      "term": "Codecov"
+    },
+    {
+      "context_snippet": "github pages",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gh-pages.yml",
+      "term": "github pages"
+    },
+    {
+      "context_snippet": "'Close stale issues and PRs'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "term": "Close stale issues and PRs"
+    },
+    {
+      "context_snippet": "> # \u26a0\ufe0f [AAD Pod Identity repo has been archived and is no longer maintained.](#-announcement)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "aad-pod-identity"
+    },
+    {
+      "context_snippet": "> # \u26a0\ufe0f [AAD Pod Identity repo has been archived and is no longer maintained.](#-announcement)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "azure"
+    },
+    {
+      "context_snippet": "> # \u26a0\ufe0f [AAD Pod Identity repo has been archived and is no longer maintained.](#-announcement)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "azureactivedirectory"
+    },
+    {
+      "context_snippet": "> # \u26a0\ufe0f [AAD Pod Identity repo has been archived and is no longer maintained.](#-announcement)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deprecaed"
+    },
+    {
+      "context_snippet": "> # \u26a0\ufe0f [AAD Pod Identity repo has been archived and is no longer maintained.](#-announcement)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kubernetes"
+    },
+    {
+      "context_snippet": "> # \u26a0\ufe0f [AAD Pod Identity repo has been archived and is no longer maintained.](#-announcement)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kubernetes-applications"
+    }
+  ]
+}

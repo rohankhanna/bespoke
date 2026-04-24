@@ -1,0 +1,130 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml"
+    },
+    {
+      "component": "purcell/setup-emacs@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml"
+    },
+    {
+      "component": "leotaku/elisp-check@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml"
+    },
+    {
+      "component": "leotaku/elisp-check@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml"
+    },
+    {
+      "component": "leotaku/elisp-check@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tpapp/julia-repl",
+      "target": "akermu/emacs-libvterm",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tpapp/julia-repl",
+      "target": "wentasah/emacsvterm.jl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tpapp/julia-repl",
+      "target": "dieggsy/eterm-256color",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml",
+      "source_repo": "tpapp/julia-repl",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml",
+      "source_repo": "tpapp/julia-repl",
+      "target": "purcell/setup-emacs@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml",
+      "source_repo": "tpapp/julia-repl",
+      "target": "leotaku/elisp-check@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/CI.yml",
+      "source_repo": "tpapp/julia-repl",
+      "target": "check",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T01:41:04.912434+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11643
+    },
+    {
+      "path": ".github/workflows/CI.yml",
+      "size": 1194
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Run an inferior Julia REPL in a terminal inside Emacs",
+    "fork": false,
+    "full_name": "tpapp/julia-repl",
+    "html_url": "https://github.com/tpapp/julia-repl",
+    "language": "Emacs Lisp",
+    "pushed_at": "2026-02-11T15:04:10Z",
+    "stargazers_count": 184,
+    "topics": [],
+    "updated_at": "2026-02-14T22:52:39Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "akermu/emacs-libvterm",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dieggsy/eterm-256color",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "wentasah/emacsvterm.jl",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "check",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/CI.yml",
+      "term": "check"
+    }
+  ]
+}

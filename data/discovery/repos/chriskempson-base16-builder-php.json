@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "chriskempson/base16-builder-php",
+      "target": "chriskempson/base16-templates",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-24T00:38:31.222008+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 935
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A PHP implementation of a Base16 Builder",
+    "fork": false,
+    "full_name": "chriskempson/base16-builder-php",
+    "html_url": "https://github.com/chriskempson/base16-builder-php",
+    "language": "PHP",
+    "pushed_at": "2022-07-09T21:18:33Z",
+    "stargazers_count": 13,
+    "topics": [],
+    "updated_at": "2026-04-03T14:49:34Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "chriskempson/base16-templates",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tidwall/redcon.c",
+      "target": "tidwall/evio.c",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tidwall/redcon.c",
+      "target": "garyburd/redigo",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tidwall/redcon.c",
+      "target": "andymccurdy/redis-py",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tidwall/redcon.c",
+      "target": "noderedis/node_redis",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-24T01:49:23.709857+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6680
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Redis compatible server framework for C",
+    "fork": false,
+    "full_name": "tidwall/redcon.c",
+    "html_url": "https://github.com/tidwall/redcon.c",
+    "language": "C",
+    "pushed_at": "2024-12-08T16:18:51Z",
+    "stargazers_count": 59,
+    "topics": [],
+    "updated_at": "2025-09-05T09:04:05Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "andymccurdy/redis-py",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "garyburd/redigo",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "noderedis/node_redis",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tidwall/evio.c",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

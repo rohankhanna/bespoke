@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -11,6 +11,11 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/spell-check.yml",
       "source_repo": "starship/starship"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/spelling.yml",
+      "source_repo": "jekyll/jekyll"
     }
   ],
   "term": "Spell Check"

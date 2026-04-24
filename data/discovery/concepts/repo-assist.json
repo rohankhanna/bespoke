@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Repo Assist"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fsprojects/fantomas",
+      "status": "candidate-context",
+      "text": "FSharp source code formatter"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fsprojects/fantomas",
+      "status": "candidate-context",
+      "text": "\"Repo Assist\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fsprojects/fantomas",
+      "status": "candidate",
+      "text": "\"Repo Assist\""
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15324,
+      "status": "candidate",
+      "text": "crutch"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15324,
+      "status": "candidate",
+      "text": "cue"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15324,
+      "status": "candidate",
+      "text": "ease"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15324,
+      "status": "candidate",
+      "text": "prop"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15324,
+      "status": "candidate",
+      "text": "sustain"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Repo Assist",
+  "concept_id": "repo-assist",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/repo-assist.lock.yml",
+      "source_repo": "fsprojects/fantomas"
+    }
+  ],
+  "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Repo Assist",
+      "sense_id": "repo-assist#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

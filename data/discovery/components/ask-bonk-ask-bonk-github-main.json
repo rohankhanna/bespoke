@@ -1,12 +1,22 @@
 {
   "component": "ask-bonk/ask-bonk/github@main",
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/bonk.yml",
       "source_repo": "cloudflare/agents"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/bigbonk.yml",
+      "source_repo": "cloudflare/workerd"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/bonk.yml",
+      "source_repo": "cloudflare/workerd"
     }
   ]
 }

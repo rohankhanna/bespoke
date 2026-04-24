@@ -91,6 +91,18 @@
       "source_repo": "openvinotoolkit/open_model_zoo",
       "status": "candidate-context",
       "text": "> [!NOTE]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ably-labs/multiplayer-games-scalable-networking-framework",
+      "status": "candidate-context",
+      "text": "This repository contains a base networking framework for building any realtime multiplayer game on the web with Ably using the client/server architecture. This project uses vanilla JS on the client-side and NodeJS on the server-side and is scalable as you need "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ably-labs/multiplayer-games-scalable-networking-framework",
+      "status": "candidate-context",
+      "text": "This starter kit allows you to add multiplayer functionality (that follows the [Client/Server strategy](https://www.gabrielgambetta.com/client-server-game-architecture.html)) to your game. It provides a communication framework so that your players can communicate with a central \u2026"
     }
   ],
   "candidate_glosses": [
@@ -135,6 +147,12 @@
       "source_repo": "openvinotoolkit/open_model_zoo",
       "status": "candidate",
       "text": "> [!NOTE]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ably-labs/multiplayer-games-scalable-networking-framework",
+      "status": "candidate",
+      "text": "This starter kit allows you to add multiplayer functionality (that follows the [Client/Server strategy](https://www.gabrielgambetta.com/client-server-game-architecture.html)) to your game. It provides a communication framework so that your players can communicate with a central \u2026"
     }
   ],
   "candidate_related_terms": [
@@ -256,11 +274,23 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "openvinotoolkit/open_model_zoo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "ably-labs/multiplayer-games-scalable-networking-framework"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "ably-labs/realtime-quiz-framework"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

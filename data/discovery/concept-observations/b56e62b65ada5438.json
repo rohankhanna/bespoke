@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Addon for customizable table and form layouts with persistent variant management."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![ABAP_STANDARD](https://github.com/abap2UI5-addons/layout-variant-management/actions/workflows/ABAP_STANDARD.yaml/badge.svg)](https://github.com/abap2UI5-addons/layout-variant-management/actions/workflows/ABAP_STANDARD.yaml)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![ABAP_STANDARD](https://github.com/abap2UI5-addons/layout-variant-management/actions/workflows/ABAP_STANDARD.yaml/badge.svg)](https://github.com/abap2UI5-addons/layout-variant-management/actions/workflows/ABAP_STANDARD.yaml)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 8582027,
+      "status": "candidate",
+      "text": "fusilli"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 8582026,
+      "status": "candidate",
+      "text": "farfalloni"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 8582025,
+      "status": "candidate",
+      "text": "spirali"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 8582024,
+      "status": "candidate",
+      "text": "fior di latte"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 8582023,
+      "status": "candidate",
+      "text": "tortelloni"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "fiori",
+      "sense_id": "fiori#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "fiori",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "fiori",
+  "observation_id": "b56e62b65ada5438",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T00:33:56.049672+00:00",
+  "observed_text": "fiori",
+  "source_context_snippet": "[![ABAP_STANDARD](https://github.com/abap2UI5-addons/layout-variant-management/actions/workflows/ABAP_STANDARD.yaml/badge.svg)](https://github.com/abap2UI5-addons/layout-variant-management/actions/workflows/ABAP_STANDARD.yaml)",
+  "source_file": null,
+  "source_repo": "abap2UI5-addons/layout-management",
+  "source_repo_description": "Addon for customizable table and form layouts with persistent variant management."
+}

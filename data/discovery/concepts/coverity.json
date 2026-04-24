@@ -122,6 +122,30 @@
       "source_repo": "systemd/systemd",
       "status": "candidate-context",
       "text": "Coverity"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "avahi/avahi",
+      "status": "candidate-context",
+      "text": "Avahi - Service Discovery for Linux using mDNS/DNS-SD -- compatible with Bonjour"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "avahi/avahi",
+      "status": "candidate-context",
+      "text": "Coverity"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vim/vim",
+      "status": "candidate-context",
+      "text": "The official Vim repository"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vim/vim",
+      "status": "candidate-context",
+      "text": "Coverity"
     }
   ],
   "candidate_glosses": [
@@ -182,6 +206,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "systemd/systemd",
+      "status": "candidate",
+      "text": "Coverity"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "avahi/avahi",
+      "status": "candidate",
+      "text": "Coverity"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vim/vim",
       "status": "candidate",
       "text": "Coverity"
     }
@@ -287,11 +323,23 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": ".github/workflows/coverity.yml",
       "source_repo": "systemd/systemd"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/coverity.yml",
+      "source_repo": "avahi/avahi"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/coverity.yml",
+      "source_repo": "vim/vim"
     }
   ],
   "first_seen_at": "2026-04-19T17:36:09.281008+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -67,6 +67,30 @@
       "source_repo": "RoaringBitmap/RoaringBitmap",
       "status": "candidate-context",
       "text": "RoaringBitmap"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gchq/Gaffer",
+      "status": "candidate-context",
+      "text": "A large-scale entity and relation database supporting aggregation of properties"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gchq/Gaffer",
+      "status": "candidate-context",
+      "text": "<img align=\"right\" width=\"300\" height=\"auto\" src=\"logos/logoWithText.png\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/doris",
+      "status": "candidate-context",
+      "text": "Apache Doris is an easy-to-use, high performance and unified analytics database."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/doris",
+      "status": "candidate-context",
+      "text": "<!--"
     }
   ],
   "candidate_glosses": [
@@ -99,6 +123,18 @@
       "source_repo": "RoaringBitmap/RoaringBitmap",
       "status": "candidate",
       "text": "RoaringBitmap"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gchq/Gaffer",
+      "status": "candidate",
+      "text": "<img align=\"right\" width=\"300\" height=\"auto\" src=\"logos/logoWithText.png\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/doris",
+      "status": "candidate",
+      "text": "<!--"
     }
   ],
   "candidate_related_terms": [
@@ -208,11 +244,23 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "RoaringBitmap/RoaringBitmap"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "gchq/Gaffer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "apache/doris"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

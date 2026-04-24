@@ -1,0 +1,62 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tokio-rs/mini-redis",
+      "target": "aws-observability/aws-otel-collector",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "tokio-rs/mini-redis",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-24T00:36:00.302429+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6857
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 1532
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 630
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Incomplete Redis client and server implementation using Tokio - for learning purposes only",
+    "fork": false,
+    "full_name": "tokio-rs/mini-redis",
+    "html_url": "https://github.com/tokio-rs/mini-redis",
+    "language": "Rust",
+    "pushed_at": "2026-04-15T09:28:33Z",
+    "stargazers_count": 4642,
+    "topics": [],
+    "updated_at": "2026-04-23T09:49:28Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aws-observability/aws-otel-collector",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

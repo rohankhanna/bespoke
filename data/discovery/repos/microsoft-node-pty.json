@@ -1,0 +1,339 @@
+{
+  "components": [
+    {
+      "component": "node-addon-api",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/mocha",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/node",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@typescript-eslint/eslint-plugin",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@typescript-eslint/parser",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "cross-env",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "mocha",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "node-gyp",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "ps-list",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "typescript",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "microsoft/node-pty",
+      "target": "electerm/electerm",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "microsoft/node-pty",
+      "target": "criteo/mesos-term",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "microsoft/node-pty",
+      "target": "cyansalt/commas",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "microsoft/node-pty",
+      "target": "chjj/pty.js",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "microsoft/node-pty",
+      "target": "node-addon-api",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "microsoft/node-pty",
+      "target": "@types/mocha",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "microsoft/node-pty",
+      "target": "@types/node",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "microsoft/node-pty",
+      "target": "@typescript-eslint/eslint-plugin",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "microsoft/node-pty",
+      "target": "@typescript-eslint/parser",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "microsoft/node-pty",
+      "target": "cross-env",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "microsoft/node-pty",
+      "target": "eslint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "microsoft/node-pty",
+      "target": "mocha",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "microsoft/node-pty",
+      "target": "node-gyp",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "microsoft/node-pty",
+      "target": "ps-list",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "microsoft/node-pty",
+      "target": "typescript",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "microsoft/node-pty",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "microsoft/node-pty",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/node-pty",
+      "target": "conpty",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/node-pty",
+      "target": "forkpty",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/node-pty",
+      "target": "openpty",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/node-pty",
+      "target": "pseudoterminal",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/node-pty",
+      "target": "terminal",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/node-pty",
+      "target": "winpty",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T01:42:39.124154+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8100
+    },
+    {
+      "path": "package.json",
+      "size": 1660
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 2315
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Fork pseudoterminals in Node.JS",
+    "fork": false,
+    "full_name": "microsoft/node-pty",
+    "html_url": "https://github.com/microsoft/node-pty",
+    "language": "TypeScript",
+    "pushed_at": "2026-04-06T07:22:39Z",
+    "stargazers_count": 1887,
+    "topics": [
+      "conpty",
+      "forkpty",
+      "openpty",
+      "pseudoterminal",
+      "pty",
+      "terminal",
+      "winpty"
+    ],
+    "updated_at": "2026-04-23T13:49:15Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "chjj/pty.js",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "criteo/mesos-term",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cyansalt/commas",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "electerm/electerm",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![Build Status](https://dev.azure.com/vscode/node-pty/_apis/build/status/Microsoft.node-pty?branchName=main)](https://dev.azure.com/vscode/node-pty/_build/latest?definitionId=11&branchName=main)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "conpty"
+    },
+    {
+      "context_snippet": "[![Build Status](https://dev.azure.com/vscode/node-pty/_apis/build/status/Microsoft.node-pty?branchName=main)](https://dev.azure.com/vscode/node-pty/_build/latest?definitionId=11&branchName=main)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "forkpty"
+    },
+    {
+      "context_snippet": "[![Build Status](https://dev.azure.com/vscode/node-pty/_apis/build/status/Microsoft.node-pty?branchName=main)](https://dev.azure.com/vscode/node-pty/_build/latest?definitionId=11&branchName=main)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "openpty"
+    },
+    {
+      "context_snippet": "[![Build Status](https://dev.azure.com/vscode/node-pty/_apis/build/status/Microsoft.node-pty?branchName=main)](https://dev.azure.com/vscode/node-pty/_build/latest?definitionId=11&branchName=main)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pseudoterminal"
+    },
+    {
+      "context_snippet": "[![Build Status](https://dev.azure.com/vscode/node-pty/_apis/build/status/Microsoft.node-pty?branchName=main)](https://dev.azure.com/vscode/node-pty/_build/latest?definitionId=11&branchName=main)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "terminal"
+    },
+    {
+      "context_snippet": "[![Build Status](https://dev.azure.com/vscode/node-pty/_apis/build/status/Microsoft.node-pty?branchName=main)](https://dev.azure.com/vscode/node-pty/_build/latest?definitionId=11&branchName=main)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "winpty"
+    }
+  ]
+}

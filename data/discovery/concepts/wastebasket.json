@@ -1,0 +1,129 @@
+{
+  "aliases": [
+    "wastebasket"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "theimpossibleastronaut/rmw",
+      "status": "candidate-context",
+      "text": "trashcan/recycle bin utility for the command line"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "theimpossibleastronaut/rmw",
+      "status": "candidate-context",
+      "text": "rmw (ReMove to Waste) is a trashcan/recycle bin utility for the command line."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "theimpossibleastronaut/rmw",
+      "status": "candidate",
+      "text": "rmw (ReMove to Waste) is a trashcan/recycle bin utility for the command line."
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40046478,
+      "status": "candidate",
+      "text": "wastepaper basket"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40046339,
+      "status": "candidate",
+      "text": "circular file"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30046496,
+      "status": "candidate",
+      "text": "waste-paper basket"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30046496,
+      "status": "candidate",
+      "text": "waste basket"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30045995,
+      "status": "candidate",
+      "text": "dustbin"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2019,
+      "status": "candidate",
+      "text": "circular file"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 20,
+      "status": "candidate",
+      "text": "wastepaper basket"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 13,
+      "status": "candidate",
+      "text": "waste basket"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 9,
+      "status": "candidate",
+      "text": "waste-paper basket"
+    }
+  ],
+  "canonical_name": "wastebasket",
+  "concept_id": "wastebasket",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "theimpossibleastronaut/rmw"
+    }
+  ],
+  "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "wastebasket",
+      "sense_id": "wastebasket#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

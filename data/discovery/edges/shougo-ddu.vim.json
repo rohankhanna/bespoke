@@ -1,0 +1,111 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Shougo/ddu.vim",
+      "target": "shougo/ddu-ui-ff",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Shougo/ddu.vim",
+      "target": "shougo/ddu-source-file",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Shougo/ddu.vim",
+      "target": "shougo/ddu-kind-file",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Shougo/ddu.vim",
+      "target": "shougo/ddu-filter-matcher_substring",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deno.yml",
+      "source_repo": "Shougo/ddu.vim",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deno.yml",
+      "source_repo": "Shougo/ddu.vim",
+      "target": "denoland/setup-deno@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deno.yml",
+      "source_repo": "Shougo/ddu.vim",
+      "target": "deno",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jsr.yml",
+      "source_repo": "Shougo/ddu.vim",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jsr.yml",
+      "source_repo": "Shougo/ddu.vim",
+      "target": "denoland/setup-deno@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/jsr.yml",
+      "source_repo": "Shougo/ddu.vim",
+      "target": "jsr",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Shougo/ddu.vim",
+      "target": "ddu-vim",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Shougo/ddu.vim",
+      "target": "fuzzy-finder",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Shougo/ddu.vim",
+      "target": "neovim",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Shougo/ddu.vim",
+      "target": "user-interface",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Shougo/ddu.vim",
+      "target": "vim-denops",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-24T00:33:56.049672+00:00",
+  "source_repo": "Shougo/ddu.vim"
+}

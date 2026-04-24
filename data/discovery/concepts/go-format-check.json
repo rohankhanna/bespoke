@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Go format check"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hashicorp/go-retryablehttp",
+      "status": "candidate-context",
+      "text": "Retryable HTTP client in Go"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hashicorp/go-retryablehttp",
+      "status": "candidate-context",
+      "text": "Go format check"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hashicorp/go-retryablehttp",
+      "status": "candidate",
+      "text": "Go format check"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34627,
+      "status": "candidate",
+      "text": "audit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34627,
+      "status": "candidate",
+      "text": "checking"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34627,
+      "status": "candidate",
+      "text": "monitor"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34627,
+      "status": "candidate",
+      "text": "stem"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34569,
+      "status": "candidate",
+      "text": "slips"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Go format check",
+  "concept_id": "go-format-check",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/pr-gofmt.yaml",
+      "source_repo": "hashicorp/go-retryablehttp"
+    }
+  ],
+  "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Go format check",
+      "sense_id": "go-format-check#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

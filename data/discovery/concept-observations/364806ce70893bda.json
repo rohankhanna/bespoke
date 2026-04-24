@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Nimbus: an Ethereum Execution Client for Resource-Restricted Devices"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Build Docker Base Images"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Build Docker Base Images"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26695,
+      "status": "candidate",
+      "text": "pyramid"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26295,
+      "status": "candidate",
+      "text": "bottom"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26295,
+      "status": "candidate",
+      "text": "bottoms"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26295,
+      "status": "candidate",
+      "text": "pyramiding"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26295,
+      "status": "candidate",
+      "text": "pyramids"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build Docker Base Images",
+      "sense_id": "build-docker-base-images#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "build-docker-base-images",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "build-docker-base-images",
+  "observation_id": "364806ce70893bda",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-24T00:33:56.049672+00:00",
+  "observed_text": "Build Docker Base Images",
+  "source_context_snippet": "Build Docker Base Images",
+  "source_file": ".github/workflows/build_base_image.yml",
+  "source_repo": "status-im/nimbus-eth1",
+  "source_repo_description": "Nimbus: an Ethereum Execution Client for Resource-Restricted Devices"
+}

@@ -1,11 +1,14 @@
 {
   "aliases": [
-    "fuzz-testing"
+    "fuzz-testing",
+    "Fuzz Testing"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
     "tool-component",
-    "capability"
+    "capability",
+    "workflow-process",
+    "data-document-artifact"
   ],
   "candidate_definitions": [
     {
@@ -79,6 +82,18 @@
       "source_repo": "google/syzkaller",
       "status": "candidate-context",
       "text": "[![CI Status](https://github.com/google/syzkaller/workflows/ci/badge.svg)](https://github.com/google/syzkaller/actions?query=workflow/ci)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Uniswap/v3-core",
+      "status": "candidate-context",
+      "text": "\ud83e\udd84 \ud83e\udd84 \ud83e\udd84 Core smart contracts of Uniswap v3"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Uniswap/v3-core",
+      "status": "candidate-context",
+      "text": "Fuzz Testing"
     }
   ],
   "candidate_glosses": [
@@ -117,9 +132,51 @@
       "source_repo": "google/syzkaller",
       "status": "candidate",
       "text": "[![CI Status](https://github.com/google/syzkaller/workflows/ci/badge.svg)](https://github.com/google/syzkaller/actions?query=workflow/ci)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Uniswap/v3-core",
+      "status": "candidate",
+      "text": "Fuzz Testing"
     }
   ],
-  "candidate_related_terms": [],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20034038,
+      "status": "candidate",
+      "text": "fuzzing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20034037,
+      "status": "candidate",
+      "text": "pseudodata"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20034036,
+      "status": "candidate",
+      "text": "test harness"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20034035,
+      "status": "candidate",
+      "text": "beta testing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20034034,
+      "status": "candidate",
+      "text": "sandwich testing"
+    }
+  ],
   "candidate_synonyms": [],
   "canonical_name": "fuzz-testing",
   "concept_id": "fuzz-testing",
@@ -160,11 +217,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "google/syzkaller"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/fuzz-testing.yml",
+      "source_repo": "Uniswap/v3-core"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

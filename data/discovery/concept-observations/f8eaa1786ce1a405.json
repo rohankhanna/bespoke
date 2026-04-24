@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Powertools for AWS is a developer toolkit to implement Serverless best practices and increase developer velocity."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<!-- markdownlint-disable MD013 -->"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<!-- markdownlint-disable MD013 -->"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10024681,
+      "status": "candidate",
+      "text": "cloud-first"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10024680,
+      "status": "candidate",
+      "text": "cloudy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10024679,
+      "status": "candidate",
+      "text": "server-side"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10024678,
+      "status": "candidate",
+      "text": "role-based"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10024677,
+      "status": "candidate",
+      "text": "hyperconverged"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "serverless",
+      "sense_id": "serverless#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "serverless",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "serverless",
+  "observation_id": "f8eaa1786ce1a405",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T00:33:56.049672+00:00",
+  "observed_text": "serverless",
+  "source_context_snippet": "<!-- markdownlint-disable MD013 -->",
+  "source_file": null,
+  "source_repo": "aws-powertools/powertools-lambda-typescript",
+  "source_repo_description": "Powertools for AWS is a developer toolkit to implement Serverless best practices and increase developer velocity."
+}

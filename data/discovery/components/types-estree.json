@@ -1,7 +1,7 @@
 {
   "component": "@types/estree",
   "first_seen_at": "2026-04-18T12:07:11.500453+00:00",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "sources": [
     {
       "discovered_via": "package-json:devDependencies",
@@ -47,6 +47,16 @@
       "discovered_via": "package-json:devDependencies",
       "source_file": "package.json",
       "source_repo": "ChromeDevTools/devtools-frontend"
+    },
+    {
+      "discovered_via": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "vuejs/vue-eslint-parser"
+    },
+    {
+      "discovered_via": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "nicolo-ribaudo/engine262"
     }
   ]
 }

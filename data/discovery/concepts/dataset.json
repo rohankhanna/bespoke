@@ -177,6 +177,42 @@
       "source_repo": "ConardLi/easy-dataset",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "project-miracl/miracl",
+      "status": "candidate-context",
+      "text": "A large-scale multilingual dataset for Information Retrieval. Thorough human-annotations across 18 diverse languages."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "project-miracl/miracl",
+      "status": "candidate-context",
+      "text": "<!-- <p align=\"center\"> <span><font size=\"32\"> <b> MIRACL \ud83c\udf0d\ud83d\ude4c\ud83c\udf0f </b></font></span></p> -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "iejMac/video2dataset",
+      "status": "candidate-context",
+      "text": "Easily create large video dataset from video urls"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "iejMac/video2dataset",
+      "status": "candidate-context",
+      "text": "[![pypi](https://img.shields.io/pypi/v/video2dataset.svg)](https://pypi.python.org/pypi/video2dataset)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rom1504/img2dataset",
+      "status": "candidate-context",
+      "text": "Easily turn large sets of image urls to an image dataset. Can download, resize and package 100M urls in 20h on one machine."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rom1504/img2dataset",
+      "status": "candidate-context",
+      "text": "[![pypi](https://img.shields.io/pypi/v/img2dataset.svg)](https://pypi.python.org/pypi/img2dataset)"
     }
   ],
   "candidate_glosses": [
@@ -263,6 +299,24 @@
       "source_repo": "ConardLi/easy-dataset",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "project-miracl/miracl",
+      "status": "candidate",
+      "text": "<!-- <p align=\"center\"> <span><font size=\"32\"> <b> MIRACL \ud83c\udf0d\ud83d\ude4c\ud83c\udf0f </b></font></span></p> -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "iejMac/video2dataset",
+      "status": "candidate",
+      "text": "[![pypi](https://img.shields.io/pypi/v/video2dataset.svg)](https://pypi.python.org/pypi/video2dataset)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rom1504/img2dataset",
+      "status": "candidate",
+      "text": "[![pypi](https://img.shields.io/pypi/v/img2dataset.svg)](https://pypi.python.org/pypi/img2dataset)"
     }
   ],
   "candidate_related_terms": [
@@ -390,11 +444,29 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "ConardLi/easy-dataset"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "project-miracl/miracl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "iejMac/video2dataset"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "rom1504/img2dataset"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pdcxs/ManimProjects",
+      "target": "manim",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T02:03:49.541659+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1154
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Play with Manim",
+    "fork": false,
+    "full_name": "pdcxs/ManimProjects",
+    "html_url": "https://github.com/pdcxs/ManimProjects",
+    "language": "Python",
+    "pushed_at": "2021-05-11T13:29:03Z",
+    "stargazers_count": 33,
+    "topics": [
+      "manim",
+      "python"
+    ],
+    "updated_at": "2024-09-22T05:26:36Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "I will put my manim files in this repository.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "manim"
+    }
+  ]
+}

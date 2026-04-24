@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "trashcan/recycle bin utility for the command line"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Email about Cirrus CI failures"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Email about Cirrus CI failures"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28364,
+      "status": "candidate",
+      "text": "bounce"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26325,
+      "status": "candidate",
+      "text": "lecture"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26325,
+      "status": "candidate",
+      "text": "newel"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26304,
+      "status": "candidate",
+      "text": "block"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26304,
+      "status": "candidate",
+      "text": "fault"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Email about Cirrus CI failures",
+      "sense_id": "email-about-cirrus-ci-failures#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "email-about-cirrus-ci-failures",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "email-about-cirrus-ci-failures",
+  "observation_id": "05f58cfe659b9c58",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-24T00:33:56.049672+00:00",
+  "observed_text": "Email about Cirrus CI failures",
+  "source_context_snippet": "Email about Cirrus CI failures",
+  "source_file": ".github/workflows/cirrus-email.yml",
+  "source_repo": "theimpossibleastronaut/rmw",
+  "source_repo_description": "trashcan/recycle bin utility for the command line"
+}

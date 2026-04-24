@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "no-simdutf-windows-static"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "haskell/text",
+      "status": "candidate-context",
+      "text": "Haskell library for space- and time-efficient operations over Unicode text."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "haskell/text",
+      "status": "candidate-context",
+      "text": "no-simdutf-windows-static"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "haskell/text",
+      "status": "candidate",
+      "text": "no-simdutf-windows-static"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "no-simdutf-windows-static",
+  "concept_id": "no-simdutf-windows-static",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/simdutf-flag-windows.yml",
+      "source_repo": "haskell/text"
+    }
+  ],
+  "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "no-simdutf-windows-static",
+      "sense_id": "no-simdutf-windows-static#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

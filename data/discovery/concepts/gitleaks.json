@@ -5,7 +5,9 @@
   "ambiguity_status": "unresolved",
   "buckets": [
     "workflow-process",
-    "data-document-artifact"
+    "data-document-artifact",
+    "tool-component",
+    "capability"
   ],
   "candidate_definitions": [
     {
@@ -19,6 +21,24 @@
       "source_repo": "goreleaser/goreleaser",
       "status": "candidate-context",
       "text": "gitleaks"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gitleaks/gitleaks",
+      "status": "candidate-context",
+      "text": "Find secrets with Gitleaks \ud83d\udd11"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gitleaks/gitleaks",
+      "status": "candidate-context",
+      "text": "gitleaks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gitleaks/gitleaks",
+      "status": "candidate-context",
+      "text": "```"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +47,18 @@
       "source_repo": "goreleaser/goreleaser",
       "status": "candidate",
       "text": "gitleaks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gitleaks/gitleaks",
+      "status": "candidate",
+      "text": "gitleaks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gitleaks/gitleaks",
+      "status": "candidate",
+      "text": "```"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +72,23 @@
       "observed_at": "2026-04-21T11:24:10.450489+00:00",
       "source_file": ".github/workflows/gitleaks.yml",
       "source_repo": "goreleaser/goreleaser"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/gitleaks.yml",
+      "source_repo": "gitleaks/gitleaks"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "gitleaks/gitleaks"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,93 @@
+{
+  "aliases": [
+    "Build template and commit theme updates"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tinted-theming/home",
+      "status": "candidate-context",
+      "text": "Style systems and smart build tooling for crafting high fidelity color schemes and easily using them in all your favorite apps. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tinted-theming/home",
+      "status": "candidate-context",
+      "text": "\"Build template and commit theme updates\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tinted-theming/home",
+      "status": "candidate",
+      "text": "\"Build template and commit theme updates\""
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31250,
+      "status": "candidate",
+      "text": "poll"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30124,
+      "status": "candidate",
+      "text": "collect"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29976,
+      "status": "candidate",
+      "text": "ten"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29976,
+      "status": "candidate",
+      "text": "vote"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Build template and commit theme updates",
+  "concept_id": "build-template-and-commit-theme-updates",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/shared-build-template-and-commit-themes.yml",
+      "source_repo": "tinted-theming/home"
+    }
+  ],
+  "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build template and commit theme updates",
+      "sense_id": "build-template-and-commit-theme-updates#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

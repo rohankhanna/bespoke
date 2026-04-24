@@ -1,0 +1,419 @@
+{
+  "components": [
+    {
+      "component": "abstract-level",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "browser-level",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "classic-level",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@babel/preset-env",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/node",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@voxpelli/tsconfig",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "airtap",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "airtap-playwright",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "babelify",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "hallmark",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "nyc",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "standard",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "tape",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "typescript",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "uuid",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "docker://antonyurchenko/git-release:v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/setup-node@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Level/level",
+      "target": "level/browserify-starter",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Level/level",
+      "target": "level/webpack-starter",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "Level/level",
+      "target": "abstract-level",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "Level/level",
+      "target": "browser-level",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "Level/level",
+      "target": "classic-level",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Level/level",
+      "target": "@babel/preset-env",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Level/level",
+      "target": "@types/node",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Level/level",
+      "target": "@voxpelli/tsconfig",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Level/level",
+      "target": "airtap",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Level/level",
+      "target": "airtap-playwright",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Level/level",
+      "target": "babelify",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Level/level",
+      "target": "hallmark",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Level/level",
+      "target": "nyc",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Level/level",
+      "target": "standard",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Level/level",
+      "target": "tape",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Level/level",
+      "target": "typescript",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Level/level",
+      "target": "uuid",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "Level/level",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "Level/level",
+      "target": "docker://antonyurchenko/git-release:v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "Level/level",
+      "target": "Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "Level/level",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "Level/level",
+      "target": "actions/setup-node@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "Level/level",
+      "target": "codecov/codecov-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "Level/level",
+      "target": "Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Level/level",
+      "target": "abstract-level",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Level/level",
+      "target": "browsers",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Level/level",
+      "target": "electron",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Level/level",
+      "target": "level",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Level/level",
+      "target": "leveldb",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Level/level",
+      "target": "nodejs",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T01:57:29.739019+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5407
+    },
+    {
+      "path": "package.json",
+      "size": 1388
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 357
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 895
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Universal abstract-level database for Node.js and browsers.",
+    "fork": false,
+    "full_name": "Level/level",
+    "html_url": "https://github.com/Level/level",
+    "language": "JavaScript",
+    "pushed_at": "2026-04-02T01:45:02Z",
+    "stargazers_count": 1678,
+    "topics": [
+      "abstract-level",
+      "browsers",
+      "electron",
+      "javascript",
+      "level",
+      "leveldb",
+      "nodejs"
+    ],
+    "updated_at": "2026-04-17T14:33:01Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "level/browserify-starter",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "level/webpack-starter",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Release"
+    },
+    {
+      "context_snippet": "Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "Test"
+    },
+    {
+      "context_snippet": "**Universal [`abstract-level`](https://github.com/Level/abstract-level) database for Node.js and browsers.** This is a convenience package that exports [`classic-level`](https://github.com/Level/classic-level) in Node.js and [`browser-level`](https://github.com/Level/browser-lev\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "abstract-level"
+    },
+    {
+      "context_snippet": "**Universal [`abstract-level`](https://github.com/Level/abstract-level) database for Node.js and browsers.** This is a convenience package that exports [`classic-level`](https://github.com/Level/classic-level) in Node.js and [`browser-level`](https://github.com/Level/browser-lev\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "browsers"
+    },
+    {
+      "context_snippet": "**Universal [`abstract-level`](https://github.com/Level/abstract-level) database for Node.js and browsers.** This is a convenience package that exports [`classic-level`](https://github.com/Level/classic-level) in Node.js and [`browser-level`](https://github.com/Level/browser-lev\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "electron"
+    },
+    {
+      "context_snippet": "**Universal [`abstract-level`](https://github.com/Level/abstract-level) database for Node.js and browsers.** This is a convenience package that exports [`classic-level`](https://github.com/Level/classic-level) in Node.js and [`browser-level`](https://github.com/Level/browser-lev\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "level"
+    },
+    {
+      "context_snippet": "**Universal [`abstract-level`](https://github.com/Level/abstract-level) database for Node.js and browsers.** This is a convenience package that exports [`classic-level`](https://github.com/Level/classic-level) in Node.js and [`browser-level`](https://github.com/Level/browser-lev\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "leveldb"
+    },
+    {
+      "context_snippet": "**Universal [`abstract-level`](https://github.com/Level/abstract-level) database for Node.js and browsers.** This is a convenience package that exports [`classic-level`](https://github.com/Level/classic-level) in Node.js and [`browser-level`](https://github.com/Level/browser-lev\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nodejs"
+    }
+  ]
+}

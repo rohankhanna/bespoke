@@ -1,0 +1,12 @@
+{
+  "component": "dotnet/comment-pipeline@e08a11834acf1e825ac727b732ac9d4cb8120c51",
+  "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/commands.yml",
+      "source_repo": "dotnet/fsharp"
+    }
+  ]
+}

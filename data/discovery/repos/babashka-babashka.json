@@ -1,0 +1,398 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows.yml"
+    },
+    {
+      "component": "graalvm/setup-graalvm@v1.3.3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows.yml"
+    },
+    {
+      "component": "DeLaGuardo/setup-clojure@13.4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/setup-java@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "DeLaGuardo/setup-clojure@13.4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "graalvm/setup-graalvm@v1.3.4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "graalvm/setup-graalvm@v1.3.4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "DeLaGuardo/setup-clojure@13.4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4.1.7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4.1.7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "babashka/babashka",
+      "target": "archlinuxfr/yaourt",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "babashka/babashka",
+      "target": "babashka/babashka.pods",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "babashka/babashka",
+      "target": "babashka/pod-registry",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "babashka/babashka",
+      "target": "anmonteiro/lumo",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows.yml",
+      "source_repo": "babashka/babashka",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows.yml",
+      "source_repo": "babashka/babashka",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows.yml",
+      "source_repo": "babashka/babashka",
+      "target": "graalvm/setup-graalvm@v1.3.3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows.yml",
+      "source_repo": "babashka/babashka",
+      "target": "DeLaGuardo/setup-clojure@13.4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows.yml",
+      "source_repo": "babashka/babashka",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-windows.yml",
+      "source_repo": "babashka/babashka",
+      "target": "build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "babashka/babashka",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "babashka/babashka",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "babashka/babashka",
+      "target": "actions/setup-java@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "babashka/babashka",
+      "target": "DeLaGuardo/setup-clojure@13.4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "babashka/babashka",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "babashka/babashka",
+      "target": "graalvm/setup-graalvm@v1.3.4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "babashka/babashka",
+      "target": "actions/download-artifact@v4.1.7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "babashka/babashka",
+      "target": "docker/setup-buildx-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "babashka/babashka",
+      "target": "build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "babashka/babashka",
+      "target": "babashka",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "babashka/babashka",
+      "target": "bash",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "babashka/babashka",
+      "target": "clojure",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "babashka/babashka",
+      "target": "graalvm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "babashka/babashka",
+      "target": "scripting",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "babashka/babashka",
+      "target": "shell-scripting",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T00:41:37.623312+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 24180
+    },
+    {
+      "path": "Dockerfile",
+      "size": 3074
+    },
+    {
+      "path": ".github/workflows/build-windows.yml",
+      "size": 3065
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 7420
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Native, fast starting Clojure interpreter for scripting",
+    "fork": false,
+    "full_name": "babashka/babashka",
+    "html_url": "https://github.com/babashka/babashka",
+    "language": "Clojure",
+    "pushed_at": "2026-04-20T18:57:41Z",
+    "stargazers_count": 4475,
+    "topics": [
+      "babashka",
+      "bash",
+      "clojure",
+      "graalvm",
+      "scripting",
+      "shell-scripting"
+    ],
+    "updated_at": "2026-04-23T02:13:07Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "anmonteiro/lumo",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "archlinuxfr/yaourt",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "babashka/babashka.pods",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "babashka/pod-registry",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-windows.yml",
+      "term": "build"
+    },
+    {
+      "context_snippet": "build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "build"
+    },
+    {
+      "context_snippet": "[<img src=\"logo/babashka.svg\" alt=\"Babashka\" width=\"425px\">](https://babashka.org)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "babashka"
+    },
+    {
+      "context_snippet": "[<img src=\"logo/babashka.svg\" alt=\"Babashka\" width=\"425px\">](https://babashka.org)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bash"
+    },
+    {
+      "context_snippet": "[<img src=\"logo/babashka.svg\" alt=\"Babashka\" width=\"425px\">](https://babashka.org)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "clojure"
+    },
+    {
+      "context_snippet": "[<img src=\"logo/babashka.svg\" alt=\"Babashka\" width=\"425px\">](https://babashka.org)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "graalvm"
+    },
+    {
+      "context_snippet": "[<img src=\"logo/babashka.svg\" alt=\"Babashka\" width=\"425px\">](https://babashka.org)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "scripting"
+    },
+    {
+      "context_snippet": "[<img src=\"logo/babashka.svg\" alt=\"Babashka\" width=\"425px\">](https://babashka.org)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "shell-scripting"
+    }
+  ]
+}

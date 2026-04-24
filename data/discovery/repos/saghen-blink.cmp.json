@@ -1,0 +1,459 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yaml"
+    },
+    {
+      "component": "actions/setup-node@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yaml"
+    },
+    {
+      "component": "cloudflare/wrangler-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nix.yaml"
+    },
+    {
+      "component": "DeterminateSystems/nix-installer-action@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nix.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/panvimdoc.yaml"
+    },
+    {
+      "component": "kdheepak/panvimdoc@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/panvimdoc.yaml"
+    },
+    {
+      "component": "stefanzweifel/git-auto-commit-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/panvimdoc.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "cross-platform-actions/action@v1.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "softprops/action-gh-release@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "actions/setup-node@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "cloudflare/wrangler-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/spelling.yaml"
+    },
+    {
+      "component": "crate-ci/typos@685eb3d55be2f85191e8c84acb9f44d7756f84ab",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/spelling.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stylua.yaml"
+    },
+    {
+      "component": "JohnnyMorganz/stylua-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stylua.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "saghen/blink.cmp",
+      "target": "saghen/blink.lib",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "saghen/blink.cmp",
+      "target": "saghen/frizbee",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "saghen/blink.cmp",
+      "target": "saghen/blink.compat",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yaml",
+      "source_repo": "saghen/blink.cmp",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yaml",
+      "source_repo": "saghen/blink.cmp",
+      "target": "actions/setup-node@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yaml",
+      "source_repo": "saghen/blink.cmp",
+      "target": "cloudflare/wrangler-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs.yaml",
+      "source_repo": "saghen/blink.cmp",
+      "target": "Deploy `main` docs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nix.yaml",
+      "source_repo": "saghen/blink.cmp",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nix.yaml",
+      "source_repo": "saghen/blink.cmp",
+      "target": "DeterminateSystems/nix-installer-action@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nix.yaml",
+      "source_repo": "saghen/blink.cmp",
+      "target": "Test Nix",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/panvimdoc.yaml",
+      "source_repo": "saghen/blink.cmp",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/panvimdoc.yaml",
+      "source_repo": "saghen/blink.cmp",
+      "target": "kdheepak/panvimdoc@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/panvimdoc.yaml",
+      "source_repo": "saghen/blink.cmp",
+      "target": "stefanzweifel/git-auto-commit-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/panvimdoc.yaml",
+      "source_repo": "saghen/blink.cmp",
+      "target": "Update vimdocs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "saghen/blink.cmp",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "saghen/blink.cmp",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "saghen/blink.cmp",
+      "target": "cross-platform-actions/action@v1.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "saghen/blink.cmp",
+      "target": "actions/download-artifact@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "saghen/blink.cmp",
+      "target": "softprops/action-gh-release@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "saghen/blink.cmp",
+      "target": "actions/setup-node@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "saghen/blink.cmp",
+      "target": "cloudflare/wrangler-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "saghen/blink.cmp",
+      "target": "Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/spelling.yaml",
+      "source_repo": "saghen/blink.cmp",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/spelling.yaml",
+      "source_repo": "saghen/blink.cmp",
+      "target": "crate-ci/typos@685eb3d55be2f85191e8c84acb9f44d7756f84ab",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/spelling.yaml",
+      "source_repo": "saghen/blink.cmp",
+      "target": "Spelling",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stylua.yaml",
+      "source_repo": "saghen/blink.cmp",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stylua.yaml",
+      "source_repo": "saghen/blink.cmp",
+      "target": "JohnnyMorganz/stylua-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stylua.yaml",
+      "source_repo": "saghen/blink.cmp",
+      "target": "Stylua",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "saghen/blink.cmp",
+      "target": "neovim",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "saghen/blink.cmp",
+      "target": "neovim-lua-plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "saghen/blink.cmp",
+      "target": "neovim-plugin",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T00:52:51.367750+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4990
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 312
+    },
+    {
+      "path": ".github/workflows/docs.yaml",
+      "size": 833
+    },
+    {
+      "path": ".github/workflows/nix.yaml",
+      "size": 1133
+    },
+    {
+      "path": ".github/workflows/panvimdoc.yaml",
+      "size": 750
+    },
+    {
+      "path": ".github/workflows/release.yaml",
+      "size": 6777
+    },
+    {
+      "path": ".github/workflows/spelling.yaml",
+      "size": 409
+    },
+    {
+      "path": ".github/workflows/stylua.yaml",
+      "size": 681
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Performant, batteries-included completion plugin for Neovim ",
+    "fork": false,
+    "full_name": "saghen/blink.cmp",
+    "html_url": "https://github.com/saghen/blink.cmp",
+    "language": "Lua",
+    "pushed_at": "2026-04-23T21:24:44Z",
+    "stargazers_count": 6200,
+    "topics": [
+      "neovim",
+      "neovim-lua-plugin",
+      "neovim-plugin"
+    ],
+    "updated_at": "2026-04-23T21:24:48Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "saghen/blink.compat",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "saghen/blink.lib",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "saghen/frizbee",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Deploy `main` docs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs.yaml",
+      "term": "Deploy `main` docs"
+    },
+    {
+      "context_snippet": "Test Nix",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nix.yaml",
+      "term": "Test Nix"
+    },
+    {
+      "context_snippet": "Update vimdocs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/panvimdoc.yaml",
+      "term": "Update vimdocs"
+    },
+    {
+      "context_snippet": "Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yaml",
+      "term": "Release"
+    },
+    {
+      "context_snippet": "Spelling",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/spelling.yaml",
+      "term": "Spelling"
+    },
+    {
+      "context_snippet": "Stylua",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stylua.yaml",
+      "term": "Stylua"
+    },
+    {
+      "context_snippet": "> [!WARNING]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neovim"
+    },
+    {
+      "context_snippet": "> [!WARNING]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neovim-lua-plugin"
+    },
+    {
+      "context_snippet": "> [!WARNING]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neovim-plugin"
+    }
+  ]
+}

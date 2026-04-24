@@ -1,0 +1,108 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "PyTorch Extension Library of Optimized Autograd Sparse Matrix Operations"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[pypi-image]: https://badge.fury.io/py/torch-sparse.svg"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[pypi-image]: https://badge.fury.io/py/torch-sparse.svg"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40031694,
+      "status": "candidate",
+      "text": "thin"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30037283,
+      "status": "candidate",
+      "text": "distributed"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30035729,
+      "status": "candidate",
+      "text": "scattering"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30035721,
+      "status": "candidate",
+      "text": "scattered"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30035686,
+      "status": "candidate",
+      "text": "disperse"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "sparse",
+      "sense_id": "sparse#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 19055,
+      "status": "candidate",
+      "text": "thin"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 6032,
+      "status": "candidate",
+      "text": "distributed"
+    }
+  ],
+  "concept_id": "sparse",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "sparse",
+  "observation_id": "760252a093689d95",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T00:33:56.049672+00:00",
+  "observed_text": "sparse",
+  "source_context_snippet": "[pypi-image]: https://badge.fury.io/py/torch-sparse.svg",
+  "source_file": null,
+  "source_repo": "rusty1s/pytorch_sparse",
+  "source_repo_description": "PyTorch Extension Library of Optimized Autograd Sparse Matrix Operations"
+}

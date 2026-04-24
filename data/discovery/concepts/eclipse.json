@@ -55,6 +55,30 @@
       "source_repo": "eclipse-tm4e/tm4e",
       "status": "candidate-context",
       "text": "[![GitHub Actions](https://github.com/eclipse-tm4e/tm4e/actions/workflows/build.yml/badge.svg)](https://github.com/eclipse-tm4e/tm4e/actions/workflows/build.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "angelozerr/ec4e",
+      "status": "candidate-context",
+      "text": "EditorConfig for Eclipse based on GenericEditor and tm4e"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "angelozerr/ec4e",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://secure.travis-ci.org/angelozerr/ec4e.png)](http://travis-ci.org/angelozerr/ec4e)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dart4e/dart4e",
+      "status": "candidate-context",
+      "text": "Dart and Flutter development support for the Eclipse IDE "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dart4e/dart4e",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://img.shields.io/github/actions/workflow/status/dart4e/dart4e/build.yml?logo=github)](https://github.com/dart4e/dart4e/actions/workflows/build.yml)"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +105,18 @@
       "source_repo": "eclipse-tm4e/tm4e",
       "status": "candidate",
       "text": "[![GitHub Actions](https://github.com/eclipse-tm4e/tm4e/actions/workflows/build.yml/badge.svg)](https://github.com/eclipse-tm4e/tm4e/actions/workflows/build.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "angelozerr/ec4e",
+      "status": "candidate",
+      "text": "[![Build Status](https://secure.travis-ci.org/angelozerr/ec4e.png)](http://travis-ci.org/angelozerr/ec4e)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dart4e/dart4e",
+      "status": "candidate",
+      "text": "[![Build Status](https://img.shields.io/github/actions/workflow/status/dart4e/dart4e/build.yml?logo=github)](https://github.com/dart4e/dart4e/actions/workflows/build.yml)"
     }
   ],
   "candidate_related_terms": [
@@ -187,11 +223,47 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "eclipse-tm4e/tm4e"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "eclipse-jdtls/eclipse.jdt.ls"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "eclipse-lsp4j/lsp4j"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "eclipse-tm4e/tm4e"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "eclipse-wildwebdeveloper/wildwebdeveloper"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "angelozerr/ec4e"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "dart4e/dart4e"
     }
   ],
   "first_seen_at": "2026-04-18T12:46:59.510459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

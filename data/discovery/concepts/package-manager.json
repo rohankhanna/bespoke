@@ -367,6 +367,66 @@
       "source_repo": "yarnpkg/yarn",
       "status": "candidate-context",
       "text": "> ## \u2139\ufe0f Important note"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "agkozak/zcomet",
+      "status": "candidate-context",
+      "text": "zcomet - Fast, Simple Zsh Plugin Manager"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "agkozak/zcomet",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "joseluisq/paket",
+      "status": "candidate-context",
+      "text": "A simple and fast package manager for the Fish shell written in Rust. \ud83d\udce6"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "joseluisq/paket",
+      "status": "candidate-context",
+      "text": "> A simple and fast package manager for the [Fish Shell](https://fishshell.com/) written in [Rust](https://www.rust-lang.org/). \ud83d\udc20"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nmattia/niv",
+      "status": "candidate-context",
+      "text": "Easy dependency management for Nix projects"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nmattia/niv",
+      "status": "candidate-context",
+      "text": "[![Test](https://github.com/nmattia/niv/actions/workflows/test.yml/badge.svg)](https://github.com/nmattia/niv/actions/workflows/test.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "yarnpkg/berry",
+      "status": "candidate-context",
+      "text": "\ud83d\udce6\ud83d\udc08 Active development trunk for Yarn \u2692"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yarnpkg/berry",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pnpm/pnpm",
+      "status": "candidate-context",
+      "text": "Fast, disk space efficient package manager"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pnpm/pnpm",
+      "status": "candidate-context",
+      "text": "[\u7b80\u4f53\u4e2d\u6587](https://pnpm.io/zh/) |"
     }
   ],
   "candidate_glosses": [
@@ -549,6 +609,36 @@
       "source_repo": "yarnpkg/yarn",
       "status": "candidate",
       "text": "> ## \u2139\ufe0f Important note"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "agkozak/zcomet",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "joseluisq/paket",
+      "status": "candidate",
+      "text": "> A simple and fast package manager for the [Fish Shell](https://fishshell.com/) written in [Rust](https://www.rust-lang.org/). \ud83d\udc20"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nmattia/niv",
+      "status": "candidate",
+      "text": "[![Test](https://github.com/nmattia/niv/actions/workflows/test.yml/badge.svg)](https://github.com/nmattia/niv/actions/workflows/test.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yarnpkg/berry",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pnpm/pnpm",
+      "status": "candidate",
+      "text": "[\u7b80\u4f53\u4e2d\u6587](https://pnpm.io/zh/) |"
     }
   ],
   "candidate_related_terms": [],
@@ -748,11 +838,41 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "yarnpkg/yarn"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "agkozak/zcomet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "joseluisq/paket"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "nmattia/niv"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "yarnpkg/berry"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "pnpm/pnpm"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

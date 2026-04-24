@@ -1,0 +1,115 @@
+{
+  "aliases": [
+    "coal"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "3dfxdev/EDGE",
+      "status": "candidate-context",
+      "text": "EDGE Source Code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "3dfxdev/EDGE",
+      "status": "candidate-context",
+      "text": "Welcome to EDGE!"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "3dfxdev/EDGE",
+      "status": "candidate",
+      "text": "Welcome to EDGE!"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40045532,
+      "status": "candidate",
+      "text": "char"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40045361,
+      "status": "candidate",
+      "text": "ember"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30049170,
+      "status": "candidate",
+      "text": "lignite"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30049056,
+      "status": "candidate",
+      "text": "coke"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30048984,
+      "status": "candidate",
+      "text": "charcoal"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 28044,
+      "status": "candidate",
+      "text": "char"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "ember"
+    }
+  ],
+  "canonical_name": "coal",
+  "concept_id": "coal",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "3dfxdev/EDGE"
+    }
+  ],
+  "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "coal",
+      "sense_id": "coal#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

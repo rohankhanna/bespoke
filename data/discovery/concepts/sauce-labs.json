@@ -19,12 +19,30 @@
       "source_repo": "Level/memdown",
       "status": "candidate-context",
       "text": "Sauce Labs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Level/levelup",
+      "status": "candidate-context",
+      "text": "Superseded by abstract-level. A wrapper for abstract-leveldown compliant stores, for Node.js and browsers."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Level/levelup",
+      "status": "candidate-context",
+      "text": "Sauce Labs"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "Level/memdown",
+      "status": "candidate",
+      "text": "Sauce Labs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Level/levelup",
       "status": "candidate",
       "text": "Sauce Labs"
     }
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": ".github/workflows/sauce.yml",
       "source_repo": "Level/memdown"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/sauce.yml",
+      "source_repo": "Level/levelup"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

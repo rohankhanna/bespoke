@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Accelerate SHA256 computations in pure Go using  AVX512, SHA Extensions for x86 and ARM64 for ARM. On AVX512 it provides an up to 8x improvement (over 3 GB/s per core). SHA Extensions give a performance boost of close to 4x over native."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Accelerate SHA256 computations in pure Go using AVX512, SHA Extensions for x86 and ARM64 for ARM."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Accelerate SHA256 computations in pure Go using AVX512, SHA Extensions for x86 and ARM64 for ARM."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "avx-instructions",
+      "sense_id": "avx-instructions#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "avx-instructions",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "avx-instructions",
+  "observation_id": "442a05b4ddc8e8b8",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T00:33:56.049672+00:00",
+  "observed_text": "avx-instructions",
+  "source_context_snippet": "Accelerate SHA256 computations in pure Go using AVX512, SHA Extensions for x86 and ARM64 for ARM.",
+  "source_file": null,
+  "source_repo": "minio/sha256-simd",
+  "source_repo_description": "Accelerate SHA256 computations in pure Go using  AVX512, SHA Extensions for x86 and ARM64 for ARM. On AVX512 it provides an up to 8x improvement (over 3 GB/s per core). SHA Extensions give a performance boost of close to 4x over native."
+}

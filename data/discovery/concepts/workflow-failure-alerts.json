@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Workflow Failure Alerts"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lambdaclass/ethrex",
+      "status": "candidate-context",
+      "text": "Minimalist, stable, modular, fast, and ZK native implementation of the Ethereum protocol in Rust. L1 and L2 execution client."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lambdaclass/ethrex",
+      "status": "candidate-context",
+      "text": "Workflow Failure Alerts"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lambdaclass/ethrex",
+      "status": "candidate",
+      "text": "Workflow Failure Alerts"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27304,
+      "status": "candidate",
+      "text": "bug"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27304,
+      "status": "candidate",
+      "text": "kink"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27264,
+      "status": "candidate",
+      "text": "cascade"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27264,
+      "status": "candidate",
+      "text": "cascades"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27264,
+      "status": "candidate",
+      "text": "encryption"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Workflow Failure Alerts",
+  "concept_id": "workflow-failure-alerts",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/common_failure_alerts.yaml",
+      "source_repo": "lambdaclass/ethrex"
+    }
+  ],
+  "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Workflow Failure Alerts",
+      "sense_id": "workflow-failure-alerts#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

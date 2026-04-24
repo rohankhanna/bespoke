@@ -1,0 +1,559 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "celo-org/celo-monorepo",
+      "target": "celo-org/op-geth",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "celo-org/celo-monorepo",
+      "target": "celo-org/developer-tooling",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "celo-org/celo-monorepo",
+      "target": "celo-org/charts",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "celo-org/celo-monorepo",
+      "target": "celo-org/social-connect",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "celo-org/celo-monorepo",
+      "target": "@tsconfig/recommended",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "celo-org/celo-monorepo",
+      "target": "@types/jest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "celo-org/celo-monorepo",
+      "target": "@types/node",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "celo-org/celo-monorepo",
+      "target": "@types/prompt",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "celo-org/celo-monorepo",
+      "target": "@types/semver",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "celo-org/celo-monorepo",
+      "target": "@typescript-eslint/eslint-plugin",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "celo-org/celo-monorepo",
+      "target": "@typescript-eslint/parser",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "celo-org/celo-monorepo",
+      "target": "colors",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "celo-org/celo-monorepo",
+      "target": "eslint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "celo-org/celo-monorepo",
+      "target": "eslint-plugin-import",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "celo-org/celo-monorepo",
+      "target": "husky",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "celo-org/celo-monorepo",
+      "target": "jest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "celo-org/celo-monorepo",
+      "target": "lerna",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "celo-org/celo-monorepo",
+      "target": "prettier",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "celo-org/celo-monorepo",
+      "target": "prettier-plugin-solidity",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "celo-org/celo-monorepo",
+      "target": "pretty-quick",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "celo-org/celo-monorepo",
+      "target": "prompt",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "celo-org/celo-monorepo",
+      "target": "semver",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "celo-org/celo-monorepo",
+      "target": "solc",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "celo-org/celo-monorepo",
+      "target": "ts-jest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "celo-org/celo-monorepo",
+      "target": "ts-node",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "celo-org/celo-monorepo",
+      "target": "tsconfig-paths",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "celo-org/celo-monorepo",
+      "target": "typescript",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/celo-monorepo.yml",
+      "source_repo": "celo-org/celo-monorepo",
+      "target": "mxschmitt/action-tmate@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/celo-monorepo.yml",
+      "source_repo": "celo-org/celo-monorepo",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/celo-monorepo.yml",
+      "source_repo": "celo-org/celo-monorepo",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/celo-monorepo.yml",
+      "source_repo": "celo-org/celo-monorepo",
+      "target": "tj-actions/verify-changed-files@6ed7632824d235029086612d4330d659005af687",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/celo-monorepo.yml",
+      "source_repo": "celo-org/celo-monorepo",
+      "target": "step-security/changed-files@3dbe17c78367e7d60f00d78ae6781a35be47b4a1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/celo-monorepo.yml",
+      "source_repo": "celo-org/celo-monorepo",
+      "target": "dawidd6/action-download-artifact@20319c5641d495c8a52e688b7dc5fada6c3a9fbc",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/celo-monorepo.yml",
+      "source_repo": "celo-org/celo-monorepo",
+      "target": "foundry-rs/foundry-toolchain@8f1998e9878d786675189ef566a2e4bf24869773",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/celo-monorepo.yml",
+      "source_repo": "celo-org/celo-monorepo",
+      "target": "nick-fields/retry@7152eba30c6575329ac0576536151aca5a72780e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/celo-monorepo.yml",
+      "source_repo": "celo-org/celo-monorepo",
+      "target": "actions/setup-java@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/celo-monorepo.yml",
+      "source_repo": "celo-org/celo-monorepo",
+      "target": "Build & Integration Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/containers.yaml",
+      "source_repo": "celo-org/celo-monorepo",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/containers.yaml",
+      "source_repo": "celo-org/celo-monorepo",
+      "target": "step-security/changed-files@3dbe17c78367e7d60f00d78ae6781a35be47b4a1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/containers.yaml",
+      "source_repo": "celo-org/celo-monorepo",
+      "target": "celo-org/reusable-workflows/.github/workflows/container-cicd.yaml@v2.0.5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/containers.yaml",
+      "source_repo": "celo-org/celo-monorepo",
+      "target": "Build containers",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependency-review.yaml",
+      "source_repo": "celo-org/celo-monorepo",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependency-review.yaml",
+      "source_repo": "celo-org/celo-monorepo",
+      "target": "actions/dependency-review-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dependency-review.yaml",
+      "source_repo": "celo-org/celo-monorepo",
+      "target": "Dependency Review",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/protocol-devchain-anvil.yml",
+      "source_repo": "celo-org/celo-monorepo",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/protocol-devchain-anvil.yml",
+      "source_repo": "celo-org/celo-monorepo",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/protocol-devchain-anvil.yml",
+      "source_repo": "celo-org/celo-monorepo",
+      "target": "actions/github-script@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/protocol-devchain-anvil.yml",
+      "source_repo": "celo-org/celo-monorepo",
+      "target": "foundry-rs/foundry-toolchain@8f1998e9878d786675189ef566a2e4bf24869773",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/protocol-devchain-anvil.yml",
+      "source_repo": "celo-org/celo-monorepo",
+      "target": "docker://us-west1-docker.pkg.dev/devopsre/akeyless-public/akeyless-action:latest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/protocol-devchain-anvil.yml",
+      "source_repo": "celo-org/celo-monorepo",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/protocol-devchain-anvil.yml",
+      "source_repo": "celo-org/celo-monorepo",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/protocol-devchain-anvil.yml",
+      "source_repo": "celo-org/celo-monorepo",
+      "target": "Protocol Devchain Anvil",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/protocol-devchain.yml",
+      "source_repo": "celo-org/celo-monorepo",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/protocol-devchain.yml",
+      "source_repo": "celo-org/celo-monorepo",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/protocol-devchain.yml",
+      "source_repo": "celo-org/celo-monorepo",
+      "target": "foundry-rs/foundry-toolchain@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/protocol-devchain.yml",
+      "source_repo": "celo-org/celo-monorepo",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/protocol-devchain.yml",
+      "source_repo": "celo-org/celo-monorepo",
+      "target": "CoreContracts: Devchain For Contract Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/protocol_tests.yml",
+      "source_repo": "celo-org/celo-monorepo",
+      "target": "pierotofy/set-swap-space@0404882bc4666c0ff2f6fd8b3d32af69a730183c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/protocol_tests.yml",
+      "source_repo": "celo-org/celo-monorepo",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/protocol_tests.yml",
+      "source_repo": "celo-org/celo-monorepo",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/protocol_tests.yml",
+      "source_repo": "celo-org/celo-monorepo",
+      "target": "foundry-rs/foundry-toolchain@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/protocol_tests.yml",
+      "source_repo": "celo-org/celo-monorepo",
+      "target": "Protocol Foundry tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-contracts-abi-release.yml",
+      "source_repo": "celo-org/celo-monorepo",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-contracts-abi-release.yml",
+      "source_repo": "celo-org/celo-monorepo",
+      "target": "docker://us-west1-docker.pkg.dev/devopsre/akeyless-public/akeyless-action:latest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-contracts-abi-release.yml",
+      "source_repo": "celo-org/celo-monorepo",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "celo-org/celo-monorepo",
+      "target": "actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "celo-org/celo-monorepo",
+      "target": "ossf/scorecard-action@0864cf19026789058feabb7e87baa5f140aac736",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "celo-org/celo-monorepo",
+      "target": "actions/upload-artifact@97a0fba1372883ab732affbe8f94b823f91727db",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "celo-org/celo-monorepo",
+      "target": "github/codeql-action/upload-sarif@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "celo-org/celo-monorepo",
+      "target": "Scorecard supply-chain security",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "celo-org/celo-monorepo",
+      "target": "blockchain",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "celo-org/celo-monorepo",
+      "target": "celo",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "celo-org/celo-monorepo",
+      "target": "crypto",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "celo-org/celo-monorepo",
+      "target": "cryptocurrency",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "celo-org/celo-monorepo",
+      "target": "dapp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "celo-org/celo-monorepo",
+      "target": "ethereum",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "celo-org/celo-monorepo",
+      "target": "financial-inclusion",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "celo-org/celo-monorepo",
+      "target": "smart-contracts",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "celo-org/celo-monorepo",
+      "target": "stablecoin",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-24T00:33:56.049672+00:00",
+  "source_repo": "celo-org/celo-monorepo"
+}

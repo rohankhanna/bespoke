@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "number"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "micromatch/to-regex-range",
+      "status": "candidate-context",
+      "text": "Pass two numbers, get a regex-compatible source string for matching ranges. Fast compiler, optimized regex, and validated against more than 2.78 million test assertions. Useful for creating regular expressions to validate numbers, ranges, years, etc."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "micromatch/to-regex-range",
+      "status": "candidate-context",
+      "text": "> Pass two numbers, get a regex-compatible source string for matching ranges. Validated against more than 2.78 million test assertions."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "micromatch/to-regex-range",
+      "status": "candidate",
+      "text": "> Pass two numbers, get a regex-compatible source string for matching ranges. Validated against more than 2.78 million test assertions."
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40023950,
+      "status": "candidate",
+      "text": "enumerate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40021463,
+      "status": "candidate",
+      "text": "count"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40019661,
+      "status": "candidate",
+      "text": "total"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40019205,
+      "status": "candidate",
+      "text": "add up"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40018655,
+      "status": "candidate",
+      "text": "numeral"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 40071,
+      "status": "candidate",
+      "text": "issue"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 23063,
+      "status": "candidate",
+      "text": "figure"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 22099,
+      "status": "candidate",
+      "text": "bit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 22074,
+      "status": "candidate",
+      "text": "act"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 15072,
+      "status": "candidate",
+      "text": "turn"
+    }
+  ],
+  "canonical_name": "number",
+  "concept_id": "number",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "micromatch/to-regex-range"
+    }
+  ],
+  "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "number",
+      "sense_id": "number#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

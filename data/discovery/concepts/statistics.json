@@ -82,6 +82,30 @@
       "source_repo": "pymc-devs/pytensor",
       "status": "candidate-context",
       "text": ".. image:: https://cdn.rawgit.com/pymc-devs/pytensor/main/doc/images/PyTensor_RGB.svg"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "boyter/scc",
+      "status": "candidate-context",
+      "text": "Sloc, Cloc and Code: scc is a very fast accurate code counter with complexity calculations and COCOMO estimates written in pure Go"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "boyter/scc",
+      "status": "candidate-context",
+      "text": "![SCC illustration](./scc.jpg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jtablesaw/tablesaw",
+      "status": "candidate-context",
+      "text": "Java dataframe and visualization library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jtablesaw/tablesaw",
+      "status": "candidate-context",
+      "text": "Tablesaw"
     }
   ],
   "candidate_glosses": [
@@ -120,6 +144,18 @@
       "source_repo": "pymc-devs/pytensor",
       "status": "candidate",
       "text": ".. image:: https://cdn.rawgit.com/pymc-devs/pytensor/main/doc/images/PyTensor_RGB.svg"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "boyter/scc",
+      "status": "candidate",
+      "text": "![SCC illustration](./scc.jpg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jtablesaw/tablesaw",
+      "status": "candidate",
+      "text": "Tablesaw"
     }
   ],
   "candidate_related_terms": [
@@ -205,11 +241,23 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "pymc-devs/pytensor"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "boyter/scc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "jtablesaw/tablesaw"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

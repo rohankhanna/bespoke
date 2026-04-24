@@ -43,6 +43,18 @@
       "source_repo": "jonschlinkert/fill-range",
       "status": "candidate-context",
       "text": "> Fill in a range of numbers or letters, optionally passing an increment or `step` to use, or create a regex-compatible range with `options.toRegex`"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "micromatch/to-regex-range",
+      "status": "candidate-context",
+      "text": "Pass two numbers, get a regex-compatible source string for matching ranges. Fast compiler, optimized regex, and validated against more than 2.78 million test assertions. Useful for creating regular expressions to validate numbers, ranges, years, etc."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "micromatch/to-regex-range",
+      "status": "candidate-context",
+      "text": "> Pass two numbers, get a regex-compatible source string for matching ranges. Validated against more than 2.78 million test assertions."
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "jonschlinkert/fill-range",
       "status": "candidate",
       "text": "> Fill in a range of numbers or letters, optionally passing an increment or `step` to use, or create a regex-compatible range with `options.toRegex`"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "micromatch/to-regex-range",
+      "status": "candidate",
+      "text": "> Pass two numbers, get a regex-compatible source string for matching ranges. Validated against more than 2.78 million test assertions."
     }
   ],
   "candidate_related_terms": [
@@ -160,11 +178,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "jonschlinkert/fill-range"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "micromatch/to-regex-range"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,431 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/act-test.yml"
+    },
+    {
+      "component": "NixOS/nix-installer-action@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/act-test.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bump-nix-version.yml"
+    },
+    {
+      "component": "NixOS/nix-installer-action@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bump-nix-version.yml"
+    },
+    {
+      "component": "cachix/cachix-action@v17",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bump-nix-version.yml"
+    },
+    {
+      "component": "peter-evans/create-pull-request@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bump-nix-version.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "NixOS/nix-installer-action@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "cachix/cachix-action@v17",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "NixOS/nix-installer-action@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "cachix/cachix-action@v17",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "NixOS/nix-installer-action@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "NixOS/nix-installer-action@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "NixOS/nix-installer-action@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "cachix/cachix-action@v17",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "NixOS/nix-installer-action@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "cachix/cachix-action@v17",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-script.yml"
+    },
+    {
+      "component": "NixOS/nix-installer-action@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-script.yml"
+    },
+    {
+      "component": "cachix/cachix-action@v17",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-script.yml"
+    },
+    {
+      "component": "actions/attest-build-provenance@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-script.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update.yml"
+    },
+    {
+      "component": "NixOS/nix-installer-action@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update.yml"
+    },
+    {
+      "component": "cachix/cachix-action@v17",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update.yml"
+    },
+    {
+      "component": "DeterminateSystems/flake-checker-action@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update.yml"
+    },
+    {
+      "component": "DeterminateSystems/update-flake-lock@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "NixOS/nix-installer",
+      "target": "nixos/nix-installer-action",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "NixOS/nix-installer",
+      "target": "guibou/nixgl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/act-test.yml",
+      "source_repo": "NixOS/nix-installer",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/act-test.yml",
+      "source_repo": "NixOS/nix-installer",
+      "target": "NixOS/nix-installer-action@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/act-test.yml",
+      "source_repo": "NixOS/nix-installer",
+      "target": "Act Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bump-nix-version.yml",
+      "source_repo": "NixOS/nix-installer",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bump-nix-version.yml",
+      "source_repo": "NixOS/nix-installer",
+      "target": "NixOS/nix-installer-action@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bump-nix-version.yml",
+      "source_repo": "NixOS/nix-installer",
+      "target": "cachix/cachix-action@v17",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bump-nix-version.yml",
+      "source_repo": "NixOS/nix-installer",
+      "target": "peter-evans/create-pull-request@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bump-nix-version.yml",
+      "source_repo": "NixOS/nix-installer",
+      "target": "Bump Nix Version",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "NixOS/nix-installer",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "NixOS/nix-installer",
+      "target": "NixOS/nix-installer-action@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "NixOS/nix-installer",
+      "target": "cachix/cachix-action@v17",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "NixOS/nix-installer",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "NixOS/nix-installer",
+      "target": "actions/download-artifact@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-script.yml",
+      "source_repo": "NixOS/nix-installer",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-script.yml",
+      "source_repo": "NixOS/nix-installer",
+      "target": "NixOS/nix-installer-action@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-script.yml",
+      "source_repo": "NixOS/nix-installer",
+      "target": "cachix/cachix-action@v17",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-script.yml",
+      "source_repo": "NixOS/nix-installer",
+      "target": "actions/attest-build-provenance@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-script.yml",
+      "source_repo": "NixOS/nix-installer",
+      "target": "Generate Installer Script",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update.yml",
+      "source_repo": "NixOS/nix-installer",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update.yml",
+      "source_repo": "NixOS/nix-installer",
+      "target": "NixOS/nix-installer-action@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update.yml",
+      "source_repo": "NixOS/nix-installer",
+      "target": "cachix/cachix-action@v17",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update.yml",
+      "source_repo": "NixOS/nix-installer",
+      "target": "DeterminateSystems/flake-checker-action@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update.yml",
+      "source_repo": "NixOS/nix-installer",
+      "target": "DeterminateSystems/update-flake-lock@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update.yml",
+      "source_repo": "NixOS/nix-installer",
+      "target": "update-flake-lock",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T00:45:45.715365+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 20468
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 2824
+    },
+    {
+      "path": ".github/workflows/act-test.yml",
+      "size": 707
+    },
+    {
+      "path": ".github/workflows/bump-nix-version.yml",
+      "size": 1029
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 9701
+    },
+    {
+      "path": ".github/workflows/release-script.yml",
+      "size": 1519
+    },
+    {
+      "path": ".github/workflows/update.yml",
+      "size": 642
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A fork of the Determinate Nix Installer.",
+    "fork": false,
+    "full_name": "NixOS/nix-installer",
+    "html_url": "https://github.com/NixOS/nix-installer",
+    "language": "Rust",
+    "pushed_at": "2026-04-23T20:28:48Z",
+    "stargazers_count": 237,
+    "topics": [],
+    "updated_at": "2026-04-23T20:29:09Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "guibou/nixgl",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nixos/nix-installer-action",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Act Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/act-test.yml",
+      "term": "Act Test"
+    },
+    {
+      "context_snippet": "Bump Nix Version",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bump-nix-version.yml",
+      "term": "Bump Nix Version"
+    },
+    {
+      "context_snippet": "Generate Installer Script",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-script.yml",
+      "term": "Generate Installer Script"
+    },
+    {
+      "context_snippet": "update-flake-lock",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update.yml",
+      "term": "update-flake-lock"
+    }
+  ]
+}

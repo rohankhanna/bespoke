@@ -145,6 +145,18 @@
       "source_repo": "huawei-noah/Efficient-AI-Backbones",
       "status": "candidate-context",
       "text": "Efficient AI Backbones including GhostNet, TNT and MLP, developed by Huawei Noah's Ark Lab."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "huggingface/huggingface_hub",
+      "status": "candidate-context",
+      "text": "The official Python client for the Hugging Face Hub."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "huggingface/huggingface_hub",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -213,6 +225,12 @@
       "source_repo": "huawei-noah/Efficient-AI-Backbones",
       "status": "candidate",
       "text": "Efficient AI Backbones including GhostNet, TNT and MLP, developed by Huawei Noah's Ark Lab."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "huggingface/huggingface_hub",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -310,11 +328,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "huawei-noah/Efficient-AI-Backbones"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "huggingface/huggingface_hub"
     }
   ],
   "first_seen_at": "2026-04-18T13:15:13.756138+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

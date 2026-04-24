@@ -1,0 +1,124 @@
+{
+  "aliases": [
+    "Backport PR"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google/zerocopy",
+      "status": "candidate-context",
+      "text": "Zerocopy makes zero-cost memory manipulation effortless. We write `unsafe` so you don\u2019t have to."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/zerocopy",
+      "status": "candidate-context",
+      "text": "Backport PR"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/lucene",
+      "status": "candidate-context",
+      "text": "Apache Lucene open-source search software"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/lucene",
+      "status": "candidate-context",
+      "text": "Backport PR"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/zerocopy",
+      "status": "candidate",
+      "text": "Backport PR"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/lucene",
+      "status": "candidate",
+      "text": "Backport PR"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 4074,
+      "status": "candidate",
+      "text": "praseodymium"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 4064,
+      "status": "candidate",
+      "text": "abbe"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 4064,
+      "status": "candidate",
+      "text": "agent"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 4064,
+      "status": "candidate",
+      "text": "amour-propre"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 4064,
+      "status": "candidate",
+      "text": "asserter"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Backport PR",
+  "concept_id": "backport-pr",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/backport-pr.yml",
+      "source_repo": "google/zerocopy"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/backport.yml",
+      "source_repo": "apache/lucene"
+    }
+  ],
+  "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Backport PR",
+      "sense_id": "backport-pr#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

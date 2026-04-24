@@ -11,21 +11,14 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "danielrosehill/Claude-Code-Projects-Index",
-      "target": "danielrosehill/claude-budgeting-plugin",
+      "target": "danielrosehill/claude-code-bash-aliases",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "danielrosehill/Claude-Code-Projects-Index",
-      "target": "danielrosehill/claude-career-plugin",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "danielrosehill/Claude-Code-Projects-Index",
-      "target": "danielrosehill/claude-calls-the-shots",
+      "target": "danielrosehill/claude-change-my-view",
       "target_type": "repository"
     },
     {
@@ -33,6 +26,13 @@
       "source_file": "README.md",
       "source_repo": "danielrosehill/Claude-Code-Projects-Index",
       "target": "danielrosehill/claude-agent-blueprints",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/Claude-Code-Projects-Index",
+      "target": "danielrosehill/claude-code-bugs-and-frs",
       "target_type": "repository"
     },
     {
@@ -64,7 +64,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-23T20:48:33.144264+00:00",
+  "fetched_at": "2026-04-24T01:43:00.063037+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -101,17 +101,17 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "danielrosehill/claude-budgeting-plugin",
+      "full_name": "danielrosehill/claude-change-my-view",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "danielrosehill/claude-calls-the-shots",
+      "full_name": "danielrosehill/claude-code-bash-aliases",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "danielrosehill/claude-career-plugin",
+      "full_name": "danielrosehill/claude-code-bugs-and-frs",
       "source_file": "README.md"
     }
   ],

@@ -1,0 +1,297 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "potatoqualitee/psmodulecache@ee5e9494714abf56f6efbfa51527b2aec5c761b8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/excavator.yml"
+    },
+    {
+      "component": "ScoopInstaller/GithubActions@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/excavator.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue_comment.yml"
+    },
+    {
+      "component": "ScoopInstaller/GithubActions@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue_comment.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issues.yml"
+    },
+    {
+      "component": "ScoopInstaller/GithubActions@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issues.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull_request.yml"
+    },
+    {
+      "component": "ScoopInstaller/GithubActions@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull_request.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Calinou/scoop-games",
+      "target": "scoopinstaller/awesome",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "Calinou/scoop-games",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "Calinou/scoop-games",
+      "target": "potatoqualitee/psmodulecache@ee5e9494714abf56f6efbfa51527b2aec5c761b8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/excavator.yml",
+      "source_repo": "Calinou/scoop-games",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/excavator.yml",
+      "source_repo": "Calinou/scoop-games",
+      "target": "ScoopInstaller/GithubActions@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/excavator.yml",
+      "source_repo": "Calinou/scoop-games",
+      "target": "Excavator",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue_comment.yml",
+      "source_repo": "Calinou/scoop-games",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue_comment.yml",
+      "source_repo": "Calinou/scoop-games",
+      "target": "ScoopInstaller/GithubActions@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issue_comment.yml",
+      "source_repo": "Calinou/scoop-games",
+      "target": "Commented Pull Request",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issues.yml",
+      "source_repo": "Calinou/scoop-games",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issues.yml",
+      "source_repo": "Calinou/scoop-games",
+      "target": "ScoopInstaller/GithubActions@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issues.yml",
+      "source_repo": "Calinou/scoop-games",
+      "target": "Issues",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull_request.yml",
+      "source_repo": "Calinou/scoop-games",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull_request.yml",
+      "source_repo": "Calinou/scoop-games",
+      "target": "ScoopInstaller/GithubActions@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pull_request.yml",
+      "source_repo": "Calinou/scoop-games",
+      "target": "Pull Requests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Calinou/scoop-games",
+      "target": "games",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Calinou/scoop-games",
+      "target": "open-source-game",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Calinou/scoop-games",
+      "target": "scoop",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Calinou/scoop-games",
+      "target": "scoop-bucket",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T00:37:29.091725+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2140
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 1081
+    },
+    {
+      "path": ".github/workflows/excavator.yml",
+      "size": 413
+    },
+    {
+      "path": ".github/workflows/issue_comment.yml",
+      "size": 445
+    },
+    {
+      "path": ".github/workflows/issues.yml",
+      "size": 489
+    },
+    {
+      "path": ".github/workflows/pull_request.yml",
+      "size": 375
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Scoop bucket for open source/freeware games and game-related tools",
+    "fork": false,
+    "full_name": "Calinou/scoop-games",
+    "html_url": "https://github.com/Calinou/scoop-games",
+    "language": "PowerShell",
+    "pushed_at": "2026-04-23T23:36:39Z",
+    "stargazers_count": 344,
+    "topics": [
+      "games",
+      "open-source-game",
+      "scoop",
+      "scoop-bucket"
+    ],
+    "updated_at": "2026-04-23T23:36:43Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "scoopinstaller/awesome",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Excavator",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/excavator.yml",
+      "term": "Excavator"
+    },
+    {
+      "context_snippet": "Commented Pull Request",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issue_comment.yml",
+      "term": "Commented Pull Request"
+    },
+    {
+      "context_snippet": "Issues",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issues.yml",
+      "term": "Issues"
+    },
+    {
+      "context_snippet": "Pull Requests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pull_request.yml",
+      "term": "Pull Requests"
+    },
+    {
+      "context_snippet": "A [Scoop](https://scoop.sh/) bucket for open source/freeware games and game-related tools.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "games"
+    },
+    {
+      "context_snippet": "A [Scoop](https://scoop.sh/) bucket for open source/freeware games and game-related tools.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "open-source-game"
+    },
+    {
+      "context_snippet": "A [Scoop](https://scoop.sh/) bucket for open source/freeware games and game-related tools.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "scoop"
+    },
+    {
+      "context_snippet": "A [Scoop](https://scoop.sh/) bucket for open source/freeware games and game-related tools.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "scoop-bucket"
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 {
   "component": "actions/setup-java@v3",
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -162,6 +162,16 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/downstream.yaml",
       "source_repo": "googleapis/google-oauth-java-client"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/E2E.yml",
+      "source_repo": "apache/incubator-seata-samples"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "clojure-lsp/clojure-lsp"
     }
   ]
 }

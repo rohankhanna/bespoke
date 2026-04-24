@@ -1,0 +1,69 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "01-ai/Yi-1.5",
+      "target": "hiyouga/llama-factory",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "01-ai/Yi-1.5",
+      "target": "modelscope/swift",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "01-ai/Yi-1.5",
+      "target": "yangjianxin1/firefly",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-24T02:02:24.459584+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7319
+    },
+    {
+      "path": "requirements.txt",
+      "size": 81
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Yi-1.5 is an upgraded version of Yi, delivering stronger performance in coding, math, reasoning, and instruction-following capability.",
+    "fork": false,
+    "full_name": "01-ai/Yi-1.5",
+    "html_url": "https://github.com/01-ai/Yi-1.5",
+    "language": null,
+    "pushed_at": "2024-11-11T03:33:18Z",
+    "stargazers_count": 559,
+    "topics": [],
+    "updated_at": "2026-04-05T16:56:38Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hiyouga/llama-factory",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "modelscope/swift",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "yangjianxin1/firefly",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

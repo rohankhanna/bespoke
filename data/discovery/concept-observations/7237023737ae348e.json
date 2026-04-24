@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Clojure & ClojureScript Language Server (LSP) implementation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Bump dependencies"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Bump dependencies"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10967,
+      "status": "candidate",
+      "text": "log"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10845,
+      "status": "candidate",
+      "text": "abatis"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10845,
+      "status": "candidate",
+      "text": "accretion"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10845,
+      "status": "candidate",
+      "text": "ace"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10845,
+      "status": "candidate",
+      "text": "act"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Bump dependencies",
+      "sense_id": "bump-dependencies#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "bump-dependencies",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "bump-dependencies",
+  "observation_id": "7237023737ae348e",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-24T00:33:56.049672+00:00",
+  "observed_text": "Bump dependencies",
+  "source_context_snippet": "Bump dependencies",
+  "source_file": ".github/workflows/bump_deps.yml",
+  "source_repo": "clojure-lsp/clojure-lsp",
+  "source_repo_description": "Clojure & ClojureScript Language Server (LSP) implementation"
+}

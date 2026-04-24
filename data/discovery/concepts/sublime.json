@@ -19,6 +19,30 @@
       "source_repo": "aerobounce/Sublime-Pretty-Lua",
       "status": "candidate-context",
       "text": "[![](https://img.shields.io/badge/Platforms-Linux%20/%20macOS%20/%20Windows-blue.svg)][packagecontrol]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kaste/SublimeLinter-addon-goto-flash",
+      "status": "candidate-context",
+      "text": "Distraction free editing and jump visuals"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kaste/SublimeLinter-addon-goto-flash",
+      "status": "candidate-context",
+      "text": "This is an UI addon for SublimeLinter."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kaste/SublimeLinter-addon-toggler",
+      "status": "candidate-context",
+      "text": "Provide some toggle commands for SublimeLinter. Esp. to enable or disable a linter per shortcut."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kaste/SublimeLinter-addon-toggler",
+      "status": "candidate-context",
+      "text": "This is an addon for SublimeLinter."
     }
   ],
   "candidate_glosses": [
@@ -27,6 +51,18 @@
       "source_repo": "aerobounce/Sublime-Pretty-Lua",
       "status": "candidate",
       "text": "[![](https://img.shields.io/badge/Platforms-Linux%20/%20macOS%20/%20Windows-blue.svg)][packagecontrol]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kaste/SublimeLinter-addon-goto-flash",
+      "status": "candidate",
+      "text": "This is an UI addon for SublimeLinter."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kaste/SublimeLinter-addon-toggler",
+      "status": "candidate",
+      "text": "This is an addon for SublimeLinter."
     }
   ],
   "candidate_related_terms": [
@@ -112,11 +148,23 @@
       "observed_at": "2026-04-19T04:47:57.443742+00:00",
       "source_file": null,
       "source_repo": "aerobounce/Sublime-Pretty-Lua"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "kaste/SublimeLinter-addon-goto-flash"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "kaste/SublimeLinter-addon-toggler"
     }
   ],
   "first_seen_at": "2026-04-19T04:47:57.443742+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-19T04:47:57.443742+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

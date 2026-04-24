@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-24T01:49:47.000166+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 794
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Magento2 on FrankenPHP",
+    "fork": false,
+    "full_name": "ekino/frankenphp-magento2",
+    "html_url": "https://github.com/ekino/frankenphp-magento2",
+    "language": "Dockerfile",
+    "pushed_at": "2026-04-10T00:16:45Z",
+    "stargazers_count": 18,
+    "topics": [],
+    "updated_at": "2026-01-26T16:44:17Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Issue Links"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gchq/Gaffer",
+      "status": "candidate-context",
+      "text": "A large-scale entity and relation database supporting aggregation of properties"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gchq/Gaffer",
+      "status": "candidate-context",
+      "text": "'Issue Links'"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gchq/Gaffer",
+      "status": "candidate",
+      "text": "'Issue Links'"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11776,
+      "status": "candidate",
+      "text": "connection"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11776,
+      "status": "candidate",
+      "text": "linkage"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11776,
+      "status": "candidate",
+      "text": "relation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11728,
+      "status": "candidate",
+      "text": "open"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11537,
+      "status": "candidate",
+      "text": "play"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Issue Links",
+  "concept_id": "issue-links",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/link-issue.yml",
+      "source_repo": "gchq/Gaffer"
+    }
+  ],
+  "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Issue Links",
+      "sense_id": "issue-links#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

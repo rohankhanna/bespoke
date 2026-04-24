@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "databricks/megablocks",
+      "target": "microsoft/tutel",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-24T02:03:22.141797+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3660
+    },
+    {
+      "path": "Dockerfile",
+      "size": 204
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 15918
+    },
+    {
+      "path": "requirements.txt",
+      "size": 34
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "databricks/megablocks",
+    "html_url": "https://github.com/databricks/megablocks",
+    "language": "Python",
+    "pushed_at": "2026-03-25T04:53:14Z",
+    "stargazers_count": 1557,
+    "topics": [],
+    "updated_at": "2026-04-23T12:55:36Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "microsoft/tutel",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

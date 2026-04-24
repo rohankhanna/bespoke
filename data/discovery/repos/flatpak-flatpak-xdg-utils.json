@@ -1,0 +1,87 @@
+{
+  "components": [
+    {
+      "component": "xt0rted/block-autosquash-commits-action@v2.2.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/block-autosquash-commits.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/block-autosquash-commits.yml",
+      "source_repo": "flatpak/flatpak-xdg-utils",
+      "target": "xt0rted/block-autosquash-commits-action@v2.2.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/block-autosquash-commits.yml",
+      "source_repo": "flatpak/flatpak-xdg-utils",
+      "target": "Pull Requests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check.yml",
+      "source_repo": "flatpak/flatpak-xdg-utils",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check.yml",
+      "source_repo": "flatpak/flatpak-xdg-utils",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-24T01:44:32.800391+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 720
+    },
+    {
+      "path": ".github/workflows/block-autosquash-commits.yml",
+      "size": 301
+    },
+    {
+      "path": ".github/workflows/check.yml",
+      "size": 772
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Simple portal-based commandline tools for use inside flatpak sandboxes",
+    "fork": false,
+    "full_name": "flatpak/flatpak-xdg-utils",
+    "html_url": "https://github.com/flatpak/flatpak-xdg-utils",
+    "language": "C",
+    "pushed_at": "2026-02-25T17:11:58Z",
+    "stargazers_count": 40,
+    "topics": [],
+    "updated_at": "2026-03-12T02:01:34Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Pull Requests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/block-autosquash-commits.yml",
+      "term": "Pull Requests"
+    }
+  ]
+}

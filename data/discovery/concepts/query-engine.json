@@ -19,6 +19,18 @@
       "source_repo": "apache/datafusion-ballista-python",
       "status": "candidate-context",
       "text": "<!---"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/doris",
+      "status": "candidate-context",
+      "text": "Apache Doris is an easy-to-use, high performance and unified analytics database."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/doris",
+      "status": "candidate-context",
+      "text": "<!--"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "apache/datafusion-ballista-python",
       "status": "candidate",
       "text": "<!---"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/doris",
+      "status": "candidate",
+      "text": "<!--"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "apache/datafusion-ballista-python"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "apache/doris"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

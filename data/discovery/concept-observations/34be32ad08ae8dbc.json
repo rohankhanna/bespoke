@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Playing around \"Less Slow\" coding practices in Python, from numerical micro-kernels to coroutines, ranges, and polymorphic state machines"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "> The spiritual little brother of [`less_slow.cpp`](https://github.com/ashvardanian/less_slow.cpp)."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "> The spiritual little brother of [`less_slow.cpp`](https://github.com/ashvardanian/less_slow.cpp)."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "design-patterns",
+      "sense_id": "design-patterns#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "design-patterns",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "design-patterns",
+  "observation_id": "34be32ad08ae8dbc",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T00:33:56.049672+00:00",
+  "observed_text": "design-patterns",
+  "source_context_snippet": "> The spiritual little brother of [`less_slow.cpp`](https://github.com/ashvardanian/less_slow.cpp).",
+  "source_file": null,
+  "source_repo": "ashvardanian/less_slow.py",
+  "source_repo_description": "Playing around \"Less Slow\" coding practices in Python, from numerical micro-kernels to coroutines, ranges, and polymorphic state machines"
+}

@@ -1501,6 +1501,114 @@
       "source_repo": "camenduru/stable-diffusion-webui-colab",
       "status": "candidate-context",
       "text": "\ud83d\udc23 Please follow me for new updates https://twitter.com/camenduru <br />"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "grok-ai/nn-template",
+      "status": "candidate-context",
+      "text": "Generic template to bootstrap your PyTorch project."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "grok-ai/nn-template",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "huggingface/huggingface_hub",
+      "status": "candidate-context",
+      "text": "The official Python client for the Hugging Face Hub."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "huggingface/huggingface_hub",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "huggingface/optimum-quanto",
+      "status": "candidate-context",
+      "text": "A pytorch quantization backend for optimum"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "huggingface/optimum-quanto",
+      "status": "candidate-context",
+      "text": "> This project is currently in maintenance mode. We accept pull requests only for minor bug fixes, documentation improvements, and other maintenance tasks. Major new features or breaking changes are unlikely to be merged. For production-ready quantization features or active deve\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rusty1s/pytorch_cluster",
+      "status": "candidate-context",
+      "text": "PyTorch Extension Library of Optimized Graph Cluster Algorithms"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rusty1s/pytorch_cluster",
+      "status": "candidate-context",
+      "text": "[pypi-image]: https://badge.fury.io/py/torch-cluster.svg"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rusty1s/pytorch_scatter",
+      "status": "candidate-context",
+      "text": "PyTorch Extension Library of Optimized Scatter Operations"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rusty1s/pytorch_scatter",
+      "status": "candidate-context",
+      "text": "[pypi-image]: https://badge.fury.io/py/torch-scatter.svg"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rusty1s/pytorch_sparse",
+      "status": "candidate-context",
+      "text": "PyTorch Extension Library of Optimized Autograd Sparse Matrix Operations"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rusty1s/pytorch_sparse",
+      "status": "candidate-context",
+      "text": "[pypi-image]: https://badge.fury.io/py/torch-sparse.svg"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "LambdaLabsML/distributed-training-guide",
+      "status": "candidate-context",
+      "text": "Best practices & guides on how to write distributed pytorch training code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LambdaLabsML/distributed-training-guide",
+      "status": "candidate-context",
+      "text": "\ud83d\udd25 News \ud83d\udd25"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "CSAILVision/semantic-segmentation-pytorch",
+      "status": "candidate-context",
+      "text": "Pytorch implementation for Semantic Segmentation/Scene Parsing on MIT ADE20K dataset"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CSAILVision/semantic-segmentation-pytorch",
+      "status": "candidate-context",
+      "text": "This is a PyTorch implementation of semantic segmentation models on MIT ADE20K scene parsing dataset (http://sceneparsing.csail.mit.edu/)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sthalles/PyTorch-BYOL",
+      "status": "candidate-context",
+      "text": "PyTorch implementation of Bootstrap Your Own Latent: A New Approach to Self-Supervised Learning"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sthalles/PyTorch-BYOL",
+      "status": "candidate-context",
+      "text": "![Image of Yaktocat](./assets/arch.png)"
     }
   ],
   "candidate_glosses": [
@@ -2247,6 +2355,60 @@
       "source_repo": "camenduru/stable-diffusion-webui-colab",
       "status": "candidate",
       "text": "\ud83d\udc23 Please follow me for new updates https://twitter.com/camenduru <br />"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "grok-ai/nn-template",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "huggingface/huggingface_hub",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "huggingface/optimum-quanto",
+      "status": "candidate",
+      "text": "> This project is currently in maintenance mode. We accept pull requests only for minor bug fixes, documentation improvements, and other maintenance tasks. Major new features or breaking changes are unlikely to be merged. For production-ready quantization features or active deve\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rusty1s/pytorch_cluster",
+      "status": "candidate",
+      "text": "[pypi-image]: https://badge.fury.io/py/torch-cluster.svg"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rusty1s/pytorch_scatter",
+      "status": "candidate",
+      "text": "[pypi-image]: https://badge.fury.io/py/torch-scatter.svg"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rusty1s/pytorch_sparse",
+      "status": "candidate",
+      "text": "[pypi-image]: https://badge.fury.io/py/torch-sparse.svg"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LambdaLabsML/distributed-training-guide",
+      "status": "candidate",
+      "text": "\ud83d\udd25 News \ud83d\udd25"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CSAILVision/semantic-segmentation-pytorch",
+      "status": "candidate",
+      "text": "This is a PyTorch implementation of semantic segmentation models on MIT ADE20K scene parsing dataset (http://sceneparsing.csail.mit.edu/)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sthalles/PyTorch-BYOL",
+      "status": "candidate",
+      "text": "![Image of Yaktocat](./assets/arch.png)"
     }
   ],
   "candidate_related_terms": [
@@ -3142,11 +3304,89 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "camenduru/stable-diffusion-webui-colab"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "grok-ai/nn-template"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "facebookresearch/fairseq"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "huggingface/huggingface_hub"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "bitsandbytes-foundation/bitsandbytes"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "huggingface/optimum-quanto"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "rusty1s/pytorch_cluster"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "rusty1s/pytorch_scatter"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "rusty1s/pytorch_sparse"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "LambdaLabsML/distributed-training-guide"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "CSAILVision/semantic-segmentation-pytorch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "meta-llama/llama-cookbook"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "Lightning-AI/pytorch-lightning"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "sthalles/PyTorch-BYOL"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

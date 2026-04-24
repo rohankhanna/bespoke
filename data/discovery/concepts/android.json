@@ -616,6 +616,66 @@
       "source_repo": "microsoft/rnx-kit",
       "status": "candidate-context",
       "text": "[![Open in Visual Studio Code](https://img.shields.io/static/v1?logo=visualstudiocode&label=&message=Open%20in%20Visual%20Studio%20Code&color=007acc&labelColor=444444&logoColor=007acc)](https://vscode.dev/github/microsoft/rnx-kit)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aria2/aria2",
+      "status": "candidate-context",
+      "text": "aria2 is a lightweight multi-protocol & multi-source, cross platform download utility operated in command-line. It supports HTTP/HTTPS, FTP, SFTP, BitTorrent and Metalink."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aria2/aria2",
+      "status": "candidate-context",
+      "text": "android"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aesalazar/AsteroidsWasm",
+      "status": "candidate-context",
+      "text": "Collection of applications based on a single C# .NET Standard project running in:  Blazor Client (WebAssembly), Blazor Server, Electron, WPF, WinForms, Maui, WinUI3"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aesalazar/AsteroidsWasm",
+      "status": "candidate-context",
+      "text": "Collection of applications based on a single C# .NET Standard project running in: Blazor Client (WebAssembly), Blazor Server, Electron, WPF, WinForms, Maui, WinUI3"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "status-im/nimbus-eth1",
+      "status": "candidate-context",
+      "text": "Nimbus: an Ethereum Execution Client for Resource-Restricted Devices"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "status-im/nimbus-eth1",
+      "status": "candidate-context",
+      "text": "[![License: Apache](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "raysan5/raylib",
+      "status": "candidate-context",
+      "text": "A simple and easy-to-use library to enjoy videogames programming"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "raysan5/raylib",
+      "status": "candidate-context",
+      "text": "<img align=\"left\" style=\"width:260px\" src=\"https://github.com/raysan5/raylib/blob/master/logo/raylib_logo_animation.gif\" width=\"288px\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "openvinotoolkit/openvino",
+      "status": "candidate-context",
+      "text": "OpenVINO\u2122 is an open source toolkit for optimizing and deploying AI inference"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openvinotoolkit/openvino",
+      "status": "candidate-context",
+      "text": "Android"
     }
   ],
   "candidate_glosses": [
@@ -930,6 +990,36 @@
       "source_repo": "microsoft/rnx-kit",
       "status": "candidate",
       "text": "[![Open in Visual Studio Code](https://img.shields.io/static/v1?logo=visualstudiocode&label=&message=Open%20in%20Visual%20Studio%20Code&color=007acc&labelColor=444444&logoColor=007acc)](https://vscode.dev/github/microsoft/rnx-kit)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aria2/aria2",
+      "status": "candidate",
+      "text": "android"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aesalazar/AsteroidsWasm",
+      "status": "candidate",
+      "text": "Collection of applications based on a single C# .NET Standard project running in: Blazor Client (WebAssembly), Blazor Server, Electron, WPF, WinForms, Maui, WinUI3"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "status-im/nimbus-eth1",
+      "status": "candidate",
+      "text": "[![License: Apache](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "raysan5/raylib",
+      "status": "candidate",
+      "text": "<img align=\"left\" style=\"width:260px\" src=\"https://github.com/raysan5/raylib/blob/master/logo/raylib_logo_animation.gif\" width=\"288px\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openvinotoolkit/openvino",
+      "status": "candidate",
+      "text": "Android"
     }
   ],
   "candidate_related_terms": [
@@ -1312,11 +1402,53 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "microsoft/rnx-kit"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/android.yml",
+      "source_repo": "aria2/aria2"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "aesalazar/AsteroidsWasm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "status-im/nimbus-eth1"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/Microsoft-Performance-Tools-Linux-Android"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "raysan5/raylib"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/android.yml",
+      "source_repo": "openvinotoolkit/openvino"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/android-ci.yml",
+      "source_repo": "react-native-webview/react-native-webview"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,57 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Amshaker/Mobile-VideoGPT",
+      "target": "opengvlab/videomamba",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Amshaker/Mobile-VideoGPT",
+      "target": "hazyresearch/flash-attention",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-24T02:02:18.843986+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9175
+    },
+    {
+      "path": "requirements.txt",
+      "size": 329
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Mobile-VideoGPT: Fast and Accurate Video Understanding Language Model",
+    "fork": false,
+    "full_name": "Amshaker/Mobile-VideoGPT",
+    "html_url": "https://github.com/Amshaker/Mobile-VideoGPT",
+    "language": "Python",
+    "pushed_at": "2025-08-06T22:32:35Z",
+    "stargazers_count": 139,
+    "topics": [],
+    "updated_at": "2026-04-19T01:58:01Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hazyresearch/flash-attention",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "opengvlab/videomamba",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -529,6 +529,42 @@
       "source_repo": "PlexPt/chatgpt-java",
       "status": "candidate-context",
       "text": "<h1 style=\"text-align: center; color: hotpink; -webkit-animation: rainbow 5s infinite; -moz-animation: rainbow 5s infinite; -o-animation: rainbow 5s infinite; animation: rainbow 5s infinite;\">ChatGPT Java API</h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "OpenBMB/RepoAgent",
+      "status": "candidate-context",
+      "text": "An LLM-powered repository agent designed to assist developers and teams in generating documentation and understanding repositories quickly."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenBMB/RepoAgent",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ultralytics/llm",
+      "status": "candidate-context",
+      "text": "Ultralytics LLM-related experiments"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ultralytics/llm",
+      "status": "candidate-context",
+      "text": "<a href=\"https://www.ultralytics.com/\"><img src=\"https://raw.githubusercontent.com/ultralytics/assets/main/logo/Ultralytics_Logotype_Original.svg\" width=\"320\" alt=\"Ultralytics logo\"></a>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "shikiw/OPERA",
+      "status": "candidate-context",
+      "text": "[CVPR 2024 Highlight] OPERA: Alleviating Hallucination in Multi-Modal Large Language Models via Over-Trust Penalty and Retrospection-Allocation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "shikiw/OPERA",
+      "status": "candidate-context",
+      "text": "[![License: MIT](https://img.shields.io/badge/License-MIT-g.svg)](https://opensource.org/licenses/MIT)"
     }
   ],
   "candidate_glosses": [
@@ -789,6 +825,24 @@
       "source_repo": "PlexPt/chatgpt-java",
       "status": "candidate",
       "text": "<h1 style=\"text-align: center; color: hotpink; -webkit-animation: rainbow 5s infinite; -moz-animation: rainbow 5s infinite; -o-animation: rainbow 5s infinite; animation: rainbow 5s infinite;\">ChatGPT Java API</h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenBMB/RepoAgent",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ultralytics/llm",
+      "status": "candidate",
+      "text": "<a href=\"https://www.ultralytics.com/\"><img src=\"https://raw.githubusercontent.com/ultralytics/assets/main/logo/Ultralytics_Logotype_Original.svg\" width=\"320\" alt=\"Ultralytics logo\"></a>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "shikiw/OPERA",
+      "status": "candidate",
+      "text": "[![License: MIT](https://img.shields.io/badge/License-MIT-g.svg)](https://opensource.org/licenses/MIT)"
     }
   ],
   "candidate_related_terms": [],
@@ -1324,11 +1378,29 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "PlexPt/chatgpt-java"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "OpenBMB/RepoAgent"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "ultralytics/llm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "shikiw/OPERA"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

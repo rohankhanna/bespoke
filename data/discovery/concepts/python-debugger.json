@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "python-debugger"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alexmojaki/birdseye",
+      "status": "candidate-context",
+      "text": "Graphical Python debugger which lets you easily view the values of all evaluated expressions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alexmojaki/birdseye",
+      "status": "candidate-context",
+      "text": "|logo| birdseye"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alexmojaki/birdseye",
+      "status": "candidate",
+      "text": "|logo| birdseye"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "python-debugger",
+  "concept_id": "python-debugger",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "alexmojaki/birdseye"
+    }
+  ],
+  "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "python-debugger",
+      "sense_id": "python-debugger#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

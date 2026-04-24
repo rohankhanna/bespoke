@@ -1,0 +1,12 @@
+{
+  "component": "tj-actions/verify-changed-files@6ed7632824d235029086612d4330d659005af687",
+  "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/celo-monorepo.yml",
+      "source_repo": "celo-org/celo-monorepo"
+    }
+  ]
+}

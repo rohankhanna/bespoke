@@ -43,6 +43,18 @@
       "source_repo": "NVlabs/instant-ngp",
       "status": "candidate-context",
       "text": "<img src=\"docs/assets_readme/fox.gif\" height=\"342\"/> <img src=\"docs/assets_readme/robot5.gif\" height=\"342\"/>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Jumpat/SegmentAnythingin3D",
+      "status": "candidate-context",
+      "text": "Segment Anything in 3D with NeRFs (NeurIPS 2023 & IJCV 2025)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Jumpat/SegmentAnythingin3D",
+      "status": "candidate-context",
+      "text": "[Segment Anything in 3D with NeRFs](https://arxiv.org/abs/2304.12308)"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "NVlabs/instant-ngp",
       "status": "candidate",
       "text": "<img src=\"docs/assets_readme/fox.gif\" height=\"342\"/> <img src=\"docs/assets_readme/robot5.gif\" height=\"342\"/>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Jumpat/SegmentAnythingin3D",
+      "status": "candidate",
+      "text": "[Segment Anything in 3D with NeRFs](https://arxiv.org/abs/2304.12308)"
     }
   ],
   "candidate_related_terms": [
@@ -124,11 +142,17 @@
       "observed_at": "2026-04-22T04:49:29.633207+00:00",
       "source_file": null,
       "source_repo": "NVlabs/instant-ngp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "Jumpat/SegmentAnythingin3D"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

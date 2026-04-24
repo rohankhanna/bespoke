@@ -1,0 +1,349 @@
+{
+  "components": [
+    {
+      "component": "@actions/core",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@actions/github",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "axios",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint-config-prettier",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "markdown-table",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "prettier",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "semver",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/avm.ptn.aca-lza.hosting-environment.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/avm.ptn.ai-ml.ai-foundry.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/avm.ptn.ai-platform.baseline.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/avm.ptn.alz.ama.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/avm.ptn.alz.empty.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/avm.ptn.app-service-lza.hosting-environment.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/avm.ptn.app.container-job-toolkit.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/avm.ptn.app.iaas-vm-cosmosdb-tier4.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Azure/bicep-registry-modules",
+      "target": "@actions/core",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Azure/bicep-registry-modules",
+      "target": "@actions/github",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Azure/bicep-registry-modules",
+      "target": "axios",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Azure/bicep-registry-modules",
+      "target": "eslint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Azure/bicep-registry-modules",
+      "target": "eslint-config-prettier",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Azure/bicep-registry-modules",
+      "target": "markdown-table",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Azure/bicep-registry-modules",
+      "target": "prettier",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Azure/bicep-registry-modules",
+      "target": "semver",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/avm.ptn.aca-lza.hosting-environment.yml",
+      "source_repo": "Azure/bicep-registry-modules",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/avm.ptn.aca-lza.hosting-environment.yml",
+      "source_repo": "Azure/bicep-registry-modules",
+      "target": "avm.ptn.aca-lza.hosting-environment",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/avm.ptn.ai-ml.ai-foundry.yml",
+      "source_repo": "Azure/bicep-registry-modules",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/avm.ptn.ai-ml.ai-foundry.yml",
+      "source_repo": "Azure/bicep-registry-modules",
+      "target": "avm.ptn.ai-ml.ai-foundry",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/avm.ptn.ai-platform.baseline.yml",
+      "source_repo": "Azure/bicep-registry-modules",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/avm.ptn.ai-platform.baseline.yml",
+      "source_repo": "Azure/bicep-registry-modules",
+      "target": "avm.ptn.ai-platform.baseline",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/avm.ptn.alz.ama.yml",
+      "source_repo": "Azure/bicep-registry-modules",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/avm.ptn.alz.ama.yml",
+      "source_repo": "Azure/bicep-registry-modules",
+      "target": "avm.ptn.alz.ama",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/avm.ptn.alz.empty.yml",
+      "source_repo": "Azure/bicep-registry-modules",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/avm.ptn.alz.empty.yml",
+      "source_repo": "Azure/bicep-registry-modules",
+      "target": "avm.ptn.alz.empty",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/avm.ptn.app-service-lza.hosting-environment.yml",
+      "source_repo": "Azure/bicep-registry-modules",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/avm.ptn.app-service-lza.hosting-environment.yml",
+      "source_repo": "Azure/bicep-registry-modules",
+      "target": "avm.ptn.app-service-lza.hosting-environment",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/avm.ptn.app.container-job-toolkit.yml",
+      "source_repo": "Azure/bicep-registry-modules",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/avm.ptn.app.iaas-vm-cosmosdb-tier4.yml",
+      "source_repo": "Azure/bicep-registry-modules",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/avm.ptn.app.iaas-vm-cosmosdb-tier4.yml",
+      "source_repo": "Azure/bicep-registry-modules",
+      "target": "avm.ptn.app.iaas-vm-cosmosdb-tier4",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T00:41:29.410563+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3573
+    },
+    {
+      "path": "package.json",
+      "size": 897
+    },
+    {
+      "path": ".github/workflows/avm.ptn.aca-lza.hosting-environment.yml",
+      "size": 3134
+    },
+    {
+      "path": ".github/workflows/avm.ptn.ai-ml.ai-foundry.yml",
+      "size": 3081
+    },
+    {
+      "path": ".github/workflows/avm.ptn.ai-platform.baseline.yml",
+      "size": 3101
+    },
+    {
+      "path": ".github/workflows/avm.ptn.alz.ama.yml",
+      "size": 3034
+    },
+    {
+      "path": ".github/workflows/avm.ptn.alz.empty.yml",
+      "size": 3044
+    },
+    {
+      "path": ".github/workflows/avm.ptn.app-service-lza.hosting-environment.yml",
+      "size": 3174
+    },
+    {
+      "path": ".github/workflows/avm.ptn.app.container-job-toolkit.yml",
+      "size": 3130
+    },
+    {
+      "path": ".github/workflows/avm.ptn.app.iaas-vm-cosmosdb-tier4.yml",
+      "size": 3129
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Bicep registry modules",
+    "fork": false,
+    "full_name": "Azure/bicep-registry-modules",
+    "html_url": "https://github.com/Azure/bicep-registry-modules",
+    "language": "Bicep",
+    "pushed_at": "2026-04-23T22:47:35Z",
+    "stargazers_count": 711,
+    "topics": [],
+    "updated_at": "2026-04-23T22:47:38Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "\"avm.ptn.aca-lza.hosting-environment\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/avm.ptn.aca-lza.hosting-environment.yml",
+      "term": "avm.ptn.aca-lza.hosting-environment"
+    },
+    {
+      "context_snippet": "\"avm.ptn.ai-ml.ai-foundry\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/avm.ptn.ai-ml.ai-foundry.yml",
+      "term": "avm.ptn.ai-ml.ai-foundry"
+    },
+    {
+      "context_snippet": "\"avm.ptn.ai-platform.baseline\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/avm.ptn.ai-platform.baseline.yml",
+      "term": "avm.ptn.ai-platform.baseline"
+    },
+    {
+      "context_snippet": "\"avm.ptn.alz.ama\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/avm.ptn.alz.ama.yml",
+      "term": "avm.ptn.alz.ama"
+    },
+    {
+      "context_snippet": "\"avm.ptn.alz.empty\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/avm.ptn.alz.empty.yml",
+      "term": "avm.ptn.alz.empty"
+    },
+    {
+      "context_snippet": "\"avm.ptn.app-service-lza.hosting-environment\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/avm.ptn.app-service-lza.hosting-environment.yml",
+      "term": "avm.ptn.app-service-lza.hosting-environment"
+    },
+    {
+      "context_snippet": "\"avm.ptn.app.iaas-vm-cosmosdb-tier4\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/avm.ptn.app.iaas-vm-cosmosdb-tier4.yml",
+      "term": "avm.ptn.app.iaas-vm-cosmosdb-tier4"
+    }
+  ]
+}

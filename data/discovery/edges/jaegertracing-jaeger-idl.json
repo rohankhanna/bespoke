@@ -1,0 +1,90 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jaegertracing/jaeger-idl",
+      "target": "jaegertracing/docker-protobuf",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-lint-test.yml",
+      "source_repo": "jaegertracing/jaeger-idl",
+      "target": "actions/checkout@1af3b93b6815bc44a9784bd300feb67ff0d1eeb3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-lint-test.yml",
+      "source_repo": "jaegertracing/jaeger-idl",
+      "target": "step-security/harden-runner@4d991eb9b905ef189e4c376166672c3f2f230481",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-lint-test.yml",
+      "source_repo": "jaegertracing/jaeger-idl",
+      "target": "actions/setup-go@44694675825211faa026b3c33043df3e48a5fa00",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-lint-test.yml",
+      "source_repo": "jaegertracing/jaeger-idl",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-lint-test.yml",
+      "source_repo": "jaegertracing/jaeger-idl",
+      "target": "Lint Checks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-unit-tests.yml",
+      "source_repo": "jaegertracing/jaeger-idl",
+      "target": "step-security/harden-runner@4d991eb9b905ef189e4c376166672c3f2f230481",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-unit-tests.yml",
+      "source_repo": "jaegertracing/jaeger-idl",
+      "target": "actions/checkout@1af3b93b6815bc44a9784bd300feb67ff0d1eeb3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-unit-tests.yml",
+      "source_repo": "jaegertracing/jaeger-idl",
+      "target": "actions/setup-go@44694675825211faa026b3c33043df3e48a5fa00",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-unit-tests.yml",
+      "source_repo": "jaegertracing/jaeger-idl",
+      "target": "codecov/codecov-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-unit-tests.yml",
+      "source_repo": "jaegertracing/jaeger-idl",
+      "target": "Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dco_merge_group.yml",
+      "source_repo": "jaegertracing/jaeger-idl",
+      "target": "DCO",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-24T00:33:56.049672+00:00",
+  "source_repo": "jaegertracing/jaeger-idl"
+}

@@ -1,0 +1,111 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "libgit2/rugged",
+      "target": "actions/checkout@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "libgit2/rugged",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "libgit2/rugged",
+      "target": "Rugged CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "libgit2/rugged",
+      "target": "libgit2",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "libgit2/rugged",
+      "target": "ruby",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T00:47:50.623876+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 19610
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 1508
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "ruby bindings to libgit2",
+    "fork": false,
+    "full_name": "libgit2/rugged",
+    "html_url": "https://github.com/libgit2/rugged",
+    "language": "C",
+    "pushed_at": "2026-02-28T18:12:44Z",
+    "stargazers_count": 2289,
+    "topics": [
+      "git",
+      "libgit2",
+      "ruby"
+    ],
+    "updated_at": "2026-04-20T17:15:24Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Rugged CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "term": "Rugged CI"
+    },
+    {
+      "context_snippet": "**libgit2 bindings in Ruby**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "libgit2"
+    },
+    {
+      "context_snippet": "**libgit2 bindings in Ruby**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ruby"
+    }
+  ]
+}

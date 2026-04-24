@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "blazor-server"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aesalazar/AsteroidsWasm",
+      "status": "candidate-context",
+      "text": "Collection of applications based on a single C# .NET Standard project running in:  Blazor Client (WebAssembly), Blazor Server, Electron, WPF, WinForms, Maui, WinUI3"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aesalazar/AsteroidsWasm",
+      "status": "candidate-context",
+      "text": "Collection of applications based on a single C# .NET Standard project running in: Blazor Client (WebAssembly), Blazor Server, Electron, WPF, WinForms, Maui, WinUI3"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aesalazar/AsteroidsWasm",
+      "status": "candidate",
+      "text": "Collection of applications based on a single C# .NET Standard project running in: Blazor Client (WebAssembly), Blazor Server, Electron, WPF, WinForms, Maui, WinUI3"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "blazor-server",
+  "concept_id": "blazor-server",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "aesalazar/AsteroidsWasm"
+    }
+  ],
+  "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "blazor-server",
+      "sense_id": "blazor-server#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

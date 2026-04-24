@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "nvim-telescope/telescope-fzy-native.nvim",
+      "target": "romgrk/fzy-lua-native",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-24T00:47:11.367812+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 914
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "FZY style sorter that is compiled",
+    "fork": false,
+    "full_name": "nvim-telescope/telescope-fzy-native.nvim",
+    "html_url": "https://github.com/nvim-telescope/telescope-fzy-native.nvim",
+    "language": "Lua",
+    "pushed_at": "2022-09-11T06:56:14Z",
+    "stargazers_count": 194,
+    "topics": [],
+    "updated_at": "2026-03-12T05:37:08Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "romgrk/fzy-lua-native",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

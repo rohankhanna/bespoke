@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Provide some toggle commands for SublimeLinter. Esp. to enable or disable a linter per shortcut."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "This is an addon for SublimeLinter."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "This is an addon for SublimeLinter."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "sublimelinter",
+      "sense_id": "sublimelinter#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "sublimelinter",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "sublimelinter",
+  "observation_id": "59f82ab5fb651c15",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T00:33:56.049672+00:00",
+  "observed_text": "sublimelinter",
+  "source_context_snippet": "This is an addon for SublimeLinter.",
+  "source_file": null,
+  "source_repo": "kaste/SublimeLinter-addon-toggler",
+  "source_repo_description": "Provide some toggle commands for SublimeLinter. Esp. to enable or disable a linter per shortcut."
+}

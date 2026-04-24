@@ -1,0 +1,481 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/init@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/autobuild@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yaml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hiredis-py-integration.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration.yaml"
+    },
+    {
+      "component": "pypa/gh-action-pip-audit@v1.0.8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration.yaml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration.yaml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration.yaml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi-publish.yaml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi-publish.yaml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@release/v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi-publish.yaml"
+    },
+    {
+      "component": "release-drafter/release-drafter@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-drafter.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/spellcheck.yml"
+    },
+    {
+      "component": "rojopolis/spellcheck-github-actions@0.60.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/spellcheck.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "redis/redis-py",
+      "target": "redis/redis-om-python",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "redis/redis-py",
+      "target": "redis/redis",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "redis/redis-py",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "redis/redis-py",
+      "target": "github/codeql-action/init@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "redis/redis-py",
+      "target": "github/codeql-action/autobuild@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "redis/redis-py",
+      "target": "github/codeql-action/analyze@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "redis/redis-py",
+      "target": "CodeQL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yaml",
+      "source_repo": "redis/redis-py",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yaml",
+      "source_repo": "redis/redis-py",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yaml",
+      "source_repo": "redis/redis-py",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs.yaml",
+      "source_repo": "redis/redis-py",
+      "target": "Docs CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hiredis-py-integration.yaml",
+      "source_repo": "redis/redis-py",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/hiredis-py-integration.yaml",
+      "source_repo": "redis/redis-py",
+      "target": "Hiredis-py integration tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration.yaml",
+      "source_repo": "redis/redis-py",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration.yaml",
+      "source_repo": "redis/redis-py",
+      "target": "pypa/gh-action-pip-audit@v1.0.8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration.yaml",
+      "source_repo": "redis/redis-py",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi-publish.yaml",
+      "source_repo": "redis/redis-py",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi-publish.yaml",
+      "source_repo": "redis/redis-py",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi-publish.yaml",
+      "source_repo": "redis/redis-py",
+      "target": "pypa/gh-action-pypi-publish@release/v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pypi-publish.yaml",
+      "source_repo": "redis/redis-py",
+      "target": "Publish tag to Pypi",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-drafter.yml",
+      "source_repo": "redis/redis-py",
+      "target": "release-drafter/release-drafter@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-drafter.yml",
+      "source_repo": "redis/redis-py",
+      "target": "Release Drafter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/spellcheck.yml",
+      "source_repo": "redis/redis-py",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/spellcheck.yml",
+      "source_repo": "redis/redis-py",
+      "target": "rojopolis/spellcheck-github-actions@0.60.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/spellcheck.yml",
+      "source_repo": "redis/redis-py",
+      "target": "spellcheck",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "redis/redis-py",
+      "target": "redis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "redis/redis-py",
+      "target": "redis-client",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "redis/redis-py",
+      "target": "redis-cluster",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "redis/redis-py",
+      "target": "redis-py",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T01:49:07.643106+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10471
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 4150
+    },
+    {
+      "path": ".github/workflows/codeql-analysis.yml",
+      "size": 2289
+    },
+    {
+      "path": ".github/workflows/docs.yaml",
+      "size": 1049
+    },
+    {
+      "path": ".github/workflows/hiredis-py-integration.yaml",
+      "size": 2108
+    },
+    {
+      "path": ".github/workflows/install_and_test.sh",
+      "size": 1284
+    },
+    {
+      "path": ".github/workflows/integration.yaml",
+      "size": 9035
+    },
+    {
+      "path": ".github/workflows/pypi-publish.yaml",
+      "size": 734
+    },
+    {
+      "path": ".github/workflows/release-drafter.yml",
+      "size": 767
+    },
+    {
+      "path": ".github/workflows/spellcheck.yml",
+      "size": 341
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Redis Python client",
+    "fork": false,
+    "full_name": "redis/redis-py",
+    "html_url": "https://github.com/redis/redis-py",
+    "language": "Python",
+    "pushed_at": "2026-04-23T18:00:38Z",
+    "stargazers_count": 13522,
+    "topics": [
+      "python",
+      "redis",
+      "redis-client",
+      "redis-cluster",
+      "redis-py"
+    ],
+    "updated_at": "2026-04-23T17:59:56Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "redis/redis",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "redis/redis-om-python",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "\"CodeQL\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "term": "CodeQL"
+    },
+    {
+      "context_snippet": "Docs CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs.yaml",
+      "term": "Docs CI"
+    },
+    {
+      "context_snippet": "Hiredis-py integration tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/hiredis-py-integration.yaml",
+      "term": "Hiredis-py integration tests"
+    },
+    {
+      "context_snippet": "Publish tag to Pypi",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pypi-publish.yaml",
+      "term": "Publish tag to Pypi"
+    },
+    {
+      "context_snippet": "Release Drafter",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-drafter.yml",
+      "term": "Release Drafter"
+    },
+    {
+      "context_snippet": "spellcheck",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/spellcheck.yml",
+      "term": "spellcheck"
+    },
+    {
+      "context_snippet": "The Python interface to the Redis key-value store.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "redis"
+    },
+    {
+      "context_snippet": "The Python interface to the Redis key-value store.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "redis-client"
+    },
+    {
+      "context_snippet": "The Python interface to the Redis key-value store.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "redis-cluster"
+    },
+    {
+      "context_snippet": "The Python interface to the Redis key-value store.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "redis-py"
+    }
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "CSAILVision/semantic-segmentation-pytorch",
+      "target": "csailvision/sceneparsing",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "CSAILVision/semantic-segmentation-pytorch",
+      "target": "vacancy/synchronized-batchnorm-pytorch",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CSAILVision/semantic-segmentation-pytorch",
+      "target": "ade20k",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CSAILVision/semantic-segmentation-pytorch",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CSAILVision/semantic-segmentation-pytorch",
+      "target": "scene-recognition",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CSAILVision/semantic-segmentation-pytorch",
+      "target": "semantic-segmentation",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T02:01:46.852186+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 12368
+    },
+    {
+      "path": "requirements.txt",
+      "size": 57
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Pytorch implementation for Semantic Segmentation/Scene Parsing on MIT ADE20K dataset",
+    "fork": false,
+    "full_name": "CSAILVision/semantic-segmentation-pytorch",
+    "html_url": "https://github.com/CSAILVision/semantic-segmentation-pytorch",
+    "language": "Python",
+    "pushed_at": "2024-01-15T14:26:43Z",
+    "stargazers_count": 5067,
+    "topics": [
+      "ade20k",
+      "pytorch",
+      "scene-recognition",
+      "semantic-segmentation"
+    ],
+    "updated_at": "2026-04-21T05:50:34Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "csailvision/sceneparsing",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "vacancy/synchronized-batchnorm-pytorch",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "This is a PyTorch implementation of semantic segmentation models on MIT ADE20K scene parsing dataset (http://sceneparsing.csail.mit.edu/).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ade20k"
+    },
+    {
+      "context_snippet": "This is a PyTorch implementation of semantic segmentation models on MIT ADE20K scene parsing dataset (http://sceneparsing.csail.mit.edu/).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "This is a PyTorch implementation of semantic segmentation models on MIT ADE20K scene parsing dataset (http://sceneparsing.csail.mit.edu/).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "scene-recognition"
+    },
+    {
+      "context_snippet": "This is a PyTorch implementation of semantic segmentation models on MIT ADE20K scene parsing dataset (http://sceneparsing.csail.mit.edu/).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "semantic-segmentation"
+    }
+  ]
+}

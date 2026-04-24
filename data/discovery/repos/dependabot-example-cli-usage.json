@@ -1,0 +1,101 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/example.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/example.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/example.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/example.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dependabot/example-cli-usage",
+      "target": "dependabot/smoke-tests",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/example.yml",
+      "source_repo": "dependabot/example-cli-usage",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/example.yml",
+      "source_repo": "dependabot/example-cli-usage",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/example.yml",
+      "source_repo": "dependabot/example-cli-usage",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/example.yml",
+      "source_repo": "dependabot/example-cli-usage",
+      "target": "Run Dependabot",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T00:44:35.353798+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2745
+    },
+    {
+      "path": ".github/workflows/example.yml",
+      "size": 2358
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Demonstrates how to self-host Dependabot :dependabot:",
+    "fork": false,
+    "full_name": "dependabot/example-cli-usage",
+    "html_url": "https://github.com/dependabot/example-cli-usage",
+    "language": "Shell",
+    "pushed_at": "2025-05-08T21:50:19Z",
+    "stargazers_count": 43,
+    "topics": [],
+    "updated_at": "2026-04-23T18:58:00Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dependabot/smoke-tests",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Run Dependabot",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/example.yml",
+      "term": "Run Dependabot"
+    }
+  ]
+}

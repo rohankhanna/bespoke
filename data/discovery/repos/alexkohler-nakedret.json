@@ -1,0 +1,158 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-test.yml"
+    },
+    {
+      "component": "actions/setup-go@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "alexkohler/nakedret",
+      "target": "alexkohler/unimport",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "alexkohler/nakedret",
+      "target": "alexkohler/prealloc",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-test.yml",
+      "source_repo": "alexkohler/nakedret",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-test.yml",
+      "source_repo": "alexkohler/nakedret",
+      "target": "actions/setup-go@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-test.yml",
+      "source_repo": "alexkohler/nakedret",
+      "target": "build-test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alexkohler/nakedret",
+      "target": "golang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alexkohler/nakedret",
+      "target": "static-analysis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alexkohler/nakedret",
+      "target": "static-analyzer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alexkohler/nakedret",
+      "target": "static-code-analysis",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T00:56:40.040799+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3737
+    },
+    {
+      "path": "go.mod",
+      "size": 198
+    },
+    {
+      "path": ".github/workflows/build-test.yml",
+      "size": 485
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "nakedret is a Go static analysis tool to find naked returns in functions greater than a specified function length.",
+    "fork": false,
+    "full_name": "alexkohler/nakedret",
+    "html_url": "https://github.com/alexkohler/nakedret",
+    "language": "Go",
+    "pushed_at": "2026-02-01T01:47:11Z",
+    "stargazers_count": 131,
+    "topics": [
+      "go",
+      "golang",
+      "static-analysis",
+      "static-analyzer",
+      "static-code-analysis"
+    ],
+    "updated_at": "2026-04-23T11:52:40Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "alexkohler/prealloc",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "alexkohler/unimport",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "build-test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-test.yml",
+      "term": "build-test"
+    },
+    {
+      "context_snippet": "nakedret is a Go static analysis tool to find naked returns in functions greater than a specified function length.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "golang"
+    },
+    {
+      "context_snippet": "nakedret is a Go static analysis tool to find naked returns in functions greater than a specified function length.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "static-analysis"
+    },
+    {
+      "context_snippet": "nakedret is a Go static analysis tool to find naked returns in functions greater than a specified function length.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "static-analyzer"
+    },
+    {
+      "context_snippet": "nakedret is a Go static analysis tool to find naked returns in functions greater than a specified function length.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "static-code-analysis"
+    }
+  ]
+}

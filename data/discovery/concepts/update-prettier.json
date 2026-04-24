@@ -1,0 +1,124 @@
+{
+  "aliases": [
+    "Update Prettier"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "octokit/webhooks.js",
+      "status": "candidate-context",
+      "text": "GitHub webhook events toolset for Node.js"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "octokit/webhooks.js",
+      "status": "candidate-context",
+      "text": "Update Prettier"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "octokit/request.js",
+      "status": "candidate-context",
+      "text": "Send parameterized requests to GitHub\u2019s APIs with sensible defaults in browsers and Node"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "octokit/request.js",
+      "status": "candidate-context",
+      "text": "Update Prettier"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "octokit/webhooks.js",
+      "status": "candidate",
+      "text": "Update Prettier"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "octokit/request.js",
+      "status": "candidate",
+      "text": "Update Prettier"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11317,
+      "status": "candidate",
+      "text": "amend"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11317,
+      "status": "candidate",
+      "text": "patch"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11317,
+      "status": "candidate",
+      "text": "rearm"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11195,
+      "status": "candidate",
+      "text": "again"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11195,
+      "status": "candidate",
+      "text": "ahead"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Update Prettier",
+  "concept_id": "update-prettier",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/update-prettier.yml",
+      "source_repo": "octokit/webhooks.js"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/update-prettier.yml",
+      "source_repo": "octokit/request.js"
+    }
+  ],
+  "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Update Prettier",
+      "sense_id": "update-prettier#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

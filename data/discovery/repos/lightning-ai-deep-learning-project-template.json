@@ -1,0 +1,100 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-testing.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-testing.yml"
+    },
+    {
+      "component": "actions/cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-testing.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Lightning-AI/deep-learning-project-template",
+      "target": "pytorchlightning/deep-learning-project-template",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-testing.yml",
+      "source_repo": "Lightning-AI/deep-learning-project-template",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-testing.yml",
+      "source_repo": "Lightning-AI/deep-learning-project-template",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-testing.yml",
+      "source_repo": "Lightning-AI/deep-learning-project-template",
+      "target": "actions/cache@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-testing.yml",
+      "source_repo": "Lightning-AI/deep-learning-project-template",
+      "target": "CI testing",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T00:44:31.052145+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2390
+    },
+    {
+      "path": "requirements.txt",
+      "size": 66
+    },
+    {
+      "path": ".github/workflows/ci-testing.yml",
+      "size": 2253
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "Pytorch Lightning code guideline for conferences",
+    "fork": false,
+    "full_name": "Lightning-AI/deep-learning-project-template",
+    "html_url": "https://github.com/Lightning-AI/deep-learning-project-template",
+    "language": "Python",
+    "pushed_at": "2023-09-20T12:05:43Z",
+    "stargazers_count": 1290,
+    "topics": [],
+    "updated_at": "2026-03-29T06:32:10Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pytorchlightning/deep-learning-project-template",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "CI testing",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-testing.yml",
+      "term": "CI testing"
+    }
+  ]
+}

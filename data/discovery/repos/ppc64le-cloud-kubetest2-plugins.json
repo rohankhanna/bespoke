@@ -1,0 +1,86 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml"
+    },
+    {
+      "component": "actions/setup-go@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ppc64le-cloud/kubetest2-plugins",
+      "target": "kubernetes-sigs/provider-ibmcloud-test-infra",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ppc64le-cloud/kubetest2-plugins",
+      "target": "ppc64le-cloud/k8s-ansible",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "ppc64le-cloud/kubetest2-plugins",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "ppc64le-cloud/kubetest2-plugins",
+      "target": "actions/setup-go@v3",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-24T01:55:44.397324+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1641
+    },
+    {
+      "path": "go.mod",
+      "size": 15518
+    },
+    {
+      "path": ".github/workflows/go.yml",
+      "size": 549
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "This repo is archived, please start using - https://github.com/kubernetes-sigs/provider-ibmcloud-test-infra/tree/main/kubetest2-tf",
+    "fork": false,
+    "full_name": "ppc64le-cloud/kubetest2-plugins",
+    "html_url": "https://github.com/ppc64le-cloud/kubetest2-plugins",
+    "language": "Go",
+    "pushed_at": "2025-03-19T17:33:45Z",
+    "stargazers_count": 2,
+    "topics": [],
+    "updated_at": "2025-08-25T16:53:59Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kubernetes-sigs/provider-ibmcloud-test-infra",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ppc64le-cloud/k8s-ansible",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

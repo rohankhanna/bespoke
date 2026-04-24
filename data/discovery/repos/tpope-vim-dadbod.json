@@ -1,0 +1,22 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-24T00:52:56.246181+00:00",
+  "fetched_files": [],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "dadbod.vim: Modern database interface for Vim",
+    "fork": false,
+    "full_name": "tpope/vim-dadbod",
+    "html_url": "https://github.com/tpope/vim-dadbod",
+    "language": "Vim Script",
+    "pushed_at": "2026-01-07T00:19:08Z",
+    "stargazers_count": 4366,
+    "topics": [],
+    "updated_at": "2026-04-23T17:01:58Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

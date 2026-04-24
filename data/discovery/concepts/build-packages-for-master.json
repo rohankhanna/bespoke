@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Build packages for master"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fluent/fluent-bit",
+      "status": "candidate-context",
+      "text": "Fast and Lightweight Logs, Metrics and Traces processor for Linux, BSD, OSX and Windows"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fluent/fluent-bit",
+      "status": "candidate-context",
+      "text": "Build packages for master"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fluent/fluent-bit",
+      "status": "candidate",
+      "text": "Build packages for master"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18961,
+      "status": "candidate",
+      "text": "pack"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18961,
+      "status": "candidate",
+      "text": "packaging"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18738,
+      "status": "candidate",
+      "text": "lift"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18738,
+      "status": "candidate",
+      "text": "luft"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18738,
+      "status": "candidate",
+      "text": "oost"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Build packages for master",
+  "concept_id": "build-packages-for-master",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/build-master-packages.yaml",
+      "source_repo": "fluent/fluent-bit"
+    }
+  ],
+  "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build packages for master",
+      "sense_id": "build-packages-for-master#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

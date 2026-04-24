@@ -1,0 +1,57 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.rst",
+      "source_repo": "ekampf/pymaybe",
+      "target": "npryce/maybe-java",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.rst",
+      "source_repo": "ekampf/pymaybe",
+      "target": "bhb/maybe",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-24T02:04:08.612965+00:00",
+  "fetched_files": [
+    {
+      "path": "README.rst",
+      "size": 4118
+    },
+    {
+      "path": "requirements.txt",
+      "size": 41
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A Python implementation of the Maybe pattern",
+    "fork": false,
+    "full_name": "ekampf/pymaybe",
+    "html_url": "https://github.com/ekampf/pymaybe",
+    "language": "Python",
+    "pushed_at": "2022-12-26T19:44:22Z",
+    "stargazers_count": 212,
+    "topics": [],
+    "updated_at": "2026-04-12T12:29:12Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bhb/maybe",
+      "source_file": "README.rst"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "npryce/maybe-java",
+      "source_file": "README.rst"
+    }
+  ],
+  "terms": []
+}

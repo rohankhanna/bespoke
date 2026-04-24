@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Next word completion for Vim based on Google Ngrams Viewer."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "---"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "---"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9995147,
+      "status": "candidate",
+      "text": "bigram"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9936162,
+      "status": "candidate",
+      "text": "pentagram"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9888925,
+      "status": "candidate",
+      "text": "trigram"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 1,
+      "status": "candidate",
+      "text": "quadgram"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 1,
+      "status": "candidate",
+      "text": "unigram"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "ngrams",
+      "sense_id": "ngrams#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "ngrams",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "ngrams",
+  "observation_id": "4aa862f3b5ed8b11",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T00:33:56.049672+00:00",
+  "observed_text": "ngrams",
+  "source_context_snippet": "---",
+  "source_file": null,
+  "source_repo": "girishji/ngramview-complete.vim",
+  "source_repo_description": "Next word completion for Vim based on Google Ngrams Viewer."
+}

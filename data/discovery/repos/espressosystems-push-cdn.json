@@ -1,0 +1,172 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dockers.yaml"
+    },
+    {
+      "component": "docker/setup-qemu-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dockers.yaml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dockers.yaml"
+    },
+    {
+      "component": "docker/login-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dockers.yaml"
+    },
+    {
+      "component": "docker/metadata-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dockers.yaml"
+    },
+    {
+      "component": "docker/metadata-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dockers.yaml"
+    },
+    {
+      "component": "docker/metadata-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dockers.yaml"
+    },
+    {
+      "component": "docker/build-push-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dockers.yaml"
+    },
+    {
+      "component": "docker/build-push-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dockers.yaml"
+    },
+    {
+      "component": "docker/build-push-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dockers.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dockers.yaml",
+      "source_repo": "EspressoSystems/Push-CDN",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dockers.yaml",
+      "source_repo": "EspressoSystems/Push-CDN",
+      "target": "docker/setup-qemu-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dockers.yaml",
+      "source_repo": "EspressoSystems/Push-CDN",
+      "target": "docker/setup-buildx-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dockers.yaml",
+      "source_repo": "EspressoSystems/Push-CDN",
+      "target": "docker/login-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dockers.yaml",
+      "source_repo": "EspressoSystems/Push-CDN",
+      "target": "docker/metadata-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dockers.yaml",
+      "source_repo": "EspressoSystems/Push-CDN",
+      "target": "docker/build-push-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dockers.yaml",
+      "source_repo": "EspressoSystems/Push-CDN",
+      "target": "Docker Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "EspressoSystems/Push-CDN",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "EspressoSystems/Push-CDN",
+      "target": "Test",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T00:55:01.338963+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1154
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 1473
+    },
+    {
+      "path": ".github/workflows/dockers.yaml",
+      "size": 2114
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 574
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A peer-to-peer network accelerator",
+    "fork": false,
+    "full_name": "EspressoSystems/Push-CDN",
+    "html_url": "https://github.com/EspressoSystems/Push-CDN",
+    "language": "Rust",
+    "pushed_at": "2026-03-30T17:51:02Z",
+    "stargazers_count": 5,
+    "topics": [],
+    "updated_at": "2026-02-07T16:34:12Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Docker Build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dockers.yaml",
+      "term": "Docker Build"
+    },
+    {
+      "context_snippet": "Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "Test"
+    }
+  ]
+}

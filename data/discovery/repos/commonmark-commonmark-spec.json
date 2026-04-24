@@ -5,13 +5,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "commonmark/commonmark-spec",
-      "target": "commonmark/cmark",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "commonmark/commonmark-spec",
       "target": "commonmark/commonmark.js",
       "target_type": "repository"
     },
@@ -26,11 +19,18 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "commonmark/commonmark-spec",
+      "target": "jgm/pandoc",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "commonmark/commonmark-spec",
       "target": "jgm/lunamark",
       "target_type": "repository"
     }
   ],
-  "fetched_at": "2026-04-23T20:12:25.116840+00:00",
+  "fetched_at": "2026-04-24T00:56:03.146963+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -58,11 +58,6 @@
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
-      "full_name": "commonmark/cmark",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
       "full_name": "commonmark/commonmark",
       "source_file": "README.md"
     },
@@ -74,6 +69,11 @@
     {
       "edge_type": "explicit-github-link",
       "full_name": "jgm/lunamark",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jgm/pandoc",
       "source_file": "README.md"
     }
   ],

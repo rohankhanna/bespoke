@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "FE Code Style Checker"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/doris",
+      "status": "candidate-context",
+      "text": "Apache Doris is an easy-to-use, high performance and unified analytics database."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/doris",
+      "status": "candidate-context",
+      "text": "FE Code Style Checker"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/doris",
+      "status": "candidate",
+      "text": "FE Code Style Checker"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30774,
+      "status": "candidate",
+      "text": "red"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30643,
+      "status": "candidate",
+      "text": "twist"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28153,
+      "status": "candidate",
+      "text": "debugger"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21545,
+      "status": "candidate",
+      "text": "ironed"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21545,
+      "status": "candidate",
+      "text": "irons"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "FE Code Style Checker",
+  "concept_id": "fe-code-style-checker",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/checkstyle.yaml",
+      "source_repo": "apache/doris"
+    }
+  ],
+  "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "FE Code Style Checker",
+      "sense_id": "fe-code-style-checker#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Python library for handling efficiently sorted integer sets."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Build and upload wheels"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Build and upload wheels"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22541,
+      "status": "candidate",
+      "text": "bridging"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22541,
+      "status": "candidate",
+      "text": "railroad"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22398,
+      "status": "candidate",
+      "text": "barrow"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22398,
+      "status": "candidate",
+      "text": "beetle"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22398,
+      "status": "candidate",
+      "text": "cart"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build and upload wheels",
+      "sense_id": "build-and-upload-wheels#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "build-and-upload-wheels",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "build-and-upload-wheels",
+  "observation_id": "f191e5ea57c58884",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-24T00:33:56.049672+00:00",
+  "observed_text": "Build and upload wheels",
+  "source_context_snippet": "Build and upload wheels",
+  "source_file": ".github/workflows/buildwheels.yml",
+  "source_repo": "Ezibenroc/PyRoaringBitMap",
+  "source_repo_description": "Python library for handling efficiently sorted integer sets."
+}

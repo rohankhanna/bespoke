@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\u2605 Fastfull embedded transactional key-value storage engine \u2605 Surpasses the legendary LMDB in reliability, capabilities and performance \u2605 Used in hundreds of open source projects, including Ethereum."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "libmdbx"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "libmdbx"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10023086,
+      "status": "candidate",
+      "text": "concurrency"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10023085,
+      "status": "candidate",
+      "text": "dbms"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10023084,
+      "status": "candidate",
+      "text": "concurrency pattern"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10023083,
+      "status": "candidate",
+      "text": "version control"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10023082,
+      "status": "candidate",
+      "text": "multics"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "mvcc",
+      "sense_id": "mvcc#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "mvcc",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "mvcc",
+  "observation_id": "a6041a85b84ca00a",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T00:33:56.049672+00:00",
+  "observed_text": "mvcc",
+  "source_context_snippet": "libmdbx",
+  "source_file": null,
+  "source_repo": "Mithril-mine/libmdbx",
+  "source_repo_description": "\u2605 Fastfull embedded transactional key-value storage engine \u2605 Surpasses the legendary LMDB in reliability, capabilities and performance \u2605 Used in hundreds of open source projects, including Ethereum."
+}

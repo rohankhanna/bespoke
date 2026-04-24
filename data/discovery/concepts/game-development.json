@@ -67,6 +67,30 @@
       "source_repo": "ocornut/imgui",
       "status": "candidate-context",
       "text": "build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nfrechette/rtm",
+      "status": "candidate-context",
+      "text": "Realtime Math"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nfrechette/rtm",
+      "status": "candidate-context",
+      "text": "[![CLA assistant](https://cla-assistant.io/readme/badge/nfrechette/rtm)](https://cla-assistant.io/nfrechette/rtm)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "raysan5/raylib",
+      "status": "candidate-context",
+      "text": "A simple and easy-to-use library to enjoy videogames programming"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "raysan5/raylib",
+      "status": "candidate-context",
+      "text": "<img align=\"left\" style=\"width:260px\" src=\"https://github.com/raysan5/raylib/blob/master/logo/raylib_logo_animation.gif\" width=\"288px\">"
     }
   ],
   "candidate_glosses": [
@@ -99,6 +123,18 @@
       "source_repo": "ocornut/imgui",
       "status": "candidate",
       "text": "build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nfrechette/rtm",
+      "status": "candidate",
+      "text": "[![CLA assistant](https://cla-assistant.io/readme/badge/nfrechette/rtm)](https://cla-assistant.io/nfrechette/rtm)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "raysan5/raylib",
+      "status": "candidate",
+      "text": "<img align=\"left\" style=\"width:260px\" src=\"https://github.com/raysan5/raylib/blob/master/logo/raylib_logo_animation.gif\" width=\"288px\">"
     }
   ],
   "candidate_related_terms": [],
@@ -136,11 +172,23 @@
       "observed_at": "2026-04-23T01:09:11.871080+00:00",
       "source_file": null,
       "source_repo": "ocornut/imgui"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "nfrechette/rtm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "raysan5/raylib"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

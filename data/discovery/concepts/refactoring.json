@@ -43,6 +43,18 @@
       "source_repo": "davidhalter/jedi",
       "status": "candidate-context",
       "text": "Jedi - an awesome autocompletion, static analysis and refactoring library for Python"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "asottile/reorder-python-imports",
+      "status": "candidate-context",
+      "text": "Rewrites source to reorder python imports"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "asottile/reorder-python-imports",
+      "status": "candidate-context",
+      "text": "[![build status](https://github.com/asottile/reorder-python-imports/actions/workflows/main.yml/badge.svg)](https://github.com/asottile/reorder-python-imports/actions/workflows/main.yml)"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "davidhalter/jedi",
       "status": "candidate",
       "text": "Jedi - an awesome autocompletion, static analysis and refactoring library for Python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "asottile/reorder-python-imports",
+      "status": "candidate",
+      "text": "[![build status](https://github.com/asottile/reorder-python-imports/actions/workflows/main.yml/badge.svg)](https://github.com/asottile/reorder-python-imports/actions/workflows/main.yml)"
     }
   ],
   "candidate_related_terms": [
@@ -124,11 +142,17 @@
       "observed_at": "2026-04-21T18:51:25.552552+00:00",
       "source_file": null,
       "source_repo": "davidhalter/jedi"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "asottile/reorder-python-imports"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

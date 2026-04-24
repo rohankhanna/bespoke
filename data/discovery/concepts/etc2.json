@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "etc2"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alecazam/kram",
+      "status": "candidate-context",
+      "text": "Encode/decode/info to KTX/KTX2/DDS files with LDR/HDR and BC/ASTC/ETC2.  Mac/Win C++11 too, Mac viewer, and scripts for batch processing textures."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alecazam/kram",
+      "status": "candidate-context",
+      "text": "The suite of kram tools below. I hope these improve your game, app, and art development."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alecazam/kram",
+      "status": "candidate",
+      "text": "The suite of kram tools below. I hope these improve your game, app, and art development."
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "etc2",
+  "concept_id": "etc2",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "alecazam/kram"
+    }
+  ],
+  "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "etc2",
+      "sense_id": "etc2#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

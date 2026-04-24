@@ -1,0 +1,145 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workflow.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workflow.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workflow.yml"
+    },
+    {
+      "component": "nanasess/setup-chromedriver@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workflow.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workflow.yml",
+      "source_repo": "alexmojaki/birdseye",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workflow.yml",
+      "source_repo": "alexmojaki/birdseye",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workflow.yml",
+      "source_repo": "alexmojaki/birdseye",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workflow.yml",
+      "source_repo": "alexmojaki/birdseye",
+      "target": "nanasess/setup-chromedriver@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alexmojaki/birdseye",
+      "target": "birdseye",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alexmojaki/birdseye",
+      "target": "debugger",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alexmojaki/birdseye",
+      "target": "debugging",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alexmojaki/birdseye",
+      "target": "python-debugger",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T02:03:56.753533+00:00",
+  "fetched_files": [
+    {
+      "path": "README.rst",
+      "size": 1985
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 374
+    },
+    {
+      "path": ".github/workflows/workflow.yml",
+      "size": 689
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Graphical Python debugger which lets you easily view the values of all evaluated expressions",
+    "fork": false,
+    "full_name": "alexmojaki/birdseye",
+    "html_url": "https://github.com/alexmojaki/birdseye",
+    "language": "JavaScript",
+    "pushed_at": "2026-01-11T12:25:17Z",
+    "stargazers_count": 1713,
+    "topics": [
+      "ast",
+      "birdseye",
+      "debugger",
+      "debugging",
+      "python",
+      "python-debugger"
+    ],
+    "updated_at": "2026-04-16T08:44:05Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "|logo| birdseye",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "birdseye"
+    },
+    {
+      "context_snippet": "|logo| birdseye",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "debugger"
+    },
+    {
+      "context_snippet": "|logo| birdseye",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "debugging"
+    },
+    {
+      "context_snippet": "|logo| birdseye",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "python-debugger"
+    }
+  ]
+}

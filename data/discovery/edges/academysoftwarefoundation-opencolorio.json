@@ -1,0 +1,237 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AcademySoftwareFoundation/OpenColorIO",
+      "target": "imageworks/opencolorio-configs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AcademySoftwareFoundation/OpenColorIO",
+      "target": "academysoftwarefoundation/opencolorio-config-aces",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/analysis_workflow.yml",
+      "source_repo": "AcademySoftwareFoundation/OpenColorIO",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/analysis_workflow.yml",
+      "source_repo": "AcademySoftwareFoundation/OpenColorIO",
+      "target": "SonarSource/sonarqube-scan-action/install-build-wrapper@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/analysis_workflow.yml",
+      "source_repo": "AcademySoftwareFoundation/OpenColorIO",
+      "target": "SonarSource/sonarqube-scan-action@a31c9398be7ace6bbfaf30c0bd5d415f843d45e9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/analysis_workflow.yml",
+      "source_repo": "AcademySoftwareFoundation/OpenColorIO",
+      "target": "Analysis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_workflow.yml",
+      "source_repo": "AcademySoftwareFoundation/OpenColorIO",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_workflow.yml",
+      "source_repo": "AcademySoftwareFoundation/OpenColorIO",
+      "target": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependencies_latest.yml",
+      "source_repo": "AcademySoftwareFoundation/OpenColorIO",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependencies_latest.yml",
+      "source_repo": "AcademySoftwareFoundation/OpenColorIO",
+      "target": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dependencies_latest.yml",
+      "source_repo": "AcademySoftwareFoundation/OpenColorIO",
+      "target": "Dependencies latest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy_site.yml",
+      "source_repo": "AcademySoftwareFoundation/OpenColorIO",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy_site.yml",
+      "source_repo": "AcademySoftwareFoundation/OpenColorIO",
+      "target": "actions/configure-pages@45bfe0192ca1faeb007ade9deae92b16b8254a0d",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy_site.yml",
+      "source_repo": "AcademySoftwareFoundation/OpenColorIO",
+      "target": "actions/upload-pages-artifact@fc324d3547104276b827a68afc52ff2a11cc49c9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy_site.yml",
+      "source_repo": "AcademySoftwareFoundation/OpenColorIO",
+      "target": "actions/deploy-pages@cd2ce8fcbc39b97be8ca5fce6e763baed58fa128",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy_site.yml",
+      "source_repo": "AcademySoftwareFoundation/OpenColorIO",
+      "target": "Deploy OCIO Homepage",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gpu_workflow.yml",
+      "source_repo": "AcademySoftwareFoundation/OpenColorIO",
+      "target": "aws-actions/configure-aws-credentials@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gpu_workflow.yml",
+      "source_repo": "AcademySoftwareFoundation/OpenColorIO",
+      "target": "aws-actions/aws-codebuild-run-build@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gpu_workflow.yml",
+      "source_repo": "AcademySoftwareFoundation/OpenColorIO",
+      "target": "GPU",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/platform_latest.yml",
+      "source_repo": "AcademySoftwareFoundation/OpenColorIO",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/platform_latest.yml",
+      "source_repo": "AcademySoftwareFoundation/OpenColorIO",
+      "target": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/platform_latest.yml",
+      "source_repo": "AcademySoftwareFoundation/OpenColorIO",
+      "target": "Platform latest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-sign.yml",
+      "source_repo": "AcademySoftwareFoundation/OpenColorIO",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-sign.yml",
+      "source_repo": "AcademySoftwareFoundation/OpenColorIO",
+      "target": "sigstore/gh-action-sigstore-python@04cffa1d795717b140764e8b640de88853c92acc",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-sign.yml",
+      "source_repo": "AcademySoftwareFoundation/OpenColorIO",
+      "target": "Sign Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/wheel_workflow.yml",
+      "source_repo": "AcademySoftwareFoundation/OpenColorIO",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/wheel_workflow.yml",
+      "source_repo": "AcademySoftwareFoundation/OpenColorIO",
+      "target": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/wheel_workflow.yml",
+      "source_repo": "AcademySoftwareFoundation/OpenColorIO",
+      "target": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/wheel_workflow.yml",
+      "source_repo": "AcademySoftwareFoundation/OpenColorIO",
+      "target": "pypa/cibuildwheel@ee02a1537ce3071a004a6b08c41e72f0fdc42d9a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/wheel_workflow.yml",
+      "source_repo": "AcademySoftwareFoundation/OpenColorIO",
+      "target": "actions/download-artifact@70fc10c6e5e1ce46ad2ea6f2b72d43f7d47b13c3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/wheel_workflow.yml",
+      "source_repo": "AcademySoftwareFoundation/OpenColorIO",
+      "target": "pypa/gh-action-pypi-publish@ed0c53931b1dc9bd32cbe73a98c7f6766f8a527e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/wheel_workflow.yml",
+      "source_repo": "AcademySoftwareFoundation/OpenColorIO",
+      "target": "Wheel",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AcademySoftwareFoundation/OpenColorIO",
+      "target": "opencolorio",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-24T00:33:56.049672+00:00",
+  "source_repo": "AcademySoftwareFoundation/OpenColorIO"
+}

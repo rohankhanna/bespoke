@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "conda-build-recipes"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "conda/grayskull",
+      "status": "candidate-context",
+      "text": "Grayskull :skull: - Recipe generator for Conda"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "conda/grayskull",
+      "status": "candidate-context",
+      "text": "-------------"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "conda/grayskull",
+      "status": "candidate",
+      "text": "-------------"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "conda-build-recipes",
+  "concept_id": "conda-build-recipes",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "conda/grayskull"
+    }
+  ],
+  "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "conda-build-recipes",
+      "sense_id": "conda-build-recipes#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

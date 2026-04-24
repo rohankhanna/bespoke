@@ -1,0 +1,699 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/c-cpp.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/c-cpp.yml"
+    },
+    {
+      "component": "vmactions/openbsd-vm@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/c-cpp.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/c-cpp.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/c-cpp.yml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/c-cpp.yml"
+    },
+    {
+      "component": "octokit/request-action@v2.x",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cirrus-email.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/init@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/autobuild@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverity.yml"
+    },
+    {
+      "component": "vapier/coverity-scan-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverity.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build-env.yml"
+    },
+    {
+      "component": "docker/setup-qemu-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build-env.yml"
+    },
+    {
+      "component": "docker/login-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build-env.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build-env.yml"
+    },
+    {
+      "component": "docker/build-push-action@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build-env.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml"
+    },
+    {
+      "component": "docker/setup-qemu-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml"
+    },
+    {
+      "component": "docker/login-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml"
+    },
+    {
+      "component": "docker/build-push-action@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "docker/setup-qemu-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "andy5995/gh-action-build-deb@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/shellcheck.yml"
+    },
+    {
+      "component": "ludeeus/action-shellcheck@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/shellcheck.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/spellcheck.yml"
+    },
+    {
+      "component": "rojopolis/spellcheck-github-actions@v0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/spellcheck.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/c-cpp.yml",
+      "source_repo": "theimpossibleastronaut/rmw",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/c-cpp.yml",
+      "source_repo": "theimpossibleastronaut/rmw",
+      "target": "vmactions/openbsd-vm@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/c-cpp.yml",
+      "source_repo": "theimpossibleastronaut/rmw",
+      "target": "actions/cache@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cirrus-email.yml",
+      "source_repo": "theimpossibleastronaut/rmw",
+      "target": "octokit/request-action@v2.x",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cirrus-email.yml",
+      "source_repo": "theimpossibleastronaut/rmw",
+      "target": "Email about Cirrus CI failures",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "theimpossibleastronaut/rmw",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "theimpossibleastronaut/rmw",
+      "target": "github/codeql-action/init@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "theimpossibleastronaut/rmw",
+      "target": "github/codeql-action/autobuild@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "theimpossibleastronaut/rmw",
+      "target": "github/codeql-action/analyze@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "theimpossibleastronaut/rmw",
+      "target": "CodeQL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverity.yml",
+      "source_repo": "theimpossibleastronaut/rmw",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverity.yml",
+      "source_repo": "theimpossibleastronaut/rmw",
+      "target": "vapier/coverity-scan-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/coverity.yml",
+      "source_repo": "theimpossibleastronaut/rmw",
+      "target": "Coverity Scan",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build-env.yml",
+      "source_repo": "theimpossibleastronaut/rmw",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build-env.yml",
+      "source_repo": "theimpossibleastronaut/rmw",
+      "target": "docker/setup-qemu-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build-env.yml",
+      "source_repo": "theimpossibleastronaut/rmw",
+      "target": "docker/login-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build-env.yml",
+      "source_repo": "theimpossibleastronaut/rmw",
+      "target": "docker/setup-buildx-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build-env.yml",
+      "source_repo": "theimpossibleastronaut/rmw",
+      "target": "docker/build-push-action@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker-build-env.yml",
+      "source_repo": "theimpossibleastronaut/rmw",
+      "target": "Docker Build Environment Image CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "theimpossibleastronaut/rmw",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "theimpossibleastronaut/rmw",
+      "target": "docker/setup-qemu-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "theimpossibleastronaut/rmw",
+      "target": "docker/login-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "theimpossibleastronaut/rmw",
+      "target": "docker/setup-buildx-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "theimpossibleastronaut/rmw",
+      "target": "docker/build-push-action@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "theimpossibleastronaut/rmw",
+      "target": "Docker rmw Image CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "theimpossibleastronaut/rmw",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "theimpossibleastronaut/rmw",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "theimpossibleastronaut/rmw",
+      "target": "docker/setup-qemu-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "theimpossibleastronaut/rmw",
+      "target": "andy5995/gh-action-build-deb@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "theimpossibleastronaut/rmw",
+      "target": "Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/shellcheck.yml",
+      "source_repo": "theimpossibleastronaut/rmw",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/shellcheck.yml",
+      "source_repo": "theimpossibleastronaut/rmw",
+      "target": "ludeeus/action-shellcheck@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/shellcheck.yml",
+      "source_repo": "theimpossibleastronaut/rmw",
+      "target": "shellcheck",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/spellcheck.yml",
+      "source_repo": "theimpossibleastronaut/rmw",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/spellcheck.yml",
+      "source_repo": "theimpossibleastronaut/rmw",
+      "target": "rojopolis/spellcheck-github-actions@v0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/spellcheck.yml",
+      "source_repo": "theimpossibleastronaut/rmw",
+      "target": "Spellcheck Action",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "theimpossibleastronaut/rmw",
+      "target": "cli-utilities",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "theimpossibleastronaut/rmw",
+      "target": "file-management",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "theimpossibleastronaut/rmw",
+      "target": "foss",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "theimpossibleastronaut/rmw",
+      "target": "gnu-gpl",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "theimpossibleastronaut/rmw",
+      "target": "meson",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "theimpossibleastronaut/rmw",
+      "target": "mesonbuild",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "theimpossibleastronaut/rmw",
+      "target": "recycle-bin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "theimpossibleastronaut/rmw",
+      "target": "system-utility",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "theimpossibleastronaut/rmw",
+      "target": "trash",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "theimpossibleastronaut/rmw",
+      "target": "trashcan",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "theimpossibleastronaut/rmw",
+      "target": "wastebasket",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T00:47:34.882843+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4060
+    },
+    {
+      "path": ".github/workflows/c-cpp.yml",
+      "size": 5717
+    },
+    {
+      "path": ".github/workflows/cirrus-email.yml",
+      "size": 1355
+    },
+    {
+      "path": ".github/workflows/codeql.yml",
+      "size": 2464
+    },
+    {
+      "path": ".github/workflows/coverity.yml",
+      "size": 3137
+    },
+    {
+      "path": ".github/workflows/docker-build-env.yml",
+      "size": 1230
+    },
+    {
+      "path": ".github/workflows/docker.yml",
+      "size": 1471
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 3451
+    },
+    {
+      "path": ".github/workflows/shellcheck.yml",
+      "size": 436
+    },
+    {
+      "path": ".github/workflows/spellcheck.yml",
+      "size": 597
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "trashcan/recycle bin utility for the command line",
+    "fork": false,
+    "full_name": "theimpossibleastronaut/rmw",
+    "html_url": "https://github.com/theimpossibleastronaut/rmw",
+    "language": "C",
+    "pushed_at": "2026-04-08T10:17:01Z",
+    "stargazers_count": 94,
+    "topics": [
+      "c",
+      "cli-utilities",
+      "file-management",
+      "foss",
+      "gnu-gpl",
+      "meson",
+      "mesonbuild",
+      "recycle-bin",
+      "rmw",
+      "system-utility",
+      "trash",
+      "trashcan",
+      "tui",
+      "wastebasket"
+    ],
+    "updated_at": "2026-04-08T10:12:48Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Email about Cirrus CI failures",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cirrus-email.yml",
+      "term": "Email about Cirrus CI failures"
+    },
+    {
+      "context_snippet": "CodeQL",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "term": "CodeQL"
+    },
+    {
+      "context_snippet": "\"Coverity Scan\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/coverity.yml",
+      "term": "Coverity Scan"
+    },
+    {
+      "context_snippet": "Docker Build Environment Image CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker-build-env.yml",
+      "term": "Docker Build Environment Image CI"
+    },
+    {
+      "context_snippet": "Docker rmw Image CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker.yml",
+      "term": "Docker rmw Image CI"
+    },
+    {
+      "context_snippet": "Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Release"
+    },
+    {
+      "context_snippet": "shellcheck",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/shellcheck.yml",
+      "term": "shellcheck"
+    },
+    {
+      "context_snippet": "Spellcheck Action",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/spellcheck.yml",
+      "term": "Spellcheck Action"
+    },
+    {
+      "context_snippet": "rmw (ReMove to Waste) is a trashcan/recycle bin utility for the command line.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cli-utilities"
+    },
+    {
+      "context_snippet": "rmw (ReMove to Waste) is a trashcan/recycle bin utility for the command line.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "file-management"
+    },
+    {
+      "context_snippet": "rmw (ReMove to Waste) is a trashcan/recycle bin utility for the command line.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "foss"
+    },
+    {
+      "context_snippet": "rmw (ReMove to Waste) is a trashcan/recycle bin utility for the command line.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gnu-gpl"
+    },
+    {
+      "context_snippet": "rmw (ReMove to Waste) is a trashcan/recycle bin utility for the command line.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "meson"
+    },
+    {
+      "context_snippet": "rmw (ReMove to Waste) is a trashcan/recycle bin utility for the command line.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mesonbuild"
+    },
+    {
+      "context_snippet": "rmw (ReMove to Waste) is a trashcan/recycle bin utility for the command line.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "recycle-bin"
+    },
+    {
+      "context_snippet": "rmw (ReMove to Waste) is a trashcan/recycle bin utility for the command line.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "system-utility"
+    },
+    {
+      "context_snippet": "rmw (ReMove to Waste) is a trashcan/recycle bin utility for the command line.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "trash"
+    },
+    {
+      "context_snippet": "rmw (ReMove to Waste) is a trashcan/recycle bin utility for the command line.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "trashcan"
+    },
+    {
+      "context_snippet": "rmw (ReMove to Waste) is a trashcan/recycle bin utility for the command line.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "wastebasket"
+    }
+  ]
+}

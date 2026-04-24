@@ -1,0 +1,228 @@
+{
+  "components": [
+    {
+      "component": "@types/nova-editor-node",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/whatwg-fetch",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "esbuild",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "husky",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "lint-staged",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "prettier",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "typescript",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "vscode-languageserver-protocol",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/setup-node@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "robb-j/nova-yaml",
+      "target": "@types/nova-editor-node",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "robb-j/nova-yaml",
+      "target": "@types/whatwg-fetch",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "robb-j/nova-yaml",
+      "target": "esbuild",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "robb-j/nova-yaml",
+      "target": "husky",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "robb-j/nova-yaml",
+      "target": "lint-staged",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "robb-j/nova-yaml",
+      "target": "prettier",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "robb-j/nova-yaml",
+      "target": "typescript",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "robb-j/nova-yaml",
+      "target": "vscode-languageserver-protocol",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "robb-j/nova-yaml",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "robb-j/nova-yaml",
+      "target": "actions/setup-node@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "robb-j/nova-yaml",
+      "target": "build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "robb-j/nova-yaml",
+      "target": "language-server",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "robb-j/nova-yaml",
+      "target": "language-server-client",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "robb-j/nova-yaml",
+      "target": "nova-extension",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "robb-j/nova-yaml",
+      "target": "yaml",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T00:52:35.601651+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 403
+    },
+    {
+      "path": "package.json",
+      "size": 548
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 408
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A Nova extension to provide YAML validation based on JSON schemas",
+    "fork": false,
+    "full_name": "robb-j/nova-yaml",
+    "html_url": "https://github.com/robb-j/nova-yaml",
+    "language": "TypeScript",
+    "pushed_at": "2025-05-22T23:40:06Z",
+    "stargazers_count": 7,
+    "topics": [
+      "language-server",
+      "language-server-client",
+      "nova-extension",
+      "yaml"
+    ],
+    "updated_at": "2025-05-22T23:40:10Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "\"build\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "build"
+    },
+    {
+      "context_snippet": "A YAML language server/client for [Nova IDE](https://nova.app).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "language-server"
+    },
+    {
+      "context_snippet": "A YAML language server/client for [Nova IDE](https://nova.app).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "language-server-client"
+    },
+    {
+      "context_snippet": "A YAML language server/client for [Nova IDE](https://nova.app).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nova-extension"
+    },
+    {
+      "context_snippet": "A YAML language server/client for [Nova IDE](https://nova.app).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "yaml"
+    }
+  ]
+}

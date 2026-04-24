@@ -79,6 +79,18 @@
       "source_repo": "atom/atom",
       "status": "candidate-context",
       "text": "[![Build status](https://dev.azure.com/github/Atom/_apis/build/status/Atom%20Production%20Branches?branchName=master)](https://dev.azure.com/github/Atom/_build/latest?definitionId=32&branchName=master)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dart4e/dart4e",
+      "status": "candidate-context",
+      "text": "Dart and Flutter development support for the Eclipse IDE "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dart4e/dart4e",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://img.shields.io/github/actions/workflow/status/dart4e/dart4e/build.yml?logo=github)](https://github.com/dart4e/dart4e/actions/workflows/build.yml)"
     }
   ],
   "candidate_glosses": [
@@ -117,6 +129,12 @@
       "source_repo": "atom/atom",
       "status": "candidate",
       "text": "[![Build status](https://dev.azure.com/github/Atom/_apis/build/status/Atom%20Production%20Branches?branchName=master)](https://dev.azure.com/github/Atom/_build/latest?definitionId=32&branchName=master)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dart4e/dart4e",
+      "status": "candidate",
+      "text": "[![Build Status](https://img.shields.io/github/actions/workflow/status/dart4e/dart4e/build.yml?logo=github)](https://github.com/dart4e/dart4e/actions/workflows/build.yml)"
     }
   ],
   "candidate_related_terms": [
@@ -210,11 +228,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "atom/atom"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "dart4e/dart4e"
     }
   ],
   "first_seen_at": "2026-04-18T11:41:43.530265+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,118 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/clang-tests.yml",
+      "source_repo": "valida-xyz/valida-compiler",
+      "target": "Clang Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/closed-issues.yml",
+      "source_repo": "valida-xyz/valida-compiler",
+      "target": "andymckay/labeler@1.0.4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/closed-issues.yml",
+      "source_repo": "valida-xyz/valida-compiler",
+      "target": "Labeling closed issues",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue-release-workflow.yml",
+      "source_repo": "valida-xyz/valida-compiler",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issue-release-workflow.yml",
+      "source_repo": "valida-xyz/valida-compiler",
+      "target": "Issue Release Workflow",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issue-subscriber.yml",
+      "source_repo": "valida-xyz/valida-compiler",
+      "target": "Issue Subscriber",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/libclang-abi-tests.yml",
+      "source_repo": "valida-xyz/valida-compiler",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/libclang-abi-tests.yml",
+      "source_repo": "valida-xyz/valida-compiler",
+      "target": "llvm/actions/get-llvm-version@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/libclang-abi-tests.yml",
+      "source_repo": "valida-xyz/valida-compiler",
+      "target": "llvm/actions/install-ninja@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/libclang-abi-tests.yml",
+      "source_repo": "valida-xyz/valida-compiler",
+      "target": "llvm/actions/get-llvm-project-src@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/libclang-abi-tests.yml",
+      "source_repo": "valida-xyz/valida-compiler",
+      "target": "actions/upload-artifact@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/libclang-abi-tests.yml",
+      "source_repo": "valida-xyz/valida-compiler",
+      "target": "actions/download-artifact@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/libclang-abi-tests.yml",
+      "source_repo": "valida-xyz/valida-compiler",
+      "target": "libclang ABI Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/libclc-tests.yml",
+      "source_repo": "valida-xyz/valida-compiler",
+      "target": "libclc Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lld-tests.yml",
+      "source_repo": "valida-xyz/valida-compiler",
+      "target": "LLD Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lldb-tests.yml",
+      "source_repo": "valida-xyz/valida-compiler",
+      "target": "lldb Tests",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-24T00:33:56.049672+00:00",
+  "source_repo": "valida-xyz/valida-compiler"
+}

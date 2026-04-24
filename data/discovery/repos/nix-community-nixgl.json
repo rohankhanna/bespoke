@@ -1,0 +1,83 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2.4.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "cachix/install-nix-action@v20",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "cachix/cachix-action@v12",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "nix-community/nixGL",
+      "target": "actions/checkout@v2.4.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "nix-community/nixGL",
+      "target": "cachix/install-nix-action@v20",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "nix-community/nixGL",
+      "target": "cachix/cachix-action@v12",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "nix-community/nixGL",
+      "target": "Test",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T00:45:42.735109+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7716
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 363
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A wrapper tool for nix OpenGL application [maintainer=@guibou]",
+    "fork": false,
+    "full_name": "nix-community/nixGL",
+    "html_url": "https://github.com/nix-community/nixGL",
+    "language": "Nix",
+    "pushed_at": "2025-11-02T13:41:21Z",
+    "stargazers_count": 973,
+    "topics": [],
+    "updated_at": "2026-04-22T07:39:51Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "Test"
+    }
+  ]
+}

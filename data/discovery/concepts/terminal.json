@@ -907,6 +907,66 @@
       "source_repo": "walles/px",
       "status": "candidate-context",
       "text": "|Linux CI Status| |macOS CI Status|"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Textualize/rich-cli",
+      "status": "candidate-context",
+      "text": "Rich-cli is a command line toolbox for fancy output in the terminal"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Textualize/rich-cli",
+      "status": "candidate-context",
+      "text": "Rich-CLI is a command line toolbox for fancy output in the terminal, built with [Rich](https://github.com/Textualize/rich)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Textualize/textual",
+      "status": "candidate-context",
+      "text": "The lean application framework for Python.  Build sophisticated user interfaces with a simple Python API. Run your apps in the terminal and a web browser."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Textualize/textual",
+      "status": "candidate-context",
+      "text": "[![Discord](https://img.shields.io/discord/1026214085173461072)](https://discord.gg/Enf6Z3qhVr)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Rigellute/spotify-tui",
+      "status": "candidate-context",
+      "text": "Spotify for the terminal written in Rust \ud83d\ude80"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Rigellute/spotify-tui",
+      "status": "candidate-context",
+      "text": "![Continuous Integration](https://github.com/Rigellute/spotify-tui/workflows/Continuous%20Integration/badge.svg?branch=master&event=push)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/node-pty",
+      "status": "candidate-context",
+      "text": "Fork pseudoterminals in Node.JS"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/node-pty",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://dev.azure.com/vscode/node-pty/_apis/build/status/Microsoft.node-pty?branchName=main)](https://dev.azure.com/vscode/node-pty/_build/latest?definitionId=11&branchName=main)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "chubin/wttr.in",
+      "status": "candidate-context",
+      "text": ":partly_sunny: The right way to check the weather"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chubin/wttr.in",
+      "status": "candidate-context",
+      "text": "*wttr.in \u2014 the right way to ~check~ `curl` the weather!*"
     }
   ],
   "candidate_glosses": [
@@ -1359,6 +1419,36 @@
       "source_repo": "walles/px",
       "status": "candidate",
       "text": "|Linux CI Status| |macOS CI Status|"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Textualize/rich-cli",
+      "status": "candidate",
+      "text": "Rich-CLI is a command line toolbox for fancy output in the terminal, built with [Rich](https://github.com/Textualize/rich)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Textualize/textual",
+      "status": "candidate",
+      "text": "[![Discord](https://img.shields.io/discord/1026214085173461072)](https://discord.gg/Enf6Z3qhVr)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Rigellute/spotify-tui",
+      "status": "candidate",
+      "text": "![Continuous Integration](https://github.com/Rigellute/spotify-tui/workflows/Continuous%20Integration/badge.svg?branch=master&event=push)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/node-pty",
+      "status": "candidate",
+      "text": "[![Build Status](https://dev.azure.com/vscode/node-pty/_apis/build/status/Microsoft.node-pty?branchName=main)](https://dev.azure.com/vscode/node-pty/_build/latest?definitionId=11&branchName=main)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chubin/wttr.in",
+      "status": "candidate",
+      "text": "*wttr.in \u2014 the right way to ~check~ `curl` the weather!*"
     }
   ],
   "candidate_related_terms": [
@@ -1972,11 +2062,53 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "walles/px"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "spaceship-prompt/spaceship-prompt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "ohmyzsh/ohmyzsh"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "Textualize/rich-cli"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "Textualize/textual"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "Rigellute/spotify-tui"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/node-pty"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "chubin/wttr.in"
     }
   ],
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

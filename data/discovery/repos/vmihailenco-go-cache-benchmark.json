@@ -1,0 +1,119 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "vmihailenco/go-cache-benchmark",
+      "target": "dgryski/trifles",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vmihailenco/go-cache-benchmark",
+      "target": "benchmark",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vmihailenco/go-cache-benchmark",
+      "target": "cache",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vmihailenco/go-cache-benchmark",
+      "target": "golang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vmihailenco/go-cache-benchmark",
+      "target": "lru-cache",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vmihailenco/go-cache-benchmark",
+      "target": "tinylfu",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T01:48:40.652330+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11416
+    },
+    {
+      "path": "go.mod",
+      "size": 1101
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Cache benchmark for Golang",
+    "fork": false,
+    "full_name": "vmihailenco/go-cache-benchmark",
+    "html_url": "https://github.com/vmihailenco/go-cache-benchmark",
+    "language": "Go",
+    "pushed_at": "2023-10-28T05:24:07Z",
+    "stargazers_count": 77,
+    "topics": [
+      "benchmark",
+      "cache",
+      "go",
+      "golang",
+      "lru",
+      "lru-cache",
+      "tinylfu"
+    ],
+    "updated_at": "2025-10-28T09:09:23Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dgryski/trifles",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "benchmark"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cache"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "golang"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lru-cache"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tinylfu"
+    }
+  ]
+}

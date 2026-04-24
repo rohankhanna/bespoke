@@ -451,6 +451,174 @@
       "source_repo": "dcampos/nvim-snippy",
       "status": "candidate-context",
       "text": "A minimalist snippets plugin for Neovim **0.10+** written in Lua."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "anuvyklack/hydra.nvim",
+      "status": "candidate-context",
+      "text": "Create custom submodes and menus"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "anuvyklack/hydra.nvim",
+      "status": "candidate-context",
+      "text": "<!-- <img align=\"right\" width=\"300\" src=\"./hydra.png\"> -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "DanilaMihailov/beacon.nvim",
+      "status": "candidate-context",
+      "text": "Whenever cursor jumps some distance or moves between windows, it will flash so you can see where it is"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DanilaMihailov/beacon.nvim",
+      "status": "candidate-context",
+      "text": "Highlight cursor when it moves, changes windows and more!"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tiagovla/scope.nvim",
+      "status": "candidate-context",
+      "text": "Revolutionize Your Neovim Tab Workflow: Introducing Enhanced Tab Scoping!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tiagovla/scope.nvim",
+      "status": "candidate-context",
+      "text": "**Revolutionize Your Neovim Tab Workflow: Introducing Enhanced Tab Scoping!**"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "anuvyklack/windows.nvim",
+      "status": "candidate-context",
+      "text": "Automatically expand width of the current window. Maximizes and restore it. And all this with nice animations!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "anuvyklack/windows.nvim",
+      "status": "candidate-context",
+      "text": "- Automatically expand width of the current window;"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "karb94/neoscroll.nvim",
+      "status": "candidate-context",
+      "text": "Smooth scrolling neovim plugin written in lua"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "karb94/neoscroll.nvim",
+      "status": "candidate-context",
+      "text": "https://user-images.githubusercontent.com/41967813/121818668-7b36c800-cc80-11eb-8c3a-45a4767b8f05.mp4"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nvim-mini/mini.pick",
+      "status": "candidate-context",
+      "text": "Pick anything. Part of 'mini.nvim' library. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nvim-mini/mini.pick",
+      "status": "candidate-context",
+      "text": "<p align=\"center\"> <img src=\"https://github.com/nvim-mini/assets/blob/main/logo-2/logo-pick_readme.png?raw=true\" alt=\"mini.pick\" style=\"max-width:100%;border:solid 2px\"/> </p>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "stevearc/conform.nvim",
+      "status": "candidate-context",
+      "text": "Lightweight yet powerful formatter plugin for Neovim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stevearc/conform.nvim",
+      "status": "candidate-context",
+      "text": "Lightweight yet powerful formatter plugin for Neovim"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "stevearc/stickybuf.nvim",
+      "status": "candidate-context",
+      "text": "Neovim plugin for locking a buffer to a window"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stevearc/stickybuf.nvim",
+      "status": "candidate-context",
+      "text": "Neovim plugin for locking a buffer to a window"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ms-jpq/coq_nvim",
+      "status": "candidate-context",
+      "text": "Fast as FUCK nvim completion. SQLite, concurrent scheduler, hundreds of hours of optimization."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ms-jpq/coq_nvim",
+      "status": "candidate-context",
+      "text": "Named after the [famous theorem prover](https://coq.inria.fr/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kristijanhusak/vim-dadbod-ui",
+      "status": "candidate-context",
+      "text": "Simple UI for https://github.com/tpope/vim-dadbod"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kristijanhusak/vim-dadbod-ui",
+      "status": "candidate-context",
+      "text": "Simple UI for [vim-dadbod](https://github.com/tpope/vim-dadbod)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "saghen/blink.cmp",
+      "status": "candidate-context",
+      "text": "Performant, batteries-included completion plugin for Neovim "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "saghen/blink.cmp",
+      "status": "candidate-context",
+      "text": "> [!WARNING]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ggandor/lightspeed.nvim",
+      "status": "candidate-context",
+      "text": "deprecated in favor of leap.nvim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ggandor/lightspeed.nvim",
+      "status": "candidate-context",
+      "text": "Lightspeed has been deprecated in favor of"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "igorlfs/nvim-dap-view",
+      "status": "candidate-context",
+      "text": "Visualize debugging sessions in neovim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "igorlfs/nvim-dap-view",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "notomo/vusted",
+      "status": "candidate-context",
+      "text": "A busted wrapper for testing neovim plugin"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "notomo/vusted",
+      "status": "candidate-context",
+      "text": "[busted](https://github.com/lunarmodules/busted) wrapper for testing neovim plugin"
     }
   ],
   "candidate_glosses": [
@@ -675,6 +843,90 @@
       "source_repo": "dcampos/nvim-snippy",
       "status": "candidate",
       "text": "A minimalist snippets plugin for Neovim **0.10+** written in Lua."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "anuvyklack/hydra.nvim",
+      "status": "candidate",
+      "text": "<!-- <img align=\"right\" width=\"300\" src=\"./hydra.png\"> -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DanilaMihailov/beacon.nvim",
+      "status": "candidate",
+      "text": "Highlight cursor when it moves, changes windows and more!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tiagovla/scope.nvim",
+      "status": "candidate",
+      "text": "**Revolutionize Your Neovim Tab Workflow: Introducing Enhanced Tab Scoping!**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "anuvyklack/windows.nvim",
+      "status": "candidate",
+      "text": "- Automatically expand width of the current window;"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "karb94/neoscroll.nvim",
+      "status": "candidate",
+      "text": "https://user-images.githubusercontent.com/41967813/121818668-7b36c800-cc80-11eb-8c3a-45a4767b8f05.mp4"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nvim-mini/mini.pick",
+      "status": "candidate",
+      "text": "<p align=\"center\"> <img src=\"https://github.com/nvim-mini/assets/blob/main/logo-2/logo-pick_readme.png?raw=true\" alt=\"mini.pick\" style=\"max-width:100%;border:solid 2px\"/> </p>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stevearc/conform.nvim",
+      "status": "candidate",
+      "text": "Lightweight yet powerful formatter plugin for Neovim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stevearc/stickybuf.nvim",
+      "status": "candidate",
+      "text": "Neovim plugin for locking a buffer to a window"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ms-jpq/coq_nvim",
+      "status": "candidate",
+      "text": "Named after the [famous theorem prover](https://coq.inria.fr/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kristijanhusak/vim-dadbod-ui",
+      "status": "candidate",
+      "text": "Simple UI for [vim-dadbod](https://github.com/tpope/vim-dadbod)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "saghen/blink.cmp",
+      "status": "candidate",
+      "text": "> [!WARNING]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ggandor/lightspeed.nvim",
+      "status": "candidate",
+      "text": "Lightspeed has been deprecated in favor of"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "igorlfs/nvim-dap-view",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "notomo/vusted",
+      "status": "candidate",
+      "text": "[busted](https://github.com/lunarmodules/busted) wrapper for testing neovim plugin"
     }
   ],
   "candidate_related_terms": [],
@@ -922,11 +1174,113 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "dcampos/nvim-snippy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "anuvyklack/hydra.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "DanilaMihailov/beacon.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "tiagovla/scope.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "anuvyklack/windows.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "karb94/neoscroll.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "andersevenrud/cmp-tmux"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "nvim-mini/mini.pick"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "stevearc/conform.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "stevearc/stickybuf.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "ms-jpq/coq_nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "kristijanhusak/vim-dadbod-ui"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "saghen/blink.cmp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "dense-analysis/ale"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "nvim-mini/mini.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "ggandor/lightspeed.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "igorlfs/nvim-dap-view"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "notomo/vusted"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

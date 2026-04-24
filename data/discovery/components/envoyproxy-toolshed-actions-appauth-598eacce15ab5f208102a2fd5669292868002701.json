@@ -1,12 +1,17 @@
 {
   "component": "envoyproxy/toolshed/actions/appauth@598eacce15ab5f208102a2fd5669292868002701",
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/envoy-sync.yaml",
       "source_repo": "envoyproxy/go-control-plane"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/envoy-sync.yaml",
+      "source_repo": "envoyproxy/data-plane-api"
     }
   ]
 }

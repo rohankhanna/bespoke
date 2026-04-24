@@ -1,0 +1,283 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/freebsd.yml"
+    },
+    {
+      "component": "vmactions/freebsd-vm@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/freebsd.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "jidicula/clang-format-action@v4.16.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/openbsd.yml"
+    },
+    {
+      "component": "vmactions/openbsd-vm@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/openbsd.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ubuntu-arm.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ubuntu.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/freebsd.yml",
+      "source_repo": "Solo5/solo5",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/freebsd.yml",
+      "source_repo": "Solo5/solo5",
+      "target": "vmactions/freebsd-vm@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/freebsd.yml",
+      "source_repo": "Solo5/solo5",
+      "target": "FreeBSD",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "Solo5/solo5",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "Solo5/solo5",
+      "target": "jidicula/clang-format-action@v4.16.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "Solo5/solo5",
+      "target": "clang-format Check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/openbsd.yml",
+      "source_repo": "Solo5/solo5",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/openbsd.yml",
+      "source_repo": "Solo5/solo5",
+      "target": "vmactions/openbsd-vm@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/openbsd.yml",
+      "source_repo": "Solo5/solo5",
+      "target": "OpenBSD",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ubuntu-arm.yml",
+      "source_repo": "Solo5/solo5",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ubuntu-arm.yml",
+      "source_repo": "Solo5/solo5",
+      "target": "Ubuntu-arm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ubuntu.yml",
+      "source_repo": "Solo5/solo5",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ubuntu.yml",
+      "source_repo": "Solo5/solo5",
+      "target": "Ubuntu",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Solo5/solo5",
+      "target": "freebsd",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Solo5/solo5",
+      "target": "hypervisor",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Solo5/solo5",
+      "target": "mirageos",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Solo5/solo5",
+      "target": "openbsd",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Solo5/solo5",
+      "target": "unikernel",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T00:38:36.671427+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3408
+    },
+    {
+      "path": ".github/workflows/freebsd.yml",
+      "size": 588
+    },
+    {
+      "path": ".github/workflows/lint.yml",
+      "size": 511
+    },
+    {
+      "path": ".github/workflows/openbsd.yml",
+      "size": 573
+    },
+    {
+      "path": ".github/workflows/ubuntu-arm.yml",
+      "size": 465
+    },
+    {
+      "path": ".github/workflows/ubuntu.yml",
+      "size": 1148
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A sandboxed execution environment for unikernels",
+    "fork": false,
+    "full_name": "Solo5/solo5",
+    "html_url": "https://github.com/Solo5/solo5",
+    "language": "C",
+    "pushed_at": "2026-04-14T07:47:23Z",
+    "stargazers_count": 970,
+    "topics": [
+      "freebsd",
+      "hypervisor",
+      "kvm",
+      "mirageos",
+      "openbsd",
+      "unikernel"
+    ],
+    "updated_at": "2026-04-20T13:19:38Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "FreeBSD",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/freebsd.yml",
+      "term": "FreeBSD"
+    },
+    {
+      "context_snippet": "clang-format Check",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "term": "clang-format Check"
+    },
+    {
+      "context_snippet": "OpenBSD",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/openbsd.yml",
+      "term": "OpenBSD"
+    },
+    {
+      "context_snippet": "Ubuntu-arm",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ubuntu-arm.yml",
+      "term": "Ubuntu-arm"
+    },
+    {
+      "context_snippet": "Ubuntu",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ubuntu.yml",
+      "term": "Ubuntu"
+    },
+    {
+      "context_snippet": "| ___|",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "freebsd"
+    },
+    {
+      "context_snippet": "| ___|",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hypervisor"
+    },
+    {
+      "context_snippet": "| ___|",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mirageos"
+    },
+    {
+      "context_snippet": "| ___|",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "openbsd"
+    },
+    {
+      "context_snippet": "| ___|",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "unikernel"
+    }
+  ]
+}

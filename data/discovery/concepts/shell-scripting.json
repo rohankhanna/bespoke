@@ -19,6 +19,18 @@
       "source_repo": "abs-lang/abs",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "babashka/babashka",
+      "status": "candidate-context",
+      "text": "Native, fast starting Clojure interpreter for scripting"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "babashka/babashka",
+      "status": "candidate-context",
+      "text": "[<img src=\"logo/babashka.svg\" alt=\"Babashka\" width=\"425px\">](https://babashka.org)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "abs-lang/abs",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "babashka/babashka",
+      "status": "candidate",
+      "text": "[<img src=\"logo/babashka.svg\" alt=\"Babashka\" width=\"425px\">](https://babashka.org)"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "abs-lang/abs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "babashka/babashka"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

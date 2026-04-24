@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Apache Lucene open-source search software"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Auto Format Bot"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Auto Format Bot"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18151,
+      "status": "candidate",
+      "text": "tow"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18088,
+      "status": "candidate",
+      "text": "dashboard"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18025,
+      "status": "candidate",
+      "text": "racer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18017,
+      "status": "candidate",
+      "text": "automaton"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18017,
+      "status": "candidate",
+      "text": "auton"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Auto Format Bot",
+      "sense_id": "auto-format-bot#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "auto-format-bot",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "auto-format-bot",
+  "observation_id": "3027240783a1a66f",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-24T00:33:56.049672+00:00",
+  "observed_text": "Auto Format Bot",
+  "source_context_snippet": "Auto Format Bot",
+  "source_file": ".github/workflows/auto-format.yml",
+  "source_repo": "apache/lucene",
+  "source_repo_description": "Apache Lucene open-source search software"
+}

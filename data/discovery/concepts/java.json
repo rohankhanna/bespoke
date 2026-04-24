@@ -622,6 +622,114 @@
       "source_repo": "soot-oss/soot",
       "status": "candidate-context",
       "text": "[![Build Status](https://github.com/soot-oss/soot/workflows/Soot%20CI/badge.svg?branch=develop)](https://github.com/soot-oss/soot/actions)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "connectrpc/connect-kotlin",
+      "status": "candidate-context",
+      "text": "The Kotlin implementation of Connect: Protobuf RPC that works."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "connectrpc/connect-kotlin",
+      "status": "candidate-context",
+      "text": "[![Build](https://github.com/connectrpc/connect-kotlin/actions/workflows/ci.yml/badge.svg)](https://github.com/connectrpc/connect-kotlin/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/netbeans",
+      "status": "candidate-context",
+      "text": "Apache NetBeans"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/netbeans",
+      "status": "candidate-context",
+      "text": "<!--"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dart4e/dart4e",
+      "status": "candidate-context",
+      "text": "Dart and Flutter development support for the Eclipse IDE "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dart4e/dart4e",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://img.shields.io/github/actions/workflow/status/dart4e/dart4e/build.yml?logo=github)](https://github.com/dart4e/dart4e/actions/workflows/build.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jtablesaw/tablesaw",
+      "status": "candidate-context",
+      "text": "Java dataframe and visualization library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jtablesaw/tablesaw",
+      "status": "candidate-context",
+      "text": "Tablesaw"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/lucene",
+      "status": "candidate-context",
+      "text": "Apache Lucene open-source search software"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/lucene",
+      "status": "candidate-context",
+      "text": "<!--"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ipsilon/evmc",
+      "status": "candidate-context",
+      "text": "EVMC \u2013 Ethereum Client-VM Connector API"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipsilon/evmc",
+      "status": "candidate-context",
+      "text": "[![chat: on gitter][gitter badge]][Gitter]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/camel",
+      "status": "candidate-context",
+      "text": "Apache Camel is an open source integration framework that empowers you to quickly and easily integrate various systems consuming or producing data."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/camel",
+      "status": "candidate-context",
+      "text": "[![Maven Central](https://img.shields.io/maven-central/v/org.apache.camel/apache-camel.svg?label=Maven%20Central)](https://central.sonatype.com/artifact/org.apache.camel/apache-camel)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Azure/autorest",
+      "status": "candidate-context",
+      "text": "OpenAPI (f.k.a Swagger) Specification code generator. Supports C#, PowerShell, Go, Java, Node.js, TypeScript, Python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Azure/autorest",
+      "status": "candidate-context",
+      "text": "\"CodeQL\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aws-powertools/powertools-lambda-java",
+      "status": "candidate-context",
+      "text": "Powertools is a developer toolkit to implement Serverless best practices and increase developer velocity."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws-powertools/powertools-lambda-java",
+      "status": "candidate-context",
+      "text": "![aws provider](https://img.shields.io/badge/provider-AWS-orange?logo=amazon-aws&color=ff9900) [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=aws-powertools_powertools-lambda-java&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=a\u2026"
     }
   ],
   "candidate_glosses": [
@@ -930,6 +1038,60 @@
       "source_repo": "soot-oss/soot",
       "status": "candidate",
       "text": "[![Build Status](https://github.com/soot-oss/soot/workflows/Soot%20CI/badge.svg?branch=develop)](https://github.com/soot-oss/soot/actions)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "connectrpc/connect-kotlin",
+      "status": "candidate",
+      "text": "[![Build](https://github.com/connectrpc/connect-kotlin/actions/workflows/ci.yml/badge.svg)](https://github.com/connectrpc/connect-kotlin/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/netbeans",
+      "status": "candidate",
+      "text": "<!--"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dart4e/dart4e",
+      "status": "candidate",
+      "text": "[![Build Status](https://img.shields.io/github/actions/workflow/status/dart4e/dart4e/build.yml?logo=github)](https://github.com/dart4e/dart4e/actions/workflows/build.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jtablesaw/tablesaw",
+      "status": "candidate",
+      "text": "Tablesaw"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/lucene",
+      "status": "candidate",
+      "text": "<!--"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipsilon/evmc",
+      "status": "candidate",
+      "text": "[![chat: on gitter][gitter badge]][Gitter]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/camel",
+      "status": "candidate",
+      "text": "[![Maven Central](https://img.shields.io/maven-central/v/org.apache.camel/apache-camel.svg?label=Maven%20Central)](https://central.sonatype.com/artifact/org.apache.camel/apache-camel)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Azure/autorest",
+      "status": "candidate",
+      "text": "\"CodeQL\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws-powertools/powertools-lambda-java",
+      "status": "candidate",
+      "text": "![aws provider](https://img.shields.io/badge/provider-AWS-orange?logo=amazon-aws&color=ff9900) [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=aws-powertools_powertools-lambda-java&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=a\u2026"
     }
   ],
   "candidate_related_terms": [
@@ -1335,11 +1497,107 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "soot-oss/soot"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "connectrpc/connect-kotlin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "atom/ide-java"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "eclipse-jdtls/eclipse.jdt.ls"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "eclipse-lsp4j/lsp4j"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "eclipse-lemminx/lemminx"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "eclipse-tm4e/tm4e"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "eclipse-wildwebdeveloper/wildwebdeveloper"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "apache/netbeans"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "dart4e/dart4e"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "jtablesaw/tablesaw"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "apache/lucene"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "besu-eth/besu"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "ipsilon/evmc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "apache/camel"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "Azure/autorest"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "aws-powertools/powertools-lambda-java"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

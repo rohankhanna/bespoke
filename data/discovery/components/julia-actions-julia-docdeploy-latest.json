@@ -1,12 +1,17 @@
 {
   "component": "julia-actions/julia-docdeploy@latest",
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/jlpkgbutler-docdeploy-workflow.yml",
       "source_repo": "queryverse/VegaLite.jl"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml",
+      "source_repo": "JuliaIO/JSON.jl"
     }
   ]
 }

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Node Agent Examples CI"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "newrelic/newrelic-node-examples",
+      "status": "candidate-context",
+      "text": "Working examples of New Relic Node.js agent features"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "newrelic/newrelic-node-examples",
+      "status": "candidate-context",
+      "text": "Node Agent Examples CI"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "newrelic/newrelic-node-examples",
+      "status": "candidate",
+      "text": "Node Agent Examples CI"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19441,
+      "status": "candidate",
+      "text": "gland"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19441,
+      "status": "candidate",
+      "text": "joint"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19106,
+      "status": "candidate",
+      "text": "curve"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19061,
+      "status": "candidate",
+      "text": "positive"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18847,
+      "status": "candidate",
+      "text": "evidence"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Node Agent Examples CI",
+  "concept_id": "node-agent-examples-ci",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/ci-workflow.yml",
+      "source_repo": "newrelic/newrelic-node-examples"
+    }
+  ],
+  "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Node Agent Examples CI",
+      "sense_id": "node-agent-examples-ci#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

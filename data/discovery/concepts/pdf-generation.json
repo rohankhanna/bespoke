@@ -19,6 +19,30 @@
       "source_repo": "adrienbrignon/mkdocs-exporter",
       "status": "candidate-context",
       "text": "<div>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fschutt/printpdf",
+      "status": "candidate-context",
+      "text": "Rust / WASM library for reading, writing and rendering PDF"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fschutt/printpdf",
+      "status": "candidate-context",
+      "text": "\ufeff# printpdf"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "typst/pdf-writer",
+      "status": "candidate-context",
+      "text": "A step-by-step PDF writer."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "typst/pdf-writer",
+      "status": "candidate-context",
+      "text": "[![Crates.io](https://img.shields.io/crates/v/pdf-writer.svg)](https://crates.io/crates/pdf-writer)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +51,18 @@
       "source_repo": "adrienbrignon/mkdocs-exporter",
       "status": "candidate",
       "text": "<div>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fschutt/printpdf",
+      "status": "candidate",
+      "text": "\ufeff# printpdf"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "typst/pdf-writer",
+      "status": "candidate",
+      "text": "[![Crates.io](https://img.shields.io/crates/v/pdf-writer.svg)](https://crates.io/crates/pdf-writer)"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +76,23 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "adrienbrignon/mkdocs-exporter"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "fschutt/printpdf"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "typst/pdf-writer"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

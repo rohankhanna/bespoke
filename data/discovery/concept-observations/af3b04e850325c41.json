@@ -1,0 +1,115 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A large-scale multilingual dataset for Information Retrieval. Thorough human-annotations across 18 diverse languages."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<!-- <p align=\"center\"> <span><font size=\"32\"> <b> MIRACL \ud83c\udf0d\ud83d\ude4c\ud83c\udf0f </b></font></span></p> -->"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<!-- <p align=\"center\"> <span><font size=\"32\"> <b> MIRACL \ud83c\udf0d\ud83d\ude4c\ud83c\udf0f </b></font></span></p> -->"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40043242,
+      "status": "candidate",
+      "text": "polyglot"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40043234,
+      "status": "candidate",
+      "text": "trilingual"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40043214,
+      "status": "candidate",
+      "text": "bilingual"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30040523,
+      "status": "candidate",
+      "text": "linguistic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30039062,
+      "status": "candidate",
+      "text": "language"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "multilingual",
+      "sense_id": "multilingual#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 5036,
+      "status": "candidate",
+      "text": "polyglot"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1031,
+      "status": "candidate",
+      "text": "trilingual"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 37,
+      "status": "candidate",
+      "text": "bilingual"
+    }
+  ],
+  "concept_id": "multilingual",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "multilingual",
+  "observation_id": "af3b04e850325c41",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T00:33:56.049672+00:00",
+  "observed_text": "multilingual",
+  "source_context_snippet": "<!-- <p align=\"center\"> <span><font size=\"32\"> <b> MIRACL \ud83c\udf0d\ud83d\ude4c\ud83c\udf0f </b></font></span></p> -->",
+  "source_file": null,
+  "source_repo": "project-miracl/miracl",
+  "source_repo_description": "A large-scale multilingual dataset for Information Retrieval. Thorough human-annotations across 18 diverse languages."
+}

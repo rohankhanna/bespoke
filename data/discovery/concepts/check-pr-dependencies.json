@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Check PR Dependencies"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "json-schema-org/json-schema-spec",
+      "status": "candidate-context",
+      "text": "The JSON Schema specification"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "json-schema-org/json-schema-spec",
+      "status": "candidate-context",
+      "text": "Check PR Dependencies"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "json-schema-org/json-schema-spec",
+      "status": "candidate",
+      "text": "Check PR Dependencies"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15892,
+      "status": "candidate",
+      "text": "imperialism"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15892,
+      "status": "candidate",
+      "text": "pound"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15892,
+      "status": "candidate",
+      "text": "pounded"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14304,
+      "status": "candidate",
+      "text": "assessment"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14304,
+      "status": "candidate",
+      "text": "bet"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Check PR Dependencies",
+  "concept_id": "check-pr-dependencies",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/pr-dependencies.yml",
+      "source_repo": "json-schema-org/json-schema-spec"
+    }
+  ],
+  "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Check PR Dependencies",
+      "sense_id": "check-pr-dependencies#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

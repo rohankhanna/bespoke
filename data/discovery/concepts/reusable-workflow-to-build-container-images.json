@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Reusable workflow to build container images"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fluent/fluent-bit",
+      "status": "candidate-context",
+      "text": "Fast and Lightweight Logs, Metrics and Traces processor for Linux, BSD, OSX and Windows"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fluent/fluent-bit",
+      "status": "candidate-context",
+      "text": "Reusable workflow to build container images"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fluent/fluent-bit",
+      "status": "candidate",
+      "text": "Reusable workflow to build container images"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34212,
+      "status": "candidate",
+      "text": "escape"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33812,
+      "status": "candidate",
+      "text": "escaped"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33593,
+      "status": "candidate",
+      "text": "recycle"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 32429,
+      "status": "candidate",
+      "text": "tote"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31971,
+      "status": "candidate",
+      "text": "breadboard"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Reusable workflow to build container images",
+  "concept_id": "reusable-workflow-to-build-container-images",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/call-build-images.yaml",
+      "source_repo": "fluent/fluent-bit"
+    }
+  ],
+  "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Reusable workflow to build container images",
+      "sense_id": "reusable-workflow-to-build-container-images#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -94,6 +94,30 @@
       "source_repo": "ruby/debug",
       "status": "candidate-context",
       "text": "[![Ruby](https://github.com/ruby/debug/actions/workflows/ruby.yml/badge.svg?branch=master)](https://github.com/ruby/debug/actions/workflows/ruby.yml?query=branch%3Amaster) [![Protocol](https://github.com/ruby/debug/actions/workflows/protocol.yml/badge.svg)](https://github.com/ru\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cool-RR/PySnooper",
+      "status": "candidate-context",
+      "text": "Never use print for debugging again"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cool-RR/PySnooper",
+      "status": "candidate-context",
+      "text": "**PySnooper** is a poor man's debugger. If you've used Bash, it's like `set -x` for Python, except it's fancier."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gruns/icecream",
+      "status": "candidate-context",
+      "text": "\ud83c\udf66 Never use print() to debug again."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gruns/icecream",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -138,6 +162,18 @@
       "source_repo": "ruby/debug",
       "status": "candidate",
       "text": "[![Ruby](https://github.com/ruby/debug/actions/workflows/ruby.yml/badge.svg?branch=master)](https://github.com/ruby/debug/actions/workflows/ruby.yml?query=branch%3Amaster) [![Protocol](https://github.com/ruby/debug/actions/workflows/protocol.yml/badge.svg)](https://github.com/ru\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cool-RR/PySnooper",
+      "status": "candidate",
+      "text": "**PySnooper** is a poor man's debugger. If you've used Bash, it's like `set -x` for Python, except it's fancier."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gruns/icecream",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -229,11 +265,29 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "ruby/debug"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/vscode-js-debug"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "cool-RR/PySnooper"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "gruns/icecream"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

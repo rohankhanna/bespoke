@@ -43,6 +43,66 @@
       "source_repo": "simdjson/simdjson",
       "status": "candidate-context",
       "text": "[![][license img]][license] [![][licensemit img]][licensemit]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "minio/sha256-simd",
+      "status": "candidate-context",
+      "text": "Accelerate SHA256 computations in pure Go using  AVX512, SHA Extensions for x86 and ARM64 for ARM. On AVX512 it provides an up to 8x improvement (over 3 GB/s per core). SHA Extensions give a performance boost of close to 4x over native."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "minio/sha256-simd",
+      "status": "candidate-context",
+      "text": "Accelerate SHA256 computations in pure Go using AVX512, SHA Extensions for x86 and ARM64 for ARM."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ashvardanian/less_slow.cpp",
+      "status": "candidate-context",
+      "text": "Playing around \"Less Slow\" coding practices in C++ 20, C, CUDA, PTX, & Assembly, from numerics & SIMD to coroutines, ranges, exception handling, networking and user-space IO"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ashvardanian/less_slow.cpp",
+      "status": "candidate-context",
+      "text": "> The benchmarks in this repository don't aim to cover every topic entirely, but they help form a mindset and intuition for performance-oriented software design."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ashvardanian/ParallelReductionsBenchmark",
+      "status": "candidate-context",
+      "text": "Thrust, CUB, TBB, AVX2, AVX-512, CUDA, OpenCL, OpenMP, Metal, and Rust - all it takes to sum a lot of numbers fast!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ashvardanian/ParallelReductionsBenchmark",
+      "status": "candidate-context",
+      "text": "__For CPUs and GPUs in C++, CUDA, and Rust__"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "WojciechMula/base64simd",
+      "status": "candidate-context",
+      "text": "Base64 coding and decoding with SIMD instructions (SSE/AVX2/AVX512F/AVX512BW/AVX512VBMI/ARM Neon)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "WojciechMula/base64simd",
+      "status": "candidate-context",
+      "text": "================================================================================"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "WojciechMula/toys",
+      "status": "candidate-context",
+      "text": "Storage for my snippets, toy programs, etc."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "WojciechMula/toys",
+      "status": "candidate-context",
+      "text": "========================================================================"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +123,36 @@
       "source_repo": "simdjson/simdjson",
       "status": "candidate",
       "text": "[![][license img]][license] [![][licensemit img]][licensemit]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "minio/sha256-simd",
+      "status": "candidate",
+      "text": "Accelerate SHA256 computations in pure Go using AVX512, SHA Extensions for x86 and ARM64 for ARM."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ashvardanian/less_slow.cpp",
+      "status": "candidate",
+      "text": "> The benchmarks in this repository don't aim to cover every topic entirely, but they help form a mindset and intuition for performance-oriented software design."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ashvardanian/ParallelReductionsBenchmark",
+      "status": "candidate",
+      "text": "__For CPUs and GPUs in C++, CUDA, and Rust__"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "WojciechMula/base64simd",
+      "status": "candidate",
+      "text": "================================================================================"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "WojciechMula/toys",
+      "status": "candidate",
+      "text": "========================================================================"
     }
   ],
   "candidate_related_terms": [],
@@ -88,11 +178,41 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "simdjson/simdjson"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "minio/sha256-simd"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "ashvardanian/less_slow.cpp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "ashvardanian/ParallelReductionsBenchmark"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "WojciechMula/base64simd"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "WojciechMula/toys"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

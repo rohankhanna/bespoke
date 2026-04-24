@@ -1,0 +1,65 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Shougo/neocomplcache.vim",
+      "target": "shougo/neocomplete.vim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Shougo/neocomplcache.vim",
+      "target": "shougo/neosnippet",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Shougo/neocomplcache.vim",
+      "target": "c9s/perlomni.vim",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-24T01:41:06.961673+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5745
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Ultimate auto-completion system for Vim.",
+    "fork": false,
+    "full_name": "Shougo/neocomplcache.vim",
+    "html_url": "https://github.com/Shougo/neocomplcache.vim",
+    "language": "Vim Script",
+    "pushed_at": "2025-03-07T03:13:50Z",
+    "stargazers_count": 1708,
+    "topics": [],
+    "updated_at": "2026-04-13T12:04:57Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "c9s/perlomni.vim",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "shougo/neocomplete.vim",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "shougo/neosnippet",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

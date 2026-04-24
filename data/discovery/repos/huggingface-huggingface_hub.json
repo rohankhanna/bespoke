@@ -1,0 +1,381 @@
+{
+  "components": [
+    {
+      "component": "huggingface/doc-builder/.github/workflows/build_main_documentation.yml@90b4ee2c10b81b5c1a6367c4e6fc9e2fb510a7e3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_documentation.yaml"
+    },
+    {
+      "component": "huggingface/doc-builder/.github/workflows/build_pr_documentation.yml@90b4ee2c10b81b5c1a6367c4e6fc9e2fb510a7e3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_pr_documentation.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_repocard_examples.yaml"
+    },
+    {
+      "component": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_repocard_examples.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-installers.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-installers.yml"
+    },
+    {
+      "component": "actions-cool/maintain-one-comment@4b2dbf086015f892dcb5e8c1106f5fccd6c1476b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/model_card_consistency_reminder.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-prerelease.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-quality.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-quality.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-release-hf.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-release-hf.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_documentation.yaml",
+      "source_repo": "huggingface/huggingface_hub",
+      "target": "huggingface/doc-builder/.github/workflows/build_main_documentation.yml@90b4ee2c10b81b5c1a6367c4e6fc9e2fb510a7e3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_documentation.yaml",
+      "source_repo": "huggingface/huggingface_hub",
+      "target": "Build documentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_pr_documentation.yaml",
+      "source_repo": "huggingface/huggingface_hub",
+      "target": "huggingface/doc-builder/.github/workflows/build_pr_documentation.yml@90b4ee2c10b81b5c1a6367c4e6fc9e2fb510a7e3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_pr_documentation.yaml",
+      "source_repo": "huggingface/huggingface_hub",
+      "target": "Build PR Documentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_repocard_examples.yaml",
+      "source_repo": "huggingface/huggingface_hub",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_repocard_examples.yaml",
+      "source_repo": "huggingface/huggingface_hub",
+      "target": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-installers.yml",
+      "source_repo": "huggingface/huggingface_hub",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-installers.yml",
+      "source_repo": "huggingface/huggingface_hub",
+      "target": "Check CLI installers",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/model_card_consistency_reminder.yml",
+      "source_repo": "huggingface/huggingface_hub",
+      "target": "actions-cool/maintain-one-comment@4b2dbf086015f892dcb5e8c1106f5fccd6c1476b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/model_card_consistency_reminder.yml",
+      "source_repo": "huggingface/huggingface_hub",
+      "target": "Model and Dataset Card consistency reminder",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-prerelease.yml",
+      "source_repo": "huggingface/huggingface_hub",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-quality.yml",
+      "source_repo": "huggingface/huggingface_hub",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-quality.yml",
+      "source_repo": "huggingface/huggingface_hub",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-release-hf.yml",
+      "source_repo": "huggingface/huggingface_hub",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-release-hf.yml",
+      "source_repo": "huggingface/huggingface_hub",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/python-release-hf.yml",
+      "source_repo": "huggingface/huggingface_hub",
+      "target": "hf PyPI release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "huggingface/huggingface_hub",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "huggingface/huggingface_hub",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "huggingface/huggingface_hub",
+      "target": "machine-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "huggingface/huggingface_hub",
+      "target": "model-hub",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "huggingface/huggingface_hub",
+      "target": "models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "huggingface/huggingface_hub",
+      "target": "natural-language-processing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "huggingface/huggingface_hub",
+      "target": "pretrained-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "huggingface/huggingface_hub",
+      "target": "pytorch",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T01:58:33.990816+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7283
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 2141
+    },
+    {
+      "path": ".github/workflows/build_documentation.yaml",
+      "size": 430
+    },
+    {
+      "path": ".github/workflows/build_pr_documentation.yaml",
+      "size": 489
+    },
+    {
+      "path": ".github/workflows/build_repocard_examples.yaml",
+      "size": 737
+    },
+    {
+      "path": ".github/workflows/check-installers.yml",
+      "size": 2456
+    },
+    {
+      "path": ".github/workflows/model_card_consistency_reminder.yml",
+      "size": 1905
+    },
+    {
+      "path": ".github/workflows/python-prerelease.yml",
+      "size": 3917
+    },
+    {
+      "path": ".github/workflows/python-quality.yml",
+      "size": 1747
+    },
+    {
+      "path": ".github/workflows/python-release-hf.yml",
+      "size": 794
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "The official Python client for the Hugging Face Hub.",
+    "fork": false,
+    "full_name": "huggingface/huggingface_hub",
+    "html_url": "https://github.com/huggingface/huggingface_hub",
+    "language": "Python",
+    "pushed_at": "2026-04-23T15:46:47Z",
+    "stargazers_count": 3548,
+    "topics": [
+      "deep-learning",
+      "hacktoberfest",
+      "machine-learning",
+      "model-hub",
+      "models",
+      "natural-language-processing",
+      "pretrained-models",
+      "pytorch"
+    ],
+    "updated_at": "2026-04-23T17:41:00Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Build documentation",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_documentation.yaml",
+      "term": "Build documentation"
+    },
+    {
+      "context_snippet": "Build PR Documentation",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_pr_documentation.yaml",
+      "term": "Build PR Documentation"
+    },
+    {
+      "context_snippet": "Check CLI installers",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-installers.yml",
+      "term": "Check CLI installers"
+    },
+    {
+      "context_snippet": "Model and Dataset Card consistency reminder",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/model_card_consistency_reminder.yml",
+      "term": "Model and Dataset Card consistency reminder"
+    },
+    {
+      "context_snippet": "hf PyPI release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/python-release-hf.yml",
+      "term": "hf PyPI release"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-learning"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "model-hub"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "models"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "natural-language-processing"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pretrained-models"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    }
+  ]
+}

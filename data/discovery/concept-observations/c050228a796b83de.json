@@ -84,7 +84,7 @@
   "normalized_form": "comment-on-dormant-discussions",
   "observation_id": "c050228a796b83de",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-23T04:27:42.433064+00:00",
+  "observed_at": "2026-04-24T00:33:56.049672+00:00",
   "observed_text": "Comment on dormant discussions",
   "source_context_snippet": "Comment on dormant discussions",
   "source_file": ".github/workflows/comment-on-dormant-discussions.yml",

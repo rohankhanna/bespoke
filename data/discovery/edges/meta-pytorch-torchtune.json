@@ -1,0 +1,272 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "meta-pytorch/torchtune",
+      "target": "pytorch/torchtune",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "meta-pytorch/torchtune",
+      "target": "meta-pytorch/gpt-fast",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "meta-pytorch/torchtune",
+      "target": "meta-llama/llama-recipes",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "meta-pytorch/torchtune",
+      "target": "openaccess-ai-collective/axolotl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_docs.yaml",
+      "source_repo": "meta-pytorch/torchtune",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_docs.yaml",
+      "source_repo": "meta-pytorch/torchtune",
+      "target": "conda-incubator/setup-miniconda@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_docs.yaml",
+      "source_repo": "meta-pytorch/torchtune",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_docs.yaml",
+      "source_repo": "meta-pytorch/torchtune",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_docs.yaml",
+      "source_repo": "meta-pytorch/torchtune",
+      "target": "seemethere/upload-artifact-s3@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_docs.yaml",
+      "source_repo": "meta-pytorch/torchtune",
+      "target": "Build Docs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_linux_wheels.yaml",
+      "source_repo": "meta-pytorch/torchtune",
+      "target": "pytorch/test-infra/.github/workflows/generate_binary_build_matrix.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_linux_wheels.yaml",
+      "source_repo": "meta-pytorch/torchtune",
+      "target": "pytorch/test-infra/.github/workflows/build_wheels_linux.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_linux_wheels.yaml",
+      "source_repo": "meta-pytorch/torchtune",
+      "target": "Build Linux Wheels",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/export.yaml",
+      "source_repo": "meta-pytorch/torchtune",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/export.yaml",
+      "source_repo": "meta-pytorch/torchtune",
+      "target": "conda-incubator/setup-miniconda@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/export.yaml",
+      "source_repo": "meta-pytorch/torchtune",
+      "target": "codecov/codecov-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/export.yaml",
+      "source_repo": "meta-pytorch/torchtune",
+      "target": "Export",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gpu_test.yaml",
+      "source_repo": "meta-pytorch/torchtune",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gpu_test.yaml",
+      "source_repo": "meta-pytorch/torchtune",
+      "target": "conda-incubator/setup-miniconda@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gpu_test.yaml",
+      "source_repo": "meta-pytorch/torchtune",
+      "target": "codecov/codecov-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gpu_test.yaml",
+      "source_repo": "meta-pytorch/torchtune",
+      "target": "GPU tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yaml",
+      "source_repo": "meta-pytorch/torchtune",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yaml",
+      "source_repo": "meta-pytorch/torchtune",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yaml",
+      "source_repo": "meta-pytorch/torchtune",
+      "target": "tj-actions/changed-files@d6e91a2266cdb9d62096cebf1e8546899c6aa18f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yaml",
+      "source_repo": "meta-pytorch/torchtune",
+      "target": "Lint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/regression_test.yaml",
+      "source_repo": "meta-pytorch/torchtune",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/regression_test.yaml",
+      "source_repo": "meta-pytorch/torchtune",
+      "target": "conda-incubator/setup-miniconda@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/regression_test.yaml",
+      "source_repo": "meta-pytorch/torchtune",
+      "target": "aws-actions/configure-aws-credentials@v1.7.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/regression_test.yaml",
+      "source_repo": "meta-pytorch/torchtune",
+      "target": "codecov/codecov-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/regression_test.yaml",
+      "source_repo": "meta-pytorch/torchtune",
+      "target": "Regression Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rl_test.yaml",
+      "source_repo": "meta-pytorch/torchtune",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rl_test.yaml",
+      "source_repo": "meta-pytorch/torchtune",
+      "target": "conda-incubator/setup-miniconda@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rl_test.yaml",
+      "source_repo": "meta-pytorch/torchtune",
+      "target": "codecov/codecov-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rl_test.yaml",
+      "source_repo": "meta-pytorch/torchtune",
+      "target": "RL tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unit_test.yaml",
+      "source_repo": "meta-pytorch/torchtune",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unit_test.yaml",
+      "source_repo": "meta-pytorch/torchtune",
+      "target": "conda-incubator/setup-miniconda@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unit_test.yaml",
+      "source_repo": "meta-pytorch/torchtune",
+      "target": "codecov/codecov-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/unit_test.yaml",
+      "source_repo": "meta-pytorch/torchtune",
+      "target": "Unit Test",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-24T00:33:56.049672+00:00",
+  "source_repo": "meta-pytorch/torchtune"
+}

@@ -67,6 +67,18 @@
       "source_repo": "melMass/comfy_mtb",
       "status": "candidate-context",
       "text": "> [!NOTE]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Advocate99/DiffGesture",
+      "status": "candidate-context",
+      "text": "[CVPR'2023] Taming Diffusion Models for Audio-Driven Co-Speech Gesture Generation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Advocate99/DiffGesture",
+      "status": "candidate-context",
+      "text": "This is the official code for [**Taming Diffusion Models for Audio-Driven Co-Speech Gesture Generation**](https://arxiv.org/abs/2303.09119)."
     }
   ],
   "candidate_glosses": [
@@ -99,6 +111,12 @@
       "source_repo": "melMass/comfy_mtb",
       "status": "candidate",
       "text": "> [!NOTE]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Advocate99/DiffGesture",
+      "status": "candidate",
+      "text": "This is the official code for [**Taming Diffusion Models for Audio-Driven Co-Speech Gesture Generation**](https://arxiv.org/abs/2303.09119)."
     }
   ],
   "candidate_related_terms": [
@@ -208,11 +226,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "melMass/comfy_mtb"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "Advocate99/DiffGesture"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

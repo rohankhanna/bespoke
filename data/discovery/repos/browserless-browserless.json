@@ -1,0 +1,954 @@
+{
+  "components": [
+    {
+      "component": "@hapi/bourne",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@hapi/hoek",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "debug",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "del",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "file-type",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "get-port",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "gradient-string",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "http-proxy",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "joi",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "lighthouse",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "micromatch",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "playwright-1.55",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "playwright-1.56",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "playwright-1.57",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "playwright-1.58",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "playwright-core",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "puppeteer-core",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "puppeteer-extra",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "puppeteer-extra-plugin-stealth",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "queue",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "systeminformation",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "tar-fs",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/init@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/autobuild@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-chrome.yml"
+    },
+    {
+      "component": "nick-fields/retry@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-chrome.yml"
+    },
+    {
+      "component": "nick-fields/retry@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-chrome.yml"
+    },
+    {
+      "component": "nick-fields/retry@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-chrome.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-chromium.yml"
+    },
+    {
+      "component": "nick-fields/retry@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-chromium.yml"
+    },
+    {
+      "component": "nick-fields/retry@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-chromium.yml"
+    },
+    {
+      "component": "nick-fields/retry@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-chromium.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-edge.yml"
+    },
+    {
+      "component": "nick-fields/retry@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-edge.yml"
+    },
+    {
+      "component": "nick-fields/retry@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-edge.yml"
+    },
+    {
+      "component": "nick-fields/retry@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-edge.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-firefox.yml"
+    },
+    {
+      "component": "nick-fields/retry@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-firefox.yml"
+    },
+    {
+      "component": "nick-fields/retry@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-firefox.yml"
+    },
+    {
+      "component": "nick-fields/retry@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-firefox.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-multi.yml"
+    },
+    {
+      "component": "nick-fields/retry@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-multi.yml"
+    },
+    {
+      "component": "nick-fields/retry@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-multi.yml"
+    },
+    {
+      "component": "nick-fields/retry@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-multi.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-publish-latest.yml"
+    },
+    {
+      "component": "docker/setup-qemu-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-publish-latest.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-publish-latest.yml"
+    },
+    {
+      "component": "docker/login-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-publish-latest.yml"
+    },
+    {
+      "component": "docker/build-push-action@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-publish-latest.yml"
+    },
+    {
+      "component": "docker/build-push-action@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-publish-latest.yml"
+    },
+    {
+      "component": "docker/build-push-action@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-publish-latest.yml"
+    },
+    {
+      "component": "docker/build-push-action@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-publish-latest.yml"
+    },
+    {
+      "component": "docker/build-push-action@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-publish-latest.yml"
+    },
+    {
+      "component": "docker/build-push-action@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-publish-latest.yml"
+    },
+    {
+      "component": "docker/build-push-action@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-publish-latest.yml"
+    },
+    {
+      "component": "docker/build-push-action@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-publish-latest.yml"
+    },
+    {
+      "component": "docker/build-push-action@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-publish-latest.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-publish-stable.yml"
+    },
+    {
+      "component": "docker/setup-qemu-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-publish-stable.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-publish-stable.yml"
+    },
+    {
+      "component": "docker/login-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-publish-stable.yml"
+    },
+    {
+      "component": "docker/build-push-action@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-publish-stable.yml"
+    },
+    {
+      "component": "docker/build-push-action@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-publish-stable.yml"
+    },
+    {
+      "component": "docker/build-push-action@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-publish-stable.yml"
+    },
+    {
+      "component": "docker/build-push-action@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-publish-stable.yml"
+    },
+    {
+      "component": "docker/build-push-action@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-publish-stable.yml"
+    },
+    {
+      "component": "docker/build-push-action@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-publish-stable.yml"
+    },
+    {
+      "component": "docker/build-push-action@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-publish-stable.yml"
+    },
+    {
+      "component": "docker/build-push-action@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-publish-stable.yml"
+    },
+    {
+      "component": "docker/build-push-action@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-publish-stable.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "browserless/browserless",
+      "target": "@hapi/bourne",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "browserless/browserless",
+      "target": "@hapi/hoek",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "browserless/browserless",
+      "target": "debug",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "browserless/browserless",
+      "target": "del",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "browserless/browserless",
+      "target": "file-type",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "browserless/browserless",
+      "target": "get-port",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "browserless/browserless",
+      "target": "gradient-string",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "browserless/browserless",
+      "target": "http-proxy",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "browserless/browserless",
+      "target": "joi",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "browserless/browserless",
+      "target": "lighthouse",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "browserless/browserless",
+      "target": "micromatch",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "browserless/browserless",
+      "target": "playwright-1.55",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "browserless/browserless",
+      "target": "playwright-1.56",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "browserless/browserless",
+      "target": "playwright-1.57",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "browserless/browserless",
+      "target": "playwright-1.58",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "browserless/browserless",
+      "target": "playwright-core",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "browserless/browserless",
+      "target": "puppeteer-core",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "browserless/browserless",
+      "target": "puppeteer-extra",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "browserless/browserless",
+      "target": "puppeteer-extra-plugin-stealth",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "browserless/browserless",
+      "target": "queue",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "browserless/browserless",
+      "target": "systeminformation",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "browserless/browserless",
+      "target": "tar-fs",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "browserless/browserless",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "browserless/browserless",
+      "target": "github/codeql-action/init@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "browserless/browserless",
+      "target": "github/codeql-action/autobuild@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "browserless/browserless",
+      "target": "github/codeql-action/analyze@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "browserless/browserless",
+      "target": "CodeQL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-chrome.yml",
+      "source_repo": "browserless/browserless",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-chrome.yml",
+      "source_repo": "browserless/browserless",
+      "target": "nick-fields/retry@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker-chrome.yml",
+      "source_repo": "browserless/browserless",
+      "target": "Chrome",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-chromium.yml",
+      "source_repo": "browserless/browserless",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-chromium.yml",
+      "source_repo": "browserless/browserless",
+      "target": "nick-fields/retry@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker-chromium.yml",
+      "source_repo": "browserless/browserless",
+      "target": "Chromium",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-edge.yml",
+      "source_repo": "browserless/browserless",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-edge.yml",
+      "source_repo": "browserless/browserless",
+      "target": "nick-fields/retry@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker-edge.yml",
+      "source_repo": "browserless/browserless",
+      "target": "Edge",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-firefox.yml",
+      "source_repo": "browserless/browserless",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-firefox.yml",
+      "source_repo": "browserless/browserless",
+      "target": "nick-fields/retry@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker-firefox.yml",
+      "source_repo": "browserless/browserless",
+      "target": "Firefox",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-multi.yml",
+      "source_repo": "browserless/browserless",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-multi.yml",
+      "source_repo": "browserless/browserless",
+      "target": "nick-fields/retry@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker-multi.yml",
+      "source_repo": "browserless/browserless",
+      "target": "Multi",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-publish-latest.yml",
+      "source_repo": "browserless/browserless",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-publish-latest.yml",
+      "source_repo": "browserless/browserless",
+      "target": "docker/setup-qemu-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-publish-latest.yml",
+      "source_repo": "browserless/browserless",
+      "target": "docker/setup-buildx-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-publish-latest.yml",
+      "source_repo": "browserless/browserless",
+      "target": "docker/login-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-publish-latest.yml",
+      "source_repo": "browserless/browserless",
+      "target": "docker/build-push-action@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-publish-stable.yml",
+      "source_repo": "browserless/browserless",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-publish-stable.yml",
+      "source_repo": "browserless/browserless",
+      "target": "docker/setup-qemu-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-publish-stable.yml",
+      "source_repo": "browserless/browserless",
+      "target": "docker/setup-buildx-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-publish-stable.yml",
+      "source_repo": "browserless/browserless",
+      "target": "docker/login-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-publish-stable.yml",
+      "source_repo": "browserless/browserless",
+      "target": "docker/build-push-action@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "browserless/browserless",
+      "target": "browserless",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "browserless/browserless",
+      "target": "chrome",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "browserless/browserless",
+      "target": "docker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "browserless/browserless",
+      "target": "firefox",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "browserless/browserless",
+      "target": "nodejs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "browserless/browserless",
+      "target": "playwright",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "browserless/browserless",
+      "target": "puppeteer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "browserless/browserless",
+      "target": "webkit",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "browserless/browserless",
+      "target": "websocket",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T01:55:10.153080+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9810
+    },
+    {
+      "path": "package.json",
+      "size": 4182
+    },
+    {
+      "path": ".github/workflows/codeql-analysis.yml",
+      "size": 1817
+    },
+    {
+      "path": ".github/workflows/docker-chrome.yml",
+      "size": 1230
+    },
+    {
+      "path": ".github/workflows/docker-chromium.yml",
+      "size": 1242
+    },
+    {
+      "path": ".github/workflows/docker-edge.yml",
+      "size": 1218
+    },
+    {
+      "path": ".github/workflows/docker-firefox.yml",
+      "size": 1236
+    },
+    {
+      "path": ".github/workflows/docker-multi.yml",
+      "size": 1266
+    },
+    {
+      "path": ".github/workflows/docker-publish-latest.yml",
+      "size": 4671
+    },
+    {
+      "path": ".github/workflows/docker-publish-stable.yml",
+      "size": 4916
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Deploy headless browsers in Docker. Run on our cloud or bring your own. Free for non-commercial uses.",
+    "fork": false,
+    "full_name": "browserless/browserless",
+    "html_url": "https://github.com/browserless/browserless",
+    "language": "TypeScript",
+    "pushed_at": "2026-04-21T05:55:14Z",
+    "stargazers_count": 13011,
+    "topics": [
+      "browserless",
+      "chrome",
+      "docker",
+      "firefox",
+      "nodejs",
+      "playwright",
+      "puppeteer",
+      "typescript",
+      "webkit",
+      "websocket"
+    ],
+    "updated_at": "2026-04-24T01:06:59Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "CodeQL",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "term": "CodeQL"
+    },
+    {
+      "context_snippet": "Chrome",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker-chrome.yml",
+      "term": "Chrome"
+    },
+    {
+      "context_snippet": "Chromium",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker-chromium.yml",
+      "term": "Chromium"
+    },
+    {
+      "context_snippet": "Edge",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker-edge.yml",
+      "term": "Edge"
+    },
+    {
+      "context_snippet": "Firefox",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker-firefox.yml",
+      "term": "Firefox"
+    },
+    {
+      "context_snippet": "Multi",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker-multi.yml",
+      "term": "Multi"
+    },
+    {
+      "context_snippet": "<!-- markdownlint-disable commands-show-output first-line-h1 no-emphasis-as-heading no-inline-html -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "browserless"
+    },
+    {
+      "context_snippet": "<!-- markdownlint-disable commands-show-output first-line-h1 no-emphasis-as-heading no-inline-html -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chrome"
+    },
+    {
+      "context_snippet": "<!-- markdownlint-disable commands-show-output first-line-h1 no-emphasis-as-heading no-inline-html -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "docker"
+    },
+    {
+      "context_snippet": "<!-- markdownlint-disable commands-show-output first-line-h1 no-emphasis-as-heading no-inline-html -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "firefox"
+    },
+    {
+      "context_snippet": "<!-- markdownlint-disable commands-show-output first-line-h1 no-emphasis-as-heading no-inline-html -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nodejs"
+    },
+    {
+      "context_snippet": "<!-- markdownlint-disable commands-show-output first-line-h1 no-emphasis-as-heading no-inline-html -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "playwright"
+    },
+    {
+      "context_snippet": "<!-- markdownlint-disable commands-show-output first-line-h1 no-emphasis-as-heading no-inline-html -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "puppeteer"
+    },
+    {
+      "context_snippet": "<!-- markdownlint-disable commands-show-output first-line-h1 no-emphasis-as-heading no-inline-html -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "webkit"
+    },
+    {
+      "context_snippet": "<!-- markdownlint-disable commands-show-output first-line-h1 no-emphasis-as-heading no-inline-html -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "websocket"
+    }
+  ]
+}

@@ -76,6 +76,18 @@
       "source_repo": "elsa-workflows/elsa-core",
       "status": "candidate-context",
       "text": "Packages"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alpinelinux/aports",
+      "status": "candidate-context",
+      "text": "[MIRROR] Alpine packages build scripts"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alpinelinux/aports",
+      "status": "candidate-context",
+      "text": "This repository contains the APKBUILD files for each and every"
     }
   ],
   "candidate_glosses": [
@@ -114,6 +126,12 @@
       "source_repo": "elsa-workflows/elsa-core",
       "status": "candidate",
       "text": "Packages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alpinelinux/aports",
+      "status": "candidate",
+      "text": "This repository contains the APKBUILD files for each and every"
     }
   ],
   "candidate_related_terms": [
@@ -193,11 +211,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": ".github/workflows/packages.yml",
       "source_repo": "elsa-workflows/elsa-core"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "alpinelinux/aports"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

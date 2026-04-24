@@ -1,0 +1,112 @@
+{
+  "components": [
+    {
+      "component": "dghubble/.github/.github/workflows/golang-library.yaml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dghubble/sling",
+      "target": "dghubble/go-digits",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dghubble/sling",
+      "target": "drinkin/go-gosquared",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dghubble/sling",
+      "target": "fergstar/go-parse",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dghubble/sling",
+      "target": "dghubble/go-twitter",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "dghubble/sling",
+      "target": "dghubble/.github/.github/workflows/golang-library.yaml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "dghubble/sling",
+      "target": "test",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T01:45:07.076179+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10010
+    },
+    {
+      "path": "go.mod",
+      "size": 91
+    },
+    {
+      "path": ".github/workflows/test.yaml",
+      "size": 175
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A Go HTTP client library for creating and sending API requests",
+    "fork": false,
+    "full_name": "dghubble/sling",
+    "html_url": "https://github.com/dghubble/sling",
+    "language": "Go",
+    "pushed_at": "2026-03-08T12:41:49Z",
+    "stargazers_count": 1717,
+    "topics": [],
+    "updated_at": "2026-04-21T08:40:19Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dghubble/go-digits",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dghubble/go-twitter",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "drinkin/go-gosquared",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "fergstar/go-parse",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yaml",
+      "term": "test"
+    }
+  ]
+}

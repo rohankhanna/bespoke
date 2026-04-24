@@ -379,6 +379,66 @@
       "source_repo": "gofiber/fiber",
       "status": "candidate-context",
       "text": "module github.com/gofiber/fiber/v3 go 1.25.0 require ( github.com/gofiber/schema v1.7.1 github.com/gofiber/utils/v2 v2.0.4 github.com/google/uuid v1.6.0 github.com/mattn/go-colorable v0.1.14 github.com/mattn/go-isatty v0.0.21 github.com/shamaton/msgpack/v3 v3.1.0 github.com/stre\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ChargePoint/xcparse",
+      "status": "candidate-context",
+      "text": "Command line tool & Swift framework for parsing Xcode 11+ xcresult"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ChargePoint/xcparse",
+      "status": "candidate-context",
+      "text": "A command line tool to extract code coverage & screenshots from Xcode 11 XCResult files."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Textualize/textual",
+      "status": "candidate-context",
+      "text": "The lean application framework for Python.  Build sophisticated user interfaces with a simple Python API. Run your apps in the terminal and a web browser."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Textualize/textual",
+      "status": "candidate-context",
+      "text": "[![Discord](https://img.shields.io/discord/1026214085173461072)](https://discord.gg/Enf6Z3qhVr)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "abpframework/abp",
+      "status": "candidate-context",
+      "text": "Open-source web application framework for ASP.NET Core! Offers an opinionated architecture to build enterprise software solutions with best practices on top of the .NET. Provides the fundamental infrastructure, cross-cutting-concern implementations, startup templates, application modules, UI themes, tooling and documentation."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "abpframework/abp",
+      "status": "candidate-context",
+      "text": "![build and test](https://img.shields.io/github/actions/workflow/status/abpframework/abp/build-and-test.yml?branch=dev&style=flat-square) \ud83d\udd39 [![codecov](https://codecov.io/gh/abpframework/abp/branch/dev/graph/badge.svg?token=jUKLCxa6HF)](https://codecov.io/gh/abpframework/abp) \ud83d\udd39 \u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nuxt/nuxt",
+      "status": "candidate-context",
+      "text": "The Full-Stack Vue Framework."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nuxt/nuxt",
+      "status": "candidate-context",
+      "text": "<a href=\"https://nuxt.com\"><img width=\"830\" height=\"213\" src=\"./.github/assets/banner.svg\" alt=\"Nuxt banner\"></a>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "TechEmpower/FrameworkBenchmarks",
+      "status": "candidate-context",
+      "text": "Source for the TechEmpower Framework Benchmarks project"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TechEmpower/FrameworkBenchmarks",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://github.com/TechEmpower/FrameworkBenchmarks/workflows/build/badge.svg?branch=master&event=push)](https://github.com/TechEmpower/FrameworkBenchmarks/actions?query=workflow%3Abuild+branch%3Amaster)"
     }
   ],
   "candidate_glosses": [
@@ -567,6 +627,36 @@
       "source_repo": "gofiber/fiber",
       "status": "candidate",
       "text": "module github.com/gofiber/fiber/v3 go 1.25.0 require ( github.com/gofiber/schema v1.7.1 github.com/gofiber/utils/v2 v2.0.4 github.com/google/uuid v1.6.0 github.com/mattn/go-colorable v0.1.14 github.com/mattn/go-isatty v0.0.21 github.com/shamaton/msgpack/v3 v3.1.0 github.com/stre\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ChargePoint/xcparse",
+      "status": "candidate",
+      "text": "A command line tool to extract code coverage & screenshots from Xcode 11 XCResult files."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Textualize/textual",
+      "status": "candidate",
+      "text": "[![Discord](https://img.shields.io/discord/1026214085173461072)](https://discord.gg/Enf6Z3qhVr)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "abpframework/abp",
+      "status": "candidate",
+      "text": "![build and test](https://img.shields.io/github/actions/workflow/status/abpframework/abp/build-and-test.yml?branch=dev&style=flat-square) \ud83d\udd39 [![codecov](https://codecov.io/gh/abpframework/abp/branch/dev/graph/badge.svg?token=jUKLCxa6HF)](https://codecov.io/gh/abpframework/abp) \ud83d\udd39 \u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nuxt/nuxt",
+      "status": "candidate",
+      "text": "<a href=\"https://nuxt.com\"><img width=\"830\" height=\"213\" src=\"./.github/assets/banner.svg\" alt=\"Nuxt banner\"></a>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TechEmpower/FrameworkBenchmarks",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/TechEmpower/FrameworkBenchmarks/workflows/build/badge.svg?branch=master&event=push)](https://github.com/TechEmpower/FrameworkBenchmarks/actions?query=workflow%3Abuild+branch%3Amaster)"
     }
   ],
   "candidate_related_terms": [
@@ -868,11 +958,41 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "gofiber/fiber"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "ChargePoint/xcparse"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "Textualize/textual"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "abpframework/abp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "nuxt/nuxt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "TechEmpower/FrameworkBenchmarks"
     }
   ],
   "first_seen_at": "2026-04-18T10:38:37.562216+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

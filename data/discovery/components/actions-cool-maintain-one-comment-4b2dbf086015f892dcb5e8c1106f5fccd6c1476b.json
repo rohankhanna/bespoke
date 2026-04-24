@@ -1,0 +1,12 @@
+{
+  "component": "actions-cool/maintain-one-comment@4b2dbf086015f892dcb5e8c1106f5fccd6c1476b",
+  "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/model_card_consistency_reminder.yml",
+      "source_repo": "huggingface/huggingface_hub"
+    }
+  ]
+}

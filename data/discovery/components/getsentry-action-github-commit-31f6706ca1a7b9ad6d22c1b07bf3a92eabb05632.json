@@ -1,0 +1,12 @@
+{
+  "component": "getsentry/action-github-commit@31f6706ca1a7b9ad6d22c1b07bf3a92eabb05632",
+  "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/backend.yml",
+      "source_repo": "getsentry/sentry"
+    }
+  ]
+}

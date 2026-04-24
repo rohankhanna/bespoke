@@ -1,0 +1,284 @@
+{
+  "components": [
+    {
+      "component": "oprypin/find-latest-tag@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/wheels.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/wheels.yml"
+    },
+    {
+      "component": "robinraju/release-downloader@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/wheels.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/wheels.yml"
+    },
+    {
+      "component": "pypa/cibuildwheel@v3.4.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/wheels.yml"
+    },
+    {
+      "component": "actions/attest-build-provenance@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/wheels.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/wheels.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/wheels.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/wheels.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/wheels.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/wheels.yml"
+    },
+    {
+      "component": "ncipollo/release-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/wheels.yml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@v1.14.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/wheels.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "urschrei/pypolyline",
+      "target": "urschrei/polyline-ffi",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "urschrei/pypolyline",
+      "target": "urschrei/simplification",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/wheels.yml",
+      "source_repo": "urschrei/pypolyline",
+      "target": "oprypin/find-latest-tag@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/wheels.yml",
+      "source_repo": "urschrei/pypolyline",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/wheels.yml",
+      "source_repo": "urschrei/pypolyline",
+      "target": "robinraju/release-downloader@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/wheels.yml",
+      "source_repo": "urschrei/pypolyline",
+      "target": "astral-sh/setup-uv@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/wheels.yml",
+      "source_repo": "urschrei/pypolyline",
+      "target": "pypa/cibuildwheel@v3.4.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/wheels.yml",
+      "source_repo": "urschrei/pypolyline",
+      "target": "actions/attest-build-provenance@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/wheels.yml",
+      "source_repo": "urschrei/pypolyline",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/wheels.yml",
+      "source_repo": "urschrei/pypolyline",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/wheels.yml",
+      "source_repo": "urschrei/pypolyline",
+      "target": "ncipollo/release-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/wheels.yml",
+      "source_repo": "urschrei/pypolyline",
+      "target": "pypa/gh-action-pypi-publish@v1.14.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "urschrei/pypolyline",
+      "target": "computational-geometry",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "urschrei/pypolyline",
+      "target": "cython",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "urschrei/pypolyline",
+      "target": "google-maps",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "urschrei/pypolyline",
+      "target": "google-polyline",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "urschrei/pypolyline",
+      "target": "polyline",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "urschrei/pypolyline",
+      "target": "rust",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T00:44:47.143311+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3139
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 2563
+    },
+    {
+      "path": ".github/workflows/wheels.yml",
+      "size": 6936
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Fast Google Polyline encoding and decoding using a Rust binary",
+    "fork": false,
+    "full_name": "urschrei/pypolyline",
+    "html_url": "https://github.com/urschrei/pypolyline",
+    "language": "Python",
+    "pushed_at": "2026-04-13T18:45:10Z",
+    "stargazers_count": 45,
+    "topics": [
+      "computational-geometry",
+      "cython",
+      "gis",
+      "google-maps",
+      "google-polyline",
+      "polyline",
+      "rust"
+    ],
+    "updated_at": "2026-04-23T22:40:54Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "urschrei/polyline-ffi",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "urschrei/simplification",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "![example workflow](https://github.com/urschrei/pypolyline/actions/workflows/wheels.yml/badge.svg) [![Coverage Status](https://coveralls.io/repos/github/urschrei/pypolyline/badge.svg?branch=master)](https://coveralls.io/github/urschrei/pypolyline?branch=master) [![Downloads](htt\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "computational-geometry"
+    },
+    {
+      "context_snippet": "![example workflow](https://github.com/urschrei/pypolyline/actions/workflows/wheels.yml/badge.svg) [![Coverage Status](https://coveralls.io/repos/github/urschrei/pypolyline/badge.svg?branch=master)](https://coveralls.io/github/urschrei/pypolyline?branch=master) [![Downloads](htt\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cython"
+    },
+    {
+      "context_snippet": "![example workflow](https://github.com/urschrei/pypolyline/actions/workflows/wheels.yml/badge.svg) [![Coverage Status](https://coveralls.io/repos/github/urschrei/pypolyline/badge.svg?branch=master)](https://coveralls.io/github/urschrei/pypolyline?branch=master) [![Downloads](htt\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "google-maps"
+    },
+    {
+      "context_snippet": "![example workflow](https://github.com/urschrei/pypolyline/actions/workflows/wheels.yml/badge.svg) [![Coverage Status](https://coveralls.io/repos/github/urschrei/pypolyline/badge.svg?branch=master)](https://coveralls.io/github/urschrei/pypolyline?branch=master) [![Downloads](htt\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "google-polyline"
+    },
+    {
+      "context_snippet": "![example workflow](https://github.com/urschrei/pypolyline/actions/workflows/wheels.yml/badge.svg) [![Coverage Status](https://coveralls.io/repos/github/urschrei/pypolyline/badge.svg?branch=master)](https://coveralls.io/github/urschrei/pypolyline?branch=master) [![Downloads](htt\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "polyline"
+    },
+    {
+      "context_snippet": "![example workflow](https://github.com/urschrei/pypolyline/actions/workflows/wheels.yml/badge.svg) [![Coverage Status](https://coveralls.io/repos/github/urschrei/pypolyline/badge.svg?branch=master)](https://coveralls.io/github/urschrei/pypolyline?branch=master) [![Downloads](htt\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust"
+    }
+  ]
+}

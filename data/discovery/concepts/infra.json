@@ -5,12 +5,78 @@
   "ambiguity_status": "unresolved",
   "buckets": [
     "tool-component",
-    "capability"
+    "capability",
+    "workflow-process",
+    "data-document-artifact"
   ],
-  "candidate_definitions": [],
-  "candidate_glosses": [],
-  "candidate_related_terms": [],
-  "candidate_synonyms": [],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/playwright",
+      "status": "candidate-context",
+      "text": "Playwright is a framework for Web Testing and Automation. It allows testing Chromium, Firefox and WebKit with a single API. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/playwright",
+      "status": "candidate-context",
+      "text": "\"infra\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/playwright",
+      "status": "candidate",
+      "text": "\"infra\""
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39902231,
+      "status": "candidate",
+      "text": "below"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29998270,
+      "status": "candidate",
+      "text": "following"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29995891,
+      "status": "candidate",
+      "text": "vide"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29989794,
+      "status": "candidate",
+      "text": "hereinafter"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29987343,
+      "status": "candidate",
+      "text": "hereafter"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "below"
+    }
+  ],
   "canonical_name": "infra",
   "concept_id": "infra",
   "definition_status": "unresolved",
@@ -20,12 +86,20 @@
       "observed_at": "2026-04-18T11:24:14.688152+00:00",
       "source_file": null,
       "source_repo": "zeroclaw-labs/zeroclaw"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/infra.yml",
+      "source_repo": "microsoft/playwright"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-18T11:24:14.688152+00:00",
-  "lexical_providers": [],
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
   "lexical_status": "unresolved",
   "possible_senses": [
     {

@@ -19,6 +19,30 @@
       "source_repo": "Textualize/rich",
       "status": "candidate-context",
       "text": "[![Supported Python Versions](https://img.shields.io/pypi/pyversions/rich)](https://pypi.org/project/rich/) [![PyPI version](https://badge.fury.io/py/rich.svg)](https://badge.fury.io/py/rich)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Textualize/rich-cli",
+      "status": "candidate-context",
+      "text": "Rich-cli is a command line toolbox for fancy output in the terminal"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Textualize/rich-cli",
+      "status": "candidate-context",
+      "text": "Rich-CLI is a command line toolbox for fancy output in the terminal, built with [Rich](https://github.com/Textualize/rich)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Textualize/textual",
+      "status": "candidate-context",
+      "text": "The lean application framework for Python.  Build sophisticated user interfaces with a simple Python API. Run your apps in the terminal and a web browser."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Textualize/textual",
+      "status": "candidate-context",
+      "text": "[![Discord](https://img.shields.io/discord/1026214085173461072)](https://discord.gg/Enf6Z3qhVr)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +51,18 @@
       "source_repo": "Textualize/rich",
       "status": "candidate",
       "text": "[![Supported Python Versions](https://img.shields.io/pypi/pyversions/rich)](https://pypi.org/project/rich/) [![PyPI version](https://badge.fury.io/py/rich.svg)](https://badge.fury.io/py/rich)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Textualize/rich-cli",
+      "status": "candidate",
+      "text": "Rich-CLI is a command line toolbox for fancy output in the terminal, built with [Rich](https://github.com/Textualize/rich)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Textualize/textual",
+      "status": "candidate",
+      "text": "[![Discord](https://img.shields.io/discord/1026214085173461072)](https://discord.gg/Enf6Z3qhVr)"
     }
   ],
   "candidate_related_terms": [
@@ -112,11 +148,23 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "Textualize/rich"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "Textualize/rich-cli"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "Textualize/textual"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

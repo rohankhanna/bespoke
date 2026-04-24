@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dingmyu/davit",
+      "target": "rwightman/pytorch-image-models",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-24T02:02:01.030982+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 13808
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[ECCV 2022]Code for paper \"DaViT: Dual Attention Vision Transformer\"",
+    "fork": false,
+    "full_name": "dingmyu/davit",
+    "html_url": "https://github.com/dingmyu/davit",
+    "language": "Python",
+    "pushed_at": "2024-02-13T09:59:10Z",
+    "stargazers_count": 375,
+    "topics": [],
+    "updated_at": "2026-04-20T07:56:09Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rwightman/pytorch-image-models",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

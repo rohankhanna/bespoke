@@ -5,13 +5,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "project-baize/baize-chatbot",
-      "target": "rstless-research/fauno-italian-llm",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "project-baize/baize-chatbot",
       "target": "timdettmers/bitsandbytes",
       "target_type": "repository"
     },
@@ -23,7 +16,7 @@
       "target_type": "repository"
     }
   ],
-  "fetched_at": "2026-04-23T21:11:09.449970+00:00",
+  "fetched_at": "2026-04-24T01:58:42.923056+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -52,11 +45,6 @@
     {
       "edge_type": "explicit-github-link",
       "full_name": "project-baize/baize",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "rstless-research/fauno-italian-llm",
       "source_file": "README.md"
     },
     {

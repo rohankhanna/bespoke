@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T09:09:30.058377+00:00",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -121,6 +121,31 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/copilot-setup-steps.yml",
       "source_repo": "openvinotoolkit/openvino.genai"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/copilot-setup-steps.yml",
+      "source_repo": "dotnet/efcore"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/copilot-setup-steps.yml",
+      "source_repo": "dotnet/fsharp"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/copilot-setup-steps.yml",
+      "source_repo": "microsoft/playwright"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/copilot-setup-steps.yml",
+      "source_repo": "Azure/azure-sdk-for-js"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/copilot-setup-steps.yml",
+      "source_repo": "microsoft/CsWin32"
     }
   ],
   "term": "Copilot Setup Steps"

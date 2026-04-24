@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "freshen-images"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "operator-framework/operator-sdk",
+      "status": "candidate-context",
+      "text": "SDK for building Kubernetes applications. Provides high level APIs, useful abstractions, and project scaffolding."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "operator-framework/operator-sdk",
+      "status": "candidate-context",
+      "text": "freshen-images"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "operator-framework/operator-sdk",
+      "status": "candidate",
+      "text": "freshen-images"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "freshen-images",
+  "concept_id": "freshen-images",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/freshen-images.yml",
+      "source_repo": "operator-framework/operator-sdk"
+    }
+  ],
+  "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "freshen-images",
+      "sense_id": "freshen-images#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

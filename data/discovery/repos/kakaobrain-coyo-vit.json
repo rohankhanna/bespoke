@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-24T02:02:17.457992+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6878
+    },
+    {
+      "path": "requirements.txt",
+      "size": 118
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "ViT trained on COYO-Labeled-300M dataset",
+    "fork": false,
+    "full_name": "kakaobrain/coyo-vit",
+    "html_url": "https://github.com/kakaobrain/coyo-vit",
+    "language": "Python",
+    "pushed_at": "2022-11-24T09:29:06Z",
+    "stargazers_count": 33,
+    "topics": [],
+    "updated_at": "2025-10-21T17:11:53Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

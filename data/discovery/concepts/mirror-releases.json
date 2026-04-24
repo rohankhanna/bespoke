@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Mirror Releases"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aspect-build/rules_js",
+      "status": "candidate-context",
+      "text": "High-performance Bazel rules for running Node.js tools and building JavaScript projects"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aspect-build/rules_js",
+      "status": "candidate-context",
+      "text": "Mirror Releases"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aspect-build/rules_js",
+      "status": "candidate",
+      "text": "Mirror Releases"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10635,
+      "status": "candidate",
+      "text": "aplanatic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10635,
+      "status": "candidate",
+      "text": "come"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10635,
+      "status": "candidate",
+      "text": "diffraction grating"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10635,
+      "status": "candidate",
+      "text": "fog"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10635,
+      "status": "candidate",
+      "text": "fogged"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Mirror Releases",
+  "concept_id": "mirror-releases",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/mirror.yaml",
+      "source_repo": "aspect-build/rules_js"
+    }
+  ],
+  "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Mirror Releases",
+      "sense_id": "mirror-releases#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

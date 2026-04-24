@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "heatmap"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "csurfer/pyheat",
+      "status": "candidate-context",
+      "text": "pprofile + matplotlib = Python program profiled as an awesome heatmap!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "csurfer/pyheat",
+      "status": "candidate-context",
+      "text": "[![pypiv](https://img.shields.io/pypi/v/py-heat.svg)](https://pypi.python.org/pypi/py-heat)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "csurfer/pyheat",
+      "status": "candidate",
+      "text": "[![pypiv](https://img.shields.io/pypi/v/py-heat.svg)](https://pypi.python.org/pypi/py-heat)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10018484,
+      "status": "candidate",
+      "text": "hachure"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10018483,
+      "status": "candidate",
+      "text": "geohash"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10018482,
+      "status": "candidate",
+      "text": "jellygraph"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10018481,
+      "status": "candidate",
+      "text": "hot patch"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10018480,
+      "status": "candidate",
+      "text": "heliotype"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "heatmap",
+  "concept_id": "heatmap",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "csurfer/pyheat"
+    }
+  ],
+  "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "heatmap",
+      "sense_id": "heatmap#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

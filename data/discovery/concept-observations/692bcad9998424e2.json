@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Bicep registry modules"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "\"avm.ptn.aca-lza.hosting-environment\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "\"avm.ptn.aca-lza.hosting-environment\""
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "avm.ptn.aca-lza.hosting-environment",
+      "sense_id": "avm.ptn.aca-lza.hosting-environment#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "avm.ptn.aca-lza.hosting-environment",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "avm.ptn.aca-lza.hosting-environment",
+  "observation_id": "692bcad9998424e2",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-24T00:33:56.049672+00:00",
+  "observed_text": "avm.ptn.aca-lza.hosting-environment",
+  "source_context_snippet": "\"avm.ptn.aca-lza.hosting-environment\"",
+  "source_file": ".github/workflows/avm.ptn.aca-lza.hosting-environment.yml",
+  "source_repo": "Azure/bicep-registry-modules",
+  "source_repo_description": "Bicep registry modules"
+}

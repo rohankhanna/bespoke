@@ -1,0 +1,136 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "adelarsq/neoline.vim",
+      "target": "adelarsq/neovcs.vim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "adelarsq/neoline.vim",
+      "target": "akinsho/flutter-tools.nvim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "adelarsq/neoline.vim",
+      "target": "datwaft/bubbly.nvim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "adelarsq/neoline.vim",
+      "target": "akinsho/nvim-bufferline.lua",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "adelarsq/neoline.vim",
+      "target": "blacklivesmatter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "adelarsq/neoline.vim",
+      "target": "neovim",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "adelarsq/neoline.vim",
+      "target": "nowar",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "adelarsq/neoline.vim",
+      "target": "statusline",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T00:47:19.018960+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7213
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Status Line for Neovim focused on beauty and performance \u2705\ud83d\udc99\ud83d\udc9b\ud83e\udd0d\ud83d\udc9a",
+    "fork": false,
+    "full_name": "adelarsq/neoline.vim",
+    "html_url": "https://github.com/adelarsq/neoline.vim",
+    "language": "Lua",
+    "pushed_at": "2026-04-08T19:01:01Z",
+    "stargazers_count": 260,
+    "topics": [
+      "blacklivesmatter",
+      "lua",
+      "neovim",
+      "nowar",
+      "statusline"
+    ],
+    "updated_at": "2026-04-11T08:36:04Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "adelarsq/neovcs.vim",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "akinsho/flutter-tools.nvim",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "akinsho/nvim-bufferline.lua",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "datwaft/bubbly.nvim",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "**IMPORTANT: Requires Neovim Nightly**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "blacklivesmatter"
+    },
+    {
+      "context_snippet": "**IMPORTANT: Requires Neovim Nightly**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neovim"
+    },
+    {
+      "context_snippet": "**IMPORTANT: Requires Neovim Nightly**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nowar"
+    },
+    {
+      "context_snippet": "**IMPORTANT: Requires Neovim Nightly**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "statusline"
+    }
+  ]
+}

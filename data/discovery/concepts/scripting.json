@@ -67,6 +67,30 @@
       "source_repo": "abs-lang/abs",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "babashka/babashka",
+      "status": "candidate-context",
+      "text": "Native, fast starting Clojure interpreter for scripting"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "babashka/babashka",
+      "status": "candidate-context",
+      "text": "[<img src=\"logo/babashka.svg\" alt=\"Babashka\" width=\"425px\">](https://babashka.org)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alecazam/kram",
+      "status": "candidate-context",
+      "text": "Encode/decode/info to KTX/KTX2/DDS files with LDR/HDR and BC/ASTC/ETC2.  Mac/Win C++11 too, Mac viewer, and scripts for batch processing textures."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alecazam/kram",
+      "status": "candidate-context",
+      "text": "The suite of kram tools below. I hope these improve your game, app, and art development."
     }
   ],
   "candidate_glosses": [
@@ -99,6 +123,18 @@
       "source_repo": "abs-lang/abs",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "babashka/babashka",
+      "status": "candidate",
+      "text": "[<img src=\"logo/babashka.svg\" alt=\"Babashka\" width=\"425px\">](https://babashka.org)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alecazam/kram",
+      "status": "candidate",
+      "text": "The suite of kram tools below. I hope these improve your game, app, and art development."
     }
   ],
   "candidate_related_terms": [
@@ -172,11 +208,23 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "abs-lang/abs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "babashka/babashka"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "alecazam/kram"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

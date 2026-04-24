@@ -1,7 +1,7 @@
 {
   "component": "actions/upload-artifact@v2",
   "first_seen_at": "2026-04-18T09:09:30.058377+00:00",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -182,6 +182,46 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/ci-test.yml",
       "source_repo": "diem/diem"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "PyCQA/modernize"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/edge.yml",
+      "source_repo": "3dfxdev/EDGE"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-and-release.yml",
+      "source_repo": "adamritter/fastgron"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "Squirrel/Squirrel.Windows"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/model-templates.yml",
+      "source_repo": "microsoft/huggingface-transformers"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/self-push.yml",
+      "source_repo": "microsoft/huggingface-transformers"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/self-scheduled.yml",
+      "source_repo": "microsoft/huggingface-transformers"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "google/cld3"
     }
   ]
 }

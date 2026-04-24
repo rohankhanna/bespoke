@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Docker Build Environment Image CI"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "theimpossibleastronaut/rmw",
+      "status": "candidate-context",
+      "text": "trashcan/recycle bin utility for the command line"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "theimpossibleastronaut/rmw",
+      "status": "candidate-context",
+      "text": "Docker Build Environment Image CI"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "theimpossibleastronaut/rmw",
+      "status": "candidate",
+      "text": "Docker Build Environment Image CI"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30354,
+      "status": "candidate",
+      "text": "loader"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22369,
+      "status": "candidate",
+      "text": "ark"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22151,
+      "status": "candidate",
+      "text": "thousand"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21473,
+      "status": "candidate",
+      "text": "dock"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21473,
+      "status": "candidate",
+      "text": "pier"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Docker Build Environment Image CI",
+  "concept_id": "docker-build-environment-image-ci",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/docker-build-env.yml",
+      "source_repo": "theimpossibleastronaut/rmw"
+    }
+  ],
+  "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Docker Build Environment Image CI",
+      "sense_id": "docker-build-environment-image-ci#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

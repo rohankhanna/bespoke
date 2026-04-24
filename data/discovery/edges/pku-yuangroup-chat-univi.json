@@ -1,0 +1,62 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "PKU-YuanGroup/Chat-UniVi",
+      "target": "skyworkai/moh",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "PKU-YuanGroup/Chat-UniVi",
+      "target": "skyworkai/moe-plus-plus",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "PKU-YuanGroup/Chat-UniVi",
+      "target": "pku-yuangroup/video-llava",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "PKU-YuanGroup/Chat-UniVi",
+      "target": "facebookresearch/llama",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PKU-YuanGroup/Chat-UniVi",
+      "target": "image-understanding",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PKU-YuanGroup/Chat-UniVi",
+      "target": "large-language-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PKU-YuanGroup/Chat-UniVi",
+      "target": "video-understanding",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PKU-YuanGroup/Chat-UniVi",
+      "target": "vision-language-model",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-24T00:33:56.049672+00:00",
+  "source_repo": "PKU-YuanGroup/Chat-UniVi"
+}

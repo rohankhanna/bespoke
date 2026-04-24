@@ -19,6 +19,18 @@
       "source_repo": "jonico/awesome-runners",
       "status": "candidate-context",
       "text": "![image](https://user-images.githubusercontent.com/1872314/109429007-f211c300-79f9-11eb-940d-2e778c89c9ea.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "martinmoene/catch-lest-other-comparison",
+      "status": "candidate-context",
+      "text": "Tabularised feature comparison between Catch, doctest and lest C++ test frameworks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "martinmoene/catch-lest-other-comparison",
+      "status": "candidate-context",
+      "text": "<a id=\"top\"></a>"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "jonico/awesome-runners",
       "status": "candidate",
       "text": "![image](https://user-images.githubusercontent.com/1872314/109429007-f211c300-79f9-11eb-940d-2e778c89c9ea.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "martinmoene/catch-lest-other-comparison",
+      "status": "candidate",
+      "text": "<a id=\"top\"></a>"
     }
   ],
   "candidate_related_terms": [
@@ -105,11 +123,17 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "jonico/awesome-runners"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "martinmoene/catch-lest-other-comparison"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

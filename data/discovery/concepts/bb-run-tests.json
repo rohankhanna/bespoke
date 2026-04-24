@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "bb run tests"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "babashka/neil",
+      "status": "candidate-context",
+      "text": "A CLI to add common aliases and features to deps.edn-based projects"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "babashka/neil",
+      "status": "candidate-context",
+      "text": "bb run tests"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "babashka/neil",
+      "status": "candidate",
+      "text": "bb run tests"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26469,
+      "status": "candidate",
+      "text": "test"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26469,
+      "status": "candidate",
+      "text": "tested"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26458,
+      "status": "candidate",
+      "text": "testing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23015,
+      "status": "candidate",
+      "text": "hanratty"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22547,
+      "status": "candidate",
+      "text": "battery"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "bb run tests",
+  "concept_id": "bb-run-tests",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/bb-run-tests.yml",
+      "source_repo": "babashka/neil"
+    }
+  ],
+  "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "bb run tests",
+      "sense_id": "bb-run-tests#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "facil.io C STL - a Server Toolbox Library for C, including JSON processing, hash maps, dynamic arrays, binary strings and more."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![facil.io logo](./extras/logo.svg?raw=true \"facil.io\")](https://github.com/facil-io/cstl)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![facil.io logo](./extras/logo.svg?raw=true \"facil.io\")](https://github.com/facil-io/cstl)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10031130,
+      "status": "candidate",
+      "text": "raiment"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9960884,
+      "status": "candidate",
+      "text": "lay out"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9956254,
+      "status": "candidate",
+      "text": "range"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9935040,
+      "status": "candidate",
+      "text": "align"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9934489,
+      "status": "candidate",
+      "text": "finery"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "arrays",
+      "sense_id": "arrays#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "arrays",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "arrays",
+  "observation_id": "a0cfff884acb4dfa",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T00:33:56.049672+00:00",
+  "observed_text": "arrays",
+  "source_context_snippet": "[![facil.io logo](./extras/logo.svg?raw=true \"facil.io\")](https://github.com/facil-io/cstl)",
+  "source_file": null,
+  "source_repo": "facil-io/cstl",
+  "source_repo_description": "facil.io C STL - a Server Toolbox Library for C, including JSON processing, hash maps, dynamic arrays, binary strings and more."
+}

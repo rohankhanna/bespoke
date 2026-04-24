@@ -1,7 +1,7 @@
 {
   "component": "benchmark-action/github-action-benchmark@a60cea5bc7b49e15c1f58f411161f99e0df48372",
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -27,6 +27,16 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/benchmark.yml",
       "source_repo": "gofiber/fiber"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/anneal.yml",
+      "source_repo": "google/zerocopy"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/benchmarks.yml",
+      "source_repo": "huggingface/hf-hub"
     }
   ]
 }

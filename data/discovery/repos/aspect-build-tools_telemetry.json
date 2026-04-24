@@ -1,0 +1,92 @@
+{
+  "components": [
+    {
+      "component": "bazel-contrib/publish-to-bcr/.github/workflows/publish.yaml@v0.2.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yaml"
+    },
+    {
+      "component": "bazel-contrib/.github/.github/workflows/release_ruleset.yaml@v7.2.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yaml",
+      "source_repo": "aspect-build/tools_telemetry",
+      "target": "bazel-contrib/publish-to-bcr/.github/workflows/publish.yaml@v0.2.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yaml",
+      "source_repo": "aspect-build/tools_telemetry",
+      "target": "Publish to BCR",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "aspect-build/tools_telemetry",
+      "target": "bazel-contrib/.github/.github/workflows/release_ruleset.yaml@v7.2.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "aspect-build/tools_telemetry",
+      "target": "Release",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T01:53:23.388839+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5023
+    },
+    {
+      "path": ".github/workflows/publish.yaml",
+      "size": 1164
+    },
+    {
+      "path": ".github/workflows/release.yaml",
+      "size": 900
+    },
+    {
+      "path": ".github/workflows/release_prep.sh",
+      "size": 698
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "aspect-build/tools_telemetry",
+    "html_url": "https://github.com/aspect-build/tools_telemetry",
+    "language": "Starlark",
+    "pushed_at": "2026-03-28T22:21:56Z",
+    "stargazers_count": 3,
+    "topics": [],
+    "updated_at": "2026-03-27T16:12:49Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Publish to BCR",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yaml",
+      "term": "Publish to BCR"
+    },
+    {
+      "context_snippet": "Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yaml",
+      "term": "Release"
+    }
+  ]
+}

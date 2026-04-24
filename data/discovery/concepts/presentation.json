@@ -43,6 +43,18 @@
       "source_repo": "MariaLetta/free-gophers-pack",
       "status": "candidate-context",
       "text": "[![Mentioned in Awesome Go](https://awesome.re/mentioned-badge-flat.svg)](https://github.com/avelino/awesome-go)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "icip-cas/PPTAgent",
+      "status": "candidate-context",
+      "text": "An Agentic Framework for Reflective PowerPoint Generation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "icip-cas/PPTAgent",
+      "status": "candidate-context",
+      "text": "<div align=\"right\">"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "MariaLetta/free-gophers-pack",
       "status": "candidate",
       "text": "[![Mentioned in Awesome Go](https://awesome.re/mentioned-badge-flat.svg)](https://github.com/avelino/awesome-go)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "icip-cas/PPTAgent",
+      "status": "candidate",
+      "text": "<div align=\"right\">"
     }
   ],
   "candidate_related_terms": [
@@ -160,11 +178,17 @@
       "observed_at": "2026-04-22T18:52:26.467154+00:00",
       "source_file": null,
       "source_repo": "MariaLetta/free-gophers-pack"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "icip-cas/PPTAgent"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

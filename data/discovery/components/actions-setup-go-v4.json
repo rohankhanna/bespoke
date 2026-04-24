@@ -1,7 +1,7 @@
 {
   "component": "actions/setup-go@v4",
   "first_seen_at": "2026-04-18T09:22:19.136418+00:00",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -362,6 +362,26 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/go.yml",
       "source_repo": "mmcdole/gofeed"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/E2E.yml",
+      "source_repo": "apache/incubator-seata-samples"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "google/starlark-go"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/codecov.yml",
+      "source_repo": "Azure/aad-pod-identity"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/makefile.yml",
+      "source_repo": "chubin/wttr.in"
     }
   ]
 }

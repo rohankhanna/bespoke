@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "rbenv/rbenv-gem-rehash",
+      "target": "sstephenson/rbenv-gem-rehash",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-24T00:42:32.307331+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2275
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "DEPRECATED - Never run `rbenv rehash` again",
+    "fork": false,
+    "full_name": "rbenv/rbenv-gem-rehash",
+    "html_url": "https://github.com/rbenv/rbenv-gem-rehash",
+    "language": "Shell",
+    "pushed_at": "2022-01-07T09:21:38Z",
+    "stargazers_count": 366,
+    "topics": [],
+    "updated_at": "2026-04-07T13:45:54Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sstephenson/rbenv-gem-rehash",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

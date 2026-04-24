@@ -43,6 +43,30 @@
       "source_repo": "systemd/systemd",
       "status": "candidate-context",
       "text": "ClusterFuzzLite PR fuzzing"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "avahi/avahi",
+      "status": "candidate-context",
+      "text": "Avahi - Service Discovery for Linux using mDNS/DNS-SD -- compatible with Bonjour"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "avahi/avahi",
+      "status": "candidate-context",
+      "text": "ClusterFuzzLite PR fuzzing"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "FuelLabs/fuel-vm",
+      "status": "candidate-context",
+      "text": "Fuel v2 interpreter in Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FuelLabs/fuel-vm",
+      "status": "candidate-context",
+      "text": "ClusterFuzzLite PR fuzzing"
     }
   ],
   "candidate_glosses": [
@@ -61,6 +85,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "systemd/systemd",
+      "status": "candidate",
+      "text": "ClusterFuzzLite PR fuzzing"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "avahi/avahi",
+      "status": "candidate",
+      "text": "ClusterFuzzLite PR fuzzing"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FuelLabs/fuel-vm",
       "status": "candidate",
       "text": "ClusterFuzzLite PR fuzzing"
     }
@@ -124,11 +160,23 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": ".github/workflows/cflite-pr.yml",
       "source_repo": "systemd/systemd"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/cflite-pr.yml",
+      "source_repo": "avahi/avahi"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/cflite_pr.yml",
+      "source_repo": "FuelLabs/fuel-vm"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,7 +1,7 @@
 {
   "component": "haskell/actions/setup@v2",
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -62,6 +62,21 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "tweag/ormolu"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/developer-flag.yml",
+      "source_repo": "haskell/text"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/simdutf-flag-windows.yml",
+      "source_repo": "haskell/text"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/simdutf-flag.yml",
+      "source_repo": "haskell/text"
     }
   ]
 }

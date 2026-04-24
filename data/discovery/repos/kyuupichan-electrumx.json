@@ -1,0 +1,76 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kyuupichan/electrumx",
+      "target": "bitcoin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kyuupichan/electrumx",
+      "target": "electrum",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kyuupichan/electrumx",
+      "target": "electrum-server",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T01:51:17.498781+00:00",
+  "fetched_files": [
+    {
+      "path": "README.rst",
+      "size": 677
+    },
+    {
+      "path": "requirements.txt",
+      "size": 61
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Alternative implementation of spesmilo/electrum-server",
+    "fork": false,
+    "full_name": "kyuupichan/electrumx",
+    "html_url": "https://github.com/kyuupichan/electrumx",
+    "language": "Python",
+    "pushed_at": "2024-01-11T10:26:19Z",
+    "stargazers_count": 746,
+    "topics": [
+      "bitcoin",
+      "electrum",
+      "electrum-server"
+    ],
+    "updated_at": "2026-04-10T16:17:03Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": ".. image:: https://travis-ci.org/kyuupichan/electrumx.svg?branch=master",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bitcoin"
+    },
+    {
+      "context_snippet": ".. image:: https://travis-ci.org/kyuupichan/electrumx.svg?branch=master",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "electrum"
+    },
+    {
+      "context_snippet": ".. image:: https://travis-ci.org/kyuupichan/electrumx.svg?branch=master",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "electrum-server"
+    }
+  ]
+}

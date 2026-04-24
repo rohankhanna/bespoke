@@ -1,0 +1,277 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/contributors.yml"
+    },
+    {
+      "component": "BobAnkh/add-contributors@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/contributors.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-publish.yml"
+    },
+    {
+      "component": "docker/setup-qemu-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-publish.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-publish.yml"
+    },
+    {
+      "component": "docker/login-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-publish.yml"
+    },
+    {
+      "component": "docker/metadata-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-publish.yml"
+    },
+    {
+      "component": "docker/build-push-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-publish.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi-publish.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi-publish.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi-publish.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/contributors.yml",
+      "source_repo": "icip-cas/PPTAgent",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/contributors.yml",
+      "source_repo": "icip-cas/PPTAgent",
+      "target": "BobAnkh/add-contributors@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/contributors.yml",
+      "source_repo": "icip-cas/PPTAgent",
+      "target": "Add contributors",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-publish.yml",
+      "source_repo": "icip-cas/PPTAgent",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-publish.yml",
+      "source_repo": "icip-cas/PPTAgent",
+      "target": "docker/setup-qemu-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-publish.yml",
+      "source_repo": "icip-cas/PPTAgent",
+      "target": "docker/setup-buildx-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-publish.yml",
+      "source_repo": "icip-cas/PPTAgent",
+      "target": "docker/login-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-publish.yml",
+      "source_repo": "icip-cas/PPTAgent",
+      "target": "docker/metadata-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-publish.yml",
+      "source_repo": "icip-cas/PPTAgent",
+      "target": "docker/build-push-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker-publish.yml",
+      "source_repo": "icip-cas/PPTAgent",
+      "target": "Docker Build and Push",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi-publish.yml",
+      "source_repo": "icip-cas/PPTAgent",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi-publish.yml",
+      "source_repo": "icip-cas/PPTAgent",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi-publish.yml",
+      "source_repo": "icip-cas/PPTAgent",
+      "target": "astral-sh/setup-uv@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pypi-publish.yml",
+      "source_repo": "icip-cas/PPTAgent",
+      "target": "PyPI Publish",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "icip-cas/PPTAgent",
+      "target": "agentic-ai",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "icip-cas/PPTAgent",
+      "target": "openclaw",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "icip-cas/PPTAgent",
+      "target": "presentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "icip-cas/PPTAgent",
+      "target": "slide",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T01:43:48.362883+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 20507
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 3504
+    },
+    {
+      "path": ".github/workflows/contributors.yml",
+      "size": 493
+    },
+    {
+      "path": ".github/workflows/docker-publish.yml",
+      "size": 1562
+    },
+    {
+      "path": ".github/workflows/pypi-publish.yml",
+      "size": 566
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "An Agentic Framework for Reflective PowerPoint Generation",
+    "fork": false,
+    "full_name": "icip-cas/PPTAgent",
+    "html_url": "https://github.com/icip-cas/PPTAgent",
+    "language": "Python",
+    "pushed_at": "2026-04-22T04:55:11Z",
+    "stargazers_count": 4144,
+    "topics": [
+      "agent",
+      "agentic-ai",
+      "llm",
+      "mcp",
+      "openclaw",
+      "presentation",
+      "slide"
+    ],
+    "updated_at": "2026-04-23T16:31:35Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Add contributors",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/contributors.yml",
+      "term": "Add contributors"
+    },
+    {
+      "context_snippet": "Docker Build and Push",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker-publish.yml",
+      "term": "Docker Build and Push"
+    },
+    {
+      "context_snippet": "PyPI Publish",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pypi-publish.yml",
+      "term": "PyPI Publish"
+    },
+    {
+      "context_snippet": "<div align=\"right\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "agentic-ai"
+    },
+    {
+      "context_snippet": "<div align=\"right\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "openclaw"
+    },
+    {
+      "context_snippet": "<div align=\"right\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "presentation"
+    },
+    {
+      "context_snippet": "<div align=\"right\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "slide"
+    }
+  ]
+}

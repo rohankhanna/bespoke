@@ -1,0 +1,63 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "dahosek/finl_unicode",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "dahosek/finl_unicode",
+      "target": "Rust",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T00:36:44.865017+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8506
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 909
+    },
+    {
+      "path": ".github/workflows/rust.yml",
+      "size": 342
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Unicode support for the finl project",
+    "fork": false,
+    "full_name": "dahosek/finl_unicode",
+    "html_url": "https://github.com/dahosek/finl_unicode",
+    "language": "Rust",
+    "pushed_at": "2025-09-25T20:42:04Z",
+    "stargazers_count": 23,
+    "topics": [],
+    "updated_at": "2025-10-17T22:29:48Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Rust",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rust.yml",
+      "term": "Rust"
+    }
+  ]
+}

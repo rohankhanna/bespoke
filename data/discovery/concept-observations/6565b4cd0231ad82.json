@@ -1,0 +1,124 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "To use a secret in a GitHub job, you can use a GitHub action to retrieve secrets from AWS Secrets Manager and add them as masked [Environment variables](https://docs.github.com/en/actions/learn-github-actions/environment-variables) in your GitHub workflow. For more information a\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "To use a secret in a GitHub job, you can use a GitHub action to retrieve secrets from AWS Secrets Manager and add them as masked [Environment variables](https://docs.github.com/en/actions/learn-github-actions/environment-variables) in your GitHub workflow. For more information a\u2026"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40033339,
+      "status": "candidate",
+      "text": "hush-hush"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40033290,
+      "status": "candidate",
+      "text": "confidential"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40032845,
+      "status": "candidate",
+      "text": "privy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40032427,
+      "status": "candidate",
+      "text": "private"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40032199,
+      "status": "candidate",
+      "text": "clandestine"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "secret",
+      "sense_id": "secret#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 115039,
+      "status": "candidate",
+      "text": "esoteric"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 60035,
+      "status": "candidate",
+      "text": "surreptitious"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 42039,
+      "status": "candidate",
+      "text": "clandestine"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 32032,
+      "status": "candidate",
+      "text": "mystical"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 28049,
+      "status": "candidate",
+      "text": "occult"
+    }
+  ],
+  "concept_id": "secret",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "secret",
+  "observation_id": "6565b4cd0231ad82",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T00:33:56.049672+00:00",
+  "observed_text": "secret",
+  "source_context_snippet": "To use a secret in a GitHub job, you can use a GitHub action to retrieve secrets from AWS Secrets Manager and add them as masked [Environment variables](https://docs.github.com/en/actions/learn-github-actions/environment-variables) in your GitHub workflow. For more information a\u2026",
+  "source_file": null,
+  "source_repo": "aws-actions/aws-secretsmanager-get-secrets",
+  "source_repo_description": null
+}

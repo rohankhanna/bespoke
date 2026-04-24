@@ -1,0 +1,513 @@
+{
+  "components": [
+    {
+      "component": "docker://hasufell/arm64v8-ubuntu-haskell:focal",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/arm.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/arm.yml"
+    },
+    {
+      "component": "docker://hasufell/arm32v7-ubuntu-haskell:focal",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/arm.yml"
+    },
+    {
+      "component": "docker://hasufell/arm64v8-ubuntu-haskell:focal",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/arm.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/developer-flag.yml"
+    },
+    {
+      "component": "haskell-actions/setup@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/developer-flag.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/developer-flag.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/emulated.yml"
+    },
+    {
+      "component": "uraimo/run-on-arch-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/emulated.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/haskell-ci.yml"
+    },
+    {
+      "component": "actions/cache/restore@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/haskell-ci.yml"
+    },
+    {
+      "component": "actions/cache/save@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/haskell-ci.yml"
+    },
+    {
+      "component": "actions/checkout@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/i386.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/simdutf-flag-alpine.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/simdutf-flag-windows.yml"
+    },
+    {
+      "component": "haskell-actions/setup@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/simdutf-flag-windows.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/simdutf-flag-windows.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/simdutf-flag.yml"
+    },
+    {
+      "component": "haskell-actions/setup@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/simdutf-flag.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/simdutf-flag.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/simdutf-is-genuine.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "haskell/text",
+      "target": "haskell/text-test-data",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/arm.yml",
+      "source_repo": "haskell/text",
+      "target": "docker://hasufell/arm64v8-ubuntu-haskell:focal",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/arm.yml",
+      "source_repo": "haskell/text",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/arm.yml",
+      "source_repo": "haskell/text",
+      "target": "docker://hasufell/arm32v7-ubuntu-haskell:focal",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/arm.yml",
+      "source_repo": "haskell/text",
+      "target": "arm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/developer-flag.yml",
+      "source_repo": "haskell/text",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/developer-flag.yml",
+      "source_repo": "haskell/text",
+      "target": "haskell-actions/setup@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/developer-flag.yml",
+      "source_repo": "haskell/text",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/developer-flag.yml",
+      "source_repo": "haskell/text",
+      "target": "developer-flag",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/emulated.yml",
+      "source_repo": "haskell/text",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/emulated.yml",
+      "source_repo": "haskell/text",
+      "target": "uraimo/run-on-arch-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/emulated.yml",
+      "source_repo": "haskell/text",
+      "target": "emulated",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/haskell-ci.yml",
+      "source_repo": "haskell/text",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/haskell-ci.yml",
+      "source_repo": "haskell/text",
+      "target": "actions/cache/restore@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/haskell-ci.yml",
+      "source_repo": "haskell/text",
+      "target": "actions/cache/save@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/haskell-ci.yml",
+      "source_repo": "haskell/text",
+      "target": "Haskell-CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/i386.yml",
+      "source_repo": "haskell/text",
+      "target": "actions/checkout@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/i386.yml",
+      "source_repo": "haskell/text",
+      "target": "ci-i386",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/simdutf-flag-alpine.yml",
+      "source_repo": "haskell/text",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/simdutf-flag-windows.yml",
+      "source_repo": "haskell/text",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/simdutf-flag-windows.yml",
+      "source_repo": "haskell/text",
+      "target": "haskell-actions/setup@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/simdutf-flag-windows.yml",
+      "source_repo": "haskell/text",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/simdutf-flag-windows.yml",
+      "source_repo": "haskell/text",
+      "target": "no-simdutf-windows-static",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/simdutf-flag.yml",
+      "source_repo": "haskell/text",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/simdutf-flag.yml",
+      "source_repo": "haskell/text",
+      "target": "haskell-actions/setup@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/simdutf-flag.yml",
+      "source_repo": "haskell/text",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/simdutf-flag.yml",
+      "source_repo": "haskell/text",
+      "target": "simdutf-flag",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/simdutf-is-genuine.yml",
+      "source_repo": "haskell/text",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/simdutf-is-genuine.yml",
+      "source_repo": "haskell/text",
+      "target": "simdutf-is-genuine",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "haskell/text",
+      "target": "haskell",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "haskell/text",
+      "target": "string",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "haskell/text",
+      "target": "string-manipulation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "haskell/text",
+      "target": "text",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "haskell/text",
+      "target": "unicode",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "haskell/text",
+      "target": "utf8",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T00:58:32.800816+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1077
+    },
+    {
+      "path": ".github/workflows/arm.yml",
+      "size": 1591
+    },
+    {
+      "path": ".github/workflows/developer-flag.yml",
+      "size": 700
+    },
+    {
+      "path": ".github/workflows/emulated.yml",
+      "size": 1099
+    },
+    {
+      "path": ".github/workflows/haskell-ci.yml",
+      "size": 10292
+    },
+    {
+      "path": ".github/workflows/i386.yml",
+      "size": 649
+    },
+    {
+      "path": ".github/workflows/simdutf-flag-alpine.yml",
+      "size": 1536
+    },
+    {
+      "path": ".github/workflows/simdutf-flag-windows.yml",
+      "size": 953
+    },
+    {
+      "path": ".github/workflows/simdutf-flag.yml",
+      "size": 744
+    },
+    {
+      "path": ".github/workflows/simdutf-is-genuine.yml",
+      "size": 408
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Haskell library for space- and time-efficient operations over Unicode text.",
+    "fork": false,
+    "full_name": "haskell/text",
+    "html_url": "https://github.com/haskell/text",
+    "language": "Haskell",
+    "pushed_at": "2026-01-27T23:03:41Z",
+    "stargazers_count": 420,
+    "topics": [
+      "haskell",
+      "string",
+      "string-manipulation",
+      "text",
+      "unicode",
+      "utf8"
+    ],
+    "updated_at": "2026-04-06T06:14:58Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "haskell/text-test-data",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "arm",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/arm.yml",
+      "term": "arm"
+    },
+    {
+      "context_snippet": "developer-flag",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/developer-flag.yml",
+      "term": "developer-flag"
+    },
+    {
+      "context_snippet": "emulated",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/emulated.yml",
+      "term": "emulated"
+    },
+    {
+      "context_snippet": "Haskell-CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/haskell-ci.yml",
+      "term": "Haskell-CI"
+    },
+    {
+      "context_snippet": "ci-i386",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/i386.yml",
+      "term": "ci-i386"
+    },
+    {
+      "context_snippet": "no-simdutf-windows-static",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/simdutf-flag-windows.yml",
+      "term": "no-simdutf-windows-static"
+    },
+    {
+      "context_snippet": "simdutf-flag",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/simdutf-flag.yml",
+      "term": "simdutf-flag"
+    },
+    {
+      "context_snippet": "simdutf-is-genuine",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/simdutf-is-genuine.yml",
+      "term": "simdutf-is-genuine"
+    },
+    {
+      "context_snippet": "Haskell library for space- and time-efficient operations over Unicode text.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "haskell"
+    },
+    {
+      "context_snippet": "Haskell library for space- and time-efficient operations over Unicode text.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "string"
+    },
+    {
+      "context_snippet": "Haskell library for space- and time-efficient operations over Unicode text.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "string-manipulation"
+    },
+    {
+      "context_snippet": "Haskell library for space- and time-efficient operations over Unicode text.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "text"
+    },
+    {
+      "context_snippet": "Haskell library for space- and time-efficient operations over Unicode text.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "unicode"
+    },
+    {
+      "context_snippet": "Haskell library for space- and time-efficient operations over Unicode text.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "utf8"
+    }
+  ]
+}

@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Fast, simple, scalable, Docker-ready HTTP microservice for high-level image processing"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "**[Fast](#benchmarks) HTTP [microservice](http://microservices.io/patterns/microservices.html)** written in Go **for high-level image processing** backed by [bimg](https://github.com/h2non/bimg) and [libvips](https://github.com/jcupitt/libvips). `imaginary` can be used as privat\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "**[Fast](#benchmarks) HTTP [microservice](http://microservices.io/patterns/microservices.html)** written in Go **for high-level image processing** backed by [bimg](https://github.com/h2non/bimg) and [libvips](https://github.com/jcupitt/libvips). `imaginary` can be used as privat\u2026"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40030449,
+      "status": "candidate",
+      "text": "picture"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40029012,
+      "status": "candidate",
+      "text": "figure"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40028955,
+      "status": "candidate",
+      "text": "effigy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40026523,
+      "status": "candidate",
+      "text": "simulacrum"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40023319,
+      "status": "candidate",
+      "text": "double"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "image",
+      "sense_id": "image#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 77057,
+      "status": "candidate",
+      "text": "paradigm"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 51040,
+      "status": "candidate",
+      "text": "epitome"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 40046,
+      "status": "candidate",
+      "text": "fancy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 38048,
+      "status": "candidate",
+      "text": "project"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 33043,
+      "status": "candidate",
+      "text": "persona"
+    }
+  ],
+  "concept_id": "image",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "image",
+  "observation_id": "d2dfd730aef1eed0",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T00:33:56.049672+00:00",
+  "observed_text": "image",
+  "source_context_snippet": "**[Fast](#benchmarks) HTTP [microservice](http://microservices.io/patterns/microservices.html)** written in Go **for high-level image processing** backed by [bimg](https://github.com/h2non/bimg) and [libvips](https://github.com/jcupitt/libvips). `imaginary` can be used as privat\u2026",
+  "source_file": null,
+  "source_repo": "h2non/imaginary",
+  "source_repo_description": "Fast, simple, scalable, Docker-ready HTTP microservice for high-level image processing"
+}

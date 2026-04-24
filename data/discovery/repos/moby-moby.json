@@ -396,13 +396,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "Dockerfile",
       "source_repo": "moby/moby",
-      "target": "rootless-containers/rootlesskit",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "Dockerfile",
-      "source_repo": "moby/moby",
       "target": "docker-archive/windows-container-utility",
       "target_type": "repository"
     },
@@ -701,7 +694,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-23T08:44:02.802689+00:00",
+  "fetched_at": "2026-04-24T01:50:53.551577+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -713,7 +706,7 @@
     },
     {
       "path": "go.mod",
-      "size": 15117
+      "size": 15087
     },
     {
       "path": ".github/workflows/.dco.yml",
@@ -753,25 +746,20 @@
     "full_name": "moby/moby",
     "html_url": "https://github.com/moby/moby",
     "language": "Go",
-    "pushed_at": "2026-04-22T11:26:04Z",
-    "stargazers_count": 71484,
+    "pushed_at": "2026-04-23T22:38:10Z",
+    "stargazers_count": 71488,
     "topics": [
       "containers",
       "docker",
       "go",
       "golang"
     ],
-    "updated_at": "2026-04-23T05:03:33Z"
+    "updated_at": "2026-04-24T01:16:59Z"
   },
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
       "full_name": "docker-archive/windows-container-utility",
-      "source_file": "Dockerfile"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "rootless-containers/rootlesskit",
       "source_file": "Dockerfile"
     }
   ],

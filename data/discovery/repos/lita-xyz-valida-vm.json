@@ -1,0 +1,69 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lita-xyz/valida-vm",
+      "target": "valida-xyz/valida-compiler",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lita-xyz/valida-vm",
+      "target": "valida-xyz/plonky3",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Cargo.toml",
+      "source_repo": "lita-xyz/valida-vm",
+      "target": "lita-xyz/plonky3",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-24T00:57:09.349783+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4065
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 2484
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "The Valida execution engine, prover, and verifier",
+    "fork": false,
+    "full_name": "lita-xyz/valida-vm",
+    "html_url": "https://github.com/lita-xyz/valida-vm",
+    "language": "Rust",
+    "pushed_at": "2025-10-06T15:05:24Z",
+    "stargazers_count": 28,
+    "topics": [],
+    "updated_at": "2026-03-11T20:49:54Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "valida-xyz/plonky3",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "valida-xyz/valida-compiler",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lita-xyz/plonky3",
+      "source_file": "Cargo.toml"
+    }
+  ],
+  "terms": []
+}

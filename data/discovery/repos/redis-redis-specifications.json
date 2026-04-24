@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-24T01:48:49.163581+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 140
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A bin for Redis' specs",
+    "fork": false,
+    "full_name": "redis/redis-specifications",
+    "html_url": "https://github.com/redis/redis-specifications",
+    "language": null,
+    "pushed_at": "2023-12-04T07:48:26Z",
+    "stargazers_count": 45,
+    "topics": [],
+    "updated_at": "2026-02-24T18:18:33Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

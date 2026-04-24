@@ -1,0 +1,310 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ExportPluto.yml"
+    },
+    {
+      "component": "julia-actions/setup-julia@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ExportPluto.yml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ExportPluto.yml"
+    },
+    {
+      "component": "JamesIves/github-pages-deploy-action@releases/v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ExportPluto.yml"
+    },
+    {
+      "component": "JuliaRegistries/TagBot@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/TagBot.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Test.yml"
+    },
+    {
+      "component": "julia-actions/setup-julia@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Test.yml"
+    },
+    {
+      "component": "julia-actions/cache@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Test.yml"
+    },
+    {
+      "component": "julia-actions/julia-runtest@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Test.yml"
+    },
+    {
+      "component": "denoland/setup-deno@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/TryThisPR.yml"
+    },
+    {
+      "component": "actions/github-script@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/TryThisPR.yml"
+    },
+    {
+      "component": "actions/github-script@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/TryThisPR.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/CompatHelper.yml",
+      "source_repo": "JuliaPluto/PlutoUI.jl",
+      "target": "CompatHelper",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ExportPluto.yml",
+      "source_repo": "JuliaPluto/PlutoUI.jl",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ExportPluto.yml",
+      "source_repo": "JuliaPluto/PlutoUI.jl",
+      "target": "julia-actions/setup-julia@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ExportPluto.yml",
+      "source_repo": "JuliaPluto/PlutoUI.jl",
+      "target": "actions/cache@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ExportPluto.yml",
+      "source_repo": "JuliaPluto/PlutoUI.jl",
+      "target": "JamesIves/github-pages-deploy-action@releases/v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ExportPluto.yml",
+      "source_repo": "JuliaPluto/PlutoUI.jl",
+      "target": "Export Pluto notebooks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/TagBot.yml",
+      "source_repo": "JuliaPluto/PlutoUI.jl",
+      "target": "JuliaRegistries/TagBot@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/TagBot.yml",
+      "source_repo": "JuliaPluto/PlutoUI.jl",
+      "target": "TagBot",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Test.yml",
+      "source_repo": "JuliaPluto/PlutoUI.jl",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Test.yml",
+      "source_repo": "JuliaPluto/PlutoUI.jl",
+      "target": "julia-actions/setup-julia@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Test.yml",
+      "source_repo": "JuliaPluto/PlutoUI.jl",
+      "target": "julia-actions/cache@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Test.yml",
+      "source_repo": "JuliaPluto/PlutoUI.jl",
+      "target": "julia-actions/julia-runtest@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/Test.yml",
+      "source_repo": "JuliaPluto/PlutoUI.jl",
+      "target": "Julia tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/TryThisPR.yml",
+      "source_repo": "JuliaPluto/PlutoUI.jl",
+      "target": "denoland/setup-deno@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/TryThisPR.yml",
+      "source_repo": "JuliaPluto/PlutoUI.jl",
+      "target": "actions/github-script@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/TryThisPR.yml",
+      "source_repo": "JuliaPluto/PlutoUI.jl",
+      "target": "Automatic PR comment: Try this PR!",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JuliaPluto/PlutoUI.jl",
+      "target": "interactive",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JuliaPluto/PlutoUI.jl",
+      "target": "julia",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JuliaPluto/PlutoUI.jl",
+      "target": "pluto-notebooks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JuliaPluto/PlutoUI.jl",
+      "target": "written-in-pluto",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T01:40:52.211261+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 738
+    },
+    {
+      "path": ".github/workflows/CompatHelper.yml",
+      "size": 872
+    },
+    {
+      "path": ".github/workflows/ExportPluto.yml",
+      "size": 1995
+    },
+    {
+      "path": ".github/workflows/TagBot.yml",
+      "size": 587
+    },
+    {
+      "path": ".github/workflows/Test.yml",
+      "size": 888
+    },
+    {
+      "path": ".github/workflows/TryThisPR.yml",
+      "size": 1191
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "JuliaPluto/PlutoUI.jl",
+    "html_url": "https://github.com/JuliaPluto/PlutoUI.jl",
+    "language": "Julia",
+    "pushed_at": "2026-04-05T13:02:43Z",
+    "stargazers_count": 314,
+    "topics": [
+      "interactive",
+      "javascript",
+      "julia",
+      "pluto-notebooks",
+      "written-in-pluto"
+    ],
+    "updated_at": "2026-03-26T08:37:11Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "CompatHelper",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/CompatHelper.yml",
+      "term": "CompatHelper"
+    },
+    {
+      "context_snippet": "Export Pluto notebooks",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ExportPluto.yml",
+      "term": "Export Pluto notebooks"
+    },
+    {
+      "context_snippet": "TagBot",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/TagBot.yml",
+      "term": "TagBot"
+    },
+    {
+      "context_snippet": "Julia tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/Test.yml",
+      "term": "Julia tests"
+    },
+    {
+      "context_snippet": "\"Automatic PR comment: Try this PR!\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/TryThisPR.yml",
+      "term": "Automatic PR comment: Try this PR!"
+    },
+    {
+      "context_snippet": "![](https://user-images.githubusercontent.com/6933510/174067690-50c8128d-748b-4f50-8a76-2ce18166642b.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "interactive"
+    },
+    {
+      "context_snippet": "![](https://user-images.githubusercontent.com/6933510/174067690-50c8128d-748b-4f50-8a76-2ce18166642b.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "julia"
+    },
+    {
+      "context_snippet": "![](https://user-images.githubusercontent.com/6933510/174067690-50c8128d-748b-4f50-8a76-2ce18166642b.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pluto-notebooks"
+    },
+    {
+      "context_snippet": "![](https://user-images.githubusercontent.com/6933510/174067690-50c8128d-748b-4f50-8a76-2ce18166642b.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "written-in-pluto"
+    }
+  ]
+}

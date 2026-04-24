@@ -1,0 +1,126 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "high-moctane/asyncomplete-nextword.vim",
+      "target": "high-moctane/nextword",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "high-moctane/asyncomplete-nextword.vim",
+      "target": "high-moctane/nextword-data",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "high-moctane/asyncomplete-nextword.vim",
+      "target": "asyncomplete",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "high-moctane/asyncomplete-nextword.vim",
+      "target": "completion",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "high-moctane/asyncomplete-nextword.vim",
+      "target": "english",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "high-moctane/asyncomplete-nextword.vim",
+      "target": "neovim",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "high-moctane/asyncomplete-nextword.vim",
+      "target": "vim8",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T00:46:52.877626+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1042
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "Provides intelligent English autocomplete for asyncomplete.vim via nextword",
+    "fork": false,
+    "full_name": "high-moctane/asyncomplete-nextword.vim",
+    "html_url": "https://github.com/high-moctane/asyncomplete-nextword.vim",
+    "language": "Vim script",
+    "pushed_at": "2021-09-13T00:47:41Z",
+    "stargazers_count": 43,
+    "topics": [
+      "asyncomplete",
+      "completion",
+      "english",
+      "neovim",
+      "vim",
+      "vim8"
+    ],
+    "updated_at": "2026-02-24T13:26:08Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "high-moctane/nextword",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "high-moctane/nextword-data",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Provides intelligent English autocomplete for asyncomplete.vim via nextword.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "asyncomplete"
+    },
+    {
+      "context_snippet": "Provides intelligent English autocomplete for asyncomplete.vim via nextword.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "completion"
+    },
+    {
+      "context_snippet": "Provides intelligent English autocomplete for asyncomplete.vim via nextword.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "english"
+    },
+    {
+      "context_snippet": "Provides intelligent English autocomplete for asyncomplete.vim via nextword.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neovim"
+    },
+    {
+      "context_snippet": "Provides intelligent English autocomplete for asyncomplete.vim via nextword.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vim8"
+    }
+  ]
+}

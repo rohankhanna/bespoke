@@ -55,6 +55,18 @@
       "source_repo": "kristijanhusak/vim-dadbod-completion",
       "status": "candidate-context",
       "text": "Database auto completion powered by [vim-dadbod](https://github.com/tpope/vim-dadbod)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dcampos/cmp-snippy",
+      "status": "candidate-context",
+      "text": "nvim-snippy completion source for nvim-cmp."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dcampos/cmp-snippy",
+      "status": "candidate-context",
+      "text": "[nvim-snippy][1] completion source for [nvim-cmp][2]."
     }
   ],
   "candidate_glosses": [
@@ -81,6 +93,12 @@
       "source_repo": "kristijanhusak/vim-dadbod-completion",
       "status": "candidate",
       "text": "Database auto completion powered by [vim-dadbod](https://github.com/tpope/vim-dadbod)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dcampos/cmp-snippy",
+      "status": "candidate",
+      "text": "[nvim-snippy][1] completion source for [nvim-cmp][2]."
     }
   ],
   "candidate_related_terms": [],
@@ -112,11 +130,23 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "kristijanhusak/vim-dadbod-completion"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "andersevenrud/cmp-tmux"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "dcampos/cmp-snippy"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

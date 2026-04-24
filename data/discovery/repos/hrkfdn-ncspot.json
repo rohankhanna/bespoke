@@ -1,0 +1,158 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd.yml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-rust-toolchain.yml"
+    },
+    {
+      "component": "a-kenji/update-rust-toolchain@v1.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-rust-toolchain.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd.yml",
+      "source_repo": "hrkfdn/ncspot",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd.yml",
+      "source_repo": "hrkfdn/ncspot",
+      "target": "actions/cache@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd.yml",
+      "source_repo": "hrkfdn/ncspot",
+      "target": "softprops/action-gh-release@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "hrkfdn/ncspot",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "hrkfdn/ncspot",
+      "target": "actions/cache@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-rust-toolchain.yml",
+      "source_repo": "hrkfdn/ncspot",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-rust-toolchain.yml",
+      "source_repo": "hrkfdn/ncspot",
+      "target": "a-kenji/update-rust-toolchain@v1.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update-rust-toolchain.yml",
+      "source_repo": "hrkfdn/ncspot",
+      "target": "update-rust-toolchain",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T00:44:56.916680+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2269
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 3755
+    },
+    {
+      "path": ".github/workflows/cd.yml",
+      "size": 3727
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 3912
+    },
+    {
+      "path": ".github/workflows/update-rust-toolchain.yml",
+      "size": 693
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Cross-platform ncurses Spotify client written in Rust, inspired by ncmpc and the likes.",
+    "fork": false,
+    "full_name": "hrkfdn/ncspot",
+    "html_url": "https://github.com/hrkfdn/ncspot",
+    "language": "Rust",
+    "pushed_at": "2026-04-23T01:19:03Z",
+    "stargazers_count": 6564,
+    "topics": [],
+    "updated_at": "2026-04-23T06:00:36Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "update-rust-toolchain",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update-rust-toolchain.yml",
+      "term": "update-rust-toolchain"
+    }
+  ]
+}

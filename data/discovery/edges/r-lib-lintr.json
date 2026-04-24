@@ -1,0 +1,321 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "r-lib/lintr",
+      "target": "r-lib/styler",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/R-CMD-check-hard.yaml",
+      "source_repo": "r-lib/lintr",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/R-CMD-check-hard.yaml",
+      "source_repo": "r-lib/lintr",
+      "target": "r-lib/actions/setup-pandoc@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/R-CMD-check-hard.yaml",
+      "source_repo": "r-lib/lintr",
+      "target": "r-lib/actions/setup-r@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/R-CMD-check-hard.yaml",
+      "source_repo": "r-lib/lintr",
+      "target": "r-lib/actions/setup-r-dependencies@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/R-CMD-check-hard.yaml",
+      "source_repo": "r-lib/lintr",
+      "target": "r-lib/actions/check-r-package@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/R-CMD-check-hard.yaml",
+      "source_repo": "r-lib/lintr",
+      "target": "R-CMD-check-hard",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/R-CMD-check.yaml",
+      "source_repo": "r-lib/lintr",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/R-CMD-check.yaml",
+      "source_repo": "r-lib/lintr",
+      "target": "r-lib/actions/setup-pandoc@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/R-CMD-check.yaml",
+      "source_repo": "r-lib/lintr",
+      "target": "r-lib/actions/setup-r@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/R-CMD-check.yaml",
+      "source_repo": "r-lib/lintr",
+      "target": "r-lib/actions/setup-r-dependencies@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/R-CMD-check.yaml",
+      "source_repo": "r-lib/lintr",
+      "target": "r-lib/actions/check-r-package@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/R-CMD-check.yaml",
+      "source_repo": "r-lib/lintr",
+      "target": "R-CMD-check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ast-fuzz.yaml",
+      "source_repo": "r-lib/lintr",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ast-fuzz.yaml",
+      "source_repo": "r-lib/lintr",
+      "target": "r-lib/actions/setup-r@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ast-fuzz.yaml",
+      "source_repo": "r-lib/lintr",
+      "target": "r-lib/actions/setup-r-dependencies@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ast-fuzz.yaml",
+      "source_repo": "r-lib/lintr",
+      "target": "ast-fuzz",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-all-examples.yaml",
+      "source_repo": "r-lib/lintr",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-all-examples.yaml",
+      "source_repo": "r-lib/lintr",
+      "target": "r-lib/actions/setup-r@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-all-examples.yaml",
+      "source_repo": "r-lib/lintr",
+      "target": "r-lib/actions/setup-r-dependencies@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-all-examples.yaml",
+      "source_repo": "r-lib/lintr",
+      "target": "check-all-examples",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yaml",
+      "source_repo": "r-lib/lintr",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yaml",
+      "source_repo": "r-lib/lintr",
+      "target": "r-lib/actions/setup-r@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yaml",
+      "source_repo": "r-lib/lintr",
+      "target": "r-lib/actions/setup-r-dependencies@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yaml",
+      "source_repo": "r-lib/lintr",
+      "target": "lint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pkgdown.yaml",
+      "source_repo": "r-lib/lintr",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pkgdown.yaml",
+      "source_repo": "r-lib/lintr",
+      "target": "r-lib/actions/setup-pandoc@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pkgdown.yaml",
+      "source_repo": "r-lib/lintr",
+      "target": "r-lib/actions/setup-r@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pkgdown.yaml",
+      "source_repo": "r-lib/lintr",
+      "target": "r-lib/actions/setup-r-dependencies@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pkgdown.yaml",
+      "source_repo": "r-lib/lintr",
+      "target": "JamesIves/github-pages-deploy-action@v4.8.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pkgdown.yaml",
+      "source_repo": "r-lib/lintr",
+      "target": "pkgdown",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/repo-meta-tests.yaml",
+      "source_repo": "r-lib/lintr",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/repo-meta-tests.yaml",
+      "source_repo": "r-lib/lintr",
+      "target": "r-lib/actions/setup-r@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/repo-meta-tests.yaml",
+      "source_repo": "r-lib/lintr",
+      "target": "r-lib/actions/setup-r-dependencies@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/repo-meta-tests.yaml",
+      "source_repo": "r-lib/lintr",
+      "target": "repo-meta-tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-coverage-examples.yaml",
+      "source_repo": "r-lib/lintr",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-coverage-examples.yaml",
+      "source_repo": "r-lib/lintr",
+      "target": "r-lib/actions/setup-r@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-coverage-examples.yaml",
+      "source_repo": "r-lib/lintr",
+      "target": "r-lib/actions/setup-r-dependencies@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-coverage-examples.yaml",
+      "source_repo": "r-lib/lintr",
+      "target": "test-coverage-examples",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-coverage.yaml",
+      "source_repo": "r-lib/lintr",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-coverage.yaml",
+      "source_repo": "r-lib/lintr",
+      "target": "r-lib/actions/setup-r@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-coverage.yaml",
+      "source_repo": "r-lib/lintr",
+      "target": "r-lib/actions/setup-r-dependencies@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-coverage.yaml",
+      "source_repo": "r-lib/lintr",
+      "target": "codecov/codecov-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-coverage.yaml",
+      "source_repo": "r-lib/lintr",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "r-lib/lintr",
+      "target": "linter",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-24T00:33:56.049672+00:00",
+  "source_repo": "r-lib/lintr"
+}

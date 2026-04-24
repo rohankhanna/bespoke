@@ -1,0 +1,128 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "angr/ci-settings/.github/workflows/angr-ci.yml@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "angr/ci-settings/.github/workflows/angr-ci.yml@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly-ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "angr/claripy",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "angr/claripy",
+      "target": "astral-sh/setup-uv@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "angr/claripy",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "angr/claripy",
+      "target": "angr/ci-settings/.github/workflows/angr-ci.yml@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "angr/claripy",
+      "target": "Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly-ci.yml",
+      "source_repo": "angr/claripy",
+      "target": "angr/ci-settings/.github/workflows/angr-ci.yml@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nightly-ci.yml",
+      "source_repo": "angr/claripy",
+      "target": "Nightly CI",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T00:56:25.858951+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 855
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1666
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 804
+    },
+    {
+      "path": ".github/workflows/nightly-ci.yml",
+      "size": 205
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "An abstraction layer for constraint solvers.",
+    "fork": false,
+    "full_name": "angr/claripy",
+    "html_url": "https://github.com/angr/claripy",
+    "language": "Python",
+    "pushed_at": "2026-04-21T17:53:59Z",
+    "stargazers_count": 331,
+    "topics": [],
+    "updated_at": "2026-04-21T17:54:04Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "term": "Test"
+    },
+    {
+      "context_snippet": "Nightly CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nightly-ci.yml",
+      "term": "Nightly CI"
+    }
+  ]
+}

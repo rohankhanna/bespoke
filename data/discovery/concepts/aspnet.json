@@ -19,6 +19,30 @@
       "source_repo": "dotnet/AspNetCore.Docs",
       "status": "candidate-context",
       "text": "This repository contains the official [ASP.NET Core documentation](https://learn.microsoft.com/aspnet/core/introduction-to-aspnet-core). See the [Contributing Guide](CONTRIBUTING.md) and the [issues list](https://github.com/dotnet/AspNetCore.Docs/issues) if you would like to hel\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "abpframework/abp",
+      "status": "candidate-context",
+      "text": "Open-source web application framework for ASP.NET Core! Offers an opinionated architecture to build enterprise software solutions with best practices on top of the .NET. Provides the fundamental infrastructure, cross-cutting-concern implementations, startup templates, application modules, UI themes, tooling and documentation."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "abpframework/abp",
+      "status": "candidate-context",
+      "text": "![build and test](https://img.shields.io/github/actions/workflow/status/abpframework/abp/build-and-test.yml?branch=dev&style=flat-square) \ud83d\udd39 [![codecov](https://codecov.io/gh/abpframework/abp/branch/dev/graph/badge.svg?token=jUKLCxa6HF)](https://codecov.io/gh/abpframework/abp) \ud83d\udd39 \u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dotnet/razor",
+      "status": "candidate-context",
+      "text": "Compiler and tooling experience for Razor ASP.NET Core apps in Visual Studio and VS Code."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dotnet/razor",
+      "status": "candidate-context",
+      "text": "\ufeff# ASP.NET Core Razor"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +51,18 @@
       "source_repo": "dotnet/AspNetCore.Docs",
       "status": "candidate",
       "text": "This repository contains the official [ASP.NET Core documentation](https://learn.microsoft.com/aspnet/core/introduction-to-aspnet-core). See the [Contributing Guide](CONTRIBUTING.md) and the [issues list](https://github.com/dotnet/AspNetCore.Docs/issues) if you would like to hel\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "abpframework/abp",
+      "status": "candidate",
+      "text": "![build and test](https://img.shields.io/github/actions/workflow/status/abpframework/abp/build-and-test.yml?branch=dev&style=flat-square) \ud83d\udd39 [![codecov](https://codecov.io/gh/abpframework/abp/branch/dev/graph/badge.svg?token=jUKLCxa6HF)](https://codecov.io/gh/abpframework/abp) \ud83d\udd39 \u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dotnet/razor",
+      "status": "candidate",
+      "text": "\ufeff# ASP.NET Core Razor"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +76,29 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "dotnet/AspNetCore.Docs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "abpframework/abp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "dotnet/AspNetCore.Docs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "dotnet/razor"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

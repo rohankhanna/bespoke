@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "sysinternals"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "niheaven/scoop-sysinternals",
+      "status": "candidate-context",
+      "text": "Scoop bucket for Sysinternals"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "niheaven/scoop-sysinternals",
+      "status": "candidate-context",
+      "text": "[![Tests](https://github.com/niheaven/scoop-sysinternals/actions/workflows/ci.yml/badge.svg)](https://github.com/niheaven/scoop-sysinternals/actions/workflows/ci.yml) [![Excavator](https://github.com/niheaven/scoop-sysinternals/actions/workflows/excavator.yml/badge.svg)](https:/\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "niheaven/scoop-sysinternals",
+      "status": "candidate",
+      "text": "[![Tests](https://github.com/niheaven/scoop-sysinternals/actions/workflows/ci.yml/badge.svg)](https://github.com/niheaven/scoop-sysinternals/actions/workflows/ci.yml) [![Excavator](https://github.com/niheaven/scoop-sysinternals/actions/workflows/excavator.yml/badge.svg)](https:/\u2026"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24999,
+      "status": "candidate",
+      "text": "process monitor"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24998,
+      "status": "candidate",
+      "text": "process explorer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24997,
+      "status": "candidate",
+      "text": "norton utilities"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24996,
+      "status": "candidate",
+      "text": "system file checker"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24995,
+      "status": "candidate",
+      "text": "microsoft management console"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "sysinternals",
+  "concept_id": "sysinternals",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "niheaven/scoop-sysinternals"
+    }
+  ],
+  "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "sysinternals",
+      "sense_id": "sysinternals#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

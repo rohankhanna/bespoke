@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Starlark Go Tests"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google/starlark-go",
+      "status": "candidate-context",
+      "text": "Starlark in Go: the Starlark configuration language, implemented in Go"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/starlark-go",
+      "status": "candidate-context",
+      "text": "Starlark Go Tests"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/starlark-go",
+      "status": "candidate",
+      "text": "Starlark Go Tests"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14037,
+      "status": "candidate",
+      "text": "check"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14037,
+      "status": "candidate",
+      "text": "checking"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14037,
+      "status": "candidate",
+      "text": "examine"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14037,
+      "status": "candidate",
+      "text": "experience"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14037,
+      "status": "candidate",
+      "text": "review"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Starlark Go Tests",
+  "concept_id": "starlark-go-tests",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "google/starlark-go"
+    }
+  ],
+  "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Starlark Go Tests",
+      "sense_id": "starlark-go-tests#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -1762,6 +1762,234 @@
       "source_repo": "Jille/raft-grpc-transport",
       "status": "candidate-context",
       "text": "[![Godoc](https://godoc.org/github.com/Jille/raft-grpc-transport?status.svg)](https://godoc.org/github.com/Jille/raft-grpc-transport)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "connectrpc/validate-go",
+      "status": "candidate-context",
+      "text": "Flexible, efficient request validation for Connect."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "connectrpc/validate-go",
+      "status": "candidate-context",
+      "text": "[![Build](https://github.com/connectrpc/validate-go/actions/workflows/ci.yaml/badge.svg?branch=main)](https://github.com/connectrpc/validate-go/actions/workflows/ci.yaml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "boyter/scc",
+      "status": "candidate-context",
+      "text": "Sloc, Cloc and Code: scc is a very fast accurate code counter with complexity calculations and COCOMO estimates written in pure Go"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "boyter/scc",
+      "status": "candidate-context",
+      "text": "![SCC illustration](./scc.jpg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "minio/sha256-simd",
+      "status": "candidate-context",
+      "text": "Accelerate SHA256 computations in pure Go using  AVX512, SHA Extensions for x86 and ARM64 for ARM. On AVX512 it provides an up to 8x improvement (over 3 GB/s per core). SHA Extensions give a performance boost of close to 4x over native."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "minio/sha256-simd",
+      "status": "candidate-context",
+      "text": "Accelerate SHA256 computations in pure Go using AVX512, SHA Extensions for x86 and ARM64 for ARM."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gitleaks/gitleaks",
+      "status": "candidate-context",
+      "text": "Find secrets with Gitleaks \ud83d\udd11"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gitleaks/gitleaks",
+      "status": "candidate-context",
+      "text": "```"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jpillora/cloud-torrent",
+      "status": "candidate-context",
+      "text": "\u2601\ufe0f\u00a0Cloud Torrent: a self-hosted remote torrent client"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jpillora/cloud-torrent",
+      "status": "candidate-context",
+      "text": "<img src=\"https://user-images.githubusercontent.com/633843/32198822-e59a0fc4-be1d-11e7-9b92-03ce17ba05ba.png\" alt=\"screenshot\"/>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alexkohler/nakedret",
+      "status": "candidate-context",
+      "text": "nakedret is a Go static analysis tool to find naked returns in functions greater than a specified function length."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alexkohler/nakedret",
+      "status": "candidate-context",
+      "text": "nakedret is a Go static analysis tool to find naked returns in functions greater than a specified function length."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alexkohler/prealloc",
+      "status": "candidate-context",
+      "text": "prealloc is a Go static analysis tool to find slice declarations that could potentially be preallocated."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alexkohler/prealloc",
+      "status": "candidate-context",
+      "text": "prealloc is a Go static analysis tool to find slice declarations that could potentially be preallocated."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ipsilon/evmc",
+      "status": "candidate-context",
+      "text": "EVMC \u2013 Ethereum Client-VM Connector API"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipsilon/evmc",
+      "status": "candidate-context",
+      "text": "[![chat: on gitter][gitter badge]][Gitter]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AdguardTeam/AdGuardHome",
+      "status": "candidate-context",
+      "text": "Network-wide ads & trackers blocking DNS server"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AdguardTeam/AdGuardHome",
+      "status": "candidate-context",
+      "text": "&nbsp;"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "uptrace/uptrace",
+      "status": "candidate-context",
+      "text": "Open source APM: OpenTelemetry traces, metrics, and logs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "uptrace/uptrace",
+      "status": "candidate-context",
+      "text": "Languages: **English** | [\u7b80\u4f53\u4e2d\u6587](README.zh.md)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vmihailenco/go-cache-benchmark",
+      "status": "candidate-context",
+      "text": "Cache benchmark for Golang"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vmihailenco/go-cache-benchmark",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vmihailenco/msgpack",
+      "status": "candidate-context",
+      "text": "msgpack.org[Go] MessagePack encoding for Golang"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vmihailenco/msgpack",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://travis-ci.org/vmihailenco/msgpack.svg)](https://travis-ci.org/vmihailenco/msgpack)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "uptrace/go-clickhouse",
+      "status": "candidate-context",
+      "text": "Golang ClickHouse client"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "uptrace/go-clickhouse",
+      "status": "candidate-context",
+      "text": "[![build workflow](https://github.com/uptrace/go-clickhouse/actions/workflows/build.yml/badge.svg)](https://github.com/uptrace/go-clickhouse/actions)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alexandreelise/frankenphp-joomla",
+      "status": "candidate-context",
+      "text": "Joomla on FrankenPHP"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alexandreelise/frankenphp-joomla",
+      "status": "candidate-context",
+      "text": "Run the popular [Joomla CMS](https://joomla.org) on top of [FrankenPHP](https://frankenphp.dev),"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dunglas/frankenphp-demo",
+      "status": "candidate-context",
+      "text": "Demo app for FrankenPHP"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dunglas/frankenphp-demo",
+      "status": "candidate-context",
+      "text": "A demo app using [FrankenPHP](https://frankenphp.dev) that uses"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "go-kit/kit",
+      "status": "candidate-context",
+      "text": "A standard library for microservices."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "go-kit/kit",
+      "status": "candidate-context",
+      "text": "![GitHub Workflow Status](https://github.com/go-kit/kit/workflows/CI/badge.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alecthomas/go_serialization_benchmarks",
+      "status": "candidate-context",
+      "text": "Benchmarks of Go serialization methods"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alecthomas/go_serialization_benchmarks",
+      "status": "candidate-context",
+      "text": "[![Gitter chat](https://badges.gitter.im/alecthomas.png)](https://gitter.im/alecthomas/Lobby)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cloudfoundry/gosigar",
+      "status": "candidate-context",
+      "text": "A Golang implementation of the Sigar API"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cloudfoundry/gosigar",
+      "status": "candidate-context",
+      "text": "Go sigar is a golang implementation of the"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Azure/autorest",
+      "status": "candidate-context",
+      "text": "OpenAPI (f.k.a Swagger) Specification code generator. Supports C#, PowerShell, Go, Java, Node.js, TypeScript, Python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Azure/autorest",
+      "status": "candidate-context",
+      "text": "\"CodeQL\""
     }
   ],
   "candidate_glosses": [
@@ -2646,6 +2874,120 @@
       "source_repo": "Jille/raft-grpc-transport",
       "status": "candidate",
       "text": "[![Godoc](https://godoc.org/github.com/Jille/raft-grpc-transport?status.svg)](https://godoc.org/github.com/Jille/raft-grpc-transport)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "connectrpc/validate-go",
+      "status": "candidate",
+      "text": "[![Build](https://github.com/connectrpc/validate-go/actions/workflows/ci.yaml/badge.svg?branch=main)](https://github.com/connectrpc/validate-go/actions/workflows/ci.yaml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "boyter/scc",
+      "status": "candidate",
+      "text": "![SCC illustration](./scc.jpg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "minio/sha256-simd",
+      "status": "candidate",
+      "text": "Accelerate SHA256 computations in pure Go using AVX512, SHA Extensions for x86 and ARM64 for ARM."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gitleaks/gitleaks",
+      "status": "candidate",
+      "text": "```"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jpillora/cloud-torrent",
+      "status": "candidate",
+      "text": "<img src=\"https://user-images.githubusercontent.com/633843/32198822-e59a0fc4-be1d-11e7-9b92-03ce17ba05ba.png\" alt=\"screenshot\"/>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alexkohler/nakedret",
+      "status": "candidate",
+      "text": "nakedret is a Go static analysis tool to find naked returns in functions greater than a specified function length."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alexkohler/prealloc",
+      "status": "candidate",
+      "text": "prealloc is a Go static analysis tool to find slice declarations that could potentially be preallocated."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipsilon/evmc",
+      "status": "candidate",
+      "text": "[![chat: on gitter][gitter badge]][Gitter]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AdguardTeam/AdGuardHome",
+      "status": "candidate",
+      "text": "&nbsp;"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "uptrace/uptrace",
+      "status": "candidate",
+      "text": "Languages: **English** | [\u7b80\u4f53\u4e2d\u6587](README.zh.md)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vmihailenco/go-cache-benchmark",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vmihailenco/msgpack",
+      "status": "candidate",
+      "text": "[![Build Status](https://travis-ci.org/vmihailenco/msgpack.svg)](https://travis-ci.org/vmihailenco/msgpack)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "uptrace/go-clickhouse",
+      "status": "candidate",
+      "text": "[![build workflow](https://github.com/uptrace/go-clickhouse/actions/workflows/build.yml/badge.svg)](https://github.com/uptrace/go-clickhouse/actions)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alexandreelise/frankenphp-joomla",
+      "status": "candidate",
+      "text": "Run the popular [Joomla CMS](https://joomla.org) on top of [FrankenPHP](https://frankenphp.dev),"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dunglas/frankenphp-demo",
+      "status": "candidate",
+      "text": "A demo app using [FrankenPHP](https://frankenphp.dev) that uses"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "go-kit/kit",
+      "status": "candidate",
+      "text": "![GitHub Workflow Status](https://github.com/go-kit/kit/workflows/CI/badge.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alecthomas/go_serialization_benchmarks",
+      "status": "candidate",
+      "text": "[![Gitter chat](https://badges.gitter.im/alecthomas.png)](https://gitter.im/alecthomas/Lobby)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cloudfoundry/gosigar",
+      "status": "candidate",
+      "text": "Go sigar is a golang implementation of the"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Azure/autorest",
+      "status": "candidate",
+      "text": "\"CodeQL\""
     }
   ],
   "candidate_related_terms": [],
@@ -3571,11 +3913,137 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "Jille/raft-grpc-transport"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "connectrpc/validate-go"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "boyter/scc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "minio/sha256-simd"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "ashvardanian/NumKong"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "gitleaks/gitleaks"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "jpillora/cloud-torrent"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "alexkohler/nakedret"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "alexkohler/prealloc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "ipsilon/evmc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "AdguardTeam/AdGuardHome"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "uptrace/uptrace"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "vmihailenco/go-cache-benchmark"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "vmihailenco/msgpack"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "uptrace/go-clickhouse"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "alexandreelise/frankenphp-joomla"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "dunglas/frankenphp-demo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "go-kit/kit"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "alecthomas/go_serialization_benchmarks"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "moby/moby"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "cloudfoundry/gosigar"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "Azure/autorest"
     }
   ],
   "first_seen_at": "2026-04-18T10:38:37.562216+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

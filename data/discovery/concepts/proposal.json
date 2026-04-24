@@ -79,6 +79,18 @@
       "source_repo": "zloirock/core-js",
       "status": "candidate-context",
       "text": "![logo](https://user-images.githubusercontent.com/2213682/146607186-8e13ddef-26a4-4ebf-befd-5aac9d77c090.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tc39/proposal-source-phase-imports",
+      "status": "candidate-context",
+      "text": "Proposal to enable importing modules at the source phase"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tc39/proposal-source-phase-imports",
+      "status": "candidate-context",
+      "text": "Champion(s): Luca Casonato, Guy Bedford"
     }
   ],
   "candidate_glosses": [
@@ -123,6 +135,12 @@
       "source_repo": "zloirock/core-js",
       "status": "candidate",
       "text": "![logo](https://user-images.githubusercontent.com/2213682/146607186-8e13ddef-26a4-4ebf-befd-5aac9d77c090.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tc39/proposal-source-phase-imports",
+      "status": "candidate",
+      "text": "Champion(s): Luca Casonato, Guy Bedford"
     }
   ],
   "candidate_related_terms": [
@@ -230,11 +248,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "zloirock/core-js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "tc39/proposal-source-phase-imports"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

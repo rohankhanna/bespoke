@@ -1,0 +1,80 @@
+{
+  "components": [
+    {
+      "component": "ethereum-optimism/factory/.github/workflows/docker-build.yaml@c8bcfc1a537d01a005a09276b1b673dca9132540",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/op-geth.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ethereum-optimism/op-geth",
+      "target": "chainsafe/web3.js",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/op-geth.yml",
+      "source_repo": "ethereum-optimism/op-geth",
+      "target": "ethereum-optimism/factory/.github/workflows/docker-build.yaml@c8bcfc1a537d01a005a09276b1b673dca9132540",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/op-geth.yml",
+      "source_repo": "ethereum-optimism/op-geth",
+      "target": "op-geth",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T00:56:53.028187+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 16223
+    },
+    {
+      "path": "Dockerfile",
+      "size": 900
+    },
+    {
+      "path": "go.mod",
+      "size": 7971
+    },
+    {
+      "path": ".github/workflows/op-geth.yml",
+      "size": 686
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "optimism",
+    "description": null,
+    "fork": false,
+    "full_name": "ethereum-optimism/op-geth",
+    "html_url": "https://github.com/ethereum-optimism/op-geth",
+    "language": "Go",
+    "pushed_at": "2026-04-15T13:38:51Z",
+    "stargazers_count": 397,
+    "topics": [],
+    "updated_at": "2026-04-23T11:44:51Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "chainsafe/web3.js",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "op-geth",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/op-geth.yml",
+      "term": "op-geth"
+    }
+  ]
+}

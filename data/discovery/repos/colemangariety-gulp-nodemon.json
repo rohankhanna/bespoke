@@ -1,0 +1,226 @@
+{
+  "components": [
+    {
+      "component": "colors",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "gulp",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "nodemon",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "coffee-script",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "gulp-jshint",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "gulp-mocha",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "is-running",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "jshint",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "should",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "package.json",
+      "source_repo": "ColemanGariety/gulp-nodemon",
+      "target": "jacksongariety/gulp-nodemon",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "ColemanGariety/gulp-nodemon",
+      "target": "colors",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "ColemanGariety/gulp-nodemon",
+      "target": "gulp",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "ColemanGariety/gulp-nodemon",
+      "target": "nodemon",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ColemanGariety/gulp-nodemon",
+      "target": "coffee-script",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ColemanGariety/gulp-nodemon",
+      "target": "gulp-jshint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ColemanGariety/gulp-nodemon",
+      "target": "gulp-mocha",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ColemanGariety/gulp-nodemon",
+      "target": "is-running",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ColemanGariety/gulp-nodemon",
+      "target": "jshint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ColemanGariety/gulp-nodemon",
+      "target": "should",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ColemanGariety/gulp-nodemon",
+      "target": "bunyan",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ColemanGariety/gulp-nodemon",
+      "target": "gulp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ColemanGariety/gulp-nodemon",
+      "target": "gulp-tasks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ColemanGariety/gulp-nodemon",
+      "target": "lint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ColemanGariety/gulp-nodemon",
+      "target": "nodemon",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T01:41:58.358626+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6676
+    },
+    {
+      "path": "package.json",
+      "size": 978
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "gulp + nodemon + convenience",
+    "fork": false,
+    "full_name": "ColemanGariety/gulp-nodemon",
+    "html_url": "https://github.com/ColemanGariety/gulp-nodemon",
+    "language": "JavaScript",
+    "pushed_at": "2022-12-05T11:39:21Z",
+    "stargazers_count": 525,
+    "topics": [
+      "bunyan",
+      "gulp",
+      "gulp-tasks",
+      "lint",
+      "nodemon"
+    ],
+    "updated_at": "2025-02-03T19:29:28Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jacksongariety/gulp-nodemon",
+      "source_file": "package.json"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "gulp-nodemon",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bunyan"
+    },
+    {
+      "context_snippet": "gulp-nodemon",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gulp"
+    },
+    {
+      "context_snippet": "gulp-nodemon",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gulp-tasks"
+    },
+    {
+      "context_snippet": "gulp-nodemon",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lint"
+    },
+    {
+      "context_snippet": "gulp-nodemon",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nodemon"
+    }
+  ]
+}

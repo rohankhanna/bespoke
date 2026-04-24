@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "GraphTrainer 8 GPU Integration Tests"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pytorch/torchtitan",
+      "status": "candidate-context",
+      "text": "A PyTorch native platform for training generative AI models"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pytorch/torchtitan",
+      "status": "candidate-context",
+      "text": "GraphTrainer 8 GPU Integration Tests"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pytorch/torchtitan",
+      "status": "candidate",
+      "text": "GraphTrainer 8 GPU Integration Tests"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25645,
+      "status": "candidate",
+      "text": "battleship"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18255,
+      "status": "candidate",
+      "text": "cpu"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18182,
+      "status": "candidate",
+      "text": "commissar"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10163,
+      "status": "candidate",
+      "text": "admiralty"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10163,
+      "status": "candidate",
+      "text": "advance"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "GraphTrainer 8 GPU Integration Tests",
+  "concept_id": "graphtrainer-8-gpu-integration-tests",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/integration_test_8gpu_graph_trainer.yaml",
+      "source_repo": "pytorch/torchtitan"
+    }
+  ],
+  "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "GraphTrainer 8 GPU Integration Tests",
+      "sense_id": "graphtrainer-8-gpu-integration-tests#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

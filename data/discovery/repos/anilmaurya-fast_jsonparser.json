@@ -1,0 +1,108 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ruby.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ruby.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "anilmaurya/fast_jsonparser",
+      "target": "saka1/simdjson_ruby",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "anilmaurya/fast_jsonparser",
+      "target": "ohler55/oj",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "anilmaurya/fast_jsonparser",
+      "target": "rake-compiler/rake-compiler",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ruby.yml",
+      "source_repo": "anilmaurya/fast_jsonparser",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ruby.yml",
+      "source_repo": "anilmaurya/fast_jsonparser",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ruby.yml",
+      "source_repo": "anilmaurya/fast_jsonparser",
+      "target": "Ruby",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T01:51:40.966747+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5717
+    },
+    {
+      "path": ".github/workflows/ruby.yml",
+      "size": 964
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Fastest Json parser for Ruby, wrapper for simdjson",
+    "fork": false,
+    "full_name": "anilmaurya/fast_jsonparser",
+    "html_url": "https://github.com/anilmaurya/fast_jsonparser",
+    "language": "C++",
+    "pushed_at": "2025-08-29T02:18:17Z",
+    "stargazers_count": 309,
+    "topics": [],
+    "updated_at": "2026-04-07T14:04:22Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ohler55/oj",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rake-compiler/rake-compiler",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "saka1/simdjson_ruby",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Ruby",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ruby.yml",
+      "term": "Ruby"
+    }
+  ]
+}

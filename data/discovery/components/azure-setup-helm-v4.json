@@ -1,7 +1,7 @@
 {
   "component": "azure/setup-helm@v4",
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -27,6 +27,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/ci-eso.yml",
       "source_repo": "BorisPolonsky/dify-helm"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/call-run-integration-test.yaml",
+      "source_repo": "fluent/fluent-bit"
     }
   ]
 }

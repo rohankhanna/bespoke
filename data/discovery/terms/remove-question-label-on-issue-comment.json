@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -16,6 +16,16 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/automation_remove_question_label_on_comment.yml",
       "source_repo": "stevearc/overseer.nvim"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/automation_remove_question_label_on_comment.yml",
+      "source_repo": "stevearc/conform.nvim"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/automation_remove_question_label_on_comment.yml",
+      "source_repo": "stevearc/stickybuf.nvim"
     }
   ],
   "term": "Remove Question Label on Issue Comment"

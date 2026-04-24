@@ -6,7 +6,7 @@
       "source_file": ".github/workflows/check_cirrus_cron.yml"
     },
     {
-      "component": "dawidd6/action-send-mail@2cea9617b09d79a095af21254fbcb7ae95903dde",
+      "component": "dawidd6/action-send-mail@d38f3f7cd391cdebfe0d38efc3998b935e951c4f",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/check_cirrus_cron.yml"
     },
@@ -16,7 +16,7 @@
       "source_file": ".github/workflows/check_cirrus_cron.yml"
     },
     {
-      "component": "dawidd6/action-send-mail@2cea9617b09d79a095af21254fbcb7ae95903dde",
+      "component": "dawidd6/action-send-mail@d38f3f7cd391cdebfe0d38efc3998b935e951c4f",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/check_cirrus_cron.yml"
     },
@@ -81,7 +81,7 @@
       "source_file": ".github/workflows/issue_pr_lock.yml"
     },
     {
-      "component": "dawidd6/action-send-mail@2cea9617b09d79a095af21254fbcb7ae95903dde",
+      "component": "dawidd6/action-send-mail@d38f3f7cd391cdebfe0d38efc3998b935e951c4f",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/issue_pr_lock.yml"
     }
@@ -91,28 +91,14 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "containers/podman",
-      "target": "containers/image",
+      "target": "containers/release-keys",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "containers/podman",
-      "target": "containers/buildah",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "containers/podman",
-      "target": "containers/conmon",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "containers/podman",
-      "target": "containers/container-libs",
+      "target": "containers/podman-desktop",
       "target_type": "repository"
     },
     {
@@ -133,7 +119,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/check_cirrus_cron.yml",
       "source_repo": "containers/podman",
-      "target": "dawidd6/action-send-mail@2cea9617b09d79a095af21254fbcb7ae95903dde",
+      "target": "dawidd6/action-send-mail@d38f3f7cd391cdebfe0d38efc3998b935e951c4f",
       "target_type": "component"
     },
     {
@@ -231,7 +217,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/issue_pr_lock.yml",
       "source_repo": "containers/podman",
-      "target": "dawidd6/action-send-mail@2cea9617b09d79a095af21254fbcb7ae95903dde",
+      "target": "dawidd6/action-send-mail@d38f3f7cd391cdebfe0d38efc3998b935e951c4f",
       "target_type": "component"
     },
     {
@@ -270,7 +256,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-22T01:14:25.889218+00:00",
+  "fetched_at": "2026-04-24T01:55:32.586250+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -278,7 +264,7 @@
     },
     {
       "path": "go.mod",
-      "size": 9074
+      "size": 9056
     },
     {
       "path": "pyproject.toml",
@@ -290,7 +276,7 @@
     },
     {
       "path": ".github/workflows/check_cirrus_cron.yml",
-      "size": 3551
+      "size": 3543
     },
     {
       "path": ".github/workflows/cherry-pick.yml",
@@ -310,7 +296,7 @@
     },
     {
       "path": ".github/workflows/issue_pr_lock.yml",
-      "size": 3202
+      "size": 3198
     }
   ],
   "related_repositories": [],
@@ -322,8 +308,8 @@
     "full_name": "containers/podman",
     "html_url": "https://github.com/containers/podman",
     "language": "Go",
-    "pushed_at": "2026-04-21T20:58:25Z",
-    "stargazers_count": 31457,
+    "pushed_at": "2026-04-23T19:16:11Z",
+    "stargazers_count": 31489,
     "topics": [
       "containers",
       "docker",
@@ -331,27 +317,17 @@
       "linux",
       "oci"
     ],
-    "updated_at": "2026-04-22T01:11:37Z"
+    "updated_at": "2026-04-24T00:50:10Z"
   },
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
-      "full_name": "containers/buildah",
+      "full_name": "containers/podman-desktop",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "containers/conmon",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "containers/container-libs",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "containers/image",
+      "full_name": "containers/release-keys",
       "source_file": "README.md"
     }
   ],

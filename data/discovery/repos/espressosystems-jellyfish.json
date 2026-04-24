@@ -1,0 +1,415 @@
+{
+  "components": [
+    {
+      "component": "styfle/cancel-workflow-action@0.13.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@stable",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "crate-ci/typos@v1.44.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "rustsec/audit-check@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "peaceiris/actions-gh-pages@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "github/combine-prs@v5.2.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/combine-prs.yml"
+    },
+    {
+      "component": "aslafy-z/conventional-pr-title-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/commit-title.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/periodic_checks.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@nightly",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/periodic_checks.yml"
+    },
+    {
+      "component": "aig787/cargo-udeps-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/periodic_checks.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update_nix.yml"
+    },
+    {
+      "component": "cachix/install-nix-action@v31",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update_nix.yml"
+    },
+    {
+      "component": "cachix/cachix-action@v16",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update_nix.yml"
+    },
+    {
+      "component": "DeterminateSystems/update-flake-lock@v28",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update_nix.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "EspressoSystems/jellyfish",
+      "target": "espressosystems/jellyfish-compat",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "EspressoSystems/jellyfish",
+      "target": "dalek-cryptography/curve25519-dalek",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "EspressoSystems/jellyfish",
+      "target": "mozilla/grcov",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Cargo.toml",
+      "source_repo": "EspressoSystems/jellyfish",
+      "target": "arkworks-rs/spongefish",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "EspressoSystems/jellyfish",
+      "target": "styfle/cancel-workflow-action@0.13.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "EspressoSystems/jellyfish",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "EspressoSystems/jellyfish",
+      "target": "dtolnay/rust-toolchain@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "EspressoSystems/jellyfish",
+      "target": "dtolnay/rust-toolchain@stable",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "EspressoSystems/jellyfish",
+      "target": "Swatinem/rust-cache@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "EspressoSystems/jellyfish",
+      "target": "crate-ci/typos@v1.44.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "EspressoSystems/jellyfish",
+      "target": "rustsec/audit-check@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "EspressoSystems/jellyfish",
+      "target": "peaceiris/actions-gh-pages@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "EspressoSystems/jellyfish",
+      "target": "Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/combine-prs.yml",
+      "source_repo": "EspressoSystems/jellyfish",
+      "target": "github/combine-prs@v5.2.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/combine-prs.yml",
+      "source_repo": "EspressoSystems/jellyfish",
+      "target": "Combine PRs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/commit-title.yaml",
+      "source_repo": "EspressoSystems/jellyfish",
+      "target": "aslafy-z/conventional-pr-title-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/commit-title.yaml",
+      "source_repo": "EspressoSystems/jellyfish",
+      "target": "Conventional Commit Titles",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/periodic_checks.yml",
+      "source_repo": "EspressoSystems/jellyfish",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/periodic_checks.yml",
+      "source_repo": "EspressoSystems/jellyfish",
+      "target": "dtolnay/rust-toolchain@nightly",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/periodic_checks.yml",
+      "source_repo": "EspressoSystems/jellyfish",
+      "target": "aig787/cargo-udeps-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/periodic_checks.yml",
+      "source_repo": "EspressoSystems/jellyfish",
+      "target": "Periodic code checks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update_nix.yml",
+      "source_repo": "EspressoSystems/jellyfish",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update_nix.yml",
+      "source_repo": "EspressoSystems/jellyfish",
+      "target": "cachix/install-nix-action@v31",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update_nix.yml",
+      "source_repo": "EspressoSystems/jellyfish",
+      "target": "cachix/cachix-action@v16",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update_nix.yml",
+      "source_repo": "EspressoSystems/jellyfish",
+      "target": "DeterminateSystems/update-flake-lock@v28",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update_nix.yml",
+      "source_repo": "EspressoSystems/jellyfish",
+      "target": "update-flake-lock",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "EspressoSystems/jellyfish",
+      "target": "plonk",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "EspressoSystems/jellyfish",
+      "target": "rust",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "EspressoSystems/jellyfish",
+      "target": "zero-knowledge-proofs",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T00:54:57.883411+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5051
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 2420
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 2588
+    },
+    {
+      "path": ".github/workflows/combine-prs.yml",
+      "size": 510
+    },
+    {
+      "path": ".github/workflows/commit-title.yaml",
+      "size": 338
+    },
+    {
+      "path": ".github/workflows/periodic_checks.yml",
+      "size": 503
+    },
+    {
+      "path": ".github/workflows/update_nix.yml",
+      "size": 673
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A Rust Implementation of the PLONK ZKP System and Extensions",
+    "fork": false,
+    "full_name": "EspressoSystems/jellyfish",
+    "html_url": "https://github.com/EspressoSystems/jellyfish",
+    "language": "Rust",
+    "pushed_at": "2026-04-19T00:42:49Z",
+    "stargazers_count": 515,
+    "topics": [
+      "plonk",
+      "rust",
+      "zero-knowledge-proofs"
+    ],
+    "updated_at": "2026-04-23T06:36:19Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dalek-cryptography/curve25519-dalek",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "espressosystems/jellyfish-compat",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mozilla/grcov",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "arkworks-rs/spongefish",
+      "source_file": "Cargo.toml"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "Build"
+    },
+    {
+      "context_snippet": "Combine PRs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/combine-prs.yml",
+      "term": "Combine PRs"
+    },
+    {
+      "context_snippet": "Conventional Commit Titles",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/commit-title.yaml",
+      "term": "Conventional Commit Titles"
+    },
+    {
+      "context_snippet": "Periodic code checks",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/periodic_checks.yml",
+      "term": "Periodic code checks"
+    },
+    {
+      "context_snippet": "update-flake-lock",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update_nix.yml",
+      "term": "update-flake-lock"
+    },
+    {
+      "context_snippet": "![example workflow](https://github.com/EspressoSystems/jellyfish/actions/workflows/build.yml/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "plonk"
+    },
+    {
+      "context_snippet": "![example workflow](https://github.com/EspressoSystems/jellyfish/actions/workflows/build.yml/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust"
+    },
+    {
+      "context_snippet": "![example workflow](https://github.com/EspressoSystems/jellyfish/actions/workflows/build.yml/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "zero-knowledge-proofs"
+    }
+  ]
+}

@@ -44,6 +44,18 @@
       "source_repo": "clj-kondo/clj-kondo",
       "status": "candidate-context",
       "text": "Regression tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "meta-pytorch/torchtune",
+      "status": "candidate-context",
+      "text": "PyTorch native post-training library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "meta-pytorch/torchtune",
+      "status": "candidate-context",
+      "text": "Regression Tests"
     }
   ],
   "candidate_glosses": [
@@ -64,6 +76,12 @@
       "source_repo": "clj-kondo/clj-kondo",
       "status": "candidate",
       "text": "Regression tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "meta-pytorch/torchtune",
+      "status": "candidate",
+      "text": "Regression Tests"
     }
   ],
   "candidate_related_terms": [
@@ -161,11 +179,23 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": ".github/workflows/regression.yml",
       "source_repo": "gastownhall/beads"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/regression.yml",
+      "source_repo": "gastownhall/beads"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/regression_test.yaml",
+      "source_repo": "meta-pytorch/torchtune"
     }
   ],
   "first_seen_at": "2026-04-18T12:46:59.510459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,405 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "google/oss-fuzz/infra/cifuzz/actions/build_fuzzers@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cifuzz.yml"
+    },
+    {
+      "component": "google/oss-fuzz/infra/cifuzz/actions/run_fuzzers@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cifuzz.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cifuzz.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codespell.yml"
+    },
+    {
+      "component": "codespell-project/actions-codespell@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codespell.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "cpp-linter/cpp-linter-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "libvips/libvips",
+      "target": "cshum/vipsgen",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "libvips/libvips",
+      "target": "akash-akya/vix",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "libvips/libvips",
+      "target": "carrierwaveuploader/carrierwave",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "libvips/libvips",
+      "target": "bblanchon/pdfium-binaries",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "libvips/libvips",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cifuzz.yml",
+      "source_repo": "libvips/libvips",
+      "target": "google/oss-fuzz/infra/cifuzz/actions/build_fuzzers@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cifuzz.yml",
+      "source_repo": "libvips/libvips",
+      "target": "google/oss-fuzz/infra/cifuzz/actions/run_fuzzers@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cifuzz.yml",
+      "source_repo": "libvips/libvips",
+      "target": "actions/upload-artifact@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cifuzz.yml",
+      "source_repo": "libvips/libvips",
+      "target": "CIFuzz",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codespell.yml",
+      "source_repo": "libvips/libvips",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codespell.yml",
+      "source_repo": "libvips/libvips",
+      "target": "codespell-project/actions-codespell@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codespell.yml",
+      "source_repo": "libvips/libvips",
+      "target": "Codespell",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "libvips/libvips",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "libvips/libvips",
+      "target": "cpp-linter/cpp-linter-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "libvips/libvips",
+      "target": "Lint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "libvips/libvips",
+      "target": "graphicsmagick",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "libvips/libvips",
+      "target": "heic",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "libvips/libvips",
+      "target": "image-processing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "libvips/libvips",
+      "target": "imagemagick",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "libvips/libvips",
+      "target": "jpeg",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "libvips/libvips",
+      "target": "libvips",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "libvips/libvips",
+      "target": "nifti",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "libvips/libvips",
+      "target": "openexr",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "libvips/libvips",
+      "target": "openslide",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "libvips/libvips",
+      "target": "pdfium",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "libvips/libvips",
+      "target": "tiff",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "libvips/libvips",
+      "target": "webp",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T00:50:40.768373+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10176
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 5995
+    },
+    {
+      "path": ".github/workflows/cifuzz.yml",
+      "size": 826
+    },
+    {
+      "path": ".github/workflows/codespell.yml",
+      "size": 288
+    },
+    {
+      "path": ".github/workflows/lint.yml",
+      "size": 729
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A fast image processing library with low memory needs.",
+    "fork": false,
+    "full_name": "libvips/libvips",
+    "html_url": "https://github.com/libvips/libvips",
+    "language": "C",
+    "pushed_at": "2026-04-23T17:07:21Z",
+    "stargazers_count": 11258,
+    "topics": [
+      "c",
+      "cpp",
+      "gif",
+      "graphicsmagick",
+      "heic",
+      "image-processing",
+      "imagemagick",
+      "jpeg",
+      "libvips",
+      "nifti",
+      "openexr",
+      "openslide",
+      "pdf",
+      "pdfium",
+      "png",
+      "svg",
+      "tiff",
+      "webp"
+    ],
+    "updated_at": "2026-04-23T20:39:56Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "akash-akya/vix",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bblanchon/pdfium-binaries",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "carrierwaveuploader/carrierwave",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cshum/vipsgen",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "CIFuzz",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cifuzz.yml",
+      "term": "CIFuzz"
+    },
+    {
+      "context_snippet": "Codespell",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codespell.yml",
+      "term": "Codespell"
+    },
+    {
+      "context_snippet": "Lint",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "term": "Lint"
+    },
+    {
+      "context_snippet": "[![CI](https://github.com/libvips/libvips/workflows/CI/badge.svg)](https://github.com/libvips/libvips/actions)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "graphicsmagick"
+    },
+    {
+      "context_snippet": "[![CI](https://github.com/libvips/libvips/workflows/CI/badge.svg)](https://github.com/libvips/libvips/actions)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "heic"
+    },
+    {
+      "context_snippet": "[![CI](https://github.com/libvips/libvips/workflows/CI/badge.svg)](https://github.com/libvips/libvips/actions)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-processing"
+    },
+    {
+      "context_snippet": "[![CI](https://github.com/libvips/libvips/workflows/CI/badge.svg)](https://github.com/libvips/libvips/actions)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "imagemagick"
+    },
+    {
+      "context_snippet": "[![CI](https://github.com/libvips/libvips/workflows/CI/badge.svg)](https://github.com/libvips/libvips/actions)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "jpeg"
+    },
+    {
+      "context_snippet": "[![CI](https://github.com/libvips/libvips/workflows/CI/badge.svg)](https://github.com/libvips/libvips/actions)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "libvips"
+    },
+    {
+      "context_snippet": "[![CI](https://github.com/libvips/libvips/workflows/CI/badge.svg)](https://github.com/libvips/libvips/actions)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nifti"
+    },
+    {
+      "context_snippet": "[![CI](https://github.com/libvips/libvips/workflows/CI/badge.svg)](https://github.com/libvips/libvips/actions)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "openexr"
+    },
+    {
+      "context_snippet": "[![CI](https://github.com/libvips/libvips/workflows/CI/badge.svg)](https://github.com/libvips/libvips/actions)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "openslide"
+    },
+    {
+      "context_snippet": "[![CI](https://github.com/libvips/libvips/workflows/CI/badge.svg)](https://github.com/libvips/libvips/actions)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pdfium"
+    },
+    {
+      "context_snippet": "[![CI](https://github.com/libvips/libvips/workflows/CI/badge.svg)](https://github.com/libvips/libvips/actions)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tiff"
+    },
+    {
+      "context_snippet": "[![CI](https://github.com/libvips/libvips/workflows/CI/badge.svg)](https://github.com/libvips/libvips/actions)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "webp"
+    }
+  ]
+}

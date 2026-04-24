@@ -1,0 +1,100 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Tobski/simple_vulkan_synchronization",
+      "target": "khronosgroup/vulkan-loaderandvalidationlayers",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Tobski/simple_vulkan_synchronization",
+      "target": "single-header-lib",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Tobski/simple_vulkan_synchronization",
+      "target": "vulkan",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Tobski/simple_vulkan_synchronization",
+      "target": "vulkan-api",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Tobski/simple_vulkan_synchronization",
+      "target": "vulkan-synchronization",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T00:53:05.393947+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6386
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A single-header library with a simplified interface for Vulkan synchronization",
+    "fork": false,
+    "full_name": "Tobski/simple_vulkan_synchronization",
+    "html_url": "https://github.com/Tobski/simple_vulkan_synchronization",
+    "language": "C++",
+    "pushed_at": "2023-03-06T10:56:52Z",
+    "stargazers_count": 240,
+    "topics": [
+      "c",
+      "single-header-lib",
+      "vulkan",
+      "vulkan-api",
+      "vulkan-synchronization"
+    ],
+    "updated_at": "2026-03-26T03:13:59Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "khronosgroup/vulkan-loaderandvalidationlayers",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "In an effort to make Vulkan synchronization more accessible, I created this",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "single-header-lib"
+    },
+    {
+      "context_snippet": "In an effort to make Vulkan synchronization more accessible, I created this",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vulkan"
+    },
+    {
+      "context_snippet": "In an effort to make Vulkan synchronization more accessible, I created this",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vulkan-api"
+    },
+    {
+      "context_snippet": "In an effort to make Vulkan synchronization more accessible, I created this",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vulkan-synchronization"
+    }
+  ]
+}

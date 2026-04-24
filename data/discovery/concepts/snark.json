@@ -31,6 +31,18 @@
       "source_repo": "arkworks-rs/groth16",
       "status": "candidate-context",
       "text": "<h1 align=\"center\">ark-groth16</h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "arkworks-rs/crypto-primitives",
+      "status": "candidate-context",
+      "text": "Interfaces and implementations of cryptographic primitives, along with R1CS constraints for them "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "arkworks-rs/crypto-primitives",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">ark-crypto-primitives</h1>"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "arkworks-rs/groth16",
       "status": "candidate",
       "text": "<h1 align=\"center\">ark-groth16</h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "arkworks-rs/crypto-primitives",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">ark-crypto-primitives</h1>"
     }
   ],
   "candidate_related_terms": [
@@ -100,11 +118,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "arkworks-rs/groth16"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "arkworks-rs/crypto-primitives"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

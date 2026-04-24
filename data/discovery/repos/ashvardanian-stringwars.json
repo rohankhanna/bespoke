@@ -1,0 +1,349 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "ashvardanian/tinysemver@v2.1.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "CasperWA/push-protected@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@stable",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ashvardanian/StringWars",
+      "target": "ashvardanian/stringzilla",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ashvardanian/StringWars",
+      "target": "apache/arrow-rs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ashvardanian/StringWars",
+      "target": "briansmith/ring",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ashvardanian/StringWars",
+      "target": "ashvardanian/xl-sum",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "ashvardanian/StringWars",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "ashvardanian/StringWars",
+      "target": "ashvardanian/tinysemver@v2.1.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "ashvardanian/StringWars",
+      "target": "CasperWA/push-protected@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "ashvardanian/StringWars",
+      "target": "dtolnay/rust-toolchain@stable",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "ashvardanian/StringWars",
+      "target": "Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ashvardanian/StringWars",
+      "target": "benchmark",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ashvardanian/StringWars",
+      "target": "bioinformatics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ashvardanian/StringWars",
+      "target": "database",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ashvardanian/StringWars",
+      "target": "dataframe",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ashvardanian/StringWars",
+      "target": "levenshtein-distance",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ashvardanian/StringWars",
+      "target": "libc",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ashvardanian/StringWars",
+      "target": "memchr",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ashvardanian/StringWars",
+      "target": "polars",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ashvardanian/StringWars",
+      "target": "rapids",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ashvardanian/StringWars",
+      "target": "string",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ashvardanian/StringWars",
+      "target": "string-search",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ashvardanian/StringWars",
+      "target": "strstr",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ashvardanian/StringWars",
+      "target": "substring-search",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T00:49:36.265991+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 29109
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 6809
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 2133
+    },
+    {
+      "path": "requirements.txt",
+      "size": 1482
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 2117
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Comparing performance-oriented string-processing libraries for substring search, multi-pattern matching, hashing, edit-distances, sketching, and sorting across CPUs and GPUs in Rust \ud83e\udd80 and Python \ud83d\udc0d",
+    "fork": false,
+    "full_name": "ashvardanian/StringWars",
+    "html_url": "https://github.com/ashvardanian/StringWars",
+    "language": "Rust",
+    "pushed_at": "2026-03-19T17:48:57Z",
+    "stargazers_count": 144,
+    "topics": [
+      "benchmark",
+      "bioinformatics",
+      "database",
+      "dataframe",
+      "levenshtein-distance",
+      "libc",
+      "memchr",
+      "polars",
+      "rapids",
+      "string",
+      "string-search",
+      "strstr",
+      "substring-search"
+    ],
+    "updated_at": "2026-03-20T20:09:12Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "apache/arrow-rs",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ashvardanian/stringzilla",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ashvardanian/xl-sum",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "briansmith/ring",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Release"
+    },
+    {
+      "context_snippet": "![StringWars Thumbnail](https://github.com/ashvardanian/ashvardanian/blob/master/repositories/StringWars-v2.png?raw=true)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "benchmark"
+    },
+    {
+      "context_snippet": "![StringWars Thumbnail](https://github.com/ashvardanian/ashvardanian/blob/master/repositories/StringWars-v2.png?raw=true)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bioinformatics"
+    },
+    {
+      "context_snippet": "![StringWars Thumbnail](https://github.com/ashvardanian/ashvardanian/blob/master/repositories/StringWars-v2.png?raw=true)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "database"
+    },
+    {
+      "context_snippet": "![StringWars Thumbnail](https://github.com/ashvardanian/ashvardanian/blob/master/repositories/StringWars-v2.png?raw=true)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dataframe"
+    },
+    {
+      "context_snippet": "![StringWars Thumbnail](https://github.com/ashvardanian/ashvardanian/blob/master/repositories/StringWars-v2.png?raw=true)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "levenshtein-distance"
+    },
+    {
+      "context_snippet": "![StringWars Thumbnail](https://github.com/ashvardanian/ashvardanian/blob/master/repositories/StringWars-v2.png?raw=true)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "libc"
+    },
+    {
+      "context_snippet": "![StringWars Thumbnail](https://github.com/ashvardanian/ashvardanian/blob/master/repositories/StringWars-v2.png?raw=true)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "memchr"
+    },
+    {
+      "context_snippet": "![StringWars Thumbnail](https://github.com/ashvardanian/ashvardanian/blob/master/repositories/StringWars-v2.png?raw=true)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "polars"
+    },
+    {
+      "context_snippet": "![StringWars Thumbnail](https://github.com/ashvardanian/ashvardanian/blob/master/repositories/StringWars-v2.png?raw=true)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rapids"
+    },
+    {
+      "context_snippet": "![StringWars Thumbnail](https://github.com/ashvardanian/ashvardanian/blob/master/repositories/StringWars-v2.png?raw=true)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "string"
+    },
+    {
+      "context_snippet": "![StringWars Thumbnail](https://github.com/ashvardanian/ashvardanian/blob/master/repositories/StringWars-v2.png?raw=true)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "string-search"
+    },
+    {
+      "context_snippet": "![StringWars Thumbnail](https://github.com/ashvardanian/ashvardanian/blob/master/repositories/StringWars-v2.png?raw=true)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "strstr"
+    },
+    {
+      "context_snippet": "![StringWars Thumbnail](https://github.com/ashvardanian/ashvardanian/blob/master/repositories/StringWars-v2.png?raw=true)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "substring-search"
+    }
+  ]
+}

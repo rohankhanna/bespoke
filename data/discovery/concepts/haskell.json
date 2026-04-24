@@ -139,6 +139,18 @@
       "source_repo": "vyorkin/ormolu.el",
       "status": "candidate-context",
       "text": "Format Haskell source code using [ormolu](https://github.com/tweag/ormolu). Requires [reformatter.el](https://github.com/purcell/reformatter.el)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "haskell/text",
+      "status": "candidate-context",
+      "text": "Haskell library for space- and time-efficient operations over Unicode text."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "haskell/text",
+      "status": "candidate-context",
+      "text": "Haskell library for space- and time-efficient operations over Unicode text."
     }
   ],
   "candidate_glosses": [
@@ -207,6 +219,12 @@
       "source_repo": "vyorkin/ormolu.el",
       "status": "candidate",
       "text": "Format Haskell source code using [ormolu](https://github.com/tweag/ormolu). Requires [reformatter.el](https://github.com/purcell/reformatter.el)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "haskell/text",
+      "status": "candidate",
+      "text": "Haskell library for space- and time-efficient operations over Unicode text."
     }
   ],
   "candidate_related_terms": [
@@ -316,11 +334,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "vyorkin/ormolu.el"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "haskell/text"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,34 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "degrigis/awesome-angr",
+      "target": "angr/heaphopper",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "degrigis/awesome-angr",
+      "target": "angr/angrop",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "degrigis/awesome-angr",
+      "target": "angr/angr-management",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "degrigis/awesome-angr",
+      "target": "ash09/angr-static-analysis-for-vuzzer64",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-04-24T00:33:56.049672+00:00",
+  "source_repo": "degrigis/awesome-angr"
+}

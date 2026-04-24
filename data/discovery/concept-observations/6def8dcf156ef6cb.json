@@ -84,7 +84,7 @@
   "normalized_form": "external-contributor-greeter",
   "observation_id": "6def8dcf156ef6cb",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_at": "2026-04-24T00:33:56.049672+00:00",
   "observed_text": "External contributor greeter",
   "source_context_snippet": "External contributor greeter",
   "source_file": ".github/workflows/welcome-external-pr.yml",

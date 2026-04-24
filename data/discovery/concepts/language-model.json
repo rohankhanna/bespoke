@@ -247,6 +247,18 @@
       "source_repo": "CLUEbenchmark/CLUE",
       "status": "candidate-context",
       "text": "datasets, baselines, pre-trained models, corpus and leaderboard"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "teelinsan/camoscio",
+      "status": "candidate-context",
+      "text": "Camoscio: An Italian instruction-tuned language model based on LLaMA"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "teelinsan/camoscio",
+      "status": "candidate-context",
+      "text": "This repository contains code for Camoscio, an Italian instruction-tuned LLaMA based on [Stanford Alpaca](https://github.com/tatsu-lab/stanford_alpaca) and trained with [low-rank adaptation (LoRA)](https://arxiv.org/pdf/2106.09685.pdf). The companion paper of this repo is availa\u2026"
     }
   ],
   "candidate_glosses": [
@@ -369,6 +381,12 @@
       "source_repo": "CLUEbenchmark/CLUE",
       "status": "candidate",
       "text": "datasets, baselines, pre-trained models, corpus and leaderboard"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "teelinsan/camoscio",
+      "status": "candidate",
+      "text": "This repository contains code for Camoscio, an Italian instruction-tuned LLaMA based on [Stanford Alpaca](https://github.com/tatsu-lab/stanford_alpaca) and trained with [low-rank adaptation (LoRA)](https://arxiv.org/pdf/2106.09685.pdf). The companion paper of this repo is availa\u2026"
     }
   ],
   "candidate_related_terms": [],
@@ -502,11 +520,23 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "CLUEbenchmark/CLUE"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "SWE-bench/SWE-bench"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "teelinsan/camoscio"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

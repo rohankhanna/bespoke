@@ -223,6 +223,36 @@
       "source_repo": "vyorkin/ormolu.el",
       "status": "candidate-context",
       "text": "Format Haskell source code using [ormolu](https://github.com/tweag/ormolu). Requires [reformatter.el](https://github.com/purcell/reformatter.el)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ema2159/centaur-tabs",
+      "status": "candidate-context",
+      "text": "Emacs plugin aiming to become an aesthetic, modern looking tabs plugin"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ema2159/centaur-tabs",
+      "status": "candidate-context",
+      "text": "CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Alexander-Miller/treemacs",
+      "status": "candidate-context",
+      "text": "CI Build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "emacs-lsp/lsp-treemacs",
+      "status": "candidate-context",
+      "text": "lsp-mode :heart: treemacs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "emacs-lsp/lsp-treemacs",
+      "status": "candidate-context",
+      "text": "CI"
     }
   ],
   "candidate_glosses": [
@@ -333,6 +363,24 @@
       "source_repo": "vyorkin/ormolu.el",
       "status": "candidate",
       "text": "Format Haskell source code using [ormolu](https://github.com/tweag/ormolu). Requires [reformatter.el](https://github.com/purcell/reformatter.el)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ema2159/centaur-tabs",
+      "status": "candidate",
+      "text": "CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Alexander-Miller/treemacs",
+      "status": "candidate",
+      "text": "CI Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "emacs-lsp/lsp-treemacs",
+      "status": "candidate",
+      "text": "CI"
     }
   ],
   "candidate_related_terms": [
@@ -484,11 +532,29 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "vyorkin/ormolu.el"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "ema2159/centaur-tabs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "Alexander-Miller/treemacs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "emacs-lsp/lsp-treemacs"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

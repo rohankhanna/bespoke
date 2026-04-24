@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Azure Deploy GitHub Action"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Upload bicep-deploy-common Package"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Upload bicep-deploy-common Package"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13160,
+      "status": "candidate",
+      "text": "download"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13119,
+      "status": "candidate",
+      "text": "scan"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12676,
+      "status": "candidate",
+      "text": "clip"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12676,
+      "status": "candidate",
+      "text": "image"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12294,
+      "status": "candidate",
+      "text": "application"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Upload bicep-deploy-common Package",
+      "sense_id": "upload-bicep-deploy-common-package#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "upload-bicep-deploy-common-package",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "upload-bicep-deploy-common-package",
+  "observation_id": "d5b59e826d0c87f2",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-24T00:33:56.049672+00:00",
+  "observed_text": "Upload bicep-deploy-common Package",
+  "source_context_snippet": "Upload bicep-deploy-common Package",
+  "source_file": ".github/workflows/upload-package.yml",
+  "source_repo": "Azure/bicep-deploy",
+  "source_repo_description": "Azure Deploy GitHub Action"
+}

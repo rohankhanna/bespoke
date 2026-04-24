@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "The Github Action for the Determinate Nix Installer"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "The fast, friendly, and reliable GitHub Action to install [Determinate Nix][det-nix] with [flakes]."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "The fast, friendly, and reliable GitHub Action to install [Determinate Nix][det-nix] with [flakes]."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10051294,
+      "status": "candidate",
+      "text": "flake off"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10049209,
+      "status": "candidate",
+      "text": "chip"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10046800,
+      "status": "candidate",
+      "text": "fleck"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10041993,
+      "status": "candidate",
+      "text": "scrap"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10033617,
+      "status": "candidate",
+      "text": "peel"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "flakes",
+      "sense_id": "flakes#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "flakes",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "flakes",
+  "observation_id": "5e5d7be70551c363",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T00:33:56.049672+00:00",
+  "observed_text": "flakes",
+  "source_context_snippet": "The fast, friendly, and reliable GitHub Action to install [Determinate Nix][det-nix] with [flakes].",
+  "source_file": null,
+  "source_repo": "DeterminateSystems/nix-installer-action",
+  "source_repo_description": "The Github Action for the Determinate Nix Installer"
+}

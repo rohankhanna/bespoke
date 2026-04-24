@@ -43,6 +43,18 @@
       "source_repo": "walles/ftop",
       "status": "candidate-context",
       "text": "[![Linux CI](https://github.com/walles/ftop/actions/workflows/linux-ci.yml/badge.svg?branch=main)](https://github.com/walles/ftop/actions/workflows/linux-ci.yml?query=branch%3Amain)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Rigellute/spotify-tui",
+      "status": "candidate-context",
+      "text": "Spotify for the terminal written in Rust \ud83d\ude80"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Rigellute/spotify-tui",
+      "status": "candidate-context",
+      "text": "![Continuous Integration](https://github.com/Rigellute/spotify-tui/workflows/Continuous%20Integration/badge.svg?branch=master&event=push)"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "walles/ftop",
       "status": "candidate",
       "text": "[![Linux CI](https://github.com/walles/ftop/actions/workflows/linux-ci.yml/badge.svg?branch=main)](https://github.com/walles/ftop/actions/workflows/linux-ci.yml?query=branch%3Amain)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Rigellute/spotify-tui",
+      "status": "candidate",
+      "text": "![Continuous Integration](https://github.com/Rigellute/spotify-tui/workflows/Continuous%20Integration/badge.svg?branch=master&event=push)"
     }
   ],
   "candidate_related_terms": [],
@@ -88,11 +106,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "walles/ftop"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "Rigellute/spotify-tui"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

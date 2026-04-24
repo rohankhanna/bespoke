@@ -1,0 +1,146 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "pytorch/torchtitan",
+      "target": "amd-agi/torchtitan-amd",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "pytorch/torchtitan",
+      "target": "pytorch/torchtune",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "pytorch/torchtitan",
+      "target": "pytorch/torchft",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_whl_and_publish.yaml",
+      "source_repo": "pytorch/torchtitan",
+      "target": "pytorch/test-infra/.github/workflows/generate_binary_build_matrix.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_whl_and_publish.yaml",
+      "source_repo": "pytorch/torchtitan",
+      "target": "pytorch/test-infra/.github/workflows/build_wheels_linux.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-code.yml",
+      "source_repo": "pytorch/torchtitan",
+      "target": "pytorch/test-infra/.github/workflows/_claude-code.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/claude-code.yml",
+      "source_repo": "pytorch/torchtitan",
+      "target": "Claude Code",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-builds.yml",
+      "source_repo": "pytorch/torchtitan",
+      "target": "pytorch/test-infra/.github/actions/setup-ssh@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-builds.yml",
+      "source_repo": "pytorch/torchtitan",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-builds.yml",
+      "source_repo": "pytorch/torchtitan",
+      "target": "pytorch/test-infra/.github/actions/setup-linux@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-builds.yml",
+      "source_repo": "pytorch/torchtitan",
+      "target": "pytorch/test-infra/.github/actions/calculate-docker-image@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-builds.yml",
+      "source_repo": "pytorch/torchtitan",
+      "target": "pytorch/test-infra/.github/actions/teardown-linux@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker-builds.yml",
+      "source_repo": "pytorch/torchtitan",
+      "target": "docker-builds",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration_test_4gpu_rl.yaml",
+      "source_repo": "pytorch/torchtitan",
+      "target": "pytorch/test-infra/.github/workflows/linux_job_v2.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/integration_test_4gpu_rl.yaml",
+      "source_repo": "pytorch/torchtitan",
+      "target": "RL Integration Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration_test_8gpu_autoparallel.yaml",
+      "source_repo": "pytorch/torchtitan",
+      "target": "pytorch/test-infra/.github/workflows/linux_job_v2.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/integration_test_8gpu_autoparallel.yaml",
+      "source_repo": "pytorch/torchtitan",
+      "target": "Auto Parallel 8 GPU Integration Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration_test_8gpu_features.yaml",
+      "source_repo": "pytorch/torchtitan",
+      "target": "pytorch/test-infra/.github/workflows/linux_job_v2.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration_test_8gpu_graph_trainer.yaml",
+      "source_repo": "pytorch/torchtitan",
+      "target": "pytorch/test-infra/.github/workflows/linux_job_v2.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/integration_test_8gpu_graph_trainer.yaml",
+      "source_repo": "pytorch/torchtitan",
+      "target": "GraphTrainer 8 GPU Integration Tests",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-24T00:33:56.049672+00:00",
+  "source_repo": "pytorch/torchtitan"
+}

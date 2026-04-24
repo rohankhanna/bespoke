@@ -1,0 +1,34 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "objectbox/objectbox-swift-generator",
+      "target": "krzysztofzablocki/sourcery",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "objectbox/objectbox-swift-generator",
+      "target": "realm/swiftlint",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "objectbox/objectbox-swift-generator",
+      "target": "simplydanny/swiftlintplugins",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Dockerfile",
+      "source_repo": "objectbox/objectbox-swift-generator",
+      "target": "krzysztofzablocki/sourcery",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-04-24T00:33:56.049672+00:00",
+  "source_repo": "objectbox/objectbox-swift-generator"
+}

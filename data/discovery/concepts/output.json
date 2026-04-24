@@ -1,11 +1,14 @@
 {
   "aliases": [
-    "output"
+    "output",
+    "Output"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
     "tool-component",
-    "capability"
+    "capability",
+    "workflow-process",
+    "data-document-artifact"
   ],
   "candidate_definitions": [
     {
@@ -31,6 +34,18 @@
       "source_repo": "clayrisser/sphinx-markdown-builder",
       "status": "candidate-context",
       "text": "---"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "SwiftGen/SwiftGen",
+      "status": "candidate-context",
+      "text": "The Swift code generator for your assets, storyboards, Localizable.strings, \u2026 \u2014 Get rid of all String-based APIs!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SwiftGen/SwiftGen",
+      "status": "candidate-context",
+      "text": "Output"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +60,12 @@
       "source_repo": "clayrisser/sphinx-markdown-builder",
       "status": "candidate",
       "text": "---"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SwiftGen/SwiftGen",
+      "status": "candidate",
+      "text": "Output"
     }
   ],
   "candidate_related_terms": [
@@ -136,11 +157,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "clayrisser/sphinx-markdown-builder"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/compile-output.yml",
+      "source_repo": "SwiftGen/SwiftGen"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

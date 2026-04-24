@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Ready-to-run Docker images containing Jupyter applications"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Run pre-commit hooks"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Run pre-commit hooks"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12857,
+      "status": "candidate",
+      "text": "hook"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12411,
+      "status": "candidate",
+      "text": "fleet"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12411,
+      "status": "candidate",
+      "text": "hooky"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12411,
+      "status": "candidate",
+      "text": "line"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12411,
+      "status": "candidate",
+      "text": "use"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Run pre-commit hooks",
+      "sense_id": "run-pre-commit-hooks#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "run-pre-commit-hooks",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "run-pre-commit-hooks",
+  "observation_id": "5f0d180cb00b58ae",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-24T00:33:56.049672+00:00",
+  "observed_text": "Run pre-commit hooks",
+  "source_context_snippet": "Run pre-commit hooks",
+  "source_file": ".github/workflows/pre-commit.yml",
+  "source_repo": "jupyter/docker-stacks",
+  "source_repo_description": "Ready-to-run Docker images containing Jupyter applications"
+}

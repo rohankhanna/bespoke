@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "Update Homebrew Formula"
+    "Update Homebrew Formula",
+    "Update Homebrew formula"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -13,10 +14,65 @@
       "source_repo": "cisco-ai-defense/skill-scanner",
       "status": "candidate-context",
       "text": "Security Scanner for Agent Skills"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "git-friendly/git-friendly",
+      "status": "candidate-context",
+      "text": "Streamline your git workflow: just type `pull`, `branch`, `merge`, `push`"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "git-friendly/git-friendly",
+      "status": "candidate-context",
+      "text": "Update Homebrew formula"
     }
   ],
-  "candidate_glosses": [],
-  "candidate_related_terms": [],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "git-friendly/git-friendly",
+      "status": "candidate",
+      "text": "Update Homebrew formula"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23164,
+      "status": "candidate",
+      "text": "ale"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18806,
+      "status": "candidate",
+      "text": "book"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18806,
+      "status": "candidate",
+      "text": "fancy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18806,
+      "status": "candidate",
+      "text": "hypermedia"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18806,
+      "status": "candidate",
+      "text": "multimedia"
+    }
+  ],
   "candidate_synonyms": [],
   "canonical_name": "Update Homebrew Formula",
   "concept_id": "update-homebrew-formula",
@@ -27,12 +83,20 @@
       "observed_at": "2026-04-18T13:15:13.756138+00:00",
       "source_file": ".github/workflows/update-homebrew.yml",
       "source_repo": "cisco-ai-defense/skill-scanner"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/bump-homebrew-formula.yml",
+      "source_repo": "git-friendly/git-friendly"
     }
   ],
   "first_seen_at": "2026-04-18T13:15:13.756138+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-18T13:15:13.756138+00:00",
-  "lexical_providers": [],
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
   "lexical_status": "unresolved",
   "possible_senses": [
     {

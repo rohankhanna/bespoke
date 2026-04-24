@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Performant, batteries-included completion plugin for Neovim "
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Test Nix"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Test Nix"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16200,
+      "status": "candidate",
+      "text": "reject"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15960,
+      "status": "candidate",
+      "text": "veto"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15117,
+      "status": "candidate",
+      "text": "deny"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15117,
+      "status": "candidate",
+      "text": "scotch"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15117,
+      "status": "candidate",
+      "text": "scrap"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Test Nix",
+      "sense_id": "test-nix#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "test-nix",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "test-nix",
+  "observation_id": "f15fc54df61d79ce",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-24T00:33:56.049672+00:00",
+  "observed_text": "Test Nix",
+  "source_context_snippet": "Test Nix",
+  "source_file": ".github/workflows/nix.yaml",
+  "source_repo": "saghen/blink.cmp",
+  "source_repo_description": "Performant, batteries-included completion plugin for Neovim "
+}

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Casbin Actix-web access control middleware"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![Crates.io](https://img.shields.io/crates/d/actix-casbin-auth)](https://crates.io/crates/actix-casbin-auth)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![Crates.io](https://img.shields.io/crates/d/actix-casbin-auth)](https://crates.io/crates/actix-casbin-auth)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10020934,
+      "status": "candidate",
+      "text": "sspi"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10020933,
+      "status": "candidate",
+      "text": "ldap"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10020932,
+      "status": "candidate",
+      "text": "ldif"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10020931,
+      "status": "candidate",
+      "text": "sccs"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10020930,
+      "status": "candidate",
+      "text": "cmdb"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "rbac",
+      "sense_id": "rbac#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "rbac",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "rbac",
+  "observation_id": "644fff8e6b1b83a0",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T00:33:56.049672+00:00",
+  "observed_text": "rbac",
+  "source_context_snippet": "[![Crates.io](https://img.shields.io/crates/d/actix-casbin-auth)](https://crates.io/crates/actix-casbin-auth)",
+  "source_file": null,
+  "source_repo": "apache/casbin-actix-casbin-auth",
+  "source_repo_description": "Casbin Actix-web access control middleware"
+}

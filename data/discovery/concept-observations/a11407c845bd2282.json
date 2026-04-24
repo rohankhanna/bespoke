@@ -1,0 +1,115 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "SDK for building Kubernetes applications. Provides high level APIs, useful abstractions, and project scaffolding."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<img src=\"website/static/operator_logo_sdk_color.svg\" height=\"125px\"></img>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<img src=\"website/static/operator_logo_sdk_color.svg\" height=\"125px\"></img>"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39968008,
+      "status": "candidate",
+      "text": "manipulator"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39927940,
+      "status": "candidate",
+      "text": "hustler"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29978631,
+      "status": "candidate",
+      "text": "wheeler dealer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29978630,
+      "status": "candidate",
+      "text": "operation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29978218,
+      "status": "candidate",
+      "text": "operational"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "operator",
+      "sense_id": "operator#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 16033,
+      "status": "candidate",
+      "text": "hustler"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1031,
+      "status": "candidate",
+      "text": "manipulator"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1025,
+      "status": "candidate",
+      "text": "wheeler dealer"
+    }
+  ],
+  "concept_id": "operator",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "operator",
+  "observation_id": "a11407c845bd2282",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T00:33:56.049672+00:00",
+  "observed_text": "operator",
+  "source_context_snippet": "<img src=\"website/static/operator_logo_sdk_color.svg\" height=\"125px\"></img>",
+  "source_file": null,
+  "source_repo": "operator-framework/operator-sdk",
+  "source_repo_description": "SDK for building Kubernetes applications. Provides high level APIs, useful abstractions, and project scaffolding."
+}

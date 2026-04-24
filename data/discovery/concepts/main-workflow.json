@@ -55,6 +55,30 @@
       "source_repo": "ocurrent/ocluster",
       "status": "candidate-context",
       "text": "Main workflow"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ocurrent/obuilder",
+      "status": "candidate-context",
+      "text": "Experimental \"docker build\" alternative using btrfs/zfs snapshots"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ocurrent/obuilder",
+      "status": "candidate-context",
+      "text": "Main workflow"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "karancode/asdf-aws-vault",
+      "status": "candidate-context",
+      "text": "aws-vault plugin for asdf-vm"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "karancode/asdf-aws-vault",
+      "status": "candidate-context",
+      "text": "Main workflow"
     }
   ],
   "candidate_glosses": [
@@ -79,6 +103,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "ocurrent/ocluster",
+      "status": "candidate",
+      "text": "Main workflow"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ocurrent/obuilder",
+      "status": "candidate",
+      "text": "Main workflow"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "karancode/asdf-aws-vault",
       "status": "candidate",
       "text": "Main workflow"
     }
@@ -148,11 +184,23 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": ".github/workflows/main.yml",
       "source_repo": "ocurrent/ocluster"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "ocurrent/obuilder"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "karancode/asdf-aws-vault"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

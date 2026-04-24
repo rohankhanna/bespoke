@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A tool for managing complex enterprise Kubernetes environments as code."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![Build Status](https://app.travis-ci.com/bitnami/kubecfg.svg?branch=main)](https://app.travis-ci.com/github/bitnami/kubecfg)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![Build Status](https://app.travis-ci.com/bitnami/kubecfg.svg?branch=main)](https://app.travis-ci.com/github/bitnami/kubecfg)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "kubernernetes-resources",
+      "sense_id": "kubernernetes-resources#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "kubernernetes-resources",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "kubernernetes-resources",
+  "observation_id": "db5e5f3047669f3f",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T00:33:56.049672+00:00",
+  "observed_text": "kubernernetes-resources",
+  "source_context_snippet": "[![Build Status](https://app.travis-ci.com/bitnami/kubecfg.svg?branch=main)](https://app.travis-ci.com/github/bitnami/kubecfg)",
+  "source_file": null,
+  "source_repo": "vmware-archive/kubecfg",
+  "source_repo_description": "A tool for managing complex enterprise Kubernetes environments as code."
+}

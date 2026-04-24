@@ -1,0 +1,451 @@
+{
+  "components": [
+    {
+      "component": "actions/setup-python@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github-torch-hub.yml"
+    },
+    {
+      "component": "actions/cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github-torch-hub.yml"
+    },
+    {
+      "component": "actions/checkout@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/model-templates.yml"
+    },
+    {
+      "component": "actions/setup-python@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/model-templates.yml"
+    },
+    {
+      "component": "actions/cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/model-templates.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/model-templates.yml"
+    },
+    {
+      "component": "actions/checkout@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-conda.yml"
+    },
+    {
+      "component": "conda-incubator/setup-miniconda@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-conda.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/self-push.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/self-push.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/self-push.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/self-push.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/self-push.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/self-push.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/self-push.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/self-push.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/self-push.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/self-push.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/self-push.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/self-push.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/self-push.yml"
+    },
+    {
+      "component": "actions/download-artifact@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/self-push.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/self-scheduled.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/self-scheduled.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/self-scheduled.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/self-scheduled.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/self-scheduled.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/self-scheduled.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/self-scheduled.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/self-scheduled.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/self-scheduled.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/self-scheduled.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/self-scheduled.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/self-scheduled.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/self-scheduled.yml"
+    },
+    {
+      "component": "actions/download-artifact@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/self-scheduled.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml"
+    },
+    {
+      "component": "actions/setup-python@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "microsoft/huggingface-transformers",
+      "target": "eleutherai/gpt-neo",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github-torch-hub.yml",
+      "source_repo": "microsoft/huggingface-transformers",
+      "target": "actions/setup-python@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github-torch-hub.yml",
+      "source_repo": "microsoft/huggingface-transformers",
+      "target": "actions/cache@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/github-torch-hub.yml",
+      "source_repo": "microsoft/huggingface-transformers",
+      "target": "Torch hub integration",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/model-templates.yml",
+      "source_repo": "microsoft/huggingface-transformers",
+      "target": "actions/checkout@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/model-templates.yml",
+      "source_repo": "microsoft/huggingface-transformers",
+      "target": "actions/setup-python@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/model-templates.yml",
+      "source_repo": "microsoft/huggingface-transformers",
+      "target": "actions/cache@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/model-templates.yml",
+      "source_repo": "microsoft/huggingface-transformers",
+      "target": "actions/upload-artifact@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/model-templates.yml",
+      "source_repo": "microsoft/huggingface-transformers",
+      "target": "Model templates runner",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-conda.yml",
+      "source_repo": "microsoft/huggingface-transformers",
+      "target": "actions/checkout@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-conda.yml",
+      "source_repo": "microsoft/huggingface-transformers",
+      "target": "conda-incubator/setup-miniconda@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-conda.yml",
+      "source_repo": "microsoft/huggingface-transformers",
+      "target": "Release - Conda",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/self-push.yml",
+      "source_repo": "microsoft/huggingface-transformers",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/self-push.yml",
+      "source_repo": "microsoft/huggingface-transformers",
+      "target": "actions/upload-artifact@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/self-push.yml",
+      "source_repo": "microsoft/huggingface-transformers",
+      "target": "actions/download-artifact@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/self-push.yml",
+      "source_repo": "microsoft/huggingface-transformers",
+      "target": "Self-hosted runner (push)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/self-scheduled.yml",
+      "source_repo": "microsoft/huggingface-transformers",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/self-scheduled.yml",
+      "source_repo": "microsoft/huggingface-transformers",
+      "target": "actions/upload-artifact@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/self-scheduled.yml",
+      "source_repo": "microsoft/huggingface-transformers",
+      "target": "actions/download-artifact@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/self-scheduled.yml",
+      "source_repo": "microsoft/huggingface-transformers",
+      "target": "Self-hosted runner (scheduled)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "microsoft/huggingface-transformers",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "microsoft/huggingface-transformers",
+      "target": "actions/setup-python@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "microsoft/huggingface-transformers",
+      "target": "Stale Bot",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T01:59:34.399630+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 36091
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 57
+    },
+    {
+      "path": ".github/workflows/github-torch-hub.yml",
+      "size": 1297
+    },
+    {
+      "path": ".github/workflows/model-templates.yml",
+      "size": 2773
+    },
+    {
+      "path": ".github/workflows/release-conda.yml",
+      "size": 1048
+    },
+    {
+      "path": ".github/workflows/self-push.yml",
+      "size": 10153
+    },
+    {
+      "path": ".github/workflows/self-scheduled.yml",
+      "size": 12273
+    },
+    {
+      "path": ".github/workflows/stale.yml",
+      "size": 552
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "\ud83e\udd17Transformers: State-of-the-art Natural Language Processing for Pytorch and TensorFlow 2.0.",
+    "fork": true,
+    "full_name": "microsoft/huggingface-transformers",
+    "html_url": "https://github.com/microsoft/huggingface-transformers",
+    "language": "Python",
+    "pushed_at": "2023-06-12T21:30:33Z",
+    "stargazers_count": 45,
+    "topics": [],
+    "updated_at": "2025-11-25T19:26:06Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "eleutherai/gpt-neo",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Torch hub integration",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/github-torch-hub.yml",
+      "term": "Torch hub integration"
+    },
+    {
+      "context_snippet": "Model templates runner",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/model-templates.yml",
+      "term": "Model templates runner"
+    },
+    {
+      "context_snippet": "Release - Conda",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-conda.yml",
+      "term": "Release - Conda"
+    },
+    {
+      "context_snippet": "Self-hosted runner (push)",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/self-push.yml",
+      "term": "Self-hosted runner (push)"
+    },
+    {
+      "context_snippet": "Self-hosted runner (scheduled)",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/self-scheduled.yml",
+      "term": "Self-hosted runner (scheduled)"
+    },
+    {
+      "context_snippet": "Stale Bot",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "term": "Stale Bot"
+    }
+  ]
+}

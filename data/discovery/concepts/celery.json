@@ -1,11 +1,14 @@
 {
   "aliases": [
-    "celery"
+    "celery",
+    "Celery"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
     "tool-component",
-    "capability"
+    "capability",
+    "workflow-process",
+    "data-document-artifact"
   ],
   "candidate_definitions": [
     {
@@ -19,6 +22,18 @@
       "source_repo": "cookiecutter/cookiecutter-django",
       "status": "candidate-context",
       "text": "[![Build Status](https://img.shields.io/github/actions/workflow/status/cookiecutter/cookiecutter-django/ci.yml?branch=main)](https://github.com/cookiecutter/cookiecutter-django/actions/workflows/ci.yml?query=branch%3Amain)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "celery/celery",
+      "status": "candidate-context",
+      "text": "Distributed Task Queue (development branch)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "celery/celery",
+      "status": "candidate-context",
+      "text": "Celery"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +42,12 @@
       "source_repo": "cookiecutter/cookiecutter-django",
       "status": "candidate",
       "text": "[![Build Status](https://img.shields.io/github/actions/workflow/status/cookiecutter/cookiecutter-django/ci.yml?branch=main)](https://github.com/cookiecutter/cookiecutter-django/actions/workflows/ci.yml?query=branch%3Amain)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "celery/celery",
+      "status": "candidate",
+      "text": "Celery"
     }
   ],
   "candidate_related_terms": [
@@ -91,11 +112,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "cookiecutter/cookiecutter-django"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/python-package.yml",
+      "source_repo": "celery/celery"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Check Commits"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "huggingface/optimum-quanto",
+      "status": "candidate-context",
+      "text": "A pytorch quantization backend for optimum"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "huggingface/optimum-quanto",
+      "status": "candidate-context",
+      "text": "Check Commits"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "huggingface/optimum-quanto",
+      "status": "candidate",
+      "text": "Check Commits"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12150,
+      "status": "candidate",
+      "text": "die"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11432,
+      "status": "candidate",
+      "text": "personal foul"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11232,
+      "status": "candidate",
+      "text": "checking"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11232,
+      "status": "candidate",
+      "text": "countercheck"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11232,
+      "status": "candidate",
+      "text": "firebreak"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Check Commits",
+  "concept_id": "check-commits",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/check-commits.yml",
+      "source_repo": "huggingface/optimum-quanto"
+    }
+  ],
+  "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Check Commits",
+      "sense_id": "check-commits#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

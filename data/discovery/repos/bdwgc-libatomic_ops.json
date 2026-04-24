@@ -1,0 +1,103 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake-build.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake-build.yml",
+      "source_repo": "bdwgc/libatomic_ops",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cmake-build.yml",
+      "source_repo": "bdwgc/libatomic_ops",
+      "target": "cmake build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bdwgc/libatomic_ops",
+      "target": "cross-platform",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bdwgc/libatomic_ops",
+      "target": "library",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bdwgc/libatomic_ops",
+      "target": "portable",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T00:50:13.031964+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7066
+    },
+    {
+      "path": ".github/workflows/cmake-build.yml",
+      "size": 3701
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "The atomic_ops project (Atomic memory update operations portable implementation)",
+    "fork": false,
+    "full_name": "bdwgc/libatomic_ops",
+    "html_url": "https://github.com/bdwgc/libatomic_ops",
+    "language": "C",
+    "pushed_at": "2026-01-22T19:30:17Z",
+    "stargazers_count": 447,
+    "topics": [
+      "c",
+      "cross-platform",
+      "library",
+      "portable"
+    ],
+    "updated_at": "2026-04-21T08:11:20Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "cmake build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cmake-build.yml",
+      "term": "cmake build"
+    },
+    {
+      "context_snippet": "IN NEW CODE, PLEASE USE C11 OR C++14 STANDARD ATOMICS INSTEAD OF THE CORE",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cross-platform"
+    },
+    {
+      "context_snippet": "IN NEW CODE, PLEASE USE C11 OR C++14 STANDARD ATOMICS INSTEAD OF THE CORE",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "library"
+    },
+    {
+      "context_snippet": "IN NEW CODE, PLEASE USE C11 OR C++14 STANDARD ATOMICS INSTEAD OF THE CORE",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "portable"
+    }
+  ]
+}

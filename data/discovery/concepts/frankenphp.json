@@ -19,6 +19,42 @@
       "source_repo": "php/frankenphp",
       "status": "candidate-context",
       "text": "<h1 align=\"center\"><a href=\"https://frankenphp.dev\"><img src=\"frankenphp.png\" alt=\"FrankenPHP\" width=\"600\"></a></h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alexandreelise/frankenphp-joomla",
+      "status": "candidate-context",
+      "text": "Joomla on FrankenPHP"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alexandreelise/frankenphp-joomla",
+      "status": "candidate-context",
+      "text": "Run the popular [Joomla CMS](https://joomla.org) on top of [FrankenPHP](https://frankenphp.dev),"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dunglas/frankenphp-demo",
+      "status": "candidate-context",
+      "text": "Demo app for FrankenPHP"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dunglas/frankenphp-demo",
+      "status": "candidate-context",
+      "text": "A demo app using [FrankenPHP](https://frankenphp.dev) that uses"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dunglas/frankenphp-drupal",
+      "status": "candidate-context",
+      "text": "Drupal on FrankenPHP"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dunglas/frankenphp-drupal",
+      "status": "candidate-context",
+      "text": "Run the popular [Drupal CMS](https://drupal.org) on top of [FrankenPHP](https://frankenphp.dev),"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +63,24 @@
       "source_repo": "php/frankenphp",
       "status": "candidate",
       "text": "<h1 align=\"center\"><a href=\"https://frankenphp.dev\"><img src=\"frankenphp.png\" alt=\"FrankenPHP\" width=\"600\"></a></h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alexandreelise/frankenphp-joomla",
+      "status": "candidate",
+      "text": "Run the popular [Joomla CMS](https://joomla.org) on top of [FrankenPHP](https://frankenphp.dev),"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dunglas/frankenphp-demo",
+      "status": "candidate",
+      "text": "A demo app using [FrankenPHP](https://frankenphp.dev) that uses"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dunglas/frankenphp-drupal",
+      "status": "candidate",
+      "text": "Run the popular [Drupal CMS](https://drupal.org) on top of [FrankenPHP](https://frankenphp.dev),"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +94,29 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "php/frankenphp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "alexandreelise/frankenphp-joomla"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "dunglas/frankenphp-demo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "dunglas/frankenphp-drupal"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

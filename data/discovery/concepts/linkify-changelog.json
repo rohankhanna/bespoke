@@ -67,6 +67,42 @@
       "source_repo": "arkworks-rs/poly-commit",
       "status": "candidate-context",
       "text": "Linkify Changelog"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "arkworks-rs/crypto-primitives",
+      "status": "candidate-context",
+      "text": "Interfaces and implementations of cryptographic primitives, along with R1CS constraints for them "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "arkworks-rs/crypto-primitives",
+      "status": "candidate-context",
+      "text": "Linkify Changelog"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "arkworks-rs/r1cs-std",
+      "status": "candidate-context",
+      "text": "R1CS constraints for bits, fields, and elliptic curves"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "arkworks-rs/r1cs-std",
+      "status": "candidate-context",
+      "text": "Linkify Changelog"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "arkworks-rs/curves",
+      "status": "candidate-context",
+      "text": "Implementations of popular elliptic curves "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "arkworks-rs/curves",
+      "status": "candidate-context",
+      "text": "Linkify Changelog"
     }
   ],
   "candidate_glosses": [
@@ -97,6 +133,24 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "arkworks-rs/poly-commit",
+      "status": "candidate",
+      "text": "Linkify Changelog"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "arkworks-rs/crypto-primitives",
+      "status": "candidate",
+      "text": "Linkify Changelog"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "arkworks-rs/r1cs-std",
+      "status": "candidate",
+      "text": "Linkify Changelog"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "arkworks-rs/curves",
       "status": "candidate",
       "text": "Linkify Changelog"
     }
@@ -172,11 +226,35 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": ".github/workflows/linkify_changelog.yml",
       "source_repo": "arkworks-rs/poly-commit"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/linkify_changelog.yml",
+      "source_repo": "arkworks-rs/crypto-primitives"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/linkify_changelog.yml",
+      "source_repo": "arkworks-rs/r1cs-std"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/linkify_changelog.yml",
+      "source_repo": "arkworks-rs/curves"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/linkify_changelog.yml",
+      "source_repo": "arkworks-rs/poly-commit"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

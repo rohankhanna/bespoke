@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Arbitrary-precision arithmetic in pure Swift"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Swift"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Swift"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39987849,
+      "status": "candidate",
+      "text": "fast"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39891695,
+      "status": "candidate",
+      "text": "fleet"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39611873,
+      "status": "candidate",
+      "text": "western fence lizard"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30020517,
+      "status": "candidate",
+      "text": "blue-belly"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30020517,
+      "status": "candidate",
+      "text": "jonathan swift"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Swift",
+      "sense_id": "swift#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 18061,
+      "status": "candidate",
+      "text": "fast"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 9049,
+      "status": "candidate",
+      "text": "fleet"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 12,
+      "status": "candidate",
+      "text": "western fence lizard"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 9,
+      "status": "candidate",
+      "text": "blue-belly"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "jonathan swift"
+    }
+  ],
+  "concept_id": "swift",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "swift",
+  "observation_id": "295d2cdd0d7678a3",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-24T00:33:56.049672+00:00",
+  "observed_text": "Swift",
+  "source_context_snippet": "Swift",
+  "source_file": ".github/workflows/swift.yml",
+  "source_repo": "attaswift/BigInt",
+  "source_repo_description": "Arbitrary-precision arithmetic in pure Swift"
+}

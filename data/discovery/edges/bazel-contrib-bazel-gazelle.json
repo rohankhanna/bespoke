@@ -11,14 +11,14 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "bazel-contrib/bazel-gazelle",
-      "target": "benchsci/rules_nodejs_gazelle",
+      "target": "calsign/gazelle_rust",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "bazel-contrib/bazel-gazelle",
-      "target": "bazelbuild/rules_rust",
+      "target": "cgrindel/swift_gazelle_plugin",
       "target_type": "repository"
     },
     {
@@ -29,6 +29,6 @@
       "target_type": "repository"
     }
   ],
-  "generated_at": "2026-04-23T18:30:35.670459+00:00",
+  "generated_at": "2026-04-24T00:33:56.049672+00:00",
   "source_repo": "bazel-contrib/bazel-gazelle"
 }

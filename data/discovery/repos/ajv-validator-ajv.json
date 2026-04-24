@@ -256,28 +256,14 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "ajv-validator/ajv",
-      "target": "ebdrup/json-schema-benchmark",
+      "target": "simplex-chat/simplex-chat",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "ajv-validator/ajv",
-      "target": "ajv-validator/ajv-formats",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "ajv-validator/ajv",
-      "target": "ajv-validator/ajv-i18n",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "ajv-validator/ajv",
-      "target": "ajv-validator/ajv-keywords",
+      "target": "pandastrike/jsck",
       "target_type": "repository"
     },
     {
@@ -659,7 +645,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-23T08:42:37.292199+00:00",
+  "fetched_at": "2026-04-24T01:53:44.034748+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -687,34 +673,24 @@
     "full_name": "ajv-validator/ajv",
     "html_url": "https://github.com/ajv-validator/ajv",
     "language": "TypeScript",
-    "pushed_at": "2026-02-20T18:05:59Z",
+    "pushed_at": "2026-04-23T18:48:45Z",
     "stargazers_count": 14685,
     "topics": [
       "ajv",
       "json-schema",
       "validator"
     ],
-    "updated_at": "2026-04-23T08:24:22Z"
+    "updated_at": "2026-04-23T23:35:05Z"
   },
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
-      "full_name": "ajv-validator/ajv-formats",
+      "full_name": "pandastrike/jsck",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "ajv-validator/ajv-i18n",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "ajv-validator/ajv-keywords",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "ebdrup/json-schema-benchmark",
+      "full_name": "simplex-chat/simplex-chat",
       "source_file": "README.md"
     }
   ],

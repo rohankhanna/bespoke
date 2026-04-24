@@ -1,0 +1,224 @@
+{
+  "components": [
+    {
+      "component": "babel-literal-to-ast",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "babel-plugin-macros",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "graphql",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "graphql-tag",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@babel/cli",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@babel/core",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@babel/preset-env",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "babel-jest",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "babel-plugin-tester",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "jest",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "leoasis/graphql-tag.macro",
+      "target": "kentcdodds/babel-macros",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "leoasis/graphql-tag.macro",
+      "target": "babel-literal-to-ast",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "leoasis/graphql-tag.macro",
+      "target": "babel-plugin-macros",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "leoasis/graphql-tag.macro",
+      "target": "graphql",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "leoasis/graphql-tag.macro",
+      "target": "graphql-tag",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "leoasis/graphql-tag.macro",
+      "target": "@babel/cli",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "leoasis/graphql-tag.macro",
+      "target": "@babel/core",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "leoasis/graphql-tag.macro",
+      "target": "@babel/preset-env",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "leoasis/graphql-tag.macro",
+      "target": "babel-jest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "leoasis/graphql-tag.macro",
+      "target": "babel-plugin-tester",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "leoasis/graphql-tag.macro",
+      "target": "jest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "leoasis/graphql-tag.macro",
+      "target": "babel",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "leoasis/graphql-tag.macro",
+      "target": "babel-macros",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "leoasis/graphql-tag.macro",
+      "target": "graphql",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "leoasis/graphql-tag.macro",
+      "target": "graphql-tag",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T00:40:09.649445+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2324
+    },
+    {
+      "path": "package.json",
+      "size": 1089
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Babel Macro for graphql-tag",
+    "fork": false,
+    "full_name": "leoasis/graphql-tag.macro",
+    "html_url": "https://github.com/leoasis/graphql-tag.macro",
+    "language": "JavaScript",
+    "pushed_at": "2022-12-08T18:52:49Z",
+    "stargazers_count": 168,
+    "topics": [
+      "babel",
+      "babel-macros",
+      "graphql",
+      "graphql-tag"
+    ],
+    "updated_at": "2026-02-26T03:15:33Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kentcdodds/babel-macros",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Babel Macro for the [graphql-tag](https://github.com/apollographql/graphql-tag) library.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "babel"
+    },
+    {
+      "context_snippet": "Babel Macro for the [graphql-tag](https://github.com/apollographql/graphql-tag) library.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "babel-macros"
+    },
+    {
+      "context_snippet": "Babel Macro for the [graphql-tag](https://github.com/apollographql/graphql-tag) library.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "graphql"
+    },
+    {
+      "context_snippet": "Babel Macro for the [graphql-tag](https://github.com/apollographql/graphql-tag) library.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "graphql-tag"
+    }
+  ]
+}

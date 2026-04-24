@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-24T00:38:32.849070+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3477
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Base16 for Vim",
+    "fork": false,
+    "full_name": "chriskempson/base16-vim",
+    "html_url": "https://github.com/chriskempson/base16-vim",
+    "language": "Vim Script",
+    "pushed_at": "2024-06-08T15:54:08Z",
+    "stargazers_count": 169,
+    "topics": [],
+    "updated_at": "2026-04-14T09:23:17Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

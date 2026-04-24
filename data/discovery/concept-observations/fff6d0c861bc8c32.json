@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\u269b\ufe0f Fast 3kB React alternative with the same modern API. Components & Virtual DOM."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Compressed Size"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Compressed Size"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28615,
+      "status": "candidate",
+      "text": "decompress"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12226,
+      "status": "candidate",
+      "text": "compress"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12226,
+      "status": "candidate",
+      "text": "tabloid"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12182,
+      "status": "candidate",
+      "text": "flat"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12062,
+      "status": "candidate",
+      "text": "rudd"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Compressed Size",
+      "sense_id": "compressed-size#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "compressed-size",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "compressed-size",
+  "observation_id": "fff6d0c861bc8c32",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-24T00:33:56.049672+00:00",
+  "observed_text": "Compressed Size",
+  "source_context_snippet": "Compressed Size",
+  "source_file": ".github/workflows/size.yml",
+  "source_repo": "preactjs/preact",
+  "source_repo_description": "\u269b\ufe0f Fast 3kB React alternative with the same modern API. Components & Virtual DOM."
+}

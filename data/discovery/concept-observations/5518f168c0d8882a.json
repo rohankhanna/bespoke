@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "OpenVINO\u2122 is an open source toolkit for optimizing and deploying AI inference"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Handle Issue Assignments"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Handle Issue Assignments"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25967,
+      "status": "candidate",
+      "text": "deal with"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25967,
+      "status": "candidate",
+      "text": "hot potato"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22917,
+      "status": "candidate",
+      "text": "duty"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22917,
+      "status": "candidate",
+      "text": "tasks"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22776,
+      "status": "candidate",
+      "text": "staffing"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Handle Issue Assignments",
+      "sense_id": "handle-issue-assignments#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "handle-issue-assignments",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "handle-issue-assignments",
+  "observation_id": "5518f168c0d8882a",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-24T00:33:56.049672+00:00",
+  "observed_text": "Handle Issue Assignments",
+  "source_context_snippet": "Handle Issue Assignments",
+  "source_file": ".github/workflows/assign_issue.yml",
+  "source_repo": "openvinotoolkit/openvino",
+  "source_repo_description": "OpenVINO\u2122 is an open source toolkit for optimizing and deploying AI inference"
+}

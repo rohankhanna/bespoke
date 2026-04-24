@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "minimal tool for creating a new user namespace with multiple UIDs/GIDs mapped inside"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "become-root"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "become-root"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "userns",
+      "sense_id": "userns#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "userns",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "userns",
+  "observation_id": "51c889c2a81ffde1",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T00:33:56.049672+00:00",
+  "observed_text": "userns",
+  "source_context_snippet": "become-root",
+  "source_file": null,
+  "source_repo": "giuseppe/become-root",
+  "source_repo_description": "minimal tool for creating a new user namespace with multiple UIDs/GIDs mapped inside"
+}

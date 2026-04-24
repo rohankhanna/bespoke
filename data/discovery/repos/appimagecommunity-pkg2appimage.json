@@ -1,0 +1,143 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AppImageCommunity/pkg2appimage",
+      "target": "probonopd/appimagekit",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "AppImageCommunity/pkg2appimage",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "AppImageCommunity/pkg2appimage",
+      "target": "Build and Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AppImageCommunity/pkg2appimage",
+      "target": "appimage",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AppImageCommunity/pkg2appimage",
+      "target": "applications",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AppImageCommunity/pkg2appimage",
+      "target": "desktop",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AppImageCommunity/pkg2appimage",
+      "target": "linux",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AppImageCommunity/pkg2appimage",
+      "target": "packaging",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T01:00:04.499330+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3163
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 1936
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Tool and recipes to convert existing deb packages to AppImage ",
+    "fork": false,
+    "full_name": "AppImageCommunity/pkg2appimage",
+    "html_url": "https://github.com/AppImageCommunity/pkg2appimage",
+    "language": "Shell",
+    "pushed_at": "2025-07-21T11:28:59Z",
+    "stargazers_count": 771,
+    "topics": [
+      "appimage",
+      "applications",
+      "desktop",
+      "linux",
+      "packaging"
+    ],
+    "updated_at": "2026-04-16T05:29:31Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "probonopd/appimagekit",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build and Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "Build and Release"
+    },
+    {
+      "context_snippet": "[Download as an AppImage](../../releases/tag/continuous)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "appimage"
+    },
+    {
+      "context_snippet": "[Download as an AppImage](../../releases/tag/continuous)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "applications"
+    },
+    {
+      "context_snippet": "[Download as an AppImage](../../releases/tag/continuous)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "desktop"
+    },
+    {
+      "context_snippet": "[Download as an AppImage](../../releases/tag/continuous)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "linux"
+    },
+    {
+      "context_snippet": "[Download as an AppImage](../../releases/tag/continuous)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "packaging"
+    }
+  ]
+}

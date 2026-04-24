@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "EDGE Source Code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Welcome to EDGE!"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Welcome to EDGE!"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10024139,
+      "status": "candidate",
+      "text": "hypervertex"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10024138,
+      "status": "candidate",
+      "text": "hypergraph"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10024137,
+      "status": "candidate",
+      "text": "pseudo-edge"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10024136,
+      "status": "candidate",
+      "text": "hypertree"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10024135,
+      "status": "candidate",
+      "text": "edge set"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "hyperedge",
+      "sense_id": "hyperedge#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "hyperedge",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "hyperedge",
+  "observation_id": "e3cf90965a5ac397",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T00:33:56.049672+00:00",
+  "observed_text": "hyperedge",
+  "source_context_snippet": "Welcome to EDGE!",
+  "source_file": null,
+  "source_repo": "3dfxdev/EDGE",
+  "source_repo_description": "EDGE Source Code"
+}

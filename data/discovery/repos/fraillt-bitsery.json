@@ -1,0 +1,187 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/on_linux.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/on_mac.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/on_windows.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "fraillt/bitsery",
+      "target": "fraillt/cpp_serializers_benchmark",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/on_linux.yml",
+      "source_repo": "fraillt/bitsery",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/on_linux.yml",
+      "source_repo": "fraillt/bitsery",
+      "target": "On Linux",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/on_mac.yml",
+      "source_repo": "fraillt/bitsery",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/on_mac.yml",
+      "source_repo": "fraillt/bitsery",
+      "target": "On Mac",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/on_windows.yml",
+      "source_repo": "fraillt/bitsery",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/on_windows.yml",
+      "source_repo": "fraillt/bitsery",
+      "target": "On Windows",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fraillt/bitsery",
+      "target": "binary-serialization",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fraillt/bitsery",
+      "target": "cpp11",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fraillt/bitsery",
+      "target": "cpp14",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fraillt/bitsery",
+      "target": "serialization",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T00:50:15.128196+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4571
+    },
+    {
+      "path": ".github/workflows/on_linux.yml",
+      "size": 1654
+    },
+    {
+      "path": ".github/workflows/on_mac.yml",
+      "size": 710
+    },
+    {
+      "path": ".github/workflows/on_windows.yml",
+      "size": 928
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Your binary serialization library",
+    "fork": false,
+    "full_name": "fraillt/bitsery",
+    "html_url": "https://github.com/fraillt/bitsery",
+    "language": "C++",
+    "pushed_at": "2025-10-09T19:40:00Z",
+    "stargazers_count": 1234,
+    "topics": [
+      "binary-serialization",
+      "cpp11",
+      "cpp14",
+      "serialization"
+    ],
+    "updated_at": "2026-04-12T15:16:28Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "fraillt/cpp_serializers_benchmark",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "On Linux",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/on_linux.yml",
+      "term": "On Linux"
+    },
+    {
+      "context_snippet": "On Mac",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/on_mac.yml",
+      "term": "On Mac"
+    },
+    {
+      "context_snippet": "On Windows",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/on_windows.yml",
+      "term": "On Windows"
+    },
+    {
+      "context_snippet": "[![Build On Windows](https://github.com/fraillt/bitsery/actions/workflows/on_windows.yml/badge.svg)](https://github.com/fraillt/bitsery/actions/workflows/on_windows.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "binary-serialization"
+    },
+    {
+      "context_snippet": "[![Build On Windows](https://github.com/fraillt/bitsery/actions/workflows/on_windows.yml/badge.svg)](https://github.com/fraillt/bitsery/actions/workflows/on_windows.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cpp11"
+    },
+    {
+      "context_snippet": "[![Build On Windows](https://github.com/fraillt/bitsery/actions/workflows/on_windows.yml/badge.svg)](https://github.com/fraillt/bitsery/actions/workflows/on_windows.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cpp14"
+    },
+    {
+      "context_snippet": "[![Build On Windows](https://github.com/fraillt/bitsery/actions/workflows/on_windows.yml/badge.svg)](https://github.com/fraillt/bitsery/actions/workflows/on_windows.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "serialization"
+    }
+  ]
+}

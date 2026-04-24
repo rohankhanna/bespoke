@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "multithreading-library"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mcmilk/zstdmt",
+      "status": "candidate-context",
+      "text": "Multithreading Library for Brotli, Lizard, LZ4, LZ5, Snappy and Zstandard"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mcmilk/zstdmt",
+      "status": "candidate-context",
+      "text": "- works with skippables frame id 0x184D2A50 (12 bytes per compressed frame)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mcmilk/zstdmt",
+      "status": "candidate",
+      "text": "- works with skippables frame id 0x184D2A50 (12 bytes per compressed frame)"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "multithreading-library",
+  "concept_id": "multithreading-library",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "mcmilk/zstdmt"
+    }
+  ],
+  "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "multithreading-library",
+      "sense_id": "multithreading-library#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

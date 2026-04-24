@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "vim-script"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ap/vim-buftabline",
+      "status": "candidate-context",
+      "text": "Forget Vim tabs \u2013 now you can have buffer tabs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ap/vim-buftabline",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">Buftabline</h1>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ap/vim-buftabline",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">Buftabline</h1>"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "vim-script",
+  "concept_id": "vim-script",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "ap/vim-buftabline"
+    }
+  ],
+  "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "vim-script",
+      "sense_id": "vim-script#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

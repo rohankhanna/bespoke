@@ -1,0 +1,213 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/format.yml"
+    },
+    {
+      "component": "JohnnyMorganz/stylua-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/format.yml"
+    },
+    {
+      "component": "googleapis/release-please-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/website.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/website.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/format.yml",
+      "source_repo": "igorlfs/nvim-dap-view",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/format.yml",
+      "source_repo": "igorlfs/nvim-dap-view",
+      "target": "JohnnyMorganz/stylua-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/format.yml",
+      "source_repo": "igorlfs/nvim-dap-view",
+      "target": "format",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "igorlfs/nvim-dap-view",
+      "target": "googleapis/release-please-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "igorlfs/nvim-dap-view",
+      "target": "Release To GitHub",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/website.yml",
+      "source_repo": "igorlfs/nvim-dap-view",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/website.yml",
+      "source_repo": "igorlfs/nvim-dap-view",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/website.yml",
+      "source_repo": "igorlfs/nvim-dap-view",
+      "target": "Publish Website",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "igorlfs/nvim-dap-view",
+      "target": "debugging",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "igorlfs/nvim-dap-view",
+      "target": "neovim-plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "igorlfs/nvim-dap-view",
+      "target": "nvim",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "igorlfs/nvim-dap-view",
+      "target": "nvim-dap",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "igorlfs/nvim-dap-view",
+      "target": "nvim-plugin",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T01:44:37.021428+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2732
+    },
+    {
+      "path": ".github/workflows/format.yml",
+      "size": 365
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 373
+    },
+    {
+      "path": ".github/workflows/website.yml",
+      "size": 847
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Visualize debugging sessions in neovim",
+    "fork": false,
+    "full_name": "igorlfs/nvim-dap-view",
+    "html_url": "https://github.com/igorlfs/nvim-dap-view",
+    "language": "Lua",
+    "pushed_at": "2026-04-23T23:24:44Z",
+    "stargazers_count": 857,
+    "topics": [
+      "debugging",
+      "lua",
+      "neovim-plugin",
+      "nvim",
+      "nvim-dap",
+      "nvim-plugin"
+    ],
+    "updated_at": "2026-04-23T23:23:56Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "format",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/format.yml",
+      "term": "format"
+    },
+    {
+      "context_snippet": "Release To GitHub",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Release To GitHub"
+    },
+    {
+      "context_snippet": "Publish Website",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/website.yml",
+      "term": "Publish Website"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "debugging"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neovim-plugin"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nvim"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nvim-dap"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nvim-plugin"
+    }
+  ]
+}

@@ -19,6 +19,54 @@
       "source_repo": "aome510/spotify-player",
       "status": "candidate-context",
       "text": "- [Introduction](#introduction)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "librespot-org/librespot",
+      "status": "candidate-context",
+      "text": "Open Source Spotify client library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "librespot-org/librespot",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://github.com/librespot-org/librespot/workflows/build/badge.svg)](https://github.com/librespot-org/librespot/actions)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ramsayleung/rspotify",
+      "status": "candidate-context",
+      "text": "Spotify Web API SDK implemented on Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ramsayleung/rspotify",
+      "status": "candidate-context",
+      "text": "[![Continuous Integration](https://github.com/ramsayleung/rspotify/workflows/Continuous%20Integration/badge.svg)](https://github.com/ramsayleung/rspotify/actions)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Rigellute/spotify-tui",
+      "status": "candidate-context",
+      "text": "Spotify for the terminal written in Rust \ud83d\ude80"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Rigellute/spotify-tui",
+      "status": "candidate-context",
+      "text": "![Continuous Integration](https://github.com/Rigellute/spotify-tui/workflows/Continuous%20Integration/badge.svg?branch=master&event=push)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "teticio/Deej-AI",
+      "status": "candidate-context",
+      "text": "Create automatic playlists by using Deep Learning to *listen* to the music."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "teticio/Deej-AI",
+      "status": "candidate-context",
+      "text": "![](MBIT_logo.png)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +75,30 @@
       "source_repo": "aome510/spotify-player",
       "status": "candidate",
       "text": "- [Introduction](#introduction)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "librespot-org/librespot",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/librespot-org/librespot/workflows/build/badge.svg)](https://github.com/librespot-org/librespot/actions)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ramsayleung/rspotify",
+      "status": "candidate",
+      "text": "[![Continuous Integration](https://github.com/ramsayleung/rspotify/workflows/Continuous%20Integration/badge.svg)](https://github.com/ramsayleung/rspotify/actions)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Rigellute/spotify-tui",
+      "status": "candidate",
+      "text": "![Continuous Integration](https://github.com/Rigellute/spotify-tui/workflows/Continuous%20Integration/badge.svg?branch=master&event=push)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "teticio/Deej-AI",
+      "status": "candidate",
+      "text": "![](MBIT_logo.png)"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +148,35 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "aome510/spotify-player"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "librespot-org/librespot"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "ramsayleung/rspotify"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "Rigellute/spotify-tui"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "teticio/Deej-AI"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

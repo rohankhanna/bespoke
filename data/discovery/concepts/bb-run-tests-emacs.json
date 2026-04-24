@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "bb run tests-emacs"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "babashka/neil",
+      "status": "candidate-context",
+      "text": "A CLI to add common aliases and features to deps.edn-based projects"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "babashka/neil",
+      "status": "candidate-context",
+      "text": "bb run tests-emacs"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "babashka/neil",
+      "status": "candidate",
+      "text": "bb run tests-emacs"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17312,
+      "status": "candidate",
+      "text": "ammo"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17255,
+      "status": "candidate",
+      "text": "air"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17255,
+      "status": "candidate",
+      "text": "flat"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17255,
+      "status": "candidate",
+      "text": "shot"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16275,
+      "status": "candidate",
+      "text": "airgun"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "bb run tests-emacs",
+  "concept_id": "bb-run-tests-emacs",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/bb-run-tests-emacs.yml",
+      "source_repo": "babashka/neil"
+    }
+  ],
+  "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "bb run tests-emacs",
+      "sense_id": "bb-run-tests-emacs#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Distributed Task Queue (development branch)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": ".. image:: https://docs.celeryq.dev/en/latest/_images/celery-banner-small.png"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": ".. image:: https://docs.celeryq.dev/en/latest/_images/celery-banner-small.png"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "task-scheduler",
+      "sense_id": "task-scheduler#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "task-scheduler",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "task-scheduler",
+  "observation_id": "e5b84f6e55d36224",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T00:33:56.049672+00:00",
+  "observed_text": "task-scheduler",
+  "source_context_snippet": ".. image:: https://docs.celeryq.dev/en/latest/_images/celery-banner-small.png",
+  "source_file": null,
+  "source_repo": "celery/celery",
+  "source_repo_description": "Distributed Task Queue (development branch)"
+}

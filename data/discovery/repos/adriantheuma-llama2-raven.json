@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-24T01:43:55.278855+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4815
+    },
+    {
+      "path": "requirements.txt",
+      "size": 221
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "adriantheuma/llama2-raven",
+    "html_url": "https://github.com/adriantheuma/llama2-raven",
+    "language": "Python",
+    "pushed_at": "2024-06-18T00:01:03Z",
+    "stargazers_count": 9,
+    "topics": [],
+    "updated_at": "2025-04-13T16:35:28Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

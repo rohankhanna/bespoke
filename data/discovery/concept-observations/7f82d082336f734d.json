@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Benchmarks of Go serialization methods"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Publish Report"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Publish Report"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29079,
+      "status": "candidate",
+      "text": "vent"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28679,
+      "status": "candidate",
+      "text": "blow"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28679,
+      "status": "candidate",
+      "text": "vented"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28679,
+      "status": "candidate",
+      "text": "venting"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28279,
+      "status": "candidate",
+      "text": "give"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Publish Report",
+      "sense_id": "publish-report#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "publish-report",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "publish-report",
+  "observation_id": "7f82d082336f734d",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-24T00:33:56.049672+00:00",
+  "observed_text": "Publish Report",
+  "source_context_snippet": "Publish Report",
+  "source_file": ".github/workflows/report.yml",
+  "source_repo": "alecthomas/go_serialization_benchmarks",
+  "source_repo_description": "Benchmarks of Go serialization methods"
+}

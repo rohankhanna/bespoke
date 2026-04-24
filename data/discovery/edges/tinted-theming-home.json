@@ -1,0 +1,118 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tinted-theming/home",
+      "target": "aarowill/base16-alacritty",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tinted-theming/home",
+      "target": "adre5577/contour-tinted",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tinted-theming/home",
+      "target": "aarowill/base16-gnome-terminal",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tinted-theming/home",
+      "target": "4e554c4c/base16-halloy",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-assign-issues.yml",
+      "source_repo": "tinted-theming/home",
+      "target": "Auto assignment for issues",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/shared-auto-assign-issues.yml",
+      "source_repo": "tinted-theming/home",
+      "target": "actions/checkout@9a9194f87191a7e9055e3e9b95b8cfb13023bb08",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/shared-auto-assign-issues.yml",
+      "source_repo": "tinted-theming/home",
+      "target": "pozil/auto-assign-issue@21ffb634481e75f2557e5f507e359cba97bbc42b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/shared-auto-assign-issues.yml",
+      "source_repo": "tinted-theming/home",
+      "target": "Auto assignment for issues",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/shared-build-template-and-commit-themes.yml",
+      "source_repo": "tinted-theming/home",
+      "target": "actions/checkout@9a9194f87191a7e9055e3e9b95b8cfb13023bb08",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/shared-build-template-and-commit-themes.yml",
+      "source_repo": "tinted-theming/home",
+      "target": "jaxxstorm/action-install-gh-release@v1.10.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/shared-build-template-and-commit-themes.yml",
+      "source_repo": "tinted-theming/home",
+      "target": "stefanzweifel/git-auto-commit-action@be823a7e51f116fecebc222b8307716921375992",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/shared-build-template-and-commit-themes.yml",
+      "source_repo": "tinted-theming/home",
+      "target": "Build template and commit theme updates",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tinted-theming/home",
+      "target": "base16",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tinted-theming/home",
+      "target": "base24",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tinted-theming/home",
+      "target": "theme",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tinted-theming/home",
+      "target": "themes",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-24T00:33:56.049672+00:00",
+  "source_repo": "tinted-theming/home"
+}

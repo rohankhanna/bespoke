@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "An automation framework to create Blazor component"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "The best automation framework for RCL(Razor Component Library) to help you easy and quickly building your own Razor Component Library"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "The best automation framework for RCL(Razor Component Library) to help you easy and quickly building your own Razor Component Library"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40015244,
+      "status": "candidate",
+      "text": "constituent"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40012964,
+      "status": "candidate",
+      "text": "part"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40012854,
+      "status": "candidate",
+      "text": "fractional"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40011378,
+      "status": "candidate",
+      "text": "portion"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40004472,
+      "status": "candidate",
+      "text": "factor"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "component",
+      "sense_id": "component#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 31079,
+      "status": "candidate",
+      "text": "element"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 24043,
+      "status": "candidate",
+      "text": "constituent"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 23055,
+      "status": "candidate",
+      "text": "part"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 17072,
+      "status": "candidate",
+      "text": "factor"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 15041,
+      "status": "candidate",
+      "text": "portion"
+    }
+  ],
+  "concept_id": "component",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "component",
+  "observation_id": "68c12c00e500dff1",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T00:33:56.049672+00:00",
+  "observed_text": "component",
+  "source_context_snippet": "The best automation framework for RCL(Razor Component Library) to help you easy and quickly building your own Razor Component Library",
+  "source_file": null,
+  "source_repo": "teacher-zhou/ComponentBuilder",
+  "source_repo_description": "An automation framework to create Blazor component"
+}

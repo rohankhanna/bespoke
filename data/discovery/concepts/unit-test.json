@@ -74,6 +74,30 @@
       "source_repo": "terraform-aws-modules/terraform-aws-notify-slack",
       "status": "candidate-context",
       "text": "Unit Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "meta-pytorch/torchtune",
+      "status": "candidate-context",
+      "text": "PyTorch native post-training library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "meta-pytorch/torchtune",
+      "status": "candidate-context",
+      "text": "Unit Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/MInference",
+      "status": "candidate-context",
+      "text": "[NeurIPS'24 Spotlight, ICLR'25, ICML'25] To speed up Long-context LLMs' inference, approximate and dynamic sparse calculate the attention, which reduces inference latency by up to 10x for pre-filling on an A100 while maintaining accuracy."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/MInference",
+      "status": "candidate-context",
+      "text": "Unit Test"
     }
   ],
   "candidate_glosses": [
@@ -110,6 +134,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "terraform-aws-modules/terraform-aws-notify-slack",
+      "status": "candidate",
+      "text": "Unit Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "meta-pytorch/torchtune",
+      "status": "candidate",
+      "text": "Unit Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/MInference",
       "status": "candidate",
       "text": "Unit Test"
     }
@@ -215,11 +251,23 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": ".github/workflows/unit-test.yml",
       "source_repo": "terraform-aws-modules/terraform-aws-notify-slack"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/unit_test.yaml",
+      "source_repo": "meta-pytorch/torchtune"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/unittest.yml",
+      "source_repo": "microsoft/MInference"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

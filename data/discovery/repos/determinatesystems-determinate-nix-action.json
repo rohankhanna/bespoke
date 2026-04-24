@@ -1,0 +1,90 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "DeterminateSystems/propose-release/.github/workflows/workflow.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/propose-release.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "DeterminateSystems/determinate-nix-action",
+      "target": "determinatesystems/nix-installer-action",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "DeterminateSystems/determinate-nix-action",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/propose-release.yml",
+      "source_repo": "DeterminateSystems/determinate-nix-action",
+      "target": "DeterminateSystems/propose-release/.github/workflows/workflow.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "DeterminateSystems/determinate-nix-action",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-24T00:45:39.453980+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 13588
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 806
+    },
+    {
+      "path": ".github/workflows/propose-release.yml",
+      "size": 936
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 935
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "The Github Action for Determinate Nix",
+    "fork": false,
+    "full_name": "DeterminateSystems/determinate-nix-action",
+    "html_url": "https://github.com/DeterminateSystems/determinate-nix-action",
+    "language": "Python",
+    "pushed_at": "2026-04-23T22:24:17Z",
+    "stargazers_count": 28,
+    "topics": [],
+    "updated_at": "2026-04-21T12:19:42Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "determinatesystems/nix-installer-action",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

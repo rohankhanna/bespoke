@@ -1,0 +1,17 @@
+{
+  "component": "ilammy/setup-nasm@72793074d3c8cdda771dba85f6deafe00623038b",
+  "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci-post-merge.yml",
+      "source_repo": "actix/actix-net"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "actix/actix-net"
+    }
+  ]
+}

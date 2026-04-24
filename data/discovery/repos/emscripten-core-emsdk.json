@@ -1,0 +1,121 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-release.yml"
+    },
+    {
+      "component": "peter-evans/create-pull-request@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-release.yml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tag-release.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tag-release.yml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tag-release.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-release.yml",
+      "source_repo": "emscripten-core/emsdk",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-release.yml",
+      "source_repo": "emscripten-core/emsdk",
+      "target": "peter-evans/create-pull-request@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/create-release.yml",
+      "source_repo": "emscripten-core/emsdk",
+      "target": "Create Release PR",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tag-release.yml",
+      "source_repo": "emscripten-core/emsdk",
+      "target": "actions/github-script@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tag-release.yml",
+      "source_repo": "emscripten-core/emsdk",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tag-release.yml",
+      "source_repo": "emscripten-core/emsdk",
+      "target": "Create release tag",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T01:42:01.450833+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11592
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1441
+    },
+    {
+      "path": ".github/workflows/create-release.yml",
+      "size": 1353
+    },
+    {
+      "path": ".github/workflows/tag-release.yml",
+      "size": 3055
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Emscripten SDK",
+    "fork": false,
+    "full_name": "emscripten-core/emsdk",
+    "html_url": "https://github.com/emscripten-core/emsdk",
+    "language": "Python",
+    "pushed_at": "2026-04-23T16:41:56Z",
+    "stargazers_count": 3554,
+    "topics": [],
+    "updated_at": "2026-04-23T16:41:59Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Create Release PR",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/create-release.yml",
+      "term": "Create Release PR"
+    },
+    {
+      "context_snippet": "Create release tag",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tag-release.yml",
+      "term": "Create release tag"
+    }
+  ]
+}

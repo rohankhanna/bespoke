@@ -163,6 +163,42 @@
       "source_repo": "nashaofu/screenshots",
       "status": "candidate-context",
       "text": "`screenshots`\u662f\u4e00\u4e2a\u57fa\u4e8e`electron`\u548c`react`\u7684\u622a\u56fe\u63d2\u4ef6\uff0c\u53ef\u4ee5\u5feb\u901f\u5730\u5b9e\u73b0\u622a\u56fe\u529f\u80fd\uff0c\u5e76\u652f\u6301\u591a\u79cd\u622a\u56fe\u64cd\u4f5c\uff0c\u4f8b\u5982\u9a6c\u8d5b\u514b\u3001\u6587\u672c\u3001\u753b\u7b14\u3001\u7bad\u5934\u3001\u692d\u5706\u548c\u77e9\u5f62\u3002\u6b64\u5916\uff0c\u8fd8\u63d0\u4f9b\u4e86\u591a\u8bed\u8a00\u652f\u6301\uff0c\u53ef\u4ee5\u8f7b\u677e\u5730\u9002\u914d\u4e0d\u540c\u7684\u8bed\u8a00\u73af\u5883\u3002"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aesalazar/AsteroidsWasm",
+      "status": "candidate-context",
+      "text": "Collection of applications based on a single C# .NET Standard project running in:  Blazor Client (WebAssembly), Blazor Server, Electron, WPF, WinForms, Maui, WinUI3"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aesalazar/AsteroidsWasm",
+      "status": "candidate-context",
+      "text": "Collection of applications based on a single C# .NET Standard project running in: Blazor Client (WebAssembly), Blazor Server, Electron, WPF, WinForms, Maui, WinUI3"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/playwright",
+      "status": "candidate-context",
+      "text": "Playwright is a framework for Web Testing and Automation. It allows testing Chromium, Firefox and WebKit with a single API. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/playwright",
+      "status": "candidate-context",
+      "text": "[![npm version](https://img.shields.io/npm/v/playwright.svg)](https://www.npmjs.com/package/playwright) <!-- GEN:chromium-version-badge -->[![Chromium version](https://img.shields.io/badge/chromium-147.0.7727.49-blue.svg?logo=google-chrome)](https://www.chromium.org/Home)<!-- GE\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Level/level",
+      "status": "candidate-context",
+      "text": "Universal abstract-level database for Node.js and browsers."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Level/level",
+      "status": "candidate-context",
+      "text": "**Universal [`abstract-level`](https://github.com/Level/abstract-level) database for Node.js and browsers.** This is a convenience package that exports [`classic-level`](https://github.com/Level/classic-level) in Node.js and [`browser-level`](https://github.com/Level/browser-lev\u2026"
     }
   ],
   "candidate_glosses": [
@@ -243,6 +279,24 @@
       "source_repo": "nashaofu/screenshots",
       "status": "candidate",
       "text": "`screenshots`\u662f\u4e00\u4e2a\u57fa\u4e8e`electron`\u548c`react`\u7684\u622a\u56fe\u63d2\u4ef6\uff0c\u53ef\u4ee5\u5feb\u901f\u5730\u5b9e\u73b0\u622a\u56fe\u529f\u80fd\uff0c\u5e76\u652f\u6301\u591a\u79cd\u622a\u56fe\u64cd\u4f5c\uff0c\u4f8b\u5982\u9a6c\u8d5b\u514b\u3001\u6587\u672c\u3001\u753b\u7b14\u3001\u7bad\u5934\u3001\u692d\u5706\u548c\u77e9\u5f62\u3002\u6b64\u5916\uff0c\u8fd8\u63d0\u4f9b\u4e86\u591a\u8bed\u8a00\u652f\u6301\uff0c\u53ef\u4ee5\u8f7b\u677e\u5730\u9002\u914d\u4e0d\u540c\u7684\u8bed\u8a00\u73af\u5883\u3002"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aesalazar/AsteroidsWasm",
+      "status": "candidate",
+      "text": "Collection of applications based on a single C# .NET Standard project running in: Blazor Client (WebAssembly), Blazor Server, Electron, WPF, WinForms, Maui, WinUI3"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/playwright",
+      "status": "candidate",
+      "text": "[![npm version](https://img.shields.io/npm/v/playwright.svg)](https://www.npmjs.com/package/playwright) <!-- GEN:chromium-version-badge -->[![Chromium version](https://img.shields.io/badge/chromium-147.0.7727.49-blue.svg?logo=google-chrome)](https://www.chromium.org/Home)<!-- GE\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Level/level",
+      "status": "candidate",
+      "text": "**Universal [`abstract-level`](https://github.com/Level/abstract-level) database for Node.js and browsers.** This is a convenience package that exports [`classic-level`](https://github.com/Level/classic-level) in Node.js and [`browser-level`](https://github.com/Level/browser-lev\u2026"
     }
   ],
   "candidate_related_terms": [
@@ -382,11 +436,35 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "nashaofu/screenshots"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "aesalazar/AsteroidsWasm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/playwright"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "electron/packager"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "Level/level"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

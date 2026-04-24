@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "3d-segmentation"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Jumpat/SegmentAnythingin3D",
+      "status": "candidate-context",
+      "text": "Segment Anything in 3D with NeRFs (NeurIPS 2023 & IJCV 2025)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Jumpat/SegmentAnythingin3D",
+      "status": "candidate-context",
+      "text": "[Segment Anything in 3D with NeRFs](https://arxiv.org/abs/2304.12308)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Jumpat/SegmentAnythingin3D",
+      "status": "candidate",
+      "text": "[Segment Anything in 3D with NeRFs](https://arxiv.org/abs/2304.12308)"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "3d-segmentation",
+  "concept_id": "3d-segmentation",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "Jumpat/SegmentAnythingin3D"
+    }
+  ],
+  "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "3d-segmentation",
+      "sense_id": "3d-segmentation#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

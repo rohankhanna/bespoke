@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A blazingly fast, stunningly beautiful, exceptionally powerful git branch viewer for Vim/Neovim."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![test status](https://github.com/rbong/vim-flog/actions/workflows/test.yml/badge.svg?branch=master)](https://github.com/rbong/vim-flog/actions)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![test status](https://github.com/rbong/vim-flog/actions/workflows/test.yml/badge.svg?branch=master)](https://github.com/rbong/vim-flog/actions)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40020147,
+      "status": "candidate",
+      "text": "fugitive from justice"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40019721,
+      "status": "candidate",
+      "text": "runaway"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39986762,
+      "status": "candidate",
+      "text": "short"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39982715,
+      "status": "candidate",
+      "text": "fleeting"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39980600,
+      "status": "candidate",
+      "text": "momentary"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "fugitive",
+      "sense_id": "fugitive#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 29072,
+      "status": "candidate",
+      "text": "short"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 21035,
+      "status": "candidate",
+      "text": "fleeting"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 9035,
+      "status": "candidate",
+      "text": "runaway"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 9029,
+      "status": "candidate",
+      "text": "momentary"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 4018,
+      "status": "candidate",
+      "text": "momentaneous"
+    }
+  ],
+  "concept_id": "fugitive",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "fugitive",
+  "observation_id": "418f17d2ae968283",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T00:33:56.049672+00:00",
+  "observed_text": "fugitive",
+  "source_context_snippet": "[![test status](https://github.com/rbong/vim-flog/actions/workflows/test.yml/badge.svg?branch=master)](https://github.com/rbong/vim-flog/actions)",
+  "source_file": null,
+  "source_repo": "rbong/vim-flog",
+  "source_repo_description": "A blazingly fast, stunningly beautiful, exceptionally powerful git branch viewer for Vim/Neovim."
+}

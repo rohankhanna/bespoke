@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Linux Test IDAES-PSE Main"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "IDAES/idaes-ext",
+      "status": "candidate-context",
+      "text": "IDAES developer repo for those building the idaes binary solvers and related tools."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "IDAES/idaes-ext",
+      "status": "candidate-context",
+      "text": "Linux Test IDAES-PSE Main"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "IDAES/idaes-ext",
+      "status": "candidate",
+      "text": "Linux Test IDAES-PSE Main"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24565,
+      "status": "candidate",
+      "text": "dpkg"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24499,
+      "status": "candidate",
+      "text": "debian"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22465,
+      "status": "candidate",
+      "text": "group"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22451,
+      "status": "candidate",
+      "text": "lie"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22399,
+      "status": "candidate",
+      "text": "chain"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Linux Test IDAES-PSE Main",
+  "concept_id": "linux-test-idaes-pse-main",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/test_linux.yml",
+      "source_repo": "IDAES/idaes-ext"
+    }
+  ],
+  "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Linux Test IDAES-PSE Main",
+      "sense_id": "linux-test-idaes-pse-main#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

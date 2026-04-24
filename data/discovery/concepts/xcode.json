@@ -79,6 +79,42 @@
       "source_repo": "XcodesOrg/xcodes",
       "status": "candidate-context",
       "text": "The best command-line tool to install and switch between multiple versions of Xcode."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Alamofire/Alamofire",
+      "status": "candidate-context",
+      "text": "Elegant HTTP Networking in Swift"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Alamofire/Alamofire",
+      "status": "candidate-context",
+      "text": "![Alamofire: Elegant Networking in Swift](https://raw.githubusercontent.com/Alamofire/Alamofire/master/Resources/AlamofireLogo.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "artemnovichkov/Carting",
+      "status": "candidate-context",
+      "text": "\ud83d\ude98 A simple tool for updating Carthage script phase"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "artemnovichkov/Carting",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "XcodesOrg/XcodesApp",
+      "status": "candidate-context",
+      "text": "The easiest way to install and switch between multiple versions of Xcode - with a mouse click. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "XcodesOrg/XcodesApp",
+      "status": "candidate-context",
+      "text": "<h1><img src=\"icon.png\" align=\"center\" width=50 height=50 /> <img src=\"IconDark.png\" align=\"center\" width=50 height=50 /> <img src=\"IconMono.png\" align=\"center\" width=50 height=50 /> Xcodes.app</h1>"
     }
   ],
   "candidate_glosses": [
@@ -117,6 +153,24 @@
       "source_repo": "XcodesOrg/xcodes",
       "status": "candidate",
       "text": "The best command-line tool to install and switch between multiple versions of Xcode."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Alamofire/Alamofire",
+      "status": "candidate",
+      "text": "![Alamofire: Elegant Networking in Swift](https://raw.githubusercontent.com/Alamofire/Alamofire/master/Resources/AlamofireLogo.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "artemnovichkov/Carting",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "XcodesOrg/XcodesApp",
+      "status": "candidate",
+      "text": "<h1><img src=\"icon.png\" align=\"center\" width=50 height=50 /> <img src=\"IconDark.png\" align=\"center\" width=50 height=50 /> <img src=\"IconMono.png\" align=\"center\" width=50 height=50 /> Xcodes.app</h1>"
     }
   ],
   "candidate_related_terms": [],
@@ -166,11 +220,35 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "XcodesOrg/xcodes"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "igor-makarov/xcake"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "Alamofire/Alamofire"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "artemnovichkov/Carting"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "XcodesOrg/XcodesApp"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

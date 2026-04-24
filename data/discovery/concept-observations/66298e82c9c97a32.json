@@ -1,0 +1,122 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Tabularised feature comparison between Catch, doctest and lest C++ test frameworks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<a id=\"top\"></a>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<a id=\"top\"></a>"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40021292,
+      "status": "candidate",
+      "text": "compare"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40021239,
+      "status": "candidate",
+      "text": "comparability"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40020640,
+      "status": "candidate",
+      "text": "equivalence"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30021402,
+      "status": "candidate",
+      "text": "comparing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30021401,
+      "status": "candidate",
+      "text": "comparer"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "comparison",
+      "sense_id": "comparison#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 7040,
+      "status": "candidate",
+      "text": "equivalence"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 3042,
+      "status": "candidate",
+      "text": "compare"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 3019,
+      "status": "candidate",
+      "text": "comparability"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1021,
+      "status": "candidate",
+      "text": "comparing"
+    }
+  ],
+  "concept_id": "comparison",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "comparison",
+  "observation_id": "66298e82c9c97a32",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T00:33:56.049672+00:00",
+  "observed_text": "comparison",
+  "source_context_snippet": "<a id=\"top\"></a>",
+  "source_file": null,
+  "source_repo": "martinmoene/catch-lest-other-comparison",
+  "source_repo_description": "Tabularised feature comparison between Catch, doctest and lest C++ test frameworks"
+}

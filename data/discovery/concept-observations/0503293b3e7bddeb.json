@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "[DEPRECATED] Assign Azure Active Directory Identities to Kubernetes applications. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "> # \u26a0\ufe0f [AAD Pod Identity repo has been archived and is no longer maintained.](#-announcement)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "> # \u26a0\ufe0f [AAD Pod Identity repo has been archived and is no longer maintained.](#-announcement)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "deprecaed",
+      "sense_id": "deprecaed#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "deprecaed",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "deprecaed",
+  "observation_id": "0503293b3e7bddeb",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T00:33:56.049672+00:00",
+  "observed_text": "deprecaed",
+  "source_context_snippet": "> # \u26a0\ufe0f [AAD Pod Identity repo has been archived and is no longer maintained.](#-announcement)",
+  "source_file": null,
+  "source_repo": "Azure/aad-pod-identity",
+  "source_repo_description": "[DEPRECATED] Assign Azure Active Directory Identities to Kubernetes applications. "
+}

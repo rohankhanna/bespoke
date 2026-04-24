@@ -385,6 +385,42 @@
       "source_repo": "jlevy/the-art-of-command-line",
       "status": "candidate-context",
       "text": "\ud83c\udf0d"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "babashka/babashka",
+      "status": "candidate-context",
+      "text": "Native, fast starting Clojure interpreter for scripting"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "babashka/babashka",
+      "status": "candidate-context",
+      "text": "[<img src=\"logo/babashka.svg\" alt=\"Babashka\" width=\"425px\">](https://babashka.org)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "micromatch/nanomatch",
+      "status": "candidate-context",
+      "text": "Fast, minimal glob matcher for node.js. Similar to micromatch, minimatch and multimatch, but without support for extended globs (extglobs), posix brackets or braces, and with complete Bash 4.3 wildcard support: (\"*\", \"**\", and \"?\")."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "micromatch/nanomatch",
+      "status": "candidate-context",
+      "text": "> Fast, minimal glob matcher for node.js. Similar to micromatch, minimatch and multimatch, but complete Bash 4.3 wildcard support only (no support for exglobs, posix brackets or braces)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "89luca89/distrobox",
+      "status": "candidate-context",
+      "text": "Use any linux distribution inside your terminal. Enable both backward and forward compatibility with software and freedom to use whatever distribution you\u2019re more comfortable with. Mirror available at: https://gitlab.com/89luca89/distrobox"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "89luca89/distrobox",
+      "status": "candidate-context",
+      "text": "CI"
     }
   ],
   "candidate_glosses": [
@@ -573,6 +609,24 @@
       "source_repo": "jlevy/the-art-of-command-line",
       "status": "candidate",
       "text": "\ud83c\udf0d"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "babashka/babashka",
+      "status": "candidate",
+      "text": "[<img src=\"logo/babashka.svg\" alt=\"Babashka\" width=\"425px\">](https://babashka.org)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "micromatch/nanomatch",
+      "status": "candidate",
+      "text": "> Fast, minimal glob matcher for node.js. Similar to micromatch, minimatch and multimatch, but complete Bash 4.3 wildcard support only (no support for exglobs, posix brackets or braces)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "89luca89/distrobox",
+      "status": "candidate",
+      "text": "CI"
     }
   ],
   "candidate_related_terms": [
@@ -880,11 +934,35 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "jlevy/the-art-of-command-line"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "babashka/babashka"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "micromatch/micromatch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "micromatch/nanomatch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "89luca89/distrobox"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

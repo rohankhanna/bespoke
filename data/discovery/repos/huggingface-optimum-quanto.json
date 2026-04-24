@@ -1,0 +1,350 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-commits.yml"
+    },
+    {
+      "component": "huggingface/action-check-commits@v1.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-commits.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux-cpu-tests.yml"
+    },
+    {
+      "component": "actions/setup-python@e9aba2c848f5ebd159c070c61ea2c4e2b122355e",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux-cpu-tests.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux-cpu-tests.yml"
+    },
+    {
+      "component": "actions/setup-python@e9aba2c848f5ebd159c070c61ea2c4e2b122355e",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux-cpu-tests.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux-cuda-tests.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux-examples.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-quality.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-quality.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/security.yml"
+    },
+    {
+      "component": "trufflesecurity/trufflehog@6bd2d14f7a4bc1e569fa3550efa7ec632a4fa67b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/security.yml"
+    },
+    {
+      "component": "actions/stale@v9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "huggingface/optimum-quanto",
+      "target": "huggingface/quanto",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "huggingface/optimum-quanto",
+      "target": "mit-han-lab/smoothquant",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-commits.yml",
+      "source_repo": "huggingface/optimum-quanto",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-commits.yml",
+      "source_repo": "huggingface/optimum-quanto",
+      "target": "huggingface/action-check-commits@v1.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-commits.yml",
+      "source_repo": "huggingface/optimum-quanto",
+      "target": "Check Commits",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux-cpu-tests.yml",
+      "source_repo": "huggingface/optimum-quanto",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux-cpu-tests.yml",
+      "source_repo": "huggingface/optimum-quanto",
+      "target": "actions/setup-python@e9aba2c848f5ebd159c070c61ea2c4e2b122355e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linux-cpu-tests.yml",
+      "source_repo": "huggingface/optimum-quanto",
+      "target": "Linux CPU tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux-cuda-tests.yml",
+      "source_repo": "huggingface/optimum-quanto",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linux-cuda-tests.yml",
+      "source_repo": "huggingface/optimum-quanto",
+      "target": "Linux CUDA tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux-examples.yml",
+      "source_repo": "huggingface/optimum-quanto",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linux-examples.yml",
+      "source_repo": "huggingface/optimum-quanto",
+      "target": "Linux examples (CPU, CUDA)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-quality.yml",
+      "source_repo": "huggingface/optimum-quanto",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-quality.yml",
+      "source_repo": "huggingface/optimum-quanto",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/security.yml",
+      "source_repo": "huggingface/optimum-quanto",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/security.yml",
+      "source_repo": "huggingface/optimum-quanto",
+      "target": "trufflesecurity/trufflehog@6bd2d14f7a4bc1e569fa3550efa7ec632a4fa67b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/security.yml",
+      "source_repo": "huggingface/optimum-quanto",
+      "target": "Security Checks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "huggingface/optimum-quanto",
+      "target": "actions/stale@v9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "huggingface/optimum-quanto",
+      "target": "Close stale issues and PRs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "huggingface/optimum-quanto",
+      "target": "optimum",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "huggingface/optimum-quanto",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "huggingface/optimum-quanto",
+      "target": "quantization",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T01:59:04.224049+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 12178
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1997
+    },
+    {
+      "path": ".github/workflows/check-commits.yml",
+      "size": 362
+    },
+    {
+      "path": ".github/workflows/linux-cpu-tests.yml",
+      "size": 2207
+    },
+    {
+      "path": ".github/workflows/linux-cuda-tests.yml",
+      "size": 1375
+    },
+    {
+      "path": ".github/workflows/linux-examples.yml",
+      "size": 2355
+    },
+    {
+      "path": ".github/workflows/python-quality.yml",
+      "size": 501
+    },
+    {
+      "path": ".github/workflows/security.yml",
+      "size": 1036
+    },
+    {
+      "path": ".github/workflows/stale.yml",
+      "size": 941
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A pytorch quantization backend for optimum",
+    "fork": false,
+    "full_name": "huggingface/optimum-quanto",
+    "html_url": "https://github.com/huggingface/optimum-quanto",
+    "language": "Python",
+    "pushed_at": "2026-04-02T14:17:11Z",
+    "stargazers_count": 1038,
+    "topics": [
+      "optimum",
+      "pytorch",
+      "quantization"
+    ],
+    "updated_at": "2026-04-23T18:59:21Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "huggingface/quanto",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mit-han-lab/smoothquant",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Check Commits",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-commits.yml",
+      "term": "Check Commits"
+    },
+    {
+      "context_snippet": "Linux CPU tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linux-cpu-tests.yml",
+      "term": "Linux CPU tests"
+    },
+    {
+      "context_snippet": "Linux CUDA tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linux-cuda-tests.yml",
+      "term": "Linux CUDA tests"
+    },
+    {
+      "context_snippet": "Linux examples (CPU, CUDA)",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linux-examples.yml",
+      "term": "Linux examples (CPU, CUDA)"
+    },
+    {
+      "context_snippet": "Security Checks",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/security.yml",
+      "term": "Security Checks"
+    },
+    {
+      "context_snippet": "'Close stale issues and PRs'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "term": "Close stale issues and PRs"
+    },
+    {
+      "context_snippet": "> This project is currently in maintenance mode. We accept pull requests only for minor bug fixes, documentation improvements, and other maintenance tasks. Major new features or breaking changes are unlikely to be merged. For production-ready quantization features or active deve\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "optimum"
+    },
+    {
+      "context_snippet": "> This project is currently in maintenance mode. We accept pull requests only for minor bug fixes, documentation improvements, and other maintenance tasks. Major new features or breaking changes are unlikely to be merged. For production-ready quantization features or active deve\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "> This project is currently in maintenance mode. We accept pull requests only for minor bug fixes, documentation improvements, and other maintenance tasks. Major new features or breaking changes are unlikely to be merged. For production-ready quantization features or active deve\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "quantization"
+    }
+  ]
+}

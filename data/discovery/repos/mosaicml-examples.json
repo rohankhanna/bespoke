@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-24T02:03:15.279620+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1986
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 15210
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Fast and flexible reference benchmarks",
+    "fork": false,
+    "full_name": "mosaicml/examples",
+    "html_url": "https://github.com/mosaicml/examples",
+    "language": "Shell",
+    "pushed_at": "2026-03-25T20:11:02Z",
+    "stargazers_count": 468,
+    "topics": [],
+    "updated_at": "2026-03-25T20:11:05Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

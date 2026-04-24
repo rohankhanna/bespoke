@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Cloud-native high-performance edge/middle/service proxy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "![Envoy Logo](https://github.com/envoyproxy/artwork/blob/main/PNG/Envoy_Logo_Final_PANTONE.png)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "![Envoy Logo](https://github.com/envoyproxy/artwork/blob/main/PNG/Envoy_Logo_Final_PANTONE.png)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10047929,
+      "status": "candidate",
+      "text": "big cat"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10015830,
+      "status": "candidate",
+      "text": "chuck"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10000519,
+      "status": "candidate",
+      "text": "caterpillar"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9972648,
+      "status": "candidate",
+      "text": "vomit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9972628,
+      "status": "candidate",
+      "text": "regurgitate"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "cats",
+      "sense_id": "cats#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "cats",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "cats",
+  "observation_id": "2b3e1a592b741351",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T00:33:56.049672+00:00",
+  "observed_text": "cats",
+  "source_context_snippet": "![Envoy Logo](https://github.com/envoyproxy/artwork/blob/main/PNG/Envoy_Logo_Final_PANTONE.png)",
+  "source_file": null,
+  "source_repo": "envoyproxy/envoy",
+  "source_repo_description": "Cloud-native high-performance edge/middle/service proxy"
+}

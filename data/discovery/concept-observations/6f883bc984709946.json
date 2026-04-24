@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "The central registry of Bazel modules for the Bzlmod external dependency system."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Notify Module Maintainers For PR Review"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Notify Module Maintainers For PR Review"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 32162,
+      "status": "candidate",
+      "text": "housing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31437,
+      "status": "candidate",
+      "text": "turn"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31390,
+      "status": "candidate",
+      "text": "float"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31390,
+      "status": "candidate",
+      "text": "heel"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31390,
+      "status": "candidate",
+      "text": "heeled"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Notify Module Maintainers For PR Review",
+      "sense_id": "notify-module-maintainers-for-pr-review#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "notify-module-maintainers-for-pr-review",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "notify-module-maintainers-for-pr-review",
+  "observation_id": "6f883bc984709946",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-24T00:33:56.049672+00:00",
+  "observed_text": "Notify Module Maintainers For PR Review",
+  "source_context_snippet": "Notify Module Maintainers For PR Review",
+  "source_file": ".github/workflows/notify_maintainers.yml",
+  "source_repo": "bazelbuild/bazel-central-registry",
+  "source_repo_description": "The central registry of Bazel modules for the Bzlmod external dependency system."
+}

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "IceBox Upvote Watcher"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NuGet/Home",
+      "status": "candidate-context",
+      "text": "Repo for NuGet Client issues"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NuGet/Home",
+      "status": "candidate-context",
+      "text": "IceBox Upvote Watcher"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NuGet/Home",
+      "status": "candidate",
+      "text": "IceBox Upvote Watcher"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10004,
+      "status": "candidate",
+      "text": "yea"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9958,
+      "status": "candidate",
+      "text": "rabbi"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9936,
+      "status": "candidate",
+      "text": "fcc"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9936,
+      "status": "candidate",
+      "text": "ref"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9936,
+      "status": "candidate",
+      "text": "warden"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "IceBox Upvote Watcher",
+  "concept_id": "icebox-upvote-watcher",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/icebox-watcher.yml",
+      "source_repo": "NuGet/Home"
+    }
+  ],
+  "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "IceBox Upvote Watcher",
+      "sense_id": "icebox-upvote-watcher#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

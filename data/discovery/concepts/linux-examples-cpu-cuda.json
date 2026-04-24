@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Linux examples (CPU, CUDA)"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "huggingface/optimum-quanto",
+      "status": "candidate-context",
+      "text": "A pytorch quantization backend for optimum"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "huggingface/optimum-quanto",
+      "status": "candidate-context",
+      "text": "Linux examples (CPU, CUDA)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "huggingface/optimum-quanto",
+      "status": "candidate",
+      "text": "Linux examples (CPU, CUDA)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11069,
+      "status": "candidate",
+      "text": "audacity"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11069,
+      "status": "candidate",
+      "text": "cola"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11069,
+      "status": "candidate",
+      "text": "crossover"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11069,
+      "status": "candidate",
+      "text": "tux"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10936,
+      "status": "candidate",
+      "text": "chain"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Linux examples (CPU, CUDA)",
+  "concept_id": "linux-examples-cpu-cuda",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/linux-examples.yml",
+      "source_repo": "huggingface/optimum-quanto"
+    }
+  ],
+  "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Linux examples (CPU, CUDA)",
+      "sense_id": "linux-examples-cpu-cuda#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

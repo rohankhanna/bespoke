@@ -175,6 +175,30 @@
       "source_repo": "raviqqe/liche",
       "status": "candidate-context",
       "text": "Sorry this project is not actively maintained anymore! \ud83d\ude22 Please consider migrating to one of the alternatives listed below."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aesalazar/AsteroidsWasm",
+      "status": "candidate-context",
+      "text": "Collection of applications based on a single C# .NET Standard project running in:  Blazor Client (WebAssembly), Blazor Server, Electron, WPF, WinForms, Maui, WinUI3"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aesalazar/AsteroidsWasm",
+      "status": "candidate-context",
+      "text": "Collection of applications based on a single C# .NET Standard project running in: Blazor Client (WebAssembly), Blazor Server, Electron, WPF, WinForms, Maui, WinUI3"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "docling-project/docling",
+      "status": "candidate-context",
+      "text": "Get your documents ready for gen AI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "docling-project/docling",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -261,6 +285,18 @@
       "source_repo": "raviqqe/liche",
       "status": "candidate",
       "text": "Sorry this project is not actively maintained anymore! \ud83d\ude22 Please consider migrating to one of the alternatives listed below."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aesalazar/AsteroidsWasm",
+      "status": "candidate",
+      "text": "Collection of applications based on a single C# .NET Standard project running in: Blazor Client (WebAssembly), Blazor Server, Electron, WPF, WinForms, Maui, WinUI3"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "docling-project/docling",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -402,11 +438,29 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "raviqqe/liche"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "aesalazar/AsteroidsWasm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "docling-project/docling"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "pallets/markupsafe"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

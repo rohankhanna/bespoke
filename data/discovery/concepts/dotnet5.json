@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "dotnet5"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/CsWinRT",
+      "status": "candidate-context",
+      "text": "C# language projection for the Windows Runtime"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/CsWinRT",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://dev.azure.com/microsoft/Dart/_apis/build/status%2FCsWinRT%20GitHub%20CI?branchName=master)](https://dev.azure.com/microsoft/Dart/_build/latest?definitionId=112455&branchName=master)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/CsWinRT",
+      "status": "candidate",
+      "text": "[![Build Status](https://dev.azure.com/microsoft/Dart/_apis/build/status%2FCsWinRT%20GitHub%20CI?branchName=master)](https://dev.azure.com/microsoft/Dart/_build/latest?definitionId=112455&branchName=master)"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "dotnet5",
+  "concept_id": "dotnet5",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/CsWinRT"
+    }
+  ],
+  "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "dotnet5",
+      "sense_id": "dotnet5#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "WebAssembly System Interface"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Publish Proposal"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Publish Proposal"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10645,
+      "status": "candidate",
+      "text": "aak"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10645,
+      "status": "candidate",
+      "text": "advertise"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10645,
+      "status": "candidate",
+      "text": "announce"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10645,
+      "status": "candidate",
+      "text": "ask"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10645,
+      "status": "candidate",
+      "text": "blow"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Publish Proposal",
+      "sense_id": "publish-proposal#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "publish-proposal",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "publish-proposal",
+  "observation_id": "dc46c22200ced175",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-24T00:33:56.049672+00:00",
+  "observed_text": "Publish Proposal",
+  "source_context_snippet": "Publish Proposal",
+  "source_file": ".github/workflows/publish-proposal.yml",
+  "source_repo": "WebAssembly/WASI",
+  "source_repo_description": "WebAssembly System Interface"
+}

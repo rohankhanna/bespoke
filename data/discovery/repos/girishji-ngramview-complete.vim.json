@@ -1,0 +1,185 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "girishji/ngramview-complete.vim",
+      "target": "autocomplete",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "girishji/ngramview-complete.vim",
+      "target": "autocomplete-search",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "girishji/ngramview-complete.vim",
+      "target": "autocompletion",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "girishji/ngramview-complete.vim",
+      "target": "google-ngram-api",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "girishji/ngramview-complete.vim",
+      "target": "google-ngram-viewer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "girishji/ngramview-complete.vim",
+      "target": "ngram",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "girishji/ngramview-complete.vim",
+      "target": "ngrams",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "girishji/ngramview-complete.vim",
+      "target": "vim-cmd",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "girishji/ngramview-complete.vim",
+      "target": "vim-plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "girishji/ngramview-complete.vim",
+      "target": "vim-search",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "girishji/ngramview-complete.vim",
+      "target": "vim9-script",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T00:46:39.703182+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1594
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Next word completion for Vim based on Google Ngrams Viewer.",
+    "fork": false,
+    "full_name": "girishji/ngramview-complete.vim",
+    "html_url": "https://github.com/girishji/ngramview-complete.vim",
+    "language": "Vim Script",
+    "pushed_at": "2023-07-26T08:45:02Z",
+    "stargazers_count": 0,
+    "topics": [
+      "autocomplete",
+      "autocomplete-search",
+      "autocompletion",
+      "google-ngram-api",
+      "google-ngram-viewer",
+      "ngram",
+      "ngrams",
+      "vim",
+      "vim-cmd",
+      "vim-plugin",
+      "vim-search",
+      "vim9-script"
+    ],
+    "updated_at": "2023-07-26T08:45:36Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "---",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "autocomplete"
+    },
+    {
+      "context_snippet": "---",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "autocomplete-search"
+    },
+    {
+      "context_snippet": "---",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "autocompletion"
+    },
+    {
+      "context_snippet": "---",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "google-ngram-api"
+    },
+    {
+      "context_snippet": "---",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "google-ngram-viewer"
+    },
+    {
+      "context_snippet": "---",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ngram"
+    },
+    {
+      "context_snippet": "---",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ngrams"
+    },
+    {
+      "context_snippet": "---",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vim-cmd"
+    },
+    {
+      "context_snippet": "---",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vim-plugin"
+    },
+    {
+      "context_snippet": "---",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vim-search"
+    },
+    {
+      "context_snippet": "---",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vim9-script"
+    }
+  ]
+}

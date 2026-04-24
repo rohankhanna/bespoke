@@ -1,0 +1,168 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Jumpat/SegmentAnythingin3D",
+      "target": "graphdeco-inria/gaussian-splatting",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Jumpat/SegmentAnythingin3D",
+      "target": "chaoningzhang/mobilesam",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Jumpat/SegmentAnythingin3D",
+      "target": "plotly/dash",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Jumpat/SegmentAnythingin3D",
+      "target": "sunset1995/directvoxgo",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Jumpat/SegmentAnythingin3D",
+      "target": "3d-segmentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Jumpat/SegmentAnythingin3D",
+      "target": "computer-vision",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Jumpat/SegmentAnythingin3D",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Jumpat/SegmentAnythingin3D",
+      "target": "nerf",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Jumpat/SegmentAnythingin3D",
+      "target": "segment-anything",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Jumpat/SegmentAnythingin3D",
+      "target": "segmentation",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T02:02:03.159514+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9047
+    },
+    {
+      "path": "requirements.txt",
+      "size": 437
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Segment Anything in 3D with NeRFs (NeurIPS 2023 & IJCV 2025)",
+    "fork": false,
+    "full_name": "Jumpat/SegmentAnythingin3D",
+    "html_url": "https://github.com/Jumpat/SegmentAnythingin3D",
+    "language": "Python",
+    "pushed_at": "2025-05-19T02:37:14Z",
+    "stargazers_count": 1014,
+    "topics": [
+      "3d",
+      "3d-segmentation",
+      "computer-vision",
+      "deep-learning",
+      "nerf",
+      "segment-anything",
+      "segmentation"
+    ],
+    "updated_at": "2026-04-23T15:12:07Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "chaoningzhang/mobilesam",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "graphdeco-inria/gaussian-splatting",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "plotly/dash",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sunset1995/directvoxgo",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[Segment Anything in 3D with NeRFs](https://arxiv.org/abs/2304.12308)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "3d-segmentation"
+    },
+    {
+      "context_snippet": "[Segment Anything in 3D with NeRFs](https://arxiv.org/abs/2304.12308)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "computer-vision"
+    },
+    {
+      "context_snippet": "[Segment Anything in 3D with NeRFs](https://arxiv.org/abs/2304.12308)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "[Segment Anything in 3D with NeRFs](https://arxiv.org/abs/2304.12308)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nerf"
+    },
+    {
+      "context_snippet": "[Segment Anything in 3D with NeRFs](https://arxiv.org/abs/2304.12308)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "segment-anything"
+    },
+    {
+      "context_snippet": "[Segment Anything in 3D with NeRFs](https://arxiv.org/abs/2304.12308)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "segmentation"
+    }
+  ]
+}

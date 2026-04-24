@@ -67,6 +67,30 @@
       "source_repo": "0x676e67/wreq-python",
       "status": "candidate-context",
       "text": "[![CI](https://github.com/0x676e67/wreq-python/actions/workflows/ci.yml/badge.svg)](https://github.com/0x676e67/wreq-python/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "stepancheg/grpc-rust",
+      "status": "candidate-context",
+      "text": "Rust implementation of gRPC"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stepancheg/grpc-rust",
+      "status": "candidate-context",
+      "text": "grpc-rust"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "summerwind/h2spec",
+      "status": "candidate-context",
+      "text": "A conformance testing tool for HTTP/2 implementation."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "summerwind/h2spec",
+      "status": "candidate-context",
+      "text": "h2spec is a conformance testing tool for HTTP/2 implementation."
     }
   ],
   "candidate_glosses": [
@@ -99,6 +123,18 @@
       "source_repo": "0x676e67/wreq-python",
       "status": "candidate",
       "text": "[![CI](https://github.com/0x676e67/wreq-python/actions/workflows/ci.yml/badge.svg)](https://github.com/0x676e67/wreq-python/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stepancheg/grpc-rust",
+      "status": "candidate",
+      "text": "grpc-rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "summerwind/h2spec",
+      "status": "candidate",
+      "text": "h2spec is a conformance testing tool for HTTP/2 implementation."
     }
   ],
   "candidate_related_terms": [],
@@ -136,11 +172,23 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "0x676e67/wreq-python"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "stepancheg/grpc-rust"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "summerwind/h2spec"
     }
   ],
   "first_seen_at": "2026-04-22T04:41:58.081535+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

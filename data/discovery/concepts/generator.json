@@ -115,6 +115,30 @@
       "source_repo": "marwin1991/profile-technology-icons",
       "status": "candidate-context",
       "text": "A list of icons that can be used during GitHub profile creation to show what technology, languages are known."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "orhun/git-cliff",
+      "status": "candidate-context",
+      "text": "A highly customizable Changelog Generator that follows Conventional Commit specifications \u26f0\ufe0f "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "orhun/git-cliff",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "verbose/verb-generate-readme",
+      "status": "candidate-context",
+      "text": "Generate your project's readme with verb. Requires verb v0.9.0 or higher."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "verbose/verb-generate-readme",
+      "status": "candidate-context",
+      "text": "verb-generate-readme \u2014 Generate your project's readme with verb. Requires verb v0.9.0 or higher."
     }
   ],
   "candidate_glosses": [
@@ -171,6 +195,18 @@
       "source_repo": "marwin1991/profile-technology-icons",
       "status": "candidate",
       "text": "A list of icons that can be used during GitHub profile creation to show what technology, languages are known."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "orhun/git-cliff",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "verbose/verb-generate-readme",
+      "status": "candidate",
+      "text": "verb-generate-readme \u2014 Generate your project's readme with verb. Requires verb v0.9.0 or higher."
     }
   ],
   "candidate_related_terms": [
@@ -283,11 +319,23 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "marwin1991/profile-technology-icons"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "orhun/git-cliff"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "verbose/verb-generate-readme"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

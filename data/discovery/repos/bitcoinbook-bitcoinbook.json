@@ -1,0 +1,100 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bitcoinbook/bitcoinbook",
+      "target": "bitcoin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bitcoinbook/bitcoinbook",
+      "target": "bitcoin-api",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bitcoinbook/bitcoinbook",
+      "target": "blockchain",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bitcoinbook/bitcoinbook",
+      "target": "oreilly",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bitcoinbook/bitcoinbook",
+      "target": "oreilly-books",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T01:51:13.721764+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7867
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "develop",
+    "description": "Mastering Bitcoin 3rd Edition - Programming the Open Blockchain",
+    "fork": false,
+    "full_name": "bitcoinbook/bitcoinbook",
+    "html_url": "https://github.com/bitcoinbook/bitcoinbook",
+    "language": "HTML",
+    "pushed_at": "2024-12-26T18:18:32Z",
+    "stargazers_count": 25192,
+    "topics": [
+      "bitcoin",
+      "bitcoin-api",
+      "blockchain",
+      "oreilly",
+      "oreilly-books"
+    ],
+    "updated_at": "2026-04-24T01:28:44Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Mastering Bitcoin is a technical book that explains what Bitcoin is and how it works.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bitcoin"
+    },
+    {
+      "context_snippet": "Mastering Bitcoin is a technical book that explains what Bitcoin is and how it works.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bitcoin-api"
+    },
+    {
+      "context_snippet": "Mastering Bitcoin is a technical book that explains what Bitcoin is and how it works.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "blockchain"
+    },
+    {
+      "context_snippet": "Mastering Bitcoin is a technical book that explains what Bitcoin is and how it works.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "oreilly"
+    },
+    {
+      "context_snippet": "Mastering Bitcoin is a technical book that explains what Bitcoin is and how it works.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "oreilly-books"
+    }
+  ]
+}

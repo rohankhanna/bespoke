@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "m-bain/frozen-in-time",
+      "target": "victoresque/pytorch-template",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "m-bain/frozen-in-time",
+      "target": "albanie/collaborative-experts",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-24T02:02:55.878838+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4989
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Frozen in Time: A Joint Video and Image Encoder for End-to-End Retrieval [ICCV'21]",
+    "fork": false,
+    "full_name": "m-bain/frozen-in-time",
+    "html_url": "https://github.com/m-bain/frozen-in-time",
+    "language": "Python",
+    "pushed_at": "2022-05-19T11:49:39Z",
+    "stargazers_count": 377,
+    "topics": [],
+    "updated_at": "2026-03-26T12:45:19Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "albanie/collaborative-experts",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "victoresque/pytorch-template",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

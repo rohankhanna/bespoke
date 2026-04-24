@@ -19,6 +19,18 @@
       "source_repo": "pypi/warehouse",
       "status": "candidate-context",
       "text": "'Combine PRs'"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "EspressoSystems/jellyfish",
+      "status": "candidate-context",
+      "text": "A Rust Implementation of the PLONK ZKP System and Extensions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "EspressoSystems/jellyfish",
+      "status": "candidate-context",
+      "text": "Combine PRs"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "pypi/warehouse",
       "status": "candidate",
       "text": "'Combine PRs'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "EspressoSystems/jellyfish",
+      "status": "candidate",
+      "text": "Combine PRs"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": ".github/workflows/combine-prs.yml",
       "source_repo": "pypi/warehouse"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/combine-prs.yml",
+      "source_repo": "EspressoSystems/jellyfish"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

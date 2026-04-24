@@ -247,6 +247,42 @@
       "source_repo": "TIGER-AI-Lab/VLM2Vec",
       "status": "candidate-context",
       "text": "<a target=\"_blank\" href=\"https://arxiv.org/abs/2507.04590\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mbzuai-oryx/VideoGPT-plus",
+      "status": "candidate-context",
+      "text": "Official Repository of paper VideoGPT+: Integrating Image and Video Encoders for Enhanced Video Understanding"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mbzuai-oryx/VideoGPT-plus",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "shikiw/OPERA",
+      "status": "candidate-context",
+      "text": "[CVPR 2024 Highlight] OPERA: Alleviating Hallucination in Multi-Modal Large Language Models via Over-Trust Penalty and Retrospection-Allocation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "shikiw/OPERA",
+      "status": "candidate-context",
+      "text": "[![License: MIT](https://img.shields.io/badge/License-MIT-g.svg)](https://opensource.org/licenses/MIT)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rom1504/img2dataset",
+      "status": "candidate-context",
+      "text": "Easily turn large sets of image urls to an image dataset. Can download, resize and package 100M urls in 20h on one machine."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rom1504/img2dataset",
+      "status": "candidate-context",
+      "text": "[![pypi](https://img.shields.io/pypi/v/img2dataset.svg)](https://pypi.python.org/pypi/img2dataset)"
     }
   ],
   "candidate_glosses": [
@@ -369,6 +405,24 @@
       "source_repo": "TIGER-AI-Lab/VLM2Vec",
       "status": "candidate",
       "text": "<a target=\"_blank\" href=\"https://arxiv.org/abs/2507.04590\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mbzuai-oryx/VideoGPT-plus",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "shikiw/OPERA",
+      "status": "candidate",
+      "text": "[![License: MIT](https://img.shields.io/badge/License-MIT-g.svg)](https://opensource.org/licenses/MIT)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rom1504/img2dataset",
+      "status": "candidate",
+      "text": "[![pypi](https://img.shields.io/pypi/v/img2dataset.svg)](https://pypi.python.org/pypi/img2dataset)"
     }
   ],
   "candidate_related_terms": [
@@ -556,11 +610,29 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "modelscope/ms-swift"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "mbzuai-oryx/VideoGPT-plus"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "shikiw/OPERA"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "rom1504/img2dataset"
     }
   ],
   "first_seen_at": "2026-04-18T12:06:06.216548+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

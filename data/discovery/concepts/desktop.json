@@ -103,6 +103,42 @@
       "source_repo": "microsoft/rnx-kit",
       "status": "candidate-context",
       "text": "[![Open in Visual Studio Code](https://img.shields.io/static/v1?logo=visualstudiocode&label=&message=Open%20in%20Visual%20Studio%20Code&color=007acc&labelColor=444444&logoColor=007acc)](https://vscode.dev/github/microsoft/rnx-kit)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AppImageCommunity/pkg2appimage",
+      "status": "candidate-context",
+      "text": "Tool and recipes to convert existing deb packages to AppImage "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AppImageCommunity/pkg2appimage",
+      "status": "candidate-context",
+      "text": "[Download as an AppImage](../../releases/tag/continuous)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/CsWinRT",
+      "status": "candidate-context",
+      "text": "C# language projection for the Windows Runtime"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/CsWinRT",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://dev.azure.com/microsoft/Dart/_apis/build/status%2FCsWinRT%20GitHub%20CI?branchName=master)](https://dev.azure.com/microsoft/Dart/_build/latest?definitionId=112455&branchName=master)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/WindowsAppSDK",
+      "status": "candidate-context",
+      "text": "The Windows App SDK empowers all Windows desktop apps with modern Windows UI, APIs, and platform features, including back-compat support, shipped via NuGet."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/WindowsAppSDK",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -153,6 +189,24 @@
       "source_repo": "microsoft/rnx-kit",
       "status": "candidate",
       "text": "[![Open in Visual Studio Code](https://img.shields.io/static/v1?logo=visualstudiocode&label=&message=Open%20in%20Visual%20Studio%20Code&color=007acc&labelColor=444444&logoColor=007acc)](https://vscode.dev/github/microsoft/rnx-kit)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AppImageCommunity/pkg2appimage",
+      "status": "candidate",
+      "text": "[Download as an AppImage](../../releases/tag/continuous)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/CsWinRT",
+      "status": "candidate",
+      "text": "[![Build Status](https://dev.azure.com/microsoft/Dart/_apis/build/status%2FCsWinRT%20GitHub%20CI?branchName=master)](https://dev.azure.com/microsoft/Dart/_build/latest?definitionId=112455&branchName=master)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/WindowsAppSDK",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -307,11 +361,35 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "microsoft/rnx-kit"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "AppImageCommunity/pkg2appimage"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "nwjs/nw.js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/CsWinRT"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/WindowsAppSDK"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

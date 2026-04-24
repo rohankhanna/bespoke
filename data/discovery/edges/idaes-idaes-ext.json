@@ -1,0 +1,55 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos_build.yml",
+      "source_repo": "IDAES/idaes-ext",
+      "target": "actions/upload-artifact@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/macos_build.yml",
+      "source_repo": "IDAES/idaes-ext",
+      "target": "macOS Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test_linux.yml",
+      "source_repo": "IDAES/idaes-ext",
+      "target": "Linux Test IDAES-PSE Main",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_macos_main.yml",
+      "source_repo": "IDAES/idaes-ext",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test_macos_main.yml",
+      "source_repo": "IDAES/idaes-ext",
+      "target": "macOS Test IDAES-PSE Main",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_windows_main.yml",
+      "source_repo": "IDAES/idaes-ext",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test_windows_main.yml",
+      "source_repo": "IDAES/idaes-ext",
+      "target": "Windows Test IDAES-PSE Main",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-24T00:33:56.049672+00:00",
+  "source_repo": "IDAES/idaes-ext"
+}

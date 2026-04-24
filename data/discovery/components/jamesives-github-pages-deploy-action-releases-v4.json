@@ -1,0 +1,17 @@
+{
+  "component": "JamesIves/github-pages-deploy-action@releases/v4",
+  "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/appcast.yml",
+      "source_repo": "XcodesOrg/XcodesApp"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ExportPluto.yml",
+      "source_repo": "JuliaPluto/PlutoUI.jl"
+    }
+  ]
+}

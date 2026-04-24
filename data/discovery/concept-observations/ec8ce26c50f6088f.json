@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Repo for NuGet Client issues"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Stale P3 Issue"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Stale P3 Issue"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10232,
+      "status": "candidate",
+      "text": "odor"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10210,
+      "status": "candidate",
+      "text": "appal"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10210,
+      "status": "candidate",
+      "text": "banality"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10210,
+      "status": "candidate",
+      "text": "bilge"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10210,
+      "status": "candidate",
+      "text": "blink"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Stale P3 Issue",
+      "sense_id": "stale-p3-issue#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "stale-p3-issue",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "stale-p3-issue",
+  "observation_id": "ec8ce26c50f6088f",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-24T00:33:56.049672+00:00",
+  "observed_text": "Stale P3 Issue",
+  "source_context_snippet": "Stale P3 Issue",
+  "source_file": ".github/workflows/stale-p3-search.yml",
+  "source_repo": "NuGet/Home",
+  "source_repo_description": "Repo for NuGet Client issues"
+}

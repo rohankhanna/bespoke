@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Act Test"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NixOS/nix-installer",
+      "status": "candidate-context",
+      "text": "A fork of the Determinate Nix Installer."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NixOS/nix-installer",
+      "status": "candidate-context",
+      "text": "Act Test"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NixOS/nix-installer",
+      "status": "candidate",
+      "text": "Act Test"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29906,
+      "status": "candidate",
+      "text": "experiment"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29506,
+      "status": "candidate",
+      "text": "examination"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29506,
+      "status": "candidate",
+      "text": "experimentation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29506,
+      "status": "candidate",
+      "text": "testing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29506,
+      "status": "candidate",
+      "text": "trial"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Act Test",
+  "concept_id": "act-test",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/act-test.yml",
+      "source_repo": "NixOS/nix-installer"
+    }
+  ],
+  "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Act Test",
+      "sense_id": "act-test#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

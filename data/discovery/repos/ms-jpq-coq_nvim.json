@@ -1,0 +1,199 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/artifacts.yml"
+    },
+    {
+      "component": "actions/setup-python@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/artifacts.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ms-jpq/coq_nvim",
+      "target": "codota/tabnine",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ms-jpq/coq_nvim",
+      "target": "fatih/vim-go",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ms-jpq/coq_nvim",
+      "target": "ikuyadeu/vscode-r",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ms-jpq/coq_nvim",
+      "target": "dsznajder/vscode-es7-javascript-react-snippets",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/artifacts.yml",
+      "source_repo": "ms-jpq/coq_nvim",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/artifacts.yml",
+      "source_repo": "ms-jpq/coq_nvim",
+      "target": "actions/setup-python@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/artifacts.yml",
+      "source_repo": "ms-jpq/coq_nvim",
+      "target": "Artifacts",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ms-jpq/coq_nvim",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ms-jpq/coq_nvim",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ms-jpq/coq_nvim",
+      "target": "completion",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ms-jpq/coq_nvim",
+      "target": "neovim",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ms-jpq/coq_nvim",
+      "target": "neovim-plugin",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T00:52:45.261738+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 15595
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 171
+    },
+    {
+      "path": "requirements.txt",
+      "size": 201
+    },
+    {
+      "path": ".github/workflows/artifacts.yml",
+      "size": 396
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 854
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "coq",
+    "description": "Fast as FUCK nvim completion. SQLite, concurrent scheduler, hundreds of hours of optimization.",
+    "fork": false,
+    "full_name": "ms-jpq/coq_nvim",
+    "html_url": "https://github.com/ms-jpq/coq_nvim",
+    "language": "Python",
+    "pushed_at": "2026-04-23T17:16:06Z",
+    "stargazers_count": 3797,
+    "topics": [
+      "completion",
+      "neovim",
+      "neovim-plugin"
+    ],
+    "updated_at": "2026-04-23T17:16:10Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "codota/tabnine",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dsznajder/vscode-es7-javascript-react-snippets",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "fatih/vim-go",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ikuyadeu/vscode-r",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Artifacts",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/artifacts.yml",
+      "term": "Artifacts"
+    },
+    {
+      "context_snippet": "Named after the [famous theorem prover](https://coq.inria.fr/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "completion"
+    },
+    {
+      "context_snippet": "Named after the [famous theorem prover](https://coq.inria.fr/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neovim"
+    },
+    {
+      "context_snippet": "Named after the [famous theorem prover](https://coq.inria.fr/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neovim-plugin"
+    }
+  ]
+}

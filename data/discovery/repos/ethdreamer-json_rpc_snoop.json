@@ -1,0 +1,35 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-24T00:57:05.092184+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2143
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 562
+    },
+    {
+      "path": "Dockerfile",
+      "size": 687
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "JSON-RPC endpoint proxy that dumps requests/responses for debugging",
+    "fork": false,
+    "full_name": "ethDreamer/json_rpc_snoop",
+    "html_url": "https://github.com/ethDreamer/json_rpc_snoop",
+    "language": "Rust",
+    "pushed_at": "2023-08-23T17:19:15Z",
+    "stargazers_count": 31,
+    "topics": [],
+    "updated_at": "2026-04-01T11:48:56Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

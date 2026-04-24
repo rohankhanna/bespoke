@@ -1,0 +1,524 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/alternative-os-build-main.yml"
+    },
+    {
+      "component": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/alternative-os-build-main.yml"
+    },
+    {
+      "component": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/alternative-os-build-main.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-container-versions.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-container-versions.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7.0.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-container-versions.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/depsreview.yaml"
+    },
+    {
+      "component": "actions/dependency-review-action@2031cfc080254a8a887f58cffee85186f0e49e48",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/depsreview.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-sbom-main.yml"
+    },
+    {
+      "component": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-sbom-main.yml"
+    },
+    {
+      "component": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-sbom-main.yml"
+    },
+    {
+      "component": "peter-evans/create-pull-request@5f6978faf089d4d20b00c7766989d076bb2fc7f1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-sbom-main.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main-build.yml"
+    },
+    {
+      "component": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main-build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main-build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main-build.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-build-main.yml"
+    },
+    {
+      "component": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-build-main.yml"
+    },
+    {
+      "component": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-build-main.yml"
+    },
+    {
+      "component": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-build-main.yml"
+    },
+    {
+      "component": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-build-main.yml"
+    },
+    {
+      "component": "actions/github-script@v9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-commenter.yml"
+    },
+    {
+      "component": "actions/github-script@v9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-commenter.yml"
+    },
+    {
+      "component": "actions/github-script@v9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-commenter.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-doc-validation.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-doc-validation.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "apache/camel",
+      "target": "apache/camel-examples",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/alternative-os-build-main.yml",
+      "source_repo": "apache/camel",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/alternative-os-build-main.yml",
+      "source_repo": "apache/camel",
+      "target": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/alternative-os-build-main.yml",
+      "source_repo": "apache/camel",
+      "target": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/alternative-os-build-main.yml",
+      "source_repo": "apache/camel",
+      "target": "Alternative OS Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-container-versions.yml",
+      "source_repo": "apache/camel",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-container-versions.yml",
+      "source_repo": "apache/camel",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-container-versions.yml",
+      "source_repo": "apache/camel",
+      "target": "actions/upload-artifact@v7.0.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-container-versions.yml",
+      "source_repo": "apache/camel",
+      "target": "Container Version Upgrade",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/depsreview.yaml",
+      "source_repo": "apache/camel",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/depsreview.yaml",
+      "source_repo": "apache/camel",
+      "target": "actions/dependency-review-action@2031cfc080254a8a887f58cffee85186f0e49e48",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/depsreview.yaml",
+      "source_repo": "apache/camel",
+      "target": "Dependency Review",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-sbom-main.yml",
+      "source_repo": "apache/camel",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-sbom-main.yml",
+      "source_repo": "apache/camel",
+      "target": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-sbom-main.yml",
+      "source_repo": "apache/camel",
+      "target": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-sbom-main.yml",
+      "source_repo": "apache/camel",
+      "target": "peter-evans/create-pull-request@5f6978faf089d4d20b00c7766989d076bb2fc7f1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/generate-sbom-main.yml",
+      "source_repo": "apache/camel",
+      "target": "Generate SBOM",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main-build.yml",
+      "source_repo": "apache/camel",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main-build.yml",
+      "source_repo": "apache/camel",
+      "target": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main-build.yml",
+      "source_repo": "apache/camel",
+      "target": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main-build.yml",
+      "source_repo": "apache/camel",
+      "target": "Main build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-build-main.yml",
+      "source_repo": "apache/camel",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-build-main.yml",
+      "source_repo": "apache/camel",
+      "target": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-build-main.yml",
+      "source_repo": "apache/camel",
+      "target": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-build-main.yml",
+      "source_repo": "apache/camel",
+      "target": "Build and test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-cleanup-branches.yml",
+      "source_repo": "apache/camel",
+      "target": "PR Cleanup Branches",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-commenter.yml",
+      "source_repo": "apache/camel",
+      "target": "actions/github-script@v9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-commenter.yml",
+      "source_repo": "apache/camel",
+      "target": "Comment pull request",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-doc-validation.yml",
+      "source_repo": "apache/camel",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-doc-validation.yml",
+      "source_repo": "apache/camel",
+      "target": "PR doc validation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/camel",
+      "target": "camel",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/camel",
+      "target": "integration",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/camel",
+      "target": "java",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/camel",
+      "target": "microservices",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T01:49:26.060581+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4152
+    },
+    {
+      "path": ".github/workflows/alternative-os-build-main.yml",
+      "size": 1969
+    },
+    {
+      "path": ".github/workflows/check-container-versions.yml",
+      "size": 15422
+    },
+    {
+      "path": ".github/workflows/depsreview.yaml",
+      "size": 1348
+    },
+    {
+      "path": ".github/workflows/generate-sbom-main.yml",
+      "size": 2780
+    },
+    {
+      "path": ".github/workflows/main-build.yml",
+      "size": 2632
+    },
+    {
+      "path": ".github/workflows/pr-build-main.yml",
+      "size": 6232
+    },
+    {
+      "path": ".github/workflows/pr-cleanup-branches.yml",
+      "size": 1527
+    },
+    {
+      "path": ".github/workflows/pr-commenter.yml",
+      "size": 4545
+    },
+    {
+      "path": ".github/workflows/pr-doc-validation.yml",
+      "size": 1818
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Apache Camel is an open source integration framework that empowers you to quickly and easily integrate various systems consuming or producing data.",
+    "fork": false,
+    "full_name": "apache/camel",
+    "html_url": "https://github.com/apache/camel",
+    "language": "Java",
+    "pushed_at": "2026-04-23T16:14:10Z",
+    "stargazers_count": 6186,
+    "topics": [
+      "camel",
+      "eip",
+      "integration",
+      "java",
+      "microservices"
+    ],
+    "updated_at": "2026-04-24T01:28:04Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "apache/camel-examples",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Alternative OS Build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/alternative-os-build-main.yml",
+      "term": "Alternative OS Build"
+    },
+    {
+      "context_snippet": "Container Version Upgrade",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-container-versions.yml",
+      "term": "Container Version Upgrade"
+    },
+    {
+      "context_snippet": "'Dependency Review'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/depsreview.yaml",
+      "term": "Dependency Review"
+    },
+    {
+      "context_snippet": "Generate SBOM",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/generate-sbom-main.yml",
+      "term": "Generate SBOM"
+    },
+    {
+      "context_snippet": "Main build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main-build.yml",
+      "term": "Main build"
+    },
+    {
+      "context_snippet": "Build and test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-build-main.yml",
+      "term": "Build and test"
+    },
+    {
+      "context_snippet": "PR Cleanup Branches",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-cleanup-branches.yml",
+      "term": "PR Cleanup Branches"
+    },
+    {
+      "context_snippet": "Comment pull request",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-commenter.yml",
+      "term": "Comment pull request"
+    },
+    {
+      "context_snippet": "PR doc validation",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-doc-validation.yml",
+      "term": "PR doc validation"
+    },
+    {
+      "context_snippet": "[![Maven Central](https://img.shields.io/maven-central/v/org.apache.camel/apache-camel.svg?label=Maven%20Central)](https://central.sonatype.com/artifact/org.apache.camel/apache-camel)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "camel"
+    },
+    {
+      "context_snippet": "[![Maven Central](https://img.shields.io/maven-central/v/org.apache.camel/apache-camel.svg?label=Maven%20Central)](https://central.sonatype.com/artifact/org.apache.camel/apache-camel)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "integration"
+    },
+    {
+      "context_snippet": "[![Maven Central](https://img.shields.io/maven-central/v/org.apache.camel/apache-camel.svg?label=Maven%20Central)](https://central.sonatype.com/artifact/org.apache.camel/apache-camel)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "java"
+    },
+    {
+      "context_snippet": "[![Maven Central](https://img.shields.io/maven-central/v/org.apache.camel/apache-camel.svg?label=Maven%20Central)](https://central.sonatype.com/artifact/org.apache.camel/apache-camel)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "microservices"
+    }
+  ]
+}

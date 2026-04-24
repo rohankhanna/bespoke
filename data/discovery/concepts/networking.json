@@ -163,6 +163,30 @@
       "source_repo": "boazsegev/facil.io",
       "status": "candidate-context",
       "text": "<p align=\"center\"><img src=\"https://s33.postimg.cc/5d7j1nacf/Readme_1.jpg\"></p>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Alamofire/Alamofire",
+      "status": "candidate-context",
+      "text": "Elegant HTTP Networking in Swift"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Alamofire/Alamofire",
+      "status": "candidate-context",
+      "text": "![Alamofire: Elegant Networking in Swift](https://raw.githubusercontent.com/Alamofire/Alamofire/master/Resources/AlamofireLogo.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "actix/actix-net",
+      "status": "candidate-context",
+      "text": "A collection of lower-level libraries for composable network services."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "actix/actix-net",
+      "status": "candidate-context",
+      "text": "> A collection of lower-level libraries for composable network services."
     }
   ],
   "candidate_glosses": [
@@ -243,6 +267,18 @@
       "source_repo": "boazsegev/facil.io",
       "status": "candidate",
       "text": "<p align=\"center\"><img src=\"https://s33.postimg.cc/5d7j1nacf/Readme_1.jpg\"></p>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Alamofire/Alamofire",
+      "status": "candidate",
+      "text": "![Alamofire: Elegant Networking in Swift](https://raw.githubusercontent.com/Alamofire/Alamofire/master/Resources/AlamofireLogo.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "actix/actix-net",
+      "status": "candidate",
+      "text": "> A collection of lower-level libraries for composable network services."
     }
   ],
   "candidate_related_terms": [
@@ -364,11 +400,23 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "boazsegev/facil.io"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "Alamofire/Alamofire"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "actix/actix-net"
     }
   ],
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

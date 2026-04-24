@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "PyTorch Extension Library of Optimized Scatter Operations"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[pypi-image]: https://badge.fury.io/py/torch-scatter.svg"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[pypi-image]: https://badge.fury.io/py/torch-scatter.svg"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40042701,
+      "status": "candidate",
+      "text": "forgather"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40042559,
+      "status": "candidate",
+      "text": "congregate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40042062,
+      "status": "candidate",
+      "text": "collect"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40041817,
+      "status": "candidate",
+      "text": "foregather"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40041193,
+      "status": "candidate",
+      "text": "assemble"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "gather",
+      "sense_id": "gather#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 39043,
+      "status": "candidate",
+      "text": "infer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 28037,
+      "status": "candidate",
+      "text": "understand"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 23060,
+      "status": "candidate",
+      "text": "conglomerate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 17042,
+      "status": "candidate",
+      "text": "assemble"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 16051,
+      "status": "candidate",
+      "text": "meet"
+    }
+  ],
+  "concept_id": "gather",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "gather",
+  "observation_id": "6faa6793f254cdde",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T00:33:56.049672+00:00",
+  "observed_text": "gather",
+  "source_context_snippet": "[pypi-image]: https://badge.fury.io/py/torch-scatter.svg",
+  "source_file": null,
+  "source_repo": "rusty1s/pytorch_scatter",
+  "source_repo_description": "PyTorch Extension Library of Optimized Scatter Operations"
+}

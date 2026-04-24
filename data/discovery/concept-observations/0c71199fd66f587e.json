@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A simple and fast package manager for the Fish shell written in Rust. \ud83d\udce6"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "> A simple and fast package manager for the [Fish Shell](https://fishshell.com/) written in [Rust](https://www.rust-lang.org/). \ud83d\udc20"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "> A simple and fast package manager for the [Fish Shell](https://fishshell.com/) written in [Rust](https://www.rust-lang.org/). \ud83d\udc20"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10023804,
+      "status": "candidate",
+      "text": "x86`lowbar`64"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10023803,
+      "status": "candidate",
+      "text": "x86-32"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10023802,
+      "status": "candidate",
+      "text": "amd64"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10023801,
+      "status": "candidate",
+      "text": "x86-16"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10023800,
+      "status": "candidate",
+      "text": "ia-64"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "x86-64",
+      "sense_id": "x86-64#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "x86-64",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "x86-64",
+  "observation_id": "0c71199fd66f587e",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T00:33:56.049672+00:00",
+  "observed_text": "x86-64",
+  "source_context_snippet": "> A simple and fast package manager for the [Fish Shell](https://fishshell.com/) written in [Rust](https://www.rust-lang.org/). \ud83d\udc20",
+  "source_file": null,
+  "source_repo": "joseluisq/paket",
+  "source_repo_description": "A simple and fast package manager for the Fish shell written in Rust. \ud83d\udce6"
+}

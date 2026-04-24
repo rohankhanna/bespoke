@@ -1,0 +1,136 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "girishji/scope.vim",
+      "target": "donaldttt/fuzzyy",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "girishji/scope.vim",
+      "target": "habamax/.vim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "girishji/scope.vim",
+      "target": "girishji/vimbits",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "girishji/scope.vim",
+      "target": "girishji/vimsuggest",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "girishji/scope.vim",
+      "target": "vim-plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "girishji/scope.vim",
+      "target": "vim9",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "girishji/scope.vim",
+      "target": "vim9-plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "girishji/scope.vim",
+      "target": "vim9-script",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T00:46:43.447615+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 27295
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Minimal, fast, and extensible fuzzy finder.",
+    "fork": false,
+    "full_name": "girishji/scope.vim",
+    "html_url": "https://github.com/girishji/scope.vim",
+    "language": "Vim Script",
+    "pushed_at": "2025-10-05T20:09:27Z",
+    "stargazers_count": 88,
+    "topics": [
+      "vim",
+      "vim-plugin",
+      "vim9",
+      "vim9-plugin",
+      "vim9-script"
+    ],
+    "updated_at": "2026-03-17T11:40:49Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "donaldttt/fuzzyy",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "girishji/vimbits",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "girishji/vimsuggest",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "habamax/.vim",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<h1 align=\"center\"> Scope </h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vim-plugin"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\"> Scope </h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vim9"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\"> Scope </h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vim9-plugin"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\"> Scope </h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vim9-script"
+    }
+  ]
+}

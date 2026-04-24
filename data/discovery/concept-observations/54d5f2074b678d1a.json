@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "JavaScript libraries for identity, auth, storage and transactions on the Stacks blockchain."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "pre-run"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "pre-run"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "pre-run",
+      "sense_id": "pre-run#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "pre-run",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "pre-run",
+  "observation_id": "54d5f2074b678d1a",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-24T00:33:56.049672+00:00",
+  "observed_text": "pre-run",
+  "source_context_snippet": "pre-run",
+  "source_file": ".github/workflows/pre-run.yml",
+  "source_repo": "stx-labs/stacks.js",
+  "source_repo_description": "JavaScript libraries for identity, auth, storage and transactions on the Stacks blockchain."
+}

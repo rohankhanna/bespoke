@@ -1,0 +1,37 @@
+{
+  "component": "bazelbuild/continuous-integration/actions/bcr-pr-reviewer@f7f428909585a8f6ba46d0b622f8aa93b6c263cc",
+  "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/dismiss_approvals.yml",
+      "source_repo": "bazelbuild/bazel-central-registry"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/generate_module_diff.yml",
+      "source_repo": "bazelbuild/bazel-central-registry"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/handle_comment.yml",
+      "source_repo": "bazelbuild/bazel-central-registry"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/notify_maintainers.yml",
+      "source_repo": "bazelbuild/bazel-central-registry"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/review_prs.yml",
+      "source_repo": "bazelbuild/bazel-central-registry"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/skip_check.yml",
+      "source_repo": "bazelbuild/bazel-central-registry"
+    }
+  ]
+}

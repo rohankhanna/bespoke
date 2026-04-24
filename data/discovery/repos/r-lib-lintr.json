@@ -1,0 +1,619 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/R-CMD-check-hard.yaml"
+    },
+    {
+      "component": "r-lib/actions/setup-pandoc@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/R-CMD-check-hard.yaml"
+    },
+    {
+      "component": "r-lib/actions/setup-r@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/R-CMD-check-hard.yaml"
+    },
+    {
+      "component": "r-lib/actions/setup-r-dependencies@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/R-CMD-check-hard.yaml"
+    },
+    {
+      "component": "r-lib/actions/check-r-package@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/R-CMD-check-hard.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/R-CMD-check.yaml"
+    },
+    {
+      "component": "r-lib/actions/setup-pandoc@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/R-CMD-check.yaml"
+    },
+    {
+      "component": "r-lib/actions/setup-r@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/R-CMD-check.yaml"
+    },
+    {
+      "component": "r-lib/actions/setup-r-dependencies@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/R-CMD-check.yaml"
+    },
+    {
+      "component": "r-lib/actions/check-r-package@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/R-CMD-check.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ast-fuzz.yaml"
+    },
+    {
+      "component": "r-lib/actions/setup-r@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ast-fuzz.yaml"
+    },
+    {
+      "component": "r-lib/actions/setup-r-dependencies@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ast-fuzz.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-all-examples.yaml"
+    },
+    {
+      "component": "r-lib/actions/setup-r@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-all-examples.yaml"
+    },
+    {
+      "component": "r-lib/actions/setup-r-dependencies@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-all-examples.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yaml"
+    },
+    {
+      "component": "r-lib/actions/setup-r@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yaml"
+    },
+    {
+      "component": "r-lib/actions/setup-r-dependencies@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pkgdown.yaml"
+    },
+    {
+      "component": "r-lib/actions/setup-pandoc@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pkgdown.yaml"
+    },
+    {
+      "component": "r-lib/actions/setup-r@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pkgdown.yaml"
+    },
+    {
+      "component": "r-lib/actions/setup-r-dependencies@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pkgdown.yaml"
+    },
+    {
+      "component": "JamesIves/github-pages-deploy-action@v4.8.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pkgdown.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/repo-meta-tests.yaml"
+    },
+    {
+      "component": "r-lib/actions/setup-r@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/repo-meta-tests.yaml"
+    },
+    {
+      "component": "r-lib/actions/setup-r-dependencies@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/repo-meta-tests.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-coverage-examples.yaml"
+    },
+    {
+      "component": "r-lib/actions/setup-r@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-coverage-examples.yaml"
+    },
+    {
+      "component": "r-lib/actions/setup-r-dependencies@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-coverage-examples.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-coverage.yaml"
+    },
+    {
+      "component": "r-lib/actions/setup-r@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-coverage.yaml"
+    },
+    {
+      "component": "r-lib/actions/setup-r-dependencies@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-coverage.yaml"
+    },
+    {
+      "component": "codecov/codecov-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-coverage.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-coverage.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "r-lib/lintr",
+      "target": "r-lib/styler",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/R-CMD-check-hard.yaml",
+      "source_repo": "r-lib/lintr",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/R-CMD-check-hard.yaml",
+      "source_repo": "r-lib/lintr",
+      "target": "r-lib/actions/setup-pandoc@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/R-CMD-check-hard.yaml",
+      "source_repo": "r-lib/lintr",
+      "target": "r-lib/actions/setup-r@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/R-CMD-check-hard.yaml",
+      "source_repo": "r-lib/lintr",
+      "target": "r-lib/actions/setup-r-dependencies@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/R-CMD-check-hard.yaml",
+      "source_repo": "r-lib/lintr",
+      "target": "r-lib/actions/check-r-package@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/R-CMD-check-hard.yaml",
+      "source_repo": "r-lib/lintr",
+      "target": "R-CMD-check-hard",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/R-CMD-check.yaml",
+      "source_repo": "r-lib/lintr",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/R-CMD-check.yaml",
+      "source_repo": "r-lib/lintr",
+      "target": "r-lib/actions/setup-pandoc@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/R-CMD-check.yaml",
+      "source_repo": "r-lib/lintr",
+      "target": "r-lib/actions/setup-r@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/R-CMD-check.yaml",
+      "source_repo": "r-lib/lintr",
+      "target": "r-lib/actions/setup-r-dependencies@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/R-CMD-check.yaml",
+      "source_repo": "r-lib/lintr",
+      "target": "r-lib/actions/check-r-package@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/R-CMD-check.yaml",
+      "source_repo": "r-lib/lintr",
+      "target": "R-CMD-check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ast-fuzz.yaml",
+      "source_repo": "r-lib/lintr",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ast-fuzz.yaml",
+      "source_repo": "r-lib/lintr",
+      "target": "r-lib/actions/setup-r@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ast-fuzz.yaml",
+      "source_repo": "r-lib/lintr",
+      "target": "r-lib/actions/setup-r-dependencies@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ast-fuzz.yaml",
+      "source_repo": "r-lib/lintr",
+      "target": "ast-fuzz",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-all-examples.yaml",
+      "source_repo": "r-lib/lintr",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-all-examples.yaml",
+      "source_repo": "r-lib/lintr",
+      "target": "r-lib/actions/setup-r@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-all-examples.yaml",
+      "source_repo": "r-lib/lintr",
+      "target": "r-lib/actions/setup-r-dependencies@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-all-examples.yaml",
+      "source_repo": "r-lib/lintr",
+      "target": "check-all-examples",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yaml",
+      "source_repo": "r-lib/lintr",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yaml",
+      "source_repo": "r-lib/lintr",
+      "target": "r-lib/actions/setup-r@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yaml",
+      "source_repo": "r-lib/lintr",
+      "target": "r-lib/actions/setup-r-dependencies@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yaml",
+      "source_repo": "r-lib/lintr",
+      "target": "lint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pkgdown.yaml",
+      "source_repo": "r-lib/lintr",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pkgdown.yaml",
+      "source_repo": "r-lib/lintr",
+      "target": "r-lib/actions/setup-pandoc@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pkgdown.yaml",
+      "source_repo": "r-lib/lintr",
+      "target": "r-lib/actions/setup-r@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pkgdown.yaml",
+      "source_repo": "r-lib/lintr",
+      "target": "r-lib/actions/setup-r-dependencies@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pkgdown.yaml",
+      "source_repo": "r-lib/lintr",
+      "target": "JamesIves/github-pages-deploy-action@v4.8.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pkgdown.yaml",
+      "source_repo": "r-lib/lintr",
+      "target": "pkgdown",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/repo-meta-tests.yaml",
+      "source_repo": "r-lib/lintr",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/repo-meta-tests.yaml",
+      "source_repo": "r-lib/lintr",
+      "target": "r-lib/actions/setup-r@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/repo-meta-tests.yaml",
+      "source_repo": "r-lib/lintr",
+      "target": "r-lib/actions/setup-r-dependencies@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/repo-meta-tests.yaml",
+      "source_repo": "r-lib/lintr",
+      "target": "repo-meta-tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-coverage-examples.yaml",
+      "source_repo": "r-lib/lintr",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-coverage-examples.yaml",
+      "source_repo": "r-lib/lintr",
+      "target": "r-lib/actions/setup-r@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-coverage-examples.yaml",
+      "source_repo": "r-lib/lintr",
+      "target": "r-lib/actions/setup-r-dependencies@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-coverage-examples.yaml",
+      "source_repo": "r-lib/lintr",
+      "target": "test-coverage-examples",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-coverage.yaml",
+      "source_repo": "r-lib/lintr",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-coverage.yaml",
+      "source_repo": "r-lib/lintr",
+      "target": "r-lib/actions/setup-r@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-coverage.yaml",
+      "source_repo": "r-lib/lintr",
+      "target": "r-lib/actions/setup-r-dependencies@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-coverage.yaml",
+      "source_repo": "r-lib/lintr",
+      "target": "codecov/codecov-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-coverage.yaml",
+      "source_repo": "r-lib/lintr",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "r-lib/lintr",
+      "target": "linter",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T00:51:07.298354+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2616
+    },
+    {
+      "path": ".github/workflows/R-CMD-check-hard.yaml",
+      "size": 1833
+    },
+    {
+      "path": ".github/workflows/R-CMD-check.yaml",
+      "size": 2428
+    },
+    {
+      "path": ".github/workflows/ast-fuzz.yaml",
+      "size": 758
+    },
+    {
+      "path": ".github/workflows/check-all-examples.yaml",
+      "size": 1218
+    },
+    {
+      "path": ".github/workflows/lint.yaml",
+      "size": 678
+    },
+    {
+      "path": ".github/workflows/pkgdown.yaml",
+      "size": 1294
+    },
+    {
+      "path": ".github/workflows/repo-meta-tests.yaml",
+      "size": 1323
+    },
+    {
+      "path": ".github/workflows/test-coverage-examples.yaml",
+      "size": 2158
+    },
+    {
+      "path": ".github/workflows/test-coverage.yaml",
+      "size": 1845
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Static Code Analysis for R",
+    "fork": false,
+    "full_name": "r-lib/lintr",
+    "html_url": "https://github.com/r-lib/lintr",
+    "language": "R",
+    "pushed_at": "2026-03-31T22:54:34Z",
+    "stargazers_count": 1272,
+    "topics": [
+      "linter",
+      "r"
+    ],
+    "updated_at": "2026-04-17T17:02:37Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "r-lib/styler",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "R-CMD-check-hard",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/R-CMD-check-hard.yaml",
+      "term": "R-CMD-check-hard"
+    },
+    {
+      "context_snippet": "R-CMD-check",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/R-CMD-check.yaml",
+      "term": "R-CMD-check"
+    },
+    {
+      "context_snippet": "ast-fuzz",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ast-fuzz.yaml",
+      "term": "ast-fuzz"
+    },
+    {
+      "context_snippet": "check-all-examples",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-all-examples.yaml",
+      "term": "check-all-examples"
+    },
+    {
+      "context_snippet": "lint",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yaml",
+      "term": "lint"
+    },
+    {
+      "context_snippet": "pkgdown",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pkgdown.yaml",
+      "term": "pkgdown"
+    },
+    {
+      "context_snippet": "repo-meta-tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/repo-meta-tests.yaml",
+      "term": "repo-meta-tests"
+    },
+    {
+      "context_snippet": "test-coverage-examples",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-coverage-examples.yaml",
+      "term": "test-coverage-examples"
+    },
+    {
+      "context_snippet": "[![R build status](https://github.com/r-lib/lintr/workflows/R-CMD-check/badge.svg)](https://github.com/r-lib/lintr/actions)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "linter"
+    }
+  ]
+}

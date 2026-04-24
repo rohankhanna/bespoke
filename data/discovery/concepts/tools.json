@@ -151,6 +151,30 @@
       "source_repo": "get-gah/gah",
       "status": "candidate-context",
       "text": "![gah! logo](./_static/logo-256x128.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dotnet/fsharp",
+      "status": "candidate-context",
+      "text": "The F# compiler, F# core library, F# language service, and F# tooling integration for Visual Studio"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dotnet/fsharp",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://dev.azure.com/dnceng-public/public/_apis/build/status/dotnet/fsharp/fsharp-ci?branchName=main)](https://dev.azure.com/dnceng-public/public/_build/latest?definitionId=90&branchName=main)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "89luca89/distrobox",
+      "status": "candidate-context",
+      "text": "Use any linux distribution inside your terminal. Enable both backward and forward compatibility with software and freedom to use whatever distribution you\u2019re more comfortable with. Mirror available at: https://gitlab.com/89luca89/distrobox"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "89luca89/distrobox",
+      "status": "candidate-context",
+      "text": "CI"
     }
   ],
   "candidate_glosses": [
@@ -225,6 +249,18 @@
       "source_repo": "get-gah/gah",
       "status": "candidate",
       "text": "![gah! logo](./_static/logo-256x128.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dotnet/fsharp",
+      "status": "candidate",
+      "text": "[![Build Status](https://dev.azure.com/dnceng-public/public/_apis/build/status/dotnet/fsharp/fsharp-ci?branchName=main)](https://dev.azure.com/dnceng-public/public/_build/latest?definitionId=90&branchName=main)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "89luca89/distrobox",
+      "status": "candidate",
+      "text": "CI"
     }
   ],
   "candidate_related_terms": [
@@ -364,11 +400,23 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "get-gah/gah"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "dotnet/fsharp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "89luca89/distrobox"
     }
   ],
   "first_seen_at": "2026-04-18T12:07:11.500453+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

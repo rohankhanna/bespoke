@@ -307,6 +307,18 @@
       "source_repo": "Significant-Gravitas/AutoGPT",
       "status": "candidate-context",
       "text": "[![Discord Follow](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fdiscord.com%2Fapi%2Finvites%2Fautogpt%3Fwith_counts%3Dtrue&query=%24.approximate_member_count&label=total%20members&logo=discord&logoColor=white&color=7289da)](https://discord.gg/autogpt) &ensp;"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "icip-cas/PPTAgent",
+      "status": "candidate-context",
+      "text": "An Agentic Framework for Reflective PowerPoint Generation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "icip-cas/PPTAgent",
+      "status": "candidate-context",
+      "text": "<div align=\"right\">"
     }
   ],
   "candidate_glosses": [
@@ -459,6 +471,12 @@
       "source_repo": "Significant-Gravitas/AutoGPT",
       "status": "candidate",
       "text": "[![Discord Follow](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fdiscord.com%2Fapi%2Finvites%2Fautogpt%3Fwith_counts%3Dtrue&query=%24.approximate_member_count&label=total%20members&logo=discord&logoColor=white&color=7289da)](https://discord.gg/autogpt) &ensp;"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "icip-cas/PPTAgent",
+      "status": "candidate",
+      "text": "<div align=\"right\">"
     }
   ],
   "candidate_related_terms": [],
@@ -670,11 +688,23 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "Significant-Gravitas/AutoGPT"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "ruvnet/ruflo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "icip-cas/PPTAgent"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -117,6 +117,30 @@
       "source_repo": "remix-run/react-router",
       "status": "candidate-context",
       "text": "\ud83d\udc54 Format"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "clice-io/clice",
+      "status": "candidate-context",
+      "text": "A next-generation C++ language server for modern C++, focused on high performance and deep code intelligence"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clice-io/clice",
+      "status": "candidate-context",
+      "text": "format"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "igorlfs/nvim-dap-view",
+      "status": "candidate-context",
+      "text": "Visualize debugging sessions in neovim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "igorlfs/nvim-dap-view",
+      "status": "candidate-context",
+      "text": "format"
     }
   ],
   "candidate_glosses": [
@@ -173,6 +197,18 @@
       "source_repo": "remix-run/react-router",
       "status": "candidate",
       "text": "\ud83d\udc54 Format"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clice-io/clice",
+      "status": "candidate",
+      "text": "format"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "igorlfs/nvim-dap-view",
+      "status": "candidate",
+      "text": "format"
     }
   ],
   "candidate_related_terms": [
@@ -401,11 +437,35 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": ".github/workflows/format.yml",
       "source_repo": "remix-run/react-router"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/check-format.yml",
+      "source_repo": "clice-io/clice"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/format.yml",
+      "source_repo": "igorlfs/nvim-dap-view"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/format.yml",
+      "source_repo": "ocaml-tracing/ocaml-trace"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/format.yml",
+      "source_repo": "ocaml-tracing/ocaml-opentelemetry"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

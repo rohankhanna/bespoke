@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "bb run lint"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "babashka/neil",
+      "status": "candidate-context",
+      "text": "A CLI to add common aliases and features to deps.edn-based projects"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "babashka/neil",
+      "status": "candidate-context",
+      "text": "bb run lint"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "babashka/neil",
+      "status": "candidate",
+      "text": "bb run lint"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16405,
+      "status": "candidate",
+      "text": "ammo"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15355,
+      "status": "candidate",
+      "text": "airgun"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15355,
+      "status": "candidate",
+      "text": "pellet"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15355,
+      "status": "candidate",
+      "text": "trumpet"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15334,
+      "status": "candidate",
+      "text": "air"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "bb run lint",
+  "concept_id": "bb-run-lint",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/bb-run-lint.yml",
+      "source_repo": "babashka/neil"
+    }
+  ],
+  "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "bb run lint",
+      "sense_id": "bb-run-lint#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

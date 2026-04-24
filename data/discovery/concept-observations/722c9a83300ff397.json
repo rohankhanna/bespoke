@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "The Kotlin implementation of Connect: Protobuf RPC that works."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![Build](https://github.com/connectrpc/connect-kotlin/actions/workflows/ci.yml/badge.svg)](https://github.com/connectrpc/connect-kotlin/actions/workflows/ci.yml)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![Build](https://github.com/connectrpc/connect-kotlin/actions/workflows/ci.yml/badge.svg)](https://github.com/connectrpc/connect-kotlin/actions/workflows/ci.yml)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "grpc",
+      "sense_id": "grpc#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "grpc",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "grpc",
+  "observation_id": "722c9a83300ff397",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T00:33:56.049672+00:00",
+  "observed_text": "grpc",
+  "source_context_snippet": "[![Build](https://github.com/connectrpc/connect-kotlin/actions/workflows/ci.yml/badge.svg)](https://github.com/connectrpc/connect-kotlin/actions/workflows/ci.yml)",
+  "source_file": null,
+  "source_repo": "connectrpc/connect-kotlin",
+  "source_repo_description": "The Kotlin implementation of Connect: Protobuf RPC that works."
+}

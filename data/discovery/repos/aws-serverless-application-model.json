@@ -63,13 +63,6 @@
   ],
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "aws/serverless-application-model",
-      "target": "aws/aws-sam-cli",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build.yml",
       "source_repo": "aws/serverless-application-model",
@@ -224,7 +217,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-23T19:52:03.172907+00:00",
+  "fetched_at": "2026-04-24T00:41:04.235991+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -264,7 +257,7 @@
     "full_name": "aws/serverless-application-model",
     "html_url": "https://github.com/aws/serverless-application-model",
     "language": "Python",
-    "pushed_at": "2026-04-22T23:23:11Z",
+    "pushed_at": "2026-04-23T23:39:54Z",
     "stargazers_count": 9550,
     "topics": [
       "aws",
@@ -276,15 +269,9 @@
       "serverless-application-model",
       "serverless-applications"
     ],
-    "updated_at": "2026-04-22T23:23:19Z"
+    "updated_at": "2026-04-23T23:39:57Z"
   },
-  "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "aws/aws-sam-cli",
-      "source_file": "README.md"
-    }
-  ],
+  "repo_links": [],
   "terms": [
     {
       "context_snippet": "Tests",

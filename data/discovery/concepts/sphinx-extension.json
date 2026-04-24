@@ -43,6 +43,18 @@
       "source_repo": "eliemichel/sphinx_literate",
       "status": "candidate-context",
       "text": "Sphinx Literate"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sphinx-contrib/sphinxcontrib-towncrier",
+      "status": "candidate-context",
+      "text": "An RST directive for injecting a Towncrier-generated changelog draft containing fragments for the unreleased (next) project version. Demo: https://ansible-pylibssh.rtfd.io/changelog. Docs: https://sphinxcontrib-towncrier.rtfd.io"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sphinx-contrib/sphinxcontrib-towncrier",
+      "status": "candidate-context",
+      "text": ".. image:: https://raw.githubusercontent.com/vshymanskyy/StandWithUkraine/main/banner-direct-team.svg"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "eliemichel/sphinx_literate",
       "status": "candidate",
       "text": "Sphinx Literate"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sphinx-contrib/sphinxcontrib-towncrier",
+      "status": "candidate",
+      "text": ".. image:: https://raw.githubusercontent.com/vshymanskyy/StandWithUkraine/main/banner-direct-team.svg"
     }
   ],
   "candidate_related_terms": [],
@@ -88,11 +106,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "eliemichel/sphinx_literate"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "sphinx-contrib/sphinxcontrib-towncrier"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

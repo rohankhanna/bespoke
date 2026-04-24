@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "Smoke Test"
+    "Smoke Test",
+    "Smoke test"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -43,6 +44,18 @@
       "source_repo": "ddworken/hishtory",
       "status": "candidate-context",
       "text": "Smoke Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "redhat-developer/vscode-xml",
+      "status": "candidate-context",
+      "text": "Editing XML in Visual Studio Code made easy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "redhat-developer/vscode-xml",
+      "status": "candidate-context",
+      "text": "Smoke test"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +76,12 @@
       "source_repo": "ddworken/hishtory",
       "status": "candidate",
       "text": "Smoke Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "redhat-developer/vscode-xml",
+      "status": "candidate",
+      "text": "Smoke test"
     }
   ],
   "candidate_related_terms": [
@@ -124,11 +143,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": ".github/workflows/distro-smoke-test.yml",
       "source_repo": "ddworken/hishtory"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/smoke-test.yaml",
+      "source_repo": "redhat-developer/vscode-xml"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

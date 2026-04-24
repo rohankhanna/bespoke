@@ -1,0 +1,69 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ap/vim-buftabline",
+      "target": "bling/vim-bufferline",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ap/vim-buftabline",
+      "target": "zefei/vim-wintabs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ap/vim-buftabline",
+      "target": "vim-script",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T00:44:52.924974+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6640
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Forget Vim tabs \u2013 now you can have buffer tabs",
+    "fork": false,
+    "full_name": "ap/vim-buftabline",
+    "html_url": "https://github.com/ap/vim-buftabline",
+    "language": "Vim Script",
+    "pushed_at": "2025-12-11T00:39:15Z",
+    "stargazers_count": 820,
+    "topics": [
+      "vim-script"
+    ],
+    "updated_at": "2026-04-14T16:57:51Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bling/vim-bufferline",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "zefei/vim-wintabs",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<h1 align=\"center\">Buftabline</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vim-script"
+    }
+  ]
+}

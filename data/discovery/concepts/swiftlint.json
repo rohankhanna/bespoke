@@ -19,12 +19,30 @@
       "source_repo": "jpsim/Yams",
       "status": "candidate-context",
       "text": "SwiftLint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "SwiftGen/SwiftGen",
+      "status": "candidate-context",
+      "text": "The Swift code generator for your assets, storyboards, Localizable.strings, \u2026 \u2014 Get rid of all String-based APIs!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SwiftGen/SwiftGen",
+      "status": "candidate-context",
+      "text": "SwiftLint"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "jpsim/Yams",
+      "status": "candidate",
+      "text": "SwiftLint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SwiftGen/SwiftGen",
       "status": "candidate",
       "text": "SwiftLint"
     }
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": ".github/workflows/swiftlint.yml",
       "source_repo": "jpsim/Yams"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/swiftlint.yml",
+      "source_repo": "SwiftGen/SwiftGen"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

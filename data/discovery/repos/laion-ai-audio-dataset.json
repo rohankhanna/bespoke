@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-24T02:01:39.083071+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7920
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Audio Dataset for training CLAP and other models",
+    "fork": false,
+    "full_name": "LAION-AI/audio-dataset",
+    "html_url": "https://github.com/LAION-AI/audio-dataset",
+    "language": "Python",
+    "pushed_at": "2026-01-08T14:22:49Z",
+    "stargazers_count": 734,
+    "topics": [],
+    "updated_at": "2026-04-13T13:59:56Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-24T01:43:31.901823+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10076
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 846
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "ahujasid/blender-mcp",
+    "html_url": "https://github.com/ahujasid/blender-mcp",
+    "language": "Python",
+    "pushed_at": "2026-01-23T17:20:04Z",
+    "stargazers_count": 20462,
+    "topics": [],
+    "updated_at": "2026-04-24T01:43:26Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

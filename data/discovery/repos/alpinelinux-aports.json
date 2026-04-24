@@ -1,0 +1,86 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alpinelinux/aports",
+      "target": "alpine-linux",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alpinelinux/aports",
+      "target": "aports",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alpinelinux/aports",
+      "target": "linux",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alpinelinux/aports",
+      "target": "packages",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T00:59:45.320496+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3514
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "[MIRROR] Alpine packages build scripts",
+    "fork": false,
+    "full_name": "alpinelinux/aports",
+    "html_url": "https://github.com/alpinelinux/aports",
+    "language": "Shell",
+    "pushed_at": "2026-04-23T23:29:30Z",
+    "stargazers_count": 708,
+    "topics": [
+      "alpine-linux",
+      "aports",
+      "linux",
+      "packages"
+    ],
+    "updated_at": "2026-04-23T23:29:34Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "This repository contains the APKBUILD files for each and every",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "alpine-linux"
+    },
+    {
+      "context_snippet": "This repository contains the APKBUILD files for each and every",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "aports"
+    },
+    {
+      "context_snippet": "This repository contains the APKBUILD files for each and every",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "linux"
+    },
+    {
+      "context_snippet": "This repository contains the APKBUILD files for each and every",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "packages"
+    }
+  ]
+}

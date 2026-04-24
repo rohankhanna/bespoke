@@ -1,0 +1,275 @@
+{
+  "components": [
+    {
+      "component": "sebthom/gha-shared/.github/workflows/reusable.eclipse-plugin-build.yml@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "tibdex/github-app-token@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "sebthom/gha-shared/.github/actions/stale@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-flutter-snippets-json.yml"
+    },
+    {
+      "component": "tibdex/github-app-token@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-flutter-snippets-json.yml"
+    },
+    {
+      "component": "peter-evans/create-pull-request@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-flutter-snippets-json.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dart4e/dart4e",
+      "target": "fzyzcjy/dart_interactive",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dart4e/dart4e",
+      "target": "dart4e/dart4e-studio",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dart4e/dart4e",
+      "target": "vegardit/vegardit-maven-parent",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "dart4e/dart4e",
+      "target": "sebthom/gha-shared/.github/workflows/reusable.eclipse-plugin-build.yml@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "dart4e/dart4e",
+      "target": "tibdex/github-app-token@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "dart4e/dart4e",
+      "target": "Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "dart4e/dart4e",
+      "target": "sebthom/gha-shared/.github/actions/stale@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "dart4e/dart4e",
+      "target": "Stale issues",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-flutter-snippets-json.yml",
+      "source_repo": "dart4e/dart4e",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-flutter-snippets-json.yml",
+      "source_repo": "dart4e/dart4e",
+      "target": "tibdex/github-app-token@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-flutter-snippets-json.yml",
+      "source_repo": "dart4e/dart4e",
+      "target": "peter-evans/create-pull-request@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update-flutter-snippets-json.yml",
+      "source_repo": "dart4e/dart4e",
+      "target": "Update Flutter Snippets",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dart4e/dart4e",
+      "target": "dart",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dart4e/dart4e",
+      "target": "eclipse",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dart4e/dart4e",
+      "target": "eclipse-plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dart4e/dart4e",
+      "target": "editor",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dart4e/dart4e",
+      "target": "flutter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dart4e/dart4e",
+      "target": "java",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T00:52:24.440352+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7696
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 4360
+    },
+    {
+      "path": ".github/workflows/stale.yml",
+      "size": 699
+    },
+    {
+      "path": ".github/workflows/update-flutter-snippets-json.yml",
+      "size": 3209
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Dart and Flutter development support for the Eclipse IDE ",
+    "fork": false,
+    "full_name": "dart4e/dart4e",
+    "html_url": "https://github.com/dart4e/dart4e",
+    "language": "Java",
+    "pushed_at": "2026-04-01T16:12:10Z",
+    "stargazers_count": 16,
+    "topics": [
+      "dart",
+      "eclipse",
+      "eclipse-plugin",
+      "editor",
+      "flutter",
+      "java"
+    ],
+    "updated_at": "2026-02-13T13:50:29Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dart4e/dart4e-studio",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "fzyzcjy/dart_interactive",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "vegardit/vegardit-maven-parent",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "Build"
+    },
+    {
+      "context_snippet": "Stale issues",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "term": "Stale issues"
+    },
+    {
+      "context_snippet": "Update Flutter Snippets",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update-flutter-snippets-json.yml",
+      "term": "Update Flutter Snippets"
+    },
+    {
+      "context_snippet": "[![Build Status](https://img.shields.io/github/actions/workflow/status/dart4e/dart4e/build.yml?logo=github)](https://github.com/dart4e/dart4e/actions/workflows/build.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dart"
+    },
+    {
+      "context_snippet": "[![Build Status](https://img.shields.io/github/actions/workflow/status/dart4e/dart4e/build.yml?logo=github)](https://github.com/dart4e/dart4e/actions/workflows/build.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "eclipse"
+    },
+    {
+      "context_snippet": "[![Build Status](https://img.shields.io/github/actions/workflow/status/dart4e/dart4e/build.yml?logo=github)](https://github.com/dart4e/dart4e/actions/workflows/build.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "eclipse-plugin"
+    },
+    {
+      "context_snippet": "[![Build Status](https://img.shields.io/github/actions/workflow/status/dart4e/dart4e/build.yml?logo=github)](https://github.com/dart4e/dart4e/actions/workflows/build.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "editor"
+    },
+    {
+      "context_snippet": "[![Build Status](https://img.shields.io/github/actions/workflow/status/dart4e/dart4e/build.yml?logo=github)](https://github.com/dart4e/dart4e/actions/workflows/build.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "flutter"
+    },
+    {
+      "context_snippet": "[![Build Status](https://img.shields.io/github/actions/workflow/status/dart4e/dart4e/build.yml?logo=github)](https://github.com/dart4e/dart4e/actions/workflows/build.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "java"
+    }
+  ]
+}

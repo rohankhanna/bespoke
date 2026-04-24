@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "sentry"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "getsentry/sentry",
+      "status": "candidate-context",
+      "text": "Developer-first error tracking and performance monitoring"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "getsentry/sentry",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "getsentry/sentry",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40006214,
+      "status": "candidate",
+      "text": "sentinel"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40000726,
+      "status": "candidate",
+      "text": "lookout man"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40000079,
+      "status": "candidate",
+      "text": "scout"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39994032,
+      "status": "candidate",
+      "text": "picket"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39969212,
+      "status": "candidate",
+      "text": "watch"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 16045,
+      "status": "candidate",
+      "text": "scout"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 15039,
+      "status": "candidate",
+      "text": "picket"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 13056,
+      "status": "candidate",
+      "text": "watch"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 7036,
+      "status": "candidate",
+      "text": "lookout"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2010,
+      "status": "candidate",
+      "text": "lookout man"
+    }
+  ],
+  "canonical_name": "sentry",
+  "concept_id": "sentry",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "getsentry/sentry"
+    }
+  ],
+  "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "sentry",
+      "sense_id": "sentry#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

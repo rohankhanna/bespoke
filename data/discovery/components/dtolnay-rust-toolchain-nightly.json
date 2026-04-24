@@ -1,7 +1,7 @@
 {
   "component": "dtolnay/rust-toolchain@nightly",
   "first_seen_at": "2026-04-18T09:09:30.058377+00:00",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -417,6 +417,31 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/rust.yml",
       "source_repo": "rust-bitcoin/rust-bitcoincore-rpc"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/periodic_checks.yml",
+      "source_repo": "EspressoSystems/jellyfish"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "op-rs/maili"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "valida-xyz/Plonky3"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "allan2/dotenvy"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "dtolnay/prettyplease"
     }
   ]
 }

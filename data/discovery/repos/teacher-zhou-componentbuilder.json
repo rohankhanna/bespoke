@@ -1,0 +1,279 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/init@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/autobuild@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "release-drafter/release-drafter@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/draft-release-note.yml"
+    },
+    {
+      "component": "jef/conventional-commits-pr-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-title-commit.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull-request.yml"
+    },
+    {
+      "component": "actions/setup-dotnet@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull-request.yml"
+    },
+    {
+      "component": "xt0rted/setup-dotnet@v1.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-package.yml"
+    },
+    {
+      "component": "SpringHgui/publish-nuget@1.0.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-package.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "teacher-zhou/ComponentBuilder",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "teacher-zhou/ComponentBuilder",
+      "target": "github/codeql-action/init@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "teacher-zhou/ComponentBuilder",
+      "target": "github/codeql-action/autobuild@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "teacher-zhou/ComponentBuilder",
+      "target": "github/codeql-action/analyze@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "teacher-zhou/ComponentBuilder",
+      "target": "CodeQL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/draft-release-note.yml",
+      "source_repo": "teacher-zhou/ComponentBuilder",
+      "target": "release-drafter/release-drafter@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/draft-release-note.yml",
+      "source_repo": "teacher-zhou/ComponentBuilder",
+      "target": "Release Drafter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-title-commit.yml",
+      "source_repo": "teacher-zhou/ComponentBuilder",
+      "target": "jef/conventional-commits-pr-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-title-commit.yml",
+      "source_repo": "teacher-zhou/ComponentBuilder",
+      "target": "PR Title",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull-request.yml",
+      "source_repo": "teacher-zhou/ComponentBuilder",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull-request.yml",
+      "source_repo": "teacher-zhou/ComponentBuilder",
+      "target": "actions/setup-dotnet@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-package.yml",
+      "source_repo": "teacher-zhou/ComponentBuilder",
+      "target": "xt0rted/setup-dotnet@v1.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-package.yml",
+      "source_repo": "teacher-zhou/ComponentBuilder",
+      "target": "SpringHgui/publish-nuget@1.0.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-package.yml",
+      "source_repo": "teacher-zhou/ComponentBuilder",
+      "target": "Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "teacher-zhou/ComponentBuilder",
+      "target": "blazor",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "teacher-zhou/ComponentBuilder",
+      "target": "component",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "teacher-zhou/ComponentBuilder",
+      "target": "razor",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "teacher-zhou/ComponentBuilder",
+      "target": "rendertreebuilder",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T00:43:31.270708+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10022
+    },
+    {
+      "path": ".github/workflows/codeql-analysis.yml",
+      "size": 2725
+    },
+    {
+      "path": ".github/workflows/draft-release-note.yml",
+      "size": 1571
+    },
+    {
+      "path": ".github/workflows/pr-title-commit.yml",
+      "size": 330
+    },
+    {
+      "path": ".github/workflows/pull-request.yml",
+      "size": 485
+    },
+    {
+      "path": ".github/workflows/release-package.yml",
+      "size": 1776
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "An automation framework to create Blazor component",
+    "fork": false,
+    "full_name": "teacher-zhou/ComponentBuilder",
+    "html_url": "https://github.com/teacher-zhou/ComponentBuilder",
+    "language": "C#",
+    "pushed_at": "2024-03-07T03:08:08Z",
+    "stargazers_count": 48,
+    "topics": [
+      "blazor",
+      "component",
+      "razor",
+      "rendertreebuilder"
+    ],
+    "updated_at": "2025-07-14T06:11:42Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "\"CodeQL\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "term": "CodeQL"
+    },
+    {
+      "context_snippet": "Release Drafter",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/draft-release-note.yml",
+      "term": "Release Drafter"
+    },
+    {
+      "context_snippet": "PR Title",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-title-commit.yml",
+      "term": "PR Title"
+    },
+    {
+      "context_snippet": "Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-package.yml",
+      "term": "Release"
+    },
+    {
+      "context_snippet": "The best automation framework for RCL(Razor Component Library) to help you easy and quickly building your own Razor Component Library",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "blazor"
+    },
+    {
+      "context_snippet": "The best automation framework for RCL(Razor Component Library) to help you easy and quickly building your own Razor Component Library",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "component"
+    },
+    {
+      "context_snippet": "The best automation framework for RCL(Razor Component Library) to help you easy and quickly building your own Razor Component Library",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "razor"
+    },
+    {
+      "context_snippet": "The best automation framework for RCL(Razor Component Library) to help you easy and quickly building your own Razor Component Library",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rendertreebuilder"
+    }
+  ]
+}

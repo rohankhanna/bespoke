@@ -79,6 +79,18 @@
       "source_repo": "ai-dynamo/grove",
       "status": "candidate-context",
       "text": "[![Go Report Card](https://goreportcard.com/badge/github.com/ai-dynamo/grove/operator)](https://goreportcard.com/report/github.com/NVIDIA/grove/operator)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "operator-framework/operator-sdk",
+      "status": "candidate-context",
+      "text": "SDK for building Kubernetes applications. Provides high level APIs, useful abstractions, and project scaffolding."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "operator-framework/operator-sdk",
+      "status": "candidate-context",
+      "text": "<img src=\"website/static/operator_logo_sdk_color.svg\" height=\"125px\"></img>"
     }
   ],
   "candidate_glosses": [
@@ -117,6 +129,12 @@
       "source_repo": "ai-dynamo/grove",
       "status": "candidate",
       "text": "[![Go Report Card](https://goreportcard.com/badge/github.com/ai-dynamo/grove/operator)](https://goreportcard.com/report/github.com/NVIDIA/grove/operator)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "operator-framework/operator-sdk",
+      "status": "candidate",
+      "text": "<img src=\"website/static/operator_logo_sdk_color.svg\" height=\"125px\"></img>"
     }
   ],
   "candidate_related_terms": [
@@ -218,11 +236,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "ai-dynamo/grove"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "operator-framework/operator-sdk"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

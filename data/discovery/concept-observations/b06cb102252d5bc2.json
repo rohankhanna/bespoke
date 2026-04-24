@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Apache Camel is an open source integration framework that empowers you to quickly and easily integrate various systems consuming or producing data."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![Maven Central](https://img.shields.io/maven-central/v/org.apache.camel/apache-camel.svg?label=Maven%20Central)](https://central.sonatype.com/artifact/org.apache.camel/apache-camel)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![Maven Central](https://img.shields.io/maven-central/v/org.apache.camel/apache-camel.svg?label=Maven%20Central)](https://central.sonatype.com/artifact/org.apache.camel/apache-camel)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25000,
+      "status": "candidate",
+      "text": "service-oriented architecture"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24999,
+      "status": "candidate",
+      "text": "service layer pattern"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24998,
+      "status": "candidate",
+      "text": "service mesh"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24997,
+      "status": "candidate",
+      "text": "service-oriented programming"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24996,
+      "status": "candidate",
+      "text": "service locator pattern"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "microservices",
+      "sense_id": "microservices#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "microservices",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "microservices",
+  "observation_id": "b06cb102252d5bc2",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T00:33:56.049672+00:00",
+  "observed_text": "microservices",
+  "source_context_snippet": "[![Maven Central](https://img.shields.io/maven-central/v/org.apache.camel/apache-camel.svg?label=Maven%20Central)](https://central.sonatype.com/artifact/org.apache.camel/apache-camel)",
+  "source_file": null,
+  "source_repo": "apache/camel",
+  "source_repo_description": "Apache Camel is an open source integration framework that empowers you to quickly and easily integrate various systems consuming or producing data."
+}

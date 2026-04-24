@@ -67,6 +67,18 @@
       "source_repo": "graphile/crystal",
       "status": "candidate-context",
       "text": "[![GitHub Sponsors](https://img.shields.io/github/sponsors/benjie?color=ff69b4&label=github%20sponsors)](https://github.com/sponsors/benjie)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "datreeio/CRDs-catalog",
+      "status": "candidate-context",
+      "text": "Popular Kubernetes CRDs (CustomResourceDefinition) in JSON schema format."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "datreeio/CRDs-catalog",
+      "status": "candidate-context",
+      "text": "This repository aggregates hundreds of popular Kubernetes CRDs (`CustomResourceDefinition`) in JSON schema format. These schemas can be used by various tools such as [Datree](https://github.com/datreeio/datree), [Kubeconform](https://github.com/yannh/kubeconform) and [Kubeval](h\u2026"
     }
   ],
   "candidate_glosses": [
@@ -99,6 +111,12 @@
       "source_repo": "graphile/crystal",
       "status": "candidate",
       "text": "[![GitHub Sponsors](https://img.shields.io/github/sponsors/benjie?color=ff69b4&label=github%20sponsors)](https://github.com/sponsors/benjie)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "datreeio/CRDs-catalog",
+      "status": "candidate",
+      "text": "This repository aggregates hundreds of popular Kubernetes CRDs (`CustomResourceDefinition`) in JSON schema format. These schemas can be used by various tools such as [Datree](https://github.com/datreeio/datree), [Kubeconform](https://github.com/yannh/kubeconform) and [Kubeval](h\u2026"
     }
   ],
   "candidate_related_terms": [
@@ -180,11 +198,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "graphile/crystal"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "datreeio/CRDs-catalog"
     }
   ],
   "first_seen_at": "2026-04-22T04:41:58.081535+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

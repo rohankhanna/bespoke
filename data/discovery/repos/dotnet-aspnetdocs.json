@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dotnet/AspNetDocs",
+      "target": "aspnet/apidocs",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-24T00:43:58.123216+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 222
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Documentation for ASP.NET 4.x",
+    "fork": false,
+    "full_name": "dotnet/AspNetDocs",
+    "html_url": "https://github.com/dotnet/AspNetDocs",
+    "language": "C#",
+    "pushed_at": "2026-03-27T15:43:59Z",
+    "stargazers_count": 360,
+    "topics": [],
+    "updated_at": "2026-04-17T12:02:53Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aspnet/apidocs",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

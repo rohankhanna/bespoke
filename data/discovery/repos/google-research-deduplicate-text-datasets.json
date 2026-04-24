@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "google-research/deduplicate-text-datasets",
+      "target": "burntsushi/suffix",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-24T02:03:14.527951+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 24486
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 373
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "google-research/deduplicate-text-datasets",
+    "html_url": "https://github.com/google-research/deduplicate-text-datasets",
+    "language": "Rust",
+    "pushed_at": "2024-07-30T21:44:50Z",
+    "stargazers_count": 1271,
+    "topics": [],
+    "updated_at": "2026-04-23T20:04:51Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "burntsushi/suffix",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

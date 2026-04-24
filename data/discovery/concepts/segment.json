@@ -19,6 +19,18 @@
       "source_repo": "camenduru/grounded-segment-anything-colab",
       "status": "candidate-context",
       "text": "\ud83d\udc23 Please follow me for new updates https://twitter.com/camenduru <br />"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rusty1s/pytorch_scatter",
+      "status": "candidate-context",
+      "text": "PyTorch Extension Library of Optimized Scatter Operations"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rusty1s/pytorch_scatter",
+      "status": "candidate-context",
+      "text": "[pypi-image]: https://badge.fury.io/py/torch-scatter.svg"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "camenduru/grounded-segment-anything-colab",
       "status": "candidate",
       "text": "\ud83d\udc23 Please follow me for new updates https://twitter.com/camenduru <br />"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rusty1s/pytorch_scatter",
+      "status": "candidate",
+      "text": "[pypi-image]: https://badge.fury.io/py/torch-scatter.svg"
     }
   ],
   "candidate_related_terms": [
@@ -84,11 +102,17 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "camenduru/grounded-segment-anything-colab"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "rusty1s/pytorch_scatter"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

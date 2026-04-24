@@ -1,0 +1,205 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/buildwheels.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/buildwheels.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/buildwheels.yml"
+    },
+    {
+      "component": "docker/setup-qemu-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/buildwheels.yml"
+    },
+    {
+      "component": "pypa/cibuildwheel@v3.4.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/buildwheels.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/buildwheels.yml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/buildwheels.yml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@v1.13.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/buildwheels.yml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@v1.13.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/buildwheels.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/setup-python@v5.1.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/buildwheels.yml",
+      "source_repo": "Ezibenroc/PyRoaringBitMap",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/buildwheels.yml",
+      "source_repo": "Ezibenroc/PyRoaringBitMap",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/buildwheels.yml",
+      "source_repo": "Ezibenroc/PyRoaringBitMap",
+      "target": "docker/setup-qemu-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/buildwheels.yml",
+      "source_repo": "Ezibenroc/PyRoaringBitMap",
+      "target": "pypa/cibuildwheel@v3.4.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/buildwheels.yml",
+      "source_repo": "Ezibenroc/PyRoaringBitMap",
+      "target": "actions/download-artifact@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/buildwheels.yml",
+      "source_repo": "Ezibenroc/PyRoaringBitMap",
+      "target": "pypa/gh-action-pypi-publish@v1.13.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/buildwheels.yml",
+      "source_repo": "Ezibenroc/PyRoaringBitMap",
+      "target": "Build and upload wheels",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "Ezibenroc/PyRoaringBitMap",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "Ezibenroc/PyRoaringBitMap",
+      "target": "actions/setup-python@v5.1.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "Ezibenroc/PyRoaringBitMap",
+      "target": "Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Ezibenroc/PyRoaringBitMap",
+      "target": "bitset",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Ezibenroc/PyRoaringBitMap",
+      "target": "roaring-bitmaps",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T00:54:11.338944+00:00",
+  "fetched_files": [
+    {
+      "path": "README.rst",
+      "size": 10782
+    },
+    {
+      "path": ".github/workflows/buildwheels.yml",
+      "size": 2824
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 1288
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Python library for handling efficiently sorted integer sets.",
+    "fork": false,
+    "full_name": "Ezibenroc/PyRoaringBitMap",
+    "html_url": "https://github.com/Ezibenroc/PyRoaringBitMap",
+    "language": "C",
+    "pushed_at": "2026-04-22T21:29:34Z",
+    "stargazers_count": 231,
+    "topics": [
+      "bitset",
+      "python",
+      "roaring-bitmaps"
+    ],
+    "updated_at": "2026-04-22T21:29:39Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Build and upload wheels",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/buildwheels.yml",
+      "term": "Build and upload wheels"
+    },
+    {
+      "context_snippet": "Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "Tests"
+    },
+    {
+      "context_snippet": "|Documentation Status|",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bitset"
+    },
+    {
+      "context_snippet": "|Documentation Status|",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "roaring-bitmaps"
+    }
+  ]
+}

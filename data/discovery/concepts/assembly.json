@@ -43,6 +43,30 @@
       "source_repo": "minio/highwayhash",
       "status": "candidate-context",
       "text": "[![Godoc Reference](https://godoc.org/github.com/minio/highwayhash?status.svg)](https://godoc.org/github.com/minio/highwayhash)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "minio/sha256-simd",
+      "status": "candidate-context",
+      "text": "Accelerate SHA256 computations in pure Go using  AVX512, SHA Extensions for x86 and ARM64 for ARM. On AVX512 it provides an up to 8x improvement (over 3 GB/s per core). SHA Extensions give a performance boost of close to 4x over native."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "minio/sha256-simd",
+      "status": "candidate-context",
+      "text": "Accelerate SHA256 computations in pure Go using AVX512, SHA Extensions for x86 and ARM64 for ARM."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ashvardanian/less_slow.cpp",
+      "status": "candidate-context",
+      "text": "Playing around \"Less Slow\" coding practices in C++ 20, C, CUDA, PTX, & Assembly, from numerics & SIMD to coroutines, ranges, exception handling, networking and user-space IO"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ashvardanian/less_slow.cpp",
+      "status": "candidate-context",
+      "text": "> The benchmarks in this repository don't aim to cover every topic entirely, but they help form a mindset and intuition for performance-oriented software design."
     }
   ],
   "candidate_glosses": [
@@ -63,6 +87,18 @@
       "source_repo": "minio/highwayhash",
       "status": "candidate",
       "text": "[![Godoc Reference](https://godoc.org/github.com/minio/highwayhash?status.svg)](https://godoc.org/github.com/minio/highwayhash)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "minio/sha256-simd",
+      "status": "candidate",
+      "text": "Accelerate SHA256 computations in pure Go using AVX512, SHA Extensions for x86 and ARM64 for ARM."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ashvardanian/less_slow.cpp",
+      "status": "candidate",
+      "text": "> The benchmarks in this repository don't aim to cover every topic entirely, but they help form a mindset and intuition for performance-oriented software design."
     }
   ],
   "candidate_related_terms": [
@@ -160,11 +196,29 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "minio/highwayhash"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "minio/sha256-simd"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "ashvardanian/less_slow.cpp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "ashvardanian/NumKong"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

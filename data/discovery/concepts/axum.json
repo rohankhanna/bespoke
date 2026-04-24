@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "axum"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/casbin-axum-casbin",
+      "status": "candidate-context",
+      "text": "Axum authorization middleware based on Casbin"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/casbin-axum-casbin",
+      "status": "candidate-context",
+      "text": "[![Crates.io](https://img.shields.io/crates/d/axum-casbin)](https://crates.io/crates/axum-casbin)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/casbin-axum-casbin",
+      "status": "candidate",
+      "text": "[![Crates.io](https://img.shields.io/crates/d/axum-casbin)](https://crates.io/crates/axum-casbin)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9983404,
+      "status": "candidate",
+      "text": "axumite"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9983403,
+      "status": "candidate",
+      "text": "addis abeba"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9983402,
+      "status": "candidate",
+      "text": "aethiopia"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9983401,
+      "status": "candidate",
+      "text": "sokhum"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9983400,
+      "status": "candidate",
+      "text": "sokhumi"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "axum",
+  "concept_id": "axum",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "apache/casbin-axum-casbin"
+    }
+  ],
+  "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "axum",
+      "sense_id": "axum#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

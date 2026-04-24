@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-24T00:35:56.344482+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 94
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 244
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "danburkert/snazzy",
+    "html_url": "https://github.com/danburkert/snazzy",
+    "language": "Rust",
+    "pushed_at": "2021-09-20T05:55:57Z",
+    "stargazers_count": 22,
+    "topics": [],
+    "updated_at": "2026-01-19T03:46:49Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

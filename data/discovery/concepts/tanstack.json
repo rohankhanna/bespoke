@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "tanstack"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "connectrpc/connect-query-es",
+      "status": "candidate-context",
+      "text": "TypeScript-first expansion pack for TanStack Query that gives you Protobuf superpowers."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "connectrpc/connect-query-es",
+      "status": "candidate-context",
+      "text": "<!-- markdownlint-disable-next-line MD041 MD033 -- 033: necessary for setting the width; 041: this is the style of bufbuild READMEs -->"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "connectrpc/connect-query-es",
+      "status": "candidate",
+      "text": "<!-- markdownlint-disable-next-line MD041 MD033 -- 033: necessary for setting the width; 041: this is the style of bufbuild READMEs -->"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "tanstack",
+  "concept_id": "tanstack",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "connectrpc/connect-query-es"
+    }
+  ],
+  "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "tanstack",
+      "sense_id": "tanstack#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

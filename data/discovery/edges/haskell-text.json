@@ -1,0 +1,251 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "haskell/text",
+      "target": "haskell/text-test-data",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/arm.yml",
+      "source_repo": "haskell/text",
+      "target": "docker://hasufell/arm64v8-ubuntu-haskell:focal",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/arm.yml",
+      "source_repo": "haskell/text",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/arm.yml",
+      "source_repo": "haskell/text",
+      "target": "docker://hasufell/arm32v7-ubuntu-haskell:focal",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/arm.yml",
+      "source_repo": "haskell/text",
+      "target": "arm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/developer-flag.yml",
+      "source_repo": "haskell/text",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/developer-flag.yml",
+      "source_repo": "haskell/text",
+      "target": "haskell-actions/setup@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/developer-flag.yml",
+      "source_repo": "haskell/text",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/developer-flag.yml",
+      "source_repo": "haskell/text",
+      "target": "developer-flag",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/emulated.yml",
+      "source_repo": "haskell/text",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/emulated.yml",
+      "source_repo": "haskell/text",
+      "target": "uraimo/run-on-arch-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/emulated.yml",
+      "source_repo": "haskell/text",
+      "target": "emulated",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/haskell-ci.yml",
+      "source_repo": "haskell/text",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/haskell-ci.yml",
+      "source_repo": "haskell/text",
+      "target": "actions/cache/restore@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/haskell-ci.yml",
+      "source_repo": "haskell/text",
+      "target": "actions/cache/save@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/haskell-ci.yml",
+      "source_repo": "haskell/text",
+      "target": "Haskell-CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/i386.yml",
+      "source_repo": "haskell/text",
+      "target": "actions/checkout@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/i386.yml",
+      "source_repo": "haskell/text",
+      "target": "ci-i386",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/simdutf-flag-alpine.yml",
+      "source_repo": "haskell/text",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/simdutf-flag-windows.yml",
+      "source_repo": "haskell/text",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/simdutf-flag-windows.yml",
+      "source_repo": "haskell/text",
+      "target": "haskell-actions/setup@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/simdutf-flag-windows.yml",
+      "source_repo": "haskell/text",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/simdutf-flag-windows.yml",
+      "source_repo": "haskell/text",
+      "target": "no-simdutf-windows-static",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/simdutf-flag.yml",
+      "source_repo": "haskell/text",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/simdutf-flag.yml",
+      "source_repo": "haskell/text",
+      "target": "haskell-actions/setup@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/simdutf-flag.yml",
+      "source_repo": "haskell/text",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/simdutf-flag.yml",
+      "source_repo": "haskell/text",
+      "target": "simdutf-flag",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/simdutf-is-genuine.yml",
+      "source_repo": "haskell/text",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/simdutf-is-genuine.yml",
+      "source_repo": "haskell/text",
+      "target": "simdutf-is-genuine",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "haskell/text",
+      "target": "haskell",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "haskell/text",
+      "target": "string",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "haskell/text",
+      "target": "string-manipulation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "haskell/text",
+      "target": "text",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "haskell/text",
+      "target": "unicode",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "haskell/text",
+      "target": "utf8",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-24T00:33:56.049672+00:00",
+  "source_repo": "haskell/text"
+}

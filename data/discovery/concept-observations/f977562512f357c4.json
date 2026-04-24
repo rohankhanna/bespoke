@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "The lean application framework for Python.  Build sophisticated user interfaces with a simple Python API. Run your apps in the terminal and a web browser."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Black format check"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Black format check"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19249,
+      "status": "candidate",
+      "text": "print"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19119,
+      "status": "candidate",
+      "text": "printed"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19108,
+      "status": "candidate",
+      "text": "hard"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19108,
+      "status": "candidate",
+      "text": "horse"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19108,
+      "status": "candidate",
+      "text": "scoring"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Black format check",
+      "sense_id": "black-format-check#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "black-format-check",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "black-format-check",
+  "observation_id": "f977562512f357c4",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-24T00:33:56.049672+00:00",
+  "observed_text": "Black format check",
+  "source_context_snippet": "Black format check",
+  "source_file": ".github/workflows/black_format.yml",
+  "source_repo": "Textualize/textual",
+  "source_repo_description": "The lean application framework for Python.  Build sophisticated user interfaces with a simple Python API. Run your apps in the terminal and a web browser."
+}

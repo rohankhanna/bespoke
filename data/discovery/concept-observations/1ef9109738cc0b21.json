@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A blazingly fast, stunningly beautiful, exceptionally powerful git branch viewer for Vim/Neovim."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![test status](https://github.com/rbong/vim-flog/actions/workflows/test.yml/badge.svg?branch=master)](https://github.com/rbong/vim-flog/actions)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![test status](https://github.com/rbong/vim-flog/actions/workflows/test.yml/badge.svg?branch=master)](https://github.com/rbong/vim-flog/actions)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29947937,
+      "status": "candidate",
+      "text": "plug-in"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29934082,
+      "status": "candidate",
+      "text": "component"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29932866,
+      "status": "candidate",
+      "text": "connect"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29915202,
+      "status": "candidate",
+      "text": "add-on"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29913236,
+      "status": "candidate",
+      "text": "addition"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "plugin",
+      "sense_id": "plugin#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "plugin",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "plugin",
+  "observation_id": "1ef9109738cc0b21",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T00:33:56.049672+00:00",
+  "observed_text": "plugin",
+  "source_context_snippet": "[![test status](https://github.com/rbong/vim-flog/actions/workflows/test.yml/badge.svg?branch=master)](https://github.com/rbong/vim-flog/actions)",
+  "source_file": null,
+  "source_repo": "rbong/vim-flog",
+  "source_repo_description": "A blazingly fast, stunningly beautiful, exceptionally powerful git branch viewer for Vim/Neovim."
+}

@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.txt",
+      "source_repo": "koron/cmigemo",
+      "target": "haya14busa/vim-migemo",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-24T00:36:47.638570+00:00",
+  "fetched_files": [
+    {
+      "path": "README.txt",
+      "size": 302
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "C/Migemo",
+    "fork": false,
+    "full_name": "koron/cmigemo",
+    "html_url": "https://github.com/koron/cmigemo",
+    "language": "C",
+    "pushed_at": "2022-06-23T01:52:51Z",
+    "stargazers_count": 187,
+    "topics": [],
+    "updated_at": "2026-02-18T11:26:00Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "haya14busa/vim-migemo",
+      "source_file": "README.txt"
+    }
+  ],
+  "terms": []
+}

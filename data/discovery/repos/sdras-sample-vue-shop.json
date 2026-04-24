@@ -1,0 +1,365 @@
+{
+  "components": [
+    {
+      "component": "axios",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "gsap",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "node-sass",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "nuxt",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "sass-loader",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "vue-stripe-elements-plus",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "vuex",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "babel-eslint",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint-config-standard",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint-loader",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint-plugin-html",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint-plugin-import",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint-plugin-node",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint-plugin-promise",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint-plugin-standard",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "sdras/sample-vue-shop",
+      "target": "sdras/ecommerce-netlify",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "sdras/sample-vue-shop",
+      "target": "sdras/sample-stripe-handler",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "sdras/sample-vue-shop",
+      "target": "axios",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "sdras/sample-vue-shop",
+      "target": "gsap",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "sdras/sample-vue-shop",
+      "target": "node-sass",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "sdras/sample-vue-shop",
+      "target": "nuxt",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "sdras/sample-vue-shop",
+      "target": "sass-loader",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "sdras/sample-vue-shop",
+      "target": "vue-stripe-elements-plus",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "sdras/sample-vue-shop",
+      "target": "vuex",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "sdras/sample-vue-shop",
+      "target": "babel-eslint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "sdras/sample-vue-shop",
+      "target": "eslint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "sdras/sample-vue-shop",
+      "target": "eslint-config-standard",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "sdras/sample-vue-shop",
+      "target": "eslint-loader",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "sdras/sample-vue-shop",
+      "target": "eslint-plugin-html",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "sdras/sample-vue-shop",
+      "target": "eslint-plugin-import",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "sdras/sample-vue-shop",
+      "target": "eslint-plugin-node",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "sdras/sample-vue-shop",
+      "target": "eslint-plugin-promise",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "sdras/sample-vue-shop",
+      "target": "eslint-plugin-standard",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sdras/sample-vue-shop",
+      "target": "nuxt",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sdras/sample-vue-shop",
+      "target": "stripe",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sdras/sample-vue-shop",
+      "target": "stripe-checkout",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sdras/sample-vue-shop",
+      "target": "stripe-elements",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sdras/sample-vue-shop",
+      "target": "stripe-payments",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sdras/sample-vue-shop",
+      "target": "vue-stripe",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sdras/sample-vue-shop",
+      "target": "vue-stripe-payments",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sdras/sample-vue-shop",
+      "target": "vuejs",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T01:45:55.753903+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1264
+    },
+    {
+      "path": "package.json",
+      "size": 906
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "See readme for newer repo details! A sample shop that shows how to manage payments with Vue, Stripe, and Serverless Functions",
+    "fork": false,
+    "full_name": "sdras/sample-vue-shop",
+    "html_url": "https://github.com/sdras/sample-vue-shop",
+    "language": "Vue",
+    "pushed_at": "2022-12-07T17:20:07Z",
+    "stargazers_count": 1201,
+    "topics": [
+      "nuxt",
+      "stripe",
+      "stripe-checkout",
+      "stripe-elements",
+      "stripe-payments",
+      "vue",
+      "vue-stripe",
+      "vue-stripe-payments",
+      "vuejs"
+    ],
+    "updated_at": "2026-04-11T16:48:39Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sdras/ecommerce-netlify",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sdras/sample-stripe-handler",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "**Note: This repo is no longer being maintained in favor of a newer, improved version: [https://github.com/sdras/ecommerce-netlify](https://github.com/sdras/ecommerce-netlify)**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nuxt"
+    },
+    {
+      "context_snippet": "**Note: This repo is no longer being maintained in favor of a newer, improved version: [https://github.com/sdras/ecommerce-netlify](https://github.com/sdras/ecommerce-netlify)**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "stripe"
+    },
+    {
+      "context_snippet": "**Note: This repo is no longer being maintained in favor of a newer, improved version: [https://github.com/sdras/ecommerce-netlify](https://github.com/sdras/ecommerce-netlify)**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "stripe-checkout"
+    },
+    {
+      "context_snippet": "**Note: This repo is no longer being maintained in favor of a newer, improved version: [https://github.com/sdras/ecommerce-netlify](https://github.com/sdras/ecommerce-netlify)**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "stripe-elements"
+    },
+    {
+      "context_snippet": "**Note: This repo is no longer being maintained in favor of a newer, improved version: [https://github.com/sdras/ecommerce-netlify](https://github.com/sdras/ecommerce-netlify)**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "stripe-payments"
+    },
+    {
+      "context_snippet": "**Note: This repo is no longer being maintained in favor of a newer, improved version: [https://github.com/sdras/ecommerce-netlify](https://github.com/sdras/ecommerce-netlify)**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vue-stripe"
+    },
+    {
+      "context_snippet": "**Note: This repo is no longer being maintained in favor of a newer, improved version: [https://github.com/sdras/ecommerce-netlify](https://github.com/sdras/ecommerce-netlify)**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vue-stripe-payments"
+    },
+    {
+      "context_snippet": "**Note: This repo is no longer being maintained in favor of a newer, improved version: [https://github.com/sdras/ecommerce-netlify](https://github.com/sdras/ecommerce-netlify)**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vuejs"
+    }
+  ]
+}

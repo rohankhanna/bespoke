@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A formatter for Python files"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Keep pre-commit hooks up to date"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Keep pre-commit hooks up to date"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 56055,
+      "status": "candidate",
+      "text": "stand"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 55853,
+      "status": "candidate",
+      "text": "troglodyte"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 45806,
+      "status": "candidate",
+      "text": "meet"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 45047,
+      "status": "candidate",
+      "text": "hang"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 43655,
+      "status": "candidate",
+      "text": "update"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Keep pre-commit hooks up to date",
+      "sense_id": "keep-pre-commit-hooks-up-to-date#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "keep-pre-commit-hooks-up-to-date",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "keep-pre-commit-hooks-up-to-date",
+  "observation_id": "d9580be9f8947f48",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-24T00:33:56.049672+00:00",
+  "observed_text": "Keep pre-commit hooks up to date",
+  "source_context_snippet": "Keep pre-commit hooks up to date",
+  "source_file": ".github/workflows/pre-commit-autoupdate.yml",
+  "source_repo": "google/yapf",
+  "source_repo_description": "A formatter for Python files"
+}

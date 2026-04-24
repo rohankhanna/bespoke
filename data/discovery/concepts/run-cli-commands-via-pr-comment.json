@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Run CLI Commands via PR Comment"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dotnet/fsharp",
+      "status": "candidate-context",
+      "text": "The F# compiler, F# core library, F# language service, and F# tooling integration for Visual Studio"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dotnet/fsharp",
+      "status": "candidate-context",
+      "text": "Run CLI Commands via PR Comment"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dotnet/fsharp",
+      "status": "candidate",
+      "text": "Run CLI Commands via PR Comment"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30729,
+      "status": "candidate",
+      "text": "key"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30729,
+      "status": "candidate",
+      "text": "keying"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30729,
+      "status": "candidate",
+      "text": "keys"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29419,
+      "status": "candidate",
+      "text": "trail"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29207,
+      "status": "candidate",
+      "text": "predominate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Run CLI Commands via PR Comment",
+  "concept_id": "run-cli-commands-via-pr-comment",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/commands.yml",
+      "source_repo": "dotnet/fsharp"
+    }
+  ],
+  "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Run CLI Commands via PR Comment",
+      "sense_id": "run-cli-commands-via-pr-comment#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

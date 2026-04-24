@@ -1,0 +1,92 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest.yml"
+    },
+    {
+      "component": "AndreMiras/coveralls-python-action@v20201129",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest.yml"
+    },
+    {
+      "component": "AndreMiras/coveralls-python-action@v20201129",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest.yml",
+      "source_repo": "alexmojaki/cheap_repr",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest.yml",
+      "source_repo": "alexmojaki/cheap_repr",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest.yml",
+      "source_repo": "alexmojaki/cheap_repr",
+      "target": "AndreMiras/coveralls-python-action@v20201129",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pytest.yml",
+      "source_repo": "alexmojaki/cheap_repr",
+      "target": "Tests",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T02:03:59.978111+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9181
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 220
+    },
+    {
+      "path": ".github/workflows/pytest.yml",
+      "size": 1019
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Better version of repr/reprlib for short, cheap string representations in Python",
+    "fork": false,
+    "full_name": "alexmojaki/cheap_repr",
+    "html_url": "https://github.com/alexmojaki/cheap_repr",
+    "language": "Python",
+    "pushed_at": "2024-08-10T14:07:25Z",
+    "stargazers_count": 26,
+    "topics": [],
+    "updated_at": "2026-03-19T14:33:26Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pytest.yml",
+      "term": "Tests"
+    }
+  ]
+}

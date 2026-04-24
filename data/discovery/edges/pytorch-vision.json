@@ -1,0 +1,202 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "pytorch/vision",
+      "target": "uploadcare/pillow-simd",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "pytorch/vision",
+      "target": "facebookresearch/swag",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-cmake.yml",
+      "source_repo": "pytorch/vision",
+      "target": "pytorch/test-infra/.github/workflows/linux_job_v2.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-cmake.yml",
+      "source_repo": "pytorch/vision",
+      "target": "pytorch/test-infra/.github/workflows/macos_job.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-cmake.yml",
+      "source_repo": "pytorch/vision",
+      "target": "pytorch/test-infra/.github/workflows/windows_job.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-cmake.yml",
+      "source_repo": "pytorch/vision",
+      "target": "CMake",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-aarch64-linux.yml",
+      "source_repo": "pytorch/vision",
+      "target": "pytorch/test-infra/.github/workflows/generate_binary_build_matrix.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-aarch64-linux.yml",
+      "source_repo": "pytorch/vision",
+      "target": "pytorch/test-infra/.github/workflows/build_wheels_linux.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-wheels-aarch64-linux.yml",
+      "source_repo": "pytorch/vision",
+      "target": "Build Aarch64 Linux Wheels",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-linux.yml",
+      "source_repo": "pytorch/vision",
+      "target": "pytorch/test-infra/.github/workflows/generate_binary_build_matrix.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-linux.yml",
+      "source_repo": "pytorch/vision",
+      "target": "pytorch/test-infra/.github/workflows/build_wheels_linux.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-wheels-linux.yml",
+      "source_repo": "pytorch/vision",
+      "target": "Build Linux Wheels",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-m1.yml",
+      "source_repo": "pytorch/vision",
+      "target": "pytorch/test-infra/.github/workflows/generate_binary_build_matrix.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-m1.yml",
+      "source_repo": "pytorch/vision",
+      "target": "pytorch/test-infra/.github/workflows/build_wheels_macos.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-wheels-m1.yml",
+      "source_repo": "pytorch/vision",
+      "target": "Build M1 Wheels",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-windows.yml",
+      "source_repo": "pytorch/vision",
+      "target": "pytorch/test-infra/.github/workflows/generate_binary_build_matrix.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-windows.yml",
+      "source_repo": "pytorch/vision",
+      "target": "pytorch/test-infra/.github/workflows/build_wheels_windows.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-wheels-windows.yml",
+      "source_repo": "pytorch/vision",
+      "target": "Build Windows Wheels",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_wheel_windows_arm64.yml",
+      "source_repo": "pytorch/vision",
+      "target": "pytorch/test-infra/.github/workflows/generate_binary_build_matrix.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_wheel_windows_arm64.yml",
+      "source_repo": "pytorch/vision",
+      "target": "pytorch/test-infra/.github/workflows/build_wheels_windows.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_wheel_windows_arm64.yml",
+      "source_repo": "pytorch/vision",
+      "target": "Build Windows ARM64 Wheels",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "pytorch/vision",
+      "target": "pytorch/test-infra/.github/workflows/linux_job_v2.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "pytorch/vision",
+      "target": "Docs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "pytorch/vision",
+      "target": "pytorch/test-infra/.github/workflows/linux_job_v2.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "pytorch/vision",
+      "target": "pytorch/test-infra/.github/actions/bc-lint@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "pytorch/vision",
+      "target": "Lint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pytorch/vision",
+      "target": "computer-vision",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pytorch/vision",
+      "target": "machine-learning",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-24T00:33:56.049672+00:00",
+  "source_repo": "pytorch/vision"
+}

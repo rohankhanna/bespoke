@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "check-no-warnings"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "r-lib/styler",
+      "status": "candidate-context",
+      "text": "Non-invasive pretty printing of R code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "r-lib/styler",
+      "status": "candidate-context",
+      "text": "check-no-warnings"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "r-lib/styler",
+      "status": "candidate",
+      "text": "check-no-warnings"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "check-no-warnings",
+  "concept_id": "check-no-warnings",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/check-no-warnings.yaml",
+      "source_repo": "r-lib/styler"
+    }
+  ],
+  "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "check-no-warnings",
+      "sense_id": "check-no-warnings#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

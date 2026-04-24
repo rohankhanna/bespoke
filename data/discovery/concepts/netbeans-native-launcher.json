@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "NetBeans Native Launcher"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/netbeans",
+      "status": "candidate-context",
+      "text": "Apache NetBeans"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/netbeans",
+      "status": "candidate-context",
+      "text": "NetBeans Native Launcher"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/netbeans",
+      "status": "candidate",
+      "text": "NetBeans Native Launcher"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15797,
+      "status": "candidate",
+      "text": "deli"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15138,
+      "status": "candidate",
+      "text": "iran"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14677,
+      "status": "candidate",
+      "text": "atlas"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14677,
+      "status": "candidate",
+      "text": "bat"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14677,
+      "status": "candidate",
+      "text": "nasa"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "NetBeans Native Launcher",
+  "concept_id": "netbeans-native-launcher",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/native-binary-build-launcher.yml",
+      "source_repo": "apache/netbeans"
+    }
+  ],
+  "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "NetBeans Native Launcher",
+      "sense_id": "netbeans-native-launcher#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

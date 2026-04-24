@@ -1,0 +1,642 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/angular.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/angular.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/angular.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-add-seo.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-add-seo.yml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-add-seo.yml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-add-seo.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-pr.yml"
+    },
+    {
+      "component": "peter-evans/create-pull-request@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-pr.yml"
+    },
+    {
+      "component": "jlumbroso/free-disk-space@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test.yml"
+    },
+    {
+      "component": "PSModule/install-powershell@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test.yml"
+    },
+    {
+      "component": "actions/setup-dotnet@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test.yml"
+    },
+    {
+      "component": "styfle/cancel-workflow-action@0.6.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cancel-workflow.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/init@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/autobuild@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/image-compression.yml"
+    },
+    {
+      "component": "calibreapp/image-actions@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/image-compression.yml"
+    },
+    {
+      "component": "paulfantom/periodic-labeler@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labeler.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nuget-packages-version-change-detector.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nuget-packages-version-change-detector.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/angular.yml",
+      "source_repo": "abpframework/abp",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/angular.yml",
+      "source_repo": "abpframework/abp",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/angular.yml",
+      "source_repo": "abpframework/abp",
+      "target": "Angular",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-add-seo.yml",
+      "source_repo": "abpframework/abp",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-add-seo.yml",
+      "source_repo": "abpframework/abp",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-add-seo.yml",
+      "source_repo": "abpframework/abp",
+      "target": "actions/github-script@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-add-seo.yml",
+      "source_repo": "abpframework/abp",
+      "target": "Auto Add SEO Descriptions",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-pr.yml",
+      "source_repo": "abpframework/abp",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-pr.yml",
+      "source_repo": "abpframework/abp",
+      "target": "peter-evans/create-pull-request@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test.yml",
+      "source_repo": "abpframework/abp",
+      "target": "jlumbroso/free-disk-space@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test.yml",
+      "source_repo": "abpframework/abp",
+      "target": "PSModule/install-powershell@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test.yml",
+      "source_repo": "abpframework/abp",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test.yml",
+      "source_repo": "abpframework/abp",
+      "target": "actions/setup-dotnet@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test.yml",
+      "source_repo": "abpframework/abp",
+      "target": "codecov/codecov-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-and-test.yml",
+      "source_repo": "abpframework/abp",
+      "target": "build and test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cancel-workflow.yml",
+      "source_repo": "abpframework/abp",
+      "target": "styfle/cancel-workflow-action@0.6.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cancel-workflow.yml",
+      "source_repo": "abpframework/abp",
+      "target": "cancel-workflow",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "abpframework/abp",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "abpframework/abp",
+      "target": "github/codeql-action/init@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "abpframework/abp",
+      "target": "github/codeql-action/autobuild@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "abpframework/abp",
+      "target": "github/codeql-action/analyze@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "abpframework/abp",
+      "target": "CodeQL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/image-compression.yml",
+      "source_repo": "abpframework/abp",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/image-compression.yml",
+      "source_repo": "abpframework/abp",
+      "target": "calibreapp/image-actions@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/image-compression.yml",
+      "source_repo": "abpframework/abp",
+      "target": "Compress Images",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labeler.yml",
+      "source_repo": "abpframework/abp",
+      "target": "paulfantom/periodic-labeler@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/labeler.yml",
+      "source_repo": "abpframework/abp",
+      "target": "Pull request labeler",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nuget-packages-version-change-detector.yml",
+      "source_repo": "abpframework/abp",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nuget-packages-version-change-detector.yml",
+      "source_repo": "abpframework/abp",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nuget-packages-version-change-detector.yml",
+      "source_repo": "abpframework/abp",
+      "target": "Nuget Packages Version Change Detector",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "abpframework/abp",
+      "target": "angular",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "abpframework/abp",
+      "target": "architecture",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "abpframework/abp",
+      "target": "aspnet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "abpframework/abp",
+      "target": "aspnet-core",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "abpframework/abp",
+      "target": "aspnetcore",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "abpframework/abp",
+      "target": "blazor",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "abpframework/abp",
+      "target": "c-sharp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "abpframework/abp",
+      "target": "csharp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "abpframework/abp",
+      "target": "domain-driven-design",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "abpframework/abp",
+      "target": "dotnet-core",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "abpframework/abp",
+      "target": "framework",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "abpframework/abp",
+      "target": "modular-monolith",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "abpframework/abp",
+      "target": "multi-tenancy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "abpframework/abp",
+      "target": "saas",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T00:43:24.839151+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9382
+    },
+    {
+      "path": ".github/workflows/angular.yml",
+      "size": 1441
+    },
+    {
+      "path": ".github/workflows/auto-add-seo.yml",
+      "size": 8407
+    },
+    {
+      "path": ".github/workflows/auto-pr.yml",
+      "size": 1285
+    },
+    {
+      "path": ".github/workflows/build-and-test.yml",
+      "size": 1793
+    },
+    {
+      "path": ".github/workflows/cancel-workflow.yml",
+      "size": 443
+    },
+    {
+      "path": ".github/workflows/codeql-analysis.yml",
+      "size": 3293
+    },
+    {
+      "path": ".github/workflows/image-compression.yml",
+      "size": 629
+    },
+    {
+      "path": ".github/workflows/labeler.yml",
+      "size": 367
+    },
+    {
+      "path": ".github/workflows/nuget-packages-version-change-detector.yml",
+      "size": 2567
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "dev",
+    "description": "Open-source web application framework for ASP.NET Core! Offers an opinionated architecture to build enterprise software solutions with best practices on top of the .NET. Provides the fundamental infrastructure, cross-cutting-concern implementations, startup templates, application modules, UI themes, tooling and documentation.",
+    "fork": false,
+    "full_name": "abpframework/abp",
+    "html_url": "https://github.com/abpframework/abp",
+    "language": "C#",
+    "pushed_at": "2026-04-23T06:18:54Z",
+    "stargazers_count": 14218,
+    "topics": [
+      "abp",
+      "angular",
+      "architecture",
+      "aspnet",
+      "aspnet-core",
+      "aspnetcore",
+      "blazor",
+      "c-sharp",
+      "csharp",
+      "domain-driven-design",
+      "dotnet-core",
+      "framework",
+      "modular-monolith",
+      "multi-tenancy",
+      "saas"
+    ],
+    "updated_at": "2026-04-23T16:41:31Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "'Angular'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/angular.yml",
+      "term": "Angular"
+    },
+    {
+      "context_snippet": "Auto Add SEO Descriptions",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-add-seo.yml",
+      "term": "Auto Add SEO Descriptions"
+    },
+    {
+      "context_snippet": "\"build and test\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-and-test.yml",
+      "term": "build and test"
+    },
+    {
+      "context_snippet": "cancel-workflow",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cancel-workflow.yml",
+      "term": "cancel-workflow"
+    },
+    {
+      "context_snippet": "\"CodeQL\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "term": "CodeQL"
+    },
+    {
+      "context_snippet": "Compress Images",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/image-compression.yml",
+      "term": "Compress Images"
+    },
+    {
+      "context_snippet": "Pull request labeler",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/labeler.yml",
+      "term": "Pull request labeler"
+    },
+    {
+      "context_snippet": "Nuget Packages Version Change Detector",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nuget-packages-version-change-detector.yml",
+      "term": "Nuget Packages Version Change Detector"
+    },
+    {
+      "context_snippet": "![build and test](https://img.shields.io/github/actions/workflow/status/abpframework/abp/build-and-test.yml?branch=dev&style=flat-square) \ud83d\udd39 [![codecov](https://codecov.io/gh/abpframework/abp/branch/dev/graph/badge.svg?token=jUKLCxa6HF)](https://codecov.io/gh/abpframework/abp) \ud83d\udd39 \u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "angular"
+    },
+    {
+      "context_snippet": "![build and test](https://img.shields.io/github/actions/workflow/status/abpframework/abp/build-and-test.yml?branch=dev&style=flat-square) \ud83d\udd39 [![codecov](https://codecov.io/gh/abpframework/abp/branch/dev/graph/badge.svg?token=jUKLCxa6HF)](https://codecov.io/gh/abpframework/abp) \ud83d\udd39 \u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "architecture"
+    },
+    {
+      "context_snippet": "![build and test](https://img.shields.io/github/actions/workflow/status/abpframework/abp/build-and-test.yml?branch=dev&style=flat-square) \ud83d\udd39 [![codecov](https://codecov.io/gh/abpframework/abp/branch/dev/graph/badge.svg?token=jUKLCxa6HF)](https://codecov.io/gh/abpframework/abp) \ud83d\udd39 \u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "aspnet"
+    },
+    {
+      "context_snippet": "![build and test](https://img.shields.io/github/actions/workflow/status/abpframework/abp/build-and-test.yml?branch=dev&style=flat-square) \ud83d\udd39 [![codecov](https://codecov.io/gh/abpframework/abp/branch/dev/graph/badge.svg?token=jUKLCxa6HF)](https://codecov.io/gh/abpframework/abp) \ud83d\udd39 \u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "aspnet-core"
+    },
+    {
+      "context_snippet": "![build and test](https://img.shields.io/github/actions/workflow/status/abpframework/abp/build-and-test.yml?branch=dev&style=flat-square) \ud83d\udd39 [![codecov](https://codecov.io/gh/abpframework/abp/branch/dev/graph/badge.svg?token=jUKLCxa6HF)](https://codecov.io/gh/abpframework/abp) \ud83d\udd39 \u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "aspnetcore"
+    },
+    {
+      "context_snippet": "![build and test](https://img.shields.io/github/actions/workflow/status/abpframework/abp/build-and-test.yml?branch=dev&style=flat-square) \ud83d\udd39 [![codecov](https://codecov.io/gh/abpframework/abp/branch/dev/graph/badge.svg?token=jUKLCxa6HF)](https://codecov.io/gh/abpframework/abp) \ud83d\udd39 \u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "blazor"
+    },
+    {
+      "context_snippet": "![build and test](https://img.shields.io/github/actions/workflow/status/abpframework/abp/build-and-test.yml?branch=dev&style=flat-square) \ud83d\udd39 [![codecov](https://codecov.io/gh/abpframework/abp/branch/dev/graph/badge.svg?token=jUKLCxa6HF)](https://codecov.io/gh/abpframework/abp) \ud83d\udd39 \u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "c-sharp"
+    },
+    {
+      "context_snippet": "![build and test](https://img.shields.io/github/actions/workflow/status/abpframework/abp/build-and-test.yml?branch=dev&style=flat-square) \ud83d\udd39 [![codecov](https://codecov.io/gh/abpframework/abp/branch/dev/graph/badge.svg?token=jUKLCxa6HF)](https://codecov.io/gh/abpframework/abp) \ud83d\udd39 \u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "csharp"
+    },
+    {
+      "context_snippet": "![build and test](https://img.shields.io/github/actions/workflow/status/abpframework/abp/build-and-test.yml?branch=dev&style=flat-square) \ud83d\udd39 [![codecov](https://codecov.io/gh/abpframework/abp/branch/dev/graph/badge.svg?token=jUKLCxa6HF)](https://codecov.io/gh/abpframework/abp) \ud83d\udd39 \u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "domain-driven-design"
+    },
+    {
+      "context_snippet": "![build and test](https://img.shields.io/github/actions/workflow/status/abpframework/abp/build-and-test.yml?branch=dev&style=flat-square) \ud83d\udd39 [![codecov](https://codecov.io/gh/abpframework/abp/branch/dev/graph/badge.svg?token=jUKLCxa6HF)](https://codecov.io/gh/abpframework/abp) \ud83d\udd39 \u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dotnet-core"
+    },
+    {
+      "context_snippet": "![build and test](https://img.shields.io/github/actions/workflow/status/abpframework/abp/build-and-test.yml?branch=dev&style=flat-square) \ud83d\udd39 [![codecov](https://codecov.io/gh/abpframework/abp/branch/dev/graph/badge.svg?token=jUKLCxa6HF)](https://codecov.io/gh/abpframework/abp) \ud83d\udd39 \u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "framework"
+    },
+    {
+      "context_snippet": "![build and test](https://img.shields.io/github/actions/workflow/status/abpframework/abp/build-and-test.yml?branch=dev&style=flat-square) \ud83d\udd39 [![codecov](https://codecov.io/gh/abpframework/abp/branch/dev/graph/badge.svg?token=jUKLCxa6HF)](https://codecov.io/gh/abpframework/abp) \ud83d\udd39 \u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "modular-monolith"
+    },
+    {
+      "context_snippet": "![build and test](https://img.shields.io/github/actions/workflow/status/abpframework/abp/build-and-test.yml?branch=dev&style=flat-square) \ud83d\udd39 [![codecov](https://codecov.io/gh/abpframework/abp/branch/dev/graph/badge.svg?token=jUKLCxa6HF)](https://codecov.io/gh/abpframework/abp) \ud83d\udd39 \u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multi-tenancy"
+    },
+    {
+      "context_snippet": "![build and test](https://img.shields.io/github/actions/workflow/status/abpframework/abp/build-and-test.yml?branch=dev&style=flat-square) \ud83d\udd39 [![codecov](https://codecov.io/gh/abpframework/abp/branch/dev/graph/badge.svg?token=jUKLCxa6HF)](https://codecov.io/gh/abpframework/abp) \ud83d\udd39 \u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "saas"
+    }
+  ]
+}

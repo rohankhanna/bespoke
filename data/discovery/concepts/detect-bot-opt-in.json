@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "detect-bot-opt-in"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nuxt/nuxt",
+      "status": "candidate-context",
+      "text": "The Full-Stack Vue Framework."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nuxt/nuxt",
+      "status": "candidate-context",
+      "text": "detect-bot-opt-in"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nuxt/nuxt",
+      "status": "candidate",
+      "text": "detect-bot-opt-in"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "detect-bot-opt-in",
+  "concept_id": "detect-bot-opt-in",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/detect-bot-opt-in.yml",
+      "source_repo": "nuxt/nuxt"
+    }
+  ],
+  "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "detect-bot-opt-in",
+      "sense_id": "detect-bot-opt-in#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

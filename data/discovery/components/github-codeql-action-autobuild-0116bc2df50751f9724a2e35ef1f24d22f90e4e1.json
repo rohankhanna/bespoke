@@ -1,0 +1,12 @@
+{
+  "component": "github/codeql-action/autobuild@0116bc2df50751f9724a2e35ef1f24d22f90e4e1",
+  "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "getsentry/sentry"
+    }
+  ]
+}

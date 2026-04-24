@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T09:50:06.115508+00:00",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -316,6 +316,26 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/deploy.yml",
       "source_repo": "open-mmlab/mmpose"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "lu-zero/cargo-c"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/deploy-docs.yml",
+      "source_repo": "clice-io/clice"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "wa-lang/wa"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "operator-framework/operator-sdk"
     }
   ],
   "term": "Deploy"

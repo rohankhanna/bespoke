@@ -1,32 +1,7 @@
 {
-  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "sources": [
-    {
-      "discovered_via": "repo-topic",
-      "source_file": null,
-      "source_repo": "nvm-sh/nvm"
-    },
-    {
-      "discovered_via": "repo-topic",
-      "source_file": null,
-      "source_repo": "iamogbz/nvshim"
-    },
-    {
-      "discovered_via": "repo-topic",
-      "source_file": null,
-      "source_repo": "jandamm/zgenom-ext-eval"
-    },
-    {
-      "discovered_via": "repo-topic",
-      "source_file": null,
-      "source_repo": "jandamm/zgenom-ext-release"
-    },
-    {
-      "discovered_via": "repo-topic",
-      "source_file": null,
-      "source_repo": "ohmyzsh/ohmyzsh"
-    },
     {
       "discovered_via": "repo-topic",
       "source_file": null,
@@ -40,32 +15,7 @@
     {
       "discovered_via": "repo-topic",
       "source_file": null,
-      "source_repo": "zimbatm/mdsh"
-    },
-    {
-      "discovered_via": "repo-topic",
-      "source_file": null,
-      "source_repo": "nordtheme/dircolors"
-    },
-    {
-      "discovered_via": "repo-topic",
-      "source_file": null,
-      "source_repo": "abs-lang/abs"
-    },
-    {
-      "discovered_via": "repo-topic",
-      "source_file": null,
-      "source_repo": "scottwinkler/terraform-provider-shell"
-    },
-    {
-      "discovered_via": "repo-topic",
-      "source_file": null,
-      "source_repo": "ddworken/hishtory"
-    },
-    {
-      "discovered_via": "repo-topic",
-      "source_file": null,
-      "source_repo": "fastapi/typer"
+      "source_repo": "ohmyzsh/ohmyzsh"
     }
   ],
   "term": "shell"

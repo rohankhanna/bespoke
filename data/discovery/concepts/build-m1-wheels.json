@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Build M1 Wheels"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pytorch/vision",
+      "status": "candidate-context",
+      "text": "Datasets, Transforms and Models specific to Computer Vision"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pytorch/vision",
+      "status": "candidate-context",
+      "text": "Build M1 Wheels"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pytorch/vision",
+      "status": "candidate",
+      "text": "Build M1 Wheels"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15075,
+      "status": "candidate",
+      "text": "rifle"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10359,
+      "status": "candidate",
+      "text": "fab"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9615,
+      "status": "candidate",
+      "text": "lock"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9615,
+      "status": "candidate",
+      "text": "locking"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9615,
+      "status": "candidate",
+      "text": "locks"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Build M1 Wheels",
+  "concept_id": "build-m1-wheels",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/build-wheels-m1.yml",
+      "source_repo": "pytorch/vision"
+    }
+  ],
+  "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build M1 Wheels",
+      "sense_id": "build-m1-wheels#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

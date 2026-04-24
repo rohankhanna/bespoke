@@ -104,6 +104,30 @@
       "source_repo": "ManimCommunity/manim",
       "status": "candidate-context",
       "text": "Publish Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "swiftlang/swift-syntax",
+      "status": "candidate-context",
+      "text": "A set of Swift libraries for parsing, inspecting, generating, and transforming Swift source code."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "swiftlang/swift-syntax",
+      "status": "candidate-context",
+      "text": "Publish Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "connectrpc/connect-query-es",
+      "status": "candidate-context",
+      "text": "TypeScript-first expansion pack for TanStack Query that gives you Protobuf superpowers."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "connectrpc/connect-query-es",
+      "status": "candidate-context",
+      "text": "Publish Release"
     }
   ],
   "candidate_glosses": [
@@ -152,6 +176,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "ManimCommunity/manim",
+      "status": "candidate",
+      "text": "Publish Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "swiftlang/swift-syntax",
+      "status": "candidate",
+      "text": "Publish Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "connectrpc/connect-query-es",
       "status": "candidate",
       "text": "Publish Release"
     }
@@ -251,11 +287,23 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": ".github/workflows/python-publish.yml",
       "source_repo": "ManimCommunity/manim"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/publish_release.yml",
+      "source_repo": "swiftlang/swift-syntax"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/publish-release.yml",
+      "source_repo": "connectrpc/connect-query-es"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

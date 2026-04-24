@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "prealloc is a Go static analysis tool to find slice declarations that could potentially be preallocated."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "prealloc is a Go static analysis tool to find slice declarations that could potentially be preallocated."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "prealloc is a Go static analysis tool to find slice declarations that could potentially be preallocated."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39864880,
+      "status": "candidate",
+      "text": "cut"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39864840,
+      "status": "candidate",
+      "text": "slit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39864837,
+      "status": "candidate",
+      "text": "gash"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39861856,
+      "status": "candidate",
+      "text": "slash"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39784422,
+      "status": "candidate",
+      "text": "piece"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "slice",
+      "sense_id": "slice#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 23057,
+      "status": "candidate",
+      "text": "piece"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 18041,
+      "status": "candidate",
+      "text": "gash"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 13088,
+      "status": "candidate",
+      "text": "cut"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 10056,
+      "status": "candidate",
+      "text": "fade"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 10044,
+      "status": "candidate",
+      "text": "slash"
+    }
+  ],
+  "concept_id": "slice",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "slice",
+  "observation_id": "19477c604633763c",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T00:33:56.049672+00:00",
+  "observed_text": "slice",
+  "source_context_snippet": "prealloc is a Go static analysis tool to find slice declarations that could potentially be preallocated.",
+  "source_file": null,
+  "source_repo": "alexkohler/prealloc",
+  "source_repo_description": "prealloc is a Go static analysis tool to find slice declarations that could potentially be preallocated."
+}

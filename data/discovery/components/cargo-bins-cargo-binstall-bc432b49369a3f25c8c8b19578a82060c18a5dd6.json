@@ -1,0 +1,17 @@
+{
+  "component": "cargo-bins/cargo-binstall@bc432b49369a3f25c8c8b19578a82060c18a5dd6",
+  "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish-proposal.yml",
+      "source_repo": "WebAssembly/WASI"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "WebAssembly/WASI"
+    }
+  ]
+}

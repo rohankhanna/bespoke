@@ -2,7 +2,8 @@
   "aliases": [
     "code-quality",
     "Code Quality",
-    "code quality"
+    "code quality",
+    "Code quality"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -215,6 +216,30 @@
       "source_repo": "NVIDIA/Model-Optimizer",
       "status": "candidate-context",
       "text": "Code Quality"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "librespot-org/librespot",
+      "status": "candidate-context",
+      "text": "Open Source Spotify client library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "librespot-org/librespot",
+      "status": "candidate-context",
+      "text": "code-quality"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "EpicenterHQ/epicenter",
+      "status": "candidate-context",
+      "text": "Open-source, local-first apps."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "EpicenterHQ/epicenter",
+      "status": "candidate-context",
+      "text": "Code quality"
     }
   ],
   "candidate_glosses": [
@@ -319,6 +344,18 @@
       "source_repo": "NVIDIA/Model-Optimizer",
       "status": "candidate",
       "text": "Code Quality"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "librespot-org/librespot",
+      "status": "candidate",
+      "text": "code-quality"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "EpicenterHQ/epicenter",
+      "status": "candidate",
+      "text": "Code quality"
     }
   ],
   "candidate_related_terms": [
@@ -482,11 +519,23 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": ".github/workflows/code_quality.yml",
       "source_repo": "NVIDIA/Model-Optimizer"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/quality.yml",
+      "source_repo": "librespot-org/librespot"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/ci.format.yml",
+      "source_repo": "EpicenterHQ/epicenter"
     }
   ],
   "first_seen_at": "2026-04-18T11:32:22.637859+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

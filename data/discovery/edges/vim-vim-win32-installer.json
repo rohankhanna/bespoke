@@ -1,0 +1,160 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "vim/vim-win32-installer",
+      "target": "sjl/gundo.vim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "vim/vim-win32-installer",
+      "target": "shougo/neocomplete.vim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "vim/vim-win32-installer",
+      "target": "rprichard/winpty",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "vim/vim-win32-installer",
+      "target": "jedisct1/libsodium",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-release-list.yaml",
+      "source_repo": "vim/vim-win32-installer",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update-release-list.yaml",
+      "source_repo": "vim/vim-win32-installer",
+      "target": "Update Release List",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-repo.yml",
+      "source_repo": "vim/vim-win32-installer",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update-repo.yml",
+      "source_repo": "vim/vim-win32-installer",
+      "target": "Update repo",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows-arm-build.yml",
+      "source_repo": "vim/vim-win32-installer",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows-arm-build.yml",
+      "source_repo": "vim/vim-win32-installer",
+      "target": "ilammy/msvc-dev-cmd@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows-arm-build.yml",
+      "source_repo": "vim/vim-win32-installer",
+      "target": "actions/cache@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows-arm-build.yml",
+      "source_repo": "vim/vim-win32-installer",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows-arm-build.yml",
+      "source_repo": "vim/vim-win32-installer",
+      "target": "actions/attest-build-provenance@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows-arm-build.yml",
+      "source_repo": "vim/vim-win32-installer",
+      "target": "SignPath/github-action-submit-signing-request@v2.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/winget_nightly.yml",
+      "source_repo": "vim/vim-win32-installer",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/winget_nightly.yml",
+      "source_repo": "vim/vim-win32-installer",
+      "target": "vedantmgoyal9/winget-releaser@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/winget_nightly.yml",
+      "source_repo": "vim/vim-win32-installer",
+      "target": "Publish to WinGet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/winget_stable.yml",
+      "source_repo": "vim/vim-win32-installer",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/winget_stable.yml",
+      "source_repo": "vim/vim-win32-installer",
+      "target": "vedantmgoyal9/winget-releaser@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/winget_stable.yml",
+      "source_repo": "vim/vim-win32-installer",
+      "target": "Publish to WinGet Stable",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vim/vim-win32-installer",
+      "target": "installer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vim/vim-win32-installer",
+      "target": "windows",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-24T00:33:56.049672+00:00",
+  "source_repo": "vim/vim-win32-installer"
+}

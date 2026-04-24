@@ -32,6 +32,30 @@
       "source_repo": "firstbatchxyz/dkn-compute-node",
       "status": "candidate-context",
       "text": "releases"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vmihailenco/msgpack",
+      "status": "candidate-context",
+      "text": "msgpack.org[Go] MessagePack encoding for Golang"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vmihailenco/msgpack",
+      "status": "candidate-context",
+      "text": "Releases"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "uptrace/go-clickhouse",
+      "status": "candidate-context",
+      "text": "Golang ClickHouse client"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "uptrace/go-clickhouse",
+      "status": "candidate-context",
+      "text": "Releases"
     }
   ],
   "candidate_glosses": [
@@ -46,6 +70,18 @@
       "source_repo": "firstbatchxyz/dkn-compute-node",
       "status": "candidate",
       "text": "releases"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vmihailenco/msgpack",
+      "status": "candidate",
+      "text": "Releases"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "uptrace/go-clickhouse",
+      "status": "candidate",
+      "text": "Releases"
     }
   ],
   "candidate_related_terms": [
@@ -101,11 +137,23 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": ".github/workflows/releases.yml",
       "source_repo": "firstbatchxyz/dkn-compute-node"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "vmihailenco/msgpack"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "uptrace/go-clickhouse"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

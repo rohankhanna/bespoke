@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Zerocopy makes zero-cost memory manipulation effortless. We write `unsafe` so you don\u2019t have to."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Anneal Tests"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Anneal Tests"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12521,
+      "status": "candidate",
+      "text": "temper"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12479,
+      "status": "candidate",
+      "text": "fuse"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11816,
+      "status": "candidate",
+      "text": "boiling point"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11816,
+      "status": "candidate",
+      "text": "control"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11816,
+      "status": "candidate",
+      "text": "controlled"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Anneal Tests",
+      "sense_id": "anneal-tests#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "anneal-tests",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "anneal-tests",
+  "observation_id": "71e51dc798d1338a",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-24T00:33:56.049672+00:00",
+  "observed_text": "Anneal Tests",
+  "source_context_snippet": "Anneal Tests",
+  "source_file": ".github/workflows/anneal.yml",
+  "source_repo": "google/zerocopy",
+  "source_repo_description": "Zerocopy makes zero-cost memory manipulation effortless. We write `unsafe` so you don\u2019t have to."
+}

@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "publish-on-tag"
+    "publish-on-tag",
+    "Publish on Tag"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -31,6 +32,18 @@
       "source_repo": "ChromeDevTools/devtools-frontend",
       "status": "candidate-context",
       "text": "publish-on-tag"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "SwiftGen/SwiftGen",
+      "status": "candidate-context",
+      "text": "The Swift code generator for your assets, storyboards, Localizable.strings, \u2026 \u2014 Get rid of all String-based APIs!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SwiftGen/SwiftGen",
+      "status": "candidate-context",
+      "text": "Publish on Tag"
     }
   ],
   "candidate_glosses": [
@@ -45,9 +58,51 @@
       "source_repo": "ChromeDevTools/devtools-frontend",
       "status": "candidate",
       "text": "publish-on-tag"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SwiftGen/SwiftGen",
+      "status": "candidate",
+      "text": "Publish on Tag"
     }
   ],
-  "candidate_related_terms": [],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11635,
+      "status": "candidate",
+      "text": "out"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11559,
+      "status": "candidate",
+      "text": "name"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10597,
+      "status": "candidate",
+      "text": "aut"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10597,
+      "status": "candidate",
+      "text": "edition"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10597,
+      "status": "candidate",
+      "text": "imprimatur"
+    }
+  ],
   "candidate_synonyms": [],
   "canonical_name": "publish-on-tag",
   "concept_id": "publish-on-tag",
@@ -64,11 +119,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": ".github/workflows/publish-to-npm-on-tag.yml",
       "source_repo": "ChromeDevTools/devtools-frontend"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/tag-publish.yml",
+      "source_repo": "SwiftGen/SwiftGen"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

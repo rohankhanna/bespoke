@@ -1,0 +1,178 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actboy168/setup-luamake@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "LuaLS/vscode-lua",
+      "target": "luals/luaparser",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "LuaLS/vscode-lua",
+      "target": "actboy168/vscode-lua-doc",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "LuaLS/vscode-lua",
+      "target": "cppcxy/emmyluacodestyle",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "LuaLS/vscode-lua",
+      "target": "kikito/inspect.lua",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "LuaLS/vscode-lua",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "LuaLS/vscode-lua",
+      "target": "actboy168/setup-luamake@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "LuaLS/vscode-lua",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "LuaLS/vscode-lua",
+      "target": "softprops/action-gh-release@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "LuaLS/vscode-lua",
+      "target": "build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "LuaLS/vscode-lua",
+      "target": "lua-language-server",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "LuaLS/vscode-lua",
+      "target": "vscode-extension",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T00:47:02.822836+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5156
+    },
+    {
+      "path": "package.json",
+      "size": 79319
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 3401
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Release lua-language-server for VSCode",
+    "fork": false,
+    "full_name": "LuaLS/vscode-lua",
+    "html_url": "https://github.com/LuaLS/vscode-lua",
+    "language": "TypeScript",
+    "pushed_at": "2026-04-14T14:38:51Z",
+    "stargazers_count": 208,
+    "topics": [
+      "lua",
+      "lua-language-server",
+      "vscode-extension"
+    ],
+    "updated_at": "2026-04-18T15:23:40Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "actboy168/vscode-lua-doc",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cppcxy/emmyluacodestyle",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kikito/inspect.lua",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "luals/luaparser",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "build"
+    },
+    {
+      "context_snippet": "![build](https://img.shields.io/github/actions/workflow/status/LuaLS/lua-language-server/.github%2Fworkflows%2Fbuild.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lua-language-server"
+    },
+    {
+      "context_snippet": "![build](https://img.shields.io/github/actions/workflow/status/LuaLS/lua-language-server/.github%2Fworkflows%2Fbuild.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vscode-extension"
+    }
+  ]
+}

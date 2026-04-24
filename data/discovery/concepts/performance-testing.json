@@ -19,6 +19,12 @@
       "source_repo": "ichard26/blackbench",
       "status": "candidate-context",
       "text": "[![CI](https://github.com/ichard26/blackbench/actions/workflows/ci.yaml/badge.svg)](https://github.com/ichard26/blackbench/actions/workflows/ci.yaml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "criterion-rs/criterion.rs",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">Criterion.<span></span>rs</h1>"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +33,12 @@
       "source_repo": "ichard26/blackbench",
       "status": "candidate",
       "text": "[![CI](https://github.com/ichard26/blackbench/actions/workflows/ci.yaml/badge.svg)](https://github.com/ichard26/blackbench/actions/workflows/ci.yaml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "criterion-rs/criterion.rs",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">Criterion.<span></span>rs</h1>"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +52,17 @@
       "observed_at": "2026-04-22T01:04:16.609102+00:00",
       "source_file": null,
       "source_repo": "ichard26/blackbench"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "criterion-rs/criterion.rs"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

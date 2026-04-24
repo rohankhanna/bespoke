@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "swiftlang/swift-evolution",
+      "target": "apple/swift",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-24T00:35:02.880668+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3997
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "This maintains proposals for changes and user-visible enhancements to the Swift Programming Language.",
+    "fork": false,
+    "full_name": "swiftlang/swift-evolution",
+    "html_url": "https://github.com/swiftlang/swift-evolution",
+    "language": "Markdown",
+    "pushed_at": "2026-04-23T07:32:52Z",
+    "stargazers_count": 15823,
+    "topics": [],
+    "updated_at": "2026-04-23T09:51:07Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "apple/swift",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

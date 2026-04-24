@@ -43,6 +43,78 @@
       "source_repo": "connectrpc/connect-go",
       "status": "candidate-context",
       "text": "Connect"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "connectrpc/connect-kotlin",
+      "status": "candidate-context",
+      "text": "The Kotlin implementation of Connect: Protobuf RPC that works."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "connectrpc/connect-kotlin",
+      "status": "candidate-context",
+      "text": "[![Build](https://github.com/connectrpc/connect-kotlin/actions/workflows/ci.yml/badge.svg)](https://github.com/connectrpc/connect-kotlin/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "connectrpc/examples-go",
+      "status": "candidate-context",
+      "text": "An example Go server built with Connect."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "connectrpc/examples-go",
+      "status": "candidate-context",
+      "text": "examples-go"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "connectrpc/grpchealth-go",
+      "status": "candidate-context",
+      "text": "gRPC-compatible health checks for any net/http server."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "connectrpc/grpchealth-go",
+      "status": "candidate-context",
+      "text": "grpchealth"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "connectrpc/grpcreflect-go",
+      "status": "candidate-context",
+      "text": "gRPC-compatible server reflection for any net/http server."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "connectrpc/grpcreflect-go",
+      "status": "candidate-context",
+      "text": "grpcreflect"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "connectrpc/validate-go",
+      "status": "candidate-context",
+      "text": "Flexible, efficient request validation for Connect."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "connectrpc/validate-go",
+      "status": "candidate-context",
+      "text": "[![Build](https://github.com/connectrpc/validate-go/actions/workflows/ci.yaml/badge.svg?branch=main)](https://github.com/connectrpc/validate-go/actions/workflows/ci.yaml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "connectrpc/connect-swift",
+      "status": "candidate-context",
+      "text": "The Swift implementation of Connect: Protobuf RPC that works."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "connectrpc/connect-swift",
+      "status": "candidate-context",
+      "text": "Connect-Swift"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +135,42 @@
       "source_repo": "connectrpc/connect-go",
       "status": "candidate",
       "text": "Connect"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "connectrpc/connect-kotlin",
+      "status": "candidate",
+      "text": "[![Build](https://github.com/connectrpc/connect-kotlin/actions/workflows/ci.yml/badge.svg)](https://github.com/connectrpc/connect-kotlin/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "connectrpc/examples-go",
+      "status": "candidate",
+      "text": "examples-go"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "connectrpc/grpchealth-go",
+      "status": "candidate",
+      "text": "grpchealth"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "connectrpc/grpcreflect-go",
+      "status": "candidate",
+      "text": "grpcreflect"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "connectrpc/validate-go",
+      "status": "candidate",
+      "text": "[![Build](https://github.com/connectrpc/validate-go/actions/workflows/ci.yaml/badge.svg?branch=main)](https://github.com/connectrpc/validate-go/actions/workflows/ci.yaml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "connectrpc/connect-swift",
+      "status": "candidate",
+      "text": "Connect-Swift"
     }
   ],
   "candidate_related_terms": [],
@@ -88,11 +196,47 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "connectrpc/connect-go"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "connectrpc/connect-kotlin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "connectrpc/examples-go"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "connectrpc/grpchealth-go"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "connectrpc/grpcreflect-go"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "connectrpc/validate-go"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "connectrpc/connect-swift"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

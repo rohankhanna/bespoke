@@ -105,6 +105,18 @@
       "source_repo": "ashvardanian/ForkUnion",
       "status": "candidate-context",
       "text": "Pre-Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alecazam/kram",
+      "status": "candidate-context",
+      "text": "Encode/decode/info to KTX/KTX2/DDS files with LDR/HDR and BC/ASTC/ETC2.  Mac/Win C++11 too, Mac viewer, and scripts for batch processing textures."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alecazam/kram",
+      "status": "candidate-context",
+      "text": "\"pre-release\""
     }
   ],
   "candidate_glosses": [
@@ -155,6 +167,12 @@
       "source_repo": "ashvardanian/ForkUnion",
       "status": "candidate",
       "text": "Pre-Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alecazam/kram",
+      "status": "candidate",
+      "text": "\"pre-release\""
     }
   ],
   "candidate_related_terms": [
@@ -246,11 +264,35 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": ".github/workflows/prerelease.yml",
       "source_repo": "ashvardanian/ForkUnion"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/prerelease.yml",
+      "source_repo": "ashvardanian/ForkUnion"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/prerelease.yml",
+      "source_repo": "ashvardanian/NumKong"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/pre-release.yml",
+      "source_repo": "alecazam/kram"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/pre-release.yml",
+      "source_repo": "puppeteer/puppeteer"
     }
   ],
   "first_seen_at": "2026-04-19T17:36:09.281008+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "nakedret is a Go static analysis tool to find naked returns in functions greater than a specified function length."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "nakedret is a Go static analysis tool to find naked returns in functions greater than a specified function length."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "nakedret is a Go static analysis tool to find naked returns in functions greater than a specified function length."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "static-code-analysis",
+      "sense_id": "static-code-analysis#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "static-code-analysis",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "static-code-analysis",
+  "observation_id": "b04d33205c7beb82",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T00:33:56.049672+00:00",
+  "observed_text": "static-code-analysis",
+  "source_context_snippet": "nakedret is a Go static analysis tool to find naked returns in functions greater than a specified function length.",
+  "source_file": null,
+  "source_repo": "alexkohler/nakedret",
+  "source_repo_description": "nakedret is a Go static analysis tool to find naked returns in functions greater than a specified function length."
+}

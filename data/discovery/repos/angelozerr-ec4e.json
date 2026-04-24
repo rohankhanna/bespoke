@@ -1,0 +1,107 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "angelozerr/ec4e",
+      "target": "angelozerr/ec4j",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "angelozerr/ec4e",
+      "target": "eclipse/tm4e",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "angelozerr/ec4e",
+      "target": "ncjones/editorconfig-eclipse",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "angelozerr/ec4e",
+      "target": "editorconfig/editorconfig-core-java",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "angelozerr/ec4e",
+      "target": "eclipse",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "angelozerr/ec4e",
+      "target": "editorconfig",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T00:52:13.866751+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2218
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "EditorConfig for Eclipse based on GenericEditor and tm4e",
+    "fork": false,
+    "full_name": "angelozerr/ec4e",
+    "html_url": "https://github.com/angelozerr/ec4e",
+    "language": "Java",
+    "pushed_at": "2022-09-15T15:59:53Z",
+    "stargazers_count": 10,
+    "topics": [
+      "eclipse",
+      "editorconfig"
+    ],
+    "updated_at": "2025-09-18T13:59:21Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "angelozerr/ec4j",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "eclipse/tm4e",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "editorconfig/editorconfig-core-java",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ncjones/editorconfig-eclipse",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![Build Status](https://secure.travis-ci.org/angelozerr/ec4e.png)](http://travis-ci.org/angelozerr/ec4e)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "eclipse"
+    },
+    {
+      "context_snippet": "[![Build Status](https://secure.travis-ci.org/angelozerr/ec4e.png)](http://travis-ci.org/angelozerr/ec4e)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "editorconfig"
+    }
+  ]
+}

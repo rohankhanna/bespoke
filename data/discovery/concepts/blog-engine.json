@@ -31,6 +31,18 @@
       "source_repo": "depado/smallblog",
       "status": "candidate-context",
       "text": "![Go Version](https://img.shields.io/badge/go-latest-brightgreen)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jekyll/jekyll",
+      "status": "candidate-context",
+      "text": ":globe_with_meridians: Jekyll is a blog-aware static site generator in Ruby"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jekyll/jekyll",
+      "status": "candidate-context",
+      "text": "Micro Benchmark Runs"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "depado/smallblog",
       "status": "candidate",
       "text": "![Go Version](https://img.shields.io/badge/go-latest-brightgreen)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jekyll/jekyll",
+      "status": "candidate",
+      "text": "Micro Benchmark Runs"
     }
   ],
   "candidate_related_terms": [],
@@ -64,11 +82,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "depado/smallblog"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "jekyll/jekyll"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

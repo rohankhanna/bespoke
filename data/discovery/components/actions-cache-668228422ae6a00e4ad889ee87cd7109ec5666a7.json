@@ -1,7 +1,7 @@
 {
   "component": "actions/cache@668228422ae6a00e4ad889ee87cd7109ec5666a7",
   "first_seen_at": "2026-04-17T16:51:41.136432+00:00",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -367,6 +367,41 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/frontend.yml",
       "source_repo": "grafana/pyroscope"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "nodenv/homebrew-nodenv"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "orhun/git-cliff"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/check-release.yml",
+      "source_repo": "jupyter/nbclassic"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "jupyter/nbclassic"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/js.yml",
+      "source_repo": "jupyter/nbclassic"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/agent-scan.yml",
+      "source_repo": "nuxt/nuxt"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "hashicorp/vault"
     }
   ]
 }

@@ -1,0 +1,474 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/contributed-recipes.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/contributed-recipes.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build-test-upload.yml"
+    },
+    {
+      "component": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build-test-upload.yml"
+    },
+    {
+      "component": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build-test-upload.yml"
+    },
+    {
+      "component": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build-test-upload.yml"
+    },
+    {
+      "component": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build-test-upload.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-tag-merge.yml"
+    },
+    {
+      "component": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-tag-merge.yml"
+    },
+    {
+      "component": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-tag-merge.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-tag-push.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-wiki-update.yml"
+    },
+    {
+      "component": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-wiki-update.yml"
+    },
+    {
+      "component": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-wiki-update.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-wiki-update.yml"
+    },
+    {
+      "component": "stefanzweifel/git-auto-commit-action@04702edda442b2e678b25b537cec683a1493fcb9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-wiki-update.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml"
+    },
+    {
+      "component": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/registry-move.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jupyter/docker-stacks",
+      "target": "b-data/jupyterlab-r-docker-stack",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jupyter/docker-stacks",
+      "target": "b-data/jupyterlab-python-docker-stack",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jupyter/docker-stacks",
+      "target": "b-data/jupyterlab-mojo-docker-stack",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jupyter/docker-stacks",
+      "target": "b-data/jupyterlab-julia-docker-stack",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/contributed-recipes.yml",
+      "source_repo": "jupyter/docker-stacks",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/contributed-recipes.yml",
+      "source_repo": "jupyter/docker-stacks",
+      "target": "Test the contributed recipes",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build-test-upload.yml",
+      "source_repo": "jupyter/docker-stacks",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build-test-upload.yml",
+      "source_repo": "jupyter/docker-stacks",
+      "target": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-tag-merge.yml",
+      "source_repo": "jupyter/docker-stacks",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-tag-merge.yml",
+      "source_repo": "jupyter/docker-stacks",
+      "target": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker-tag-merge.yml",
+      "source_repo": "jupyter/docker-stacks",
+      "target": "Merge single platform tags",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-tag-push.yml",
+      "source_repo": "jupyter/docker-stacks",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-wiki-update.yml",
+      "source_repo": "jupyter/docker-stacks",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-wiki-update.yml",
+      "source_repo": "jupyter/docker-stacks",
+      "target": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-wiki-update.yml",
+      "source_repo": "jupyter/docker-stacks",
+      "target": "stefanzweifel/git-auto-commit-action@04702edda442b2e678b25b537cec683a1493fcb9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "jupyter/docker-stacks",
+      "target": "Docker Stacks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "jupyter/docker-stacks",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "jupyter/docker-stacks",
+      "target": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "jupyter/docker-stacks",
+      "target": "Run pre-commit hooks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/registry-move.yml",
+      "source_repo": "jupyter/docker-stacks",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jupyter/docker-stacks",
+      "target": "docker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jupyter/docker-stacks",
+      "target": "ipython",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jupyter/docker-stacks",
+      "target": "ipython-notebook",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jupyter/docker-stacks",
+      "target": "jupyter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jupyter/docker-stacks",
+      "target": "jupyter-notebook",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jupyter/docker-stacks",
+      "target": "jupyter-notebooks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jupyter/docker-stacks",
+      "target": "jupyterhub",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jupyter/docker-stacks",
+      "target": "jupyterlab",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jupyter/docker-stacks",
+      "target": "notebook",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T00:46:17.526537+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11143
+    },
+    {
+      "path": ".github/workflows/contributed-recipes.yml",
+      "size": 3331
+    },
+    {
+      "path": ".github/workflows/docker-build-test-upload.yml",
+      "size": 5269
+    },
+    {
+      "path": ".github/workflows/docker-tag-merge.yml",
+      "size": 2433
+    },
+    {
+      "path": ".github/workflows/docker-tag-push-merge.yml",
+      "size": 1094
+    },
+    {
+      "path": ".github/workflows/docker-tag-push.yml",
+      "size": 2620
+    },
+    {
+      "path": ".github/workflows/docker-wiki-update.yml",
+      "size": 2217
+    },
+    {
+      "path": ".github/workflows/docker.yml",
+      "size": 16196
+    },
+    {
+      "path": ".github/workflows/pre-commit.yml",
+      "size": 724
+    },
+    {
+      "path": ".github/workflows/registry-move.yml",
+      "size": 1980
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Ready-to-run Docker images containing Jupyter applications",
+    "fork": false,
+    "full_name": "jupyter/docker-stacks",
+    "html_url": "https://github.com/jupyter/docker-stacks",
+    "language": "Python",
+    "pushed_at": "2026-04-24T00:20:05Z",
+    "stargazers_count": 8427,
+    "topics": [
+      "docker",
+      "ipython",
+      "ipython-notebook",
+      "jupyter",
+      "jupyter-notebook",
+      "jupyter-notebooks",
+      "jupyterhub",
+      "jupyterlab",
+      "notebook",
+      "python"
+    ],
+    "updated_at": "2026-04-23T19:45:42Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "b-data/jupyterlab-julia-docker-stack",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "b-data/jupyterlab-mojo-docker-stack",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "b-data/jupyterlab-python-docker-stack",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "b-data/jupyterlab-r-docker-stack",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Test the contributed recipes",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/contributed-recipes.yml",
+      "term": "Test the contributed recipes"
+    },
+    {
+      "context_snippet": "Merge single platform tags",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker-tag-merge.yml",
+      "term": "Merge single platform tags"
+    },
+    {
+      "context_snippet": "Docker Stacks",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker.yml",
+      "term": "Docker Stacks"
+    },
+    {
+      "context_snippet": "Run pre-commit hooks",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "term": "Run pre-commit hooks"
+    },
+    {
+      "context_snippet": "[![GitHub Actions badge](https://github.com/jupyter/docker-stacks/actions/workflows/docker.yml/badge.svg)](https://github.com/jupyter/docker-stacks/actions/workflows/docker.yml?query=branch%3Amain \"Docker images build status\")",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "docker"
+    },
+    {
+      "context_snippet": "[![GitHub Actions badge](https://github.com/jupyter/docker-stacks/actions/workflows/docker.yml/badge.svg)](https://github.com/jupyter/docker-stacks/actions/workflows/docker.yml?query=branch%3Amain \"Docker images build status\")",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ipython"
+    },
+    {
+      "context_snippet": "[![GitHub Actions badge](https://github.com/jupyter/docker-stacks/actions/workflows/docker.yml/badge.svg)](https://github.com/jupyter/docker-stacks/actions/workflows/docker.yml?query=branch%3Amain \"Docker images build status\")",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ipython-notebook"
+    },
+    {
+      "context_snippet": "[![GitHub Actions badge](https://github.com/jupyter/docker-stacks/actions/workflows/docker.yml/badge.svg)](https://github.com/jupyter/docker-stacks/actions/workflows/docker.yml?query=branch%3Amain \"Docker images build status\")",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "jupyter"
+    },
+    {
+      "context_snippet": "[![GitHub Actions badge](https://github.com/jupyter/docker-stacks/actions/workflows/docker.yml/badge.svg)](https://github.com/jupyter/docker-stacks/actions/workflows/docker.yml?query=branch%3Amain \"Docker images build status\")",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "jupyter-notebook"
+    },
+    {
+      "context_snippet": "[![GitHub Actions badge](https://github.com/jupyter/docker-stacks/actions/workflows/docker.yml/badge.svg)](https://github.com/jupyter/docker-stacks/actions/workflows/docker.yml?query=branch%3Amain \"Docker images build status\")",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "jupyter-notebooks"
+    },
+    {
+      "context_snippet": "[![GitHub Actions badge](https://github.com/jupyter/docker-stacks/actions/workflows/docker.yml/badge.svg)](https://github.com/jupyter/docker-stacks/actions/workflows/docker.yml?query=branch%3Amain \"Docker images build status\")",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "jupyterhub"
+    },
+    {
+      "context_snippet": "[![GitHub Actions badge](https://github.com/jupyter/docker-stacks/actions/workflows/docker.yml/badge.svg)](https://github.com/jupyter/docker-stacks/actions/workflows/docker.yml?query=branch%3Amain \"Docker images build status\")",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "jupyterlab"
+    },
+    {
+      "context_snippet": "[![GitHub Actions badge](https://github.com/jupyter/docker-stacks/actions/workflows/docker.yml/badge.svg)](https://github.com/jupyter/docker-stacks/actions/workflows/docker.yml?query=branch%3Amain \"Docker images build status\")",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "notebook"
+    }
+  ]
+}

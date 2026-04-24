@@ -268,6 +268,114 @@
       "source_repo": "chai2010/pbgo",
       "status": "candidate-context",
       "text": "- *\u51f9\u8bed\u8a00(\u51f9\u8bfb\u97f3\u201cWa\u201d)(The Wa Programming Language): https://github.com/wa-lang/wa*"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bufbuild/protobuf-conformance",
+      "status": "candidate-context",
+      "text": "A repository running the Protobuf conformance tests against various libraries"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bufbuild/protobuf-conformance",
+      "status": "candidate-context",
+      "text": "A repository which runs the protocol buffers"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "connectrpc/connect-kotlin",
+      "status": "candidate-context",
+      "text": "The Kotlin implementation of Connect: Protobuf RPC that works."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "connectrpc/connect-kotlin",
+      "status": "candidate-context",
+      "text": "[![Build](https://github.com/connectrpc/connect-kotlin/actions/workflows/ci.yml/badge.svg)](https://github.com/connectrpc/connect-kotlin/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "connectrpc/examples-go",
+      "status": "candidate-context",
+      "text": "An example Go server built with Connect."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "connectrpc/examples-go",
+      "status": "candidate-context",
+      "text": "examples-go"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "connectrpc/grpchealth-go",
+      "status": "candidate-context",
+      "text": "gRPC-compatible health checks for any net/http server."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "connectrpc/grpchealth-go",
+      "status": "candidate-context",
+      "text": "grpchealth"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "connectrpc/grpcreflect-go",
+      "status": "candidate-context",
+      "text": "gRPC-compatible server reflection for any net/http server."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "connectrpc/grpcreflect-go",
+      "status": "candidate-context",
+      "text": "grpcreflect"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "connectrpc/validate-go",
+      "status": "candidate-context",
+      "text": "Flexible, efficient request validation for Connect."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "connectrpc/validate-go",
+      "status": "candidate-context",
+      "text": "[![Build](https://github.com/connectrpc/validate-go/actions/workflows/ci.yaml/badge.svg?branch=main)](https://github.com/connectrpc/validate-go/actions/workflows/ci.yaml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "connectrpc/connect-swift",
+      "status": "candidate-context",
+      "text": "The Swift implementation of Connect: Protobuf RPC that works."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "connectrpc/connect-swift",
+      "status": "candidate-context",
+      "text": "Connect-Swift"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "stepancheg/grpc-rust",
+      "status": "candidate-context",
+      "text": "Rust implementation of gRPC"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stepancheg/grpc-rust",
+      "status": "candidate-context",
+      "text": "grpc-rust"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bufbuild/protovalidate-python",
+      "status": "candidate-context",
+      "text": "Protocol Buffer Validation for Python."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bufbuild/protovalidate-python",
+      "status": "candidate-context",
+      "text": "[![The Buf logo](https://raw.githubusercontent.com/bufbuild/protovalidate/main/.github/buf-logo.svg)][buf]"
     }
   ],
   "candidate_glosses": [
@@ -390,6 +498,60 @@
       "source_repo": "chai2010/pbgo",
       "status": "candidate",
       "text": "- *\u51f9\u8bed\u8a00(\u51f9\u8bfb\u97f3\u201cWa\u201d)(The Wa Programming Language): https://github.com/wa-lang/wa*"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bufbuild/protobuf-conformance",
+      "status": "candidate",
+      "text": "A repository which runs the protocol buffers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "connectrpc/connect-kotlin",
+      "status": "candidate",
+      "text": "[![Build](https://github.com/connectrpc/connect-kotlin/actions/workflows/ci.yml/badge.svg)](https://github.com/connectrpc/connect-kotlin/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "connectrpc/examples-go",
+      "status": "candidate",
+      "text": "examples-go"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "connectrpc/grpchealth-go",
+      "status": "candidate",
+      "text": "grpchealth"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "connectrpc/grpcreflect-go",
+      "status": "candidate",
+      "text": "grpcreflect"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "connectrpc/validate-go",
+      "status": "candidate",
+      "text": "[![Build](https://github.com/connectrpc/validate-go/actions/workflows/ci.yaml/badge.svg?branch=main)](https://github.com/connectrpc/validate-go/actions/workflows/ci.yaml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "connectrpc/connect-swift",
+      "status": "candidate",
+      "text": "Connect-Swift"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stepancheg/grpc-rust",
+      "status": "candidate",
+      "text": "grpc-rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bufbuild/protovalidate-python",
+      "status": "candidate",
+      "text": "[![The Buf logo](https://raw.githubusercontent.com/bufbuild/protovalidate/main/.github/buf-logo.svg)][buf]"
     }
   ],
   "candidate_related_terms": [],
@@ -583,11 +745,71 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "chai2010/pbgo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "bufbuild/protobuf-conformance"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "connectrpc/connect-kotlin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "connectrpc/examples-go"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "connectrpc/grpchealth-go"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "connectrpc/grpcreflect-go"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "connectrpc/validate-go"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "connectrpc/connect-swift"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "stepancheg/grpc-rust"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "bufbuild/protovalidate-python"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/protobuf.yaml",
+      "source_repo": "google/protobuf.dart"
     }
   ],
   "first_seen_at": "2026-04-18T13:29:00.435097+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

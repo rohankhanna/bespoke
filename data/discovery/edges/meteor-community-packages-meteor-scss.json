@@ -1,0 +1,97 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Meteor-Community-Packages/meteor-scss",
+      "target": "illusionfield/fourseven-scss",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Meteor-Community-Packages/meteor-scss",
+      "target": "@illusionfield/mtest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Meteor-Community-Packages/meteor-scss",
+      "target": "sass",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/comment-issue.yml",
+      "source_repo": "Meteor-Community-Packages/meteor-scss",
+      "target": "peter-evans/create-or-update-comment@v1.4.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/comment-issue.yml",
+      "source_repo": "Meteor-Community-Packages/meteor-scss",
+      "target": "Add immediate comment on new issues",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_suite.yml",
+      "source_repo": "Meteor-Community-Packages/meteor-scss",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_suite.yml",
+      "source_repo": "Meteor-Community-Packages/meteor-scss",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_suite.yml",
+      "source_repo": "Meteor-Community-Packages/meteor-scss",
+      "target": "meteorengineer/setup-meteor@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test_suite.yml",
+      "source_repo": "Meteor-Community-Packages/meteor-scss",
+      "target": "Test suite",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Meteor-Community-Packages/meteor-scss",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Meteor-Community-Packages/meteor-scss",
+      "target": "meteor",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Meteor-Community-Packages/meteor-scss",
+      "target": "sass",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Meteor-Community-Packages/meteor-scss",
+      "target": "scss",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-24T00:33:56.049672+00:00",
+  "source_repo": "Meteor-Community-Packages/meteor-scss"
+}

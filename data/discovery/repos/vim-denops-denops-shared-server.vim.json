@@ -1,0 +1,114 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "vim-denops/denops-shared-server.vim",
+      "target": "milly/runtray-ps",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vim-denops/denops-shared-server.vim",
+      "target": "denops",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vim-denops/denops-shared-server.vim",
+      "target": "helper",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vim-denops/denops-shared-server.vim",
+      "target": "installer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vim-denops/denops-shared-server.vim",
+      "target": "neovim",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vim-denops/denops-shared-server.vim",
+      "target": "uninstaller",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T01:40:04.965652+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1415
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "\ud83c\udf83 Vim plugin to help install/uninstall denops-shared-server",
+    "fork": false,
+    "full_name": "vim-denops/denops-shared-server.vim",
+    "html_url": "https://github.com/vim-denops/denops-shared-server.vim",
+    "language": "Vim Script",
+    "pushed_at": "2024-08-18T17:00:27Z",
+    "stargazers_count": 30,
+    "topics": [
+      "denops",
+      "helper",
+      "installer",
+      "neovim",
+      "uninstaller",
+      "vim"
+    ],
+    "updated_at": "2026-01-25T06:31:10Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "milly/runtray-ps",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![Denops.vim 7.0.0 or above]][Denops.vim-v7.0.0]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "denops"
+    },
+    {
+      "context_snippet": "[![Denops.vim 7.0.0 or above]][Denops.vim-v7.0.0]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "helper"
+    },
+    {
+      "context_snippet": "[![Denops.vim 7.0.0 or above]][Denops.vim-v7.0.0]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "installer"
+    },
+    {
+      "context_snippet": "[![Denops.vim 7.0.0 or above]][Denops.vim-v7.0.0]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neovim"
+    },
+    {
+      "context_snippet": "[![Denops.vim 7.0.0 or above]][Denops.vim-v7.0.0]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "uninstaller"
+    }
+  ]
+}

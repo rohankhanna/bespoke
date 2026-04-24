@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Enforce Tooling Sync"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bazelbuild/bazel-central-registry",
+      "status": "candidate-context",
+      "text": "The central registry of Bazel modules for the Bzlmod external dependency system."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bazelbuild/bazel-central-registry",
+      "status": "candidate-context",
+      "text": "Enforce Tooling Sync"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bazelbuild/bazel-central-registry",
+      "status": "candidate",
+      "text": "Enforce Tooling Sync"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10641,
+      "status": "candidate",
+      "text": "tool"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10395,
+      "status": "candidate",
+      "text": "gouge"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10395,
+      "status": "candidate",
+      "text": "gouging"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10385,
+      "status": "candidate",
+      "text": "implement"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10385,
+      "status": "candidate",
+      "text": "implemented"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Enforce Tooling Sync",
+  "concept_id": "enforce-tooling-sync",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/enforce_tooling_sync.yml",
+      "source_repo": "bazelbuild/bazel-central-registry"
+    }
+  ],
+  "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Enforce Tooling Sync",
+      "sense_id": "enforce-tooling-sync#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

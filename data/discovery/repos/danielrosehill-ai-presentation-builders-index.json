@@ -1,0 +1,107 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/AI-Presentation-Builders-Index",
+      "target": "allweonedev/presentation-ai",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/AI-Presentation-Builders-Index",
+      "target": "archlizheng/frontend-slides-editable",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/AI-Presentation-Builders-Index",
+      "target": "2slides/mcp-2slides",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/AI-Presentation-Builders-Index",
+      "target": "aiden0z/pptx-renderer",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielrosehill/AI-Presentation-Builders-Index",
+      "target": "index",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielrosehill/AI-Presentation-Builders-Index",
+      "target": "resources",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T01:43:11.127726+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11231
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Point in time aggregated list of utilities for creating slide decks/presentations with AI agents",
+    "fork": false,
+    "full_name": "danielrosehill/AI-Presentation-Builders-Index",
+    "html_url": "https://github.com/danielrosehill/AI-Presentation-Builders-Index",
+    "language": null,
+    "pushed_at": "2026-04-23T13:11:27Z",
+    "stargazers_count": 0,
+    "topics": [
+      "index",
+      "resources"
+    ],
+    "updated_at": "2026-04-23T13:30:20Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "2slides/mcp-2slides",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aiden0z/pptx-renderer",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "allweonedev/presentation-ai",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "archlizheng/frontend-slides-editable",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![Master Index](https://img.shields.io/badge/Master%20Index-All%20Repositories-purple?style=for-the-badge&logo=github)](https://github.com/danielrosehill/Index)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "index"
+    },
+    {
+      "context_snippet": "[![Master Index](https://img.shields.io/badge/Master%20Index-All%20Repositories-purple?style=for-the-badge&logo=github)](https://github.com/danielrosehill/Index)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "resources"
+    }
+  ]
+}

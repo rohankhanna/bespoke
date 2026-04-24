@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Superseded by browser-level. An abstract-leveldown compliant store on top of IndexedDB."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "**Superseded by [`browser-level`](https://github.com/Level/browser-level). Please see [Frequently Asked Questions](https://github.com/Level/community#faq).**"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "**Superseded by [`browser-level`](https://github.com/Level/browser-level). Please see [Frequently Asked Questions](https://github.com/Level/community#faq).**"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "indexeddb",
+      "sense_id": "indexeddb#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "indexeddb",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "indexeddb",
+  "observation_id": "3a28a744018aa5e5",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T00:33:56.049672+00:00",
+  "observed_text": "indexeddb",
+  "source_context_snippet": "**Superseded by [`browser-level`](https://github.com/Level/browser-level). Please see [Frequently Asked Questions](https://github.com/Level/community#faq).**",
+  "source_file": null,
+  "source_repo": "Level/level-js",
+  "source_repo_description": "Superseded by browser-level. An abstract-leveldown compliant store on top of IndexedDB."
+}

@@ -55,6 +55,18 @@
       "source_repo": "milvus-io/milvus",
       "status": "candidate-context",
       "text": "<img src=\"https://github.com/user-attachments/assets/51e33300-7f85-43ff-a05a-3a0317a961f3\" alt=\"milvus banner\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ASK-03/Reverse-Chain",
+      "status": "candidate-context",
+      "text": "Implementation of paper - Reverse Chain: A Generic-Rule for LLMs to Master Multi-API Planning (https://arxiv.org/abs/2310.04474v2)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ASK-03/Reverse-Chain",
+      "status": "candidate-context",
+      "text": "langchain==0.0.342 openai==0.27.4 typing-inspect==0.8.0 typing_extensions==4.5.0"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +93,12 @@
       "source_repo": "milvus-io/milvus",
       "status": "candidate",
       "text": "<img src=\"https://github.com/user-attachments/assets/51e33300-7f85-43ff-a05a-3a0317a961f3\" alt=\"milvus banner\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ASK-03/Reverse-Chain",
+      "status": "candidate",
+      "text": "langchain==0.0.342 openai==0.27.4 typing-inspect==0.8.0 typing_extensions==4.5.0"
     }
   ],
   "candidate_related_terms": [
@@ -126,11 +144,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "milvus-io/milvus"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "ASK-03/Reverse-Chain"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

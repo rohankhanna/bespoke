@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "EF Core is a modern object-database mapper for .NET. It supports LINQ queries, change tracking, updates, and schema migrations."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Comment API baseline deltas on PRs"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Comment API baseline deltas on PRs"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20053,
+      "status": "candidate",
+      "text": "film"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19675,
+      "status": "candidate",
+      "text": "filming"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19675,
+      "status": "candidate",
+      "text": "open"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19315,
+      "status": "candidate",
+      "text": "pass"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19313,
+      "status": "candidate",
+      "text": "foul"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Comment API baseline deltas on PRs",
+      "sense_id": "comment-api-baseline-deltas-on-prs#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "comment-api-baseline-deltas-on-prs",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "comment-api-baseline-deltas-on-prs",
+  "observation_id": "21e7deb520b1f7b7",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-24T00:33:56.049672+00:00",
+  "observed_text": "Comment API baseline deltas on PRs",
+  "source_context_snippet": "Comment API baseline deltas on PRs",
+  "source_file": ".github/workflows/api-review-baselines.yml",
+  "source_repo": "dotnet/efcore",
+  "source_repo_description": "EF Core is a modern object-database mapper for .NET. It supports LINQ queries, change tracking, updates, and schema migrations."
+}

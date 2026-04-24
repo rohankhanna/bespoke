@@ -55,6 +55,30 @@
       "source_repo": "getkin/kin-openapi",
       "status": "candidate-context",
       "text": "[![CI](https://github.com/getkin/kin-openapi/workflows/go/badge.svg)](https://github.com/getkin/kin-openapi/actions)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Azure/azure-rest-api-specs",
+      "status": "candidate-context",
+      "text": "The source for REST API specifications for Microsoft Azure."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Azure/azure-rest-api-specs",
+      "status": "candidate-context",
+      "text": "This repository is the canonical source for REST API specifications for Microsoft Azure. You can learn more about it [here](https://eng.ms/docs/products/azure-developer-experience/design/api-specs-pr/api-repos)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Azure/autorest",
+      "status": "candidate-context",
+      "text": "OpenAPI (f.k.a Swagger) Specification code generator. Supports C#, PowerShell, Go, Java, Node.js, TypeScript, Python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Azure/autorest",
+      "status": "candidate-context",
+      "text": "\"CodeQL\""
     }
   ],
   "candidate_glosses": [
@@ -81,6 +105,18 @@
       "source_repo": "getkin/kin-openapi",
       "status": "candidate",
       "text": "[![CI](https://github.com/getkin/kin-openapi/workflows/go/badge.svg)](https://github.com/getkin/kin-openapi/actions)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Azure/azure-rest-api-specs",
+      "status": "candidate",
+      "text": "This repository is the canonical source for REST API specifications for Microsoft Azure. You can learn more about it [here](https://eng.ms/docs/products/azure-developer-experience/design/api-specs-pr/api-repos)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Azure/autorest",
+      "status": "candidate",
+      "text": "\"CodeQL\""
     }
   ],
   "candidate_related_terms": [
@@ -184,11 +220,23 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "getkin/kin-openapi"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "Azure/azure-rest-api-specs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "Azure/autorest"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -30,7 +30,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-23T20:58:40.123865+00:00",
+  "fetched_at": "2026-04-24T01:50:31.927917+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -55,13 +55,13 @@
     "html_url": "https://github.com/notaryproject/notary",
     "language": "Go",
     "pushed_at": "2024-08-07T19:02:32Z",
-    "stargazers_count": 3289,
+    "stargazers_count": 3290,
     "topics": [
       "cncf",
       "docker",
       "trust"
     ],
-    "updated_at": "2026-04-13T20:57:45Z"
+    "updated_at": "2026-04-23T23:14:49Z"
   },
   "repo_links": [
     {

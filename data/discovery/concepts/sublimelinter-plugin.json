@@ -1,0 +1,88 @@
+{
+  "aliases": [
+    "sublimelinter-plugin"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kaste/SublimeLinter-addon-goto-flash",
+      "status": "candidate-context",
+      "text": "Distraction free editing and jump visuals"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kaste/SublimeLinter-addon-goto-flash",
+      "status": "candidate-context",
+      "text": "This is an UI addon for SublimeLinter."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kaste/SublimeLinter-addon-toggler",
+      "status": "candidate-context",
+      "text": "Provide some toggle commands for SublimeLinter. Esp. to enable or disable a linter per shortcut."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kaste/SublimeLinter-addon-toggler",
+      "status": "candidate-context",
+      "text": "This is an addon for SublimeLinter."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kaste/SublimeLinter-addon-goto-flash",
+      "status": "candidate",
+      "text": "This is an UI addon for SublimeLinter."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kaste/SublimeLinter-addon-toggler",
+      "status": "candidate",
+      "text": "This is an addon for SublimeLinter."
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "sublimelinter-plugin",
+  "concept_id": "sublimelinter-plugin",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "kaste/SublimeLinter-addon-goto-flash"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "kaste/SublimeLinter-addon-toggler"
+    }
+  ],
+  "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "sublimelinter-plugin",
+      "sense_id": "sublimelinter-plugin#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

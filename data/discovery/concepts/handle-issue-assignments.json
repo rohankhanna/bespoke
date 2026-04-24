@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Handle Issue Assignments"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "openvinotoolkit/openvino",
+      "status": "candidate-context",
+      "text": "OpenVINO\u2122 is an open source toolkit for optimizing and deploying AI inference"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openvinotoolkit/openvino",
+      "status": "candidate-context",
+      "text": "Handle Issue Assignments"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openvinotoolkit/openvino",
+      "status": "candidate",
+      "text": "Handle Issue Assignments"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25967,
+      "status": "candidate",
+      "text": "deal with"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25967,
+      "status": "candidate",
+      "text": "hot potato"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22917,
+      "status": "candidate",
+      "text": "duty"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22917,
+      "status": "candidate",
+      "text": "tasks"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22776,
+      "status": "candidate",
+      "text": "staffing"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Handle Issue Assignments",
+  "concept_id": "handle-issue-assignments",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/assign_issue.yml",
+      "source_repo": "openvinotoolkit/openvino"
+    }
+  ],
+  "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Handle Issue Assignments",
+      "sense_id": "handle-issue-assignments#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

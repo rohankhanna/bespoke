@@ -68,13 +68,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "github-linguist/linguist",
-      "target": "brianmario/charlock_holmes",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "github-linguist/linguist",
       "target": "libgit2/rugged",
       "target_type": "repository"
     },
@@ -191,7 +184,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-23T20:02:27.016179+00:00",
+  "fetched_at": "2026-04-24T00:47:43.349291+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -230,11 +223,6 @@
     "updated_at": "2026-04-23T14:59:51Z"
   },
   "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "brianmario/charlock_holmes",
-      "source_file": "README.md"
-    },
     {
       "edge_type": "explicit-github-link",
       "full_name": "github/linguist",

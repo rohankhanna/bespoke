@@ -1,7 +1,7 @@
 {
   "component": "coverallsapp/github-action@5cbfd81b66ca5d10c19b062c04de0199c215fb6e",
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -42,6 +42,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/cov.yaml",
       "source_repo": "nats-io/nats-server"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "avahi/avahi"
     }
   ]
 }

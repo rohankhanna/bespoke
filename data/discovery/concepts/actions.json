@@ -178,6 +178,18 @@
       "source_repo": "ipshipyard/ipfs-deploy-action",
       "status": "candidate-context",
       "text": "This GitHub Action automates the deployment of static sites to IPFS using [CAR files](https://docs.ipfs.tech/concepts/glossary/#car). It pins to either [IPFS Cluster](https://ipfscluster.io/) or a single [Kubo](https://github.com/ipfs/kubo) instance, as well as supporting additi\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "DeterminateSystems/nix-installer-action",
+      "status": "candidate-context",
+      "text": "The Github Action for the Determinate Nix Installer"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DeterminateSystems/nix-installer-action",
+      "status": "candidate-context",
+      "text": "The fast, friendly, and reliable GitHub Action to install [Determinate Nix][det-nix] with [flakes]."
     }
   ],
   "candidate_glosses": [
@@ -264,6 +276,12 @@
       "source_repo": "ipshipyard/ipfs-deploy-action",
       "status": "candidate",
       "text": "This GitHub Action automates the deployment of static sites to IPFS using [CAR files](https://docs.ipfs.tech/concepts/glossary/#car). It pins to either [IPFS Cluster](https://ipfscluster.io/) or a single [Kubo](https://github.com/ipfs/kubo) instance, as well as supporting additi\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DeterminateSystems/nix-installer-action",
+      "status": "candidate",
+      "text": "The fast, friendly, and reliable GitHub Action to install [Determinate Nix][det-nix] with [flakes]."
     }
   ],
   "candidate_related_terms": [
@@ -391,11 +409,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "ipshipyard/ipfs-deploy-action"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "DeterminateSystems/nix-installer-action"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

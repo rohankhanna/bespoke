@@ -1,0 +1,454 @@
+{
+  "edges": [
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Azure/azure-rest-api-specs",
+      "target": "@autorest/openapi-to-typespec",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Azure/azure-rest-api-specs",
+      "target": "@azure-tools/openai-typespec",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Azure/azure-rest-api-specs",
+      "target": "@azure-tools/spec-gen-sdk",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Azure/azure-rest-api-specs",
+      "target": "@azure-tools/specs-shared",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Azure/azure-rest-api-specs",
+      "target": "@azure-tools/typespec-apiview",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Azure/azure-rest-api-specs",
+      "target": "@azure-tools/typespec-metadata",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Azure/azure-rest-api-specs",
+      "target": "@azure-tools/typespec-autorest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Azure/azure-rest-api-specs",
+      "target": "@azure-tools/typespec-azure-core",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Azure/azure-rest-api-specs",
+      "target": "@azure-tools/typespec-azure-portal-core",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Azure/azure-rest-api-specs",
+      "target": "@azure-tools/typespec-azure-resource-manager",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Azure/azure-rest-api-specs",
+      "target": "@azure-tools/typespec-azure-rulesets",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Azure/azure-rest-api-specs",
+      "target": "@azure-tools/typespec-client-generator-cli",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Azure/azure-rest-api-specs",
+      "target": "@azure-tools/typespec-client-generator-core",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Azure/azure-rest-api-specs",
+      "target": "@azure-tools/typespec-liftr-base",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Azure/azure-rest-api-specs",
+      "target": "@azure/avocado",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Azure/azure-rest-api-specs",
+      "target": "@azure/oad",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Azure/azure-rest-api-specs",
+      "target": "@microsoft.azure/openapi-validator",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Azure/azure-rest-api-specs",
+      "target": "@microsoft.azure/openapi-validator-core",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Azure/azure-rest-api-specs",
+      "target": "@microsoft.azure/openapi-validator-rulesets",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Azure/azure-rest-api-specs",
+      "target": "@typespec/compiler",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Azure/azure-rest-api-specs",
+      "target": "@typespec/http",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Azure/azure-rest-api-specs",
+      "target": "@typespec/sse",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Azure/azure-rest-api-specs",
+      "target": "@typespec/events",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Azure/azure-rest-api-specs",
+      "target": "@typespec/openapi",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Azure/azure-rest-api-specs",
+      "target": "@typespec/openapi3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Azure/azure-rest-api-specs",
+      "target": "@typespec/prettier-plugin-typespec",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Azure/azure-rest-api-specs",
+      "target": "@typespec/rest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Azure/azure-rest-api-specs",
+      "target": "@typespec/streams",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Azure/azure-rest-api-specs",
+      "target": "@typespec/versioning",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Azure/azure-rest-api-specs",
+      "target": "@typespec/xml",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Azure/azure-rest-api-specs",
+      "target": "azure-rest-api-specs-eng-tools",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Azure/azure-rest-api-specs",
+      "target": "oav",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Azure/azure-rest-api-specs",
+      "target": "prettier",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Azure/azure-rest-api-specs",
+      "target": "typescript",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/SDK-Suppressions-Label.yaml",
+      "source_repo": "Azure/azure-rest-api-specs",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/SDK-Suppressions-Label.yaml",
+      "source_repo": "Azure/azure-rest-api-specs",
+      "target": "actions/github-script@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/SDK-Suppressions-Label.yaml",
+      "source_repo": "Azure/azure-rest-api-specs",
+      "target": "SDK Suppressions",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_reusable-eng-tools-test.yaml",
+      "source_repo": "Azure/azure-rest-api-specs",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_reusable-set-check-status.yaml",
+      "source_repo": "Azure/azure-rest-api-specs",
+      "target": "write",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_reusable-set-check-status.yaml",
+      "source_repo": "Azure/azure-rest-api-specs",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_reusable-set-check-status.yaml",
+      "source_repo": "Azure/azure-rest-api-specs",
+      "target": "actions/github-script@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/_reusable-set-check-status.yaml",
+      "source_repo": "Azure/azure-rest-api-specs",
+      "target": "~Templates - Set Run Status",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/arm-auto-signoff-code.yaml",
+      "source_repo": "Azure/azure-rest-api-specs",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/arm-auto-signoff-code.yaml",
+      "source_repo": "Azure/azure-rest-api-specs",
+      "target": "actions/github-script@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/arm-auto-signoff-code.yaml",
+      "source_repo": "Azure/azure-rest-api-specs",
+      "target": "ARM Auto SignOff - Analyze Code",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/arm-auto-signoff-status.yaml",
+      "source_repo": "Azure/azure-rest-api-specs",
+      "target": "read",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/arm-auto-signoff-status.yaml",
+      "source_repo": "Azure/azure-rest-api-specs",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/arm-auto-signoff-status.yaml",
+      "source_repo": "Azure/azure-rest-api-specs",
+      "target": "actions/github-script@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/arm-auto-signoff-status.yaml",
+      "source_repo": "Azure/azure-rest-api-specs",
+      "target": "ARM Auto SignOff - Set Status",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/arm-lease-validation.yaml",
+      "source_repo": "Azure/azure-rest-api-specs",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/arm-lease-validation.yaml",
+      "source_repo": "Azure/azure-rest-api-specs",
+      "target": "actions/github-script@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/arm-lease-validation.yaml",
+      "source_repo": "Azure/azure-rest-api-specs",
+      "target": "ARM Lease Validation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/arm-modeling-review.yaml",
+      "source_repo": "Azure/azure-rest-api-specs",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/arm-modeling-review.yaml",
+      "source_repo": "Azure/azure-rest-api-specs",
+      "target": "actions/github-script@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/arm-modeling-review.yaml",
+      "source_repo": "Azure/azure-rest-api-specs",
+      "target": "ARM Modeling Review",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/avocado-code.yaml",
+      "source_repo": "Azure/azure-rest-api-specs",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/avocado-code.yaml",
+      "source_repo": "Azure/azure-rest-api-specs",
+      "target": "actions/github-script@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/avocado-code.yaml",
+      "source_repo": "Azure/azure-rest-api-specs",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/avocado-code.yaml",
+      "source_repo": "Azure/azure-rest-api-specs",
+      "target": "Swagger Avocado - Analyze Code",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Azure/azure-rest-api-specs",
+      "target": "azure",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Azure/azure-rest-api-specs",
+      "target": "cloud",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Azure/azure-rest-api-specs",
+      "target": "openapi",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Azure/azure-rest-api-specs",
+      "target": "rest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Azure/azure-rest-api-specs",
+      "target": "swagger",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-24T00:33:56.049672+00:00",
+  "source_repo": "Azure/azure-rest-api-specs"
+}

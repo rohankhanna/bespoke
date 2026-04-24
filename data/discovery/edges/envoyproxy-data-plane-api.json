@@ -1,0 +1,34 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "envoyproxy/data-plane-api",
+      "target": "envoyproxy/envoy",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/envoy-sync.yaml",
+      "source_repo": "envoyproxy/data-plane-api",
+      "target": "envoyproxy/toolshed/actions/appauth@598eacce15ab5f208102a2fd5669292868002701",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/envoy-sync.yaml",
+      "source_repo": "envoyproxy/data-plane-api",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/envoy-sync.yaml",
+      "source_repo": "envoyproxy/data-plane-api",
+      "target": "Sync Envoy",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-24T00:33:56.049672+00:00",
+  "source_repo": "envoyproxy/data-plane-api"
+}

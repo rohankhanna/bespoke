@@ -18,7 +18,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "nvim-lua/completion-nvim",
-      "target": "kristijanhusak/vim-dadbod-completion",
+      "target": "nvim-treesitter/completion-treesitter",
       "target_type": "repository"
     },
     {
@@ -29,6 +29,6 @@
       "target_type": "repository"
     }
   ],
-  "generated_at": "2026-04-23T18:30:35.670459+00:00",
+  "generated_at": "2026-04-24T00:33:56.049672+00:00",
   "source_repo": "nvim-lua/completion-nvim"
 }

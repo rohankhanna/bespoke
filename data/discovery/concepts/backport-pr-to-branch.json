@@ -91,6 +91,42 @@
       "source_repo": "OrchardCMS/OrchardCore",
       "status": "candidate-context",
       "text": "Backport PR to branch"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/dcp",
+      "status": "candidate-context",
+      "text": "Developer Control Plane API server and CLI."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/dcp",
+      "status": "candidate-context",
+      "text": "Backport PR to branch"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dotnet/dotnet",
+      "status": "candidate-context",
+      "text": "Home of .NET's Virtual Monolithic Repository which includes all the code needed to build the .NET SDK."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dotnet/dotnet",
+      "status": "candidate-context",
+      "text": "Backport PR to branch"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dotnet/fsharp",
+      "status": "candidate-context",
+      "text": "The F# compiler, F# core library, F# language service, and F# tooling integration for Visual Studio"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dotnet/fsharp",
+      "status": "candidate-context",
+      "text": "Backport PR to branch"
     }
   ],
   "candidate_glosses": [
@@ -133,6 +169,24 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "OrchardCMS/OrchardCore",
+      "status": "candidate",
+      "text": "Backport PR to branch"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/dcp",
+      "status": "candidate",
+      "text": "Backport PR to branch"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dotnet/dotnet",
+      "status": "candidate",
+      "text": "Backport PR to branch"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dotnet/fsharp",
       "status": "candidate",
       "text": "Backport PR to branch"
     }
@@ -220,11 +274,29 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": ".github/workflows/backport.yml",
       "source_repo": "OrchardCMS/OrchardCore"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/backport.yml",
+      "source_repo": "microsoft/dcp"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/backport.yml",
+      "source_repo": "dotnet/dotnet"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/backport.yml",
+      "source_repo": "dotnet/fsharp"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

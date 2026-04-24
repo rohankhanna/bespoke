@@ -1,0 +1,94 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "belak/zsh-utils",
+      "target": "zsh-users/antigen",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "belak/zsh-utils",
+      "target": "mattmc3/zephyr",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "belak/zsh-utils",
+      "target": "zsh-users/zsh-completions",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "belak/zsh-utils",
+      "target": "zsh-users/zsh-syntax-highlighting",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "belak/zsh-utils",
+      "target": "zsh-utils",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T00:36:57.851362+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4086
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A minimal, opinionated set of ZSH plugins designed to be small, simple, and focused.",
+    "fork": false,
+    "full_name": "belak/zsh-utils",
+    "html_url": "https://github.com/belak/zsh-utils",
+    "language": "Shell",
+    "pushed_at": "2025-10-15T18:38:08Z",
+    "stargazers_count": 209,
+    "topics": [
+      "zsh",
+      "zsh-utils"
+    ],
+    "updated_at": "2026-04-11T16:28:23Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mattmc3/zephyr",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "zsh-users/antigen",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "zsh-users/zsh-completions",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "zsh-users/zsh-syntax-highlighting",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "NOTE: As of October 2025, I am no longer using or developing zsh-utils. If you",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "zsh-utils"
+    }
+  ]
+}

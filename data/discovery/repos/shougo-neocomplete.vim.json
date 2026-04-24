@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Shougo/neocomplete.vim",
+      "target": "zhaocai/macvim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Shougo/neocomplete.vim",
+      "target": "shougo/neosnippet",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Shougo/neocomplete.vim",
+      "target": "shougo/neco-vim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Shougo/neocomplete.vim",
+      "target": "c9s/perlomni.vim",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-24T01:41:08.146640+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7407
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Next generation completion framework after neocomplcache",
+    "fork": false,
+    "full_name": "Shougo/neocomplete.vim",
+    "html_url": "https://github.com/Shougo/neocomplete.vim",
+    "language": "Vim Script",
+    "pushed_at": "2023-05-18T09:47:35Z",
+    "stargazers_count": 2730,
+    "topics": [],
+    "updated_at": "2026-04-21T02:30:50Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "c9s/perlomni.vim",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "shougo/neco-vim",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "shougo/neosnippet",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "zhaocai/macvim",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -1,7 +1,7 @@
 {
   "component": "google/oss-fuzz/infra/cifuzz/actions/build_fuzzers@master",
   "first_seen_at": "2026-04-19T04:47:57.443742+00:00",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -197,6 +197,36 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/cifuzz.yml",
       "source_repo": "systemd/systemd"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cifuzz.yml",
+      "source_repo": "avahi/avahi"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cifuzz.yml",
+      "source_repo": "openssh/openssh-portable"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cifuzz.yml",
+      "source_repo": "libvips/libvips"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/fuzz.yml",
+      "source_repo": "commonmark/cmark"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cifuzz.yml",
+      "source_repo": "valyala/fasthttp"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cpp.yml",
+      "source_repo": "uNetworking/uWebSockets"
     }
   ]
 }

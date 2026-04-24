@@ -1,0 +1,12 @@
+{
+  "component": "Homebrew/actions/setup-homebrew@7f6df1cd36597249cbf9810ff3aeff47edf8243b",
+  "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "nodenv/homebrew-nodenv"
+    }
+  ]
+}

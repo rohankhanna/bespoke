@@ -1,0 +1,34 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hashicorp/vault-examples",
+      "target": "hashicorp/vault-ruby",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hashicorp/vault-examples",
+      "target": "rajanadar/vaultsharp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hashicorp/vault-examples",
+      "target": "json-c/json-c",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hashicorp/vault-examples",
+      "target": "hashicorp/hello-vault-dotnet",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-04-24T00:33:56.049672+00:00",
+  "source_repo": "hashicorp/vault-examples"
+}

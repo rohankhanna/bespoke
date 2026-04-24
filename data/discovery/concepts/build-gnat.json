@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Build GNAT"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AdaCore/VSS",
+      "status": "candidate-context",
+      "text": "High level string and text processing library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AdaCore/VSS",
+      "status": "candidate-context",
+      "text": "Build GNAT"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AdaCore/VSS",
+      "status": "candidate",
+      "text": "Build GNAT"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11573,
+      "status": "candidate",
+      "text": "culex"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11573,
+      "status": "candidate",
+      "text": "sting"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11505,
+      "status": "candidate",
+      "text": "cootie"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11384,
+      "status": "candidate",
+      "text": "ant"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11384,
+      "status": "candidate",
+      "text": "backstop"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Build GNAT",
+  "concept_id": "build-gnat",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/build_gnat.yml",
+      "source_repo": "AdaCore/VSS"
+    }
+  ],
+  "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build GNAT",
+      "sense_id": "build-gnat#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -1,0 +1,304 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions-rs/toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions-rs/cargo@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions-rs/toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions-rs/cargo@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions-rs/cargo@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions-rs/cargo@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions-rs/cargo@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions-rs/toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions-rs/toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linkify_changelog.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mdlinter.yml"
+    },
+    {
+      "component": "github/super-linter/slim@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mdlinter.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Cargo.toml",
+      "source_repo": "arkworks-rs/crypto-primitives",
+      "target": "arkworks-rs/r1cs-std",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "arkworks-rs/crypto-primitives",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "arkworks-rs/crypto-primitives",
+      "target": "actions-rs/toolchain@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "arkworks-rs/crypto-primitives",
+      "target": "actions-rs/cargo@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "arkworks-rs/crypto-primitives",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linkify_changelog.yml",
+      "source_repo": "arkworks-rs/crypto-primitives",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linkify_changelog.yml",
+      "source_repo": "arkworks-rs/crypto-primitives",
+      "target": "Linkify Changelog",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mdlinter.yml",
+      "source_repo": "arkworks-rs/crypto-primitives",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mdlinter.yml",
+      "source_repo": "arkworks-rs/crypto-primitives",
+      "target": "github/super-linter/slim@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/mdlinter.yml",
+      "source_repo": "arkworks-rs/crypto-primitives",
+      "target": "Lint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "arkworks-rs/crypto-primitives",
+      "target": "cryptography",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "arkworks-rs/crypto-primitives",
+      "target": "hash-functions",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "arkworks-rs/crypto-primitives",
+      "target": "r1cs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "arkworks-rs/crypto-primitives",
+      "target": "rust",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "arkworks-rs/crypto-primitives",
+      "target": "signatures",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "arkworks-rs/crypto-primitives",
+      "target": "snark",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T00:57:30.933124+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2894
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 1849
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 2978
+    },
+    {
+      "path": ".github/workflows/linkify_changelog.yml",
+      "size": 471
+    },
+    {
+      "path": ".github/workflows/mdlinter.yml",
+      "size": 1333
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Interfaces and implementations of cryptographic primitives, along with R1CS constraints for them ",
+    "fork": false,
+    "full_name": "arkworks-rs/crypto-primitives",
+    "html_url": "https://github.com/arkworks-rs/crypto-primitives",
+    "language": "Rust",
+    "pushed_at": "2026-04-23T15:52:36Z",
+    "stargazers_count": 244,
+    "topics": [
+      "cryptography",
+      "hash-functions",
+      "r1cs",
+      "rust",
+      "signatures",
+      "snark"
+    ],
+    "updated_at": "2026-04-23T15:52:39Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "arkworks-rs/r1cs-std",
+      "source_file": "Cargo.toml"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Linkify Changelog",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linkify_changelog.yml",
+      "term": "Linkify Changelog"
+    },
+    {
+      "context_snippet": "Lint",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/mdlinter.yml",
+      "term": "Lint"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">ark-crypto-primitives</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cryptography"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">ark-crypto-primitives</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hash-functions"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">ark-crypto-primitives</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "r1cs"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">ark-crypto-primitives</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">ark-crypto-primitives</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "signatures"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">ark-crypto-primitives</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "snark"
+    }
+  ]
+}

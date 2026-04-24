@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "colorization"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ku1ik/rainbow",
+      "status": "candidate-context",
+      "text": "Ruby gem for colorizing printed text on ANSI terminals"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ku1ik/rainbow",
+      "status": "candidate-context",
+      "text": "CI"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ku1ik/rainbow",
+      "status": "candidate",
+      "text": "CI"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20014175,
+      "status": "candidate",
+      "text": "colorizer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20014174,
+      "status": "candidate",
+      "text": "color fade"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20014173,
+      "status": "candidate",
+      "text": "decolorization"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20014172,
+      "status": "candidate",
+      "text": "decolourisation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20014171,
+      "status": "candidate",
+      "text": "wash"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "colorization",
+  "concept_id": "colorization",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "ku1ik/rainbow"
+    }
+  ],
+  "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "colorization",
+      "sense_id": "colorization#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

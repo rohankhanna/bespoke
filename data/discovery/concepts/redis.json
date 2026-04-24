@@ -127,6 +127,54 @@
       "source_repo": "apache/opendal",
       "status": "candidate-context",
       "text": "[![](https://img.shields.io/github/discussions/apache/opendal)](https://github.com/apache/opendal/discussions)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aviggiano/redis-roaring",
+      "status": "candidate-context",
+      "text": "Roaring Bitmaps for Redis"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aviggiano/redis-roaring",
+      "status": "candidate-context",
+      "text": "redis-roaring [![Coverage Status](https://coveralls.io/repos/github/aviggiano/redis-roaring/badge.svg?branch=master)](https://coveralls.io/github/aviggiano/redis-roaring?branch=master) [![CI/CD](https://github.com/aviggiano/redis-roaring/actions/workflows/ci.yml/badge.svg)](http\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "redis/redis-py",
+      "status": "candidate-context",
+      "text": "Redis Python client"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "redis/redis-py",
+      "status": "candidate-context",
+      "text": "The Python interface to the Redis key-value store."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "redis/node-redis",
+      "status": "candidate-context",
+      "text": "Redis Node.js client"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "redis/node-redis",
+      "status": "candidate-context",
+      "text": "[![Tests](https://img.shields.io/github/actions/workflow/status/redis/node-redis/tests.yml?branch=master)](https://github.com/redis/node-redis/actions/workflows/tests.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "celery/celery",
+      "status": "candidate-context",
+      "text": "Distributed Task Queue (development branch)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "celery/celery",
+      "status": "candidate-context",
+      "text": ".. image:: https://docs.celeryq.dev/en/latest/_images/celery-banner-small.png"
     }
   ],
   "candidate_glosses": [
@@ -189,6 +237,30 @@
       "source_repo": "apache/opendal",
       "status": "candidate",
       "text": "[![](https://img.shields.io/github/discussions/apache/opendal)](https://github.com/apache/opendal/discussions)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aviggiano/redis-roaring",
+      "status": "candidate",
+      "text": "redis-roaring [![Coverage Status](https://coveralls.io/repos/github/aviggiano/redis-roaring/badge.svg?branch=master)](https://coveralls.io/github/aviggiano/redis-roaring?branch=master) [![CI/CD](https://github.com/aviggiano/redis-roaring/actions/workflows/ci.yml/badge.svg)](http\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "redis/redis-py",
+      "status": "candidate",
+      "text": "The Python interface to the Redis key-value store."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "redis/node-redis",
+      "status": "candidate",
+      "text": "[![Tests](https://img.shields.io/github/actions/workflow/status/redis/node-redis/tests.yml?branch=master)](https://github.com/redis/node-redis/actions/workflows/tests.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "celery/celery",
+      "status": "candidate",
+      "text": ".. image:: https://docs.celeryq.dev/en/latest/_images/celery-banner-small.png"
     }
   ],
   "candidate_related_terms": [
@@ -310,11 +382,41 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "apache/opendal"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "aviggiano/redis-roaring"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "olric-data/olric"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "redis/redis-py"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "redis/node-redis"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "celery/celery"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,254 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml"
+    },
+    {
+      "component": "actions/setup-java@v3.12.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/E2E.yml"
+    },
+    {
+      "component": "actions/setup-go@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/E2E.yml"
+    },
+    {
+      "component": "actions/setup-java@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/E2E.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/E2E.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/init@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/license-checker.yaml"
+    },
+    {
+      "component": "actions/setup-node@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/license-checker.yaml"
+    },
+    {
+      "component": "apache/skywalking-eyes/header@8fc52baabc14c86294d96034bcc194cfa7f76b05",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/license-checker.yaml"
+    },
+    {
+      "component": "apache/skywalking-eyes/dependency@8fc52baabc14c86294d96034bcc194cfa7f76b05",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/license-checker.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml",
+      "source_repo": "apache/incubator-seata-samples",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml",
+      "source_repo": "apache/incubator-seata-samples",
+      "target": "actions/setup-java@v3.12.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/CI.yml",
+      "source_repo": "apache/incubator-seata-samples",
+      "target": "Java CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/E2E.yml",
+      "source_repo": "apache/incubator-seata-samples",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/E2E.yml",
+      "source_repo": "apache/incubator-seata-samples",
+      "target": "actions/setup-go@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/E2E.yml",
+      "source_repo": "apache/incubator-seata-samples",
+      "target": "actions/setup-java@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/E2E.yml",
+      "source_repo": "apache/incubator-seata-samples",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/E2E.yml",
+      "source_repo": "apache/incubator-seata-samples",
+      "target": "Seata E2E Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "apache/incubator-seata-samples",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "apache/incubator-seata-samples",
+      "target": "github/codeql-action/init@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "apache/incubator-seata-samples",
+      "target": "github/codeql-action/analyze@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "apache/incubator-seata-samples",
+      "target": "CodeQL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/license-checker.yaml",
+      "source_repo": "apache/incubator-seata-samples",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/license-checker.yaml",
+      "source_repo": "apache/incubator-seata-samples",
+      "target": "actions/setup-node@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/license-checker.yaml",
+      "source_repo": "apache/incubator-seata-samples",
+      "target": "apache/skywalking-eyes/header@8fc52baabc14c86294d96034bcc194cfa7f76b05",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/license-checker.yaml",
+      "source_repo": "apache/incubator-seata-samples",
+      "target": "apache/skywalking-eyes/dependency@8fc52baabc14c86294d96034bcc194cfa7f76b05",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/license-checker.yaml",
+      "source_repo": "apache/incubator-seata-samples",
+      "target": "License checker",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T00:35:53.291745+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1474
+    },
+    {
+      "path": ".github/workflows/CI.yml",
+      "size": 902
+    },
+    {
+      "path": ".github/workflows/E2E.yml",
+      "size": 7446
+    },
+    {
+      "path": ".github/workflows/codeql-analysis.yml",
+      "size": 2548
+    },
+    {
+      "path": ".github/workflows/license-checker.yaml",
+      "size": 1905
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Apache Seata(incubating) Samples for Java",
+    "fork": false,
+    "full_name": "apache/incubator-seata-samples",
+    "html_url": "https://github.com/apache/incubator-seata-samples",
+    "language": "Java",
+    "pushed_at": "2026-02-14T04:04:12Z",
+    "stargazers_count": 2357,
+    "topics": [],
+    "updated_at": "2026-04-21T10:04:38Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Java CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/CI.yml",
+      "term": "Java CI"
+    },
+    {
+      "context_snippet": "\"Seata E2E Test\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/E2E.yml",
+      "term": "Seata E2E Test"
+    },
+    {
+      "context_snippet": "\"CodeQL\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "term": "CodeQL"
+    },
+    {
+      "context_snippet": "License checker",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/license-checker.yaml",
+      "term": "License checker"
+    }
+  ]
+}

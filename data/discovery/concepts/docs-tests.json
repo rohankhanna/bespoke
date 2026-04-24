@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Docs Tests"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jupyter/nbclassic",
+      "status": "candidate-context",
+      "text": "Jupyter Notebook as a Jupyter Server extension"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jupyter/nbclassic",
+      "status": "candidate-context",
+      "text": "Docs Tests"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jupyter/nbclassic",
+      "status": "candidate",
+      "text": "Docs Tests"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11791,
+      "status": "candidate",
+      "text": "ids"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11317,
+      "status": "candidate",
+      "text": "oral"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11317,
+      "status": "candidate",
+      "text": "scrutiny"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11317,
+      "status": "candidate",
+      "text": "trier"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11295,
+      "status": "candidate",
+      "text": "accountant"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Docs Tests",
+  "concept_id": "docs-tests",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "jupyter/nbclassic"
+    }
+  ],
+  "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Docs Tests",
+      "sense_id": "docs-tests#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

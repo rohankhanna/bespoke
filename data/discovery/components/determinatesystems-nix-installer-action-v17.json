@@ -1,7 +1,7 @@
 {
   "component": "DeterminateSystems/nix-installer-action@v17",
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -12,6 +12,41 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/unit-tests.yml",
       "source_repo": "eza-community/eza"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/binary.yml",
+      "source_repo": "bpftrace/bpftrace"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/bpftrace-tidy.yml",
+      "source_repo": "bpftrace/bpftrace"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "bpftrace/bpftrace"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/clang-tidy.yml",
+      "source_repo": "bpftrace/bpftrace"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "bpftrace/bpftrace"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/flakehub.yml",
+      "source_repo": "bpftrace/bpftrace"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "bpftrace/bpftrace"
     }
   ]
 }

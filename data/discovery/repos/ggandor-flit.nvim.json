@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ggandor/flit.nvim",
+      "target": "rhysd/clever-f.vim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ggandor/flit.nvim",
+      "target": "tpope/vim-repeat",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-24T01:44:11.795414+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1126
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Enhanced f/t motions for Leap",
+    "fork": false,
+    "full_name": "ggandor/flit.nvim",
+    "html_url": "https://github.com/ggandor/flit.nvim",
+    "language": "Lua",
+    "pushed_at": "2025-10-09T17:09:29Z",
+    "stargazers_count": 409,
+    "topics": [],
+    "updated_at": "2026-04-08T00:24:25Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rhysd/clever-f.vim",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tpope/vim-repeat",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -1,0 +1,240 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "goreleaser/goreleaser-action@ec59f474b9834571250b370d4735c50f8e2d1e29",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "dependabot/fetch-metadata@08eff52bf64351f401fb50d4972fa95b9f2c2d1b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependabot.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "goreleaser/goreleaser-action@ec59f474b9834571250b370d4735c50f8e2d1e29",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "grpc-ecosystem/grpc-health-probe",
+      "target": "grpc/grpc",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "grpc-ecosystem/grpc-health-probe",
+      "target": "grpc/grpc-java",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "grpc-ecosystem/grpc-health-probe",
+      "target": "spiffe/spiffe",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "grpc-ecosystem/grpc-health-probe",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "grpc-ecosystem/grpc-health-probe",
+      "target": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "grpc-ecosystem/grpc-health-probe",
+      "target": "goreleaser/goreleaser-action@ec59f474b9834571250b370d4735c50f8e2d1e29",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependabot.yml",
+      "source_repo": "grpc-ecosystem/grpc-health-probe",
+      "target": "dependabot/fetch-metadata@08eff52bf64351f401fb50d4972fa95b9f2c2d1b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dependabot.yml",
+      "source_repo": "grpc-ecosystem/grpc-health-probe",
+      "target": "Dependabot",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "grpc-ecosystem/grpc-health-probe",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "grpc-ecosystem/grpc-health-probe",
+      "target": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "grpc-ecosystem/grpc-health-probe",
+      "target": "goreleaser/goreleaser-action@ec59f474b9834571250b370d4735c50f8e2d1e29",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "grpc-ecosystem/grpc-health-probe",
+      "target": "release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "grpc-ecosystem/grpc-health-probe",
+      "target": "grpc",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "grpc-ecosystem/grpc-health-probe",
+      "target": "grpc-health",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "grpc-ecosystem/grpc-health-probe",
+      "target": "kubernetes",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T01:48:14.679342+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9033
+    },
+    {
+      "path": "Dockerfile",
+      "size": 307
+    },
+    {
+      "path": "go.mod",
+      "size": 572
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 654
+    },
+    {
+      "path": ".github/workflows/dependabot.yml",
+      "size": 733
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 813
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A command-line tool to perform health-checks for gRPC applications in Kubernetes and elsewhere",
+    "fork": false,
+    "full_name": "grpc-ecosystem/grpc-health-probe",
+    "html_url": "https://github.com/grpc-ecosystem/grpc-health-probe",
+    "language": "Go",
+    "pushed_at": "2026-04-10T06:07:13Z",
+    "stargazers_count": 1562,
+    "topics": [
+      "grpc",
+      "grpc-health",
+      "kubernetes"
+    ],
+    "updated_at": "2026-04-14T06:46:27Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "grpc/grpc",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "grpc/grpc-java",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "spiffe/spiffe",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Dependabot",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dependabot.yml",
+      "term": "Dependabot"
+    },
+    {
+      "context_snippet": "release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "release"
+    },
+    {
+      "context_snippet": "![ci](https://github.com/grpc-ecosystem/grpc-health-probe/workflows/ci/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "grpc"
+    },
+    {
+      "context_snippet": "![ci](https://github.com/grpc-ecosystem/grpc-health-probe/workflows/ci/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "grpc-health"
+    },
+    {
+      "context_snippet": "![ci](https://github.com/grpc-ecosystem/grpc-health-probe/workflows/ci/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kubernetes"
+    }
+  ]
+}

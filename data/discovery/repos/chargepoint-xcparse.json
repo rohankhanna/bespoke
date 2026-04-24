@@ -1,0 +1,154 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ChargePoint/xcparse",
+      "target": "chargepoint/bitrise-step-xcparse",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ChargePoint/xcparse",
+      "target": "bitrise-io/bitrise-steplib",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ChargePoint/xcparse",
+      "target": "code-coverage",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ChargePoint/xcparse",
+      "target": "command-line-tool",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ChargePoint/xcparse",
+      "target": "framework",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ChargePoint/xcparse",
+      "target": "screenshots",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ChargePoint/xcparse",
+      "target": "swift",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ChargePoint/xcparse",
+      "target": "xcode11",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ChargePoint/xcparse",
+      "target": "xcresult",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T00:35:09.864571+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7753
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Command line tool & Swift framework for parsing Xcode 11+ xcresult",
+    "fork": false,
+    "full_name": "ChargePoint/xcparse",
+    "html_url": "https://github.com/ChargePoint/xcparse",
+    "language": "Swift",
+    "pushed_at": "2024-10-28T21:59:19Z",
+    "stargazers_count": 428,
+    "topics": [
+      "code-coverage",
+      "command-line-tool",
+      "framework",
+      "ios",
+      "screenshots",
+      "swift",
+      "xcode11",
+      "xcresult"
+    ],
+    "updated_at": "2026-04-21T21:46:37Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bitrise-io/bitrise-steplib",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "chargepoint/bitrise-step-xcparse",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "A command line tool to extract code coverage & screenshots from Xcode 11 XCResult files.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "code-coverage"
+    },
+    {
+      "context_snippet": "A command line tool to extract code coverage & screenshots from Xcode 11 XCResult files.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "command-line-tool"
+    },
+    {
+      "context_snippet": "A command line tool to extract code coverage & screenshots from Xcode 11 XCResult files.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "framework"
+    },
+    {
+      "context_snippet": "A command line tool to extract code coverage & screenshots from Xcode 11 XCResult files.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "screenshots"
+    },
+    {
+      "context_snippet": "A command line tool to extract code coverage & screenshots from Xcode 11 XCResult files.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "swift"
+    },
+    {
+      "context_snippet": "A command line tool to extract code coverage & screenshots from Xcode 11 XCResult files.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "xcode11"
+    },
+    {
+      "context_snippet": "A command line tool to extract code coverage & screenshots from Xcode 11 XCResult files.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "xcresult"
+    }
+  ]
+}

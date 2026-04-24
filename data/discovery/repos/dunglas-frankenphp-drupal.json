@@ -1,0 +1,116 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Dockerfile",
+      "source_repo": "dunglas/frankenphp-drupal",
+      "target": "docker-library/drupal",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Dockerfile",
+      "source_repo": "dunglas/frankenphp-drupal",
+      "target": "composer/composer",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dunglas/frankenphp-drupal",
+      "target": "docker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dunglas/frankenphp-drupal",
+      "target": "docker-compose",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dunglas/frankenphp-drupal",
+      "target": "drupal",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dunglas/frankenphp-drupal",
+      "target": "frankenphp",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T01:49:44.875867+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1421
+    },
+    {
+      "path": "Dockerfile",
+      "size": 1197
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Drupal on FrankenPHP",
+    "fork": false,
+    "full_name": "dunglas/frankenphp-drupal",
+    "html_url": "https://github.com/dunglas/frankenphp-drupal",
+    "language": "Dockerfile",
+    "pushed_at": "2024-04-18T10:54:48Z",
+    "stargazers_count": 95,
+    "topics": [
+      "docker",
+      "docker-compose",
+      "drupal",
+      "frankenphp",
+      "php"
+    ],
+    "updated_at": "2026-03-31T19:12:23Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "composer/composer",
+      "source_file": "Dockerfile"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "docker-library/drupal",
+      "source_file": "Dockerfile"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Run the popular [Drupal CMS](https://drupal.org) on top of [FrankenPHP](https://frankenphp.dev),",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "docker"
+    },
+    {
+      "context_snippet": "Run the popular [Drupal CMS](https://drupal.org) on top of [FrankenPHP](https://frankenphp.dev),",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "docker-compose"
+    },
+    {
+      "context_snippet": "Run the popular [Drupal CMS](https://drupal.org) on top of [FrankenPHP](https://frankenphp.dev),",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "drupal"
+    },
+    {
+      "context_snippet": "Run the popular [Drupal CMS](https://drupal.org) on top of [FrankenPHP](https://frankenphp.dev),",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "frankenphp"
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Vim Win32 Installer"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Update Release List"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Update Release List"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 35136,
+      "status": "candidate",
+      "text": "declassify"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34371,
+      "status": "candidate",
+      "text": "inactivate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33990,
+      "status": "candidate",
+      "text": "discharge"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33990,
+      "status": "candidate",
+      "text": "discharged"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33990,
+      "status": "candidate",
+      "text": "discharging"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Update Release List",
+      "sense_id": "update-release-list#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "update-release-list",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "update-release-list",
+  "observation_id": "4f6fff37f818082b",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-24T00:33:56.049672+00:00",
+  "observed_text": "Update Release List",
+  "source_context_snippet": "Update Release List",
+  "source_file": ".github/workflows/update-release-list.yaml",
+  "source_repo": "vim/vim-win32-installer",
+  "source_repo_description": "Vim Win32 Installer"
+}

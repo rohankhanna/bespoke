@@ -31,6 +31,30 @@
       "source_repo": "nodejs/undici",
       "status": "candidate-context",
       "text": "Node.js"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "eemeli/yaml",
+      "status": "candidate-context",
+      "text": "YAML parser and serialiser for JavaScript"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eemeli/yaml",
+      "status": "candidate-context",
+      "text": "Node.js"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nodejs/readable-stream",
+      "status": "candidate-context",
+      "text": "Node-core streams for userland"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nodejs/readable-stream",
+      "status": "candidate-context",
+      "text": "Node.js"
     }
   ],
   "candidate_glosses": [
@@ -43,6 +67,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "nodejs/undici",
+      "status": "candidate",
+      "text": "Node.js"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eemeli/yaml",
+      "status": "candidate",
+      "text": "Node.js"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nodejs/readable-stream",
       "status": "candidate",
       "text": "Node.js"
     }
@@ -100,11 +136,23 @@
       "observed_at": "2026-04-22T01:04:16.609102+00:00",
       "source_file": ".github/workflows/nodejs.yml",
       "source_repo": "nodejs/undici"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/nodejs.yml",
+      "source_repo": "eemeli/yaml"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/node.yml",
+      "source_repo": "nodejs/readable-stream"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

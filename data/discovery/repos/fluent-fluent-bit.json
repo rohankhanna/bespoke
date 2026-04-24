@@ -1,0 +1,963 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/call-build-images.yaml"
+    },
+    {
+      "component": "frabert/replace-string-action@v2.5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/call-build-images.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/call-build-images.yaml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/call-build-images.yaml"
+    },
+    {
+      "component": "docker/login-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/call-build-images.yaml"
+    },
+    {
+      "component": "docker/build-push-action@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/call-build-images.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/call-build-images.yaml"
+    },
+    {
+      "component": "docker/metadata-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/call-build-images.yaml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/call-build-images.yaml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/call-build-images.yaml"
+    },
+    {
+      "component": "docker/login-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/call-build-images.yaml"
+    },
+    {
+      "component": "docker/metadata-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/call-build-images.yaml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/call-build-images.yaml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/call-build-images.yaml"
+    },
+    {
+      "component": "docker/login-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/call-build-images.yaml"
+    },
+    {
+      "component": "docker/login-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/call-build-images.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/call-build-images.yaml"
+    },
+    {
+      "component": "docker/login-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/call-build-images.yaml"
+    },
+    {
+      "component": "aquasecurity/trivy-action@57a97c7e7821a5776cebc9bb87c984fa69cba8f1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/call-build-images.yaml"
+    },
+    {
+      "component": "hands-lab/dockle-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/call-build-images.yaml"
+    },
+    {
+      "component": "sigstore/cosign-installer@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/call-build-images.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/call-build-images.yaml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/call-build-images.yaml"
+    },
+    {
+      "component": "docker/login-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/call-build-images.yaml"
+    },
+    {
+      "component": "docker/build-push-action@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/call-build-images.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/call-build-linux-packages.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/call-build-linux-packages.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/call-build-linux-packages.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/call-build-linux-packages.yaml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/call-build-linux-packages.yaml"
+    },
+    {
+      "component": "docker/setup-qemu-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/call-build-linux-packages.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/call-build-linux-packages.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/call-build-linux-packages.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/call-build-linux-packages.yaml"
+    },
+    {
+      "component": "crazy-max/ghaction-import-gpg@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/call-build-linux-packages.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/call-build-macos.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/call-build-macos.yaml"
+    },
+    {
+      "component": "jwlawson/actions-setup-cmake@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/call-build-macos.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/call-build-macos.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/call-build-macos.yaml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/call-build-macos.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/call-build-windows.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/call-build-windows.yaml"
+    },
+    {
+      "component": "ilammy/msvc-dev-cmd@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/call-build-windows.yaml"
+    },
+    {
+      "component": "crazy-max/ghaction-chocolatey@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/call-build-windows.yaml"
+    },
+    {
+      "component": "actions/cache/restore@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/call-build-windows.yaml"
+    },
+    {
+      "component": "actions/cache/save@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/call-build-windows.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/call-build-windows.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/call-build-windows.yaml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/call-build-windows.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/call-integration-image-build.yaml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/call-integration-image-build.yaml"
+    },
+    {
+      "component": "docker/login-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/call-integration-image-build.yaml"
+    },
+    {
+      "component": "docker/metadata-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/call-integration-image-build.yaml"
+    },
+    {
+      "component": "docker/build-push-action@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/call-integration-image-build.yaml"
+    },
+    {
+      "component": "docker/metadata-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/call-integration-image-build.yaml"
+    },
+    {
+      "component": "docker/build-push-action@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/call-integration-image-build.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/call-integration-image-build.yaml"
+    },
+    {
+      "component": "docker/login-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/call-integration-image-build.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/call-run-integration-test.yaml"
+    },
+    {
+      "component": "hashicorp/setup-terraform@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/call-run-integration-test.yaml"
+    },
+    {
+      "component": "google-github-actions/auth@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/call-run-integration-test.yaml"
+    },
+    {
+      "component": "google-github-actions/setup-gcloud@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/call-run-integration-test.yaml"
+    },
+    {
+      "component": "actions/github-script@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/call-run-integration-test.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/call-run-integration-test.yaml"
+    },
+    {
+      "component": "mig4/setup-bats@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/call-run-integration-test.yaml"
+    },
+    {
+      "component": "helm/kind-action@v1.13.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/call-run-integration-test.yaml"
+    },
+    {
+      "component": "azure/setup-helm@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/call-run-integration-test.yaml"
+    },
+    {
+      "component": "azure/setup-kubectl@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/call-run-integration-test.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/call-run-integration-test.yaml"
+    },
+    {
+      "component": "google-github-actions/auth@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/call-run-integration-test.yaml"
+    },
+    {
+      "component": "google-github-actions/setup-gcloud@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/call-run-integration-test.yaml"
+    },
+    {
+      "component": "mig4/setup-bats@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/call-run-integration-test.yaml"
+    },
+    {
+      "component": "azure/setup-helm@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/call-run-integration-test.yaml"
+    },
+    {
+      "component": "azure/setup-kubectl@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/call-run-integration-test.yaml"
+    },
+    {
+      "component": "google-github-actions/get-gke-credentials@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/call-run-integration-test.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-master-packages.yaml",
+      "source_repo": "fluent/fluent-bit",
+      "target": "Build packages for master",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/call-build-images.yaml",
+      "source_repo": "fluent/fluent-bit",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/call-build-images.yaml",
+      "source_repo": "fluent/fluent-bit",
+      "target": "frabert/replace-string-action@v2.5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/call-build-images.yaml",
+      "source_repo": "fluent/fluent-bit",
+      "target": "docker/setup-buildx-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/call-build-images.yaml",
+      "source_repo": "fluent/fluent-bit",
+      "target": "docker/login-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/call-build-images.yaml",
+      "source_repo": "fluent/fluent-bit",
+      "target": "docker/build-push-action@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/call-build-images.yaml",
+      "source_repo": "fluent/fluent-bit",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/call-build-images.yaml",
+      "source_repo": "fluent/fluent-bit",
+      "target": "docker/metadata-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/call-build-images.yaml",
+      "source_repo": "fluent/fluent-bit",
+      "target": "actions/download-artifact@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/call-build-images.yaml",
+      "source_repo": "fluent/fluent-bit",
+      "target": "aquasecurity/trivy-action@57a97c7e7821a5776cebc9bb87c984fa69cba8f1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/call-build-images.yaml",
+      "source_repo": "fluent/fluent-bit",
+      "target": "hands-lab/dockle-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/call-build-images.yaml",
+      "source_repo": "fluent/fluent-bit",
+      "target": "sigstore/cosign-installer@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/call-build-images.yaml",
+      "source_repo": "fluent/fluent-bit",
+      "target": "Reusable workflow to build container images",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/call-build-linux-packages.yaml",
+      "source_repo": "fluent/fluent-bit",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/call-build-linux-packages.yaml",
+      "source_repo": "fluent/fluent-bit",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/call-build-linux-packages.yaml",
+      "source_repo": "fluent/fluent-bit",
+      "target": "docker/setup-buildx-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/call-build-linux-packages.yaml",
+      "source_repo": "fluent/fluent-bit",
+      "target": "docker/setup-qemu-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/call-build-linux-packages.yaml",
+      "source_repo": "fluent/fluent-bit",
+      "target": "crazy-max/ghaction-import-gpg@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/call-build-macos.yaml",
+      "source_repo": "fluent/fluent-bit",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/call-build-macos.yaml",
+      "source_repo": "fluent/fluent-bit",
+      "target": "jwlawson/actions-setup-cmake@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/call-build-macos.yaml",
+      "source_repo": "fluent/fluent-bit",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/call-build-macos.yaml",
+      "source_repo": "fluent/fluent-bit",
+      "target": "actions/download-artifact@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/call-build-windows.yaml",
+      "source_repo": "fluent/fluent-bit",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/call-build-windows.yaml",
+      "source_repo": "fluent/fluent-bit",
+      "target": "ilammy/msvc-dev-cmd@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/call-build-windows.yaml",
+      "source_repo": "fluent/fluent-bit",
+      "target": "crazy-max/ghaction-chocolatey@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/call-build-windows.yaml",
+      "source_repo": "fluent/fluent-bit",
+      "target": "actions/cache/restore@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/call-build-windows.yaml",
+      "source_repo": "fluent/fluent-bit",
+      "target": "actions/cache/save@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/call-build-windows.yaml",
+      "source_repo": "fluent/fluent-bit",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/call-build-windows.yaml",
+      "source_repo": "fluent/fluent-bit",
+      "target": "actions/download-artifact@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/call-integration-image-build.yaml",
+      "source_repo": "fluent/fluent-bit",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/call-integration-image-build.yaml",
+      "source_repo": "fluent/fluent-bit",
+      "target": "docker/setup-buildx-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/call-integration-image-build.yaml",
+      "source_repo": "fluent/fluent-bit",
+      "target": "docker/login-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/call-integration-image-build.yaml",
+      "source_repo": "fluent/fluent-bit",
+      "target": "docker/metadata-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/call-integration-image-build.yaml",
+      "source_repo": "fluent/fluent-bit",
+      "target": "docker/build-push-action@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/call-integration-image-build.yaml",
+      "source_repo": "fluent/fluent-bit",
+      "target": "Reusable workflow for integration testing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/call-run-integration-test.yaml",
+      "source_repo": "fluent/fluent-bit",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/call-run-integration-test.yaml",
+      "source_repo": "fluent/fluent-bit",
+      "target": "hashicorp/setup-terraform@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/call-run-integration-test.yaml",
+      "source_repo": "fluent/fluent-bit",
+      "target": "google-github-actions/auth@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/call-run-integration-test.yaml",
+      "source_repo": "fluent/fluent-bit",
+      "target": "google-github-actions/setup-gcloud@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/call-run-integration-test.yaml",
+      "source_repo": "fluent/fluent-bit",
+      "target": "actions/github-script@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/call-run-integration-test.yaml",
+      "source_repo": "fluent/fluent-bit",
+      "target": "mig4/setup-bats@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/call-run-integration-test.yaml",
+      "source_repo": "fluent/fluent-bit",
+      "target": "helm/kind-action@v1.13.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/call-run-integration-test.yaml",
+      "source_repo": "fluent/fluent-bit",
+      "target": "azure/setup-helm@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/call-run-integration-test.yaml",
+      "source_repo": "fluent/fluent-bit",
+      "target": "azure/setup-kubectl@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/call-run-integration-test.yaml",
+      "source_repo": "fluent/fluent-bit",
+      "target": "google-github-actions/get-gke-credentials@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fluent/fluent-bit",
+      "target": "cloudnative",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fluent/fluent-bit",
+      "target": "data-collector",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fluent/fluent-bit",
+      "target": "fluent-bit",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fluent/fluent-bit",
+      "target": "fluentd",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fluent/fluent-bit",
+      "target": "forwarder",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fluent/fluent-bit",
+      "target": "logging",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fluent/fluent-bit",
+      "target": "logs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fluent/fluent-bit",
+      "target": "metrics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fluent/fluent-bit",
+      "target": "opentelemetry",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fluent/fluent-bit",
+      "target": "prometheus",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fluent/fluent-bit",
+      "target": "sql-queries",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fluent/fluent-bit",
+      "target": "stream-processing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fluent/fluent-bit",
+      "target": "traces",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T00:58:25.618301+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5167
+    },
+    {
+      "path": "Dockerfile",
+      "size": 9068
+    },
+    {
+      "path": ".github/workflows/README.md",
+      "size": 13507
+    },
+    {
+      "path": ".github/workflows/build-master-packages.yaml",
+      "size": 1686
+    },
+    {
+      "path": ".github/workflows/call-build-images.yaml",
+      "size": 17522
+    },
+    {
+      "path": ".github/workflows/call-build-linux-packages.yaml",
+      "size": 10097
+    },
+    {
+      "path": ".github/workflows/call-build-macos.yaml",
+      "size": 4893
+    },
+    {
+      "path": ".github/workflows/call-build-windows.yaml",
+      "size": 11788
+    },
+    {
+      "path": ".github/workflows/call-integration-image-build.yaml",
+      "size": 3894
+    },
+    {
+      "path": ".github/workflows/call-run-integration-test.yaml",
+      "size": 9578
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Fast and Lightweight Logs, Metrics and Traces processor for Linux, BSD, OSX and Windows",
+    "fork": false,
+    "full_name": "fluent/fluent-bit",
+    "html_url": "https://github.com/fluent/fluent-bit",
+    "language": "C",
+    "pushed_at": "2026-04-23T18:38:25Z",
+    "stargazers_count": 7810,
+    "topics": [
+      "c",
+      "cloudnative",
+      "data-collector",
+      "fluent-bit",
+      "fluentd",
+      "forwarder",
+      "logging",
+      "logs",
+      "metrics",
+      "opentelemetry",
+      "prometheus",
+      "sql-queries",
+      "stream-processing",
+      "traces"
+    ],
+    "updated_at": "2026-04-23T12:47:07Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Build packages for master",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-master-packages.yaml",
+      "term": "Build packages for master"
+    },
+    {
+      "context_snippet": "Reusable workflow to build container images",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/call-build-images.yaml",
+      "term": "Reusable workflow to build container images"
+    },
+    {
+      "context_snippet": "Reusable workflow for integration testing",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/call-integration-image-build.yaml",
+      "term": "Reusable workflow for integration testing"
+    },
+    {
+      "context_snippet": "| CI Workflow | Status |",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cloudnative"
+    },
+    {
+      "context_snippet": "| CI Workflow | Status |",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "data-collector"
+    },
+    {
+      "context_snippet": "| CI Workflow | Status |",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fluent-bit"
+    },
+    {
+      "context_snippet": "| CI Workflow | Status |",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fluentd"
+    },
+    {
+      "context_snippet": "| CI Workflow | Status |",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "forwarder"
+    },
+    {
+      "context_snippet": "| CI Workflow | Status |",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "logging"
+    },
+    {
+      "context_snippet": "| CI Workflow | Status |",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "logs"
+    },
+    {
+      "context_snippet": "| CI Workflow | Status |",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "metrics"
+    },
+    {
+      "context_snippet": "| CI Workflow | Status |",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "opentelemetry"
+    },
+    {
+      "context_snippet": "| CI Workflow | Status |",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "prometheus"
+    },
+    {
+      "context_snippet": "| CI Workflow | Status |",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sql-queries"
+    },
+    {
+      "context_snippet": "| CI Workflow | Status |",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "stream-processing"
+    },
+    {
+      "context_snippet": "| CI Workflow | Status |",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "traces"
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "components": [
+    {
+      "component": "envoyproxy/toolshed/actions/appauth@598eacce15ab5f208102a2fd5669292868002701",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/envoy-sync.yaml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/envoy-sync.yaml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/envoy-sync.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "envoyproxy/data-plane-api",
+      "target": "envoyproxy/envoy",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/envoy-sync.yaml",
+      "source_repo": "envoyproxy/data-plane-api",
+      "target": "envoyproxy/toolshed/actions/appauth@598eacce15ab5f208102a2fd5669292868002701",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/envoy-sync.yaml",
+      "source_repo": "envoyproxy/data-plane-api",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/envoy-sync.yaml",
+      "source_repo": "envoyproxy/data-plane-api",
+      "target": "Sync Envoy",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T01:55:45.492715+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1209
+    },
+    {
+      "path": ".github/workflows/envoy-sync.yaml",
+      "size": 1200
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[READ ONLY MIRROR] Envoy REST/proto API definitions and documentation.",
+    "fork": false,
+    "full_name": "envoyproxy/data-plane-api",
+    "html_url": "https://github.com/envoyproxy/data-plane-api",
+    "language": "Starlark",
+    "pushed_at": "2026-01-29T17:48:45Z",
+    "stargazers_count": 588,
+    "topics": [],
+    "updated_at": "2026-04-20T00:09:24Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "envoyproxy/envoy",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Sync Envoy",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/envoy-sync.yaml",
+      "term": "Sync Envoy"
+    }
+  ]
+}

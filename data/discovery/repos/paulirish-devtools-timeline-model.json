@@ -1,0 +1,101 @@
+{
+  "components": [
+    {
+      "component": "chrome-devtools-frontend",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "resolve",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint-config-google",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "mocha",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "speedline",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "paulirish/devtools-timeline-model",
+      "target": "chrome-devtools-frontend",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "paulirish/devtools-timeline-model",
+      "target": "resolve",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "paulirish/devtools-timeline-model",
+      "target": "eslint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "paulirish/devtools-timeline-model",
+      "target": "eslint-config-google",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "paulirish/devtools-timeline-model",
+      "target": "mocha",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "paulirish/devtools-timeline-model",
+      "target": "speedline",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-24T00:43:15.271089+00:00",
+  "fetched_files": [
+    {
+      "path": "package.json",
+      "size": 1043
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Unsupported",
+    "fork": false,
+    "full_name": "paulirish/devtools-timeline-model",
+    "html_url": "https://github.com/paulirish/devtools-timeline-model",
+    "language": "JavaScript",
+    "pushed_at": "2022-11-02T10:27:41Z",
+    "stargazers_count": 176,
+    "topics": [],
+    "updated_at": "2025-02-11T03:04:28Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

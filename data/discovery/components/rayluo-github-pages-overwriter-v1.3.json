@@ -1,0 +1,12 @@
+{
+  "component": "rayluo/github-pages-overwriter@v1.3",
+  "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/report.yml",
+      "source_repo": "alecthomas/go_serialization_benchmarks"
+    }
+  ]
+}

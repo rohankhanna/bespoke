@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Java Native Access"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "mac OS native libraries"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "mac OS native libraries"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 35632,
+      "status": "candidate",
+      "text": "arduino"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 35632,
+      "status": "candidate",
+      "text": "audacity"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 35632,
+      "status": "candidate",
+      "text": "celestia"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 35632,
+      "status": "candidate",
+      "text": "ical"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23874,
+      "status": "candidate",
+      "text": "ora"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "mac OS native libraries",
+      "sense_id": "mac-os-native-libraries#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "mac-os-native-libraries",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "mac-os-native-libraries",
+  "observation_id": "c6dd9ec7f40c8bf8",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-24T00:33:56.049672+00:00",
+  "observed_text": "mac OS native libraries",
+  "source_context_snippet": "mac OS native libraries",
+  "source_file": ".github/workflows/native-libraries-macOS.yaml",
+  "source_repo": "java-native-access/jna",
+  "source_repo_description": "Java Native Access"
+}

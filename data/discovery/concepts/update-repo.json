@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "Update Repo"
+    "Update Repo",
+    "Update repo"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -55,6 +56,18 @@
       "source_repo": "folke/flash.nvim",
       "status": "candidate-context",
       "text": "Update Repo"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vim/vim-win32-installer",
+      "status": "candidate-context",
+      "text": "Vim Win32 Installer"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vim/vim-win32-installer",
+      "status": "candidate-context",
+      "text": "Update repo"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +94,12 @@
       "source_repo": "folke/flash.nvim",
       "status": "candidate",
       "text": "Update Repo"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vim/vim-win32-installer",
+      "status": "candidate",
+      "text": "Update repo"
     }
   ],
   "candidate_related_terms": [
@@ -154,11 +173,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": ".github/workflows/update.yml",
       "source_repo": "folke/flash.nvim"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/update-repo.yml",
+      "source_repo": "vim/vim-win32-installer"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

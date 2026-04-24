@@ -1,0 +1,155 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Advocate99/DiffGesture",
+      "target": "alvinliu0/ha2g",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Advocate99/DiffGesture",
+      "target": "ai4r/gesture-generation-from-trimodal-context",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Advocate99/DiffGesture",
+      "target": "luost26/diffusion-point-cloud",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Advocate99/DiffGesture",
+      "target": "aigc",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Advocate99/DiffGesture",
+      "target": "animation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Advocate99/DiffGesture",
+      "target": "audio-driven",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Advocate99/DiffGesture",
+      "target": "cvpr2023",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Advocate99/DiffGesture",
+      "target": "diffusion-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Advocate99/DiffGesture",
+      "target": "gesture-generation",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T02:01:31.845125+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4953
+    },
+    {
+      "path": "requirements.txt",
+      "size": 188
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[CVPR'2023] Taming Diffusion Models for Audio-Driven Co-Speech Gesture Generation",
+    "fork": false,
+    "full_name": "Advocate99/DiffGesture",
+    "html_url": "https://github.com/Advocate99/DiffGesture",
+    "language": "Python",
+    "pushed_at": "2026-03-18T08:59:16Z",
+    "stargazers_count": 262,
+    "topics": [
+      "aigc",
+      "animation",
+      "audio-driven",
+      "cvpr2023",
+      "diffusion-models",
+      "gesture-generation"
+    ],
+    "updated_at": "2026-04-15T04:25:12Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ai4r/gesture-generation-from-trimodal-context",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "alvinliu0/ha2g",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "luost26/diffusion-point-cloud",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "This is the official code for [**Taming Diffusion Models for Audio-Driven Co-Speech Gesture Generation**](https://arxiv.org/abs/2303.09119).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "aigc"
+    },
+    {
+      "context_snippet": "This is the official code for [**Taming Diffusion Models for Audio-Driven Co-Speech Gesture Generation**](https://arxiv.org/abs/2303.09119).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "animation"
+    },
+    {
+      "context_snippet": "This is the official code for [**Taming Diffusion Models for Audio-Driven Co-Speech Gesture Generation**](https://arxiv.org/abs/2303.09119).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "audio-driven"
+    },
+    {
+      "context_snippet": "This is the official code for [**Taming Diffusion Models for Audio-Driven Co-Speech Gesture Generation**](https://arxiv.org/abs/2303.09119).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cvpr2023"
+    },
+    {
+      "context_snippet": "This is the official code for [**Taming Diffusion Models for Audio-Driven Co-Speech Gesture Generation**](https://arxiv.org/abs/2303.09119).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "diffusion-models"
+    },
+    {
+      "context_snippet": "This is the official code for [**Taming Diffusion Models for Audio-Driven Co-Speech Gesture Generation**](https://arxiv.org/abs/2303.09119).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gesture-generation"
+    }
+  ]
+}

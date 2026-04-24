@@ -1,0 +1,83 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "DanilaMihailov/beacon.nvim",
+      "target": "malabarba/beacon",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "DanilaMihailov/beacon.nvim",
+      "target": "inside/vim-search-pulse",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DanilaMihailov/beacon.nvim",
+      "target": "neovim",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DanilaMihailov/beacon.nvim",
+      "target": "neovim-plugin",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T00:38:33.804103+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1806
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Whenever cursor jumps some distance or moves between windows, it will flash so you can see where it is",
+    "fork": false,
+    "full_name": "DanilaMihailov/beacon.nvim",
+    "html_url": "https://github.com/DanilaMihailov/beacon.nvim",
+    "language": "Lua",
+    "pushed_at": "2024-06-25T06:03:46Z",
+    "stargazers_count": 631,
+    "topics": [
+      "neovim",
+      "neovim-plugin"
+    ],
+    "updated_at": "2026-04-22T13:46:16Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "inside/vim-search-pulse",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "malabarba/beacon",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Highlight cursor when it moves, changes windows and more!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neovim"
+    },
+    {
+      "context_snippet": "Highlight cursor when it moves, changes windows and more!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neovim-plugin"
+    }
+  ]
+}

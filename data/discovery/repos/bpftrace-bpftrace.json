@@ -1,0 +1,638 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/binary.yml"
+    },
+    {
+      "component": "DeterminateSystems/nix-installer-action@v17",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/binary.yml"
+    },
+    {
+      "component": "DeterminateSystems/flakehub-cache-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/binary.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/binary.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bpftrace-tidy.yml"
+    },
+    {
+      "component": "DeterminateSystems/nix-installer-action@v17",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bpftrace-tidy.yml"
+    },
+    {
+      "component": "DeterminateSystems/flakehub-cache-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bpftrace-tidy.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "DeterminateSystems/nix-installer-action@v17",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "DeterminateSystems/flakehub-cache-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "DeterminateSystems/nix-installer-action@v17",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "DeterminateSystems/flakehub-cache-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clang-tidy.yml"
+    },
+    {
+      "component": "DeterminateSystems/nix-installer-action@v17",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clang-tidy.yml"
+    },
+    {
+      "component": "DeterminateSystems/flakehub-cache-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clang-tidy.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "DeterminateSystems/nix-installer-action@v17",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "DeterminateSystems/flakehub-cache-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/init@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/autobuild@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/distros.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/flakehub.yml"
+    },
+    {
+      "component": "DeterminateSystems/nix-installer-action@v17",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/flakehub.yml"
+    },
+    {
+      "component": "DeterminateSystems/flakehub-cache-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/flakehub.yml"
+    },
+    {
+      "component": "DeterminateSystems/flakehub-push@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/flakehub.yml"
+    },
+    {
+      "component": "github-community-projects/issue-metrics@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue-metrics.yml"
+    },
+    {
+      "component": "github-community-projects/issue-metrics@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue-metrics.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "DeterminateSystems/nix-installer-action@v17",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "DeterminateSystems/flakehub-cache-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bpftrace/bpftrace",
+      "target": "libbpf/libbpf",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bpftrace/bpftrace",
+      "target": "bpftrace/user-tools",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/binary.yml",
+      "source_repo": "bpftrace/bpftrace",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/binary.yml",
+      "source_repo": "bpftrace/bpftrace",
+      "target": "DeterminateSystems/nix-installer-action@v17",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/binary.yml",
+      "source_repo": "bpftrace/bpftrace",
+      "target": "DeterminateSystems/flakehub-cache-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/binary.yml",
+      "source_repo": "bpftrace/bpftrace",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/binary.yml",
+      "source_repo": "bpftrace/bpftrace",
+      "target": "Binary",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bpftrace-tidy.yml",
+      "source_repo": "bpftrace/bpftrace",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bpftrace-tidy.yml",
+      "source_repo": "bpftrace/bpftrace",
+      "target": "DeterminateSystems/nix-installer-action@v17",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bpftrace-tidy.yml",
+      "source_repo": "bpftrace/bpftrace",
+      "target": "DeterminateSystems/flakehub-cache-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bpftrace-tidy.yml",
+      "source_repo": "bpftrace/bpftrace",
+      "target": "Bpftrace Tidy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "bpftrace/bpftrace",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "bpftrace/bpftrace",
+      "target": "DeterminateSystems/nix-installer-action@v17",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "bpftrace/bpftrace",
+      "target": "DeterminateSystems/flakehub-cache-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clang-tidy.yml",
+      "source_repo": "bpftrace/bpftrace",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clang-tidy.yml",
+      "source_repo": "bpftrace/bpftrace",
+      "target": "DeterminateSystems/nix-installer-action@v17",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clang-tidy.yml",
+      "source_repo": "bpftrace/bpftrace",
+      "target": "DeterminateSystems/flakehub-cache-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/clang-tidy.yml",
+      "source_repo": "bpftrace/bpftrace",
+      "target": "Clang Tidy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "bpftrace/bpftrace",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "bpftrace/bpftrace",
+      "target": "DeterminateSystems/nix-installer-action@v17",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "bpftrace/bpftrace",
+      "target": "DeterminateSystems/flakehub-cache-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "bpftrace/bpftrace",
+      "target": "github/codeql-action/init@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "bpftrace/bpftrace",
+      "target": "github/codeql-action/autobuild@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "bpftrace/bpftrace",
+      "target": "github/codeql-action/analyze@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "bpftrace/bpftrace",
+      "target": "CodeQL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/distros.yml",
+      "source_repo": "bpftrace/bpftrace",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/distros.yml",
+      "source_repo": "bpftrace/bpftrace",
+      "target": "Distros",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/flakehub.yml",
+      "source_repo": "bpftrace/bpftrace",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/flakehub.yml",
+      "source_repo": "bpftrace/bpftrace",
+      "target": "DeterminateSystems/nix-installer-action@v17",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/flakehub.yml",
+      "source_repo": "bpftrace/bpftrace",
+      "target": "DeterminateSystems/flakehub-cache-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/flakehub.yml",
+      "source_repo": "bpftrace/bpftrace",
+      "target": "DeterminateSystems/flakehub-push@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/flakehub.yml",
+      "source_repo": "bpftrace/bpftrace",
+      "target": "Flakehub",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue-metrics.yml",
+      "source_repo": "bpftrace/bpftrace",
+      "target": "github-community-projects/issue-metrics@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issue-metrics.yml",
+      "source_repo": "bpftrace/bpftrace",
+      "target": "Generate Issue and PR Metrics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "bpftrace/bpftrace",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "bpftrace/bpftrace",
+      "target": "DeterminateSystems/nix-installer-action@v17",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "bpftrace/bpftrace",
+      "target": "DeterminateSystems/flakehub-cache-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "bpftrace/bpftrace",
+      "target": "Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bpftrace/bpftrace",
+      "target": "ebpf",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bpftrace/bpftrace",
+      "target": "kprobes",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bpftrace/bpftrace",
+      "target": "tracepoints",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bpftrace/bpftrace",
+      "target": "tracing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bpftrace/bpftrace",
+      "target": "uprobes",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bpftrace/bpftrace",
+      "target": "usdt",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T00:47:57.129320+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8455
+    },
+    {
+      "path": ".github/workflows/binary.yml",
+      "size": 1193
+    },
+    {
+      "path": ".github/workflows/bpftrace-tidy.yml",
+      "size": 731
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 3714
+    },
+    {
+      "path": ".github/workflows/clang-tidy.yml",
+      "size": 722
+    },
+    {
+      "path": ".github/workflows/codeql.yml",
+      "size": 1727
+    },
+    {
+      "path": ".github/workflows/distros.yml",
+      "size": 669
+    },
+    {
+      "path": ".github/workflows/flakehub.yml",
+      "size": 883
+    },
+    {
+      "path": ".github/workflows/issue-metrics.yml",
+      "size": 1933
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 826
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "High-level tracing language for Linux",
+    "fork": false,
+    "full_name": "bpftrace/bpftrace",
+    "html_url": "https://github.com/bpftrace/bpftrace",
+    "language": "C++",
+    "pushed_at": "2026-04-23T20:51:05Z",
+    "stargazers_count": 10069,
+    "topics": [
+      "bcc",
+      "bpf",
+      "ebpf",
+      "kprobes",
+      "tracepoints",
+      "tracing",
+      "uprobes",
+      "usdt"
+    ],
+    "updated_at": "2026-04-23T20:56:01Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bpftrace/user-tools",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "libbpf/libbpf",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Binary",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/binary.yml",
+      "term": "Binary"
+    },
+    {
+      "context_snippet": "\"Bpftrace Tidy\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bpftrace-tidy.yml",
+      "term": "Bpftrace Tidy"
+    },
+    {
+      "context_snippet": "\"Clang Tidy\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/clang-tidy.yml",
+      "term": "Clang Tidy"
+    },
+    {
+      "context_snippet": "\"CodeQL\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "term": "CodeQL"
+    },
+    {
+      "context_snippet": "Distros",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/distros.yml",
+      "term": "Distros"
+    },
+    {
+      "context_snippet": "Flakehub",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/flakehub.yml",
+      "term": "Flakehub"
+    },
+    {
+      "context_snippet": "Generate Issue and PR Metrics",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issue-metrics.yml",
+      "term": "Generate Issue and PR Metrics"
+    },
+    {
+      "context_snippet": "Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Release"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ebpf"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kprobes"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tracepoints"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tracing"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "uprobes"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "usdt"
+    }
+  ]
+}

@@ -19,6 +19,18 @@
       "source_repo": "vibhorkum/pg_background",
       "status": "candidate-context",
       "text": "[![PostgreSQL](https://img.shields.io/badge/PostgreSQL-14--18-blue.svg)](https://www.postgresql.org/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "CrystallineCore/Biscuit",
+      "status": "candidate-context",
+      "text": "Biscuit \u2013 a high-performance, deterministic index for PostgreSQL that ensures accurate lookups without additional validation."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CrystallineCore/Biscuit",
+      "status": "candidate-context",
+      "text": "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "vibhorkum/pg_background",
       "status": "candidate",
       "text": "[![PostgreSQL](https://img.shields.io/badge/PostgreSQL-14--18-blue.svg)](https://www.postgresql.org/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CrystallineCore/Biscuit",
+      "status": "candidate",
+      "text": "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-21T18:51:25.552552+00:00",
       "source_file": null,
       "source_repo": "vibhorkum/pg_background"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "CrystallineCore/Biscuit"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

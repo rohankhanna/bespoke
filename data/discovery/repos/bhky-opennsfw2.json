@@ -1,0 +1,167 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-python@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bhky/opennsfw2",
+      "target": "yahoo/open_nsfw",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bhky/opennsfw2",
+      "target": "mdietrichstein/tensorflow-open_nsfw",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "bhky/opennsfw2",
+      "target": "actions/checkout@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "bhky/opennsfw2",
+      "target": "actions/setup-python@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bhky/opennsfw2",
+      "target": "image-classification",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bhky/opennsfw2",
+      "target": "image-preprocessing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bhky/opennsfw2",
+      "target": "keras",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bhky/opennsfw2",
+      "target": "nsfw-classifier",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bhky/opennsfw2",
+      "target": "tensorflow2",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T02:02:14.309620+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11254
+    },
+    {
+      "path": "Dockerfile",
+      "size": 1135
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 103
+    },
+    {
+      "path": "requirements.txt",
+      "size": 126
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 903
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Keras implementation of the Yahoo Open-NSFW model",
+    "fork": false,
+    "full_name": "bhky/opennsfw2",
+    "html_url": "https://github.com/bhky/opennsfw2",
+    "language": "Python",
+    "pushed_at": "2025-11-02T09:35:22Z",
+    "stargazers_count": 488,
+    "topics": [
+      "image-classification",
+      "image-preprocessing",
+      "jax",
+      "keras",
+      "nsfw-classifier",
+      "tensorflow2"
+    ],
+    "updated_at": "2026-04-23T12:08:03Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mdietrichstein/tensorflow-open_nsfw",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "yahoo/open_nsfw",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "![logo](logo/opennsfw2_logo.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-classification"
+    },
+    {
+      "context_snippet": "![logo](logo/opennsfw2_logo.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-preprocessing"
+    },
+    {
+      "context_snippet": "![logo](logo/opennsfw2_logo.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "keras"
+    },
+    {
+      "context_snippet": "![logo](logo/opennsfw2_logo.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nsfw-classifier"
+    },
+    {
+      "context_snippet": "![logo](logo/opennsfw2_logo.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tensorflow2"
+    }
+  ]
+}

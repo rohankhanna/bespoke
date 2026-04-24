@@ -1,0 +1,122 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cigar666/my_manim_projects",
+      "target": "cigar666/manim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cigar666/my_manim_projects",
+      "target": "cai-hust/manim-tutorial-cn",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cigar666/my_manim_projects",
+      "target": "tony031218/manim_projects",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cigar666/my_manim_projects",
+      "target": "pdcxs/manimprojects",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cigar666/my_manim_projects",
+      "target": "animtion",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cigar666/my_manim_projects",
+      "target": "bilibili",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cigar666/my_manim_projects",
+      "target": "manim",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T02:03:46.606106+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3941
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "some of my manim projects",
+    "fork": false,
+    "full_name": "cigar666/my_manim_projects",
+    "html_url": "https://github.com/cigar666/my_manim_projects",
+    "language": "Python",
+    "pushed_at": "2022-04-22T13:07:21Z",
+    "stargazers_count": 254,
+    "topics": [
+      "animtion",
+      "bilibili",
+      "manim",
+      "python"
+    ],
+    "updated_at": "2026-04-05T05:20:29Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cai-hust/manim-tutorial-cn",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cigar666/manim",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pdcxs/manimprojects",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tony031218/manim_projects",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "\u5173\u4e8emy_manim_projects",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "animtion"
+    },
+    {
+      "context_snippet": "\u5173\u4e8emy_manim_projects",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bilibili"
+    },
+    {
+      "context_snippet": "\u5173\u4e8emy_manim_projects",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "manim"
+    }
+  ]
+}

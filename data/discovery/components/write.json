@@ -1,7 +1,7 @@
 {
   "component": "write",
   "first_seen_at": "2026-04-18T03:42:01.586113+00:00",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -492,6 +492,41 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/codeql.yml",
       "source_repo": "aws/aws-sam-cli"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/_reusable-set-check-status.yaml",
+      "source_repo": "Azure/azure-rest-api-specs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "nodenv/node-build-update-defs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "nodenv/homebrew-nodenv"
+    },
+    {
+      "discovered_via": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "jonschlinkert/kind-of"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cla.yml",
+      "source_repo": "SpecterOps/SharpHoundCommon"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/create_test_report.yml",
+      "source_repo": "microsoft/playwright"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/semantic.yml",
+      "source_repo": "electron/windows-sign"
     }
   ]
 }

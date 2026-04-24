@@ -1,0 +1,76 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/style-check.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/style-check.yml"
+    },
+    {
+      "component": "JohnnyMorganz/stylua-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/style-check.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/style-check.yml",
+      "source_repo": "theHamsta/nvim-dap-virtual-text",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/style-check.yml",
+      "source_repo": "theHamsta/nvim-dap-virtual-text",
+      "target": "JohnnyMorganz/stylua-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/style-check.yml",
+      "source_repo": "theHamsta/nvim-dap-virtual-text",
+      "target": "Linting and style checking",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T01:44:46.091293+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6222
+    },
+    {
+      "path": ".github/workflows/style-check.yml",
+      "size": 712
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "theHamsta/nvim-dap-virtual-text",
+    "html_url": "https://github.com/theHamsta/nvim-dap-virtual-text",
+    "language": "Lua",
+    "pushed_at": "2025-05-25T14:05:18Z",
+    "stargazers_count": 1069,
+    "topics": [],
+    "updated_at": "2026-04-23T01:41:42Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Linting and style checking",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/style-check.yml",
+      "term": "Linting and style checking"
+    }
+  ]
+}

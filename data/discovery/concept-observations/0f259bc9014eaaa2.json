@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Common library used by SharpHound. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Publish Dev Package"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Publish Dev Package"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22432,
+      "status": "candidate",
+      "text": "open"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22399,
+      "status": "candidate",
+      "text": "close"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22399,
+      "status": "candidate",
+      "text": "pave"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22399,
+      "status": "candidate",
+      "text": "pioneer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22399,
+      "status": "candidate",
+      "text": "question"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Publish Dev Package",
+      "sense_id": "publish-dev-package#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "publish-dev-package",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "publish-dev-package",
+  "observation_id": "0f259bc9014eaaa2",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-24T00:33:56.049672+00:00",
+  "observed_text": "Publish Dev Package",
+  "source_context_snippet": "Publish Dev Package",
+  "source_file": ".github/workflows/publish-dev-package.yml",
+  "source_repo": "SpecterOps/SharpHoundCommon",
+  "source_repo_description": "Common library used by SharpHound. "
+}

@@ -55,6 +55,30 @@
       "source_repo": "CannyLab/tsne-cuda",
       "status": "candidate-context",
       "text": "![GitHub release (latest by date)](https://img.shields.io/github/v/release/CannyLab/tsne-cuda)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bshoshany/thread-pool",
+      "status": "candidate-context",
+      "text": "BS::thread_pool: a fast, lightweight, modern, and easy-to-use C++17 / C++20 / C++23 thread pool library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bshoshany/thread-pool",
+      "status": "candidate-context",
+      "text": "[![Author: Barak Shoshany](https://img.shields.io/badge/author-Barak_Shoshany-009933)](https://baraksh.com/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "actix/actix-net",
+      "status": "candidate-context",
+      "text": "A collection of lower-level libraries for composable network services."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "actix/actix-net",
+      "status": "candidate-context",
+      "text": "> A collection of lower-level libraries for composable network services."
     }
   ],
   "candidate_glosses": [
@@ -81,6 +105,18 @@
       "source_repo": "CannyLab/tsne-cuda",
       "status": "candidate",
       "text": "![GitHub release (latest by date)](https://img.shields.io/github/v/release/CannyLab/tsne-cuda)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bshoshany/thread-pool",
+      "status": "candidate",
+      "text": "[![Author: Barak Shoshany](https://img.shields.io/badge/author-Barak_Shoshany-009933)](https://baraksh.com/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "actix/actix-net",
+      "status": "candidate",
+      "text": "> A collection of lower-level libraries for composable network services."
     }
   ],
   "candidate_related_terms": [
@@ -148,11 +184,29 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "CannyLab/tsne-cuda"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "ashvardanian/ForkUnion"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "bshoshany/thread-pool"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "actix/actix-net"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

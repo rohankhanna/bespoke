@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Clang Tests"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "valida-xyz/valida-compiler",
+      "status": "candidate-context",
+      "text": "Old, obsolete version of the Valida compiler; its replacement will become public later"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "valida-xyz/valida-compiler",
+      "status": "candidate-context",
+      "text": "Clang Tests"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "valida-xyz/valida-compiler",
+      "status": "candidate",
+      "text": "Clang Tests"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11092,
+      "status": "candidate",
+      "text": "clash"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10938,
+      "status": "candidate",
+      "text": "rhythm"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10828,
+      "status": "candidate",
+      "text": "dummy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10828,
+      "status": "candidate",
+      "text": "kamikaze"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10828,
+      "status": "candidate",
+      "text": "wipeout"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Clang Tests",
+  "concept_id": "clang-tests",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/clang-tests.yml",
+      "source_repo": "valida-xyz/valida-compiler"
+    }
+  ],
+  "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Clang Tests",
+      "sense_id": "clang-tests#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

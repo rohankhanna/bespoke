@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Nimbus: an Ethereum Execution Client for Resource-Restricted Devices"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Nightly build"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Nightly build"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13983,
+      "status": "candidate",
+      "text": "snore"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13942,
+      "status": "candidate",
+      "text": "eleven"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13942,
+      "status": "candidate",
+      "text": "news"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13942,
+      "status": "candidate",
+      "text": "taps"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12881,
+      "status": "candidate",
+      "text": "dream"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Nightly build",
+      "sense_id": "nightly-build#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "nightly-build",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "nightly-build",
+  "observation_id": "624574e696b420c8",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-24T00:33:56.049672+00:00",
+  "observed_text": "Nightly build",
+  "source_context_snippet": "Nightly build",
+  "source_file": ".github/workflows/nightly_build.yml",
+  "source_repo": "status-im/nimbus-eth1",
+  "source_repo_description": "Nimbus: an Ethereum Execution Client for Resource-Restricted Devices"
+}

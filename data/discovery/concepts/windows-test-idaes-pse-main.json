@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Windows Test IDAES-PSE Main"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "IDAES/idaes-ext",
+      "status": "candidate-context",
+      "text": "IDAES developer repo for those building the idaes binary solvers and related tools."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "IDAES/idaes-ext",
+      "status": "candidate-context",
+      "text": "Windows Test IDAES-PSE Main"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "IDAES/idaes-ext",
+      "status": "candidate",
+      "text": "Windows Test IDAES-PSE Main"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27103,
+      "status": "candidate",
+      "text": "wav"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19505,
+      "status": "candidate",
+      "text": "background"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18857,
+      "status": "candidate",
+      "text": "desktop"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18823,
+      "status": "candidate",
+      "text": "fenestral"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18788,
+      "status": "candidate",
+      "text": "gates"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Windows Test IDAES-PSE Main",
+  "concept_id": "windows-test-idaes-pse-main",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/test_windows_main.yml",
+      "source_repo": "IDAES/idaes-ext"
+    }
+  ],
+  "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Windows Test IDAES-PSE Main",
+      "sense_id": "windows-test-idaes-pse-main#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

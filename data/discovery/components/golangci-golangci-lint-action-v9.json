@@ -1,7 +1,7 @@
 {
   "component": "golangci/golangci-lint-action@v9",
   "first_seen_at": "2026-04-18T03:42:01.586113+00:00",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -197,6 +197,21 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/golangci-lint.yml",
       "source_repo": "anacrolix/torrent"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-test.yml",
+      "source_repo": "alexkohler/prealloc"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/golangci-lint.yml",
+      "source_repo": "uptrace/uptrace"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "cloudfoundry/gosigar"
     }
   ]
 }

@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Status, process, and documents for ECMA 402"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "'ecma-402-biblio'"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "'ecma-402-biblio'"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "ecma-402-biblio",
+      "sense_id": "ecma-402-biblio#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "ecma-402-biblio",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "ecma-402-biblio",
+  "observation_id": "53d5dcbd831ba63a",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-24T00:33:56.049672+00:00",
+  "observed_text": "ecma-402-biblio",
+  "source_context_snippet": "'ecma-402-biblio'",
+  "source_file": ".github/workflows/publish-biblio.yml",
+  "source_repo": "tc39/ecma402",
+  "source_repo_description": "Status, process, and documents for ECMA 402"
+}

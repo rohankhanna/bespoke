@@ -1,0 +1,173 @@
+{
+  "components": [
+    {
+      "component": "swiftlang/github-workflows/.github/workflows/create_automerge_pr.yml@0.0.9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/automerge.yml"
+    },
+    {
+      "component": "swiftlang/github-workflows/.github/workflows/swift_package_test.yml@0.0.9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_release.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_release.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_release.yml"
+    },
+    {
+      "component": "swiftlang/github-workflows/.github/workflows/swift_package_test.yml@0.0.9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull_request.yml"
+    },
+    {
+      "component": "swiftlang/github-workflows/.github/workflows/soundness.yml@0.0.9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull_request.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull_request.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull_request.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull_request.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull_request.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "swiftlang/swift-syntax",
+      "target": "apple/swift-syntax",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/automerge.yml",
+      "source_repo": "swiftlang/swift-syntax",
+      "target": "swiftlang/github-workflows/.github/workflows/create_automerge_pr.yml@0.0.9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_release.yml",
+      "source_repo": "swiftlang/swift-syntax",
+      "target": "swiftlang/github-workflows/.github/workflows/swift_package_test.yml@0.0.9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_release.yml",
+      "source_repo": "swiftlang/swift-syntax",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish_release.yml",
+      "source_repo": "swiftlang/swift-syntax",
+      "target": "Publish Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull_request.yml",
+      "source_repo": "swiftlang/swift-syntax",
+      "target": "swiftlang/github-workflows/.github/workflows/swift_package_test.yml@0.0.9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull_request.yml",
+      "source_repo": "swiftlang/swift-syntax",
+      "target": "swiftlang/github-workflows/.github/workflows/soundness.yml@0.0.9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull_request.yml",
+      "source_repo": "swiftlang/swift-syntax",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pull_request.yml",
+      "source_repo": "swiftlang/swift-syntax",
+      "target": "Pull request",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T00:34:42.267481+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3186
+    },
+    {
+      "path": ".github/workflows/automerge.yml",
+      "size": 1122
+    },
+    {
+      "path": ".github/workflows/publish_release.yml",
+      "size": 3642
+    },
+    {
+      "path": ".github/workflows/pull_request.yml",
+      "size": 3858
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A set of Swift libraries for parsing, inspecting, generating, and transforming Swift source code.",
+    "fork": false,
+    "full_name": "swiftlang/swift-syntax",
+    "html_url": "https://github.com/swiftlang/swift-syntax",
+    "language": "Swift",
+    "pushed_at": "2026-04-22T08:40:25Z",
+    "stargazers_count": 3629,
+    "topics": [],
+    "updated_at": "2026-04-23T19:16:02Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "apple/swift-syntax",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Publish Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish_release.yml",
+      "term": "Publish Release"
+    },
+    {
+      "context_snippet": "Pull request",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pull_request.yml",
+      "term": "Pull request"
+    }
+  ]
+}

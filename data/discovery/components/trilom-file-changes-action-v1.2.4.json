@@ -1,12 +1,17 @@
 {
   "component": "trilom/file-changes-action@v1.2.4",
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/code-quality-pr.yaml",
       "source_repo": "ashleve/lightning-hydra-template"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/code-quality-pr.yaml",
+      "source_repo": "jxpress/lightning-hydra-template-vertex-ai"
     }
   ]
 }

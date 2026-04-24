@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "The easiest way to install and switch between multiple versions of Xcode - with a mouse click. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<h1><img src=\"icon.png\" align=\"center\" width=50 height=50 /> <img src=\"IconDark.png\" align=\"center\" width=50 height=50 /> <img src=\"IconMono.png\" align=\"center\" width=50 height=50 /> Xcodes.app</h1>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<h1><img src=\"icon.png\" align=\"center\" width=50 height=50 /> <img src=\"IconDark.png\" align=\"center\" width=50 height=50 /> <img src=\"IconMono.png\" align=\"center\" width=50 height=50 /> Xcodes.app</h1>"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "xcode",
+      "sense_id": "xcode#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "xcode",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "xcode",
+  "observation_id": "51a71c51ac085d46",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T00:33:56.049672+00:00",
+  "observed_text": "xcode",
+  "source_context_snippet": "<h1><img src=\"icon.png\" align=\"center\" width=50 height=50 /> <img src=\"IconDark.png\" align=\"center\" width=50 height=50 /> <img src=\"IconMono.png\" align=\"center\" width=50 height=50 /> Xcodes.app</h1>",
+  "source_file": null,
+  "source_repo": "XcodesOrg/XcodesApp",
+  "source_repo_description": "The easiest way to install and switch between multiple versions of Xcode - with a mouse click. "
+}

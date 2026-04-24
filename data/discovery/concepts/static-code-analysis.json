@@ -238,6 +238,54 @@
       "source_repo": "python-lsp/python-lsp-server",
       "status": "candidate-context",
       "text": "Static code analysis"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alexkohler/nakedret",
+      "status": "candidate-context",
+      "text": "nakedret is a Go static analysis tool to find naked returns in functions greater than a specified function length."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alexkohler/nakedret",
+      "status": "candidate-context",
+      "text": "nakedret is a Go static analysis tool to find naked returns in functions greater than a specified function length."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alexkohler/prealloc",
+      "status": "candidate-context",
+      "text": "prealloc is a Go static analysis tool to find slice declarations that could potentially be preallocated."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alexkohler/prealloc",
+      "status": "candidate-context",
+      "text": "prealloc is a Go static analysis tool to find slice declarations that could potentially be preallocated."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vuejs/vue-eslint-parser",
+      "status": "candidate-context",
+      "text": "The ESLint custom parser for `.vue` files."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vuejs/vue-eslint-parser",
+      "status": "candidate-context",
+      "text": "[![npm version](https://img.shields.io/npm/v/vue-eslint-parser.svg)](https://www.npmjs.com/package/vue-eslint-parser)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pylint-dev/astroid",
+      "status": "candidate-context",
+      "text": "A common base representation of python source code for pylint and other projects"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pylint-dev/astroid",
+      "status": "candidate-context",
+      "text": "Astroid"
     }
   ],
   "candidate_glosses": [
@@ -354,6 +402,30 @@
       "source_repo": "python-lsp/python-lsp-server",
       "status": "candidate",
       "text": "Static code analysis"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alexkohler/nakedret",
+      "status": "candidate",
+      "text": "nakedret is a Go static analysis tool to find naked returns in functions greater than a specified function length."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alexkohler/prealloc",
+      "status": "candidate",
+      "text": "prealloc is a Go static analysis tool to find slice declarations that could potentially be preallocated."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vuejs/vue-eslint-parser",
+      "status": "candidate",
+      "text": "[![npm version](https://img.shields.io/npm/v/vue-eslint-parser.svg)](https://www.npmjs.com/package/vue-eslint-parser)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pylint-dev/astroid",
+      "status": "candidate",
+      "text": "Astroid"
     }
   ],
   "candidate_related_terms": [
@@ -547,11 +619,53 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "standard/standard"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "eslint/eslint"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "astral-sh/ruff"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "alexkohler/nakedret"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "alexkohler/prealloc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "vuejs/vue-eslint-parser"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "standard/standard"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "pylint-dev/astroid"
     }
   ],
   "first_seen_at": "2026-04-18T12:46:59.510459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

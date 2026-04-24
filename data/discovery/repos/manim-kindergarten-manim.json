@@ -1,0 +1,149 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml"
+    },
+    {
+      "component": "dmnemec/copy_file_to_another_repo_action@3fe42250d47e0764da9de9939b151b09a26e5857",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml"
+    },
+    {
+      "component": "JamesIves/github-pages-deploy-action@3.7.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "manim-kindergarten/manim",
+      "target": "actions/checkout@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "manim-kindergarten/manim",
+      "target": "dmnemec/copy_file_to_another_repo_action@3fe42250d47e0764da9de9939b151b09a26e5857",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "manim-kindergarten/manim",
+      "target": "JamesIves/github-pages-deploy-action@3.7.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "manim-kindergarten/manim",
+      "target": "docs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "manim-kindergarten/manim",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "manim-kindergarten/manim",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "manim-kindergarten/manim",
+      "target": "manim",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "manim-kindergarten/manim",
+      "target": "manim-kindergarten",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T02:03:48.526323+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 515
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 49
+    },
+    {
+      "path": "requirements.txt",
+      "size": 231
+    },
+    {
+      "path": ".github/workflows/docs.yml",
+      "size": 1393
+    },
+    {
+      "path": ".github/workflows/publish.yml",
+      "size": 783
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "manim repository to generate Chinese document",
+    "fork": true,
+    "full_name": "manim-kindergarten/manim",
+    "html_url": "https://github.com/manim-kindergarten/manim",
+    "language": "Python",
+    "pushed_at": "2024-07-22T14:42:29Z",
+    "stargazers_count": 119,
+    "topics": [
+      "manim",
+      "manim-kindergarten",
+      "python"
+    ],
+    "updated_at": "2026-03-23T11:51:54Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "docs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs.yml",
+      "term": "docs"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "manim"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "manim-kindergarten"
+    }
+  ]
+}

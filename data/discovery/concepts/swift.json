@@ -334,6 +334,138 @@
       "source_repo": "sindresorhus/Gifski",
       "status": "candidate-context",
       "text": "\ud83c\udf08 Convert videos to high-quality GIFs on your Mac"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "SwiftGen/SwiftGen",
+      "status": "candidate-context",
+      "text": "The Swift code generator for your assets, storyboards, Localizable.strings, \u2026 \u2014 Get rid of all String-based APIs!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SwiftGen/SwiftGen",
+      "status": "candidate-context",
+      "text": "[![CocoaPods Compatible](https://img.shields.io/cocoapods/v/SwiftGen.svg)](https://img.shields.io/cocoapods/v/SwiftGen.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Alamofire/Alamofire",
+      "status": "candidate-context",
+      "text": "Elegant HTTP Networking in Swift"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Alamofire/Alamofire",
+      "status": "candidate-context",
+      "text": "![Alamofire: Elegant Networking in Swift](https://raw.githubusercontent.com/Alamofire/Alamofire/master/Resources/AlamofireLogo.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "artemnovichkov/Carting",
+      "status": "candidate-context",
+      "text": "\ud83d\ude98 A simple tool for updating Carthage script phase"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "artemnovichkov/Carting",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ChargePoint/xcparse",
+      "status": "candidate-context",
+      "text": "Command line tool & Swift framework for parsing Xcode 11+ xcresult"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ChargePoint/xcparse",
+      "status": "candidate-context",
+      "text": "A command line tool to extract code coverage & screenshots from Xcode 11 XCResult files."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "connectrpc/connect-swift",
+      "status": "candidate-context",
+      "text": "The Swift implementation of Connect: Protobuf RPC that works."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "connectrpc/connect-swift",
+      "status": "candidate-context",
+      "text": "Connect-Swift"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "objectbox/objectbox-swift-spm",
+      "status": "candidate-context",
+      "text": "Hosts the ObjectBox Swift package"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "objectbox/objectbox-swift-spm",
+      "status": "candidate-context",
+      "text": "**Visit the \u27a1\ufe0f [Get Started with ObjectBox Swift](https://swift.objectbox.io/getting-started) page to see how to use this Swift package.**"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apollographql/apollo-tooling",
+      "status": "candidate-context",
+      "text": "\u270f\ufe0f Apollo CLI for client tooling (Mostly replaced by Rover)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apollographql/apollo-tooling",
+      "status": "candidate-context",
+      "text": "[![GitHub license](https://img.shields.io/badge/license-MIT-lightgrey.svg?maxAge=2592000)](https://raw.githubusercontent.com/apollographql/apollo-tooling/master/LICENSE) [![npm](https://img.shields.io/npm/v/apollo.svg)](https://www.npmjs.com/package/apollo) [![Get on Slack](http\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "swiftlang/swift-llbuild",
+      "status": "candidate-context",
+      "text": "A low-level build system, used by Xcode and the Swift Package Manager"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "swiftlang/swift-llbuild",
+      "status": "candidate-context",
+      "text": "llbuild"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "XcodesOrg/XcodesApp",
+      "status": "candidate-context",
+      "text": "The easiest way to install and switch between multiple versions of Xcode - with a mouse click. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "XcodesOrg/XcodesApp",
+      "status": "candidate-context",
+      "text": "<h1><img src=\"icon.png\" align=\"center\" width=50 height=50 /> <img src=\"IconDark.png\" align=\"center\" width=50 height=50 /> <img src=\"IconMono.png\" align=\"center\" width=50 height=50 /> Xcodes.app</h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "attaswift/BigInt",
+      "status": "candidate-context",
+      "text": "Arbitrary-precision arithmetic in pure Swift"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "attaswift/BigInt",
+      "status": "candidate-context",
+      "text": "Swift"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ZipArchive/ZipArchive",
+      "status": "candidate-context",
+      "text": "ZipArchive is a simple utility class for zipping and unzipping files on iOS, macOS and tvOS."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ZipArchive/ZipArchive",
+      "status": "candidate-context",
+      "text": "[![CI](https://github.com/ZipArchive/ZipArchive/workflows/CI/badge.svg)](https://github.com/ZipArchive/ZipArchive/actions?query=workflow%3ACI)"
     }
   ],
   "candidate_glosses": [
@@ -504,6 +636,72 @@
       "source_repo": "sindresorhus/Gifski",
       "status": "candidate",
       "text": "\ud83c\udf08 Convert videos to high-quality GIFs on your Mac"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SwiftGen/SwiftGen",
+      "status": "candidate",
+      "text": "[![CocoaPods Compatible](https://img.shields.io/cocoapods/v/SwiftGen.svg)](https://img.shields.io/cocoapods/v/SwiftGen.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Alamofire/Alamofire",
+      "status": "candidate",
+      "text": "![Alamofire: Elegant Networking in Swift](https://raw.githubusercontent.com/Alamofire/Alamofire/master/Resources/AlamofireLogo.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "artemnovichkov/Carting",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ChargePoint/xcparse",
+      "status": "candidate",
+      "text": "A command line tool to extract code coverage & screenshots from Xcode 11 XCResult files."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "connectrpc/connect-swift",
+      "status": "candidate",
+      "text": "Connect-Swift"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "objectbox/objectbox-swift-spm",
+      "status": "candidate",
+      "text": "**Visit the \u27a1\ufe0f [Get Started with ObjectBox Swift](https://swift.objectbox.io/getting-started) page to see how to use this Swift package.**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apollographql/apollo-tooling",
+      "status": "candidate",
+      "text": "[![GitHub license](https://img.shields.io/badge/license-MIT-lightgrey.svg?maxAge=2592000)](https://raw.githubusercontent.com/apollographql/apollo-tooling/master/LICENSE) [![npm](https://img.shields.io/npm/v/apollo.svg)](https://www.npmjs.com/package/apollo) [![Get on Slack](http\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "swiftlang/swift-llbuild",
+      "status": "candidate",
+      "text": "llbuild"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "XcodesOrg/XcodesApp",
+      "status": "candidate",
+      "text": "<h1><img src=\"icon.png\" align=\"center\" width=50 height=50 /> <img src=\"IconDark.png\" align=\"center\" width=50 height=50 /> <img src=\"IconMono.png\" align=\"center\" width=50 height=50 /> Xcodes.app</h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "attaswift/BigInt",
+      "status": "candidate",
+      "text": "Swift"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ZipArchive/ZipArchive",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/ZipArchive/ZipArchive/workflows/CI/badge.svg)](https://github.com/ZipArchive/ZipArchive/actions?query=workflow%3ACI)"
     }
   ],
   "candidate_related_terms": [
@@ -769,11 +967,95 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": ".github/workflows/swift.yml",
       "source_repo": "ggerganov/whisper.spm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "SwiftGen/SwiftGen"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "Alamofire/Alamofire"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "artemnovichkov/Carting"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "ChargePoint/xcparse"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "connectrpc/connect-swift"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "objectbox/objectbox-swift-spm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "apollographql/apollo-tooling"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "swiftlang/swift-llbuild"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "XcodesOrg/XcodesApp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "ashvardanian/NumKong"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/jazzy.yml",
+      "source_repo": "attaswift/BigInt"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/swift.yml",
+      "source_repo": "attaswift/BigInt"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/swift.yml",
+      "source_repo": "ggerganov/whisper.spm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "ZipArchive/ZipArchive"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

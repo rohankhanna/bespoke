@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-24T01:51:09.435198+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3711
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "stable/2.2",
+    "description": "COIN-OR autotools harness to build HSL linear solvers",
+    "fork": false,
+    "full_name": "coin-or-tools/ThirdParty-HSL",
+    "html_url": "https://github.com/coin-or-tools/ThirdParty-HSL",
+    "language": "Shell",
+    "pushed_at": "2025-09-10T07:37:35Z",
+    "stargazers_count": 39,
+    "topics": [],
+    "updated_at": "2026-03-27T13:49:26Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

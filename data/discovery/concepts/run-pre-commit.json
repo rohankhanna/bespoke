@@ -19,12 +19,30 @@
       "source_repo": "Farama-Foundation/Gymnasium",
       "status": "candidate-context",
       "text": "Run pre-commit"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google/yapf",
+      "status": "candidate-context",
+      "text": "A formatter for Python files"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/yapf",
+      "status": "candidate-context",
+      "text": "Run pre-commit"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "Farama-Foundation/Gymnasium",
+      "status": "candidate",
+      "text": "Run pre-commit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/yapf",
       "status": "candidate",
       "text": "Run pre-commit"
     }
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": ".github/workflows/run-pre-commit.yml",
       "source_repo": "Farama-Foundation/Gymnasium"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "google/yapf"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

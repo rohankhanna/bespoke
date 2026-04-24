@@ -56,6 +56,30 @@
       "source_repo": "grpc/grpc-go",
       "status": "candidate-context",
       "text": "codecov"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "op-rs/maili",
+      "status": "candidate-context",
+      "text": "Composable rust types and interfaces specific to the OP Stack. Built on Alloy."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "op-rs/maili",
+      "status": "candidate-context",
+      "text": "Codecov"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Azure/aad-pod-identity",
+      "status": "candidate-context",
+      "text": "[DEPRECATED] Assign Azure Active Directory Identities to Kubernetes applications. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Azure/aad-pod-identity",
+      "status": "candidate-context",
+      "text": "Codecov"
     }
   ],
   "candidate_glosses": [
@@ -82,6 +106,18 @@
       "source_repo": "grpc/grpc-go",
       "status": "candidate",
       "text": "codecov"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "op-rs/maili",
+      "status": "candidate",
+      "text": "Codecov"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Azure/aad-pod-identity",
+      "status": "candidate",
+      "text": "Codecov"
     }
   ],
   "candidate_related_terms": [],
@@ -113,11 +149,23 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": ".github/workflows/coverage.yml",
       "source_repo": "grpc/grpc-go"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "op-rs/maili"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/codecov.yml",
+      "source_repo": "Azure/aad-pod-identity"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

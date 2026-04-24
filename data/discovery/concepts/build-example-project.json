@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Build example project"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lu-zero/cargo-c",
+      "status": "candidate-context",
+      "text": "build and install C-compatible libraries"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lu-zero/cargo-c",
+      "status": "candidate-context",
+      "text": "Build example project"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lu-zero/cargo-c",
+      "status": "candidate",
+      "text": "Build example project"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 35646,
+      "status": "candidate",
+      "text": "throw"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 35485,
+      "status": "candidate",
+      "text": "pyramid"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34425,
+      "status": "candidate",
+      "text": "thought"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33950,
+      "status": "candidate",
+      "text": "screen"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33935,
+      "status": "candidate",
+      "text": "scratch"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Build example project",
+  "concept_id": "build-example-project",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/example-project.yml",
+      "source_repo": "lu-zero/cargo-c"
+    }
+  ],
+  "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build example project",
+      "sense_id": "build-example-project#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -1,0 +1,343 @@
+{
+  "components": [
+    {
+      "component": "benchmarked",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "browserify",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "gulp-format-md",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "mocha",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "write",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jonschlinkert/kind-of",
+      "target": "codingfu/typeof",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jonschlinkert/kind-of",
+      "target": "micromatch/is-glob",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jonschlinkert/kind-of",
+      "target": "jonschlinkert/is-number",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jonschlinkert/kind-of",
+      "target": "jonschlinkert/is-primitive",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "jonschlinkert/kind-of",
+      "target": "benchmarked",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "jonschlinkert/kind-of",
+      "target": "browserify",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "jonschlinkert/kind-of",
+      "target": "gulp-format-md",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "jonschlinkert/kind-of",
+      "target": "mocha",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "jonschlinkert/kind-of",
+      "target": "write",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jonschlinkert/kind-of",
+      "target": "arguments",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jonschlinkert/kind-of",
+      "target": "array",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jonschlinkert/kind-of",
+      "target": "date",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jonschlinkert/kind-of",
+      "target": "iterator",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jonschlinkert/kind-of",
+      "target": "jonschlinkert",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jonschlinkert/kind-of",
+      "target": "kind",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jonschlinkert/kind-of",
+      "target": "node",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jonschlinkert/kind-of",
+      "target": "nodejs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jonschlinkert/kind-of",
+      "target": "object",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jonschlinkert/kind-of",
+      "target": "primitive",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jonschlinkert/kind-of",
+      "target": "regex",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jonschlinkert/kind-of",
+      "target": "string",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jonschlinkert/kind-of",
+      "target": "type",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jonschlinkert/kind-of",
+      "target": "typeof",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T00:46:28.415118+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11618
+    },
+    {
+      "path": "package.json",
+      "size": 1831
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Get the native JavaScript type of a value, fast. Used by superstruct, micromatch and many others!",
+    "fork": false,
+    "full_name": "jonschlinkert/kind-of",
+    "html_url": "https://github.com/jonschlinkert/kind-of",
+    "language": "JavaScript",
+    "pushed_at": "2024-06-12T12:59:53Z",
+    "stargazers_count": 354,
+    "topics": [
+      "arguments",
+      "array",
+      "date",
+      "iterator",
+      "javascript",
+      "jonschlinkert",
+      "kind",
+      "map",
+      "node",
+      "nodejs",
+      "object",
+      "primitive",
+      "regex",
+      "set",
+      "string",
+      "type",
+      "typeof"
+    ],
+    "updated_at": "2026-03-04T04:07:11Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "codingfu/typeof",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jonschlinkert/is-number",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jonschlinkert/is-primitive",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "micromatch/is-glob",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "> Get the native type of a value.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "arguments"
+    },
+    {
+      "context_snippet": "> Get the native type of a value.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "array"
+    },
+    {
+      "context_snippet": "> Get the native type of a value.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "date"
+    },
+    {
+      "context_snippet": "> Get the native type of a value.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "iterator"
+    },
+    {
+      "context_snippet": "> Get the native type of a value.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "jonschlinkert"
+    },
+    {
+      "context_snippet": "> Get the native type of a value.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kind"
+    },
+    {
+      "context_snippet": "> Get the native type of a value.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "node"
+    },
+    {
+      "context_snippet": "> Get the native type of a value.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nodejs"
+    },
+    {
+      "context_snippet": "> Get the native type of a value.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "object"
+    },
+    {
+      "context_snippet": "> Get the native type of a value.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "primitive"
+    },
+    {
+      "context_snippet": "> Get the native type of a value.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "regex"
+    },
+    {
+      "context_snippet": "> Get the native type of a value.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "string"
+    },
+    {
+      "context_snippet": "> Get the native type of a value.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "type"
+    },
+    {
+      "context_snippet": "> Get the native type of a value.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "typeof"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "carrot2/elasticsearch-carrot2",
+      "target": "carrotsearch/elasticsearch-lingo3g",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-24T02:03:09.716057+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7865
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "Carrot2 plugin for ElasticSearch",
+    "fork": false,
+    "full_name": "carrot2/elasticsearch-carrot2",
+    "html_url": "https://github.com/carrot2/elasticsearch-carrot2",
+    "language": "Java",
+    "pushed_at": "2023-01-02T11:22:19Z",
+    "stargazers_count": 294,
+    "topics": [],
+    "updated_at": "2026-02-14T13:46:25Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "carrotsearch/elasticsearch-lingo3g",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

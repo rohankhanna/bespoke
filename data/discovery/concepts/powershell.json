@@ -139,6 +139,18 @@
       "source_repo": "Watfaq/PowerSession",
       "status": "candidate-context",
       "text": "> Record a Session in PowerShell."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "matthewjberger/scoop-nerd-fonts",
+      "status": "candidate-context",
+      "text": "A scoop bucket for installing nerd fonts"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "matthewjberger/scoop-nerd-fonts",
+      "status": "candidate-context",
+      "text": "This repo contains manifests for installing [Nerd Fonts](https://github.com/ryanoasis/nerd-fonts) and various other fonts using the [scoop package manager](https://github.com/lukesampson/scoop) for Windows."
     }
   ],
   "candidate_glosses": [
@@ -207,6 +219,12 @@
       "source_repo": "Watfaq/PowerSession",
       "status": "candidate",
       "text": "> Record a Session in PowerShell."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "matthewjberger/scoop-nerd-fonts",
+      "status": "candidate",
+      "text": "This repo contains manifests for installing [Nerd Fonts](https://github.com/ryanoasis/nerd-fonts) and various other fonts using the [scoop package manager](https://github.com/lukesampson/scoop) for Windows."
     }
   ],
   "candidate_related_terms": [
@@ -302,11 +320,23 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "Watfaq/PowerSession"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "matthewjberger/scoop-nerd-fonts"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "Watfaq/PowerSession"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

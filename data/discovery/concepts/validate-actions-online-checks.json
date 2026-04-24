@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Validate Actions (online checks)"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/lucene",
+      "status": "candidate-context",
+      "text": "Apache Lucene open-source search software"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/lucene",
+      "status": "candidate-context",
+      "text": "Validate Actions (online checks)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/lucene",
+      "status": "candidate",
+      "text": "Validate Actions (online checks)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15709,
+      "status": "candidate",
+      "text": "attest"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15709,
+      "status": "candidate",
+      "text": "authorize"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15709,
+      "status": "candidate",
+      "text": "commission"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15709,
+      "status": "candidate",
+      "text": "commissioning"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15709,
+      "status": "candidate",
+      "text": "confirm"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Validate Actions (online checks)",
+  "concept_id": "validate-actions-online-checks",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/actions.yml",
+      "source_repo": "apache/lucene"
+    }
+  ],
+  "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Validate Actions (online checks)",
+      "sense_id": "validate-actions-online-checks#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

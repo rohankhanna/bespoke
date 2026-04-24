@@ -1,0 +1,102 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "facebookarchive/caffe2",
+      "target": "artificial-intelligence",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "facebookarchive/caffe2",
+      "target": "caffe2",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "facebookarchive/caffe2",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "facebookarchive/caffe2",
+      "target": "deep-neural-networks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "facebookarchive/caffe2",
+      "target": "machine-learning",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T02:02:08.083507+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 379
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "Caffe2 is a lightweight, modular, and scalable deep learning framework.",
+    "fork": false,
+    "full_name": "facebookarchive/caffe2",
+    "html_url": "https://github.com/facebookarchive/caffe2",
+    "language": "Shell",
+    "pushed_at": "2023-02-07T16:51:06Z",
+    "stargazers_count": 8386,
+    "topics": [
+      "ai",
+      "artificial-intelligence",
+      "caffe2",
+      "deep-learning",
+      "deep-neural-networks",
+      "machine-learning",
+      "ml"
+    ],
+    "updated_at": "2026-04-23T11:52:43Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Caffe2 is a lightweight, modular, and scalable deep learning framework. Building on the original [Caffe](http://caffe.berkeleyvision.org), Caffe2 is designed with expression, speed, and modularity in mind.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "artificial-intelligence"
+    },
+    {
+      "context_snippet": "Caffe2 is a lightweight, modular, and scalable deep learning framework. Building on the original [Caffe](http://caffe.berkeleyvision.org), Caffe2 is designed with expression, speed, and modularity in mind.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "caffe2"
+    },
+    {
+      "context_snippet": "Caffe2 is a lightweight, modular, and scalable deep learning framework. Building on the original [Caffe](http://caffe.berkeleyvision.org), Caffe2 is designed with expression, speed, and modularity in mind.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "Caffe2 is a lightweight, modular, and scalable deep learning framework. Building on the original [Caffe](http://caffe.berkeleyvision.org), Caffe2 is designed with expression, speed, and modularity in mind.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-neural-networks"
+    },
+    {
+      "context_snippet": "Caffe2 is a lightweight, modular, and scalable deep learning framework. Building on the original [Caffe](http://caffe.berkeleyvision.org), Caffe2 is designed with expression, speed, and modularity in mind.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-learning"
+    }
+  ]
+}

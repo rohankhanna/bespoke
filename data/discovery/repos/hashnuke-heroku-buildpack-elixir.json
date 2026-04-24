@@ -1,0 +1,107 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "HashNuke/heroku-buildpack-elixir",
+      "target": "hashnuke/heroku-buildpack-elixir-otp-builds",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "HashNuke/heroku-buildpack-elixir",
+      "target": "elixir-buildpack/cloud-native-buildpack",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "HashNuke/heroku-buildpack-elixir",
+      "target": "chrismcg/heroku-buildpack-elixir-mix-release",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "HashNuke/heroku-buildpack-elixir",
+      "target": "hashnuke/heroku-buildpack-elixir-test",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "HashNuke/heroku-buildpack-elixir",
+      "target": "elixir",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "HashNuke/heroku-buildpack-elixir",
+      "target": "heroku-buildpack",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T00:43:20.225309+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8734
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Heroku Buildpack for Elixir with nitro boost",
+    "fork": false,
+    "full_name": "HashNuke/heroku-buildpack-elixir",
+    "html_url": "https://github.com/HashNuke/heroku-buildpack-elixir",
+    "language": "Shell",
+    "pushed_at": "2024-05-01T00:20:51Z",
+    "stargazers_count": 814,
+    "topics": [
+      "elixir",
+      "heroku-buildpack"
+    ],
+    "updated_at": "2026-01-20T22:05:27Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "chrismcg/heroku-buildpack-elixir-mix-release",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "elixir-buildpack/cloud-native-buildpack",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hashnuke/heroku-buildpack-elixir-otp-builds",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hashnuke/heroku-buildpack-elixir-test",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "* **Easy configuration** with `elixir_buildpack.config` file",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "elixir"
+    },
+    {
+      "context_snippet": "* **Easy configuration** with `elixir_buildpack.config` file",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "heroku-buildpack"
+    }
+  ]
+}

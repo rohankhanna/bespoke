@@ -151,6 +151,18 @@
       "source_repo": "jb55/lnsocket",
       "status": "candidate-context",
       "text": "A simple C, JS and Go library for sending messages over the lightning network."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lightningnetwork/lnd",
+      "status": "candidate-context",
+      "text": "Lightning Network Daemon \u26a1\ufe0f"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lightningnetwork/lnd",
+      "status": "candidate-context",
+      "text": "[![Release build](https://github.com/lightningnetwork/lnd/actions/workflows/release.yaml/badge.svg)](https://github.com/lightningnetwork/lnd/actions/workflows/release.yaml)"
     }
   ],
   "candidate_glosses": [
@@ -225,6 +237,12 @@
       "source_repo": "jb55/lnsocket",
       "status": "candidate",
       "text": "A simple C, JS and Go library for sending messages over the lightning network."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lightningnetwork/lnd",
+      "status": "candidate",
+      "text": "[![Release build](https://github.com/lightningnetwork/lnd/actions/workflows/release.yaml/badge.svg)](https://github.com/lightningnetwork/lnd/actions/workflows/release.yaml)"
     }
   ],
   "candidate_related_terms": [],
@@ -316,11 +334,29 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "jb55/lnsocket"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "node-lightning/node-lightning"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "lightning/bolts"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "lightningnetwork/lnd"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

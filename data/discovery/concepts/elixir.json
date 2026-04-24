@@ -91,6 +91,42 @@
       "source_repo": "dwyl/auth_plug",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gjaldon/heroku-buildpack-phoenix-static",
+      "status": "candidate-context",
+      "text": "A Heroku buildpack for building Phoenix's static assets"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gjaldon/heroku-buildpack-phoenix-static",
+      "status": "candidate-context",
+      "text": "This buildpack is meant to be used with the [Heroku Buildpack for Elixir](https://github.com/HashNuke/heroku-buildpack-elixir). When deploying Phoenix apps to Heroku, static assets will need to be compiled. This buildpack sees to it that static assets are compiled and that a cor\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "HashNuke/heroku-buildpack-elixir",
+      "status": "candidate-context",
+      "text": "Heroku Buildpack for Elixir with nitro boost"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HashNuke/heroku-buildpack-elixir",
+      "status": "candidate-context",
+      "text": "* **Easy configuration** with `elixir_buildpack.config` file"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "blockscout/blockscout",
+      "status": "candidate-context",
+      "text": "Blockchain explorer for Ethereum based network and a tool for inspecting and analyzing EVM based blockchains. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "blockscout/blockscout",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">Blockscout</h1>"
     }
   ],
   "candidate_glosses": [
@@ -135,6 +171,24 @@
       "source_repo": "dwyl/auth_plug",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gjaldon/heroku-buildpack-phoenix-static",
+      "status": "candidate",
+      "text": "This buildpack is meant to be used with the [Heroku Buildpack for Elixir](https://github.com/HashNuke/heroku-buildpack-elixir). When deploying Phoenix apps to Heroku, static assets will need to be compiled. This buildpack sees to it that static assets are compiled and that a cor\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HashNuke/heroku-buildpack-elixir",
+      "status": "candidate",
+      "text": "* **Easy configuration** with `elixir_buildpack.config` file"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "blockscout/blockscout",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">Blockscout</h1>"
     }
   ],
   "candidate_related_terms": [
@@ -220,11 +274,29 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "dwyl/auth_plug"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "gjaldon/heroku-buildpack-phoenix-static"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "HashNuke/heroku-buildpack-elixir"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "blockscout/blockscout"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

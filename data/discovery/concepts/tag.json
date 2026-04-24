@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "Tag"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pnpm/pnpm",
+      "status": "candidate-context",
+      "text": "Fast, disk space efficient package manager"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pnpm/pnpm",
+      "status": "candidate-context",
+      "text": "Tag"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pnpm/pnpm",
+      "status": "candidate",
+      "text": "Tag"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40002296,
+      "status": "candidate",
+      "text": "label"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39994428,
+      "status": "candidate",
+      "text": "mark"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39979052,
+      "status": "candidate",
+      "text": "trail"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39967385,
+      "status": "candidate",
+      "text": "chase"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39966878,
+      "status": "candidate",
+      "text": "go after"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 38075,
+      "status": "candidate",
+      "text": "mark"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 23072,
+      "status": "candidate",
+      "text": "track"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 17080,
+      "status": "candidate",
+      "text": "tail"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 14073,
+      "status": "candidate",
+      "text": "dog"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 14054,
+      "status": "candidate",
+      "text": "label"
+    }
+  ],
+  "canonical_name": "Tag",
+  "concept_id": "tag",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/update-latest.yml",
+      "source_repo": "pnpm/pnpm"
+    }
+  ],
+  "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Tag",
+      "sense_id": "tag#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

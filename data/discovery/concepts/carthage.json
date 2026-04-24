@@ -19,6 +19,30 @@
       "source_repo": "Carthage/Carthage",
       "status": "candidate-context",
       "text": "![](Logo/PNG/header.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Alamofire/Alamofire",
+      "status": "candidate-context",
+      "text": "Elegant HTTP Networking in Swift"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Alamofire/Alamofire",
+      "status": "candidate-context",
+      "text": "![Alamofire: Elegant Networking in Swift](https://raw.githubusercontent.com/Alamofire/Alamofire/master/Resources/AlamofireLogo.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "artemnovichkov/Carting",
+      "status": "candidate-context",
+      "text": "\ud83d\ude98 A simple tool for updating Carthage script phase"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "artemnovichkov/Carting",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +51,18 @@
       "source_repo": "Carthage/Carthage",
       "status": "candidate",
       "text": "![](Logo/PNG/header.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Alamofire/Alamofire",
+      "status": "candidate",
+      "text": "![Alamofire: Elegant Networking in Swift](https://raw.githubusercontent.com/Alamofire/Alamofire/master/Resources/AlamofireLogo.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "artemnovichkov/Carting",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +112,23 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "Carthage/Carthage"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "Alamofire/Alamofire"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "artemnovichkov/Carting"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

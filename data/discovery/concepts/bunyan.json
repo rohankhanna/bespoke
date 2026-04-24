@@ -1,0 +1,108 @@
+{
+  "aliases": [
+    "bunyan"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ColemanGariety/gulp-nodemon",
+      "status": "candidate-context",
+      "text": "gulp + nodemon + convenience"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ColemanGariety/gulp-nodemon",
+      "status": "candidate-context",
+      "text": "gulp-nodemon"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ColemanGariety/gulp-nodemon",
+      "status": "candidate",
+      "text": "gulp-nodemon"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30037719,
+      "status": "candidate",
+      "text": "paul bunyan"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10043074,
+      "status": "candidate",
+      "text": "bunney"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10043073,
+      "status": "candidate",
+      "text": "bunton"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10043072,
+      "status": "candidate",
+      "text": "buncombe"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10043071,
+      "status": "candidate",
+      "text": "bunn"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "paul bunyan"
+    }
+  ],
+  "canonical_name": "bunyan",
+  "concept_id": "bunyan",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "ColemanGariety/gulp-nodemon"
+    }
+  ],
+  "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "bunyan",
+      "sense_id": "bunyan#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

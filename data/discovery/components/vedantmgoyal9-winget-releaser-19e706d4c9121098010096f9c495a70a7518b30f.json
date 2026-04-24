@@ -1,12 +1,17 @@
 {
   "component": "vedantmgoyal9/winget-releaser@19e706d4c9121098010096f9c495a70a7518b30f",
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/CICD.yml",
       "source_repo": "sharkdp/bat"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/update-latest.yml",
+      "source_repo": "pnpm/pnpm"
     }
   ]
 }

@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A UI for nvim-dap"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "A UI for [nvim-dap](https://github.com/mfussenegger/nvim-dap) which provides a"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "A UI for [nvim-dap](https://github.com/mfussenegger/nvim-dap) which provides a"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "nvim",
+      "sense_id": "nvim#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "nvim",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "nvim",
+  "observation_id": "688e647c2a657b02",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T00:33:56.049672+00:00",
+  "observed_text": "nvim",
+  "source_context_snippet": "A UI for [nvim-dap](https://github.com/mfussenegger/nvim-dap) which provides a",
+  "source_file": null,
+  "source_repo": "rcarriga/nvim-dap-ui",
+  "source_repo_description": "A UI for nvim-dap"
+}

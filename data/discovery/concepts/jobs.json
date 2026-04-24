@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Jobs"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "stepancheg/grpc-rust",
+      "status": "candidate-context",
+      "text": "Rust implementation of gRPC"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stepancheg/grpc-rust",
+      "status": "candidate-context",
+      "text": "Jobs"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stepancheg/grpc-rust",
+      "status": "candidate",
+      "text": "Jobs"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 36799748,
+      "status": "candidate",
+      "text": "task"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 36799494,
+      "status": "candidate",
+      "text": "work"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 36798837,
+      "status": "candidate",
+      "text": "chore"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 36798341,
+      "status": "candidate",
+      "text": "employment"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 36794026,
+      "status": "candidate",
+      "text": "subcontract"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Jobs",
+  "concept_id": "jobs",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "stepancheg/grpc-rust"
+    }
+  ],
+  "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Jobs",
+      "sense_id": "jobs#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

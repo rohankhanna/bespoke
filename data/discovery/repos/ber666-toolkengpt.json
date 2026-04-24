@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Ber666/ToolkenGPT",
+      "target": "facebookresearch/llama",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Ber666/ToolkenGPT",
+      "target": "xavierpuigf/virtualhome",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-24T01:43:58.822800+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4299
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "ToolkenGPT: Augmenting Frozen Language Models with Massive Tools via Tool Embeddings - NeurIPS 2023 (oral)",
+    "fork": false,
+    "full_name": "Ber666/ToolkenGPT",
+    "html_url": "https://github.com/Ber666/ToolkenGPT",
+    "language": "Python",
+    "pushed_at": "2024-04-18T08:21:12Z",
+    "stargazers_count": 271,
+    "topics": [],
+    "updated_at": "2026-04-01T05:36:32Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "facebookresearch/llama",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "xavierpuigf/virtualhome",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

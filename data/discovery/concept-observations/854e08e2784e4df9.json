@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Simple, secure & standards compliant web server for the most demanding of applications"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39749670,
+      "status": "candidate",
+      "text": "technical"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39728398,
+      "status": "candidate",
+      "text": "business"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39721847,
+      "status": "candidate",
+      "text": "mercantile"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39721676,
+      "status": "candidate",
+      "text": "trade"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39710458,
+      "status": "candidate",
+      "text": "moneymaking"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "commercial",
+      "sense_id": "commercial#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 27049,
+      "status": "candidate",
+      "text": "inferior"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 18037,
+      "status": "candidate",
+      "text": "mercenary"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 11041,
+      "status": "candidate",
+      "text": "technical"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 10037,
+      "status": "candidate",
+      "text": "mercantile"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1022,
+      "status": "candidate",
+      "text": "commercialized"
+    }
+  ],
+  "concept_id": "commercial",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "commercial",
+  "observation_id": "854e08e2784e4df9",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T00:33:56.049672+00:00",
+  "observed_text": "commercial",
+  "source_context_snippet": "<div align=\"center\">",
+  "source_file": null,
+  "source_repo": "uNetworking/uWebSockets",
+  "source_repo_description": "Simple, secure & standards compliant web server for the most demanding of applications"
+}

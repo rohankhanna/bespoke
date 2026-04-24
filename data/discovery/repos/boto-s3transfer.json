@@ -1,0 +1,325 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/init@cdcdbb579706841c47f7063dda365e292e5cad7a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/autobuild@cdcdbb579706841c47f7063dda365e292e5cad7a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@cdcdbb579706841c47f7063dda365e292e5cad7a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "actions/setup-python@61a6322f88396a6271a6ee3565807d608ecaddd1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "pre-commit/action@646c83fcd040023954eafda54b4db0192ce70507",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "aws-actions/configure-aws-credentials@8df5847569e6427dd6c4fb1cf565c83acfa8afa7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull-request-build.yml"
+    },
+    {
+      "component": "actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-crt-test.yml"
+    },
+    {
+      "component": "actions/setup-python@61a6322f88396a6271a6ee3565807d608ecaddd1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-crt-test.yml"
+    },
+    {
+      "component": "actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-tests.yml"
+    },
+    {
+      "component": "actions/setup-python@61a6322f88396a6271a6ee3565807d608ecaddd1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-tests.yml"
+    },
+    {
+      "component": "codecov/codecov-action@eaaf4bedf32dbdc6b720b63067d99c4d77d6047d",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-tests.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/zizmor.yml"
+    },
+    {
+      "component": "zizmorcore/zizmor-action@71321a20a9ded102f6e9ce5718a2fcec2c4f70d8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/zizmor.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "boto/s3transfer",
+      "target": "actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "boto/s3transfer",
+      "target": "github/codeql-action/init@cdcdbb579706841c47f7063dda365e292e5cad7a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "boto/s3transfer",
+      "target": "github/codeql-action/autobuild@cdcdbb579706841c47f7063dda365e292e5cad7a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "boto/s3transfer",
+      "target": "github/codeql-action/analyze@cdcdbb579706841c47f7063dda365e292e5cad7a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "boto/s3transfer",
+      "target": "CodeQL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "boto/s3transfer",
+      "target": "actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "boto/s3transfer",
+      "target": "actions/setup-python@61a6322f88396a6271a6ee3565807d608ecaddd1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "boto/s3transfer",
+      "target": "pre-commit/action@646c83fcd040023954eafda54b4db0192ce70507",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "boto/s3transfer",
+      "target": "Lint code",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull-request-build.yml",
+      "source_repo": "boto/s3transfer",
+      "target": "aws-actions/configure-aws-credentials@8df5847569e6427dd6c4fb1cf565c83acfa8afa7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pull-request-build.yml",
+      "source_repo": "boto/s3transfer",
+      "target": "Build S3transfer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-crt-test.yml",
+      "source_repo": "boto/s3transfer",
+      "target": "actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-crt-test.yml",
+      "source_repo": "boto/s3transfer",
+      "target": "actions/setup-python@61a6322f88396a6271a6ee3565807d608ecaddd1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/run-crt-test.yml",
+      "source_repo": "boto/s3transfer",
+      "target": "Run CRT tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-tests.yml",
+      "source_repo": "boto/s3transfer",
+      "target": "actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-tests.yml",
+      "source_repo": "boto/s3transfer",
+      "target": "actions/setup-python@61a6322f88396a6271a6ee3565807d608ecaddd1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-tests.yml",
+      "source_repo": "boto/s3transfer",
+      "target": "codecov/codecov-action@eaaf4bedf32dbdc6b720b63067d99c4d77d6047d",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/run-tests.yml",
+      "source_repo": "boto/s3transfer",
+      "target": "Run tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/zizmor.yml",
+      "source_repo": "boto/s3transfer",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/zizmor.yml",
+      "source_repo": "boto/s3transfer",
+      "target": "zizmorcore/zizmor-action@71321a20a9ded102f6e9ce5718a2fcec2c4f70d8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "boto/s3transfer",
+      "target": "cloud",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T01:38:49.646776+00:00",
+  "fetched_files": [
+    {
+      "path": "README.rst",
+      "size": 639
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1343
+    },
+    {
+      "path": "requirements.txt",
+      "size": 65
+    },
+    {
+      "path": ".github/workflows/codeql.yml",
+      "size": 911
+    },
+    {
+      "path": ".github/workflows/lint.yml",
+      "size": 521
+    },
+    {
+      "path": ".github/workflows/pull-request-build.yml",
+      "size": 1923
+    },
+    {
+      "path": ".github/workflows/run-crt-test.yml",
+      "size": 970
+    },
+    {
+      "path": ".github/workflows/run-tests.yml",
+      "size": 1085
+    },
+    {
+      "path": ".github/workflows/zizmor.yml",
+      "size": 535
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "develop",
+    "description": "Amazon S3 Transfer Manager for Python",
+    "fork": false,
+    "full_name": "boto/s3transfer",
+    "html_url": "https://github.com/boto/s3transfer",
+    "language": "Python",
+    "pushed_at": "2026-04-23T22:37:13Z",
+    "stargazers_count": 232,
+    "topics": [
+      "aws",
+      "cloud",
+      "python",
+      "s3"
+    ],
+    "updated_at": "2026-04-23T22:26:50Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "\"CodeQL\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "term": "CodeQL"
+    },
+    {
+      "context_snippet": "Lint code",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "term": "Lint code"
+    },
+    {
+      "context_snippet": "Build S3transfer",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pull-request-build.yml",
+      "term": "Build S3transfer"
+    },
+    {
+      "context_snippet": "Run CRT tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/run-crt-test.yml",
+      "term": "Run CRT tests"
+    },
+    {
+      "context_snippet": "Run tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/run-tests.yml",
+      "term": "Run tests"
+    },
+    {
+      "context_snippet": "=====================================================",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cloud"
+    }
+  ]
+}

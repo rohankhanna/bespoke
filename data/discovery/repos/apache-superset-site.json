@@ -1,0 +1,39 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/superset-site",
+      "target": "superset",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T00:44:45.486919+00:00",
+  "fetched_files": [],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "asf-site",
+    "description": "Apache superset (Incubating) website",
+    "fork": false,
+    "full_name": "apache/superset-site",
+    "html_url": "https://github.com/apache/superset-site",
+    "language": "HTML",
+    "pushed_at": "2026-04-23T23:04:10Z",
+    "stargazers_count": 10,
+    "topics": [
+      "superset"
+    ],
+    "updated_at": "2026-04-23T23:04:24Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Apache superset (Incubating) website",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "superset"
+    }
+  ]
+}

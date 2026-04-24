@@ -1,0 +1,171 @@
+{
+  "components": [
+    {
+      "component": "actions/setup-go@v2.1.3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "go-kit/kit",
+      "target": "afex/hystrix-go",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "go-kit/kit",
+      "target": "armon/go-metrics",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "go-kit/kit",
+      "target": "codahale/lunk",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "go-kit/kit",
+      "target": "codegangsta/negroni",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "go-kit/kit",
+      "target": "actions/setup-go@v2.1.3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "go-kit/kit",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "go-kit/kit",
+      "target": "codecov/codecov-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "go-kit/kit",
+      "target": "golang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "go-kit/kit",
+      "target": "metallica",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "go-kit/kit",
+      "target": "microservices",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T01:49:56.086654+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7246
+    },
+    {
+      "path": "go.mod",
+      "size": 4171
+    },
+    {
+      "path": ".github/workflows/.editorconfig",
+      "size": 24
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 1794
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A standard library for microservices.",
+    "fork": false,
+    "full_name": "go-kit/kit",
+    "html_url": "https://github.com/go-kit/kit",
+    "language": "Go",
+    "pushed_at": "2024-07-19T01:40:06Z",
+    "stargazers_count": 27450,
+    "topics": [
+      "go",
+      "golang",
+      "metallica",
+      "microservices"
+    ],
+    "updated_at": "2026-04-23T12:41:40Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "afex/hystrix-go",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "armon/go-metrics",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "codahale/lunk",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "codegangsta/negroni",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "![GitHub Workflow Status](https://github.com/go-kit/kit/workflows/CI/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "golang"
+    },
+    {
+      "context_snippet": "![GitHub Workflow Status](https://github.com/go-kit/kit/workflows/CI/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "metallica"
+    },
+    {
+      "context_snippet": "![GitHub Workflow Status](https://github.com/go-kit/kit/workflows/CI/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "microservices"
+    }
+  ]
+}

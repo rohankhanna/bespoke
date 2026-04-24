@@ -1,7 +1,7 @@
 {
   "component": "actions/cache@v4.2.0",
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -12,6 +12,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/diff.yml",
       "source_repo": "clj-kondo/clj-kondo"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/gradle-build.yml",
+      "source_repo": "resilience4j/resilience4j"
     }
   ]
 }

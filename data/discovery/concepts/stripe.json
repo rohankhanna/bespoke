@@ -31,6 +31,30 @@
       "source_repo": "14nrv/buefy-shop",
       "status": "candidate-context",
       "text": "[![Build Status](https://img.shields.io/circleci/project/github/14nrv/buefy-shop/master.svg \"Build Status\")](https://circleci.com/gh/14nrv/buefy-shop/tree/master)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "14nrv/serverless-lambda-stripe",
+      "status": "candidate-context",
+      "text": "serverless lambda for stripe"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "14nrv/serverless-lambda-stripe",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://img.shields.io/circleci/project/github/14nrv/serverless-lambda-stripe/dev.svg \"Build Status\")](https://circleci.com/gh/14nrv/serverless-lambda-stripe/tree/dev)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sdras/sample-vue-shop",
+      "status": "candidate-context",
+      "text": "See readme for newer repo details! A sample shop that shows how to manage payments with Vue, Stripe, and Serverless Functions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sdras/sample-vue-shop",
+      "status": "candidate-context",
+      "text": "**Note: This repo is no longer being maintained in favor of a newer, improved version: [https://github.com/sdras/ecommerce-netlify](https://github.com/sdras/ecommerce-netlify)**"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +69,18 @@
       "source_repo": "14nrv/buefy-shop",
       "status": "candidate",
       "text": "[![Build Status](https://img.shields.io/circleci/project/github/14nrv/buefy-shop/master.svg \"Build Status\")](https://circleci.com/gh/14nrv/buefy-shop/tree/master)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "14nrv/serverless-lambda-stripe",
+      "status": "candidate",
+      "text": "[![Build Status](https://img.shields.io/circleci/project/github/14nrv/serverless-lambda-stripe/dev.svg \"Build Status\")](https://circleci.com/gh/14nrv/serverless-lambda-stripe/tree/dev)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sdras/sample-vue-shop",
+      "status": "candidate",
+      "text": "**Note: This repo is no longer being maintained in favor of a newer, improved version: [https://github.com/sdras/ecommerce-netlify](https://github.com/sdras/ecommerce-netlify)**"
     }
   ],
   "candidate_related_terms": [
@@ -148,11 +184,23 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "14nrv/buefy-shop"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "14nrv/serverless-lambda-stripe"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "sdras/sample-vue-shop"
     }
   ],
   "first_seen_at": "2026-04-18T10:38:37.562216+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,104 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Textualize/rich-cli",
+      "target": "markdown",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Textualize/rich-cli",
+      "target": "rich",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Textualize/rich-cli",
+      "target": "syntax-highlighting",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Textualize/rich-cli",
+      "target": "terminal",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Textualize/rich-cli",
+      "target": "terminal-colors",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T00:43:08.739395+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8954
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1416
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Rich-cli is a command line toolbox for fancy output in the terminal",
+    "fork": false,
+    "full_name": "Textualize/rich-cli",
+    "html_url": "https://github.com/Textualize/rich-cli",
+    "language": "Python",
+    "pushed_at": "2026-03-30T15:08:51Z",
+    "stargazers_count": 3654,
+    "topics": [
+      "markdown",
+      "rich",
+      "syntax-highlighting",
+      "terminal",
+      "terminal-colors"
+    ],
+    "updated_at": "2026-04-23T19:28:15Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Rich-CLI is a command line toolbox for fancy output in the terminal, built with [Rich](https://github.com/Textualize/rich).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "markdown"
+    },
+    {
+      "context_snippet": "Rich-CLI is a command line toolbox for fancy output in the terminal, built with [Rich](https://github.com/Textualize/rich).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rich"
+    },
+    {
+      "context_snippet": "Rich-CLI is a command line toolbox for fancy output in the terminal, built with [Rich](https://github.com/Textualize/rich).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "syntax-highlighting"
+    },
+    {
+      "context_snippet": "Rich-CLI is a command line toolbox for fancy output in the terminal, built with [Rich](https://github.com/Textualize/rich).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "terminal"
+    },
+    {
+      "context_snippet": "Rich-CLI is a command line toolbox for fancy output in the terminal, built with [Rich](https://github.com/Textualize/rich).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "terminal-colors"
+    }
+  ]
+}

@@ -1,0 +1,129 @@
+{
+  "aliases": [
+    "russia"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vshymanskyy/StandWithUkraine",
+      "status": "candidate-context",
+      "text": "#StandWithUkraine banner and related documents"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vshymanskyy/StandWithUkraine",
+      "status": "candidate-context",
+      "text": "[![GitHub stars](https://img.shields.io/github/stars/vshymanskyy/StandWithUkraine.svg)](https://github.com/vshymanskyy/StandWithUkraine/stargazers)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vshymanskyy/StandWithUkraine",
+      "status": "candidate",
+      "text": "[![GitHub stars](https://img.shields.io/github/stars/vshymanskyy/StandWithUkraine.svg)](https://github.com/vshymanskyy/StandWithUkraine/stargazers)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40036104,
+      "status": "candidate",
+      "text": "soviet russia"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40035816,
+      "status": "candidate",
+      "text": "union of soviet socialist republics"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40035021,
+      "status": "candidate",
+      "text": "ussr"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40033885,
+      "status": "candidate",
+      "text": "soviet union"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30035680,
+      "status": "candidate",
+      "text": "rsfsr"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "soviet russia"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "soviet union"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "union of soviet socialist republics"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "ussr"
+    }
+  ],
+  "canonical_name": "russia",
+  "concept_id": "russia",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "vshymanskyy/StandWithUkraine"
+    }
+  ],
+  "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "russia",
+      "sense_id": "russia#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

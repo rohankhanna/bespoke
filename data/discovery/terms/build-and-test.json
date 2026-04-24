@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T13:29:00.435097+00:00",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -201,6 +201,46 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/go.yml",
       "source_repo": "Jille/raft-grpc-transport"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/build-and-test.yml",
+      "source_repo": "abpframework/abp"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/build-test.yml",
+      "source_repo": "microsoft/dcp"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "fschutt/printpdf"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "autofac/Autofac"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/build-and-test.yml",
+      "source_repo": "uptrace/uptrace"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/pr-build-main.yml",
+      "source_repo": "apache/camel"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "alecthomas/go_serialization_benchmarks"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/build-and-test.yml",
+      "source_repo": "SpecterOps/SharpHoundCommon"
     }
   ],
   "term": "Build and Test"

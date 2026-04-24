@@ -51,14 +51,21 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "ycm-core/YouCompleteMe",
-      "target": "omnisharp/omnisharp-roslyn",
+      "target": "rizsotto/bear",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "ycm-core/YouCompleteMe",
-      "target": "golang/tools",
+      "target": "rdnetto/ycm-generator",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ycm-core/YouCompleteMe",
+      "target": "rust-lang/rls",
       "target_type": "repository"
     },
     {
@@ -66,13 +73,6 @@
       "source_file": "README.md",
       "source_repo": "ycm-core/YouCompleteMe",
       "target": "eclipse/eclipse.jdt.ls",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "ycm-core/YouCompleteMe",
-      "target": "puremourning/vimspector",
       "target_type": "repository"
     },
     {
@@ -160,7 +160,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-23T01:16:36.462999+00:00",
+  "fetched_at": "2026-04-24T01:41:11.136555+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -189,14 +189,14 @@
     "html_url": "https://github.com/ycm-core/YouCompleteMe",
     "language": "Python",
     "pushed_at": "2026-04-18T13:43:45Z",
-    "stargazers_count": 25974,
+    "stargazers_count": 25975,
     "topics": [
       "code-analysis",
       "code-completion",
       "semantic-engine",
       "vim"
     ],
-    "updated_at": "2026-04-22T14:50:01Z"
+    "updated_at": "2026-04-23T23:14:42Z"
   },
   "repo_links": [
     {
@@ -206,17 +206,17 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "golang/tools",
+      "full_name": "rdnetto/ycm-generator",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "omnisharp/omnisharp-roslyn",
+      "full_name": "rizsotto/bear",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "puremourning/vimspector",
+      "full_name": "rust-lang/rls",
       "source_file": "README.md"
     }
   ],

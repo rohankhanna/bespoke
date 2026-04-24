@@ -356,6 +356,30 @@
       "source_repo": "grpc/grpc-go",
       "status": "candidate-context",
       "text": "'Lock Threads'"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fastify/fastify-plugin",
+      "status": "candidate-context",
+      "text": "Plugin helper for Fastify"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fastify/fastify-plugin",
+      "status": "candidate-context",
+      "text": "Lock Threads"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "terraform-aws-modules/terraform-aws-apigateway-v2",
+      "status": "candidate-context",
+      "text": "Terraform module to create AWS API Gateway v2 (HTTP/WebSocket) \ud83c\uddfa\ud83c\udde6"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "terraform-aws-modules/terraform-aws-apigateway-v2",
+      "status": "candidate-context",
+      "text": "'Lock Threads'"
     }
   ],
   "candidate_glosses": [
@@ -530,6 +554,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "grpc/grpc-go",
+      "status": "candidate",
+      "text": "'Lock Threads'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fastify/fastify-plugin",
+      "status": "candidate",
+      "text": "Lock Threads"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "terraform-aws-modules/terraform-aws-apigateway-v2",
       "status": "candidate",
       "text": "'Lock Threads'"
     }
@@ -785,11 +821,23 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": ".github/workflows/lock.yml",
       "source_repo": "grpc/grpc-go"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/lock-threads.yml",
+      "source_repo": "fastify/fastify-plugin"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/lock.yml",
+      "source_repo": "terraform-aws-modules/terraform-aws-apigateway-v2"
     }
   ],
   "first_seen_at": "2026-04-18T10:38:37.562216+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -187,6 +187,66 @@
       "source_repo": "Azure/azure-cli",
       "status": "candidate-context",
       "text": "[![Python](https://img.shields.io/pypi/pyversions/azure-cli.svg?maxAge=2592000)](https://pypi.python.org/pypi/azure-cli)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Azure/azure-rest-api-specs",
+      "status": "candidate-context",
+      "text": "The source for REST API specifications for Microsoft Azure."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Azure/azure-rest-api-specs",
+      "status": "candidate-context",
+      "text": "This repository is the canonical source for REST API specifications for Microsoft Azure. You can learn more about it [here](https://eng.ms/docs/products/azure-developer-experience/design/api-specs-pr/api-repos)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Azure/bicep-deploy",
+      "status": "candidate-context",
+      "text": "Azure Deploy GitHub Action"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Azure/bicep-deploy",
+      "status": "candidate-context",
+      "text": "This repository offers a GitHub Action for automating the deployment and management of Azure resources using ARM Templates or Bicep files. It integrates smoothly into GitHub workflows, allowing developers to manage Azure infrastructure directly within their CI/CD pipelines."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Azure/aad-pod-identity",
+      "status": "candidate-context",
+      "text": "[DEPRECATED] Assign Azure Active Directory Identities to Kubernetes applications. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Azure/aad-pod-identity",
+      "status": "candidate-context",
+      "text": "> # \u26a0\ufe0f [AAD Pod Identity repo has been archived and is no longer maintained.](#-announcement)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Azure/autorest",
+      "status": "candidate-context",
+      "text": "OpenAPI (f.k.a Swagger) Specification code generator. Supports C#, PowerShell, Go, Java, Node.js, TypeScript, Python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Azure/autorest",
+      "status": "candidate-context",
+      "text": "\"CodeQL\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Azure/azure-sdk-for-js",
+      "status": "candidate-context",
+      "text": "This repository is for active development of the Azure SDK for JavaScript (NodeJS & Browser). For consumers of the SDK we recommend visiting our public developer docs at https://docs.microsoft.com/javascript/azure/ or our versioned developer docs at https://azure.github.io/azure-sdk-for-js. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Azure/azure-sdk-for-js",
+      "status": "candidate-context",
+      "text": "[![Packages](https://img.shields.io/badge/packages-latest-blue.svg)](https://azure.github.io/azure-sdk/releases/latest/js.html) [![Dependencies](https://img.shields.io/badge/dependency-report-blue.svg)](https://azuresdkartifacts.blob.core.windows.net/azure-sdk-for-js/dependencie\u2026"
     }
   ],
   "candidate_glosses": [
@@ -279,6 +339,36 @@
       "source_repo": "Azure/azure-cli",
       "status": "candidate",
       "text": "[![Python](https://img.shields.io/pypi/pyversions/azure-cli.svg?maxAge=2592000)](https://pypi.python.org/pypi/azure-cli)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Azure/azure-rest-api-specs",
+      "status": "candidate",
+      "text": "This repository is the canonical source for REST API specifications for Microsoft Azure. You can learn more about it [here](https://eng.ms/docs/products/azure-developer-experience/design/api-specs-pr/api-repos)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Azure/bicep-deploy",
+      "status": "candidate",
+      "text": "This repository offers a GitHub Action for automating the deployment and management of Azure resources using ARM Templates or Bicep files. It integrates smoothly into GitHub workflows, allowing developers to manage Azure infrastructure directly within their CI/CD pipelines."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Azure/aad-pod-identity",
+      "status": "candidate",
+      "text": "> # \u26a0\ufe0f [AAD Pod Identity repo has been archived and is no longer maintained.](#-announcement)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Azure/autorest",
+      "status": "candidate",
+      "text": "\"CodeQL\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Azure/azure-sdk-for-js",
+      "status": "candidate",
+      "text": "[![Packages](https://img.shields.io/badge/packages-latest-blue.svg)](https://azure.github.io/azure-sdk/releases/latest/js.html) [![Dependencies](https://img.shields.io/badge/dependency-report-blue.svg)](https://azuresdkartifacts.blob.core.windows.net/azure-sdk-for-js/dependencie\u2026"
     }
   ],
   "candidate_related_terms": [
@@ -466,11 +556,47 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "Azure/azure-cli"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "Azure/azure-rest-api-specs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "Azure/bicep-deploy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "Azure/aad-pod-identity"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "SpecterOps/AzureHound"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "Azure/autorest"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "Azure/azure-sdk-for-js"
     }
   ],
   "first_seen_at": "2026-04-18T18:48:44.679047+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

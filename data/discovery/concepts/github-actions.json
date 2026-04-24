@@ -298,6 +298,60 @@
       "source_repo": "gautamkrishnar/blog-post-workflow",
       "status": "candidate-context",
       "text": "<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Azure/bicep-deploy",
+      "status": "candidate-context",
+      "text": "Azure Deploy GitHub Action"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Azure/bicep-deploy",
+      "status": "candidate-context",
+      "text": "This repository offers a GitHub Action for automating the deployment and management of Azure resources using ARM Templates or Bicep files. It integrates smoothly into GitHub workflows, allowing developers to manage Azure infrastructure directly within their CI/CD pipelines."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "grok-ai/nn-template",
+      "status": "candidate-context",
+      "text": "Generic template to bootstrap your PyTorch project."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "grok-ai/nn-template",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "docker/github-builder",
+      "status": "candidate-context",
+      "text": "Official Docker-maintained reusable GitHub Actions workflows to securely build container images"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "docker/github-builder",
+      "status": "candidate-context",
+      "text": "[![Test build workflow](https://img.shields.io/github/actions/workflow/status/docker/github-builder/.test-build.yml?label=test%20build&logo=github&style=flat-square)](https://github.com/docker/github-builder/actions?workflow=.test-build)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "docker/setup-qemu-action",
+      "status": "candidate-context",
+      "text": "GitHub Action to install QEMU static binaries"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "docker/setup-qemu-action",
+      "status": "candidate-context",
+      "text": "[![GitHub release](https://img.shields.io/github/release/docker/setup-qemu-action.svg?style=flat-square)](https://github.com/docker/setup-qemu-action/releases/latest)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws-actions/aws-secretsmanager-get-secrets",
+      "status": "candidate-context",
+      "text": "To use a secret in a GitHub job, you can use a GitHub action to retrieve secrets from AWS Secrets Manager and add them as masked [Environment variables](https://docs.github.com/en/actions/learn-github-actions/environment-variables) in your GitHub workflow. For more information a\u2026"
     }
   ],
   "candidate_glosses": [
@@ -444,6 +498,36 @@
       "source_repo": "gautamkrishnar/blog-post-workflow",
       "status": "candidate",
       "text": "<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Azure/bicep-deploy",
+      "status": "candidate",
+      "text": "This repository offers a GitHub Action for automating the deployment and management of Azure resources using ARM Templates or Bicep files. It integrates smoothly into GitHub workflows, allowing developers to manage Azure infrastructure directly within their CI/CD pipelines."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "grok-ai/nn-template",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "docker/github-builder",
+      "status": "candidate",
+      "text": "[![Test build workflow](https://img.shields.io/github/actions/workflow/status/docker/github-builder/.test-build.yml?label=test%20build&logo=github&style=flat-square)](https://github.com/docker/github-builder/actions?workflow=.test-build)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "docker/setup-qemu-action",
+      "status": "candidate",
+      "text": "[![GitHub release](https://img.shields.io/github/release/docker/setup-qemu-action.svg?style=flat-square)](https://github.com/docker/setup-qemu-action/releases/latest)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws-actions/aws-secretsmanager-get-secrets",
+      "status": "candidate",
+      "text": "To use a secret in a GitHub job, you can use a GitHub action to retrieve secrets from AWS Secrets Manager and add them as masked [Environment variables](https://docs.github.com/en/actions/learn-github-actions/environment-variables) in your GitHub workflow. For more information a\u2026"
     }
   ],
   "candidate_related_terms": [
@@ -637,11 +721,47 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "gautamkrishnar/blog-post-workflow"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "Azure/bicep-deploy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "grok-ai/nn-template"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "docker/github-builder"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "docker/setup-qemu-action"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "aws-actions/aws-secretsmanager-get-secrets"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "community/community"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

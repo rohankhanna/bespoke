@@ -19,6 +19,18 @@
       "source_repo": "tinted-theming/base16-builder-go",
       "status": "candidate-context",
       "text": "A simple builder for base16 templates and schemes."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tinted-theming/home",
+      "status": "candidate-context",
+      "text": "Style systems and smart build tooling for crafting high fidelity color schemes and easily using them in all your favorite apps. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tinted-theming/home",
+      "status": "candidate-context",
+      "text": "[![Matrix Chat](https://img.shields.io/matrix/tinted-theming:matrix.org)](https://matrix.to/#/#tinted-theming:matrix.org)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "tinted-theming/base16-builder-go",
       "status": "candidate",
       "text": "A simple builder for base16 templates and schemes."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tinted-theming/home",
+      "status": "candidate",
+      "text": "[![Matrix Chat](https://img.shields.io/matrix/tinted-theming:matrix.org)](https://matrix.to/#/#tinted-theming:matrix.org)"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "tinted-theming/base16-builder-go"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "tinted-theming/home"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

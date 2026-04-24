@@ -1,0 +1,88 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions-rs/toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bitshifter/mathbench-rs",
+      "target": "termhn/ultraviolet",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "bitshifter/mathbench-rs",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "bitshifter/mathbench-rs",
+      "target": "actions-rs/toolchain@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "bitshifter/mathbench-rs",
+      "target": "Rust CI",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T00:53:26.563745+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 31336
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 2552
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 1110
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Comparing performance of Rust math libraries for common 3D game and graphics tasks",
+    "fork": false,
+    "full_name": "bitshifter/mathbench-rs",
+    "html_url": "https://github.com/bitshifter/mathbench-rs",
+    "language": "Rust",
+    "pushed_at": "2024-10-29T09:21:54Z",
+    "stargazers_count": 230,
+    "topics": [],
+    "updated_at": "2026-04-07T08:58:57Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "termhn/ultraviolet",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Rust CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "term": "Rust CI"
+    }
+  ]
+}

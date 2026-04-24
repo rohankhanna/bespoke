@@ -1,0 +1,179 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ggandor/lightspeed.nvim",
+      "target": "phaazon/hop.nvim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ggandor/lightspeed.nvim",
+      "target": "abo-abo/avy",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ggandor/lightspeed.nvim",
+      "target": "tpope/vim-repeat",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ggandor/lightspeed.nvim",
+      "target": "rhysd/clever-f.vim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ggandor/lightspeed.nvim",
+      "target": "fennel",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ggandor/lightspeed.nvim",
+      "target": "motion",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ggandor/lightspeed.nvim",
+      "target": "navigation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ggandor/lightspeed.nvim",
+      "target": "neovim",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ggandor/lightspeed.nvim",
+      "target": "neovim-plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ggandor/lightspeed.nvim",
+      "target": "nvim",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ggandor/lightspeed.nvim",
+      "target": "nvim-plugin",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T01:44:13.875058+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 33012
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "deprecated in favor of leap.nvim",
+    "fork": false,
+    "full_name": "ggandor/lightspeed.nvim",
+    "html_url": "https://github.com/ggandor/lightspeed.nvim",
+    "language": "Fennel",
+    "pushed_at": "2023-12-01T22:45:14Z",
+    "stargazers_count": 1558,
+    "topics": [
+      "fennel",
+      "lua",
+      "motion",
+      "navigation",
+      "neovim",
+      "neovim-plugin",
+      "nvim",
+      "nvim-plugin",
+      "vim"
+    ],
+    "updated_at": "2026-03-10T03:33:57Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "abo-abo/avy",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "phaazon/hop.nvim",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rhysd/clever-f.vim",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tpope/vim-repeat",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Lightspeed has been deprecated in favor of",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fennel"
+    },
+    {
+      "context_snippet": "Lightspeed has been deprecated in favor of",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "motion"
+    },
+    {
+      "context_snippet": "Lightspeed has been deprecated in favor of",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "navigation"
+    },
+    {
+      "context_snippet": "Lightspeed has been deprecated in favor of",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neovim"
+    },
+    {
+      "context_snippet": "Lightspeed has been deprecated in favor of",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neovim-plugin"
+    },
+    {
+      "context_snippet": "Lightspeed has been deprecated in favor of",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nvim"
+    },
+    {
+      "context_snippet": "Lightspeed has been deprecated in favor of",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nvim-plugin"
+    }
+  ]
+}

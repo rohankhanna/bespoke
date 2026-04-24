@@ -5,20 +5,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "olric-data/olric-cloud-plugin",
-      "target": "hashicorp/go-discover",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "olric-data/olric-cloud-plugin",
-      "target": "buraksezer/olric-kubernetes",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "olric-data/olric-cloud-plugin",
       "target": "buraksezer/olric",
       "target_type": "repository"
     },
@@ -30,7 +16,7 @@
       "target_type": "repository"
     }
   ],
-  "fetched_at": "2026-04-23T20:56:31.863529+00:00",
+  "fetched_at": "2026-04-24T01:49:04.449312+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -63,16 +49,6 @@
     {
       "edge_type": "explicit-github-link",
       "full_name": "buraksezer/olric",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "buraksezer/olric-kubernetes",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "hashicorp/go-discover",
       "source_file": "README.md"
     },
     {

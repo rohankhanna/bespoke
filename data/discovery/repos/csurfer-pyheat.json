@@ -1,0 +1,81 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "csurfer/pyheat",
+      "target": "heatmap",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "csurfer/pyheat",
+      "target": "matplotlib",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "csurfer/pyheat",
+      "target": "profiling",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T02:03:58.400639+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2684
+    },
+    {
+      "path": "README.rst",
+      "size": 3191
+    },
+    {
+      "path": "requirements.txt",
+      "size": 88
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "pprofile + matplotlib = Python program profiled as an awesome heatmap!",
+    "fork": false,
+    "full_name": "csurfer/pyheat",
+    "html_url": "https://github.com/csurfer/pyheat",
+    "language": "Python",
+    "pushed_at": "2023-07-04T11:25:43Z",
+    "stargazers_count": 844,
+    "topics": [
+      "heatmap",
+      "matplotlib",
+      "profiling",
+      "python"
+    ],
+    "updated_at": "2026-04-20T19:58:15Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "[![pypiv](https://img.shields.io/pypi/v/py-heat.svg)](https://pypi.python.org/pypi/py-heat)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "heatmap"
+    },
+    {
+      "context_snippet": "[![pypiv](https://img.shields.io/pypi/v/py-heat.svg)](https://pypi.python.org/pypi/py-heat)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "matplotlib"
+    },
+    {
+      "context_snippet": "[![pypiv](https://img.shields.io/pypi/v/py-heat.svg)](https://pypi.python.org/pypi/py-heat)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "profiling"
+    }
+  ]
+}

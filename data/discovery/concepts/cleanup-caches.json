@@ -31,6 +31,18 @@
       "source_repo": "openvinotoolkit/openvino.genai",
       "status": "candidate-context",
       "text": "Cleanup caches"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "openvinotoolkit/openvino",
+      "status": "candidate-context",
+      "text": "OpenVINO\u2122 is an open source toolkit for optimizing and deploying AI inference"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openvinotoolkit/openvino",
+      "status": "candidate-context",
+      "text": "Cleanup caches"
     }
   ],
   "candidate_glosses": [
@@ -43,6 +55,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "openvinotoolkit/openvino.genai",
+      "status": "candidate",
+      "text": "Cleanup caches"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openvinotoolkit/openvino",
       "status": "candidate",
       "text": "Cleanup caches"
     }
@@ -100,11 +118,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": ".github/workflows/cleanup_caches.yml",
       "source_repo": "openvinotoolkit/openvino.genai"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/cleanup_caches.yml",
+      "source_repo": "openvinotoolkit/openvino"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,122 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\ud83c\udf83 Vim plugin to help install/uninstall denops-shared-server"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![Denops.vim 7.0.0 or above]][Denops.vim-v7.0.0]"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![Denops.vim 7.0.0 or above]][Denops.vim-v7.0.0]"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39999690,
+      "status": "candidate",
+      "text": "help"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39997341,
+      "status": "candidate",
+      "text": "supporter"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39996499,
+      "status": "candidate",
+      "text": "benefactor"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39996221,
+      "status": "candidate",
+      "text": "assistant"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30000566,
+      "status": "candidate",
+      "text": "auxiliary"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "helper",
+      "sense_id": "helper#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 27034,
+      "status": "candidate",
+      "text": "benefactor"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 14034,
+      "status": "candidate",
+      "text": "supporter"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 7035,
+      "status": "candidate",
+      "text": "assistant"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "help"
+    }
+  ],
+  "concept_id": "helper",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "helper",
+  "observation_id": "396dcff95118592f",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T00:33:56.049672+00:00",
+  "observed_text": "helper",
+  "source_context_snippet": "[![Denops.vim 7.0.0 or above]][Denops.vim-v7.0.0]",
+  "source_file": null,
+  "source_repo": "vim-denops/denops-shared-server.vim",
+  "source_repo_description": "\ud83c\udf83 Vim plugin to help install/uninstall denops-shared-server"
+}

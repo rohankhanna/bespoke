@@ -1,0 +1,27 @@
+{
+  "component": "ruby/setup-ruby@4eb9f110bac952a8b68ecf92e3b5c7a987594ba6",
+  "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "flavorjones/tailwindcss-ruby"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/downstream.yml",
+      "source_repo": "flavorjones/tailwindcss-ruby"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "flavorjones/tailwindcss-ruby"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/upstream.yml",
+      "source_repo": "flavorjones/tailwindcss-ruby"
+    }
+  ]
+}

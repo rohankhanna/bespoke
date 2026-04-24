@@ -1,0 +1,137 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "swiftlang/swift-llbuild",
+      "target": "apple/swift",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "swiftlang/swift-llbuild",
+      "target": "apple/swift-llbuild",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "swiftlang/swift-llbuild",
+      "target": "salsa-rs/salsa",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "swiftlang/swift-llbuild",
+      "target": "build-system",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "swiftlang/swift-llbuild",
+      "target": "build-tool",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "swiftlang/swift-llbuild",
+      "target": "llbuild",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "swiftlang/swift-llbuild",
+      "target": "llvm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "swiftlang/swift-llbuild",
+      "target": "swift",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T00:42:45.744294+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11947
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A low-level build system, used by Xcode and the Swift Package Manager",
+    "fork": false,
+    "full_name": "swiftlang/swift-llbuild",
+    "html_url": "https://github.com/swiftlang/swift-llbuild",
+    "language": "C++",
+    "pushed_at": "2026-04-22T08:25:11Z",
+    "stargazers_count": 1264,
+    "topics": [
+      "build-system",
+      "build-tool",
+      "llbuild",
+      "llvm",
+      "swift"
+    ],
+    "updated_at": "2026-04-21T09:38:55Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "apple/swift",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "apple/swift-llbuild",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "salsa-rs/salsa",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "llbuild",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "build-system"
+    },
+    {
+      "context_snippet": "llbuild",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "build-tool"
+    },
+    {
+      "context_snippet": "llbuild",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "llbuild"
+    },
+    {
+      "context_snippet": "llbuild",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "llvm"
+    },
+    {
+      "context_snippet": "llbuild",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "swift"
+    }
+  ]
+}

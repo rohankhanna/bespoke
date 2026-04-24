@@ -1,0 +1,94 @@
+{
+  "aliases": [
+    "Apollo Server Plugin CI"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "newrelic/newrelic-node-apollo-server-plugin",
+      "status": "candidate-context",
+      "text": "Apollo Server Plugin CI"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "newrelic/newrelic-node-apollo-server-plugin",
+      "status": "candidate",
+      "text": "Apollo Server Plugin CI"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23211,
+      "status": "candidate",
+      "text": "ion"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22025,
+      "status": "candidate",
+      "text": "lab"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22025,
+      "status": "candidate",
+      "text": "unit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21163,
+      "status": "candidate",
+      "text": "crew"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21137,
+      "status": "candidate",
+      "text": "ace"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Apollo Server Plugin CI",
+  "concept_id": "apollo-server-plugin-ci",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/ci-workflow.yml",
+      "source_repo": "newrelic/newrelic-node-apollo-server-plugin"
+    }
+  ],
+  "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Apollo Server Plugin CI",
+      "sense_id": "apollo-server-plugin-ci#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

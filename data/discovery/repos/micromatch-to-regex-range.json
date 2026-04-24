@@ -1,0 +1,397 @@
+{
+  "components": [
+    {
+      "component": "fill-range",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "gulp-format-md",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "mocha",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "text-table",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "time-diff",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "micromatch/to-regex-range",
+      "target": "dimka665/range-regex",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "micromatch/to-regex-range",
+      "target": "jonschlinkert/expand-range",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "micromatch/to-regex-range",
+      "target": "jonschlinkert/repeat-element",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "micromatch/to-regex-range",
+      "target": "jonschlinkert/repeat-string",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "micromatch/to-regex-range",
+      "target": "fill-range",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "micromatch/to-regex-range",
+      "target": "gulp-format-md",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "micromatch/to-regex-range",
+      "target": "mocha",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "micromatch/to-regex-range",
+      "target": "text-table",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "micromatch/to-regex-range",
+      "target": "time-diff",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "micromatch/to-regex-range",
+      "target": "character-class",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "micromatch/to-regex-range",
+      "target": "expand",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "micromatch/to-regex-range",
+      "target": "integers",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "micromatch/to-regex-range",
+      "target": "match",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "micromatch/to-regex-range",
+      "target": "matcher",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "micromatch/to-regex-range",
+      "target": "matching",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "micromatch/to-regex-range",
+      "target": "node",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "micromatch/to-regex-range",
+      "target": "nodejs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "micromatch/to-regex-range",
+      "target": "number",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "micromatch/to-regex-range",
+      "target": "numbers",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "micromatch/to-regex-range",
+      "target": "padding",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "micromatch/to-regex-range",
+      "target": "range",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "micromatch/to-regex-range",
+      "target": "range-expansion",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "micromatch/to-regex-range",
+      "target": "regex",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "micromatch/to-regex-range",
+      "target": "regex-range",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "micromatch/to-regex-range",
+      "target": "regular-expression",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "micromatch/to-regex-range",
+      "target": "repeat",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "micromatch/to-regex-range",
+      "target": "tidelift",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T01:39:01.241386+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 13556
+    },
+    {
+      "path": "package.json",
+      "size": 1730
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Pass two numbers, get a regex-compatible source string for matching ranges. Fast compiler, optimized regex, and validated against more than 2.78 million test assertions. Useful for creating regular expressions to validate numbers, ranges, years, etc.",
+    "fork": false,
+    "full_name": "micromatch/to-regex-range",
+    "html_url": "https://github.com/micromatch/to-regex-range",
+    "language": "JavaScript",
+    "pushed_at": "2024-08-01T09:45:24Z",
+    "stargazers_count": 172,
+    "topics": [
+      "character-class",
+      "expand",
+      "integers",
+      "javascript",
+      "match",
+      "matcher",
+      "matching",
+      "node",
+      "nodejs",
+      "number",
+      "numbers",
+      "padding",
+      "range",
+      "range-expansion",
+      "regex",
+      "regex-range",
+      "regular-expression",
+      "repeat",
+      "tidelift"
+    ],
+    "updated_at": "2026-03-31T11:33:49Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dimka665/range-regex",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jonschlinkert/expand-range",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jonschlinkert/repeat-element",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jonschlinkert/repeat-string",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "> Pass two numbers, get a regex-compatible source string for matching ranges. Validated against more than 2.78 million test assertions.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "character-class"
+    },
+    {
+      "context_snippet": "> Pass two numbers, get a regex-compatible source string for matching ranges. Validated against more than 2.78 million test assertions.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "expand"
+    },
+    {
+      "context_snippet": "> Pass two numbers, get a regex-compatible source string for matching ranges. Validated against more than 2.78 million test assertions.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "integers"
+    },
+    {
+      "context_snippet": "> Pass two numbers, get a regex-compatible source string for matching ranges. Validated against more than 2.78 million test assertions.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "match"
+    },
+    {
+      "context_snippet": "> Pass two numbers, get a regex-compatible source string for matching ranges. Validated against more than 2.78 million test assertions.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "matcher"
+    },
+    {
+      "context_snippet": "> Pass two numbers, get a regex-compatible source string for matching ranges. Validated against more than 2.78 million test assertions.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "matching"
+    },
+    {
+      "context_snippet": "> Pass two numbers, get a regex-compatible source string for matching ranges. Validated against more than 2.78 million test assertions.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "node"
+    },
+    {
+      "context_snippet": "> Pass two numbers, get a regex-compatible source string for matching ranges. Validated against more than 2.78 million test assertions.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nodejs"
+    },
+    {
+      "context_snippet": "> Pass two numbers, get a regex-compatible source string for matching ranges. Validated against more than 2.78 million test assertions.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "number"
+    },
+    {
+      "context_snippet": "> Pass two numbers, get a regex-compatible source string for matching ranges. Validated against more than 2.78 million test assertions.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "numbers"
+    },
+    {
+      "context_snippet": "> Pass two numbers, get a regex-compatible source string for matching ranges. Validated against more than 2.78 million test assertions.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "padding"
+    },
+    {
+      "context_snippet": "> Pass two numbers, get a regex-compatible source string for matching ranges. Validated against more than 2.78 million test assertions.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "range"
+    },
+    {
+      "context_snippet": "> Pass two numbers, get a regex-compatible source string for matching ranges. Validated against more than 2.78 million test assertions.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "range-expansion"
+    },
+    {
+      "context_snippet": "> Pass two numbers, get a regex-compatible source string for matching ranges. Validated against more than 2.78 million test assertions.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "regex"
+    },
+    {
+      "context_snippet": "> Pass two numbers, get a regex-compatible source string for matching ranges. Validated against more than 2.78 million test assertions.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "regex-range"
+    },
+    {
+      "context_snippet": "> Pass two numbers, get a regex-compatible source string for matching ranges. Validated against more than 2.78 million test assertions.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "regular-expression"
+    },
+    {
+      "context_snippet": "> Pass two numbers, get a regex-compatible source string for matching ranges. Validated against more than 2.78 million test assertions.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "repeat"
+    },
+    {
+      "context_snippet": "> Pass two numbers, get a regex-compatible source string for matching ranges. Validated against more than 2.78 million test assertions.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tidelift"
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "An installation and update framework for Windows desktop apps"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Build Squirrel"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Build Squirrel"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11725,
+      "status": "candidate",
+      "text": "nest"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11725,
+      "status": "candidate",
+      "text": "save"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11566,
+      "status": "candidate",
+      "text": "tail"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11526,
+      "status": "candidate",
+      "text": "amass"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10646,
+      "status": "candidate",
+      "text": "bowerbird"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build Squirrel",
+      "sense_id": "build-squirrel#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "build-squirrel",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "build-squirrel",
+  "observation_id": "731474eb3745fbf2",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-24T00:33:56.049672+00:00",
+  "observed_text": "Build Squirrel",
+  "source_context_snippet": "Build Squirrel",
+  "source_file": ".github/workflows/build.yml",
+  "source_repo": "Squirrel/Squirrel.Windows",
+  "source_repo_description": "An installation and update framework for Windows desktop apps"
+}

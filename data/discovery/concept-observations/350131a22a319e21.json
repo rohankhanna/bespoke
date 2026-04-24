@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Create automatic playlists by using Deep Learning to *listen* to the music."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "![](MBIT_logo.png)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "![](MBIT_logo.png)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "playlist-generator",
+      "sense_id": "playlist-generator#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "playlist-generator",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "playlist-generator",
+  "observation_id": "350131a22a319e21",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T00:33:56.049672+00:00",
+  "observed_text": "playlist-generator",
+  "source_context_snippet": "![](MBIT_logo.png)",
+  "source_file": null,
+  "source_repo": "teticio/Deej-AI",
+  "source_repo_description": "Create automatic playlists by using Deep Learning to *listen* to the music."
+}

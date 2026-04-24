@@ -81,6 +81,18 @@
       "source_repo": "RoaringBitmap/CRoaring",
       "status": "candidate-context",
       "text": "[![Ubuntu-CI](https://github.com/RoaringBitmap/CRoaring/actions/workflows/ubuntu-noexcept-ci.yml/badge.svg)](https://github.com/RoaringBitmap/CRoaring/actions/workflows/ubuntu-noexcept-ci.yml) [![VS17-CI](https://github.com/RoaringBitmap/CRoaring/actions/workflows/vs17-ci.yml/ba\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dotnet/fsharp",
+      "status": "candidate-context",
+      "text": "The F# compiler, F# core library, F# language service, and F# tooling integration for Visual Studio"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dotnet/fsharp",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://dev.azure.com/dnceng-public/public/_apis/build/status/dotnet/fsharp/fsharp-ci?branchName=main)](https://dev.azure.com/dnceng-public/public/_build/latest?definitionId=90&branchName=main)"
     }
   ],
   "candidate_glosses": [
@@ -119,6 +131,12 @@
       "source_repo": "RoaringBitmap/CRoaring",
       "status": "candidate",
       "text": "[![Ubuntu-CI](https://github.com/RoaringBitmap/CRoaring/actions/workflows/ubuntu-noexcept-ci.yml/badge.svg)](https://github.com/RoaringBitmap/CRoaring/actions/workflows/ubuntu-noexcept-ci.yml) [![VS17-CI](https://github.com/RoaringBitmap/CRoaring/actions/workflows/vs17-ci.yml/ba\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dotnet/fsharp",
+      "status": "candidate",
+      "text": "[![Build Status](https://dev.azure.com/dnceng-public/public/_apis/build/status/dotnet/fsharp/fsharp-ci?branchName=main)](https://dev.azure.com/dnceng-public/public/_build/latest?definitionId=90&branchName=main)"
     }
   ],
   "candidate_related_terms": [],
@@ -162,11 +180,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "RoaringBitmap/CRoaring"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "dotnet/fsharp"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

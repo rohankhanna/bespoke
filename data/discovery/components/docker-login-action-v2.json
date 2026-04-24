@@ -1,7 +1,7 @@
 {
   "component": "docker/login-action@v2",
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -472,6 +472,36 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/Publish Package.yml",
       "source_repo": "qd-today/qd"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.docker.yml",
+      "source_repo": "joseluisq/paket"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "jpillora/cloud-torrent"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "dapplion/beacon-metrics-gazer"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "WebAssembly/wasi-sdk"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/gaia.yml",
+      "source_repo": "stacks-archive/gaia"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build_docker_image.yml",
+      "source_repo": "Haijian06/Yi"
     }
   ]
 }

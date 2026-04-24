@@ -1,7 +1,7 @@
 {
   "component": "docker/setup-buildx-action@4d04d5d9486b7bd6fa91e7baf45bbb4f8b9deedd",
   "first_seen_at": "2026-04-18T03:54:46.759203+00:00",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -507,6 +507,41 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/test.yaml",
       "source_repo": "raviqqe/muffet"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-distributions.yml",
+      "source_repo": "ogx-ai/llama-stack"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "orhun/git-cliff"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/anneal.yml",
+      "source_repo": "google/zerocopy"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "google/zerocopy"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/bake.yml",
+      "source_repo": "docker/github-builder"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "docker/github-builder"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "pnpm/pnpm"
     }
   ]
 }

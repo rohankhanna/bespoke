@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "google/highwayhash",
+      "target": "dgryski/go-highway",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "google/highwayhash",
+      "target": "asonnleitner/highwayhash-wasm",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "google/highwayhash",
+      "target": "calebzulawski/autobahn-hash",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "google/highwayhash",
+      "target": "jamescook/highwayhash",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-24T00:44:11.978659+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 20910
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "Fast strong hash functions: SipHash/HighwayHash",
+    "fork": false,
+    "full_name": "google/highwayhash",
+    "html_url": "https://github.com/google/highwayhash",
+    "language": "C++",
+    "pushed_at": "2024-04-18T16:08:17Z",
+    "stargazers_count": 1600,
+    "topics": [],
+    "updated_at": "2026-04-20T06:50:12Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "asonnleitner/highwayhash-wasm",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "calebzulawski/autobahn-hash",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dgryski/go-highway",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jamescook/highwayhash",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Bump downstreams"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "clojure-lsp/clojure-lsp",
+      "status": "candidate-context",
+      "text": "Clojure & ClojureScript Language Server (LSP) implementation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clojure-lsp/clojure-lsp",
+      "status": "candidate-context",
+      "text": "Bump downstreams"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clojure-lsp/clojure-lsp",
+      "status": "candidate",
+      "text": "Bump downstreams"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15064,
+      "status": "candidate",
+      "text": "left"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15064,
+      "status": "candidate",
+      "text": "right"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15064,
+      "status": "candidate",
+      "text": "rights"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9004,
+      "status": "candidate",
+      "text": "afterburning"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9004,
+      "status": "candidate",
+      "text": "anabranch"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Bump downstreams",
+  "concept_id": "bump-downstreams",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/bump_downstreams.yml",
+      "source_repo": "clojure-lsp/clojure-lsp"
+    }
+  ],
+  "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Bump downstreams",
+      "sense_id": "bump-downstreams#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

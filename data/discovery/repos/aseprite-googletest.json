@@ -1,0 +1,65 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aseprite/googletest",
+      "target": "google/protobuf",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aseprite/googletest",
+      "target": "nholthaus/gtest-runner",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aseprite/googletest",
+      "target": "ospector/gtest-gbar",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-24T01:46:27.632438+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5785
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Google Test",
+    "fork": true,
+    "full_name": "aseprite/googletest",
+    "html_url": "https://github.com/aseprite/googletest",
+    "language": "C++",
+    "pushed_at": "2025-04-17T23:21:55Z",
+    "stargazers_count": 1,
+    "topics": [],
+    "updated_at": "2025-04-17T23:22:42Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "google/protobuf",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nholthaus/gtest-runner",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ospector/gtest-gbar",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

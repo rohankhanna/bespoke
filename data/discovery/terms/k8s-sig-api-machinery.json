@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -21,6 +21,11 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "kubernetes-sigs/kubebuilder"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "kubernetes-sigs/controller-tools"
     }
   ],
   "term": "k8s-sig-api-machinery"

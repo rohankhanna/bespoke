@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Test fixtures"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "orhun/git-cliff",
+      "status": "candidate-context",
+      "text": "A highly customizable Changelog Generator that follows Conventional Commit specifications \u26f0\ufe0f "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "orhun/git-cliff",
+      "status": "candidate-context",
+      "text": "Test fixtures"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "orhun/git-cliff",
+      "status": "candidate",
+      "text": "Test fixtures"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13398,
+      "status": "candidate",
+      "text": "plumb"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12888,
+      "status": "candidate",
+      "text": "fitting"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12647,
+      "status": "candidate",
+      "text": "fitter"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12647,
+      "status": "candidate",
+      "text": "fixture"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12647,
+      "status": "candidate",
+      "text": "plant"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Test fixtures",
+  "concept_id": "test-fixtures",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/test-fixtures.yml",
+      "source_repo": "orhun/git-cliff"
+    }
+  ],
+  "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Test fixtures",
+      "sense_id": "test-fixtures#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

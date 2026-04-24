@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Linux CPU tests"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "huggingface/optimum-quanto",
+      "status": "candidate-context",
+      "text": "A pytorch quantization backend for optimum"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "huggingface/optimum-quanto",
+      "status": "candidate-context",
+      "text": "Linux CPU tests"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "huggingface/optimum-quanto",
+      "status": "candidate",
+      "text": "Linux CPU tests"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18519,
+      "status": "candidate",
+      "text": "unix"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18125,
+      "status": "candidate",
+      "text": "play"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18125,
+      "status": "candidate",
+      "text": "trap"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17830,
+      "status": "candidate",
+      "text": "print"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10395,
+      "status": "candidate",
+      "text": "beatrix"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Linux CPU tests",
+  "concept_id": "linux-cpu-tests",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/linux-cpu-tests.yml",
+      "source_repo": "huggingface/optimum-quanto"
+    }
+  ],
+  "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Linux CPU tests",
+      "sense_id": "linux-cpu-tests#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

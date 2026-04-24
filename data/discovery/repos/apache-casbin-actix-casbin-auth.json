@@ -1,0 +1,337 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/create-release@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "apache/casbin-actix-casbin-auth",
+      "target": "casbin-rs/actix-casbin-auth",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "apache/casbin-actix-casbin-auth",
+      "target": "casbin/casbin-rs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "apache/casbin-actix-casbin-auth",
+      "target": "actix/actix-web",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Cargo.toml",
+      "source_repo": "apache/casbin-actix-casbin-auth",
+      "target": "casbin-rs/actix-casbin-auth",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "apache/casbin-actix-casbin-auth",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "apache/casbin-actix-casbin-auth",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "apache/casbin-actix-casbin-auth",
+      "target": "codecov/codecov-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "apache/casbin-actix-casbin-auth",
+      "target": "Code Coverage",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "apache/casbin-actix-casbin-auth",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "apache/casbin-actix-casbin-auth",
+      "target": "actions/create-release@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "apache/casbin-actix-casbin-auth",
+      "target": "Auto Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/casbin-actix-casbin-auth",
+      "target": "abac",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/casbin-actix-casbin-auth",
+      "target": "actix",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/casbin-actix-casbin-auth",
+      "target": "actix-web",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/casbin-actix-casbin-auth",
+      "target": "auth",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/casbin-actix-casbin-auth",
+      "target": "authentication",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/casbin-actix-casbin-auth",
+      "target": "casbin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/casbin-actix-casbin-auth",
+      "target": "casbin-rs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/casbin-actix-casbin-auth",
+      "target": "middleware",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/casbin-actix-casbin-auth",
+      "target": "permission",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/casbin-actix-casbin-auth",
+      "target": "rbac",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/casbin-actix-casbin-auth",
+      "target": "rust",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T01:48:00.702763+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6274
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 1262
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 1205
+    },
+    {
+      "path": ".github/workflows/coverage.yml",
+      "size": 691
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 1013
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Casbin Actix-web access control middleware",
+    "fork": false,
+    "full_name": "apache/casbin-actix-casbin-auth",
+    "html_url": "https://github.com/apache/casbin-actix-casbin-auth",
+    "language": "Rust",
+    "pushed_at": "2026-03-23T12:21:26Z",
+    "stargazers_count": 56,
+    "topics": [
+      "abac",
+      "acl",
+      "actix",
+      "actix-web",
+      "auth",
+      "authentication",
+      "casbin",
+      "casbin-rs",
+      "middleware",
+      "permission",
+      "rbac",
+      "rust"
+    ],
+    "updated_at": "2026-03-28T13:44:46Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "actix/actix-web",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "casbin-rs/actix-casbin-auth",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "casbin/casbin-rs",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "casbin-rs/actix-casbin-auth",
+      "source_file": "Cargo.toml"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Code Coverage",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/coverage.yml",
+      "term": "Code Coverage"
+    },
+    {
+      "context_snippet": "Auto Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Auto Release"
+    },
+    {
+      "context_snippet": "[![Crates.io](https://img.shields.io/crates/d/actix-casbin-auth)](https://crates.io/crates/actix-casbin-auth)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "abac"
+    },
+    {
+      "context_snippet": "[![Crates.io](https://img.shields.io/crates/d/actix-casbin-auth)](https://crates.io/crates/actix-casbin-auth)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "actix"
+    },
+    {
+      "context_snippet": "[![Crates.io](https://img.shields.io/crates/d/actix-casbin-auth)](https://crates.io/crates/actix-casbin-auth)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "actix-web"
+    },
+    {
+      "context_snippet": "[![Crates.io](https://img.shields.io/crates/d/actix-casbin-auth)](https://crates.io/crates/actix-casbin-auth)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "auth"
+    },
+    {
+      "context_snippet": "[![Crates.io](https://img.shields.io/crates/d/actix-casbin-auth)](https://crates.io/crates/actix-casbin-auth)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "authentication"
+    },
+    {
+      "context_snippet": "[![Crates.io](https://img.shields.io/crates/d/actix-casbin-auth)](https://crates.io/crates/actix-casbin-auth)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "casbin"
+    },
+    {
+      "context_snippet": "[![Crates.io](https://img.shields.io/crates/d/actix-casbin-auth)](https://crates.io/crates/actix-casbin-auth)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "casbin-rs"
+    },
+    {
+      "context_snippet": "[![Crates.io](https://img.shields.io/crates/d/actix-casbin-auth)](https://crates.io/crates/actix-casbin-auth)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "middleware"
+    },
+    {
+      "context_snippet": "[![Crates.io](https://img.shields.io/crates/d/actix-casbin-auth)](https://crates.io/crates/actix-casbin-auth)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "permission"
+    },
+    {
+      "context_snippet": "[![Crates.io](https://img.shields.io/crates/d/actix-casbin-auth)](https://crates.io/crates/actix-casbin-auth)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rbac"
+    },
+    {
+      "context_snippet": "[![Crates.io](https://img.shields.io/crates/d/actix-casbin-auth)](https://crates.io/crates/actix-casbin-auth)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust"
+    }
+  ]
+}

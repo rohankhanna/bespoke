@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-17T16:51:41.136432+00:00",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -936,6 +936,86 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/main.yaml",
       "source_repo": "python-poetry/poetry-plugin-bundle"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "niheaven/scoop-sysinternals"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "drivendataorg/cookiecutter-data-science"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "jxpress/lightning-hydra-template-vertex-ai"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "nvim-telescope/telescope-fzf-native.nvim"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "stevearc/stickybuf.nvim"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "kristijanhusak/vim-dadbod-ui"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "aloucks/spng-rs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "Ezibenroc/PyRoaringBitMap"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "enbop/fungi-app"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/python.yml",
+      "source_repo": "authlib/authlib"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "Uniswap/v3-core"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "conda/grayskull"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/ci-unit-tests.yml",
+      "source_repo": "jaegertracing/jaeger-idl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "aws-actions/aws-secretsmanager-get-secrets"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "stx-labs/stacks.js"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/pytest.yml",
+      "source_repo": "alexmojaki/cheap_repr"
     }
   ],
   "term": "Tests"

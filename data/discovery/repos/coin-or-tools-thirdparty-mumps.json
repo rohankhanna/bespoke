@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-24T01:51:10.024888+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3077
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "stable/3.0",
+    "description": "COIN-OR autotools harness to build Mumps",
+    "fork": false,
+    "full_name": "coin-or-tools/ThirdParty-Mumps",
+    "html_url": "https://github.com/coin-or-tools/ThirdParty-Mumps",
+    "language": "Shell",
+    "pushed_at": "2026-04-01T00:27:13Z",
+    "stargazers_count": 24,
+    "topics": [],
+    "updated_at": "2026-04-01T00:26:07Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

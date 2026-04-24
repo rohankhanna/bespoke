@@ -1,0 +1,119 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "pharmbio/sciluigi",
+      "target": "pharmbio/bioimg-sciluigi-casestudy",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "pharmbio/sciluigi",
+      "target": "samuell/sciluigi",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pharmbio/sciluigi",
+      "target": "luigi",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pharmbio/sciluigi",
+      "target": "scientific-workflows",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pharmbio/sciluigi",
+      "target": "workflow",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pharmbio/sciluigi",
+      "target": "workflow-engine",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T00:55:34.515146+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 13331
+    },
+    {
+      "path": "README.rst",
+      "size": 99
+    },
+    {
+      "path": "requirements.txt",
+      "size": 13
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A light-weight wrapper library around Spotify's Luigi workflow library to make writing scientific workflows more fluent, flexible and modular",
+    "fork": false,
+    "full_name": "pharmbio/sciluigi",
+    "html_url": "https://github.com/pharmbio/sciluigi",
+    "language": "Python",
+    "pushed_at": "2024-12-10T17:04:10Z",
+    "stargazers_count": 334,
+    "topics": [
+      "luigi",
+      "scientific-workflows",
+      "workflow",
+      "workflow-engine"
+    ],
+    "updated_at": "2026-04-15T17:43:36Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pharmbio/bioimg-sciluigi-casestudy",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "samuell/sciluigi",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "![SciLuigi Logo](http://i.imgur.com/2aMT04J.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "luigi"
+    },
+    {
+      "context_snippet": "![SciLuigi Logo](http://i.imgur.com/2aMT04J.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "scientific-workflows"
+    },
+    {
+      "context_snippet": "![SciLuigi Logo](http://i.imgur.com/2aMT04J.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "workflow"
+    },
+    {
+      "context_snippet": "![SciLuigi Logo](http://i.imgur.com/2aMT04J.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "workflow-engine"
+    }
+  ]
+}

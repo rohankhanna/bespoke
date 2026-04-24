@@ -152,6 +152,30 @@
       "source_repo": "python-poetry/poetry",
       "status": "candidate-context",
       "text": "Backport"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lightningnetwork/lnd",
+      "status": "candidate-context",
+      "text": "Lightning Network Daemon \u26a1\ufe0f"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lightningnetwork/lnd",
+      "status": "candidate-context",
+      "text": "Backport"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pylint-dev/astroid",
+      "status": "candidate-context",
+      "text": "A common base representation of python source code for pylint and other projects"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pylint-dev/astroid",
+      "status": "candidate-context",
+      "text": "Backport"
     }
   ],
   "candidate_glosses": [
@@ -224,6 +248,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "python-poetry/poetry",
+      "status": "candidate",
+      "text": "Backport"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lightningnetwork/lnd",
+      "status": "candidate",
+      "text": "Backport"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pylint-dev/astroid",
       "status": "candidate",
       "text": "Backport"
     }
@@ -347,11 +383,23 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": ".github/workflows/backport.yaml",
       "source_repo": "python-poetry/poetry"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/backport.yml",
+      "source_repo": "lightningnetwork/lnd"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/backport.yml",
+      "source_repo": "pylint-dev/astroid"
     }
   ],
   "first_seen_at": "2026-04-18T12:07:11.500453+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

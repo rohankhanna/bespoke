@@ -403,6 +403,42 @@
       "source_repo": "huggingface/datasets",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "openvinotoolkit/openvino",
+      "status": "candidate-context",
+      "text": "OpenVINO\u2122 is an open source toolkit for optimizing and deploying AI inference"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openvinotoolkit/openvino",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Jumpat/SegmentAnythingin3D",
+      "status": "candidate-context",
+      "text": "Segment Anything in 3D with NeRFs (NeurIPS 2023 & IJCV 2025)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Jumpat/SegmentAnythingin3D",
+      "status": "candidate-context",
+      "text": "[Segment Anything in 3D with NeRFs](https://arxiv.org/abs/2304.12308)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pytorch/vision",
+      "status": "candidate-context",
+      "text": "Datasets, Transforms and Models specific to Computer Vision"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pytorch/vision",
+      "status": "candidate-context",
+      "text": "[![total torchvision downloads](https://pepy.tech/badge/torchvision)](https://pepy.tech/project/torchvision)"
     }
   ],
   "candidate_glosses": [
@@ -603,6 +639,24 @@
       "source_repo": "huggingface/datasets",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openvinotoolkit/openvino",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Jumpat/SegmentAnythingin3D",
+      "status": "candidate",
+      "text": "[Segment Anything in 3D with NeRFs](https://arxiv.org/abs/2304.12308)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pytorch/vision",
+      "status": "candidate",
+      "text": "[![total torchvision downloads](https://pepy.tech/badge/torchvision)](https://pepy.tech/project/torchvision)"
     }
   ],
   "candidate_related_terms": [],
@@ -820,11 +874,29 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "huggingface/datasets"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "openvinotoolkit/openvino"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "Jumpat/SegmentAnythingin3D"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "pytorch/vision"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

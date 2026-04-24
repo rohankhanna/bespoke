@@ -445,6 +445,18 @@
       "source_repo": "google/fonts",
       "status": "candidate-context",
       "text": "Scorecard supply-chain security"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "celo-org/celo-monorepo",
+      "status": "candidate-context",
+      "text": "Official repository for core projects comprising the Celo platform"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "celo-org/celo-monorepo",
+      "status": "candidate-context",
+      "text": "Scorecard supply-chain security"
     }
   ],
   "candidate_glosses": [
@@ -667,6 +679,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "google/fonts",
+      "status": "candidate",
+      "text": "Scorecard supply-chain security"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "celo-org/celo-monorepo",
       "status": "candidate",
       "text": "Scorecard supply-chain security"
     }
@@ -1018,11 +1036,23 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": ".github/workflows/scorecard.yml",
       "source_repo": "google/fonts"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "ohmyzsh/ohmyzsh"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "celo-org/celo-monorepo"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

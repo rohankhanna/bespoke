@@ -103,6 +103,18 @@
       "source_repo": "google-gemini/starter-applets",
       "status": "candidate-context",
       "text": "This repository contains the source code for Google AI Studio's"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google/yapf",
+      "status": "candidate-context",
+      "text": "A formatter for Python files"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/yapf",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -153,6 +165,12 @@
       "source_repo": "google-gemini/starter-applets",
       "status": "candidate",
       "text": "This repository contains the source code for Google AI Studio's"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/yapf",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -244,11 +262,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "google-gemini/starter-applets"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "google/yapf"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

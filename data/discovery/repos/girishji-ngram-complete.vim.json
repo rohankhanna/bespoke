@@ -1,0 +1,87 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "girishji/ngram-complete.vim",
+      "target": "autocomplete",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "girishji/ngram-complete.vim",
+      "target": "google-ngram",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "girishji/ngram-complete.vim",
+      "target": "vim-plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "girishji/ngram-complete.vim",
+      "target": "vimcomplete",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T00:46:38.367186+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2879
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Autocompletion based on frequency of word occurrence in English corpus.",
+    "fork": false,
+    "full_name": "girishji/ngram-complete.vim",
+    "html_url": "https://github.com/girishji/ngram-complete.vim",
+    "language": "Vim Script",
+    "pushed_at": "2024-12-18T16:49:00Z",
+    "stargazers_count": 12,
+    "topics": [
+      "autocomplete",
+      "google-ngram",
+      "vim",
+      "vim-plugin",
+      "vimcomplete"
+    ],
+    "updated_at": "2026-03-29T09:55:37Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Traditional dictionary based word completion is more or less useless since it",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "autocomplete"
+    },
+    {
+      "context_snippet": "Traditional dictionary based word completion is more or less useless since it",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "google-ngram"
+    },
+    {
+      "context_snippet": "Traditional dictionary based word completion is more or less useless since it",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vim-plugin"
+    },
+    {
+      "context_snippet": "Traditional dictionary based word completion is more or less useless since it",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vimcomplete"
+    }
+  ]
+}

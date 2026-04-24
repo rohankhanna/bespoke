@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "tokio-rs"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "stepancheg/grpc-rust",
+      "status": "candidate-context",
+      "text": "Rust implementation of gRPC"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stepancheg/grpc-rust",
+      "status": "candidate-context",
+      "text": "grpc-rust"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stepancheg/grpc-rust",
+      "status": "candidate",
+      "text": "grpc-rust"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "tokio-rs",
+  "concept_id": "tokio-rs",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "stepancheg/grpc-rust"
+    }
+  ],
+  "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "tokio-rs",
+      "sense_id": "tokio-rs#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

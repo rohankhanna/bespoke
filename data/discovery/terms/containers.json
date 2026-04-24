@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T10:38:37.562216+00:00",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -291,6 +291,31 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "bazel-contrib/rules_img"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "apptainer/apptainer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "89luca89/distrobox"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "chainguard-dev/apko"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "giuseppe/become-root"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "stacks-archive/gaia"
     }
   ],
   "term": "containers"

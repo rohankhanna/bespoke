@@ -1,11 +1,14 @@
 {
   "aliases": [
-    "EditorConfig"
+    "EditorConfig",
+    "editorconfig"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
     "workflow-process",
-    "data-document-artifact"
+    "data-document-artifact",
+    "tool-component",
+    "capability"
   ],
   "candidate_definitions": [
     {
@@ -31,6 +34,18 @@
       "source_repo": "SAP/abap-file-formats-tools",
       "status": "candidate-context",
       "text": "EditorConfig"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "angelozerr/ec4e",
+      "status": "candidate-context",
+      "text": "EditorConfig for Eclipse based on GenericEditor and tm4e"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "angelozerr/ec4e",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://secure.travis-ci.org/angelozerr/ec4e.png)](http://travis-ci.org/angelozerr/ec4e)"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +60,12 @@
       "source_repo": "SAP/abap-file-formats-tools",
       "status": "candidate",
       "text": "EditorConfig"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "angelozerr/ec4e",
+      "status": "candidate",
+      "text": "[![Build Status](https://secure.travis-ci.org/angelozerr/ec4e.png)](http://travis-ci.org/angelozerr/ec4e)"
     }
   ],
   "candidate_related_terms": [],
@@ -64,11 +85,17 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": ".github/workflows/editorconfig.yml",
       "source_repo": "SAP/abap-file-formats-tools"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "angelozerr/ec4e"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

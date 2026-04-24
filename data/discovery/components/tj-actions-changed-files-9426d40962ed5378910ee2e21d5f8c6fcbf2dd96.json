@@ -1,7 +1,7 @@
 {
   "component": "tj-actions/changed-files@9426d40962ed5378910ee2e21d5f8c6fcbf2dd96",
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -32,6 +32,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/ci-build.yaml",
       "source_repo": "argoproj/argo-cd"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/check-build.yml",
+      "source_repo": "aws-powertools/powertools-lambda-java"
     }
   ]
 }

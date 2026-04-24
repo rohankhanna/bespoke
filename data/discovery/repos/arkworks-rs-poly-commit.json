@@ -81,23 +81,9 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "arkworks-rs/poly-commit",
-      "target": "arkworks-rs/crypto-primitives",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
       "source_file": "Cargo.toml",
       "source_repo": "arkworks-rs/poly-commit",
-      "target": "arkworks-rs/crypto-primitives",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "Cargo.toml",
-      "source_repo": "arkworks-rs/poly-commit",
-      "target": "arkworks-rs/r1cs-std",
+      "target": "arkworks-rs/std",
       "target_type": "repository"
     },
     {
@@ -185,7 +171,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-23T20:38:36.117529+00:00",
+  "fetched_at": "2026-04-24T00:57:43.800967+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -228,22 +214,12 @@
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
-      "full_name": "arkworks-rs/crypto-primitives",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
       "full_name": "scipr-lab/poly-commit",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "arkworks-rs/crypto-primitives",
-      "source_file": "Cargo.toml"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "arkworks-rs/r1cs-std",
+      "full_name": "arkworks-rs/std",
       "source_file": "Cargo.toml"
     }
   ],

@@ -1,0 +1,126 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "cachix/install-nix-action@v30",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "cachix/cachix-action@v15",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "nmattia/niv",
+      "target": "stedolan/jq",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "nmattia/niv",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "nmattia/niv",
+      "target": "cachix/install-nix-action@v30",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "nmattia/niv",
+      "target": "cachix/cachix-action@v15",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "nmattia/niv",
+      "target": "Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nmattia/niv",
+      "target": "package-manager",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nmattia/niv",
+      "target": "versioning",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T00:45:59.348165+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 18361
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 512
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Easy dependency management for Nix projects",
+    "fork": false,
+    "full_name": "nmattia/niv",
+    "html_url": "https://github.com/nmattia/niv",
+    "language": "Haskell",
+    "pushed_at": "2026-03-26T20:53:06Z",
+    "stargazers_count": 1825,
+    "topics": [
+      "nix",
+      "package-manager",
+      "versioning"
+    ],
+    "updated_at": "2026-04-22T21:29:02Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "stedolan/jq",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "\"Test\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "Test"
+    },
+    {
+      "context_snippet": "[![Test](https://github.com/nmattia/niv/actions/workflows/test.yml/badge.svg)](https://github.com/nmattia/niv/actions/workflows/test.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "package-manager"
+    },
+    {
+      "context_snippet": "[![Test](https://github.com/nmattia/niv/actions/workflows/test.yml/badge.svg)](https://github.com/nmattia/niv/actions/workflows/test.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "versioning"
+    }
+  ]
+}

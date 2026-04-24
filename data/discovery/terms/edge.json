@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -31,6 +31,21 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "acheong08/EdgeGPT"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/edge.yml",
+      "source_repo": "3dfxdev/EDGE"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "3dfxdev/EDGE"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/docker-edge.yml",
+      "source_repo": "browserless/browserless"
     }
   ],
   "term": "edge"

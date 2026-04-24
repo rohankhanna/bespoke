@@ -1,0 +1,17 @@
+{
+  "component": "cross-platform-actions/action@v0.25.0",
+  "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/prepare-release.yml",
+      "source_repo": "tailwindlabs/tailwindcss"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "tailwindlabs/tailwindcss"
+    }
+  ]
+}

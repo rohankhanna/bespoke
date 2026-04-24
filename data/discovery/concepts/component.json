@@ -19,6 +19,18 @@
       "source_repo": "grubersjoe/react-activity-calendar",
       "status": "candidate-context",
       "text": "[![Tests](https://github.com/grubersjoe/react-activity-calendar/actions/workflows/test.yml/badge.svg)](https://github.com/grubersjoe/react-activity-calendar/actions/workflows/test.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "teacher-zhou/ComponentBuilder",
+      "status": "candidate-context",
+      "text": "An automation framework to create Blazor component"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "teacher-zhou/ComponentBuilder",
+      "status": "candidate-context",
+      "text": "The best automation framework for RCL(Razor Component Library) to help you easy and quickly building your own Razor Component Library"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "grubersjoe/react-activity-calendar",
       "status": "candidate",
       "text": "[![Tests](https://github.com/grubersjoe/react-activity-calendar/actions/workflows/test.yml/badge.svg)](https://github.com/grubersjoe/react-activity-calendar/actions/workflows/test.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "teacher-zhou/ComponentBuilder",
+      "status": "candidate",
+      "text": "The best automation framework for RCL(Razor Component Library) to help you easy and quickly building your own Razor Component Library"
     }
   ],
   "candidate_related_terms": [
@@ -112,11 +130,17 @@
       "observed_at": "2026-04-19T02:42:33.990002+00:00",
       "source_file": null,
       "source_repo": "grubersjoe/react-activity-calendar"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "teacher-zhou/ComponentBuilder"
     }
   ],
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-19T02:42:33.990002+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

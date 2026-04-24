@@ -1,7 +1,7 @@
 {
   "component": "actions/github-script@v7",
   "first_seen_at": "2026-04-18T03:26:22.590180+00:00",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -1067,6 +1067,71 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/grug-variant-diff.yaml",
       "source_repo": "marin-community/marin"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/auto-add-seo.yml",
+      "source_repo": "abpframework/abp"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/backport-base.yml",
+      "source_repo": "microsoft/dcp"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/validate-generated.yml",
+      "source_repo": "microsoft/dcp"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/commands.yml",
+      "source_repo": "dotnet/fsharp"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/automation_request_review.yml",
+      "source_repo": "stevearc/conform.nvim"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/automation_request_review.yml",
+      "source_repo": "stevearc/stickybuf.nvim"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-without-lockfile.yml",
+      "source_repo": "EspressoSystems/espresso-network"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/_detect.yml",
+      "source_repo": "apache/iggy"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/common_failure_alerts.yaml",
+      "source_repo": "lambdaclass/ethrex"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/tag-release.yml",
+      "source_repo": "emscripten-core/emsdk"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/protocol-devchain-anvil.yml",
+      "source_repo": "celo-org/celo-monorepo"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/label-failing-pr.yml",
+      "source_repo": "TechEmpower/FrameworkBenchmarks"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ping-maintainers.yml",
+      "source_repo": "TechEmpower/FrameworkBenchmarks"
     }
   ]
 }

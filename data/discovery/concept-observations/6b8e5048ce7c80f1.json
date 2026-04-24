@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "C# language projection for the Windows Runtime"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![Build Status](https://dev.azure.com/microsoft/Dart/_apis/build/status%2FCsWinRT%20GitHub%20CI?branchName=master)](https://dev.azure.com/microsoft/Dart/_build/latest?definitionId=112455&branchName=master)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![Build Status](https://dev.azure.com/microsoft/Dart/_apis/build/status%2FCsWinRT%20GitHub%20CI?branchName=master)](https://dev.azure.com/microsoft/Dart/_build/latest?definitionId=112455&branchName=master)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19832172,
+      "status": "candidate",
+      "text": "win16"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19832171,
+      "status": "candidate",
+      "text": "winxp"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19832170,
+      "status": "candidate",
+      "text": "win7"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19832169,
+      "status": "candidate",
+      "text": "winforms"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19832168,
+      "status": "candidate",
+      "text": "winkey"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "winrt",
+      "sense_id": "winrt#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "winrt",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "winrt",
+  "observation_id": "6b8e5048ce7c80f1",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T00:33:56.049672+00:00",
+  "observed_text": "winrt",
+  "source_context_snippet": "[![Build Status](https://dev.azure.com/microsoft/Dart/_apis/build/status%2FCsWinRT%20GitHub%20CI?branchName=master)](https://dev.azure.com/microsoft/Dart/_build/latest?definitionId=112455&branchName=master)",
+  "source_file": null,
+  "source_repo": "microsoft/CsWinRT",
+  "source_repo_description": "C# language projection for the Windows Runtime"
+}

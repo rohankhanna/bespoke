@@ -55,6 +55,18 @@
       "source_repo": "KhronosGroup/Vulkan-Samples",
       "status": "candidate-context",
       "text": "Quality Checks"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "huggingface/optimum-onnx",
+      "status": "candidate-context",
+      "text": "\ud83e\udd17 Optimum ONNX: Export your model to ONNX and run inference with ONNX Runtime"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "huggingface/optimum-onnx",
+      "status": "candidate-context",
+      "text": "Quality Checks"
     }
   ],
   "candidate_glosses": [
@@ -79,6 +91,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "KhronosGroup/Vulkan-Samples",
+      "status": "candidate",
+      "text": "Quality Checks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "huggingface/optimum-onnx",
       "status": "candidate",
       "text": "Quality Checks"
     }
@@ -148,11 +166,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": ".github/workflows/check.yml",
       "source_repo": "KhronosGroup/Vulkan-Samples"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/quality.yml",
+      "source_repo": "huggingface/optimum-onnx"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

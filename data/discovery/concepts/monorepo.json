@@ -67,6 +67,18 @@
       "source_repo": "microsoft/rnx-kit",
       "status": "candidate-context",
       "text": "[![Open in Visual Studio Code](https://img.shields.io/static/v1?logo=visualstudiocode&label=&message=Open%20in%20Visual%20Studio%20Code&color=007acc&labelColor=444444&logoColor=007acc)](https://vscode.dev/github/microsoft/rnx-kit)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dotnet/dotnet",
+      "status": "candidate-context",
+      "text": "Home of .NET's Virtual Monolithic Repository which includes all the code needed to build the .NET SDK."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dotnet/dotnet",
+      "status": "candidate-context",
+      "text": "This repository is a **Virtual Monolithic Repository (VMR)** which includes all the source code and infrastructure needed to build the .NET SDK."
     }
   ],
   "candidate_glosses": [
@@ -99,6 +111,12 @@
       "source_repo": "microsoft/rnx-kit",
       "status": "candidate",
       "text": "[![Open in Visual Studio Code](https://img.shields.io/static/v1?logo=visualstudiocode&label=&message=Open%20in%20Visual%20Studio%20Code&color=007acc&labelColor=444444&logoColor=007acc)](https://vscode.dev/github/microsoft/rnx-kit)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dotnet/dotnet",
+      "status": "candidate",
+      "text": "This repository is a **Virtual Monolithic Repository (VMR)** which includes all the source code and infrastructure needed to build the .NET SDK."
     }
   ],
   "candidate_related_terms": [
@@ -172,11 +190,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "microsoft/rnx-kit"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "dotnet/dotnet"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

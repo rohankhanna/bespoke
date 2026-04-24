@@ -1,0 +1,12 @@
+{
+  "component": "celo-org/reusable-workflows/.github/workflows/container-cicd.yaml@v2.0.5",
+  "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/containers.yaml",
+      "source_repo": "celo-org/celo-monorepo"
+    }
+  ]
+}

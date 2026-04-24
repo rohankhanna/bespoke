@@ -1,7 +1,7 @@
 {
   "component": "amannn/action-semantic-pull-request@v5",
   "first_seen_at": "2026-04-18T09:23:05.253565+00:00",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -67,6 +67,26 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/title.yml",
       "source_repo": "jsr-io/jsr"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "aspect-build/rules_js"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/_common.yml",
+      "source_repo": "apache/iggy"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/validate-pr.yml",
+      "source_repo": "newrelic/newrelic-node-apollo-server-plugin"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/validate-pr.yml",
+      "source_repo": "newrelic/node-native-metrics"
     }
   ]
 }

@@ -1,0 +1,122 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "gregjones/httpcache",
+      "target": "peterbourgon/diskv",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "gregjones/httpcache",
+      "target": "die-net/lrucache",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "gregjones/httpcache",
+      "target": "birkelund/boltdbcache",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "gregjones/httpcache",
+      "target": "coreos/bbolt",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gregjones/httpcache",
+      "target": "cache",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gregjones/httpcache",
+      "target": "http",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gregjones/httpcache",
+      "target": "transport",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T01:50:22.170490+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2344
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "A Transport for http.Client that will cache responses according to the HTTP RFC",
+    "fork": false,
+    "full_name": "gregjones/httpcache",
+    "html_url": "https://github.com/gregjones/httpcache",
+    "language": "Go",
+    "pushed_at": "2023-04-20T16:59:34Z",
+    "stargazers_count": 758,
+    "topics": [
+      "cache",
+      "go",
+      "http",
+      "transport"
+    ],
+    "updated_at": "2026-04-13T12:18:32Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "birkelund/boltdbcache",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "coreos/bbolt",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "die-net/lrucache",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "peterbourgon/diskv",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "httpcache",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cache"
+    },
+    {
+      "context_snippet": "httpcache",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "http"
+    },
+    {
+      "context_snippet": "httpcache",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "transport"
+    }
+  ]
+}

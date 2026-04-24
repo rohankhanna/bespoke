@@ -298,6 +298,18 @@
       "source_repo": "gofiber/fiber",
       "status": "candidate-context",
       "text": "Dependabot auto-merge"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vega/vega-embed",
+      "status": "candidate-context",
+      "text": "Publish Vega visualizations as embedded web components with interactive parameters."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vega/vega-embed",
+      "status": "candidate-context",
+      "text": "Dependabot auto-merge"
     }
   ],
   "candidate_glosses": [
@@ -436,6 +448,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "gofiber/fiber",
+      "status": "candidate",
+      "text": "Dependabot auto-merge"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vega/vega-embed",
       "status": "candidate",
       "text": "Dependabot auto-merge"
     }
@@ -625,11 +643,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": ".github/workflows/dependabot_automerge.yml",
       "source_repo": "gofiber/fiber"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/merge-dependabot.yml",
+      "source_repo": "vega/vega-embed"
     }
   ],
   "first_seen_at": "2026-04-18T13:29:00.435097+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

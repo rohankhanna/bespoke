@@ -298,6 +298,18 @@
       "source_repo": "GoogleContainerTools/container-structure-test",
       "status": "candidate-context",
       "text": "Bazel"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aspect-build/rules_js",
+      "status": "candidate-context",
+      "text": "High-performance Bazel rules for running Node.js tools and building JavaScript projects"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aspect-build/rules_js",
+      "status": "candidate-context",
+      "text": "This ruleset is a high-performance Bazel integration for JavaScript, based on the [pnpm package manager](https://pnpm.io)."
     }
   ],
   "candidate_glosses": [
@@ -444,6 +456,12 @@
       "source_repo": "GoogleContainerTools/container-structure-test",
       "status": "candidate",
       "text": "Bazel"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aspect-build/rules_js",
+      "status": "candidate",
+      "text": "This ruleset is a high-performance Bazel integration for JavaScript, based on the [pnpm package manager](https://pnpm.io)."
     }
   ],
   "candidate_related_terms": [
@@ -643,11 +661,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": ".github/workflows/bazel.yaml",
       "source_repo": "GoogleContainerTools/container-structure-test"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "aspect-build/rules_js"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

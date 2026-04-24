@@ -43,6 +43,18 @@
       "source_repo": "RoaringBitmap/RoaringBitmap",
       "status": "candidate-context",
       "text": "RoaringBitmap"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Ezibenroc/PyRoaringBitMap",
+      "status": "candidate-context",
+      "text": "Python library for handling efficiently sorted integer sets."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Ezibenroc/PyRoaringBitMap",
+      "status": "candidate-context",
+      "text": "|Documentation Status|"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "RoaringBitmap/RoaringBitmap",
       "status": "candidate",
       "text": "RoaringBitmap"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Ezibenroc/PyRoaringBitMap",
+      "status": "candidate",
+      "text": "|Documentation Status|"
     }
   ],
   "candidate_related_terms": [
@@ -124,11 +142,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "RoaringBitmap/RoaringBitmap"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "Ezibenroc/PyRoaringBitMap"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

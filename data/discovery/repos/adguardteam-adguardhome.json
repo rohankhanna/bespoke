@@ -1,0 +1,218 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AdguardTeam/AdGuardHome",
+      "target": "adguardteam/codeguidelines",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AdguardTeam/AdGuardHome",
+      "target": "andrea055/adguardhomeapi",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AdguardTeam/AdGuardHome",
+      "target": "adguardteam/dnsproxy",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AdguardTeam/AdGuardHome",
+      "target": "adguardteam/urlfilter",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AdguardTeam/AdGuardHome",
+      "target": "adblock",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AdguardTeam/AdGuardHome",
+      "target": "adguard",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AdguardTeam/AdGuardHome",
+      "target": "dns-over-https",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AdguardTeam/AdGuardHome",
+      "target": "dns-over-quic",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AdguardTeam/AdGuardHome",
+      "target": "dns-over-tls",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AdguardTeam/AdGuardHome",
+      "target": "dnscrypt",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AdguardTeam/AdGuardHome",
+      "target": "golang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AdguardTeam/AdGuardHome",
+      "target": "open-source",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AdguardTeam/AdGuardHome",
+      "target": "privacy",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T00:59:41.347278+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 22485
+    },
+    {
+      "path": "go.mod",
+      "size": 5765
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 5553
+    },
+    {
+      "path": ".github/workflows/lint.yml",
+      "size": 2696
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Network-wide ads & trackers blocking DNS server",
+    "fork": false,
+    "full_name": "AdguardTeam/AdGuardHome",
+    "html_url": "https://github.com/AdguardTeam/AdGuardHome",
+    "language": "Go",
+    "pushed_at": "2026-04-23T15:22:36Z",
+    "stargazers_count": 33670,
+    "topics": [
+      "adblock",
+      "adguard",
+      "dns",
+      "dns-over-https",
+      "dns-over-quic",
+      "dns-over-tls",
+      "dnscrypt",
+      "golang",
+      "open-source",
+      "privacy"
+    ],
+    "updated_at": "2026-04-24T00:49:54Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "adguardteam/codeguidelines",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "adguardteam/dnsproxy",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "adguardteam/urlfilter",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "andrea055/adguardhomeapi",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "&nbsp;",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "adblock"
+    },
+    {
+      "context_snippet": "&nbsp;",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "adguard"
+    },
+    {
+      "context_snippet": "&nbsp;",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dns-over-https"
+    },
+    {
+      "context_snippet": "&nbsp;",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dns-over-quic"
+    },
+    {
+      "context_snippet": "&nbsp;",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dns-over-tls"
+    },
+    {
+      "context_snippet": "&nbsp;",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dnscrypt"
+    },
+    {
+      "context_snippet": "&nbsp;",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "golang"
+    },
+    {
+      "context_snippet": "&nbsp;",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "open-source"
+    },
+    {
+      "context_snippet": "&nbsp;",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "privacy"
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alibaba-damo-academy/PixelRefer",
+      "target": "mllm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alibaba-damo-academy/PixelRefer",
+      "target": "pixel-understanding",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alibaba-damo-academy/PixelRefer",
+      "target": "sam2",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alibaba-damo-academy/PixelRefer",
+      "target": "video-understanding",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T02:03:03.429285+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6264
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "The code for PixelRefer & VideoRefer",
+    "fork": false,
+    "full_name": "alibaba-damo-academy/PixelRefer",
+    "html_url": "https://github.com/alibaba-damo-academy/PixelRefer",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2025-11-16T07:54:05Z",
+    "stargazers_count": 349,
+    "topics": [
+      "mllm",
+      "pixel-understanding",
+      "sam2",
+      "video-understanding"
+    ],
+    "updated_at": "2026-04-22T12:18:00Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mllm"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pixel-understanding"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sam2"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "video-understanding"
+    }
+  ]
+}

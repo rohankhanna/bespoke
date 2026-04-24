@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "stencil"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "SwiftGen/SwiftGen",
+      "status": "candidate-context",
+      "text": "The Swift code generator for your assets, storyboards, Localizable.strings, \u2026 \u2014 Get rid of all String-based APIs!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SwiftGen/SwiftGen",
+      "status": "candidate-context",
+      "text": "[![CocoaPods Compatible](https://img.shields.io/cocoapods/v/SwiftGen.svg)](https://img.shields.io/cocoapods/v/SwiftGen.svg)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SwiftGen/SwiftGen",
+      "status": "candidate",
+      "text": "[![CocoaPods Compatible](https://img.shields.io/cocoapods/v/SwiftGen.svg)](https://img.shields.io/cocoapods/v/SwiftGen.svg)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29901905,
+      "status": "candidate",
+      "text": "gallery"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29885793,
+      "status": "candidate",
+      "text": "double-sided"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29882586,
+      "status": "candidate",
+      "text": "pane"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29879843,
+      "status": "candidate",
+      "text": "panel"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29878043,
+      "status": "candidate",
+      "text": "template"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "stencil",
+  "concept_id": "stencil",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "SwiftGen/SwiftGen"
+    }
+  ],
+  "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "stencil",
+      "sense_id": "stencil#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

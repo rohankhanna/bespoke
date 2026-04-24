@@ -1,0 +1,115 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A vault for securely storing and accessing AWS credentials in development environments"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![Downloads](https://img.shields.io/github/downloads/byteness/aws-vault/total)](https://github.com/byteness/aws-vault/releases)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![Downloads](https://img.shields.io/github/downloads/byteness/aws-vault/total)](https://github.com/byteness/aws-vault/releases)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39917252,
+      "status": "candidate",
+      "text": "certificate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39915627,
+      "status": "candidate",
+      "text": "certification"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29919734,
+      "status": "candidate",
+      "text": "delegation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29918066,
+      "status": "candidate",
+      "text": "accreditation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29917417,
+      "status": "candidate",
+      "text": "jurisdiction"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "credentials",
+      "sense_id": "credentials#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 4048,
+      "status": "candidate",
+      "text": "certification"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 3028,
+      "status": "candidate",
+      "text": "credential"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2054,
+      "status": "candidate",
+      "text": "certificate"
+    }
+  ],
+  "concept_id": "credentials",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "credentials",
+  "observation_id": "89e58996811a231d",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T00:33:56.049672+00:00",
+  "observed_text": "credentials",
+  "source_context_snippet": "[![Downloads](https://img.shields.io/github/downloads/byteness/aws-vault/total)](https://github.com/byteness/aws-vault/releases)",
+  "source_file": null,
+  "source_repo": "ByteNess/aws-vault",
+  "source_repo_description": "A vault for securely storing and accessing AWS credentials in development environments"
+}

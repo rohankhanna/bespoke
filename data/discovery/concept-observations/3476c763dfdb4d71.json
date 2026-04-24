@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "This repository contains a base networking framework for building any realtime multiplayer game on the web with Ably using the client/server architecture. This project uses vanilla JS on the client-side and NodeJS on the server-side and is scalable as you need "
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "This starter kit allows you to add multiplayer functionality (that follows the [Client/Server strategy](https://www.gabrielgambetta.com/client-server-game-architecture.html)) to your game. It provides a communication framework so that your players can communicate with a central \u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "This starter kit allows you to add multiplayer functionality (that follows the [Client/Server strategy](https://www.gabrielgambetta.com/client-server-game-architecture.html)) to your game. It provides a communication framework so that your players can communicate with a central \u2026"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "nodejs",
+      "sense_id": "nodejs#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "nodejs",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "nodejs",
+  "observation_id": "3476c763dfdb4d71",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T00:33:56.049672+00:00",
+  "observed_text": "nodejs",
+  "source_context_snippet": "This starter kit allows you to add multiplayer functionality (that follows the [Client/Server strategy](https://www.gabrielgambetta.com/client-server-game-architecture.html)) to your game. It provides a communication framework so that your players can communicate with a central \u2026",
+  "source_file": null,
+  "source_repo": "ably-labs/multiplayer-games-scalable-networking-framework",
+  "source_repo_description": "This repository contains a base networking framework for building any realtime multiplayer game on the web with Ably using the client/server architecture. This project uses vanilla JS on the client-side and NodeJS on the server-side and is scalable as you need "
+}

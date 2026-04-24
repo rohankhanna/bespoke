@@ -1,0 +1,115 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "UI integrations for lsp-mode"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "lsp-ui"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "lsp-ui"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40023849,
+      "status": "candidate",
+      "text": "glance"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40013051,
+      "status": "candidate",
+      "text": "glint"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39738280,
+      "status": "candidate",
+      "text": "peep"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30022640,
+      "status": "candidate",
+      "text": "glimpse"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30017028,
+      "status": "candidate",
+      "text": "look-see"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "peek",
+      "sense_id": "peek#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 42039,
+      "status": "candidate",
+      "text": "glint"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 39037,
+      "status": "candidate",
+      "text": "glance"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 16048,
+      "status": "candidate",
+      "text": "peep"
+    }
+  ],
+  "concept_id": "peek",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "peek",
+  "observation_id": "ca45fa32b3b7b470",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T00:33:56.049672+00:00",
+  "observed_text": "peek",
+  "source_context_snippet": "lsp-ui",
+  "source_file": null,
+  "source_repo": "emacs-lsp/lsp-ui",
+  "source_repo_description": "UI integrations for lsp-mode"
+}

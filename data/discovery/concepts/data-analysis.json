@@ -91,6 +91,30 @@
       "source_repo": "CannyLab/tsne-cuda",
       "status": "candidate-context",
       "text": "![GitHub release (latest by date)](https://img.shields.io/github/v/release/CannyLab/tsne-cuda)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jtablesaw/tablesaw",
+      "status": "candidate-context",
+      "text": "Java dataframe and visualization library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jtablesaw/tablesaw",
+      "status": "candidate-context",
+      "text": "Tablesaw"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "danielrosehill/Data-Projects-Index",
+      "status": "candidate-context",
+      "text": "Data apps and datasets deployed to Streamlit Community Cloud, Hugging Face, and elsewhere. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danielrosehill/Data-Projects-Index",
+      "status": "candidate-context",
+      "text": "[![Master Index](https://img.shields.io/badge/Master%20Index-All%20Repositories-purple?style=for-the-badge&logo=github)](https://github.com/danielrosehill/Github-Master-Index)"
     }
   ],
   "candidate_glosses": [
@@ -135,6 +159,18 @@
       "source_repo": "CannyLab/tsne-cuda",
       "status": "candidate",
       "text": "![GitHub release (latest by date)](https://img.shields.io/github/v/release/CannyLab/tsne-cuda)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jtablesaw/tablesaw",
+      "status": "candidate",
+      "text": "Tablesaw"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danielrosehill/Data-Projects-Index",
+      "status": "candidate",
+      "text": "[![Master Index](https://img.shields.io/badge/Master%20Index-All%20Repositories-purple?style=for-the-badge&logo=github)](https://github.com/danielrosehill/Github-Master-Index)"
     }
   ],
   "candidate_related_terms": [],
@@ -184,11 +220,23 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "CannyLab/tsne-cuda"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "jtablesaw/tablesaw"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "danielrosehill/Data-Projects-Index"
     }
   ],
   "first_seen_at": "2026-04-18T13:50:38.061794+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

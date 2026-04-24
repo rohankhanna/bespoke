@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "sphinx"
+    "sphinx",
+    "Sphinx"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -69,6 +70,30 @@
       "source_repo": "clayrisser/sphinx-jekyll-builder",
       "status": "candidate-context",
       "text": "[![PyPI](https://img.shields.io/pypi/v/sphinx-jekyll-builder.svg?style=flat-square)](https://pypi.org/project/sphinx-jekyll-builder)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sphinx-contrib/sphinxcontrib-towncrier",
+      "status": "candidate-context",
+      "text": "An RST directive for injecting a Towncrier-generated changelog draft containing fragments for the unreleased (next) project version. Demo: https://ansible-pylibssh.rtfd.io/changelog. Docs: https://sphinxcontrib-towncrier.rtfd.io"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sphinx-contrib/sphinxcontrib-towncrier",
+      "status": "candidate-context",
+      "text": ".. image:: https://raw.githubusercontent.com/vshymanskyy/StandWithUkraine/main/banner-direct-team.svg"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "conda/grayskull",
+      "status": "candidate-context",
+      "text": "Grayskull :skull: - Recipe generator for Conda"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "conda/grayskull",
+      "status": "candidate-context",
+      "text": "Sphinx"
     }
   ],
   "candidate_glosses": [
@@ -101,6 +126,18 @@
       "source_repo": "clayrisser/sphinx-jekyll-builder",
       "status": "candidate",
       "text": "[![PyPI](https://img.shields.io/pypi/v/sphinx-jekyll-builder.svg?style=flat-square)](https://pypi.org/project/sphinx-jekyll-builder)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sphinx-contrib/sphinxcontrib-towncrier",
+      "status": "candidate",
+      "text": ".. image:: https://raw.githubusercontent.com/vshymanskyy/StandWithUkraine/main/banner-direct-team.svg"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "conda/grayskull",
+      "status": "candidate",
+      "text": "Sphinx"
     }
   ],
   "candidate_related_terms": [
@@ -174,11 +211,23 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "clayrisser/sphinx-jekyll-builder"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "sphinx-contrib/sphinxcontrib-towncrier"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/sphinx.yml",
+      "source_repo": "conda/grayskull"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

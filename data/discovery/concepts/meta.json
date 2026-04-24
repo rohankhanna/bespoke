@@ -19,6 +19,18 @@
       "source_repo": "WebAssembly/proposals",
       "status": "candidate-context",
       "text": "- [Finished Proposals](finished-proposals.md)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "WebAssembly/meetings",
+      "status": "candidate-context",
+      "text": "WebAssembly meetings (VC or in-person), agendas, and notes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "WebAssembly/meetings",
+      "status": "candidate-context",
+      "text": "This repository hosts information on official WebAssembly meetings hosted by the W3C"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "WebAssembly/proposals",
       "status": "candidate",
       "text": "- [Finished Proposals](finished-proposals.md)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "WebAssembly/meetings",
+      "status": "candidate",
+      "text": "This repository hosts information on official WebAssembly meetings hosted by the W3C"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "WebAssembly/proposals"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "WebAssembly/meetings"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

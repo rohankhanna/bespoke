@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Elegant HTTP Networking in Swift"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "![Alamofire: Elegant Networking in Swift](https://raw.githubusercontent.com/Alamofire/Alamofire/master/Resources/AlamofireLogo.png)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "![Alamofire: Elegant Networking in Swift](https://raw.githubusercontent.com/Alamofire/Alamofire/master/Resources/AlamofireLogo.png)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40047906,
+      "status": "candidate",
+      "text": "asking"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40041367,
+      "status": "candidate",
+      "text": "petition"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40040162,
+      "status": "candidate",
+      "text": "bespeak"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40037882,
+      "status": "candidate",
+      "text": "quest"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39969213,
+      "status": "candidate",
+      "text": "call for"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "request",
+      "sense_id": "request#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 27026,
+      "status": "candidate",
+      "text": "bespeak"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 14052,
+      "status": "candidate",
+      "text": "petition"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 11019,
+      "status": "candidate",
+      "text": "call for"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 7027,
+      "status": "candidate",
+      "text": "asking"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "quest"
+    }
+  ],
+  "concept_id": "request",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "request",
+  "observation_id": "e72f2cd4465e1226",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T00:33:56.049672+00:00",
+  "observed_text": "request",
+  "source_context_snippet": "![Alamofire: Elegant Networking in Swift](https://raw.githubusercontent.com/Alamofire/Alamofire/master/Resources/AlamofireLogo.png)",
+  "source_file": null,
+  "source_repo": "Alamofire/Alamofire",
+  "source_repo_description": "Elegant HTTP Networking in Swift"
+}

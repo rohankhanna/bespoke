@@ -886,6 +886,126 @@
       "source_repo": "denoland/deno_doc",
       "status": "candidate-context",
       "text": "publish"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aspect-build/rules_js",
+      "status": "candidate-context",
+      "text": "High-performance Bazel rules for running Node.js tools and building JavaScript projects"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aspect-build/rules_js",
+      "status": "candidate-context",
+      "text": "Publish"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "autofac/Autofac",
+      "status": "candidate-context",
+      "text": "An addictive .NET IoC container"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "autofac/Autofac",
+      "status": "candidate-context",
+      "text": "Publish"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "op-rs/maili",
+      "status": "candidate-context",
+      "text": "Composable rust types and interfaces specific to the OP Stack. Built on Alloy."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "op-rs/maili",
+      "status": "candidate-context",
+      "text": "Publish"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vuejs/vue-eslint-parser",
+      "status": "candidate-context",
+      "text": "The ESLint custom parser for `.vue` files."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vuejs/vue-eslint-parser",
+      "status": "candidate-context",
+      "text": "publish"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nicolo-ribaudo/engine262",
+      "status": "candidate-context",
+      "text": "An implementation of ECMA-262 in JavaScript"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nicolo-ribaudo/engine262",
+      "status": "candidate-context",
+      "text": "publish"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "docker/setup-qemu-action",
+      "status": "candidate-context",
+      "text": "GitHub Action to install QEMU static binaries"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "docker/setup-qemu-action",
+      "status": "candidate-context",
+      "text": "publish"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "SpecterOps/SharpHoundCommon",
+      "status": "candidate-context",
+      "text": "Common library used by SharpHound. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SpecterOps/SharpHoundCommon",
+      "status": "candidate-context",
+      "text": "Publish"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "WebAssembly/WASI",
+      "status": "candidate-context",
+      "text": "WebAssembly System Interface"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "WebAssembly/WASI",
+      "status": "candidate-context",
+      "text": "Publish"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "stx-labs/stacks.js",
+      "status": "candidate-context",
+      "text": "JavaScript libraries for identity, auth, storage and transactions on the Stacks blockchain."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stx-labs/stacks.js",
+      "status": "candidate-context",
+      "text": "publish"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "conda/conda-lock",
+      "status": "candidate-context",
+      "text": "Lightweight lockfile for conda environments"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "conda/conda-lock",
+      "status": "candidate-context",
+      "text": "publish"
     }
   ],
   "candidate_glosses": [
@@ -1318,6 +1438,66 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "denoland/deno_doc",
+      "status": "candidate",
+      "text": "publish"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aspect-build/rules_js",
+      "status": "candidate",
+      "text": "Publish"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "autofac/Autofac",
+      "status": "candidate",
+      "text": "Publish"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "op-rs/maili",
+      "status": "candidate",
+      "text": "Publish"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vuejs/vue-eslint-parser",
+      "status": "candidate",
+      "text": "publish"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nicolo-ribaudo/engine262",
+      "status": "candidate",
+      "text": "publish"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "docker/setup-qemu-action",
+      "status": "candidate",
+      "text": "publish"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SpecterOps/SharpHoundCommon",
+      "status": "candidate",
+      "text": "Publish"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "WebAssembly/WASI",
+      "status": "candidate",
+      "text": "Publish"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stx-labs/stacks.js",
+      "status": "candidate",
+      "text": "publish"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "conda/conda-lock",
       "status": "candidate",
       "text": "publish"
     }
@@ -1939,11 +2119,137 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": ".github/workflows/publish.yml",
       "source_repo": "denoland/deno_doc"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "changesets/changesets"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/publish.yaml",
+      "source_repo": "aspect-build/rules_js"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "autofac/Autofac"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "op-rs/maili"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "vercel-labs/skills"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/Release.yml",
+      "source_repo": "vuejs/vue-eslint-parser"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/publish.yaml",
+      "source_repo": "mightyiam/eslint-config-love"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "nicolo-ribaudo/engine262"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "puppeteer/puppeteer"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/publish.yaml",
+      "source_repo": "google/protobuf.dart"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "docker/setup-qemu-action"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "SpecterOps/AzureHound"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "SpecterOps/SharpHoundCommon"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "WebAssembly/WASI"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "ajv-validator/ajv-i18n"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "ajv-validator/ajv"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "ajv-validator/ajv-keywords"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "stx-labs/stacks.js"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "react-native-webview/react-native-webview"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "conda/conda-lock"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/publish.yaml",
+      "source_repo": "pallets/markupsafe"
     }
   ],
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

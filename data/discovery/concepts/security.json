@@ -688,6 +688,66 @@
       "source_repo": "crev-dev/cargo-crev",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "openssh/openssh-portable",
+      "status": "candidate-context",
+      "text": "Portable OpenSSH"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openssh/openssh-portable",
+      "status": "candidate-context",
+      "text": "[![C/C++ CI](../../actions/workflows/c-cpp.yml/badge.svg)](../../actions/workflows/c-cpp.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gitleaks/gitleaks",
+      "status": "candidate-context",
+      "text": "Find secrets with Gitleaks \ud83d\udd11"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gitleaks/gitleaks",
+      "status": "candidate-context",
+      "text": "```"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "valyala/fasthttp",
+      "status": "candidate-context",
+      "text": "Fast HTTP package for Go. Tuned for high performance. Zero memory allocations in hot paths. Up to 10x faster than net/http"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "valyala/fasthttp",
+      "status": "candidate-context",
+      "text": "Security"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sigstore/rekor",
+      "status": "candidate-context",
+      "text": "Software Supply Chain Transparency Log"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sigstore/rekor",
+      "status": "candidate-context",
+      "text": "[![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/sigstore/rekor/badge)](https://api.securityscorecards.dev/projects/github.com/sigstore/rekor)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "docker/github-builder",
+      "status": "candidate-context",
+      "text": "Official Docker-maintained reusable GitHub Actions workflows to securely build container images"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "docker/github-builder",
+      "status": "candidate-context",
+      "text": "[![Test build workflow](https://img.shields.io/github/actions/workflow/status/docker/github-builder/.test-build.yml?label=test%20build&logo=github&style=flat-square)](https://github.com/docker/github-builder/actions?workflow=.test-build)"
     }
   ],
   "candidate_glosses": [
@@ -1020,6 +1080,36 @@
       "source_repo": "crev-dev/cargo-crev",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openssh/openssh-portable",
+      "status": "candidate",
+      "text": "[![C/C++ CI](../../actions/workflows/c-cpp.yml/badge.svg)](../../actions/workflows/c-cpp.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gitleaks/gitleaks",
+      "status": "candidate",
+      "text": "```"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "valyala/fasthttp",
+      "status": "candidate",
+      "text": "Security"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sigstore/rekor",
+      "status": "candidate",
+      "text": "[![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/sigstore/rekor/badge)](https://api.securityscorecards.dev/projects/github.com/sigstore/rekor)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "docker/github-builder",
+      "status": "candidate",
+      "text": "[![Test build workflow](https://img.shields.io/github/actions/workflow/status/docker/github-builder/.test-build.yml?label=test%20build&logo=github&style=flat-square)](https://github.com/docker/github-builder/actions?workflow=.test-build)"
     }
   ],
   "candidate_related_terms": [
@@ -1465,11 +1555,41 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "crev-dev/cargo-crev"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "openssh/openssh-portable"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "gitleaks/gitleaks"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/security.yml",
+      "source_repo": "valyala/fasthttp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "sigstore/rekor"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "docker/github-builder"
     }
   ],
   "first_seen_at": "2026-04-18T13:15:13.756138+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,160 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aws-samples/aws-serverless-airline-booking",
+      "target": "airline-booking",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aws-samples/aws-serverless-airline-booking",
+      "target": "aws-lambda",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aws-samples/aws-serverless-airline-booking",
+      "target": "aws-lambda-node",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aws-samples/aws-serverless-airline-booking",
+      "target": "aws-lambda-python",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aws-samples/aws-serverless-airline-booking",
+      "target": "graphql",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aws-samples/aws-serverless-airline-booking",
+      "target": "lambda",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aws-samples/aws-serverless-airline-booking",
+      "target": "lambda-functions",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aws-samples/aws-serverless-airline-booking",
+      "target": "serverless",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aws-samples/aws-serverless-airline-booking",
+      "target": "tracing",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T02:00:47.810908+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4307
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Airline Booking is a sample web application that provides Flight Search, Flight Payment, Flight Booking and Loyalty points including end-to-end testing, GraphQL and CI/CD. This web application was the theme of Build on Serverless Season 2 on AWS Twitch running from April 24th until end of August in 2019.",
+    "fork": false,
+    "full_name": "aws-samples/aws-serverless-airline-booking",
+    "html_url": "https://github.com/aws-samples/aws-serverless-airline-booking",
+    "language": null,
+    "pushed_at": "2024-08-09T22:14:20Z",
+    "stargazers_count": 2325,
+    "topics": [
+      "airline-booking",
+      "aws",
+      "aws-lambda",
+      "aws-lambda-node",
+      "aws-lambda-python",
+      "graphql",
+      "lambda",
+      "lambda-functions",
+      "python",
+      "sam",
+      "serverless",
+      "tracing",
+      "typescript"
+    ],
+    "updated_at": "2026-04-11T20:04:37Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Serverless Airline Booking is a complete web application that provides Flight Search, Payment, Booking and Loyalty points including end-to-end testing, GraphQL and CI/CD. This web application was the theme of Build on Serverless Season 2 on AWS Twitch running from April 24th unt\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "airline-booking"
+    },
+    {
+      "context_snippet": "Serverless Airline Booking is a complete web application that provides Flight Search, Payment, Booking and Loyalty points including end-to-end testing, GraphQL and CI/CD. This web application was the theme of Build on Serverless Season 2 on AWS Twitch running from April 24th unt\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "aws-lambda"
+    },
+    {
+      "context_snippet": "Serverless Airline Booking is a complete web application that provides Flight Search, Payment, Booking and Loyalty points including end-to-end testing, GraphQL and CI/CD. This web application was the theme of Build on Serverless Season 2 on AWS Twitch running from April 24th unt\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "aws-lambda-node"
+    },
+    {
+      "context_snippet": "Serverless Airline Booking is a complete web application that provides Flight Search, Payment, Booking and Loyalty points including end-to-end testing, GraphQL and CI/CD. This web application was the theme of Build on Serverless Season 2 on AWS Twitch running from April 24th unt\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "aws-lambda-python"
+    },
+    {
+      "context_snippet": "Serverless Airline Booking is a complete web application that provides Flight Search, Payment, Booking and Loyalty points including end-to-end testing, GraphQL and CI/CD. This web application was the theme of Build on Serverless Season 2 on AWS Twitch running from April 24th unt\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "graphql"
+    },
+    {
+      "context_snippet": "Serverless Airline Booking is a complete web application that provides Flight Search, Payment, Booking and Loyalty points including end-to-end testing, GraphQL and CI/CD. This web application was the theme of Build on Serverless Season 2 on AWS Twitch running from April 24th unt\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lambda"
+    },
+    {
+      "context_snippet": "Serverless Airline Booking is a complete web application that provides Flight Search, Payment, Booking and Loyalty points including end-to-end testing, GraphQL and CI/CD. This web application was the theme of Build on Serverless Season 2 on AWS Twitch running from April 24th unt\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lambda-functions"
+    },
+    {
+      "context_snippet": "Serverless Airline Booking is a complete web application that provides Flight Search, Payment, Booking and Loyalty points including end-to-end testing, GraphQL and CI/CD. This web application was the theme of Build on Serverless Season 2 on AWS Twitch running from April 24th unt\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "serverless"
+    },
+    {
+      "context_snippet": "Serverless Airline Booking is a complete web application that provides Flight Search, Payment, Booking and Loyalty points including end-to-end testing, GraphQL and CI/CD. This web application was the theme of Build on Serverless Season 2 on AWS Twitch running from April 24th unt\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tracing"
+    }
+  ]
+}

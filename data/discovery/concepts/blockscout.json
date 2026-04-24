@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "Blockscout"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "blockscout/blockscout",
+      "status": "candidate-context",
+      "text": "Blockchain explorer for Ethereum based network and a tool for inspecting and analyzing EVM based blockchains. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "blockscout/blockscout",
+      "status": "candidate-context",
+      "text": "Blockscout"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "blockscout/blockscout",
+      "status": "candidate",
+      "text": "Blockscout"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "Blockscout",
+  "concept_id": "blockscout",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/config.yml",
+      "source_repo": "blockscout/blockscout"
+    }
+  ],
+  "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Blockscout",
+      "sense_id": "blockscout#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

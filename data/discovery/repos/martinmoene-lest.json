@@ -1,0 +1,220 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "martinmoene/lest",
+      "target": "adoxa/ansicon",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "martinmoene/lest",
+      "target": "kosta-github/cute",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "martinmoene/lest",
+      "target": "jimporter/mettle",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "martinmoene/lest",
+      "target": "akrzemi1/optional",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "martinmoene/lest",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "martinmoene/lest",
+      "target": "cast",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "martinmoene/lest",
+      "target": "cpp11",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "martinmoene/lest",
+      "target": "cpp98",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "martinmoene/lest",
+      "target": "header-only",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "martinmoene/lest",
+      "target": "no-dependencies",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "martinmoene/lest",
+      "target": "single-file",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "martinmoene/lest",
+      "target": "testing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "martinmoene/lest",
+      "target": "tiny-framework",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T00:38:53.378963+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 32822
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 1896
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A modern, C++11-native, single-file header-only, tiny framework for unit-tests, TDD and BDD (includes C++98 variant)",
+    "fork": false,
+    "full_name": "martinmoene/lest",
+    "html_url": "https://github.com/martinmoene/lest",
+    "language": "C++",
+    "pushed_at": "2026-02-16T15:21:24Z",
+    "stargazers_count": 406,
+    "topics": [
+      "bdd",
+      "cast",
+      "cpp11",
+      "cpp98",
+      "header-only",
+      "no-dependencies",
+      "single-file",
+      "tdd",
+      "testing",
+      "tiny-framework"
+    ],
+    "updated_at": "2026-04-21T08:41:19Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "adoxa/ansicon",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "akrzemi1/optional",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jimporter/mettle",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kosta-github/cute",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "lest &ndash; lest errors escape testing",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cast"
+    },
+    {
+      "context_snippet": "lest &ndash; lest errors escape testing",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cpp11"
+    },
+    {
+      "context_snippet": "lest &ndash; lest errors escape testing",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cpp98"
+    },
+    {
+      "context_snippet": "lest &ndash; lest errors escape testing",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "header-only"
+    },
+    {
+      "context_snippet": "lest &ndash; lest errors escape testing",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "no-dependencies"
+    },
+    {
+      "context_snippet": "lest &ndash; lest errors escape testing",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "single-file"
+    },
+    {
+      "context_snippet": "lest &ndash; lest errors escape testing",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "testing"
+    },
+    {
+      "context_snippet": "lest &ndash; lest errors escape testing",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tiny-framework"
+    }
+  ]
+}

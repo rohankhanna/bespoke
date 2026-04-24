@@ -19,6 +19,18 @@
       "source_repo": "sorin-ionescu/prezto",
       "status": "candidate-context",
       "text": "Prezto is the configuration framework for [Zsh][1]; it enriches the command line"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "agkozak/zcomet",
+      "status": "candidate-context",
+      "text": "zcomet - Fast, Simple Zsh Plugin Manager"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "agkozak/zcomet",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "sorin-ionescu/prezto",
       "status": "candidate",
       "text": "Prezto is the configuration framework for [Zsh][1]; it enriches the command line"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "agkozak/zcomet",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-22T01:04:16.609102+00:00",
       "source_file": null,
       "source_repo": "sorin-ionescu/prezto"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "agkozak/zcomet"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

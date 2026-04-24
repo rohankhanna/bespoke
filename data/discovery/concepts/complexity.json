@@ -1,0 +1,108 @@
+{
+  "aliases": [
+    "complexity"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "boyter/scc",
+      "status": "candidate-context",
+      "text": "Sloc, Cloc and Code: scc is a very fast accurate code counter with complexity calculations and COCOMO estimates written in pure Go"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "boyter/scc",
+      "status": "candidate-context",
+      "text": "![SCC illustration](./scc.jpg)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "boyter/scc",
+      "status": "candidate",
+      "text": "![SCC illustration](./scc.jpg)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40018780,
+      "status": "candidate",
+      "text": "complexness"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30018842,
+      "status": "candidate",
+      "text": "complication"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30018745,
+      "status": "candidate",
+      "text": "intricacy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30018317,
+      "status": "candidate",
+      "text": "complex"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30008256,
+      "status": "candidate",
+      "text": "difficulty"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2020,
+      "status": "candidate",
+      "text": "complexness"
+    }
+  ],
+  "canonical_name": "complexity",
+  "concept_id": "complexity",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "boyter/scc"
+    }
+  ],
+  "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "complexity",
+      "sense_id": "complexity#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

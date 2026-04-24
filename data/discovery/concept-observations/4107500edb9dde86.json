@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": ":partly_sunny: The right way to check the weather"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "*wttr.in \u2014 the right way to ~check~ `curl` the weather!*"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "*wttr.in \u2014 the right way to ~check~ `curl` the weather!*"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39990461,
+      "status": "candidate",
+      "text": "ringlet"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39985207,
+      "status": "candidate",
+      "text": "curl up"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39984144,
+      "status": "candidate",
+      "text": "loop"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39975265,
+      "status": "candidate",
+      "text": "curlicue"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39974805,
+      "status": "candidate",
+      "text": "whorl"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "curl",
+      "sense_id": "curl#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 22080,
+      "status": "candidate",
+      "text": "wave"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 20056,
+      "status": "candidate",
+      "text": "coil"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 20052,
+      "status": "candidate",
+      "text": "curve"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 15040,
+      "status": "candidate",
+      "text": "whorl"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 13081,
+      "status": "candidate",
+      "text": "roll"
+    }
+  ],
+  "concept_id": "curl",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "curl",
+  "observation_id": "4107500edb9dde86",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T00:33:56.049672+00:00",
+  "observed_text": "curl",
+  "source_context_snippet": "*wttr.in \u2014 the right way to ~check~ `curl` the weather!*",
+  "source_file": null,
+  "source_repo": "chubin/wttr.in",
+  "source_repo_description": ":partly_sunny: The right way to check the weather"
+}

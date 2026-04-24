@@ -1,0 +1,108 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "casbin as an actor"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![Crates.io](https://img.shields.io/crates/d/actix-casbin)](https://crates.io/crates/actix-casbin)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![Crates.io](https://img.shields.io/crates/d/actix-casbin)](https://crates.io/crates/actix-casbin)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40042863,
+      "status": "candidate",
+      "text": "permit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40037585,
+      "status": "candidate",
+      "text": "license"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30043683,
+      "status": "candidate",
+      "text": "authorization"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30043647,
+      "status": "candidate",
+      "text": "grant"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30043624,
+      "status": "candidate",
+      "text": "authorize"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "permission",
+      "sense_id": "permission#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 13049,
+      "status": "candidate",
+      "text": "permit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2062,
+      "status": "candidate",
+      "text": "license"
+    }
+  ],
+  "concept_id": "permission",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "permission",
+  "observation_id": "c0155187fd6be420",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T00:33:56.049672+00:00",
+  "observed_text": "permission",
+  "source_context_snippet": "[![Crates.io](https://img.shields.io/crates/d/actix-casbin)](https://crates.io/crates/actix-casbin)",
+  "source_file": null,
+  "source_repo": "apache/casbin-rust-actix-casbin",
+  "source_repo_description": "casbin as an actor"
+}

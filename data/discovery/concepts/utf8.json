@@ -19,6 +19,18 @@
       "source_repo": "simdutf/simdutf",
       "status": "candidate-context",
       "text": "<!-- if(github) { (this is used by the github pages export, don't modify!) -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "haskell/text",
+      "status": "candidate-context",
+      "text": "Haskell library for space- and time-efficient operations over Unicode text."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "haskell/text",
+      "status": "candidate-context",
+      "text": "Haskell library for space- and time-efficient operations over Unicode text."
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "simdutf/simdutf",
       "status": "candidate",
       "text": "<!-- if(github) { (this is used by the github pages export, don't modify!) -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "haskell/text",
+      "status": "candidate",
+      "text": "Haskell library for space- and time-efficient operations over Unicode text."
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "simdutf/simdutf"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "haskell/text"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

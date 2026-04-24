@@ -1,0 +1,136 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.rst",
+      "source_repo": "cloudnativelabs/kube-shell",
+      "target": "jonathanslenders/python-prompt-toolkit",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.rst",
+      "source_repo": "cloudnativelabs/kube-shell",
+      "target": "kubernetes-incubator/client-python",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.rst",
+      "source_repo": "cloudnativelabs/kube-shell",
+      "target": "awslabs/aws-shell",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.rst",
+      "source_repo": "cloudnativelabs/kube-shell",
+      "target": "donnemartin/saws",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cloudnativelabs/kube-shell",
+      "target": "autocomplete",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cloudnativelabs/kube-shell",
+      "target": "kube-shell",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cloudnativelabs/kube-shell",
+      "target": "kubectl",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cloudnativelabs/kube-shell",
+      "target": "kubernetes",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T01:53:09.371769+00:00",
+  "fetched_files": [
+    {
+      "path": "README.rst",
+      "size": 4299
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Kubernetes shell: An integrated shell for working with the Kubernetes",
+    "fork": false,
+    "full_name": "cloudnativelabs/kube-shell",
+    "html_url": "https://github.com/cloudnativelabs/kube-shell",
+    "language": "Python",
+    "pushed_at": "2022-11-02T12:34:48Z",
+    "stargazers_count": 2397,
+    "topics": [
+      "autocomplete",
+      "kube-shell",
+      "kubectl",
+      "kubernetes",
+      "python"
+    ],
+    "updated_at": "2026-04-20T07:51:31Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "awslabs/aws-shell",
+      "source_file": "README.rst"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "donnemartin/saws",
+      "source_file": "README.rst"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jonathanslenders/python-prompt-toolkit",
+      "source_file": "README.rst"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kubernetes-incubator/client-python",
+      "source_file": "README.rst"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "kube-shell",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "autocomplete"
+    },
+    {
+      "context_snippet": "kube-shell",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kube-shell"
+    },
+    {
+      "context_snippet": "kube-shell",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kubectl"
+    },
+    {
+      "context_snippet": "kube-shell",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kubernetes"
+    }
+  ]
+}

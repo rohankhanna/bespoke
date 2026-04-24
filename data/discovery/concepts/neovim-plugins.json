@@ -19,6 +19,18 @@
       "source_repo": "nvim-tree/nvim-web-devicons",
       "status": "candidate-context",
       "text": "Provides [Nerd Font](https://www.nerdfonts.com/) [^1] icons (glyphs) for use by *Neovim* plugins:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "karb94/neoscroll.nvim",
+      "status": "candidate-context",
+      "text": "Smooth scrolling neovim plugin written in lua"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "karb94/neoscroll.nvim",
+      "status": "candidate-context",
+      "text": "https://user-images.githubusercontent.com/41967813/121818668-7b36c800-cc80-11eb-8c3a-45a4767b8f05.mp4"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "nvim-tree/nvim-web-devicons",
       "status": "candidate",
       "text": "Provides [Nerd Font](https://www.nerdfonts.com/) [^1] icons (glyphs) for use by *Neovim* plugins:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "karb94/neoscroll.nvim",
+      "status": "candidate",
+      "text": "https://user-images.githubusercontent.com/41967813/121818668-7b36c800-cc80-11eb-8c3a-45a4767b8f05.mp4"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-22T18:52:26.467154+00:00",
       "source_file": null,
       "source_repo": "nvim-tree/nvim-web-devicons"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "karb94/neoscroll.nvim"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

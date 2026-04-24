@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Daily Lines of Code Report"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lambdaclass/ethrex",
+      "status": "candidate-context",
+      "text": "Minimalist, stable, modular, fast, and ZK native implementation of the Ethereum protocol in Rust. L1 and L2 execution client."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lambdaclass/ethrex",
+      "status": "candidate-context",
+      "text": "Daily Lines of Code Report"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lambdaclass/ethrex",
+      "status": "candidate",
+      "text": "Daily Lines of Code Report"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 43865,
+      "status": "candidate",
+      "text": "news"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27584,
+      "status": "candidate",
+      "text": "bed"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27584,
+      "status": "candidate",
+      "text": "diary"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27584,
+      "status": "candidate",
+      "text": "journal"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27584,
+      "status": "candidate",
+      "text": "living"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Daily Lines of Code Report",
+  "concept_id": "daily-lines-of-code-report",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/daily_loc_report.yaml",
+      "source_repo": "lambdaclass/ethrex"
+    }
+  ],
+  "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Daily Lines of Code Report",
+      "sense_id": "daily-lines-of-code-report#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

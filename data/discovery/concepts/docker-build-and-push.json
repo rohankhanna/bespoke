@@ -39,6 +39,18 @@
       "source_repo": "coqui-ai/TTS",
       "status": "candidate-context",
       "text": "\"Docker build and push\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "icip-cas/PPTAgent",
+      "status": "candidate-context",
+      "text": "An Agentic Framework for Reflective PowerPoint Generation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "icip-cas/PPTAgent",
+      "status": "candidate-context",
+      "text": "Docker Build and Push"
     }
   ],
   "candidate_glosses": [
@@ -53,6 +65,12 @@
       "source_repo": "coqui-ai/TTS",
       "status": "candidate",
       "text": "\"Docker build and push\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "icip-cas/PPTAgent",
+      "status": "candidate",
+      "text": "Docker Build and Push"
     }
   ],
   "candidate_related_terms": [
@@ -120,11 +138,17 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": ".github/workflows/docker.yaml",
       "source_repo": "coqui-ai/TTS"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/docker-publish.yml",
+      "source_repo": "icip-cas/PPTAgent"
     }
   ],
   "first_seen_at": "2026-04-18T12:07:11.500453+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

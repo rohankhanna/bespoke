@@ -1,46 +1,26 @@
 {
-  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
       "source_file": null,
-      "source_repo": "mikefarah/yq"
+      "source_repo": "babashka/babashka"
     },
     {
       "discovered_via": "repo-topic",
       "source_file": null,
-      "source_repo": "nvm-sh/nvm"
+      "source_repo": "micromatch/micromatch"
     },
     {
       "discovered_via": "repo-topic",
       "source_file": null,
-      "source_repo": "nordtheme/dircolors"
+      "source_repo": "micromatch/nanomatch"
     },
     {
       "discovered_via": "repo-topic",
       "source_file": null,
-      "source_repo": "abs-lang/abs"
-    },
-    {
-      "discovered_via": "repo-topic",
-      "source_file": null,
-      "source_repo": "create-dmg/create-dmg"
-    },
-    {
-      "discovered_via": "repo-topic",
-      "source_file": null,
-      "source_repo": "ddworken/hishtory"
-    },
-    {
-      "discovered_via": "repo-topic",
-      "source_file": null,
-      "source_repo": "get-gah/gah"
-    },
-    {
-      "discovered_via": "repo-topic",
-      "source_file": null,
-      "source_repo": "jlevy/the-art-of-command-line"
+      "source_repo": "89luca89/distrobox"
     }
   ],
   "term": "bash"

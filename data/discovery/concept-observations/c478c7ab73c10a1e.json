@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Modular in-buffer completion framework for Emacs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "See the homepage for [installation and usage instructions](http://company-mode.github.io/)."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "See the homepage for [installation and usage instructions](http://company-mode.github.io/)."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "code-completion",
+      "sense_id": "code-completion#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "code-completion",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "code-completion",
+  "observation_id": "c478c7ab73c10a1e",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T00:33:56.049672+00:00",
+  "observed_text": "code-completion",
+  "source_context_snippet": "See the homepage for [installation and usage instructions](http://company-mode.github.io/).",
+  "source_file": null,
+  "source_repo": "company-mode/company-mode",
+  "source_repo_description": "Modular in-buffer completion framework for Emacs"
+}

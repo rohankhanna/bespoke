@@ -1,0 +1,132 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@clippy",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "dtolnay/install@cargo-outdated",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "SunDoge/json-benchmark",
+      "target": "rust-lang-nursery/rustc-serialize",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "SunDoge/json-benchmark",
+      "target": "licenser/simdjson-rs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "SunDoge/json-benchmark",
+      "target": "miloyip/rapidjson",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "SunDoge/json-benchmark",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "SunDoge/json-benchmark",
+      "target": "dtolnay/rust-toolchain@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "SunDoge/json-benchmark",
+      "target": "dtolnay/rust-toolchain@clippy",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "SunDoge/json-benchmark",
+      "target": "dtolnay/install@cargo-outdated",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-24T01:51:54.404741+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2918
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 1013
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 1139
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "nativejson-benchmark in Rust",
+    "fork": true,
+    "full_name": "SunDoge/json-benchmark",
+    "html_url": "https://github.com/SunDoge/json-benchmark",
+    "language": null,
+    "pushed_at": "2023-08-27T02:27:42Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2024-08-15T22:10:26Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "licenser/simdjson-rs",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "miloyip/rapidjson",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rust-lang-nursery/rustc-serialize",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

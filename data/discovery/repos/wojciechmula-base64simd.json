@@ -1,0 +1,126 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.rst",
+      "source_repo": "WojciechMula/base64simd",
+      "target": "lemire/fastbase64",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.rst",
+      "source_repo": "WojciechMula/base64simd",
+      "target": "gfoidl/base64",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "WojciechMula/base64simd",
+      "target": "avx2",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "WojciechMula/base64simd",
+      "target": "avx512",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "WojciechMula/base64simd",
+      "target": "base64",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "WojciechMula/base64simd",
+      "target": "neon",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "WojciechMula/base64simd",
+      "target": "simd",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T02:00:55.025237+00:00",
+  "fetched_files": [
+    {
+      "path": "README.rst",
+      "size": 4943
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Base64 coding and decoding with SIMD instructions (SSE/AVX2/AVX512F/AVX512BW/AVX512VBMI/ARM Neon)",
+    "fork": false,
+    "full_name": "WojciechMula/base64simd",
+    "html_url": "https://github.com/WojciechMula/base64simd",
+    "language": "C++",
+    "pushed_at": "2025-02-21T23:00:12Z",
+    "stargazers_count": 170,
+    "topics": [
+      "avx2",
+      "avx512",
+      "base64",
+      "neon",
+      "simd",
+      "sse"
+    ],
+    "updated_at": "2026-03-05T07:43:10Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "gfoidl/base64",
+      "source_file": "README.rst"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lemire/fastbase64",
+      "source_file": "README.rst"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "================================================================================",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "avx2"
+    },
+    {
+      "context_snippet": "================================================================================",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "avx512"
+    },
+    {
+      "context_snippet": "================================================================================",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "base64"
+    },
+    {
+      "context_snippet": "================================================================================",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neon"
+    },
+    {
+      "context_snippet": "================================================================================",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "simd"
+    }
+  ]
+}

@@ -46,6 +46,18 @@
       "source_repo": "AbsaOSS/golic",
       "status": "candidate-context",
       "text": "A declarative tool injecting licenses into source code"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kigster/puma-daemon",
+      "status": "candidate-context",
+      "text": "Puma (starting version 5) removed automatic demonization from the gem itself. This functionality was extracted to this gem, which supports Puma v5 and v6."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kigster/puma-daemon",
+      "status": "candidate-context",
+      "text": "License"
     }
   ],
   "candidate_glosses": [
@@ -66,6 +78,12 @@
       "source_repo": "AbsaOSS/golic",
       "status": "candidate",
       "text": "A declarative tool injecting licenses into source code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kigster/puma-daemon",
+      "status": "candidate",
+      "text": "License"
     }
   ],
   "candidate_related_terms": [
@@ -156,11 +174,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "AbsaOSS/golic"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/license.yml",
+      "source_repo": "kigster/puma-daemon"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

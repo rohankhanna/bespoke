@@ -163,6 +163,54 @@
       "source_repo": "romanz/electrs",
       "status": "candidate-context",
       "text": "![Logo](logo/logo.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bitcoinbook/bitcoinbook",
+      "status": "candidate-context",
+      "text": "Mastering Bitcoin 3rd Edition - Programming the Open Blockchain"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bitcoinbook/bitcoinbook",
+      "status": "candidate-context",
+      "text": "Mastering Bitcoin is a technical book that explains what Bitcoin is and how it works."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kyuupichan/electrumx",
+      "status": "candidate-context",
+      "text": "Alternative implementation of spesmilo/electrum-server"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kyuupichan/electrumx",
+      "status": "candidate-context",
+      "text": ".. image:: https://travis-ci.org/kyuupichan/electrumx.svg?branch=master"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bitcoindevkit/rust-electrum-client",
+      "status": "candidate-context",
+      "text": "Bitcoin Electrum client library. Supports plaintext, TLS and Onion servers."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bitcoindevkit/rust-electrum-client",
+      "status": "candidate-context",
+      "text": "<p>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lightningnetwork/lnd",
+      "status": "candidate-context",
+      "text": "Lightning Network Daemon \u26a1\ufe0f"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lightningnetwork/lnd",
+      "status": "candidate-context",
+      "text": "[![Release build](https://github.com/lightningnetwork/lnd/actions/workflows/release.yaml/badge.svg)](https://github.com/lightningnetwork/lnd/actions/workflows/release.yaml)"
     }
   ],
   "candidate_glosses": [
@@ -243,6 +291,30 @@
       "source_repo": "romanz/electrs",
       "status": "candidate",
       "text": "![Logo](logo/logo.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bitcoinbook/bitcoinbook",
+      "status": "candidate",
+      "text": "Mastering Bitcoin is a technical book that explains what Bitcoin is and how it works."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kyuupichan/electrumx",
+      "status": "candidate",
+      "text": ".. image:: https://travis-ci.org/kyuupichan/electrumx.svg?branch=master"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bitcoindevkit/rust-electrum-client",
+      "status": "candidate",
+      "text": "<p>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lightningnetwork/lnd",
+      "status": "candidate",
+      "text": "[![Release build](https://github.com/lightningnetwork/lnd/actions/workflows/release.yaml/badge.svg)](https://github.com/lightningnetwork/lnd/actions/workflows/release.yaml)"
     }
   ],
   "candidate_related_terms": [
@@ -376,11 +448,47 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "lightning/bolts"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "bitcoinbook/bitcoinbook"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "kyuupichan/electrumx"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "bitcoindevkit/rust-electrum-client"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "node-lightning/node-lightning"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "lightning/bolts"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "lightningnetwork/lnd"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

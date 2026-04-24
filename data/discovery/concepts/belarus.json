@@ -19,6 +19,18 @@
       "source_repo": "snakers4/silero-models",
       "status": "candidate-context",
       "text": "[![Mailing list : test](http://img.shields.io/badge/Email-gray.svg?style=for-the-badge&logo=gmail)](mailto:hello@silero.ai) [![Mailing list : test](http://img.shields.io/badge/Telegram-blue.svg?style=for-the-badge&logo=telegram)](https://t.me/silero_speech) [![License: CC BY-NC \u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vshymanskyy/StandWithUkraine",
+      "status": "candidate-context",
+      "text": "#StandWithUkraine banner and related documents"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vshymanskyy/StandWithUkraine",
+      "status": "candidate-context",
+      "text": "[![GitHub stars](https://img.shields.io/github/stars/vshymanskyy/StandWithUkraine.svg)](https://github.com/vshymanskyy/StandWithUkraine/stargazers)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "snakers4/silero-models",
       "status": "candidate",
       "text": "[![Mailing list : test](http://img.shields.io/badge/Email-gray.svg?style=for-the-badge&logo=gmail)](mailto:hello@silero.ai) [![Mailing list : test](http://img.shields.io/badge/Telegram-blue.svg?style=for-the-badge&logo=telegram)](https://t.me/silero_speech) [![License: CC BY-NC \u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vshymanskyy/StandWithUkraine",
+      "status": "candidate",
+      "text": "[![GitHub stars](https://img.shields.io/github/stars/vshymanskyy/StandWithUkraine.svg)](https://github.com/vshymanskyy/StandWithUkraine/stargazers)"
     }
   ],
   "candidate_related_terms": [
@@ -105,11 +123,17 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "snakers4/silero-models"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "vshymanskyy/StandWithUkraine"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

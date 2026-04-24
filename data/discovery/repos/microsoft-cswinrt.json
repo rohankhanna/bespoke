@@ -1,0 +1,151 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "microsoft/CsWinRT",
+      "target": "microsoft/microsoft-ui-xaml",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "microsoft/CsWinRT",
+      "target": "microsoft/windowsappsdk",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "microsoft/CsWinRT",
+      "target": "microsoft/winrt-rs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/CsWinRT",
+      "target": "csharp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/CsWinRT",
+      "target": "desktop",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/CsWinRT",
+      "target": "dotnet5",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/CsWinRT",
+      "target": "windows",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/CsWinRT",
+      "target": "winrt",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/CsWinRT",
+      "target": "winui3",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T01:59:42.689021+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6701
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "C# language projection for the Windows Runtime",
+    "fork": false,
+    "full_name": "microsoft/CsWinRT",
+    "html_url": "https://github.com/microsoft/CsWinRT",
+    "language": "C#",
+    "pushed_at": "2026-04-23T23:39:22Z",
+    "stargazers_count": 638,
+    "topics": [
+      "csharp",
+      "desktop",
+      "dotnet5",
+      "windows",
+      "winrt",
+      "winui3"
+    ],
+    "updated_at": "2026-04-21T20:34:06Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "microsoft/microsoft-ui-xaml",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "microsoft/windowsappsdk",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "microsoft/winrt-rs",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![Build Status](https://dev.azure.com/microsoft/Dart/_apis/build/status%2FCsWinRT%20GitHub%20CI?branchName=master)](https://dev.azure.com/microsoft/Dart/_build/latest?definitionId=112455&branchName=master)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "csharp"
+    },
+    {
+      "context_snippet": "[![Build Status](https://dev.azure.com/microsoft/Dart/_apis/build/status%2FCsWinRT%20GitHub%20CI?branchName=master)](https://dev.azure.com/microsoft/Dart/_build/latest?definitionId=112455&branchName=master)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "desktop"
+    },
+    {
+      "context_snippet": "[![Build Status](https://dev.azure.com/microsoft/Dart/_apis/build/status%2FCsWinRT%20GitHub%20CI?branchName=master)](https://dev.azure.com/microsoft/Dart/_build/latest?definitionId=112455&branchName=master)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dotnet5"
+    },
+    {
+      "context_snippet": "[![Build Status](https://dev.azure.com/microsoft/Dart/_apis/build/status%2FCsWinRT%20GitHub%20CI?branchName=master)](https://dev.azure.com/microsoft/Dart/_build/latest?definitionId=112455&branchName=master)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "windows"
+    },
+    {
+      "context_snippet": "[![Build Status](https://dev.azure.com/microsoft/Dart/_apis/build/status%2FCsWinRT%20GitHub%20CI?branchName=master)](https://dev.azure.com/microsoft/Dart/_build/latest?definitionId=112455&branchName=master)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "winrt"
+    },
+    {
+      "context_snippet": "[![Build Status](https://dev.azure.com/microsoft/Dart/_apis/build/status%2FCsWinRT%20GitHub%20CI?branchName=master)](https://dev.azure.com/microsoft/Dart/_build/latest?definitionId=112455&branchName=master)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "winui3"
+    }
+  ]
+}

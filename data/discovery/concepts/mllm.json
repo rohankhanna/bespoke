@@ -67,6 +67,18 @@
       "source_repo": "BUAADreamer/Chinese-LLaVA-Med",
       "status": "candidate-context",
       "text": "| Method | [llava-med-zh-eval](https://huggingface.co/datasets/BUAADreamer/llava-med-zh-eval) Qwen Score |"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alibaba-damo-academy/PixelRefer",
+      "status": "candidate-context",
+      "text": "The code for PixelRefer & VideoRefer"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alibaba-damo-academy/PixelRefer",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -99,6 +111,12 @@
       "source_repo": "BUAADreamer/Chinese-LLaVA-Med",
       "status": "candidate",
       "text": "| Method | [llava-med-zh-eval](https://huggingface.co/datasets/BUAADreamer/llava-med-zh-eval) Qwen Score |"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alibaba-damo-academy/PixelRefer",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -136,11 +154,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "BUAADreamer/Chinese-LLaVA-Med"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "alibaba-damo-academy/PixelRefer"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

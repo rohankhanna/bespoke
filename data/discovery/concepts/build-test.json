@@ -244,6 +244,66 @@
       "source_repo": "systemd/systemd",
       "status": "candidate-context",
       "text": "Build test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "avahi/avahi",
+      "status": "candidate-context",
+      "text": "Avahi - Service Discovery for Linux using mDNS/DNS-SD -- compatible with Bonjour"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "avahi/avahi",
+      "status": "candidate-context",
+      "text": "Build test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "katyo/publish-crates",
+      "status": "candidate-context",
+      "text": "GitHub action to get easy publishing of Rust crates"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "katyo/publish-crates",
+      "status": "candidate-context",
+      "text": "'build-test'"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alexkohler/nakedret",
+      "status": "candidate-context",
+      "text": "nakedret is a Go static analysis tool to find naked returns in functions greater than a specified function length."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alexkohler/nakedret",
+      "status": "candidate-context",
+      "text": "build-test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alexkohler/prealloc",
+      "status": "candidate-context",
+      "text": "prealloc is a Go static analysis tool to find slice declarations that could potentially be preallocated."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alexkohler/prealloc",
+      "status": "candidate-context",
+      "text": "build-test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "preactjs/preact",
+      "status": "candidate-context",
+      "text": "\u269b\ufe0f Fast 3kB React alternative with the same modern API. Components & Virtual DOM."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "preactjs/preact",
+      "status": "candidate-context",
+      "text": "Build & Test"
     }
   ],
   "candidate_glosses": [
@@ -366,6 +426,36 @@
       "source_repo": "systemd/systemd",
       "status": "candidate",
       "text": "Build test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "avahi/avahi",
+      "status": "candidate",
+      "text": "Build test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "katyo/publish-crates",
+      "status": "candidate",
+      "text": "'build-test'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alexkohler/nakedret",
+      "status": "candidate",
+      "text": "build-test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alexkohler/prealloc",
+      "status": "candidate",
+      "text": "build-test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "preactjs/preact",
+      "status": "candidate",
+      "text": "Build & Test"
     }
   ],
   "candidate_related_terms": [
@@ -607,11 +697,53 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": ".github/workflows/build-test.yml",
       "source_repo": "systemd/systemd"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "avahi/avahi"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "katyo/publish-crates"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/build-test.yml",
+      "source_repo": "alexkohler/nakedret"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/build-test.yml",
+      "source_repo": "alexkohler/prealloc"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/build-test.yml",
+      "source_repo": "winfunc/opcode"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/build-test.yml",
+      "source_repo": "preactjs/preact"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/build-and-test.yml",
+      "source_repo": "facebook/create-react-app"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

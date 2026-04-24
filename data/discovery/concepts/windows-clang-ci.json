@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Windows Clang CI"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "facil-io/cstl",
+      "status": "candidate-context",
+      "text": "facil.io C STL - a Server Toolbox Library for C, including JSON processing, hash maps, dynamic arrays, binary strings and more."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "facil-io/cstl",
+      "status": "candidate-context",
+      "text": "Windows Clang CI"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "facil-io/cstl",
+      "status": "candidate",
+      "text": "Windows Clang CI"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13705,
+      "status": "candidate",
+      "text": "ci-devant"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12833,
+      "status": "candidate",
+      "text": "thousand"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12205,
+      "status": "candidate",
+      "text": "eve"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12205,
+      "status": "candidate",
+      "text": "pole"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9937,
+      "status": "candidate",
+      "text": "curie"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Windows Clang CI",
+  "concept_id": "windows-clang-ci",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/windows_clang.yml",
+      "source_repo": "facil-io/cstl"
+    }
+  ],
+  "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Windows Clang CI",
+      "sense_id": "windows-clang-ci#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

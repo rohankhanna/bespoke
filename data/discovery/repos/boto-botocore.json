@@ -1,0 +1,289 @@
+{
+  "components": [
+    {
+      "component": "aws-actions/closed-issue-message@10aaf6366131b673a7c8b7742f8b3849f1d44f18",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/closed-issue-message.yml"
+    },
+    {
+      "component": "actions/checkout@1af3b93b6815bc44a9784bd300feb67ff0d1eeb3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/init@c10b8064de6f491fea524254123dbe5e09572f13",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/autobuild@c10b8064de6f491fea524254123dbe5e09572f13",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@c10b8064de6f491fea524254123dbe5e09572f13",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "aws-github-ops/handle-stale-discussions@711a9813957be17629fc6933afcd8bd132c57254",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/handle-stale-discussions.yml"
+    },
+    {
+      "component": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue-regression-labeler.yml"
+    },
+    {
+      "component": "actions/checkout@1af3b93b6815bc44a9784bd300feb67ff0d1eeb3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "pre-commit/action@646c83fcd040023954eafda54b4db0192ce70507",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "aws-actions/configure-aws-credentials@ec61189d14ec14c8efccab744f656cffd0e33f37",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull-request-build.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.rst",
+      "source_repo": "boto/botocore",
+      "target": "aws/aws-cli",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/closed-issue-message.yml",
+      "source_repo": "boto/botocore",
+      "target": "aws-actions/closed-issue-message@10aaf6366131b673a7c8b7742f8b3849f1d44f18",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/closed-issue-message.yml",
+      "source_repo": "boto/botocore",
+      "target": "Closed Issue Message",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "boto/botocore",
+      "target": "actions/checkout@1af3b93b6815bc44a9784bd300feb67ff0d1eeb3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "boto/botocore",
+      "target": "github/codeql-action/init@c10b8064de6f491fea524254123dbe5e09572f13",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "boto/botocore",
+      "target": "github/codeql-action/autobuild@c10b8064de6f491fea524254123dbe5e09572f13",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "boto/botocore",
+      "target": "github/codeql-action/analyze@c10b8064de6f491fea524254123dbe5e09572f13",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "boto/botocore",
+      "target": "CodeQL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/handle-stale-discussions.yml",
+      "source_repo": "boto/botocore",
+      "target": "aws-github-ops/handle-stale-discussions@711a9813957be17629fc6933afcd8bd132c57254",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/handle-stale-discussions.yml",
+      "source_repo": "boto/botocore",
+      "target": "HandleStaleDiscussions",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue-regression-labeler.yml",
+      "source_repo": "boto/botocore",
+      "target": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issue-regression-labeler.yml",
+      "source_repo": "boto/botocore",
+      "target": "issue-regression-label",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "boto/botocore",
+      "target": "actions/checkout@1af3b93b6815bc44a9784bd300feb67ff0d1eeb3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "boto/botocore",
+      "target": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "boto/botocore",
+      "target": "pre-commit/action@646c83fcd040023954eafda54b4db0192ce70507",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "boto/botocore",
+      "target": "Lint code",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull-request-build.yml",
+      "source_repo": "boto/botocore",
+      "target": "aws-actions/configure-aws-credentials@ec61189d14ec14c8efccab744f656cffd0e33f37",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pull-request-build.yml",
+      "source_repo": "boto/botocore",
+      "target": "Build Botocore",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T01:00:12.024866+00:00",
+  "fetched_files": [
+    {
+      "path": "README.rst",
+      "size": 4646
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1472
+    },
+    {
+      "path": "requirements.txt",
+      "size": 24
+    },
+    {
+      "path": ".github/workflows/closed-issue-message.yml",
+      "size": 646
+    },
+    {
+      "path": ".github/workflows/codeql.yml",
+      "size": 911
+    },
+    {
+      "path": ".github/workflows/fail-master-prs.yml",
+      "size": 333
+    },
+    {
+      "path": ".github/workflows/handle-stale-discussions.yml",
+      "size": 732
+    },
+    {
+      "path": ".github/workflows/issue-regression-labeler.yml",
+      "size": 1361
+    },
+    {
+      "path": ".github/workflows/lint.yml",
+      "size": 521
+    },
+    {
+      "path": ".github/workflows/pull-request-build.yml",
+      "size": 1918
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "develop",
+    "description": "The low-level, core functionality of boto3 and the AWS CLI.",
+    "fork": false,
+    "full_name": "boto/botocore",
+    "html_url": "https://github.com/boto/botocore",
+    "language": "Python",
+    "pushed_at": "2026-04-23T22:26:27Z",
+    "stargazers_count": 1612,
+    "topics": [],
+    "updated_at": "2026-04-23T22:26:28Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aws/aws-cli",
+      "source_file": "README.rst"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Closed Issue Message",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/closed-issue-message.yml",
+      "term": "Closed Issue Message"
+    },
+    {
+      "context_snippet": "\"CodeQL\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "term": "CodeQL"
+    },
+    {
+      "context_snippet": "HandleStaleDiscussions",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/handle-stale-discussions.yml",
+      "term": "HandleStaleDiscussions"
+    },
+    {
+      "context_snippet": "issue-regression-label",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issue-regression-labeler.yml",
+      "term": "issue-regression-label"
+    },
+    {
+      "context_snippet": "Lint code",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "term": "Lint code"
+    },
+    {
+      "context_snippet": "Build Botocore",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pull-request-build.yml",
+      "term": "Build Botocore"
+    }
+  ]
+}

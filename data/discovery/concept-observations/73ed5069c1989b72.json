@@ -1,0 +1,72 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A single-header library with a simplified interface for Vulkan synchronization"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "In an effort to make Vulkan synchronization more accessible, I created this"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "In an effort to make Vulkan synchronization more accessible, I created this"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 5000,
+      "status": "candidate",
+      "text": "built"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 4999,
+      "status": "candidate",
+      "text": "said"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "vulkan",
+      "sense_id": "vulkan#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "vulkan",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "vulkan",
+  "observation_id": "73ed5069c1989b72",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T00:33:56.049672+00:00",
+  "observed_text": "vulkan",
+  "source_context_snippet": "In an effort to make Vulkan synchronization more accessible, I created this",
+  "source_file": null,
+  "source_repo": "Tobski/simple_vulkan_synchronization",
+  "source_repo_description": "A single-header library with a simplified interface for Vulkan synchronization"
+}

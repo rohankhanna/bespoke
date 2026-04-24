@@ -1,0 +1,120 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chfast/ethash",
+      "target": "ethash",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chfast/ethash",
+      "target": "ethereum",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chfast/ethash",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chfast/ethash",
+      "target": "mining",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chfast/ethash",
+      "target": "progpow",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chfast/ethash",
+      "target": "proof-of-work",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T00:58:08.072313+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1918
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 90
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "C/C++ implementation of Ethash and ProgPoW \u2013 the Ethereum Proof of Work algorithms",
+    "fork": false,
+    "full_name": "chfast/ethash",
+    "html_url": "https://github.com/chfast/ethash",
+    "language": "C++",
+    "pushed_at": "2025-06-08T14:46:30Z",
+    "stargazers_count": 150,
+    "topics": [
+      "c",
+      "cpp",
+      "ethash",
+      "ethereum",
+      "hacktoberfest",
+      "mining",
+      "progpow",
+      "proof-of-work"
+    ],
+    "updated_at": "2026-01-10T14:32:49Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "[![readme style standard](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ethash"
+    },
+    {
+      "context_snippet": "[![readme style standard](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ethereum"
+    },
+    {
+      "context_snippet": "[![readme style standard](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    },
+    {
+      "context_snippet": "[![readme style standard](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mining"
+    },
+    {
+      "context_snippet": "[![readme style standard](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "progpow"
+    },
+    {
+      "context_snippet": "[![readme style standard](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "proof-of-work"
+    }
+  ]
+}

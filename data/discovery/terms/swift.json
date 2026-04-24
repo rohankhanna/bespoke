@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T09:57:17.167988+00:00",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -151,6 +151,66 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "sindresorhus/Gifski"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "SwiftGen/SwiftGen"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "Alamofire/Alamofire"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "artemnovichkov/Carting"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "ChargePoint/xcparse"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "connectrpc/connect-swift"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "objectbox/objectbox-swift-spm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "apollographql/apollo-tooling"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "swiftlang/swift-llbuild"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "XcodesOrg/XcodesApp"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/jazzy.yml",
+      "source_repo": "attaswift/BigInt"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/swift.yml",
+      "source_repo": "attaswift/BigInt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "ZipArchive/ZipArchive"
     }
   ],
   "term": "swift"

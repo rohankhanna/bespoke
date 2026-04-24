@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-24T01:46:10.749934+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2849
+    },
+    {
+      "path": "go.mod",
+      "size": 59
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Linux Virtual Machine Extensions for Azure",
+    "fork": false,
+    "full_name": "Azure/azure-linux-extensions",
+    "html_url": "https://github.com/Azure/azure-linux-extensions",
+    "language": "Python",
+    "pushed_at": "2026-04-23T15:03:13Z",
+    "stargazers_count": 330,
+    "topics": [],
+    "updated_at": "2026-04-23T15:03:21Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

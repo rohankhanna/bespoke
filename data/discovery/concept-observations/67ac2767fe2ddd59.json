@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Fast and Lightweight Logs, Metrics and Traces processor for Linux, BSD, OSX and Windows"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "| CI Workflow | Status |"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "| CI Workflow | Status |"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30017222,
+      "status": "candidate",
+      "text": "forwarding"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30012351,
+      "status": "candidate",
+      "text": "sender"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30010301,
+      "status": "candidate",
+      "text": "consignor"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30010005,
+      "status": "candidate",
+      "text": "consignee"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30008162,
+      "status": "candidate",
+      "text": "forward"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "forwarder",
+      "sense_id": "forwarder#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "forwarder",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "forwarder",
+  "observation_id": "67ac2767fe2ddd59",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T00:33:56.049672+00:00",
+  "observed_text": "forwarder",
+  "source_context_snippet": "| CI Workflow | Status |",
+  "source_file": null,
+  "source_repo": "fluent/fluent-bit",
+  "source_repo_description": "Fast and Lightweight Logs, Metrics and Traces processor for Linux, BSD, OSX and Windows"
+}

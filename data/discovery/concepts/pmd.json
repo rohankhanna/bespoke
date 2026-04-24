@@ -1,0 +1,93 @@
+{
+  "aliases": [
+    "PMD"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aws-powertools/powertools-lambda-java",
+      "status": "candidate-context",
+      "text": "Powertools is a developer toolkit to implement Serverless best practices and increase developer velocity."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws-powertools/powertools-lambda-java",
+      "status": "candidate-context",
+      "text": "PMD"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws-powertools/powertools-lambda-java",
+      "status": "candidate",
+      "text": "PMD"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29674480,
+      "status": "candidate",
+      "text": "ldc"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29672781,
+      "status": "candidate",
+      "text": "mdp"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19674819,
+      "status": "candidate",
+      "text": "ldcs"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19674818,
+      "status": "candidate",
+      "text": "phy"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "PMD",
+  "concept_id": "pmd",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/check-pmd.yml",
+      "source_repo": "aws-powertools/powertools-lambda-java"
+    }
+  ],
+  "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "PMD",
+      "sense_id": "pmd#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

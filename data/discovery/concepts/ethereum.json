@@ -667,6 +667,102 @@
       "source_repo": "foundry-rs/forge-std",
       "status": "candidate-context",
       "text": "Forge Standard Library is a collection of helpful contracts and libraries for use with [Forge and Foundry](https://github.com/foundry-rs/foundry). It leverages Forge's cheatcodes to make writing tests easier and faster, while improving the UX of cheatcodes."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "op-rs/maili",
+      "status": "candidate-context",
+      "text": "Composable rust types and interfaces specific to the OP Stack. Built on Alloy."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "op-rs/maili",
+      "status": "candidate-context",
+      "text": "> [!CAUTION]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "blockscout/blockscout",
+      "status": "candidate-context",
+      "text": "Blockchain explorer for Ethereum based network and a tool for inspecting and analyzing EVM based blockchains. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "blockscout/blockscout",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">Blockscout</h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lambdaclass/ethrex",
+      "status": "candidate-context",
+      "text": "Minimalist, stable, modular, fast, and ZK native implementation of the Ethereum protocol in Rust. L1 and L2 execution client."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lambdaclass/ethrex",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "status-im/nimbus-eth1",
+      "status": "candidate-context",
+      "text": "Nimbus: an Ethereum Execution Client for Resource-Restricted Devices"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "status-im/nimbus-eth1",
+      "status": "candidate-context",
+      "text": "[![License: Apache](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "chfast/ethash",
+      "status": "candidate-context",
+      "text": "C/C++ implementation of Ethash and ProgPoW \u2013 the Ethereum Proof of Work algorithms"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chfast/ethash",
+      "status": "candidate-context",
+      "text": "[![readme style standard](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ipsilon/evmc",
+      "status": "candidate-context",
+      "text": "EVMC \u2013 Ethereum Client-VM Connector API"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipsilon/evmc",
+      "status": "candidate-context",
+      "text": "[![chat: on gitter][gitter badge]][Gitter]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Uniswap/v3-core",
+      "status": "candidate-context",
+      "text": "\ud83e\udd84 \ud83e\udd84 \ud83e\udd84 Core smart contracts of Uniswap v3"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Uniswap/v3-core",
+      "status": "candidate-context",
+      "text": "[![Lint](https://github.com/Uniswap/uniswap-v3-core/actions/workflows/lint.yml/badge.svg)](https://github.com/Uniswap/uniswap-v3-core/actions/workflows/lint.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "celo-org/celo-monorepo",
+      "status": "candidate-context",
+      "text": "Official repository for core projects comprising the Celo platform"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "celo-org/celo-monorepo",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -999,6 +1095,54 @@
       "source_repo": "foundry-rs/forge-std",
       "status": "candidate",
       "text": "Forge Standard Library is a collection of helpful contracts and libraries for use with [Forge and Foundry](https://github.com/foundry-rs/foundry). It leverages Forge's cheatcodes to make writing tests easier and faster, while improving the UX of cheatcodes."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "op-rs/maili",
+      "status": "candidate",
+      "text": "> [!CAUTION]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "blockscout/blockscout",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">Blockscout</h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lambdaclass/ethrex",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "status-im/nimbus-eth1",
+      "status": "candidate",
+      "text": "[![License: Apache](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chfast/ethash",
+      "status": "candidate",
+      "text": "[![readme style standard](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipsilon/evmc",
+      "status": "candidate",
+      "text": "[![chat: on gitter][gitter badge]][Gitter]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Uniswap/v3-core",
+      "status": "candidate",
+      "text": "[![Lint](https://github.com/Uniswap/uniswap-v3-core/actions/workflows/lint.yml/badge.svg)](https://github.com/Uniswap/uniswap-v3-core/actions/workflows/lint.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "celo-org/celo-monorepo",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -1492,11 +1636,125 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "Consensys/ethereum-dissectors"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "argotorg/solidity"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "safe-fndn/safe-smart-account"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "op-rs/maili"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "blockscout/blockscout"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "ConsenSys-archive/ganache"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "lambdaclass/ethrex"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "ipsilon/evmone"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "besu-eth/besu"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "status-im/nimbus-eth1"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "chfast/ethash"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "ipsilon/evmc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "crytic/evm_cfg_builder"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "crytic/pyevmasm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "dethcrypto/eth-sdk"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "dethcrypto/TypeChain"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "Uniswap/v3-core"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "web3/web3.js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "celo-org/celo-monorepo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "Consensys/ethereum-dissectors"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "ARM Modeling Review"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Azure/azure-rest-api-specs",
+      "status": "candidate-context",
+      "text": "The source for REST API specifications for Microsoft Azure."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Azure/azure-rest-api-specs",
+      "status": "candidate-context",
+      "text": "ARM Modeling Review"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Azure/azure-rest-api-specs",
+      "status": "candidate",
+      "text": "ARM Modeling Review"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20049,
+      "status": "candidate",
+      "text": "econometrics"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19966,
+      "status": "candidate",
+      "text": "glue"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19966,
+      "status": "candidate",
+      "text": "sit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19909,
+      "status": "candidate",
+      "text": "atm"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19909,
+      "status": "candidate",
+      "text": "curl"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "ARM Modeling Review",
+  "concept_id": "arm-modeling-review",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/arm-modeling-review.yaml",
+      "source_repo": "Azure/azure-rest-api-specs"
+    }
+  ],
+  "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "ARM Modeling Review",
+      "sense_id": "arm-modeling-review#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

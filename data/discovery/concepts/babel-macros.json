@@ -1,0 +1,88 @@
+{
+  "aliases": [
+    "babel-macros"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kentcdodds/babel-plugin-macros",
+      "status": "candidate-context",
+      "text": "\ud83c\udfa3 Allows you to build simple compile-time libraries"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kentcdodds/babel-plugin-macros",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "leoasis/graphql-tag.macro",
+      "status": "candidate-context",
+      "text": "Babel Macro for graphql-tag"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "leoasis/graphql-tag.macro",
+      "status": "candidate-context",
+      "text": "Babel Macro for the [graphql-tag](https://github.com/apollographql/graphql-tag) library."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kentcdodds/babel-plugin-macros",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "leoasis/graphql-tag.macro",
+      "status": "candidate",
+      "text": "Babel Macro for the [graphql-tag](https://github.com/apollographql/graphql-tag) library."
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "babel-macros",
+  "concept_id": "babel-macros",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "kentcdodds/babel-plugin-macros"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "leoasis/graphql-tag.macro"
+    }
+  ],
+  "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "babel-macros",
+      "sense_id": "babel-macros#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "weather"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "chubin/wttr.in",
+      "status": "candidate-context",
+      "text": ":partly_sunny: The right way to check the weather"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chubin/wttr.in",
+      "status": "candidate-context",
+      "text": "*wttr.in \u2014 the right way to ~check~ `curl` the weather!*"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chubin/wttr.in",
+      "status": "candidate",
+      "text": "*wttr.in \u2014 the right way to ~check~ `curl` the weather!*"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40029847,
+      "status": "candidate",
+      "text": "windward"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40026919,
+      "status": "candidate",
+      "text": "upwind"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39857364,
+      "status": "candidate",
+      "text": "endure"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39851310,
+      "status": "candidate",
+      "text": "brave out"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39826379,
+      "status": "candidate",
+      "text": "brave"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 34035,
+      "status": "candidate",
+      "text": "endure"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 22044,
+      "status": "candidate",
+      "text": "brave"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 4014,
+      "status": "candidate",
+      "text": "brave out"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 3036,
+      "status": "candidate",
+      "text": "upwind"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 9,
+      "status": "candidate",
+      "text": "atmospheric condition"
+    }
+  ],
+  "canonical_name": "weather",
+  "concept_id": "weather",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "chubin/wttr.in"
+    }
+  ],
+  "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "weather",
+      "sense_id": "weather#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

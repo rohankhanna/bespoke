@@ -1,0 +1,62 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "martinmoene/catch-lest-other-comparison",
+      "target": "onqtam/doctest",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "martinmoene/catch-lest-other-comparison",
+      "target": "martinmoene/lest",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "martinmoene/catch-lest-other-comparison",
+      "target": "martinmoene/hamlest",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "martinmoene/catch-lest-other-comparison",
+      "target": "catch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "martinmoene/catch-lest-other-comparison",
+      "target": "comparison",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "martinmoene/catch-lest-other-comparison",
+      "target": "doctest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "martinmoene/catch-lest-other-comparison",
+      "target": "lest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "martinmoene/catch-lest-other-comparison",
+      "target": "tdd-framework",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-24T00:33:56.049672+00:00",
+  "source_repo": "martinmoene/catch-lest-other-comparison"
+}

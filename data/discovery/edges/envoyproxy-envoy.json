@@ -1,0 +1,111 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "envoyproxy/envoy",
+      "target": "envoyproxy/artwork",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "envoyproxy/envoy",
+      "target": "envoyproxy/examples",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "envoyproxy/envoy",
+      "target": "envoyproxy/envoy-perf",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "envoyproxy/envoy",
+      "target": "envoyproxy/envoy-filter-example",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_check_coverage.yml",
+      "source_repo": "envoyproxy/envoy",
+      "target": "envoyproxy/toolshed/actions/jq@0f75902a4f8ed63a5b5f9e4336ef22048f6f5670",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_cve_fetch.yml",
+      "source_repo": "envoyproxy/envoy",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_cve_fetch.yml",
+      "source_repo": "envoyproxy/envoy",
+      "target": "envoyproxy/toolshed/actions/gcp/setup@0f75902a4f8ed63a5b5f9e4336ef22048f6f5670",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "envoyproxy/envoy",
+      "target": "cars",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "envoyproxy/envoy",
+      "target": "cats",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "envoyproxy/envoy",
+      "target": "cats-over-dogs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "envoyproxy/envoy",
+      "target": "cncf",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "envoyproxy/envoy",
+      "target": "corgis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "envoyproxy/envoy",
+      "target": "more-cats",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "envoyproxy/envoy",
+      "target": "nanoservices",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "envoyproxy/envoy",
+      "target": "rocket-ships",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-24T00:33:56.049672+00:00",
+  "source_repo": "envoyproxy/envoy"
+}

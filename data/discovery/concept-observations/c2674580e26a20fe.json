@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Super-fast float parser in Rust (now part of Rust core)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "fast-float"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "fast-float"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10023058,
+      "status": "candidate",
+      "text": "floating point"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10023057,
+      "status": "candidate",
+      "text": "flotating point"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10023056,
+      "status": "candidate",
+      "text": "fixed-point"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10023055,
+      "status": "candidate",
+      "text": "decimal"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10023054,
+      "status": "candidate",
+      "text": "fixed point"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "floating-point",
+      "sense_id": "floating-point#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "floating-point",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "floating-point",
+  "observation_id": "c2674580e26a20fe",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T00:33:56.049672+00:00",
+  "observed_text": "floating-point",
+  "source_context_snippet": "fast-float",
+  "source_file": null,
+  "source_repo": "aldanor/fast-float-rust",
+  "source_repo_description": "Super-fast float parser in Rust (now part of Rust core)"
+}

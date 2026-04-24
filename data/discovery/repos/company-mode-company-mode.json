@@ -1,0 +1,87 @@
+{
+  "components": [
+    {
+      "component": "purcell/setup-emacs@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "company-mode/company-mode",
+      "target": "purcell/setup-emacs@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "company-mode/company-mode",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "company-mode/company-mode",
+      "target": "code-completion",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "company-mode/company-mode",
+      "target": "emacs-lisp",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T00:51:41.820719+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1049
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 776
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Modular in-buffer completion framework for Emacs",
+    "fork": false,
+    "full_name": "company-mode/company-mode",
+    "html_url": "https://github.com/company-mode/company-mode",
+    "language": "Emacs Lisp",
+    "pushed_at": "2026-04-22T10:33:19Z",
+    "stargazers_count": 2277,
+    "topics": [
+      "code-completion",
+      "emacs-lisp"
+    ],
+    "updated_at": "2026-04-22T10:33:26Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "See the homepage for [installation and usage instructions](http://company-mode.github.io/).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "code-completion"
+    },
+    {
+      "context_snippet": "See the homepage for [installation and usage instructions](http://company-mode.github.io/).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "emacs-lisp"
+    }
+  ]
+}

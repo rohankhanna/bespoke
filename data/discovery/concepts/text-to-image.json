@@ -19,6 +19,18 @@
       "source_repo": "vicgalle/stable-diffusion-aesthetic-gradients",
       "status": "candidate-context",
       "text": "This is the codebase for the article [Personalizing Text-to-Image Generation via Aesthetic Gradients](https://arxiv.org/abs/2209.12330):"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sayakpaul/diffusers-torchao",
+      "status": "candidate-context",
+      "text": "End-to-end recipes for optimizing diffusion models with torchao and diffusers (inference and FP8 training)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sayakpaul/diffusers-torchao",
+      "status": "candidate-context",
+      "text": "**Optimize image and video generation with [`diffusers`](https://github.com/huggingface/diffusers), [`torchao`](https://github.com/pytorch/ao), combining `torch.compile()` \ud83d\udd25**"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "vicgalle/stable-diffusion-aesthetic-gradients",
       "status": "candidate",
       "text": "This is the codebase for the article [Personalizing Text-to-Image Generation via Aesthetic Gradients](https://arxiv.org/abs/2209.12330):"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sayakpaul/diffusers-torchao",
+      "status": "candidate",
+      "text": "**Optimize image and video generation with [`diffusers`](https://github.com/huggingface/diffusers), [`torchao`](https://github.com/pytorch/ao), combining `torch.compile()` \ud83d\udd25**"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-21T11:24:10.450489+00:00",
       "source_file": null,
       "source_repo": "vicgalle/stable-diffusion-aesthetic-gradients"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "sayakpaul/diffusers-torchao"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

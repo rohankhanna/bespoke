@@ -1,7 +1,7 @@
 {
   "component": "ruby/setup-ruby@v1",
   "first_seen_at": "2026-04-18T03:42:01.586113+00:00",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -702,6 +702,161 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/truffleruby.yml",
       "source_repo": "ruby/debug"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "CocoaPods/CLAide"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/Specs.yml",
+      "source_repo": "CocoaPods/cocoapods-downloader"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/Specs.yml",
+      "source_repo": "CocoaPods/Core"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "CocoaPods/Molinillo"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/archive.yml",
+      "source_repo": "SwiftGen/SwiftGen"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cocoapods.yml",
+      "source_repo": "SwiftGen/SwiftGen"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/compile-output.yml",
+      "source_repo": "SwiftGen/SwiftGen"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/danger.yml",
+      "source_repo": "SwiftGen/SwiftGen"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/swiftlint.yml",
+      "source_repo": "SwiftGen/SwiftGen"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/tag-publish.yml",
+      "source_repo": "SwiftGen/SwiftGen"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test-spm.yml",
+      "source_repo": "SwiftGen/SwiftGen"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ku1ik/rainbow"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "xcpretty/xcode-install"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "brianmario/charlock_holmes"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/macos.yml",
+      "source_repo": "brianmario/charlock_holmes"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/benchmark.yml",
+      "source_repo": "jekyll/jekyll"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "jekyll/jekyll"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "jekyll/jekyll"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release-please.yml",
+      "source_repo": "jekyll/jekyll"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/third-party.yml",
+      "source_repo": "jekyll/jekyll"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "libgit2/rugged"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "anchordotdev/puma-acme"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "babbel/puma-plugin-telemetry"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "harmjanblok/puma-metrics"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/license.yml",
+      "source_repo": "kigster/puma-daemon"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "kigster/puma-daemon"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "rails/propshaft"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "rails/sprockets-rails"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "jeremyevans/sequel"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test.yml",
+      "source_repo": "uptrace/uptrace"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ruby.yml",
+      "source_repo": "anilmaurya/fast_jsonparser"
     }
   ]
 }

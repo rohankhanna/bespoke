@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Whenever cursor jumps some distance or moves between windows, it will flash so you can see where it is"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Highlight cursor when it moves, changes windows and more!"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Highlight cursor when it moves, changes windows and more!"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "neovim",
+      "sense_id": "neovim#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "neovim",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "neovim",
+  "observation_id": "6f57dd5aa345b111",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T00:33:56.049672+00:00",
+  "observed_text": "neovim",
+  "source_context_snippet": "Highlight cursor when it moves, changes windows and more!",
+  "source_file": null,
+  "source_repo": "DanilaMihailov/beacon.nvim",
+  "source_repo_description": "Whenever cursor jumps some distance or moves between windows, it will flash so you can see where it is"
+}

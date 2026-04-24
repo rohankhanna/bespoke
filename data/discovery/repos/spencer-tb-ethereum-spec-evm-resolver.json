@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-24T00:58:07.382281+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1709
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "EELS evm forwarding tool",
+    "fork": true,
+    "full_name": "spencer-tb/ethereum-spec-evm-resolver",
+    "html_url": "https://github.com/spencer-tb/ethereum-spec-evm-resolver",
+    "language": "Python",
+    "pushed_at": "2025-07-25T10:24:33Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2025-07-25T10:24:37Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

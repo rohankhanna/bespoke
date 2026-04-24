@@ -129,13 +129,6 @@
       "target_type": "repository"
     },
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "eclipse-wildwebdeveloper/wildwebdeveloper",
-      "target": "redhat-developer/yaml-language-server",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build.yml",
       "source_repo": "eclipse-wildwebdeveloper/wildwebdeveloper",
@@ -325,7 +318,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-23T20:07:43.979210+00:00",
+  "fetched_at": "2026-04-24T00:52:11.190213+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -376,11 +369,6 @@
     {
       "edge_type": "explicit-github-link",
       "full_name": "eclipse/tm4e",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "redhat-developer/yaml-language-server",
       "source_file": "README.md"
     },
     {

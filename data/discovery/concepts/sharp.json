@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "sharp"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lovell/sharp",
+      "status": "candidate-context",
+      "text": "High performance Node.js image processing, the fastest module to resize JPEG, PNG, WebP, AVIF and TIFF images. Uses the libvips library."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lovell/sharp",
+      "status": "candidate-context",
+      "text": "<img src=\"https://sharp.pixelplumbing.com/sharp-logo.svg\" width=\"160\" height=\"160\" alt=\"sharp logo\" align=\"right\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lovell/sharp",
+      "status": "candidate",
+      "text": "<img src=\"https://sharp.pixelplumbing.com/sharp-logo.svg\" width=\"160\" height=\"160\" alt=\"sharp logo\" align=\"right\">"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40011168,
+      "status": "candidate",
+      "text": "sharpened"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40011164,
+      "status": "candidate",
+      "text": "pointed"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40011150,
+      "status": "candidate",
+      "text": "acuate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40009924,
+      "status": "candidate",
+      "text": "edged"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40009892,
+      "status": "candidate",
+      "text": "cutting"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 110035,
+      "status": "candidate",
+      "text": "shrewd"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 74038,
+      "status": "candidate",
+      "text": "keen"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 61029,
+      "status": "candidate",
+      "text": "acerbic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 59036,
+      "status": "candidate",
+      "text": "astute"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 57040,
+      "status": "candidate",
+      "text": "intense"
+    }
+  ],
+  "canonical_name": "sharp",
+  "concept_id": "sharp",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "lovell/sharp"
+    }
+  ],
+  "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "sharp",
+      "sense_id": "sharp#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

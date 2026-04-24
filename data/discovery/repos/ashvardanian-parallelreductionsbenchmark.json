@@ -1,0 +1,326 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "ashvardanian/tinysemver@v2.1.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ashvardanian/ParallelReductionsBenchmark",
+      "target": "taskflow/taskflow",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ashvardanian/ParallelReductionsBenchmark",
+      "target": "rayon-rs/rayon",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ashvardanian/ParallelReductionsBenchmark",
+      "target": "smol-rs/async-executor",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ashvardanian/ParallelReductionsBenchmark",
+      "target": "intel/compute-runtime",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "ashvardanian/ParallelReductionsBenchmark",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "ashvardanian/ParallelReductionsBenchmark",
+      "target": "ashvardanian/tinysemver@v2.1.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "ashvardanian/ParallelReductionsBenchmark",
+      "target": "Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ashvardanian/ParallelReductionsBenchmark",
+      "target": "avx512",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ashvardanian/ParallelReductionsBenchmark",
+      "target": "cuda",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ashvardanian/ParallelReductionsBenchmark",
+      "target": "gpgpu",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ashvardanian/ParallelReductionsBenchmark",
+      "target": "gpu-acceleration",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ashvardanian/ParallelReductionsBenchmark",
+      "target": "gpu-computing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ashvardanian/ParallelReductionsBenchmark",
+      "target": "metal",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ashvardanian/ParallelReductionsBenchmark",
+      "target": "neon",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ashvardanian/ParallelReductionsBenchmark",
+      "target": "nvidia",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ashvardanian/ParallelReductionsBenchmark",
+      "target": "opencl",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ashvardanian/ParallelReductionsBenchmark",
+      "target": "openmp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ashvardanian/ParallelReductionsBenchmark",
+      "target": "parallel",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ashvardanian/ParallelReductionsBenchmark",
+      "target": "simd",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ashvardanian/ParallelReductionsBenchmark",
+      "target": "thread-pool",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ashvardanian/ParallelReductionsBenchmark",
+      "target": "thrust",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T00:49:13.236922+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 23039
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 355
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 897
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Thrust, CUB, TBB, AVX2, AVX-512, CUDA, OpenCL, OpenMP, Metal, and Rust - all it takes to sum a lot of numbers fast!",
+    "fork": false,
+    "full_name": "ashvardanian/ParallelReductionsBenchmark",
+    "html_url": "https://github.com/ashvardanian/ParallelReductionsBenchmark",
+    "language": "C++",
+    "pushed_at": "2025-07-22T15:01:39Z",
+    "stargazers_count": 117,
+    "topics": [
+      "avx512",
+      "cuda",
+      "gpgpu",
+      "gpu",
+      "gpu-acceleration",
+      "gpu-computing",
+      "hpc",
+      "metal",
+      "neon",
+      "nvidia",
+      "opencl",
+      "openmp",
+      "parallel",
+      "simd",
+      "stl",
+      "sve",
+      "tbb",
+      "thread-pool",
+      "thrust"
+    ],
+    "updated_at": "2026-03-06T19:54:52Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "intel/compute-runtime",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rayon-rs/rayon",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "smol-rs/async-executor",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "taskflow/taskflow",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Release"
+    },
+    {
+      "context_snippet": "__For CPUs and GPUs in C++, CUDA, and Rust__",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "avx512"
+    },
+    {
+      "context_snippet": "__For CPUs and GPUs in C++, CUDA, and Rust__",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cuda"
+    },
+    {
+      "context_snippet": "__For CPUs and GPUs in C++, CUDA, and Rust__",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gpgpu"
+    },
+    {
+      "context_snippet": "__For CPUs and GPUs in C++, CUDA, and Rust__",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gpu-acceleration"
+    },
+    {
+      "context_snippet": "__For CPUs and GPUs in C++, CUDA, and Rust__",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gpu-computing"
+    },
+    {
+      "context_snippet": "__For CPUs and GPUs in C++, CUDA, and Rust__",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "metal"
+    },
+    {
+      "context_snippet": "__For CPUs and GPUs in C++, CUDA, and Rust__",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neon"
+    },
+    {
+      "context_snippet": "__For CPUs and GPUs in C++, CUDA, and Rust__",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nvidia"
+    },
+    {
+      "context_snippet": "__For CPUs and GPUs in C++, CUDA, and Rust__",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "opencl"
+    },
+    {
+      "context_snippet": "__For CPUs and GPUs in C++, CUDA, and Rust__",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "openmp"
+    },
+    {
+      "context_snippet": "__For CPUs and GPUs in C++, CUDA, and Rust__",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "parallel"
+    },
+    {
+      "context_snippet": "__For CPUs and GPUs in C++, CUDA, and Rust__",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "simd"
+    },
+    {
+      "context_snippet": "__For CPUs and GPUs in C++, CUDA, and Rust__",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "thread-pool"
+    },
+    {
+      "context_snippet": "__For CPUs and GPUs in C++, CUDA, and Rust__",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "thrust"
+    }
+  ]
+}

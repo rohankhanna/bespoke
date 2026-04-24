@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "request"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Alamofire/Alamofire",
+      "status": "candidate-context",
+      "text": "Elegant HTTP Networking in Swift"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Alamofire/Alamofire",
+      "status": "candidate-context",
+      "text": "![Alamofire: Elegant Networking in Swift](https://raw.githubusercontent.com/Alamofire/Alamofire/master/Resources/AlamofireLogo.png)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Alamofire/Alamofire",
+      "status": "candidate",
+      "text": "![Alamofire: Elegant Networking in Swift](https://raw.githubusercontent.com/Alamofire/Alamofire/master/Resources/AlamofireLogo.png)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40047906,
+      "status": "candidate",
+      "text": "asking"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40041367,
+      "status": "candidate",
+      "text": "petition"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40040162,
+      "status": "candidate",
+      "text": "bespeak"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40037882,
+      "status": "candidate",
+      "text": "quest"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39969213,
+      "status": "candidate",
+      "text": "call for"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 27026,
+      "status": "candidate",
+      "text": "bespeak"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 14052,
+      "status": "candidate",
+      "text": "petition"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 11019,
+      "status": "candidate",
+      "text": "call for"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 7027,
+      "status": "candidate",
+      "text": "asking"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "quest"
+    }
+  ],
+  "canonical_name": "request",
+  "concept_id": "request",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "Alamofire/Alamofire"
+    }
+  ],
+  "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "request",
+      "sense_id": "request#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

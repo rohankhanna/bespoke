@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Distraction free editing and jump visuals"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "This is an UI addon for SublimeLinter."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "This is an UI addon for SublimeLinter."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39990157,
+      "status": "candidate",
+      "text": "sublimate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39927658,
+      "status": "candidate",
+      "text": "glorious"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39924349,
+      "status": "candidate",
+      "text": "elated"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39920843,
+      "status": "candidate",
+      "text": "empyreal"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39918709,
+      "status": "candidate",
+      "text": "empyrean"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "sublime",
+      "sense_id": "sublime#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 59029,
+      "status": "candidate",
+      "text": "elated"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 46035,
+      "status": "candidate",
+      "text": "glorious"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 45032,
+      "status": "candidate",
+      "text": "empyrean"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 40024,
+      "status": "candidate",
+      "text": "empyreal"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 38044,
+      "status": "candidate",
+      "text": "sacred"
+    }
+  ],
+  "concept_id": "sublime",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "sublime",
+  "observation_id": "51ef3305db77741e",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T00:33:56.049672+00:00",
+  "observed_text": "sublime",
+  "source_context_snippet": "This is an UI addon for SublimeLinter.",
+  "source_file": null,
+  "source_repo": "kaste/SublimeLinter-addon-goto-flash",
+  "source_repo_description": "Distraction free editing and jump visuals"
+}

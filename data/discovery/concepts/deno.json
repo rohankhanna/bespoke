@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "deno"
+    "deno",
+    "Deno"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -69,6 +70,42 @@
       "source_repo": "denoland/std",
       "status": "candidate-context",
       "text": "[![JSR @std](https://jsr.io/badges/@std)](https://jsr.io/@std)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "eemeli/yaml",
+      "status": "candidate-context",
+      "text": "YAML parser and serialiser for JavaScript"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eemeli/yaml",
+      "status": "candidate-context",
+      "text": "Deno"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Shougo/ddc.vim",
+      "status": "candidate-context",
+      "text": "Dark deno-powered completion framework for Vim/Neovim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Shougo/ddc.vim",
+      "status": "candidate-context",
+      "text": "deno"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Shougo/ddu.vim",
+      "status": "candidate-context",
+      "text": "Dark deno-powered UI framework for Vim/Neovim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Shougo/ddu.vim",
+      "status": "candidate-context",
+      "text": "deno"
     }
   ],
   "candidate_glosses": [
@@ -101,6 +138,24 @@
       "source_repo": "denoland/std",
       "status": "candidate",
       "text": "[![JSR @std](https://jsr.io/badges/@std)](https://jsr.io/@std)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eemeli/yaml",
+      "status": "candidate",
+      "text": "Deno"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Shougo/ddc.vim",
+      "status": "candidate",
+      "text": "deno"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Shougo/ddu.vim",
+      "status": "candidate",
+      "text": "deno"
     }
   ],
   "candidate_related_terms": [
@@ -180,11 +235,29 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "denoland/std"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/deno.yml",
+      "source_repo": "eemeli/yaml"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/deno.yml",
+      "source_repo": "Shougo/ddc.vim"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/deno.yml",
+      "source_repo": "Shougo/ddu.vim"
     }
   ],
   "first_seen_at": "2026-04-18T11:41:43.530265+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

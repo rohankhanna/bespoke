@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Spotify Web API SDK implemented on Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "WebApp Continuous Integration"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "WebApp Continuous Integration"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11656,
+      "status": "candidate",
+      "text": "consideration"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11589,
+      "status": "candidate",
+      "text": "discrete"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10779,
+      "status": "candidate",
+      "text": "balance"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10779,
+      "status": "candidate",
+      "text": "compatible"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10779,
+      "status": "candidate",
+      "text": "consolidation"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "WebApp Continuous Integration",
+      "sense_id": "webapp-continuous-integration#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "webapp-continuous-integration",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "webapp-continuous-integration",
+  "observation_id": "ab828717e55bc071",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-24T00:33:56.049672+00:00",
+  "observed_text": "WebApp Continuous Integration",
+  "source_context_snippet": "WebApp Continuous Integration",
+  "source_file": ".github/workflows/webapp_ci.yml",
+  "source_repo": "ramsayleung/rspotify",
+  "source_repo_description": "Spotify Web API SDK implemented on Rust"
+}

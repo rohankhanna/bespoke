@@ -1,0 +1,82 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "saagarjha/unxip",
+      "target": "apple/swift-format",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "saagarjha/unxip",
+      "target": "nrosenstein-stuff/pbzx",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "saagarjha/unxip",
+      "target": "apple/swift",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "saagarjha/unxip",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-24T00:46:07.387786+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 12308
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 2561
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A fast Xcode unarchiver",
+    "fork": false,
+    "full_name": "saagarjha/unxip",
+    "html_url": "https://github.com/saagarjha/unxip",
+    "language": "Swift",
+    "pushed_at": "2026-01-09T02:10:54Z",
+    "stargazers_count": 949,
+    "topics": [],
+    "updated_at": "2026-04-23T18:52:31Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "apple/swift",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "apple/swift-format",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nrosenstein-stuff/pbzx",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\u269b\ufe0f Fast 3kB React alternative with the same modern API. Components & Virtual DOM."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Benchmark Debug"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Benchmark Debug"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10997,
+      "status": "candidate",
+      "text": "debugger"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10801,
+      "status": "candidate",
+      "text": "advantage"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10801,
+      "status": "candidate",
+      "text": "advantages"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10801,
+      "status": "candidate",
+      "text": "alkaloid"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10801,
+      "status": "candidate",
+      "text": "benefits"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Benchmark Debug",
+      "sense_id": "benchmark-debug#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "benchmark-debug",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "benchmark-debug",
+  "observation_id": "df712e41bc16b854",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-24T00:33:56.049672+00:00",
+  "observed_text": "Benchmark Debug",
+  "source_context_snippet": "Benchmark Debug",
+  "source_file": ".github/workflows/single-bench.yml",
+  "source_repo": "preactjs/preact",
+  "source_repo_description": "\u269b\ufe0f Fast 3kB React alternative with the same modern API. Components & Virtual DOM."
+}

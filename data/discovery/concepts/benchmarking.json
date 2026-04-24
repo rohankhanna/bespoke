@@ -106,6 +106,36 @@
       "source_repo": "ethereum/execution-specs",
       "status": "candidate-context",
       "text": "Benchmarking"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ashvardanian/less_slow.py",
+      "status": "candidate-context",
+      "text": "Playing around \"Less Slow\" coding practices in Python, from numerical micro-kernels to coroutines, ranges, and polymorphic state machines"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ashvardanian/less_slow.py",
+      "status": "candidate-context",
+      "text": "> The spiritual little brother of [`less_slow.cpp`](https://github.com/ashvardanian/less_slow.cpp)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "criterion-rs/criterion.rs",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">Criterion.<span></span>rs</h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alecthomas/go_serialization_benchmarks",
+      "status": "candidate-context",
+      "text": "Benchmarks of Go serialization methods"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alecthomas/go_serialization_benchmarks",
+      "status": "candidate-context",
+      "text": "[![Gitter chat](https://badges.gitter.im/alecthomas.png)](https://gitter.im/alecthomas/Lobby)"
     }
   ],
   "candidate_glosses": [
@@ -156,6 +186,24 @@
       "source_repo": "ethereum/execution-specs",
       "status": "candidate",
       "text": "Benchmarking"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ashvardanian/less_slow.py",
+      "status": "candidate",
+      "text": "> The spiritual little brother of [`less_slow.cpp`](https://github.com/ashvardanian/less_slow.cpp)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "criterion-rs/criterion.rs",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">Criterion.<span></span>rs</h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alecthomas/go_serialization_benchmarks",
+      "status": "candidate",
+      "text": "[![Gitter chat](https://badges.gitter.im/alecthomas.png)](https://gitter.im/alecthomas/Lobby)"
     }
   ],
   "candidate_related_terms": [
@@ -247,11 +295,29 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": ".github/workflows/benchmark.yaml",
       "source_repo": "ethereum/execution-specs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "ashvardanian/less_slow.py"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "criterion-rs/criterion.rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "alecthomas/go_serialization_benchmarks"
     }
   ],
   "first_seen_at": "2026-04-18T18:48:44.679047+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

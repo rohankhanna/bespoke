@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Node-core streams for userland"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Bundlers"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Bundlers"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9995323,
+      "status": "candidate",
+      "text": "donors"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9995320,
+      "status": "candidate",
+      "text": "benefactors"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9995319,
+      "status": "candidate",
+      "text": "lobbyists"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9995318,
+      "status": "candidate",
+      "text": "organizers"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9995317,
+      "status": "candidate",
+      "text": "hustlers"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Bundlers",
+      "sense_id": "bundlers#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "bundlers",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "bundlers",
+  "observation_id": "7f846b3f36e49bcd",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-24T00:33:56.049672+00:00",
+  "observed_text": "Bundlers",
+  "source_context_snippet": "Bundlers",
+  "source_file": ".github/workflows/bundlers.yml",
+  "source_repo": "nodejs/readable-stream",
+  "source_repo_description": "Node-core streams for userland"
+}

@@ -1,0 +1,72 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kaste/SublimeLinter-addon-toggler",
+      "target": "sublime",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kaste/SublimeLinter-addon-toggler",
+      "target": "sublimelinter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kaste/SublimeLinter-addon-toggler",
+      "target": "sublimelinter-plugin",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T00:39:24.795487+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1517
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Provide some toggle commands for SublimeLinter. Esp. to enable or disable a linter per shortcut.",
+    "fork": false,
+    "full_name": "kaste/SublimeLinter-addon-toggler",
+    "html_url": "https://github.com/kaste/SublimeLinter-addon-toggler",
+    "language": "Python",
+    "pushed_at": "2025-06-27T22:12:48Z",
+    "stargazers_count": 5,
+    "topics": [
+      "sublime",
+      "sublimelinter",
+      "sublimelinter-plugin"
+    ],
+    "updated_at": "2025-06-27T22:12:45Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "This is an addon for SublimeLinter.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sublime"
+    },
+    {
+      "context_snippet": "This is an addon for SublimeLinter.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sublimelinter"
+    },
+    {
+      "context_snippet": "This is an addon for SublimeLinter.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sublimelinter-plugin"
+    }
+  ]
+}

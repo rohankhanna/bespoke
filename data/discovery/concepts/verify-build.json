@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Verify Build"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "srikanth-lingala/zip4j",
+      "status": "candidate-context",
+      "text": "A Java library for zip files and streams"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "srikanth-lingala/zip4j",
+      "status": "candidate-context",
+      "text": "Verify Build"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "srikanth-lingala/zip4j",
+      "status": "candidate",
+      "text": "Verify Build"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11848,
+      "status": "candidate",
+      "text": "support"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10824,
+      "status": "candidate",
+      "text": "affirm"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10824,
+      "status": "candidate",
+      "text": "affirmed"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10824,
+      "status": "candidate",
+      "text": "ascertain"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10824,
+      "status": "candidate",
+      "text": "attest"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Verify Build",
+  "concept_id": "verify-build",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/maven.yml",
+      "source_repo": "srikanth-lingala/zip4j"
+    }
+  ],
+  "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Verify Build",
+      "sense_id": "verify-build#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

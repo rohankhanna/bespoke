@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Ultralytics LLM-related experiments"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Purge CDN Cache"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Purge CDN Cache"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21108,
+      "status": "candidate",
+      "text": "can"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20324,
+      "status": "candidate",
+      "text": "manhole"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20324,
+      "status": "candidate",
+      "text": "pillowcase"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20324,
+      "status": "candidate",
+      "text": "thermos"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20239,
+      "status": "candidate",
+      "text": "beam"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Purge CDN Cache",
+      "sense_id": "purge-cdn-cache#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "purge-cdn-cache",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "purge-cdn-cache",
+  "observation_id": "c5e20650a1670ffa",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-24T00:33:56.049672+00:00",
+  "observed_text": "Purge CDN Cache",
+  "source_context_snippet": "Purge CDN Cache",
+  "source_file": ".github/workflows/purge-cdn.yml",
+  "source_repo": "ultralytics/llm",
+  "source_repo_description": "Ultralytics LLM-related experiments"
+}

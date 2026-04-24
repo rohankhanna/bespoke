@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "pasteboard"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dacap/clip",
+      "status": "candidate-context",
+      "text": "Cross-platform C++ library to copy/paste clipboard content"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dacap/clip",
+      "status": "candidate-context",
+      "text": "*Copyright (c) 2015-2026 David Capello*"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dacap/clip",
+      "status": "candidate",
+      "text": "*Copyright (c) 2015-2026 David Capello*"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20034196,
+      "status": "candidate",
+      "text": "draft"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20027855,
+      "status": "candidate",
+      "text": "vizor"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20017286,
+      "status": "candidate",
+      "text": "blueprint"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19988752,
+      "status": "candidate",
+      "text": "scratch"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19943898,
+      "status": "candidate",
+      "text": "eraser"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "pasteboard",
+  "concept_id": "pasteboard",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "dacap/clip"
+    }
+  ],
+  "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "pasteboard",
+      "sense_id": "pasteboard#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -1,0 +1,124 @@
+{
+  "aliases": [
+    "Lint Commit Messages"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vmihailenco/msgpack",
+      "status": "candidate-context",
+      "text": "msgpack.org[Go] MessagePack encoding for Golang"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vmihailenco/msgpack",
+      "status": "candidate-context",
+      "text": "Lint Commit Messages"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "uptrace/go-clickhouse",
+      "status": "candidate-context",
+      "text": "Golang ClickHouse client"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "uptrace/go-clickhouse",
+      "status": "candidate-context",
+      "text": "Lint Commit Messages"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vmihailenco/msgpack",
+      "status": "candidate",
+      "text": "Lint Commit Messages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "uptrace/go-clickhouse",
+      "status": "candidate",
+      "text": "Lint Commit Messages"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18745,
+      "status": "candidate",
+      "text": "navel"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18624,
+      "status": "candidate",
+      "text": "trap"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18483,
+      "status": "candidate",
+      "text": "dummy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18483,
+      "status": "candidate",
+      "text": "nonsense"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18483,
+      "status": "candidate",
+      "text": "romance"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Lint Commit Messages",
+  "concept_id": "lint-commit-messages",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/commitlint.yml",
+      "source_repo": "vmihailenco/msgpack"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/commitlint.yml",
+      "source_repo": "uptrace/go-clickhouse"
+    }
+  ],
+  "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Lint Commit Messages",
+      "sense_id": "lint-commit-messages#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

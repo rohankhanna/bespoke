@@ -55,6 +55,18 @@
       "source_repo": "TensorSpeech/TensorFlowTTS",
       "status": "candidate-context",
       "text": "<h2 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bhky/opennsfw2",
+      "status": "candidate-context",
+      "text": "Keras implementation of the Yahoo Open-NSFW model"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bhky/opennsfw2",
+      "status": "candidate-context",
+      "text": "![logo](logo/opennsfw2_logo.png)"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +93,12 @@
       "source_repo": "TensorSpeech/TensorFlowTTS",
       "status": "candidate",
       "text": "<h2 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bhky/opennsfw2",
+      "status": "candidate",
+      "text": "![logo](logo/opennsfw2_logo.png)"
     }
   ],
   "candidate_related_terms": [],
@@ -112,11 +130,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "TensorSpeech/TensorFlowTTS"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "bhky/opennsfw2"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

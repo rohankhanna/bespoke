@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": ":globe_with_meridians: Jekyll is a blog-aware static site generator in Ruby"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Micro Benchmark Runs"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Micro Benchmark Runs"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19018,
+      "status": "candidate",
+      "text": "unit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19006,
+      "status": "candidate",
+      "text": "chip"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18651,
+      "status": "candidate",
+      "text": "absorbance"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18651,
+      "status": "candidate",
+      "text": "aftershock"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18651,
+      "status": "candidate",
+      "text": "appurtenance"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Micro Benchmark Runs",
+      "sense_id": "micro-benchmark-runs#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "micro-benchmark-runs",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "micro-benchmark-runs",
+  "observation_id": "f741f5a478f89436",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-24T00:33:56.049672+00:00",
+  "observed_text": "Micro Benchmark Runs",
+  "source_context_snippet": "Micro Benchmark Runs",
+  "source_file": ".github/workflows/benchmark.yml",
+  "source_repo": "jekyll/jekyll",
+  "source_repo_description": ":globe_with_meridians: Jekyll is a blog-aware static site generator in Ruby"
+}

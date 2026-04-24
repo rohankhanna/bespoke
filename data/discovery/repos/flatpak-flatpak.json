@@ -1,0 +1,330 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/block-autosquash-commits.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-potfiles.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check.yml"
+    },
+    {
+      "component": "github/codeql-action/init@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check.yml"
+    },
+    {
+      "component": "eldrick19/code-scanning-status-checker@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/differential-shellcheck.yml"
+    },
+    {
+      "component": "redhat-plumbers-in-action/differential-shellcheck@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/differential-shellcheck.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "ncipollo/release-action@v1.20.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "flatpak/flatpak",
+      "target": "flatpak/flatpak-docs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "flatpak/flatpak",
+      "target": "flathub/flathub",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "flatpak/flatpak",
+      "target": "tchx84/flatseal",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "flatpak/flatpak",
+      "target": "flatpak/flat-manager",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/block-autosquash-commits.yml",
+      "source_repo": "flatpak/flatpak",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/block-autosquash-commits.yml",
+      "source_repo": "flatpak/flatpak",
+      "target": "Pull Requests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-potfiles.yml",
+      "source_repo": "flatpak/flatpak",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-potfiles.yml",
+      "source_repo": "flatpak/flatpak",
+      "target": "Check POTFILES.in",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check.yml",
+      "source_repo": "flatpak/flatpak",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check.yml",
+      "source_repo": "flatpak/flatpak",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check.yml",
+      "source_repo": "flatpak/flatpak",
+      "target": "github/codeql-action/init@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check.yml",
+      "source_repo": "flatpak/flatpak",
+      "target": "github/codeql-action/analyze@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check.yml",
+      "source_repo": "flatpak/flatpak",
+      "target": "eldrick19/code-scanning-status-checker@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check.yml",
+      "source_repo": "flatpak/flatpak",
+      "target": "Flatpak CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/differential-shellcheck.yml",
+      "source_repo": "flatpak/flatpak",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/differential-shellcheck.yml",
+      "source_repo": "flatpak/flatpak",
+      "target": "redhat-plumbers-in-action/differential-shellcheck@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/differential-shellcheck.yml",
+      "source_repo": "flatpak/flatpak",
+      "target": "Differential ShellCheck",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "flatpak/flatpak",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "flatpak/flatpak",
+      "target": "ncipollo/release-action@v1.20.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "flatpak/flatpak",
+      "target": "Release new version",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T01:44:29.642372+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1975
+    },
+    {
+      "path": ".github/workflows/block-autosquash-commits.yml",
+      "size": 1314
+    },
+    {
+      "path": ".github/workflows/check-potfiles.sh",
+      "size": 2561
+    },
+    {
+      "path": ".github/workflows/check-potfiles.yml",
+      "size": 480
+    },
+    {
+      "path": ".github/workflows/check.yml",
+      "size": 10296
+    },
+    {
+      "path": ".github/workflows/differential-shellcheck.yml",
+      "size": 620
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 2978
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Linux application sandboxing and distribution framework",
+    "fork": false,
+    "full_name": "flatpak/flatpak",
+    "html_url": "https://github.com/flatpak/flatpak",
+    "language": "C",
+    "pushed_at": "2026-04-21T11:37:23Z",
+    "stargazers_count": 4889,
+    "topics": [],
+    "updated_at": "2026-04-23T21:48:32Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "flathub/flathub",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "flatpak/flat-manager",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "flatpak/flatpak-docs",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tchx84/flatseal",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Pull Requests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/block-autosquash-commits.yml",
+      "term": "Pull Requests"
+    },
+    {
+      "context_snippet": "Check POTFILES.in",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-potfiles.yml",
+      "term": "Check POTFILES.in"
+    },
+    {
+      "context_snippet": "Flatpak CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check.yml",
+      "term": "Flatpak CI"
+    },
+    {
+      "context_snippet": "Differential ShellCheck",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/differential-shellcheck.yml",
+      "term": "Differential ShellCheck"
+    },
+    {
+      "context_snippet": "Release new version",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Release new version"
+    }
+  ]
+}

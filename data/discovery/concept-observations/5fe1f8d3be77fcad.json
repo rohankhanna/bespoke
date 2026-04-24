@@ -1,0 +1,65 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": " High-performance JSON to GRON (greppable, flattened JSON) converter"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Make JSON greppable super fast!"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Make JSON greppable super fast!"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15000,
+      "status": "candidate",
+      "text": "was"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "gron",
+      "sense_id": "gron#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "gron",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "gron",
+  "observation_id": "5fe1f8d3be77fcad",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T00:33:56.049672+00:00",
+  "observed_text": "gron",
+  "source_context_snippet": "Make JSON greppable super fast!",
+  "source_file": null,
+  "source_repo": "adamritter/fastgron",
+  "source_repo_description": " High-performance JSON to GRON (greppable, flattened JSON) converter"
+}

@@ -1,0 +1,115 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Proposal to enable importing modules at the source phase"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Champion(s): Luca Casonato, Guy Bedford"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Champion(s): Luca Casonato, Guy Bedford"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30014561,
+      "status": "candidate",
+      "text": "marriage offer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30014561,
+      "status": "candidate",
+      "text": "marriage proposal"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30014561,
+      "status": "candidate",
+      "text": "proposal of marriage"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30014560,
+      "status": "candidate",
+      "text": "proposition"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30014517,
+      "status": "candidate",
+      "text": "offer"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "proposal",
+      "sense_id": "proposal#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1010,
+      "status": "candidate",
+      "text": "marriage proposal"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1008,
+      "status": "candidate",
+      "text": "marriage offer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "proposal of marriage"
+    }
+  ],
+  "concept_id": "proposal",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "proposal",
+  "observation_id": "5f7f4af9aac1c668",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T00:33:56.049672+00:00",
+  "observed_text": "proposal",
+  "source_context_snippet": "Champion(s): Luca Casonato, Guy Bedford",
+  "source_file": null,
+  "source_repo": "tc39/proposal-source-phase-imports",
+  "source_repo_description": "Proposal to enable importing modules at the source phase"
+}

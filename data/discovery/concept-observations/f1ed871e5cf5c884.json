@@ -84,7 +84,7 @@
   "normalized_form": "lock-old-issues",
   "observation_id": "f1ed871e5cf5c884",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-23T01:09:11.871080+00:00",
+  "observed_at": "2026-04-24T00:33:56.049672+00:00",
   "observed_text": "Lock Old Issues",
   "source_context_snippet": "\"Lock Old Issues\"",
   "source_file": ".github/workflows/lock_old_issues.yaml",

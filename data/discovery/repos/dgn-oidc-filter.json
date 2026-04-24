@@ -1,0 +1,212 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "actions-rs/toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "actions/cache@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions-rs/toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/cache@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "dgn/oidc-filter",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "dgn/oidc-filter",
+      "target": "actions-rs/toolchain@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "dgn/oidc-filter",
+      "target": "actions/cache@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "dgn/oidc-filter",
+      "target": "lint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "dgn/oidc-filter",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "dgn/oidc-filter",
+      "target": "actions-rs/toolchain@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "dgn/oidc-filter",
+      "target": "actions/cache@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "dgn/oidc-filter",
+      "target": "test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dgn/oidc-filter",
+      "target": "envoy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dgn/oidc-filter",
+      "target": "istio",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dgn/oidc-filter",
+      "target": "oidc-filter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dgn/oidc-filter",
+      "target": "openid-connect",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dgn/oidc-filter",
+      "target": "wasm",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T00:53:07.325883+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1235
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 354
+    },
+    {
+      "path": ".github/workflows/lint.yml",
+      "size": 831
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 1536
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A WASM plugin for Envoy supporting the Open ID Connect Authorization Flow, extending Istio's JWT functionality",
+    "fork": false,
+    "full_name": "dgn/oidc-filter",
+    "html_url": "https://github.com/dgn/oidc-filter",
+    "language": "Rust",
+    "pushed_at": "2026-03-04T10:18:05Z",
+    "stargazers_count": 59,
+    "topics": [
+      "envoy",
+      "istio",
+      "jwt",
+      "oidc-filter",
+      "openid-connect",
+      "wasm"
+    ],
+    "updated_at": "2026-03-04T10:18:01Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "lint",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "term": "lint"
+    },
+    {
+      "context_snippet": "test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "test"
+    },
+    {
+      "context_snippet": "`oidc-filter` is a Wasm plugin for Envoy/Istio that will redirect users to a given authentication URI if they do not present a JWT token.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "envoy"
+    },
+    {
+      "context_snippet": "`oidc-filter` is a Wasm plugin for Envoy/Istio that will redirect users to a given authentication URI if they do not present a JWT token.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "istio"
+    },
+    {
+      "context_snippet": "`oidc-filter` is a Wasm plugin for Envoy/Istio that will redirect users to a given authentication URI if they do not present a JWT token.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "oidc-filter"
+    },
+    {
+      "context_snippet": "`oidc-filter` is a Wasm plugin for Envoy/Istio that will redirect users to a given authentication URI if they do not present a JWT token.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "openid-connect"
+    },
+    {
+      "context_snippet": "`oidc-filter` is a Wasm plugin for Envoy/Istio that will redirect users to a given authentication URI if they do not present a JWT token.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "wasm"
+    }
+  ]
+}

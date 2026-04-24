@@ -1,7 +1,7 @@
 {
   "component": "actions/setup-node@48b55a011bda9f5d6aeb4c2d9c7362e8dae4041e",
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -177,6 +177,26 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/deploy_gh_pages.yml",
       "source_repo": "openvinotoolkit/openvino.genai"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "OptiVorbis/OptiVorbis"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/bootstrap_region.yml",
+      "source_repo": "aws-powertools/powertools-lambda-typescript"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/make-release.yml",
+      "source_repo": "aws-powertools/powertools-lambda-typescript"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/make-version.yml",
+      "source_repo": "aws-powertools/powertools-lambda-typescript"
     }
   ]
 }

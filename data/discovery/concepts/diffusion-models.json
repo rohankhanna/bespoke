@@ -139,6 +139,42 @@
       "source_repo": "ali-vilab/TeaCache",
       "status": "candidate-context",
       "text": "<div class=\"is-size-5 publication-authors\", align=\"center\",>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "openvinotoolkit/openvino",
+      "status": "candidate-context",
+      "text": "OpenVINO\u2122 is an open source toolkit for optimizing and deploying AI inference"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openvinotoolkit/openvino",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sayakpaul/diffusers-torchao",
+      "status": "candidate-context",
+      "text": "End-to-end recipes for optimizing diffusion models with torchao and diffusers (inference and FP8 training)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sayakpaul/diffusers-torchao",
+      "status": "candidate-context",
+      "text": "**Optimize image and video generation with [`diffusers`](https://github.com/huggingface/diffusers), [`torchao`](https://github.com/pytorch/ao), combining `torch.compile()` \ud83d\udd25**"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Advocate99/DiffGesture",
+      "status": "candidate-context",
+      "text": "[CVPR'2023] Taming Diffusion Models for Audio-Driven Co-Speech Gesture Generation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Advocate99/DiffGesture",
+      "status": "candidate-context",
+      "text": "This is the official code for [**Taming Diffusion Models for Audio-Driven Co-Speech Gesture Generation**](https://arxiv.org/abs/2303.09119)."
     }
   ],
   "candidate_glosses": [
@@ -207,6 +243,24 @@
       "source_repo": "ali-vilab/TeaCache",
       "status": "candidate",
       "text": "<div class=\"is-size-5 publication-authors\", align=\"center\",>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openvinotoolkit/openvino",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sayakpaul/diffusers-torchao",
+      "status": "candidate",
+      "text": "**Optimize image and video generation with [`diffusers`](https://github.com/huggingface/diffusers), [`torchao`](https://github.com/pytorch/ao), combining `torch.compile()` \ud83d\udd25**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Advocate99/DiffGesture",
+      "status": "candidate",
+      "text": "This is the official code for [**Taming Diffusion Models for Audio-Driven Co-Speech Gesture Generation**](https://arxiv.org/abs/2303.09119)."
     }
   ],
   "candidate_related_terms": [],
@@ -292,11 +346,29 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "ali-vilab/TeaCache"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "openvinotoolkit/openvino"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "sayakpaul/diffusers-torchao"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "Advocate99/DiffGesture"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

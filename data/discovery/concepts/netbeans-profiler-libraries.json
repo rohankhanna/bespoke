@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "NetBeans Profiler Libraries"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/netbeans",
+      "status": "candidate-context",
+      "text": "Apache NetBeans"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/netbeans",
+      "status": "candidate-context",
+      "text": "NetBeans Profiler Libraries"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/netbeans",
+      "status": "candidate",
+      "text": "NetBeans Profiler Libraries"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10891,
+      "status": "candidate",
+      "text": "erica"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10767,
+      "status": "candidate",
+      "text": "lend"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10745,
+      "status": "candidate",
+      "text": "abe"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10745,
+      "status": "candidate",
+      "text": "buoy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10745,
+      "status": "candidate",
+      "text": "drift"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "NetBeans Profiler Libraries",
+  "concept_id": "netbeans-profiler-libraries",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/native-binary-build-lib.profiler.yml",
+      "source_repo": "apache/netbeans"
+    }
+  ],
+  "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "NetBeans Profiler Libraries",
+      "sense_id": "netbeans-profiler-libraries#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

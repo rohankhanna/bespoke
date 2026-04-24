@@ -1,0 +1,115 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Index of projects related to context-gathering and generation for AI, including via interview approaches"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "![Index](https://img.shields.io/badge/Type-Index-0ea5e9?style=flat-square)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "![Index](https://img.shields.io/badge/Type-Index-0ea5e9?style=flat-square)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39941606,
+      "status": "candidate",
+      "text": "circumstance"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29958557,
+      "status": "candidate",
+      "text": "context of use"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29958557,
+      "status": "candidate",
+      "text": "linguistic context"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29958556,
+      "status": "candidate",
+      "text": "scenario"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29957631,
+      "status": "candidate",
+      "text": "setting"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "context",
+      "sense_id": "context#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 24040,
+      "status": "candidate",
+      "text": "circumstance"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2009,
+      "status": "candidate",
+      "text": "linguistic context"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 9,
+      "status": "candidate",
+      "text": "context of use"
+    }
+  ],
+  "concept_id": "context",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "context",
+  "observation_id": "7cebf6affabea4b9",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T00:33:56.049672+00:00",
+  "observed_text": "context",
+  "source_context_snippet": "![Index](https://img.shields.io/badge/Type-Index-0ea5e9?style=flat-square)",
+  "source_file": null,
+  "source_repo": "danielrosehill/Context-Projects-Index",
+  "source_repo_description": "Index of projects related to context-gathering and generation for AI, including via interview approaches"
+}

@@ -1,0 +1,416 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Build.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Build.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Build.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Build.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Build.yml"
+    },
+    {
+      "component": "actions/github-script@v9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/api-review-baselines.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/api-review-baselines.yml"
+    },
+    {
+      "component": "actions/github-script@v9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/api-review-baselines.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/copilot-setup-steps.yml"
+    },
+    {
+      "component": "dotnet/arcade/.github/workflows/inter-branch-merge-base.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/inter-branch-merge-flow.yml"
+    },
+    {
+      "component": "actions/github-script@v9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issues-closed.yml"
+    },
+    {
+      "component": "actions/github-script@v9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/label-and-milestone-issues.yml"
+    },
+    {
+      "component": "actions/github-script@v9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate-pr-target-branch.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Build.yml",
+      "source_repo": "dotnet/efcore",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Build.yml",
+      "source_repo": "dotnet/efcore",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/Build.yml",
+      "source_repo": "dotnet/efcore",
+      "target": "Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/api-review-baselines.yml",
+      "source_repo": "dotnet/efcore",
+      "target": "actions/github-script@v9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/api-review-baselines.yml",
+      "source_repo": "dotnet/efcore",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/api-review-baselines.yml",
+      "source_repo": "dotnet/efcore",
+      "target": "Comment API baseline deltas on PRs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/copilot-setup-steps.yml",
+      "source_repo": "dotnet/efcore",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/copilot-setup-steps.yml",
+      "source_repo": "dotnet/efcore",
+      "target": "Copilot Setup Steps",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/inter-branch-merge-flow.yml",
+      "source_repo": "dotnet/efcore",
+      "target": "dotnet/arcade/.github/workflows/inter-branch-merge-base.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/inter-branch-merge-flow.yml",
+      "source_repo": "dotnet/efcore",
+      "target": "Inter-branch merge workflow",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issues-closed.yml",
+      "source_repo": "dotnet/efcore",
+      "target": "actions/github-script@v9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issues-closed.yml",
+      "source_repo": "dotnet/efcore",
+      "target": "Issue closed",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/label-and-milestone-issues.yml",
+      "source_repo": "dotnet/efcore",
+      "target": "actions/github-script@v9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/label-and-milestone-issues.yml",
+      "source_repo": "dotnet/efcore",
+      "target": "Label and milestone closed issues",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate-pr-target-branch.yml",
+      "source_repo": "dotnet/efcore",
+      "target": "actions/github-script@v9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/validate-pr-target-branch.yml",
+      "source_repo": "dotnet/efcore",
+      "target": "Validate PR Target Branch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dotnet/efcore",
+      "target": "aspnet-product",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dotnet/efcore",
+      "target": "c-sharp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dotnet/efcore",
+      "target": "database",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dotnet/efcore",
+      "target": "dotnet-core",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dotnet/efcore",
+      "target": "dotnet-framework",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dotnet/efcore",
+      "target": "dotnet-standard",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dotnet/efcore",
+      "target": "entity-framework",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dotnet/efcore",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T00:43:51.576772+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7050
+    },
+    {
+      "path": ".github/workflows/Build.yml",
+      "size": 6595
+    },
+    {
+      "path": ".github/workflows/api-review-baselines.yml",
+      "size": 10574
+    },
+    {
+      "path": ".github/workflows/copilot-setup-steps.yml",
+      "size": 2648
+    },
+    {
+      "path": ".github/workflows/inter-branch-merge-flow.yml",
+      "size": 224
+    },
+    {
+      "path": ".github/workflows/issues-closed.yml",
+      "size": 2259
+    },
+    {
+      "path": ".github/workflows/label-and-milestone-issues.yml",
+      "size": 10693
+    },
+    {
+      "path": ".github/workflows/validate-pr-target-branch.yml",
+      "size": 5817
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "EF Core is a modern object-database mapper for .NET. It supports LINQ queries, change tracking, updates, and schema migrations.",
+    "fork": false,
+    "full_name": "dotnet/efcore",
+    "html_url": "https://github.com/dotnet/efcore",
+    "language": "C#",
+    "pushed_at": "2026-04-24T00:20:23Z",
+    "stargazers_count": 14624,
+    "topics": [
+      "aspnet-product",
+      "c-sharp",
+      "database",
+      "dotnet-core",
+      "dotnet-framework",
+      "dotnet-standard",
+      "entity-framework",
+      "hacktoberfest",
+      "orm"
+    ],
+    "updated_at": "2026-04-23T15:53:48Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/Build.yml",
+      "term": "Build"
+    },
+    {
+      "context_snippet": "Comment API baseline deltas on PRs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/api-review-baselines.yml",
+      "term": "Comment API baseline deltas on PRs"
+    },
+    {
+      "context_snippet": "\"Copilot Setup Steps\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/copilot-setup-steps.yml",
+      "term": "Copilot Setup Steps"
+    },
+    {
+      "context_snippet": "Inter-branch merge workflow",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/inter-branch-merge-flow.yml",
+      "term": "Inter-branch merge workflow"
+    },
+    {
+      "context_snippet": "Issue closed",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issues-closed.yml",
+      "term": "Issue closed"
+    },
+    {
+      "context_snippet": "Label and milestone closed issues",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/label-and-milestone-issues.yml",
+      "term": "Label and milestone closed issues"
+    },
+    {
+      "context_snippet": "Validate PR Target Branch",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/validate-pr-target-branch.yml",
+      "term": "Validate PR Target Branch"
+    },
+    {
+      "context_snippet": "[![build status](https://img.shields.io/azure-devops/build/dnceng-public/public/17/main)](https://dev.azure.com/dnceng-public/public/_build?definitionId=17) [![test results](https://img.shields.io/azure-devops/tests/dnceng-public/public/17/main)](https://dev.azure.com/dnceng-pub\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "aspnet-product"
+    },
+    {
+      "context_snippet": "[![build status](https://img.shields.io/azure-devops/build/dnceng-public/public/17/main)](https://dev.azure.com/dnceng-public/public/_build?definitionId=17) [![test results](https://img.shields.io/azure-devops/tests/dnceng-public/public/17/main)](https://dev.azure.com/dnceng-pub\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "c-sharp"
+    },
+    {
+      "context_snippet": "[![build status](https://img.shields.io/azure-devops/build/dnceng-public/public/17/main)](https://dev.azure.com/dnceng-public/public/_build?definitionId=17) [![test results](https://img.shields.io/azure-devops/tests/dnceng-public/public/17/main)](https://dev.azure.com/dnceng-pub\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "database"
+    },
+    {
+      "context_snippet": "[![build status](https://img.shields.io/azure-devops/build/dnceng-public/public/17/main)](https://dev.azure.com/dnceng-public/public/_build?definitionId=17) [![test results](https://img.shields.io/azure-devops/tests/dnceng-public/public/17/main)](https://dev.azure.com/dnceng-pub\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dotnet-core"
+    },
+    {
+      "context_snippet": "[![build status](https://img.shields.io/azure-devops/build/dnceng-public/public/17/main)](https://dev.azure.com/dnceng-public/public/_build?definitionId=17) [![test results](https://img.shields.io/azure-devops/tests/dnceng-public/public/17/main)](https://dev.azure.com/dnceng-pub\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dotnet-framework"
+    },
+    {
+      "context_snippet": "[![build status](https://img.shields.io/azure-devops/build/dnceng-public/public/17/main)](https://dev.azure.com/dnceng-public/public/_build?definitionId=17) [![test results](https://img.shields.io/azure-devops/tests/dnceng-public/public/17/main)](https://dev.azure.com/dnceng-pub\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dotnet-standard"
+    },
+    {
+      "context_snippet": "[![build status](https://img.shields.io/azure-devops/build/dnceng-public/public/17/main)](https://dev.azure.com/dnceng-public/public/_build?definitionId=17) [![test results](https://img.shields.io/azure-devops/tests/dnceng-public/public/17/main)](https://dev.azure.com/dnceng-pub\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "entity-framework"
+    },
+    {
+      "context_snippet": "[![build status](https://img.shields.io/azure-devops/build/dnceng-public/public/17/main)](https://dev.azure.com/dnceng-public/public/_build?definitionId=17) [![test results](https://img.shields.io/azure-devops/tests/dnceng-public/public/17/main)](https://dev.azure.com/dnceng-pub\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    }
+  ]
+}

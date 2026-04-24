@@ -60,27 +60,6 @@
       "target_type": "repository"
     },
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "olric-data/olric",
-      "target": "olric-data/olric-consul-plugin",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "olric-data/olric",
-      "target": "olric-data/olric-cloud-plugin",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "olric-data/olric",
-      "target": "tidwall/redcon",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "olric-data/olric",
@@ -249,7 +228,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-23T20:55:46.321445+00:00",
+  "fetched_at": "2026-04-24T01:48:54.826950+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -286,7 +265,7 @@
     "html_url": "https://github.com/olric-data/olric",
     "language": "Go",
     "pushed_at": "2026-04-03T22:02:03Z",
-    "stargazers_count": 3441,
+    "stargazers_count": 3442,
     "topics": [
       "cache",
       "database",
@@ -300,27 +279,12 @@
       "nosql",
       "redis"
     ],
-    "updated_at": "2026-04-22T22:35:28Z"
+    "updated_at": "2026-04-23T23:03:10Z"
   },
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
       "full_name": "go-redis/redis",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "olric-data/olric-cloud-plugin",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "olric-data/olric-consul-plugin",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "tidwall/redcon",
       "source_file": "README.md"
     }
   ],

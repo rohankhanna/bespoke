@@ -1,0 +1,139 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AppImage/AppImageKit",
+      "target": "probonopd/go-appimage",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AppImage/AppImageKit",
+      "target": "appimagecommunity/awesome-appimage",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AppImage/AppImageKit",
+      "target": "appimage",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AppImage/AppImageKit",
+      "target": "applications",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AppImage/AppImageKit",
+      "target": "deployment",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AppImage/AppImageKit",
+      "target": "linux",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AppImage/AppImageKit",
+      "target": "linux-app",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AppImage/AppImageKit",
+      "target": "packaging",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T01:00:01.644312+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6500
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Package desktop applications as AppImages that run on common Linux-based operating systems, such as RHEL, CentOS, openSUSE, SLED, Ubuntu, Fedora, debian and derivatives. Join #AppImage on irc.libera.chat",
+    "fork": false,
+    "full_name": "AppImage/AppImageKit",
+    "html_url": "https://github.com/AppImage/AppImageKit",
+    "language": "C",
+    "pushed_at": "2025-06-09T05:35:59Z",
+    "stargazers_count": 9305,
+    "topics": [
+      "appimage",
+      "applications",
+      "deployment",
+      "linux",
+      "linux-app",
+      "packaging"
+    ],
+    "updated_at": "2026-04-23T11:35:10Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "appimagecommunity/awesome-appimage",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "probonopd/go-appimage",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "The __AppImage__ format is a format for packaging applications in a way that allows them to",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "appimage"
+    },
+    {
+      "context_snippet": "The __AppImage__ format is a format for packaging applications in a way that allows them to",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "applications"
+    },
+    {
+      "context_snippet": "The __AppImage__ format is a format for packaging applications in a way that allows them to",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deployment"
+    },
+    {
+      "context_snippet": "The __AppImage__ format is a format for packaging applications in a way that allows them to",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "linux"
+    },
+    {
+      "context_snippet": "The __AppImage__ format is a format for packaging applications in a way that allows them to",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "linux-app"
+    },
+    {
+      "context_snippet": "The __AppImage__ format is a format for packaging applications in a way that allows them to",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "packaging"
+    }
+  ]
+}

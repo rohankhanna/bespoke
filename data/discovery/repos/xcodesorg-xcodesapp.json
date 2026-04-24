@@ -1,0 +1,280 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/appcast.yml"
+    },
+    {
+      "component": "actions/cache@v4.1.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/appcast.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1.197.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/appcast.yml"
+    },
+    {
+      "component": "JamesIves/github-pages-deploy-action@releases/v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/appcast.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "release-drafter/release-drafter@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-drafter.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/xcstrings.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "XcodesOrg/XcodesApp",
+      "target": "xcpretty/xcode-install",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "XcodesOrg/XcodesApp",
+      "target": "xcodesorg/homebrew-cask",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/appcast.yml",
+      "source_repo": "XcodesOrg/XcodesApp",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/appcast.yml",
+      "source_repo": "XcodesOrg/XcodesApp",
+      "target": "actions/cache@v4.1.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/appcast.yml",
+      "source_repo": "XcodesOrg/XcodesApp",
+      "target": "ruby/setup-ruby@v1.197.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/appcast.yml",
+      "source_repo": "XcodesOrg/XcodesApp",
+      "target": "JamesIves/github-pages-deploy-action@releases/v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "XcodesOrg/XcodesApp",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-drafter.yml",
+      "source_repo": "XcodesOrg/XcodesApp",
+      "target": "release-drafter/release-drafter@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-drafter.yml",
+      "source_repo": "XcodesOrg/XcodesApp",
+      "target": "Release Drafter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/xcstrings.yml",
+      "source_repo": "XcodesOrg/XcodesApp",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/xcstrings.yml",
+      "source_repo": "XcodesOrg/XcodesApp",
+      "target": "XCStrings Validation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "XcodesOrg/XcodesApp",
+      "target": "combine",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "XcodesOrg/XcodesApp",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "XcodesOrg/XcodesApp",
+      "target": "macos",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "XcodesOrg/XcodesApp",
+      "target": "swift",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "XcodesOrg/XcodesApp",
+      "target": "swiftui",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "XcodesOrg/XcodesApp",
+      "target": "xcode",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "XcodesOrg/XcodesApp",
+      "target": "xcode-releases",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T00:46:10.086823+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8261
+    },
+    {
+      "path": ".github/workflows/appcast.yml",
+      "size": 1312
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 272
+    },
+    {
+      "path": ".github/workflows/release-drafter.yml",
+      "size": 343
+    },
+    {
+      "path": ".github/workflows/xcstrings.yml",
+      "size": 604
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "The easiest way to install and switch between multiple versions of Xcode - with a mouse click. ",
+    "fork": false,
+    "full_name": "XcodesOrg/XcodesApp",
+    "html_url": "https://github.com/XcodesOrg/XcodesApp",
+    "language": "Swift",
+    "pushed_at": "2025-09-20T04:53:56Z",
+    "stargazers_count": 8343,
+    "topics": [
+      "combine",
+      "hacktoberfest",
+      "macos",
+      "swift",
+      "swiftui",
+      "xcode",
+      "xcode-releases"
+    ],
+    "updated_at": "2026-04-23T13:29:09Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "xcodesorg/homebrew-cask",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "xcpretty/xcode-install",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Release Drafter",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-drafter.yml",
+      "term": "Release Drafter"
+    },
+    {
+      "context_snippet": "XCStrings Validation",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/xcstrings.yml",
+      "term": "XCStrings Validation"
+    },
+    {
+      "context_snippet": "<h1><img src=\"icon.png\" align=\"center\" width=50 height=50 /> <img src=\"IconDark.png\" align=\"center\" width=50 height=50 /> <img src=\"IconMono.png\" align=\"center\" width=50 height=50 /> Xcodes.app</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "combine"
+    },
+    {
+      "context_snippet": "<h1><img src=\"icon.png\" align=\"center\" width=50 height=50 /> <img src=\"IconDark.png\" align=\"center\" width=50 height=50 /> <img src=\"IconMono.png\" align=\"center\" width=50 height=50 /> Xcodes.app</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    },
+    {
+      "context_snippet": "<h1><img src=\"icon.png\" align=\"center\" width=50 height=50 /> <img src=\"IconDark.png\" align=\"center\" width=50 height=50 /> <img src=\"IconMono.png\" align=\"center\" width=50 height=50 /> Xcodes.app</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "macos"
+    },
+    {
+      "context_snippet": "<h1><img src=\"icon.png\" align=\"center\" width=50 height=50 /> <img src=\"IconDark.png\" align=\"center\" width=50 height=50 /> <img src=\"IconMono.png\" align=\"center\" width=50 height=50 /> Xcodes.app</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "swift"
+    },
+    {
+      "context_snippet": "<h1><img src=\"icon.png\" align=\"center\" width=50 height=50 /> <img src=\"IconDark.png\" align=\"center\" width=50 height=50 /> <img src=\"IconMono.png\" align=\"center\" width=50 height=50 /> Xcodes.app</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "swiftui"
+    },
+    {
+      "context_snippet": "<h1><img src=\"icon.png\" align=\"center\" width=50 height=50 /> <img src=\"IconDark.png\" align=\"center\" width=50 height=50 /> <img src=\"IconMono.png\" align=\"center\" width=50 height=50 /> Xcodes.app</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "xcode"
+    },
+    {
+      "context_snippet": "<h1><img src=\"icon.png\" align=\"center\" width=50 height=50 /> <img src=\"IconDark.png\" align=\"center\" width=50 height=50 /> <img src=\"IconMono.png\" align=\"center\" width=50 height=50 /> Xcodes.app</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "xcode-releases"
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Powertools is a developer toolkit to implement Serverless best practices and increase developer velocity."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "PMD"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "PMD"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29674480,
+      "status": "candidate",
+      "text": "ldc"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29672781,
+      "status": "candidate",
+      "text": "mdp"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19674819,
+      "status": "candidate",
+      "text": "ldcs"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19674818,
+      "status": "candidate",
+      "text": "phy"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "PMD",
+      "sense_id": "pmd#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "pmd",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "pmd",
+  "observation_id": "0642b78ee6045d8c",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-24T00:33:56.049672+00:00",
+  "observed_text": "PMD",
+  "source_context_snippet": "PMD",
+  "source_file": ".github/workflows/check-pmd.yml",
+  "source_repo": "aws-powertools/powertools-lambda-java",
+  "source_repo_description": "Powertools is a developer toolkit to implement Serverless best practices and increase developer velocity."
+}

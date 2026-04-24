@@ -1,0 +1,105 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "dominique-unruh/qrhl-tool",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "dominique-unruh/qrhl-tool",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "dominique-unruh/qrhl-tool",
+      "target": "test-qrhl-tool",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dominique-unruh/qrhl-tool",
+      "target": "quantum-cryptography",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dominique-unruh/qrhl-tool",
+      "target": "theorem-prover",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T02:03:10.805678+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 920
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 1040
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Proof assistant for qRHL",
+    "fork": false,
+    "full_name": "dominique-unruh/qrhl-tool",
+    "html_url": "https://github.com/dominique-unruh/qrhl-tool",
+    "language": "Scala",
+    "pushed_at": "2026-04-09T21:42:14Z",
+    "stargazers_count": 23,
+    "topics": [
+      "quantum-cryptography",
+      "theorem-prover"
+    ],
+    "updated_at": "2026-04-11T07:37:43Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "test-qrhl-tool",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "test-qrhl-tool"
+    },
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.com/dominique-unruh/qrhl-tool.svg?branch=master)](https://travis-ci.com/dominique-unruh/qrhl-tool)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "quantum-cryptography"
+    },
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.com/dominique-unruh/qrhl-tool.svg?branch=master)](https://travis-ci.com/dominique-unruh/qrhl-tool)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "theorem-prover"
+    }
+  ]
+}

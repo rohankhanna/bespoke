@@ -19,6 +19,18 @@
       "source_repo": "AdrienTorris/awesome-blazor",
       "status": "candidate-context",
       "text": "[<img src=\"https://adrientorris.github.io/wwwroot/images/blazor/logo-blazor.png\" align=\"right\" width=\"170\">](https://dotnet.microsoft.com/apps/aspnet/web-apps/client)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "teacher-zhou/ComponentBuilder",
+      "status": "candidate-context",
+      "text": "An automation framework to create Blazor component"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "teacher-zhou/ComponentBuilder",
+      "status": "candidate-context",
+      "text": "The best automation framework for RCL(Razor Component Library) to help you easy and quickly building your own Razor Component Library"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "AdrienTorris/awesome-blazor",
       "status": "candidate",
       "text": "[<img src=\"https://adrientorris.github.io/wwwroot/images/blazor/logo-blazor.png\" align=\"right\" width=\"170\">](https://dotnet.microsoft.com/apps/aspnet/web-apps/client)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "teacher-zhou/ComponentBuilder",
+      "status": "candidate",
+      "text": "The best automation framework for RCL(Razor Component Library) to help you easy and quickly building your own Razor Component Library"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "AdrienTorris/awesome-blazor"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "teacher-zhou/ComponentBuilder"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -151,6 +151,18 @@
       "source_repo": "bkaradzic/bgfx",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "raysan5/raylib",
+      "status": "candidate-context",
+      "text": "A simple and easy-to-use library to enjoy videogames programming"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "raysan5/raylib",
+      "status": "candidate-context",
+      "text": "<img align=\"left\" style=\"width:260px\" src=\"https://github.com/raysan5/raylib/blob/master/logo/raylib_logo_animation.gif\" width=\"288px\">"
     }
   ],
   "candidate_glosses": [
@@ -225,6 +237,12 @@
       "source_repo": "bkaradzic/bgfx",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "raysan5/raylib",
+      "status": "candidate",
+      "text": "<img align=\"left\" style=\"width:260px\" src=\"https://github.com/raysan5/raylib/blob/master/logo/raylib_logo_animation.gif\" width=\"288px\">"
     }
   ],
   "candidate_related_terms": [
@@ -340,11 +358,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "bkaradzic/bgfx"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "raysan5/raylib"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

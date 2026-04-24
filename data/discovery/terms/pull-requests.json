@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -26,6 +26,31 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/pull_request.yml",
       "source_repo": "ScoopInstaller/Extras"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/pull_request.yml",
+      "source_repo": "Calinou/scoop-games"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/pull_request.yml",
+      "source_repo": "matthewjberger/scoop-nerd-fonts"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/pull_request.yml",
+      "source_repo": "niheaven/scoop-sysinternals"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/block-autosquash-commits.yml",
+      "source_repo": "flatpak/flatpak"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/block-autosquash-commits.yml",
+      "source_repo": "flatpak/flatpak-xdg-utils"
     }
   ],
   "term": "pull-requests"

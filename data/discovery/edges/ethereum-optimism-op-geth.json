@@ -1,0 +1,27 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ethereum-optimism/op-geth",
+      "target": "chainsafe/web3.js",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/op-geth.yml",
+      "source_repo": "ethereum-optimism/op-geth",
+      "target": "ethereum-optimism/factory/.github/workflows/docker-build.yaml@c8bcfc1a537d01a005a09276b1b673dca9132540",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/op-geth.yml",
+      "source_repo": "ethereum-optimism/op-geth",
+      "target": "op-geth",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-24T00:33:56.049672+00:00",
+  "source_repo": "ethereum-optimism/op-geth"
+}

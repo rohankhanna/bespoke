@@ -1,0 +1,224 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml"
+    },
+    {
+      "component": "peaceiris/actions-gh-pages@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml"
+    },
+    {
+      "component": "jcs090218/setup-emacs@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "emacs-eask/setup-eask@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions-rs/toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "emacs-lsp/lsp-ui",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "emacs-lsp/lsp-ui",
+      "target": "peaceiris/actions-gh-pages@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "emacs-lsp/lsp-ui",
+      "target": "Docs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "emacs-lsp/lsp-ui",
+      "target": "jcs090218/setup-emacs@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "emacs-lsp/lsp-ui",
+      "target": "emacs-eask/setup-eask@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "emacs-lsp/lsp-ui",
+      "target": "actions-rs/toolchain@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "emacs-lsp/lsp-ui",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "emacs-lsp/lsp-ui",
+      "target": "emacs-lsp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "emacs-lsp/lsp-ui",
+      "target": "flycheck",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "emacs-lsp/lsp-ui",
+      "target": "flycheck-diagnostics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "emacs-lsp/lsp-ui",
+      "target": "lsp-ui",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "emacs-lsp/lsp-ui",
+      "target": "peek",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "emacs-lsp/lsp-ui",
+      "target": "sideline",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "emacs-lsp/lsp-ui",
+      "target": "xref",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T00:51:44.929049+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4426
+    },
+    {
+      "path": ".github/workflows/docs.yml",
+      "size": 616
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 1694
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "UI integrations for lsp-mode",
+    "fork": false,
+    "full_name": "emacs-lsp/lsp-ui",
+    "html_url": "https://github.com/emacs-lsp/lsp-ui",
+    "language": "Emacs Lisp",
+    "pushed_at": "2026-01-04T15:26:25Z",
+    "stargazers_count": 1107,
+    "topics": [
+      "emacs-lsp",
+      "flycheck",
+      "flycheck-diagnostics",
+      "lsp",
+      "lsp-ui",
+      "peek",
+      "sideline",
+      "ui",
+      "xref"
+    ],
+    "updated_at": "2026-04-16T12:34:18Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Docs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs.yml",
+      "term": "Docs"
+    },
+    {
+      "context_snippet": "lsp-ui",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "emacs-lsp"
+    },
+    {
+      "context_snippet": "lsp-ui",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "flycheck"
+    },
+    {
+      "context_snippet": "lsp-ui",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "flycheck-diagnostics"
+    },
+    {
+      "context_snippet": "lsp-ui",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lsp-ui"
+    },
+    {
+      "context_snippet": "lsp-ui",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "peek"
+    },
+    {
+      "context_snippet": "lsp-ui",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sideline"
+    },
+    {
+      "context_snippet": "lsp-ui",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "xref"
+    }
+  ]
+}

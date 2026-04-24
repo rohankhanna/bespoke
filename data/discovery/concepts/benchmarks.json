@@ -167,6 +167,42 @@
       "source_repo": "open-policy-agent/opa",
       "status": "candidate-context",
       "text": "Benchmarks"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "preactjs/preact",
+      "status": "candidate-context",
+      "text": "\u269b\ufe0f Fast 3kB React alternative with the same modern API. Components & Virtual DOM."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "preactjs/preact",
+      "status": "candidate-context",
+      "text": "Benchmarks"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "huggingface/hf-hub",
+      "status": "candidate-context",
+      "text": "Rust client for the huggingface hub aiming for minimal subset of features over `huggingface-hub` python package"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "huggingface/hf-hub",
+      "status": "candidate-context",
+      "text": "Benchmarks"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pnpm/pnpm",
+      "status": "candidate-context",
+      "text": "Fast, disk space efficient package manager"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pnpm/pnpm",
+      "status": "candidate-context",
+      "text": "Benchmarks"
     }
   ],
   "candidate_glosses": [
@@ -245,6 +281,24 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "open-policy-agent/opa",
+      "status": "candidate",
+      "text": "Benchmarks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "preactjs/preact",
+      "status": "candidate",
+      "text": "Benchmarks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "huggingface/hf-hub",
+      "status": "candidate",
+      "text": "Benchmarks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pnpm/pnpm",
       "status": "candidate",
       "text": "Benchmarks"
     }
@@ -439,11 +493,41 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": ".github/workflows/benchmarks.yaml",
       "source_repo": "open-policy-agent/opa"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/benchmarks.yml",
+      "source_repo": "preactjs/preact"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/pull_request.yml",
+      "source_repo": "apache/casbin-rs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/benchmark.yaml",
+      "source_repo": "google/protobuf.dart"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/benchmarks.yml",
+      "source_repo": "huggingface/hf-hub"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/benchmark.yml",
+      "source_repo": "pnpm/pnpm"
     }
   ],
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,7 +1,7 @@
 {
   "component": "codecov/codecov-action@v4",
   "first_seen_at": "2026-04-18T09:09:30.058377+00:00",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -362,6 +362,66 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/python-package.yml",
       "source_repo": "assignUser/delocate"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration.yaml",
+      "source_repo": "gchq/Gaffer"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "op-rs/maili"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/swift.yml",
+      "source_repo": "attaswift/BigInt"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci-workflow.yml",
+      "source_repo": "newrelic/node-native-metrics"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "lambdalisue/vim-gin"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "apache/casbin-rust-actix-casbin"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "apache/casbin-actix-casbin-auth"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "apache/casbin-axum-casbin"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "stx-labs/stacks.js"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/testing.yml",
+      "source_repo": "rusty1s/pytorch_cluster"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/testing.yml",
+      "source_repo": "rusty1s/pytorch_scatter"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/testing.yml",
+      "source_repo": "rusty1s/pytorch_sparse"
     }
   ]
 }

@@ -1,0 +1,12 @@
+{
+  "component": "pnpm/action-setup@9b5745cdf0a2e8c2620f0746130f809adb911c19",
+  "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/backend.yml",
+      "source_repo": "getsentry/sentry"
+    }
+  ]
+}

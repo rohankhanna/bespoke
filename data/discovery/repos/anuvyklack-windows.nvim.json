@@ -1,0 +1,84 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "anuvyklack/windows.nvim",
+      "target": "anuvyklack/middleclass",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "anuvyklack/windows.nvim",
+      "target": "anuvyklack/animation.nvim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "anuvyklack/windows.nvim",
+      "target": "neovim",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "anuvyklack/windows.nvim",
+      "target": "neovim-plugin",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T00:45:21.811151+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2873
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Automatically expand width of the current window. Maximizes and restore it. And all this with nice animations!",
+    "fork": false,
+    "full_name": "anuvyklack/windows.nvim",
+    "html_url": "https://github.com/anuvyklack/windows.nvim",
+    "language": "Lua",
+    "pushed_at": "2023-07-08T11:07:37Z",
+    "stargazers_count": 641,
+    "topics": [
+      "lua",
+      "neovim",
+      "neovim-plugin"
+    ],
+    "updated_at": "2026-04-15T22:37:15Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "anuvyklack/animation.nvim",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "anuvyklack/middleclass",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "- Automatically expand width of the current window;",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neovim"
+    },
+    {
+      "context_snippet": "- Automatically expand width of the current window;",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neovim-plugin"
+    }
+  ]
+}

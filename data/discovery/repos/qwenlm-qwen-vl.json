@@ -1,0 +1,111 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "QwenLM/Qwen-VL",
+      "target": "camenduru/qwen-vl-chat-colab",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "QwenLM/Qwen-VL",
+      "target": "ofa-sys/touchstone",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "QwenLM/Qwen-VL",
+      "target": "panqiwei/autogptq",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "QwenLM/Qwen-VL",
+      "target": "justinlin610/autogptq",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "QwenLM/Qwen-VL",
+      "target": "large-language-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "QwenLM/Qwen-VL",
+      "target": "vision-language-model",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T02:02:37.922678+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 44513
+    },
+    {
+      "path": "requirements.txt",
+      "size": 133
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "The official repo of Qwen-VL (\u901a\u4e49\u5343\u95ee-VL) chat & pretrained large vision language model proposed by Alibaba Cloud.",
+    "fork": false,
+    "full_name": "QwenLM/Qwen-VL",
+    "html_url": "https://github.com/QwenLM/Qwen-VL",
+    "language": "Python",
+    "pushed_at": "2024-08-07T02:37:06Z",
+    "stargazers_count": 6630,
+    "topics": [
+      "large-language-models",
+      "vision-language-model"
+    ],
+    "updated_at": "2026-04-23T16:25:06Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "camenduru/qwen-vl-chat-colab",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "justinlin610/autogptq",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ofa-sys/touchstone",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "panqiwei/autogptq",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<p align=\"left\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "large-language-models"
+    },
+    {
+      "context_snippet": "<p align=\"left\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vision-language-model"
+    }
+  ]
+}

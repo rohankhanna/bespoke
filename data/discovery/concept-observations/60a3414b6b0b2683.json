@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Repo for NuGet Client issues"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "IceBox Upvote Watcher"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "IceBox Upvote Watcher"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10004,
+      "status": "candidate",
+      "text": "yea"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9958,
+      "status": "candidate",
+      "text": "rabbi"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9936,
+      "status": "candidate",
+      "text": "fcc"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9936,
+      "status": "candidate",
+      "text": "ref"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9936,
+      "status": "candidate",
+      "text": "warden"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "IceBox Upvote Watcher",
+      "sense_id": "icebox-upvote-watcher#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "icebox-upvote-watcher",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "icebox-upvote-watcher",
+  "observation_id": "60a3414b6b0b2683",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-24T00:33:56.049672+00:00",
+  "observed_text": "IceBox Upvote Watcher",
+  "source_context_snippet": "IceBox Upvote Watcher",
+  "source_file": ".github/workflows/icebox-watcher.yml",
+  "source_repo": "NuGet/Home",
+  "source_repo_description": "Repo for NuGet Client issues"
+}

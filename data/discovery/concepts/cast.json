@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "cast"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "martinmoene/lest",
+      "status": "candidate-context",
+      "text": "A modern, C++11-native, single-file header-only, tiny framework for unit-tests, TDD and BDD (includes C++98 variant)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "martinmoene/lest",
+      "status": "candidate-context",
+      "text": "lest &ndash; lest errors escape testing"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "martinmoene/lest",
+      "status": "candidate",
+      "text": "lest &ndash; lest errors escape testing"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40023415,
+      "status": "candidate",
+      "text": "hurl"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40023352,
+      "status": "candidate",
+      "text": "throw"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40021603,
+      "status": "candidate",
+      "text": "hurtle"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40019275,
+      "status": "candidate",
+      "text": "stamp"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40016052,
+      "status": "candidate",
+      "text": "ramble"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 40035,
+      "status": "candidate",
+      "text": "contrive"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 38048,
+      "status": "candidate",
+      "text": "project"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 35076,
+      "status": "candidate",
+      "text": "draw"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 32067,
+      "status": "candidate",
+      "text": "drift"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 32040,
+      "status": "candidate",
+      "text": "ramble"
+    }
+  ],
+  "canonical_name": "cast",
+  "concept_id": "cast",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "martinmoene/lest"
+    }
+  ],
+  "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "cast",
+      "sense_id": "cast#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

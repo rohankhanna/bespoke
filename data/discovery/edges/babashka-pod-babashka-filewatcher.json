@@ -1,0 +1,34 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "babashka/pod-babashka-filewatcher",
+      "target": "babashka/babashka.pods",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "babashka/pod-babashka-filewatcher",
+      "target": "notify-rs/notify",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "babashka/pod-babashka-filewatcher",
+      "target": "borkdude/babashka",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Cargo.toml",
+      "source_repo": "babashka/pod-babashka-filewatcher",
+      "target": "jasilven/bencode_rs",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-04-24T00:33:56.049672+00:00",
+  "source_repo": "babashka/pod-babashka-filewatcher"
+}

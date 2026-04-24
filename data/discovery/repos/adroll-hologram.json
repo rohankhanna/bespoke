@@ -1,0 +1,85 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AdRoll/hologram",
+      "target": "aws/aws-sdk-go",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AdRoll/hologram",
+      "target": "bridgewater/holochrome",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Dockerfile",
+      "source_repo": "AdRoll/hologram",
+      "target": "google/protobuf",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Dockerfile",
+      "source_repo": "AdRoll/hologram",
+      "target": "hogliux/bomutils",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-24T01:54:02.576327+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 15390
+    },
+    {
+      "path": "Dockerfile",
+      "size": 2084
+    },
+    {
+      "path": "go.mod",
+      "size": 1325
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Easy, painless AWS credentials on developer laptops.",
+    "fork": false,
+    "full_name": "AdRoll/hologram",
+    "html_url": "https://github.com/AdRoll/hologram",
+    "language": "Go",
+    "pushed_at": "2025-05-01T20:30:35Z",
+    "stargazers_count": 808,
+    "topics": [],
+    "updated_at": "2026-03-08T15:43:36Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aws/aws-sdk-go",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bridgewater/holochrome",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "google/protobuf",
+      "source_file": "Dockerfile"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hogliux/bomutils",
+      "source_file": "Dockerfile"
+    }
+  ],
+  "terms": []
+}

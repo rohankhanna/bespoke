@@ -1,0 +1,108 @@
+{
+  "aliases": [
+    "telescope"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nvim-telescope/telescope-fzf-native.nvim",
+      "status": "candidate-context",
+      "text": "FZF sorter for telescope written in c"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nvim-telescope/telescope-fzf-native.nvim",
+      "status": "candidate-context",
+      "text": "**fzf-native** is a `c` port of **[fzf][fzf]**. It only covers the algorithm and"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nvim-telescope/telescope-fzf-native.nvim",
+      "status": "candidate",
+      "text": "**fzf-native** is a `c` port of **[fzf][fzf]**. It only covers the algorithm and"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39967574,
+      "status": "candidate",
+      "text": "scope"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30045654,
+      "status": "candidate",
+      "text": "cassegrain"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30045595,
+      "status": "candidate",
+      "text": "binoculars"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30045112,
+      "status": "candidate",
+      "text": "periscope"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30012320,
+      "status": "candidate",
+      "text": "gemini"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 31065,
+      "status": "candidate",
+      "text": "scope"
+    }
+  ],
+  "canonical_name": "telescope",
+  "concept_id": "telescope",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "nvim-telescope/telescope-fzf-native.nvim"
+    }
+  ],
+  "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "telescope",
+      "sense_id": "telescope#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

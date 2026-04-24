@@ -1,0 +1,12 @@
+{
+  "component": "autero1/action-gotestsum@2e48af62f5248bd3b014f598cd1aa69a01dd36e3",
+  "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/acceptance.yml",
+      "source_repo": "hashicorp/go-discover"
+    }
+  ]
+}

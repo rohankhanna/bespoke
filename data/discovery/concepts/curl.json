@@ -31,6 +31,18 @@
       "source_repo": "httpie/cli",
       "status": "candidate-context",
       "text": "<h2 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "chubin/wttr.in",
+      "status": "candidate-context",
+      "text": ":partly_sunny: The right way to check the weather"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chubin/wttr.in",
+      "status": "candidate-context",
+      "text": "*wttr.in \u2014 the right way to ~check~ `curl` the weather!*"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "httpie/cli",
       "status": "candidate",
       "text": "<h2 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chubin/wttr.in",
+      "status": "candidate",
+      "text": "*wttr.in \u2014 the right way to ~check~ `curl` the weather!*"
     }
   ],
   "candidate_related_terms": [
@@ -136,11 +154,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "httpie/cli"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "chubin/wttr.in"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

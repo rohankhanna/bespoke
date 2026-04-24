@@ -19,6 +19,18 @@
       "source_repo": "robur-coop/albatross",
       "status": "candidate-context",
       "text": "The goal of albatross is robust deployment of [MirageOS](https://mirage.io)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Solo5/solo5",
+      "status": "candidate-context",
+      "text": "A sandboxed execution environment for unikernels"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Solo5/solo5",
+      "status": "candidate-context",
+      "text": "| ___|"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "robur-coop/albatross",
       "status": "candidate",
       "text": "The goal of albatross is robust deployment of [MirageOS](https://mirage.io)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Solo5/solo5",
+      "status": "candidate",
+      "text": "| ___|"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "robur-coop/albatross"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "Solo5/solo5"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

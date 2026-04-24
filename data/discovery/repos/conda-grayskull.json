@@ -1,0 +1,466 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/init@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/autobuild@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_pypi.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_pypi.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sphinx.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sphinx.yml"
+    },
+    {
+      "component": "actions/upload-pages-artifact@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sphinx.yml"
+    },
+    {
+      "component": "actions/deploy-pages@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sphinx.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "mamba-org/setup-micromamba@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "peter-evans/create-or-update-comment@71345be0265236311c031f5c7866368bd1eff043",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update.yml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update.yml"
+    },
+    {
+      "component": "conda/actions/combine-durations@7873f9d7c90877290866eb893b8f6eff2e88429a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update.yml"
+    },
+    {
+      "component": "conda/actions/template-files@7873f9d7c90877290866eb893b8f6eff2e88429a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update.yml"
+    },
+    {
+      "component": "peter-evans/create-pull-request@dd2324fc52d5d43c699a5636bcf19fceaa70c284",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update.yml"
+    },
+    {
+      "component": "peter-evans/create-or-update-comment@71345be0265236311c031f5c7866368bd1eff043",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "conda/grayskull",
+      "target": "confluentinc/confluent-kafka-python",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "conda/grayskull",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "conda/grayskull",
+      "target": "github/codeql-action/init@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "conda/grayskull",
+      "target": "github/codeql-action/autobuild@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "conda/grayskull",
+      "target": "github/codeql-action/analyze@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "conda/grayskull",
+      "target": "CodeQL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_pypi.yml",
+      "source_repo": "conda/grayskull",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_pypi.yml",
+      "source_repo": "conda/grayskull",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish_pypi.yml",
+      "source_repo": "conda/grayskull",
+      "target": "Upload Package to PyPI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sphinx.yml",
+      "source_repo": "conda/grayskull",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sphinx.yml",
+      "source_repo": "conda/grayskull",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sphinx.yml",
+      "source_repo": "conda/grayskull",
+      "target": "actions/upload-pages-artifact@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sphinx.yml",
+      "source_repo": "conda/grayskull",
+      "target": "actions/deploy-pages@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/sphinx.yml",
+      "source_repo": "conda/grayskull",
+      "target": "Sphinx",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "conda/grayskull",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "conda/grayskull",
+      "target": "mamba-org/setup-micromamba@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "conda/grayskull",
+      "target": "codecov/codecov-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "conda/grayskull",
+      "target": "Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update.yml",
+      "source_repo": "conda/grayskull",
+      "target": "peter-evans/create-or-update-comment@71345be0265236311c031f5c7866368bd1eff043",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update.yml",
+      "source_repo": "conda/grayskull",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update.yml",
+      "source_repo": "conda/grayskull",
+      "target": "conda/actions/combine-durations@7873f9d7c90877290866eb893b8f6eff2e88429a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update.yml",
+      "source_repo": "conda/grayskull",
+      "target": "conda/actions/template-files@7873f9d7c90877290866eb893b8f6eff2e88429a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update.yml",
+      "source_repo": "conda/grayskull",
+      "target": "peter-evans/create-pull-request@dd2324fc52d5d43c699a5636bcf19fceaa70c284",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update.yml",
+      "source_repo": "conda/grayskull",
+      "target": "Update Repository",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "conda/grayskull",
+      "target": "conda",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "conda/grayskull",
+      "target": "conda-build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "conda/grayskull",
+      "target": "conda-build-recipes",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "conda/grayskull",
+      "target": "conda-packages",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "conda/grayskull",
+      "target": "conda-recipe",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "conda/grayskull",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "conda/grayskull",
+      "target": "recipe",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "conda/grayskull",
+      "target": "skeleton",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T00:59:57.082763+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6172
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1975
+    },
+    {
+      "path": ".github/workflows/codeql.yml",
+      "size": 834
+    },
+    {
+      "path": ".github/workflows/publish_pypi.yml",
+      "size": 610
+    },
+    {
+      "path": ".github/workflows/sphinx.yml",
+      "size": 1130
+    },
+    {
+      "path": ".github/workflows/tests.yml",
+      "size": 2904
+    },
+    {
+      "path": ".github/workflows/update.yml",
+      "size": 4533
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Grayskull :skull: - Recipe generator for Conda",
+    "fork": false,
+    "full_name": "conda/grayskull",
+    "html_url": "https://github.com/conda/grayskull",
+    "language": "Python",
+    "pushed_at": "2026-04-20T16:35:20Z",
+    "stargazers_count": 375,
+    "topics": [
+      "conda",
+      "conda-build",
+      "conda-build-recipes",
+      "conda-packages",
+      "conda-recipe",
+      "hacktoberfest",
+      "recipe",
+      "skeleton"
+    ],
+    "updated_at": "2026-04-13T15:13:51Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "confluentinc/confluent-kafka-python",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "\"CodeQL\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "term": "CodeQL"
+    },
+    {
+      "context_snippet": "Upload Package to PyPI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish_pypi.yml",
+      "term": "Upload Package to PyPI"
+    },
+    {
+      "context_snippet": "Sphinx",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/sphinx.yml",
+      "term": "Sphinx"
+    },
+    {
+      "context_snippet": "Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests.yml",
+      "term": "Tests"
+    },
+    {
+      "context_snippet": "Update Repository",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update.yml",
+      "term": "Update Repository"
+    },
+    {
+      "context_snippet": "-------------",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "conda"
+    },
+    {
+      "context_snippet": "-------------",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "conda-build"
+    },
+    {
+      "context_snippet": "-------------",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "conda-build-recipes"
+    },
+    {
+      "context_snippet": "-------------",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "conda-packages"
+    },
+    {
+      "context_snippet": "-------------",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "conda-recipe"
+    },
+    {
+      "context_snippet": "-------------",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    },
+    {
+      "context_snippet": "-------------",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "recipe"
+    },
+    {
+      "context_snippet": "-------------",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "skeleton"
+    }
+  ]
+}

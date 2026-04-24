@@ -226,6 +226,42 @@
       "source_repo": "google/google-java-format",
       "status": "candidate-context",
       "text": "`google-java-format` is a program that reformats Java source code to comply with"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fsprojects/fantomas",
+      "status": "candidate-context",
+      "text": "FSharp source code formatter"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fsprojects/fantomas",
+      "status": "candidate-context",
+      "text": "Fantomas"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google/yapf",
+      "status": "candidate-context",
+      "text": "A formatter for Python files"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/yapf",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hhatto/autopep8",
+      "status": "candidate-context",
+      "text": "A tool that automatically formats Python code to conform to the PEP 8 style guide."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hhatto/autopep8",
+      "status": "candidate-context",
+      "text": "========"
     }
   ],
   "candidate_glosses": [
@@ -336,6 +372,24 @@
       "source_repo": "google/google-java-format",
       "status": "candidate",
       "text": "`google-java-format` is a program that reformats Java source code to comply with"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fsprojects/fantomas",
+      "status": "candidate",
+      "text": "Fantomas"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/yapf",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hhatto/autopep8",
+      "status": "candidate",
+      "text": "========"
     }
   ],
   "candidate_related_terms": [
@@ -523,11 +577,35 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "google/google-java-format"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "fsprojects/fantomas"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "google/yapf"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "hhatto/autopep8"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "standard/snazzy"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

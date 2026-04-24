@@ -1,0 +1,17 @@
+{
+  "component": "notomo/action-setup-nvim-lua@0314b24446fbad4f9cf1c2129f10fe7cd869f431",
+  "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "notomo/vusted"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "notomo/vusted"
+    }
+  ]
+}

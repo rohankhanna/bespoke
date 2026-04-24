@@ -1,0 +1,122 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "#StandWithUkraine banner and related documents"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![GitHub stars](https://img.shields.io/github/stars/vshymanskyy/StandWithUkraine.svg)](https://github.com/vshymanskyy/StandWithUkraine/stargazers)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![GitHub stars](https://img.shields.io/github/stars/vshymanskyy/StandWithUkraine.svg)](https://github.com/vshymanskyy/StandWithUkraine/stargazers)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30035796,
+      "status": "candidate",
+      "text": "white russia"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30021100,
+      "status": "candidate",
+      "text": "byelorussia"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30020258,
+      "status": "candidate",
+      "text": "belorussia"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20039590,
+      "status": "candidate",
+      "text": "byelarus"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20039589,
+      "status": "candidate",
+      "text": "ukraine"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "belarus",
+      "sense_id": "belarus#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "belorussia"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "byelarus"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "byelorussia"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "white russia"
+    }
+  ],
+  "concept_id": "belarus",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "belarus",
+  "observation_id": "367817253ce2f291",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T00:33:56.049672+00:00",
+  "observed_text": "belarus",
+  "source_context_snippet": "[![GitHub stars](https://img.shields.io/github/stars/vshymanskyy/StandWithUkraine.svg)](https://github.com/vshymanskyy/StandWithUkraine/stargazers)",
+  "source_file": null,
+  "source_repo": "vshymanskyy/StandWithUkraine",
+  "source_repo_description": "#StandWithUkraine banner and related documents"
+}

@@ -1,0 +1,442 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gitleaks.yml"
+    },
+    {
+      "component": "gitleaks/gitleaks-action@bf2dc8e55639c1e091e9b45970152e4313705814",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gitleaks.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "docker/setup-qemu-action@8b122486cedac8393e77aa9734c3528886e4a1a8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@dc7b9719a96d48369863986a06765841d7ea23f6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "docker/login-action@49ed152c8eca782a232dede0303416e8f356c37b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "docker/login-action@49ed152c8eca782a232dede0303416e8f356c37b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "docker/metadata-action@98669ae865ea3cffbcbaa878cf57c20bbf1c6c38",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "docker/build-push-action@e551b19e49efd4e98792db7592c17c09b89db8d8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/setup-go@4b73464bb391d4059bd26b0524d20df3927bd417",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "gitleaks/gitleaks",
+      "target": "gitleaks/gitleaks-action",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "gitleaks/gitleaks",
+      "target": "leaktk/gitleaks",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gitleaks.yml",
+      "source_repo": "gitleaks/gitleaks",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gitleaks.yml",
+      "source_repo": "gitleaks/gitleaks",
+      "target": "gitleaks/gitleaks-action@bf2dc8e55639c1e091e9b45970152e4313705814",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gitleaks.yml",
+      "source_repo": "gitleaks/gitleaks",
+      "target": "gitleaks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "gitleaks/gitleaks",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "gitleaks/gitleaks",
+      "target": "docker/setup-qemu-action@8b122486cedac8393e77aa9734c3528886e4a1a8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "gitleaks/gitleaks",
+      "target": "docker/setup-buildx-action@dc7b9719a96d48369863986a06765841d7ea23f6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "gitleaks/gitleaks",
+      "target": "docker/login-action@49ed152c8eca782a232dede0303416e8f356c37b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "gitleaks/gitleaks",
+      "target": "docker/metadata-action@98669ae865ea3cffbcbaa878cf57c20bbf1c6c38",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "gitleaks/gitleaks",
+      "target": "docker/build-push-action@e551b19e49efd4e98792db7592c17c09b89db8d8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "gitleaks/gitleaks",
+      "target": "Create and publish a Docker image",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "gitleaks/gitleaks",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "gitleaks/gitleaks",
+      "target": "actions/setup-go@4b73464bb391d4059bd26b0524d20df3927bd417",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "gitleaks/gitleaks",
+      "target": "Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gitleaks/gitleaks",
+      "target": "ai-powered",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gitleaks/gitleaks",
+      "target": "ci-cd",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gitleaks/gitleaks",
+      "target": "cicd",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gitleaks/gitleaks",
+      "target": "data-loss-prevention",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gitleaks/gitleaks",
+      "target": "devsecops",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gitleaks/gitleaks",
+      "target": "gitleaks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gitleaks/gitleaks",
+      "target": "golang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gitleaks/gitleaks",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gitleaks/gitleaks",
+      "target": "llm-inference",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gitleaks/gitleaks",
+      "target": "llm-training",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gitleaks/gitleaks",
+      "target": "open-source",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gitleaks/gitleaks",
+      "target": "secret",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gitleaks/gitleaks",
+      "target": "security",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gitleaks/gitleaks",
+      "target": "security-tools",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T00:53:10.663269+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 28232
+    },
+    {
+      "path": "Dockerfile",
+      "size": 463
+    },
+    {
+      "path": "go.mod",
+      "size": 3677
+    },
+    {
+      "path": ".github/workflows/gitleaks.yml",
+      "size": 490
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 1701
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 776
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Find secrets with Gitleaks \ud83d\udd11",
+    "fork": false,
+    "full_name": "gitleaks/gitleaks",
+    "html_url": "https://github.com/gitleaks/gitleaks",
+    "language": "Go",
+    "pushed_at": "2026-03-25T13:57:45Z",
+    "stargazers_count": 26250,
+    "topics": [
+      "ai-powered",
+      "ci-cd",
+      "cicd",
+      "cli",
+      "data-loss-prevention",
+      "devsecops",
+      "dlp",
+      "git",
+      "gitleaks",
+      "go",
+      "golang",
+      "hacktoberfest",
+      "llm",
+      "llm-inference",
+      "llm-training",
+      "nhi",
+      "open-source",
+      "secret",
+      "security",
+      "security-tools"
+    ],
+    "updated_at": "2026-04-24T00:24:00Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "gitleaks/gitleaks-action",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "leaktk/gitleaks",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "gitleaks",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gitleaks.yml",
+      "term": "gitleaks"
+    },
+    {
+      "context_snippet": "Create and publish a Docker image",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Create and publish a Docker image"
+    },
+    {
+      "context_snippet": "Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "Test"
+    },
+    {
+      "context_snippet": "```",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ai-powered"
+    },
+    {
+      "context_snippet": "```",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ci-cd"
+    },
+    {
+      "context_snippet": "```",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cicd"
+    },
+    {
+      "context_snippet": "```",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "data-loss-prevention"
+    },
+    {
+      "context_snippet": "```",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "devsecops"
+    },
+    {
+      "context_snippet": "```",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gitleaks"
+    },
+    {
+      "context_snippet": "```",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "golang"
+    },
+    {
+      "context_snippet": "```",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    },
+    {
+      "context_snippet": "```",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "llm-inference"
+    },
+    {
+      "context_snippet": "```",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "llm-training"
+    },
+    {
+      "context_snippet": "```",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "open-source"
+    },
+    {
+      "context_snippet": "```",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "secret"
+    },
+    {
+      "context_snippet": "```",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "security"
+    },
+    {
+      "context_snippet": "```",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "security-tools"
+    }
+  ]
+}

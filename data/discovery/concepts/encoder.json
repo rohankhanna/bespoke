@@ -43,6 +43,18 @@
       "source_repo": "libjxl/libjxl",
       "status": "candidate-context",
       "text": "[![Build/Test](https://github.com/libjxl/libjxl/actions/workflows/build_test.yml/badge.svg)]("
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alecazam/kram",
+      "status": "candidate-context",
+      "text": "Encode/decode/info to KTX/KTX2/DDS files with LDR/HDR and BC/ASTC/ETC2.  Mac/Win C++11 too, Mac viewer, and scripts for batch processing textures."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alecazam/kram",
+      "status": "candidate-context",
+      "text": "The suite of kram tools below. I hope these improve your game, app, and art development."
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "libjxl/libjxl",
       "status": "candidate",
       "text": "[![Build/Test](https://github.com/libjxl/libjxl/actions/workflows/build_test.yml/badge.svg)]("
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alecazam/kram",
+      "status": "candidate",
+      "text": "The suite of kram tools below. I hope these improve your game, app, and art development."
     }
   ],
   "candidate_related_terms": [
@@ -124,11 +142,17 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "libjxl/libjxl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "alecazam/kram"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

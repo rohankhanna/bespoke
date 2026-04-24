@@ -1,0 +1,118 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnet.yml"
+    },
+    {
+      "component": "actions/setup-dotnet@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnet.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnet.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "CarlVerret/csFastFloat",
+      "target": "carlverret/fastfloattestbench",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "CarlVerret/csFastFloat",
+      "target": "joshclose/csvhelper",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "CarlVerret/csFastFloat",
+      "target": "ahrvoje/numerics",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "CarlVerret/csFastFloat",
+      "target": "approvals/approvaltests.net",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnet.yml",
+      "source_repo": "CarlVerret/csFastFloat",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnet.yml",
+      "source_repo": "CarlVerret/csFastFloat",
+      "target": "actions/setup-dotnet@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnet.yml",
+      "source_repo": "CarlVerret/csFastFloat",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-24T00:50:09.943092+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5851
+    },
+    {
+      "path": ".github/workflows/dotnet.yml",
+      "size": 776
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "CarlVerret/csFastFloat",
+    "html_url": "https://github.com/CarlVerret/csFastFloat",
+    "language": "C#",
+    "pushed_at": "2024-12-30T15:35:22Z",
+    "stargazers_count": 204,
+    "topics": [],
+    "updated_at": "2026-03-15T04:22:56Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ahrvoje/numerics",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "approvals/approvaltests.net",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "carlverret/fastfloattestbench",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "joshclose/csvhelper",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

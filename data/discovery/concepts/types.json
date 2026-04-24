@@ -79,6 +79,18 @@
       "source_repo": "mypyc/mypyc",
       "status": "candidate-context",
       "text": "Mypyc compiles Python modules to C extensions. It uses standard Python"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "facil-io/cstl",
+      "status": "candidate-context",
+      "text": "facil.io C STL - a Server Toolbox Library for C, including JSON processing, hash maps, dynamic arrays, binary strings and more."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "facil-io/cstl",
+      "status": "candidate-context",
+      "text": "[![facil.io logo](./extras/logo.svg?raw=true \"facil.io\")](https://github.com/facil-io/cstl)"
     }
   ],
   "candidate_glosses": [
@@ -117,6 +129,12 @@
       "source_repo": "mypyc/mypyc",
       "status": "candidate",
       "text": "Mypyc compiles Python modules to C extensions. It uses standard Python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "facil-io/cstl",
+      "status": "candidate",
+      "text": "[![facil.io logo](./extras/logo.svg?raw=true \"facil.io\")](https://github.com/facil-io/cstl)"
     }
   ],
   "candidate_related_terms": [
@@ -196,11 +214,17 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "mypyc/mypyc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "facil-io/cstl"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

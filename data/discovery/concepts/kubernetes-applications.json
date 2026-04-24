@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "kubernetes-applications"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Azure/aad-pod-identity",
+      "status": "candidate-context",
+      "text": "[DEPRECATED] Assign Azure Active Directory Identities to Kubernetes applications. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Azure/aad-pod-identity",
+      "status": "candidate-context",
+      "text": "> # \u26a0\ufe0f [AAD Pod Identity repo has been archived and is no longer maintained.](#-announcement)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Azure/aad-pod-identity",
+      "status": "candidate",
+      "text": "> # \u26a0\ufe0f [AAD Pod Identity repo has been archived and is no longer maintained.](#-announcement)"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "kubernetes-applications",
+  "concept_id": "kubernetes-applications",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "Azure/aad-pod-identity"
+    }
+  ],
+  "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "kubernetes-applications",
+      "sense_id": "kubernetes-applications#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

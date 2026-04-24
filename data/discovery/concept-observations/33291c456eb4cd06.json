@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Apache Seata(incubating) Website"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "seata website deploy on oss"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "seata website deploy on oss"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18398,
+      "status": "candidate",
+      "text": "database management system"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18398,
+      "status": "candidate",
+      "text": "dbms"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18398,
+      "status": "candidate",
+      "text": "mailbox"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18398,
+      "status": "candidate",
+      "text": "refresh"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18398,
+      "status": "candidate",
+      "text": "refreshed"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "seata website deploy on oss",
+      "sense_id": "seata-website-deploy-on-oss#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "seata-website-deploy-on-oss",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "seata-website-deploy-on-oss",
+  "observation_id": "33291c456eb4cd06",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-24T00:33:56.049672+00:00",
+  "observed_text": "seata website deploy on oss",
+  "source_context_snippet": "seata website deploy on oss",
+  "source_file": ".github/workflows/deploy-oss.yml",
+  "source_repo": "apache/incubator-seata-website",
+  "source_repo_description": "Apache Seata(incubating) Website"
+}

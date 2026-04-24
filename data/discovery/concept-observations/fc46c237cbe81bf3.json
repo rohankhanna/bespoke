@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Publish Vega visualizations as embedded web components with interactive parameters."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![npm version](https://img.shields.io/npm/v/vega-embed.svg)](https://www.npmjs.com/package/vega-embed) [![](https://data.jsdelivr.com/v1/package/npm/vega-embed/badge?style=rounded)](https://www.jsdelivr.com/package/npm/vega-embed) [![Build Status](https://github.com/vega/vega-e\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![npm version](https://img.shields.io/npm/v/vega-embed.svg)](https://www.npmjs.com/package/vega-embed) [![](https://data.jsdelivr.com/v1/package/npm/vega-embed/badge?style=rounded)](https://www.jsdelivr.com/package/npm/vega-embed) [![Build Status](https://github.com/vega/vega-e\u2026"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28893622,
+      "status": "candidate",
+      "text": "cao"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28030872,
+      "status": "candidate",
+      "text": "gonzales"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26913396,
+      "status": "candidate",
+      "text": "houston"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26558834,
+      "status": "candidate",
+      "text": "veiga"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19001733,
+      "status": "candidate",
+      "text": "lyra"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "vega",
+      "sense_id": "vega#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "vega",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "vega",
+  "observation_id": "fc46c237cbe81bf3",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T00:33:56.049672+00:00",
+  "observed_text": "vega",
+  "source_context_snippet": "[![npm version](https://img.shields.io/npm/v/vega-embed.svg)](https://www.npmjs.com/package/vega-embed) [![](https://data.jsdelivr.com/v1/package/npm/vega-embed/badge?style=rounded)](https://www.jsdelivr.com/package/npm/vega-embed) [![Build Status](https://github.com/vega/vega-e\u2026",
+  "source_file": null,
+  "source_repo": "vega/vega-embed",
+  "source_repo_description": "Publish Vega visualizations as embedded web components with interactive parameters."
+}

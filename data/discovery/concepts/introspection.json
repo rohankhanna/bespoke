@@ -1,0 +1,115 @@
+{
+  "aliases": [
+    "introspection"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cool-RR/PySnooper",
+      "status": "candidate-context",
+      "text": "Never use print for debugging again"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cool-RR/PySnooper",
+      "status": "candidate-context",
+      "text": "**PySnooper** is a poor man's debugger. If you've used Bash, it's like `set -x` for Python, except it's fancier."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cool-RR/PySnooper",
+      "status": "candidate",
+      "text": "**PySnooper** is a poor man's debugger. If you've used Bash, it's like `set -x` for Python, except it's fancier."
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40027241,
+      "status": "candidate",
+      "text": "self-examination"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30028478,
+      "status": "candidate",
+      "text": "self-contemplation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30028477,
+      "status": "candidate",
+      "text": "soul-searching"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30027055,
+      "status": "candidate",
+      "text": "self-reflection"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30023396,
+      "status": "candidate",
+      "text": "insight"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 3029,
+      "status": "candidate",
+      "text": "self-examination"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 11,
+      "status": "candidate",
+      "text": "self-contemplation"
+    }
+  ],
+  "canonical_name": "introspection",
+  "concept_id": "introspection",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "cool-RR/PySnooper"
+    }
+  ],
+  "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "introspection",
+      "sense_id": "introspection#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

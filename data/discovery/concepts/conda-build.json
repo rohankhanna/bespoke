@@ -1,11 +1,14 @@
 {
   "aliases": [
-    "Conda build"
+    "Conda build",
+    "conda-build"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
     "workflow-process",
-    "data-document-artifact"
+    "data-document-artifact",
+    "tool-component",
+    "capability"
   ],
   "candidate_definitions": [
     {
@@ -19,6 +22,18 @@
       "source_repo": "dask/dask",
       "status": "candidate-context",
       "text": "Conda build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "conda/grayskull",
+      "status": "candidate-context",
+      "text": "Grayskull :skull: - Recipe generator for Conda"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "conda/grayskull",
+      "status": "candidate-context",
+      "text": "-------------"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +42,12 @@
       "source_repo": "dask/dask",
       "status": "candidate",
       "text": "Conda build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "conda/grayskull",
+      "status": "candidate",
+      "text": "-------------"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +97,17 @@
       "observed_at": "2026-04-19T17:42:30.117329+00:00",
       "source_file": ".github/workflows/conda.yml",
       "source_repo": "dask/dask"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "conda/grayskull"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-19T17:42:30.117329+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

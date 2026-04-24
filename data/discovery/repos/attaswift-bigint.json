@@ -1,0 +1,127 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jazzy.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/swift.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/swift.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/swift.yml"
+    },
+    {
+      "component": "skiptools/swift-android-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/swift.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/swift.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/swift.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jazzy.yml",
+      "source_repo": "attaswift/BigInt",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/jazzy.yml",
+      "source_repo": "attaswift/BigInt",
+      "target": "Swift",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/swift.yml",
+      "source_repo": "attaswift/BigInt",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/swift.yml",
+      "source_repo": "attaswift/BigInt",
+      "target": "skiptools/swift-android-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/swift.yml",
+      "source_repo": "attaswift/BigInt",
+      "target": "codecov/codecov-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/swift.yml",
+      "source_repo": "attaswift/BigInt",
+      "target": "Swift",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T00:57:24.464900+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 21923
+    },
+    {
+      "path": ".github/workflows/jazzy.yml",
+      "size": 821
+    },
+    {
+      "path": ".github/workflows/swift.yml",
+      "size": 1267
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Arbitrary-precision arithmetic in pure Swift",
+    "fork": false,
+    "full_name": "attaswift/BigInt",
+    "html_url": "https://github.com/attaswift/BigInt",
+    "language": "Swift",
+    "pushed_at": "2025-07-26T22:43:33Z",
+    "stargazers_count": 810,
+    "topics": [],
+    "updated_at": "2026-04-20T19:52:53Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Swift",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/jazzy.yml",
+      "term": "Swift"
+    },
+    {
+      "context_snippet": "Swift",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/swift.yml",
+      "term": "Swift"
+    }
+  ]
+}

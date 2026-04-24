@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Build raylib examples - Windows"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "raysan5/raylib",
+      "status": "candidate-context",
+      "text": "A simple and easy-to-use library to enjoy videogames programming"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "raysan5/raylib",
+      "status": "candidate-context",
+      "text": "Build raylib examples - Windows"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "raysan5/raylib",
+      "status": "candidate",
+      "text": "Build raylib examples - Windows"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17892,
+      "status": "candidate",
+      "text": "daylight"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17892,
+      "status": "candidate",
+      "text": "fenestration"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17845,
+      "status": "candidate",
+      "text": "machine"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17845,
+      "status": "candidate",
+      "text": "machined"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17789,
+      "status": "candidate",
+      "text": "engineering"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Build raylib examples - Windows",
+  "concept_id": "build-raylib-examples---windows",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/build_examples_windows.yml",
+      "source_repo": "raysan5/raylib"
+    }
+  ],
+  "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build raylib examples - Windows",
+      "sense_id": "build-raylib-examples---windows#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

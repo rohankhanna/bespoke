@@ -84,7 +84,7 @@
   "normalized_form": "license-checker",
   "observation_id": "8a4151daedd5e914",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-23T04:27:42.433064+00:00",
+  "observed_at": "2026-04-24T00:33:56.049672+00:00",
   "observed_text": "License checker",
   "source_context_snippet": "License checker",
   "source_file": ".github/workflows/license-checker.yaml",

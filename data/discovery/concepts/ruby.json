@@ -388,6 +388,78 @@
       "source_repo": "ruby/debug",
       "status": "candidate-context",
       "text": "[![Ruby](https://github.com/ruby/debug/actions/workflows/ruby.yml/badge.svg?branch=master)](https://github.com/ruby/debug/actions/workflows/ruby.yml?query=branch%3Amaster) [![Protocol](https://github.com/ruby/debug/actions/workflows/protocol.yml/badge.svg)](https://github.com/ru\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ku1ik/rainbow",
+      "status": "candidate-context",
+      "text": "Ruby gem for colorizing printed text on ANSI terminals"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ku1ik/rainbow",
+      "status": "candidate-context",
+      "text": "CI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jekyll/jekyll",
+      "status": "candidate-context",
+      "text": ":globe_with_meridians: Jekyll is a blog-aware static site generator in Ruby"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jekyll/jekyll",
+      "status": "candidate-context",
+      "text": "Micro Benchmark Runs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "libgit2/rugged",
+      "status": "candidate-context",
+      "text": "ruby bindings to libgit2"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "libgit2/rugged",
+      "status": "candidate-context",
+      "text": "**libgit2 bindings in Ruby**"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "babbel/puma-plugin-telemetry",
+      "status": "candidate-context",
+      "text": "Telemetry plugin for puma offering various targets to publish"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "babbel/puma-plugin-telemetry",
+      "status": "candidate-context",
+      "text": "Puma plugin which should be able to handle all your metric needs regarding your webserver:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kigster/puma-daemon",
+      "status": "candidate-context",
+      "text": "Puma (starting version 5) removed automatic demonization from the gem itself. This functionality was extracted to this gem, which supports Puma v5 and v6."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kigster/puma-daemon",
+      "status": "candidate-context",
+      "text": "Ruby"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "anilmaurya/fast_jsonparser",
+      "status": "candidate-context",
+      "text": "Fastest Json parser for Ruby, wrapper for simdjson"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "anilmaurya/fast_jsonparser",
+      "status": "candidate-context",
+      "text": "Ruby"
     }
   ],
   "candidate_glosses": [
@@ -588,6 +660,42 @@
       "source_repo": "ruby/debug",
       "status": "candidate",
       "text": "[![Ruby](https://github.com/ruby/debug/actions/workflows/ruby.yml/badge.svg?branch=master)](https://github.com/ruby/debug/actions/workflows/ruby.yml?query=branch%3Amaster) [![Protocol](https://github.com/ruby/debug/actions/workflows/protocol.yml/badge.svg)](https://github.com/ru\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ku1ik/rainbow",
+      "status": "candidate",
+      "text": "CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jekyll/jekyll",
+      "status": "candidate",
+      "text": "Micro Benchmark Runs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "libgit2/rugged",
+      "status": "candidate",
+      "text": "**libgit2 bindings in Ruby**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "babbel/puma-plugin-telemetry",
+      "status": "candidate",
+      "text": "Puma plugin which should be able to handle all your metric needs regarding your webserver:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kigster/puma-daemon",
+      "status": "candidate",
+      "text": "Ruby"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "anilmaurya/fast_jsonparser",
+      "status": "candidate",
+      "text": "Ruby"
     }
   ],
   "candidate_related_terms": [
@@ -883,11 +991,47 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "ruby/debug"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "ku1ik/rainbow"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "jekyll/jekyll"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "libgit2/rugged"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "babbel/puma-plugin-telemetry"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "kigster/puma-daemon"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/ruby.yml",
+      "source_repo": "anilmaurya/fast_jsonparser"
     }
   ],
   "first_seen_at": "2026-04-18T13:15:13.756138+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

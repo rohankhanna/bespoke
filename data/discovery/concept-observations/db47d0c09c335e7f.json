@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A repository running the Protobuf conformance tests against various libraries"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Bypass review in case of emergency"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Bypass review in case of emergency"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 44970,
+      "status": "candidate",
+      "text": "appeal"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 44025,
+      "status": "candidate",
+      "text": "backstop"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33678,
+      "status": "candidate",
+      "text": "emergencies"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 32699,
+      "status": "candidate",
+      "text": "skirt"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 32638,
+      "status": "candidate",
+      "text": "avoid"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Bypass review in case of emergency",
+      "sense_id": "bypass-review-in-case-of-emergency#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "bypass-review-in-case-of-emergency",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "bypass-review-in-case-of-emergency",
+  "observation_id": "db47d0c09c335e7f",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-24T00:33:56.049672+00:00",
+  "observed_text": "Bypass review in case of emergency",
+  "source_context_snippet": "Bypass review in case of emergency",
+  "source_file": ".github/workflows/emergency-review-bypass.yaml",
+  "source_repo": "bufbuild/protobuf-conformance",
+  "source_repo_description": "A repository running the Protobuf conformance tests against various libraries"
+}

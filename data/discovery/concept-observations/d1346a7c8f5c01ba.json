@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Implementation of paper - Reverse Chain: A Generic-Rule for LLMs to Master Multi-API Planning (https://arxiv.org/abs/2310.04474v2)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "langchain==0.0.342 openai==0.27.4 typing-inspect==0.8.0 typing_extensions==4.5.0"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "langchain==0.0.342 openai==0.27.4 typing-inspect==0.8.0 typing_extensions==4.5.0"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19878626,
+      "status": "candidate",
+      "text": "master of laws"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19878625,
+      "status": "candidate",
+      "text": "degree"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19876488,
+      "status": "candidate",
+      "text": "master"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19816857,
+      "status": "candidate",
+      "text": "bachelor"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9887600,
+      "status": "candidate",
+      "text": "licenciatura"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "llms",
+      "sense_id": "llms#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "llms",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "llms",
+  "observation_id": "d1346a7c8f5c01ba",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T00:33:56.049672+00:00",
+  "observed_text": "llms",
+  "source_context_snippet": "langchain==0.0.342 openai==0.27.4 typing-inspect==0.8.0 typing_extensions==4.5.0",
+  "source_file": null,
+  "source_repo": "ASK-03/Reverse-Chain",
+  "source_repo_description": "Implementation of paper - Reverse Chain: A Generic-Rule for LLMs to Master Multi-API Planning (https://arxiv.org/abs/2310.04474v2)"
+}

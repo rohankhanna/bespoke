@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "OffchainLabs/arbitrum",
+      "target": "offchainlabs/arbitrum-classic",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "OffchainLabs/arbitrum",
+      "target": "offchainlabs/arbitrum-sdk",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "OffchainLabs/arbitrum",
+      "target": "offchainlabs/arbitrum-docs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "OffchainLabs/arbitrum",
+      "target": "offchainlabs/arbitrum-tutorials",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-24T00:59:09.520681+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 994
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "OffchainLabs/arbitrum",
+    "html_url": "https://github.com/OffchainLabs/arbitrum",
+    "language": null,
+    "pushed_at": "2025-07-02T11:28:14Z",
+    "stargazers_count": 76,
+    "topics": [],
+    "updated_at": "2026-04-18T22:58:23Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "offchainlabs/arbitrum-classic",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "offchainlabs/arbitrum-docs",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "offchainlabs/arbitrum-sdk",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "offchainlabs/arbitrum-tutorials",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

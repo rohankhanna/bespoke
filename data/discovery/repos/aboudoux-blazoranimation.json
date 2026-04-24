@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aboudoux/BlazorAnimation",
+      "target": "daneden/animate.css",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-24T00:43:22.812995+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8131
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "a Blazor component based on animate.css to easly animate your content",
+    "fork": false,
+    "full_name": "aboudoux/BlazorAnimation",
+    "html_url": "https://github.com/aboudoux/BlazorAnimation",
+    "language": "C#",
+    "pushed_at": "2023-09-14T13:56:07Z",
+    "stargazers_count": 140,
+    "topics": [],
+    "updated_at": "2025-11-09T23:26:58Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "daneden/animate.css",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

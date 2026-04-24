@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Generate OpenAPI Specs"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "blockscout/blockscout",
+      "status": "candidate-context",
+      "text": "Blockchain explorer for Ethereum based network and a tool for inspecting and analyzing EVM based blockchains. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "blockscout/blockscout",
+      "status": "candidate-context",
+      "text": "Generate OpenAPI Specs"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "blockscout/blockscout",
+      "status": "candidate",
+      "text": "Generate OpenAPI Specs"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11566,
+      "status": "candidate",
+      "text": "custom"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11566,
+      "status": "candidate",
+      "text": "spec"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11206,
+      "status": "candidate",
+      "text": "age"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11206,
+      "status": "candidate",
+      "text": "americanize"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11206,
+      "status": "candidate",
+      "text": "apochromat"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Generate OpenAPI Specs",
+  "concept_id": "generate-openapi-specs",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/generate-swagger.yml",
+      "source_repo": "blockscout/blockscout"
+    }
+  ],
+  "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Generate OpenAPI Specs",
+      "sense_id": "generate-openapi-specs#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

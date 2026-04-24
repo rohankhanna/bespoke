@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Official repository for core projects comprising the Celo platform"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Protocol Foundry tests"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Protocol Foundry tests"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17981,
+      "status": "candidate",
+      "text": "printmaking"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17915,
+      "status": "candidate",
+      "text": "balloting"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17915,
+      "status": "candidate",
+      "text": "bell"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17915,
+      "status": "candidate",
+      "text": "block"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17915,
+      "status": "candidate",
+      "text": "chamber"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Protocol Foundry tests",
+      "sense_id": "protocol-foundry-tests#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "protocol-foundry-tests",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "protocol-foundry-tests",
+  "observation_id": "cffa6a294d887a64",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-24T00:33:56.049672+00:00",
+  "observed_text": "Protocol Foundry tests",
+  "source_context_snippet": "Protocol Foundry tests",
+  "source_file": ".github/workflows/protocol_tests.yml",
+  "source_repo": "celo-org/celo-monorepo",
+  "source_repo_description": "Official repository for core projects comprising the Celo platform"
+}

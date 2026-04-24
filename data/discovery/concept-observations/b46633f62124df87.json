@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Fast, minimal glob matcher for node.js. Similar to micromatch, minimatch and multimatch, but without support for extended globs (extglobs), posix brackets or braces, and with complete Bash 4.3 wildcard support: (\"*\", \"**\", and \"?\")."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "> Fast, minimal glob matcher for node.js. Similar to micromatch, minimatch and multimatch, but complete Bash 4.3 wildcard support only (no support for exglobs, posix brackets or braces)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "> Fast, minimal glob matcher for node.js. Similar to micromatch, minimatch and multimatch, but complete Bash 4.3 wildcard support only (no support for exglobs, posix brackets or braces)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39883614,
+      "status": "candidate",
+      "text": "stellar"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39868217,
+      "status": "candidate",
+      "text": "asterisk"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39805382,
+      "status": "candidate",
+      "text": "lead"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39732532,
+      "status": "candidate",
+      "text": "leading"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39722532,
+      "status": "candidate",
+      "text": "maven"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "star",
+      "sense_id": "star#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 70043,
+      "status": "candidate",
+      "text": "adept"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 39034,
+      "status": "candidate",
+      "text": "stellar"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 39031,
+      "status": "candidate",
+      "text": "maven"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 38093,
+      "status": "candidate",
+      "text": "lead"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 37041,
+      "status": "candidate",
+      "text": "virtuoso"
+    }
+  ],
+  "concept_id": "star",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "star",
+  "observation_id": "b46633f62124df87",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T00:33:56.049672+00:00",
+  "observed_text": "star",
+  "source_context_snippet": "> Fast, minimal glob matcher for node.js. Similar to micromatch, minimatch and multimatch, but complete Bash 4.3 wildcard support only (no support for exglobs, posix brackets or braces)",
+  "source_file": null,
+  "source_repo": "micromatch/nanomatch",
+  "source_repo_description": "Fast, minimal glob matcher for node.js. Similar to micromatch, minimatch and multimatch, but without support for extended globs (extglobs), posix brackets or braces, and with complete Bash 4.3 wildcard support: (\"*\", \"**\", and \"?\")."
+}

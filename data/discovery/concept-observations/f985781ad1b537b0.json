@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Zerocopy makes zero-cost memory manipulation effortless. We write `unsafe` so you don\u2019t have to."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<!-- Copyright 2024 The Fuchsia Authors"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<!-- Copyright 2024 The Fuchsia Authors"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "memory-safety",
+      "sense_id": "memory-safety#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "memory-safety",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "memory-safety",
+  "observation_id": "f985781ad1b537b0",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T00:33:56.049672+00:00",
+  "observed_text": "memory-safety",
+  "source_context_snippet": "<!-- Copyright 2024 The Fuchsia Authors",
+  "source_file": null,
+  "source_repo": "google/zerocopy",
+  "source_repo_description": "Zerocopy makes zero-cost memory manipulation effortless. We write `unsafe` so you don\u2019t have to."
+}

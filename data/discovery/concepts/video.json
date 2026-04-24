@@ -115,6 +115,30 @@
       "source_repo": "WebAV-Tech/WebAV",
       "status": "candidate-context",
       "text": "![GitHub commit activity](https://img.shields.io/github/commit-activity/m/WebAV-Tech/WebAV)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "MME-Benchmarks/Video-MME-v2",
+      "status": "candidate-context",
+      "text": "Video-MME-v2: Towards the Next Stage in Benchmarks for Comprehensive Video Understanding"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MME-Benchmarks/Video-MME-v2",
+      "status": "candidate-context",
+      "text": "[![Video-MME-v2-dataset](https://img.shields.io/badge/Dataset-Video--MME--v2-blue)](https://huggingface.co/datasets/MME-Benchmarks/Video-MME-v2)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "iejMac/video2dataset",
+      "status": "candidate-context",
+      "text": "Easily create large video dataset from video urls"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "iejMac/video2dataset",
+      "status": "candidate-context",
+      "text": "[![pypi](https://img.shields.io/pypi/v/video2dataset.svg)](https://pypi.python.org/pypi/video2dataset)"
     }
   ],
   "candidate_glosses": [
@@ -171,6 +195,18 @@
       "source_repo": "WebAV-Tech/WebAV",
       "status": "candidate",
       "text": "![GitHub commit activity](https://img.shields.io/github/commit-activity/m/WebAV-Tech/WebAV)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MME-Benchmarks/Video-MME-v2",
+      "status": "candidate",
+      "text": "[![Video-MME-v2-dataset](https://img.shields.io/badge/Dataset-Video--MME--v2-blue)](https://huggingface.co/datasets/MME-Benchmarks/Video-MME-v2)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "iejMac/video2dataset",
+      "status": "candidate",
+      "text": "[![pypi](https://img.shields.io/pypi/v/video2dataset.svg)](https://pypi.python.org/pypi/video2dataset)"
     }
   ],
   "candidate_related_terms": [
@@ -283,11 +319,29 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "WebAV-Tech/WebAV"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "MME-Benchmarks/Video-MME-v2"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "MME-Benchmarks/Video-MME"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "iejMac/video2dataset"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

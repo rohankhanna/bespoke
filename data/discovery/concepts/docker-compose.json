@@ -103,6 +103,30 @@
       "source_repo": "getumbrel/umbrel-lightning",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alexandreelise/frankenphp-joomla",
+      "status": "candidate-context",
+      "text": "Joomla on FrankenPHP"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alexandreelise/frankenphp-joomla",
+      "status": "candidate-context",
+      "text": "Run the popular [Joomla CMS](https://joomla.org) on top of [FrankenPHP](https://frankenphp.dev),"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dunglas/frankenphp-drupal",
+      "status": "candidate-context",
+      "text": "Drupal on FrankenPHP"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dunglas/frankenphp-drupal",
+      "status": "candidate-context",
+      "text": "Run the popular [Drupal CMS](https://drupal.org) on top of [FrankenPHP](https://frankenphp.dev),"
     }
   ],
   "candidate_glosses": [
@@ -153,6 +177,18 @@
       "source_repo": "getumbrel/umbrel-lightning",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alexandreelise/frankenphp-joomla",
+      "status": "candidate",
+      "text": "Run the popular [Joomla CMS](https://joomla.org) on top of [FrankenPHP](https://frankenphp.dev),"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dunglas/frankenphp-drupal",
+      "status": "candidate",
+      "text": "Run the popular [Drupal CMS](https://drupal.org) on top of [FrankenPHP](https://frankenphp.dev),"
     }
   ],
   "candidate_related_terms": [],
@@ -256,11 +292,23 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "docker-archive/compose-cli"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "alexandreelise/frankenphp-joomla"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "dunglas/frankenphp-drupal"
     }
   ],
   "first_seen_at": "2026-04-19T04:47:57.443742+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

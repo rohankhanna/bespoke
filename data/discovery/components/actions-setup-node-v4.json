@@ -1,7 +1,7 @@
 {
   "component": "actions/setup-node@v4",
   "first_seen_at": "2026-04-17T16:51:41.136432+00:00",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -3182,6 +3182,201 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/test-base.yml",
       "source_repo": "graphile/crystal"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/github-ci.yaml",
+      "source_repo": "plantain-00/type-coverage"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "Azure/bicep-extensibility"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "mcous/vitest-when"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ramsayleung/rspotify"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "redhat-developer/vscode-xml"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "redhat-developer/vscode-xml"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/nodejs.yml",
+      "source_repo": "eemeli/yaml"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/typescript.yml",
+      "source_repo": "eemeli/yaml"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "aviggiano/redis-roaring"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/_build_rust_artifacts.yml",
+      "source_repo": "apache/iggy"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/_common.yml",
+      "source_repo": "apache/iggy"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "markdown-it/markdown-it-abbr"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/npm-publish.yml",
+      "source_repo": "newrelic/csec-node-agent"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci-workflow.yml",
+      "source_repo": "newrelic/newrelic-node-apollo-server-plugin"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci-workflow.yml",
+      "source_repo": "newrelic/newrelic-node-examples"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci-workflow.yml",
+      "source_repo": "newrelic/node-native-metrics"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/create-release.yml",
+      "source_repo": "newrelic/node-native-metrics"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test_suite.yml",
+      "source_repo": "Meteor-Community-Packages/meteor-scss"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml",
+      "source_repo": "vuejs/vue-eslint-parser"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/Release.yml",
+      "source_repo": "vuejs/vue-eslint-parser"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-test.yml",
+      "source_repo": "preactjs/preact"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/run-bench.yml",
+      "source_repo": "preactjs/preact"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/size.yml",
+      "source_repo": "preactjs/preact"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "nicolo-ribaudo/engine262"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "nicolo-ribaudo/engine262"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "microsoft/node-pty"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "thejoshwolfe/yauzl"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/website.yml",
+      "source_repo": "igorlfs/nvim-dap-view"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/protocol-devchain-anvil.yml",
+      "source_repo": "celo-org/celo-monorepo"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/protocol-devchain.yml",
+      "source_repo": "celo-org/celo-monorepo"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish-contracts-abi-release.yml",
+      "source_repo": "celo-org/celo-monorepo"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "redis/node-redis"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "json-schema-org/json-schema-spec"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/consitency-checks.yml",
+      "source_repo": "Azure/autorest"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/prepare-auto-release-branch.yml",
+      "source_repo": "Azure/autorest"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/copilot-setup-steps.yml",
+      "source_repo": "Azure/azure-sdk-for-js"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "stx-labs/stacks.js"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "stx-labs/stacks.js"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/workflow.yml",
+      "source_repo": "alexmojaki/birdseye"
     }
   ]
 }

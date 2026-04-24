@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "drupal"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dunglas/frankenphp-drupal",
+      "status": "candidate-context",
+      "text": "Drupal on FrankenPHP"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dunglas/frankenphp-drupal",
+      "status": "candidate-context",
+      "text": "Run the popular [Drupal CMS](https://drupal.org) on top of [FrankenPHP](https://frankenphp.dev),"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dunglas/frankenphp-drupal",
+      "status": "candidate",
+      "text": "Run the popular [Drupal CMS](https://drupal.org) on top of [FrankenPHP](https://frankenphp.dev),"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10013527,
+      "status": "candidate",
+      "text": "subdrupaceous"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10013526,
+      "status": "candidate",
+      "text": "diandrian"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10013525,
+      "status": "candidate",
+      "text": "pyrenous"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10013524,
+      "status": "candidate",
+      "text": "dactyliferous"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10013523,
+      "status": "candidate",
+      "text": "carduaceous"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "drupal",
+  "concept_id": "drupal",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "dunglas/frankenphp-drupal"
+    }
+  ],
+  "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "drupal",
+      "sense_id": "drupal#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

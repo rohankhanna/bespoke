@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "hypervisor"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Solo5/solo5",
+      "status": "candidate-context",
+      "text": "A sandboxed execution environment for unikernels"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Solo5/solo5",
+      "status": "candidate-context",
+      "text": "| ___|"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Solo5/solo5",
+      "status": "candidate",
+      "text": "| ___|"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20023522,
+      "status": "candidate",
+      "text": "virtualizer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20023521,
+      "status": "candidate",
+      "text": "storage hypervisor"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20023520,
+      "status": "candidate",
+      "text": "virtual machine"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20023519,
+      "status": "candidate",
+      "text": "virtual machine monitor"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20023518,
+      "status": "candidate",
+      "text": "virtualization"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "hypervisor",
+  "concept_id": "hypervisor",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "Solo5/solo5"
+    }
+  ],
+  "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "hypervisor",
+      "sense_id": "hypervisor#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Generate your project's readme with verb. Requires verb v0.9.0 or higher."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "verb-generate-readme \u2014 Generate your project's readme with verb. Requires verb v0.9.0 or higher."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "verb-generate-readme \u2014 Generate your project's readme with verb. Requires verb v0.9.0 or higher."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30043449,
+      "status": "candidate",
+      "text": "wording"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30041165,
+      "status": "candidate",
+      "text": "expression"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30039856,
+      "status": "candidate",
+      "text": "word"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30025763,
+      "status": "candidate",
+      "text": "reaction"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30010122,
+      "status": "candidate",
+      "text": "figure"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "verb",
+      "sense_id": "verb#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "verb",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "verb",
+  "observation_id": "375dd4aefd701984",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T00:33:56.049672+00:00",
+  "observed_text": "verb",
+  "source_context_snippet": "verb-generate-readme \u2014 Generate your project's readme with verb. Requires verb v0.9.0 or higher.",
+  "source_file": null,
+  "source_repo": "verbose/verb-generate-readme",
+  "source_repo_description": "Generate your project's readme with verb. Requires verb v0.9.0 or higher."
+}

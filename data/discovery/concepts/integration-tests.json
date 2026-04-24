@@ -227,6 +227,30 @@
       "source_repo": "thinking-machines-lab/tinker-cookbook",
       "status": "candidate-context",
       "text": "integration-tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tailwindlabs/tailwindcss",
+      "status": "candidate-context",
+      "text": "A utility-first CSS framework for rapid UI development."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tailwindlabs/tailwindcss",
+      "status": "candidate-context",
+      "text": "Integration Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "celery/celery",
+      "status": "candidate-context",
+      "text": "Distributed Task Queue (development branch)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "celery/celery",
+      "status": "candidate-context",
+      "text": "Integration Tests"
     }
   ],
   "candidate_glosses": [
@@ -337,6 +361,18 @@
       "source_repo": "thinking-machines-lab/tinker-cookbook",
       "status": "candidate",
       "text": "integration-tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tailwindlabs/tailwindcss",
+      "status": "candidate",
+      "text": "Integration Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "celery/celery",
+      "status": "candidate",
+      "text": "Integration Tests"
     }
   ],
   "candidate_related_terms": [
@@ -518,11 +554,23 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": ".github/workflows/integration-tests.yaml",
       "source_repo": "thinking-machines-lab/tinker-cookbook"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/integration-tests.yml",
+      "source_repo": "tailwindlabs/tailwindcss"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/integration-tests.yml",
+      "source_repo": "celery/celery"
     }
   ],
   "first_seen_at": "2026-04-18T12:06:06.216548+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

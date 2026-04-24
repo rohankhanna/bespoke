@@ -1,0 +1,73 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "WojciechMula/toys",
+      "target": "avx2",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "WojciechMula/toys",
+      "target": "avx512",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "WojciechMula/toys",
+      "target": "string-algorithms",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T02:00:56.413501+00:00",
+  "fetched_files": [
+    {
+      "path": "README.rst",
+      "size": 357
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Storage for my snippets, toy programs, etc.",
+    "fork": false,
+    "full_name": "WojciechMula/toys",
+    "html_url": "https://github.com/WojciechMula/toys",
+    "language": "C++",
+    "pushed_at": "2026-04-08T08:05:34Z",
+    "stargazers_count": 375,
+    "topics": [
+      "avx2",
+      "avx512",
+      "sse",
+      "string-algorithms"
+    ],
+    "updated_at": "2026-04-08T08:05:43Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "========================================================================",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "avx2"
+    },
+    {
+      "context_snippet": "========================================================================",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "avx512"
+    },
+    {
+      "context_snippet": "========================================================================",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "string-algorithms"
+    }
+  ]
+}

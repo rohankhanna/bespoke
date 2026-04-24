@@ -235,6 +235,42 @@
       "source_repo": "ChristopherHX/runner.server",
       "status": "candidate-context",
       "text": "[![Runner CI](https://github.com/ChristopherHX/runner.server/actions/workflows/build.yml/badge.svg)](https://github.com/ChristopherHX/runner.server/actions/workflows/build.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alexandreelise/frankenphp-joomla",
+      "status": "candidate-context",
+      "text": "Joomla on FrankenPHP"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alexandreelise/frankenphp-joomla",
+      "status": "candidate-context",
+      "text": "Run the popular [Joomla CMS](https://joomla.org) on top of [FrankenPHP](https://frankenphp.dev),"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "getsentry/sentry",
+      "status": "candidate-context",
+      "text": "Developer-first error tracking and performance monitoring"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "getsentry/sentry",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "akuity/awesome-argo",
+      "status": "candidate-context",
+      "text": "A curated list of awesome projects and resources related to Argo (a CNCF graduated project)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "akuity/awesome-argo",
+      "status": "candidate-context",
+      "text": "[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/akuity/awesome-argo) [![Slack](https://img.shields.io/badge/slack-argoproj-brightgreen.svg?logo=slack)](https://argoproj.github.io/community/join\u2026"
     }
   ],
   "candidate_glosses": [
@@ -351,6 +387,24 @@
       "source_repo": "ChristopherHX/runner.server",
       "status": "candidate",
       "text": "[![Runner CI](https://github.com/ChristopherHX/runner.server/actions/workflows/build.yml/badge.svg)](https://github.com/ChristopherHX/runner.server/actions/workflows/build.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alexandreelise/frankenphp-joomla",
+      "status": "candidate",
+      "text": "Run the popular [Joomla CMS](https://joomla.org) on top of [FrankenPHP](https://frankenphp.dev),"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "getsentry/sentry",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "akuity/awesome-argo",
+      "status": "candidate",
+      "text": "[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/akuity/awesome-argo) [![Slack](https://img.shields.io/badge/slack-argoproj-brightgreen.svg?logo=slack)](https://argoproj.github.io/community/join\u2026"
     }
   ],
   "candidate_related_terms": [
@@ -501,11 +555,29 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "ChristopherHX/runner.server"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "alexandreelise/frankenphp-joomla"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "getsentry/sentry"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "akuity/awesome-argo"
     }
   ],
   "first_seen_at": "2026-04-18T18:48:44.679047+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

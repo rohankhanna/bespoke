@@ -19,12 +19,60 @@
       "source_repo": "newrelic/node-newrelic",
       "status": "candidate-context",
       "text": "Auto Assign to Project(s)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "newrelic/newrelic-node-apollo-server-plugin",
+      "status": "candidate-context",
+      "text": "Auto Assign to Project(s)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "newrelic/newrelic-node-examples",
+      "status": "candidate-context",
+      "text": "Working examples of New Relic Node.js agent features"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "newrelic/newrelic-node-examples",
+      "status": "candidate-context",
+      "text": "Auto Assign to Project(s)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "newrelic/node-native-metrics",
+      "status": "candidate-context",
+      "text": "Optional native module for collecting low-level Node & V8 metrics"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "newrelic/node-native-metrics",
+      "status": "candidate-context",
+      "text": "Auto Assign to Project(s)"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "newrelic/node-newrelic",
+      "status": "candidate",
+      "text": "Auto Assign to Project(s)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "newrelic/newrelic-node-apollo-server-plugin",
+      "status": "candidate",
+      "text": "Auto Assign to Project(s)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "newrelic/newrelic-node-examples",
+      "status": "candidate",
+      "text": "Auto Assign to Project(s)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "newrelic/node-native-metrics",
       "status": "candidate",
       "text": "Auto Assign to Project(s)"
     }
@@ -76,11 +124,29 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": ".github/workflows/add-to-board.yml",
       "source_repo": "newrelic/node-newrelic"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/add-to-board.yml",
+      "source_repo": "newrelic/newrelic-node-apollo-server-plugin"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/add-to-board.yml",
+      "source_repo": "newrelic/newrelic-node-examples"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/add-to-board.yml",
+      "source_repo": "newrelic/node-native-metrics"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,143 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-deploy.yml"
+    },
+    {
+      "component": "actions-rs/toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-deploy.yml"
+    },
+    {
+      "component": "actions-rs/cargo@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-deploy.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "sonhal/wasm-oauth-filter",
+      "target": "proxy-wasm/spec",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-deploy.yml",
+      "source_repo": "sonhal/wasm-oauth-filter",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-deploy.yml",
+      "source_repo": "sonhal/wasm-oauth-filter",
+      "target": "actions-rs/toolchain@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-deploy.yml",
+      "source_repo": "sonhal/wasm-oauth-filter",
+      "target": "actions-rs/cargo@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-deploy.yml",
+      "source_repo": "sonhal/wasm-oauth-filter",
+      "target": "build-deploy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sonhal/wasm-oauth-filter",
+      "target": "envoy-filter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sonhal/wasm-oauth-filter",
+      "target": "filter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sonhal/wasm-oauth-filter",
+      "target": "wasm",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T00:53:24.334950+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3051
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 778
+    },
+    {
+      "path": ".github/workflows/build-deploy.yml",
+      "size": 1045
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A OpenID Connect and OAuth 2.0 WebAssembly proxy filter.",
+    "fork": false,
+    "full_name": "sonhal/wasm-oauth-filter",
+    "html_url": "https://github.com/sonhal/wasm-oauth-filter",
+    "language": "Rust",
+    "pushed_at": "2021-09-01T20:42:40Z",
+    "stargazers_count": 16,
+    "topics": [
+      "envoy-filter",
+      "filter",
+      "wasm"
+    ],
+    "updated_at": "2026-02-23T11:42:14Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "proxy-wasm/spec",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "build-deploy",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-deploy.yml",
+      "term": "build-deploy"
+    },
+    {
+      "context_snippet": "![Workflow badge](https://github.com/sonhal/wasm-oauth-filter/actions/workflows/build-deploy.yml/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "envoy-filter"
+    },
+    {
+      "context_snippet": "![Workflow badge](https://github.com/sonhal/wasm-oauth-filter/actions/workflows/build-deploy.yml/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "filter"
+    },
+    {
+      "context_snippet": "![Workflow badge](https://github.com/sonhal/wasm-oauth-filter/actions/workflows/build-deploy.yml/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "wasm"
+    }
+  ]
+}

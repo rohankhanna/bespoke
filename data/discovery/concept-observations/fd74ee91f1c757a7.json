@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Collection of applications based on a single C# .NET Standard project running in:  Blazor Client (WebAssembly), Blazor Server, Electron, WPF, WinForms, Maui, WinUI3"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Collection of applications based on a single C# .NET Standard project running in: Blazor Client (WebAssembly), Blazor Server, Electron, WPF, WinForms, Maui, WinUI3"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Collection of applications based on a single C# .NET Standard project running in: Blazor Client (WebAssembly), Blazor Server, Electron, WPF, WinForms, Maui, WinUI3"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9720964,
+      "status": "candidate",
+      "text": "angulate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9716111,
+      "status": "candidate",
+      "text": "angular"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9713585,
+      "status": "candidate",
+      "text": "minor planet"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9709576,
+      "status": "candidate",
+      "text": "planetoid"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 51367,
+      "status": "candidate",
+      "text": "star-shaped"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "asteroids",
+      "sense_id": "asteroids#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "asteroids",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "asteroids",
+  "observation_id": "fd74ee91f1c757a7",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T00:33:56.049672+00:00",
+  "observed_text": "asteroids",
+  "source_context_snippet": "Collection of applications based on a single C# .NET Standard project running in: Blazor Client (WebAssembly), Blazor Server, Electron, WPF, WinForms, Maui, WinUI3",
+  "source_file": null,
+  "source_repo": "aesalazar/AsteroidsWasm",
+  "source_repo_description": "Collection of applications based on a single C# .NET Standard project running in:  Blazor Client (WebAssembly), Blazor Server, Electron, WPF, WinForms, Maui, WinUI3"
+}

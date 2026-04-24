@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A simple and fast package manager for the Fish shell written in Rust. \ud83d\udce6"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "> A simple and fast package manager for the [Fish Shell](https://fishshell.com/) written in [Rust](https://www.rust-lang.org/). \ud83d\udc20"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "> A simple and fast package manager for the [Fish Shell](https://fishshell.com/) written in [Rust](https://www.rust-lang.org/). \ud83d\udc20"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "package-manager",
+      "sense_id": "package-manager#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "package-manager",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "package-manager",
+  "observation_id": "bbc5ba8ca10de2c1",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T00:33:56.049672+00:00",
+  "observed_text": "package-manager",
+  "source_context_snippet": "> A simple and fast package manager for the [Fish Shell](https://fishshell.com/) written in [Rust](https://www.rust-lang.org/). \ud83d\udc20",
+  "source_file": null,
+  "source_repo": "joseluisq/paket",
+  "source_repo_description": "A simple and fast package manager for the Fish shell written in Rust. \ud83d\udce6"
+}

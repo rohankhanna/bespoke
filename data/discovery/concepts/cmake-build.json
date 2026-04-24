@@ -32,6 +32,18 @@
       "source_repo": "bdwgc/bdwgc",
       "status": "candidate-context",
       "text": "cmake build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bdwgc/libatomic_ops",
+      "status": "candidate-context",
+      "text": "The atomic_ops project (Atomic memory update operations portable implementation)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bdwgc/libatomic_ops",
+      "status": "candidate-context",
+      "text": "cmake build"
     }
   ],
   "candidate_glosses": [
@@ -44,6 +56,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "bdwgc/bdwgc",
+      "status": "candidate",
+      "text": "cmake build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bdwgc/libatomic_ops",
       "status": "candidate",
       "text": "cmake build"
     }
@@ -101,11 +119,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": ".github/workflows/cmake-build.yml",
       "source_repo": "bdwgc/bdwgc"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/cmake-build.yml",
+      "source_repo": "bdwgc/libatomic_ops"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

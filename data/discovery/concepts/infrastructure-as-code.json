@@ -103,6 +103,30 @@
       "source_repo": "antonbabenko/serverless.tf",
       "status": "candidate-context",
       "text": "This repository / _[serverless.tf framework](https://serverless.tf)_ aims to provide information, solutions, and tools for building, deploying, and managing serverless applications and infrastructure using [Terraform](https://www.terraform.io/)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vmware-archive/kubecfg",
+      "status": "candidate-context",
+      "text": "A tool for managing complex enterprise Kubernetes environments as code."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vmware-archive/kubecfg",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://app.travis-ci.com/bitnami/kubecfg.svg?branch=main)](https://app.travis-ci.com/github/bitnami/kubecfg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "akuity/awesome-argo",
+      "status": "candidate-context",
+      "text": "A curated list of awesome projects and resources related to Argo (a CNCF graduated project)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "akuity/awesome-argo",
+      "status": "candidate-context",
+      "text": "[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/akuity/awesome-argo) [![Slack](https://img.shields.io/badge/slack-argoproj-brightgreen.svg?logo=slack)](https://argoproj.github.io/community/join\u2026"
     }
   ],
   "candidate_glosses": [
@@ -153,6 +177,18 @@
       "source_repo": "antonbabenko/serverless.tf",
       "status": "candidate",
       "text": "This repository / _[serverless.tf framework](https://serverless.tf)_ aims to provide information, solutions, and tools for building, deploying, and managing serverless applications and infrastructure using [Terraform](https://www.terraform.io/)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vmware-archive/kubecfg",
+      "status": "candidate",
+      "text": "[![Build Status](https://app.travis-ci.com/bitnami/kubecfg.svg?branch=main)](https://app.travis-ci.com/github/bitnami/kubecfg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "akuity/awesome-argo",
+      "status": "candidate",
+      "text": "[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/akuity/awesome-argo) [![Slack](https://img.shields.io/badge/slack-argoproj-brightgreen.svg?logo=slack)](https://argoproj.github.io/community/join\u2026"
     }
   ],
   "candidate_related_terms": [],
@@ -208,11 +244,23 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "antonbabenko/serverless.tf"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "vmware-archive/kubecfg"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "akuity/awesome-argo"
     }
   ],
   "first_seen_at": "2026-04-22T04:41:58.081535+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

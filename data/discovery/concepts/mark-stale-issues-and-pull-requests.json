@@ -217,6 +217,18 @@
       "source_repo": "webtorrent/webtorrent-cli",
       "status": "candidate-context",
       "text": "Mark stale issues and pull requests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dmlc/dgl",
+      "status": "candidate-context",
+      "text": "Python package built to ease deep learning on graph, on top of existing DL frameworks."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dmlc/dgl",
+      "status": "candidate-context",
+      "text": "Mark stale issues and pull requests"
     }
   ],
   "candidate_glosses": [
@@ -325,6 +337,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "webtorrent/webtorrent-cli",
+      "status": "candidate",
+      "text": "Mark stale issues and pull requests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dmlc/dgl",
       "status": "candidate",
       "text": "Mark stale issues and pull requests"
     }
@@ -490,11 +508,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": ".github/workflows/stale.yml",
       "source_repo": "webtorrent/webtorrent-cli"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "dmlc/dgl"
     }
   ],
   "first_seen_at": "2026-04-18T18:48:44.679047+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,70 @@
+{
+  "components": [
+    {
+      "component": "@alrra/travis-scripts",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "ecmarkup",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tc39/proposal-numeric-separator",
+      "target": "tdd/proposal-numeric-underscores",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "tc39/proposal-numeric-separator",
+      "target": "@alrra/travis-scripts",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "tc39/proposal-numeric-separator",
+      "target": "ecmarkup",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-24T01:39:30.248789+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9840
+    },
+    {
+      "path": "package.json",
+      "size": 273
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "A proposal to add numeric literal separators in JavaScript. ",
+    "fork": false,
+    "full_name": "tc39/proposal-numeric-separator",
+    "html_url": "https://github.com/tc39/proposal-numeric-separator",
+    "language": "HTML",
+    "pushed_at": "2021-07-16T15:18:56Z",
+    "stargazers_count": 332,
+    "topics": [],
+    "updated_at": "2026-03-03T05:30:43Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tdd/proposal-numeric-underscores",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

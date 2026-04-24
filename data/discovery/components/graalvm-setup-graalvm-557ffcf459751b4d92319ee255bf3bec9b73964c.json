@@ -1,0 +1,22 @@
+{
+  "component": "graalvm/setup-graalvm@557ffcf459751b4d92319ee255bf3bec9b73964c",
+  "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/native-image.yaml",
+      "source_repo": "redhat-developer/vscode-xml"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/smoke-test-windows.yaml",
+      "source_repo": "redhat-developer/vscode-xml"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/smoke-test.yaml",
+      "source_repo": "redhat-developer/vscode-xml"
+    }
+  ]
+}

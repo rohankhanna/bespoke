@@ -1,0 +1,17 @@
+{
+  "component": "step-security/changed-files@3dbe17c78367e7d60f00d78ae6781a35be47b4a1",
+  "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/celo-monorepo.yml",
+      "source_repo": "celo-org/celo-monorepo"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/containers.yaml",
+      "source_repo": "celo-org/celo-monorepo"
+    }
+  ]
+}

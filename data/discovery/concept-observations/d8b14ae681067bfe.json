@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Encode/decode/info to KTX/KTX2/DDS files with LDR/HDR and BC/ASTC/ETC2.  Mac/Win C++11 too, Mac viewer, and scripts for batch processing textures."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "The suite of kram tools below. I hope these improve your game, app, and art development."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "The suite of kram tools below. I hope these improve your game, app, and art development."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "astc",
+      "sense_id": "astc#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "astc",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "astc",
+  "observation_id": "d8b14ae681067bfe",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T00:33:56.049672+00:00",
+  "observed_text": "astc",
+  "source_context_snippet": "The suite of kram tools below. I hope these improve your game, app, and art development.",
+  "source_file": null,
+  "source_repo": "alecazam/kram",
+  "source_repo_description": "Encode/decode/info to KTX/KTX2/DDS files with LDR/HDR and BC/ASTC/ETC2.  Mac/Win C++11 too, Mac viewer, and scripts for batch processing textures."
+}

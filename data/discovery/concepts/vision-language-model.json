@@ -91,6 +91,54 @@
       "source_repo": "AIDC-AI/Parrot",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "psunlpgroup/VisOnlyQA",
+      "status": "candidate-context",
+      "text": "This repository contains the code and data for the paper \"VisOnlyQA: Large Vision Language Models Still Struggle with Visual Perception of Geometric Information\" (COLM 2025)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "psunlpgroup/VisOnlyQA",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "PKU-YuanGroup/Chat-UniVi",
+      "status": "candidate-context",
+      "text": "[CVPR 2024 Highlight\ud83d\udd25] Chat-UniVi: Unified Visual Representation Empowers Large Language Models with Image and Video Understanding"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PKU-YuanGroup/Chat-UniVi",
+      "status": "candidate-context",
+      "text": "<div align=center>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "QwenLM/Qwen-VL",
+      "status": "candidate-context",
+      "text": "The official repo of Qwen-VL (\u901a\u4e49\u5343\u95ee-VL) chat & pretrained large vision language model proposed by Alibaba Cloud."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "QwenLM/Qwen-VL",
+      "status": "candidate-context",
+      "text": "<p align=\"left\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "shikiw/OPERA",
+      "status": "candidate-context",
+      "text": "[CVPR 2024 Highlight] OPERA: Alleviating Hallucination in Multi-Modal Large Language Models via Over-Trust Penalty and Retrospection-Allocation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "shikiw/OPERA",
+      "status": "candidate-context",
+      "text": "[![License: MIT](https://img.shields.io/badge/License-MIT-g.svg)](https://opensource.org/licenses/MIT)"
     }
   ],
   "candidate_glosses": [
@@ -135,6 +183,30 @@
       "source_repo": "AIDC-AI/Parrot",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "psunlpgroup/VisOnlyQA",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PKU-YuanGroup/Chat-UniVi",
+      "status": "candidate",
+      "text": "<div align=center>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "QwenLM/Qwen-VL",
+      "status": "candidate",
+      "text": "<p align=\"left\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "shikiw/OPERA",
+      "status": "candidate",
+      "text": "[![License: MIT](https://img.shields.io/badge/License-MIT-g.svg)](https://opensource.org/licenses/MIT)"
     }
   ],
   "candidate_related_terms": [],
@@ -184,11 +256,35 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "AIDC-AI/Parrot"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "psunlpgroup/VisOnlyQA"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "PKU-YuanGroup/Chat-UniVi"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "QwenLM/Qwen-VL"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "shikiw/OPERA"
     }
   ],
   "first_seen_at": "2026-04-18T18:30:26.389736+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

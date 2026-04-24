@@ -94,6 +94,30 @@
       "source_repo": "argoproj/argo-cd",
       "status": "candidate-context",
       "text": "**Releases:**"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Rigellute/spotify-tui",
+      "status": "candidate-context",
+      "text": "Spotify for the terminal written in Rust \ud83d\ude80"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Rigellute/spotify-tui",
+      "status": "candidate-context",
+      "text": "Continuous Deployment"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "orhun/git-cliff",
+      "status": "candidate-context",
+      "text": "A highly customizable Changelog Generator that follows Conventional Commit specifications \u26f0\ufe0f "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "orhun/git-cliff",
+      "status": "candidate-context",
+      "text": "Continuous Deployment"
     }
   ],
   "candidate_glosses": [
@@ -138,6 +162,18 @@
       "source_repo": "argoproj/argo-cd",
       "status": "candidate",
       "text": "**Releases:**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Rigellute/spotify-tui",
+      "status": "candidate",
+      "text": "Continuous Deployment"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "orhun/git-cliff",
+      "status": "candidate",
+      "text": "Continuous Deployment"
     }
   ],
   "candidate_related_terms": [
@@ -216,11 +252,23 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "argoproj/argo-cd"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/cd.yml",
+      "source_repo": "Rigellute/spotify-tui"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/cd.yml",
+      "source_repo": "orhun/git-cliff"
     }
   ],
   "first_seen_at": "2026-04-19T17:36:09.281008+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

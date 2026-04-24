@@ -1,0 +1,69 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "justinpinkney/stable-diffusion",
+      "target": "pesser/stable-diffusion",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "justinpinkney/stable-diffusion",
+      "target": "lambdalabsml/examples",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "requirements.txt",
+      "source_repo": "justinpinkney/stable-diffusion",
+      "target": "justinpinkney/nomi",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-24T02:01:34.555591+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4954
+    },
+    {
+      "path": "requirements.txt",
+      "size": 687
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": true,
+    "full_name": "justinpinkney/stable-diffusion",
+    "html_url": "https://github.com/justinpinkney/stable-diffusion",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2024-01-18T21:36:17Z",
+    "stargazers_count": 1476,
+    "topics": [],
+    "updated_at": "2026-04-11T16:54:13Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lambdalabsml/examples",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pesser/stable-diffusion",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "justinpinkney/nomi",
+      "source_file": "requirements.txt"
+    }
+  ],
+  "terms": []
+}

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Keep pre-commit hooks up to date"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google/yapf",
+      "status": "candidate-context",
+      "text": "A formatter for Python files"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/yapf",
+      "status": "candidate-context",
+      "text": "Keep pre-commit hooks up to date"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/yapf",
+      "status": "candidate",
+      "text": "Keep pre-commit hooks up to date"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 56055,
+      "status": "candidate",
+      "text": "stand"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 55853,
+      "status": "candidate",
+      "text": "troglodyte"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 45806,
+      "status": "candidate",
+      "text": "meet"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 45047,
+      "status": "candidate",
+      "text": "hang"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 43655,
+      "status": "candidate",
+      "text": "update"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Keep pre-commit hooks up to date",
+  "concept_id": "keep-pre-commit-hooks-up-to-date",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/pre-commit-autoupdate.yml",
+      "source_repo": "google/yapf"
+    }
+  ],
+  "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Keep pre-commit hooks up to date",
+      "sense_id": "keep-pre-commit-hooks-up-to-date#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

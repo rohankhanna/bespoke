@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "llbuild"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "swiftlang/swift-llbuild",
+      "status": "candidate-context",
+      "text": "A low-level build system, used by Xcode and the Swift Package Manager"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "swiftlang/swift-llbuild",
+      "status": "candidate-context",
+      "text": "llbuild"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "swiftlang/swift-llbuild",
+      "status": "candidate",
+      "text": "llbuild"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "llbuild",
+  "concept_id": "llbuild",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "swiftlang/swift-llbuild"
+    }
+  ],
+  "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "llbuild",
+      "sense_id": "llbuild#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

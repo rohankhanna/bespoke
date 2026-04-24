@@ -1,0 +1,81 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bored-engineer/httpcache",
+      "target": "peterbourgon/diskv",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bored-engineer/httpcache",
+      "target": "die-net/lrucache",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bored-engineer/httpcache",
+      "target": "birkelund/boltdbcache",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bored-engineer/httpcache",
+      "target": "coreos/bbolt",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-24T01:50:24.089698+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2344
+    },
+    {
+      "path": "go.mod",
+      "size": 1157
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A Transport for http.Client that will cache responses according to the HTTP RFC",
+    "fork": true,
+    "full_name": "bored-engineer/httpcache",
+    "html_url": "https://github.com/bored-engineer/httpcache",
+    "language": "Go",
+    "pushed_at": "2024-08-27T19:37:55Z",
+    "stargazers_count": 1,
+    "topics": [],
+    "updated_at": "2025-03-19T20:57:19Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "birkelund/boltdbcache",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "coreos/bbolt",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "die-net/lrucache",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "peterbourgon/diskv",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

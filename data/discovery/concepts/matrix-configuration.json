@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Matrix configuration"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "status-im/nimbus-eth1",
+      "status": "candidate-context",
+      "text": "Nimbus: an Ethereum Execution Client for Resource-Restricted Devices"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "status-im/nimbus-eth1",
+      "status": "candidate-context",
+      "text": "Matrix configuration"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "status-im/nimbus-eth1",
+      "status": "candidate",
+      "text": "Matrix configuration"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11636,
+      "status": "candidate",
+      "text": "plan"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10600,
+      "status": "candidate",
+      "text": "array"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10600,
+      "status": "candidate",
+      "text": "arrayed"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10600,
+      "status": "candidate",
+      "text": "bed"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10600,
+      "status": "candidate",
+      "text": "bef"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Matrix configuration",
+  "concept_id": "matrix-configuration",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/matrix_config.yml",
+      "source_repo": "status-im/nimbus-eth1"
+    }
+  ],
+  "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Matrix configuration",
+      "sense_id": "matrix-configuration#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

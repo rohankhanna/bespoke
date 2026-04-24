@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-24T01:54:00.544681+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8425
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Questions and principles for designing Web features with permissions and asking for permissions on the Web",
+    "fork": false,
+    "full_name": "w3c/adding-permissions",
+    "html_url": "https://github.com/w3c/adding-permissions",
+    "language": null,
+    "pushed_at": "2024-12-03T21:16:15Z",
+    "stargazers_count": 6,
+    "topics": [],
+    "updated_at": "2024-12-03T21:16:18Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

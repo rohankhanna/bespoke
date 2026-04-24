@@ -1,0 +1,114 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "karb94/neoscroll.nvim",
+      "target": "psliwka/vim-smoothie",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "karb94/neoscroll.nvim",
+      "target": "neovim",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "karb94/neoscroll.nvim",
+      "target": "neovim-lua",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "karb94/neoscroll.nvim",
+      "target": "neovim-plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "karb94/neoscroll.nvim",
+      "target": "neovim-plugins",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "karb94/neoscroll.nvim",
+      "target": "scrolling",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T00:45:24.703401+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7838
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Smooth scrolling neovim plugin written in lua",
+    "fork": false,
+    "full_name": "karb94/neoscroll.nvim",
+    "html_url": "https://github.com/karb94/neoscroll.nvim",
+    "language": "Lua",
+    "pushed_at": "2025-12-31T20:14:31Z",
+    "stargazers_count": 2011,
+    "topics": [
+      "lua",
+      "neovim",
+      "neovim-lua",
+      "neovim-plugin",
+      "neovim-plugins",
+      "scrolling"
+    ],
+    "updated_at": "2026-04-23T17:51:47Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "psliwka/vim-smoothie",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "https://user-images.githubusercontent.com/41967813/121818668-7b36c800-cc80-11eb-8c3a-45a4767b8f05.mp4",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neovim"
+    },
+    {
+      "context_snippet": "https://user-images.githubusercontent.com/41967813/121818668-7b36c800-cc80-11eb-8c3a-45a4767b8f05.mp4",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neovim-lua"
+    },
+    {
+      "context_snippet": "https://user-images.githubusercontent.com/41967813/121818668-7b36c800-cc80-11eb-8c3a-45a4767b8f05.mp4",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neovim-plugin"
+    },
+    {
+      "context_snippet": "https://user-images.githubusercontent.com/41967813/121818668-7b36c800-cc80-11eb-8c3a-45a4767b8f05.mp4",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neovim-plugins"
+    },
+    {
+      "context_snippet": "https://user-images.githubusercontent.com/41967813/121818668-7b36c800-cc80-11eb-8c3a-45a4767b8f05.mp4",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "scrolling"
+    }
+  ]
+}

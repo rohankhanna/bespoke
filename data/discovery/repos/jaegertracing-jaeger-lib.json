@@ -1,0 +1,108 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unit-tests.yml"
+    },
+    {
+      "component": "actions/setup-go@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unit-tests.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unit-tests.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jaegertracing/jaeger-lib",
+      "target": "jaegertracing/jaeger",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jaegertracing/jaeger-lib",
+      "target": "uber/jaeger-client-go",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unit-tests.yml",
+      "source_repo": "jaegertracing/jaeger-lib",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unit-tests.yml",
+      "source_repo": "jaegertracing/jaeger-lib",
+      "target": "actions/setup-go@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unit-tests.yml",
+      "source_repo": "jaegertracing/jaeger-lib",
+      "target": "codecov/codecov-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/unit-tests.yml",
+      "source_repo": "jaegertracing/jaeger-lib",
+      "target": "Unit Tests",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T01:50:01.473058+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1185
+    },
+    {
+      "path": ".github/workflows/unit-tests.yml",
+      "size": 1086
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "A collection of shared infrastructure libraries used by different components of Jaeger.",
+    "fork": false,
+    "full_name": "jaegertracing/jaeger-lib",
+    "html_url": "https://github.com/jaegertracing/jaeger-lib",
+    "language": "Go",
+    "pushed_at": "2025-08-17T15:30:59Z",
+    "stargazers_count": 67,
+    "topics": [],
+    "updated_at": "2025-08-17T15:31:16Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jaegertracing/jaeger",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "uber/jaeger-client-go",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "\"Unit Tests\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/unit-tests.yml",
+      "term": "Unit Tests"
+    }
+  ]
+}

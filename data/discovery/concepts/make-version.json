@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Make Version"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aws-powertools/powertools-lambda-typescript",
+      "status": "candidate-context",
+      "text": "Powertools for AWS is a developer toolkit to implement Serverless best practices and increase developer velocity."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws-powertools/powertools-lambda-typescript",
+      "status": "candidate-context",
+      "text": "Make Version"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws-powertools/powertools-lambda-typescript",
+      "status": "candidate",
+      "text": "Make Version"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 50557,
+      "status": "candidate",
+      "text": "film"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31412,
+      "status": "candidate",
+      "text": "draft"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31012,
+      "status": "candidate",
+      "text": "bootleg"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31012,
+      "status": "candidate",
+      "text": "bootlegging"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31012,
+      "status": "candidate",
+      "text": "cover"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Make Version",
+  "concept_id": "make-version",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/make-version.yml",
+      "source_repo": "aws-powertools/powertools-lambda-typescript"
+    }
+  ],
+  "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Make Version",
+      "sense_id": "make-version#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

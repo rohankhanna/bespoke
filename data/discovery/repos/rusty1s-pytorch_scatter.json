@@ -1,0 +1,279 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/building.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/building.yml"
+    },
+    {
+      "component": "jlumbroso/free-disk-space@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/building.yml"
+    },
+    {
+      "component": "aws-actions/configure-aws-credentials@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/building.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linting.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linting.yml"
+    },
+    {
+      "component": "actions/stale@v4.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/testing.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/testing.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/testing.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/building.yml",
+      "source_repo": "rusty1s/pytorch_scatter",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/building.yml",
+      "source_repo": "rusty1s/pytorch_scatter",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/building.yml",
+      "source_repo": "rusty1s/pytorch_scatter",
+      "target": "jlumbroso/free-disk-space@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/building.yml",
+      "source_repo": "rusty1s/pytorch_scatter",
+      "target": "aws-actions/configure-aws-credentials@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/building.yml",
+      "source_repo": "rusty1s/pytorch_scatter",
+      "target": "Building Wheels",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linting.yml",
+      "source_repo": "rusty1s/pytorch_scatter",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linting.yml",
+      "source_repo": "rusty1s/pytorch_scatter",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linting.yml",
+      "source_repo": "rusty1s/pytorch_scatter",
+      "target": "Linting",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "rusty1s/pytorch_scatter",
+      "target": "actions/stale@v4.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "rusty1s/pytorch_scatter",
+      "target": "Close stale issues and PRs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/testing.yml",
+      "source_repo": "rusty1s/pytorch_scatter",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/testing.yml",
+      "source_repo": "rusty1s/pytorch_scatter",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/testing.yml",
+      "source_repo": "rusty1s/pytorch_scatter",
+      "target": "codecov/codecov-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/testing.yml",
+      "source_repo": "rusty1s/pytorch_scatter",
+      "target": "Testing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rusty1s/pytorch_scatter",
+      "target": "gather",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rusty1s/pytorch_scatter",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rusty1s/pytorch_scatter",
+      "target": "scatter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rusty1s/pytorch_scatter",
+      "target": "segment",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T02:01:14.788952+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6634
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 90
+    },
+    {
+      "path": ".github/workflows/building.yml",
+      "size": 3417
+    },
+    {
+      "path": ".github/workflows/linting.yml",
+      "size": 415
+    },
+    {
+      "path": ".github/workflows/stale.yml",
+      "size": 790
+    },
+    {
+      "path": ".github/workflows/testing.yml",
+      "size": 1042
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "PyTorch Extension Library of Optimized Scatter Operations",
+    "fork": false,
+    "full_name": "rusty1s/pytorch_scatter",
+    "html_url": "https://github.com/rusty1s/pytorch_scatter",
+    "language": "Python",
+    "pushed_at": "2026-03-26T07:05:31Z",
+    "stargazers_count": 1731,
+    "topics": [
+      "gather",
+      "pytorch",
+      "scatter",
+      "segment"
+    ],
+    "updated_at": "2026-04-02T20:22:13Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Building Wheels",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/building.yml",
+      "term": "Building Wheels"
+    },
+    {
+      "context_snippet": "Linting",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linting.yml",
+      "term": "Linting"
+    },
+    {
+      "context_snippet": "\"Close stale issues and PRs\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "term": "Close stale issues and PRs"
+    },
+    {
+      "context_snippet": "Testing",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/testing.yml",
+      "term": "Testing"
+    },
+    {
+      "context_snippet": "[pypi-image]: https://badge.fury.io/py/torch-scatter.svg",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gather"
+    },
+    {
+      "context_snippet": "[pypi-image]: https://badge.fury.io/py/torch-scatter.svg",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "[pypi-image]: https://badge.fury.io/py/torch-scatter.svg",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "scatter"
+    },
+    {
+      "context_snippet": "[pypi-image]: https://badge.fury.io/py/torch-scatter.svg",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "segment"
+    }
+  ]
+}

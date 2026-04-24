@@ -79,6 +79,42 @@
       "source_repo": "micromatch/expand-brackets",
       "status": "candidate-context",
       "text": "> Expand POSIX bracket expressions (character classes) in glob patterns."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jonschlinkert/kind-of",
+      "status": "candidate-context",
+      "text": "Get the native JavaScript type of a value, fast. Used by superstruct, micromatch and many others!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jonschlinkert/kind-of",
+      "status": "candidate-context",
+      "text": "> Get the native type of a value."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jonschlinkert/shallow-clone",
+      "status": "candidate-context",
+      "text": "Make a shallow clone of an object, array or primitive."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jonschlinkert/shallow-clone",
+      "status": "candidate-context",
+      "text": "> Creates a shallow clone of any JavaScript value."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "micromatch/to-regex-range",
+      "status": "candidate-context",
+      "text": "Pass two numbers, get a regex-compatible source string for matching ranges. Fast compiler, optimized regex, and validated against more than 2.78 million test assertions. Useful for creating regular expressions to validate numbers, ranges, years, etc."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "micromatch/to-regex-range",
+      "status": "candidate-context",
+      "text": "> Pass two numbers, get a regex-compatible source string for matching ranges. Validated against more than 2.78 million test assertions."
     }
   ],
   "candidate_glosses": [
@@ -117,6 +153,24 @@
       "source_repo": "micromatch/expand-brackets",
       "status": "candidate",
       "text": "> Expand POSIX bracket expressions (character classes) in glob patterns."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jonschlinkert/kind-of",
+      "status": "candidate",
+      "text": "> Get the native type of a value."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jonschlinkert/shallow-clone",
+      "status": "candidate",
+      "text": "> Creates a shallow clone of any JavaScript value."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "micromatch/to-regex-range",
+      "status": "candidate",
+      "text": "> Pass two numbers, get a regex-compatible source string for matching ranges. Validated against more than 2.78 million test assertions."
     }
   ],
   "candidate_related_terms": [
@@ -196,11 +250,35 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "micromatch/expand-brackets"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "jonschlinkert/kind-of"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "jonschlinkert/shallow-clone"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "micromatch/micromatch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "micromatch/to-regex-range"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -187,6 +187,18 @@
       "source_repo": "EmbarkStudios/cargo-deny-action",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lu-zero/cargo-c",
+      "status": "candidate-context",
+      "text": "build and install C-compatible libraries"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lu-zero/cargo-c",
+      "status": "candidate-context",
+      "text": "[![LICENSE](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)"
     }
   ],
   "candidate_glosses": [
@@ -279,6 +291,12 @@
       "source_repo": "EmbarkStudios/cargo-deny-action",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lu-zero/cargo-c",
+      "status": "candidate",
+      "text": "[![LICENSE](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)"
     }
   ],
   "candidate_related_terms": [
@@ -454,11 +472,17 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "EmbarkStudios/cargo-deny-action"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "lu-zero/cargo-c"
     }
   ],
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

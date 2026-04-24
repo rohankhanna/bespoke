@@ -1,0 +1,106 @@
+{
+  "components": [
+    {
+      "component": "actions/setup-node@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/actions.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/actions.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "fraillt/cpp_serializers_benchmark",
+      "target": "nixman/yas",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "fraillt/cpp_serializers_benchmark",
+      "target": "eyalz800/zpp_bits",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "fraillt/cpp_serializers_benchmark",
+      "target": "msgpack/msgpack-c",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "fraillt/cpp_serializers_benchmark",
+      "target": "thekvs/cpp-serializers",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/actions.yml",
+      "source_repo": "fraillt/cpp_serializers_benchmark",
+      "target": "actions/setup-node@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/actions.yml",
+      "source_repo": "fraillt/cpp_serializers_benchmark",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-24T00:50:18.389211+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9208
+    },
+    {
+      "path": ".github/workflows/actions.yml",
+      "size": 1549
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "C++ serializers benchmark with realistic data",
+    "fork": false,
+    "full_name": "fraillt/cpp_serializers_benchmark",
+    "html_url": "https://github.com/fraillt/cpp_serializers_benchmark",
+    "language": "C++",
+    "pushed_at": "2023-01-25T11:04:25Z",
+    "stargazers_count": 128,
+    "topics": [],
+    "updated_at": "2026-03-02T12:48:46Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "eyalz800/zpp_bits",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "msgpack/msgpack-c",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nixman/yas",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "thekvs/cpp-serializers",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

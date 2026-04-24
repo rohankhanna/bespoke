@@ -259,6 +259,42 @@
       "source_repo": "giampaolo/psutil",
       "status": "candidate-context",
       "text": ".. <PYPI-EXCLUDE>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "uptrace/uptrace",
+      "status": "candidate-context",
+      "text": "Open source APM: OpenTelemetry traces, metrics, and logs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "uptrace/uptrace",
+      "status": "candidate-context",
+      "text": "Languages: **English** | [\u7b80\u4f53\u4e2d\u6587](README.zh.md)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "getsentry/sentry",
+      "status": "candidate-context",
+      "text": "Developer-first error tracking and performance monitoring"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "getsentry/sentry",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bosun-monitor/bosun",
+      "status": "candidate-context",
+      "text": "Time Series Alerting Framework"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bosun-monitor/bosun",
+      "status": "candidate-context",
+      "text": "Bosun is a time series alerting framework developed by Stack Exchange. Scollector is a metric collection agent. Learn more at [bosun.org](http://bosun.org)."
     }
   ],
   "candidate_glosses": [
@@ -387,6 +423,24 @@
       "source_repo": "giampaolo/psutil",
       "status": "candidate",
       "text": ".. <PYPI-EXCLUDE>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "uptrace/uptrace",
+      "status": "candidate",
+      "text": "Languages: **English** | [\u7b80\u4f53\u4e2d\u6587](README.zh.md)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "getsentry/sentry",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bosun-monitor/bosun",
+      "status": "candidate",
+      "text": "Bosun is a time series alerting framework developed by Stack Exchange. Scollector is a metric collection agent. Learn more at [bosun.org](http://bosun.org)."
     }
   ],
   "candidate_related_terms": [
@@ -562,11 +616,35 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "giampaolo/psutil"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "uptrace/uptrace"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "rust-nvml/nvml-wrapper"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "getsentry/sentry"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "bosun-monitor/bosun"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

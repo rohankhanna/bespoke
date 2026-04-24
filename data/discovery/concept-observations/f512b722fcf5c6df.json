@@ -1,0 +1,115 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Pass two numbers, get a regex-compatible source string for matching ranges. Fast compiler, optimized regex, and validated against more than 2.78 million test assertions. Useful for creating regular expressions to validate numbers, ranges, years, etc."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "> Pass two numbers, get a regex-compatible source string for matching ranges. Validated against more than 2.78 million test assertions."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "> Pass two numbers, get a regex-compatible source string for matching ranges. Validated against more than 2.78 million test assertions."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39762767,
+      "status": "candidate",
+      "text": "numbers racket"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39489026,
+      "status": "candidate",
+      "text": "numbers game"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29899820,
+      "status": "candidate",
+      "text": "numbers pool"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29899819,
+      "status": "candidate",
+      "text": "population"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29895775,
+      "status": "candidate",
+      "text": "people"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "numbers",
+      "sense_id": "numbers#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 19,
+      "status": "candidate",
+      "text": "numbers game"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 13,
+      "status": "candidate",
+      "text": "numbers racket"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 12,
+      "status": "candidate",
+      "text": "numbers pool"
+    }
+  ],
+  "concept_id": "numbers",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "numbers",
+  "observation_id": "f512b722fcf5c6df",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T00:33:56.049672+00:00",
+  "observed_text": "numbers",
+  "source_context_snippet": "> Pass two numbers, get a regex-compatible source string for matching ranges. Validated against more than 2.78 million test assertions.",
+  "source_file": null,
+  "source_repo": "micromatch/to-regex-range",
+  "source_repo_description": "Pass two numbers, get a regex-compatible source string for matching ranges. Fast compiler, optimized regex, and validated against more than 2.78 million test assertions. Useful for creating regular expressions to validate numbers, ranges, years, etc."
+}

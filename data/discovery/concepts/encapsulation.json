@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "encapsulation"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fastify/fastify-plugin",
+      "status": "candidate-context",
+      "text": "Plugin helper for Fastify"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fastify/fastify-plugin",
+      "status": "candidate-context",
+      "text": "[![CI](https://github.com/fastify/fastify-plugin/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/fastify/fastify-plugin/actions/workflows/ci.yml)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fastify/fastify-plugin",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/fastify/fastify-plugin/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/fastify/fastify-plugin/actions/workflows/ci.yml)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20007691,
+      "status": "candidate",
+      "text": "dehydration"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19975001,
+      "status": "candidate",
+      "text": "liposomal"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19972072,
+      "status": "candidate",
+      "text": "enclosure"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19970076,
+      "status": "candidate",
+      "text": "encystment"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19969691,
+      "status": "candidate",
+      "text": "entrapment"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "encapsulation",
+  "concept_id": "encapsulation",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "fastify/fastify-plugin"
+    }
+  ],
+  "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "encapsulation",
+      "sense_id": "encapsulation#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

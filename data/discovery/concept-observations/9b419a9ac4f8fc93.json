@@ -1,0 +1,108 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Distributed Task Queue (development branch)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Celery"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Celery"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29947376,
+      "status": "candidate",
+      "text": "apium graveolens dulce"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29947376,
+      "status": "candidate",
+      "text": "cultivated celery"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29947375,
+      "status": "candidate",
+      "text": "blanching"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20047344,
+      "status": "candidate",
+      "text": "apium"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20047344,
+      "status": "candidate",
+      "text": "genus apium"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Celery",
+      "sense_id": "celery#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 9,
+      "status": "candidate",
+      "text": "apium graveolens dulce"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 9,
+      "status": "candidate",
+      "text": "cultivated celery"
+    }
+  ],
+  "concept_id": "celery",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "celery",
+  "observation_id": "9b419a9ac4f8fc93",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-24T00:33:56.049672+00:00",
+  "observed_text": "Celery",
+  "source_context_snippet": "Celery",
+  "source_file": ".github/workflows/python-package.yml",
+  "source_repo": "celery/celery",
+  "source_repo_description": "Distributed Task Queue (development branch)"
+}

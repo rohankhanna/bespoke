@@ -1,0 +1,108 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Time Series Alerting Framework"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Bosun is a time series alerting framework developed by Stack Exchange. Scollector is a metric collection agent. Learn more at [bosun.org](http://bosun.org)."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Bosun is a time series alerting framework developed by Stack Exchange. Scollector is a metric collection agent. Learn more at [bosun.org](http://bosun.org)."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31526,
+      "status": "candidate",
+      "text": "advising"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31526,
+      "status": "candidate",
+      "text": "advisories"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31526,
+      "status": "candidate",
+      "text": "alarm"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31526,
+      "status": "candidate",
+      "text": "alarms"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31526,
+      "status": "candidate",
+      "text": "alerter"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "alerting",
+      "sense_id": "alerting#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 5026,
+      "status": "candidate",
+      "text": "alertness"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "alert"
+    }
+  ],
+  "concept_id": "alerting",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "alerting",
+  "observation_id": "5e71e1d0769b387a",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T00:33:56.049672+00:00",
+  "observed_text": "alerting",
+  "source_context_snippet": "Bosun is a time series alerting framework developed by Stack Exchange. Scollector is a metric collection agent. Learn more at [bosun.org](http://bosun.org).",
+  "source_file": null,
+  "source_repo": "bosun-monitor/bosun",
+  "source_repo_description": "Time Series Alerting Framework"
+}

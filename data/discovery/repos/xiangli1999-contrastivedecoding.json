@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-24T02:03:02.635313+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1094
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "contrastive decoding ",
+    "fork": false,
+    "full_name": "XiangLi1999/ContrastiveDecoding",
+    "html_url": "https://github.com/XiangLi1999/ContrastiveDecoding",
+    "language": "Python",
+    "pushed_at": "2022-11-14T20:58:20Z",
+    "stargazers_count": 206,
+    "topics": [],
+    "updated_at": "2026-03-13T14:19:29Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -79,6 +79,30 @@
       "source_repo": "ApeWorX/ape",
       "status": "candidate-context",
       "text": "[![Pypi.org][pypi-badge]][pypi-url]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Uniswap/v3-core",
+      "status": "candidate-context",
+      "text": "\ud83e\udd84 \ud83e\udd84 \ud83e\udd84 Core smart contracts of Uniswap v3"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Uniswap/v3-core",
+      "status": "candidate-context",
+      "text": "[![Lint](https://github.com/Uniswap/uniswap-v3-core/actions/workflows/lint.yml/badge.svg)](https://github.com/Uniswap/uniswap-v3-core/actions/workflows/lint.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "celo-org/celo-monorepo",
+      "status": "candidate-context",
+      "text": "Official repository for core projects comprising the Celo platform"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "celo-org/celo-monorepo",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -117,6 +141,18 @@
       "source_repo": "ApeWorX/ape",
       "status": "candidate",
       "text": "[![Pypi.org][pypi-badge]][pypi-url]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Uniswap/v3-core",
+      "status": "candidate",
+      "text": "[![Lint](https://github.com/Uniswap/uniswap-v3-core/actions/workflows/lint.yml/badge.svg)](https://github.com/Uniswap/uniswap-v3-core/actions/workflows/lint.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "celo-org/celo-monorepo",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -160,11 +196,23 @@
       "observed_at": "2026-04-22T18:52:26.467154+00:00",
       "source_file": null,
       "source_repo": "ApeWorX/ape"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "Uniswap/v3-core"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "celo-org/celo-monorepo"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

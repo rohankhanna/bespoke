@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "encoding-convertors"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pillarjs/iconv-lite",
+      "status": "candidate-context",
+      "text": "Convert character encodings in pure javascript."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pillarjs/iconv-lite",
+      "status": "candidate-context",
+      "text": "[![NPM Version][npm-version-image]][npm-url]"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pillarjs/iconv-lite",
+      "status": "candidate",
+      "text": "[![NPM Version][npm-version-image]][npm-url]"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "encoding-convertors",
+  "concept_id": "encoding-convertors",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "pillarjs/iconv-lite"
+    }
+  ],
+  "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "encoding-convertors",
+      "sense_id": "encoding-convertors#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

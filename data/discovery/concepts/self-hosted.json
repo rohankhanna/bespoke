@@ -199,6 +199,30 @@
       "source_repo": "ChristopherHX/runner.server",
       "status": "candidate-context",
       "text": "[![Runner CI](https://github.com/ChristopherHX/runner.server/actions/workflows/build.yml/badge.svg)](https://github.com/ChristopherHX/runner.server/actions/workflows/build.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jpillora/cloud-torrent",
+      "status": "candidate-context",
+      "text": "\u2601\ufe0f\u00a0Cloud Torrent: a self-hosted remote torrent client"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jpillora/cloud-torrent",
+      "status": "candidate-context",
+      "text": "<img src=\"https://user-images.githubusercontent.com/633843/32198822-e59a0fc4-be1d-11e7-9b92-03ce17ba05ba.png\" alt=\"screenshot\"/>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "uptrace/uptrace",
+      "status": "candidate-context",
+      "text": "Open source APM: OpenTelemetry traces, metrics, and logs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "uptrace/uptrace",
+      "status": "candidate-context",
+      "text": "Languages: **English** | [\u7b80\u4f53\u4e2d\u6587](README.zh.md)"
     }
   ],
   "candidate_glosses": [
@@ -297,6 +321,18 @@
       "source_repo": "ChristopherHX/runner.server",
       "status": "candidate",
       "text": "[![Runner CI](https://github.com/ChristopherHX/runner.server/actions/workflows/build.yml/badge.svg)](https://github.com/ChristopherHX/runner.server/actions/workflows/build.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jpillora/cloud-torrent",
+      "status": "candidate",
+      "text": "<img src=\"https://user-images.githubusercontent.com/633843/32198822-e59a0fc4-be1d-11e7-9b92-03ce17ba05ba.png\" alt=\"screenshot\"/>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "uptrace/uptrace",
+      "status": "candidate",
+      "text": "Languages: **English** | [\u7b80\u4f53\u4e2d\u6587](README.zh.md)"
     }
   ],
   "candidate_related_terms": [
@@ -440,11 +476,29 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "ChristopherHX/runner.server"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "jpillora/cloud-torrent"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "uptrace/uptrace"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "aden-hive/hive"
     }
   ],
   "first_seen_at": "2026-04-19T17:36:09.281008+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

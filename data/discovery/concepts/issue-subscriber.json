@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Issue Subscriber"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "valida-xyz/valida-compiler",
+      "status": "candidate-context",
+      "text": "Old, obsolete version of the Valida compiler; its replacement will become public later"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "valida-xyz/valida-compiler",
+      "status": "candidate-context",
+      "text": "Issue Subscriber"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "valida-xyz/valida-compiler",
+      "status": "candidate",
+      "text": "Issue Subscriber"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13824,
+      "status": "candidate",
+      "text": "subscribe"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12944,
+      "status": "candidate",
+      "text": "customer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12944,
+      "status": "candidate",
+      "text": "delinquent"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12944,
+      "status": "candidate",
+      "text": "party"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12944,
+      "status": "candidate",
+      "text": "renewal"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Issue Subscriber",
+  "concept_id": "issue-subscriber",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/issue-subscriber.yml",
+      "source_repo": "valida-xyz/valida-compiler"
+    }
+  ],
+  "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Issue Subscriber",
+      "sense_id": "issue-subscriber#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

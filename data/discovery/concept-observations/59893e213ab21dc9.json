@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "High performance Node.js image processing, the fastest module to resize JPEG, PNG, WebP, AVIF and TIFF images. Uses the libvips library."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<img src=\"https://sharp.pixelplumbing.com/sharp-logo.svg\" width=\"160\" height=\"160\" alt=\"sharp logo\" align=\"right\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<img src=\"https://sharp.pixelplumbing.com/sharp-logo.svg\" width=\"160\" height=\"160\" alt=\"sharp logo\" align=\"right\">"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40011168,
+      "status": "candidate",
+      "text": "sharpened"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40011164,
+      "status": "candidate",
+      "text": "pointed"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40011150,
+      "status": "candidate",
+      "text": "acuate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40009924,
+      "status": "candidate",
+      "text": "edged"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40009892,
+      "status": "candidate",
+      "text": "cutting"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "sharp",
+      "sense_id": "sharp#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 110035,
+      "status": "candidate",
+      "text": "shrewd"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 74038,
+      "status": "candidate",
+      "text": "keen"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 61029,
+      "status": "candidate",
+      "text": "acerbic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 59036,
+      "status": "candidate",
+      "text": "astute"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 57040,
+      "status": "candidate",
+      "text": "intense"
+    }
+  ],
+  "concept_id": "sharp",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "sharp",
+  "observation_id": "59893e213ab21dc9",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T00:33:56.049672+00:00",
+  "observed_text": "sharp",
+  "source_context_snippet": "<img src=\"https://sharp.pixelplumbing.com/sharp-logo.svg\" width=\"160\" height=\"160\" alt=\"sharp logo\" align=\"right\">",
+  "source_file": null,
+  "source_repo": "lovell/sharp",
+  "source_repo_description": "High performance Node.js image processing, the fastest module to resize JPEG, PNG, WebP, AVIF and TIFF images. Uses the libvips library."
+}

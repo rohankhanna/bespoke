@@ -1,0 +1,139 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "PKU-YuanGroup/Chat-UniVi",
+      "target": "skyworkai/moh",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "PKU-YuanGroup/Chat-UniVi",
+      "target": "skyworkai/moe-plus-plus",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "PKU-YuanGroup/Chat-UniVi",
+      "target": "pku-yuangroup/video-llava",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "PKU-YuanGroup/Chat-UniVi",
+      "target": "facebookresearch/llama",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PKU-YuanGroup/Chat-UniVi",
+      "target": "image-understanding",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PKU-YuanGroup/Chat-UniVi",
+      "target": "large-language-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PKU-YuanGroup/Chat-UniVi",
+      "target": "video-understanding",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PKU-YuanGroup/Chat-UniVi",
+      "target": "vision-language-model",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T02:02:35.560554+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 30040
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1231
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[CVPR 2024 Highlight\ud83d\udd25] Chat-UniVi: Unified Visual Representation Empowers Large Language Models with Image and Video Understanding",
+    "fork": false,
+    "full_name": "PKU-YuanGroup/Chat-UniVi",
+    "html_url": "https://github.com/PKU-YuanGroup/Chat-UniVi",
+    "language": "Python",
+    "pushed_at": "2024-10-16T11:08:54Z",
+    "stargazers_count": 949,
+    "topics": [
+      "image-understanding",
+      "large-language-models",
+      "video-understanding",
+      "vision-language-model"
+    ],
+    "updated_at": "2026-04-22T12:37:59Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "facebookresearch/llama",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pku-yuangroup/video-llava",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "skyworkai/moe-plus-plus",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "skyworkai/moh",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<div align=center>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-understanding"
+    },
+    {
+      "context_snippet": "<div align=center>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "large-language-models"
+    },
+    {
+      "context_snippet": "<div align=center>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "video-understanding"
+    },
+    {
+      "context_snippet": "<div align=center>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vision-language-model"
+    }
+  ]
+}

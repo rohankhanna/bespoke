@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Cross-platform C++ library to copy/paste clipboard content"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "*Copyright (c) 2015-2026 David Capello*"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "*Copyright (c) 2015-2026 David Capello*"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "clipboard-formats",
+      "sense_id": "clipboard-formats#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "clipboard-formats",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "clipboard-formats",
+  "observation_id": "6419826d8bfd8e2a",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T00:33:56.049672+00:00",
+  "observed_text": "clipboard-formats",
+  "source_context_snippet": "*Copyright (c) 2015-2026 David Capello*",
+  "source_file": null,
+  "source_repo": "dacap/clip",
+  "source_repo_description": "Cross-platform C++ library to copy/paste clipboard content"
+}

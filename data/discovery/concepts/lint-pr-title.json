@@ -116,6 +116,114 @@
       "source_repo": "denoland/std",
       "status": "candidate-context",
       "text": "\"Lint PR title\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bufbuild/protobuf-conformance",
+      "status": "candidate-context",
+      "text": "A repository running the Protobuf conformance tests against various libraries"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bufbuild/protobuf-conformance",
+      "status": "candidate-context",
+      "text": "Lint PR Title"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "connectrpc/connect-kotlin",
+      "status": "candidate-context",
+      "text": "The Kotlin implementation of Connect: Protobuf RPC that works."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "connectrpc/connect-kotlin",
+      "status": "candidate-context",
+      "text": "Lint PR Title"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "connectrpc/connect-query-es",
+      "status": "candidate-context",
+      "text": "TypeScript-first expansion pack for TanStack Query that gives you Protobuf superpowers."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "connectrpc/connect-query-es",
+      "status": "candidate-context",
+      "text": "Lint PR Title"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "connectrpc/examples-go",
+      "status": "candidate-context",
+      "text": "An example Go server built with Connect."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "connectrpc/examples-go",
+      "status": "candidate-context",
+      "text": "Lint PR Title"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "connectrpc/grpchealth-go",
+      "status": "candidate-context",
+      "text": "gRPC-compatible health checks for any net/http server."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "connectrpc/grpchealth-go",
+      "status": "candidate-context",
+      "text": "Lint PR Title"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "connectrpc/grpcreflect-go",
+      "status": "candidate-context",
+      "text": "gRPC-compatible server reflection for any net/http server."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "connectrpc/grpcreflect-go",
+      "status": "candidate-context",
+      "text": "Lint PR Title"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "connectrpc/validate-go",
+      "status": "candidate-context",
+      "text": "Flexible, efficient request validation for Connect."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "connectrpc/validate-go",
+      "status": "candidate-context",
+      "text": "Lint PR Title"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "connectrpc/connect-swift",
+      "status": "candidate-context",
+      "text": "The Swift implementation of Connect: Protobuf RPC that works."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "connectrpc/connect-swift",
+      "status": "candidate-context",
+      "text": "Lint PR Title"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bufbuild/protovalidate-python",
+      "status": "candidate-context",
+      "text": "Protocol Buffer Validation for Python."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bufbuild/protovalidate-python",
+      "status": "candidate-context",
+      "text": "Lint PR Title"
     }
   ],
   "candidate_glosses": [
@@ -172,6 +280,60 @@
       "source_repo": "denoland/std",
       "status": "candidate",
       "text": "\"Lint PR title\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bufbuild/protobuf-conformance",
+      "status": "candidate",
+      "text": "Lint PR Title"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "connectrpc/connect-kotlin",
+      "status": "candidate",
+      "text": "Lint PR Title"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "connectrpc/connect-query-es",
+      "status": "candidate",
+      "text": "Lint PR Title"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "connectrpc/examples-go",
+      "status": "candidate",
+      "text": "Lint PR Title"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "connectrpc/grpchealth-go",
+      "status": "candidate",
+      "text": "Lint PR Title"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "connectrpc/grpcreflect-go",
+      "status": "candidate",
+      "text": "Lint PR Title"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "connectrpc/validate-go",
+      "status": "candidate",
+      "text": "Lint PR Title"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "connectrpc/connect-swift",
+      "status": "candidate",
+      "text": "Lint PR Title"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bufbuild/protovalidate-python",
+      "status": "candidate",
+      "text": "Lint PR Title"
     }
   ],
   "candidate_related_terms": [
@@ -269,11 +431,65 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": ".github/workflows/title.yml",
       "source_repo": "denoland/std"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/pr-title.yaml",
+      "source_repo": "bufbuild/protobuf-conformance"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/pr-title.yaml",
+      "source_repo": "connectrpc/connect-kotlin"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/pr-title.yaml",
+      "source_repo": "connectrpc/connect-query-es"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/pr-title.yaml",
+      "source_repo": "connectrpc/examples-go"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/pr-title.yaml",
+      "source_repo": "connectrpc/grpchealth-go"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/pr-title.yaml",
+      "source_repo": "connectrpc/grpcreflect-go"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/pr-title.yaml",
+      "source_repo": "connectrpc/validate-go"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/pr-title.yml",
+      "source_repo": "connectrpc/connect-swift"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/pr-title.yaml",
+      "source_repo": "bufbuild/protovalidate-python"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

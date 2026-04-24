@@ -63,6 +63,30 @@
       "source_repo": "ai-dynamo/grove",
       "status": "candidate-context",
       "text": "Stale issues"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dart4e/dart4e",
+      "status": "candidate-context",
+      "text": "Dart and Flutter development support for the Eclipse IDE "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dart4e/dart4e",
+      "status": "candidate-context",
+      "text": "Stale issues"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NVIDIA/libnvidia-container",
+      "status": "candidate-context",
+      "text": "NVIDIA container runtime library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA/libnvidia-container",
+      "status": "candidate-context",
+      "text": "Stale issues"
     }
   ],
   "candidate_glosses": [
@@ -93,6 +117,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "ai-dynamo/grove",
+      "status": "candidate",
+      "text": "Stale issues"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dart4e/dart4e",
+      "status": "candidate",
+      "text": "Stale issues"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA/libnvidia-container",
       "status": "candidate",
       "text": "Stale issues"
     }
@@ -168,11 +204,23 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": ".github/workflows/stale.yaml",
       "source_repo": "ai-dynamo/grove"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "dart4e/dart4e"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/stale.yaml",
+      "source_repo": "NVIDIA/libnvidia-container"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

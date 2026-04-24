@@ -295,6 +295,42 @@
       "source_repo": "ModelCloud/GPTQModel",
       "status": "candidate-context",
       "text": "<p align=center>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "openvinotoolkit/openvino",
+      "status": "candidate-context",
+      "text": "OpenVINO\u2122 is an open source toolkit for optimizing and deploying AI inference"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openvinotoolkit/openvino",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "teelinsan/camoscio",
+      "status": "candidate-context",
+      "text": "Camoscio: An Italian instruction-tuned language model based on LLaMA"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "teelinsan/camoscio",
+      "status": "candidate-context",
+      "text": "This repository contains code for Camoscio, an Italian instruction-tuned LLaMA based on [Stanford Alpaca](https://github.com/tatsu-lab/stanford_alpaca) and trained with [low-rank adaptation (LoRA)](https://arxiv.org/pdf/2106.09685.pdf). The companion paper of this repo is availa\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "haoliuhl/ringattention",
+      "status": "candidate-context",
+      "text": "Large Context Attention"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "haoliuhl/ringattention",
+      "status": "candidate-context",
+      "text": "This codebase provides the implementation of the Ring Attention with Blockwise Transformers. The model is described in the paper [Ring Attention with Blockwise Transformers for Near-Infinite Context](https://arxiv.org/pdf/2310.01889.pdf) and [Blockwise Parallel Transformer for L\u2026"
     }
   ],
   "candidate_glosses": [
@@ -441,6 +477,24 @@
       "source_repo": "ModelCloud/GPTQModel",
       "status": "candidate",
       "text": "<p align=center>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openvinotoolkit/openvino",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "teelinsan/camoscio",
+      "status": "candidate",
+      "text": "This repository contains code for Camoscio, an Italian instruction-tuned LLaMA based on [Stanford Alpaca](https://github.com/tatsu-lab/stanford_alpaca) and trained with [low-rank adaptation (LoRA)](https://arxiv.org/pdf/2106.09685.pdf). The companion paper of this repo is availa\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "haoliuhl/ringattention",
+      "status": "candidate",
+      "text": "This codebase provides the implementation of the Ring Attention with Blockwise Transformers. The model is described in the paper [Ring Attention with Blockwise Transformers for Near-Infinite Context](https://arxiv.org/pdf/2310.01889.pdf) and [Blockwise Parallel Transformer for L\u2026"
     }
   ],
   "candidate_related_terms": [
@@ -640,11 +694,29 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "ModelCloud/GPTQModel"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "openvinotoolkit/openvino"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "teelinsan/camoscio"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "haoliuhl/ringattention"
     }
   ],
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

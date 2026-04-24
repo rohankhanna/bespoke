@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "The F# compiler, F# core library, F# language service, and F# tooling integration for Visual Studio"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "\"Agentic Workflow Auto-Update\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "\"Agentic Workflow Auto-Update\""
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Agentic Workflow Auto-Update",
+      "sense_id": "agentic-workflow-auto-update#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "agentic-workflow-auto-update",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "agentic-workflow-auto-update",
+  "observation_id": "2a6d473cb70f0cd7",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-24T00:33:56.049672+00:00",
+  "observed_text": "Agentic Workflow Auto-Update",
+  "source_context_snippet": "\"Agentic Workflow Auto-Update\"",
+  "source_file": ".github/workflows/aw-auto-update.lock.yml",
+  "source_repo": "dotnet/fsharp",
+  "source_repo_description": "The F# compiler, F# core library, F# language service, and F# tooling integration for Visual Studio"
+}

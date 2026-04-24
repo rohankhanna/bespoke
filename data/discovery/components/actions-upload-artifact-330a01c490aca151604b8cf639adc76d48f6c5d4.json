@@ -1,7 +1,7 @@
 {
   "component": "actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4",
   "first_seen_at": "2026-04-18T13:15:13.756138+00:00",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -42,6 +42,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/release.yaml",
       "source_repo": "python-poetry/cleo"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/check-release.yml",
+      "source_repo": "jupyter/nbclassic"
     }
   ]
 }

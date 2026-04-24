@@ -1,7 +1,7 @@
 {
   "component": "actions/cache@v5",
   "first_seen_at": "2026-04-18T03:26:22.590180+00:00",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -1172,6 +1172,106 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/gin.yml",
       "source_repo": "gin-gonic/gin"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "connectrpc/connect-kotlin"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "connectrpc/connect-query-es"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/windows-arm-build.yml",
+      "source_repo": "vim/vim-win32-installer"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cd.yml",
+      "source_repo": "hrkfdn/ncspot"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "hrkfdn/ncspot"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/c-cpp.yml",
+      "source_repo": "theimpossibleastronaut/rmw"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "apache/netbeans"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/native-binary-build-lib.profiler.yml",
+      "source_repo": "apache/netbeans"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/gh-pages.yml",
+      "source_repo": "ast-grep/ast-grep.github.io"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build_base_image.yml",
+      "source_repo": "status-im/nimbus-eth1"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/_bazel.yml",
+      "source_repo": "cloudflare/workerd"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/codspeed.yml",
+      "source_repo": "cloudflare/workerd"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ExportPluto.yml",
+      "source_repo": "JuliaPluto/PlutoUI.jl"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "WebAssembly/wasi-sdk"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "tailwindlabs/tailwindcss"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/integration-tests.yml",
+      "source_repo": "tailwindlabs/tailwindcss"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/prepare-release.yml",
+      "source_repo": "tailwindlabs/tailwindcss"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "tailwindlabs/tailwindcss"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/checks.yml",
+      "source_repo": "docling-project/docling"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/reusable-multi-node.yaml",
+      "source_repo": "rootless-containers/usernetes"
     }
   ]
 }

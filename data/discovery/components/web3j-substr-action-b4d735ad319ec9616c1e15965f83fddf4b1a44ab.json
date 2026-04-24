@@ -1,0 +1,12 @@
+{
+  "component": "web3j/substr-action@b4d735ad319ec9616c1e15965f83fddf4b1a44ab",
+  "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "SpecterOps/SharpHoundCommon"
+    }
+  ]
+}

@@ -1,0 +1,283 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/building.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/building.yml"
+    },
+    {
+      "component": "jlumbroso/free-disk-space@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/building.yml"
+    },
+    {
+      "component": "aws-actions/configure-aws-credentials@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/building.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linting.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linting.yml"
+    },
+    {
+      "component": "actions/stale@v9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/testing.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/testing.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/testing.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/building.yml",
+      "source_repo": "rusty1s/pytorch_sparse",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/building.yml",
+      "source_repo": "rusty1s/pytorch_sparse",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/building.yml",
+      "source_repo": "rusty1s/pytorch_sparse",
+      "target": "jlumbroso/free-disk-space@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/building.yml",
+      "source_repo": "rusty1s/pytorch_sparse",
+      "target": "aws-actions/configure-aws-credentials@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/building.yml",
+      "source_repo": "rusty1s/pytorch_sparse",
+      "target": "Building Wheels",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linting.yml",
+      "source_repo": "rusty1s/pytorch_sparse",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linting.yml",
+      "source_repo": "rusty1s/pytorch_sparse",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linting.yml",
+      "source_repo": "rusty1s/pytorch_sparse",
+      "target": "Linting",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "rusty1s/pytorch_sparse",
+      "target": "actions/stale@v9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "rusty1s/pytorch_sparse",
+      "target": "Close stale issues and PRs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/testing.yml",
+      "source_repo": "rusty1s/pytorch_sparse",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/testing.yml",
+      "source_repo": "rusty1s/pytorch_sparse",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/testing.yml",
+      "source_repo": "rusty1s/pytorch_sparse",
+      "target": "codecov/codecov-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/testing.yml",
+      "source_repo": "rusty1s/pytorch_sparse",
+      "target": "Testing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rusty1s/pytorch_sparse",
+      "target": "autograd",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rusty1s/pytorch_sparse",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rusty1s/pytorch_sparse",
+      "target": "sparse",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rusty1s/pytorch_sparse",
+      "target": "sparse-matrices",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T02:01:18.537919+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10739
+    },
+    {
+      "path": ".github/workflows/building.yml",
+      "size": 4170
+    },
+    {
+      "path": ".github/workflows/linting.yml",
+      "size": 415
+    },
+    {
+      "path": ".github/workflows/metis-Windows.sh",
+      "size": 853
+    },
+    {
+      "path": ".github/workflows/metis.sh",
+      "size": 799
+    },
+    {
+      "path": ".github/workflows/stale.yml",
+      "size": 786
+    },
+    {
+      "path": ".github/workflows/testing.yml",
+      "size": 1781
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "PyTorch Extension Library of Optimized Autograd Sparse Matrix Operations",
+    "fork": false,
+    "full_name": "rusty1s/pytorch_sparse",
+    "html_url": "https://github.com/rusty1s/pytorch_sparse",
+    "language": "Python",
+    "pushed_at": "2026-03-26T15:10:21Z",
+    "stargazers_count": 1095,
+    "topics": [
+      "autograd",
+      "pytorch",
+      "sparse",
+      "sparse-matrices"
+    ],
+    "updated_at": "2026-04-18T03:03:13Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Building Wheels",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/building.yml",
+      "term": "Building Wheels"
+    },
+    {
+      "context_snippet": "Linting",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linting.yml",
+      "term": "Linting"
+    },
+    {
+      "context_snippet": "\"Close stale issues and PRs\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "term": "Close stale issues and PRs"
+    },
+    {
+      "context_snippet": "Testing",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/testing.yml",
+      "term": "Testing"
+    },
+    {
+      "context_snippet": "[pypi-image]: https://badge.fury.io/py/torch-sparse.svg",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "autograd"
+    },
+    {
+      "context_snippet": "[pypi-image]: https://badge.fury.io/py/torch-sparse.svg",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "[pypi-image]: https://badge.fury.io/py/torch-sparse.svg",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sparse"
+    },
+    {
+      "context_snippet": "[pypi-image]: https://badge.fury.io/py/torch-sparse.svg",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sparse-matrices"
+    }
+  ]
+}

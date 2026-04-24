@@ -1,0 +1,312 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bshoshany/thread-pool",
+      "target": "bshoshany/ogre",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bshoshany/thread-pool",
+      "target": "bshoshany/ogrepy",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bshoshany/thread-pool",
+      "target": "concurrency",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bshoshany/thread-pool",
+      "target": "cplusplus",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bshoshany/thread-pool",
+      "target": "cplusplus-17",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bshoshany/thread-pool",
+      "target": "cplusplus-20",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bshoshany/thread-pool",
+      "target": "cplusplus-23",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bshoshany/thread-pool",
+      "target": "cpp17",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bshoshany/thread-pool",
+      "target": "cpp20",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bshoshany/thread-pool",
+      "target": "cpp20-modules",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bshoshany/thread-pool",
+      "target": "cpp23",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bshoshany/thread-pool",
+      "target": "easy-to-use",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bshoshany/thread-pool",
+      "target": "high-performance",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bshoshany/thread-pool",
+      "target": "high-performance-computing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bshoshany/thread-pool",
+      "target": "multithreading",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bshoshany/thread-pool",
+      "target": "parallel",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bshoshany/thread-pool",
+      "target": "scientific-computing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bshoshany/thread-pool",
+      "target": "thread-pool",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bshoshany/thread-pool",
+      "target": "threading",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bshoshany/thread-pool",
+      "target": "threadpool",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T00:49:24.815087+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 235212
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 9587
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "BS::thread_pool: a fast, lightweight, modern, and easy-to-use C++17 / C++20 / C++23 thread pool library",
+    "fork": false,
+    "full_name": "bshoshany/thread-pool",
+    "html_url": "https://github.com/bshoshany/thread-pool",
+    "language": "C++",
+    "pushed_at": "2026-01-04T01:05:55Z",
+    "stargazers_count": 2955,
+    "topics": [
+      "concurrency",
+      "cplusplus",
+      "cplusplus-17",
+      "cplusplus-20",
+      "cplusplus-23",
+      "cpp",
+      "cpp17",
+      "cpp20",
+      "cpp20-modules",
+      "cpp23",
+      "easy-to-use",
+      "high-performance",
+      "high-performance-computing",
+      "multithreading",
+      "parallel",
+      "scientific-computing",
+      "thread-pool",
+      "threading",
+      "threadpool"
+    ],
+    "updated_at": "2026-04-23T06:40:58Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bshoshany/ogre",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bshoshany/ogrepy",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![Author: Barak Shoshany](https://img.shields.io/badge/author-Barak_Shoshany-009933)](https://baraksh.com/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "concurrency"
+    },
+    {
+      "context_snippet": "[![Author: Barak Shoshany](https://img.shields.io/badge/author-Barak_Shoshany-009933)](https://baraksh.com/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cplusplus"
+    },
+    {
+      "context_snippet": "[![Author: Barak Shoshany](https://img.shields.io/badge/author-Barak_Shoshany-009933)](https://baraksh.com/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cplusplus-17"
+    },
+    {
+      "context_snippet": "[![Author: Barak Shoshany](https://img.shields.io/badge/author-Barak_Shoshany-009933)](https://baraksh.com/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cplusplus-20"
+    },
+    {
+      "context_snippet": "[![Author: Barak Shoshany](https://img.shields.io/badge/author-Barak_Shoshany-009933)](https://baraksh.com/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cplusplus-23"
+    },
+    {
+      "context_snippet": "[![Author: Barak Shoshany](https://img.shields.io/badge/author-Barak_Shoshany-009933)](https://baraksh.com/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cpp17"
+    },
+    {
+      "context_snippet": "[![Author: Barak Shoshany](https://img.shields.io/badge/author-Barak_Shoshany-009933)](https://baraksh.com/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cpp20"
+    },
+    {
+      "context_snippet": "[![Author: Barak Shoshany](https://img.shields.io/badge/author-Barak_Shoshany-009933)](https://baraksh.com/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cpp20-modules"
+    },
+    {
+      "context_snippet": "[![Author: Barak Shoshany](https://img.shields.io/badge/author-Barak_Shoshany-009933)](https://baraksh.com/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cpp23"
+    },
+    {
+      "context_snippet": "[![Author: Barak Shoshany](https://img.shields.io/badge/author-Barak_Shoshany-009933)](https://baraksh.com/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "easy-to-use"
+    },
+    {
+      "context_snippet": "[![Author: Barak Shoshany](https://img.shields.io/badge/author-Barak_Shoshany-009933)](https://baraksh.com/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "high-performance"
+    },
+    {
+      "context_snippet": "[![Author: Barak Shoshany](https://img.shields.io/badge/author-Barak_Shoshany-009933)](https://baraksh.com/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "high-performance-computing"
+    },
+    {
+      "context_snippet": "[![Author: Barak Shoshany](https://img.shields.io/badge/author-Barak_Shoshany-009933)](https://baraksh.com/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multithreading"
+    },
+    {
+      "context_snippet": "[![Author: Barak Shoshany](https://img.shields.io/badge/author-Barak_Shoshany-009933)](https://baraksh.com/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "parallel"
+    },
+    {
+      "context_snippet": "[![Author: Barak Shoshany](https://img.shields.io/badge/author-Barak_Shoshany-009933)](https://baraksh.com/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "scientific-computing"
+    },
+    {
+      "context_snippet": "[![Author: Barak Shoshany](https://img.shields.io/badge/author-Barak_Shoshany-009933)](https://baraksh.com/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "thread-pool"
+    },
+    {
+      "context_snippet": "[![Author: Barak Shoshany](https://img.shields.io/badge/author-Barak_Shoshany-009933)](https://baraksh.com/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "threading"
+    },
+    {
+      "context_snippet": "[![Author: Barak Shoshany](https://img.shields.io/badge/author-Barak_Shoshany-009933)](https://baraksh.com/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "threadpool"
+    }
+  ]
+}

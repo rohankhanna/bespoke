@@ -79,6 +79,42 @@
       "source_repo": "boazsegev/iodine",
       "status": "candidate-context",
       "text": "[![Gem](https://img.shields.io/gem/dt/iodine.svg)](https://rubygems.org/gems/iodine)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bshoshany/thread-pool",
+      "status": "candidate-context",
+      "text": "BS::thread_pool: a fast, lightweight, modern, and easy-to-use C++17 / C++20 / C++23 thread pool library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bshoshany/thread-pool",
+      "status": "candidate-context",
+      "text": "[![Author: Barak Shoshany](https://img.shields.io/badge/author-Barak_Shoshany-009933)](https://baraksh.com/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aldanor/fast-float-rust",
+      "status": "candidate-context",
+      "text": "Super-fast float parser in Rust (now part of Rust core)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aldanor/fast-float-rust",
+      "status": "candidate-context",
+      "text": "fast-float"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jtablesaw/tablesaw",
+      "status": "candidate-context",
+      "text": "Java dataframe and visualization library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jtablesaw/tablesaw",
+      "status": "candidate-context",
+      "text": "Tablesaw"
     }
   ],
   "candidate_glosses": [
@@ -117,6 +153,24 @@
       "source_repo": "boazsegev/iodine",
       "status": "candidate",
       "text": "[![Gem](https://img.shields.io/gem/dt/iodine.svg)](https://rubygems.org/gems/iodine)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bshoshany/thread-pool",
+      "status": "candidate",
+      "text": "[![Author: Barak Shoshany](https://img.shields.io/badge/author-Barak_Shoshany-009933)](https://baraksh.com/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aldanor/fast-float-rust",
+      "status": "candidate",
+      "text": "fast-float"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jtablesaw/tablesaw",
+      "status": "candidate",
+      "text": "Tablesaw"
     }
   ],
   "candidate_related_terms": [
@@ -196,11 +250,29 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "boazsegev/iodine"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "bshoshany/thread-pool"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "aldanor/fast-float-rust"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "jtablesaw/tablesaw"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Pass two numbers, get a regex-compatible source string for matching ranges. Fast compiler, optimized regex, and validated against more than 2.78 million test assertions. Useful for creating regular expressions to validate numbers, ranges, years, etc."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "> Pass two numbers, get a regex-compatible source string for matching ranges. Validated against more than 2.78 million test assertions."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "> Pass two numbers, get a regex-compatible source string for matching ranges. Validated against more than 2.78 million test assertions."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40021538,
+      "status": "candidate",
+      "text": "restate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40021270,
+      "status": "candidate",
+      "text": "reiterate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40020823,
+      "status": "candidate",
+      "text": "ingeminate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40020655,
+      "status": "candidate",
+      "text": "reprise"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40020347,
+      "status": "candidate",
+      "text": "repetition"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "repeat",
+      "sense_id": "repeat#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 30036,
+      "status": "candidate",
+      "text": "reprise"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 29077,
+      "status": "candidate",
+      "text": "echo"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 28036,
+      "status": "candidate",
+      "text": "reiterate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 20033,
+      "status": "candidate",
+      "text": "iterate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 17033,
+      "status": "candidate",
+      "text": "recapitulate"
+    }
+  ],
+  "concept_id": "repeat",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "repeat",
+  "observation_id": "bba19d7103a6b453",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T00:33:56.049672+00:00",
+  "observed_text": "repeat",
+  "source_context_snippet": "> Pass two numbers, get a regex-compatible source string for matching ranges. Validated against more than 2.78 million test assertions.",
+  "source_file": null,
+  "source_repo": "micromatch/to-regex-range",
+  "source_repo_description": "Pass two numbers, get a regex-compatible source string for matching ranges. Fast compiler, optimized regex, and validated against more than 2.78 million test assertions. Useful for creating regular expressions to validate numbers, ranges, years, etc."
+}

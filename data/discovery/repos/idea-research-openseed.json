@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-24T02:02:01.737359+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4989
+    },
+    {
+      "path": "requirements.txt",
+      "size": 331
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[ICCV 2023] Official implementation of the paper \"A Simple Framework for Open-Vocabulary Segmentation and Detection\"",
+    "fork": false,
+    "full_name": "IDEA-Research/OpenSeeD",
+    "html_url": "https://github.com/IDEA-Research/OpenSeeD",
+    "language": "Python",
+    "pushed_at": "2024-01-22T14:12:04Z",
+    "stargazers_count": 755,
+    "topics": [],
+    "updated_at": "2026-04-17T16:29:43Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

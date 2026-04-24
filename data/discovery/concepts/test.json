@@ -3011,6 +3011,390 @@
       "source_repo": "graphprotocol/graph-client",
       "status": "candidate-context",
       "text": "test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "CocoaPods/Molinillo",
+      "status": "candidate-context",
+      "text": "A generic dependency resolution algorithm."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CocoaPods/Molinillo",
+      "status": "candidate-context",
+      "text": "test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "graphql-hive/graphql-eslint",
+      "status": "candidate-context",
+      "text": "ESLint parser, plugin, and rule set for GraphQL (for schema and operations). Easily customizable with custom rules. Integrates with IDEs and modern GraphQL tools."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "graphql-hive/graphql-eslint",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nodenv/node-build-update-defs",
+      "status": "candidate-context",
+      "text": "A nodenv plugin to generate node-build definitions from nodejs.org."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nodenv/node-build-update-defs",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nodenv/homebrew-nodenv",
+      "status": "candidate-context",
+      "text": "Homebrew formulae for nodenv plugins"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nodenv/homebrew-nodenv",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vega/vega-embed",
+      "status": "candidate-context",
+      "text": "Publish Vega visualizations as embedded web components with interactive parameters."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vega/vega-embed",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nix-community/nixGL",
+      "status": "candidate-context",
+      "text": "A wrapper tool for nix OpenGL application [maintainer=@guibou]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nix-community/nixGL",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pdf-rs/pdf",
+      "status": "candidate-context",
+      "text": "Rust library to read, manipulate and write PDF files."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pdf-rs/pdf",
+      "status": "candidate-context",
+      "text": "test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nmattia/niv",
+      "status": "candidate-context",
+      "text": "Easy dependency management for Nix projects"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nmattia/niv",
+      "status": "candidate-context",
+      "text": "\"Test\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dgn/oidc-filter",
+      "status": "candidate-context",
+      "text": "A WASM plugin for Envoy supporting the Open ID Connect Authorization Flow, extending Istio's JWT functionality"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dgn/oidc-filter",
+      "status": "candidate-context",
+      "text": "test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gitleaks/gitleaks",
+      "status": "candidate-context",
+      "text": "Find secrets with Gitleaks \ud83d\udd11"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gitleaks/gitleaks",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "EspressoSystems/Push-CDN",
+      "status": "candidate-context",
+      "text": "A peer-to-peer network accelerator"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "EspressoSystems/Push-CDN",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "angr/claripy",
+      "status": "candidate-context",
+      "text": "An abstraction layer for constraint solvers."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "angr/claripy",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "valyala/fasthttp",
+      "status": "candidate-context",
+      "text": "Fast HTTP package for Go. Tuned for high performance. Zero memory allocations in hot paths. Up to 10x faster than net/http"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "valyala/fasthttp",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lambdalisue/vim-gin",
+      "status": "candidate-context",
+      "text": "\ud83e\udd43  Gin makes you drunk on Git"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lambdalisue/vim-gin",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nicolo-ribaudo/engine262",
+      "status": "candidate-context",
+      "text": "An implementation of ECMA-262 in JavaScript"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nicolo-ribaudo/engine262",
+      "status": "candidate-context",
+      "text": "test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "harmjanblok/puma-metrics",
+      "status": "candidate-context",
+      "text": "Puma plugin to export puma stats as prometheus metrics"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "harmjanblok/puma-metrics",
+      "status": "candidate-context",
+      "text": "test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "OpenBMB/AgentVerse",
+      "status": "candidate-context",
+      "text": "\ud83e\udd16 AgentVerse \ud83e\ude90 is designed to facilitate the deployment of multiple LLM-based agents in various applications, which primarily provides two frameworks: task-solving and simulation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenBMB/AgentVerse",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dghubble/sling",
+      "status": "candidate-context",
+      "text": "A Go HTTP client library for creating and sending API requests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dghubble/sling",
+      "status": "candidate-context",
+      "text": "test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "octokit/webhooks.js",
+      "status": "candidate-context",
+      "text": "GitHub webhook events toolset for Node.js"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "octokit/webhooks.js",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "prompt-toolkit/python-prompt-toolkit",
+      "status": "candidate-context",
+      "text": "Library for building powerful interactive command line applications in Python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "prompt-toolkit/python-prompt-toolkit",
+      "status": "candidate-context",
+      "text": "test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "docker/setup-qemu-action",
+      "status": "candidate-context",
+      "text": "GitHub Action to install QEMU static binaries"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "docker/setup-qemu-action",
+      "status": "candidate-context",
+      "text": "test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "awslabs/git-secrets",
+      "status": "candidate-context",
+      "text": "Prevents you from committing secrets and credentials into git repositories"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "awslabs/git-secrets",
+      "status": "candidate-context",
+      "text": "\"test\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "octokit/request.js",
+      "status": "candidate-context",
+      "text": "Send parameterized requests to GitHub\u2019s APIs with sensible defaults in browsers and Node"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "octokit/request.js",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/playwright",
+      "status": "candidate-context",
+      "text": "Playwright is a framework for Web Testing and Automation. It allows testing Chromium, Firefox and WebKit with a single API. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/playwright",
+      "status": "candidate-context",
+      "text": "[![npm version](https://img.shields.io/npm/v/playwright.svg)](https://www.npmjs.com/package/playwright) <!-- GEN:chromium-version-badge -->[![Chromium version](https://img.shields.io/badge/chromium-147.0.7727.49-blue.svg?logo=google-chrome)](https://www.chromium.org/Home)<!-- GE\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "electron/windows-sign",
+      "status": "candidate-context",
+      "text": "Codesign Electron apps for Windows"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "electron/windows-sign",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Level/codec",
+      "status": "candidate-context",
+      "text": "Superseded by level-transcoder. Encode keys, values and range options, with built-in or custom encodings."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Level/codec",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Level/level-js",
+      "status": "candidate-context",
+      "text": "Superseded by browser-level. An abstract-leveldown compliant store on top of IndexedDB."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Level/level-js",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Level/levelup",
+      "status": "candidate-context",
+      "text": "Superseded by abstract-level. A wrapper for abstract-leveldown compliant stores, for Node.js and browsers."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Level/levelup",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Level/level",
+      "status": "candidate-context",
+      "text": "Universal abstract-level database for Node.js and browsers."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Level/level",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Level/mem",
+      "status": "candidate-context",
+      "text": "Superseded by memory-level. A convenience package bundling levelup and memdown."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Level/mem",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Level/memory-level",
+      "status": "candidate-context",
+      "text": "In-memory abstract-level database for Node.js and browsers."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Level/memory-level",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "conda/conda-lock",
+      "status": "candidate-context",
+      "text": "Lightweight lockfile for conda environments"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "conda/conda-lock",
+      "status": "candidate-context",
+      "text": "test"
     }
   ],
   "candidate_glosses": [
@@ -4523,6 +4907,198 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "graphprotocol/graph-client",
+      "status": "candidate",
+      "text": "test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CocoaPods/Molinillo",
+      "status": "candidate",
+      "text": "test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "graphql-hive/graphql-eslint",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nodenv/node-build-update-defs",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nodenv/homebrew-nodenv",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vega/vega-embed",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nix-community/nixGL",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pdf-rs/pdf",
+      "status": "candidate",
+      "text": "test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nmattia/niv",
+      "status": "candidate",
+      "text": "\"Test\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dgn/oidc-filter",
+      "status": "candidate",
+      "text": "test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gitleaks/gitleaks",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "EspressoSystems/Push-CDN",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "angr/claripy",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "valyala/fasthttp",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lambdalisue/vim-gin",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nicolo-ribaudo/engine262",
+      "status": "candidate",
+      "text": "test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "harmjanblok/puma-metrics",
+      "status": "candidate",
+      "text": "test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenBMB/AgentVerse",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dghubble/sling",
+      "status": "candidate",
+      "text": "test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "octokit/webhooks.js",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "prompt-toolkit/python-prompt-toolkit",
+      "status": "candidate",
+      "text": "test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "docker/setup-qemu-action",
+      "status": "candidate",
+      "text": "test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "awslabs/git-secrets",
+      "status": "candidate",
+      "text": "\"test\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "octokit/request.js",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/playwright",
+      "status": "candidate",
+      "text": "[![npm version](https://img.shields.io/npm/v/playwright.svg)](https://www.npmjs.com/package/playwright) <!-- GEN:chromium-version-badge -->[![Chromium version](https://img.shields.io/badge/chromium-147.0.7727.49-blue.svg?logo=google-chrome)](https://www.chromium.org/Home)<!-- GE\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "electron/windows-sign",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Level/codec",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Level/level-js",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Level/levelup",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Level/level",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Level/mem",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Level/memory-level",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "conda/conda-lock",
       "status": "candidate",
       "text": "test"
     }
@@ -6313,11 +6889,239 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "graphprotocol/graph-client"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "CocoaPods/Molinillo"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/Test.yml",
+      "source_repo": "igor-makarov/xcake"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "graphql-hive/graphql-eslint"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "nodenv/node-build-update-defs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "nodenv/homebrew-nodenv"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "licensee/licensed"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "vega/vega-embed"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "nix-community/nixGL"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "pdf-rs/pdf"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "nmattia/niv"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "dgn/oidc-filter"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "gitleaks/gitleaks"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "EspressoSystems/Push-CDN"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "angr/claripy"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "valyala/fasthttp"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "lambdalisue/vim-gin"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "all-contributors/app"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "mightyiam/eslint-config-love"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "nicolo-ribaudo/engine262"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "harmjanblok/puma-metrics"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "OpenBMB/AgentVerse"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "dghubble/sling"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "octokit/webhooks.js"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "prompt-toolkit/python-prompt-toolkit"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "docker/setup-qemu-action"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "awslabs/git-secrets"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "octokit/request.js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/playwright"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "electron/rebuild"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "electron/packager"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "electron/windows-sign"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "Level/codec"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "Level/level-js"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "Level/levelup"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "Level/level"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "Level/mem"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "Level/memory-level"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "conda/conda-lock"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

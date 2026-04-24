@@ -479,6 +479,102 @@
       "source_repo": "Jille/raft-grpc-transport",
       "status": "candidate-context",
       "text": "Build and test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "abpframework/abp",
+      "status": "candidate-context",
+      "text": "Open-source web application framework for ASP.NET Core! Offers an opinionated architecture to build enterprise software solutions with best practices on top of the .NET. Provides the fundamental infrastructure, cross-cutting-concern implementations, startup templates, application modules, UI themes, tooling and documentation."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "abpframework/abp",
+      "status": "candidate-context",
+      "text": "\"build and test\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/dcp",
+      "status": "candidate-context",
+      "text": "Developer Control Plane API server and CLI."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/dcp",
+      "status": "candidate-context",
+      "text": "Build and Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fschutt/printpdf",
+      "status": "candidate-context",
+      "text": "Rust / WASM library for reading, writing and rendering PDF"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fschutt/printpdf",
+      "status": "candidate-context",
+      "text": "Build and test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "autofac/Autofac",
+      "status": "candidate-context",
+      "text": "An addictive .NET IoC container"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "autofac/Autofac",
+      "status": "candidate-context",
+      "text": "Build and Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "uptrace/uptrace",
+      "status": "candidate-context",
+      "text": "Open source APM: OpenTelemetry traces, metrics, and logs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "uptrace/uptrace",
+      "status": "candidate-context",
+      "text": "build-and-test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/camel",
+      "status": "candidate-context",
+      "text": "Apache Camel is an open source integration framework that empowers you to quickly and easily integrate various systems consuming or producing data."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/camel",
+      "status": "candidate-context",
+      "text": "Build and test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alecthomas/go_serialization_benchmarks",
+      "status": "candidate-context",
+      "text": "Benchmarks of Go serialization methods"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alecthomas/go_serialization_benchmarks",
+      "status": "candidate-context",
+      "text": "Build and Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "SpecterOps/SharpHoundCommon",
+      "status": "candidate-context",
+      "text": "Common library used by SharpHound. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SpecterOps/SharpHoundCommon",
+      "status": "candidate-context",
+      "text": "Build and Test"
     }
   ],
   "candidate_glosses": [
@@ -715,6 +811,54 @@
       "source_repo": "Jille/raft-grpc-transport",
       "status": "candidate",
       "text": "Build and test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "abpframework/abp",
+      "status": "candidate",
+      "text": "\"build and test\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/dcp",
+      "status": "candidate",
+      "text": "Build and Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fschutt/printpdf",
+      "status": "candidate",
+      "text": "Build and test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "autofac/Autofac",
+      "status": "candidate",
+      "text": "Build and Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "uptrace/uptrace",
+      "status": "candidate",
+      "text": "build-and-test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/camel",
+      "status": "candidate",
+      "text": "Build and test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alecthomas/go_serialization_benchmarks",
+      "status": "candidate",
+      "text": "Build and Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SpecterOps/SharpHoundCommon",
+      "status": "candidate",
+      "text": "Build and Test"
     }
   ],
   "candidate_related_terms": [
@@ -998,11 +1142,59 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": ".github/workflows/go.yml",
       "source_repo": "Jille/raft-grpc-transport"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/build-and-test.yml",
+      "source_repo": "abpframework/abp"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/build-test.yml",
+      "source_repo": "microsoft/dcp"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "fschutt/printpdf"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "autofac/Autofac"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/build-and-test.yml",
+      "source_repo": "uptrace/uptrace"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/pr-build-main.yml",
+      "source_repo": "apache/camel"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "alecthomas/go_serialization_benchmarks"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/build-and-test.yml",
+      "source_repo": "SpecterOps/SharpHoundCommon"
     }
   ],
   "first_seen_at": "2026-04-18T13:29:00.435097+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

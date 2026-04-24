@@ -34,6 +34,18 @@
       "source_repo": "PyO3/maturin",
       "status": "candidate-context",
       "text": "_formerly pyo3-pack_"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "librespot-org/librespot",
+      "status": "candidate-context",
+      "text": "Open Source Spotify client library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "librespot-org/librespot",
+      "status": "candidate-context",
+      "text": "cross-compile"
     }
   ],
   "candidate_glosses": [
@@ -48,6 +60,12 @@
       "source_repo": "PyO3/maturin",
       "status": "candidate",
       "text": "_formerly pyo3-pack_"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "librespot-org/librespot",
+      "status": "candidate",
+      "text": "cross-compile"
     }
   ],
   "candidate_related_terms": [
@@ -103,11 +121,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "PyO3/maturin"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/cross-compile.yml",
+      "source_repo": "librespot-org/librespot"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

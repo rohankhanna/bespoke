@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "main-build"
+    "main-build",
+    "Main build"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -19,6 +20,18 @@
       "source_repo": "abapGit/abapGit",
       "status": "candidate-context",
       "text": "main-build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/camel",
+      "status": "candidate-context",
+      "text": "Apache Camel is an open source integration framework that empowers you to quickly and easily integrate various systems consuming or producing data."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/camel",
+      "status": "candidate-context",
+      "text": "Main build"
     }
   ],
   "candidate_glosses": [
@@ -27,9 +40,51 @@
       "source_repo": "abapGit/abapGit",
       "status": "candidate",
       "text": "main-build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/camel",
+      "status": "candidate",
+      "text": "Main build"
     }
   ],
-  "candidate_related_terms": [],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11765,
+      "status": "candidate",
+      "text": "arm"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11765,
+      "status": "candidate",
+      "text": "base"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11765,
+      "status": "candidate",
+      "text": "beam"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11765,
+      "status": "candidate",
+      "text": "body"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11765,
+      "status": "candidate",
+      "text": "deck"
+    }
+  ],
   "candidate_synonyms": [],
   "canonical_name": "main-build",
   "concept_id": "main-build",
@@ -52,11 +107,23 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": ".github/workflows/main-build.yml",
       "source_repo": "abapGit/abapGit"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/main-build.yml",
+      "source_repo": "abapGit/abapGit"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/main-build.yml",
+      "source_repo": "apache/camel"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

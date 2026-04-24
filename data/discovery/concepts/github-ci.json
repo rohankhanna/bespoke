@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "GitHub CI"
+    "GitHub CI",
+    "Github CI"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -115,6 +116,30 @@
       "source_repo": "sass/libsass",
       "status": "candidate-context",
       "text": "GitHub CI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vim/vim",
+      "status": "candidate-context",
+      "text": "The official Vim repository"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vim/vim",
+      "status": "candidate-context",
+      "text": "GitHub CI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "plantain-00/type-coverage",
+      "status": "candidate-context",
+      "text": "A CLI tool to check type coverage for typescript code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "plantain-00/type-coverage",
+      "status": "candidate-context",
+      "text": "Github CI"
     }
   ],
   "candidate_glosses": [
@@ -177,6 +202,18 @@
       "source_repo": "sass/libsass",
       "status": "candidate",
       "text": "GitHub CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vim/vim",
+      "status": "candidate",
+      "text": "GitHub CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "plantain-00/type-coverage",
+      "status": "candidate",
+      "text": "Github CI"
     }
   ],
   "candidate_related_terms": [
@@ -280,11 +317,23 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": ".github/workflows/build-and-test.yml",
       "source_repo": "sass/libsass"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "vim/vim"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/github-ci.yaml",
+      "source_repo": "plantain-00/type-coverage"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

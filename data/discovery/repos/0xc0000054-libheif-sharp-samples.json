@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-24T00:50:28.448151+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 549
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Sample applications for libheif-sharp",
+    "fork": false,
+    "full_name": "0xC0000054/libheif-sharp-samples",
+    "html_url": "https://github.com/0xC0000054/libheif-sharp-samples",
+    "language": "C#",
+    "pushed_at": "2023-11-20T01:10:46Z",
+    "stargazers_count": 19,
+    "topics": [],
+    "updated_at": "2024-11-13T03:27:23Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

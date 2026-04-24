@@ -1,0 +1,12 @@
+{
+  "component": "crazy-max/.github/.github/workflows/zizmor.yml@64a0bfaf6e6bb1c448d6e4c42b11034ee7094f16",
+  "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/.zizmor.yml",
+      "source_repo": "docker/github-builder"
+    }
+  ]
+}

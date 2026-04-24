@@ -187,6 +187,42 @@
       "source_repo": "launchbadge/sqlx",
       "status": "candidate-context",
       "text": "<h1 align=\"center\">SQLx</h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ashvardanian/less_slow.py",
+      "status": "candidate-context",
+      "text": "Playing around \"Less Slow\" coding practices in Python, from numerical micro-kernels to coroutines, ranges, and polymorphic state machines"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ashvardanian/less_slow.py",
+      "status": "candidate-context",
+      "text": "> The spiritual little brother of [`less_slow.cpp`](https://github.com/ashvardanian/less_slow.cpp)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "actix/actix-net",
+      "status": "candidate-context",
+      "text": "A collection of lower-level libraries for composable network services."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "actix/actix-net",
+      "status": "candidate-context",
+      "text": "> A collection of lower-level libraries for composable network services."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "async-rs/async-std",
+      "status": "candidate-context",
+      "text": "Async version of the Rust standard library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "async-rs/async-std",
+      "status": "candidate-context",
+      "text": "We created `async-std` to demonstrate the value of making a library as close to"
     }
   ],
   "candidate_glosses": [
@@ -279,6 +315,24 @@
       "source_repo": "launchbadge/sqlx",
       "status": "candidate",
       "text": "<h1 align=\"center\">SQLx</h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ashvardanian/less_slow.py",
+      "status": "candidate",
+      "text": "> The spiritual little brother of [`less_slow.cpp`](https://github.com/ashvardanian/less_slow.cpp)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "actix/actix-net",
+      "status": "candidate",
+      "text": "> A collection of lower-level libraries for composable network services."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "async-rs/async-std",
+      "status": "candidate",
+      "text": "We created `async-std` to demonstrate the value of making a library as close to"
     }
   ],
   "candidate_related_terms": [
@@ -418,11 +472,29 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "launchbadge/sqlx"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "ashvardanian/less_slow.py"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "actix/actix-net"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "async-rs/async-std"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

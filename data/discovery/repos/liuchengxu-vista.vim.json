@@ -1,0 +1,169 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "reviewdog/action-vint@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "liuchengxu/vista.vim",
+      "target": "majutsushi/tagbar",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "liuchengxu/vista.vim",
+      "target": "lotabout/skim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "liuchengxu/vista.vim",
+      "target": "liuchengxu/vim-clap",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "liuchengxu/vista.vim",
+      "target": "liuchengxu/eleline.vim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "liuchengxu/vista.vim",
+      "target": "actions/checkout@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "liuchengxu/vista.vim",
+      "target": "reviewdog/action-vint@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "liuchengxu/vista.vim",
+      "target": "ctags",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "liuchengxu/vista.vim",
+      "target": "language-server-protocol",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "liuchengxu/vista.vim",
+      "target": "neovim",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "liuchengxu/vista.vim",
+      "target": "vim-plugin",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T00:46:47.876061+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11160
+    },
+    {
+      "path": "Dockerfile",
+      "size": 193
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 354
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": ":cactus: Viewer & Finder for LSP symbols and tags",
+    "fork": false,
+    "full_name": "liuchengxu/vista.vim",
+    "html_url": "https://github.com/liuchengxu/vista.vim",
+    "language": "Vim Script",
+    "pushed_at": "2024-12-11T17:03:56Z",
+    "stargazers_count": 1937,
+    "topics": [
+      "ctags",
+      "language-server-protocol",
+      "neovim",
+      "vim",
+      "vim-plugin"
+    ],
+    "updated_at": "2026-04-18T04:36:23Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "liuchengxu/eleline.vim",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "liuchengxu/vim-clap",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lotabout/skim",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "majutsushi/tagbar",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![CI](https://github.com/liuchengxu/vista.vim/workflows/ci/badge.svg)](https://github.com/liuchengxu/vista.vim/actions?workflow=ci)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ctags"
+    },
+    {
+      "context_snippet": "[![CI](https://github.com/liuchengxu/vista.vim/workflows/ci/badge.svg)](https://github.com/liuchengxu/vista.vim/actions?workflow=ci)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "language-server-protocol"
+    },
+    {
+      "context_snippet": "[![CI](https://github.com/liuchengxu/vista.vim/workflows/ci/badge.svg)](https://github.com/liuchengxu/vista.vim/actions?workflow=ci)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neovim"
+    },
+    {
+      "context_snippet": "[![CI](https://github.com/liuchengxu/vista.vim/workflows/ci/badge.svg)](https://github.com/liuchengxu/vista.vim/actions?workflow=ci)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vim-plugin"
+    }
+  ]
+}

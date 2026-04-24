@@ -1414,6 +1414,174 @@
       "source_repo": "aerokube/selenoid",
       "status": "candidate-context",
       "text": "[![Build Status](https://github.com/aerokube/selenoid/workflows/build/badge.svg)](https://github.com/aerokube/selenoid/actions?query=workflow%3Abuild)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "boyter/scc",
+      "status": "candidate-context",
+      "text": "Sloc, Cloc and Code: scc is a very fast accurate code counter with complexity calculations and COCOMO estimates written in pure Go"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "boyter/scc",
+      "status": "candidate-context",
+      "text": "Docker"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "joseluisq/paket",
+      "status": "candidate-context",
+      "text": "A simple and fast package manager for the Fish shell written in Rust. \ud83d\udce6"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "joseluisq/paket",
+      "status": "candidate-context",
+      "text": "> A simple and fast package manager for the [Fish Shell](https://fishshell.com/) written in [Rust](https://www.rust-lang.org/). \ud83d\udc20"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jupyter/docker-stacks",
+      "status": "candidate-context",
+      "text": "Ready-to-run Docker images containing Jupyter applications"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jupyter/docker-stacks",
+      "status": "candidate-context",
+      "text": "[![GitHub Actions badge](https://github.com/jupyter/docker-stacks/actions/workflows/docker.yml/badge.svg)](https://github.com/jupyter/docker-stacks/actions/workflows/docker.yml?query=branch%3Amain \"Docker images build status\")"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "h2non/imaginary",
+      "status": "candidate-context",
+      "text": "Fast, simple, scalable, Docker-ready HTTP microservice for high-level image processing"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "h2non/imaginary",
+      "status": "candidate-context",
+      "text": "**[Fast](#benchmarks) HTTP [microservice](http://microservices.io/patterns/microservices.html)** written in Go **for high-level image processing** backed by [bimg](https://github.com/h2non/bimg) and [libvips](https://github.com/jcupitt/libvips). `imaginary` can be used as privat\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "docker/github-builder",
+      "status": "candidate-context",
+      "text": "Official Docker-maintained reusable GitHub Actions workflows to securely build container images"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "docker/github-builder",
+      "status": "candidate-context",
+      "text": "[![Test build workflow](https://img.shields.io/github/actions/workflow/status/docker/github-builder/.test-build.yml?label=test%20build&logo=github&style=flat-square)](https://github.com/docker/github-builder/actions?workflow=.test-build)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "89luca89/distrobox",
+      "status": "candidate-context",
+      "text": "Use any linux distribution inside your terminal. Enable both backward and forward compatibility with software and freedom to use whatever distribution you\u2019re more comfortable with. Mirror available at: https://gitlab.com/89luca89/distrobox"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "89luca89/distrobox",
+      "status": "candidate-context",
+      "text": "CI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alexandreelise/frankenphp-joomla",
+      "status": "candidate-context",
+      "text": "Joomla on FrankenPHP"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alexandreelise/frankenphp-joomla",
+      "status": "candidate-context",
+      "text": "Run the popular [Joomla CMS](https://joomla.org) on top of [FrankenPHP](https://frankenphp.dev),"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dunglas/frankenphp-drupal",
+      "status": "candidate-context",
+      "text": "Drupal on FrankenPHP"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dunglas/frankenphp-drupal",
+      "status": "candidate-context",
+      "text": "Run the popular [Drupal CMS](https://drupal.org) on top of [FrankenPHP](https://frankenphp.dev),"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "celery/celery",
+      "status": "candidate-context",
+      "text": "Distributed Task Queue (development branch)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "celery/celery",
+      "status": "candidate-context",
+      "text": "Docker"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "docker/setup-qemu-action",
+      "status": "candidate-context",
+      "text": "GitHub Action to install QEMU static binaries"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "docker/setup-qemu-action",
+      "status": "candidate-context",
+      "text": "[![GitHub release](https://img.shields.io/github/release/docker/setup-qemu-action.svg?style=flat-square)](https://github.com/docker/setup-qemu-action/releases/latest)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "chainguard-dev/apko",
+      "status": "candidate-context",
+      "text": "Build OCI images from APK packages directly without Dockerfile"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chainguard-dev/apko",
+      "status": "candidate-context",
+      "text": "Build and publish [OCI container images](https://opencontainers.org/) built from [apk](https://wiki.alpinelinux.org/wiki/Package_management) packages."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "browserless/browserless",
+      "status": "candidate-context",
+      "text": "Deploy headless browsers in Docker. Run on our cloud or bring your own. Free for non-commercial uses."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "browserless/browserless",
+      "status": "candidate-context",
+      "text": "<!-- markdownlint-disable commands-show-output first-line-h1 no-emphasis-as-heading no-inline-html -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rootless-containers/usernetes",
+      "status": "candidate-context",
+      "text": "Kubernetes without the root privileges"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rootless-containers/usernetes",
+      "status": "candidate-context",
+      "text": "Usernetes (Gen2) deploys a Kubernetes cluster inside [Rootless Docker](https://rootlesscontaine.rs/getting-started/docker/),"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pnpm/pnpm",
+      "status": "candidate-context",
+      "text": "Fast, disk space efficient package manager"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pnpm/pnpm",
+      "status": "candidate-context",
+      "text": "Docker"
     }
   ],
   "candidate_glosses": [
@@ -2124,6 +2292,90 @@
       "source_repo": "aerokube/selenoid",
       "status": "candidate",
       "text": "[![Build Status](https://github.com/aerokube/selenoid/workflows/build/badge.svg)](https://github.com/aerokube/selenoid/actions?query=workflow%3Abuild)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "boyter/scc",
+      "status": "candidate",
+      "text": "Docker"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "joseluisq/paket",
+      "status": "candidate",
+      "text": "> A simple and fast package manager for the [Fish Shell](https://fishshell.com/) written in [Rust](https://www.rust-lang.org/). \ud83d\udc20"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jupyter/docker-stacks",
+      "status": "candidate",
+      "text": "[![GitHub Actions badge](https://github.com/jupyter/docker-stacks/actions/workflows/docker.yml/badge.svg)](https://github.com/jupyter/docker-stacks/actions/workflows/docker.yml?query=branch%3Amain \"Docker images build status\")"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "h2non/imaginary",
+      "status": "candidate",
+      "text": "**[Fast](#benchmarks) HTTP [microservice](http://microservices.io/patterns/microservices.html)** written in Go **for high-level image processing** backed by [bimg](https://github.com/h2non/bimg) and [libvips](https://github.com/jcupitt/libvips). `imaginary` can be used as privat\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "docker/github-builder",
+      "status": "candidate",
+      "text": "[![Test build workflow](https://img.shields.io/github/actions/workflow/status/docker/github-builder/.test-build.yml?label=test%20build&logo=github&style=flat-square)](https://github.com/docker/github-builder/actions?workflow=.test-build)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "89luca89/distrobox",
+      "status": "candidate",
+      "text": "CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alexandreelise/frankenphp-joomla",
+      "status": "candidate",
+      "text": "Run the popular [Joomla CMS](https://joomla.org) on top of [FrankenPHP](https://frankenphp.dev),"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dunglas/frankenphp-drupal",
+      "status": "candidate",
+      "text": "Run the popular [Drupal CMS](https://drupal.org) on top of [FrankenPHP](https://frankenphp.dev),"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "celery/celery",
+      "status": "candidate",
+      "text": "Docker"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "docker/setup-qemu-action",
+      "status": "candidate",
+      "text": "[![GitHub release](https://img.shields.io/github/release/docker/setup-qemu-action.svg?style=flat-square)](https://github.com/docker/setup-qemu-action/releases/latest)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chainguard-dev/apko",
+      "status": "candidate",
+      "text": "Build and publish [OCI container images](https://opencontainers.org/) built from [apk](https://wiki.alpinelinux.org/wiki/Package_management) packages."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "browserless/browserless",
+      "status": "candidate",
+      "text": "<!-- markdownlint-disable commands-show-output first-line-h1 no-emphasis-as-heading no-inline-html -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rootless-containers/usernetes",
+      "status": "candidate",
+      "text": "Usernetes (Gen2) deploys a Kubernetes cluster inside [Rootless Docker](https://rootlesscontaine.rs/getting-started/docker/),"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pnpm/pnpm",
+      "status": "candidate",
+      "text": "Docker"
     }
   ],
   "candidate_related_terms": [
@@ -3115,11 +3367,119 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "aerokube/selenoid"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/docker-publish.yml",
+      "source_repo": "boyter/scc"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "spaceship-prompt/spaceship-prompt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "joseluisq/paket"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "jupyter/docker-stacks"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "h2non/imaginary"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "docker/github-builder"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "89luca89/distrobox"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "alexandreelise/frankenphp-joomla"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "dunglas/frankenphp-drupal"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "notaryproject/notary"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "moby/moby"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "celery/celery"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "docker/setup-qemu-action"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "chainguard-dev/apko"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "browserless/browserless"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "containers/podman"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "rootless-containers/usernetes"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "pnpm/pnpm"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

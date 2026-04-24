@@ -175,6 +175,42 @@
       "source_repo": "alexmojaki/snoop",
       "status": "candidate-context",
       "text": "[![Build Status](https://github.com/alexmojaki/snoop/actions/workflows/pytest.yml/badge.svg)](https://github.com/alexmojaki/snoop/actions/workflows/pytest.yml) [![Supports Python versions 2.7 and 3.5+, including PyPy](https://img.shields.io/pypi/pyversions/snoop.svg)](https://py\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fluent/fluent-bit",
+      "status": "candidate-context",
+      "text": "Fast and Lightweight Logs, Metrics and Traces processor for Linux, BSD, OSX and Windows"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fluent/fluent-bit",
+      "status": "candidate-context",
+      "text": "| CI Workflow | Status |"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "facil-io/cstl",
+      "status": "candidate-context",
+      "text": "facil.io C STL - a Server Toolbox Library for C, including JSON processing, hash maps, dynamic arrays, binary strings and more."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "facil-io/cstl",
+      "status": "candidate-context",
+      "text": "[![facil.io logo](./extras/logo.svg?raw=true \"facil.io\")](https://github.com/facil-io/cstl)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cool-RR/PySnooper",
+      "status": "candidate-context",
+      "text": "Never use print for debugging again"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cool-RR/PySnooper",
+      "status": "candidate-context",
+      "text": "**PySnooper** is a poor man's debugger. If you've used Bash, it's like `set -x` for Python, except it's fancier."
     }
   ],
   "candidate_glosses": [
@@ -261,6 +297,24 @@
       "source_repo": "alexmojaki/snoop",
       "status": "candidate",
       "text": "[![Build Status](https://github.com/alexmojaki/snoop/actions/workflows/pytest.yml/badge.svg)](https://github.com/alexmojaki/snoop/actions/workflows/pytest.yml) [![Supports Python versions 2.7 and 3.5+, including PyPy](https://img.shields.io/pypi/pyversions/snoop.svg)](https://py\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fluent/fluent-bit",
+      "status": "candidate",
+      "text": "| CI Workflow | Status |"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "facil-io/cstl",
+      "status": "candidate",
+      "text": "[![facil.io logo](./extras/logo.svg?raw=true \"facil.io\")](https://github.com/facil-io/cstl)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cool-RR/PySnooper",
+      "status": "candidate",
+      "text": "**PySnooper** is a poor man's debugger. If you've used Bash, it's like `set -x` for Python, except it's fancier."
     }
   ],
   "candidate_related_terms": [
@@ -394,11 +448,29 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "alexmojaki/snoop"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "fluent/fluent-bit"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "facil-io/cstl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "cool-RR/PySnooper"
     }
   ],
   "first_seen_at": "2026-04-18T12:46:59.510459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

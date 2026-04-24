@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\ud83d\udc53 A fast and lightweight Neovim lua plugin to keep an eye on where your cursor has jumped."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Show where your cursor moves when jumping large distances (e.g between windows). Fast and lightweight, written completely in Lua."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Show where your cursor moves when jumping large distances (e.g between windows). Fast and lightweight, written completely in Lua."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "nvim-lua",
+      "sense_id": "nvim-lua#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "nvim-lua",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "nvim-lua",
+  "observation_id": "f72b2e25f634ab0d",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T00:33:56.049672+00:00",
+  "observed_text": "nvim-lua",
+  "source_context_snippet": "Show where your cursor moves when jumping large distances (e.g between windows). Fast and lightweight, written completely in Lua.",
+  "source_file": null,
+  "source_repo": "edluffy/specs.nvim",
+  "source_repo_description": "\ud83d\udc53 A fast and lightweight Neovim lua plugin to keep an eye on where your cursor has jumped."
+}

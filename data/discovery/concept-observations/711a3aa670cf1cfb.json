@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Apache Seata(incubating) Website"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![seata website deploy on github](https://github.com/apache/incubator-seata-website/actions/workflows/deploy.yml/badge.svg?branch=docusaurus)](https://github.com/apache/incubator-seata-website/actions/workflows/deploy.yml)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![seata website deploy on github](https://github.com/apache/incubator-seata-website/actions/workflows/deploy.yml/badge.svg?branch=docusaurus)](https://github.com/apache/incubator-seata-website/actions/workflows/deploy.yml)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "docsite",
+      "sense_id": "docsite#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "docsite",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "docsite",
+  "observation_id": "711a3aa670cf1cfb",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T00:33:56.049672+00:00",
+  "observed_text": "docsite",
+  "source_context_snippet": "[![seata website deploy on github](https://github.com/apache/incubator-seata-website/actions/workflows/deploy.yml/badge.svg?branch=docusaurus)](https://github.com/apache/incubator-seata-website/actions/workflows/deploy.yml)",
+  "source_file": null,
+  "source_repo": "apache/incubator-seata-website",
+  "source_repo_description": "Apache Seata(incubating) Website"
+}

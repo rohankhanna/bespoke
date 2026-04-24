@@ -676,6 +676,114 @@
       "source_repo": "gofiber/fiber",
       "status": "candidate-context",
       "text": "Benchmark"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ashvardanian/HashEvals",
+      "status": "candidate-context",
+      "text": "Minimalistic Rust toolkit for hash function quality analysis. Tests avalanche effect, differential patterns, and statistical distribution across variable-length n-grams."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ashvardanian/HashEvals",
+      "status": "candidate-context",
+      "text": "[![HashEvals](https://github.com/ashvardanian/ashvardanian/blob/master/repositories/HashEvals.jpg?raw=true)](https://github.com/ashvardanian/HashEvals)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ashvardanian/less_slow.cpp",
+      "status": "candidate-context",
+      "text": "Playing around \"Less Slow\" coding practices in C++ 20, C, CUDA, PTX, & Assembly, from numerics & SIMD to coroutines, ranges, exception handling, networking and user-space IO"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ashvardanian/less_slow.cpp",
+      "status": "candidate-context",
+      "text": "> The benchmarks in this repository don't aim to cover every topic entirely, but they help form a mindset and intuition for performance-oriented software design."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ashvardanian/less_slow.py",
+      "status": "candidate-context",
+      "text": "Playing around \"Less Slow\" coding practices in Python, from numerical micro-kernels to coroutines, ranges, and polymorphic state machines"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ashvardanian/less_slow.py",
+      "status": "candidate-context",
+      "text": "> The spiritual little brother of [`less_slow.cpp`](https://github.com/ashvardanian/less_slow.cpp)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ashvardanian/StringWars",
+      "status": "candidate-context",
+      "text": "Comparing performance-oriented string-processing libraries for substring search, multi-pattern matching, hashing, edit-distances, sketching, and sorting across CPUs and GPUs in Rust \ud83e\udd80 and Python \ud83d\udc0d"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ashvardanian/StringWars",
+      "status": "candidate-context",
+      "text": "![StringWars Thumbnail](https://github.com/ashvardanian/ashvardanian/blob/master/repositories/StringWars-v2.png?raw=true)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nfrechette/rtm",
+      "status": "candidate-context",
+      "text": "Realtime Math"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nfrechette/rtm",
+      "status": "candidate-context",
+      "text": "benchmark"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "clice-io/clice",
+      "status": "candidate-context",
+      "text": "A next-generation C++ language server for modern C++, focused on high performance and deep code intelligence"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clice-io/clice",
+      "status": "candidate-context",
+      "text": "benchmark"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vmihailenco/go-cache-benchmark",
+      "status": "candidate-context",
+      "text": "Cache benchmark for Golang"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vmihailenco/go-cache-benchmark",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "TechEmpower/FrameworkBenchmarks",
+      "status": "candidate-context",
+      "text": "Source for the TechEmpower Framework Benchmarks project"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TechEmpower/FrameworkBenchmarks",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://github.com/TechEmpower/FrameworkBenchmarks/workflows/build/badge.svg?branch=master&event=push)](https://github.com/TechEmpower/FrameworkBenchmarks/actions?query=workflow%3Abuild+branch%3Amaster)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "project-miracl/miracl",
+      "status": "candidate-context",
+      "text": "A large-scale multilingual dataset for Information Retrieval. Thorough human-annotations across 18 diverse languages."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "project-miracl/miracl",
+      "status": "candidate-context",
+      "text": "<!-- <p align=\"center\"> <span><font size=\"32\"> <b> MIRACL \ud83c\udf0d\ud83d\ude4c\ud83c\udf0f </b></font></span></p> -->"
     }
   ],
   "candidate_glosses": [
@@ -1014,6 +1122,60 @@
       "source_repo": "gofiber/fiber",
       "status": "candidate",
       "text": "Benchmark"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ashvardanian/HashEvals",
+      "status": "candidate",
+      "text": "[![HashEvals](https://github.com/ashvardanian/ashvardanian/blob/master/repositories/HashEvals.jpg?raw=true)](https://github.com/ashvardanian/HashEvals)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ashvardanian/less_slow.cpp",
+      "status": "candidate",
+      "text": "> The benchmarks in this repository don't aim to cover every topic entirely, but they help form a mindset and intuition for performance-oriented software design."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ashvardanian/less_slow.py",
+      "status": "candidate",
+      "text": "> The spiritual little brother of [`less_slow.cpp`](https://github.com/ashvardanian/less_slow.cpp)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ashvardanian/StringWars",
+      "status": "candidate",
+      "text": "![StringWars Thumbnail](https://github.com/ashvardanian/ashvardanian/blob/master/repositories/StringWars-v2.png?raw=true)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nfrechette/rtm",
+      "status": "candidate",
+      "text": "benchmark"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clice-io/clice",
+      "status": "candidate",
+      "text": "benchmark"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vmihailenco/go-cache-benchmark",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TechEmpower/FrameworkBenchmarks",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/TechEmpower/FrameworkBenchmarks/workflows/build/badge.svg?branch=master&event=push)](https://github.com/TechEmpower/FrameworkBenchmarks/actions?query=workflow%3Abuild+branch%3Amaster)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "project-miracl/miracl",
+      "status": "candidate",
+      "text": "<!-- <p align=\"center\"> <span><font size=\"32\"> <b> MIRACL \ud83c\udf0d\ud83d\ude4c\ud83c\udf0f </b></font></span></p> -->"
     }
   ],
   "candidate_related_terms": [
@@ -1497,11 +1659,83 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": ".github/workflows/benchmark.yml",
       "source_repo": "gofiber/fiber"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "SWE-bench/SWE-bench"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "ashvardanian/HashEvals"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "ashvardanian/less_slow.cpp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "ashvardanian/less_slow.py"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "ashvardanian/StringWars"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/benchmark.yml",
+      "source_repo": "nfrechette/rtm"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/benchmark.yml",
+      "source_repo": "clice-io/clice"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/benchmark.yml",
+      "source_repo": "apache/casbin-cpp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "vmihailenco/go-cache-benchmark"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "TechEmpower/FrameworkBenchmarks"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/bench.yml.disabled",
+      "source_repo": "ggml-org/llama.cpp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "project-miracl/miracl"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

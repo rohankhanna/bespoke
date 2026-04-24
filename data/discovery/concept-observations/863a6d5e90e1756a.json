@@ -1,0 +1,88 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Code Quality Main"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Code Quality Main"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27173,
+      "status": "candidate",
+      "text": "subroutine"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26643,
+      "status": "candidate",
+      "text": "freestyle"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19812,
+      "status": "candidate",
+      "text": "abstract"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19628,
+      "status": "candidate",
+      "text": "right"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19575,
+      "status": "candidate",
+      "text": "type"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Code Quality Main",
+      "sense_id": "code-quality-main#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "code-quality-main",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "code-quality-main",
+  "observation_id": "863a6d5e90e1756a",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-24T00:33:56.049672+00:00",
+  "observed_text": "Code Quality Main",
+  "source_context_snippet": "Code Quality Main",
+  "source_file": ".github/workflows/code-quality-main.yaml",
+  "source_repo": "jxpress/lightning-hydra-template-vertex-ai",
+  "source_repo_description": null
+}

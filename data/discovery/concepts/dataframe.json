@@ -43,6 +43,30 @@
       "source_repo": "apache/datafusion-ballista-python",
       "status": "candidate-context",
       "text": "<!---"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ashvardanian/StringWars",
+      "status": "candidate-context",
+      "text": "Comparing performance-oriented string-processing libraries for substring search, multi-pattern matching, hashing, edit-distances, sketching, and sorting across CPUs and GPUs in Rust \ud83e\udd80 and Python \ud83d\udc0d"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ashvardanian/StringWars",
+      "status": "candidate-context",
+      "text": "![StringWars Thumbnail](https://github.com/ashvardanian/ashvardanian/blob/master/repositories/StringWars-v2.png?raw=true)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jtablesaw/tablesaw",
+      "status": "candidate-context",
+      "text": "Java dataframe and visualization library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jtablesaw/tablesaw",
+      "status": "candidate-context",
+      "text": "Tablesaw"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +87,18 @@
       "source_repo": "apache/datafusion-ballista-python",
       "status": "candidate",
       "text": "<!---"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ashvardanian/StringWars",
+      "status": "candidate",
+      "text": "![StringWars Thumbnail](https://github.com/ashvardanian/ashvardanian/blob/master/repositories/StringWars-v2.png?raw=true)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jtablesaw/tablesaw",
+      "status": "candidate",
+      "text": "Tablesaw"
     }
   ],
   "candidate_related_terms": [
@@ -124,11 +160,23 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "apache/datafusion-ballista-python"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "ashvardanian/StringWars"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "jtablesaw/tablesaw"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Apache Doris is an easy-to-use, high performance and unified analytics database."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "FE Code Style Checker"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "FE Code Style Checker"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30774,
+      "status": "candidate",
+      "text": "red"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30643,
+      "status": "candidate",
+      "text": "twist"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28153,
+      "status": "candidate",
+      "text": "debugger"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21545,
+      "status": "candidate",
+      "text": "ironed"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21545,
+      "status": "candidate",
+      "text": "irons"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "FE Code Style Checker",
+      "sense_id": "fe-code-style-checker#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "fe-code-style-checker",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "fe-code-style-checker",
+  "observation_id": "75abea8b97faff86",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-24T00:33:56.049672+00:00",
+  "observed_text": "FE Code Style Checker",
+  "source_context_snippet": "FE Code Style Checker",
+  "source_file": ".github/workflows/checkstyle.yaml",
+  "source_repo": "apache/doris",
+  "source_repo_description": "Apache Doris is an easy-to-use, high performance and unified analytics database."
+}

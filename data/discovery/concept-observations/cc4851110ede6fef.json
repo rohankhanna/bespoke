@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Simple UI for https://github.com/tpope/vim-dadbod"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Simple UI for [vim-dadbod](https://github.com/tpope/vim-dadbod)."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Simple UI for [vim-dadbod](https://github.com/tpope/vim-dadbod)."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "viml",
+      "sense_id": "viml#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "viml",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "viml",
+  "observation_id": "cc4851110ede6fef",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T00:33:56.049672+00:00",
+  "observed_text": "viml",
+  "source_context_snippet": "Simple UI for [vim-dadbod](https://github.com/tpope/vim-dadbod).",
+  "source_file": null,
+  "source_repo": "kristijanhusak/vim-dadbod-ui",
+  "source_repo_description": "Simple UI for https://github.com/tpope/vim-dadbod"
+}

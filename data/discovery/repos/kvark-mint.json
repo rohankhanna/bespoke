@@ -1,0 +1,75 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check.yaml"
+    },
+    {
+      "component": "actions-rs/toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check.yaml",
+      "source_repo": "kvark/mint",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check.yaml",
+      "source_repo": "kvark/mint",
+      "target": "actions-rs/toolchain@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check.yaml",
+      "source_repo": "kvark/mint",
+      "target": "check",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T00:53:34.752991+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3164
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 699
+    },
+    {
+      "path": ".github/workflows/check.yaml",
+      "size": 507
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Math Interoperability Types",
+    "fork": false,
+    "full_name": "kvark/mint",
+    "html_url": "https://github.com/kvark/mint",
+    "language": "Rust",
+    "pushed_at": "2024-01-02T04:17:14Z",
+    "stargazers_count": 284,
+    "topics": [],
+    "updated_at": "2026-04-07T08:44:30Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "check",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check.yaml",
+      "term": "check"
+    }
+  ]
+}

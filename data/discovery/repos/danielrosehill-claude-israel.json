@@ -1,0 +1,121 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/Claude-Israel",
+      "target": "alexpolonsky/awesome-agent-skills-israel",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/Claude-Israel",
+      "target": "alexpolonsky/agent-skill-ontopo",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/Claude-Israel",
+      "target": "alexpolonsky/agent-skill-jlm-coffee",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/Claude-Israel",
+      "target": "avivshafir/israeli-corporate-law-skill",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielrosehill/Claude-Israel",
+      "target": "claude-code",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielrosehill/Claude-Israel",
+      "target": "ecosystem-maps",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielrosehill/Claude-Israel",
+      "target": "resource-lists",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T01:43:15.145711+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4602
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Index of people and projects building with Claude (incl. Claude Code) in Israel",
+    "fork": false,
+    "full_name": "danielrosehill/Claude-Israel",
+    "html_url": "https://github.com/danielrosehill/Claude-Israel",
+    "language": null,
+    "pushed_at": "2026-04-23T12:34:17Z",
+    "stargazers_count": 0,
+    "topics": [
+      "claude-code",
+      "ecosystem-maps",
+      "resource-lists"
+    ],
+    "updated_at": "2026-04-23T12:34:21Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "alexpolonsky/agent-skill-jlm-coffee",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "alexpolonsky/agent-skill-ontopo",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "alexpolonsky/awesome-agent-skills-israel",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "avivshafir/israeli-corporate-law-skill",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "![Claude Israel banner](assets/banner.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "claude-code"
+    },
+    {
+      "context_snippet": "![Claude Israel banner](assets/banner.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ecosystem-maps"
+    },
+    {
+      "context_snippet": "![Claude Israel banner](assets/banner.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "resource-lists"
+    }
+  ]
+}

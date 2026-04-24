@@ -2,7 +2,7 @@
   "component": "docker/build-push-action@10e90e3645eae34f1e60eeb005ba3a3d33f178e8",
   "discovered_via": "manifest-or-workflow",
   "first_seen_at": "2026-04-17T12:50:06.073855+00:00",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "source_repo": "NousResearch/hermes-agent",
   "sources": [
     {
@@ -84,6 +84,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/docker.yml",
       "source_repo": "nearai/ironclaw"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "dani-garcia/bw_web_builds"
     }
   ]
 }

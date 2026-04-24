@@ -1,0 +1,194 @@
+{
+  "components": [
+    {
+      "component": "@newrelic/eslint-config",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint-plugin-jsdoc",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "newrelic/node-newrelic/.github/workflows/board.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/add-to-board.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-workflow.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-workflow.yml"
+    },
+    {
+      "component": "actions/github-script@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/repolinter.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/repolinter.yml"
+    },
+    {
+      "component": "newrelic/repolinter-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/repolinter.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "newrelic/newrelic-node-examples",
+      "target": "newrelic/opensource-website",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "newrelic/newrelic-node-examples",
+      "target": "@newrelic/eslint-config",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "newrelic/newrelic-node-examples",
+      "target": "eslint-plugin-jsdoc",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/add-to-board.yml",
+      "source_repo": "newrelic/newrelic-node-examples",
+      "target": "newrelic/node-newrelic/.github/workflows/board.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/add-to-board.yml",
+      "source_repo": "newrelic/newrelic-node-examples",
+      "target": "Auto Assign to Project(s)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-workflow.yml",
+      "source_repo": "newrelic/newrelic-node-examples",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-workflow.yml",
+      "source_repo": "newrelic/newrelic-node-examples",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-workflow.yml",
+      "source_repo": "newrelic/newrelic-node-examples",
+      "target": "Node Agent Examples CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/repolinter.yml",
+      "source_repo": "newrelic/newrelic-node-examples",
+      "target": "actions/github-script@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/repolinter.yml",
+      "source_repo": "newrelic/newrelic-node-examples",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/repolinter.yml",
+      "source_repo": "newrelic/newrelic-node-examples",
+      "target": "newrelic/repolinter-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/repolinter.yml",
+      "source_repo": "newrelic/newrelic-node-examples",
+      "target": "Repolinter Action",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T01:39:38.128413+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5337
+    },
+    {
+      "path": "package.json",
+      "size": 408
+    },
+    {
+      "path": ".github/workflows/add-to-board.yml",
+      "size": 319
+    },
+    {
+      "path": ".github/workflows/ci-workflow.yml",
+      "size": 628
+    },
+    {
+      "path": ".github/workflows/repolinter.yml",
+      "size": 1182
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Working examples of New Relic Node.js agent features",
+    "fork": false,
+    "full_name": "newrelic/newrelic-node-examples",
+    "html_url": "https://github.com/newrelic/newrelic-node-examples",
+    "language": "JavaScript",
+    "pushed_at": "2026-04-21T20:03:02Z",
+    "stargazers_count": 24,
+    "topics": [],
+    "updated_at": "2026-04-20T17:28:32Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "newrelic/opensource-website",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Auto Assign to Project(s)",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/add-to-board.yml",
+      "term": "Auto Assign to Project(s)"
+    },
+    {
+      "context_snippet": "Node Agent Examples CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-workflow.yml",
+      "term": "Node Agent Examples CI"
+    },
+    {
+      "context_snippet": "Repolinter Action",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/repolinter.yml",
+      "term": "Repolinter Action"
+    }
+  ]
+}

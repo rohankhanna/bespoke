@@ -1000,6 +1000,162 @@
       "source_repo": "walles/px",
       "status": "candidate-context",
       "text": "|Linux CI Status| |macOS CI Status|"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "boyter/scc",
+      "status": "candidate-context",
+      "text": "Sloc, Cloc and Code: scc is a very fast accurate code counter with complexity calculations and COCOMO estimates written in pure Go"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "boyter/scc",
+      "status": "candidate-context",
+      "text": "![SCC illustration](./scc.jpg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "joseluisq/paket",
+      "status": "candidate-context",
+      "text": "A simple and fast package manager for the Fish shell written in Rust. \ud83d\udce6"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "joseluisq/paket",
+      "status": "candidate-context",
+      "text": "> A simple and fast package manager for the [Fish Shell](https://fishshell.com/) written in [Rust](https://www.rust-lang.org/). \ud83d\udc20"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "intel/intel-ipsec-mb",
+      "status": "candidate-context",
+      "text": "Intel(R) Multi-Buffer Crypto for IPSec"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "intel/intel-ipsec-mb",
+      "status": "candidate-context",
+      "text": "Linux"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gulrak/filesystem",
+      "status": "candidate-context",
+      "text": "An implementation of C++17 std::filesystem for C++11 /C++14/C++17/C++20 on Windows, macOS, Linux and FreeBSD."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gulrak/filesystem",
+      "status": "candidate-context",
+      "text": "![Supported Platforms](https://img.shields.io/badge/platform-macOS%20%7C%20Linux%20%7C%20Windows%20%7C%20FreeBSD-blue.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alpinelinux/aports",
+      "status": "candidate-context",
+      "text": "[MIRROR] Alpine packages build scripts"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alpinelinux/aports",
+      "status": "candidate-context",
+      "text": "This repository contains the APKBUILD files for each and every"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AppImage/AppImageKit",
+      "status": "candidate-context",
+      "text": "Package desktop applications as AppImages that run on common Linux-based operating systems, such as RHEL, CentOS, openSUSE, SLED, Ubuntu, Fedora, debian and derivatives. Join #AppImage on irc.libera.chat"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AppImage/AppImageKit",
+      "status": "candidate-context",
+      "text": "The __AppImage__ format is a format for packaging applications in a way that allows them to"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AppImageCommunity/pkg2appimage",
+      "status": "candidate-context",
+      "text": "Tool and recipes to convert existing deb packages to AppImage "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AppImageCommunity/pkg2appimage",
+      "status": "candidate-context",
+      "text": "[Download as an AppImage](../../releases/tag/continuous)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apptainer/apptainer",
+      "status": "candidate-context",
+      "text": "Apptainer: Application containers for Linux"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apptainer/apptainer",
+      "status": "candidate-context",
+      "text": "[![CI](https://github.com/apptainer/apptainer/actions/workflows/ci.yml/badge.svg)](https://github.com/apptainer/apptainer/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "89luca89/distrobox",
+      "status": "candidate-context",
+      "text": "Use any linux distribution inside your terminal. Enable both backward and forward compatibility with software and freedom to use whatever distribution you\u2019re more comfortable with. Mirror available at: https://gitlab.com/89luca89/distrobox"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "89luca89/distrobox",
+      "status": "candidate-context",
+      "text": "CI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dacap/clip",
+      "status": "candidate-context",
+      "text": "Cross-platform C++ library to copy/paste clipboard content"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dacap/clip",
+      "status": "candidate-context",
+      "text": "*Copyright (c) 2015-2026 David Capello*"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "raysan5/raylib",
+      "status": "candidate-context",
+      "text": "A simple and easy-to-use library to enjoy videogames programming"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "raysan5/raylib",
+      "status": "candidate-context",
+      "text": "<img align=\"left\" style=\"width:260px\" src=\"https://github.com/raysan5/raylib/blob/master/logo/raylib_logo_animation.gif\" width=\"288px\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ajenti/ajenti",
+      "status": "candidate-context",
+      "text": "Ajenti Core and stock plugins"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ajenti/ajenti",
+      "status": "candidate-context",
+      "text": "[![Logo](docs/img/Logo.png)](https://ajenti.org/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "giuseppe/become-root",
+      "status": "candidate-context",
+      "text": "minimal tool for creating a new user namespace with multiple UIDs/GIDs mapped inside"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "giuseppe/become-root",
+      "status": "candidate-context",
+      "text": "become-root"
     }
   ],
   "candidate_glosses": [
@@ -1500,6 +1656,84 @@
       "source_repo": "walles/px",
       "status": "candidate",
       "text": "|Linux CI Status| |macOS CI Status|"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "boyter/scc",
+      "status": "candidate",
+      "text": "![SCC illustration](./scc.jpg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "joseluisq/paket",
+      "status": "candidate",
+      "text": "> A simple and fast package manager for the [Fish Shell](https://fishshell.com/) written in [Rust](https://www.rust-lang.org/). \ud83d\udc20"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "intel/intel-ipsec-mb",
+      "status": "candidate",
+      "text": "Linux"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gulrak/filesystem",
+      "status": "candidate",
+      "text": "![Supported Platforms](https://img.shields.io/badge/platform-macOS%20%7C%20Linux%20%7C%20Windows%20%7C%20FreeBSD-blue.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alpinelinux/aports",
+      "status": "candidate",
+      "text": "This repository contains the APKBUILD files for each and every"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AppImage/AppImageKit",
+      "status": "candidate",
+      "text": "The __AppImage__ format is a format for packaging applications in a way that allows them to"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AppImageCommunity/pkg2appimage",
+      "status": "candidate",
+      "text": "[Download as an AppImage](../../releases/tag/continuous)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apptainer/apptainer",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/apptainer/apptainer/actions/workflows/ci.yml/badge.svg)](https://github.com/apptainer/apptainer/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "89luca89/distrobox",
+      "status": "candidate",
+      "text": "CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dacap/clip",
+      "status": "candidate",
+      "text": "*Copyright (c) 2015-2026 David Capello*"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "raysan5/raylib",
+      "status": "candidate",
+      "text": "<img align=\"left\" style=\"width:260px\" src=\"https://github.com/raysan5/raylib/blob/master/logo/raylib_logo_animation.gif\" width=\"288px\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ajenti/ajenti",
+      "status": "candidate",
+      "text": "[![Logo](docs/img/Logo.png)](https://ajenti.org/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "giuseppe/become-root",
+      "status": "candidate",
+      "text": "become-root"
     }
   ],
   "candidate_related_terms": [
@@ -2125,11 +2359,107 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "walles/px"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "boyter/scc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "joseluisq/paket"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/linux.yml",
+      "source_repo": "intel/intel-ipsec-mb"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "gulrak/filesystem"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "alpinelinux/aports"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "AppImage/AppImageKit"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "AppImageCommunity/pkg2appimage"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "apptainer/apptainer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "89luca89/distrobox"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/Microsoft-Performance-Tools-Linux-Android"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "dacap/clip"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "raysan5/raylib"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "ajenti/ajenti"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "containers/podman"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "giuseppe/become-root"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "chakra-core/ChakraCore"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

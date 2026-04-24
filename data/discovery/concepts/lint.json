@@ -2057,6 +2057,186 @@
       "source_repo": "LDLINGLINGLING/sglang",
       "status": "candidate-context",
       "text": "Lint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/dcp",
+      "status": "candidate-context",
+      "text": "Developer Control Plane API server and CLI."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/dcp",
+      "status": "candidate-context",
+      "text": "Lint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "libvips/libvips",
+      "status": "candidate-context",
+      "text": "A fast image processing library with low memory needs."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "libvips/libvips",
+      "status": "candidate-context",
+      "text": "Lint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "r-lib/lintr",
+      "status": "candidate-context",
+      "text": "Static Code Analysis for R"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "r-lib/lintr",
+      "status": "candidate-context",
+      "text": "lint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dgn/oidc-filter",
+      "status": "candidate-context",
+      "text": "A WASM plugin for Envoy supporting the Open ID Connect Authorization Flow, extending Istio's JWT functionality"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dgn/oidc-filter",
+      "status": "candidate-context",
+      "text": "lint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "valyala/fasthttp",
+      "status": "candidate-context",
+      "text": "Fast HTTP package for Go. Tuned for high performance. Zero memory allocations in hot paths. Up to 10x faster than net/http"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "valyala/fasthttp",
+      "status": "candidate-context",
+      "text": "Lint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "op-rs/maili",
+      "status": "candidate-context",
+      "text": "Composable rust types and interfaces specific to the OP Stack. Built on Alloy."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "op-rs/maili",
+      "status": "candidate-context",
+      "text": "lint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "actix/actix-net",
+      "status": "candidate-context",
+      "text": "A collection of lower-level libraries for composable network services."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "actix/actix-net",
+      "status": "candidate-context",
+      "text": "Lint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "arkworks-rs/crypto-primitives",
+      "status": "candidate-context",
+      "text": "Interfaces and implementations of cryptographic primitives, along with R1CS constraints for them "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "arkworks-rs/crypto-primitives",
+      "status": "candidate-context",
+      "text": "Lint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Uniswap/v3-core",
+      "status": "candidate-context",
+      "text": "\ud83e\udd84 \ud83e\udd84 \ud83e\udd84 Core smart contracts of Uniswap v3"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Uniswap/v3-core",
+      "status": "candidate-context",
+      "text": "Lint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nodejs/readable-stream",
+      "status": "candidate-context",
+      "text": "Node-core streams for userland"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nodejs/readable-stream",
+      "status": "candidate-context",
+      "text": "Lint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ColemanGariety/gulp-nodemon",
+      "status": "candidate-context",
+      "text": "gulp + nodemon + convenience"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ColemanGariety/gulp-nodemon",
+      "status": "candidate-context",
+      "text": "gulp-nodemon"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "89luca89/distrobox",
+      "status": "candidate-context",
+      "text": "Use any linux distribution inside your terminal. Enable both backward and forward compatibility with software and freedom to use whatever distribution you\u2019re more comfortable with. Mirror available at: https://gitlab.com/89luca89/distrobox"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "89luca89/distrobox",
+      "status": "candidate-context",
+      "text": "Lint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "meta-pytorch/torchtune",
+      "status": "candidate-context",
+      "text": "PyTorch native post-training library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "meta-pytorch/torchtune",
+      "status": "candidate-context",
+      "text": "Lint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dmlc/dgl",
+      "status": "candidate-context",
+      "text": "Python package built to ease deep learning on graph, on top of existing DL frameworks."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dmlc/dgl",
+      "status": "candidate-context",
+      "text": "Lint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pytorch/vision",
+      "status": "candidate-context",
+      "text": "Datasets, Transforms and Models specific to Computer Vision"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pytorch/vision",
+      "status": "candidate-context",
+      "text": "Lint"
     }
   ],
   "candidate_glosses": [
@@ -3095,6 +3275,96 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "LDLINGLINGLING/sglang",
+      "status": "candidate",
+      "text": "Lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/dcp",
+      "status": "candidate",
+      "text": "Lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "libvips/libvips",
+      "status": "candidate",
+      "text": "Lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "r-lib/lintr",
+      "status": "candidate",
+      "text": "lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dgn/oidc-filter",
+      "status": "candidate",
+      "text": "lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "valyala/fasthttp",
+      "status": "candidate",
+      "text": "Lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "op-rs/maili",
+      "status": "candidate",
+      "text": "lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "actix/actix-net",
+      "status": "candidate",
+      "text": "Lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "arkworks-rs/crypto-primitives",
+      "status": "candidate",
+      "text": "Lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Uniswap/v3-core",
+      "status": "candidate",
+      "text": "Lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nodejs/readable-stream",
+      "status": "candidate",
+      "text": "Lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ColemanGariety/gulp-nodemon",
+      "status": "candidate",
+      "text": "gulp-nodemon"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "89luca89/distrobox",
+      "status": "candidate",
+      "text": "Lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "meta-pytorch/torchtune",
+      "status": "candidate",
+      "text": "Lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dmlc/dgl",
+      "status": "candidate",
+      "text": "Lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pytorch/vision",
       "status": "candidate",
       "text": "Lint"
     }
@@ -4513,11 +4783,155 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": ".github/workflows/lint.yml",
       "source_repo": "LDLINGLINGLING/sglang"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/Lint.yml",
+      "source_repo": "igor-makarov/xcake"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "peco/peco"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "microsoft/dcp"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "libvips/libvips"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/lint.yaml",
+      "source_repo": "r-lib/lintr"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "dgn/oidc-filter"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "valyala/fasthttp"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "op-rs/maili"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "actix/actix-net"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/mdlinter.yml",
+      "source_repo": "arkworks-rs/crypto-primitives"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "Uniswap/v3-core"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "nodejs/readable-stream"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "all-contributors/allcontributors.org"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "standard/snazzy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "vim-syntastic/syntastic"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "facebook/create-react-app"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "ColemanGariety/gulp-nodemon"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "89luca89/distrobox"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "AndyMik90/Aperant"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "bitsandbytes-foundation/bitsandbytes"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/lint.yaml",
+      "source_repo": "meta-pytorch/torchtune"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "react-native-webview/react-native-webview"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "dmlc/dgl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "pytorch/vision"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

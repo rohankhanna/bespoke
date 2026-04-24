@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Publish tag to Pypi"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "redis/redis-py",
+      "status": "candidate-context",
+      "text": "Redis Python client"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "redis/redis-py",
+      "status": "candidate-context",
+      "text": "Publish tag to Pypi"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "redis/redis-py",
+      "status": "candidate",
+      "text": "Publish tag to Pypi"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11635,
+      "status": "candidate",
+      "text": "out"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11559,
+      "status": "candidate",
+      "text": "name"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10597,
+      "status": "candidate",
+      "text": "aut"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10597,
+      "status": "candidate",
+      "text": "edition"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10597,
+      "status": "candidate",
+      "text": "imprimatur"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Publish tag to Pypi",
+  "concept_id": "publish-tag-to-pypi",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/pypi-publish.yaml",
+      "source_repo": "redis/redis-py"
+    }
+  ],
+  "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Publish tag to Pypi",
+      "sense_id": "publish-tag-to-pypi#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

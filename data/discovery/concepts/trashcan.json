@@ -19,6 +19,18 @@
       "source_repo": "andreafrancia/trash-cli",
       "status": "candidate-context",
       "text": "trash-cli - Command Line Interface to FreeDesktop.org Trash."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "theimpossibleastronaut/rmw",
+      "status": "candidate-context",
+      "text": "trashcan/recycle bin utility for the command line"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "theimpossibleastronaut/rmw",
+      "status": "candidate-context",
+      "text": "rmw (ReMove to Waste) is a trashcan/recycle bin utility for the command line."
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "andreafrancia/trash-cli",
       "status": "candidate",
       "text": "trash-cli - Command Line Interface to FreeDesktop.org Trash."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "theimpossibleastronaut/rmw",
+      "status": "candidate",
+      "text": "rmw (ReMove to Waste) is a trashcan/recycle bin utility for the command line."
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "andreafrancia/trash-cli"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "theimpossibleastronaut/rmw"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

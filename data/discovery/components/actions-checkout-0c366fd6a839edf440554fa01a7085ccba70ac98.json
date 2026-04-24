@@ -1,7 +1,7 @@
 {
   "component": "actions/checkout@0c366fd6a839edf440554fa01a7085ccba70ac98",
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -82,6 +82,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/scorecards.yml",
       "source_repo": "rust-cross/rust-musl-cross"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/agent-scan.yml",
+      "source_repo": "nuxt/nuxt"
     }
   ]
 }

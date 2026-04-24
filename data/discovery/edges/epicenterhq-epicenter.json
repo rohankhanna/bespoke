@@ -1,0 +1,244 @@
+{
+  "edges": [
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "EpicenterHQ/epicenter",
+      "target": "tinyexec",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "EpicenterHQ/epicenter",
+      "target": "@biomejs/biome",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "EpicenterHQ/epicenter",
+      "target": "@types/bun",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "EpicenterHQ/epicenter",
+      "target": "@types/node",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "EpicenterHQ/epicenter",
+      "target": "turbo",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "EpicenterHQ/epicenter",
+      "target": "jsrepo",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto.label-issues.yml",
+      "source_repo": "EpicenterHQ/epicenter",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto.label-issues.yml",
+      "source_repo": "EpicenterHQ/epicenter",
+      "target": "anthropics/claude-code-action@28f83620103c48a57093dcc2837eec89e036bb9f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto.label-issues.yml",
+      "source_repo": "EpicenterHQ/epicenter",
+      "target": "Auto-Label Issues with Claude",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto.release.yml",
+      "source_repo": "EpicenterHQ/epicenter",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto.release.yml",
+      "source_repo": "EpicenterHQ/epicenter",
+      "target": "oven-sh/setup-bun@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto.release.yml",
+      "source_repo": "EpicenterHQ/epicenter",
+      "target": "Auto Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.autofix.yml",
+      "source_repo": "EpicenterHQ/epicenter",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.autofix.yml",
+      "source_repo": "EpicenterHQ/epicenter",
+      "target": "oven-sh/setup-bun@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.autofix.yml",
+      "source_repo": "EpicenterHQ/epicenter",
+      "target": "autofix-ci/action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.autofix.yml",
+      "source_repo": "EpicenterHQ/epicenter",
+      "target": "autofix.ci",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.format.yml",
+      "source_repo": "EpicenterHQ/epicenter",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.format.yml",
+      "source_repo": "EpicenterHQ/epicenter",
+      "target": "oven-sh/setup-bun@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.format.yml",
+      "source_repo": "EpicenterHQ/epicenter",
+      "target": "Code quality",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "EpicenterHQ/epicenter",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "EpicenterHQ/epicenter",
+      "target": "anthropics/claude-code-action@28f83620103c48a57093dcc2837eec89e036bb9f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "EpicenterHQ/epicenter",
+      "target": "Claude Code",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.cloudflare-preview.yml",
+      "source_repo": "EpicenterHQ/epicenter",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.cloudflare-preview.yml",
+      "source_repo": "EpicenterHQ/epicenter",
+      "target": "oven-sh/setup-bun@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.cloudflare-preview.yml",
+      "source_repo": "EpicenterHQ/epicenter",
+      "target": "cloudflare/wrangler-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy.cloudflare-preview.yml",
+      "source_repo": "EpicenterHQ/epicenter",
+      "target": "Preview Deployment",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.cloudflare.yml",
+      "source_repo": "EpicenterHQ/epicenter",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.cloudflare.yml",
+      "source_repo": "EpicenterHQ/epicenter",
+      "target": "oven-sh/setup-bun@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.cloudflare.yml",
+      "source_repo": "EpicenterHQ/epicenter",
+      "target": "cloudflare/wrangler-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy.cloudflare.yml",
+      "source_repo": "EpicenterHQ/epicenter",
+      "target": "Deploy to Cloudflare Workers",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "EpicenterHQ/epicenter",
+      "target": "svelte",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "EpicenterHQ/epicenter",
+      "target": "sveltekit",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "EpicenterHQ/epicenter",
+      "target": "tailwindcss",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "EpicenterHQ/epicenter",
+      "target": "tauri",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-24T00:33:56.049672+00:00",
+  "source_repo": "EpicenterHQ/epicenter"
+}

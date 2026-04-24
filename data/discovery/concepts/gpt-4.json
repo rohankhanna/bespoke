@@ -193,6 +193,42 @@
       "source_repo": "mbzuai-oryx/Video-ChatGPT",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "OpenBMB/AgentVerse",
+      "status": "candidate-context",
+      "text": "\ud83e\udd16 AgentVerse \ud83e\ude90 is designed to facilitate the deployment of multiple LLM-based agents in various applications, which primarily provides two frameworks: task-solving and simulation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenBMB/AgentVerse",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\"> \ud83e\udd16 AgentVerse \ud83e\ude90 </h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "OpenBMB/RepoAgent",
+      "status": "candidate-context",
+      "text": "An LLM-powered repository agent designed to assist developers and teams in generating documentation and understanding repositories quickly."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenBMB/RepoAgent",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "shikiw/OPERA",
+      "status": "candidate-context",
+      "text": "[CVPR 2024 Highlight] OPERA: Alleviating Hallucination in Multi-Modal Large Language Models via Over-Trust Penalty and Retrospection-Allocation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "shikiw/OPERA",
+      "status": "candidate-context",
+      "text": "[![License: MIT](https://img.shields.io/badge/License-MIT-g.svg)](https://opensource.org/licenses/MIT)"
     }
   ],
   "candidate_glosses": [
@@ -285,6 +321,24 @@
       "source_repo": "mbzuai-oryx/Video-ChatGPT",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenBMB/AgentVerse",
+      "status": "candidate",
+      "text": "<h1 align=\"center\"> \ud83e\udd16 AgentVerse \ud83e\ude90 </h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenBMB/RepoAgent",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "shikiw/OPERA",
+      "status": "candidate",
+      "text": "[![License: MIT](https://img.shields.io/badge/License-MIT-g.svg)](https://opensource.org/licenses/MIT)"
     }
   ],
   "candidate_related_terms": [],
@@ -418,11 +472,29 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "mbzuai-oryx/Video-ChatGPT"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "OpenBMB/AgentVerse"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "OpenBMB/RepoAgent"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "shikiw/OPERA"
     }
   ],
   "first_seen_at": "2026-04-18T12:07:11.500453+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

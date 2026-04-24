@@ -175,6 +175,54 @@
       "source_repo": "Azure/azure-cli",
       "status": "candidate-context",
       "text": "[![Python](https://img.shields.io/pypi/pyversions/azure-cli.svg?maxAge=2592000)](https://pypi.python.org/pypi/azure-cli)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Azure/azure-rest-api-specs",
+      "status": "candidate-context",
+      "text": "The source for REST API specifications for Microsoft Azure."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Azure/azure-rest-api-specs",
+      "status": "candidate-context",
+      "text": "This repository is the canonical source for REST API specifications for Microsoft Azure. You can learn more about it [here](https://eng.ms/docs/products/azure-developer-experience/design/api-specs-pr/api-repos)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jpillora/cloud-torrent",
+      "status": "candidate-context",
+      "text": "\u2601\ufe0f\u00a0Cloud Torrent: a self-hosted remote torrent client"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jpillora/cloud-torrent",
+      "status": "candidate-context",
+      "text": "<img src=\"https://user-images.githubusercontent.com/633843/32198822-e59a0fc4-be1d-11e7-9b92-03ce17ba05ba.png\" alt=\"screenshot\"/>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "boto/s3transfer",
+      "status": "candidate-context",
+      "text": "Amazon S3 Transfer Manager for Python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "boto/s3transfer",
+      "status": "candidate-context",
+      "text": "====================================================="
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mthenw/awesome-layers",
+      "status": "candidate-context",
+      "text": "\u03bb A curated list of awesome AWS Lambda Layers. Sponsored by https://cloudash.dev"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mthenw/awesome-layers",
+      "status": "candidate-context",
+      "text": "**A curated list of awesome AWS Lambda Layers**"
     }
   ],
   "candidate_glosses": [
@@ -261,6 +309,30 @@
       "source_repo": "Azure/azure-cli",
       "status": "candidate",
       "text": "[![Python](https://img.shields.io/pypi/pyversions/azure-cli.svg?maxAge=2592000)](https://pypi.python.org/pypi/azure-cli)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Azure/azure-rest-api-specs",
+      "status": "candidate",
+      "text": "This repository is the canonical source for REST API specifications for Microsoft Azure. You can learn more about it [here](https://eng.ms/docs/products/azure-developer-experience/design/api-specs-pr/api-repos)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jpillora/cloud-torrent",
+      "status": "candidate",
+      "text": "<img src=\"https://user-images.githubusercontent.com/633843/32198822-e59a0fc4-be1d-11e7-9b92-03ce17ba05ba.png\" alt=\"screenshot\"/>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "boto/s3transfer",
+      "status": "candidate",
+      "text": "====================================================="
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mthenw/awesome-layers",
+      "status": "candidate",
+      "text": "**A curated list of awesome AWS Lambda Layers**"
     }
   ],
   "candidate_related_terms": [
@@ -424,11 +496,35 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "Azure/azure-cli"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "Azure/azure-rest-api-specs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "jpillora/cloud-torrent"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "boto/s3transfer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "mthenw/awesome-layers"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Resolve abstract dependencies into concrete ones "
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "=========="
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "=========="
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10051286,
+      "status": "candidate",
+      "text": "prerequisite"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10051020,
+      "status": "candidate",
+      "text": "necessary"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10050727,
+      "status": "candidate",
+      "text": "requisite"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10050498,
+      "status": "candidate",
+      "text": "essential"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10050440,
+      "status": "candidate",
+      "text": "necessity"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "requirements",
+      "sense_id": "requirements#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "requirements",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "requirements",
+  "observation_id": "026371c27039ad5f",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T00:33:56.049672+00:00",
+  "observed_text": "requirements",
+  "source_context_snippet": "==========",
+  "source_file": null,
+  "source_repo": "sarugaku/resolvelib",
+  "source_repo_description": "Resolve abstract dependencies into concrete ones "
+}

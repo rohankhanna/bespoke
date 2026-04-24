@@ -1,0 +1,12 @@
+{
+  "component": "jupyter-server/jupyter_releaser/.github/actions/prep-release@eac745a8271d8ed64ba09d12dfbeef2178569e89",
+  "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/prep-release.yml",
+      "source_repo": "jupyter/nbclassic"
+    }
+  ]
+}

@@ -1,0 +1,211 @@
+{
+  "components": [
+    {
+      "component": "@illusionfield/mtest",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "sass",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "peter-evans/create-or-update-comment@v1.4.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/comment-issue.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_suite.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_suite.yml"
+    },
+    {
+      "component": "meteorengineer/setup-meteor@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_suite.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Meteor-Community-Packages/meteor-scss",
+      "target": "illusionfield/fourseven-scss",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Meteor-Community-Packages/meteor-scss",
+      "target": "@illusionfield/mtest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Meteor-Community-Packages/meteor-scss",
+      "target": "sass",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/comment-issue.yml",
+      "source_repo": "Meteor-Community-Packages/meteor-scss",
+      "target": "peter-evans/create-or-update-comment@v1.4.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/comment-issue.yml",
+      "source_repo": "Meteor-Community-Packages/meteor-scss",
+      "target": "Add immediate comment on new issues",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_suite.yml",
+      "source_repo": "Meteor-Community-Packages/meteor-scss",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_suite.yml",
+      "source_repo": "Meteor-Community-Packages/meteor-scss",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_suite.yml",
+      "source_repo": "Meteor-Community-Packages/meteor-scss",
+      "target": "meteorengineer/setup-meteor@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test_suite.yml",
+      "source_repo": "Meteor-Community-Packages/meteor-scss",
+      "target": "Test suite",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Meteor-Community-Packages/meteor-scss",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Meteor-Community-Packages/meteor-scss",
+      "target": "meteor",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Meteor-Community-Packages/meteor-scss",
+      "target": "sass",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Meteor-Community-Packages/meteor-scss",
+      "target": "scss",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T01:39:47.932375+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6965
+    },
+    {
+      "path": "package.json",
+      "size": 331
+    },
+    {
+      "path": ".github/workflows/comment-issue.yml",
+      "size": 1265
+    },
+    {
+      "path": ".github/workflows/test_suite.yml",
+      "size": 994
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Node-sass wrapped to work with meteor.",
+    "fork": false,
+    "full_name": "Meteor-Community-Packages/meteor-scss",
+    "html_url": "https://github.com/Meteor-Community-Packages/meteor-scss",
+    "language": "JavaScript",
+    "pushed_at": "2025-12-15T13:27:57Z",
+    "stargazers_count": 310,
+    "topics": [
+      "css",
+      "hacktoberfest",
+      "meteor",
+      "sass",
+      "scss"
+    ],
+    "updated_at": "2026-04-10T00:48:43Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "illusionfield/fourseven-scss",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Add immediate comment on new issues",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/comment-issue.yml",
+      "term": "Add immediate comment on new issues"
+    },
+    {
+      "context_snippet": "Test suite",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test_suite.yml",
+      "term": "Test suite"
+    },
+    {
+      "context_snippet": "This is a build plugin for Meteor.js that compiles Sass files using Dart Sass.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    },
+    {
+      "context_snippet": "This is a build plugin for Meteor.js that compiles Sass files using Dart Sass.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "meteor"
+    },
+    {
+      "context_snippet": "This is a build plugin for Meteor.js that compiles Sass files using Dart Sass.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sass"
+    },
+    {
+      "context_snippet": "This is a build plugin for Meteor.js that compiles Sass files using Dart Sass.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "scss"
+    }
+  ]
+}

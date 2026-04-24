@@ -1,0 +1,129 @@
+{
+  "aliases": [
+    "suite"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "TechEmpower/FrameworkBenchmarks",
+      "status": "candidate-context",
+      "text": "Source for the TechEmpower Framework Benchmarks project"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TechEmpower/FrameworkBenchmarks",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://github.com/TechEmpower/FrameworkBenchmarks/workflows/build/badge.svg?branch=master&event=push)](https://github.com/TechEmpower/FrameworkBenchmarks/actions?query=workflow%3Abuild+branch%3Amaster)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TechEmpower/FrameworkBenchmarks",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/TechEmpower/FrameworkBenchmarks/workflows/build/badge.svg?branch=master&event=push)](https://github.com/TechEmpower/FrameworkBenchmarks/actions?query=workflow%3Abuild+branch%3Amaster)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39992743,
+      "status": "candidate",
+      "text": "entourage"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39992734,
+      "status": "candidate",
+      "text": "retinue"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39974205,
+      "status": "candidate",
+      "text": "cortege"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29992760,
+      "status": "candidate",
+      "text": "rooms"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29984917,
+      "status": "candidate",
+      "text": "host"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 16033,
+      "status": "candidate",
+      "text": "retinue"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 14028,
+      "status": "candidate",
+      "text": "entourage"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 11031,
+      "status": "candidate",
+      "text": "cortege"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 25,
+      "status": "candidate",
+      "text": "rooms"
+    }
+  ],
+  "canonical_name": "suite",
+  "concept_id": "suite",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "TechEmpower/FrameworkBenchmarks"
+    }
+  ],
+  "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "suite",
+      "sense_id": "suite#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

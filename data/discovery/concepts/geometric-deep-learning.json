@@ -31,6 +31,18 @@
       "source_repo": "pyg-team/pyg-lib",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rusty1s/pytorch_cluster",
+      "status": "candidate-context",
+      "text": "PyTorch Extension Library of Optimized Graph Cluster Algorithms"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rusty1s/pytorch_cluster",
+      "status": "candidate-context",
+      "text": "[pypi-image]: https://badge.fury.io/py/torch-cluster.svg"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "pyg-team/pyg-lib",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rusty1s/pytorch_cluster",
+      "status": "candidate",
+      "text": "[pypi-image]: https://badge.fury.io/py/torch-cluster.svg"
     }
   ],
   "candidate_related_terms": [],
@@ -70,11 +88,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "pyg-team/pytorch_geometric"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "rusty1s/pytorch_cluster"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

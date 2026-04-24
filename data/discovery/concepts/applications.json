@@ -1,0 +1,124 @@
+{
+  "aliases": [
+    "applications"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AppImage/AppImageKit",
+      "status": "candidate-context",
+      "text": "Package desktop applications as AppImages that run on common Linux-based operating systems, such as RHEL, CentOS, openSUSE, SLED, Ubuntu, Fedora, debian and derivatives. Join #AppImage on irc.libera.chat"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AppImage/AppImageKit",
+      "status": "candidate-context",
+      "text": "The __AppImage__ format is a format for packaging applications in a way that allows them to"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AppImageCommunity/pkg2appimage",
+      "status": "candidate-context",
+      "text": "Tool and recipes to convert existing deb packages to AppImage "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AppImageCommunity/pkg2appimage",
+      "status": "candidate-context",
+      "text": "[Download as an AppImage](../../releases/tag/continuous)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AppImage/AppImageKit",
+      "status": "candidate",
+      "text": "The __AppImage__ format is a format for packaging applications in a way that allows them to"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AppImageCommunity/pkg2appimage",
+      "status": "candidate",
+      "text": "[Download as an AppImage](../../releases/tag/continuous)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10035284,
+      "status": "candidate",
+      "text": "diligence"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9974220,
+      "status": "candidate",
+      "text": "covering"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9959990,
+      "status": "candidate",
+      "text": "application program"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9943323,
+      "status": "candidate",
+      "text": "coating"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9906694,
+      "status": "candidate",
+      "text": "lotion"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "applications",
+  "concept_id": "applications",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "AppImage/AppImageKit"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "AppImageCommunity/pkg2appimage"
+    }
+  ],
+  "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "applications",
+      "sense_id": "applications#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

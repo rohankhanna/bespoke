@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "torrent-client"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jpillora/cloud-torrent",
+      "status": "candidate-context",
+      "text": "\u2601\ufe0f\u00a0Cloud Torrent: a self-hosted remote torrent client"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jpillora/cloud-torrent",
+      "status": "candidate-context",
+      "text": "<img src=\"https://user-images.githubusercontent.com/633843/32198822-e59a0fc4-be1d-11e7-9b92-03ce17ba05ba.png\" alt=\"screenshot\"/>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jpillora/cloud-torrent",
+      "status": "candidate",
+      "text": "<img src=\"https://user-images.githubusercontent.com/633843/32198822-e59a0fc4-be1d-11e7-9b92-03ce17ba05ba.png\" alt=\"screenshot\"/>"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "torrent-client",
+  "concept_id": "torrent-client",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "jpillora/cloud-torrent"
+    }
+  ],
+  "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "torrent-client",
+      "sense_id": "torrent-client#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

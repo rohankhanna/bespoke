@@ -1,7 +1,7 @@
 {
   "component": "dtolnay/rust-toolchain@v1",
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -37,6 +37,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/binary-size.yml",
       "source_repo": "esp-rs/esp-hal"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cont_integration.yml",
+      "source_repo": "bitcoindevkit/rust-electrum-client"
     }
   ]
 }

@@ -1,7 +1,8 @@
 {
   "aliases": [
     "Publish Docs",
-    "publish docs"
+    "publish docs",
+    "Publish docs"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -104,6 +105,18 @@
       "source_repo": "google/adk-docs",
       "status": "candidate-context",
       "text": "Publish Docs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "grok-ai/nn-template",
+      "status": "candidate-context",
+      "text": "Generic template to bootstrap your PyTorch project."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "grok-ai/nn-template",
+      "status": "candidate-context",
+      "text": "Publish docs"
     }
   ],
   "candidate_glosses": [
@@ -154,6 +167,12 @@
       "source_repo": "google/adk-docs",
       "status": "candidate",
       "text": "Publish Docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "grok-ai/nn-template",
+      "status": "candidate",
+      "text": "Publish docs"
     }
   ],
   "candidate_related_terms": [
@@ -257,11 +276,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": ".github/workflows/publish-docs.yaml",
       "source_repo": "google/adk-docs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/publish_docs.yml",
+      "source_repo": "grok-ai/nn-template"
     }
   ],
   "first_seen_at": "2026-04-19T01:08:57.644140+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

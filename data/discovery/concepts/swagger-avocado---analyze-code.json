@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Swagger Avocado - Analyze Code"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Azure/azure-rest-api-specs",
+      "status": "candidate-context",
+      "text": "The source for REST API specifications for Microsoft Azure."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Azure/azure-rest-api-specs",
+      "status": "candidate-context",
+      "text": "\"Swagger Avocado - Analyze Code\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Azure/azure-rest-api-specs",
+      "status": "candidate",
+      "text": "\"Swagger Avocado - Analyze Code\""
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29086,
+      "status": "candidate",
+      "text": "proctor"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28607,
+      "status": "candidate",
+      "text": "opening"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28583,
+      "status": "candidate",
+      "text": "guidance"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28583,
+      "status": "candidate",
+      "text": "right"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28558,
+      "status": "candidate",
+      "text": "advance"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Swagger Avocado - Analyze Code",
+  "concept_id": "swagger-avocado---analyze-code",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/avocado-code.yaml",
+      "source_repo": "Azure/azure-rest-api-specs"
+    }
+  ],
+  "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Swagger Avocado - Analyze Code",
+      "sense_id": "swagger-avocado---analyze-code#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

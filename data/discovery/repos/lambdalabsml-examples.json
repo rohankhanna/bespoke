@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-24T02:01:38.455445+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1183
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Deep Learning Examples",
+    "fork": false,
+    "full_name": "LambdaLabsML/examples",
+    "html_url": "https://github.com/LambdaLabsML/examples",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2024-10-18T05:13:31Z",
+    "stargazers_count": 828,
+    "topics": [],
+    "updated_at": "2026-04-10T06:12:55Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

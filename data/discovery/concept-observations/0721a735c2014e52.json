@@ -1,0 +1,101 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Apache Seata(incubating) Website"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![seata website deploy on github](https://github.com/apache/incubator-seata-website/actions/workflows/deploy.yml/badge.svg?branch=docusaurus)](https://github.com/apache/incubator-seata-website/actions/workflows/deploy.yml)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![seata website deploy on github](https://github.com/apache/incubator-seata-website/actions/workflows/deploy.yml/badge.svg?branch=docusaurus)](https://github.com/apache/incubator-seata-website/actions/workflows/deploy.yml)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40001345,
+      "status": "candidate",
+      "text": "clause"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30028261,
+      "status": "candidate",
+      "text": "byline"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30028002,
+      "status": "candidate",
+      "text": "chapter"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30027136,
+      "status": "candidate",
+      "text": "essay"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30026412,
+      "status": "candidate",
+      "text": "writeup"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "article",
+      "sense_id": "article#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "clause"
+    }
+  ],
+  "concept_id": "article",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "article",
+  "observation_id": "0721a735c2014e52",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T00:33:56.049672+00:00",
+  "observed_text": "article",
+  "source_context_snippet": "[![seata website deploy on github](https://github.com/apache/incubator-seata-website/actions/workflows/deploy.yml/badge.svg?branch=docusaurus)](https://github.com/apache/incubator-seata-website/actions/workflows/deploy.yml)",
+  "source_file": null,
+  "source_repo": "apache/incubator-seata-website",
+  "source_repo_description": "Apache Seata(incubating) Website"
+}

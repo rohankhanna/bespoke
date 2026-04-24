@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Developer-first error tracking and performance monitoring"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "bump sentry in getsentry"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "bump sentry in getsentry"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10600,
+      "status": "candidate",
+      "text": "remove"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10600,
+      "status": "candidate",
+      "text": "sage"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10523,
+      "status": "candidate",
+      "text": "beats"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10523,
+      "status": "candidate",
+      "text": "lookout"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10523,
+      "status": "candidate",
+      "text": "patrol"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "bump sentry in getsentry",
+      "sense_id": "bump-sentry-in-getsentry#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "bump-sentry-in-getsentry",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "bump-sentry-in-getsentry",
+  "observation_id": "81b28529fbf743e4",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-24T00:33:56.049672+00:00",
+  "observed_text": "bump sentry in getsentry",
+  "source_context_snippet": "bump sentry in getsentry",
+  "source_file": ".github/workflows/bump-sentry-in-getsentry.yml",
+  "source_repo": "getsentry/sentry",
+  "source_repo_description": "Developer-first error tracking and performance monitoring"
+}

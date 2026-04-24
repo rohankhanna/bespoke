@@ -1,0 +1,167 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "microsoft/aspire-samples",
+      "target": "dotnet/aspire-samples",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "microsoft/aspire-samples",
+      "target": "dotnet/eshop",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "microsoft/aspire-samples",
+      "target": "dotnet/aspire",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "microsoft/aspire-samples",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "microsoft/aspire-samples",
+      "target": "docker/setup-docker-action@1a6edb0ba9ac496f6850236981f15d8f9a82254d",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "microsoft/aspire-samples",
+      "target": "actions/setup-dotnet@c2fa09f4bde5ebb9d1777cf28262a3eb3db3ced7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "microsoft/aspire-samples",
+      "target": "actions/setup-node@53b83947a5a98c8d113130e565377fae1a50d02f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "microsoft/aspire-samples",
+      "target": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "microsoft/aspire-samples",
+      "target": "Aspire Samples CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labeler-cache-retention.yml",
+      "source_repo": "microsoft/aspire-samples",
+      "target": "dotnet/issue-labeler/restore@46125e85e6a568dc712f358c39f35317366f5eed",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/labeler-cache-retention.yml",
+      "source_repo": "microsoft/aspire-samples",
+      "target": "Labeler: Cache Retention",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labeler-predict-issues.yml",
+      "source_repo": "microsoft/aspire-samples",
+      "target": "dotnet/issue-labeler/restore@46125e85e6a568dc712f358c39f35317366f5eed",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labeler-predict-issues.yml",
+      "source_repo": "microsoft/aspire-samples",
+      "target": "dotnet/issue-labeler/predict@46125e85e6a568dc712f358c39f35317366f5eed",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/labeler-predict-issues.yml",
+      "source_repo": "microsoft/aspire-samples",
+      "target": "Labeler: Predict (Issues)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labeler-predict-pulls.yml",
+      "source_repo": "microsoft/aspire-samples",
+      "target": "dotnet/issue-labeler/restore@46125e85e6a568dc712f358c39f35317366f5eed",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labeler-predict-pulls.yml",
+      "source_repo": "microsoft/aspire-samples",
+      "target": "dotnet/issue-labeler/predict@46125e85e6a568dc712f358c39f35317366f5eed",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/labeler-predict-pulls.yml",
+      "source_repo": "microsoft/aspire-samples",
+      "target": "Labeler: Predict (Pulls)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labeler-promote.yml",
+      "source_repo": "microsoft/aspire-samples",
+      "target": "dotnet/issue-labeler/promote@46125e85e6a568dc712f358c39f35317366f5eed",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/labeler-promote.yml",
+      "source_repo": "microsoft/aspire-samples",
+      "target": "Labeler: Promotion",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labeler-train.yml",
+      "source_repo": "microsoft/aspire-samples",
+      "target": "dotnet/issue-labeler/download@46125e85e6a568dc712f358c39f35317366f5eed",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labeler-train.yml",
+      "source_repo": "microsoft/aspire-samples",
+      "target": "dotnet/issue-labeler/train@46125e85e6a568dc712f358c39f35317366f5eed",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labeler-train.yml",
+      "source_repo": "microsoft/aspire-samples",
+      "target": "dotnet/issue-labeler/test@46125e85e6a568dc712f358c39f35317366f5eed",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/labeler-train.yml",
+      "source_repo": "microsoft/aspire-samples",
+      "target": "Labeler: Training",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-24T00:33:56.049672+00:00",
+  "source_repo": "microsoft/aspire-samples"
+}

@@ -1,0 +1,94 @@
+{
+  "aliases": [
+    "Dependabot enable auto merge"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "EspressoSystems/espresso-network",
+      "status": "candidate-context",
+      "text": "Dependabot enable auto merge"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "EspressoSystems/espresso-network",
+      "status": "candidate",
+      "text": "Dependabot enable auto merge"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18181,
+      "status": "candidate",
+      "text": "fluoroscope"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18121,
+      "status": "candidate",
+      "text": "wing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18102,
+      "status": "candidate",
+      "text": "fuse"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18102,
+      "status": "candidate",
+      "text": "run"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18019,
+      "status": "candidate",
+      "text": "taillight"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Dependabot enable auto merge",
+  "concept_id": "dependabot-enable-auto-merge",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/auto-merge-dependabot.yml",
+      "source_repo": "EspressoSystems/espresso-network"
+    }
+  ],
+  "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Dependabot enable auto merge",
+      "sense_id": "dependabot-enable-auto-merge#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

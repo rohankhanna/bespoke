@@ -1,7 +1,7 @@
 {
   "component": "oven-sh/setup-bun@v2",
   "first_seen_at": "2026-04-17T18:04:43.852571+00:00",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -607,6 +607,41 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "zloirock/core-js"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/npm.yml",
+      "source_repo": "lovell/sharp"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/auto.release.yml",
+      "source_repo": "EpicenterHQ/epicenter"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.autofix.yml",
+      "source_repo": "EpicenterHQ/epicenter"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.format.yml",
+      "source_repo": "EpicenterHQ/epicenter"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/deploy.cloudflare-preview.yml",
+      "source_repo": "EpicenterHQ/epicenter"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/deploy.cloudflare.yml",
+      "source_repo": "EpicenterHQ/epicenter"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "octokit/webhooks.js"
     }
   ]
 }

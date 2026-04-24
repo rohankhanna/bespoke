@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "geekworm-com/xscript",
+      "target": "pimlie/geekworm-x-c1",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-24T00:54:36.358273+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 889
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "This script is for raspberry pi nas storage products such as naspi, naspi cm4-m2 etc from Geekworm.",
+    "fork": false,
+    "full_name": "geekworm-com/xscript",
+    "html_url": "https://github.com/geekworm-com/xscript",
+    "language": "Shell",
+    "pushed_at": "2025-10-29T15:16:39Z",
+    "stargazers_count": 18,
+    "topics": [],
+    "updated_at": "2026-04-22T00:10:10Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pimlie/geekworm-x-c1",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

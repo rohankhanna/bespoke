@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Ultralytics LLM-related experiments"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Minify JavaScript"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Minify JavaScript"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 4540,
+      "status": "candidate",
+      "text": "lessen"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 4540,
+      "status": "candidate",
+      "text": "minified"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 4540,
+      "status": "candidate",
+      "text": "minifying"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 4387,
+      "status": "candidate",
+      "text": "abbreviate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 4116,
+      "status": "candidate",
+      "text": "java"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Minify JavaScript",
+      "sense_id": "minify-javascript#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "minify-javascript",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "minify-javascript",
+  "observation_id": "526a734c46c220a4",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-24T00:33:56.049672+00:00",
+  "observed_text": "Minify JavaScript",
+  "source_context_snippet": "Minify JavaScript",
+  "source_file": ".github/workflows/minify.yml",
+  "source_repo": "ultralytics/llm",
+  "source_repo_description": "Ultralytics LLM-related experiments"
+}

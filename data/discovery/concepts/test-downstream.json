@@ -19,12 +19,30 @@
       "source_repo": "PyO3/maturin",
       "status": "candidate-context",
       "text": "Test Downstream"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jupyter/nbclassic",
+      "status": "candidate-context",
+      "text": "Jupyter Notebook as a Jupyter Server extension"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jupyter/nbclassic",
+      "status": "candidate-context",
+      "text": "Test Downstream"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "PyO3/maturin",
+      "status": "candidate",
+      "text": "Test Downstream"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jupyter/nbclassic",
       "status": "candidate",
       "text": "Test Downstream"
     }
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": ".github/workflows/downstream.yml",
       "source_repo": "PyO3/maturin"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/downstream.yml",
+      "source_repo": "jupyter/nbclassic"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

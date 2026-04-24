@@ -79,6 +79,18 @@
       "source_repo": "bellini666/asdf-lua-language-server",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "karancode/asdf-aws-vault",
+      "status": "candidate-context",
+      "text": "aws-vault plugin for asdf-vm"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "karancode/asdf-aws-vault",
+      "status": "candidate-context",
+      "text": "![GitHub Actions Status](https://github.com/karancode/asdf-aws-vault/workflows/Main%20workflow/badge.svg?branch=main)"
     }
   ],
   "candidate_glosses": [
@@ -117,6 +129,12 @@
       "source_repo": "bellini666/asdf-lua-language-server",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "karancode/asdf-aws-vault",
+      "status": "candidate",
+      "text": "![GitHub Actions Status](https://github.com/karancode/asdf-aws-vault/workflows/Main%20workflow/badge.svg?branch=main)"
     }
   ],
   "candidate_related_terms": [],
@@ -166,11 +184,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "bellini666/asdf-lua-language-server"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "karancode/asdf-aws-vault"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

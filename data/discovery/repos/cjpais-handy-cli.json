@@ -1,0 +1,35 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-24T01:43:23.734732+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2689
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 368
+    },
+    {
+      "path": "requirements.txt",
+      "size": 3509
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "a handy application to help you navigate a computer with one hand using whisper.",
+    "fork": false,
+    "full_name": "cjpais/handy-cli",
+    "html_url": "https://github.com/cjpais/handy-cli",
+    "language": "Python",
+    "pushed_at": "2025-01-09T20:59:40Z",
+    "stargazers_count": 70,
+    "topics": [],
+    "updated_at": "2026-04-23T05:39:18Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

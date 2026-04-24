@@ -1,11 +1,14 @@
 {
   "aliases": [
-    "binary"
+    "binary",
+    "Binary"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
     "tool-component",
-    "capability"
+    "capability",
+    "workflow-process",
+    "data-document-artifact"
   ],
   "candidate_definitions": [
     {
@@ -55,6 +58,18 @@
       "source_repo": "angr/angr",
       "status": "candidate-context",
       "text": "[![Latest Release](https://img.shields.io/pypi/v/angr.svg)](https://pypi.python.org/pypi/angr/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bpftrace/bpftrace",
+      "status": "candidate-context",
+      "text": "High-level tracing language for Linux"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bpftrace/bpftrace",
+      "status": "candidate-context",
+      "text": "Binary"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +96,12 @@
       "source_repo": "angr/angr",
       "status": "candidate",
       "text": "[![Latest Release](https://img.shields.io/pypi/v/angr.svg)](https://pypi.python.org/pypi/angr/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bpftrace/bpftrace",
+      "status": "candidate",
+      "text": "Binary"
     }
   ],
   "candidate_related_terms": [
@@ -176,11 +197,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "angr/angr"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/binary.yml",
+      "source_repo": "bpftrace/bpftrace"
     }
   ],
   "first_seen_at": "2026-04-18T11:32:22.637859+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

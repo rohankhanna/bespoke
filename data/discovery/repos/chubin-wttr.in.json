@@ -1,0 +1,243 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/makefile.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/makefile.yml"
+    },
+    {
+      "component": "actions/setup-go@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/makefile.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "chubin/wttr.in",
+      "target": "schachmat/wego",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "chubin/wttr.in",
+      "target": "midzer/wttr-switcher",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "chubin/wttr.in",
+      "target": "opensourcetreasure/mirc-ascii-weather-translate-pixel-editor",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "chubin/wttr.in",
+      "target": "chubin/pyphoon",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/makefile.yml",
+      "source_repo": "chubin/wttr.in",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/makefile.yml",
+      "source_repo": "chubin/wttr.in",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/makefile.yml",
+      "source_repo": "chubin/wttr.in",
+      "target": "actions/setup-go@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/makefile.yml",
+      "source_repo": "chubin/wttr.in",
+      "target": "Makefile CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chubin/wttr.in",
+      "target": "ascii-art",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chubin/wttr.in",
+      "target": "curl",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chubin/wttr.in",
+      "target": "terminal",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chubin/wttr.in",
+      "target": "weather",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chubin/wttr.in",
+      "target": "weather-api",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chubin/wttr.in",
+      "target": "weather-app",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chubin/wttr.in",
+      "target": "weather-information",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T01:51:00.990058+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 25381
+    },
+    {
+      "path": "Dockerfile",
+      "size": 1486
+    },
+    {
+      "path": "go.mod",
+      "size": 1532
+    },
+    {
+      "path": "requirements.txt",
+      "size": 347
+    },
+    {
+      "path": ".github/workflows/makefile.yml",
+      "size": 1635
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": ":partly_sunny: The right way to check the weather",
+    "fork": false,
+    "full_name": "chubin/wttr.in",
+    "html_url": "https://github.com/chubin/wttr.in",
+    "language": "Python",
+    "pushed_at": "2026-04-23T13:36:20Z",
+    "stargazers_count": 29420,
+    "topics": [
+      "ascii-art",
+      "curl",
+      "terminal",
+      "weather",
+      "weather-api",
+      "weather-app",
+      "weather-information"
+    ],
+    "updated_at": "2026-04-24T01:43:30Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "chubin/pyphoon",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "midzer/wttr-switcher",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "opensourcetreasure/mirc-ascii-weather-translate-pixel-editor",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "schachmat/wego",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Makefile CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/makefile.yml",
+      "term": "Makefile CI"
+    },
+    {
+      "context_snippet": "*wttr.in \u2014 the right way to ~check~ `curl` the weather!*",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ascii-art"
+    },
+    {
+      "context_snippet": "*wttr.in \u2014 the right way to ~check~ `curl` the weather!*",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "curl"
+    },
+    {
+      "context_snippet": "*wttr.in \u2014 the right way to ~check~ `curl` the weather!*",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "terminal"
+    },
+    {
+      "context_snippet": "*wttr.in \u2014 the right way to ~check~ `curl` the weather!*",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "weather"
+    },
+    {
+      "context_snippet": "*wttr.in \u2014 the right way to ~check~ `curl` the weather!*",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "weather-api"
+    },
+    {
+      "context_snippet": "*wttr.in \u2014 the right way to ~check~ `curl` the weather!*",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "weather-app"
+    },
+    {
+      "context_snippet": "*wttr.in \u2014 the right way to ~check~ `curl` the weather!*",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "weather-information"
+    }
+  ]
+}

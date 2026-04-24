@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "Test examples"
+    "Test examples",
+    "Test Examples"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -19,6 +20,18 @@
       "source_repo": "dotnet/csharpstandard",
       "status": "candidate-context",
       "text": "Test examples"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "chainguard-dev/apko",
+      "status": "candidate-context",
+      "text": "Build OCI images from APK packages directly without Dockerfile"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chainguard-dev/apko",
+      "status": "candidate-context",
+      "text": "Test Examples"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +40,12 @@
       "source_repo": "dotnet/csharpstandard",
       "status": "candidate",
       "text": "Test examples"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chainguard-dev/apko",
+      "status": "candidate",
+      "text": "Test Examples"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +95,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": ".github/workflows/test-examples.yaml",
       "source_repo": "dotnet/csharpstandard"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/examples-test.yaml",
+      "source_repo": "chainguard-dev/apko"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

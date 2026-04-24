@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Bitnami's jsonnet library for building Kubernetes manifests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "We have made the difficult decision to stop driving this project and therefore we will no longer actively respond to issues or pull requests."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "We have made the difficult decision to stop driving this project and therefore we will no longer actively respond to issues or pull requests."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "ksonnet",
+      "sense_id": "ksonnet#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "ksonnet",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "ksonnet",
+  "observation_id": "2feb6a3569815791",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T00:33:56.049672+00:00",
+  "observed_text": "ksonnet",
+  "source_context_snippet": "We have made the difficult decision to stop driving this project and therefore we will no longer actively respond to issues or pull requests.",
+  "source_file": null,
+  "source_repo": "bitnami/kube-libsonnet",
+  "source_repo_description": "Bitnami's jsonnet library for building Kubernetes manifests"
+}

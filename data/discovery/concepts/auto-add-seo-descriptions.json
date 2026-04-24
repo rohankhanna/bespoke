@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Auto Add SEO Descriptions"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "abpframework/abp",
+      "status": "candidate-context",
+      "text": "Open-source web application framework for ASP.NET Core! Offers an opinionated architecture to build enterprise software solutions with best practices on top of the .NET. Provides the fundamental infrastructure, cross-cutting-concern implementations, startup templates, application modules, UI themes, tooling and documentation."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "abpframework/abp",
+      "status": "candidate-context",
+      "text": "Auto Add SEO Descriptions"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "abpframework/abp",
+      "status": "candidate",
+      "text": "Auto Add SEO Descriptions"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26118,
+      "status": "candidate",
+      "text": "gps"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21712,
+      "status": "candidate",
+      "text": "mill"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21524,
+      "status": "candidate",
+      "text": "box"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21524,
+      "status": "candidate",
+      "text": "delay"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21524,
+      "status": "candidate",
+      "text": "delayed"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Auto Add SEO Descriptions",
+  "concept_id": "auto-add-seo-descriptions",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/auto-add-seo.yml",
+      "source_repo": "abpframework/abp"
+    }
+  ],
+  "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Auto Add SEO Descriptions",
+      "sense_id": "auto-add-seo-descriptions#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

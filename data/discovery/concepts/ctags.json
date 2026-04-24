@@ -19,6 +19,18 @@
       "source_repo": "ludovicchabant/vim-gutentags",
       "status": "candidate-context",
       "text": "Gutentags is a plugin that takes care of the much needed management of tags"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "liuchengxu/vista.vim",
+      "status": "candidate-context",
+      "text": ":cactus: Viewer & Finder for LSP symbols and tags"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "liuchengxu/vista.vim",
+      "status": "candidate-context",
+      "text": "[![CI](https://github.com/liuchengxu/vista.vim/workflows/ci/badge.svg)](https://github.com/liuchengxu/vista.vim/actions?workflow=ci)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "ludovicchabant/vim-gutentags",
       "status": "candidate",
       "text": "Gutentags is a plugin that takes care of the much needed management of tags"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "liuchengxu/vista.vim",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/liuchengxu/vista.vim/workflows/ci/badge.svg)](https://github.com/liuchengxu/vista.vim/actions?workflow=ci)"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-23T01:09:11.871080+00:00",
       "source_file": null,
       "source_repo": "ludovicchabant/vim-gutentags"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "liuchengxu/vista.vim"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

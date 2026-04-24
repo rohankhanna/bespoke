@@ -1,7 +1,7 @@
 {
   "component": "peter-evans/create-pull-request@dd2324fc52d5d43c699a5636bcf19fceaa70c284",
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -12,6 +12,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/container-version.yaml",
       "source_repo": "thanos-io/thanos"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/update.yml",
+      "source_repo": "conda/grayskull"
     }
   ]
 }

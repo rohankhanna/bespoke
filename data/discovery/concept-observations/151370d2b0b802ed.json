@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Working examples of New Relic Node.js agent features"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Node Agent Examples CI"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Node Agent Examples CI"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19441,
+      "status": "candidate",
+      "text": "gland"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19441,
+      "status": "candidate",
+      "text": "joint"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19106,
+      "status": "candidate",
+      "text": "curve"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19061,
+      "status": "candidate",
+      "text": "positive"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18847,
+      "status": "candidate",
+      "text": "evidence"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Node Agent Examples CI",
+      "sense_id": "node-agent-examples-ci#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "node-agent-examples-ci",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "node-agent-examples-ci",
+  "observation_id": "151370d2b0b802ed",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-24T00:33:56.049672+00:00",
+  "observed_text": "Node Agent Examples CI",
+  "source_context_snippet": "Node Agent Examples CI",
+  "source_file": ".github/workflows/ci-workflow.yml",
+  "source_repo": "newrelic/newrelic-node-examples",
+  "source_repo_description": "Working examples of New Relic Node.js agent features"
+}

@@ -13,12 +13,30 @@
       "source_repo": "kohya-ss/sd-scripts",
       "status": "candidate-context",
       "text": "Test with pytest"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google/yapf",
+      "status": "candidate-context",
+      "text": "A formatter for Python files"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/yapf",
+      "status": "candidate-context",
+      "text": "Test with pytest"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "kohya-ss/sd-scripts",
+      "status": "candidate",
+      "text": "Test with pytest"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/yapf",
       "status": "candidate",
       "text": "Test with pytest"
     }
@@ -70,11 +88,17 @@
       "observed_at": "2026-04-22T01:04:16.609102+00:00",
       "source_file": ".github/workflows/tests.yml",
       "source_repo": "kohya-ss/sd-scripts"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "google/yapf"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

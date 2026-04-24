@@ -103,6 +103,18 @@
       "source_repo": "ollama/ollama",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mbzuai-oryx/VideoGPT-plus",
+      "status": "candidate-context",
+      "text": "Official Repository of paper VideoGPT+: Integrating Image and Video Encoders for Enhanced Video Understanding"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mbzuai-oryx/VideoGPT-plus",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -151,6 +163,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "ollama/ollama",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mbzuai-oryx/VideoGPT-plus",
       "status": "candidate",
       "text": "<p align=\"center\">"
     }
@@ -220,11 +238,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "ollama/ollama"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "mbzuai-oryx/VideoGPT-plus"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

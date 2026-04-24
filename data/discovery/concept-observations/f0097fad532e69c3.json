@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Observer pattern and signals/slots for C++11 projects"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Observable Library"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Observable Library"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39925458,
+      "status": "candidate",
+      "text": "sign"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39917452,
+      "status": "candidate",
+      "text": "signalize"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39907958,
+      "status": "candidate",
+      "text": "indicate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39903193,
+      "status": "candidate",
+      "text": "betoken"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39890402,
+      "status": "candidate",
+      "text": "point"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "signal",
+      "sense_id": "signal#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 39039,
+      "status": "candidate",
+      "text": "indicate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 35031,
+      "status": "candidate",
+      "text": "impressive"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 34102,
+      "status": "candidate",
+      "text": "point"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 27026,
+      "status": "candidate",
+      "text": "bespeak"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 15075,
+      "status": "candidate",
+      "text": "sign"
+    }
+  ],
+  "concept_id": "signal",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "signal",
+  "observation_id": "f0097fad532e69c3",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T00:33:56.049672+00:00",
+  "observed_text": "signal",
+  "source_context_snippet": "Observable Library",
+  "source_file": null,
+  "source_repo": "dacap/observable",
+  "source_repo_description": "Observer pattern and signals/slots for C++11 projects"
+}

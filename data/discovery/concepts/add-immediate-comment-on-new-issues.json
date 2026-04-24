@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Add immediate comment on new issues"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Meteor-Community-Packages/meteor-scss",
+      "status": "candidate-context",
+      "text": "Node-sass wrapped to work with meteor."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Meteor-Community-Packages/meteor-scss",
+      "status": "candidate-context",
+      "text": "Add immediate comment on new issues"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Meteor-Community-Packages/meteor-scss",
+      "status": "candidate",
+      "text": "Add immediate comment on new issues"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 55214,
+      "status": "candidate",
+      "text": "update"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 43278,
+      "status": "candidate",
+      "text": "retrofit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 43278,
+      "status": "candidate",
+      "text": "retrofitted"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 43136,
+      "status": "candidate",
+      "text": "expand"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 42895,
+      "status": "candidate",
+      "text": "right"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Add immediate comment on new issues",
+  "concept_id": "add-immediate-comment-on-new-issues",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/comment-issue.yml",
+      "source_repo": "Meteor-Community-Packages/meteor-scss"
+    }
+  ],
+  "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Add immediate comment on new issues",
+      "sense_id": "add-immediate-comment-on-new-issues#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

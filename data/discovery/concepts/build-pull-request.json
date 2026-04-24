@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "build pull request"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nfrechette/rtm",
+      "status": "candidate-context",
+      "text": "Realtime Math"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nfrechette/rtm",
+      "status": "candidate-context",
+      "text": "build pull request"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nfrechette/rtm",
+      "status": "candidate",
+      "text": "build pull request"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19050,
+      "status": "candidate",
+      "text": "raise"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18951,
+      "status": "candidate",
+      "text": "tap"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18926,
+      "status": "candidate",
+      "text": "leg"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18001,
+      "status": "candidate",
+      "text": "draw"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18001,
+      "status": "candidate",
+      "text": "make"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "build pull request",
+  "concept_id": "build-pull-request",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/build_pull_request.yml",
+      "source_repo": "nfrechette/rtm"
+    }
+  ],
+  "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "build pull request",
+      "sense_id": "build-pull-request#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

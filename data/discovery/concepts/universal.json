@@ -43,6 +43,18 @@
       "source_repo": "jaredpalmer/razzle",
       "status": "candidate-context",
       "text": "![repo-banner](https://user-images.githubusercontent.com/4060187/28923990-050a32d4-782e-11e7-9da7-574ce5a8b455.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nuxt/nuxt",
+      "status": "candidate-context",
+      "text": "The Full-Stack Vue Framework."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nuxt/nuxt",
+      "status": "candidate-context",
+      "text": "<a href=\"https://nuxt.com\"><img width=\"830\" height=\"213\" src=\"./.github/assets/banner.svg\" alt=\"Nuxt banner\"></a>"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "jaredpalmer/razzle",
       "status": "candidate",
       "text": "![repo-banner](https://user-images.githubusercontent.com/4060187/28923990-050a32d4-782e-11e7-9da7-574ce5a8b455.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nuxt/nuxt",
+      "status": "candidate",
+      "text": "<a href=\"https://nuxt.com\"><img width=\"830\" height=\"213\" src=\"./.github/assets/banner.svg\" alt=\"Nuxt banner\"></a>"
     }
   ],
   "candidate_related_terms": [
@@ -160,11 +178,17 @@
       "observed_at": "2026-04-22T18:52:26.467154+00:00",
       "source_file": null,
       "source_repo": "jaredpalmer/razzle"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "nuxt/nuxt"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

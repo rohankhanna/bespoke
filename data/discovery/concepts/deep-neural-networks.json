@@ -55,6 +55,30 @@
       "source_repo": "advimman/lama",
       "status": "candidate-context",
       "text": "by Roman Suvorov, Elizaveta Logacheva, Anton Mashikhin,"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "teticio/Deej-AI",
+      "status": "candidate-context",
+      "text": "Create automatic playlists by using Deep Learning to *listen* to the music."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "teticio/Deej-AI",
+      "status": "candidate-context",
+      "text": "![](MBIT_logo.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "facebookarchive/caffe2",
+      "status": "candidate-context",
+      "text": "Caffe2 is a lightweight, modular, and scalable deep learning framework."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "facebookarchive/caffe2",
+      "status": "candidate-context",
+      "text": "Caffe2 is a lightweight, modular, and scalable deep learning framework. Building on the original [Caffe](http://caffe.berkeleyvision.org), Caffe2 is designed with expression, speed, and modularity in mind."
     }
   ],
   "candidate_glosses": [
@@ -81,6 +105,18 @@
       "source_repo": "advimman/lama",
       "status": "candidate",
       "text": "by Roman Suvorov, Elizaveta Logacheva, Anton Mashikhin,"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "teticio/Deej-AI",
+      "status": "candidate",
+      "text": "![](MBIT_logo.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "facebookarchive/caffe2",
+      "status": "candidate",
+      "text": "Caffe2 is a lightweight, modular, and scalable deep learning framework. Building on the original [Caffe](http://caffe.berkeleyvision.org), Caffe2 is designed with expression, speed, and modularity in mind."
     }
   ],
   "candidate_related_terms": [],
@@ -112,11 +148,23 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "advimman/lama"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "teticio/Deej-AI"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "facebookarchive/caffe2"
     }
   ],
   "first_seen_at": "2026-04-19T01:08:57.644140+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

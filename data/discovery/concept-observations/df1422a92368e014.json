@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "An automation framework to create Blazor component"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "The best automation framework for RCL(Razor Component Library) to help you easy and quickly building your own Razor Component Library"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "The best automation framework for RCL(Razor Component Library) to help you easy and quickly building your own Razor Component Library"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "rendertreebuilder",
+      "sense_id": "rendertreebuilder#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "rendertreebuilder",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "rendertreebuilder",
+  "observation_id": "df1422a92368e014",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T00:33:56.049672+00:00",
+  "observed_text": "rendertreebuilder",
+  "source_context_snippet": "The best automation framework for RCL(Razor Component Library) to help you easy and quickly building your own Razor Component Library",
+  "source_file": null,
+  "source_repo": "teacher-zhou/ComponentBuilder",
+  "source_repo_description": "An automation framework to create Blazor component"
+}

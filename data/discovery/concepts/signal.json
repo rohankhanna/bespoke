@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "signal"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dacap/observable",
+      "status": "candidate-context",
+      "text": "Observer pattern and signals/slots for C++11 projects"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dacap/observable",
+      "status": "candidate-context",
+      "text": "Observable Library"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dacap/observable",
+      "status": "candidate",
+      "text": "Observable Library"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39925458,
+      "status": "candidate",
+      "text": "sign"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39917452,
+      "status": "candidate",
+      "text": "signalize"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39907958,
+      "status": "candidate",
+      "text": "indicate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39903193,
+      "status": "candidate",
+      "text": "betoken"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39890402,
+      "status": "candidate",
+      "text": "point"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 39039,
+      "status": "candidate",
+      "text": "indicate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 35031,
+      "status": "candidate",
+      "text": "impressive"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 34102,
+      "status": "candidate",
+      "text": "point"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 27026,
+      "status": "candidate",
+      "text": "bespeak"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 15075,
+      "status": "candidate",
+      "text": "sign"
+    }
+  ],
+  "canonical_name": "signal",
+  "concept_id": "signal",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "dacap/observable"
+    }
+  ],
+  "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "signal",
+      "sense_id": "signal#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

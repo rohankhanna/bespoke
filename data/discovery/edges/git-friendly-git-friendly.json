@@ -1,0 +1,41 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "git-friendly/git-friendly",
+      "target": "git-friendly/homebrew-git-friendly",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "git-friendly/git-friendly",
+      "target": "jamiew/git-friendly",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bump-homebrew-formula.yml",
+      "source_repo": "git-friendly/git-friendly",
+      "target": "mislav/bump-homebrew-formula-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bump-homebrew-formula.yml",
+      "source_repo": "git-friendly/git-friendly",
+      "target": "Update Homebrew formula",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "git-friendly/git-friendly",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    }
+  ],
+  "generated_at": "2026-04-24T00:33:56.049672+00:00",
+  "source_repo": "git-friendly/git-friendly"
+}

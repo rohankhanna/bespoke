@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -271,6 +271,26 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "getkin/kin-openapi"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "girishji/devdocs.vim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "atom/flight-manual.atom.io"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/documentation.yml",
+      "source_repo": "redis/node-redis"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/build_doc.yml",
+      "source_repo": "openvinotoolkit/openvino"
     }
   ],
   "term": "documentation"

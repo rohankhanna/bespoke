@@ -1,7 +1,7 @@
 {
   "component": "repo-sync/pull-request@v2",
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -17,6 +17,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/bump-dependency.yaml",
       "source_repo": "dolthub/doltgresql"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/update-koryphe-version.yaml",
+      "source_repo": "gchq/Gaffer"
     }
   ]
 }

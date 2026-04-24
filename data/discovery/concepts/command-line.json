@@ -415,6 +415,30 @@
       "source_repo": "walles/px",
       "status": "candidate-context",
       "text": "|Linux CI Status| |macOS CI Status|"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "clap-rs/clap",
+      "status": "candidate-context",
+      "text": "A full featured, fast Command Line Argument Parser for Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clap-rs/clap",
+      "status": "candidate-context",
+      "text": "> **Command Line Argument Parser for Rust**"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "89luca89/distrobox",
+      "status": "candidate-context",
+      "text": "Use any linux distribution inside your terminal. Enable both backward and forward compatibility with software and freedom to use whatever distribution you\u2019re more comfortable with. Mirror available at: https://gitlab.com/89luca89/distrobox"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "89luca89/distrobox",
+      "status": "candidate-context",
+      "text": "CI"
     }
   ],
   "candidate_glosses": [
@@ -615,6 +639,18 @@
       "source_repo": "walles/px",
       "status": "candidate",
       "text": "|Linux CI Status| |macOS CI Status|"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clap-rs/clap",
+      "status": "candidate",
+      "text": "> **Command Line Argument Parser for Rust**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "89luca89/distrobox",
+      "status": "candidate",
+      "text": "CI"
     }
   ],
   "candidate_related_terms": [
@@ -858,11 +894,23 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "walles/px"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "clap-rs/clap"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "89luca89/distrobox"
     }
   ],
   "first_seen_at": "2026-04-18T11:41:43.530265+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

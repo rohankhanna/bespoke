@@ -3190,6 +3190,420 @@
       "source_repo": "esp-rs/esp-hal",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dahosek/finl_unicode",
+      "status": "candidate-context",
+      "text": "Unicode support for the finl project"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dahosek/finl_unicode",
+      "status": "candidate-context",
+      "text": "Rust"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "urschrei/pypolyline",
+      "status": "candidate-context",
+      "text": "Fast Google Polyline encoding and decoding using a Rust binary"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "urschrei/pypolyline",
+      "status": "candidate-context",
+      "text": "![example workflow](https://github.com/urschrei/pypolyline/actions/workflows/wheels.yml/badge.svg) [![Coverage Status](https://coveralls.io/repos/github/urschrei/pypolyline/badge.svg?branch=master)](https://coveralls.io/github/urschrei/pypolyline?branch=master) [![Downloads](htt\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "librespot-org/librespot",
+      "status": "candidate-context",
+      "text": "Open Source Spotify client library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "librespot-org/librespot",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://github.com/librespot-org/librespot/workflows/build/badge.svg)](https://github.com/librespot-org/librespot/actions)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ramsayleung/rspotify",
+      "status": "candidate-context",
+      "text": "Spotify Web API SDK implemented on Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ramsayleung/rspotify",
+      "status": "candidate-context",
+      "text": "[![Continuous Integration](https://github.com/ramsayleung/rspotify/workflows/Continuous%20Integration/badge.svg)](https://github.com/ramsayleung/rspotify/actions)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Rigellute/spotify-tui",
+      "status": "candidate-context",
+      "text": "Spotify for the terminal written in Rust \ud83d\ude80"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Rigellute/spotify-tui",
+      "status": "candidate-context",
+      "text": "![Continuous Integration](https://github.com/Rigellute/spotify-tui/workflows/Continuous%20Integration/badge.svg?branch=master&event=push)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fschutt/printpdf",
+      "status": "candidate-context",
+      "text": "Rust / WASM library for reading, writing and rendering PDF"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fschutt/printpdf",
+      "status": "candidate-context",
+      "text": "\ufeff# printpdf"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pdf-rs/pdf",
+      "status": "candidate-context",
+      "text": "Rust library to read, manipulate and write PDF files."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pdf-rs/pdf",
+      "status": "candidate-context",
+      "text": "Read, alter and write PDF files."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "typst/pdf-writer",
+      "status": "candidate-context",
+      "text": "A step-by-step PDF writer."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "typst/pdf-writer",
+      "status": "candidate-context",
+      "text": "[![Crates.io](https://img.shields.io/crates/v/pdf-writer.svg)](https://crates.io/crates/pdf-writer)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "liuchengxu/vim-clap",
+      "status": "candidate-context",
+      "text": ":clap: Modern performant fuzzy picker, tree-sitter highlighting, and more, for both Vim and NeoVim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "liuchengxu/vim-clap",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bluss/matrixmultiply",
+      "status": "candidate-context",
+      "text": "General matrix multiplication of f32 and f64 matrices in Rust. Supports matrices with general strides."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bluss/matrixmultiply",
+      "status": "candidate-context",
+      "text": "matrixmultiply"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "georust/geo",
+      "status": "candidate-context",
+      "text": "Rust geospatial primitives & algorithms"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "georust/geo",
+      "status": "candidate-context",
+      "text": "[![geo](https://avatars1.githubusercontent.com/u/10320338?v=4&s=50)](https://github.com/georust)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aldanor/fast-float-rust",
+      "status": "candidate-context",
+      "text": "Super-fast float parser in Rust (now part of Rust core)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aldanor/fast-float-rust",
+      "status": "candidate-context",
+      "text": "fast-float"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lu-zero/cargo-c",
+      "status": "candidate-context",
+      "text": "build and install C-compatible libraries"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lu-zero/cargo-c",
+      "status": "candidate-context",
+      "text": "Rust"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "orhun/git-cliff",
+      "status": "candidate-context",
+      "text": "A highly customizable Changelog Generator that follows Conventional Commit specifications \u26f0\ufe0f "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "orhun/git-cliff",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google/zerocopy",
+      "status": "candidate-context",
+      "text": "Zerocopy makes zero-cost memory manipulation effortless. We write `unsafe` so you don\u2019t have to."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/zerocopy",
+      "status": "candidate-context",
+      "text": "<!-- Copyright 2024 The Fuchsia Authors"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "OptiVorbis/OptiVorbis",
+      "status": "candidate-context",
+      "text": "\ud83d\udddc\ufe0f Library and application for lossless, format-preserving, two-pass optimization and repair of Vorbis data, reducing its size without altering any audio information."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OptiVorbis/OptiVorbis",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aloucks/spng-rs",
+      "status": "candidate-context",
+      "text": "Rust bindings to libspng"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aloucks/spng-rs",
+      "status": "candidate-context",
+      "text": "[![crates.io](https://img.shields.io/crates/v/spng.svg)](https://crates.io/crates/spng)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tikv/grpc-rs",
+      "status": "candidate-context",
+      "text": "The gRPC library for Rust built on C Core library and futures"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tikv/grpc-rs",
+      "status": "candidate-context",
+      "text": "`gRPC-rs` is a Rust wrapper of [gRPC Core](https://github.com/grpc/grpc). [gRPC](http://www.grpc.io) is a high performance, open source universal RPC framework that puts mobile and HTTP/2 first."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "EspressoSystems/jellyfish",
+      "status": "candidate-context",
+      "text": "A Rust Implementation of the PLONK ZKP System and Extensions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "EspressoSystems/jellyfish",
+      "status": "candidate-context",
+      "text": "![example workflow](https://github.com/EspressoSystems/jellyfish/actions/workflows/build.yml/badge.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "clap-rs/clap",
+      "status": "candidate-context",
+      "text": "A full featured, fast Command Line Argument Parser for Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clap-rs/clap",
+      "status": "candidate-context",
+      "text": "> **Command Line Argument Parser for Rust**"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/iggy",
+      "status": "candidate-context",
+      "text": "Apache Iggy: Hyper-Efficient Message Streaming at Laser Speed"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/iggy",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "op-rs/maili",
+      "status": "candidate-context",
+      "text": "Composable rust types and interfaces specific to the OP Stack. Built on Alloy."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "op-rs/maili",
+      "status": "candidate-context",
+      "text": "> [!CAUTION]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "actix/actix-net",
+      "status": "candidate-context",
+      "text": "A collection of lower-level libraries for composable network services."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "actix/actix-net",
+      "status": "candidate-context",
+      "text": "> A collection of lower-level libraries for composable network services."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "async-rs/async-std",
+      "status": "candidate-context",
+      "text": "Async version of the Rust standard library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "async-rs/async-std",
+      "status": "candidate-context",
+      "text": "We created `async-std` to demonstrate the value of making a library as close to"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "arkworks-rs/crypto-primitives",
+      "status": "candidate-context",
+      "text": "Interfaces and implementations of cryptographic primitives, along with R1CS constraints for them "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "arkworks-rs/crypto-primitives",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">ark-crypto-primitives</h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "arkworks-rs/r1cs-std",
+      "status": "candidate-context",
+      "text": "R1CS constraints for bits, fields, and elliptic curves"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "arkworks-rs/r1cs-std",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">ark-r1cs-std</h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "arkworks-rs/curves",
+      "status": "candidate-context",
+      "text": "Implementations of popular elliptic curves "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "arkworks-rs/curves",
+      "status": "candidate-context",
+      "text": "This repository is no longer maintained, and PRs to add or modify curves should instead be made against [arkworks-rs/algebra](https://github.com/arkworks-rs/algebra); all the curves implemented here have moved to the [`curves` folder](https://github.com/arkworks-rs/algebra/tree/\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "criterion-rs/criterion.rs",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">Criterion.<span></span>rs</h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lambdaclass/ethrex",
+      "status": "candidate-context",
+      "text": "Minimalist, stable, modular, fast, and ZK native implementation of the Ethereum protocol in Rust. L1 and L2 execution client."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lambdaclass/ethrex",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ipsilon/evmc",
+      "status": "candidate-context",
+      "text": "EVMC \u2013 Ethereum Client-VM Connector API"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipsilon/evmc",
+      "status": "candidate-context",
+      "text": "[![chat: on gitter][gitter badge]][Gitter]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/casbin-rust-actix-casbin",
+      "status": "candidate-context",
+      "text": "casbin as an actor"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/casbin-rust-actix-casbin",
+      "status": "candidate-context",
+      "text": "[![Crates.io](https://img.shields.io/crates/d/actix-casbin)](https://crates.io/crates/actix-casbin)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/casbin-actix-casbin-auth",
+      "status": "candidate-context",
+      "text": "Casbin Actix-web access control middleware"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/casbin-actix-casbin-auth",
+      "status": "candidate-context",
+      "text": "[![Crates.io](https://img.shields.io/crates/d/actix-casbin-auth)](https://crates.io/crates/actix-casbin-auth)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/casbin-axum-casbin",
+      "status": "candidate-context",
+      "text": "Axum authorization middleware based on Casbin"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/casbin-axum-casbin",
+      "status": "candidate-context",
+      "text": "[![Crates.io](https://img.shields.io/crates/d/axum-casbin)](https://crates.io/crates/axum-casbin)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "japaric/rust-cross",
+      "status": "candidate-context",
+      "text": "Everything you need to know about cross compiling Rust programs!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "japaric/rust-cross",
+      "status": "candidate-context",
+      "text": "[![travis-badge][]][travis]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "huggingface/hf-hub",
+      "status": "candidate-context",
+      "text": "Rust client for the huggingface hub aiming for minimal subset of features over `huggingface-hub` python package"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "huggingface/hf-hub",
+      "status": "candidate-context",
+      "text": "Rust"
     }
   ],
   "candidate_glosses": [
@@ -4824,6 +5238,216 @@
       "source_repo": "esp-rs/esp-hal",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dahosek/finl_unicode",
+      "status": "candidate",
+      "text": "Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "urschrei/pypolyline",
+      "status": "candidate",
+      "text": "![example workflow](https://github.com/urschrei/pypolyline/actions/workflows/wheels.yml/badge.svg) [![Coverage Status](https://coveralls.io/repos/github/urschrei/pypolyline/badge.svg?branch=master)](https://coveralls.io/github/urschrei/pypolyline?branch=master) [![Downloads](htt\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "librespot-org/librespot",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/librespot-org/librespot/workflows/build/badge.svg)](https://github.com/librespot-org/librespot/actions)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ramsayleung/rspotify",
+      "status": "candidate",
+      "text": "[![Continuous Integration](https://github.com/ramsayleung/rspotify/workflows/Continuous%20Integration/badge.svg)](https://github.com/ramsayleung/rspotify/actions)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Rigellute/spotify-tui",
+      "status": "candidate",
+      "text": "![Continuous Integration](https://github.com/Rigellute/spotify-tui/workflows/Continuous%20Integration/badge.svg?branch=master&event=push)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fschutt/printpdf",
+      "status": "candidate",
+      "text": "\ufeff# printpdf"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pdf-rs/pdf",
+      "status": "candidate",
+      "text": "Read, alter and write PDF files."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "typst/pdf-writer",
+      "status": "candidate",
+      "text": "[![Crates.io](https://img.shields.io/crates/v/pdf-writer.svg)](https://crates.io/crates/pdf-writer)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "liuchengxu/vim-clap",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bluss/matrixmultiply",
+      "status": "candidate",
+      "text": "matrixmultiply"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "georust/geo",
+      "status": "candidate",
+      "text": "[![geo](https://avatars1.githubusercontent.com/u/10320338?v=4&s=50)](https://github.com/georust)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aldanor/fast-float-rust",
+      "status": "candidate",
+      "text": "fast-float"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lu-zero/cargo-c",
+      "status": "candidate",
+      "text": "Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "orhun/git-cliff",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/zerocopy",
+      "status": "candidate",
+      "text": "<!-- Copyright 2024 The Fuchsia Authors"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OptiVorbis/OptiVorbis",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aloucks/spng-rs",
+      "status": "candidate",
+      "text": "[![crates.io](https://img.shields.io/crates/v/spng.svg)](https://crates.io/crates/spng)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tikv/grpc-rs",
+      "status": "candidate",
+      "text": "`gRPC-rs` is a Rust wrapper of [gRPC Core](https://github.com/grpc/grpc). [gRPC](http://www.grpc.io) is a high performance, open source universal RPC framework that puts mobile and HTTP/2 first."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "EspressoSystems/jellyfish",
+      "status": "candidate",
+      "text": "![example workflow](https://github.com/EspressoSystems/jellyfish/actions/workflows/build.yml/badge.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clap-rs/clap",
+      "status": "candidate",
+      "text": "> **Command Line Argument Parser for Rust**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/iggy",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "op-rs/maili",
+      "status": "candidate",
+      "text": "> [!CAUTION]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "actix/actix-net",
+      "status": "candidate",
+      "text": "> A collection of lower-level libraries for composable network services."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "async-rs/async-std",
+      "status": "candidate",
+      "text": "We created `async-std` to demonstrate the value of making a library as close to"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "arkworks-rs/crypto-primitives",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">ark-crypto-primitives</h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "arkworks-rs/r1cs-std",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">ark-r1cs-std</h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "arkworks-rs/curves",
+      "status": "candidate",
+      "text": "This repository is no longer maintained, and PRs to add or modify curves should instead be made against [arkworks-rs/algebra](https://github.com/arkworks-rs/algebra); all the curves implemented here have moved to the [`curves` folder](https://github.com/arkworks-rs/algebra/tree/\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "criterion-rs/criterion.rs",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">Criterion.<span></span>rs</h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lambdaclass/ethrex",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipsilon/evmc",
+      "status": "candidate",
+      "text": "[![chat: on gitter][gitter badge]][Gitter]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/casbin-rust-actix-casbin",
+      "status": "candidate",
+      "text": "[![Crates.io](https://img.shields.io/crates/d/actix-casbin)](https://crates.io/crates/actix-casbin)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/casbin-actix-casbin-auth",
+      "status": "candidate",
+      "text": "[![Crates.io](https://img.shields.io/crates/d/actix-casbin-auth)](https://crates.io/crates/actix-casbin-auth)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/casbin-axum-casbin",
+      "status": "candidate",
+      "text": "[![Crates.io](https://img.shields.io/crates/d/axum-casbin)](https://crates.io/crates/axum-casbin)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "japaric/rust-cross",
+      "status": "candidate",
+      "text": "[![travis-badge][]][travis]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "huggingface/hf-hub",
+      "status": "candidate",
+      "text": "Rust"
     }
   ],
   "candidate_related_terms": [
@@ -6925,11 +7549,281 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "esp-rs/esp-hal"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "dahosek/finl_unicode"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "vaporif/parry-guard"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "astral-sh/ruff"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "urschrei/pypolyline"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "librespot-org/librespot"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "ramsayleung/rspotify"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "Rigellute/spotify-tui"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "fschutt/printpdf"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "pdf-rs/pdf"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "typst/pdf-writer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "liuchengxu/vim-clap"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "ashvardanian/NumKong"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "bluss/matrixmultiply"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "georust/geo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "aldanor/fast-float-rust"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "lu-zero/cargo-c"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "orhun/git-cliff"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "google/zerocopy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "OptiVorbis/OptiVorbis"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "aloucks/spng-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "tikv/grpc-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "EspressoSystems/jellyfish"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "clap-rs/clap"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "apache/iggy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "op-rs/maili"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "actix/actix-net"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "async-rs/async-std"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "arkworks-rs/crypto-primitives"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "arkworks-rs/r1cs-std"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "arkworks-rs/curves"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "criterion-rs/criterion.rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "arkworks-rs/poly-commit"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "lambdaclass/ethrex"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "ipsilon/evmc"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "Layr-Labs/bn254-bls-keystore-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "winfunc/opcode"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "dirs-dev/dirs-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "wasm-bindgen/wasm-pack"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "apache/casbin-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "apache/casbin-rust-actix-casbin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "apache/casbin-actix-casbin-auth"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "apache/casbin-axum-casbin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "japaric/rust-cross"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "rust-cross/rust-musl-cross"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "huggingface/hf-hub"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

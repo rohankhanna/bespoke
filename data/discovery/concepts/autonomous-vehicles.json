@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "autonomous-vehicles"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ApolloAuto/apollo",
+      "status": "candidate-context",
+      "text": "An open autonomous driving platform"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ApolloAuto/apollo",
+      "status": "candidate-context",
+      "text": "![](docs/02_Quick%20Start/demo_guide/images/Apollo_logo.png)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ApolloAuto/apollo",
+      "status": "candidate",
+      "text": "![](docs/02_Quick%20Start/demo_guide/images/Apollo_logo.png)"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "autonomous-vehicles",
+  "concept_id": "autonomous-vehicles",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "ApolloAuto/apollo"
+    }
+  ],
+  "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "autonomous-vehicles",
+      "sense_id": "autonomous-vehicles#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

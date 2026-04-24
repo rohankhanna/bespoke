@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-24T00:51:03.689264+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 284
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "R Interoperability for Nova",
+    "fork": false,
+    "full_name": "jonclayden/R-Nova",
+    "html_url": "https://github.com/jonclayden/R-Nova",
+    "language": "JavaScript",
+    "pushed_at": "2024-12-02T21:14:06Z",
+    "stargazers_count": 11,
+    "topics": [],
+    "updated_at": "2025-10-28T22:11:40Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

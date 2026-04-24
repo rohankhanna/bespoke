@@ -288,13 +288,6 @@
   ],
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "react-native-webview/react-native-webview",
-      "target": "react-native-community/discussions-and-proposals",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "package-json:dependencies",
       "source_file": "package.json",
       "source_repo": "react-native-webview/react-native-webview",
@@ -729,7 +722,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-23T08:47:40.780893+00:00",
+  "fetched_at": "2026-04-24T01:59:58.018759+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -782,13 +775,7 @@
     "topics": [],
     "updated_at": "2026-04-23T07:34:03Z"
   },
-  "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "react-native-community/discussions-and-proposals",
-      "source_file": "README.md"
-    }
-  ],
+  "repo_links": [],
   "terms": [
     {
       "context_snippet": "Android",

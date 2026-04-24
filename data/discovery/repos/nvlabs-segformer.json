@@ -1,0 +1,90 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NVlabs/SegFormer",
+      "target": "ade20k",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NVlabs/SegFormer",
+      "target": "cityscapes",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NVlabs/SegFormer",
+      "target": "semantic-segmentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NVlabs/SegFormer",
+      "target": "transformer",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T02:01:21.907575+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4744
+    },
+    {
+      "path": "requirements.txt",
+      "size": 83
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Official PyTorch implementation of SegFormer",
+    "fork": false,
+    "full_name": "NVlabs/SegFormer",
+    "html_url": "https://github.com/NVlabs/SegFormer",
+    "language": "Python",
+    "pushed_at": "2024-08-02T15:50:33Z",
+    "stargazers_count": 3460,
+    "topics": [
+      "ade20k",
+      "cityscapes",
+      "semantic-segmentation",
+      "transformer"
+    ],
+    "updated_at": "2026-04-23T14:36:40Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "[![NVIDIA Source Code License](https://img.shields.io/badge/license-NSCL-blue.svg)](https://github.com/NVlabs/SegFormer/blob/master/LICENSE)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ade20k"
+    },
+    {
+      "context_snippet": "[![NVIDIA Source Code License](https://img.shields.io/badge/license-NSCL-blue.svg)](https://github.com/NVlabs/SegFormer/blob/master/LICENSE)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cityscapes"
+    },
+    {
+      "context_snippet": "[![NVIDIA Source Code License](https://img.shields.io/badge/license-NSCL-blue.svg)](https://github.com/NVlabs/SegFormer/blob/master/LICENSE)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "semantic-segmentation"
+    },
+    {
+      "context_snippet": "[![NVIDIA Source Code License](https://img.shields.io/badge/license-NSCL-blue.svg)](https://github.com/NVlabs/SegFormer/blob/master/LICENSE)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "transformer"
+    }
+  ]
+}

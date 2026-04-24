@@ -1,12 +1,17 @@
 {
   "component": "aws-github-ops/handle-stale-discussions@711a9813957be17629fc6933afcd8bd132c57254",
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/handle-stale-discussions.yml",
       "source_repo": "boto/boto3"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/handle-stale-discussions.yml",
+      "source_repo": "boto/botocore"
     }
   ]
 }

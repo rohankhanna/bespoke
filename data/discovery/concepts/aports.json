@@ -1,0 +1,93 @@
+{
+  "aliases": [
+    "aports"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alpinelinux/aports",
+      "status": "candidate-context",
+      "text": "[MIRROR] Alpine packages build scripts"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alpinelinux/aports",
+      "status": "candidate-context",
+      "text": "This repository contains the APKBUILD files for each and every"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alpinelinux/aports",
+      "status": "candidate",
+      "text": "This repository contains the APKBUILD files for each and every"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19997892,
+      "status": "candidate",
+      "text": "helm"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9998014,
+      "status": "candidate",
+      "text": "aboard"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9986091,
+      "status": "candidate",
+      "text": "ashore"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9831979,
+      "status": "candidate",
+      "text": "offshore"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "aports",
+  "concept_id": "aports",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "alpinelinux/aports"
+    }
+  ],
+  "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "aports",
+      "sense_id": "aports#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -1,0 +1,253 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/edge.yml"
+    },
+    {
+      "component": "SimenB/github-actions-cpu-cores@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/edge.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/edge.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "3dfxdev/EDGE",
+      "target": "dashodanger/edge-classic",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/edge.yml",
+      "source_repo": "3dfxdev/EDGE",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/edge.yml",
+      "source_repo": "3dfxdev/EDGE",
+      "target": "SimenB/github-actions-cpu-cores@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/edge.yml",
+      "source_repo": "3dfxdev/EDGE",
+      "target": "actions/upload-artifact@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/edge.yml",
+      "source_repo": "3dfxdev/EDGE",
+      "target": "EDGE",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "3dfxdev/EDGE",
+      "target": "3dge",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "3dfxdev/EDGE",
+      "target": "3dge-engine",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "3dfxdev/EDGE",
+      "target": "coal",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "3dfxdev/EDGE",
+      "target": "doom",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "3dfxdev/EDGE",
+      "target": "dosdoom",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "3dfxdev/EDGE",
+      "target": "edge",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "3dfxdev/EDGE",
+      "target": "edge-engine",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "3dfxdev/EDGE",
+      "target": "glbsp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "3dfxdev/EDGE",
+      "target": "hyper-3dge",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "3dfxdev/EDGE",
+      "target": "hyperedge",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "3dfxdev/EDGE",
+      "target": "source-port",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T00:49:48.838555+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3611
+    },
+    {
+      "path": ".github/workflows/edge.yml",
+      "size": 1130
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "EDGE Source Code",
+    "fork": false,
+    "full_name": "3dfxdev/EDGE",
+    "html_url": "https://github.com/3dfxdev/EDGE",
+    "language": "C++",
+    "pushed_at": "2025-11-29T07:14:01Z",
+    "stargazers_count": 81,
+    "topics": [
+      "3dge",
+      "3dge-engine",
+      "coal",
+      "ddf",
+      "doom",
+      "dosdoom",
+      "edge",
+      "edge-engine",
+      "glbsp",
+      "hyper-3dge",
+      "hyperedge",
+      "rts",
+      "source-port"
+    ],
+    "updated_at": "2026-03-21T10:45:54Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dashodanger/edge-classic",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "EDGE",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/edge.yml",
+      "term": "EDGE"
+    },
+    {
+      "context_snippet": "Welcome to EDGE!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "3dge"
+    },
+    {
+      "context_snippet": "Welcome to EDGE!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "3dge-engine"
+    },
+    {
+      "context_snippet": "Welcome to EDGE!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "coal"
+    },
+    {
+      "context_snippet": "Welcome to EDGE!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "doom"
+    },
+    {
+      "context_snippet": "Welcome to EDGE!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dosdoom"
+    },
+    {
+      "context_snippet": "Welcome to EDGE!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "edge"
+    },
+    {
+      "context_snippet": "Welcome to EDGE!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "edge-engine"
+    },
+    {
+      "context_snippet": "Welcome to EDGE!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "glbsp"
+    },
+    {
+      "context_snippet": "Welcome to EDGE!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hyper-3dge"
+    },
+    {
+      "context_snippet": "Welcome to EDGE!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hyperedge"
+    },
+    {
+      "context_snippet": "Welcome to EDGE!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "source-port"
+    }
+  ]
+}

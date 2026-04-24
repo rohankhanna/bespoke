@@ -1,0 +1,679 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_base_image.yml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_base_image.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_base_image.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_base_image.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_base_image.yml"
+    },
+    {
+      "component": "docker/login-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_base_image.yml"
+    },
+    {
+      "component": "geekyeggo/delete-artifact@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_base_image.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/kurtosis.yml"
+    },
+    {
+      "component": "docker/login-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/kurtosis.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/kurtosis.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "arnetheduck/nph-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/matrix_config.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly_build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly_build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly_build.yml"
+    },
+    {
+      "component": "actions/download-artifact@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly_build.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly_build.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly_build.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly_build.yml"
+    },
+    {
+      "component": "geekyeggo/delete-artifact@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly_build.yml"
+    },
+    {
+      "component": "docker/metadata-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nimbus_docker_build.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nimbus_docker_build.yml"
+    },
+    {
+      "component": "docker/login-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nimbus_docker_build.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nimbus_docker_build.yml"
+    },
+    {
+      "component": "docker/build-push-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nimbus_docker_build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nimbus_docker_build.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nimbus_docker_build.yml"
+    },
+    {
+      "component": "docker/login-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nimbus_docker_build.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nimbus_docker_build.yml"
+    },
+    {
+      "component": "docker/metadata-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nimbus_docker_build.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "status-im/nimbus-eth1",
+      "target": "status-im/nimbus-eth2",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "status-im/nimbus-eth1",
+      "target": "status-im/nimbus-build-system",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "status-im/nimbus-eth1",
+      "target": "status-im/nim-chronicles",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_base_image.yml",
+      "source_repo": "status-im/nimbus-eth1",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_base_image.yml",
+      "source_repo": "status-im/nimbus-eth1",
+      "target": "actions/cache@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_base_image.yml",
+      "source_repo": "status-im/nimbus-eth1",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_base_image.yml",
+      "source_repo": "status-im/nimbus-eth1",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_base_image.yml",
+      "source_repo": "status-im/nimbus-eth1",
+      "target": "docker/login-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_base_image.yml",
+      "source_repo": "status-im/nimbus-eth1",
+      "target": "geekyeggo/delete-artifact@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_base_image.yml",
+      "source_repo": "status-im/nimbus-eth1",
+      "target": "Build Docker Base Images",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "status-im/nimbus-eth1",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "status-im/nimbus-eth1",
+      "target": "Nimbus CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/kurtosis.yml",
+      "source_repo": "status-im/nimbus-eth1",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/kurtosis.yml",
+      "source_repo": "status-im/nimbus-eth1",
+      "target": "docker/login-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/kurtosis.yml",
+      "source_repo": "status-im/nimbus-eth1",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/kurtosis.yml",
+      "source_repo": "status-im/nimbus-eth1",
+      "target": "Kurtosis Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "status-im/nimbus-eth1",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "status-im/nimbus-eth1",
+      "target": "arnetheduck/nph-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "status-im/nimbus-eth1",
+      "target": "Lint CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/matrix_config.yml",
+      "source_repo": "status-im/nimbus-eth1",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/matrix_config.yml",
+      "source_repo": "status-im/nimbus-eth1",
+      "target": "Matrix configuration",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly_build.yml",
+      "source_repo": "status-im/nimbus-eth1",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly_build.yml",
+      "source_repo": "status-im/nimbus-eth1",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly_build.yml",
+      "source_repo": "status-im/nimbus-eth1",
+      "target": "actions/download-artifact@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly_build.yml",
+      "source_repo": "status-im/nimbus-eth1",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly_build.yml",
+      "source_repo": "status-im/nimbus-eth1",
+      "target": "softprops/action-gh-release@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly_build.yml",
+      "source_repo": "status-im/nimbus-eth1",
+      "target": "geekyeggo/delete-artifact@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nightly_build.yml",
+      "source_repo": "status-im/nimbus-eth1",
+      "target": "Nightly build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nimbus_docker_build.yml",
+      "source_repo": "status-im/nimbus-eth1",
+      "target": "docker/metadata-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nimbus_docker_build.yml",
+      "source_repo": "status-im/nimbus-eth1",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nimbus_docker_build.yml",
+      "source_repo": "status-im/nimbus-eth1",
+      "target": "docker/login-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nimbus_docker_build.yml",
+      "source_repo": "status-im/nimbus-eth1",
+      "target": "docker/setup-buildx-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nimbus_docker_build.yml",
+      "source_repo": "status-im/nimbus-eth1",
+      "target": "docker/build-push-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nimbus_docker_build.yml",
+      "source_repo": "status-im/nimbus-eth1",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nimbus_docker_build.yml",
+      "source_repo": "status-im/nimbus-eth1",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nimbus_docker_build.yml",
+      "source_repo": "status-im/nimbus-eth1",
+      "target": "Build Docker Images",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "status-im/nimbus-eth1",
+      "target": "android",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "status-im/nimbus-eth1",
+      "target": "blockchain",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "status-im/nimbus-eth1",
+      "target": "ethereum",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "status-im/nimbus-eth1",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "status-im/nimbus-eth1",
+      "target": "mobile",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "status-im/nimbus-eth1",
+      "target": "nim-lang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "status-im/nimbus-eth1",
+      "target": "nim-language",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "status-im/nimbus-eth1",
+      "target": "nimbus",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "status-im/nimbus-eth1",
+      "target": "portal-network",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "status-im/nimbus-eth1",
+      "target": "raspberry-pi",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T00:58:03.050307+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11535
+    },
+    {
+      "path": "Dockerfile",
+      "size": 1286
+    },
+    {
+      "path": ".github/workflows/build_base_image.yml",
+      "size": 3136
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 3289
+    },
+    {
+      "path": ".github/workflows/kurtosis.yml",
+      "size": 9559
+    },
+    {
+      "path": ".github/workflows/lint.yml",
+      "size": 1367
+    },
+    {
+      "path": ".github/workflows/matrix_config.json",
+      "size": 378
+    },
+    {
+      "path": ".github/workflows/matrix_config.yml",
+      "size": 1043
+    },
+    {
+      "path": ".github/workflows/nightly_build.yml",
+      "size": 5217
+    },
+    {
+      "path": ".github/workflows/nimbus_docker_build.yml",
+      "size": 4035
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Nimbus: an Ethereum Execution Client for Resource-Restricted Devices",
+    "fork": false,
+    "full_name": "status-im/nimbus-eth1",
+    "html_url": "https://github.com/status-im/nimbus-eth1",
+    "language": "Nim",
+    "pushed_at": "2026-04-23T17:43:12Z",
+    "stargazers_count": 626,
+    "topics": [
+      "android",
+      "blockchain",
+      "ethereum",
+      "hacktoberfest",
+      "ios",
+      "mobile",
+      "nim",
+      "nim-lang",
+      "nim-language",
+      "nimbus",
+      "portal-network",
+      "raspberry-pi"
+    ],
+    "updated_at": "2026-04-23T16:35:16Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "status-im/nim-chronicles",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "status-im/nimbus-build-system",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "status-im/nimbus-eth2",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build Docker Base Images",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_base_image.yml",
+      "term": "Build Docker Base Images"
+    },
+    {
+      "context_snippet": "Nimbus CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "term": "Nimbus CI"
+    },
+    {
+      "context_snippet": "Kurtosis Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/kurtosis.yml",
+      "term": "Kurtosis Tests"
+    },
+    {
+      "context_snippet": "Lint CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "term": "Lint CI"
+    },
+    {
+      "context_snippet": "Matrix configuration",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/matrix_config.yml",
+      "term": "Matrix configuration"
+    },
+    {
+      "context_snippet": "Nightly build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nightly_build.yml",
+      "term": "Nightly build"
+    },
+    {
+      "context_snippet": "Build Docker Images",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nimbus_docker_build.yml",
+      "term": "Build Docker Images"
+    },
+    {
+      "context_snippet": "[![License: Apache](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "android"
+    },
+    {
+      "context_snippet": "[![License: Apache](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "blockchain"
+    },
+    {
+      "context_snippet": "[![License: Apache](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ethereum"
+    },
+    {
+      "context_snippet": "[![License: Apache](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    },
+    {
+      "context_snippet": "[![License: Apache](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mobile"
+    },
+    {
+      "context_snippet": "[![License: Apache](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nim-lang"
+    },
+    {
+      "context_snippet": "[![License: Apache](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nim-language"
+    },
+    {
+      "context_snippet": "[![License: Apache](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nimbus"
+    },
+    {
+      "context_snippet": "[![License: Apache](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "portal-network"
+    },
+    {
+      "context_snippet": "[![License: Apache](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "raspberry-pi"
+    }
+  ]
+}

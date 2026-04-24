@@ -187,6 +187,42 @@
       "source_repo": "gluon-lang/gluon_language-server",
       "status": "candidate-context",
       "text": "This implements the [language server protocol](https://microsoft.github.io/language-server-protocol/) and offers gluon support for the LSP clients, like [VSCode](https://code.visualstudio.com/), [Atom](https://atom.io/) and many others."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "clojure-lsp/clojure-lsp",
+      "status": "candidate-context",
+      "text": "Clojure & ClojureScript Language Server (LSP) implementation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clojure-lsp/clojure-lsp",
+      "status": "candidate-context",
+      "text": "<img src=\"images/logo-dark.svg\" width=\"180\" align=\"right\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "robb-j/nova-yaml",
+      "status": "candidate-context",
+      "text": "A Nova extension to provide YAML validation based on JSON schemas"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "robb-j/nova-yaml",
+      "status": "candidate-context",
+      "text": "A YAML language server/client for [Nova IDE](https://nova.app)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "clice-io/clice",
+      "status": "candidate-context",
+      "text": "A next-generation C++ language server for modern C++, focused on high performance and deep code intelligence"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clice-io/clice",
+      "status": "candidate-context",
+      "text": "<!-- Begin section: Overview -->"
     }
   ],
   "candidate_glosses": [
@@ -279,6 +315,24 @@
       "source_repo": "gluon-lang/gluon_language-server",
       "status": "candidate",
       "text": "This implements the [language server protocol](https://microsoft.github.io/language-server-protocol/) and offers gluon support for the LSP clients, like [VSCode](https://code.visualstudio.com/), [Atom](https://atom.io/) and many others."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clojure-lsp/clojure-lsp",
+      "status": "candidate",
+      "text": "<img src=\"images/logo-dark.svg\" width=\"180\" align=\"right\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "robb-j/nova-yaml",
+      "status": "candidate",
+      "text": "A YAML language server/client for [Nova IDE](https://nova.app)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clice-io/clice",
+      "status": "candidate",
+      "text": "<!-- Begin section: Overview -->"
     }
   ],
   "candidate_related_terms": [],
@@ -388,11 +442,35 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "gluon-lang/gluon_language-server"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "clojure-lsp/clojure-lsp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "typescript-language-server/typescript-language-server"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "robb-j/nova-yaml"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "clice-io/clice"
     }
   ],
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

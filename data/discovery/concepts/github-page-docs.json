@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Github Page Docs"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ast-grep/ast-grep.github.io",
+      "status": "candidate-context",
+      "text": "Website for ast-grep!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ast-grep/ast-grep.github.io",
+      "status": "candidate-context",
+      "text": "Github Page Docs"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ast-grep/ast-grep.github.io",
+      "status": "candidate",
+      "text": "Github Page Docs"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14658,
+      "status": "candidate",
+      "text": "gps"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14658,
+      "status": "candidate",
+      "text": "hmo"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14253,
+      "status": "candidate",
+      "text": "document"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14253,
+      "status": "candidate",
+      "text": "documentation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14253,
+      "status": "candidate",
+      "text": "feuilleton"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Github Page Docs",
+  "concept_id": "github-page-docs",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/gh-pages.yml",
+      "source_repo": "ast-grep/ast-grep.github.io"
+    }
+  ],
+  "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Github Page Docs",
+      "sense_id": "github-page-docs#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

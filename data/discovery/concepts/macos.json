@@ -935,6 +935,66 @@
       "source_repo": "microsoft/rnx-kit",
       "status": "candidate-context",
       "text": "[![Open in Visual Studio Code](https://img.shields.io/static/v1?logo=visualstudiocode&label=&message=Open%20in%20Visual%20Studio%20Code&color=007acc&labelColor=444444&logoColor=007acc)](https://vscode.dev/github/microsoft/rnx-kit)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "boyter/scc",
+      "status": "candidate-context",
+      "text": "Sloc, Cloc and Code: scc is a very fast accurate code counter with complexity calculations and COCOMO estimates written in pure Go"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "boyter/scc",
+      "status": "candidate-context",
+      "text": "![SCC illustration](./scc.jpg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "joseluisq/paket",
+      "status": "candidate-context",
+      "text": "A simple and fast package manager for the Fish shell written in Rust. \ud83d\udce6"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "joseluisq/paket",
+      "status": "candidate-context",
+      "text": "> A simple and fast package manager for the [Fish Shell](https://fishshell.com/) written in [Rust](https://www.rust-lang.org/). \ud83d\udc20"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "XcodesOrg/XcodesApp",
+      "status": "candidate-context",
+      "text": "The easiest way to install and switch between multiple versions of Xcode - with a mouse click. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "XcodesOrg/XcodesApp",
+      "status": "candidate-context",
+      "text": "<h1><img src=\"icon.png\" align=\"center\" width=50 height=50 /> <img src=\"IconDark.png\" align=\"center\" width=50 height=50 /> <img src=\"IconMono.png\" align=\"center\" width=50 height=50 /> Xcodes.app</h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gulrak/filesystem",
+      "status": "candidate-context",
+      "text": "An implementation of C++17 std::filesystem for C++11 /C++14/C++17/C++20 on Windows, macOS, Linux and FreeBSD."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gulrak/filesystem",
+      "status": "candidate-context",
+      "text": "![Supported Platforms](https://img.shields.io/badge/platform-macOS%20%7C%20Linux%20%7C%20Windows%20%7C%20FreeBSD-blue.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dacap/clip",
+      "status": "candidate-context",
+      "text": "Cross-platform C++ library to copy/paste clipboard content"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dacap/clip",
+      "status": "candidate-context",
+      "text": "*Copyright (c) 2015-2026 David Capello*"
     }
   ],
   "candidate_glosses": [
@@ -1405,6 +1465,36 @@
       "source_repo": "microsoft/rnx-kit",
       "status": "candidate",
       "text": "[![Open in Visual Studio Code](https://img.shields.io/static/v1?logo=visualstudiocode&label=&message=Open%20in%20Visual%20Studio%20Code&color=007acc&labelColor=444444&logoColor=007acc)](https://vscode.dev/github/microsoft/rnx-kit)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "boyter/scc",
+      "status": "candidate",
+      "text": "![SCC illustration](./scc.jpg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "joseluisq/paket",
+      "status": "candidate",
+      "text": "> A simple and fast package manager for the [Fish Shell](https://fishshell.com/) written in [Rust](https://www.rust-lang.org/). \ud83d\udc20"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "XcodesOrg/XcodesApp",
+      "status": "candidate",
+      "text": "<h1><img src=\"icon.png\" align=\"center\" width=50 height=50 /> <img src=\"IconDark.png\" align=\"center\" width=50 height=50 /> <img src=\"IconMono.png\" align=\"center\" width=50 height=50 /> Xcodes.app</h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gulrak/filesystem",
+      "status": "candidate",
+      "text": "![Supported Platforms](https://img.shields.io/badge/platform-macOS%20%7C%20Linux%20%7C%20Windows%20%7C%20FreeBSD-blue.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dacap/clip",
+      "status": "candidate",
+      "text": "*Copyright (c) 2015-2026 David Capello*"
     }
   ],
   "candidate_related_terms": [
@@ -1976,11 +2066,53 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "microsoft/rnx-kit"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "igor-makarov/xcake"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "boyter/scc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "joseluisq/paket"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "XcodesOrg/XcodesApp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "gulrak/filesystem"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "dacap/clip"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/macos-ci.yml",
+      "source_repo": "react-native-webview/react-native-webview"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

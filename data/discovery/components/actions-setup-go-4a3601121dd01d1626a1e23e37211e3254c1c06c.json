@@ -1,7 +1,7 @@
 {
   "component": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
   "first_seen_at": "2026-04-18T09:09:30.058377+00:00",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -1147,6 +1147,81 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/benchmark.yml",
       "source_repo": "gofiber/fiber"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "sigstore/rekor"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "sigstore/rekor"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "sigstore/rekor"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "grpc-ecosystem/grpc-health-probe"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "grpc-ecosystem/grpc-health-probe"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/acceptance.yml",
+      "source_repo": "hashicorp/go-discover"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "bufbuild/protovalidate-python"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-samples.yml",
+      "source_repo": "chainguard-dev/apko"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "chainguard-dev/apko"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/examples-test.yaml",
+      "source_repo": "chainguard-dev/apko"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/go-tests.yaml",
+      "source_repo": "chainguard-dev/apko"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "chainguard-dev/apko"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/verify.yaml",
+      "source_repo": "chainguard-dev/apko"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/bootstrap_region.yml",
+      "source_repo": "aws-powertools/powertools-lambda-typescript"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/layer_balance.yml",
+      "source_repo": "aws-powertools/powertools-lambda-typescript"
     }
   ]
 }

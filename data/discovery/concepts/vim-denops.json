@@ -19,6 +19,54 @@
       "source_repo": "vim-denops/denops.vim",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Shougo/ddc.vim",
+      "status": "candidate-context",
+      "text": "Dark deno-powered completion framework for Vim/Neovim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Shougo/ddc.vim",
+      "status": "candidate-context",
+      "text": "> Dark deno-powered completion framework for Vim/Neovim"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lambdalisue/vim-gin",
+      "status": "candidate-context",
+      "text": "\ud83e\udd43  Gin makes you drunk on Git"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lambdalisue/vim-gin",
+      "status": "candidate-context",
+      "text": "[![MIT License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Shougo/ddu.vim",
+      "status": "candidate-context",
+      "text": "Dark deno-powered UI framework for Vim/Neovim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Shougo/ddu.vim",
+      "status": "candidate-context",
+      "text": "> Dark deno-powered UI framework for Vim/Neovim"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vim-denops/denops-helloworld.vim",
+      "status": "candidate-context",
+      "text": "\ud83d\udd30 An example plugin of denops.vim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vim-denops/denops-helloworld.vim",
+      "status": "candidate-context",
+      "text": "A minimal example plugin of [denops.vim](https://github.com/vim-denops/denops.vim)."
     }
   ],
   "candidate_glosses": [
@@ -27,6 +75,30 @@
       "source_repo": "vim-denops/denops.vim",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Shougo/ddc.vim",
+      "status": "candidate",
+      "text": "> Dark deno-powered completion framework for Vim/Neovim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lambdalisue/vim-gin",
+      "status": "candidate",
+      "text": "[![MIT License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Shougo/ddu.vim",
+      "status": "candidate",
+      "text": "> Dark deno-powered UI framework for Vim/Neovim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vim-denops/denops-helloworld.vim",
+      "status": "candidate",
+      "text": "A minimal example plugin of [denops.vim](https://github.com/vim-denops/denops.vim)."
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +112,35 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "vim-denops/denops.vim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "Shougo/ddc.vim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "lambdalisue/vim-gin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "Shougo/ddu.vim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "vim-denops/denops-helloworld.vim"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

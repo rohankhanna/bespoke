@@ -139,6 +139,42 @@
       "source_repo": "redhat-developer/yaml-language-server",
       "status": "candidate-context",
       "text": "![CI](https://github.com/redhat-developer/yaml-language-server/workflows/CI/badge.svg) [![version](https://img.shields.io/npm/v/yaml-language-server.svg)](https://www.npmjs.com/package/yaml-language-server) [![Coverage Status](https://coveralls.io/repos/github/redhat-developer/y\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "eemeli/yaml",
+      "status": "candidate-context",
+      "text": "YAML parser and serialiser for JavaScript"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eemeli/yaml",
+      "status": "candidate-context",
+      "text": "`yaml` is a definitive library for [YAML](https://yaml.org/), the human friendly data serialization standard."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "neoclide/coc-yaml",
+      "status": "candidate-context",
+      "text": "Yaml language server extension for coc.nvim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "neoclide/coc-yaml",
+      "status": "candidate-context",
+      "text": "coc-yaml \u2014 yaml extension for coc.nvim"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "robb-j/nova-yaml",
+      "status": "candidate-context",
+      "text": "A Nova extension to provide YAML validation based on JSON schemas"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "robb-j/nova-yaml",
+      "status": "candidate-context",
+      "text": "A YAML language server/client for [Nova IDE](https://nova.app)."
     }
   ],
   "candidate_glosses": [
@@ -207,6 +243,24 @@
       "source_repo": "redhat-developer/yaml-language-server",
       "status": "candidate",
       "text": "![CI](https://github.com/redhat-developer/yaml-language-server/workflows/CI/badge.svg) [![version](https://img.shields.io/npm/v/yaml-language-server.svg)](https://www.npmjs.com/package/yaml-language-server) [![Coverage Status](https://coveralls.io/repos/github/redhat-developer/y\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eemeli/yaml",
+      "status": "candidate",
+      "text": "`yaml` is a definitive library for [YAML](https://yaml.org/), the human friendly data serialization standard."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "neoclide/coc-yaml",
+      "status": "candidate",
+      "text": "coc-yaml \u2014 yaml extension for coc.nvim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "robb-j/nova-yaml",
+      "status": "candidate",
+      "text": "A YAML language server/client for [Nova IDE](https://nova.app)."
     }
   ],
   "candidate_related_terms": [
@@ -316,11 +370,29 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "redhat-developer/yaml-language-server"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "eemeli/yaml"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "neoclide/coc-yaml"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "robb-j/nova-yaml"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,88 @@
+{
+  "aliases": [
+    "heroku-buildpack"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gjaldon/heroku-buildpack-phoenix-static",
+      "status": "candidate-context",
+      "text": "A Heroku buildpack for building Phoenix's static assets"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gjaldon/heroku-buildpack-phoenix-static",
+      "status": "candidate-context",
+      "text": "This buildpack is meant to be used with the [Heroku Buildpack for Elixir](https://github.com/HashNuke/heroku-buildpack-elixir). When deploying Phoenix apps to Heroku, static assets will need to be compiled. This buildpack sees to it that static assets are compiled and that a cor\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "HashNuke/heroku-buildpack-elixir",
+      "status": "candidate-context",
+      "text": "Heroku Buildpack for Elixir with nitro boost"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HashNuke/heroku-buildpack-elixir",
+      "status": "candidate-context",
+      "text": "* **Easy configuration** with `elixir_buildpack.config` file"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gjaldon/heroku-buildpack-phoenix-static",
+      "status": "candidate",
+      "text": "This buildpack is meant to be used with the [Heroku Buildpack for Elixir](https://github.com/HashNuke/heroku-buildpack-elixir). When deploying Phoenix apps to Heroku, static assets will need to be compiled. This buildpack sees to it that static assets are compiled and that a cor\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HashNuke/heroku-buildpack-elixir",
+      "status": "candidate",
+      "text": "* **Easy configuration** with `elixir_buildpack.config` file"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "heroku-buildpack",
+  "concept_id": "heroku-buildpack",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "gjaldon/heroku-buildpack-phoenix-static"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "HashNuke/heroku-buildpack-elixir"
+    }
+  ],
+  "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "heroku-buildpack",
+      "sense_id": "heroku-buildpack#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

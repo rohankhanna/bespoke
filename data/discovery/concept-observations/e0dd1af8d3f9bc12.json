@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Deploy headless browsers in Docker. Run on our cloud or bring your own. Free for non-commercial uses."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Firefox"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Firefox"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19944699,
+      "status": "candidate",
+      "text": "fossie"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19944698,
+      "status": "candidate",
+      "text": "favicon"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19944697,
+      "status": "candidate",
+      "text": "foss"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19944696,
+      "status": "candidate",
+      "text": "fox-fire"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19944695,
+      "status": "candidate",
+      "text": "floss"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Firefox",
+      "sense_id": "firefox#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "firefox",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "firefox",
+  "observation_id": "e0dd1af8d3f9bc12",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-24T00:33:56.049672+00:00",
+  "observed_text": "Firefox",
+  "source_context_snippet": "Firefox",
+  "source_file": ".github/workflows/docker-firefox.yml",
+  "source_repo": "browserless/browserless",
+  "source_repo_description": "Deploy headless browsers in Docker. Run on our cloud or bring your own. Free for non-commercial uses."
+}

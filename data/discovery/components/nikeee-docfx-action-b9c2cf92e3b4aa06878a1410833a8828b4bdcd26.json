@@ -1,0 +1,12 @@
+{
+  "component": "nikeee/docfx-action@b9c2cf92e3b4aa06878a1410833a8828b4bdcd26",
+  "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "SpecterOps/SharpHoundCommon"
+    }
+  ]
+}

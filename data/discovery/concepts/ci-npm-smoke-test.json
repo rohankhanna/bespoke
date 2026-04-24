@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "CI: npm smoke test"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lovell/sharp",
+      "status": "candidate-context",
+      "text": "High performance Node.js image processing, the fastest module to resize JPEG, PNG, WebP, AVIF and TIFF images. Uses the libvips library."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lovell/sharp",
+      "status": "candidate-context",
+      "text": "\"CI: npm smoke test\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lovell/sharp",
+      "status": "candidate",
+      "text": "\"CI: npm smoke test\""
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22419,
+      "status": "candidate",
+      "text": "clockwork"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22419,
+      "status": "candidate",
+      "text": "cushion"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22419,
+      "status": "candidate",
+      "text": "nip"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22388,
+      "status": "candidate",
+      "text": "drive"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22359,
+      "status": "candidate",
+      "text": "fan"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "CI: npm smoke test",
+  "concept_id": "ci-npm-smoke-test",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/npm.yml",
+      "source_repo": "lovell/sharp"
+    }
+  ],
+  "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "CI: npm smoke test",
+      "sense_id": "ci-npm-smoke-test#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

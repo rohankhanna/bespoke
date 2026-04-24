@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "An installation and update framework for Windows desktop apps"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "| README.md |"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "| README.md |"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20043905,
+      "status": "candidate",
+      "text": "chipmunk"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20031334,
+      "status": "candidate",
+      "text": "bird"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19966000,
+      "status": "candidate",
+      "text": "mole"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19935112,
+      "status": "candidate",
+      "text": "fart"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19934169,
+      "status": "candidate",
+      "text": "flatulence"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "squirrel",
+      "sense_id": "squirrel#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "squirrel",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "squirrel",
+  "observation_id": "8e1a993d5cfe88a5",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T00:33:56.049672+00:00",
+  "observed_text": "squirrel",
+  "source_context_snippet": "| README.md |",
+  "source_file": null,
+  "source_repo": "Squirrel/Squirrel.Windows",
+  "source_repo_description": "An installation and update framework for Windows desktop apps"
+}

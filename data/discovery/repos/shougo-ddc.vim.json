@@ -1,0 +1,190 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deno.yml"
+    },
+    {
+      "component": "denoland/setup-deno@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deno.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deno.yml"
+    },
+    {
+      "component": "denoland/setup-deno@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deno.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deno.yml"
+    },
+    {
+      "component": "denoland/setup-deno@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deno.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jsr.yml"
+    },
+    {
+      "component": "denoland/setup-deno@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jsr.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deno.yml",
+      "source_repo": "Shougo/ddc.vim",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deno.yml",
+      "source_repo": "Shougo/ddc.vim",
+      "target": "denoland/setup-deno@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deno.yml",
+      "source_repo": "Shougo/ddc.vim",
+      "target": "deno",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jsr.yml",
+      "source_repo": "Shougo/ddc.vim",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jsr.yml",
+      "source_repo": "Shougo/ddc.vim",
+      "target": "denoland/setup-deno@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/jsr.yml",
+      "source_repo": "Shougo/ddc.vim",
+      "target": "jsr",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Shougo/ddc.vim",
+      "target": "auto-completion",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Shougo/ddc.vim",
+      "target": "ddc-vim",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Shougo/ddc.vim",
+      "target": "neovim",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Shougo/ddc.vim",
+      "target": "vim-denops",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T00:52:54.575561+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2068
+    },
+    {
+      "path": ".github/workflows/deno.yml",
+      "size": 1214
+    },
+    {
+      "path": ".github/workflows/jsr.yml",
+      "size": 440
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Dark deno-powered completion framework for Vim/Neovim",
+    "fork": false,
+    "full_name": "Shougo/ddc.vim",
+    "html_url": "https://github.com/Shougo/ddc.vim",
+    "language": "TypeScript",
+    "pushed_at": "2026-04-18T01:16:02Z",
+    "stargazers_count": 742,
+    "topics": [
+      "auto-completion",
+      "ddc-vim",
+      "neovim",
+      "vim",
+      "vim-denops"
+    ],
+    "updated_at": "2026-04-18T01:16:05Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "deno",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deno.yml",
+      "term": "deno"
+    },
+    {
+      "context_snippet": "jsr",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/jsr.yml",
+      "term": "jsr"
+    },
+    {
+      "context_snippet": "> Dark deno-powered completion framework for Vim/Neovim",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "auto-completion"
+    },
+    {
+      "context_snippet": "> Dark deno-powered completion framework for Vim/Neovim",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ddc-vim"
+    },
+    {
+      "context_snippet": "> Dark deno-powered completion framework for Vim/Neovim",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neovim"
+    },
+    {
+      "context_snippet": "> Dark deno-powered completion framework for Vim/Neovim",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vim-denops"
+    }
+  ]
+}

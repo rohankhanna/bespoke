@@ -1,0 +1,34 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "LLaVA-VL/LLaVA-NeXT",
+      "target": "llava-vl/llava-plus-codebase",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "LLaVA-VL/LLaVA-NeXT",
+      "target": "ggerganov/llama.cpp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "LLaVA-VL/LLaVA-NeXT",
+      "target": "instruction-tuning-with-gpt-4/gpt-4-llm",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "LLaVA-VL/LLaVA-NeXT",
+      "target": "luodian/otter",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-04-24T00:33:56.049672+00:00",
+  "source_repo": "LLaVA-VL/LLaVA-NeXT"
+}

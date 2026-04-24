@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "GPU"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AcademySoftwareFoundation/OpenColorIO",
+      "status": "candidate-context",
+      "text": "A color management framework for visual effects and animation."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AcademySoftwareFoundation/OpenColorIO",
+      "status": "candidate-context",
+      "text": "GPU"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AcademySoftwareFoundation/OpenColorIO",
+      "status": "candidate",
+      "text": "GPU"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29926264,
+      "status": "candidate",
+      "text": "nkvd"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20022941,
+      "status": "candidate",
+      "text": "cpu"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20022940,
+      "status": "candidate",
+      "text": "processor"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20022939,
+      "status": "candidate",
+      "text": "chipset"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20022938,
+      "status": "candidate",
+      "text": "amd"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "GPU",
+  "concept_id": "gpu",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/gpu_workflow.yml",
+      "source_repo": "AcademySoftwareFoundation/OpenColorIO"
+    }
+  ],
+  "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "GPU",
+      "sense_id": "gpu#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

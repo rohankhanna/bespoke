@@ -1,21 +1,21 @@
 {
-  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
       "source_file": null,
-      "source_repo": "mikefarah/yq"
+      "source_repo": "eemeli/yaml"
     },
     {
       "discovered_via": "repo-topic",
       "source_file": null,
-      "source_repo": "yaml/libyaml"
+      "source_repo": "neoclide/coc-yaml"
     },
     {
       "discovered_via": "repo-topic",
       "source_file": null,
-      "source_repo": "redhat-developer/yaml-language-server"
+      "source_repo": "robb-j/nova-yaml"
     }
   ],
   "term": "yaml"

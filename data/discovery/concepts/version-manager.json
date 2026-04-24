@@ -139,6 +139,18 @@
       "source_repo": "nodenv/node-build",
       "status": "candidate-context",
       "text": "Download, compile, and install Node on Unix-like systems."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nodenv/homebrew-nodenv",
+      "status": "candidate-context",
+      "text": "Homebrew formulae for nodenv plugins"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nodenv/homebrew-nodenv",
+      "status": "candidate-context",
+      "text": "[![Tests](https://img.shields.io/github/actions/workflow/status/nodenv/homebrew-nodenv/test.yml?label=tests&logo=github)](https://github.com/nodenv/homebrew-nodenv/actions/workflows/test.yml)"
     }
   ],
   "candidate_glosses": [
@@ -207,6 +219,12 @@
       "source_repo": "nodenv/node-build",
       "status": "candidate",
       "text": "Download, compile, and install Node on Unix-like systems."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nodenv/homebrew-nodenv",
+      "status": "candidate",
+      "text": "[![Tests](https://img.shields.io/github/actions/workflow/status/nodenv/homebrew-nodenv/test.yml?label=tests&logo=github)](https://github.com/nodenv/homebrew-nodenv/actions/workflows/test.yml)"
     }
   ],
   "candidate_related_terms": [],
@@ -334,11 +352,23 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "alloy-rs/svm-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "nodenv/homebrew-nodenv"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "alloy-rs/svm-rs"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

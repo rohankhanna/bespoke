@@ -4,13 +4,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "clj-kondo/configs",
-      "target": "babashka/neil",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "clj-kondo/configs",
       "target": "clojure-lsp/clojure-lsp",
       "target_type": "repository"
     },
@@ -43,6 +36,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-04-23T18:30:35.670459+00:00",
+  "generated_at": "2026-04-24T00:33:56.049672+00:00",
   "source_repo": "clj-kondo/configs"
 }

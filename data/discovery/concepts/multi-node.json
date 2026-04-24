@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Multi Node"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rootless-containers/usernetes",
+      "status": "candidate-context",
+      "text": "Kubernetes without the root privileges"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rootless-containers/usernetes",
+      "status": "candidate-context",
+      "text": "Multi Node"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rootless-containers/usernetes",
+      "status": "candidate",
+      "text": "Multi Node"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10595,
+      "status": "candidate",
+      "text": "hydra"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10512,
+      "status": "candidate",
+      "text": "ganglion"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10512,
+      "status": "candidate",
+      "text": "gland"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10512,
+      "status": "candidate",
+      "text": "knuckle"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10512,
+      "status": "candidate",
+      "text": "lymphoma"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Multi Node",
+  "concept_id": "multi-node",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/reusable-multi-node.yaml",
+      "source_repo": "rootless-containers/usernetes"
+    }
+  ],
+  "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Multi Node",
+      "sense_id": "multi-node#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -1,13 +1,6 @@
 {
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "community/community",
-      "target": "github/roadmap",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/actions_labeller.yml",
       "source_repo": "community/community",
@@ -253,6 +246,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-04-23T04:27:42.433064+00:00",
+  "generated_at": "2026-04-24T00:33:56.049672+00:00",
   "source_repo": "community/community"
 }

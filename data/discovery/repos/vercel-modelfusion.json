@@ -80,13 +80,6 @@
       "target_type": "repository"
     },
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "vercel/modelfusion",
-      "target": "lgrammel/storyteller",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "package-json:devDependencies",
       "source_file": "package.json",
       "source_repo": "vercel/modelfusion",
@@ -276,7 +269,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-23T21:05:53.933519+00:00",
+  "fetched_at": "2026-04-24T01:55:00.258474+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -330,11 +323,6 @@
     {
       "edge_type": "explicit-github-link",
       "full_name": "lgrammel/modelfusion",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "lgrammel/storyteller",
       "source_file": "README.md"
     }
   ],

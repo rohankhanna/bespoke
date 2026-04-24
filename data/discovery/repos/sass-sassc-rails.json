@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "sass/sassc-rails",
+      "target": "sass-contrib/sass-embedded-host-ruby",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "sass/sassc-rails",
+      "target": "rails/sass-rails",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-24T01:42:22.363114+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5055
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "Integrate SassC-Ruby with Rails!",
+    "fork": false,
+    "full_name": "sass/sassc-rails",
+    "html_url": "https://github.com/sass/sassc-rails",
+    "language": "HTML",
+    "pushed_at": "2025-10-24T23:16:11Z",
+    "stargazers_count": 705,
+    "topics": [],
+    "updated_at": "2026-02-20T11:22:20Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rails/sass-rails",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sass-contrib/sass-embedded-host-ruby",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

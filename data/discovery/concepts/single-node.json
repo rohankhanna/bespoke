@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Single Node"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rootless-containers/usernetes",
+      "status": "candidate-context",
+      "text": "Kubernetes without the root privileges"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rootless-containers/usernetes",
+      "status": "candidate-context",
+      "text": "Single Node"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rootless-containers/usernetes",
+      "status": "candidate",
+      "text": "Single Node"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31092,
+      "status": "candidate",
+      "text": "folium"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31092,
+      "status": "candidate",
+      "text": "root"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31092,
+      "status": "candidate",
+      "text": "roots"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14692,
+      "status": "candidate",
+      "text": "tree"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14692,
+      "status": "candidate",
+      "text": "treed"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Single Node",
+  "concept_id": "single-node",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/reusable-single-node.yaml",
+      "source_repo": "rootless-containers/usernetes"
+    }
+  ],
+  "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Single Node",
+      "sense_id": "single-node#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

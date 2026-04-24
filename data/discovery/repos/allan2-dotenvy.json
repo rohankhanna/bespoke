@@ -1,0 +1,264 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@stable",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@nightly",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@stable",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions-rs/toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions-rs/tarpaulin@v0.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "dawidd6/action-download-artifact@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codecov-comment.yml"
+    },
+    {
+      "component": "irongut/CodeCoverageSummary@v1.3.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codecov-comment.yml"
+    },
+    {
+      "component": "dawidd6/action-download-artifact@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codecov-comment.yml"
+    },
+    {
+      "component": "andstor/file-reader-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codecov-comment.yml"
+    },
+    {
+      "component": "marocchino/sticky-pull-request-comment@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codecov-comment.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "allan2/dotenvy",
+      "target": "dotenv-rs/dotenv",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "allan2/dotenvy",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "allan2/dotenvy",
+      "target": "dtolnay/rust-toolchain@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "allan2/dotenvy",
+      "target": "Swatinem/rust-cache@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "allan2/dotenvy",
+      "target": "dtolnay/rust-toolchain@stable",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "allan2/dotenvy",
+      "target": "dtolnay/rust-toolchain@nightly",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "allan2/dotenvy",
+      "target": "actions-rs/toolchain@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "allan2/dotenvy",
+      "target": "actions-rs/tarpaulin@v0.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "allan2/dotenvy",
+      "target": "actions/upload-artifact@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "allan2/dotenvy",
+      "target": "codecov/codecov-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codecov-comment.yml",
+      "source_repo": "allan2/dotenvy",
+      "target": "dawidd6/action-download-artifact@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codecov-comment.yml",
+      "source_repo": "allan2/dotenvy",
+      "target": "irongut/CodeCoverageSummary@v1.3.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codecov-comment.yml",
+      "source_repo": "allan2/dotenvy",
+      "target": "andstor/file-reader-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codecov-comment.yml",
+      "source_repo": "allan2/dotenvy",
+      "target": "marocchino/sticky-pull-request-comment@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codecov-comment.yml",
+      "source_repo": "allan2/dotenvy",
+      "target": "codecov-comment",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T00:57:19.736933+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5499
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 543
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 3110
+    },
+    {
+      "path": ".github/workflows/codecov-comment.yml",
+      "size": 1710
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A well-maintained fork of the dotenv crate",
+    "fork": false,
+    "full_name": "allan2/dotenvy",
+    "html_url": "https://github.com/allan2/dotenvy",
+    "language": "Rust",
+    "pushed_at": "2026-03-12T06:39:24Z",
+    "stargazers_count": 1188,
+    "topics": [],
+    "updated_at": "2026-04-23T07:06:21Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dotenv-rs/dotenv",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "codecov-comment",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codecov-comment.yml",
+      "term": "codecov-comment"
+    }
+  ]
+}

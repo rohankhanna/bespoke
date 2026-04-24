@@ -1,0 +1,150 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "agkozak/zcomet",
+      "target": "romkatv/zsh-bench",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "agkozak/zcomet",
+      "target": "marlonrichert/zsh-snap",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "agkozak/zcomet",
+      "target": "jreese/zsh-titles",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "agkozak/zcomet",
+      "target": "agkozak/zsh-100-commits-club",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "agkozak/zcomet",
+      "target": "package-manager",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "agkozak/zcomet",
+      "target": "plugin-manager",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "agkozak/zcomet",
+      "target": "zsh-configuration",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "agkozak/zcomet",
+      "target": "zsh-plugin-manager",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "agkozak/zcomet",
+      "target": "zshrc",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T00:36:54.079895+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 18627
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "zcomet - Fast, Simple Zsh Plugin Manager",
+    "fork": false,
+    "full_name": "agkozak/zcomet",
+    "html_url": "https://github.com/agkozak/zcomet",
+    "language": "Shell",
+    "pushed_at": "2026-02-24T18:06:05Z",
+    "stargazers_count": 233,
+    "topics": [
+      "package-manager",
+      "plugin-manager",
+      "zsh",
+      "zsh-configuration",
+      "zsh-plugin-manager",
+      "zshrc"
+    ],
+    "updated_at": "2026-04-16T14:08:07Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "agkozak/zsh-100-commits-club",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jreese/zsh-titles",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "marlonrichert/zsh-snap",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "romkatv/zsh-bench",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "package-manager"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "plugin-manager"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "zsh-configuration"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "zsh-plugin-manager"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "zshrc"
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "LLaVA-VL/LLaVA-NeXT",
+      "target": "llava-vl/llava-plus-codebase",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "LLaVA-VL/LLaVA-NeXT",
+      "target": "ggerganov/llama.cpp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "LLaVA-VL/LLaVA-NeXT",
+      "target": "instruction-tuning-with-gpt-4/gpt-4-llm",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "LLaVA-VL/LLaVA-NeXT",
+      "target": "luodian/otter",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-24T02:03:06.174444+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 23130
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 2039
+    },
+    {
+      "path": "requirements.txt",
+      "size": 6026
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "LLaVA-VL/LLaVA-NeXT",
+    "html_url": "https://github.com/LLaVA-VL/LLaVA-NeXT",
+    "language": "Python",
+    "pushed_at": "2026-04-15T06:38:26Z",
+    "stargazers_count": 4642,
+    "topics": [],
+    "updated_at": "2026-04-23T03:10:41Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ggerganov/llama.cpp",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "instruction-tuning-with-gpt-4/gpt-4-llm",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "llava-vl/llava-plus-codebase",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "luodian/otter",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

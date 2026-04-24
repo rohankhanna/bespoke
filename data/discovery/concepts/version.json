@@ -5,7 +5,9 @@
   "ambiguity_status": "unresolved",
   "buckets": [
     "tool-component",
-    "capability"
+    "capability",
+    "workflow-process",
+    "data-document-artifact"
   ],
   "candidate_definitions": [
     {
@@ -127,6 +129,18 @@
       "source_repo": "semantic-release/github",
       "status": "candidate-context",
       "text": "[**semantic-release**](https://github.com/semantic-release/semantic-release) plugin to publish a"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "stx-labs/stacks.js",
+      "status": "candidate-context",
+      "text": "JavaScript libraries for identity, auth, storage and transactions on the Stacks blockchain."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stx-labs/stacks.js",
+      "status": "candidate-context",
+      "text": "version"
     }
   ],
   "candidate_glosses": [
@@ -189,6 +203,12 @@
       "source_repo": "semantic-release/github",
       "status": "candidate",
       "text": "[**semantic-release**](https://github.com/semantic-release/semantic-release) plugin to publish a"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stx-labs/stacks.js",
+      "status": "candidate",
+      "text": "version"
     }
   ],
   "candidate_related_terms": [
@@ -352,11 +372,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "semantic-release/github"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/version.yml",
+      "source_repo": "stx-labs/stacks.js"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

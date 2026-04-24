@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Multithreading Library for Brotli, Lizard, LZ4, LZ5, Snappy and Zstandard"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "- works with skippables frame id 0x184D2A50 (12 bytes per compressed frame)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "- works with skippables frame id 0x184D2A50 (12 bytes per compressed frame)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40012042,
+      "status": "candidate",
+      "text": "spanking"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39998910,
+      "status": "candidate",
+      "text": "brisk"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39996315,
+      "status": "candidate",
+      "text": "energetic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39995710,
+      "status": "candidate",
+      "text": "rattling"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39994973,
+      "status": "candidate",
+      "text": "zippy"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "snappy",
+      "sense_id": "snappy#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 50061,
+      "status": "candidate",
+      "text": "cold"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 40049,
+      "status": "candidate",
+      "text": "crisp"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 39038,
+      "status": "candidate",
+      "text": "brisk"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 36033,
+      "status": "candidate",
+      "text": "spirited"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 29032,
+      "status": "candidate",
+      "text": "rakish"
+    }
+  ],
+  "concept_id": "snappy",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "snappy",
+  "observation_id": "9eabec7a31517f60",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T00:33:56.049672+00:00",
+  "observed_text": "snappy",
+  "source_context_snippet": "- works with skippables frame id 0x184D2A50 (12 bytes per compressed frame)",
+  "source_file": null,
+  "source_repo": "mcmilk/zstdmt",
+  "source_repo_description": "Multithreading Library for Brotli, Lizard, LZ4, LZ5, Snappy and Zstandard"
+}

@@ -1,0 +1,67 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "summerwind/h2spec",
+      "target": "hpack",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "summerwind/h2spec",
+      "target": "http2",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T00:55:16.172560+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3426
+    },
+    {
+      "path": "Dockerfile",
+      "size": 517
+    },
+    {
+      "path": "go.mod",
+      "size": 504
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A conformance testing tool for HTTP/2 implementation.",
+    "fork": false,
+    "full_name": "summerwind/h2spec",
+    "html_url": "https://github.com/summerwind/h2spec",
+    "language": "Go",
+    "pushed_at": "2023-10-15T14:13:57Z",
+    "stargazers_count": 724,
+    "topics": [
+      "go",
+      "hpack",
+      "http2"
+    ],
+    "updated_at": "2026-04-22T00:25:09Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "h2spec is a conformance testing tool for HTTP/2 implementation.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hpack"
+    },
+    {
+      "context_snippet": "h2spec is a conformance testing tool for HTTP/2 implementation.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "http2"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "swiftlang/sourcekit-lsp",
+      "target": "apple/swift",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-24T00:42:44.283893+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2353
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Language Server Protocol implementation for Swift and C-based languages",
+    "fork": false,
+    "full_name": "swiftlang/sourcekit-lsp",
+    "html_url": "https://github.com/swiftlang/sourcekit-lsp",
+    "language": "Swift",
+    "pushed_at": "2026-04-23T13:39:23Z",
+    "stargazers_count": 3820,
+    "topics": [],
+    "updated_at": "2026-04-23T13:39:28Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "apple/swift",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

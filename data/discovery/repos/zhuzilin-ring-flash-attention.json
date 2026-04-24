@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "zhuzilin/ring-flash-attention",
+      "target": "lhao499/ringattention",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-24T02:03:02.098266+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8730
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 620
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Ring attention implementation with flash attention",
+    "fork": false,
+    "full_name": "zhuzilin/ring-flash-attention",
+    "html_url": "https://github.com/zhuzilin/ring-flash-attention",
+    "language": "Python",
+    "pushed_at": "2025-09-10T11:55:45Z",
+    "stargazers_count": 1013,
+    "topics": [],
+    "updated_at": "2026-04-23T12:56:29Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lhao499/ringattention",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

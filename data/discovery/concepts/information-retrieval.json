@@ -139,6 +139,30 @@
       "source_repo": "JaidedAI/EasyOCR",
       "status": "candidate-context",
       "text": "[![PyPI Status](https://badge.fury.io/py/easyocr.svg)](https://badge.fury.io/py/easyocr)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/lucene",
+      "status": "candidate-context",
+      "text": "Apache Lucene open-source search software"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/lucene",
+      "status": "candidate-context",
+      "text": "<!--"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "project-miracl/miracl",
+      "status": "candidate-context",
+      "text": "A large-scale multilingual dataset for Information Retrieval. Thorough human-annotations across 18 diverse languages."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "project-miracl/miracl",
+      "status": "candidate-context",
+      "text": "<!-- <p align=\"center\"> <span><font size=\"32\"> <b> MIRACL \ud83c\udf0d\ud83d\ude4c\ud83c\udf0f </b></font></span></p> -->"
     }
   ],
   "candidate_glosses": [
@@ -207,6 +231,18 @@
       "source_repo": "JaidedAI/EasyOCR",
       "status": "candidate",
       "text": "[![PyPI Status](https://badge.fury.io/py/easyocr.svg)](https://badge.fury.io/py/easyocr)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/lucene",
+      "status": "candidate",
+      "text": "<!--"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "project-miracl/miracl",
+      "status": "candidate",
+      "text": "<!-- <p align=\"center\"> <span><font size=\"32\"> <b> MIRACL \ud83c\udf0d\ud83d\ude4c\ud83c\udf0f </b></font></span></p> -->"
     }
   ],
   "candidate_related_terms": [],
@@ -280,11 +316,29 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "JaidedAI/EasyOCR"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "ashvardanian/NumKong"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "apache/lucene"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "project-miracl/miracl"
     }
   ],
   "first_seen_at": "2026-04-18T18:30:26.389736+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

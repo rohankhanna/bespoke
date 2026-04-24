@@ -1,0 +1,72 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kaste/SublimeLinter-addon-goto-flash",
+      "target": "sublime",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kaste/SublimeLinter-addon-goto-flash",
+      "target": "sublimelinter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kaste/SublimeLinter-addon-goto-flash",
+      "target": "sublimelinter-plugin",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T00:39:23.637415+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1762
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Distraction free editing and jump visuals",
+    "fork": false,
+    "full_name": "kaste/SublimeLinter-addon-goto-flash",
+    "html_url": "https://github.com/kaste/SublimeLinter-addon-goto-flash",
+    "language": "Python",
+    "pushed_at": "2025-03-28T09:51:50Z",
+    "stargazers_count": 1,
+    "topics": [
+      "sublime",
+      "sublimelinter",
+      "sublimelinter-plugin"
+    ],
+    "updated_at": "2025-03-28T09:51:40Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "This is an UI addon for SublimeLinter.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sublime"
+    },
+    {
+      "context_snippet": "This is an UI addon for SublimeLinter.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sublimelinter"
+    },
+    {
+      "context_snippet": "This is an UI addon for SublimeLinter.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sublimelinter-plugin"
+    }
+  ]
+}

@@ -19,6 +19,18 @@
       "source_repo": "manim-kindergarten/manim_sandbox",
       "status": "candidate-context",
       "text": "[![logo](assets/logo.png)](https://github.com/manim-kindergarten)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "manim-kindergarten/manim",
+      "status": "candidate-context",
+      "text": "manim repository to generate Chinese document"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "manim-kindergarten/manim",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "manim-kindergarten/manim_sandbox",
       "status": "candidate",
       "text": "[![logo](assets/logo.png)](https://github.com/manim-kindergarten)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "manim-kindergarten/manim",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "manim-kindergarten/manim_sandbox"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "manim-kindergarten/manim"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

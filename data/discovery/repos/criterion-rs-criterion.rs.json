@@ -1,0 +1,422 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/audit.yml"
+    },
+    {
+      "component": "rustsec/audit-check@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/audit.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/book.yaml"
+    },
+    {
+      "component": "jontze/action-mdbook@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/book.yaml"
+    },
+    {
+      "component": "oras-project/setup-oras@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/book.yaml"
+    },
+    {
+      "component": "peter-evans/repository-dispatch@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/book.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "Swatinem/rust-cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "Swatinem/rust-cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "taiki-e/install-action@nextest",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "crate-ci/typos@v1.45.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/checkout@v6.0.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cog.yaml"
+    },
+    {
+      "component": "cocogitto/cocogitto-action@v4.2.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cog.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-plz.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@stable",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-plz.yml"
+    },
+    {
+      "component": "release-plz/action@v0.5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-plz.yml"
+    },
+    {
+      "component": "release-plz/action@v0.5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-plz.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "criterion-rs/criterion.rs",
+      "target": "bluss/bencher",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "criterion-rs/criterion.rs",
+      "target": "burntsushi/cargo-benchcmp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "criterion-rs/criterion.rs",
+      "target": "ferrous-systems/flamegraph",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/audit.yml",
+      "source_repo": "criterion-rs/criterion.rs",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/audit.yml",
+      "source_repo": "criterion-rs/criterion.rs",
+      "target": "rustsec/audit-check@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/audit.yml",
+      "source_repo": "criterion-rs/criterion.rs",
+      "target": "Security audit",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/book.yaml",
+      "source_repo": "criterion-rs/criterion.rs",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/book.yaml",
+      "source_repo": "criterion-rs/criterion.rs",
+      "target": "jontze/action-mdbook@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/book.yaml",
+      "source_repo": "criterion-rs/criterion.rs",
+      "target": "oras-project/setup-oras@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/book.yaml",
+      "source_repo": "criterion-rs/criterion.rs",
+      "target": "peter-evans/repository-dispatch@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/book.yaml",
+      "source_repo": "criterion-rs/criterion.rs",
+      "target": "Build book and publish to GHCR",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "criterion-rs/criterion.rs",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "criterion-rs/criterion.rs",
+      "target": "dtolnay/rust-toolchain@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "criterion-rs/criterion.rs",
+      "target": "Swatinem/rust-cache@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "criterion-rs/criterion.rs",
+      "target": "taiki-e/install-action@nextest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "criterion-rs/criterion.rs",
+      "target": "crate-ci/typos@v1.45.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cog.yaml",
+      "source_repo": "criterion-rs/criterion.rs",
+      "target": "actions/checkout@v6.0.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cog.yaml",
+      "source_repo": "criterion-rs/criterion.rs",
+      "target": "cocogitto/cocogitto-action@v4.2.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cog.yaml",
+      "source_repo": "criterion-rs/criterion.rs",
+      "target": "Cocogitto check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-plz.yml",
+      "source_repo": "criterion-rs/criterion.rs",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-plz.yml",
+      "source_repo": "criterion-rs/criterion.rs",
+      "target": "dtolnay/rust-toolchain@stable",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-plz.yml",
+      "source_repo": "criterion-rs/criterion.rs",
+      "target": "release-plz/action@v0.5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-plz.yml",
+      "source_repo": "criterion-rs/criterion.rs",
+      "target": "Release-plz",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "criterion-rs/criterion.rs",
+      "target": "benchmarking",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "criterion-rs/criterion.rs",
+      "target": "performance-analysis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "criterion-rs/criterion.rs",
+      "target": "performance-testing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "criterion-rs/criterion.rs",
+      "target": "rust",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T00:57:39.161411+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6203
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 3482
+    },
+    {
+      "path": ".github/workflows/audit.yml",
+      "size": 333
+    },
+    {
+      "path": ".github/workflows/book.yaml",
+      "size": 2362
+    },
+    {
+      "path": ".github/workflows/ci.yaml",
+      "size": 4119
+    },
+    {
+      "path": ".github/workflows/cog.yaml",
+      "size": 780
+    },
+    {
+      "path": ".github/workflows/release-plz.yml",
+      "size": 1310
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "criterion-rs/criterion.rs",
+    "html_url": "https://github.com/criterion-rs/criterion.rs",
+    "language": "Rust",
+    "pushed_at": "2026-04-17T11:48:35Z",
+    "stargazers_count": 282,
+    "topics": [
+      "benchmarking",
+      "performance-analysis",
+      "performance-testing",
+      "rust"
+    ],
+    "updated_at": "2026-04-23T21:39:18Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bluss/bencher",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "burntsushi/cargo-benchcmp",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ferrous-systems/flamegraph",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Security audit",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/audit.yml",
+      "term": "Security audit"
+    },
+    {
+      "context_snippet": "Build book and publish to GHCR",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/book.yaml",
+      "term": "Build book and publish to GHCR"
+    },
+    {
+      "context_snippet": "Cocogitto check",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cog.yaml",
+      "term": "Cocogitto check"
+    },
+    {
+      "context_snippet": "Release-plz",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-plz.yml",
+      "term": "Release-plz"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">Criterion.<span></span>rs</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "benchmarking"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">Criterion.<span></span>rs</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "performance-analysis"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">Criterion.<span></span>rs</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "performance-testing"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">Criterion.<span></span>rs</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust"
+    }
+  ]
+}

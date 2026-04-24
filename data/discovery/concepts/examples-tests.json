@@ -19,12 +19,30 @@
       "source_repo": "ggml-org/whisper.cpp",
       "status": "candidate-context",
       "text": "Examples Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aws-powertools/powertools-lambda-dotnet",
+      "status": "candidate-context",
+      "text": "Powertools is a developer toolkit to implement Serverless best practices and increase developer velocity."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws-powertools/powertools-lambda-dotnet",
+      "status": "candidate-context",
+      "text": "Examples Tests"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "ggml-org/whisper.cpp",
+      "status": "candidate",
+      "text": "Examples Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws-powertools/powertools-lambda-dotnet",
       "status": "candidate",
       "text": "Examples Tests"
     }
@@ -106,11 +124,23 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": ".github/workflows/examples.yml",
       "source_repo": "ggml-org/whisper.cpp"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/examples.yml",
+      "source_repo": "ggml-org/whisper.cpp"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/examples-tests.yml",
+      "source_repo": "aws-powertools/powertools-lambda-dotnet"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

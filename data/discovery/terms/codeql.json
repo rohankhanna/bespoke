@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T03:54:46.759203+00:00",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -1206,6 +1206,196 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/codeql-analysis.yml",
       "source_repo": "pypi/warehouse"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "apache/incubator-seata-samples"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "avahi/avahi"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "vim/vim"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "Azure/bicep-deploy"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "Textualize/textual"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "abpframework/abp"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "teacher-zhou/ComponentBuilder"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "theimpossibleastronaut/rmw"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "jekyll/jekyll"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "bpftrace/bpftrace"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "hhatto/autopep8"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "eemeli/yaml"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "orhun/git-cliff"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "katyo/publish-crates"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "apache/lucene"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "authlib/authlib"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "blockscout/blockscout"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "sigstore/rekor"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "conda/grayskull"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "boto/botocore"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "jmespath/jmespath.py"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "boto/s3transfer"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "pillarjs/iconv-lite"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "newrelic/node-native-metrics"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "redis/redis-py"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "redis/node-redis"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "octokit/webhooks.js"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "uNetworking/uWebSockets"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "ajenti/ajenti"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "celery/celery"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "getsentry/sentry"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "docker/setup-qemu-action"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "browserless/browserless"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "Azure/autorest"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "aws-powertools/powertools-lambda-dotnet"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "microsoft/FocalNet"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "pnpm/pnpm"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "pylint-dev/astroid"
     }
   ],
   "term": "CodeQL"

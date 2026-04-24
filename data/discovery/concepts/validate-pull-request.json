@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "Validate pull request"
+    "Validate pull request",
+    "Validate Pull Request"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -19,6 +20,24 @@
       "source_repo": "jj-vcs/jj",
       "status": "candidate-context",
       "text": "Validate pull request"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "newrelic/newrelic-node-apollo-server-plugin",
+      "status": "candidate-context",
+      "text": "Validate Pull Request"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "newrelic/node-native-metrics",
+      "status": "candidate-context",
+      "text": "Optional native module for collecting low-level Node & V8 metrics"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "newrelic/node-native-metrics",
+      "status": "candidate-context",
+      "text": "Validate Pull Request"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +46,18 @@
       "source_repo": "jj-vcs/jj",
       "status": "candidate",
       "text": "Validate pull request"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "newrelic/newrelic-node-apollo-server-plugin",
+      "status": "candidate",
+      "text": "Validate Pull Request"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "newrelic/node-native-metrics",
+      "status": "candidate",
+      "text": "Validate Pull Request"
     }
   ],
   "candidate_related_terms": [
@@ -112,11 +143,29 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": ".github/workflows/pr.yml",
       "source_repo": "jj-vcs/jj"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/pr.yml",
+      "source_repo": "jj-vcs/jj"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/validate-pr.yml",
+      "source_repo": "newrelic/newrelic-node-apollo-server-plugin"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/validate-pr.yml",
+      "source_repo": "newrelic/node-native-metrics"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

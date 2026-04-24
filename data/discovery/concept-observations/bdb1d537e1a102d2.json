@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "EDGE Source Code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Welcome to EDGE!"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Welcome to EDGE!"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39986728,
+      "status": "candidate",
+      "text": "condemn"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39919297,
+      "status": "candidate",
+      "text": "doomsday"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39914182,
+      "status": "candidate",
+      "text": "day of reckoning"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39903799,
+      "status": "candidate",
+      "text": "fate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39898267,
+      "status": "candidate",
+      "text": "destine"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "doom",
+      "sense_id": "doom#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 33041,
+      "status": "candidate",
+      "text": "condemn"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 16032,
+      "status": "candidate",
+      "text": "designate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 8058,
+      "status": "candidate",
+      "text": "sentence"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 5035,
+      "status": "candidate",
+      "text": "doomsday"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 5028,
+      "status": "candidate",
+      "text": "destine"
+    }
+  ],
+  "concept_id": "doom",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "doom",
+  "observation_id": "bdb1d537e1a102d2",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T00:33:56.049672+00:00",
+  "observed_text": "doom",
+  "source_context_snippet": "Welcome to EDGE!",
+  "source_file": null,
+  "source_repo": "3dfxdev/EDGE",
+  "source_repo_description": "EDGE Source Code"
+}

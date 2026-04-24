@@ -1105,6 +1105,246 @@
       "source_repo": "graphile/crystal",
       "status": "candidate-context",
       "text": "[![GitHub Sponsors](https://img.shields.io/github/sponsors/benjie?color=ff69b4&label=github%20sponsors)](https://github.com/sponsors/benjie)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nodenv/node-build-update-defs",
+      "status": "candidate-context",
+      "text": "A nodenv plugin to generate node-build definitions from nodejs.org."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nodenv/node-build-update-defs",
+      "status": "candidate-context",
+      "text": "A [nodenv][] plugin to generate [node-build][] definitions from [nodejs.org](https://nodejs.org)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jonschlinkert/isobject",
+      "status": "candidate-context",
+      "text": "Is the value an object, and not an array or null?"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jonschlinkert/isobject",
+      "status": "candidate-context",
+      "text": "> Returns true if the value is an object and not an array or null."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jonschlinkert/kind-of",
+      "status": "candidate-context",
+      "text": "Get the native JavaScript type of a value, fast. Used by superstruct, micromatch and many others!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jonschlinkert/kind-of",
+      "status": "candidate-context",
+      "text": "> Get the native type of a value."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lovell/sharp",
+      "status": "candidate-context",
+      "text": "High performance Node.js image processing, the fastest module to resize JPEG, PNG, WebP, AVIF and TIFF images. Uses the libvips library."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lovell/sharp",
+      "status": "candidate-context",
+      "text": "<img src=\"https://sharp.pixelplumbing.com/sharp-logo.svg\" width=\"160\" height=\"160\" alt=\"sharp logo\" align=\"right\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "yarnpkg/berry",
+      "status": "candidate-context",
+      "text": "\ud83d\udce6\ud83d\udc08 Active development trunk for Yarn \u2692"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yarnpkg/berry",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "verbose/verb-generate-readme",
+      "status": "candidate-context",
+      "text": "Generate your project's readme with verb. Requires verb v0.9.0 or higher."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "verbose/verb-generate-readme",
+      "status": "candidate-context",
+      "text": "verb-generate-readme \u2014 Generate your project's readme with verb. Requires verb v0.9.0 or higher."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "micromatch/to-regex-range",
+      "status": "candidate-context",
+      "text": "Pass two numbers, get a regex-compatible source string for matching ranges. Fast compiler, optimized regex, and validated against more than 2.78 million test assertions. Useful for creating regular expressions to validate numbers, ranges, years, etc."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "micromatch/to-regex-range",
+      "status": "candidate-context",
+      "text": "> Pass two numbers, get a regex-compatible source string for matching ranges. Validated against more than 2.78 million test assertions."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "micromatch/nanomatch",
+      "status": "candidate-context",
+      "text": "Fast, minimal glob matcher for node.js. Similar to micromatch, minimatch and multimatch, but without support for extended globs (extglobs), posix brackets or braces, and with complete Bash 4.3 wildcard support: (\"*\", \"**\", and \"?\")."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "micromatch/nanomatch",
+      "status": "candidate-context",
+      "text": "> Fast, minimal glob matcher for node.js. Similar to micromatch, minimatch and multimatch, but complete Bash 4.3 wildcard support only (no support for exglobs, posix brackets or braces)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gulpjs/glob-stream",
+      "status": "candidate-context",
+      "text": "Readable streamx interface over anymatch."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gulpjs/glob-stream",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nodejs/readable-stream",
+      "status": "candidate-context",
+      "text": "Node-core streams for userland"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nodejs/readable-stream",
+      "status": "candidate-context",
+      "text": "**_Node.js core streams for userland_**"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aaronlamz/excel-to-json",
+      "status": "candidate-context",
+      "text": "\u2692\ufe0f Convert Excel to JSON for i18n"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aaronlamz/excel-to-json",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ably-labs/multiplayer-games-scalable-networking-framework",
+      "status": "candidate-context",
+      "text": "This repository contains a base networking framework for building any realtime multiplayer game on the web with Ably using the client/server architecture. This project uses vanilla JS on the client-side and NodeJS on the server-side and is scalable as you need "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ably-labs/multiplayer-games-scalable-networking-framework",
+      "status": "candidate-context",
+      "text": "This starter kit allows you to add multiplayer functionality (that follows the [Client/Server strategy](https://www.gabrielgambetta.com/client-server-game-architecture.html)) to your game. It provides a communication framework so that your players can communicate with a central \u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "redis/node-redis",
+      "status": "candidate-context",
+      "text": "Redis Node.js client"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "redis/node-redis",
+      "status": "candidate-context",
+      "text": "[![Tests](https://img.shields.io/github/actions/workflow/status/redis/node-redis/tests.yml?branch=master)](https://github.com/redis/node-redis/actions/workflows/tests.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "browserless/browserless",
+      "status": "candidate-context",
+      "text": "Deploy headless browsers in Docker. Run on our cloud or bring your own. Free for non-commercial uses."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "browserless/browserless",
+      "status": "candidate-context",
+      "text": "<!-- markdownlint-disable commands-show-output first-line-h1 no-emphasis-as-heading no-inline-html -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Azure/azure-sdk-for-js",
+      "status": "candidate-context",
+      "text": "This repository is for active development of the Azure SDK for JavaScript (NodeJS & Browser). For consumers of the SDK we recommend visiting our public developer docs at https://docs.microsoft.com/javascript/azure/ or our versioned developer docs at https://azure.github.io/azure-sdk-for-js. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Azure/azure-sdk-for-js",
+      "status": "candidate-context",
+      "text": "[![Packages](https://img.shields.io/badge/packages-latest-blue.svg)](https://azure.github.io/azure-sdk/releases/latest/js.html) [![Dependencies](https://img.shields.io/badge/dependency-report-blue.svg)](https://azuresdkartifacts.blob.core.windows.net/azure-sdk-for-js/dependencie\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Level/levelup",
+      "status": "candidate-context",
+      "text": "Superseded by abstract-level. A wrapper for abstract-leveldown compliant stores, for Node.js and browsers."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Level/levelup",
+      "status": "candidate-context",
+      "text": "**Superseded by [`abstract-level`](https://github.com/Level/abstract-level). Please see [Frequently Asked Questions](https://github.com/Level/community#faq).**"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Level/level",
+      "status": "candidate-context",
+      "text": "Universal abstract-level database for Node.js and browsers."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Level/level",
+      "status": "candidate-context",
+      "text": "**Universal [`abstract-level`](https://github.com/Level/abstract-level) database for Node.js and browsers.** This is a convenience package that exports [`classic-level`](https://github.com/Level/classic-level) in Node.js and [`browser-level`](https://github.com/Level/browser-lev\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Level/mem",
+      "status": "candidate-context",
+      "text": "Superseded by memory-level. A convenience package bundling levelup and memdown."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Level/mem",
+      "status": "candidate-context",
+      "text": "**Superseded by [`memory-level`](https://github.com/Level/memory-level). Please see [Frequently Asked Questions](https://github.com/Level/community#faq).**"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aws-powertools/powertools-lambda-typescript",
+      "status": "candidate-context",
+      "text": "Powertools for AWS is a developer toolkit to implement Serverless best practices and increase developer velocity."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws-powertools/powertools-lambda-typescript",
+      "status": "candidate-context",
+      "text": "<!-- markdownlint-disable MD013 -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pnpm/pnpm",
+      "status": "candidate-context",
+      "text": "Fast, disk space efficient package manager"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pnpm/pnpm",
+      "status": "candidate-context",
+      "text": "[\u7b80\u4f53\u4e2d\u6587](https://pnpm.io/zh/) |"
     }
   ],
   "candidate_glosses": [
@@ -1653,6 +1893,126 @@
       "source_repo": "graphile/crystal",
       "status": "candidate",
       "text": "[![GitHub Sponsors](https://img.shields.io/github/sponsors/benjie?color=ff69b4&label=github%20sponsors)](https://github.com/sponsors/benjie)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nodenv/node-build-update-defs",
+      "status": "candidate",
+      "text": "A [nodenv][] plugin to generate [node-build][] definitions from [nodejs.org](https://nodejs.org)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jonschlinkert/isobject",
+      "status": "candidate",
+      "text": "> Returns true if the value is an object and not an array or null."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jonschlinkert/kind-of",
+      "status": "candidate",
+      "text": "> Get the native type of a value."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lovell/sharp",
+      "status": "candidate",
+      "text": "<img src=\"https://sharp.pixelplumbing.com/sharp-logo.svg\" width=\"160\" height=\"160\" alt=\"sharp logo\" align=\"right\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yarnpkg/berry",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "verbose/verb-generate-readme",
+      "status": "candidate",
+      "text": "verb-generate-readme \u2014 Generate your project's readme with verb. Requires verb v0.9.0 or higher."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "micromatch/to-regex-range",
+      "status": "candidate",
+      "text": "> Pass two numbers, get a regex-compatible source string for matching ranges. Validated against more than 2.78 million test assertions."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "micromatch/nanomatch",
+      "status": "candidate",
+      "text": "> Fast, minimal glob matcher for node.js. Similar to micromatch, minimatch and multimatch, but complete Bash 4.3 wildcard support only (no support for exglobs, posix brackets or braces)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gulpjs/glob-stream",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nodejs/readable-stream",
+      "status": "candidate",
+      "text": "**_Node.js core streams for userland_**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aaronlamz/excel-to-json",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ably-labs/multiplayer-games-scalable-networking-framework",
+      "status": "candidate",
+      "text": "This starter kit allows you to add multiplayer functionality (that follows the [Client/Server strategy](https://www.gabrielgambetta.com/client-server-game-architecture.html)) to your game. It provides a communication framework so that your players can communicate with a central \u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "redis/node-redis",
+      "status": "candidate",
+      "text": "[![Tests](https://img.shields.io/github/actions/workflow/status/redis/node-redis/tests.yml?branch=master)](https://github.com/redis/node-redis/actions/workflows/tests.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "browserless/browserless",
+      "status": "candidate",
+      "text": "<!-- markdownlint-disable commands-show-output first-line-h1 no-emphasis-as-heading no-inline-html -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Azure/azure-sdk-for-js",
+      "status": "candidate",
+      "text": "[![Packages](https://img.shields.io/badge/packages-latest-blue.svg)](https://azure.github.io/azure-sdk/releases/latest/js.html) [![Dependencies](https://img.shields.io/badge/dependency-report-blue.svg)](https://azuresdkartifacts.blob.core.windows.net/azure-sdk-for-js/dependencie\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Level/levelup",
+      "status": "candidate",
+      "text": "**Superseded by [`abstract-level`](https://github.com/Level/abstract-level). Please see [Frequently Asked Questions](https://github.com/Level/community#faq).**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Level/level",
+      "status": "candidate",
+      "text": "**Universal [`abstract-level`](https://github.com/Level/abstract-level) database for Node.js and browsers.** This is a convenience package that exports [`classic-level`](https://github.com/Level/classic-level) in Node.js and [`browser-level`](https://github.com/Level/browser-lev\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Level/mem",
+      "status": "candidate",
+      "text": "**Superseded by [`memory-level`](https://github.com/Level/memory-level). Please see [Frequently Asked Questions](https://github.com/Level/community#faq).**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws-powertools/powertools-lambda-typescript",
+      "status": "candidate",
+      "text": "<!-- markdownlint-disable MD013 -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pnpm/pnpm",
+      "status": "candidate",
+      "text": "[\u7b80\u4f53\u4e2d\u6587](https://pnpm.io/zh/) |"
     }
   ],
   "candidate_related_terms": [],
@@ -2344,11 +2704,155 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "graphile/crystal"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "nodenv/node-build-update-defs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "jonschlinkert/isobject"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "jonschlinkert/kind-of"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "lovell/sharp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "yarnpkg/berry"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "verbose/verb-generate-readme"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "micromatch/to-regex-range"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "micromatch/nanomatch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "gulpjs/glob-stream"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "nodejs/readable-stream"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "standard/standard"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "standard/snazzy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "aaronlamz/excel-to-json"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "ably-labs/multiplayer-games-scalable-networking-framework"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "redis/node-redis"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "browserless/browserless"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "nwjs/nw.js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "Azure/azure-sdk-for-js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "Level/levelup"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "Level/level"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "Level/mem"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "aws-powertools/powertools-lambda-typescript"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "nodejs/Release"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "pnpm/pnpm"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "levenshtein-distance"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ashvardanian/StringWars",
+      "status": "candidate-context",
+      "text": "Comparing performance-oriented string-processing libraries for substring search, multi-pattern matching, hashing, edit-distances, sketching, and sorting across CPUs and GPUs in Rust \ud83e\udd80 and Python \ud83d\udc0d"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ashvardanian/StringWars",
+      "status": "candidate-context",
+      "text": "![StringWars Thumbnail](https://github.com/ashvardanian/ashvardanian/blob/master/repositories/StringWars-v2.png?raw=true)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ashvardanian/StringWars",
+      "status": "candidate",
+      "text": "![StringWars Thumbnail](https://github.com/ashvardanian/ashvardanian/blob/master/repositories/StringWars-v2.png?raw=true)"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "levenshtein-distance",
+  "concept_id": "levenshtein-distance",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "ashvardanian/StringWars"
+    }
+  ],
+  "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "levenshtein-distance",
+      "sense_id": "levenshtein-distance#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

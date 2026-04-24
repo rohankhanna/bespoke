@@ -1,0 +1,72 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "objectbox/objectbox-swift-spm",
+      "target": "database",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "objectbox/objectbox-swift-spm",
+      "target": "objectbox",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "objectbox/objectbox-swift-spm",
+      "target": "swift",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T00:39:16.176339+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 655
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Hosts the ObjectBox Swift package",
+    "fork": false,
+    "full_name": "objectbox/objectbox-swift-spm",
+    "html_url": "https://github.com/objectbox/objectbox-swift-spm",
+    "language": "Swift",
+    "pushed_at": "2026-03-27T15:10:51Z",
+    "stargazers_count": 6,
+    "topics": [
+      "database",
+      "objectbox",
+      "swift"
+    ],
+    "updated_at": "2026-03-24T16:48:49Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "**Visit the \u27a1\ufe0f [Get Started with ObjectBox Swift](https://swift.objectbox.io/getting-started) page to see how to use this Swift package.**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "database"
+    },
+    {
+      "context_snippet": "**Visit the \u27a1\ufe0f [Get Started with ObjectBox Swift](https://swift.objectbox.io/getting-started) page to see how to use this Swift package.**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "objectbox"
+    },
+    {
+      "context_snippet": "**Visit the \u27a1\ufe0f [Get Started with ObjectBox Swift](https://swift.objectbox.io/getting-started) page to see how to use this Swift package.**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "swift"
+    }
+  ]
+}

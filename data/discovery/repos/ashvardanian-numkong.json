@@ -441,28 +441,28 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "ashvardanian/NumKong",
-      "target": "ashvardanian/ashvardanian",
+      "target": "openmathlib/openblas",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "ashvardanian/NumKong",
-      "target": "ashvardanian/numwars",
+      "target": "joblib/threadpoolctl",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "ashvardanian/NumKong",
-      "target": "ashvardanian/forkunion",
+      "target": "numpy/numpy",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "ashvardanian/NumKong",
-      "target": "dltcollab/sse2neon",
+      "target": "giaf/blasfeo",
       "target_type": "repository"
     },
     {
@@ -809,7 +809,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-23T07:46:23.437714+00:00",
+  "fetched_at": "2026-04-24T00:49:19.906031+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -861,7 +861,7 @@
     "full_name": "ashvardanian/NumKong",
     "html_url": "https://github.com/ashvardanian/NumKong",
     "language": "C",
-    "pushed_at": "2026-04-20T00:46:22Z",
+    "pushed_at": "2026-04-23T20:15:25Z",
     "stargazers_count": 1801,
     "topics": [
       "arm-neon",
@@ -881,27 +881,27 @@
       "tensor",
       "vector-search"
     ],
-    "updated_at": "2026-04-20T21:07:44Z"
+    "updated_at": "2026-04-23T18:44:51Z"
   },
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
-      "full_name": "ashvardanian/ashvardanian",
+      "full_name": "giaf/blasfeo",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "ashvardanian/forkunion",
+      "full_name": "joblib/threadpoolctl",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "ashvardanian/numwars",
+      "full_name": "numpy/numpy",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "dltcollab/sse2neon",
+      "full_name": "openmathlib/openblas",
       "source_file": "README.md"
     }
   ],

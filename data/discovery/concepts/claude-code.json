@@ -952,6 +952,66 @@
       "source_repo": "marin-community/marin",
       "status": "candidate-context",
       "text": "Claude Code"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "batrachianai/toad",
+      "status": "candidate-context",
+      "text": "A unified interface for AI in your terminal."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "batrachianai/toad",
+      "status": "candidate-context",
+      "text": "A unified interface for AI in your terminal ([release announcement](https://willmcgugan.github.io/toad-released/))."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "danielrosehill/Claude-Israel",
+      "status": "candidate-context",
+      "text": "Index of people and projects building with Claude (incl. Claude Code) in Israel"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danielrosehill/Claude-Israel",
+      "status": "candidate-context",
+      "text": "![Claude Israel banner](assets/banner.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "EpicenterHQ/epicenter",
+      "status": "candidate-context",
+      "text": "Open-source, local-first apps."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "EpicenterHQ/epicenter",
+      "status": "candidate-context",
+      "text": "Claude Code"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lightningnetwork/lnd",
+      "status": "candidate-context",
+      "text": "Lightning Network Daemon \u26a1\ufe0f"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lightningnetwork/lnd",
+      "status": "candidate-context",
+      "text": "Claude Code"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pytorch/torchtitan",
+      "status": "candidate-context",
+      "text": "A PyTorch native platform for training generative AI models"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pytorch/torchtitan",
+      "status": "candidate-context",
+      "text": "Claude Code"
     }
   ],
   "candidate_glosses": [
@@ -1414,6 +1474,36 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "marin-community/marin",
+      "status": "candidate",
+      "text": "Claude Code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "batrachianai/toad",
+      "status": "candidate",
+      "text": "A unified interface for AI in your terminal ([release announcement](https://willmcgugan.github.io/toad-released/))."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danielrosehill/Claude-Israel",
+      "status": "candidate",
+      "text": "![Claude Israel banner](assets/banner.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "EpicenterHQ/epicenter",
+      "status": "candidate",
+      "text": "Claude Code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lightningnetwork/lnd",
+      "status": "candidate",
+      "text": "Claude Code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pytorch/torchtitan",
       "status": "candidate",
       "text": "Claude Code"
     }
@@ -2347,11 +2437,83 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": ".github/workflows/claude.yml",
       "source_repo": "marin-community/marin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "ruvnet/ruflo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "vaporif/parry-guard"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "batrachianai/toad"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "winfunc/opcode"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "winfunc/opcode"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "gastownhall/beads"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "hluaguo/learn-faster-kit"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "danielrosehill/Claude-Code-Projects-Index"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "danielrosehill/Claude-Israel"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "EpicenterHQ/epicenter"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "lightningnetwork/lnd"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/claude-code.yml",
+      "source_repo": "pytorch/torchtitan"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,69 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_cloud.yaml"
+    },
+    {
+      "component": "actions/setup-node@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_cloud.yaml"
+    },
+    {
+      "component": "ad-m/github-push-action@v0.6.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_cloud.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_cloud.yaml",
+      "source_repo": "abap2UI5/abap2UI5-build",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_cloud.yaml",
+      "source_repo": "abap2UI5/abap2UI5-build",
+      "target": "actions/setup-node@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_cloud.yaml",
+      "source_repo": "abap2UI5/abap2UI5-build",
+      "target": "ad-m/github-push-action@v0.6.0",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-24T00:35:29.257175+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1043
+    },
+    {
+      "path": ".github/workflows/build_cloud.yaml",
+      "size": 1095
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Build of abap2UI5",
+    "fork": false,
+    "full_name": "abap2UI5/abap2UI5-build",
+    "html_url": "https://github.com/abap2UI5/abap2UI5-build",
+    "language": "ABAP",
+    "pushed_at": "2025-03-04T15:02:20Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2025-03-04T15:02:47Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

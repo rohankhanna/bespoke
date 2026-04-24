@@ -81,6 +81,30 @@
       "source_repo": "Bearer/homebrew-tap",
       "status": "candidate-context",
       "text": "This repository is a Homebrew Tap for [bearer](https://github.com/Bearer/bearer)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "artemnovichkov/Carting",
+      "status": "candidate-context",
+      "text": "\ud83d\ude98 A simple tool for updating Carthage script phase"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "artemnovichkov/Carting",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nodenv/homebrew-nodenv",
+      "status": "candidate-context",
+      "text": "Homebrew formulae for nodenv plugins"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nodenv/homebrew-nodenv",
+      "status": "candidate-context",
+      "text": "[![Tests](https://img.shields.io/github/actions/workflow/status/nodenv/homebrew-nodenv/test.yml?label=tests&logo=github)](https://github.com/nodenv/homebrew-nodenv/actions/workflows/test.yml)"
     }
   ],
   "candidate_glosses": [
@@ -119,6 +143,18 @@
       "source_repo": "Bearer/homebrew-tap",
       "status": "candidate",
       "text": "This repository is a Homebrew Tap for [bearer](https://github.com/Bearer/bearer)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "artemnovichkov/Carting",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nodenv/homebrew-nodenv",
+      "status": "candidate",
+      "text": "[![Tests](https://img.shields.io/github/actions/workflow/status/nodenv/homebrew-nodenv/test.yml?label=tests&logo=github)](https://github.com/nodenv/homebrew-nodenv/actions/workflows/test.yml)"
     }
   ],
   "candidate_related_terms": [
@@ -246,11 +282,29 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": ".github/workflows/homebrew.yml",
       "source_repo": "spaceship-prompt/spaceship-prompt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "artemnovichkov/Carting"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/homebrew.yml",
+      "source_repo": "spaceship-prompt/spaceship-prompt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "nodenv/homebrew-nodenv"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

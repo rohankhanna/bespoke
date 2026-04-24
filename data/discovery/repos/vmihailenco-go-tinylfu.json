@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-24T01:48:43.240066+00:00",
+  "fetched_files": [
+    {
+      "path": "go.mod",
+      "size": 136
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "TinyLFU cache admission policy",
+    "fork": true,
+    "full_name": "vmihailenco/go-tinylfu",
+    "html_url": "https://github.com/vmihailenco/go-tinylfu",
+    "language": "Go",
+    "pushed_at": "2023-08-04T09:32:47Z",
+    "stargazers_count": 10,
+    "topics": [],
+    "updated_at": "2024-12-30T09:25:20Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -43,6 +43,30 @@
       "source_repo": "jaegertracing/jaeger-client-go",
       "status": "candidate-context",
       "text": "[![GoDoc][doc-img]][doc] [![Build Status][ci-img]][ci] [![Coverage Status][cov-img]][cov] [![OpenTracing 1.0 Enabled][ot-img]][ot-url]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "uptrace/uptrace",
+      "status": "candidate-context",
+      "text": "Open source APM: OpenTelemetry traces, metrics, and logs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "uptrace/uptrace",
+      "status": "candidate-context",
+      "text": "Languages: **English** | [\u7b80\u4f53\u4e2d\u6587](README.zh.md)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aws-powertools/powertools-lambda-dotnet",
+      "status": "candidate-context",
+      "text": "Powertools is a developer toolkit to implement Serverless best practices and increase developer velocity."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws-powertools/powertools-lambda-dotnet",
+      "status": "candidate-context",
+      "text": "![aws provider](https://img.shields.io/badge/provider-AWS-orange?logo=amazon-aws&color=ff9900)"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +87,18 @@
       "source_repo": "jaegertracing/jaeger-client-go",
       "status": "candidate",
       "text": "[![GoDoc][doc-img]][doc] [![Build Status][ci-img]][ci] [![Coverage Status][cov-img]][cov] [![OpenTracing 1.0 Enabled][ot-img]][ot-url]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "uptrace/uptrace",
+      "status": "candidate",
+      "text": "Languages: **English** | [\u7b80\u4f53\u4e2d\u6587](README.zh.md)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws-powertools/powertools-lambda-dotnet",
+      "status": "candidate",
+      "text": "![aws provider](https://img.shields.io/badge/provider-AWS-orange?logo=amazon-aws&color=ff9900)"
     }
   ],
   "candidate_related_terms": [],
@@ -88,11 +124,23 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "jaegertracing/jaeger-client-go"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "uptrace/uptrace"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "aws-powertools/powertools-lambda-dotnet"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

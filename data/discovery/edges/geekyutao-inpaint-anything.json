@@ -1,0 +1,34 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "geekyutao/Inpaint-Anything",
+      "target": "chaoningzhang/mobilesam",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "geekyutao/Inpaint-Anything",
+      "target": "botaoye/ostrack",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "geekyutao/Inpaint-Anything",
+      "target": "researchmm/sttn",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "geekyutao/Inpaint-Anything",
+      "target": "adamdad/awesome-composableai",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-04-24T00:33:56.049672+00:00",
+  "source_repo": "geekyutao/Inpaint-Anything"
+}

@@ -1,13 +1,6 @@
 {
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "aws/serverless-application-model",
-      "target": "aws/aws-sam-cli",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build.yml",
       "source_repo": "aws/serverless-application-model",
@@ -162,6 +155,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-04-23T18:30:35.670459+00:00",
+  "generated_at": "2026-04-24T00:33:56.049672+00:00",
   "source_repo": "aws/serverless-application-model"
 }

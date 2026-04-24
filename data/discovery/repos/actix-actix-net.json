@@ -1,0 +1,462 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-post-merge.yml"
+    },
+    {
+      "component": "rui314/setup-mold@725a8794d15fc7563f59595bd9556495c0564878",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-post-merge.yml"
+    },
+    {
+      "component": "ilammy/setup-nasm@72793074d3c8cdda771dba85f6deafe00623038b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-post-merge.yml"
+    },
+    {
+      "component": "actions-rust-lang/setup-rust-toolchain@2b1f5e9b395427c92ee4e3331786ca3c37afe2d7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-post-merge.yml"
+    },
+    {
+      "component": "taiki-e/install-action@055f5df8c3f65ea01cd41e9dc855becd88953486",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-post-merge.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-post-merge.yml"
+    },
+    {
+      "component": "actions-rust-lang/setup-rust-toolchain@2b1f5e9b395427c92ee4e3331786ca3c37afe2d7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-post-merge.yml"
+    },
+    {
+      "component": "taiki-e/install-action@055f5df8c3f65ea01cd41e9dc855becd88953486",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-post-merge.yml"
+    },
+    {
+      "component": "actions-rust-lang/msrv/.github/workflows/msrv.yml@b95a3a81b0efee6438b858b41a84aff627e01351",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "rui314/setup-mold@725a8794d15fc7563f59595bd9556495c0564878",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "ilammy/setup-nasm@72793074d3c8cdda771dba85f6deafe00623038b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions-rust-lang/setup-rust-toolchain@2b1f5e9b395427c92ee4e3331786ca3c37afe2d7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "taiki-e/install-action@055f5df8c3f65ea01cd41e9dc855becd88953486",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "EmbarkStudios/cargo-deny-action@91bf2b620e09e18d6eb78b92e7861937469acedb",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions-rust-lang/setup-rust-toolchain@2b1f5e9b395427c92ee4e3331786ca3c37afe2d7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "taiki-e/install-action@055f5df8c3f65ea01cd41e9dc855becd88953486",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml"
+    },
+    {
+      "component": "actions-rust-lang/setup-rust-toolchain@2b1f5e9b395427c92ee4e3331786ca3c37afe2d7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml"
+    },
+    {
+      "component": "taiki-e/install-action@055f5df8c3f65ea01cd41e9dc855becd88953486",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml"
+    },
+    {
+      "component": "codecov/codecov-action@57e3a136b779b570ffcdbf80b3bdc90e7fab3de2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "actions-rust-lang/setup-rust-toolchain@2b1f5e9b395427c92ee4e3331786ca3c37afe2d7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "actions-rust-lang/setup-rust-toolchain@2b1f5e9b395427c92ee4e3331786ca3c37afe2d7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "giraffate/clippy-action@13b9d32482f25d29ead141b79e7e04e7900281e0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "actions-rust-lang/setup-rust-toolchain@2b1f5e9b395427c92ee4e3331786ca3c37afe2d7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "taiki-e/install-action@055f5df8c3f65ea01cd41e9dc855becd88953486",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "taiki-e/cache-cargo-install-action@f9eed3e4680f27610dc6d8c67be1b88593f7dade",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-post-merge.yml",
+      "source_repo": "actix/actix-net",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-post-merge.yml",
+      "source_repo": "actix/actix-net",
+      "target": "rui314/setup-mold@725a8794d15fc7563f59595bd9556495c0564878",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-post-merge.yml",
+      "source_repo": "actix/actix-net",
+      "target": "ilammy/setup-nasm@72793074d3c8cdda771dba85f6deafe00623038b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-post-merge.yml",
+      "source_repo": "actix/actix-net",
+      "target": "actions-rust-lang/setup-rust-toolchain@2b1f5e9b395427c92ee4e3331786ca3c37afe2d7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-post-merge.yml",
+      "source_repo": "actix/actix-net",
+      "target": "taiki-e/install-action@055f5df8c3f65ea01cd41e9dc855becd88953486",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-post-merge.yml",
+      "source_repo": "actix/actix-net",
+      "target": "CI (post-merge)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "actix/actix-net",
+      "target": "actions-rust-lang/msrv/.github/workflows/msrv.yml@b95a3a81b0efee6438b858b41a84aff627e01351",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "actix/actix-net",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "actix/actix-net",
+      "target": "rui314/setup-mold@725a8794d15fc7563f59595bd9556495c0564878",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "actix/actix-net",
+      "target": "ilammy/setup-nasm@72793074d3c8cdda771dba85f6deafe00623038b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "actix/actix-net",
+      "target": "actions-rust-lang/setup-rust-toolchain@2b1f5e9b395427c92ee4e3331786ca3c37afe2d7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "actix/actix-net",
+      "target": "taiki-e/install-action@055f5df8c3f65ea01cd41e9dc855becd88953486",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "actix/actix-net",
+      "target": "EmbarkStudios/cargo-deny-action@91bf2b620e09e18d6eb78b92e7861937469acedb",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "actix/actix-net",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "actix/actix-net",
+      "target": "actions-rust-lang/setup-rust-toolchain@2b1f5e9b395427c92ee4e3331786ca3c37afe2d7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "actix/actix-net",
+      "target": "taiki-e/install-action@055f5df8c3f65ea01cd41e9dc855becd88953486",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "actix/actix-net",
+      "target": "codecov/codecov-action@57e3a136b779b570ffcdbf80b3bdc90e7fab3de2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "actix/actix-net",
+      "target": "Coverage",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "actix/actix-net",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "actix/actix-net",
+      "target": "actions-rust-lang/setup-rust-toolchain@2b1f5e9b395427c92ee4e3331786ca3c37afe2d7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "actix/actix-net",
+      "target": "giraffate/clippy-action@13b9d32482f25d29ead141b79e7e04e7900281e0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "actix/actix-net",
+      "target": "taiki-e/install-action@055f5df8c3f65ea01cd41e9dc855becd88953486",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "actix/actix-net",
+      "target": "taiki-e/cache-cargo-install-action@f9eed3e4680f27610dc6d8c67be1b88593f7dade",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "actix/actix-net",
+      "target": "Lint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "actix/actix-net",
+      "target": "async",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "actix/actix-net",
+      "target": "multithreading",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "actix/actix-net",
+      "target": "networking",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "actix/actix-net",
+      "target": "runtime",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "actix/actix-net",
+      "target": "rust",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T00:57:16.838029+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1450
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 1152
+    },
+    {
+      "path": ".github/workflows/ci-post-merge.yml",
+      "size": 4262
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 4364
+    },
+    {
+      "path": ".github/workflows/coverage.yml",
+      "size": 1071
+    },
+    {
+      "path": ".github/workflows/lint.yml",
+      "size": 2114
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A collection of lower-level libraries for composable network services.",
+    "fork": false,
+    "full_name": "actix/actix-net",
+    "html_url": "https://github.com/actix/actix-net",
+    "language": "Rust",
+    "pushed_at": "2026-04-21T15:39:12Z",
+    "stargazers_count": 767,
+    "topics": [
+      "async",
+      "multithreading",
+      "networking",
+      "runtime",
+      "rust"
+    ],
+    "updated_at": "2026-04-21T15:39:33Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "CI (post-merge)",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-post-merge.yml",
+      "term": "CI (post-merge)"
+    },
+    {
+      "context_snippet": "Coverage",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/coverage.yml",
+      "term": "Coverage"
+    },
+    {
+      "context_snippet": "Lint",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "term": "Lint"
+    },
+    {
+      "context_snippet": "> A collection of lower-level libraries for composable network services.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "async"
+    },
+    {
+      "context_snippet": "> A collection of lower-level libraries for composable network services.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multithreading"
+    },
+    {
+      "context_snippet": "> A collection of lower-level libraries for composable network services.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "networking"
+    },
+    {
+      "context_snippet": "> A collection of lower-level libraries for composable network services.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "runtime"
+    },
+    {
+      "context_snippet": "> A collection of lower-level libraries for composable network services.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust"
+    }
+  ]
+}

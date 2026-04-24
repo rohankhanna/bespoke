@@ -1,0 +1,108 @@
+{
+  "aliases": [
+    "Multi"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "browserless/browserless",
+      "status": "candidate-context",
+      "text": "Deploy headless browsers in Docker. Run on our cloud or bring your own. Free for non-commercial uses."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "browserless/browserless",
+      "status": "candidate-context",
+      "text": "Multi"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "browserless/browserless",
+      "status": "candidate",
+      "text": "Multi"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39362218,
+      "status": "candidate",
+      "text": "multiple"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29709373,
+      "status": "candidate",
+      "text": "twisted"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29649194,
+      "status": "candidate",
+      "text": "multilayered"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29645926,
+      "status": "candidate",
+      "text": "multipronged"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29644338,
+      "status": "candidate",
+      "text": "multifunction"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 7050,
+      "status": "candidate",
+      "text": "multiple"
+    }
+  ],
+  "canonical_name": "Multi",
+  "concept_id": "multi",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/docker-multi.yml",
+      "source_repo": "browserless/browserless"
+    }
+  ],
+  "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Multi",
+      "sense_id": "multi#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -1,0 +1,112 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_action.yml"
+    },
+    {
+      "component": "arthurpalves/coherent-swift@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_action.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "arthurpalves/coherent-swift",
+      "target": "mschwager/cohesion",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "arthurpalves/coherent-swift",
+      "target": "omaralbeik/sketchgen",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "arthurpalves/coherent-swift",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "arthurpalves/coherent-swift",
+      "target": "main",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_action.yml",
+      "source_repo": "arthurpalves/coherent-swift",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_action.yml",
+      "source_repo": "arthurpalves/coherent-swift",
+      "target": "arthurpalves/coherent-swift@main",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-24T00:35:08.267038+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4946
+    },
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 625
+    },
+    {
+      "path": ".github/workflows/test_action.yml",
+      "size": 490
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "CoherentSwift is a command line tool written in Swift that analyses the cohesion level of your Swift codebase.",
+    "fork": false,
+    "full_name": "arthurpalves/coherent-swift",
+    "html_url": "https://github.com/arthurpalves/coherent-swift",
+    "language": "Swift",
+    "pushed_at": "2022-11-30T02:31:14Z",
+    "stargazers_count": 104,
+    "topics": [],
+    "updated_at": "2025-12-31T13:40:09Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mschwager/cohesion",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "omaralbeik/sketchgen",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "main",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "term": "main"
+    }
+  ]
+}

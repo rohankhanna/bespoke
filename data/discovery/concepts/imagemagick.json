@@ -31,6 +31,18 @@
       "source_repo": "hackerb9/lsix",
       "status": "candidate-context",
       "text": "<img align=\"right\" src=\"README.md.d/thumb.png\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "libvips/libvips",
+      "status": "candidate-context",
+      "text": "A fast image processing library with low memory needs."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "libvips/libvips",
+      "status": "candidate-context",
+      "text": "[![CI](https://github.com/libvips/libvips/workflows/CI/badge.svg)](https://github.com/libvips/libvips/actions)"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "hackerb9/lsix",
       "status": "candidate",
       "text": "<img align=\"right\" src=\"README.md.d/thumb.png\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "libvips/libvips",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/libvips/libvips/workflows/CI/badge.svg)](https://github.com/libvips/libvips/actions)"
     }
   ],
   "candidate_related_terms": [
@@ -93,11 +111,17 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "hackerb9/lsix"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "libvips/libvips"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

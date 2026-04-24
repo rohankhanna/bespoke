@@ -31,6 +31,18 @@
       "source_repo": "puma/puma",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "babbel/puma-plugin-telemetry",
+      "status": "candidate-context",
+      "text": "Telemetry plugin for puma offering various targets to publish"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "babbel/puma-plugin-telemetry",
+      "status": "candidate-context",
+      "text": "Puma plugin which should be able to handle all your metric needs regarding your webserver:"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "puma/puma",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "babbel/puma-plugin-telemetry",
+      "status": "candidate",
+      "text": "Puma plugin which should be able to handle all your metric needs regarding your webserver:"
     }
   ],
   "candidate_related_terms": [
@@ -136,11 +154,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "puma/puma"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "babbel/puma-plugin-telemetry"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

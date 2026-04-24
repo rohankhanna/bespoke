@@ -355,6 +355,30 @@
       "source_repo": "PlexPt/chatgpt-corpus",
       "status": "candidate-context",
       "text": "chatgpt \u4e2d\u6587\u8bed\u6599\u5e93"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mthenw/awesome-layers",
+      "status": "candidate-context",
+      "text": "\u03bb A curated list of awesome AWS Lambda Layers. Sponsored by https://cloudash.dev"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mthenw/awesome-layers",
+      "status": "candidate-context",
+      "text": "**A curated list of awesome AWS Lambda Layers**"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "akuity/awesome-argo",
+      "status": "candidate-context",
+      "text": "A curated list of awesome projects and resources related to Argo (a CNCF graduated project)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "akuity/awesome-argo",
+      "status": "candidate-context",
+      "text": "[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/akuity/awesome-argo) [![Slack](https://img.shields.io/badge/slack-argoproj-brightgreen.svg?logo=slack)](https://argoproj.github.io/community/join\u2026"
     }
   ],
   "candidate_glosses": [
@@ -525,6 +549,18 @@
       "source_repo": "PlexPt/chatgpt-corpus",
       "status": "candidate",
       "text": "chatgpt \u4e2d\u6587\u8bed\u6599\u5e93"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mthenw/awesome-layers",
+      "status": "candidate",
+      "text": "**A curated list of awesome AWS Lambda Layers**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "akuity/awesome-argo",
+      "status": "candidate",
+      "text": "[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/akuity/awesome-argo) [![Slack](https://img.shields.io/badge/slack-argoproj-brightgreen.svg?logo=slack)](https://argoproj.github.io/community/join\u2026"
     }
   ],
   "candidate_related_terms": [
@@ -790,11 +826,23 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "PlexPt/chatgpt-corpus"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "mthenw/awesome-layers"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "akuity/awesome-argo"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

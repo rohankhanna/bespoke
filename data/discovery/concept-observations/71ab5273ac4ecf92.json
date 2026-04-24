@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\ud83d\udce6\ud83d\udc08 Active development trunk for Yarn \u2692"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "'E2E Create-Vue'"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "'E2E Create-Vue'"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "E2E Create-Vue",
+      "sense_id": "e2e-create-vue#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "e2e-create-vue",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "e2e-create-vue",
+  "observation_id": "71ab5273ac4ecf92",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-24T00:33:56.049672+00:00",
+  "observed_text": "E2E Create-Vue",
+  "source_context_snippet": "'E2E Create-Vue'",
+  "source_file": ".github/workflows/e2e-create-vue-workflow.yml",
+  "source_repo": "yarnpkg/berry",
+  "source_repo_description": "\ud83d\udce6\ud83d\udc08 Active development trunk for Yarn \u2692"
+}

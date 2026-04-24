@@ -1,0 +1,224 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@eef61447b9ff4aafe5dcd4e0bbf5d482be7e7871",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-python@82c7e631bb3cdc910f68e0081d67478d79c6982d",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@eef61447b9ff4aafe5dcd4e0bbf5d482be7e7871",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit-autoupdate.yml"
+    },
+    {
+      "component": "actions/setup-python@82c7e631bb3cdc910f68e0081d67478d79c6982d",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit-autoupdate.yml"
+    },
+    {
+      "component": "peter-evans/create-pull-request@5e914681df9dc83aa4e4905692ca88beb2f9e91f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit-autoupdate.yml"
+    },
+    {
+      "component": "actions/checkout@eef61447b9ff4aafe5dcd4e0bbf5d482be7e7871",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml"
+    },
+    {
+      "component": "actions/setup-python@82c7e631bb3cdc910f68e0081d67478d79c6982d",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml"
+    },
+    {
+      "component": "pre-commit/action@2c7b3805fd2a0fd8c1884dcaebf91fc102a13ecd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "google/yapf",
+      "target": "google/styleguide",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "google/yapf",
+      "target": "actions/checkout@eef61447b9ff4aafe5dcd4e0bbf5d482be7e7871",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "google/yapf",
+      "target": "actions/setup-python@82c7e631bb3cdc910f68e0081d67478d79c6982d",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "google/yapf",
+      "target": "Test with pytest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit-autoupdate.yml",
+      "source_repo": "google/yapf",
+      "target": "actions/checkout@eef61447b9ff4aafe5dcd4e0bbf5d482be7e7871",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit-autoupdate.yml",
+      "source_repo": "google/yapf",
+      "target": "actions/setup-python@82c7e631bb3cdc910f68e0081d67478d79c6982d",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit-autoupdate.yml",
+      "source_repo": "google/yapf",
+      "target": "peter-evans/create-pull-request@5e914681df9dc83aa4e4905692ca88beb2f9e91f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pre-commit-autoupdate.yml",
+      "source_repo": "google/yapf",
+      "target": "Keep pre-commit hooks up to date",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "google/yapf",
+      "target": "actions/checkout@eef61447b9ff4aafe5dcd4e0bbf5d482be7e7871",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "google/yapf",
+      "target": "actions/setup-python@82c7e631bb3cdc910f68e0081d67478d79c6982d",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "google/yapf",
+      "target": "pre-commit/action@2c7b3805fd2a0fd8c1884dcaebf91fc102a13ecd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "google/yapf",
+      "target": "Run pre-commit",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google/yapf",
+      "target": "formatter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google/yapf",
+      "target": "google",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T00:50:56.891506+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 32432
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 2025
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 1111
+    },
+    {
+      "path": ".github/workflows/pre-commit-autoupdate.yml",
+      "size": 2206
+    },
+    {
+      "path": ".github/workflows/pre-commit.yml",
+      "size": 986
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A formatter for Python files",
+    "fork": false,
+    "full_name": "google/yapf",
+    "html_url": "https://github.com/google/yapf",
+    "language": "Python",
+    "pushed_at": "2026-04-11T04:22:20Z",
+    "stargazers_count": 13978,
+    "topics": [
+      "formatter",
+      "google",
+      "python"
+    ],
+    "updated_at": "2026-04-23T14:28:22Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "google/styleguide",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Test with pytest",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "term": "Test with pytest"
+    },
+    {
+      "context_snippet": "Keep pre-commit hooks up to date",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pre-commit-autoupdate.yml",
+      "term": "Keep pre-commit hooks up to date"
+    },
+    {
+      "context_snippet": "Run pre-commit",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "term": "Run pre-commit"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "formatter"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "google"
+    }
+  ]
+}

@@ -1,0 +1,478 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/init@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/autobuild@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "amannn/action-semantic-pull-request@v5.5.3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conventional-commits.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml"
+    },
+    {
+      "component": "googleapis/release-please-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-please.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-please.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-please.yml"
+    },
+    {
+      "component": "rubygems/release-gem@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-please.yml"
+    },
+    {
+      "component": "check-spelling/check-spelling@v0.0.26",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/spelling.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/third-party.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/third-party.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/third-party.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark.yml",
+      "source_repo": "jekyll/jekyll",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark.yml",
+      "source_repo": "jekyll/jekyll",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/benchmark.yml",
+      "source_repo": "jekyll/jekyll",
+      "target": "Micro Benchmark Runs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "jekyll/jekyll",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "jekyll/jekyll",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "jekyll/jekyll",
+      "target": "Continuous Integration",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "jekyll/jekyll",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "jekyll/jekyll",
+      "target": "github/codeql-action/init@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "jekyll/jekyll",
+      "target": "github/codeql-action/autobuild@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "jekyll/jekyll",
+      "target": "github/codeql-action/analyze@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "jekyll/jekyll",
+      "target": "CodeQL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conventional-commits.yml",
+      "source_repo": "jekyll/jekyll",
+      "target": "amannn/action-semantic-pull-request@v5.5.3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/conventional-commits.yml",
+      "source_repo": "jekyll/jekyll",
+      "target": "Conventional Commit Check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "jekyll/jekyll",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "jekyll/jekyll",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "jekyll/jekyll",
+      "target": "Build and deploy Jekyll documentation site",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-please.yml",
+      "source_repo": "jekyll/jekyll",
+      "target": "googleapis/release-please-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-please.yml",
+      "source_repo": "jekyll/jekyll",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-please.yml",
+      "source_repo": "jekyll/jekyll",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-please.yml",
+      "source_repo": "jekyll/jekyll",
+      "target": "rubygems/release-gem@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-please.yml",
+      "source_repo": "jekyll/jekyll",
+      "target": "Release, please!",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/spelling.yml",
+      "source_repo": "jekyll/jekyll",
+      "target": "check-spelling/check-spelling@v0.0.26",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/spelling.yml",
+      "source_repo": "jekyll/jekyll",
+      "target": "Spell Check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/third-party.yml",
+      "source_repo": "jekyll/jekyll",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/third-party.yml",
+      "source_repo": "jekyll/jekyll",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/third-party.yml",
+      "source_repo": "jekyll/jekyll",
+      "target": "Third-Party Repository Profiling",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jekyll/jekyll",
+      "target": "blog-engine",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jekyll/jekyll",
+      "target": "jekyll",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jekyll/jekyll",
+      "target": "liquid",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jekyll/jekyll",
+      "target": "markdown",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jekyll/jekyll",
+      "target": "ruby",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jekyll/jekyll",
+      "target": "static-site-generator",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T00:47:46.448087+00:00",
+  "fetched_files": [
+    {
+      "path": ".github/workflows/benchmark.yml",
+      "size": 874
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 2526
+    },
+    {
+      "path": ".github/workflows/codeql.yml",
+      "size": 2521
+    },
+    {
+      "path": ".github/workflows/conventional-commits.yml",
+      "size": 1274
+    },
+    {
+      "path": ".github/workflows/docs.yml",
+      "size": 1694
+    },
+    {
+      "path": ".github/workflows/release-please.yml",
+      "size": 1111
+    },
+    {
+      "path": ".github/workflows/spelling.yml",
+      "size": 4075
+    },
+    {
+      "path": ".github/workflows/third-party.yml",
+      "size": 1034
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": ":globe_with_meridians: Jekyll is a blog-aware static site generator in Ruby",
+    "fork": false,
+    "full_name": "jekyll/jekyll",
+    "html_url": "https://github.com/jekyll/jekyll",
+    "language": "Ruby",
+    "pushed_at": "2026-04-22T14:50:12Z",
+    "stargazers_count": 51376,
+    "topics": [
+      "blog-engine",
+      "jekyll",
+      "liquid",
+      "markdown",
+      "ruby",
+      "static-site-generator"
+    ],
+    "updated_at": "2026-04-23T19:35:10Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Micro Benchmark Runs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/benchmark.yml",
+      "term": "Micro Benchmark Runs"
+    },
+    {
+      "context_snippet": "Continuous Integration",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "term": "Continuous Integration"
+    },
+    {
+      "context_snippet": "\"CodeQL\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "term": "CodeQL"
+    },
+    {
+      "context_snippet": "Conventional Commit Check",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/conventional-commits.yml",
+      "term": "Conventional Commit Check"
+    },
+    {
+      "context_snippet": "Build and deploy Jekyll documentation site",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs.yml",
+      "term": "Build and deploy Jekyll documentation site"
+    },
+    {
+      "context_snippet": "\"Release, please!\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-please.yml",
+      "term": "Release, please!"
+    },
+    {
+      "context_snippet": "Spell Check",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/spelling.yml",
+      "term": "Spell Check"
+    },
+    {
+      "context_snippet": "Third-Party Repository Profiling",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/third-party.yml",
+      "term": "Third-Party Repository Profiling"
+    },
+    {
+      "context_snippet": "Micro Benchmark Runs",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "blog-engine"
+    },
+    {
+      "context_snippet": "Micro Benchmark Runs",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "jekyll"
+    },
+    {
+      "context_snippet": "Micro Benchmark Runs",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "liquid"
+    },
+    {
+      "context_snippet": "Micro Benchmark Runs",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "markdown"
+    },
+    {
+      "context_snippet": "Micro Benchmark Runs",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ruby"
+    },
+    {
+      "context_snippet": "Micro Benchmark Runs",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "static-site-generator"
+    }
+  ]
+}

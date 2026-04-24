@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Auto Format Bot"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/lucene",
+      "status": "candidate-context",
+      "text": "Apache Lucene open-source search software"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/lucene",
+      "status": "candidate-context",
+      "text": "Auto Format Bot"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/lucene",
+      "status": "candidate",
+      "text": "Auto Format Bot"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18151,
+      "status": "candidate",
+      "text": "tow"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18088,
+      "status": "candidate",
+      "text": "dashboard"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18025,
+      "status": "candidate",
+      "text": "racer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18017,
+      "status": "candidate",
+      "text": "automaton"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18017,
+      "status": "candidate",
+      "text": "auton"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Auto Format Bot",
+  "concept_id": "auto-format-bot",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/auto-format.yml",
+      "source_repo": "apache/lucene"
+    }
+  ],
+  "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Auto Format Bot",
+      "sense_id": "auto-format-bot#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

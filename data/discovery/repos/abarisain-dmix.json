@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-24T01:57:19.387200+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4181
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A modern MPD Client for Android.",
+    "fork": false,
+    "full_name": "abarisain/dmix",
+    "html_url": "https://github.com/abarisain/dmix",
+    "language": "Java",
+    "pushed_at": "2021-12-09T07:27:26Z",
+    "stargazers_count": 604,
+    "topics": [],
+    "updated_at": "2026-04-04T13:05:30Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

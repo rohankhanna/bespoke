@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Async version of the Rust standard library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "We created `async-std` to demonstrate the value of making a library as close to"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "We created `async-std` to demonstrate the value of making a library as close to"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "async-await",
+      "sense_id": "async-await#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "async-await",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "async-await",
+  "observation_id": "c98da9e6bcb35c9e",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T00:33:56.049672+00:00",
+  "observed_text": "async-await",
+  "source_context_snippet": "We created `async-std` to demonstrate the value of making a library as close to",
+  "source_file": null,
+  "source_repo": "async-rs/async-std",
+  "source_repo_description": "Async version of the Rust standard library"
+}

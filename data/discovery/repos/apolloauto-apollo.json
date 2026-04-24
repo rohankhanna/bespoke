@@ -1,0 +1,100 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ApolloAuto/apollo",
+      "target": "apollo",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ApolloAuto/apollo",
+      "target": "autonomous-driving",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ApolloAuto/apollo",
+      "target": "autonomous-vehicles",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ApolloAuto/apollo",
+      "target": "autonomy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ApolloAuto/apollo",
+      "target": "self-driving-car",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T00:50:01.066357+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 17942
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "An open autonomous driving platform",
+    "fork": false,
+    "full_name": "ApolloAuto/apollo",
+    "html_url": "https://github.com/ApolloAuto/apollo",
+    "language": "C++",
+    "pushed_at": "2026-04-16T12:24:54Z",
+    "stargazers_count": 26572,
+    "topics": [
+      "apollo",
+      "autonomous-driving",
+      "autonomous-vehicles",
+      "autonomy",
+      "self-driving-car"
+    ],
+    "updated_at": "2026-04-23T23:36:07Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "![](docs/02_Quick%20Start/demo_guide/images/Apollo_logo.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "apollo"
+    },
+    {
+      "context_snippet": "![](docs/02_Quick%20Start/demo_guide/images/Apollo_logo.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "autonomous-driving"
+    },
+    {
+      "context_snippet": "![](docs/02_Quick%20Start/demo_guide/images/Apollo_logo.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "autonomous-vehicles"
+    },
+    {
+      "context_snippet": "![](docs/02_Quick%20Start/demo_guide/images/Apollo_logo.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "autonomy"
+    },
+    {
+      "context_snippet": "![](docs/02_Quick%20Start/demo_guide/images/Apollo_logo.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "self-driving-car"
+    }
+  ]
+}

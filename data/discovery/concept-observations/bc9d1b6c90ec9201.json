@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A minimal, opinionated set of ZSH plugins designed to be small, simple, and focused."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "NOTE: As of October 2025, I am no longer using or developing zsh-utils. If you"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "NOTE: As of October 2025, I am no longer using or developing zsh-utils. If you"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "zsh-utils",
+      "sense_id": "zsh-utils#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "zsh-utils",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "zsh-utils",
+  "observation_id": "bc9d1b6c90ec9201",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T00:33:56.049672+00:00",
+  "observed_text": "zsh-utils",
+  "source_context_snippet": "NOTE: As of October 2025, I am no longer using or developing zsh-utils. If you",
+  "source_file": null,
+  "source_repo": "belak/zsh-utils",
+  "source_repo_description": "A minimal, opinionated set of ZSH plugins designed to be small, simple, and focused."
+}

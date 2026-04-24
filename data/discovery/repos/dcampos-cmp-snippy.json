@@ -1,0 +1,44 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dcampos/cmp-snippy",
+      "target": "nvim-cmp",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T02:04:19.538844+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 440
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "nvim-snippy completion source for nvim-cmp.",
+    "fork": false,
+    "full_name": "dcampos/cmp-snippy",
+    "html_url": "https://github.com/dcampos/cmp-snippy",
+    "language": "Lua",
+    "pushed_at": "2023-10-12T01:44:31Z",
+    "stargazers_count": 50,
+    "topics": [
+      "nvim-cmp"
+    ],
+    "updated_at": "2025-12-11T14:14:25Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "[nvim-snippy][1] completion source for [nvim-cmp][2].",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nvim-cmp"
+    }
+  ]
+}

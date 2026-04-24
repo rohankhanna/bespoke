@@ -259,6 +259,54 @@
       "source_repo": "elsa-workflows/elsa-core",
       "status": "candidate-context",
       "text": "![Elsa Workflows](./design/elsa-workflows-workflow-engine-for-dotnet.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aesalazar/AsteroidsWasm",
+      "status": "candidate-context",
+      "text": "Collection of applications based on a single C# .NET Standard project running in:  Blazor Client (WebAssembly), Blazor Server, Electron, WPF, WinForms, Maui, WinUI3"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aesalazar/AsteroidsWasm",
+      "status": "candidate-context",
+      "text": "Collection of applications based on a single C# .NET Standard project running in: Blazor Client (WebAssembly), Blazor Server, Electron, WPF, WinForms, Maui, WinUI3"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dotnet/dotnet",
+      "status": "candidate-context",
+      "text": "Home of .NET's Virtual Monolithic Repository which includes all the code needed to build the .NET SDK."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dotnet/dotnet",
+      "status": "candidate-context",
+      "text": "This repository is a **Virtual Monolithic Repository (VMR)** which includes all the source code and infrastructure needed to build the .NET SDK."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dotnet/fsharp",
+      "status": "candidate-context",
+      "text": "The F# compiler, F# core library, F# language service, and F# tooling integration for Visual Studio"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dotnet/fsharp",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://dev.azure.com/dnceng-public/public/_apis/build/status/dotnet/fsharp/fsharp-ci?branchName=main)](https://dev.azure.com/dnceng-public/public/_build/latest?definitionId=90&branchName=main)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aws-powertools/powertools-lambda-dotnet",
+      "status": "candidate-context",
+      "text": "Powertools is a developer toolkit to implement Serverless best practices and increase developer velocity."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws-powertools/powertools-lambda-dotnet",
+      "status": "candidate-context",
+      "text": "![aws provider](https://img.shields.io/badge/provider-AWS-orange?logo=amazon-aws&color=ff9900)"
     }
   ],
   "candidate_glosses": [
@@ -387,6 +435,30 @@
       "source_repo": "elsa-workflows/elsa-core",
       "status": "candidate",
       "text": "![Elsa Workflows](./design/elsa-workflows-workflow-engine-for-dotnet.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aesalazar/AsteroidsWasm",
+      "status": "candidate",
+      "text": "Collection of applications based on a single C# .NET Standard project running in: Blazor Client (WebAssembly), Blazor Server, Electron, WPF, WinForms, Maui, WinUI3"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dotnet/dotnet",
+      "status": "candidate",
+      "text": "This repository is a **Virtual Monolithic Repository (VMR)** which includes all the source code and infrastructure needed to build the .NET SDK."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dotnet/fsharp",
+      "status": "candidate",
+      "text": "[![Build Status](https://dev.azure.com/dnceng-public/public/_apis/build/status/dotnet/fsharp/fsharp-ci?branchName=main)](https://dev.azure.com/dnceng-public/public/_build/latest?definitionId=90&branchName=main)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws-powertools/powertools-lambda-dotnet",
+      "status": "candidate",
+      "text": "![aws provider](https://img.shields.io/badge/provider-AWS-orange?logo=amazon-aws&color=ff9900)"
     }
   ],
   "candidate_related_terms": [],
@@ -538,11 +610,47 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "elsa-workflows/elsa-core"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "aesalazar/AsteroidsWasm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "dotnet/dotnet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "dotnet/fsharp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/Microsoft-Performance-Tools-Linux-Android"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "apache/casbin-Casbin.NET"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "aws-powertools/powertools-lambda-dotnet"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

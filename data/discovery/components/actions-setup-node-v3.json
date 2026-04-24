@@ -1,7 +1,7 @@
 {
   "component": "actions/setup-node@v3",
   "first_seen_at": "2026-04-18T04:38:51.315908+00:00",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -962,6 +962,186 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/validate.yml",
       "source_repo": "rollup/plugins"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ABAP_CLOUD.yaml",
+      "source_repo": "abap2UI5-addons/layout-management"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ABAP_STANDARD.yaml",
+      "source_repo": "abap2UI5-addons/layout-management"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/rename_test.yaml",
+      "source_repo": "abap2UI5-addons/layout-management"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ABAP_CLOUD.yaml",
+      "source_repo": "abap2UI5-addons/sql-console"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ABAP_STANDARD.yaml",
+      "source_repo": "abap2UI5-addons/sql-console"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/rename_test.yaml",
+      "source_repo": "abap2UI5-addons/sql-console"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ABAP_CLOUD.yaml",
+      "source_repo": "abap2UI5-addons/table-maintenance"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ABAP_STANDARD.yaml",
+      "source_repo": "abap2UI5-addons/table-maintenance"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/rename_test.yaml",
+      "source_repo": "abap2UI5-addons/table-maintenance"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build_cloud.yaml",
+      "source_repo": "abap2UI5/abap2UI5-build"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/license-checker.yaml",
+      "source_repo": "apache/incubator-seata-samples"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "apache/incubator-seata-website"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "sveltejs/prettier-plugin-svelte"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "yassinedoghri/astro-i18next"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "yassinedoghri/astro-i18next"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "yassinedoghri/astro-i18next"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "robb-j/nova-yaml"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "FuelLabs/fuel-vm"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/browsers.yml",
+      "source_repo": "nodejs/readable-stream"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/bundlers.yml",
+      "source_repo": "nodejs/readable-stream"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "nodejs/readable-stream"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/node.yml",
+      "source_repo": "nodejs/readable-stream"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci-workflow.yml",
+      "source_repo": "newrelic/csec-node-agent"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/version-pkg.yml",
+      "source_repo": "newrelic/csec-node-agent"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish-biblio.yml",
+      "source_repo": "tc39/ecma402"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/documentation.yml",
+      "source_repo": "redis/node-redis"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/install-ajenti.yml",
+      "source_repo": "ajenti/ajenti"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "Level/codec"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "Level/level-js"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "stacks-archive/gaia"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pull-request.yml",
+      "source_repo": "stx-labs/stacks.js"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/version.yml",
+      "source_repo": "stx-labs/stacks.js"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/sauce.yml",
+      "source_repo": "Level/levelup"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "Level/levelup"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "Level/mem"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/nodejs.yml",
+      "source_repo": "PanAeon/vscode-tmgrammar-test"
     }
   ]
 }

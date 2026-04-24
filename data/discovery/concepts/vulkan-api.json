@@ -79,6 +79,18 @@
       "source_repo": "SaschaWillems/Vulkan",
       "status": "candidate-context",
       "text": "A comprehensive collection of open source C++ examples for [Vulkan\u00ae](https://www.vulkan.org), the low-level graphics and compute API from Khronos."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Tobski/simple_vulkan_synchronization",
+      "status": "candidate-context",
+      "text": "A single-header library with a simplified interface for Vulkan synchronization"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Tobski/simple_vulkan_synchronization",
+      "status": "candidate-context",
+      "text": "In an effort to make Vulkan synchronization more accessible, I created this"
     }
   ],
   "candidate_glosses": [
@@ -117,6 +129,12 @@
       "source_repo": "SaschaWillems/Vulkan",
       "status": "candidate",
       "text": "A comprehensive collection of open source C++ examples for [Vulkan\u00ae](https://www.vulkan.org), the low-level graphics and compute API from Khronos."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Tobski/simple_vulkan_synchronization",
+      "status": "candidate",
+      "text": "In an effort to make Vulkan synchronization more accessible, I created this"
     }
   ],
   "candidate_related_terms": [],
@@ -160,11 +178,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "SaschaWillems/Vulkan"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "Tobski/simple_vulkan_synchronization"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

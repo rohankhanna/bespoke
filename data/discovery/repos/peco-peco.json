@@ -101,21 +101,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "peco/peco",
-      "target": "mooz/percol",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "peco/peco",
       "target": "motemen/ghq",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "peco/peco",
-      "target": "mattn/gof",
       "target_type": "repository"
     },
     {
@@ -259,7 +245,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-23T07:40:10.945521+00:00",
+  "fetched_at": "2026-04-24T00:36:50.008962+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -305,16 +291,6 @@
     "updated_at": "2026-04-18T04:41:05Z"
   },
   "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "mattn/gof",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "mooz/percol",
-      "source_file": "README.md"
-    },
     {
       "edge_type": "explicit-github-link",
       "full_name": "motemen/ghq",

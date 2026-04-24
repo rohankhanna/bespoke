@@ -1,0 +1,111 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "intel/intel-ipsec-mb",
+      "target": "intel/qat_engine",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/freebsd.yml",
+      "source_repo": "intel/intel-ipsec-mb",
+      "target": "actions/checkout@f43a0e5ff2bd294095638e18286ca9a3d1956744",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/freebsd.yml",
+      "source_repo": "intel/intel-ipsec-mb",
+      "target": "vmactions/freebsd-vm@35a5b20a98476a681c7576a344775be7e7f77f06",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/freebsd.yml",
+      "source_repo": "intel/intel-ipsec-mb",
+      "target": "FreeBSD",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux.yml",
+      "source_repo": "intel/intel-ipsec-mb",
+      "target": "actions/checkout@f43a0e5ff2bd294095638e18286ca9a3d1956744",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linux.yml",
+      "source_repo": "intel/intel-ipsec-mb",
+      "target": "Linux",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/packaging.yml",
+      "source_repo": "intel/intel-ipsec-mb",
+      "target": "actions/checkout@f43a0e5ff2bd294095638e18286ca9a3d1956744",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/packaging.yml",
+      "source_repo": "intel/intel-ipsec-mb",
+      "target": "actions/upload-artifact@b4b15b8c7c6ac21ea08fcf65892d2ee8f75cf882",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/packaging.yml",
+      "source_repo": "intel/intel-ipsec-mb",
+      "target": "Packaging",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/style.yml",
+      "source_repo": "intel/intel-ipsec-mb",
+      "target": "actions/checkout@f43a0e5ff2bd294095638e18286ca9a3d1956744",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/style.yml",
+      "source_repo": "intel/intel-ipsec-mb",
+      "target": "Style Check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows.yml",
+      "source_repo": "intel/intel-ipsec-mb",
+      "target": "ilammy/setup-nasm@13cbeb366c45c4379d3478cdcbadd8295feb5028",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows.yml",
+      "source_repo": "intel/intel-ipsec-mb",
+      "target": "actions/checkout@f43a0e5ff2bd294095638e18286ca9a3d1956744",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows.yml",
+      "source_repo": "intel/intel-ipsec-mb",
+      "target": "microsoft/setup-msbuild@c26a08ba26249b81327e26f6ef381897b6a8754d",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/windows.yml",
+      "source_repo": "intel/intel-ipsec-mb",
+      "target": "Windows",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-24T00:33:56.049672+00:00",
+  "source_repo": "intel/intel-ipsec-mb"
+}

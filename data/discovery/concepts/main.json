@@ -260,6 +260,54 @@
       "source_repo": "Fyrd/caniuse",
       "status": "candidate-context",
       "text": "main"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "arthurpalves/coherent-swift",
+      "status": "candidate-context",
+      "text": "CoherentSwift is a command line tool written in Swift that analyses the cohesion level of your Swift codebase."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "arthurpalves/coherent-swift",
+      "status": "candidate-context",
+      "text": "main"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "asottile/reorder-python-imports",
+      "status": "candidate-context",
+      "text": "Rewrites source to reorder python imports"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "asottile/reorder-python-imports",
+      "status": "candidate-context",
+      "text": "main"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "clice-io/clice",
+      "status": "candidate-context",
+      "text": "A next-generation C++ language server for modern C++, focused on high performance and deep code intelligence"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clice-io/clice",
+      "status": "candidate-context",
+      "text": "main"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rootless-containers/usernetes",
+      "status": "candidate-context",
+      "text": "Kubernetes without the root privileges"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rootless-containers/usernetes",
+      "status": "candidate-context",
+      "text": "Main"
     }
   ],
   "candidate_glosses": [
@@ -388,6 +436,30 @@
       "source_repo": "Fyrd/caniuse",
       "status": "candidate",
       "text": "main"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "arthurpalves/coherent-swift",
+      "status": "candidate",
+      "text": "main"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "asottile/reorder-python-imports",
+      "status": "candidate",
+      "text": "main"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clice-io/clice",
+      "status": "candidate",
+      "text": "main"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rootless-containers/usernetes",
+      "status": "candidate",
+      "text": "Main"
     }
   ],
   "candidate_related_terms": [
@@ -617,11 +689,35 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": ".github/workflows/main.yml",
       "source_repo": "Fyrd/caniuse"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "arthurpalves/coherent-swift"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "asottile/reorder-python-imports"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "clice-io/clice"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/main.yaml",
+      "source_repo": "rootless-containers/usernetes"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "VCS support for Neovim \ud83c\udf31"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "VCS support for Neovim"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "VCS support for Neovim"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 38989279,
+      "status": "candidate",
+      "text": "quicksilver"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 38974802,
+      "status": "candidate",
+      "text": "changeful"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 38971418,
+      "status": "candidate",
+      "text": "changeable"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 38897487,
+      "status": "candidate",
+      "text": "fickle"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 38893363,
+      "status": "candidate",
+      "text": "erratic"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "mercurial",
+      "sense_id": "mercurial#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 52042,
+      "status": "candidate",
+      "text": "erratic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 11040,
+      "status": "candidate",
+      "text": "quicksilver"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 7032,
+      "status": "candidate",
+      "text": "changeable"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 3026,
+      "status": "candidate",
+      "text": "changeful"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "fickle"
+    }
+  ],
+  "concept_id": "mercurial",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "mercurial",
+  "observation_id": "77fad63c32511090",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T00:33:56.049672+00:00",
+  "observed_text": "mercurial",
+  "source_context_snippet": "VCS support for Neovim",
+  "source_file": null,
+  "source_repo": "adelarsq/neovcs.vim",
+  "source_repo_description": "VCS support for Neovim \ud83c\udf31"
+}

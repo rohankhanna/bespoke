@@ -1,0 +1,168 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "rhysd/action-setup-vim@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "kristijanhusak/vim-dadbod-ui",
+      "target": "tpope/vim-dadbod",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "kristijanhusak/vim-dadbod-ui",
+      "target": "tpope/vim-dotenv",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "kristijanhusak/vim-dadbod-ui",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "kristijanhusak/vim-dadbod-ui",
+      "target": "rhysd/action-setup-vim@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "kristijanhusak/vim-dadbod-ui",
+      "target": "tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kristijanhusak/vim-dadbod-ui",
+      "target": "database",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kristijanhusak/vim-dadbod-ui",
+      "target": "neovim",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kristijanhusak/vim-dadbod-ui",
+      "target": "neovim-plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kristijanhusak/vim-dadbod-ui",
+      "target": "vim-plugins",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kristijanhusak/vim-dadbod-ui",
+      "target": "viml",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T00:52:47.951013+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10010
+    },
+    {
+      "path": ".github/workflows/tests.yml",
+      "size": 1425
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Simple UI for https://github.com/tpope/vim-dadbod",
+    "fork": false,
+    "full_name": "kristijanhusak/vim-dadbod-ui",
+    "html_url": "https://github.com/kristijanhusak/vim-dadbod-ui",
+    "language": "Vim Script",
+    "pushed_at": "2026-02-11T10:45:39Z",
+    "stargazers_count": 1984,
+    "topics": [
+      "database",
+      "neovim",
+      "neovim-plugin",
+      "vim",
+      "vim-plugins",
+      "viml"
+    ],
+    "updated_at": "2026-04-23T17:04:04Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tpope/vim-dadbod",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tpope/vim-dotenv",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests.yml",
+      "term": "tests"
+    },
+    {
+      "context_snippet": "Simple UI for [vim-dadbod](https://github.com/tpope/vim-dadbod).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "database"
+    },
+    {
+      "context_snippet": "Simple UI for [vim-dadbod](https://github.com/tpope/vim-dadbod).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neovim"
+    },
+    {
+      "context_snippet": "Simple UI for [vim-dadbod](https://github.com/tpope/vim-dadbod).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neovim-plugin"
+    },
+    {
+      "context_snippet": "Simple UI for [vim-dadbod](https://github.com/tpope/vim-dadbod).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vim-plugins"
+    },
+    {
+      "context_snippet": "Simple UI for [vim-dadbod](https://github.com/tpope/vim-dadbod).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "viml"
+    }
+  ]
+}

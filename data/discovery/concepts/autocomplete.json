@@ -67,6 +67,42 @@
       "source_repo": "natebosch/vim-lsc",
       "status": "candidate-context",
       "text": "Adds language-aware tooling to vim by communicating with a language server"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "girishji/ngram-complete.vim",
+      "status": "candidate-context",
+      "text": "Autocompletion based on frequency of word occurrence in English corpus."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "girishji/ngram-complete.vim",
+      "status": "candidate-context",
+      "text": "Traditional dictionary based word completion is more or less useless since it"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "girishji/ngramview-complete.vim",
+      "status": "candidate-context",
+      "text": "Next word completion for Vim based on Google Ngrams Viewer."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "girishji/ngramview-complete.vim",
+      "status": "candidate-context",
+      "text": "---"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cloudnativelabs/kube-shell",
+      "status": "candidate-context",
+      "text": "Kubernetes shell: An integrated shell for working with the Kubernetes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cloudnativelabs/kube-shell",
+      "status": "candidate-context",
+      "text": "kube-shell"
     }
   ],
   "candidate_glosses": [
@@ -99,6 +135,24 @@
       "source_repo": "natebosch/vim-lsc",
       "status": "candidate",
       "text": "Adds language-aware tooling to vim by communicating with a language server"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "girishji/ngram-complete.vim",
+      "status": "candidate",
+      "text": "Traditional dictionary based word completion is more or less useless since it"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "girishji/ngramview-complete.vim",
+      "status": "candidate",
+      "text": "---"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cloudnativelabs/kube-shell",
+      "status": "candidate",
+      "text": "kube-shell"
     }
   ],
   "candidate_related_terms": [
@@ -184,11 +238,35 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "natebosch/vim-lsc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "girishji/ngram-complete.vim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "girishji/ngramview-complete.vim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "dense-analysis/ale"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "cloudnativelabs/kube-shell"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

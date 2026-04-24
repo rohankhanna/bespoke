@@ -1,0 +1,115 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\ud83d\udcdd Specifications for the Fuel protocol and the FuelVM, a blazingly fast blockchain VM."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<!-- markdownlint-disable-next-line MD036 -->"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<!-- markdownlint-disable-next-line MD036 -->"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30039286,
+      "status": "candidate",
+      "text": "fire"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30021172,
+      "status": "candidate",
+      "text": "combustible"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20041002,
+      "status": "candidate",
+      "text": "combustible material"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20040524,
+      "status": "candidate",
+      "text": "heating"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20039635,
+      "status": "candidate",
+      "text": "fan"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "fuel",
+      "sense_id": "fuel#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 19065,
+      "status": "candidate",
+      "text": "fire"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 3037,
+      "status": "candidate",
+      "text": "combustible"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 9,
+      "status": "candidate",
+      "text": "combustible material"
+    }
+  ],
+  "concept_id": "fuel",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "fuel",
+  "observation_id": "cee66ca4af72e306",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T00:33:56.049672+00:00",
+  "observed_text": "fuel",
+  "source_context_snippet": "<!-- markdownlint-disable-next-line MD036 -->",
+  "source_file": null,
+  "source_repo": "FuelLabs/fuel-specs",
+  "source_repo_description": "\ud83d\udcdd Specifications for the Fuel protocol and the FuelVM, a blazingly fast blockchain VM."
+}

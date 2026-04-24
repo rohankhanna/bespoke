@@ -19,6 +19,18 @@
       "source_repo": "collective/cookiecutter-plone-starter",
       "status": "candidate-context",
       "text": "> [!CAUTION]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "drivendataorg/cookiecutter-data-science",
+      "status": "candidate-context",
+      "text": "A logical, reasonably standardized, but flexible project structure for doing and sharing data science work."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "drivendataorg/cookiecutter-data-science",
+      "status": "candidate-context",
+      "text": "_A logical, reasonably standardized but flexible project structure for doing and sharing data science work._"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "collective/cookiecutter-plone-starter",
       "status": "candidate",
       "text": "> [!CAUTION]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "drivendataorg/cookiecutter-data-science",
+      "status": "candidate",
+      "text": "_A logical, reasonably standardized but flexible project structure for doing and sharing data science work._"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "collective/cookiecutter-plone-starter"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "drivendataorg/cookiecutter-data-science"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,205 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Mithril-mine/libmdbx",
+      "target": "coreos/bbolt",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Mithril-mine/libmdbx",
+      "target": "erthink/libmdbx",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Mithril-mine/libmdbx",
+      "target": "castortech/mdbxjni",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Mithril-mine/libmdbx",
+      "target": "david-bouyssie/mdbx4s",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Mithril-mine/libmdbx",
+      "target": "embedded-database",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Mithril-mine/libmdbx",
+      "target": "key-value",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Mithril-mine/libmdbx",
+      "target": "lmdb",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Mithril-mine/libmdbx",
+      "target": "mdbx",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Mithril-mine/libmdbx",
+      "target": "mvcc",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Mithril-mine/libmdbx",
+      "target": "nosql",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Mithril-mine/libmdbx",
+      "target": "performance",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Mithril-mine/libmdbx",
+      "target": "storage-engine",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Mithril-mine/libmdbx",
+      "target": "transaction",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T00:53:55.775055+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 43929
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "\u2605 Fastfull embedded transactional key-value storage engine \u2605 Surpasses the legendary LMDB in reliability, capabilities and performance \u2605 Used in hundreds of open source projects, including Ethereum.",
+    "fork": false,
+    "full_name": "Mithril-mine/libmdbx",
+    "html_url": "https://github.com/Mithril-mine/libmdbx",
+    "language": "C",
+    "pushed_at": "2026-04-23T22:56:33Z",
+    "stargazers_count": 1394,
+    "topics": [
+      "embedded-database",
+      "key-value",
+      "lmdb",
+      "mdbx",
+      "mvcc",
+      "nosql",
+      "performance",
+      "storage-engine",
+      "transaction"
+    ],
+    "updated_at": "2026-04-23T23:00:03Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "castortech/mdbxjni",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "coreos/bbolt",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "david-bouyssie/mdbx4s",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "erthink/libmdbx",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "libmdbx",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "embedded-database"
+    },
+    {
+      "context_snippet": "libmdbx",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "key-value"
+    },
+    {
+      "context_snippet": "libmdbx",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lmdb"
+    },
+    {
+      "context_snippet": "libmdbx",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mdbx"
+    },
+    {
+      "context_snippet": "libmdbx",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mvcc"
+    },
+    {
+      "context_snippet": "libmdbx",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nosql"
+    },
+    {
+      "context_snippet": "libmdbx",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "performance"
+    },
+    {
+      "context_snippet": "libmdbx",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "storage-engine"
+    },
+    {
+      "context_snippet": "libmdbx",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "transaction"
+    }
+  ]
+}

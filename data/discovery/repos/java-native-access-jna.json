@@ -1,0 +1,173 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/setup-java@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/native-libraries-macOS.yaml"
+    },
+    {
+      "component": "actions/setup-java@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/native-libraries-macOS.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/native-libraries-macOS.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "java-native-access/jna",
+      "target": "iterate-ch/rococoa",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "java-native-access/jna",
+      "target": "caprica/vlcj",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "java-native-access/jna",
+      "target": "dblock/waffle",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "java-native-access/jna",
+      "target": "boltdb/bolt",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "java-native-access/jna",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "java-native-access/jna",
+      "target": "actions/setup-java@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "java-native-access/jna",
+      "target": "Java CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/native-libraries-macOS.yaml",
+      "source_repo": "java-native-access/jna",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/native-libraries-macOS.yaml",
+      "source_repo": "java-native-access/jna",
+      "target": "actions/setup-java@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/native-libraries-macOS.yaml",
+      "source_repo": "java-native-access/jna",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/native-libraries-macOS.yaml",
+      "source_repo": "java-native-access/jna",
+      "target": "mac OS native libraries",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T01:52:47.239648+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 13622
+    },
+    {
+      "path": ".github/workflows/ci.yaml",
+      "size": 1585
+    },
+    {
+      "path": ".github/workflows/native-libraries-macOS.yaml",
+      "size": 1082
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Java Native Access",
+    "fork": false,
+    "full_name": "java-native-access/jna",
+    "html_url": "https://github.com/java-native-access/jna",
+    "language": "Java",
+    "pushed_at": "2026-04-13T23:32:34Z",
+    "stargazers_count": 8910,
+    "topics": [],
+    "updated_at": "2026-04-23T13:02:13Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "boltdb/bolt",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "caprica/vlcj",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dblock/waffle",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "iterate-ch/rococoa",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Java CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yaml",
+      "term": "Java CI"
+    },
+    {
+      "context_snippet": "mac OS native libraries",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/native-libraries-macOS.yaml",
+      "term": "mac OS native libraries"
+    }
+  ]
+}

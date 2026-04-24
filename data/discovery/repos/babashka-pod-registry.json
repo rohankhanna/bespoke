@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "babashka/pod-registry",
+      "target": "atomisthq/pod-atomisthq-tools.docker",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "babashka/pod-registry",
+      "target": "babashka/pod-babashka-aws",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "babashka/pod-registry",
+      "target": "babashka/pod-babashka-buddy",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "babashka/pod-registry",
+      "target": "babashka/babashka-sql-pods",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-24T00:41:50.754171+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 13213
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Pod manifests describe where pods can be downloaded, etc.",
+    "fork": false,
+    "full_name": "babashka/pod-registry",
+    "html_url": "https://github.com/babashka/pod-registry",
+    "language": "Clojure",
+    "pushed_at": "2026-04-21T07:27:00Z",
+    "stargazers_count": 110,
+    "topics": [],
+    "updated_at": "2026-04-23T22:07:23Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "atomisthq/pod-atomisthq-tools.docker",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "babashka/babashka-sql-pods",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "babashka/pod-babashka-aws",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "babashka/pod-babashka-buddy",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

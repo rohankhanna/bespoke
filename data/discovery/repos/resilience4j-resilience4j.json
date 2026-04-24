@@ -1,0 +1,238 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gradle-build.yml"
+    },
+    {
+      "component": "gradle/actions/wrapper-validation@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gradle-build.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gradle-build.yml"
+    },
+    {
+      "component": "actions/setup-java@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gradle-build.yml"
+    },
+    {
+      "component": "actions/cache@v4.2.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gradle-build.yml"
+    },
+    {
+      "component": "EnricoMi/publish-unit-test-result-action/composite@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gradle-build.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/on-release-tag.yml"
+    },
+    {
+      "component": "actions/setup-java@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/on-release-tag.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gradle-build.yml",
+      "source_repo": "resilience4j/resilience4j",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gradle-build.yml",
+      "source_repo": "resilience4j/resilience4j",
+      "target": "gradle/actions/wrapper-validation@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gradle-build.yml",
+      "source_repo": "resilience4j/resilience4j",
+      "target": "actions/setup-java@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gradle-build.yml",
+      "source_repo": "resilience4j/resilience4j",
+      "target": "actions/cache@v4.2.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gradle-build.yml",
+      "source_repo": "resilience4j/resilience4j",
+      "target": "EnricoMi/publish-unit-test-result-action/composite@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gradle-build.yml",
+      "source_repo": "resilience4j/resilience4j",
+      "target": "Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/on-release-tag.yml",
+      "source_repo": "resilience4j/resilience4j",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/on-release-tag.yml",
+      "source_repo": "resilience4j/resilience4j",
+      "target": "actions/setup-java@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/on-release-tag.yml",
+      "source_repo": "resilience4j/resilience4j",
+      "target": "Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "resilience4j/resilience4j",
+      "target": "bulkhead",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "resilience4j/resilience4j",
+      "target": "circuitbreaker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "resilience4j/resilience4j",
+      "target": "metrics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "resilience4j/resilience4j",
+      "target": "rate-limiter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "resilience4j/resilience4j",
+      "target": "resilience",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "resilience4j/resilience4j",
+      "target": "retry",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T01:50:05.395936+00:00",
+  "fetched_files": [
+    {
+      "path": "Dockerfile",
+      "size": 115
+    },
+    {
+      "path": ".github/workflows/gradle-build.yml",
+      "size": 3913
+    },
+    {
+      "path": ".github/workflows/on-release-tag.yml",
+      "size": 1628
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Resilience4j is a fault tolerance library designed for Java8 and functional programming",
+    "fork": false,
+    "full_name": "resilience4j/resilience4j",
+    "html_url": "https://github.com/resilience4j/resilience4j",
+    "language": "Java",
+    "pushed_at": "2026-04-20T15:06:18Z",
+    "stargazers_count": 10643,
+    "topics": [
+      "bulkhead",
+      "circuitbreaker",
+      "metrics",
+      "rate-limiter",
+      "resilience",
+      "retry"
+    ],
+    "updated_at": "2026-04-23T14:37:33Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gradle-build.yml",
+      "term": "Build"
+    },
+    {
+      "context_snippet": "Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/on-release-tag.yml",
+      "term": "Release"
+    },
+    {
+      "context_snippet": "FROM gitpod/workspace-full RUN bash -c \". /home/gitpod/.sdkman/bin/sdkman-init.sh && sdk install java 11.0.23-tem\"",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bulkhead"
+    },
+    {
+      "context_snippet": "FROM gitpod/workspace-full RUN bash -c \". /home/gitpod/.sdkman/bin/sdkman-init.sh && sdk install java 11.0.23-tem\"",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "circuitbreaker"
+    },
+    {
+      "context_snippet": "FROM gitpod/workspace-full RUN bash -c \". /home/gitpod/.sdkman/bin/sdkman-init.sh && sdk install java 11.0.23-tem\"",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "metrics"
+    },
+    {
+      "context_snippet": "FROM gitpod/workspace-full RUN bash -c \". /home/gitpod/.sdkman/bin/sdkman-init.sh && sdk install java 11.0.23-tem\"",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rate-limiter"
+    },
+    {
+      "context_snippet": "FROM gitpod/workspace-full RUN bash -c \". /home/gitpod/.sdkman/bin/sdkman-init.sh && sdk install java 11.0.23-tem\"",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "resilience"
+    },
+    {
+      "context_snippet": "FROM gitpod/workspace-full RUN bash -c \". /home/gitpod/.sdkman/bin/sdkman-init.sh && sdk install java 11.0.23-tem\"",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "retry"
+    }
+  ]
+}

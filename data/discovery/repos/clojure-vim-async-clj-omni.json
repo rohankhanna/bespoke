@@ -1,0 +1,123 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "clojure-vim/async-clj-omni",
+      "target": "clojure-emacs/cider-nrepl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "clojure-vim/async-clj-omni",
+      "target": "boot-clj/boot",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "clojure-vim/async-clj-omni",
+      "target": "clojure-vim/nrepl-python-client",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "clojure-vim/async-clj-omni",
+      "target": "roxma/nvim-completion-manager",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "clojure-vim/async-clj-omni",
+      "target": "asyncomplete",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "clojure-vim/async-clj-omni",
+      "target": "deoplete",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "clojure-vim/async-clj-omni",
+      "target": "ncm2-source",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T00:46:50.767211+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3104
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Async Clojure Completion for various (n)vim completion engines",
+    "fork": false,
+    "full_name": "clojure-vim/async-clj-omni",
+    "html_url": "https://github.com/clojure-vim/async-clj-omni",
+    "language": "Python",
+    "pushed_at": "2023-09-07T15:42:29Z",
+    "stargazers_count": 49,
+    "topics": [
+      "asyncomplete",
+      "coc",
+      "deoplete",
+      "ncm",
+      "ncm2-source"
+    ],
+    "updated_at": "2024-10-02T13:51:14Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "boot-clj/boot",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "clojure-emacs/cider-nrepl",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "clojure-vim/nrepl-python-client",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "roxma/nvim-completion-manager",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Provides async clojure completion for:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "asyncomplete"
+    },
+    {
+      "context_snippet": "Provides async clojure completion for:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deoplete"
+    },
+    {
+      "context_snippet": "Provides async clojure completion for:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ncm2-source"
+    }
+  ]
+}

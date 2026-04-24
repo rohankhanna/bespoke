@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-24T01:50:47.373258+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1526
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "Official Docker images for Vault",
+    "fork": false,
+    "full_name": "hashicorp/docker-vault",
+    "html_url": "https://github.com/hashicorp/docker-vault",
+    "language": "Shell",
+    "pushed_at": "2023-12-06T14:53:22Z",
+    "stargazers_count": 502,
+    "topics": [],
+    "updated_at": "2026-02-02T12:05:21Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

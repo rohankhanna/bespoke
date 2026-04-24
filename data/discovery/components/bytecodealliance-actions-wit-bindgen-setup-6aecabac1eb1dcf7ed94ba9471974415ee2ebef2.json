@@ -1,0 +1,12 @@
+{
+  "component": "bytecodealliance/actions/wit-bindgen/setup@6aecabac1eb1dcf7ed94ba9471974415ee2ebef2",
+  "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "WebAssembly/WASI"
+    }
+  ]
+}

@@ -1,0 +1,605 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/setup-dotnet@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "peaceiris/actions-gh-pages@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/setup-dotnet@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "github/codeql-action/upload-sarif@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "devcontainers/ci@v0.3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push-client.yml"
+    },
+    {
+      "component": "actions/setup-dotnet@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push-client.yml"
+    },
+    {
+      "component": "NuGet/login@d22cc5f58ff5b88bf9bd452535b4335137e24544",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push-client.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/regressions.yml"
+    },
+    {
+      "component": "actions/setup-dotnet@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/regressions.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/setup-dotnet@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "NuGet/login@d22cc5f58ff5b88bf9bd452535b4335137e24544",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "github/gh-aw-actions/setup@ba90f2186d7ad780ec640f364005fa24e797b360",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/repo-assist.lock.yml"
+    },
+    {
+      "component": "actions/github-script@373c709c69115d41ff229c7e5df9f8788daa9553",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/repo-assist.lock.yml"
+    },
+    {
+      "component": "actions/github-script@373c709c69115d41ff229c7e5df9f8788daa9553",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/repo-assist.lock.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/repo-assist.lock.yml"
+    },
+    {
+      "component": "actions/github-script@373c709c69115d41ff229c7e5df9f8788daa9553",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/repo-assist.lock.yml"
+    },
+    {
+      "component": "actions/github-script@373c709c69115d41ff229c7e5df9f8788daa9553",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/repo-assist.lock.yml"
+    },
+    {
+      "component": "actions/github-script@373c709c69115d41ff229c7e5df9f8788daa9553",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/repo-assist.lock.yml"
+    },
+    {
+      "component": "actions/github-script@373c709c69115d41ff229c7e5df9f8788daa9553",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/repo-assist.lock.yml"
+    },
+    {
+      "component": "actions/github-script@373c709c69115d41ff229c7e5df9f8788daa9553",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/repo-assist.lock.yml"
+    },
+    {
+      "component": "actions/github-script@373c709c69115d41ff229c7e5df9f8788daa9553",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/repo-assist.lock.yml"
+    },
+    {
+      "component": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/repo-assist.lock.yml"
+    },
+    {
+      "component": "github/gh-aw-actions/setup@ba90f2186d7ad780ec640f364005fa24e797b360",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/repo-assist.lock.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/repo-assist.lock.yml"
+    },
+    {
+      "component": "actions/github-script@373c709c69115d41ff229c7e5df9f8788daa9553",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/repo-assist.lock.yml"
+    },
+    {
+      "component": "actions/github-script@373c709c69115d41ff229c7e5df9f8788daa9553",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/repo-assist.lock.yml"
+    },
+    {
+      "component": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/repo-assist.lock.yml"
+    },
+    {
+      "component": "actions/github-script@373c709c69115d41ff229c7e5df9f8788daa9553",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/repo-assist.lock.yml"
+    },
+    {
+      "component": "actions/github-script@373c709c69115d41ff229c7e5df9f8788daa9553",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/repo-assist.lock.yml"
+    },
+    {
+      "component": "actions/github-script@373c709c69115d41ff229c7e5df9f8788daa9553",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/repo-assist.lock.yml"
+    },
+    {
+      "component": "actions/github-script@373c709c69115d41ff229c7e5df9f8788daa9553",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/repo-assist.lock.yml"
+    },
+    {
+      "component": "actions/github-script@373c709c69115d41ff229c7e5df9f8788daa9553",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/repo-assist.lock.yml"
+    },
+    {
+      "component": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/repo-assist.lock.yml"
+    },
+    {
+      "component": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/repo-assist.lock.yml"
+    },
+    {
+      "component": "github/gh-aw-actions/setup@ba90f2186d7ad780ec640f364005fa24e797b360",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/repo-assist.lock.yml"
+    },
+    {
+      "component": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/repo-assist.lock.yml"
+    },
+    {
+      "component": "actions/github-script@373c709c69115d41ff229c7e5df9f8788daa9553",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/repo-assist.lock.yml"
+    },
+    {
+      "component": "actions/github-script@373c709c69115d41ff229c7e5df9f8788daa9553",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/repo-assist.lock.yml"
+    },
+    {
+      "component": "actions/github-script@373c709c69115d41ff229c7e5df9f8788daa9553",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/repo-assist.lock.yml"
+    },
+    {
+      "component": "actions/github-script@373c709c69115d41ff229c7e5df9f8788daa9553",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/repo-assist.lock.yml"
+    },
+    {
+      "component": "actions/github-script@373c709c69115d41ff229c7e5df9f8788daa9553",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/repo-assist.lock.yml"
+    },
+    {
+      "component": "actions/github-script@373c709c69115d41ff229c7e5df9f8788daa9553",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/repo-assist.lock.yml"
+    },
+    {
+      "component": "github/gh-aw-actions/setup@ba90f2186d7ad780ec640f364005fa24e797b360",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/repo-assist.lock.yml"
+    },
+    {
+      "component": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/repo-assist.lock.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/repo-assist.lock.yml"
+    },
+    {
+      "component": "actions/github-script@373c709c69115d41ff229c7e5df9f8788daa9553",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/repo-assist.lock.yml"
+    },
+    {
+      "component": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/repo-assist.lock.yml"
+    },
+    {
+      "component": "actions/github-script@373c709c69115d41ff229c7e5df9f8788daa9553",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/repo-assist.lock.yml"
+    },
+    {
+      "component": "github/gh-aw-actions/setup@ba90f2186d7ad780ec640f364005fa24e797b360",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/repo-assist.lock.yml"
+    },
+    {
+      "component": "actions/github-script@373c709c69115d41ff229c7e5df9f8788daa9553",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/repo-assist.lock.yml"
+    },
+    {
+      "component": "actions/github-script@373c709c69115d41ff229c7e5df9f8788daa9553",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/repo-assist.lock.yml"
+    },
+    {
+      "component": "github/gh-aw-actions/setup@ba90f2186d7ad780ec640f364005fa24e797b360",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/repo-assist.lock.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/repo-assist.lock.yml"
+    },
+    {
+      "component": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/repo-assist.lock.yml"
+    },
+    {
+      "component": "actions/github-script@373c709c69115d41ff229c7e5df9f8788daa9553",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/repo-assist.lock.yml"
+    },
+    {
+      "component": "github/gh-aw-actions/setup@ba90f2186d7ad780ec640f364005fa24e797b360",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/repo-assist.lock.yml"
+    },
+    {
+      "component": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/repo-assist.lock.yml"
+    },
+    {
+      "component": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/repo-assist.lock.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/repo-assist.lock.yml"
+    },
+    {
+      "component": "actions/github-script@373c709c69115d41ff229c7e5df9f8788daa9553",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/repo-assist.lock.yml"
+    },
+    {
+      "component": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/repo-assist.lock.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "fsprojects/fantomas",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "fsprojects/fantomas",
+      "target": "actions/setup-dotnet@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "fsprojects/fantomas",
+      "target": "peaceiris/actions-gh-pages@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "fsprojects/fantomas",
+      "target": "github/codeql-action/upload-sarif@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "fsprojects/fantomas",
+      "target": "devcontainers/ci@v0.3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "fsprojects/fantomas",
+      "target": "Build main",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push-client.yml",
+      "source_repo": "fsprojects/fantomas",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push-client.yml",
+      "source_repo": "fsprojects/fantomas",
+      "target": "actions/setup-dotnet@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push-client.yml",
+      "source_repo": "fsprojects/fantomas",
+      "target": "NuGet/login@d22cc5f58ff5b88bf9bd452535b4335137e24544",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/push-client.yml",
+      "source_repo": "fsprojects/fantomas",
+      "target": "Push Client",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/regressions.yml",
+      "source_repo": "fsprojects/fantomas",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/regressions.yml",
+      "source_repo": "fsprojects/fantomas",
+      "target": "actions/setup-dotnet@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/regressions.yml",
+      "source_repo": "fsprojects/fantomas",
+      "target": "regressions",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "fsprojects/fantomas",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "fsprojects/fantomas",
+      "target": "actions/setup-dotnet@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "fsprojects/fantomas",
+      "target": "NuGet/login@d22cc5f58ff5b88bf9bd452535b4335137e24544",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "fsprojects/fantomas",
+      "target": "Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/repo-assist.lock.yml",
+      "source_repo": "fsprojects/fantomas",
+      "target": "github/gh-aw-actions/setup@ba90f2186d7ad780ec640f364005fa24e797b360",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/repo-assist.lock.yml",
+      "source_repo": "fsprojects/fantomas",
+      "target": "actions/github-script@373c709c69115d41ff229c7e5df9f8788daa9553",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/repo-assist.lock.yml",
+      "source_repo": "fsprojects/fantomas",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/repo-assist.lock.yml",
+      "source_repo": "fsprojects/fantomas",
+      "target": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/repo-assist.lock.yml",
+      "source_repo": "fsprojects/fantomas",
+      "target": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/repo-assist.lock.yml",
+      "source_repo": "fsprojects/fantomas",
+      "target": "Repo Assist",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fsprojects/fantomas",
+      "target": "formatter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fsprojects/fantomas",
+      "target": "fsharp",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T00:44:06.808653+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1042
+    },
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 2176
+    },
+    {
+      "path": ".github/workflows/push-client.yml",
+      "size": 744
+    },
+    {
+      "path": ".github/workflows/regressions.yml",
+      "size": 452
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 837
+    },
+    {
+      "path": ".github/workflows/repo-assist.lock.yml",
+      "size": 114286
+    },
+    {
+      "path": ".github/workflows/repo-assist.md",
+      "size": 32568
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "FSharp source code formatter",
+    "fork": false,
+    "full_name": "fsprojects/fantomas",
+    "html_url": "https://github.com/fsprojects/fantomas",
+    "language": "F#",
+    "pushed_at": "2026-04-21T06:49:56Z",
+    "stargazers_count": 825,
+    "topics": [
+      "ast",
+      "formatter",
+      "fsharp"
+    ],
+    "updated_at": "2026-04-21T06:42:23Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Build main",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "term": "Build main"
+    },
+    {
+      "context_snippet": "Push Client",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/push-client.yml",
+      "term": "Push Client"
+    },
+    {
+      "context_snippet": "regressions",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/regressions.yml",
+      "term": "regressions"
+    },
+    {
+      "context_snippet": "Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Release"
+    },
+    {
+      "context_snippet": "\"Repo Assist\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/repo-assist.lock.yml",
+      "term": "Repo Assist"
+    },
+    {
+      "context_snippet": "Fantomas",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "formatter"
+    },
+    {
+      "context_snippet": "Fantomas",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fsharp"
+    }
+  ]
+}

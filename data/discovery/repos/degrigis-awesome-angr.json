@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "degrigis/awesome-angr",
+      "target": "angr/heaphopper",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "degrigis/awesome-angr",
+      "target": "angr/angrop",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "degrigis/awesome-angr",
+      "target": "angr/angr-management",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "degrigis/awesome-angr",
+      "target": "ash09/angr-static-analysis-for-vuzzer64",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-24T00:56:21.815421+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9781
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A collection of resources/tools and analyses for the angr binary analysis framework.",
+    "fork": false,
+    "full_name": "degrigis/awesome-angr",
+    "html_url": "https://github.com/degrigis/awesome-angr",
+    "language": "Python",
+    "pushed_at": "2022-07-28T18:17:18Z",
+    "stargazers_count": 185,
+    "topics": [],
+    "updated_at": "2026-04-10T00:36:33Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "angr/angr-management",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "angr/angrop",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "angr/heaphopper",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ash09/angr-static-analysis-for-vuzzer64",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -3527,6 +3527,336 @@
       "source_repo": "aerokube/selenoid",
       "status": "candidate-context",
       "text": "build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "artemnovichkov/Carting",
+      "status": "candidate-context",
+      "text": "\ud83d\ude98 A simple tool for updating Carthage script phase"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "artemnovichkov/Carting",
+      "status": "candidate-context",
+      "text": "Build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/incubator-seata-website",
+      "status": "candidate-context",
+      "text": "Apache Seata(incubating) Website"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/incubator-seata-website",
+      "status": "candidate-context",
+      "text": "\"build\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aria2/aria2",
+      "status": "candidate-context",
+      "text": "aria2 is a lightweight multi-protocol & multi-source, cross platform download utility operated in command-line. It supports HTTP/HTTPS, FTP, SFTP, BitTorrent and Metalink."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aria2/aria2",
+      "status": "candidate-context",
+      "text": "build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "babashka/babashka",
+      "status": "candidate-context",
+      "text": "Native, fast starting Clojure interpreter for scripting"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "babashka/babashka",
+      "status": "candidate-context",
+      "text": "build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dotnet/efcore",
+      "status": "candidate-context",
+      "text": "EF Core is a modern object-database mapper for .NET. It supports LINQ queries, change tracking, updates, and schema migrations."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dotnet/efcore",
+      "status": "candidate-context",
+      "text": "Build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "librespot-org/librespot",
+      "status": "candidate-context",
+      "text": "Open Source Spotify client library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "librespot-org/librespot",
+      "status": "candidate-context",
+      "text": "build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "LuaLS/vscode-lua",
+      "status": "candidate-context",
+      "text": "Release lua-language-server for VSCode"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LuaLS/vscode-lua",
+      "status": "candidate-context",
+      "text": "build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AdaCore/VSS",
+      "status": "candidate-context",
+      "text": "High level string and text processing library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AdaCore/VSS",
+      "status": "candidate-context",
+      "text": "Build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dart4e/dart4e",
+      "status": "candidate-context",
+      "text": "Dart and Flutter development support for the Eclipse IDE "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dart4e/dart4e",
+      "status": "candidate-context",
+      "text": "Build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "robb-j/nova-yaml",
+      "status": "candidate-context",
+      "text": "A Nova extension to provide YAML validation based on JSON schemas"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "robb-j/nova-yaml",
+      "status": "candidate-context",
+      "text": "\"build\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "EspressoSystems/espresso-network",
+      "status": "candidate-context",
+      "text": "Build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "EspressoSystems/espresso-systems-common",
+      "status": "candidate-context",
+      "text": "Crate of common constants and utilities used by multiple espresso system codebases"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "EspressoSystems/espresso-systems-common",
+      "status": "candidate-context",
+      "text": "Build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "EspressoSystems/jellyfish",
+      "status": "candidate-context",
+      "text": "A Rust Implementation of the PLONK ZKP System and Extensions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "EspressoSystems/jellyfish",
+      "status": "candidate-context",
+      "text": "Build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "docker/github-builder",
+      "status": "candidate-context",
+      "text": "Official Docker-maintained reusable GitHub Actions workflows to securely build container images"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "docker/github-builder",
+      "status": "candidate-context",
+      "text": "build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "babbel/puma-plugin-telemetry",
+      "status": "candidate-context",
+      "text": "Telemetry plugin for puma offering various targets to publish"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "babbel/puma-plugin-telemetry",
+      "status": "candidate-context",
+      "text": "build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tc39/agendas",
+      "status": "candidate-context",
+      "text": "TC39 meeting agendas"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tc39/agendas",
+      "status": "candidate-context",
+      "text": "'Build'"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aaronlamz/excel-to-json",
+      "status": "candidate-context",
+      "text": "\u2692\ufe0f Convert Excel to JSON for i18n"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aaronlamz/excel-to-json",
+      "status": "candidate-context",
+      "text": "build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dacap/clip",
+      "status": "candidate-context",
+      "text": "Cross-platform C++ library to copy/paste clipboard content"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dacap/clip",
+      "status": "candidate-context",
+      "text": "build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aseprite/skia",
+      "status": "candidate-context",
+      "text": "Skia is a complete 2D graphic library for drawing Text, Geometries, and Images."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aseprite/skia",
+      "status": "candidate-context",
+      "text": "Build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dacap/observable",
+      "status": "candidate-context",
+      "text": "Observer pattern and signals/slots for C++11 projects"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dacap/observable",
+      "status": "candidate-context",
+      "text": "build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dacap/undo",
+      "status": "candidate-context",
+      "text": "C++ library to implement non-linear undo/redo functionality"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dacap/undo",
+      "status": "candidate-context",
+      "text": "build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "resilience4j/resilience4j",
+      "status": "candidate-context",
+      "text": "Resilience4j is a fault tolerance library designed for Java8 and functional programming"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "resilience4j/resilience4j",
+      "status": "candidate-context",
+      "text": "Build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hashicorp/vault",
+      "status": "candidate-context",
+      "text": "A tool for secrets management, encryption as a service, and privileged access management"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hashicorp/vault",
+      "status": "candidate-context",
+      "text": "build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "adamritter/fastgron",
+      "status": "candidate-context",
+      "text": " High-performance JSON to GRON (greppable, flattened JSON) converter"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adamritter/fastgron",
+      "status": "candidate-context",
+      "text": "Build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "TechEmpower/FrameworkBenchmarks",
+      "status": "candidate-context",
+      "text": "Source for the TechEmpower Framework Benchmarks project"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TechEmpower/FrameworkBenchmarks",
+      "status": "candidate-context",
+      "text": "build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fpco/pid1",
+      "status": "candidate-context",
+      "text": "Do signal handling and orphan reaping for Unix PID1 init processes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fpco/pid1",
+      "status": "candidate-context",
+      "text": "Build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NVIDIA/libnvidia-container",
+      "status": "candidate-context",
+      "text": "NVIDIA container runtime library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA/libnvidia-container",
+      "status": "candidate-context",
+      "text": "build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aws-powertools/powertools-lambda-java",
+      "status": "candidate-context",
+      "text": "Powertools is a developer toolkit to implement Serverless best practices and increase developer velocity."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws-powertools/powertools-lambda-java",
+      "status": "candidate-context",
+      "text": "Build"
     }
   ],
   "candidate_glosses": [
@@ -5317,6 +5647,174 @@
       "source_repo": "aerokube/selenoid",
       "status": "candidate",
       "text": "build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "artemnovichkov/Carting",
+      "status": "candidate",
+      "text": "Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/incubator-seata-website",
+      "status": "candidate",
+      "text": "\"build\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aria2/aria2",
+      "status": "candidate",
+      "text": "build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "babashka/babashka",
+      "status": "candidate",
+      "text": "build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dotnet/efcore",
+      "status": "candidate",
+      "text": "Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "librespot-org/librespot",
+      "status": "candidate",
+      "text": "build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LuaLS/vscode-lua",
+      "status": "candidate",
+      "text": "build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AdaCore/VSS",
+      "status": "candidate",
+      "text": "Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dart4e/dart4e",
+      "status": "candidate",
+      "text": "Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "robb-j/nova-yaml",
+      "status": "candidate",
+      "text": "\"build\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "EspressoSystems/espresso-network",
+      "status": "candidate",
+      "text": "Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "EspressoSystems/espresso-systems-common",
+      "status": "candidate",
+      "text": "Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "EspressoSystems/jellyfish",
+      "status": "candidate",
+      "text": "Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "docker/github-builder",
+      "status": "candidate",
+      "text": "build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "babbel/puma-plugin-telemetry",
+      "status": "candidate",
+      "text": "build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tc39/agendas",
+      "status": "candidate",
+      "text": "'Build'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aaronlamz/excel-to-json",
+      "status": "candidate",
+      "text": "build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dacap/clip",
+      "status": "candidate",
+      "text": "build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aseprite/skia",
+      "status": "candidate",
+      "text": "Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dacap/observable",
+      "status": "candidate",
+      "text": "build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dacap/undo",
+      "status": "candidate",
+      "text": "build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "resilience4j/resilience4j",
+      "status": "candidate",
+      "text": "Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hashicorp/vault",
+      "status": "candidate",
+      "text": "build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adamritter/fastgron",
+      "status": "candidate",
+      "text": "Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TechEmpower/FrameworkBenchmarks",
+      "status": "candidate",
+      "text": "build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fpco/pid1",
+      "status": "candidate",
+      "text": "Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA/libnvidia-container",
+      "status": "candidate",
+      "text": "build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws-powertools/powertools-lambda-java",
+      "status": "candidate",
+      "text": "Build"
     }
   ],
   "candidate_related_terms": [
@@ -7411,11 +7909,299 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": ".github/workflows/build.yml",
       "source_repo": "aerokube/selenoid"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/master.yml",
+      "source_repo": "artemnovichkov/Carting"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "apache/incubator-seata"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "apache/incubator-seata-website"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "aria2/aria2"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/build-windows.yml",
+      "source_repo": "babashka/babashka"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "babashka/babashka"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/Build.yml",
+      "source_repo": "dotnet/efcore"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "facebookresearch/fairseq"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "librespot-org/librespot"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "LuaLS/vscode-lua"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "AdaCore/VSS"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "eclipse-tm4e/tm4e"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "eclipse-wildwebdeveloper/wildwebdeveloper"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "dart4e/dart4e"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "robb-j/nova-yaml"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "EspressoSystems/espresso-network"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "EspressoSystems/espresso-systems-common"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "EspressoSystems/jellyfish"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "web3/web3.js"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "docker/github-builder"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "eclipse-paho/paho.mqtt.python"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "jaredpalmer/backpack"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "babbel/puma-plugin-telemetry"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "tc39/agendas"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/npm-publish.yml",
+      "source_repo": "aaronlamz/excel-to-json"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "dacap/clip"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "aseprite/skia"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "dacap/observable"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "dacap/undo"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "ocaml-tracing/ocaml-trace"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "ocaml-tracing/ocaml-opentelemetry"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "ocaml-tracing/ocaml-tracy"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "apache/casbin-Casbin.NET"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/default.yml",
+      "source_repo": "apache/casbin"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/gradle-build.yml",
+      "source_repo": "resilience4j/resilience4j"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "hashicorp/vault"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "adamritter/fastgron"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "TechEmpower/FrameworkBenchmarks"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/Build.yml",
+      "source_repo": "rust-cross/rust-musl-cross"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "SpecterOps/AzureHound"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "ajv-validator/ajv-i18n"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "ajv-validator/ajv"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "ajv-validator/ajv-keywords"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "fpco/pid1"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "NVIDIA/libnvidia-container"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "kubernetes-sigs/apiserver-builder-alpha"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "WiseLibs/better-sqlite3"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/check-build.yml",
+      "source_repo": "aws-powertools/powertools-lambda-java"
     }
   ],
   "first_seen_at": "2026-04-18T10:38:37.562216+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

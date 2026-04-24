@@ -1,0 +1,215 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-cd.yml"
+    },
+    {
+      "component": "actions/setup-go@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-cd.yml"
+    },
+    {
+      "component": "test-summary/action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-cd.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-cd.yml"
+    },
+    {
+      "component": "actions/setup-go@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-cd.yml"
+    },
+    {
+      "component": "goreleaser/goreleaser-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-cd.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "joshmedeski/sesh",
+      "target": "alexpasmantier/television",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "joshmedeski/sesh",
+      "target": "psmux/psmux",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "joshmedeski/sesh",
+      "target": "omerxx/tmux-floax",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "joshmedeski/sesh",
+      "target": "tmuxinator/tmuxinator",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-cd.yml",
+      "source_repo": "joshmedeski/sesh",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-cd.yml",
+      "source_repo": "joshmedeski/sesh",
+      "target": "actions/setup-go@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-cd.yml",
+      "source_repo": "joshmedeski/sesh",
+      "target": "test-summary/action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-cd.yml",
+      "source_repo": "joshmedeski/sesh",
+      "target": "goreleaser/goreleaser-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-cd.yml",
+      "source_repo": "joshmedeski/sesh",
+      "target": "Test, Build and Publish",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "joshmedeski/sesh",
+      "target": "productivity",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "joshmedeski/sesh",
+      "target": "session-management",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "joshmedeski/sesh",
+      "target": "tmux",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "joshmedeski/sesh",
+      "target": "zoxide",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T01:45:13.878891+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 26535
+    },
+    {
+      "path": "go.mod",
+      "size": 1879
+    },
+    {
+      "path": ".github/workflows/ci-cd.yml",
+      "size": 1825
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Smart tmux session manager",
+    "fork": false,
+    "full_name": "joshmedeski/sesh",
+    "html_url": "https://github.com/joshmedeski/sesh",
+    "language": "Go",
+    "pushed_at": "2026-04-23T17:59:48Z",
+    "stargazers_count": 2366,
+    "topics": [
+      "productivity",
+      "session-management",
+      "tmux",
+      "zoxide"
+    ],
+    "updated_at": "2026-04-23T23:39:16Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "alexpasmantier/television",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "omerxx/tmux-floax",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "psmux/psmux",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tmuxinator/tmuxinator",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Test, Build and Publish",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-cd.yml",
+      "term": "Test, Build and Publish"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "productivity"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "session-management"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tmux"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "zoxide"
+    }
+  ]
+}

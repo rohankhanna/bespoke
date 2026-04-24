@@ -1,0 +1,349 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "ashvardanian/tinysemver@v2.1.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ashvardanian/less_slow.cpp",
+      "target": "ashvardanian/less_slow.rs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ashvardanian/less_slow.cpp",
+      "target": "ashvardanian/less_slow.py",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ashvardanian/less_slow.cpp",
+      "target": "ashvardanian/stringzilla",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ashvardanian/less_slow.cpp",
+      "target": "axboe/liburing",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "ashvardanian/less_slow.cpp",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "ashvardanian/less_slow.cpp",
+      "target": "ashvardanian/tinysemver@v2.1.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "ashvardanian/less_slow.cpp",
+      "target": "Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ashvardanian/less_slow.cpp",
+      "target": "assembly",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ashvardanian/less_slow.cpp",
+      "target": "assembly-language",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ashvardanian/less_slow.cpp",
+      "target": "avx512",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ashvardanian/less_slow.cpp",
+      "target": "benchmark",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ashvardanian/less_slow.cpp",
+      "target": "coroutines",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ashvardanian/less_slow.cpp",
+      "target": "cpp-programming",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ashvardanian/less_slow.cpp",
+      "target": "cpp17",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ashvardanian/less_slow.cpp",
+      "target": "cpp20",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ashvardanian/less_slow.cpp",
+      "target": "cuda",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ashvardanian/less_slow.cpp",
+      "target": "google-benchmark",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ashvardanian/less_slow.cpp",
+      "target": "io-uring",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ashvardanian/less_slow.cpp",
+      "target": "linux-kernel",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ashvardanian/less_slow.cpp",
+      "target": "llvm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ashvardanian/less_slow.cpp",
+      "target": "ranges",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ashvardanian/less_slow.cpp",
+      "target": "tutorial",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ashvardanian/less_slow.cpp",
+      "target": "tutorials",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T00:48:58.743885+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 13187
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 897
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Playing around \"Less Slow\" coding practices in C++ 20, C, CUDA, PTX, & Assembly, from numerics & SIMD to coroutines, ranges, exception handling, networking and user-space IO",
+    "fork": false,
+    "full_name": "ashvardanian/less_slow.cpp",
+    "html_url": "https://github.com/ashvardanian/less_slow.cpp",
+    "language": "C++",
+    "pushed_at": "2025-12-23T14:38:25Z",
+    "stargazers_count": 1913,
+    "topics": [
+      "assembly",
+      "assembly-language",
+      "avx512",
+      "benchmark",
+      "coroutines",
+      "cpp",
+      "cpp-programming",
+      "cpp17",
+      "cpp20",
+      "cuda",
+      "gcc",
+      "google-benchmark",
+      "hpc",
+      "io-uring",
+      "linux-kernel",
+      "llvm",
+      "ptx",
+      "ranges",
+      "tutorial",
+      "tutorials"
+    ],
+    "updated_at": "2026-04-23T19:04:31Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ashvardanian/less_slow.py",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ashvardanian/less_slow.rs",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ashvardanian/stringzilla",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "axboe/liburing",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Release"
+    },
+    {
+      "context_snippet": "> The benchmarks in this repository don't aim to cover every topic entirely, but they help form a mindset and intuition for performance-oriented software design.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "assembly"
+    },
+    {
+      "context_snippet": "> The benchmarks in this repository don't aim to cover every topic entirely, but they help form a mindset and intuition for performance-oriented software design.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "assembly-language"
+    },
+    {
+      "context_snippet": "> The benchmarks in this repository don't aim to cover every topic entirely, but they help form a mindset and intuition for performance-oriented software design.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "avx512"
+    },
+    {
+      "context_snippet": "> The benchmarks in this repository don't aim to cover every topic entirely, but they help form a mindset and intuition for performance-oriented software design.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "benchmark"
+    },
+    {
+      "context_snippet": "> The benchmarks in this repository don't aim to cover every topic entirely, but they help form a mindset and intuition for performance-oriented software design.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "coroutines"
+    },
+    {
+      "context_snippet": "> The benchmarks in this repository don't aim to cover every topic entirely, but they help form a mindset and intuition for performance-oriented software design.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cpp-programming"
+    },
+    {
+      "context_snippet": "> The benchmarks in this repository don't aim to cover every topic entirely, but they help form a mindset and intuition for performance-oriented software design.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cpp17"
+    },
+    {
+      "context_snippet": "> The benchmarks in this repository don't aim to cover every topic entirely, but they help form a mindset and intuition for performance-oriented software design.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cpp20"
+    },
+    {
+      "context_snippet": "> The benchmarks in this repository don't aim to cover every topic entirely, but they help form a mindset and intuition for performance-oriented software design.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cuda"
+    },
+    {
+      "context_snippet": "> The benchmarks in this repository don't aim to cover every topic entirely, but they help form a mindset and intuition for performance-oriented software design.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "google-benchmark"
+    },
+    {
+      "context_snippet": "> The benchmarks in this repository don't aim to cover every topic entirely, but they help form a mindset and intuition for performance-oriented software design.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "io-uring"
+    },
+    {
+      "context_snippet": "> The benchmarks in this repository don't aim to cover every topic entirely, but they help form a mindset and intuition for performance-oriented software design.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "linux-kernel"
+    },
+    {
+      "context_snippet": "> The benchmarks in this repository don't aim to cover every topic entirely, but they help form a mindset and intuition for performance-oriented software design.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "llvm"
+    },
+    {
+      "context_snippet": "> The benchmarks in this repository don't aim to cover every topic entirely, but they help form a mindset and intuition for performance-oriented software design.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ranges"
+    },
+    {
+      "context_snippet": "> The benchmarks in this repository don't aim to cover every topic entirely, but they help form a mindset and intuition for performance-oriented software design.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tutorial"
+    },
+    {
+      "context_snippet": "> The benchmarks in this repository don't aim to cover every topic entirely, but they help form a mindset and intuition for performance-oriented software design.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tutorials"
+    }
+  ]
+}

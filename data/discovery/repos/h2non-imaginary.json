@@ -1,0 +1,229 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "h2non/imaginary",
+      "target": "jcupitt/libvips",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "h2non/imaginary",
+      "target": "libvips/libvips",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "h2non/imaginary",
+      "target": "cloudfoundry/cli",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "h2non/imaginary",
+      "target": "h2non/node-imaginary",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "h2non/imaginary",
+      "target": "crop-image",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "h2non/imaginary",
+      "target": "docker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "h2non/imaginary",
+      "target": "image",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "h2non/imaginary",
+      "target": "image-processing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "h2non/imaginary",
+      "target": "jpeg",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "h2non/imaginary",
+      "target": "libvips",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "h2non/imaginary",
+      "target": "microservice",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "h2non/imaginary",
+      "target": "resize-images",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "h2non/imaginary",
+      "target": "watermark",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "h2non/imaginary",
+      "target": "webp",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T00:50:31.982182+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 57730
+    },
+    {
+      "path": "Dockerfile",
+      "size": 3492
+    },
+    {
+      "path": "go.mod",
+      "size": 218
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Fast, simple, scalable, Docker-ready HTTP microservice for high-level image processing",
+    "fork": false,
+    "full_name": "h2non/imaginary",
+    "html_url": "https://github.com/h2non/imaginary",
+    "language": "Go",
+    "pushed_at": "2025-11-08T19:49:48Z",
+    "stargazers_count": 6041,
+    "topics": [
+      "crop-image",
+      "docker",
+      "gif",
+      "image",
+      "image-processing",
+      "jpeg",
+      "libvips",
+      "microservice",
+      "png",
+      "resize-images",
+      "watermark",
+      "webp"
+    ],
+    "updated_at": "2026-04-23T11:51:39Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cloudfoundry/cli",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "h2non/node-imaginary",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jcupitt/libvips",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "libvips/libvips",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "**[Fast](#benchmarks) HTTP [microservice](http://microservices.io/patterns/microservices.html)** written in Go **for high-level image processing** backed by [bimg](https://github.com/h2non/bimg) and [libvips](https://github.com/jcupitt/libvips). `imaginary` can be used as privat\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "crop-image"
+    },
+    {
+      "context_snippet": "**[Fast](#benchmarks) HTTP [microservice](http://microservices.io/patterns/microservices.html)** written in Go **for high-level image processing** backed by [bimg](https://github.com/h2non/bimg) and [libvips](https://github.com/jcupitt/libvips). `imaginary` can be used as privat\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "docker"
+    },
+    {
+      "context_snippet": "**[Fast](#benchmarks) HTTP [microservice](http://microservices.io/patterns/microservices.html)** written in Go **for high-level image processing** backed by [bimg](https://github.com/h2non/bimg) and [libvips](https://github.com/jcupitt/libvips). `imaginary` can be used as privat\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image"
+    },
+    {
+      "context_snippet": "**[Fast](#benchmarks) HTTP [microservice](http://microservices.io/patterns/microservices.html)** written in Go **for high-level image processing** backed by [bimg](https://github.com/h2non/bimg) and [libvips](https://github.com/jcupitt/libvips). `imaginary` can be used as privat\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-processing"
+    },
+    {
+      "context_snippet": "**[Fast](#benchmarks) HTTP [microservice](http://microservices.io/patterns/microservices.html)** written in Go **for high-level image processing** backed by [bimg](https://github.com/h2non/bimg) and [libvips](https://github.com/jcupitt/libvips). `imaginary` can be used as privat\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "jpeg"
+    },
+    {
+      "context_snippet": "**[Fast](#benchmarks) HTTP [microservice](http://microservices.io/patterns/microservices.html)** written in Go **for high-level image processing** backed by [bimg](https://github.com/h2non/bimg) and [libvips](https://github.com/jcupitt/libvips). `imaginary` can be used as privat\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "libvips"
+    },
+    {
+      "context_snippet": "**[Fast](#benchmarks) HTTP [microservice](http://microservices.io/patterns/microservices.html)** written in Go **for high-level image processing** backed by [bimg](https://github.com/h2non/bimg) and [libvips](https://github.com/jcupitt/libvips). `imaginary` can be used as privat\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "microservice"
+    },
+    {
+      "context_snippet": "**[Fast](#benchmarks) HTTP [microservice](http://microservices.io/patterns/microservices.html)** written in Go **for high-level image processing** backed by [bimg](https://github.com/h2non/bimg) and [libvips](https://github.com/jcupitt/libvips). `imaginary` can be used as privat\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "resize-images"
+    },
+    {
+      "context_snippet": "**[Fast](#benchmarks) HTTP [microservice](http://microservices.io/patterns/microservices.html)** written in Go **for high-level image processing** backed by [bimg](https://github.com/h2non/bimg) and [libvips](https://github.com/jcupitt/libvips). `imaginary` can be used as privat\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "watermark"
+    },
+    {
+      "context_snippet": "**[Fast](#benchmarks) HTTP [microservice](http://microservices.io/patterns/microservices.html)** written in Go **for high-level image processing** backed by [bimg](https://github.com/h2non/bimg) and [libvips](https://github.com/jcupitt/libvips). `imaginary` can be used as privat\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "webp"
+    }
+  ]
+}

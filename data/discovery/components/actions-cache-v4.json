@@ -1,7 +1,7 @@
 {
   "component": "actions/cache@v4",
   "first_seen_at": "2026-04-17T16:51:41.136432+00:00",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -1722,6 +1722,176 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/macos-ci.yml",
       "source_repo": "walles/px"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "ocurrent/obuilder"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-windows.yml",
+      "source_repo": "babashka/babashka"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "babashka/babashka"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "elixir-ecto/postgrex"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/angular.yml",
+      "source_repo": "abpframework/abp"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "drivendataorg/cookiecutter-data-science"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "pdf-rs/pdf"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "LaurenzV/sitro"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/vm.yml",
+      "source_repo": "openssh/openssh-portable"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "liuchengxu/vim-clap"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/check_and_test.yaml",
+      "source_repo": "Cykooz/libheif-rs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/native-image.yaml",
+      "source_repo": "redhat-developer/vscode-xml"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "redhat-developer/vscode-xml"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "ComunidadAylas/glsl-lang"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test-cmake.yml",
+      "source_repo": "clice-io/clice"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yaml",
+      "source_repo": "gchq/Gaffer"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration-legacy.yaml",
+      "source_repo": "gchq/Gaffer"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration.yaml",
+      "source_repo": "gchq/Gaffer"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "Heap-Hop/if-watch"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/config.yml",
+      "source_repo": "blockscout/blockscout"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/generate-swagger.yml",
+      "source_repo": "blockscout/blockscout"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "arkworks-rs/crypto-primitives"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "arkworks-rs/r1cs-std"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/developer-flag.yml",
+      "source_repo": "haskell/text"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/simdutf-flag-windows.yml",
+      "source_repo": "haskell/text"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/simdutf-flag.yml",
+      "source_repo": "haskell/text"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci-workflow.yml",
+      "source_repo": "newrelic/node-native-metrics"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/create-release.yml",
+      "source_repo": "newrelic/node-native-metrics"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "lambdalisue/vim-gin"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/run-bench.yml",
+      "source_repo": "preactjs/preact"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/celo-monorepo.yml",
+      "source_repo": "celo-org/celo-monorepo"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/protocol-devchain-anvil.yml",
+      "source_repo": "celo-org/celo-monorepo"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/protocol_tests.yml",
+      "source_repo": "celo-org/celo-monorepo"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cont_integration.yml",
+      "source_repo": "bitcoindevkit/rust-electrum-client"
     }
   ]
 }

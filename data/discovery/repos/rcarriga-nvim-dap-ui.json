@@ -1,0 +1,216 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workflow.yaml"
+    },
+    {
+      "component": "JohnnyMorganz/stylua-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workflow.yaml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workflow.yaml"
+    },
+    {
+      "component": "actions/cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workflow.yaml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workflow.yaml"
+    },
+    {
+      "component": "actions/setup-node@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workflow.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "rcarriga/nvim-dap-ui",
+      "target": "folke/lazydev.nvim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "rcarriga/nvim-dap-ui",
+      "target": "microsoft/vscode-codicons",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "rcarriga/nvim-dap-ui",
+      "target": "christianchiarulli/neovim-codicons",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "rcarriga/nvim-dap-ui",
+      "target": "mortepau/codicons.nvim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workflow.yaml",
+      "source_repo": "rcarriga/nvim-dap-ui",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workflow.yaml",
+      "source_repo": "rcarriga/nvim-dap-ui",
+      "target": "JohnnyMorganz/stylua-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workflow.yaml",
+      "source_repo": "rcarriga/nvim-dap-ui",
+      "target": "actions/cache@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workflow.yaml",
+      "source_repo": "rcarriga/nvim-dap-ui",
+      "target": "actions/setup-node@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/workflow.yaml",
+      "source_repo": "rcarriga/nvim-dap-ui",
+      "target": "nvim-dap-ui Workflow",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rcarriga/nvim-dap-ui",
+      "target": "debugging",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rcarriga/nvim-dap-ui",
+      "target": "neovim",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rcarriga/nvim-dap-ui",
+      "target": "nvim",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rcarriga/nvim-dap-ui",
+      "target": "nvim-dap",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T01:44:43.403166+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6722
+    },
+    {
+      "path": "Dockerfile",
+      "size": 768
+    },
+    {
+      "path": ".github/workflows/workflow.yaml",
+      "size": 1830
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A UI for nvim-dap",
+    "fork": false,
+    "full_name": "rcarriga/nvim-dap-ui",
+    "html_url": "https://github.com/rcarriga/nvim-dap-ui",
+    "language": "Lua",
+    "pushed_at": "2026-04-05T07:37:47Z",
+    "stargazers_count": 3323,
+    "topics": [
+      "debugging",
+      "lua",
+      "neovim",
+      "nvim",
+      "nvim-dap"
+    ],
+    "updated_at": "2026-04-23T01:41:35Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "christianchiarulli/neovim-codicons",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "folke/lazydev.nvim",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "microsoft/vscode-codicons",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mortepau/codicons.nvim",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "nvim-dap-ui Workflow",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/workflow.yaml",
+      "term": "nvim-dap-ui Workflow"
+    },
+    {
+      "context_snippet": "A UI for [nvim-dap](https://github.com/mfussenegger/nvim-dap) which provides a",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "debugging"
+    },
+    {
+      "context_snippet": "A UI for [nvim-dap](https://github.com/mfussenegger/nvim-dap) which provides a",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neovim"
+    },
+    {
+      "context_snippet": "A UI for [nvim-dap](https://github.com/mfussenegger/nvim-dap) which provides a",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nvim"
+    },
+    {
+      "context_snippet": "A UI for [nvim-dap](https://github.com/mfussenegger/nvim-dap) which provides a",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nvim-dap"
+    }
+  ]
+}

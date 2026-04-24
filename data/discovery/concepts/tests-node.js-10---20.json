@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Tests: node.js 10 - 20"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tape-testing/tape",
+      "status": "candidate-context",
+      "text": "tap-producing test harness for node and browsers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tape-testing/tape",
+      "status": "candidate-context",
+      "text": "'Tests: node.js 10 - 20'"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tape-testing/tape",
+      "status": "candidate",
+      "text": "'Tests: node.js 10 - 20'"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 48077,
+      "status": "candidate",
+      "text": "half"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28045,
+      "status": "candidate",
+      "text": "field"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28045,
+      "status": "candidate",
+      "text": "semiarid"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27980,
+      "status": "candidate",
+      "text": "anti-personnel bomb"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27980,
+      "status": "candidate",
+      "text": "antipersonnel bomb"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Tests: node.js 10 - 20",
+  "concept_id": "tests-node.js-10---20",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/node-tens.yml",
+      "source_repo": "tape-testing/tape"
+    }
+  ],
+  "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Tests: node.js 10 - 20",
+      "sense_id": "tests-node.js-10---20#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

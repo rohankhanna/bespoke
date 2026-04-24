@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "multiplayer"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ably-labs/multiplayer-games-scalable-networking-framework",
+      "status": "candidate-context",
+      "text": "This repository contains a base networking framework for building any realtime multiplayer game on the web with Ably using the client/server architecture. This project uses vanilla JS on the client-side and NodeJS on the server-side and is scalable as you need "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ably-labs/multiplayer-games-scalable-networking-framework",
+      "status": "candidate-context",
+      "text": "This starter kit allows you to add multiplayer functionality (that follows the [Client/Server strategy](https://www.gabrielgambetta.com/client-server-game-architecture.html)) to your game. It provides a communication framework so that your players can communicate with a central \u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ably-labs/multiplayer-games-scalable-networking-framework",
+      "status": "candidate",
+      "text": "This starter kit allows you to add multiplayer functionality (that follows the [Client/Server strategy](https://www.gabrielgambetta.com/client-server-game-architecture.html)) to your game. It provides a communication framework so that your players can communicate with a central \u2026"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29864767,
+      "status": "candidate",
+      "text": "gaming"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19864779,
+      "status": "candidate",
+      "text": "multi-player"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19864778,
+      "status": "candidate",
+      "text": "multigame"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19864777,
+      "status": "candidate",
+      "text": "multiserver"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19864776,
+      "status": "candidate",
+      "text": "multiuser"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "multiplayer",
+  "concept_id": "multiplayer",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "ably-labs/multiplayer-games-scalable-networking-framework"
+    }
+  ],
+  "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "multiplayer",
+      "sense_id": "multiplayer#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

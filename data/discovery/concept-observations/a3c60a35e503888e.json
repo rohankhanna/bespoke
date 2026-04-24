@@ -1,0 +1,101 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Apache Doris is an easy-to-use, high performance and unified analytics database."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<!--"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<!--"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39981013,
+      "status": "candidate",
+      "text": "berg"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29979970,
+      "status": "candidate",
+      "text": "ice"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29942694,
+      "status": "candidate",
+      "text": "wedge"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29935746,
+      "status": "candidate",
+      "text": "iceman"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29931929,
+      "status": "candidate",
+      "text": "corner"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "iceberg",
+      "sense_id": "iceberg#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2034,
+      "status": "candidate",
+      "text": "berg"
+    }
+  ],
+  "concept_id": "iceberg",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "iceberg",
+  "observation_id": "a3c60a35e503888e",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T00:33:56.049672+00:00",
+  "observed_text": "iceberg",
+  "source_context_snippet": "<!--",
+  "source_file": null,
+  "source_repo": "apache/doris",
+  "source_repo_description": "Apache Doris is an easy-to-use, high performance and unified analytics database."
+}

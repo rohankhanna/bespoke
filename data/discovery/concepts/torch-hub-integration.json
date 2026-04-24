@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Torch hub integration"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/huggingface-transformers",
+      "status": "candidate-context",
+      "text": "\ud83e\udd17Transformers: State-of-the-art Natural Language Processing for Pytorch and TensorFlow 2.0."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/huggingface-transformers",
+      "status": "candidate-context",
+      "text": "Torch hub integration"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/huggingface-transformers",
+      "status": "candidate",
+      "text": "Torch hub integration"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17733,
+      "status": "candidate",
+      "text": "extinction"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17733,
+      "status": "candidate",
+      "text": "focal point"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17733,
+      "status": "candidate",
+      "text": "focus"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17733,
+      "status": "candidate",
+      "text": "penumbra"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17733,
+      "status": "candidate",
+      "text": "torii"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Torch hub integration",
+  "concept_id": "torch-hub-integration",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/github-torch-hub.yml",
+      "source_repo": "microsoft/huggingface-transformers"
+    }
+  ],
+  "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Torch hub integration",
+      "sense_id": "torch-hub-integration#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

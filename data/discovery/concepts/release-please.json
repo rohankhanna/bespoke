@@ -1,7 +1,8 @@
 {
   "aliases": [
     "Release Please",
-    "release-please"
+    "release-please",
+    "Release, please!"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -376,6 +377,24 @@
       "source_repo": "google/adk-js",
       "status": "candidate-context",
       "text": "release-please"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jekyll/jekyll",
+      "status": "candidate-context",
+      "text": ":globe_with_meridians: Jekyll is a blog-aware static site generator in Ruby"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jekyll/jekyll",
+      "status": "candidate-context",
+      "text": "\"Release, please!\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eth-act/zkboost",
+      "status": "candidate-context",
+      "text": "Release Please"
     }
   ],
   "candidate_glosses": [
@@ -564,6 +583,18 @@
       "source_repo": "google/adk-js",
       "status": "candidate",
       "text": "release-please"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jekyll/jekyll",
+      "status": "candidate",
+      "text": "\"Release, please!\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eth-act/zkboost",
+      "status": "candidate",
+      "text": "Release Please"
     }
   ],
   "candidate_related_terms": [
@@ -601,6 +632,41 @@
       "score": 11659,
       "status": "candidate",
       "text": "issue"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "allocation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "announcement"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "assignment"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "authorisation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "authorization"
     }
   ],
   "candidate_synonyms": [],
@@ -841,11 +907,23 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": ".github/workflows/release-please.yml",
       "source_repo": "istanbuljs/nyc"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/release-please.yml",
+      "source_repo": "jekyll/jekyll"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/release-please.yml",
+      "source_repo": "eth-act/zkboost"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

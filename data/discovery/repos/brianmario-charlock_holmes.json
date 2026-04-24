@@ -1,0 +1,98 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "brianmario/charlock_holmes",
+      "target": "mxcl/homebrew",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "brianmario/charlock_holmes",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "brianmario/charlock_holmes",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos.yml",
+      "source_repo": "brianmario/charlock_holmes",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos.yml",
+      "source_repo": "brianmario/charlock_holmes",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-24T00:47:41.019733+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3780
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 843
+    },
+    {
+      "path": ".github/workflows/macos.yml",
+      "size": 792
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Character encoding detection, brought to you by ICU",
+    "fork": false,
+    "full_name": "brianmario/charlock_holmes",
+    "html_url": "https://github.com/brianmario/charlock_holmes",
+    "language": "Ruby",
+    "pushed_at": "2026-01-12T18:17:50Z",
+    "stargazers_count": 1075,
+    "topics": [],
+    "updated_at": "2026-04-21T19:47:34Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mxcl/homebrew",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -127,6 +127,30 @@
       "source_repo": "ruby/debug",
       "status": "candidate-context",
       "text": "[![Ruby](https://github.com/ruby/debug/actions/workflows/ruby.yml/badge.svg?branch=master)](https://github.com/ruby/debug/actions/workflows/ruby.yml?query=branch%3Amaster) [![Protocol](https://github.com/ruby/debug/actions/workflows/protocol.yml/badge.svg)](https://github.com/ru\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alexmojaki/birdseye",
+      "status": "candidate-context",
+      "text": "Graphical Python debugger which lets you easily view the values of all evaluated expressions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alexmojaki/birdseye",
+      "status": "candidate-context",
+      "text": "|logo| birdseye"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cool-RR/PySnooper",
+      "status": "candidate-context",
+      "text": "Never use print for debugging again"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cool-RR/PySnooper",
+      "status": "candidate-context",
+      "text": "**PySnooper** is a poor man's debugger. If you've used Bash, it's like `set -x` for Python, except it's fancier."
     }
   ],
   "candidate_glosses": [
@@ -189,6 +213,18 @@
       "source_repo": "ruby/debug",
       "status": "candidate",
       "text": "[![Ruby](https://github.com/ruby/debug/actions/workflows/ruby.yml/badge.svg?branch=master)](https://github.com/ruby/debug/actions/workflows/ruby.yml?query=branch%3Amaster) [![Protocol](https://github.com/ruby/debug/actions/workflows/protocol.yml/badge.svg)](https://github.com/ru\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alexmojaki/birdseye",
+      "status": "candidate",
+      "text": "|logo| birdseye"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cool-RR/PySnooper",
+      "status": "candidate",
+      "text": "**PySnooper** is a poor man's debugger. If you've used Bash, it's like `set -x` for Python, except it's fancier."
     }
   ],
   "candidate_related_terms": [
@@ -292,11 +328,23 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "ruby/debug"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "alexmojaki/birdseye"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "cool-RR/PySnooper"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

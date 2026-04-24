@@ -1,0 +1,338 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/create-release@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "apache/casbin-axum-casbin",
+      "target": "casbin-rs/axum-casbin",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "apache/casbin-axum-casbin",
+      "target": "casbin/casbin-rs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Cargo.toml",
+      "source_repo": "apache/casbin-axum-casbin",
+      "target": "casbin-rs/axum-casbin",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "apache/casbin-axum-casbin",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "apache/casbin-axum-casbin",
+      "target": "Auto Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "apache/casbin-axum-casbin",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "apache/casbin-axum-casbin",
+      "target": "codecov/codecov-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "apache/casbin-axum-casbin",
+      "target": "Code Coverage",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "apache/casbin-axum-casbin",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "apache/casbin-axum-casbin",
+      "target": "actions/create-release@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "apache/casbin-axum-casbin",
+      "target": "Auto Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/casbin-axum-casbin",
+      "target": "abac",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/casbin-axum-casbin",
+      "target": "auth",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/casbin-axum-casbin",
+      "target": "authentication",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/casbin-axum-casbin",
+      "target": "authz",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/casbin-axum-casbin",
+      "target": "axum",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/casbin-axum-casbin",
+      "target": "casbin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/casbin-axum-casbin",
+      "target": "casbin-rs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/casbin-axum-casbin",
+      "target": "middleware",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/casbin-axum-casbin",
+      "target": "permission",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/casbin-axum-casbin",
+      "target": "rbac",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/casbin-axum-casbin",
+      "target": "rust",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T01:48:07.456117+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3438
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 1112
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 841
+    },
+    {
+      "path": ".github/workflows/coverage.yml",
+      "size": 691
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 1013
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Axum authorization middleware based on Casbin",
+    "fork": false,
+    "full_name": "apache/casbin-axum-casbin",
+    "html_url": "https://github.com/apache/casbin-axum-casbin",
+    "language": "Rust",
+    "pushed_at": "2026-03-23T12:21:38Z",
+    "stargazers_count": 67,
+    "topics": [
+      "abac",
+      "acl",
+      "auth",
+      "authentication",
+      "authz",
+      "axum",
+      "casbin",
+      "casbin-rs",
+      "middleware",
+      "permission",
+      "rbac",
+      "rust"
+    ],
+    "updated_at": "2026-03-27T02:42:04Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "casbin-rs/axum-casbin",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "casbin/casbin-rs",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "casbin-rs/axum-casbin",
+      "source_file": "Cargo.toml"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Auto Build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "term": "Auto Build"
+    },
+    {
+      "context_snippet": "Code Coverage",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/coverage.yml",
+      "term": "Code Coverage"
+    },
+    {
+      "context_snippet": "Auto Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Auto Release"
+    },
+    {
+      "context_snippet": "[![Crates.io](https://img.shields.io/crates/d/axum-casbin)](https://crates.io/crates/axum-casbin)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "abac"
+    },
+    {
+      "context_snippet": "[![Crates.io](https://img.shields.io/crates/d/axum-casbin)](https://crates.io/crates/axum-casbin)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "auth"
+    },
+    {
+      "context_snippet": "[![Crates.io](https://img.shields.io/crates/d/axum-casbin)](https://crates.io/crates/axum-casbin)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "authentication"
+    },
+    {
+      "context_snippet": "[![Crates.io](https://img.shields.io/crates/d/axum-casbin)](https://crates.io/crates/axum-casbin)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "authz"
+    },
+    {
+      "context_snippet": "[![Crates.io](https://img.shields.io/crates/d/axum-casbin)](https://crates.io/crates/axum-casbin)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "axum"
+    },
+    {
+      "context_snippet": "[![Crates.io](https://img.shields.io/crates/d/axum-casbin)](https://crates.io/crates/axum-casbin)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "casbin"
+    },
+    {
+      "context_snippet": "[![Crates.io](https://img.shields.io/crates/d/axum-casbin)](https://crates.io/crates/axum-casbin)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "casbin-rs"
+    },
+    {
+      "context_snippet": "[![Crates.io](https://img.shields.io/crates/d/axum-casbin)](https://crates.io/crates/axum-casbin)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "middleware"
+    },
+    {
+      "context_snippet": "[![Crates.io](https://img.shields.io/crates/d/axum-casbin)](https://crates.io/crates/axum-casbin)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "permission"
+    },
+    {
+      "context_snippet": "[![Crates.io](https://img.shields.io/crates/d/axum-casbin)](https://crates.io/crates/axum-casbin)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rbac"
+    },
+    {
+      "context_snippet": "[![Crates.io](https://img.shields.io/crates/d/axum-casbin)](https://crates.io/crates/axum-casbin)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust"
+    }
+  ]
+}

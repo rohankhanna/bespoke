@@ -1,0 +1,199 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android.yml"
+    },
+    {
+      "component": "docker/build-push-action@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android.yml",
+      "source_repo": "aria2/aria2",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android.yml",
+      "source_repo": "aria2/aria2",
+      "target": "docker/setup-buildx-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android.yml",
+      "source_repo": "aria2/aria2",
+      "target": "docker/build-push-action@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/android.yml",
+      "source_repo": "aria2/aria2",
+      "target": "android",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "aria2/aria2",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "aria2/aria2",
+      "target": "build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aria2/aria2",
+      "target": "bittorrent",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aria2/aria2",
+      "target": "cpp11",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aria2/aria2",
+      "target": "download",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aria2/aria2",
+      "target": "http",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aria2/aria2",
+      "target": "metalink",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aria2/aria2",
+      "target": "sftp",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T00:37:25.670348+00:00",
+  "fetched_files": [
+    {
+      "path": "README.rst",
+      "size": 22434
+    },
+    {
+      "path": ".github/workflows/android.yml",
+      "size": 404
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 3059
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "aria2 is a lightweight multi-protocol & multi-source, cross platform download utility operated in command-line. It supports HTTP/HTTPS, FTP, SFTP, BitTorrent and Metalink.",
+    "fork": false,
+    "full_name": "aria2/aria2",
+    "html_url": "https://github.com/aria2/aria2",
+    "language": "C++",
+    "pushed_at": "2026-03-10T10:01:53Z",
+    "stargazers_count": 40711,
+    "topics": [
+      "bittorrent",
+      "cpp11",
+      "download",
+      "ftp",
+      "http",
+      "metalink",
+      "rpc",
+      "sftp"
+    ],
+    "updated_at": "2026-04-23T23:15:11Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "android",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/android.yml",
+      "term": "android"
+    },
+    {
+      "context_snippet": "build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "build"
+    },
+    {
+      "context_snippet": "aria2 - The ultra fast download utility",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bittorrent"
+    },
+    {
+      "context_snippet": "aria2 - The ultra fast download utility",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cpp11"
+    },
+    {
+      "context_snippet": "aria2 - The ultra fast download utility",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "download"
+    },
+    {
+      "context_snippet": "aria2 - The ultra fast download utility",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "http"
+    },
+    {
+      "context_snippet": "aria2 - The ultra fast download utility",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "metalink"
+    },
+    {
+      "context_snippet": "aria2 - The ultra fast download utility",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sftp"
+    }
+  ]
+}

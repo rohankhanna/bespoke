@@ -1,7 +1,7 @@
 {
   "component": "dorny/paths-filter@v3",
   "first_seen_at": "2026-04-17T18:04:43.852571+00:00",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -247,6 +247,21 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/changelog.yml",
       "source_repo": "esp-rs/esp-hal"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "clice-io/clice"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "preactjs/preact"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pr-reporter.yml",
+      "source_repo": "preactjs/preact"
     }
   ]
 }

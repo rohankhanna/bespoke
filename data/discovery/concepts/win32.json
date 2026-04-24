@@ -1,0 +1,124 @@
+{
+  "aliases": [
+    "win32"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "raysan5/raylib",
+      "status": "candidate-context",
+      "text": "A simple and easy-to-use library to enjoy videogames programming"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "raysan5/raylib",
+      "status": "candidate-context",
+      "text": "<img align=\"left\" style=\"width:260px\" src=\"https://github.com/raysan5/raylib/blob/master/logo/raylib_logo_animation.gif\" width=\"288px\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/WindowsAppSDK",
+      "status": "candidate-context",
+      "text": "The Windows App SDK empowers all Windows desktop apps with modern Windows UI, APIs, and platform features, including back-compat support, shipped via NuGet."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/WindowsAppSDK",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "raysan5/raylib",
+      "status": "candidate",
+      "text": "<img align=\"left\" style=\"width:260px\" src=\"https://github.com/raysan5/raylib/blob/master/logo/raylib_logo_animation.gif\" width=\"288px\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/WindowsAppSDK",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20021069,
+      "status": "candidate",
+      "text": "odbc"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19857321,
+      "status": "candidate",
+      "text": "ole"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10023666,
+      "status": "candidate",
+      "text": "cygwin"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10023665,
+      "status": "candidate",
+      "text": "i386"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10023664,
+      "status": "candidate",
+      "text": "linux"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "win32",
+  "concept_id": "win32",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "raysan5/raylib"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/WindowsAppSDK"
+    }
+  ],
+  "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "win32",
+      "sense_id": "win32#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

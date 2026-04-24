@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-24T01:53:22.034301+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2450
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "trunk",
+    "description": null,
+    "fork": false,
+    "full_name": "arrdem/bazel-multipy",
+    "html_url": "https://github.com/arrdem/bazel-multipy",
+    "language": "Starlark",
+    "pushed_at": "2025-05-16T22:10:43Z",
+    "stargazers_count": 2,
+    "topics": [],
+    "updated_at": "2025-07-15T00:05:35Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

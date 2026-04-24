@@ -48,7 +48,7 @@
   "normalized_form": "acceptance-tests",
   "observation_id": "e8cd842d4b005b52",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-23T04:27:42.433064+00:00",
+  "observed_at": "2026-04-24T00:33:56.049672+00:00",
   "observed_text": "acceptance-tests",
   "source_context_snippet": "acceptance-tests",
   "source_file": ".github/workflows/acceptance-tests.yml",

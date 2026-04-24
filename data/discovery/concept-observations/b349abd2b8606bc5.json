@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Get your documents ready for gen AI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Notify Discord on Release"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Notify Discord on Release"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19460,
+      "status": "candidate",
+      "text": "warn"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19179,
+      "status": "candidate",
+      "text": "split"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19005,
+      "status": "candidate",
+      "text": "communicate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19005,
+      "status": "candidate",
+      "text": "dispense"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18982,
+      "status": "candidate",
+      "text": "assert"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Notify Discord on Release",
+      "sense_id": "notify-discord-on-release#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "notify-discord-on-release",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "notify-discord-on-release",
+  "observation_id": "b349abd2b8606bc5",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-24T00:33:56.049672+00:00",
+  "observed_text": "Notify Discord on Release",
+  "source_context_snippet": "Notify Discord on Release",
+  "source_file": ".github/workflows/discord-release.yml",
+  "source_repo": "docling-project/docling",
+  "source_repo_description": "Get your documents ready for gen AI"
+}

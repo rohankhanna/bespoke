@@ -1,0 +1,44 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MicrosoftDocs/feedback",
+      "target": "feedback",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T00:43:58.785668+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 595
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "\ud83d\udce2 docs.microsoft.com site feedback",
+    "fork": false,
+    "full_name": "MicrosoftDocs/feedback",
+    "html_url": "https://github.com/MicrosoftDocs/feedback",
+    "language": null,
+    "pushed_at": "2025-01-09T18:16:13Z",
+    "stargazers_count": 241,
+    "topics": [
+      "feedback"
+    ],
+    "updated_at": "2025-11-25T16:09:27Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "This repository has been archived. In 2024, Microsoft Learn shifted to a new feedback submission and management model, which is described in [Announcing a new way to give feedback on Microsoft Learn](https://techcommunity.microsoft.com/blog/microsoftlearnblog/announcing-a-new-wa\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "feedback"
+    }
+  ]
+}

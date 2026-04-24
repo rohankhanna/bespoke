@@ -1,7 +1,7 @@
 {
   "component": "arduino/setup-protoc@v3",
   "first_seen_at": "2026-04-22T04:41:58.081535+00:00",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -37,6 +37,31 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/build.yml",
       "source_repo": "apache/datafusion-python"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/audit.yml",
+      "source_repo": "EspressoSystems/espresso-network"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-crypto-helper.yml",
+      "source_repo": "EspressoSystems/espresso-network"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-without-lockfile.yml",
+      "source_repo": "EspressoSystems/espresso-network"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "EspressoSystems/espresso-network"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cargo-features.yml",
+      "source_repo": "EspressoSystems/espresso-network"
     }
   ]
 }

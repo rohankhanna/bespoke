@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Auto-Label Issues with Claude"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "EpicenterHQ/epicenter",
+      "status": "candidate-context",
+      "text": "Open-source, local-first apps."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "EpicenterHQ/epicenter",
+      "status": "candidate-context",
+      "text": "Auto-Label Issues with Claude"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "EpicenterHQ/epicenter",
+      "status": "candidate",
+      "text": "Auto-Label Issues with Claude"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11614,
+      "status": "candidate",
+      "text": "exile"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11413,
+      "status": "candidate",
+      "text": "batch"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11413,
+      "status": "candidate",
+      "text": "crain"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11413,
+      "status": "candidate",
+      "text": "elle"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11413,
+      "status": "candidate",
+      "text": "nero"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Auto-Label Issues with Claude",
+  "concept_id": "auto-label-issues-with-claude",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/auto.label-issues.yml",
+      "source_repo": "EpicenterHQ/epicenter"
+    }
+  ],
+  "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Auto-Label Issues with Claude",
+      "sense_id": "auto-label-issues-with-claude#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -463,6 +463,42 @@
       "source_repo": "alexandresanlim/Badges4-README.md-Profile-Dynamic",
       "status": "candidate-context",
       "text": "Improve your README.md profile with these amazing badges. See a sample [here](https://github.com/alexandresanlim)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Textualize/rich-cli",
+      "status": "candidate-context",
+      "text": "Rich-cli is a command line toolbox for fancy output in the terminal"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Textualize/rich-cli",
+      "status": "candidate-context",
+      "text": "Rich-CLI is a command line toolbox for fancy output in the terminal, built with [Rich](https://github.com/Textualize/rich)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jekyll/jekyll",
+      "status": "candidate-context",
+      "text": ":globe_with_meridians: Jekyll is a blog-aware static site generator in Ruby"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jekyll/jekyll",
+      "status": "candidate-context",
+      "text": "Micro Benchmark Runs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "docling-project/docling",
+      "status": "candidate-context",
+      "text": "Get your documents ready for gen AI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "docling-project/docling",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -693,6 +729,24 @@
       "source_repo": "alexandresanlim/Badges4-README.md-Profile-Dynamic",
       "status": "candidate",
       "text": "Improve your README.md profile with these amazing badges. See a sample [here](https://github.com/alexandresanlim)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Textualize/rich-cli",
+      "status": "candidate",
+      "text": "Rich-CLI is a command line toolbox for fancy output in the terminal, built with [Rich](https://github.com/Textualize/rich)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jekyll/jekyll",
+      "status": "candidate",
+      "text": "Micro Benchmark Runs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "docling-project/docling",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -982,11 +1036,29 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "alexandresanlim/Badges4-README.md-Profile-Dynamic"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "Textualize/rich-cli"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "jekyll/jekyll"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "docling-project/docling"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

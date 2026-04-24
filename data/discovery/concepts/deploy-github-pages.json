@@ -1,7 +1,8 @@
 {
   "aliases": [
     "Deploy GitHub Pages",
-    "Deploy Github Pages"
+    "Deploy Github Pages",
+    "deploy github pages"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -26,6 +27,18 @@
       "source_repo": "facebookresearch/RAM",
       "status": "candidate-context",
       "text": "Deploy GitHub Pages"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tc39/ecma402",
+      "status": "candidate-context",
+      "text": "Status, process, and documents for ECMA 402"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tc39/ecma402",
+      "status": "candidate-context",
+      "text": "'deploy github pages'"
     }
   ],
   "candidate_glosses": [
@@ -40,6 +53,12 @@
       "source_repo": "facebookresearch/RAM",
       "status": "candidate",
       "text": "Deploy GitHub Pages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tc39/ecma402",
+      "status": "candidate",
+      "text": "'deploy github pages'"
     }
   ],
   "candidate_related_terms": [
@@ -107,11 +126,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": ".github/workflows/deploy-gh-pages.yml",
       "source_repo": "facebookresearch/RAM"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "tc39/ecma402"
     }
   ],
   "first_seen_at": "2026-04-18T12:06:06.216548+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

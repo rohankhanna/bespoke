@@ -1,7 +1,8 @@
 {
   "aliases": [
     "Build + Deploy",
-    "Build-deploy"
+    "Build-deploy",
+    "build-deploy"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -44,6 +45,18 @@
       "source_repo": "project-mirai/mirai-plugin-center",
       "status": "candidate-context",
       "text": "Build-deploy"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sonhal/wasm-oauth-filter",
+      "status": "candidate-context",
+      "text": "A OpenID Connect and OAuth 2.0 WebAssembly proxy filter."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sonhal/wasm-oauth-filter",
+      "status": "candidate-context",
+      "text": "build-deploy"
     }
   ],
   "candidate_glosses": [
@@ -64,6 +77,12 @@
       "source_repo": "project-mirai/mirai-plugin-center",
       "status": "candidate",
       "text": "Build-deploy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sonhal/wasm-oauth-filter",
+      "status": "candidate",
+      "text": "build-deploy"
     }
   ],
   "candidate_related_terms": [
@@ -125,11 +144,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": ".github/workflows/build.yml",
       "source_repo": "project-mirai/mirai-plugin-center"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/build-deploy.yml",
+      "source_repo": "sonhal/wasm-oauth-filter"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "webpack4"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "14nrv/serverless-lambda-stripe",
+      "status": "candidate-context",
+      "text": "serverless lambda for stripe"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "14nrv/serverless-lambda-stripe",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://img.shields.io/circleci/project/github/14nrv/serverless-lambda-stripe/dev.svg \"Build Status\")](https://circleci.com/gh/14nrv/serverless-lambda-stripe/tree/dev)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "14nrv/serverless-lambda-stripe",
+      "status": "candidate",
+      "text": "[![Build Status](https://img.shields.io/circleci/project/github/14nrv/serverless-lambda-stripe/dev.svg \"Build Status\")](https://circleci.com/gh/14nrv/serverless-lambda-stripe/tree/dev)"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "webpack4",
+  "concept_id": "webpack4",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "14nrv/serverless-lambda-stripe"
+    }
+  ],
+  "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "webpack4",
+      "sense_id": "webpack4#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

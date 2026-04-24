@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A Rust Implementation of the PLONK ZKP System and Extensions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Conventional Commit Titles"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Conventional Commit Titles"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18267,
+      "status": "candidate",
+      "text": "ordinary"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18141,
+      "status": "candidate",
+      "text": "honorable"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18112,
+      "status": "candidate",
+      "text": "title"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18067,
+      "status": "candidate",
+      "text": "convention"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18067,
+      "status": "candidate",
+      "text": "dear"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Conventional Commit Titles",
+      "sense_id": "conventional-commit-titles#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "conventional-commit-titles",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "conventional-commit-titles",
+  "observation_id": "5088293d9acf8dfe",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-24T00:33:56.049672+00:00",
+  "observed_text": "Conventional Commit Titles",
+  "source_context_snippet": "Conventional Commit Titles",
+  "source_file": ".github/workflows/commit-title.yaml",
+  "source_repo": "EspressoSystems/jellyfish",
+  "source_repo_description": "A Rust Implementation of the PLONK ZKP System and Extensions"
+}

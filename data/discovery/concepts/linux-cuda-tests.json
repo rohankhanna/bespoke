@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Linux CUDA tests"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "huggingface/optimum-quanto",
+      "status": "candidate-context",
+      "text": "A pytorch quantization backend for optimum"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "huggingface/optimum-quanto",
+      "status": "candidate-context",
+      "text": "Linux CUDA tests"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "huggingface/optimum-quanto",
+      "status": "candidate",
+      "text": "Linux CUDA tests"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10311,
+      "status": "candidate",
+      "text": "beatrix"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10311,
+      "status": "candidate",
+      "text": "unix"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10126,
+      "status": "candidate",
+      "text": "audacity"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10126,
+      "status": "candidate",
+      "text": "cola"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10126,
+      "status": "candidate",
+      "text": "slacker"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Linux CUDA tests",
+  "concept_id": "linux-cuda-tests",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/linux-cuda-tests.yml",
+      "source_repo": "huggingface/optimum-quanto"
+    }
+  ],
+  "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Linux CUDA tests",
+      "sense_id": "linux-cuda-tests#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

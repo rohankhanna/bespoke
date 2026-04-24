@@ -1,0 +1,646 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/init@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/autobuild@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml"
+    },
+    {
+      "component": "useblacksmith/setup-docker-builder@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml"
+    },
+    {
+      "component": "useblacksmith/setup-docker-builder@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml"
+    },
+    {
+      "component": "useblacksmith/setup-docker-builder@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml"
+    },
+    {
+      "component": "useblacksmith/setup-docker-builder@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml"
+    },
+    {
+      "component": "useblacksmith/setup-docker-builder@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-tests.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-tests.yml"
+    },
+    {
+      "component": "nick-fields/retry@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-tests.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linter.yml"
+    },
+    {
+      "component": "pre-commit/action@v3.0.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linter.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-package.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-package.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-package.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-package.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/semgrep.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/smoke-tests.yml"
+    },
+    {
+      "component": "useblacksmith/setup-docker-builder@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/smoke-tests.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/smoke-tests.yml"
+    },
+    {
+      "component": "nick-fields/retry@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/smoke-tests.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.rst",
+      "source_repo": "celery/celery",
+      "target": "celery/billiard",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.rst",
+      "source_repo": "celery/celery",
+      "target": "celery/py-amqp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.rst",
+      "source_repo": "celery/celery",
+      "target": "celery/kombu",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.rst",
+      "source_repo": "celery/celery",
+      "target": "celery/vine",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "celery/celery",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "celery/celery",
+      "target": "github/codeql-action/init@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "celery/celery",
+      "target": "github/codeql-action/autobuild@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "celery/celery",
+      "target": "github/codeql-action/analyze@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "celery/celery",
+      "target": "CodeQL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "celery/celery",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "celery/celery",
+      "target": "useblacksmith/setup-docker-builder@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "celery/celery",
+      "target": "Docker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-tests.yml",
+      "source_repo": "celery/celery",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-tests.yml",
+      "source_repo": "celery/celery",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-tests.yml",
+      "source_repo": "celery/celery",
+      "target": "nick-fields/retry@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/integration-tests.yml",
+      "source_repo": "celery/celery",
+      "target": "Integration Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linter.yml",
+      "source_repo": "celery/celery",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linter.yml",
+      "source_repo": "celery/celery",
+      "target": "pre-commit/action@v3.0.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linter.yml",
+      "source_repo": "celery/celery",
+      "target": "Linter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-package.yml",
+      "source_repo": "celery/celery",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-package.yml",
+      "source_repo": "celery/celery",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-package.yml",
+      "source_repo": "celery/celery",
+      "target": "codecov/codecov-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/python-package.yml",
+      "source_repo": "celery/celery",
+      "target": "Celery",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/semgrep.yml",
+      "source_repo": "celery/celery",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/semgrep.yml",
+      "source_repo": "celery/celery",
+      "target": "Semgrep",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/smoke-tests.yml",
+      "source_repo": "celery/celery",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/smoke-tests.yml",
+      "source_repo": "celery/celery",
+      "target": "useblacksmith/setup-docker-builder@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/smoke-tests.yml",
+      "source_repo": "celery/celery",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/smoke-tests.yml",
+      "source_repo": "celery/celery",
+      "target": "nick-fields/retry@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/smoke-tests.yml",
+      "source_repo": "celery/celery",
+      "target": "Smoke Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "celery/celery",
+      "target": "amqp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "celery/celery",
+      "target": "python-library",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "celery/celery",
+      "target": "python3",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "celery/celery",
+      "target": "queue-tasks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "celery/celery",
+      "target": "queue-workers",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "celery/celery",
+      "target": "queued-jobs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "celery/celery",
+      "target": "redis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "celery/celery",
+      "target": "redis-queue",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "celery/celery",
+      "target": "sqs-queue",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "celery/celery",
+      "target": "task-manager",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "celery/celery",
+      "target": "task-runner",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "celery/celery",
+      "target": "task-scheduler",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T01:52:19.885205+00:00",
+  "fetched_files": [
+    {
+      "path": "README.rst",
+      "size": 18018
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1383
+    },
+    {
+      "path": ".github/workflows/codeql-analysis.yml",
+      "size": 2323
+    },
+    {
+      "path": ".github/workflows/docker.yml",
+      "size": 2172
+    },
+    {
+      "path": ".github/workflows/integration-tests.yml",
+      "size": 2348
+    },
+    {
+      "path": ".github/workflows/linter.yml",
+      "size": 287
+    },
+    {
+      "path": ".github/workflows/python-package.yml",
+      "size": 4212
+    },
+    {
+      "path": ".github/workflows/semgrep.yml",
+      "size": 538
+    },
+    {
+      "path": ".github/workflows/smoke-tests.yml",
+      "size": 1887
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Distributed Task Queue (development branch)",
+    "fork": false,
+    "full_name": "celery/celery",
+    "html_url": "https://github.com/celery/celery",
+    "language": "Python",
+    "pushed_at": "2026-04-23T22:23:41Z",
+    "stargazers_count": 28401,
+    "topics": [
+      "amqp",
+      "python",
+      "python-library",
+      "python3",
+      "queue-tasks",
+      "queue-workers",
+      "queued-jobs",
+      "redis",
+      "redis-queue",
+      "sqs",
+      "sqs-queue",
+      "task-manager",
+      "task-runner",
+      "task-scheduler"
+    ],
+    "updated_at": "2026-04-24T00:48:58Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "celery/billiard",
+      "source_file": "README.rst"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "celery/kombu",
+      "source_file": "README.rst"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "celery/py-amqp",
+      "source_file": "README.rst"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "celery/vine",
+      "source_file": "README.rst"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "\"CodeQL\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "term": "CodeQL"
+    },
+    {
+      "context_snippet": "Docker",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker.yml",
+      "term": "Docker"
+    },
+    {
+      "context_snippet": "Integration Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/integration-tests.yml",
+      "term": "Integration Tests"
+    },
+    {
+      "context_snippet": "Linter",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linter.yml",
+      "term": "Linter"
+    },
+    {
+      "context_snippet": "Celery",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/python-package.yml",
+      "term": "Celery"
+    },
+    {
+      "context_snippet": "Semgrep",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/semgrep.yml",
+      "term": "Semgrep"
+    },
+    {
+      "context_snippet": "Smoke Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/smoke-tests.yml",
+      "term": "Smoke Tests"
+    },
+    {
+      "context_snippet": ".. image:: https://docs.celeryq.dev/en/latest/_images/celery-banner-small.png",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "amqp"
+    },
+    {
+      "context_snippet": ".. image:: https://docs.celeryq.dev/en/latest/_images/celery-banner-small.png",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "python-library"
+    },
+    {
+      "context_snippet": ".. image:: https://docs.celeryq.dev/en/latest/_images/celery-banner-small.png",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "python3"
+    },
+    {
+      "context_snippet": ".. image:: https://docs.celeryq.dev/en/latest/_images/celery-banner-small.png",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "queue-tasks"
+    },
+    {
+      "context_snippet": ".. image:: https://docs.celeryq.dev/en/latest/_images/celery-banner-small.png",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "queue-workers"
+    },
+    {
+      "context_snippet": ".. image:: https://docs.celeryq.dev/en/latest/_images/celery-banner-small.png",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "queued-jobs"
+    },
+    {
+      "context_snippet": ".. image:: https://docs.celeryq.dev/en/latest/_images/celery-banner-small.png",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "redis"
+    },
+    {
+      "context_snippet": ".. image:: https://docs.celeryq.dev/en/latest/_images/celery-banner-small.png",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "redis-queue"
+    },
+    {
+      "context_snippet": ".. image:: https://docs.celeryq.dev/en/latest/_images/celery-banner-small.png",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sqs-queue"
+    },
+    {
+      "context_snippet": ".. image:: https://docs.celeryq.dev/en/latest/_images/celery-banner-small.png",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "task-manager"
+    },
+    {
+      "context_snippet": ".. image:: https://docs.celeryq.dev/en/latest/_images/celery-banner-small.png",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "task-runner"
+    },
+    {
+      "context_snippet": ".. image:: https://docs.celeryq.dev/en/latest/_images/celery-banner-small.png",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "task-scheduler"
+    }
+  ]
+}

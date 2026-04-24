@@ -271,6 +271,42 @@
       "source_repo": "libgeos/geos",
       "status": "candidate-context",
       "text": "GEOS -- Geometry Engine, Open Source"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cpputest/cpputest",
+      "status": "candidate-context",
+      "text": "CppUTest unit testing and mocking framework for C/C++"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cpputest/cpputest",
+      "status": "candidate-context",
+      "text": "[![GitHub Actions](https://github.com/cpputest/cpputest/actions/workflows/basic.yml/badge.svg)](https://github.com/cpputest/cpputest/actions/workflows/basic.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "niXman/yas",
+      "status": "candidate-context",
+      "text": "Yet Another Serialization"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "niXman/yas",
+      "status": "candidate-context",
+      "text": "[![CI](https://github.com/niXman/yas/actions/workflows/ci.yml/badge.svg)](https://github.com/niXman/yas/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nfrechette/rtm",
+      "status": "candidate-context",
+      "text": "Realtime Math"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nfrechette/rtm",
+      "status": "candidate-context",
+      "text": "[![CLA assistant](https://cla-assistant.io/readme/badge/nfrechette/rtm)](https://cla-assistant.io/nfrechette/rtm)"
     }
   ],
   "candidate_glosses": [
@@ -405,6 +441,24 @@
       "source_repo": "libgeos/geos",
       "status": "candidate",
       "text": "GEOS -- Geometry Engine, Open Source"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cpputest/cpputest",
+      "status": "candidate",
+      "text": "[![GitHub Actions](https://github.com/cpputest/cpputest/actions/workflows/basic.yml/badge.svg)](https://github.com/cpputest/cpputest/actions/workflows/basic.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "niXman/yas",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/niXman/yas/actions/workflows/ci.yml/badge.svg)](https://github.com/niXman/yas/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nfrechette/rtm",
+      "status": "candidate",
+      "text": "[![CLA assistant](https://cla-assistant.io/readme/badge/nfrechette/rtm)](https://cla-assistant.io/nfrechette/rtm)"
     }
   ],
   "candidate_related_terms": [],
@@ -556,11 +610,29 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "harfbuzz/harfbuzz"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "cpputest/cpputest"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "niXman/yas"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "nfrechette/rtm"
     }
   ],
   "first_seen_at": "2026-04-19T04:47:57.443742+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

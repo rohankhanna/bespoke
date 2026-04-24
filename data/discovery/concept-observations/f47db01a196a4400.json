@@ -1,0 +1,101 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Resilience4j is a fault tolerance library designed for Java8 and functional programming"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "FROM gitpod/workspace-full RUN bash -c \". /home/gitpod/.sdkman/bin/sdkman-init.sh && sdk install java 11.0.23-tem\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "FROM gitpod/workspace-full RUN bash -c \". /home/gitpod/.sdkman/bin/sdkman-init.sh && sdk install java 11.0.23-tem\""
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40007366,
+      "status": "candidate",
+      "text": "rehear"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30006590,
+      "status": "candidate",
+      "text": "retrieve"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30006533,
+      "status": "candidate",
+      "text": "recover"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30006239,
+      "status": "candidate",
+      "text": "repeat"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29990538,
+      "status": "candidate",
+      "text": "attempt"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "retry",
+      "sense_id": "retry#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1025,
+      "status": "candidate",
+      "text": "rehear"
+    }
+  ],
+  "concept_id": "retry",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "retry",
+  "observation_id": "f47db01a196a4400",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T00:33:56.049672+00:00",
+  "observed_text": "retry",
+  "source_context_snippet": "FROM gitpod/workspace-full RUN bash -c \". /home/gitpod/.sdkman/bin/sdkman-init.sh && sdk install java 11.0.23-tem\"",
+  "source_file": null,
+  "source_repo": "resilience4j/resilience4j",
+  "source_repo_description": "Resilience4j is a fault tolerance library designed for Java8 and functional programming"
+}

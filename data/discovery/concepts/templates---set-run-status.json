@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "~Templates - Set Run Status"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Azure/azure-rest-api-specs",
+      "status": "candidate-context",
+      "text": "The source for REST API specifications for Microsoft Azure."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Azure/azure-rest-api-specs",
+      "status": "candidate-context",
+      "text": "~Templates - Set Run Status"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Azure/azure-rest-api-specs",
+      "status": "candidate",
+      "text": "~Templates - Set Run Status"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 35382,
+      "status": "candidate",
+      "text": "trip"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 35382,
+      "status": "candidate",
+      "text": "trips"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26573,
+      "status": "candidate",
+      "text": "ground"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26484,
+      "status": "candidate",
+      "text": "erect"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26173,
+      "status": "candidate",
+      "text": "flat"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "~Templates - Set Run Status",
+  "concept_id": "templates---set-run-status",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/_reusable-set-check-status.yaml",
+      "source_repo": "Azure/azure-rest-api-specs"
+    }
+  ],
+  "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "~Templates - Set Run Status",
+      "sense_id": "templates---set-run-status#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

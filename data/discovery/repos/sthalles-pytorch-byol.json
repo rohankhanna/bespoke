@@ -1,0 +1,128 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sthalles/PyTorch-BYOL",
+      "target": "byol",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sthalles/PyTorch-BYOL",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sthalles/PyTorch-BYOL",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sthalles/PyTorch-BYOL",
+      "target": "representation-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sthalles/PyTorch-BYOL",
+      "target": "self-supervised-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sthalles/PyTorch-BYOL",
+      "target": "simclr",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sthalles/PyTorch-BYOL",
+      "target": "unsupervised-learning",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T02:04:14.638648+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2514
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "PyTorch implementation of Bootstrap Your Own Latent: A New Approach to Self-Supervised Learning",
+    "fork": false,
+    "full_name": "sthalles/PyTorch-BYOL",
+    "html_url": "https://github.com/sthalles/PyTorch-BYOL",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2022-06-09T15:02:20Z",
+    "stargazers_count": 512,
+    "topics": [
+      "byol",
+      "deep-learning",
+      "pytorch",
+      "representation-learning",
+      "self-supervised-learning",
+      "simclr",
+      "unsupervised-learning"
+    ],
+    "updated_at": "2026-04-22T07:19:39Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "![Image of Yaktocat](./assets/arch.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "byol"
+    },
+    {
+      "context_snippet": "![Image of Yaktocat](./assets/arch.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "![Image of Yaktocat](./assets/arch.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "![Image of Yaktocat](./assets/arch.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "representation-learning"
+    },
+    {
+      "context_snippet": "![Image of Yaktocat](./assets/arch.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "self-supervised-learning"
+    },
+    {
+      "context_snippet": "![Image of Yaktocat](./assets/arch.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "simclr"
+    },
+    {
+      "context_snippet": "![Image of Yaktocat](./assets/arch.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "unsupervised-learning"
+    }
+  ]
+}

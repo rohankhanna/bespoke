@@ -1,0 +1,203 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "ashvardanian/tinysemver@v2.1.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "pyproject.toml",
+      "source_repo": "ashvardanian/less_slow.py",
+      "target": "ashvardanian/less_slow.rs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "requirements.txt",
+      "source_repo": "ashvardanian/less_slow.py",
+      "target": "ionelmc/pytest-benchmark",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "ashvardanian/less_slow.py",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "ashvardanian/less_slow.py",
+      "target": "ashvardanian/tinysemver@v2.1.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "ashvardanian/less_slow.py",
+      "target": "Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ashvardanian/less_slow.py",
+      "target": "async",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ashvardanian/less_slow.py",
+      "target": "benchmark",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ashvardanian/less_slow.py",
+      "target": "benchmarking",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ashvardanian/less_slow.py",
+      "target": "coroutines",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ashvardanian/less_slow.py",
+      "target": "design-patterns",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ashvardanian/less_slow.py",
+      "target": "pytest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ashvardanian/less_slow.py",
+      "target": "software-architecture",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T00:49:03.256648+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3850
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 775
+    },
+    {
+      "path": "requirements.txt",
+      "size": 2008
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 898
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Playing around \"Less Slow\" coding practices in Python, from numerical micro-kernels to coroutines, ranges, and polymorphic state machines",
+    "fork": false,
+    "full_name": "ashvardanian/less_slow.py",
+    "html_url": "https://github.com/ashvardanian/less_slow.py",
+    "language": "Python",
+    "pushed_at": "2025-12-25T22:46:09Z",
+    "stargazers_count": 125,
+    "topics": [
+      "async",
+      "benchmark",
+      "benchmarking",
+      "coroutines",
+      "design-patterns",
+      "pytest",
+      "software-architecture"
+    ],
+    "updated_at": "2026-04-14T13:17:11Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ashvardanian/less_slow.rs",
+      "source_file": "pyproject.toml"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ionelmc/pytest-benchmark",
+      "source_file": "requirements.txt"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Release"
+    },
+    {
+      "context_snippet": "> The spiritual little brother of [`less_slow.cpp`](https://github.com/ashvardanian/less_slow.cpp).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "async"
+    },
+    {
+      "context_snippet": "> The spiritual little brother of [`less_slow.cpp`](https://github.com/ashvardanian/less_slow.cpp).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "benchmark"
+    },
+    {
+      "context_snippet": "> The spiritual little brother of [`less_slow.cpp`](https://github.com/ashvardanian/less_slow.cpp).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "benchmarking"
+    },
+    {
+      "context_snippet": "> The spiritual little brother of [`less_slow.cpp`](https://github.com/ashvardanian/less_slow.cpp).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "coroutines"
+    },
+    {
+      "context_snippet": "> The spiritual little brother of [`less_slow.cpp`](https://github.com/ashvardanian/less_slow.cpp).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "design-patterns"
+    },
+    {
+      "context_snippet": "> The spiritual little brother of [`less_slow.cpp`](https://github.com/ashvardanian/less_slow.cpp).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytest"
+    },
+    {
+      "context_snippet": "> The spiritual little brother of [`less_slow.cpp`](https://github.com/ashvardanian/less_slow.cpp).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "software-architecture"
+    }
+  ]
+}

@@ -1,0 +1,174 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "lukka/get-cmake@latest",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "rhysd/action-setup-vim@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "JohnnyMorganz/stylua-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "nvim-telescope/telescope-fzf-native.nvim",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "nvim-telescope/telescope-fzf-native.nvim",
+      "target": "lukka/get-cmake@latest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "nvim-telescope/telescope-fzf-native.nvim",
+      "target": "rhysd/action-setup-vim@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "nvim-telescope/telescope-fzf-native.nvim",
+      "target": "Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "nvim-telescope/telescope-fzf-native.nvim",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "nvim-telescope/telescope-fzf-native.nvim",
+      "target": "JohnnyMorganz/stylua-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "nvim-telescope/telescope-fzf-native.nvim",
+      "target": "Linting and style checking",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nvim-telescope/telescope-fzf-native.nvim",
+      "target": "sorter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nvim-telescope/telescope-fzf-native.nvim",
+      "target": "telescope",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T00:47:09.738107+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5822
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 1852
+    },
+    {
+      "path": ".github/workflows/lint.yml",
+      "size": 933
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "FZF sorter for telescope written in c",
+    "fork": false,
+    "full_name": "nvim-telescope/telescope-fzf-native.nvim",
+    "html_url": "https://github.com/nvim-telescope/telescope-fzf-native.nvim",
+    "language": "C",
+    "pushed_at": "2025-11-07T13:16:17Z",
+    "stargazers_count": 1748,
+    "topics": [
+      "fzf",
+      "sorter",
+      "telescope"
+    ],
+    "updated_at": "2026-04-23T00:49:01Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "term": "Tests"
+    },
+    {
+      "context_snippet": "Linting and style checking",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "term": "Linting and style checking"
+    },
+    {
+      "context_snippet": "**fzf-native** is a `c` port of **[fzf][fzf]**. It only covers the algorithm and",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sorter"
+    },
+    {
+      "context_snippet": "**fzf-native** is a `c` port of **[fzf][fzf]**. It only covers the algorithm and",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "telescope"
+    }
+  ]
+}

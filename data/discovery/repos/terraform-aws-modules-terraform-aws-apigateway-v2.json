@@ -1,0 +1,322 @@
+{
+  "components": [
+    {
+      "component": "dessant/lock-threads@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lock.yml"
+    },
+    {
+      "component": "amannn/action-semantic-pull-request@v6.1.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-title.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml"
+    },
+    {
+      "component": "clowdhaus/terraform-composite-actions/directories@v1.14.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml"
+    },
+    {
+      "component": "jaxxstorm/action-install-gh-release@v2.1.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml"
+    },
+    {
+      "component": "clowdhaus/terraform-min-max@v2.1.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml"
+    },
+    {
+      "component": "clowdhaus/terraform-composite-actions/pre-commit@v1.14.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml"
+    },
+    {
+      "component": "clowdhaus/terraform-composite-actions/pre-commit@v1.14.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml"
+    },
+    {
+      "component": "jaxxstorm/action-install-gh-release@v2.1.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml"
+    },
+    {
+      "component": "clowdhaus/terraform-min-max@v2.1.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml"
+    },
+    {
+      "component": "clowdhaus/terraform-composite-actions/pre-commit@v1.14.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/setup-node@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "cycjimmy/semantic-release-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/stale@v10",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale-actions.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lock.yml",
+      "source_repo": "terraform-aws-modules/terraform-aws-apigateway-v2",
+      "target": "dessant/lock-threads@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lock.yml",
+      "source_repo": "terraform-aws-modules/terraform-aws-apigateway-v2",
+      "target": "Lock Threads",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-title.yml",
+      "source_repo": "terraform-aws-modules/terraform-aws-apigateway-v2",
+      "target": "amannn/action-semantic-pull-request@v6.1.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-title.yml",
+      "source_repo": "terraform-aws-modules/terraform-aws-apigateway-v2",
+      "target": "Validate PR title",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "terraform-aws-modules/terraform-aws-apigateway-v2",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "terraform-aws-modules/terraform-aws-apigateway-v2",
+      "target": "clowdhaus/terraform-composite-actions/directories@v1.14.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "terraform-aws-modules/terraform-aws-apigateway-v2",
+      "target": "jaxxstorm/action-install-gh-release@v2.1.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "terraform-aws-modules/terraform-aws-apigateway-v2",
+      "target": "clowdhaus/terraform-min-max@v2.1.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "terraform-aws-modules/terraform-aws-apigateway-v2",
+      "target": "clowdhaus/terraform-composite-actions/pre-commit@v1.14.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "terraform-aws-modules/terraform-aws-apigateway-v2",
+      "target": "Pre-Commit",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "terraform-aws-modules/terraform-aws-apigateway-v2",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "terraform-aws-modules/terraform-aws-apigateway-v2",
+      "target": "actions/setup-node@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "terraform-aws-modules/terraform-aws-apigateway-v2",
+      "target": "cycjimmy/semantic-release-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "terraform-aws-modules/terraform-aws-apigateway-v2",
+      "target": "Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale-actions.yaml",
+      "source_repo": "terraform-aws-modules/terraform-aws-apigateway-v2",
+      "target": "actions/stale@v10",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "terraform-aws-modules/terraform-aws-apigateway-v2",
+      "target": "aws-apigateway",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "terraform-aws-modules/terraform-aws-apigateway-v2",
+      "target": "serverless",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "terraform-aws-modules/terraform-aws-apigateway-v2",
+      "target": "terraform-module",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "terraform-aws-modules/terraform-aws-apigateway-v2",
+      "target": "terraform-serverless",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T01:54:31.873817+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 26599
+    },
+    {
+      "path": ".github/workflows/lock.yml",
+      "size": 1036
+    },
+    {
+      "path": ".github/workflows/pr-title.yml",
+      "size": 2306
+    },
+    {
+      "path": ".github/workflows/pre-commit.yml",
+      "size": 6199
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 1051
+    },
+    {
+      "path": ".github/workflows/stale-actions.yaml",
+      "size": 1383
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Terraform module to create AWS API Gateway v2 (HTTP/WebSocket) \ud83c\uddfa\ud83c\udde6",
+    "fork": false,
+    "full_name": "terraform-aws-modules/terraform-aws-apigateway-v2",
+    "html_url": "https://github.com/terraform-aws-modules/terraform-aws-apigateway-v2",
+    "language": "HCL",
+    "pushed_at": "2026-01-08T16:55:17Z",
+    "stargazers_count": 166,
+    "topics": [
+      "aws",
+      "aws-apigateway",
+      "serverless",
+      "terraform-module",
+      "terraform-serverless"
+    ],
+    "updated_at": "2026-04-08T08:34:25Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "'Lock Threads'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lock.yml",
+      "term": "Lock Threads"
+    },
+    {
+      "context_snippet": "'Validate PR title'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-title.yml",
+      "term": "Validate PR title"
+    },
+    {
+      "context_snippet": "Pre-Commit",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "term": "Pre-Commit"
+    },
+    {
+      "context_snippet": "Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Release"
+    },
+    {
+      "context_snippet": "Terraform module which creates API Gateway v2 resources with HTTP/Websocket capabilities.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "aws-apigateway"
+    },
+    {
+      "context_snippet": "Terraform module which creates API Gateway v2 resources with HTTP/Websocket capabilities.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "serverless"
+    },
+    {
+      "context_snippet": "Terraform module which creates API Gateway v2 resources with HTTP/Websocket capabilities.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "terraform-module"
+    },
+    {
+      "context_snippet": "Terraform module which creates API Gateway v2 resources with HTTP/Websocket capabilities.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "terraform-serverless"
+    }
+  ]
+}

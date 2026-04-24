@@ -1,7 +1,7 @@
 {
   "component": "actions/create-github-app-token@f8d387b68d61c58ab83c6c016672934102569859",
   "first_seen_at": "2026-04-18T18:30:26.389736+00:00",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -77,6 +77,21 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/automerge.yml",
       "source_repo": "supabase/scoop-bucket"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "conda-forge/admin-requests"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/repodata_patching.yml",
+      "source_repo": "conda-forge/admin-requests"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/update-dist.yml",
+      "source_repo": "docker/setup-qemu-action"
     }
   ]
 }

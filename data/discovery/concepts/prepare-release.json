@@ -1,7 +1,8 @@
 {
   "aliases": [
     "Prepare release",
-    "Prepare Release"
+    "Prepare Release",
+    "prepare release"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -44,6 +45,42 @@
       "source_repo": "carrot2/carrot2",
       "status": "candidate-context",
       "text": "Prepare release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "connectrpc/connect-query-es",
+      "status": "candidate-context",
+      "text": "TypeScript-first expansion pack for TanStack Query that gives you Protobuf superpowers."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "connectrpc/connect-query-es",
+      "status": "candidate-context",
+      "text": "Prepare Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "librespot-org/librespot",
+      "status": "candidate-context",
+      "text": "Open Source Spotify client library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "librespot-org/librespot",
+      "status": "candidate-context",
+      "text": "prepare release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tailwindlabs/tailwindcss",
+      "status": "candidate-context",
+      "text": "A utility-first CSS framework for rapid UI development."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tailwindlabs/tailwindcss",
+      "status": "candidate-context",
+      "text": "Prepare Release"
     }
   ],
   "candidate_glosses": [
@@ -64,6 +101,24 @@
       "source_repo": "carrot2/carrot2",
       "status": "candidate",
       "text": "Prepare release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "connectrpc/connect-query-es",
+      "status": "candidate",
+      "text": "Prepare Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "librespot-org/librespot",
+      "status": "candidate",
+      "text": "prepare release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tailwindlabs/tailwindcss",
+      "status": "candidate",
+      "text": "Prepare Release"
     }
   ],
   "candidate_related_terms": [
@@ -125,11 +180,29 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": ".github/workflows/prepare-release.yml",
       "source_repo": "carrot2/carrot2"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/prepare-release.yml",
+      "source_repo": "connectrpc/connect-query-es"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/prepare-release.yml",
+      "source_repo": "librespot-org/librespot"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/prepare-release.yml",
+      "source_repo": "tailwindlabs/tailwindcss"
     }
   ],
   "first_seen_at": "2026-04-19T01:08:57.644140+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

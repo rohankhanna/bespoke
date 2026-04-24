@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A Java library for zip files and streams"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![javadoc](https://javadoc.io/badge2/net.lingala.zip4j/zip4j/javadoc.svg)](https://javadoc.io/doc/net.lingala.zip4j/zip4j)net.lingala.zip4j"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![javadoc](https://javadoc.io/badge2/net.lingala.zip4j/zip4j/javadoc.svg)](https://javadoc.io/doc/net.lingala.zip4j/zip4j)net.lingala.zip4j"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "zip4j",
+      "sense_id": "zip4j#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "zip4j",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "zip4j",
+  "observation_id": "f5130e8e29f65acc",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T00:33:56.049672+00:00",
+  "observed_text": "zip4j",
+  "source_context_snippet": "[![javadoc](https://javadoc.io/badge2/net.lingala.zip4j/zip4j/javadoc.svg)](https://javadoc.io/doc/net.lingala.zip4j/zip4j)net.lingala.zip4j",
+  "source_file": null,
+  "source_repo": "srikanth-lingala/zip4j",
+  "source_repo_description": "A Java library for zip files and streams"
+}

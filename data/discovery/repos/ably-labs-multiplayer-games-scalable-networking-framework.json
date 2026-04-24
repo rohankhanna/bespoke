@@ -1,0 +1,306 @@
+{
+  "components": [
+    {
+      "component": "ably",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "dotenv",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "express",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint-config-google",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint-config-node",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint-config-prettier",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint-plugin-node",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint-plugin-prettier",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "prettier",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ably-labs/multiplayer-games-scalable-networking-framework",
+      "target": "srushtika/realtime-multiplayer-space-invaders",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ably-labs/multiplayer-games-scalable-networking-framework",
+      "target": "srushtika/multiplayer-flappy-bird",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "ably-labs/multiplayer-games-scalable-networking-framework",
+      "target": "ably",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "ably-labs/multiplayer-games-scalable-networking-framework",
+      "target": "dotenv",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "ably-labs/multiplayer-games-scalable-networking-framework",
+      "target": "express",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ably-labs/multiplayer-games-scalable-networking-framework",
+      "target": "eslint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ably-labs/multiplayer-games-scalable-networking-framework",
+      "target": "eslint-config-google",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ably-labs/multiplayer-games-scalable-networking-framework",
+      "target": "eslint-config-node",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ably-labs/multiplayer-games-scalable-networking-framework",
+      "target": "eslint-config-prettier",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ably-labs/multiplayer-games-scalable-networking-framework",
+      "target": "eslint-plugin-node",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ably-labs/multiplayer-games-scalable-networking-framework",
+      "target": "eslint-plugin-prettier",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ably-labs/multiplayer-games-scalable-networking-framework",
+      "target": "prettier",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ably-labs/multiplayer-games-scalable-networking-framework",
+      "target": "demo",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ably-labs/multiplayer-games-scalable-networking-framework",
+      "target": "express",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ably-labs/multiplayer-games-scalable-networking-framework",
+      "target": "game",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ably-labs/multiplayer-games-scalable-networking-framework",
+      "target": "game-server",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ably-labs/multiplayer-games-scalable-networking-framework",
+      "target": "gamedev",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ably-labs/multiplayer-games-scalable-networking-framework",
+      "target": "multiplayer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ably-labs/multiplayer-games-scalable-networking-framework",
+      "target": "nodejs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ably-labs/multiplayer-games-scalable-networking-framework",
+      "target": "realtime",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ably-labs/multiplayer-games-scalable-networking-framework",
+      "target": "vanilla-js",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T01:46:01.679591+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 16922
+    },
+    {
+      "path": "package.json",
+      "size": 1200
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "This repository contains a base networking framework for building any realtime multiplayer game on the web with Ably using the client/server architecture. This project uses vanilla JS on the client-side and NodeJS on the server-side and is scalable as you need ",
+    "fork": false,
+    "full_name": "ably-labs/multiplayer-games-scalable-networking-framework",
+    "html_url": "https://github.com/ably-labs/multiplayer-games-scalable-networking-framework",
+    "language": "JavaScript",
+    "pushed_at": "2022-06-17T09:17:51Z",
+    "stargazers_count": 54,
+    "topics": [
+      "demo",
+      "express",
+      "game",
+      "game-server",
+      "gamedev",
+      "multiplayer",
+      "nodejs",
+      "realtime",
+      "vanilla-js"
+    ],
+    "updated_at": "2026-04-10T19:12:01Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "srushtika/multiplayer-flappy-bird",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "srushtika/realtime-multiplayer-space-invaders",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "This starter kit allows you to add multiplayer functionality (that follows the [Client/Server strategy](https://www.gabrielgambetta.com/client-server-game-architecture.html)) to your game. It provides a communication framework so that your players can communicate with a central \u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "demo"
+    },
+    {
+      "context_snippet": "This starter kit allows you to add multiplayer functionality (that follows the [Client/Server strategy](https://www.gabrielgambetta.com/client-server-game-architecture.html)) to your game. It provides a communication framework so that your players can communicate with a central \u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "express"
+    },
+    {
+      "context_snippet": "This starter kit allows you to add multiplayer functionality (that follows the [Client/Server strategy](https://www.gabrielgambetta.com/client-server-game-architecture.html)) to your game. It provides a communication framework so that your players can communicate with a central \u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "game"
+    },
+    {
+      "context_snippet": "This starter kit allows you to add multiplayer functionality (that follows the [Client/Server strategy](https://www.gabrielgambetta.com/client-server-game-architecture.html)) to your game. It provides a communication framework so that your players can communicate with a central \u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "game-server"
+    },
+    {
+      "context_snippet": "This starter kit allows you to add multiplayer functionality (that follows the [Client/Server strategy](https://www.gabrielgambetta.com/client-server-game-architecture.html)) to your game. It provides a communication framework so that your players can communicate with a central \u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gamedev"
+    },
+    {
+      "context_snippet": "This starter kit allows you to add multiplayer functionality (that follows the [Client/Server strategy](https://www.gabrielgambetta.com/client-server-game-architecture.html)) to your game. It provides a communication framework so that your players can communicate with a central \u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multiplayer"
+    },
+    {
+      "context_snippet": "This starter kit allows you to add multiplayer functionality (that follows the [Client/Server strategy](https://www.gabrielgambetta.com/client-server-game-architecture.html)) to your game. It provides a communication framework so that your players can communicate with a central \u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nodejs"
+    },
+    {
+      "context_snippet": "This starter kit allows you to add multiplayer functionality (that follows the [Client/Server strategy](https://www.gabrielgambetta.com/client-server-game-architecture.html)) to your game. It provides a communication framework so that your players can communicate with a central \u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "realtime"
+    },
+    {
+      "context_snippet": "This starter kit allows you to add multiplayer functionality (that follows the [Client/Server strategy](https://www.gabrielgambetta.com/client-server-game-architecture.html)) to your game. It provides a communication framework so that your players can communicate with a central \u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vanilla-js"
+    }
+  ]
+}

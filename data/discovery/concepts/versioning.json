@@ -58,6 +58,30 @@
       "source_repo": "conventional-changelog/standard-version",
       "status": "candidate-context",
       "text": "> **`standard-version` is deprecated**. If you're a GitHub user, I recommend [release-please](https://github.com/googleapis/release-please) as an alternative. If you're unable to use GitHub Actions, or if you need to stick with `standard-version` for some other reason, you can u\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fastify/fastify-plugin",
+      "status": "candidate-context",
+      "text": "Plugin helper for Fastify"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fastify/fastify-plugin",
+      "status": "candidate-context",
+      "text": "[![CI](https://github.com/fastify/fastify-plugin/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/fastify/fastify-plugin/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nmattia/niv",
+      "status": "candidate-context",
+      "text": "Easy dependency management for Nix projects"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nmattia/niv",
+      "status": "candidate-context",
+      "text": "[![Test](https://github.com/nmattia/niv/actions/workflows/test.yml/badge.svg)](https://github.com/nmattia/niv/actions/workflows/test.yml)"
     }
   ],
   "candidate_glosses": [
@@ -84,6 +108,18 @@
       "source_repo": "conventional-changelog/standard-version",
       "status": "candidate",
       "text": "> **`standard-version` is deprecated**. If you're a GitHub user, I recommend [release-please](https://github.com/googleapis/release-please) as an alternative. If you're unable to use GitHub Actions, or if you need to stick with `standard-version` for some other reason, you can u\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fastify/fastify-plugin",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/fastify/fastify-plugin/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/fastify/fastify-plugin/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nmattia/niv",
+      "status": "candidate",
+      "text": "[![Test](https://github.com/nmattia/niv/actions/workflows/test.yml/badge.svg)](https://github.com/nmattia/niv/actions/workflows/test.yml)"
     }
   ],
   "candidate_related_terms": [
@@ -181,11 +217,23 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "conventional-changelog/standard-version"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "fastify/fastify-plugin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "nmattia/niv"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

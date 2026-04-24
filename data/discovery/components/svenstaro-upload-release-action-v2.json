@@ -1,7 +1,7 @@
 {
   "component": "svenstaro/upload-release-action@v2",
   "first_seen_at": "2026-04-18T11:32:22.637859+00:00",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -82,6 +82,31 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/release_mac.yml",
       "source_repo": "jinfeihan57/p7zip"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/nightly.yml",
+      "source_repo": "clojure-lsp/clojure-lsp"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "clojure-lsp/clojure-lsp"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pre-release.yml",
+      "source_repo": "alecazam/kram"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/tagged-release.yml",
+      "source_repo": "alecazam/kram"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish-clice.yml",
+      "source_repo": "clice-io/clice"
     }
   ]
 }

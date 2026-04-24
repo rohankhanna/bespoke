@@ -248,6 +248,66 @@
       "source_repo": "redis/hiredis",
       "status": "candidate-context",
       "text": "Release Drafter"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "teacher-zhou/ComponentBuilder",
+      "status": "candidate-context",
+      "text": "An automation framework to create Blazor component"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "teacher-zhou/ComponentBuilder",
+      "status": "candidate-context",
+      "text": "Release Drafter"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "XcodesOrg/XcodesApp",
+      "status": "candidate-context",
+      "text": "The easiest way to install and switch between multiple versions of Xcode - with a mouse click. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "XcodesOrg/XcodesApp",
+      "status": "candidate-context",
+      "text": "Release Drafter"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "redis/redis-py",
+      "status": "candidate-context",
+      "text": "Redis Python client"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "redis/redis-py",
+      "status": "candidate-context",
+      "text": "Release Drafter"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "redis/node-redis",
+      "status": "candidate-context",
+      "text": "Redis Node.js client"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "redis/node-redis",
+      "status": "candidate-context",
+      "text": "Release Drafter"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aws-powertools/powertools-lambda-java",
+      "status": "candidate-context",
+      "text": "Powertools is a developer toolkit to implement Serverless best practices and increase developer velocity."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws-powertools/powertools-lambda-java",
+      "status": "candidate-context",
+      "text": "Release Drafter"
     }
   ],
   "candidate_glosses": [
@@ -368,6 +428,36 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "redis/hiredis",
+      "status": "candidate",
+      "text": "Release Drafter"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "teacher-zhou/ComponentBuilder",
+      "status": "candidate",
+      "text": "Release Drafter"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "XcodesOrg/XcodesApp",
+      "status": "candidate",
+      "text": "Release Drafter"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "redis/redis-py",
+      "status": "candidate",
+      "text": "Release Drafter"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "redis/node-redis",
+      "status": "candidate",
+      "text": "Release Drafter"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws-powertools/powertools-lambda-java",
       "status": "candidate",
       "text": "Release Drafter"
     }
@@ -539,11 +629,65 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": ".github/workflows/release-drafter.yml",
       "source_repo": "redis/hiredis"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/draft-release-note.yml",
+      "source_repo": "teacher-zhou/ComponentBuilder"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/release-drafter.yml",
+      "source_repo": "XcodesOrg/XcodesApp"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/release-drafter.yml",
+      "source_repo": "redis/redis-py"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/release-drafter-bloom.yml",
+      "source_repo": "redis/node-redis"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/release-drafter-entraid.yml",
+      "source_repo": "redis/node-redis"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/release-drafter-json.yml",
+      "source_repo": "redis/node-redis"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/release-drafter-search.yml",
+      "source_repo": "redis/node-redis"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/release-drafter-time-series.yml",
+      "source_repo": "redis/node-redis"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/release-drafter.yml",
+      "source_repo": "aws-powertools/powertools-lambda-java"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

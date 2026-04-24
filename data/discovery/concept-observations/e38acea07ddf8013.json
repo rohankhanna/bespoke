@@ -1,0 +1,108 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A pytorch quantization backend for optimum"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "> This project is currently in maintenance mode. We accept pull requests only for minor bug fixes, documentation improvements, and other maintenance tasks. Major new features or breaking changes are unlikely to be merged. For production-ready quantization features or active deve\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "> This project is currently in maintenance mode. We accept pull requests only for minor bug fixes, documentation improvements, and other maintenance tasks. Major new features or breaking changes are unlikely to be merged. For production-ready quantization features or active deve\u2026"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39998352,
+      "status": "candidate",
+      "text": "optimal"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39996029,
+      "status": "candidate",
+      "text": "best"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29998378,
+      "status": "candidate",
+      "text": "ideal"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29997383,
+      "status": "candidate",
+      "text": "better"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29995973,
+      "status": "candidate",
+      "text": "maximal"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "optimum",
+      "sense_id": "optimum#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 44041,
+      "status": "candidate",
+      "text": "optimal"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 12044,
+      "status": "candidate",
+      "text": "best"
+    }
+  ],
+  "concept_id": "optimum",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "optimum",
+  "observation_id": "e38acea07ddf8013",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T00:33:56.049672+00:00",
+  "observed_text": "optimum",
+  "source_context_snippet": "> This project is currently in maintenance mode. We accept pull requests only for minor bug fixes, documentation improvements, and other maintenance tasks. Major new features or breaking changes are unlikely to be merged. For production-ready quantization features or active deve\u2026",
+  "source_file": null,
+  "source_repo": "huggingface/optimum-quanto",
+  "source_repo_description": "A pytorch quantization backend for optimum"
+}

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Lint GitHub Actions and Workflows"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "WebAssembly/WASI",
+      "status": "candidate-context",
+      "text": "WebAssembly System Interface"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "WebAssembly/WASI",
+      "status": "candidate-context",
+      "text": "Lint GitHub Actions and Workflows"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "WebAssembly/WASI",
+      "status": "candidate",
+      "text": "Lint GitHub Actions and Workflows"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14056,
+      "status": "candidate",
+      "text": "confluence"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14056,
+      "status": "candidate",
+      "text": "corrade"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14056,
+      "status": "candidate",
+      "text": "flowing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14056,
+      "status": "candidate",
+      "text": "fluvialist"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14056,
+      "status": "candidate",
+      "text": "inflow"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Lint GitHub Actions and Workflows",
+  "concept_id": "lint-github-actions-and-workflows",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/lint-gh.yml",
+      "source_repo": "WebAssembly/WASI"
+    }
+  ],
+  "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Lint GitHub Actions and Workflows",
+      "sense_id": "lint-github-actions-and-workflows#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

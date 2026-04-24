@@ -1,0 +1,184 @@
+{
+  "components": [
+    {
+      "component": "angr/ci-settings/.github/workflows/angr-ci.yml@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos.yml"
+    },
+    {
+      "component": "angr/ci-settings/.github/workflows/angr-ci.yml@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly-ci.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "pyproject.toml",
+      "source_repo": "angr/cle",
+      "target": "angr/pyvex",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "angr/cle",
+      "target": "angr/ci-settings/.github/workflows/angr-ci.yml@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos.yml",
+      "source_repo": "angr/cle",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos.yml",
+      "source_repo": "angr/cle",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/macos.yml",
+      "source_repo": "angr/cle",
+      "target": "Test on macOS",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly-ci.yml",
+      "source_repo": "angr/cle",
+      "target": "angr/ci-settings/.github/workflows/angr-ci.yml@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nightly-ci.yml",
+      "source_repo": "angr/cle",
+      "target": "Nightly CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows.yml",
+      "source_repo": "angr/cle",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows.yml",
+      "source_repo": "angr/cle",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/windows.yml",
+      "source_repo": "angr/cle",
+      "target": "Test on Windows",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T00:56:28.326728+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4910
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 2013
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 268
+    },
+    {
+      "path": ".github/workflows/macos.yml",
+      "size": 919
+    },
+    {
+      "path": ".github/workflows/nightly-ci.yml",
+      "size": 205
+    },
+    {
+      "path": ".github/workflows/windows.yml",
+      "size": 1228
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "CLE Loads Everything (at least, many binary formats!)",
+    "fork": false,
+    "full_name": "angr/cle",
+    "html_url": "https://github.com/angr/cle",
+    "language": "Python",
+    "pushed_at": "2026-04-21T21:34:33Z",
+    "stargazers_count": 477,
+    "topics": [],
+    "updated_at": "2026-04-21T21:34:36Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "angr/pyvex",
+      "source_file": "pyproject.toml"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Test on macOS",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/macos.yml",
+      "term": "Test on macOS"
+    },
+    {
+      "context_snippet": "Nightly CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nightly-ci.yml",
+      "term": "Nightly CI"
+    },
+    {
+      "context_snippet": "Test on Windows",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/windows.yml",
+      "term": "Test on Windows"
+    }
+  ]
+}

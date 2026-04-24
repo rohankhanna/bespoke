@@ -1,7 +1,7 @@
 {
   "component": "actions/setup-node@6044e13b5dc448c55e2357c09f80417699197238",
   "first_seen_at": "2026-04-18T09:17:12.863479+00:00",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -137,6 +137,21 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/test.yml",
       "source_repo": "PyO3/maturin"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/js.yml",
+      "source_repo": "jupyter/nbclassic"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/playwright.yml",
+      "source_repo": "jupyter/nbclassic"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/update-latest.yml",
+      "source_repo": "pnpm/pnpm"
     }
   ]
 }

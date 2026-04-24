@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-24T01:55:37.694066+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7438
+    },
+    {
+      "path": "Dockerfile",
+      "size": 8670
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "[mirror]A light weight container runtime daemon for IOT and Cloud infrastructure.",
+    "fork": false,
+    "full_name": "openeuler-mirror/iSulad",
+    "html_url": "https://github.com/openeuler-mirror/iSulad",
+    "language": "C",
+    "pushed_at": "2025-09-30T19:33:32Z",
+    "stargazers_count": 391,
+    "topics": [],
+    "updated_at": "2026-04-20T07:49:11Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

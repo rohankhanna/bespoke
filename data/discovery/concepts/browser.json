@@ -178,6 +178,66 @@
       "source_repo": "WebAV-Tech/WebAV",
       "status": "candidate-context",
       "text": "![GitHub commit activity](https://img.shields.io/github/commit-activity/m/WebAV-Tech/WebAV)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "chromium/chromium",
+      "status": "candidate-context",
+      "text": "The official GitHub mirror of the Chromium source"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chromium/chromium",
+      "status": "candidate-context",
+      "text": "Chromium is an open-source browser project that aims to build a safer, faster,"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Azure/azure-sdk-for-js",
+      "status": "candidate-context",
+      "text": "This repository is for active development of the Azure SDK for JavaScript (NodeJS & Browser). For consumers of the SDK we recommend visiting our public developer docs at https://docs.microsoft.com/javascript/azure/ or our versioned developer docs at https://azure.github.io/azure-sdk-for-js. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Azure/azure-sdk-for-js",
+      "status": "candidate-context",
+      "text": "[![Packages](https://img.shields.io/badge/packages-latest-blue.svg)](https://azure.github.io/azure-sdk/releases/latest/js.html) [![Dependencies](https://img.shields.io/badge/dependency-report-blue.svg)](https://azuresdkartifacts.blob.core.windows.net/azure-sdk-for-js/dependencie\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Level/level-js",
+      "status": "candidate-context",
+      "text": "Superseded by browser-level. An abstract-leveldown compliant store on top of IndexedDB."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Level/level-js",
+      "status": "candidate-context",
+      "text": "**Superseded by [`browser-level`](https://github.com/Level/browser-level). Please see [Frequently Asked Questions](https://github.com/Level/community#faq).**"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Level/levelup",
+      "status": "candidate-context",
+      "text": "Superseded by abstract-level. A wrapper for abstract-leveldown compliant stores, for Node.js and browsers."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Level/levelup",
+      "status": "candidate-context",
+      "text": "**Superseded by [`abstract-level`](https://github.com/Level/abstract-level). Please see [Frequently Asked Questions](https://github.com/Level/community#faq).**"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Level/mem",
+      "status": "candidate-context",
+      "text": "Superseded by memory-level. A convenience package bundling levelup and memdown."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Level/mem",
+      "status": "candidate-context",
+      "text": "**Superseded by [`memory-level`](https://github.com/Level/memory-level). Please see [Frequently Asked Questions](https://github.com/Level/community#faq).**"
     }
   ],
   "candidate_glosses": [
@@ -264,6 +324,36 @@
       "source_repo": "WebAV-Tech/WebAV",
       "status": "candidate",
       "text": "![GitHub commit activity](https://img.shields.io/github/commit-activity/m/WebAV-Tech/WebAV)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chromium/chromium",
+      "status": "candidate",
+      "text": "Chromium is an open-source browser project that aims to build a safer, faster,"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Azure/azure-sdk-for-js",
+      "status": "candidate",
+      "text": "[![Packages](https://img.shields.io/badge/packages-latest-blue.svg)](https://azure.github.io/azure-sdk/releases/latest/js.html) [![Dependencies](https://img.shields.io/badge/dependency-report-blue.svg)](https://azuresdkartifacts.blob.core.windows.net/azure-sdk-for-js/dependencie\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Level/level-js",
+      "status": "candidate",
+      "text": "**Superseded by [`browser-level`](https://github.com/Level/browser-level). Please see [Frequently Asked Questions](https://github.com/Level/community#faq).**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Level/levelup",
+      "status": "candidate",
+      "text": "**Superseded by [`abstract-level`](https://github.com/Level/abstract-level). Please see [Frequently Asked Questions](https://github.com/Level/community#faq).**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Level/mem",
+      "status": "candidate",
+      "text": "**Superseded by [`memory-level`](https://github.com/Level/memory-level). Please see [Frequently Asked Questions](https://github.com/Level/community#faq).**"
     }
   ],
   "candidate_related_terms": [
@@ -399,11 +489,47 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "WebAV-Tech/WebAV"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "chromium/chromium"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "standard/snazzy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "Azure/azure-sdk-for-js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "Level/level-js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "Level/levelup"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "Level/mem"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

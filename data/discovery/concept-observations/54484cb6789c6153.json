@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A tool for secrets management, encryption as a service, and privileged access management"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "ent"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "ent"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29824221,
+      "status": "candidate",
+      "text": "tna"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29683874,
+      "status": "candidate",
+      "text": "vrs"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29556142,
+      "status": "candidate",
+      "text": "rsv"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29520186,
+      "status": "candidate",
+      "text": "pension"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29434655,
+      "status": "candidate",
+      "text": "norsk"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "ent",
+      "sense_id": "ent#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "ent",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "ent",
+  "observation_id": "54484cb6789c6153",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-24T00:33:56.049672+00:00",
+  "observed_text": "ent",
+  "source_context_snippet": "ent",
+  "source_file": ".github/workflows/build-artifacts-ent.yml",
+  "source_repo": "hashicorp/vault",
+  "source_repo_description": "A tool for secrets management, encryption as a service, and privileged access management"
+}

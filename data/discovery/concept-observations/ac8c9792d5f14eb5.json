@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "The central registry of Bazel modules for the Bzlmod external dependency system."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Review BCR Pull Requests"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Review BCR Pull Requests"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21481,
+      "status": "candidate",
+      "text": "blench"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21481,
+      "status": "candidate",
+      "text": "grit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21481,
+      "status": "candidate",
+      "text": "grits"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21462,
+      "status": "candidate",
+      "text": "acclamation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21462,
+      "status": "candidate",
+      "text": "decision"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Review BCR Pull Requests",
+      "sense_id": "review-bcr-pull-requests#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "review-bcr-pull-requests",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "review-bcr-pull-requests",
+  "observation_id": "ac8c9792d5f14eb5",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-24T00:33:56.049672+00:00",
+  "observed_text": "Review BCR Pull Requests",
+  "source_context_snippet": "Review BCR Pull Requests",
+  "source_file": ".github/workflows/review_prs.yml",
+  "source_repo": "bazelbuild/bazel-central-registry",
+  "source_repo_description": "The central registry of Bazel modules for the Bzlmod external dependency system."
+}

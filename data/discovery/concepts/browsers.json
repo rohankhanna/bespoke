@@ -1,11 +1,14 @@
 {
   "aliases": [
-    "browsers"
+    "browsers",
+    "Browsers"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
     "tool-component",
-    "capability"
+    "capability",
+    "workflow-process",
+    "data-document-artifact"
   ],
   "candidate_definitions": [
     {
@@ -43,6 +46,42 @@
       "source_repo": "Level/web-stream",
       "status": "candidate-context",
       "text": "**Read and write to an [`abstract-level`](https://github.com/Level/abstract-level) database using [Web Streams](https://developer.mozilla.org/en-US/docs/Web/API/Streams_API).** Compatible with browsers and Node.js."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "eemeli/yaml",
+      "status": "candidate-context",
+      "text": "YAML parser and serialiser for JavaScript"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eemeli/yaml",
+      "status": "candidate-context",
+      "text": "Browsers"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nodejs/readable-stream",
+      "status": "candidate-context",
+      "text": "Node-core streams for userland"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nodejs/readable-stream",
+      "status": "candidate-context",
+      "text": "Browsers"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Level/level",
+      "status": "candidate-context",
+      "text": "Universal abstract-level database for Node.js and browsers."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Level/level",
+      "status": "candidate-context",
+      "text": "**Universal [`abstract-level`](https://github.com/Level/abstract-level) database for Node.js and browsers.** This is a convenience package that exports [`classic-level`](https://github.com/Level/classic-level) in Node.js and [`browser-level`](https://github.com/Level/browser-lev\u2026"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +102,24 @@
       "source_repo": "Level/web-stream",
       "status": "candidate",
       "text": "**Read and write to an [`abstract-level`](https://github.com/Level/abstract-level) database using [Web Streams](https://developer.mozilla.org/en-US/docs/Web/API/Streams_API).** Compatible with browsers and Node.js."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eemeli/yaml",
+      "status": "candidate",
+      "text": "Browsers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nodejs/readable-stream",
+      "status": "candidate",
+      "text": "Browsers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Level/level",
+      "status": "candidate",
+      "text": "**Universal [`abstract-level`](https://github.com/Level/abstract-level) database for Node.js and browsers.** This is a convenience package that exports [`classic-level`](https://github.com/Level/classic-level) in Node.js and [`browser-level`](https://github.com/Level/browser-lev\u2026"
     }
   ],
   "candidate_related_terms": [
@@ -124,11 +181,29 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "Level/web-stream"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/browsers.yml",
+      "source_repo": "eemeli/yaml"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/browsers.yml",
+      "source_repo": "nodejs/readable-stream"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "Level/level"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

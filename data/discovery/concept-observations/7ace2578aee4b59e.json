@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Graphical Python debugger which lets you easily view the values of all evaluated expressions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "|logo| birdseye"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "|logo| birdseye"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19967723,
+      "status": "candidate",
+      "text": "vetting"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19902541,
+      "status": "candidate",
+      "text": "cleanup"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19901731,
+      "status": "candidate",
+      "text": "cleaning"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19901534,
+      "status": "candidate",
+      "text": "clean-up"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19901443,
+      "status": "candidate",
+      "text": "refining"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "debugging",
+      "sense_id": "debugging#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "debugging",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "debugging",
+  "observation_id": "7ace2578aee4b59e",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T00:33:56.049672+00:00",
+  "observed_text": "debugging",
+  "source_context_snippet": "|logo| birdseye",
+  "source_file": null,
+  "source_repo": "alexmojaki/birdseye",
+  "source_repo_description": "Graphical Python debugger which lets you easily view the values of all evaluated expressions"
+}

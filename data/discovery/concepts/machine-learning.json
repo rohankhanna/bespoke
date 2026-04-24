@@ -1321,6 +1321,90 @@
       "source_repo": "google-deepmind/optax",
       "status": "candidate-context",
       "text": "![CI status](https://github.com/google-deepmind/optax/actions/workflows/tests.yml/badge.svg?branch=main)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "drivendataorg/cookiecutter-data-science",
+      "status": "candidate-context",
+      "text": "A logical, reasonably standardized, but flexible project structure for doing and sharing data science work."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "drivendataorg/cookiecutter-data-science",
+      "status": "candidate-context",
+      "text": "_A logical, reasonably standardized but flexible project structure for doing and sharing data science work._"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jtablesaw/tablesaw",
+      "status": "candidate-context",
+      "text": "Java dataframe and visualization library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jtablesaw/tablesaw",
+      "status": "candidate-context",
+      "text": "Tablesaw"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "huggingface/huggingface_hub",
+      "status": "candidate-context",
+      "text": "The official Python client for the Hugging Face Hub."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "huggingface/huggingface_hub",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "akuity/awesome-argo",
+      "status": "candidate-context",
+      "text": "A curated list of awesome projects and resources related to Argo (a CNCF graduated project)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "akuity/awesome-argo",
+      "status": "candidate-context",
+      "text": "[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/akuity/awesome-argo) [![Slack](https://img.shields.io/badge/slack-argoproj-brightgreen.svg?logo=slack)](https://argoproj.github.io/community/join\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google-deepmind/jraph",
+      "status": "candidate-context",
+      "text": "A Graph Neural Network Library in Jax"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google-deepmind/jraph",
+      "status": "candidate-context",
+      "text": "![logo](images/logo.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "facebookarchive/caffe2",
+      "status": "candidate-context",
+      "text": "Caffe2 is a lightweight, modular, and scalable deep learning framework."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "facebookarchive/caffe2",
+      "status": "candidate-context",
+      "text": "Caffe2 is a lightweight, modular, and scalable deep learning framework. Building on the original [Caffe](http://caffe.berkeleyvision.org), Caffe2 is designed with expression, speed, and modularity in mind."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pytorch/vision",
+      "status": "candidate-context",
+      "text": "Datasets, Transforms and Models specific to Computer Vision"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pytorch/vision",
+      "status": "candidate-context",
+      "text": "[![total torchvision downloads](https://pepy.tech/badge/torchvision)](https://pepy.tech/project/torchvision)"
     }
   ],
   "candidate_glosses": [
@@ -1977,6 +2061,48 @@
       "source_repo": "google-deepmind/optax",
       "status": "candidate",
       "text": "![CI status](https://github.com/google-deepmind/optax/actions/workflows/tests.yml/badge.svg?branch=main)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "drivendataorg/cookiecutter-data-science",
+      "status": "candidate",
+      "text": "_A logical, reasonably standardized but flexible project structure for doing and sharing data science work._"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jtablesaw/tablesaw",
+      "status": "candidate",
+      "text": "Tablesaw"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "huggingface/huggingface_hub",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "akuity/awesome-argo",
+      "status": "candidate",
+      "text": "[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/akuity/awesome-argo) [![Slack](https://img.shields.io/badge/slack-argoproj-brightgreen.svg?logo=slack)](https://argoproj.github.io/community/join\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google-deepmind/jraph",
+      "status": "candidate",
+      "text": "![logo](images/logo.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "facebookarchive/caffe2",
+      "status": "candidate",
+      "text": "Caffe2 is a lightweight, modular, and scalable deep learning framework. Building on the original [Caffe](http://caffe.berkeleyvision.org), Caffe2 is designed with expression, speed, and modularity in mind."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pytorch/vision",
+      "status": "candidate",
+      "text": "[![total torchvision downloads](https://pepy.tech/badge/torchvision)](https://pepy.tech/project/torchvision)"
     }
   ],
   "candidate_related_terms": [],
@@ -2782,11 +2908,83 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "google-deepmind/optax"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "drivendataorg/cookiecutter-data-science"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "jtablesaw/tablesaw"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "mlc-ai/web-llm-assistant"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "ggml-org/ggml"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "huggingface/huggingface_hub"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "bitsandbytes-foundation/bitsandbytes"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "akuity/awesome-argo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/jraph"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "meta-llama/llama-cookbook"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "facebookarchive/caffe2"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "pytorch/vision"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "Lightning-AI/pytorch-lightning"
     }
   ],
   "first_seen_at": "2026-04-18T12:06:06.216548+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,7 +1,7 @@
 {
   "component": "actions/setup-java@v4",
   "first_seen_at": "2026-04-17T18:04:43.852571+00:00",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -402,6 +402,56 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "soot-oss/soot"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yaml",
+      "source_repo": "gchq/Gaffer"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration-legacy.yaml",
+      "source_repo": "gchq/Gaffer"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration.yaml",
+      "source_repo": "gchq/Gaffer"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release-standalone.yaml",
+      "source_repo": "gchq/Gaffer"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "gchq/Gaffer"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/update-koryphe-version.yaml",
+      "source_repo": "gchq/Gaffer"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/android-release.yml",
+      "source_repo": "enbop/fungi-app"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/celo-monorepo.yml",
+      "source_repo": "celo-org/celo-monorepo"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/checkstyle.yaml",
+      "source_repo": "apache/doris"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "rom1504/img2dataset"
     }
   ]
 }

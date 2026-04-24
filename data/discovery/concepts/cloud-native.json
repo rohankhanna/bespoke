@@ -223,6 +223,18 @@
       "source_repo": "milvus-io/milvus",
       "status": "candidate-context",
       "text": "<img src=\"https://github.com/user-attachments/assets/51e33300-7f85-43ff-a05a-3a0317a961f3\" alt=\"milvus banner\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "akuity/awesome-argo",
+      "status": "candidate-context",
+      "text": "A curated list of awesome projects and resources related to Argo (a CNCF graduated project)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "akuity/awesome-argo",
+      "status": "candidate-context",
+      "text": "[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/akuity/awesome-argo) [![Slack](https://img.shields.io/badge/slack-argoproj-brightgreen.svg?logo=slack)](https://argoproj.github.io/community/join\u2026"
     }
   ],
   "candidate_glosses": [
@@ -333,6 +345,12 @@
       "source_repo": "milvus-io/milvus",
       "status": "candidate",
       "text": "<img src=\"https://github.com/user-attachments/assets/51e33300-7f85-43ff-a05a-3a0317a961f3\" alt=\"milvus banner\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "akuity/awesome-argo",
+      "status": "candidate",
+      "text": "[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/akuity/awesome-argo) [![Slack](https://img.shields.io/badge/slack-argoproj-brightgreen.svg?logo=slack)](https://argoproj.github.io/community/join\u2026"
     }
   ],
   "candidate_related_terms": [],
@@ -466,11 +484,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "milvus-io/milvus"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "akuity/awesome-argo"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -151,6 +151,18 @@
       "source_repo": "chainguard-dev/rules_apko",
       "status": "candidate-context",
       "text": "Wraps the https://github.com/chainguard-dev/apko tool for use under Bazel."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aspect-build/rules_js",
+      "status": "candidate-context",
+      "text": "High-performance Bazel rules for running Node.js tools and building JavaScript projects"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aspect-build/rules_js",
+      "status": "candidate-context",
+      "text": "This ruleset is a high-performance Bazel integration for JavaScript, based on the [pnpm package manager](https://pnpm.io)."
     }
   ],
   "candidate_glosses": [
@@ -225,6 +237,12 @@
       "source_repo": "chainguard-dev/rules_apko",
       "status": "candidate",
       "text": "Wraps the https://github.com/chainguard-dev/apko tool for use under Bazel."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aspect-build/rules_js",
+      "status": "candidate",
+      "text": "This ruleset is a high-performance Bazel integration for JavaScript, based on the [pnpm package manager](https://pnpm.io)."
     }
   ],
   "candidate_related_terms": [],
@@ -310,11 +328,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "chainguard-dev/rules_apko"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "aspect-build/rules_js"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

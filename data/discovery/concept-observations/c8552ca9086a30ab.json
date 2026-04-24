@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A CLI to add common aliases and features to deps.edn-based projects"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "bb run lint"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "bb run lint"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16405,
+      "status": "candidate",
+      "text": "ammo"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15355,
+      "status": "candidate",
+      "text": "airgun"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15355,
+      "status": "candidate",
+      "text": "pellet"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15355,
+      "status": "candidate",
+      "text": "trumpet"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15334,
+      "status": "candidate",
+      "text": "air"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "bb run lint",
+      "sense_id": "bb-run-lint#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "bb-run-lint",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "bb-run-lint",
+  "observation_id": "c8552ca9086a30ab",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-24T00:33:56.049672+00:00",
+  "observed_text": "bb run lint",
+  "source_context_snippet": "bb run lint",
+  "source_file": ".github/workflows/bb-run-lint.yml",
+  "source_repo": "babashka/neil",
+  "source_repo_description": "A CLI to add common aliases and features to deps.edn-based projects"
+}

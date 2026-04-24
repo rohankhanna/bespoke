@@ -1,12 +1,17 @@
 {
   "component": "amannn/action-semantic-pull-request@v5.5.3",
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/semantic-pr.yml",
       "source_repo": "asdf-vm/asdf-plugins"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/conventional-commits.yml",
+      "source_repo": "jekyll/jekyll"
     }
   ]
 }

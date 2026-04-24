@@ -1,0 +1,101 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Dereference URIs into communication channels for Async or Lwt"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Conduit"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Conduit"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40023915,
+      "status": "candidate",
+      "text": "channel"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30028183,
+      "status": "candidate",
+      "text": "plumbing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30028089,
+      "status": "candidate",
+      "text": "pipeline"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30027661,
+      "status": "candidate",
+      "text": "hose"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30026734,
+      "status": "candidate",
+      "text": "flue"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Conduit",
+      "sense_id": "conduit#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 27077,
+      "status": "candidate",
+      "text": "channel"
+    }
+  ],
+  "concept_id": "conduit",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "conduit",
+  "observation_id": "f310997f00284757",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-24T00:33:56.049672+00:00",
+  "observed_text": "Conduit",
+  "source_context_snippet": "Conduit",
+  "source_file": ".github/workflows/test.yml",
+  "source_repo": "mirage/ocaml-conduit",
+  "source_repo_description": "Dereference URIs into communication channels for Async or Lwt"
+}

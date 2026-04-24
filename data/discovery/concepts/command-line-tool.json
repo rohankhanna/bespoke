@@ -139,6 +139,18 @@
       "source_repo": "walles/px",
       "status": "candidate-context",
       "text": "|Linux CI Status| |macOS CI Status|"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ChargePoint/xcparse",
+      "status": "candidate-context",
+      "text": "Command line tool & Swift framework for parsing Xcode 11+ xcresult"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ChargePoint/xcparse",
+      "status": "candidate-context",
+      "text": "A command line tool to extract code coverage & screenshots from Xcode 11 XCResult files."
     }
   ],
   "candidate_glosses": [
@@ -207,6 +219,12 @@
       "source_repo": "walles/px",
       "status": "candidate",
       "text": "|Linux CI Status| |macOS CI Status|"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ChargePoint/xcparse",
+      "status": "candidate",
+      "text": "A command line tool to extract code coverage & screenshots from Xcode 11 XCResult files."
     }
   ],
   "candidate_related_terms": [],
@@ -286,11 +304,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "walles/px"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "ChargePoint/xcparse"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

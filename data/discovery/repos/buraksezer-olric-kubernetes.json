@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "buraksezer/olric-kubernetes",
+      "target": "buraksezer/olric",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-24T01:49:00.552300+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 13014
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Kubernetes related resources for Olric",
+    "fork": false,
+    "full_name": "buraksezer/olric-kubernetes",
+    "html_url": "https://github.com/buraksezer/olric-kubernetes",
+    "language": "Dockerfile",
+    "pushed_at": "2021-08-17T21:00:10Z",
+    "stargazers_count": 3,
+    "topics": [],
+    "updated_at": "2024-02-07T15:03:56Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "buraksezer/olric",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

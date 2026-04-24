@@ -1,0 +1,262 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code-quality-main.yaml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code-quality-main.yaml"
+    },
+    {
+      "component": "pre-commit/action@v2.0.3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code-quality-main.yaml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code-quality-pr.yaml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code-quality-pr.yaml"
+    },
+    {
+      "component": "trilom/file-changes-action@v1.2.4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code-quality-pr.yaml"
+    },
+    {
+      "component": "pre-commit/action@v2.0.3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code-quality-pr.yaml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/setup-python@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jxpress/lightning-hydra-template-vertex-ai",
+      "target": "jxpress/hydra-vertex-ai-pipeline",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jxpress/lightning-hydra-template-vertex-ai",
+      "target": "pytorchlightning/pytorch-lightning",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code-quality-main.yaml",
+      "source_repo": "jxpress/lightning-hydra-template-vertex-ai",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code-quality-main.yaml",
+      "source_repo": "jxpress/lightning-hydra-template-vertex-ai",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code-quality-main.yaml",
+      "source_repo": "jxpress/lightning-hydra-template-vertex-ai",
+      "target": "pre-commit/action@v2.0.3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/code-quality-main.yaml",
+      "source_repo": "jxpress/lightning-hydra-template-vertex-ai",
+      "target": "Code Quality Main",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code-quality-pr.yaml",
+      "source_repo": "jxpress/lightning-hydra-template-vertex-ai",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code-quality-pr.yaml",
+      "source_repo": "jxpress/lightning-hydra-template-vertex-ai",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code-quality-pr.yaml",
+      "source_repo": "jxpress/lightning-hydra-template-vertex-ai",
+      "target": "trilom/file-changes-action@v1.2.4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code-quality-pr.yaml",
+      "source_repo": "jxpress/lightning-hydra-template-vertex-ai",
+      "target": "pre-commit/action@v2.0.3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/code-quality-pr.yaml",
+      "source_repo": "jxpress/lightning-hydra-template-vertex-ai",
+      "target": "Code Quality PR",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "jxpress/lightning-hydra-template-vertex-ai",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "jxpress/lightning-hydra-template-vertex-ai",
+      "target": "actions/setup-python@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "jxpress/lightning-hydra-template-vertex-ai",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "jxpress/lightning-hydra-template-vertex-ai",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "jxpress/lightning-hydra-template-vertex-ai",
+      "target": "codecov/codecov-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "jxpress/lightning-hydra-template-vertex-ai",
+      "target": "Tests",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T00:44:23.895655+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7573
+    },
+    {
+      "path": "Dockerfile",
+      "size": 1465
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 461
+    },
+    {
+      "path": "requirements.txt",
+      "size": 650
+    },
+    {
+      "path": ".github/workflows/code-quality-main.yaml",
+      "size": 446
+    },
+    {
+      "path": ".github/workflows/code-quality-pr.yaml",
+      "size": 878
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 1650
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "jxpress/lightning-hydra-template-vertex-ai",
+    "html_url": "https://github.com/jxpress/lightning-hydra-template-vertex-ai",
+    "language": "Python",
+    "pushed_at": "2026-04-22T22:23:16Z",
+    "stargazers_count": 24,
+    "topics": [],
+    "updated_at": "2025-03-26T11:05:08Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jxpress/hydra-vertex-ai-pipeline",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pytorchlightning/pytorch-lightning",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Code Quality Main",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/code-quality-main.yaml",
+      "term": "Code Quality Main"
+    },
+    {
+      "context_snippet": "Code Quality PR",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/code-quality-pr.yaml",
+      "term": "Code Quality PR"
+    },
+    {
+      "context_snippet": "Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "Tests"
+    }
+  ]
+}

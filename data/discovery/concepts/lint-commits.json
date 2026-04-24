@@ -67,6 +67,18 @@
       "source_repo": "toml-rs/toml",
       "status": "candidate-context",
       "text": "Lint Commits"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "clap-rs/clap",
+      "status": "candidate-context",
+      "text": "A full featured, fast Command Line Argument Parser for Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clap-rs/clap",
+      "status": "candidate-context",
+      "text": "Lint Commits"
     }
   ],
   "candidate_glosses": [
@@ -97,6 +109,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "toml-rs/toml",
+      "status": "candidate",
+      "text": "Lint Commits"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clap-rs/clap",
       "status": "candidate",
       "text": "Lint Commits"
     }
@@ -178,11 +196,17 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": ".github/workflows/committed.yml",
       "source_repo": "toml-rs/toml"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/committed.yml",
+      "source_repo": "clap-rs/clap"
     }
   ],
   "first_seen_at": "2026-04-18T11:32:22.637859+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

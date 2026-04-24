@@ -106,6 +106,18 @@
       "source_repo": "python-poetry/poetry-core",
       "status": "candidate-context",
       "text": "[![Poetry](https://img.shields.io/endpoint?url=https://python-poetry.org/badge/v0.json)](https://python-poetry.org/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google-deepmind/jraph",
+      "status": "candidate-context",
+      "text": "A Graph Neural Network Library in Jax"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google-deepmind/jraph",
+      "status": "candidate-context",
+      "text": "pypi"
     }
   ],
   "candidate_glosses": [
@@ -156,6 +168,12 @@
       "source_repo": "python-poetry/poetry-core",
       "status": "candidate",
       "text": "[![Poetry](https://img.shields.io/endpoint?url=https://python-poetry.org/badge/v0.json)](https://python-poetry.org/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google-deepmind/jraph",
+      "status": "candidate",
+      "text": "pypi"
     }
   ],
   "candidate_related_terms": [],
@@ -211,11 +229,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "python-poetry/poetry-core"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/pypi-publish.yml",
+      "source_repo": "google-deepmind/jraph"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

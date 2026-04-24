@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Deploy `main` docs"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "saghen/blink.cmp",
+      "status": "candidate-context",
+      "text": "Performant, batteries-included completion plugin for Neovim "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "saghen/blink.cmp",
+      "status": "candidate-context",
+      "text": "Deploy `main` docs"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "saghen/blink.cmp",
+      "status": "candidate",
+      "text": "Deploy `main` docs"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10479,
+      "status": "candidate",
+      "text": "after"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10479,
+      "status": "candidate",
+      "text": "archive"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10479,
+      "status": "candidate",
+      "text": "archived"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10479,
+      "status": "candidate",
+      "text": "archives"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10479,
+      "status": "candidate",
+      "text": "beepers"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Deploy `main` docs",
+  "concept_id": "deploy-main-docs",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/docs.yaml",
+      "source_repo": "saghen/blink.cmp"
+    }
+  ],
+  "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Deploy `main` docs",
+      "sense_id": "deploy-main-docs#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

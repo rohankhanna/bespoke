@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Editing XML in Visual Studio Code made easy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Smoke test"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Smoke test"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19730224,
+      "status": "candidate",
+      "text": "smokepipe"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19730223,
+      "status": "candidate",
+      "text": "pipesmoke"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19730222,
+      "status": "candidate",
+      "text": "smoke signal"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19730221,
+      "status": "candidate",
+      "text": "blowpipe"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19730220,
+      "status": "candidate",
+      "text": "bubble pipe"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Smoke test",
+      "sense_id": "smoke-test#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "smoke-test",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "smoke-test",
+  "observation_id": "121945ca3d66daaa",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-24T00:33:56.049672+00:00",
+  "observed_text": "Smoke test",
+  "source_context_snippet": "Smoke test",
+  "source_file": ".github/workflows/smoke-test.yaml",
+  "source_repo": "redhat-developer/vscode-xml",
+  "source_repo_description": "Editing XML in Visual Studio Code made easy"
+}

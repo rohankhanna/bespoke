@@ -134,6 +134,30 @@
       "source_repo": "enisdenjo/graphql-sse",
       "status": "candidate-context",
       "text": "Build and release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AppImageCommunity/pkg2appimage",
+      "status": "candidate-context",
+      "text": "Tool and recipes to convert existing deb packages to AppImage "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AppImageCommunity/pkg2appimage",
+      "status": "candidate-context",
+      "text": "Build and Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "adamritter/fastgron",
+      "status": "candidate-context",
+      "text": " High-performance JSON to GRON (greppable, flattened JSON) converter"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adamritter/fastgron",
+      "status": "candidate-context",
+      "text": "Build and Release"
     }
   ],
   "candidate_glosses": [
@@ -202,6 +226,18 @@
       "source_repo": "enisdenjo/graphql-sse",
       "status": "candidate",
       "text": "Build and release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AppImageCommunity/pkg2appimage",
+      "status": "candidate",
+      "text": "Build and Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adamritter/fastgron",
+      "status": "candidate",
+      "text": "Build and Release"
     }
   ],
   "candidate_related_terms": [
@@ -311,11 +347,23 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": ".github/workflows/build-and-release.yml",
       "source_repo": "enisdenjo/graphql-sse"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "AppImageCommunity/pkg2appimage"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/build-and-release.yml",
+      "source_repo": "adamritter/fastgron"
     }
   ],
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -139,6 +139,18 @@
       "source_repo": "ganelson/inform",
       "status": "candidate-context",
       "text": "[Version](notes/versioning.md): 10.2.0-beta+6Y03 'Krypton' (23 April 2026)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "wa-lang/wa",
+      "status": "candidate-context",
+      "text": "\u51f9\u8bed\u8a00, The Wa Programming Language"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wa-lang/wa",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -207,6 +219,12 @@
       "source_repo": "ganelson/inform",
       "status": "candidate",
       "text": "[Version](notes/versioning.md): 10.2.0-beta+6Y03 'Krypton' (23 April 2026)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wa-lang/wa",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -298,11 +316,23 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "ganelson/inform"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "argotorg/solidity"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "wa-lang/wa"
     }
   ],
   "first_seen_at": "2026-04-19T01:08:57.644140+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -19,6 +19,18 @@
       "source_repo": "catchorg/Catch2",
       "status": "candidate-context",
       "text": "<a id=\"top\"></a>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "martinmoene/lest",
+      "status": "candidate-context",
+      "text": "A modern, C++11-native, single-file header-only, tiny framework for unit-tests, TDD and BDD (includes C++98 variant)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "martinmoene/lest",
+      "status": "candidate-context",
+      "text": "lest &ndash; lest errors escape testing"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "catchorg/Catch2",
       "status": "candidate",
       "text": "<a id=\"top\"></a>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "martinmoene/lest",
+      "status": "candidate",
+      "text": "lest &ndash; lest errors escape testing"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "catchorg/Catch2"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "martinmoene/lest"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

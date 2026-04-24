@@ -1,0 +1,110 @@
+{
+  "components": [
+    {
+      "component": "coffeelint",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "request",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "UziTech/action-setup-atom@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "atom/autocomplete-css",
+      "target": "atom-community/autocomplete-plus",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "atom/autocomplete-css",
+      "target": "adobe/brackets",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "atom/autocomplete-css",
+      "target": "coffeelint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "atom/autocomplete-css",
+      "target": "request",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "atom/autocomplete-css",
+      "target": "actions/checkout@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "atom/autocomplete-css",
+      "target": "UziTech/action-setup-atom@v2",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-24T00:51:23.849673+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1450
+    },
+    {
+      "path": "package.json",
+      "size": 481
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 442
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "CSS property name and value completions",
+    "fork": false,
+    "full_name": "atom/autocomplete-css",
+    "html_url": "https://github.com/atom/autocomplete-css",
+    "language": "CoffeeScript",
+    "pushed_at": "2022-09-28T10:52:01Z",
+    "stargazers_count": 69,
+    "topics": [],
+    "updated_at": "2026-03-15T02:58:13Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "adobe/brackets",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "atom-community/autocomplete-plus",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Distributed Task Queue (development branch)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Smoke Tests"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Smoke Tests"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10667,
+      "status": "candidate",
+      "text": "fire"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10667,
+      "status": "candidate",
+      "text": "fume"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10667,
+      "status": "candidate",
+      "text": "smoker"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10667,
+      "status": "candidate",
+      "text": "smoking"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10667,
+      "status": "candidate",
+      "text": "smolder"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Smoke Tests",
+      "sense_id": "smoke-tests#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "smoke-tests",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "smoke-tests",
+  "observation_id": "efb6650a0aebd8fe",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-24T00:33:56.049672+00:00",
+  "observed_text": "Smoke Tests",
+  "source_context_snippet": "Smoke Tests",
+  "source_file": ".github/workflows/smoke-tests.yml",
+  "source_repo": "celery/celery",
+  "source_repo_description": "Distributed Task Queue (development branch)"
+}

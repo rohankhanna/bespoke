@@ -19,6 +19,18 @@
       "source_repo": "vercel/next.js",
       "status": "candidate-context",
       "text": "[workspace] resolver = \"2\" members = [ \"scripts/send-trace-to-jaeger\", \"crates/next-napi-bindings\", \"crates/wasm\", \"crates/next-api\", \"crates/next-build-test\", \"crates/next-build\", \"crates/next-code-frame\", \"crates/next-core\", \"crates/next-custom-transforms\", \"crates/next-taskle\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nuxt/nuxt",
+      "status": "candidate-context",
+      "text": "The Full-Stack Vue Framework."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nuxt/nuxt",
+      "status": "candidate-context",
+      "text": "<a href=\"https://nuxt.com\"><img width=\"830\" height=\"213\" src=\"./.github/assets/banner.svg\" alt=\"Nuxt banner\"></a>"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "vercel/next.js",
       "status": "candidate",
       "text": "[workspace] resolver = \"2\" members = [ \"scripts/send-trace-to-jaeger\", \"crates/next-napi-bindings\", \"crates/wasm\", \"crates/next-api\", \"crates/next-build-test\", \"crates/next-build\", \"crates/next-code-frame\", \"crates/next-core\", \"crates/next-custom-transforms\", \"crates/next-taskle\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nuxt/nuxt",
+      "status": "candidate",
+      "text": "<a href=\"https://nuxt.com\"><img width=\"830\" height=\"213\" src=\"./.github/assets/banner.svg\" alt=\"Nuxt banner\"></a>"
     }
   ],
   "candidate_related_terms": [
@@ -112,11 +130,17 @@
       "observed_at": "2026-04-22T01:04:16.609102+00:00",
       "source_file": null,
       "source_repo": "vercel/next.js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "nuxt/nuxt"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

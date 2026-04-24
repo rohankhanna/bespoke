@@ -1,0 +1,115 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "High-level tracing language for Linux"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Binary"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Binary"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39977766,
+      "status": "candidate",
+      "text": "multiple"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39931775,
+      "status": "candidate",
+      "text": "binary star"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39931739,
+      "status": "candidate",
+      "text": "double star"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29999634,
+      "status": "candidate",
+      "text": "two-fold"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29999539,
+      "status": "candidate",
+      "text": "twofold"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Binary",
+      "sense_id": "binary#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 7050,
+      "status": "candidate",
+      "text": "multiple"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1020,
+      "status": "candidate",
+      "text": "binary star"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 19,
+      "status": "candidate",
+      "text": "double star"
+    }
+  ],
+  "concept_id": "binary",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "binary",
+  "observation_id": "59207d2047dfb3d5",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-24T00:33:56.049672+00:00",
+  "observed_text": "Binary",
+  "source_context_snippet": "Binary",
+  "source_file": ".github/workflows/binary.yml",
+  "source_repo": "bpftrace/bpftrace",
+  "source_repo_description": "High-level tracing language for Linux"
+}

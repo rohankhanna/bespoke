@@ -19,6 +19,18 @@
       "source_repo": "fmtlib/fmt",
       "status": "candidate-context",
       "text": "<img src=\"https://user-images.githubusercontent.com/576385/156254208-f5b743a9-88cf-439d-b0c0-923d53e8d551.png\" alt=\"{fmt}\" width=\"25%\"/>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aldanor/fast-float-rust",
+      "status": "candidate-context",
+      "text": "Super-fast float parser in Rust (now part of Rust core)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aldanor/fast-float-rust",
+      "status": "candidate-context",
+      "text": "fast-float"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "fmtlib/fmt",
       "status": "candidate",
       "text": "<img src=\"https://user-images.githubusercontent.com/576385/156254208-f5b743a9-88cf-439d-b0c0-923d53e8d551.png\" alt=\"{fmt}\" width=\"25%\"/>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aldanor/fast-float-rust",
+      "status": "candidate",
+      "text": "fast-float"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "fmtlib/fmt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "aldanor/fast-float-rust"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

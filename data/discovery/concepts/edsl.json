@@ -19,6 +19,18 @@
       "source_repo": "chalk-diagrams/chalk",
       "status": "candidate-context",
       "text": "<p align=\"center\"><img src=\"https://raw.githubusercontent.com/chalk-diagrams/chalk/master/examples/output/logo-sm.png\" width=300></p>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ocurrent/ocurrent",
+      "status": "candidate-context",
+      "text": "Keeps things up-to-date (a CI/CD pipeline OCaml eDSL)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ocurrent/ocurrent",
+      "status": "candidate-context",
+      "text": "[![OCaml-CI Build Status](https://img.shields.io/endpoint?url=https%3A%2F%2Fci.ocamllabs.io%2Fbadge%2Focurrent%2Focurrent%2Fmaster&logo=ocaml)](https://ci.ocamllabs.io/github/ocurrent/ocurrent)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "chalk-diagrams/chalk",
       "status": "candidate",
       "text": "<p align=\"center\"><img src=\"https://raw.githubusercontent.com/chalk-diagrams/chalk/master/examples/output/logo-sm.png\" width=300></p>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ocurrent/ocurrent",
+      "status": "candidate",
+      "text": "[![OCaml-CI Build Status](https://img.shields.io/endpoint?url=https%3A%2F%2Fci.ocamllabs.io%2Fbadge%2Focurrent%2Focurrent%2Fmaster&logo=ocaml)](https://ci.ocamllabs.io/github/ocurrent/ocurrent)"
     }
   ],
   "candidate_related_terms": [],
@@ -46,11 +64,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "chalk-diagrams/chalk"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "ocurrent/ocurrent"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

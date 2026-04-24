@@ -19,6 +19,18 @@
       "source_repo": "prashnts/pybloomfiltermmap3",
       "status": "candidate-context",
       "text": "[pybloomfiltermmap3](https://github.com/prashnts/pybloomfiltermmap3) is a Python 3 compatible fork of [pybloomfiltermmap](https://github.com/axiak/pybloomfiltermmap) by [@axiak](https://github.com/axiak)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ashvardanian/HashEvals",
+      "status": "candidate-context",
+      "text": "Minimalistic Rust toolkit for hash function quality analysis. Tests avalanche effect, differential patterns, and statistical distribution across variable-length n-grams."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ashvardanian/HashEvals",
+      "status": "candidate-context",
+      "text": "[![HashEvals](https://github.com/ashvardanian/ashvardanian/blob/master/repositories/HashEvals.jpg?raw=true)](https://github.com/ashvardanian/HashEvals)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "prashnts/pybloomfiltermmap3",
       "status": "candidate",
       "text": "[pybloomfiltermmap3](https://github.com/prashnts/pybloomfiltermmap3) is a Python 3 compatible fork of [pybloomfiltermmap](https://github.com/axiak/pybloomfiltermmap) by [@axiak](https://github.com/axiak)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ashvardanian/HashEvals",
+      "status": "candidate",
+      "text": "[![HashEvals](https://github.com/ashvardanian/ashvardanian/blob/master/repositories/HashEvals.jpg?raw=true)](https://github.com/ashvardanian/HashEvals)"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "prashnts/pybloomfiltermmap3"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "ashvardanian/HashEvals"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "mdbx"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Mithril-mine/libmdbx",
+      "status": "candidate-context",
+      "text": "\u2605 Fastfull embedded transactional key-value storage engine \u2605 Surpasses the legendary LMDB in reliability, capabilities and performance \u2605 Used in hundreds of open source projects, including Ethereum."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Mithril-mine/libmdbx",
+      "status": "candidate-context",
+      "text": "libmdbx"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Mithril-mine/libmdbx",
+      "status": "candidate",
+      "text": "libmdbx"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "mdbx",
+  "concept_id": "mdbx",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "Mithril-mine/libmdbx"
+    }
+  ],
+  "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "mdbx",
+      "sense_id": "mdbx#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -1,0 +1,88 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Export Pluto notebooks"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Export Pluto notebooks"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22178,
+      "status": "candidate",
+      "text": "auto"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22115,
+      "status": "candidate",
+      "text": "keep"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22115,
+      "status": "candidate",
+      "text": "melody"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16066,
+      "status": "candidate",
+      "text": "ruled"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14317,
+      "status": "candidate",
+      "text": "aftermarket"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Export Pluto notebooks",
+      "sense_id": "export-pluto-notebooks#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "export-pluto-notebooks",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "export-pluto-notebooks",
+  "observation_id": "7575da9c29cd84ed",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-24T00:33:56.049672+00:00",
+  "observed_text": "Export Pluto notebooks",
+  "source_context_snippet": "Export Pluto notebooks",
+  "source_file": ".github/workflows/ExportPluto.yml",
+  "source_repo": "JuliaPluto/PlutoUI.jl",
+  "source_repo_description": null
+}

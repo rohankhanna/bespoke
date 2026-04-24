@@ -175,6 +175,30 @@
       "source_repo": "go-chi/chi",
       "status": "candidate-context",
       "text": "[![GoDoc Widget]][GoDoc]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/camel",
+      "status": "candidate-context",
+      "text": "Apache Camel is an open source integration framework that empowers you to quickly and easily integrate various systems consuming or producing data."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/camel",
+      "status": "candidate-context",
+      "text": "[![Maven Central](https://img.shields.io/maven-central/v/org.apache.camel/apache-camel.svg?label=Maven%20Central)](https://central.sonatype.com/artifact/org.apache.camel/apache-camel)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "go-kit/kit",
+      "status": "candidate-context",
+      "text": "A standard library for microservices."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "go-kit/kit",
+      "status": "candidate-context",
+      "text": "![GitHub Workflow Status](https://github.com/go-kit/kit/workflows/CI/badge.svg)"
     }
   ],
   "candidate_glosses": [
@@ -261,6 +285,18 @@
       "source_repo": "go-chi/chi",
       "status": "candidate",
       "text": "[![GoDoc Widget]][GoDoc]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/camel",
+      "status": "candidate",
+      "text": "[![Maven Central](https://img.shields.io/maven-central/v/org.apache.camel/apache-camel.svg?label=Maven%20Central)](https://central.sonatype.com/artifact/org.apache.camel/apache-camel)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "go-kit/kit",
+      "status": "candidate",
+      "text": "![GitHub Workflow Status](https://github.com/go-kit/kit/workflows/CI/badge.svg)"
     }
   ],
   "candidate_related_terms": [
@@ -388,11 +424,23 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "go-chi/chi"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "apache/camel"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "go-kit/kit"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

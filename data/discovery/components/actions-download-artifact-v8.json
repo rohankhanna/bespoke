@@ -1,7 +1,7 @@
 {
   "component": "actions/download-artifact@v8",
   "first_seen_at": "2026-04-18T03:26:22.590180+00:00",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -907,6 +907,86 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/rnx-build.yml",
       "source_repo": "microsoft/rnx-kit"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "NixOS/nix-installer"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "lu-zero/cargo-c"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "apache/netbeans"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/native-binary-build-dlight.nativeexecution.yml",
+      "source_repo": "apache/netbeans"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/native-binary-build-launcher.yml",
+      "source_repo": "apache/netbeans"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/native-binary-build-lib.profiler.yml",
+      "source_repo": "apache/netbeans"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "saghen/blink.cmp"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/buildwheels.yml",
+      "source_repo": "Ezibenroc/PyRoaringBitMap"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "autofac/Autofac"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/_wpt.yml",
+      "source_repo": "cloudflare/workerd"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/call-build-images.yaml",
+      "source_repo": "fluent/fluent-bit"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/call-build-macos.yaml",
+      "source_repo": "fluent/fluent-bit"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/call-build-windows.yaml",
+      "source_repo": "fluent/fluent-bit"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "WebAssembly/wasi-sdk"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "89luca89/distrobox"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "ByteNess/aws-vault"
     }
   ]
 }

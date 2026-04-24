@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Full Release"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gchq/Gaffer",
+      "status": "candidate-context",
+      "text": "A large-scale entity and relation database supporting aggregation of properties"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gchq/Gaffer",
+      "status": "candidate-context",
+      "text": "Full Release"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gchq/Gaffer",
+      "status": "candidate",
+      "text": "Full Release"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28494,
+      "status": "candidate",
+      "text": "acquittance"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11757,
+      "status": "candidate",
+      "text": "burst"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11757,
+      "status": "candidate",
+      "text": "entry"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11757,
+      "status": "candidate",
+      "text": "flush"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11757,
+      "status": "candidate",
+      "text": "flushed"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Full Release",
+  "concept_id": "full-release",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "gchq/Gaffer"
+    }
+  ],
+  "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Full Release",
+      "sense_id": "full-release#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

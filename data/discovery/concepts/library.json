@@ -403,6 +403,42 @@
       "source_repo": "kubernetes-client/python",
       "status": "candidate-context",
       "text": "[![CI](https://github.com/kubernetes-client/python/workflows/Kubernetes%20Python%20Client%20-%20Validation/badge.svg)](https://github.com/kubernetes-client/python/actions/workflows/test.yaml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bdwgc/libatomic_ops",
+      "status": "candidate-context",
+      "text": "The atomic_ops project (Atomic memory update operations portable implementation)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bdwgc/libatomic_ops",
+      "status": "candidate-context",
+      "text": "IN NEW CODE, PLEASE USE C11 OR C++14 STANDARD ATOMICS INSTEAD OF THE CORE"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "babbel/puma-plugin-telemetry",
+      "status": "candidate-context",
+      "text": "Telemetry plugin for puma offering various targets to publish"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "babbel/puma-plugin-telemetry",
+      "status": "candidate-context",
+      "text": "Puma plugin which should be able to handle all your metric needs regarding your webserver:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gruns/icecream",
+      "status": "candidate-context",
+      "text": "\ud83c\udf66 Never use print() to debug again."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gruns/icecream",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -603,6 +639,24 @@
       "source_repo": "kubernetes-client/python",
       "status": "candidate",
       "text": "[![CI](https://github.com/kubernetes-client/python/workflows/Kubernetes%20Python%20Client%20-%20Validation/badge.svg)](https://github.com/kubernetes-client/python/actions/workflows/test.yaml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bdwgc/libatomic_ops",
+      "status": "candidate",
+      "text": "IN NEW CODE, PLEASE USE C11 OR C++14 STANDARD ATOMICS INSTEAD OF THE CORE"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "babbel/puma-plugin-telemetry",
+      "status": "candidate",
+      "text": "Puma plugin which should be able to handle all your metric needs regarding your webserver:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gruns/icecream",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -865,11 +919,35 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "rust-nvml/nvml-wrapper"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "bdwgc/libatomic_ops"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "babbel/puma-plugin-telemetry"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "rust-nvml/nvml-wrapper"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "gruns/icecream"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

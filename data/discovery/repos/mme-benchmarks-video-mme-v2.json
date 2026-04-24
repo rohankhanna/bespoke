@@ -1,0 +1,100 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MME-Benchmarks/Video-MME-v2",
+      "target": "large-language-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MME-Benchmarks/Video-MME-v2",
+      "target": "large-vision-language-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MME-Benchmarks/Video-MME-v2",
+      "target": "multimodal-large-language-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MME-Benchmarks/Video-MME-v2",
+      "target": "video",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MME-Benchmarks/Video-MME-v2",
+      "target": "video-mme",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T01:58:53.817285+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 21895
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Video-MME-v2: Towards the Next Stage in Benchmarks for Comprehensive Video Understanding",
+    "fork": false,
+    "full_name": "MME-Benchmarks/Video-MME-v2",
+    "html_url": "https://github.com/MME-Benchmarks/Video-MME-v2",
+    "language": "Python",
+    "pushed_at": "2026-04-14T14:18:58Z",
+    "stargazers_count": 353,
+    "topics": [
+      "large-language-models",
+      "large-vision-language-models",
+      "multimodal-large-language-models",
+      "video",
+      "video-mme"
+    ],
+    "updated_at": "2026-04-23T11:14:25Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "[![Video-MME-v2-dataset](https://img.shields.io/badge/Dataset-Video--MME--v2-blue)](https://huggingface.co/datasets/MME-Benchmarks/Video-MME-v2)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "large-language-models"
+    },
+    {
+      "context_snippet": "[![Video-MME-v2-dataset](https://img.shields.io/badge/Dataset-Video--MME--v2-blue)](https://huggingface.co/datasets/MME-Benchmarks/Video-MME-v2)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "large-vision-language-models"
+    },
+    {
+      "context_snippet": "[![Video-MME-v2-dataset](https://img.shields.io/badge/Dataset-Video--MME--v2-blue)](https://huggingface.co/datasets/MME-Benchmarks/Video-MME-v2)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multimodal-large-language-models"
+    },
+    {
+      "context_snippet": "[![Video-MME-v2-dataset](https://img.shields.io/badge/Dataset-Video--MME--v2-blue)](https://huggingface.co/datasets/MME-Benchmarks/Video-MME-v2)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "video"
+    },
+    {
+      "context_snippet": "[![Video-MME-v2-dataset](https://img.shields.io/badge/Dataset-Video--MME--v2-blue)](https://huggingface.co/datasets/MME-Benchmarks/Video-MME-v2)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "video-mme"
+    }
+  ]
+}

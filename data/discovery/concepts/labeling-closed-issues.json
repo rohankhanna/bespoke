@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Labeling closed issues"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "valida-xyz/valida-compiler",
+      "status": "candidate-context",
+      "text": "Old, obsolete version of the Valida compiler; its replacement will become public later"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "valida-xyz/valida-compiler",
+      "status": "candidate-context",
+      "text": "Labeling closed issues"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "valida-xyz/valida-compiler",
+      "status": "candidate",
+      "text": "Labeling closed issues"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24482,
+      "status": "candidate",
+      "text": "guide"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22536,
+      "status": "candidate",
+      "text": "case"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22499,
+      "status": "candidate",
+      "text": "note"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22492,
+      "status": "candidate",
+      "text": "court"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22492,
+      "status": "candidate",
+      "text": "dotted"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Labeling closed issues",
+  "concept_id": "labeling-closed-issues",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/closed-issues.yml",
+      "source_repo": "valida-xyz/valida-compiler"
+    }
+  ],
+  "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Labeling closed issues",
+      "sense_id": "labeling-closed-issues#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

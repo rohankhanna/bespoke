@@ -19,12 +19,24 @@
       "source_repo": "ashleve/lightning-hydra-template",
       "status": "candidate-context",
       "text": "Code Quality Main"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jxpress/lightning-hydra-template-vertex-ai",
+      "status": "candidate-context",
+      "text": "Code Quality Main"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "ashleve/lightning-hydra-template",
+      "status": "candidate",
+      "text": "Code Quality Main"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jxpress/lightning-hydra-template-vertex-ai",
       "status": "candidate",
       "text": "Code Quality Main"
     }
@@ -76,11 +88,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": ".github/workflows/code-quality-main.yaml",
       "source_repo": "ashleve/lightning-hydra-template"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/code-quality-main.yaml",
+      "source_repo": "jxpress/lightning-hydra-template-vertex-ai"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

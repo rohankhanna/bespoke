@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "arguments"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jonschlinkert/kind-of",
+      "status": "candidate-context",
+      "text": "Get the native JavaScript type of a value, fast. Used by superstruct, micromatch and many others!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jonschlinkert/kind-of",
+      "status": "candidate-context",
+      "text": "> Get the native type of a value."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jonschlinkert/kind-of",
+      "status": "candidate",
+      "text": "> Get the native type of a value."
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10047991,
+      "status": "candidate",
+      "text": "statement"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10032861,
+      "status": "candidate",
+      "text": "debate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10016649,
+      "status": "candidate",
+      "text": "controversy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10016383,
+      "status": "candidate",
+      "text": "contestation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10008522,
+      "status": "candidate",
+      "text": "contention"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "arguments",
+  "concept_id": "arguments",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "jonschlinkert/kind-of"
+    }
+  ],
+  "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "arguments",
+      "sense_id": "arguments#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

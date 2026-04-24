@@ -1,0 +1,27 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "alexmirrington/base16-spectrum-generator",
+      "target": "ajlende/base16-atlas-scheme",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "alexmirrington/base16-spectrum-generator",
+      "target": "alexmirrington/base16-espresso-scheme",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "alexmirrington/base16-spectrum-generator",
+      "target": "hugodelahousse/base16-outrun-schemes",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-04-24T00:33:56.049672+00:00",
+  "source_repo": "alexmirrington/base16-spectrum-generator"
+}

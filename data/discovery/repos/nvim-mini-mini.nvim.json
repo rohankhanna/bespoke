@@ -63,27 +63,6 @@
   ],
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "nvim-mini/mini.nvim",
-      "target": "monaqa/dial.nvim",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "nvim-mini/mini.nvim",
-      "target": "andrewradev/switch.vim",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "nvim-mini/mini.nvim",
-      "target": "kassio/neoterm",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/quality-control.yml",
       "source_repo": "nvim-mini/mini.nvim",
@@ -147,7 +126,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-23T05:28:37.035961+00:00",
+  "fetched_at": "2026-04-24T01:44:09.401175+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -168,32 +147,16 @@
     "html_url": "https://github.com/nvim-mini/mini.nvim",
     "language": "Lua",
     "pushed_at": "2026-04-21T12:49:22Z",
-    "stargazers_count": 9051,
+    "stargazers_count": 9055,
     "topics": [
       "lua",
       "mini-nvim",
       "neovim",
       "neovim-plugin"
     ],
-    "updated_at": "2026-04-22T21:18:59Z"
+    "updated_at": "2026-04-23T21:49:42Z"
   },
-  "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "andrewradev/switch.vim",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "kassio/neoterm",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "monaqa/dial.nvim",
-      "source_file": "README.md"
-    }
-  ],
+  "repo_links": [],
   "terms": [
     {
       "context_snippet": "Quality Control",

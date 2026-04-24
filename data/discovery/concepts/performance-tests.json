@@ -19,6 +19,18 @@
       "source_repo": "aws/aws-network-policy-agent",
       "status": "candidate-context",
       "text": "Performance tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "yarnpkg/berry",
+      "status": "candidate-context",
+      "text": "\ud83d\udce6\ud83d\udc08 Active development trunk for Yarn \u2692"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yarnpkg/berry",
+      "status": "candidate-context",
+      "text": "'Performance tests'"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "aws/aws-network-policy-agent",
       "status": "candidate",
       "text": "Performance tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yarnpkg/berry",
+      "status": "candidate",
+      "text": "'Performance tests'"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": ".github/workflows/performance-tests.yaml",
       "source_repo": "aws/aws-network-policy-agent"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/benchmark-workflow.yml",
+      "source_repo": "yarnpkg/berry"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

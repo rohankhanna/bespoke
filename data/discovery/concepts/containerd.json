@@ -103,6 +103,18 @@
       "source_repo": "containerd/stargz-snapshotter",
       "status": "candidate-context",
       "text": "[[\u2b07\ufe0f **Download**]](https://github.com/containerd/stargz-snapshotter/releases)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rootless-containers/usernetes",
+      "status": "candidate-context",
+      "text": "Kubernetes without the root privileges"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rootless-containers/usernetes",
+      "status": "candidate-context",
+      "text": "Usernetes (Gen2) deploys a Kubernetes cluster inside [Rootless Docker](https://rootlesscontaine.rs/getting-started/docker/),"
     }
   ],
   "candidate_glosses": [
@@ -153,6 +165,12 @@
       "source_repo": "containerd/stargz-snapshotter",
       "status": "candidate",
       "text": "[[\u2b07\ufe0f **Download**]](https://github.com/containerd/stargz-snapshotter/releases)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rootless-containers/usernetes",
+      "status": "candidate",
+      "text": "Usernetes (Gen2) deploys a Kubernetes cluster inside [Rootless Docker](https://rootlesscontaine.rs/getting-started/docker/),"
     }
   ],
   "candidate_related_terms": [],
@@ -208,11 +226,17 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "containerd/stargz-snapshotter"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "rootless-containers/usernetes"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

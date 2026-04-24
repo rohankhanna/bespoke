@@ -1,11 +1,15 @@
 {
   "aliases": [
-    "edge"
+    "edge",
+    "EDGE",
+    "Edge"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
     "tool-component",
-    "capability"
+    "capability",
+    "workflow-process",
+    "data-document-artifact"
   ],
   "candidate_definitions": [
     {
@@ -79,6 +83,36 @@
       "source_repo": "acheong08/EdgeGPT",
       "status": "candidate-context",
       "text": "FROM docker.io/library/python:3.11.3-alpine3.16@sha256:0ba61d06b14e5438aa3428ee46c7ccdc8df5b63483bc91ae050411407eb5cbf4 AS builder WORKDIR /EdgeGPT COPY requirements.txt requirements.txt RUN pip3 install --no-cache-dir -r requirements.txt COPY . . RUN apk add --no-cache make && \u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "3dfxdev/EDGE",
+      "status": "candidate-context",
+      "text": "EDGE Source Code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "3dfxdev/EDGE",
+      "status": "candidate-context",
+      "text": "EDGE"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "3dfxdev/EDGE",
+      "status": "candidate-context",
+      "text": "Welcome to EDGE!"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "browserless/browserless",
+      "status": "candidate-context",
+      "text": "Deploy headless browsers in Docker. Run on our cloud or bring your own. Free for non-commercial uses."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "browserless/browserless",
+      "status": "candidate-context",
+      "text": "Edge"
     }
   ],
   "candidate_glosses": [
@@ -117,6 +151,24 @@
       "source_repo": "acheong08/EdgeGPT",
       "status": "candidate",
       "text": "FROM docker.io/library/python:3.11.3-alpine3.16@sha256:0ba61d06b14e5438aa3428ee46c7ccdc8df5b63483bc91ae050411407eb5cbf4 AS builder WORKDIR /EdgeGPT COPY requirements.txt requirements.txt RUN pip3 install --no-cache-dir -r requirements.txt COPY . . RUN apk add --no-cache make && \u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "3dfxdev/EDGE",
+      "status": "candidate",
+      "text": "EDGE"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "3dfxdev/EDGE",
+      "status": "candidate",
+      "text": "Welcome to EDGE!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "browserless/browserless",
+      "status": "candidate",
+      "text": "Edge"
     }
   ],
   "candidate_related_terms": [
@@ -232,11 +284,29 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "acheong08/EdgeGPT"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/edge.yml",
+      "source_repo": "3dfxdev/EDGE"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "3dfxdev/EDGE"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/docker-edge.yml",
+      "source_repo": "browserless/browserless"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

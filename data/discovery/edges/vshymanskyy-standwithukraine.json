@@ -1,0 +1,76 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "vshymanskyy/StandWithUkraine",
+      "target": "blynkkk/blynk-library",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "vshymanskyy/StandWithUkraine",
+      "target": "bcryptnet/bcrypt.net",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "vshymanskyy/StandWithUkraine",
+      "target": "cesiumlabs/canvacord",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "vshymanskyy/StandWithUkraine",
+      "target": "bootscore/bootscore",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vshymanskyy/StandWithUkraine",
+      "target": "belarus",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vshymanskyy/StandWithUkraine",
+      "target": "russia",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vshymanskyy/StandWithUkraine",
+      "target": "standwithukraine",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vshymanskyy/StandWithUkraine",
+      "target": "stopputinnow",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vshymanskyy/StandWithUkraine",
+      "target": "stoprussionagression",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vshymanskyy/StandWithUkraine",
+      "target": "ukraine",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-24T00:33:56.049672+00:00",
+  "source_repo": "vshymanskyy/StandWithUkraine"
+}

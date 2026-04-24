@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "lockfile"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "conda/conda-lock",
+      "status": "candidate-context",
+      "text": "Lightweight lockfile for conda environments"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "conda/conda-lock",
+      "status": "candidate-context",
+      "text": "[![GitHub deployments](https://img.shields.io/github/deployments/conda/conda-lock/github-pages?label=docs&style=for-the-badge)](https://conda.github.io/conda-lock/)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "conda/conda-lock",
+      "status": "candidate",
+      "text": "[![GitHub deployments](https://img.shields.io/github/deployments/conda/conda-lock/github-pages?label=docs&style=for-the-badge)](https://conda.github.io/conda-lock/)"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "lockfile",
+  "concept_id": "lockfile",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "conda/conda-lock"
+    }
+  ],
+  "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "lockfile",
+      "sense_id": "lockfile#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

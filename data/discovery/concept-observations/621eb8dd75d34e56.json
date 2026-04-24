@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A OpenID Connect and OAuth 2.0 WebAssembly proxy filter."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "![Workflow badge](https://github.com/sonhal/wasm-oauth-filter/actions/workflows/build-deploy.yml/badge.svg)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "![Workflow badge](https://github.com/sonhal/wasm-oauth-filter/actions/workflows/build-deploy.yml/badge.svg)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40037657,
+      "status": "candidate",
+      "text": "filtrate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40034767,
+      "status": "candidate",
+      "text": "filter out"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40032512,
+      "status": "candidate",
+      "text": "percolate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40030441,
+      "status": "candidate",
+      "text": "permeate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40018355,
+      "status": "candidate",
+      "text": "trickle"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "filter",
+      "sense_id": "filter#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 41083,
+      "status": "candidate",
+      "text": "strain"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 25040,
+      "status": "candidate",
+      "text": "permeate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 16041,
+      "status": "candidate",
+      "text": "dribble"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 15039,
+      "status": "candidate",
+      "text": "percolate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 13037,
+      "status": "candidate",
+      "text": "trickle"
+    }
+  ],
+  "concept_id": "filter",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "filter",
+  "observation_id": "621eb8dd75d34e56",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T00:33:56.049672+00:00",
+  "observed_text": "filter",
+  "source_context_snippet": "![Workflow badge](https://github.com/sonhal/wasm-oauth-filter/actions/workflows/build-deploy.yml/badge.svg)",
+  "source_file": null,
+  "source_repo": "sonhal/wasm-oauth-filter",
+  "source_repo_description": "A OpenID Connect and OAuth 2.0 WebAssembly proxy filter."
+}

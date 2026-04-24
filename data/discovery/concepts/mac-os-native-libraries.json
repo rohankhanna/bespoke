@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "mac OS native libraries"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "java-native-access/jna",
+      "status": "candidate-context",
+      "text": "Java Native Access"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "java-native-access/jna",
+      "status": "candidate-context",
+      "text": "mac OS native libraries"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "java-native-access/jna",
+      "status": "candidate",
+      "text": "mac OS native libraries"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 35632,
+      "status": "candidate",
+      "text": "arduino"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 35632,
+      "status": "candidate",
+      "text": "audacity"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 35632,
+      "status": "candidate",
+      "text": "celestia"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 35632,
+      "status": "candidate",
+      "text": "ical"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23874,
+      "status": "candidate",
+      "text": "ora"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "mac OS native libraries",
+  "concept_id": "mac-os-native-libraries",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/native-libraries-macOS.yaml",
+      "source_repo": "java-native-access/jna"
+    }
+  ],
+  "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "mac OS native libraries",
+      "sense_id": "mac-os-native-libraries#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

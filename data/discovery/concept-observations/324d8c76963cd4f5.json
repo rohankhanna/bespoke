@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "msgpack.org[Go] MessagePack encoding for Golang"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Releases"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Releases"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10051261,
+      "status": "candidate",
+      "text": "loose"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10051151,
+      "status": "candidate",
+      "text": "liberate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10051149,
+      "status": "candidate",
+      "text": "liberation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10051029,
+      "status": "candidate",
+      "text": "unloose"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10050409,
+      "status": "candidate",
+      "text": "expel"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Releases",
+      "sense_id": "releases#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "releases",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "releases",
+  "observation_id": "324d8c76963cd4f5",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-24T00:33:56.049672+00:00",
+  "observed_text": "Releases",
+  "source_context_snippet": "Releases",
+  "source_file": ".github/workflows/release.yml",
+  "source_repo": "vmihailenco/msgpack",
+  "source_repo_description": "msgpack.org[Go] MessagePack encoding for Golang"
+}

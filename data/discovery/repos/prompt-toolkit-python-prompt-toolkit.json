@@ -1,0 +1,100 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6.0.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml"
+    },
+    {
+      "component": "codecov/codecov-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.rst",
+      "source_repo": "prompt-toolkit/python-prompt-toolkit",
+      "target": "jquast/wcwidth",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "prompt-toolkit/python-prompt-toolkit",
+      "target": "actions/checkout@v6.0.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "prompt-toolkit/python-prompt-toolkit",
+      "target": "astral-sh/setup-uv@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "prompt-toolkit/python-prompt-toolkit",
+      "target": "codecov/codecov-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "prompt-toolkit/python-prompt-toolkit",
+      "target": "test",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T01:53:11.326518+00:00",
+  "fetched_files": [
+    {
+      "path": "README.rst",
+      "size": 5245
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 4496
+    },
+    {
+      "path": ".github/workflows/test.yaml",
+      "size": 1215
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Library for building powerful interactive command line applications in Python",
+    "fork": false,
+    "full_name": "prompt-toolkit/python-prompt-toolkit",
+    "html_url": "https://github.com/prompt-toolkit/python-prompt-toolkit",
+    "language": "Python",
+    "pushed_at": "2026-03-17T12:10:47Z",
+    "stargazers_count": 10417,
+    "topics": [],
+    "updated_at": "2026-04-23T23:01:29Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jquast/wcwidth",
+      "source_file": "README.rst"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yaml",
+      "term": "test"
+    }
+  ]
+}

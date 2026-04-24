@@ -1,0 +1,279 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/building.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/building.yml"
+    },
+    {
+      "component": "jlumbroso/free-disk-space@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/building.yml"
+    },
+    {
+      "component": "aws-actions/configure-aws-credentials@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/building.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linting.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linting.yml"
+    },
+    {
+      "component": "actions/stale@v9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/testing.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/testing.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/testing.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/building.yml",
+      "source_repo": "rusty1s/pytorch_cluster",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/building.yml",
+      "source_repo": "rusty1s/pytorch_cluster",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/building.yml",
+      "source_repo": "rusty1s/pytorch_cluster",
+      "target": "jlumbroso/free-disk-space@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/building.yml",
+      "source_repo": "rusty1s/pytorch_cluster",
+      "target": "aws-actions/configure-aws-credentials@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/building.yml",
+      "source_repo": "rusty1s/pytorch_cluster",
+      "target": "Building Wheels",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linting.yml",
+      "source_repo": "rusty1s/pytorch_cluster",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linting.yml",
+      "source_repo": "rusty1s/pytorch_cluster",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linting.yml",
+      "source_repo": "rusty1s/pytorch_cluster",
+      "target": "Linting",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "rusty1s/pytorch_cluster",
+      "target": "actions/stale@v9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "rusty1s/pytorch_cluster",
+      "target": "Close stale issues and PRs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/testing.yml",
+      "source_repo": "rusty1s/pytorch_cluster",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/testing.yml",
+      "source_repo": "rusty1s/pytorch_cluster",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/testing.yml",
+      "source_repo": "rusty1s/pytorch_cluster",
+      "target": "codecov/codecov-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/testing.yml",
+      "source_repo": "rusty1s/pytorch_cluster",
+      "target": "Testing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rusty1s/pytorch_cluster",
+      "target": "cluster-algorithms",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rusty1s/pytorch_cluster",
+      "target": "geometric-deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rusty1s/pytorch_cluster",
+      "target": "graph-neural-networks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rusty1s/pytorch_cluster",
+      "target": "pytorch",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T02:01:11.581042+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10707
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 90
+    },
+    {
+      "path": ".github/workflows/building.yml",
+      "size": 3489
+    },
+    {
+      "path": ".github/workflows/linting.yml",
+      "size": 415
+    },
+    {
+      "path": ".github/workflows/stale.yml",
+      "size": 786
+    },
+    {
+      "path": ".github/workflows/testing.yml",
+      "size": 1100
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "PyTorch Extension Library of Optimized Graph Cluster Algorithms",
+    "fork": false,
+    "full_name": "rusty1s/pytorch_cluster",
+    "html_url": "https://github.com/rusty1s/pytorch_cluster",
+    "language": "C++",
+    "pushed_at": "2026-03-26T04:45:29Z",
+    "stargazers_count": 920,
+    "topics": [
+      "cluster-algorithms",
+      "geometric-deep-learning",
+      "graph-neural-networks",
+      "pytorch"
+    ],
+    "updated_at": "2026-04-18T15:23:40Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Building Wheels",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/building.yml",
+      "term": "Building Wheels"
+    },
+    {
+      "context_snippet": "Linting",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linting.yml",
+      "term": "Linting"
+    },
+    {
+      "context_snippet": "\"Close stale issues and PRs\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "term": "Close stale issues and PRs"
+    },
+    {
+      "context_snippet": "Testing",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/testing.yml",
+      "term": "Testing"
+    },
+    {
+      "context_snippet": "[pypi-image]: https://badge.fury.io/py/torch-cluster.svg",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cluster-algorithms"
+    },
+    {
+      "context_snippet": "[pypi-image]: https://badge.fury.io/py/torch-cluster.svg",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "geometric-deep-learning"
+    },
+    {
+      "context_snippet": "[pypi-image]: https://badge.fury.io/py/torch-cluster.svg",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "graph-neural-networks"
+    },
+    {
+      "context_snippet": "[pypi-image]: https://badge.fury.io/py/torch-cluster.svg",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    }
+  ]
+}

@@ -238,6 +238,30 @@
       "source_repo": "eliemichel/sdl3webgpu",
       "status": "candidate-context",
       "text": "CMake"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "clice-io/clice",
+      "status": "candidate-context",
+      "text": "A next-generation C++ language server for modern C++, focused on high performance and deep code intelligence"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clice-io/clice",
+      "status": "candidate-context",
+      "text": "cmake"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pytorch/vision",
+      "status": "candidate-context",
+      "text": "Datasets, Transforms and Models specific to Computer Vision"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pytorch/vision",
+      "status": "candidate-context",
+      "text": "CMake"
     }
   ],
   "candidate_glosses": [
@@ -352,6 +376,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "eliemichel/sdl3webgpu",
+      "status": "candidate",
+      "text": "CMake"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clice-io/clice",
+      "status": "candidate",
+      "text": "cmake"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pytorch/vision",
       "status": "candidate",
       "text": "CMake"
     }
@@ -511,11 +547,23 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": ".github/workflows/cmake.yml",
       "source_repo": "eliemichel/sdl3webgpu"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/test-cmake.yml",
+      "source_repo": "clice-io/clice"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/build-cmake.yml",
+      "source_repo": "pytorch/vision"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

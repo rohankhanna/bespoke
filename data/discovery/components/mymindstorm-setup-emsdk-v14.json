@@ -1,7 +1,7 @@
 {
   "component": "mymindstorm/setup-emsdk@v14",
   "first_seen_at": "2026-04-18T09:23:47.800515+00:00",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -47,6 +47,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/cmake.yml",
       "source_repo": "eliemichel/sdl2webgpu"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build_webassembly.yml",
+      "source_repo": "raysan5/raylib"
     }
   ]
 }

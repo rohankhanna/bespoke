@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "foss"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "theimpossibleastronaut/rmw",
+      "status": "candidate-context",
+      "text": "trashcan/recycle bin utility for the command line"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "theimpossibleastronaut/rmw",
+      "status": "candidate-context",
+      "text": "rmw (ReMove to Waste) is a trashcan/recycle bin utility for the command line."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "theimpossibleastronaut/rmw",
+      "status": "candidate",
+      "text": "rmw (ReMove to Waste) is a trashcan/recycle bin utility for the command line."
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29942513,
+      "status": "candidate",
+      "text": "oss"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29843518,
+      "status": "candidate",
+      "text": "vos"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29576249,
+      "status": "candidate",
+      "text": "free"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27218179,
+      "status": "candidate",
+      "text": "voss"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19942869,
+      "status": "candidate",
+      "text": "foss\u00e9"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "foss",
+  "concept_id": "foss",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "theimpossibleastronaut/rmw"
+    }
+  ],
+  "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "foss",
+      "sense_id": "foss#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

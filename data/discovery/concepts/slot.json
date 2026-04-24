@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "slot"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dacap/observable",
+      "status": "candidate-context",
+      "text": "Observer pattern and signals/slots for C++11 projects"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dacap/observable",
+      "status": "candidate-context",
+      "text": "Observable Library"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dacap/observable",
+      "status": "candidate",
+      "text": "Observable Library"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40022130,
+      "status": "candidate",
+      "text": "berth"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40013151,
+      "status": "candidate",
+      "text": "place"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40013122,
+      "status": "candidate",
+      "text": "spot"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39983244,
+      "status": "candidate",
+      "text": "time slot"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39942734,
+      "status": "candidate",
+      "text": "position"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 30067,
+      "status": "candidate",
+      "text": "position"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 26045,
+      "status": "candidate",
+      "text": "berth"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 21093,
+      "status": "candidate",
+      "text": "post"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 21055,
+      "status": "candidate",
+      "text": "office"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 17073,
+      "status": "candidate",
+      "text": "spot"
+    }
+  ],
+  "canonical_name": "slot",
+  "concept_id": "slot",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "dacap/observable"
+    }
+  ],
+  "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "slot",
+      "sense_id": "slot#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

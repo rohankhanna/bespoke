@@ -1,0 +1,44 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ocurrent/ocaml-dockerfile",
+      "target": "ocaml",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T00:38:39.339686+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1594
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "OCaml interface for creating Dockerfiles",
+    "fork": false,
+    "full_name": "ocurrent/ocaml-dockerfile",
+    "html_url": "https://github.com/ocurrent/ocaml-dockerfile",
+    "language": "OCaml",
+    "pushed_at": "2026-04-23T13:23:22Z",
+    "stargazers_count": 66,
+    "topics": [
+      "ocaml"
+    ],
+    "updated_at": "2026-04-23T13:23:06Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "dockerfile \u2014 Dockerfile eDSL and distribution support",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ocaml"
+    }
+  ]
+}

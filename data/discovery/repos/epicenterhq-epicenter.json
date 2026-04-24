@@ -1,0 +1,505 @@
+{
+  "components": [
+    {
+      "component": "tinyexec",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@biomejs/biome",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/bun",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/node",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "turbo",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "jsrepo",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto.label-issues.yml"
+    },
+    {
+      "component": "anthropics/claude-code-action@28f83620103c48a57093dcc2837eec89e036bb9f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto.label-issues.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto.release.yml"
+    },
+    {
+      "component": "oven-sh/setup-bun@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto.release.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.autofix.yml"
+    },
+    {
+      "component": "oven-sh/setup-bun@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.autofix.yml"
+    },
+    {
+      "component": "autofix-ci/action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.autofix.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.format.yml"
+    },
+    {
+      "component": "oven-sh/setup-bun@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.format.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude.yml"
+    },
+    {
+      "component": "anthropics/claude-code-action@28f83620103c48a57093dcc2837eec89e036bb9f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.cloudflare-preview.yml"
+    },
+    {
+      "component": "oven-sh/setup-bun@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.cloudflare-preview.yml"
+    },
+    {
+      "component": "cloudflare/wrangler-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.cloudflare-preview.yml"
+    },
+    {
+      "component": "cloudflare/wrangler-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.cloudflare-preview.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.cloudflare.yml"
+    },
+    {
+      "component": "oven-sh/setup-bun@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.cloudflare.yml"
+    },
+    {
+      "component": "cloudflare/wrangler-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.cloudflare.yml"
+    },
+    {
+      "component": "cloudflare/wrangler-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.cloudflare.yml"
+    },
+    {
+      "component": "cloudflare/wrangler-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.cloudflare.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "EpicenterHQ/epicenter",
+      "target": "tinyexec",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "EpicenterHQ/epicenter",
+      "target": "@biomejs/biome",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "EpicenterHQ/epicenter",
+      "target": "@types/bun",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "EpicenterHQ/epicenter",
+      "target": "@types/node",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "EpicenterHQ/epicenter",
+      "target": "turbo",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "EpicenterHQ/epicenter",
+      "target": "jsrepo",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto.label-issues.yml",
+      "source_repo": "EpicenterHQ/epicenter",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto.label-issues.yml",
+      "source_repo": "EpicenterHQ/epicenter",
+      "target": "anthropics/claude-code-action@28f83620103c48a57093dcc2837eec89e036bb9f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto.label-issues.yml",
+      "source_repo": "EpicenterHQ/epicenter",
+      "target": "Auto-Label Issues with Claude",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto.release.yml",
+      "source_repo": "EpicenterHQ/epicenter",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto.release.yml",
+      "source_repo": "EpicenterHQ/epicenter",
+      "target": "oven-sh/setup-bun@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto.release.yml",
+      "source_repo": "EpicenterHQ/epicenter",
+      "target": "Auto Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.autofix.yml",
+      "source_repo": "EpicenterHQ/epicenter",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.autofix.yml",
+      "source_repo": "EpicenterHQ/epicenter",
+      "target": "oven-sh/setup-bun@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.autofix.yml",
+      "source_repo": "EpicenterHQ/epicenter",
+      "target": "autofix-ci/action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.autofix.yml",
+      "source_repo": "EpicenterHQ/epicenter",
+      "target": "autofix.ci",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.format.yml",
+      "source_repo": "EpicenterHQ/epicenter",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.format.yml",
+      "source_repo": "EpicenterHQ/epicenter",
+      "target": "oven-sh/setup-bun@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.format.yml",
+      "source_repo": "EpicenterHQ/epicenter",
+      "target": "Code quality",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "EpicenterHQ/epicenter",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "EpicenterHQ/epicenter",
+      "target": "anthropics/claude-code-action@28f83620103c48a57093dcc2837eec89e036bb9f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "EpicenterHQ/epicenter",
+      "target": "Claude Code",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.cloudflare-preview.yml",
+      "source_repo": "EpicenterHQ/epicenter",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.cloudflare-preview.yml",
+      "source_repo": "EpicenterHQ/epicenter",
+      "target": "oven-sh/setup-bun@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.cloudflare-preview.yml",
+      "source_repo": "EpicenterHQ/epicenter",
+      "target": "cloudflare/wrangler-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy.cloudflare-preview.yml",
+      "source_repo": "EpicenterHQ/epicenter",
+      "target": "Preview Deployment",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.cloudflare.yml",
+      "source_repo": "EpicenterHQ/epicenter",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.cloudflare.yml",
+      "source_repo": "EpicenterHQ/epicenter",
+      "target": "oven-sh/setup-bun@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.cloudflare.yml",
+      "source_repo": "EpicenterHQ/epicenter",
+      "target": "cloudflare/wrangler-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy.cloudflare.yml",
+      "source_repo": "EpicenterHQ/epicenter",
+      "target": "Deploy to Cloudflare Workers",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "EpicenterHQ/epicenter",
+      "target": "svelte",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "EpicenterHQ/epicenter",
+      "target": "sveltekit",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "EpicenterHQ/epicenter",
+      "target": "tailwindcss",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "EpicenterHQ/epicenter",
+      "target": "tauri",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T01:43:25.964834+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 15939
+    },
+    {
+      "path": "package.json",
+      "size": 3545
+    },
+    {
+      "path": ".github/workflows/README.md",
+      "size": 7480
+    },
+    {
+      "path": ".github/workflows/auto.label-issues.yml",
+      "size": 2196
+    },
+    {
+      "path": ".github/workflows/auto.release.yml",
+      "size": 5879
+    },
+    {
+      "path": ".github/workflows/ci.autofix.yml",
+      "size": 549
+    },
+    {
+      "path": ".github/workflows/ci.format.yml",
+      "size": 539
+    },
+    {
+      "path": ".github/workflows/claude.yml",
+      "size": 1145
+    },
+    {
+      "path": ".github/workflows/deploy.cloudflare-preview.yml",
+      "size": 2726
+    },
+    {
+      "path": ".github/workflows/deploy.cloudflare.yml",
+      "size": 3623
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Open-source, local-first apps.",
+    "fork": false,
+    "full_name": "EpicenterHQ/epicenter",
+    "html_url": "https://github.com/EpicenterHQ/epicenter",
+    "language": "TypeScript",
+    "pushed_at": "2026-04-23T16:40:19Z",
+    "stargazers_count": 4465,
+    "topics": [
+      "svelte",
+      "sveltekit",
+      "tailwindcss",
+      "tauri"
+    ],
+    "updated_at": "2026-04-23T23:30:39Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Auto-Label Issues with Claude",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto.label-issues.yml",
+      "term": "Auto-Label Issues with Claude"
+    },
+    {
+      "context_snippet": "Auto Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto.release.yml",
+      "term": "Auto Release"
+    },
+    {
+      "context_snippet": "autofix.ci",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.autofix.yml",
+      "term": "autofix.ci"
+    },
+    {
+      "context_snippet": "Code quality",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.format.yml",
+      "term": "Code quality"
+    },
+    {
+      "context_snippet": "Claude Code",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/claude.yml",
+      "term": "Claude Code"
+    },
+    {
+      "context_snippet": "Preview Deployment",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy.cloudflare-preview.yml",
+      "term": "Preview Deployment"
+    },
+    {
+      "context_snippet": "Deploy to Cloudflare Workers",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy.cloudflare.yml",
+      "term": "Deploy to Cloudflare Workers"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "svelte"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sveltekit"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tailwindcss"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tauri"
+    }
+  ]
+}

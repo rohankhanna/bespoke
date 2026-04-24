@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Release To Nexus as standalone"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gchq/Gaffer",
+      "status": "candidate-context",
+      "text": "A large-scale entity and relation database supporting aggregation of properties"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gchq/Gaffer",
+      "status": "candidate-context",
+      "text": "Release To Nexus as standalone"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gchq/Gaffer",
+      "status": "candidate",
+      "text": "Release To Nexus as standalone"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23888,
+      "status": "candidate",
+      "text": "anastomosis"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23888,
+      "status": "candidate",
+      "text": "aragon"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23888,
+      "status": "candidate",
+      "text": "main"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23888,
+      "status": "candidate",
+      "text": "orpiment"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23888,
+      "status": "candidate",
+      "text": "reticulate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Release To Nexus as standalone",
+  "concept_id": "release-to-nexus-as-standalone",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/release-standalone.yaml",
+      "source_repo": "gchq/Gaffer"
+    }
+  ],
+  "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Release To Nexus as standalone",
+      "sense_id": "release-to-nexus-as-standalone#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

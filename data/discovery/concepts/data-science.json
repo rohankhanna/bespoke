@@ -247,6 +247,42 @@
       "source_repo": "cleanlab/cleanlab",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "drivendataorg/cookiecutter-data-science",
+      "status": "candidate-context",
+      "text": "A logical, reasonably standardized, but flexible project structure for doing and sharing data science work."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "drivendataorg/cookiecutter-data-science",
+      "status": "candidate-context",
+      "text": "_A logical, reasonably standardized but flexible project structure for doing and sharing data science work._"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jtablesaw/tablesaw",
+      "status": "candidate-context",
+      "text": "Java dataframe and visualization library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jtablesaw/tablesaw",
+      "status": "candidate-context",
+      "text": "Tablesaw"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "danielrosehill/Data-Projects-Index",
+      "status": "candidate-context",
+      "text": "Data apps and datasets deployed to Streamlit Community Cloud, Hugging Face, and elsewhere. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danielrosehill/Data-Projects-Index",
+      "status": "candidate-context",
+      "text": "[![Master Index](https://img.shields.io/badge/Master%20Index-All%20Repositories-purple?style=for-the-badge&logo=github)](https://github.com/danielrosehill/Github-Master-Index)"
     }
   ],
   "candidate_glosses": [
@@ -369,6 +405,24 @@
       "source_repo": "cleanlab/cleanlab",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "drivendataorg/cookiecutter-data-science",
+      "status": "candidate",
+      "text": "_A logical, reasonably standardized but flexible project structure for doing and sharing data science work._"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jtablesaw/tablesaw",
+      "status": "candidate",
+      "text": "Tablesaw"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danielrosehill/Data-Projects-Index",
+      "status": "candidate",
+      "text": "[![Master Index](https://img.shields.io/badge/Master%20Index-All%20Repositories-purple?style=for-the-badge&logo=github)](https://github.com/danielrosehill/Github-Master-Index)"
     }
   ],
   "candidate_related_terms": [],
@@ -502,11 +556,35 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "cleanlab/cleanlab"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "drivendataorg/cookiecutter-data-science"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "jtablesaw/tablesaw"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "danielrosehill/Data-Projects-Index"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "Lightning-AI/pytorch-lightning"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

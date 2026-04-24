@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "fuelvm"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "FuelLabs/fuel-specs",
+      "status": "candidate-context",
+      "text": "\ud83d\udcdd Specifications for the Fuel protocol and the FuelVM, a blazingly fast blockchain VM."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FuelLabs/fuel-specs",
+      "status": "candidate-context",
+      "text": "<!-- markdownlint-disable-next-line MD036 -->"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FuelLabs/fuel-specs",
+      "status": "candidate",
+      "text": "<!-- markdownlint-disable-next-line MD036 -->"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "fuelvm",
+  "concept_id": "fuelvm",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "FuelLabs/fuel-specs"
+    }
+  ],
+  "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "fuelvm",
+      "sense_id": "fuelvm#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

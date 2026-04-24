@@ -1,7 +1,8 @@
 {
   "aliases": [
     "Dependency Review",
-    "dependency-review"
+    "dependency-review",
+    "Dependency review"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -332,6 +333,102 @@
       "source_repo": "Cryptonomic/Tezori",
       "status": "candidate-context",
       "text": "'Dependency Review'"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "orhun/git-cliff",
+      "status": "candidate-context",
+      "text": "A highly customizable Changelog Generator that follows Conventional Commit specifications \u26f0\ufe0f "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "orhun/git-cliff",
+      "status": "candidate-context",
+      "text": "'Dependency Review'"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google/zerocopy",
+      "status": "candidate-context",
+      "text": "Zerocopy makes zero-cost memory manipulation effortless. We write `unsafe` so you don\u2019t have to."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/zerocopy",
+      "status": "candidate-context",
+      "text": "'Dependency Review'"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sigstore/rekor",
+      "status": "candidate-context",
+      "text": "Software Supply Chain Transparency Log"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sigstore/rekor",
+      "status": "candidate-context",
+      "text": "'Dependency Review'"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nuxt/nuxt",
+      "status": "candidate-context",
+      "text": "The Full-Stack Vue Framework."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nuxt/nuxt",
+      "status": "candidate-context",
+      "text": "'Dependency review'"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "celo-org/celo-monorepo",
+      "status": "candidate-context",
+      "text": "Official repository for core projects comprising the Celo platform"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "celo-org/celo-monorepo",
+      "status": "candidate-context",
+      "text": "'Dependency Review'"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/camel",
+      "status": "candidate-context",
+      "text": "Apache Camel is an open source integration framework that empowers you to quickly and easily integrate various systems consuming or producing data."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/camel",
+      "status": "candidate-context",
+      "text": "'Dependency Review'"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Azure/azure-sdk-for-js",
+      "status": "candidate-context",
+      "text": "This repository is for active development of the Azure SDK for JavaScript (NodeJS & Browser). For consumers of the SDK we recommend visiting our public developer docs at https://docs.microsoft.com/javascript/azure/ or our versioned developer docs at https://azure.github.io/azure-sdk-for-js. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Azure/azure-sdk-for-js",
+      "status": "candidate-context",
+      "text": "\"Dependency Review\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aws-powertools/powertools-lambda-typescript",
+      "status": "candidate-context",
+      "text": "Powertools for AWS is a developer toolkit to implement Serverless best practices and increase developer velocity."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws-powertools/powertools-lambda-typescript",
+      "status": "candidate-context",
+      "text": "'Dependency Review'"
     }
   ],
   "candidate_glosses": [
@@ -494,6 +591,54 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "Cryptonomic/Tezori",
+      "status": "candidate",
+      "text": "'Dependency Review'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "orhun/git-cliff",
+      "status": "candidate",
+      "text": "'Dependency Review'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/zerocopy",
+      "status": "candidate",
+      "text": "'Dependency Review'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sigstore/rekor",
+      "status": "candidate",
+      "text": "'Dependency Review'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nuxt/nuxt",
+      "status": "candidate",
+      "text": "'Dependency review'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "celo-org/celo-monorepo",
+      "status": "candidate",
+      "text": "'Dependency Review'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/camel",
+      "status": "candidate",
+      "text": "'Dependency Review'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Azure/azure-sdk-for-js",
+      "status": "candidate",
+      "text": "\"Dependency Review\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws-powertools/powertools-lambda-typescript",
       "status": "candidate",
       "text": "'Dependency Review'"
     }
@@ -731,11 +876,65 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": ".github/workflows/dependency-review.yml",
       "source_repo": "Cryptonomic/Tezori"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/depreview.yml",
+      "source_repo": "facebookresearch/fairseq"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/dependency-review.yml",
+      "source_repo": "orhun/git-cliff"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/dependency-review.yml",
+      "source_repo": "google/zerocopy"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/depsreview.yml",
+      "source_repo": "sigstore/rekor"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/dependency-review.yml",
+      "source_repo": "nuxt/nuxt"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/dependency-review.yaml",
+      "source_repo": "celo-org/celo-monorepo"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/depsreview.yaml",
+      "source_repo": "apache/camel"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/dexter.lock.yml",
+      "source_repo": "Azure/azure-sdk-for-js"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/dependency-review.yml",
+      "source_repo": "aws-powertools/powertools-lambda-typescript"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

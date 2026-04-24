@@ -1,0 +1,44 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "WebAssembly/meetings",
+      "target": "meta",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T00:44:18.045005+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 17967
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "WebAssembly meetings (VC or in-person), agendas, and notes",
+    "fork": false,
+    "full_name": "WebAssembly/meetings",
+    "html_url": "https://github.com/WebAssembly/meetings",
+    "language": "HTML",
+    "pushed_at": "2026-04-23T22:48:26Z",
+    "stargazers_count": 531,
+    "topics": [
+      "meta"
+    ],
+    "updated_at": "2026-04-23T22:48:29Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "This repository hosts information on official WebAssembly meetings hosted by the W3C",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "meta"
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 {
   "component": "jlumbroso/free-disk-space@v1.3.1",
   "first_seen_at": "2026-04-18T12:06:06.216548+00:00",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -82,6 +82,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/build-reusable.yml",
       "source_repo": "kurrent-io/KurrentDB"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/daily_hive_report.yaml",
+      "source_repo": "lambdaclass/ethrex"
     }
   ]
 }

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A color management framework for visual effects and animation."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Platform latest"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Platform latest"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11531,
+      "status": "candidate",
+      "text": "space"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10661,
+      "status": "candidate",
+      "text": "apron"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10661,
+      "status": "candidate",
+      "text": "bandstand"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10661,
+      "status": "candidate",
+      "text": "base"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10661,
+      "status": "candidate",
+      "text": "basis"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Platform latest",
+      "sense_id": "platform-latest#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "platform-latest",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "platform-latest",
+  "observation_id": "75525f207ab45416",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-24T00:33:56.049672+00:00",
+  "observed_text": "Platform latest",
+  "source_context_snippet": "Platform latest",
+  "source_file": ".github/workflows/platform_latest.yml",
+  "source_repo": "AcademySoftwareFoundation/OpenColorIO",
+  "source_repo_description": "A color management framework for visual effects and animation."
+}

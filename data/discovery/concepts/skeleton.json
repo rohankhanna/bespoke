@@ -1,0 +1,115 @@
+{
+  "aliases": [
+    "skeleton"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "conda/grayskull",
+      "status": "candidate-context",
+      "text": "Grayskull :skull: - Recipe generator for Conda"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "conda/grayskull",
+      "status": "candidate-context",
+      "text": "-------------"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "conda/grayskull",
+      "status": "candidate",
+      "text": "-------------"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39765512,
+      "status": "candidate",
+      "text": "underframe"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39714967,
+      "status": "candidate",
+      "text": "frame"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29964159,
+      "status": "candidate",
+      "text": "bone"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29963681,
+      "status": "candidate",
+      "text": "backbone"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29963031,
+      "status": "candidate",
+      "text": "skull"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 25085,
+      "status": "candidate",
+      "text": "frame"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 16,
+      "status": "candidate",
+      "text": "underframe"
+    }
+  ],
+  "canonical_name": "skeleton",
+  "concept_id": "skeleton",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "conda/grayskull"
+    }
+  ],
+  "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "skeleton",
+      "sense_id": "skeleton#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

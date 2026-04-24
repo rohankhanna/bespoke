@@ -202,6 +202,30 @@
       "source_repo": "tauri-apps/global-hotkey",
       "status": "candidate-context",
       "text": "audit"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bitcoindevkit/rust-electrum-client",
+      "status": "candidate-context",
+      "text": "Bitcoin Electrum client library. Supports plaintext, TLS and Onion servers."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bitcoindevkit/rust-electrum-client",
+      "status": "candidate-context",
+      "text": "Audit"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pnpm/pnpm",
+      "status": "candidate-context",
+      "text": "Fast, disk space efficient package manager"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pnpm/pnpm",
+      "status": "candidate-context",
+      "text": "Audit"
     }
   ],
   "candidate_glosses": [
@@ -300,6 +324,18 @@
       "source_repo": "tauri-apps/global-hotkey",
       "status": "candidate",
       "text": "audit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bitcoindevkit/rust-electrum-client",
+      "status": "candidate",
+      "text": "Audit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pnpm/pnpm",
+      "status": "candidate",
+      "text": "Audit"
     }
   ],
   "candidate_related_terms": [
@@ -503,11 +539,29 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": ".github/workflows/audit.yml",
       "source_repo": "tauri-apps/global-hotkey"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/audit.yml",
+      "source_repo": "vaporif/parry-guard"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/audit.yml",
+      "source_repo": "bitcoindevkit/rust-electrum-client"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/audit.yml",
+      "source_repo": "pnpm/pnpm"
     }
   ],
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

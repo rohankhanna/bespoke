@@ -479,6 +479,102 @@
       "source_repo": "LDLINGLINGLING/vllm",
       "status": "candidate-context",
       "text": "pre-commit"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ogx-ai/llama-stack-client-python",
+      "status": "candidate-context",
+      "text": "Python SDK for Llama Stack"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ogx-ai/llama-stack-client-python",
+      "status": "candidate-context",
+      "text": "Pre-commit"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bazelbuild/bazel-central-registry",
+      "status": "candidate-context",
+      "text": "The central registry of Bazel modules for the Bzlmod external dependency system."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bazelbuild/bazel-central-registry",
+      "status": "candidate-context",
+      "text": "pre-commit"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "grok-ai/nn-template",
+      "status": "candidate-context",
+      "text": "Generic template to bootstrap your PyTorch project."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "grok-ai/nn-template",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "asottile/reorder-python-imports",
+      "status": "candidate-context",
+      "text": "Rewrites source to reorder python imports"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "asottile/reorder-python-imports",
+      "status": "candidate-context",
+      "text": "[![build status](https://github.com/asottile/reorder-python-imports/actions/workflows/main.yml/badge.svg)](https://github.com/asottile/reorder-python-imports/actions/workflows/main.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "r-lib/styler",
+      "status": "candidate-context",
+      "text": "Non-invasive pretty printing of R code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "r-lib/styler",
+      "status": "candidate-context",
+      "text": "pre-commit"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "clap-rs/clap",
+      "status": "candidate-context",
+      "text": "A full featured, fast Command Line Argument Parser for Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clap-rs/clap",
+      "status": "candidate-context",
+      "text": "pre-commit"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "autofac/Autofac",
+      "status": "candidate-context",
+      "text": "An addictive .NET IoC container"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "autofac/Autofac",
+      "status": "candidate-context",
+      "text": "pre-commit"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "terraform-aws-modules/terraform-aws-apigateway-v2",
+      "status": "candidate-context",
+      "text": "Terraform module to create AWS API Gateway v2 (HTTP/WebSocket) \ud83c\uddfa\ud83c\udde6"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "terraform-aws-modules/terraform-aws-apigateway-v2",
+      "status": "candidate-context",
+      "text": "Pre-Commit"
     }
   ],
   "candidate_glosses": [
@@ -715,6 +811,54 @@
       "source_repo": "LDLINGLINGLING/vllm",
       "status": "candidate",
       "text": "pre-commit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ogx-ai/llama-stack-client-python",
+      "status": "candidate",
+      "text": "Pre-commit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bazelbuild/bazel-central-registry",
+      "status": "candidate",
+      "text": "pre-commit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "grok-ai/nn-template",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "asottile/reorder-python-imports",
+      "status": "candidate",
+      "text": "[![build status](https://github.com/asottile/reorder-python-imports/actions/workflows/main.yml/badge.svg)](https://github.com/asottile/reorder-python-imports/actions/workflows/main.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "r-lib/styler",
+      "status": "candidate",
+      "text": "pre-commit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clap-rs/clap",
+      "status": "candidate",
+      "text": "pre-commit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "autofac/Autofac",
+      "status": "candidate",
+      "text": "pre-commit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "terraform-aws-modules/terraform-aws-apigateway-v2",
+      "status": "candidate",
+      "text": "Pre-Commit"
     }
   ],
   "candidate_related_terms": [],
@@ -1040,11 +1184,71 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": ".github/workflows/pre-commit.yml",
       "source_repo": "LDLINGLINGLING/vllm"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "ogx-ai/llama-stack-client-python"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "bazelbuild/bazel-central-registry"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "grok-ai/nn-template"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "asottile/reorder-python-imports"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/pre-commit.yaml",
+      "source_repo": "r-lib/styler"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "clap-rs/clap"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "autofac/Autofac"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/precommit.yml",
+      "source_repo": "eclipse-paho/paho.mqtt.python"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "terraform-aws-modules/terraform-aws-apigateway-v2"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/pre-commit.yaml",
+      "source_repo": "pallets/markupsafe"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

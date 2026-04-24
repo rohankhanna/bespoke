@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "netstandard"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "autofac/Autofac",
+      "status": "candidate-context",
+      "text": "An addictive .NET IoC container"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "autofac/Autofac",
+      "status": "candidate-context",
+      "text": "<!-- markdownlint-disable MD041 -->"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "autofac/Autofac",
+      "status": "candidate",
+      "text": "<!-- markdownlint-disable MD041 -->"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "netstandard",
+  "concept_id": "netstandard",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "autofac/Autofac"
+    }
+  ],
+  "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "netstandard",
+      "sense_id": "netstandard#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

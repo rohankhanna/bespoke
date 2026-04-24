@@ -19,6 +19,30 @@
       "source_repo": "helm/kind-action",
       "status": "candidate-context",
       "text": "[![](https://github.com/helm/kind-action/workflows/Test/badge.svg?branch=main)](https://github.com/helm/kind-action/actions)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jonschlinkert/isobject",
+      "status": "candidate-context",
+      "text": "Is the value an object, and not an array or null?"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jonschlinkert/isobject",
+      "status": "candidate-context",
+      "text": "> Returns true if the value is an object and not an array or null."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jonschlinkert/kind-of",
+      "status": "candidate-context",
+      "text": "Get the native JavaScript type of a value, fast. Used by superstruct, micromatch and many others!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jonschlinkert/kind-of",
+      "status": "candidate-context",
+      "text": "> Get the native type of a value."
     }
   ],
   "candidate_glosses": [
@@ -27,6 +51,18 @@
       "source_repo": "helm/kind-action",
       "status": "candidate",
       "text": "[![](https://github.com/helm/kind-action/workflows/Test/badge.svg?branch=main)](https://github.com/helm/kind-action/actions)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jonschlinkert/isobject",
+      "status": "candidate",
+      "text": "> Returns true if the value is an object and not an array or null."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jonschlinkert/kind-of",
+      "status": "candidate",
+      "text": "> Get the native type of a value."
     }
   ],
   "candidate_related_terms": [
@@ -112,11 +148,23 @@
       "observed_at": "2026-04-22T18:52:26.467154+00:00",
       "source_file": null,
       "source_repo": "helm/kind-action"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "jonschlinkert/isobject"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "jonschlinkert/kind-of"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

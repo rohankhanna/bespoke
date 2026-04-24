@@ -1,0 +1,115 @@
+{
+  "aliases": [
+    "bazaar"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "adelarsq/neovcs.vim",
+      "status": "candidate-context",
+      "text": "VCS support for Neovim \ud83c\udf31"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adelarsq/neovcs.vim",
+      "status": "candidate-context",
+      "text": "VCS support for Neovim"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adelarsq/neovcs.vim",
+      "status": "candidate",
+      "text": "VCS support for Neovim"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39978694,
+      "status": "candidate",
+      "text": "bazar"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39954320,
+      "status": "candidate",
+      "text": "fair"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30048484,
+      "status": "candidate",
+      "text": "store"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30037061,
+      "status": "candidate",
+      "text": "fairground"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30032387,
+      "status": "candidate",
+      "text": "market"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 27061,
+      "status": "candidate",
+      "text": "fair"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 3019,
+      "status": "candidate",
+      "text": "bazar"
+    }
+  ],
+  "canonical_name": "bazaar",
+  "concept_id": "bazaar",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "adelarsq/neovcs.vim"
+    }
+  ],
+  "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "bazaar",
+      "sense_id": "bazaar#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

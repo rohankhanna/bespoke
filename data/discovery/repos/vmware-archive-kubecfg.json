@@ -1,0 +1,115 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "vmware-archive/kubecfg",
+      "target": "kubecfg/kubecfg",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "vmware-archive/kubecfg",
+      "target": "bitnami/kubecfg",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vmware-archive/kubecfg",
+      "target": "infrastructure-as-code",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vmware-archive/kubecfg",
+      "target": "jsonnet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vmware-archive/kubecfg",
+      "target": "kubernernetes-resources",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vmware-archive/kubecfg",
+      "target": "kubernetes",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T01:55:56.429218+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3235
+    },
+    {
+      "path": "go.mod",
+      "size": 1409
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "A tool for managing complex enterprise Kubernetes environments as code.",
+    "fork": false,
+    "full_name": "vmware-archive/kubecfg",
+    "html_url": "https://github.com/vmware-archive/kubecfg",
+    "language": "Go",
+    "pushed_at": "2021-11-17T14:38:55Z",
+    "stargazers_count": 725,
+    "topics": [
+      "infrastructure-as-code",
+      "jsonnet",
+      "kubernernetes-resources",
+      "kubernetes"
+    ],
+    "updated_at": "2026-02-28T08:27:21Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bitnami/kubecfg",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kubecfg/kubecfg",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![Build Status](https://app.travis-ci.com/bitnami/kubecfg.svg?branch=main)](https://app.travis-ci.com/github/bitnami/kubecfg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "infrastructure-as-code"
+    },
+    {
+      "context_snippet": "[![Build Status](https://app.travis-ci.com/bitnami/kubecfg.svg?branch=main)](https://app.travis-ci.com/github/bitnami/kubecfg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "jsonnet"
+    },
+    {
+      "context_snippet": "[![Build Status](https://app.travis-ci.com/bitnami/kubecfg.svg?branch=main)](https://app.travis-ci.com/github/bitnami/kubecfg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kubernernetes-resources"
+    },
+    {
+      "context_snippet": "[![Build Status](https://app.travis-ci.com/bitnami/kubecfg.svg?branch=main)](https://app.travis-ci.com/github/bitnami/kubecfg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kubernetes"
+    }
+  ]
+}

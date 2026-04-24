@@ -84,7 +84,7 @@
   "normalized_form": "issue-processing",
   "observation_id": "a894e8e5534a93aa",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_at": "2026-04-24T00:33:56.049672+00:00",
   "observed_text": "Issue processing",
   "source_context_snippet": "Issue processing",
   "source_file": ".github/workflows/blazor-hybrid-issue-processing.yml",

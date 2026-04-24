@@ -43,6 +43,18 @@
       "source_repo": "hashicorp/consul",
       "status": "candidate-context",
       "text": "<h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hashicorp/vault",
+      "status": "candidate-context",
+      "text": "A tool for secrets management, encryption as a service, and privileged access management"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hashicorp/vault",
+      "status": "candidate-context",
+      "text": "----"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "hashicorp/consul",
       "status": "candidate",
       "text": "<h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hashicorp/vault",
+      "status": "candidate",
+      "text": "----"
     }
   ],
   "candidate_related_terms": [
@@ -153,11 +171,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "hashicorp/consul"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "hashicorp/vault"
     }
   ],
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

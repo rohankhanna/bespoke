@@ -1,0 +1,78 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "pyproject.toml",
+      "source_repo": "Force1ess/python-pptx",
+      "target": "scanny/python-pptx",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "Force1ess/python-pptx",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "Force1ess/python-pptx",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-24T01:43:51.587273+00:00",
+  "fetched_files": [
+    {
+      "path": "README.rst",
+      "size": 1092
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 4354
+    },
+    {
+      "path": "requirements.txt",
+      "size": 111
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 860
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Create Open XML PowerPoint documents in Python",
+    "fork": true,
+    "full_name": "Force1ess/python-pptx",
+    "html_url": "https://github.com/Force1ess/python-pptx",
+    "language": "Python",
+    "pushed_at": "2025-04-09T07:59:57Z",
+    "stargazers_count": 7,
+    "topics": [],
+    "updated_at": "2025-08-25T06:29:49Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "scanny/python-pptx",
+      "source_file": "pyproject.toml"
+    }
+  ],
+  "terms": []
+}

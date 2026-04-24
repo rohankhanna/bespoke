@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Minimalistic Rust toolkit for hash function quality analysis. Tests avalanche effect, differential patterns, and statistical distribution across variable-length n-grams."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![HashEvals](https://github.com/ashvardanian/ashvardanian/blob/master/repositories/HashEvals.jpg?raw=true)](https://github.com/ashvardanian/HashEvals)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![HashEvals](https://github.com/ashvardanian/ashvardanian/blob/master/repositories/HashEvals.jpg?raw=true)](https://github.com/ashvardanian/HashEvals)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10023166,
+      "status": "candidate",
+      "text": "hashtable"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10023165,
+      "status": "candidate",
+      "text": "streetmap"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10023164,
+      "status": "candidate",
+      "text": "hashmark"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10023163,
+      "status": "candidate",
+      "text": "mindmap"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10023162,
+      "status": "candidate",
+      "text": "maple-leaf"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "hashmap",
+      "sense_id": "hashmap#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "hashmap",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "hashmap",
+  "observation_id": "5875443c5834412b",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T00:33:56.049672+00:00",
+  "observed_text": "hashmap",
+  "source_context_snippet": "[![HashEvals](https://github.com/ashvardanian/ashvardanian/blob/master/repositories/HashEvals.jpg?raw=true)](https://github.com/ashvardanian/HashEvals)",
+  "source_file": null,
+  "source_repo": "ashvardanian/HashEvals",
+  "source_repo_description": "Minimalistic Rust toolkit for hash function quality analysis. Tests avalanche effect, differential patterns, and statistical distribution across variable-length n-grams."
+}

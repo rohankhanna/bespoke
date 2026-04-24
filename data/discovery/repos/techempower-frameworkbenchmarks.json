@@ -1,0 +1,338 @@
+{
+  "components": [
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "mattes/cached-docker-build-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "dependabot/fetch-metadata@v1.1.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/get-maintainers.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/get-maintainers.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/get-maintainers.yml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/label-failing-pr.yml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/label-failing-pr.yml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ping-maintainers.yml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ping-maintainers.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "TechEmpower/FrameworkBenchmarks",
+      "target": "joeyleeeeeee97/plaintextresultsparser",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Dockerfile",
+      "source_repo": "TechEmpower/FrameworkBenchmarks",
+      "target": "scottchiefbaker/dool",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "TechEmpower/FrameworkBenchmarks",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "TechEmpower/FrameworkBenchmarks",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "TechEmpower/FrameworkBenchmarks",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "TechEmpower/FrameworkBenchmarks",
+      "target": "mattes/cached-docker-build-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "TechEmpower/FrameworkBenchmarks",
+      "target": "dependabot/fetch-metadata@v1.1.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "TechEmpower/FrameworkBenchmarks",
+      "target": "build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/get-maintainers.yml",
+      "source_repo": "TechEmpower/FrameworkBenchmarks",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/get-maintainers.yml",
+      "source_repo": "TechEmpower/FrameworkBenchmarks",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/get-maintainers.yml",
+      "source_repo": "TechEmpower/FrameworkBenchmarks",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/get-maintainers.yml",
+      "source_repo": "TechEmpower/FrameworkBenchmarks",
+      "target": "get-maintainers",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/label-failing-pr.yml",
+      "source_repo": "TechEmpower/FrameworkBenchmarks",
+      "target": "actions/github-script@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/label-failing-pr.yml",
+      "source_repo": "TechEmpower/FrameworkBenchmarks",
+      "target": "Label PR if failed",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ping-maintainers.yml",
+      "source_repo": "TechEmpower/FrameworkBenchmarks",
+      "target": "actions/github-script@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ping-maintainers.yml",
+      "source_repo": "TechEmpower/FrameworkBenchmarks",
+      "target": "Ping Maintainers",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "TechEmpower/FrameworkBenchmarks",
+      "target": "benchmark",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "TechEmpower/FrameworkBenchmarks",
+      "target": "framework",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "TechEmpower/FrameworkBenchmarks",
+      "target": "frameworkbenchmarks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "TechEmpower/FrameworkBenchmarks",
+      "target": "performance",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "TechEmpower/FrameworkBenchmarks",
+      "target": "suite",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T01:52:01.697399+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6650
+    },
+    {
+      "path": "Dockerfile",
+      "size": 1501
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 8551
+    },
+    {
+      "path": ".github/workflows/get-maintainers.yml",
+      "size": 1235
+    },
+    {
+      "path": ".github/workflows/label-failing-pr.yml",
+      "size": 1755
+    },
+    {
+      "path": ".github/workflows/ping-maintainers.yml",
+      "size": 1774
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "Source for the TechEmpower Framework Benchmarks project",
+    "fork": false,
+    "full_name": "TechEmpower/FrameworkBenchmarks",
+    "html_url": "https://github.com/TechEmpower/FrameworkBenchmarks",
+    "language": "C++",
+    "pushed_at": "2026-03-24T01:39:18Z",
+    "stargazers_count": 8111,
+    "topics": [
+      "benchmark",
+      "framework",
+      "frameworkbenchmarks",
+      "performance",
+      "suite"
+    ],
+    "updated_at": "2026-04-19T12:02:49Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "joeyleeeeeee97/plaintextresultsparser",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "scottchiefbaker/dool",
+      "source_file": "Dockerfile"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "build"
+    },
+    {
+      "context_snippet": "get-maintainers",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/get-maintainers.yml",
+      "term": "get-maintainers"
+    },
+    {
+      "context_snippet": "Label PR if failed",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/label-failing-pr.yml",
+      "term": "Label PR if failed"
+    },
+    {
+      "context_snippet": "Ping Maintainers",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ping-maintainers.yml",
+      "term": "Ping Maintainers"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/TechEmpower/FrameworkBenchmarks/workflows/build/badge.svg?branch=master&event=push)](https://github.com/TechEmpower/FrameworkBenchmarks/actions?query=workflow%3Abuild+branch%3Amaster)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "benchmark"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/TechEmpower/FrameworkBenchmarks/workflows/build/badge.svg?branch=master&event=push)](https://github.com/TechEmpower/FrameworkBenchmarks/actions?query=workflow%3Abuild+branch%3Amaster)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "framework"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/TechEmpower/FrameworkBenchmarks/workflows/build/badge.svg?branch=master&event=push)](https://github.com/TechEmpower/FrameworkBenchmarks/actions?query=workflow%3Abuild+branch%3Amaster)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "frameworkbenchmarks"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/TechEmpower/FrameworkBenchmarks/workflows/build/badge.svg?branch=master&event=push)](https://github.com/TechEmpower/FrameworkBenchmarks/actions?query=workflow%3Abuild+branch%3Amaster)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "performance"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/TechEmpower/FrameworkBenchmarks/workflows/build/badge.svg?branch=master&event=push)](https://github.com/TechEmpower/FrameworkBenchmarks/actions?query=workflow%3Abuild+branch%3Amaster)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "suite"
+    }
+  ]
+}

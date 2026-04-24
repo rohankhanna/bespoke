@@ -84,7 +84,7 @@
   "normalized_form": "container-security-scan",
   "observation_id": "8d1f88471735e1fe",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-23T04:27:42.433064+00:00",
+  "observed_at": "2026-04-24T00:33:56.049672+00:00",
   "observed_text": "container security scan",
   "source_context_snippet": "container security scan",
   "source_file": ".github/workflows/container-security-scan.yml",

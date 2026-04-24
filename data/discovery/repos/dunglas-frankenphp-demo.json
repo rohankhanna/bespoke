@@ -1,0 +1,100 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dunglas/frankenphp-demo",
+      "target": "dunglas/frankenphp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dunglas/frankenphp-demo",
+      "target": "api-platform",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dunglas/frankenphp-demo",
+      "target": "frankenphp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dunglas/frankenphp-demo",
+      "target": "golang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dunglas/frankenphp-demo",
+      "target": "symfony",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T01:49:42.225639+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2145
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Demo app for FrankenPHP",
+    "fork": false,
+    "full_name": "dunglas/frankenphp-demo",
+    "html_url": "https://github.com/dunglas/frankenphp-demo",
+    "language": "HTML",
+    "pushed_at": "2025-04-14T15:19:00Z",
+    "stargazers_count": 203,
+    "topics": [
+      "api-platform",
+      "frankenphp",
+      "golang",
+      "php",
+      "symfony"
+    ],
+    "updated_at": "2026-03-22T23:21:26Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dunglas/frankenphp",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "A demo app using [FrankenPHP](https://frankenphp.dev) that uses",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "api-platform"
+    },
+    {
+      "context_snippet": "A demo app using [FrankenPHP](https://frankenphp.dev) that uses",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "frankenphp"
+    },
+    {
+      "context_snippet": "A demo app using [FrankenPHP](https://frankenphp.dev) that uses",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "golang"
+    },
+    {
+      "context_snippet": "A demo app using [FrankenPHP](https://frankenphp.dev) that uses",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "symfony"
+    }
+  ]
+}

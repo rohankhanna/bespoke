@@ -1,0 +1,128 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "Squirrel/Squirrel.Windows",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "Squirrel/Squirrel.Windows",
+      "target": "actions/upload-artifact@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "Squirrel/Squirrel.Windows",
+      "target": "Build Squirrel",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Squirrel/Squirrel.Windows",
+      "target": "c-sharp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Squirrel/Squirrel.Windows",
+      "target": "installer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Squirrel/Squirrel.Windows",
+      "target": "squirrel",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Squirrel/Squirrel.Windows",
+      "target": "windows",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T01:56:42.790327+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2608
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 787
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "develop",
+    "description": "An installation and update framework for Windows desktop apps",
+    "fork": false,
+    "full_name": "Squirrel/Squirrel.Windows",
+    "html_url": "https://github.com/Squirrel/Squirrel.Windows",
+    "language": "C++",
+    "pushed_at": "2024-07-24T10:06:45Z",
+    "stargazers_count": 7934,
+    "topics": [
+      "c-sharp",
+      "installer",
+      "squirrel",
+      "windows"
+    ],
+    "updated_at": "2026-04-23T16:24:26Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Build Squirrel",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "Build Squirrel"
+    },
+    {
+      "context_snippet": "| README.md |",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "c-sharp"
+    },
+    {
+      "context_snippet": "| README.md |",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "installer"
+    },
+    {
+      "context_snippet": "| README.md |",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "squirrel"
+    },
+    {
+      "context_snippet": "| README.md |",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "windows"
+    }
+  ]
+}

@@ -859,6 +859,306 @@
       "source_repo": "sbdchd/neoformat",
       "status": "candidate-context",
       "text": "A (Neo)vim plugin for formatting code."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "anuvyklack/hydra.nvim",
+      "status": "candidate-context",
+      "text": "Create custom submodes and menus"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "anuvyklack/hydra.nvim",
+      "status": "candidate-context",
+      "text": "<!-- <img align=\"right\" width=\"300\" src=\"./hydra.png\"> -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "DanilaMihailov/beacon.nvim",
+      "status": "candidate-context",
+      "text": "Whenever cursor jumps some distance or moves between windows, it will flash so you can see where it is"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DanilaMihailov/beacon.nvim",
+      "status": "candidate-context",
+      "text": "Highlight cursor when it moves, changes windows and more!"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tiagovla/scope.nvim",
+      "status": "candidate-context",
+      "text": "Revolutionize Your Neovim Tab Workflow: Introducing Enhanced Tab Scoping!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tiagovla/scope.nvim",
+      "status": "candidate-context",
+      "text": "**Revolutionize Your Neovim Tab Workflow: Introducing Enhanced Tab Scoping!**"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "anuvyklack/windows.nvim",
+      "status": "candidate-context",
+      "text": "Automatically expand width of the current window. Maximizes and restore it. And all this with nice animations!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "anuvyklack/windows.nvim",
+      "status": "candidate-context",
+      "text": "- Automatically expand width of the current window;"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "edluffy/specs.nvim",
+      "status": "candidate-context",
+      "text": "\ud83d\udc53 A fast and lightweight Neovim lua plugin to keep an eye on where your cursor has jumped."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "edluffy/specs.nvim",
+      "status": "candidate-context",
+      "text": "Show where your cursor moves when jumping large distances (e.g between windows). Fast and lightweight, written completely in Lua."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "karb94/neoscroll.nvim",
+      "status": "candidate-context",
+      "text": "Smooth scrolling neovim plugin written in lua"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "karb94/neoscroll.nvim",
+      "status": "candidate-context",
+      "text": "https://user-images.githubusercontent.com/41967813/121818668-7b36c800-cc80-11eb-8c3a-45a4767b8f05.mp4"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "liuchengxu/vista.vim",
+      "status": "candidate-context",
+      "text": ":cactus: Viewer & Finder for LSP symbols and tags"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "liuchengxu/vista.vim",
+      "status": "candidate-context",
+      "text": "[![CI](https://github.com/liuchengxu/vista.vim/workflows/ci/badge.svg)](https://github.com/liuchengxu/vista.vim/actions?workflow=ci)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "high-moctane/asyncomplete-nextword.vim",
+      "status": "candidate-context",
+      "text": "Provides intelligent English autocomplete for asyncomplete.vim via nextword"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "high-moctane/asyncomplete-nextword.vim",
+      "status": "candidate-context",
+      "text": "Provides intelligent English autocomplete for asyncomplete.vim via nextword."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nvim-mini/mini.pick",
+      "status": "candidate-context",
+      "text": "Pick anything. Part of 'mini.nvim' library. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nvim-mini/mini.pick",
+      "status": "candidate-context",
+      "text": "<p align=\"center\"> <img src=\"https://github.com/nvim-mini/assets/blob/main/logo-2/logo-pick_readme.png?raw=true\" alt=\"mini.pick\" style=\"max-width:100%;border:solid 2px\"/> </p>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "adelarsq/neoline.vim",
+      "status": "candidate-context",
+      "text": "Status Line for Neovim focused on beauty and performance \u2705\ud83d\udc99\ud83d\udc9b\ud83e\udd0d\ud83d\udc9a"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adelarsq/neoline.vim",
+      "status": "candidate-context",
+      "text": "**IMPORTANT: Requires Neovim Nightly**"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "adelarsq/neovcs.vim",
+      "status": "candidate-context",
+      "text": "VCS support for Neovim \ud83c\udf31"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adelarsq/neovcs.vim",
+      "status": "candidate-context",
+      "text": "VCS support for Neovim"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rbong/vim-flog",
+      "status": "candidate-context",
+      "text": "A blazingly fast, stunningly beautiful, exceptionally powerful git branch viewer for Vim/Neovim."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rbong/vim-flog",
+      "status": "candidate-context",
+      "text": "[![test status](https://github.com/rbong/vim-flog/actions/workflows/test.yml/badge.svg?branch=master)](https://github.com/rbong/vim-flog/actions)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "stevearc/conform.nvim",
+      "status": "candidate-context",
+      "text": "Lightweight yet powerful formatter plugin for Neovim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stevearc/conform.nvim",
+      "status": "candidate-context",
+      "text": "Lightweight yet powerful formatter plugin for Neovim"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "stevearc/stickybuf.nvim",
+      "status": "candidate-context",
+      "text": "Neovim plugin for locking a buffer to a window"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stevearc/stickybuf.nvim",
+      "status": "candidate-context",
+      "text": "Neovim plugin for locking a buffer to a window"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "neoclide/coc-yaml",
+      "status": "candidate-context",
+      "text": "Yaml language server extension for coc.nvim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "neoclide/coc-yaml",
+      "status": "candidate-context",
+      "text": "coc-yaml \u2014 yaml extension for coc.nvim"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ms-jpq/coq_nvim",
+      "status": "candidate-context",
+      "text": "Fast as FUCK nvim completion. SQLite, concurrent scheduler, hundreds of hours of optimization."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ms-jpq/coq_nvim",
+      "status": "candidate-context",
+      "text": "Named after the [famous theorem prover](https://coq.inria.fr/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kristijanhusak/vim-dadbod-ui",
+      "status": "candidate-context",
+      "text": "Simple UI for https://github.com/tpope/vim-dadbod"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kristijanhusak/vim-dadbod-ui",
+      "status": "candidate-context",
+      "text": "Simple UI for [vim-dadbod](https://github.com/tpope/vim-dadbod)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "saghen/blink.cmp",
+      "status": "candidate-context",
+      "text": "Performant, batteries-included completion plugin for Neovim "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "saghen/blink.cmp",
+      "status": "candidate-context",
+      "text": "> [!WARNING]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Shougo/ddc.vim",
+      "status": "candidate-context",
+      "text": "Dark deno-powered completion framework for Vim/Neovim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Shougo/ddc.vim",
+      "status": "candidate-context",
+      "text": "> Dark deno-powered completion framework for Vim/Neovim"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lambdalisue/vim-gin",
+      "status": "candidate-context",
+      "text": "\ud83e\udd43  Gin makes you drunk on Git"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lambdalisue/vim-gin",
+      "status": "candidate-context",
+      "text": "[![MIT License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Shougo/ddu.vim",
+      "status": "candidate-context",
+      "text": "Dark deno-powered UI framework for Vim/Neovim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Shougo/ddu.vim",
+      "status": "candidate-context",
+      "text": "> Dark deno-powered UI framework for Vim/Neovim"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vim-denops/denops-shared-server.vim",
+      "status": "candidate-context",
+      "text": "\ud83c\udf83 Vim plugin to help install/uninstall denops-shared-server"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vim-denops/denops-shared-server.vim",
+      "status": "candidate-context",
+      "text": "[![Denops.vim 7.0.0 or above]][Denops.vim-v7.0.0]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ggandor/lightspeed.nvim",
+      "status": "candidate-context",
+      "text": "deprecated in favor of leap.nvim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ggandor/lightspeed.nvim",
+      "status": "candidate-context",
+      "text": "Lightspeed has been deprecated in favor of"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rcarriga/nvim-dap-ui",
+      "status": "candidate-context",
+      "text": "A UI for nvim-dap"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rcarriga/nvim-dap-ui",
+      "status": "candidate-context",
+      "text": "A UI for [nvim-dap](https://github.com/mfussenegger/nvim-dap) which provides a"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "notomo/vusted",
+      "status": "candidate-context",
+      "text": "A busted wrapper for testing neovim plugin"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "notomo/vusted",
+      "status": "candidate-context",
+      "text": "[busted](https://github.com/lunarmodules/busted) wrapper for testing neovim plugin"
     }
   ],
   "candidate_glosses": [
@@ -1287,6 +1587,156 @@
       "source_repo": "sbdchd/neoformat",
       "status": "candidate",
       "text": "A (Neo)vim plugin for formatting code."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "anuvyklack/hydra.nvim",
+      "status": "candidate",
+      "text": "<!-- <img align=\"right\" width=\"300\" src=\"./hydra.png\"> -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DanilaMihailov/beacon.nvim",
+      "status": "candidate",
+      "text": "Highlight cursor when it moves, changes windows and more!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tiagovla/scope.nvim",
+      "status": "candidate",
+      "text": "**Revolutionize Your Neovim Tab Workflow: Introducing Enhanced Tab Scoping!**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "anuvyklack/windows.nvim",
+      "status": "candidate",
+      "text": "- Automatically expand width of the current window;"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "edluffy/specs.nvim",
+      "status": "candidate",
+      "text": "Show where your cursor moves when jumping large distances (e.g between windows). Fast and lightweight, written completely in Lua."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "karb94/neoscroll.nvim",
+      "status": "candidate",
+      "text": "https://user-images.githubusercontent.com/41967813/121818668-7b36c800-cc80-11eb-8c3a-45a4767b8f05.mp4"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "liuchengxu/vista.vim",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/liuchengxu/vista.vim/workflows/ci/badge.svg)](https://github.com/liuchengxu/vista.vim/actions?workflow=ci)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "high-moctane/asyncomplete-nextword.vim",
+      "status": "candidate",
+      "text": "Provides intelligent English autocomplete for asyncomplete.vim via nextword."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nvim-mini/mini.pick",
+      "status": "candidate",
+      "text": "<p align=\"center\"> <img src=\"https://github.com/nvim-mini/assets/blob/main/logo-2/logo-pick_readme.png?raw=true\" alt=\"mini.pick\" style=\"max-width:100%;border:solid 2px\"/> </p>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adelarsq/neoline.vim",
+      "status": "candidate",
+      "text": "**IMPORTANT: Requires Neovim Nightly**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adelarsq/neovcs.vim",
+      "status": "candidate",
+      "text": "VCS support for Neovim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rbong/vim-flog",
+      "status": "candidate",
+      "text": "[![test status](https://github.com/rbong/vim-flog/actions/workflows/test.yml/badge.svg?branch=master)](https://github.com/rbong/vim-flog/actions)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stevearc/conform.nvim",
+      "status": "candidate",
+      "text": "Lightweight yet powerful formatter plugin for Neovim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stevearc/stickybuf.nvim",
+      "status": "candidate",
+      "text": "Neovim plugin for locking a buffer to a window"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "neoclide/coc-yaml",
+      "status": "candidate",
+      "text": "coc-yaml \u2014 yaml extension for coc.nvim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ms-jpq/coq_nvim",
+      "status": "candidate",
+      "text": "Named after the [famous theorem prover](https://coq.inria.fr/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kristijanhusak/vim-dadbod-ui",
+      "status": "candidate",
+      "text": "Simple UI for [vim-dadbod](https://github.com/tpope/vim-dadbod)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "saghen/blink.cmp",
+      "status": "candidate",
+      "text": "> [!WARNING]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Shougo/ddc.vim",
+      "status": "candidate",
+      "text": "> Dark deno-powered completion framework for Vim/Neovim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lambdalisue/vim-gin",
+      "status": "candidate",
+      "text": "[![MIT License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Shougo/ddu.vim",
+      "status": "candidate",
+      "text": "> Dark deno-powered UI framework for Vim/Neovim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vim-denops/denops-shared-server.vim",
+      "status": "candidate",
+      "text": "[![Denops.vim 7.0.0 or above]][Denops.vim-v7.0.0]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ggandor/lightspeed.nvim",
+      "status": "candidate",
+      "text": "Lightspeed has been deprecated in favor of"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rcarriga/nvim-dap-ui",
+      "status": "candidate",
+      "text": "A UI for [nvim-dap](https://github.com/mfussenegger/nvim-dap) which provides a"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "notomo/vusted",
+      "status": "candidate",
+      "text": "[busted](https://github.com/lunarmodules/busted) wrapper for testing neovim plugin"
     }
   ],
   "candidate_related_terms": [],
@@ -1756,11 +2206,185 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "sbdchd/neoformat"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "anuvyklack/hydra.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "DanilaMihailov/beacon.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "tiagovla/scope.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "anuvyklack/windows.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "edluffy/specs.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "karb94/neoscroll.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "andersevenrud/cmp-tmux"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "liuchengxu/vista.vim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "high-moctane/asyncomplete-nextword.vim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "nvim-mini/mini.pick"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "adelarsq/neoline.vim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "adelarsq/neovcs.vim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "adelarsq/vim-emoji-icon-theme"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "rbong/vim-flog"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "stevearc/conform.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "stevearc/stickybuf.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "neoclide/coc-yaml"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "ms-jpq/coq_nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "kristijanhusak/vim-dadbod-ui"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "saghen/blink.cmp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "Shougo/ddc.vim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "lambdalisue/vim-gin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "Shougo/ddu.vim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "vim-denops/denops-shared-server.vim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "dense-analysis/ale"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "nvim-mini/mini.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "ggandor/lightspeed.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "rcarriga/nvim-dap-ui"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "notomo/vusted"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

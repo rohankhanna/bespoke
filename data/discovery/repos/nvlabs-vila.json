@@ -5,6 +5,20 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "NVlabs/VILA",
+      "target": "mit-han-lab/vila-u",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "NVlabs/VILA",
+      "target": "mit-han-lab/tinychatengine",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "NVlabs/VILA",
       "target": "efficient-large-model/vila",
       "target_type": "repository"
     },
@@ -14,23 +28,9 @@
       "source_repo": "NVlabs/VILA",
       "target": "facebookresearch/llama",
       "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "NVlabs/VILA",
-      "target": "mbzuai-oryx/video-chatgpt",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "NVlabs/VILA",
-      "target": "kakaobrain/coyo-dataset",
-      "target_type": "repository"
     }
   ],
-  "fetched_at": "2026-04-23T21:40:41.833342+00:00",
+  "fetched_at": "2026-04-24T02:02:12.529878+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -72,12 +72,12 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "kakaobrain/coyo-dataset",
+      "full_name": "mit-han-lab/tinychatengine",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "mbzuai-oryx/video-chatgpt",
+      "full_name": "mit-han-lab/vila-u",
       "source_file": "README.md"
     }
   ],

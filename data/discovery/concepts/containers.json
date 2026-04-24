@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "containers"
+    "containers",
+    "Containers"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -693,6 +694,66 @@
       "source_repo": "bazel-contrib/rules_img",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apptainer/apptainer",
+      "status": "candidate-context",
+      "text": "Apptainer: Application containers for Linux"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apptainer/apptainer",
+      "status": "candidate-context",
+      "text": "[![CI](https://github.com/apptainer/apptainer/actions/workflows/ci.yml/badge.svg)](https://github.com/apptainer/apptainer/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "89luca89/distrobox",
+      "status": "candidate-context",
+      "text": "Use any linux distribution inside your terminal. Enable both backward and forward compatibility with software and freedom to use whatever distribution you\u2019re more comfortable with. Mirror available at: https://gitlab.com/89luca89/distrobox"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "89luca89/distrobox",
+      "status": "candidate-context",
+      "text": "CI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "chainguard-dev/apko",
+      "status": "candidate-context",
+      "text": "Build OCI images from APK packages directly without Dockerfile"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chainguard-dev/apko",
+      "status": "candidate-context",
+      "text": "Build and publish [OCI container images](https://opencontainers.org/) built from [apk](https://wiki.alpinelinux.org/wiki/Package_management) packages."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "giuseppe/become-root",
+      "status": "candidate-context",
+      "text": "minimal tool for creating a new user namespace with multiple UIDs/GIDs mapped inside"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "giuseppe/become-root",
+      "status": "candidate-context",
+      "text": "become-root"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "stacks-archive/gaia",
+      "status": "candidate-context",
+      "text": "A decentralized high-performance storage system"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stacks-archive/gaia",
+      "status": "candidate-context",
+      "text": "Containers"
     }
   ],
   "candidate_glosses": [
@@ -1037,6 +1098,36 @@
       "source_repo": "bazel-contrib/rules_img",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apptainer/apptainer",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/apptainer/apptainer/actions/workflows/ci.yml/badge.svg)](https://github.com/apptainer/apptainer/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "89luca89/distrobox",
+      "status": "candidate",
+      "text": "CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chainguard-dev/apko",
+      "status": "candidate",
+      "text": "Build and publish [OCI container images](https://opencontainers.org/) built from [apk](https://wiki.alpinelinux.org/wiki/Package_management) packages."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "giuseppe/become-root",
+      "status": "candidate",
+      "text": "become-root"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stacks-archive/gaia",
+      "status": "candidate",
+      "text": "Containers"
     }
   ],
   "candidate_related_terms": [
@@ -1482,11 +1573,59 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "bazel-contrib/rules_img"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "devcontainers/devcontainers.github.io"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "apptainer/apptainer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "89luca89/distrobox"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "moby/moby"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "chainguard-dev/apko"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "containers/podman"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "giuseppe/become-root"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "stacks-archive/gaia"
     }
   ],
   "first_seen_at": "2026-04-18T10:38:37.562216+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Old, obsolete version of the Valida compiler; its replacement will become public later"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Issue Release Workflow"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Issue Release Workflow"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22592,
+      "status": "candidate",
+      "text": "debouch"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22592,
+      "status": "candidate",
+      "text": "effluence"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22592,
+      "status": "candidate",
+      "text": "emanate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22592,
+      "status": "candidate",
+      "text": "flow"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22592,
+      "status": "candidate",
+      "text": "gush"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Issue Release Workflow",
+      "sense_id": "issue-release-workflow#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "issue-release-workflow",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "issue-release-workflow",
+  "observation_id": "a521feaf02985099",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-24T00:33:56.049672+00:00",
+  "observed_text": "Issue Release Workflow",
+  "source_context_snippet": "Issue Release Workflow",
+  "source_file": ".github/workflows/issue-release-workflow.yml",
+  "source_repo": "valida-xyz/valida-compiler",
+  "source_repo_description": "Old, obsolete version of the Valida compiler; its replacement will become public later"
+}

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Publish to WinGet Stable"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vim/vim-win32-installer",
+      "status": "candidate-context",
+      "text": "Vim Win32 Installer"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vim/vim-win32-installer",
+      "status": "candidate-context",
+      "text": "Publish to WinGet Stable"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vim/vim-win32-installer",
+      "status": "candidate",
+      "text": "Publish to WinGet Stable"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11675,
+      "status": "candidate",
+      "text": "sound"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10701,
+      "status": "candidate",
+      "text": "announce"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10701,
+      "status": "candidate",
+      "text": "blow"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10701,
+      "status": "candidate",
+      "text": "cry"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10701,
+      "status": "candidate",
+      "text": "disperse"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Publish to WinGet Stable",
+  "concept_id": "publish-to-winget-stable",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/winget_stable.yml",
+      "source_repo": "vim/vim-win32-installer"
+    }
+  ],
+  "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Publish to WinGet Stable",
+      "sense_id": "publish-to-winget-stable#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Zerocopy makes zero-cost memory manipulation effortless. We write `unsafe` so you don\u2019t have to."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<!-- Copyright 2024 The Fuchsia Authors"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<!-- Copyright 2024 The Fuchsia Authors"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39935132,
+      "status": "candidate",
+      "text": "remembering"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39897787,
+      "status": "candidate",
+      "text": "retention"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39897707,
+      "status": "candidate",
+      "text": "retentiveness"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39873818,
+      "status": "candidate",
+      "text": "storage"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39868756,
+      "status": "candidate",
+      "text": "store"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "memory",
+      "sense_id": "memory#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 23053,
+      "status": "candidate",
+      "text": "retention"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 8054,
+      "status": "candidate",
+      "text": "storage"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 6054,
+      "status": "candidate",
+      "text": "store"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 4022,
+      "status": "candidate",
+      "text": "remembering"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1020,
+      "status": "candidate",
+      "text": "retentiveness"
+    }
+  ],
+  "concept_id": "memory",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "memory",
+  "observation_id": "946580b3ace033a3",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T00:33:56.049672+00:00",
+  "observed_text": "memory",
+  "source_context_snippet": "<!-- Copyright 2024 The Fuchsia Authors",
+  "source_file": null,
+  "source_repo": "google/zerocopy",
+  "source_repo_description": "Zerocopy makes zero-cost memory manipulation effortless. We write `unsafe` so you don\u2019t have to."
+}

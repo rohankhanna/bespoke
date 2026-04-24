@@ -1,0 +1,447 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_mslk_cuda_build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_mslk_cuda_build.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_mslk_cuda_test.yml"
+    },
+    {
+      "component": "pytorch/test-infra/.github/actions/setup-nvidia@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_mslk_cuda_test.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_mslk_cuda_test.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_mslk_cuda_test.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_mslk_generate_ci_matrix.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_mslk_rocm_build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_mslk_rocm_build.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_mslk_rocm_test.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_mslk_rocm_test.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_mslk_rocm_test.yml"
+    },
+    {
+      "component": "pytorch/test-infra/.github/workflows/generate_binary_build_matrix.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_wheels_linux_aarch64.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_wheels_linux_aarch64.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_wheels_linux_aarch64.yml"
+    },
+    {
+      "component": "pytorch/test-infra/.github/workflows/build_wheels_linux.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_wheels_linux_aarch64.yml"
+    },
+    {
+      "component": "pytorch/test-infra/.github/workflows/generate_binary_build_matrix.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_wheels_linux_x86.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_wheels_linux_x86.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_wheels_linux_x86.yml"
+    },
+    {
+      "component": "pytorch/test-infra/.github/workflows/build_wheels_linux.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_wheels_linux_x86.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "meta-pytorch/MSLK",
+      "target": "pytorch/fbgemm",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "requirements.txt",
+      "source_repo": "meta-pytorch/MSLK",
+      "target": "nod-ai/shark",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "requirements.txt",
+      "source_repo": "meta-pytorch/MSLK",
+      "target": "jianyicheng/mase-docker",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_mslk_cuda_build.yml",
+      "source_repo": "meta-pytorch/MSLK",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_mslk_cuda_build.yml",
+      "source_repo": "meta-pytorch/MSLK",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/_mslk_cuda_build.yml",
+      "source_repo": "meta-pytorch/MSLK",
+      "target": "MSLK CUDA Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_mslk_cuda_test.yml",
+      "source_repo": "meta-pytorch/MSLK",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_mslk_cuda_test.yml",
+      "source_repo": "meta-pytorch/MSLK",
+      "target": "pytorch/test-infra/.github/actions/setup-nvidia@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_mslk_cuda_test.yml",
+      "source_repo": "meta-pytorch/MSLK",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_mslk_cuda_test.yml",
+      "source_repo": "meta-pytorch/MSLK",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/_mslk_cuda_test.yml",
+      "source_repo": "meta-pytorch/MSLK",
+      "target": "MSLK CUDA Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_mslk_generate_ci_matrix.yml",
+      "source_repo": "meta-pytorch/MSLK",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/_mslk_generate_ci_matrix.yml",
+      "source_repo": "meta-pytorch/MSLK",
+      "target": "Generate CI Matrix",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_mslk_rocm_build.yml",
+      "source_repo": "meta-pytorch/MSLK",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_mslk_rocm_build.yml",
+      "source_repo": "meta-pytorch/MSLK",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/_mslk_rocm_build.yml",
+      "source_repo": "meta-pytorch/MSLK",
+      "target": "MSLK ROCm Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_mslk_rocm_test.yml",
+      "source_repo": "meta-pytorch/MSLK",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_mslk_rocm_test.yml",
+      "source_repo": "meta-pytorch/MSLK",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_mslk_rocm_test.yml",
+      "source_repo": "meta-pytorch/MSLK",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/_mslk_rocm_test.yml",
+      "source_repo": "meta-pytorch/MSLK",
+      "target": "MSLK ROCm Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_wheels_linux_aarch64.yml",
+      "source_repo": "meta-pytorch/MSLK",
+      "target": "pytorch/test-infra/.github/workflows/generate_binary_build_matrix.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_wheels_linux_aarch64.yml",
+      "source_repo": "meta-pytorch/MSLK",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_wheels_linux_aarch64.yml",
+      "source_repo": "meta-pytorch/MSLK",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_wheels_linux_aarch64.yml",
+      "source_repo": "meta-pytorch/MSLK",
+      "target": "pytorch/test-infra/.github/workflows/build_wheels_linux.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_wheels_linux_aarch64.yml",
+      "source_repo": "meta-pytorch/MSLK",
+      "target": "Build MSLK Aarch64 Linux Wheels",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_wheels_linux_x86.yml",
+      "source_repo": "meta-pytorch/MSLK",
+      "target": "pytorch/test-infra/.github/workflows/generate_binary_build_matrix.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_wheels_linux_x86.yml",
+      "source_repo": "meta-pytorch/MSLK",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_wheels_linux_x86.yml",
+      "source_repo": "meta-pytorch/MSLK",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_wheels_linux_x86.yml",
+      "source_repo": "meta-pytorch/MSLK",
+      "target": "pytorch/test-infra/.github/workflows/build_wheels_linux.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_wheels_linux_x86.yml",
+      "source_repo": "meta-pytorch/MSLK",
+      "target": "Build MSLK x86 Linux Wheels",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/mslk_ci_cuda.yml",
+      "source_repo": "meta-pytorch/MSLK",
+      "target": "MSLK CUDA CI",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T01:59:11.259521+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3476
+    },
+    {
+      "path": "requirements.txt",
+      "size": 641
+    },
+    {
+      "path": ".github/workflows/_mslk_cuda_build.yml",
+      "size": 4524
+    },
+    {
+      "path": ".github/workflows/_mslk_cuda_test.yml",
+      "size": 7161
+    },
+    {
+      "path": ".github/workflows/_mslk_generate_ci_matrix.yml",
+      "size": 2526
+    },
+    {
+      "path": ".github/workflows/_mslk_rocm_build.yml",
+      "size": 4472
+    },
+    {
+      "path": ".github/workflows/_mslk_rocm_test.yml",
+      "size": 6573
+    },
+    {
+      "path": ".github/workflows/build_wheels_linux_aarch64.yml",
+      "size": 2955
+    },
+    {
+      "path": ".github/workflows/build_wheels_linux_x86.yml",
+      "size": 2895
+    },
+    {
+      "path": ".github/workflows/mslk_ci_cuda.yml",
+      "size": 3075
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "MSLK (Meta Superintelligence Labs Kernels) is a collection of PyTorch GPU operator libraries that are designed and optimized for GenAI training and inference, such as FP8 row-wise quantization and collective communications.",
+    "fork": false,
+    "full_name": "meta-pytorch/MSLK",
+    "html_url": "https://github.com/meta-pytorch/MSLK",
+    "language": "Python",
+    "pushed_at": "2026-04-23T19:53:21Z",
+    "stargazers_count": 99,
+    "topics": [],
+    "updated_at": "2026-04-21T00:15:26Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pytorch/fbgemm",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jianyicheng/mase-docker",
+      "source_file": "requirements.txt"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nod-ai/shark",
+      "source_file": "requirements.txt"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "MSLK CUDA Build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/_mslk_cuda_build.yml",
+      "term": "MSLK CUDA Build"
+    },
+    {
+      "context_snippet": "MSLK CUDA Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/_mslk_cuda_test.yml",
+      "term": "MSLK CUDA Test"
+    },
+    {
+      "context_snippet": "Generate CI Matrix",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/_mslk_generate_ci_matrix.yml",
+      "term": "Generate CI Matrix"
+    },
+    {
+      "context_snippet": "MSLK ROCm Build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/_mslk_rocm_build.yml",
+      "term": "MSLK ROCm Build"
+    },
+    {
+      "context_snippet": "MSLK ROCm Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/_mslk_rocm_test.yml",
+      "term": "MSLK ROCm Test"
+    },
+    {
+      "context_snippet": "Build MSLK Aarch64 Linux Wheels",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_wheels_linux_aarch64.yml",
+      "term": "Build MSLK Aarch64 Linux Wheels"
+    },
+    {
+      "context_snippet": "Build MSLK x86 Linux Wheels",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_wheels_linux_x86.yml",
+      "term": "Build MSLK x86 Linux Wheels"
+    },
+    {
+      "context_snippet": "MSLK CUDA CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/mslk_ci_cuda.yml",
+      "term": "MSLK CUDA CI"
+    }
+  ]
+}

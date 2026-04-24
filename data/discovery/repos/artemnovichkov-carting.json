@@ -1,0 +1,173 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/master.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "artemnovichkov/Carting",
+      "target": "actions/checkout@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "artemnovichkov/Carting",
+      "target": "Build and lint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/master.yml",
+      "source_repo": "artemnovichkov/Carting",
+      "target": "actions/checkout@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/master.yml",
+      "source_repo": "artemnovichkov/Carting",
+      "target": "Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "artemnovichkov/Carting",
+      "target": "carthage",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "artemnovichkov/Carting",
+      "target": "homebrew",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "artemnovichkov/Carting",
+      "target": "swift",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "artemnovichkov/Carting",
+      "target": "swift-package-manager",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "artemnovichkov/Carting",
+      "target": "swift-script",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "artemnovichkov/Carting",
+      "target": "xcode",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T00:35:03.900144+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3173
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 284
+    },
+    {
+      "path": ".github/workflows/master.yml",
+      "size": 303
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "\ud83d\ude98 A simple tool for updating Carthage script phase",
+    "fork": false,
+    "full_name": "artemnovichkov/Carting",
+    "html_url": "https://github.com/artemnovichkov/Carting",
+    "language": "Swift",
+    "pushed_at": "2021-10-02T09:45:14Z",
+    "stargazers_count": 184,
+    "topics": [
+      "carthage",
+      "homebrew",
+      "swift",
+      "swift-package-manager",
+      "swift-script",
+      "xcode"
+    ],
+    "updated_at": "2026-03-14T22:21:17Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Build and lint",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "Build and lint"
+    },
+    {
+      "context_snippet": "Build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/master.yml",
+      "term": "Build"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "carthage"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "homebrew"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "swift"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "swift-package-manager"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "swift-script"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "xcode"
+    }
+  ]
+}

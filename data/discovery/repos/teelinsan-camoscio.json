@@ -1,0 +1,139 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "teelinsan/camoscio",
+      "target": "22-hours/cabrita",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "teelinsan/camoscio",
+      "target": "ggerganov/llama.cpp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "teelinsan/camoscio",
+      "target": "crux82/clic-it_2023_tutorial",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "teelinsan/camoscio",
+      "target": "facebookresearch/llama",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "teelinsan/camoscio",
+      "target": "italian",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "teelinsan/camoscio",
+      "target": "language-model",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "teelinsan/camoscio",
+      "target": "llama",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "teelinsan/camoscio",
+      "target": "transformers",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T01:58:50.646339+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 15685
+    },
+    {
+      "path": "requirements.txt",
+      "size": 115
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Camoscio: An Italian instruction-tuned language model based on LLaMA",
+    "fork": false,
+    "full_name": "teelinsan/camoscio",
+    "html_url": "https://github.com/teelinsan/camoscio",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2023-12-05T08:54:50Z",
+    "stargazers_count": 126,
+    "topics": [
+      "italian",
+      "language-model",
+      "llama",
+      "transformers"
+    ],
+    "updated_at": "2026-01-11T15:27:13Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "22-hours/cabrita",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "crux82/clic-it_2023_tutorial",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "facebookresearch/llama",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ggerganov/llama.cpp",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "This repository contains code for Camoscio, an Italian instruction-tuned LLaMA based on [Stanford Alpaca](https://github.com/tatsu-lab/stanford_alpaca) and trained with [low-rank adaptation (LoRA)](https://arxiv.org/pdf/2106.09685.pdf). The companion paper of this repo is availa\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "italian"
+    },
+    {
+      "context_snippet": "This repository contains code for Camoscio, an Italian instruction-tuned LLaMA based on [Stanford Alpaca](https://github.com/tatsu-lab/stanford_alpaca) and trained with [low-rank adaptation (LoRA)](https://arxiv.org/pdf/2106.09685.pdf). The companion paper of this repo is availa\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "language-model"
+    },
+    {
+      "context_snippet": "This repository contains code for Camoscio, an Italian instruction-tuned LLaMA based on [Stanford Alpaca](https://github.com/tatsu-lab/stanford_alpaca) and trained with [low-rank adaptation (LoRA)](https://arxiv.org/pdf/2106.09685.pdf). The companion paper of this repo is availa\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "llama"
+    },
+    {
+      "context_snippet": "This repository contains code for Camoscio, an Italian instruction-tuned LLaMA based on [Stanford Alpaca](https://github.com/tatsu-lab/stanford_alpaca) and trained with [low-rank adaptation (LoRA)](https://arxiv.org/pdf/2106.09685.pdf). The companion paper of this repo is availa\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "transformers"
+    }
+  ]
+}

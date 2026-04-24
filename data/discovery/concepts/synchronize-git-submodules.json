@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Synchronize Git Submodules"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "op-rs/maili",
+      "status": "candidate-context",
+      "text": "Composable rust types and interfaces specific to the OP Stack. Built on Alloy."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "op-rs/maili",
+      "status": "candidate-context",
+      "text": "Synchronize Git Submodules"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "op-rs/maili",
+      "status": "candidate",
+      "text": "Synchronize Git Submodules"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9472,
+      "status": "candidate",
+      "text": "cheek"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9472,
+      "status": "candidate",
+      "text": "head gate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9472,
+      "status": "candidate",
+      "text": "heelpost"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9472,
+      "status": "candidate",
+      "text": "paddle"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9472,
+      "status": "candidate",
+      "text": "paddling"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Synchronize Git Submodules",
+  "concept_id": "synchronize-git-submodules",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/sync.yml",
+      "source_repo": "op-rs/maili"
+    }
+  ],
+  "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Synchronize Git Submodules",
+      "sense_id": "synchronize-git-submodules#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

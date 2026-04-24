@@ -1,0 +1,76 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ocurrent/ocurrent",
+      "target": "ocurrent/ocaml-ci",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ocurrent/ocurrent",
+      "target": "edsl",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ocurrent/ocurrent",
+      "target": "ocaml",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T00:38:40.450024+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1751
+    },
+    {
+      "path": "Dockerfile",
+      "size": 1016
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Keeps things up-to-date (a CI/CD pipeline OCaml eDSL)",
+    "fork": false,
+    "full_name": "ocurrent/ocurrent",
+    "html_url": "https://github.com/ocurrent/ocurrent",
+    "language": "OCaml",
+    "pushed_at": "2026-03-26T16:20:34Z",
+    "stargazers_count": 151,
+    "topics": [
+      "ci",
+      "edsl",
+      "ocaml"
+    ],
+    "updated_at": "2026-03-26T16:20:27Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ocurrent/ocaml-ci",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![OCaml-CI Build Status](https://img.shields.io/endpoint?url=https%3A%2F%2Fci.ocamllabs.io%2Fbadge%2Focurrent%2Focurrent%2Fmaster&logo=ocaml)](https://ci.ocamllabs.io/github/ocurrent/ocurrent)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "edsl"
+    },
+    {
+      "context_snippet": "[![OCaml-CI Build Status](https://img.shields.io/endpoint?url=https%3A%2F%2Fci.ocamllabs.io%2Fbadge%2Focurrent%2Focurrent%2Fmaster&logo=ocaml)](https://ci.ocamllabs.io/github/ocurrent/ocurrent)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ocaml"
+    }
+  ]
+}

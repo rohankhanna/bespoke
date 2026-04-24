@@ -1,7 +1,7 @@
 {
   "component": "peter-evans/create-or-update-comment@a35cf36e5301d70b76f316e867e7788a55a31dae",
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -12,6 +12,16 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/newissue.yml",
       "source_repo": "Textualize/rich"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/comment.yml",
+      "source_repo": "Textualize/textual"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/new_issue.yml",
+      "source_repo": "Textualize/textual"
     }
   ]
 }

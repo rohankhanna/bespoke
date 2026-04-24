@@ -91,6 +91,54 @@
       "source_repo": "alexmojaki/snoop",
       "status": "candidate-context",
       "text": "[![Build Status](https://github.com/alexmojaki/snoop/actions/workflows/pytest.yml/badge.svg)](https://github.com/alexmojaki/snoop/actions/workflows/pytest.yml) [![Supports Python versions 2.7 and 3.5+, including PyPy](https://img.shields.io/pypi/pyversions/snoop.svg)](https://py\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "igorlfs/nvim-dap-view",
+      "status": "candidate-context",
+      "text": "Visualize debugging sessions in neovim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "igorlfs/nvim-dap-view",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rcarriga/nvim-dap-ui",
+      "status": "candidate-context",
+      "text": "A UI for nvim-dap"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rcarriga/nvim-dap-ui",
+      "status": "candidate-context",
+      "text": "A UI for [nvim-dap](https://github.com/mfussenegger/nvim-dap) which provides a"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alexmojaki/birdseye",
+      "status": "candidate-context",
+      "text": "Graphical Python debugger which lets you easily view the values of all evaluated expressions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alexmojaki/birdseye",
+      "status": "candidate-context",
+      "text": "|logo| birdseye"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gruns/icecream",
+      "status": "candidate-context",
+      "text": "\ud83c\udf66 Never use print() to debug again."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gruns/icecream",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -135,6 +183,30 @@
       "source_repo": "alexmojaki/snoop",
       "status": "candidate",
       "text": "[![Build Status](https://github.com/alexmojaki/snoop/actions/workflows/pytest.yml/badge.svg)](https://github.com/alexmojaki/snoop/actions/workflows/pytest.yml) [![Supports Python versions 2.7 and 3.5+, including PyPy](https://img.shields.io/pypi/pyversions/snoop.svg)](https://py\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "igorlfs/nvim-dap-view",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rcarriga/nvim-dap-ui",
+      "status": "candidate",
+      "text": "A UI for [nvim-dap](https://github.com/mfussenegger/nvim-dap) which provides a"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alexmojaki/birdseye",
+      "status": "candidate",
+      "text": "|logo| birdseye"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gruns/icecream",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -226,11 +298,41 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "alexmojaki/snoop"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "igorlfs/nvim-dap-view"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "rcarriga/nvim-dap-ui"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/Microsoft-Performance-Tools-Linux-Android"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "alexmojaki/birdseye"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "gruns/icecream"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

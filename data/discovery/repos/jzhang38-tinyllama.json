@@ -1,0 +1,81 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jzhang38/TinyLlama",
+      "target": "ggerganov/llama.cpp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jzhang38/TinyLlama",
+      "target": "timdettmers/bitsandbytes",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jzhang38/TinyLlama",
+      "target": "lightning-ai/lit-gpt",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "requirements.txt",
+      "source_repo": "jzhang38/TinyLlama",
+      "target": "timdettmers/bitsandbytes",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-24T02:03:29.980361+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 14101
+    },
+    {
+      "path": "requirements.txt",
+      "size": 711
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "The TinyLlama project is an open endeavor to pretrain a 1.1B Llama model on 3 trillion tokens.",
+    "fork": false,
+    "full_name": "jzhang38/TinyLlama",
+    "html_url": "https://github.com/jzhang38/TinyLlama",
+    "language": "Python",
+    "pushed_at": "2024-05-03T20:21:20Z",
+    "stargazers_count": 8948,
+    "topics": [],
+    "updated_at": "2026-04-24T00:10:47Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ggerganov/llama.cpp",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lightning-ai/lit-gpt",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "timdettmers/bitsandbytes",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "timdettmers/bitsandbytes",
+      "source_file": "requirements.txt"
+    }
+  ],
+  "terms": []
+}

@@ -31,6 +31,18 @@
       "source_repo": "antonbabenko/serverless.tf-playground",
       "status": "candidate-context",
       "text": "This repository is a playground for [serverless.tf](https://github.com/antonbabenko/serverless.tf) approach, which aims to simplify all operations when working with the serverless in Terraform."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aws-powertools/powertools-lambda-dotnet",
+      "status": "candidate-context",
+      "text": "Powertools is a developer toolkit to implement Serverless best practices and increase developer velocity."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws-powertools/powertools-lambda-dotnet",
+      "status": "candidate-context",
+      "text": "![aws provider](https://img.shields.io/badge/provider-AWS-orange?logo=amazon-aws&color=ff9900)"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "antonbabenko/serverless.tf-playground",
       "status": "candidate",
       "text": "This repository is a playground for [serverless.tf](https://github.com/antonbabenko/serverless.tf) approach, which aims to simplify all operations when working with the serverless in Terraform."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws-powertools/powertools-lambda-dotnet",
+      "status": "candidate",
+      "text": "![aws provider](https://img.shields.io/badge/provider-AWS-orange?logo=amazon-aws&color=ff9900)"
     }
   ],
   "candidate_related_terms": [],
@@ -64,11 +82,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "antonbabenko/serverless.tf-playground"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "aws-powertools/powertools-lambda-dotnet"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

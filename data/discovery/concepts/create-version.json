@@ -19,12 +19,30 @@
       "source_repo": "FuelLabs/fuel-core",
       "status": "candidate-context",
       "text": "Create version"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "FuelLabs/fuel-vm",
+      "status": "candidate-context",
+      "text": "Fuel v2 interpreter in Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FuelLabs/fuel-vm",
+      "status": "candidate-context",
+      "text": "Create version"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "FuelLabs/fuel-core",
+      "status": "candidate",
+      "text": "Create version"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FuelLabs/fuel-vm",
       "status": "candidate",
       "text": "Create version"
     }
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": ".github/workflows/create_version.yml",
       "source_repo": "FuelLabs/fuel-core"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/create_version.yml",
+      "source_repo": "FuelLabs/fuel-vm"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Comment API baseline deltas on PRs"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dotnet/efcore",
+      "status": "candidate-context",
+      "text": "EF Core is a modern object-database mapper for .NET. It supports LINQ queries, change tracking, updates, and schema migrations."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dotnet/efcore",
+      "status": "candidate-context",
+      "text": "Comment API baseline deltas on PRs"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dotnet/efcore",
+      "status": "candidate",
+      "text": "Comment API baseline deltas on PRs"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20053,
+      "status": "candidate",
+      "text": "film"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19675,
+      "status": "candidate",
+      "text": "filming"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19675,
+      "status": "candidate",
+      "text": "open"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19315,
+      "status": "candidate",
+      "text": "pass"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19313,
+      "status": "candidate",
+      "text": "foul"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Comment API baseline deltas on PRs",
+  "concept_id": "comment-api-baseline-deltas-on-prs",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/api-review-baselines.yml",
+      "source_repo": "dotnet/efcore"
+    }
+  ],
+  "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Comment API baseline deltas on PRs",
+      "sense_id": "comment-api-baseline-deltas-on-prs#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

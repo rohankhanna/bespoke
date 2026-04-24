@@ -490,6 +490,90 @@
       "source_repo": "grpc/grpc-go",
       "status": "candidate-context",
       "text": "Testing"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "martinmoene/lest",
+      "status": "candidate-context",
+      "text": "A modern, C++11-native, single-file header-only, tiny framework for unit-tests, TDD and BDD (includes C++98 variant)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "martinmoene/lest",
+      "status": "candidate-context",
+      "text": "lest &ndash; lest errors escape testing"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aristocratos/bpytop",
+      "status": "candidate-context",
+      "text": "Linux/OSX/FreeBSD resource monitor"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aristocratos/bpytop",
+      "status": "candidate-context",
+      "text": "Testing"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ashvardanian/HashEvals",
+      "status": "candidate-context",
+      "text": "Minimalistic Rust toolkit for hash function quality analysis. Tests avalanche effect, differential patterns, and statistical distribution across variable-length n-grams."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ashvardanian/HashEvals",
+      "status": "candidate-context",
+      "text": "[![HashEvals](https://github.com/ashvardanian/ashvardanian/blob/master/repositories/HashEvals.jpg?raw=true)](https://github.com/ashvardanian/HashEvals)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/playwright",
+      "status": "candidate-context",
+      "text": "Playwright is a framework for Web Testing and Automation. It allows testing Chromium, Firefox and WebKit with a single API. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/playwright",
+      "status": "candidate-context",
+      "text": "[![npm version](https://img.shields.io/npm/v/playwright.svg)](https://www.npmjs.com/package/playwright) <!-- GEN:chromium-version-badge -->[![Chromium version](https://img.shields.io/badge/chromium-147.0.7727.49-blue.svg?logo=google-chrome)](https://www.chromium.org/Home)<!-- GE\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rusty1s/pytorch_cluster",
+      "status": "candidate-context",
+      "text": "PyTorch Extension Library of Optimized Graph Cluster Algorithms"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rusty1s/pytorch_cluster",
+      "status": "candidate-context",
+      "text": "Testing"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rusty1s/pytorch_scatter",
+      "status": "candidate-context",
+      "text": "PyTorch Extension Library of Optimized Scatter Operations"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rusty1s/pytorch_scatter",
+      "status": "candidate-context",
+      "text": "Testing"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rusty1s/pytorch_sparse",
+      "status": "candidate-context",
+      "text": "PyTorch Extension Library of Optimized Autograd Sparse Matrix Operations"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rusty1s/pytorch_sparse",
+      "status": "candidate-context",
+      "text": "Testing"
     }
   ],
   "candidate_glosses": [
@@ -730,6 +814,48 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "grpc/grpc-go",
+      "status": "candidate",
+      "text": "Testing"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "martinmoene/lest",
+      "status": "candidate",
+      "text": "lest &ndash; lest errors escape testing"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aristocratos/bpytop",
+      "status": "candidate",
+      "text": "Testing"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ashvardanian/HashEvals",
+      "status": "candidate",
+      "text": "[![HashEvals](https://github.com/ashvardanian/ashvardanian/blob/master/repositories/HashEvals.jpg?raw=true)](https://github.com/ashvardanian/HashEvals)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/playwright",
+      "status": "candidate",
+      "text": "[![npm version](https://img.shields.io/npm/v/playwright.svg)](https://www.npmjs.com/package/playwright) <!-- GEN:chromium-version-badge -->[![Chromium version](https://img.shields.io/badge/chromium-147.0.7727.49-blue.svg?logo=google-chrome)](https://www.chromium.org/Home)<!-- GE\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rusty1s/pytorch_cluster",
+      "status": "candidate",
+      "text": "Testing"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rusty1s/pytorch_scatter",
+      "status": "candidate",
+      "text": "Testing"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rusty1s/pytorch_sparse",
       "status": "candidate",
       "text": "Testing"
     }
@@ -1041,11 +1167,59 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": ".github/workflows/testing.yml",
       "source_repo": "grpc/grpc-go"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "martinmoene/lest"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/testing.yml",
+      "source_repo": "aristocratos/bpytop"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "ashvardanian/HashEvals"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "puppeteer/puppeteer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/playwright"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/testing.yml",
+      "source_repo": "rusty1s/pytorch_cluster"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/testing.yml",
+      "source_repo": "rusty1s/pytorch_scatter"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/testing.yml",
+      "source_repo": "rusty1s/pytorch_sparse"
     }
   ],
   "first_seen_at": "2026-04-18T13:15:13.756138+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

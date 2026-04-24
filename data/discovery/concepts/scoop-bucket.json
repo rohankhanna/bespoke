@@ -31,6 +31,42 @@
       "source_repo": "ScoopInstaller/Extras",
       "status": "candidate-context",
       "text": "Extra manifests for [Scoop](https://scoop.sh), the Windows command-line installer. For manifests that don't fit the [Main criteria](https://github.com/ScoopInstaller/Scoop/wiki/Criteria-for-including-apps-in-the-main-bucket)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Calinou/scoop-games",
+      "status": "candidate-context",
+      "text": "Scoop bucket for open source/freeware games and game-related tools"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Calinou/scoop-games",
+      "status": "candidate-context",
+      "text": "A [Scoop](https://scoop.sh/) bucket for open source/freeware games and game-related tools."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "matthewjberger/scoop-nerd-fonts",
+      "status": "candidate-context",
+      "text": "A scoop bucket for installing nerd fonts"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "matthewjberger/scoop-nerd-fonts",
+      "status": "candidate-context",
+      "text": "This repo contains manifests for installing [Nerd Fonts](https://github.com/ryanoasis/nerd-fonts) and various other fonts using the [scoop package manager](https://github.com/lukesampson/scoop) for Windows."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "niheaven/scoop-sysinternals",
+      "status": "candidate-context",
+      "text": "Scoop bucket for Sysinternals"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "niheaven/scoop-sysinternals",
+      "status": "candidate-context",
+      "text": "[![Tests](https://github.com/niheaven/scoop-sysinternals/actions/workflows/ci.yml/badge.svg)](https://github.com/niheaven/scoop-sysinternals/actions/workflows/ci.yml) [![Excavator](https://github.com/niheaven/scoop-sysinternals/actions/workflows/excavator.yml/badge.svg)](https:/\u2026"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +81,24 @@
       "source_repo": "ScoopInstaller/Extras",
       "status": "candidate",
       "text": "Extra manifests for [Scoop](https://scoop.sh), the Windows command-line installer. For manifests that don't fit the [Main criteria](https://github.com/ScoopInstaller/Scoop/wiki/Criteria-for-including-apps-in-the-main-bucket)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Calinou/scoop-games",
+      "status": "candidate",
+      "text": "A [Scoop](https://scoop.sh/) bucket for open source/freeware games and game-related tools."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "matthewjberger/scoop-nerd-fonts",
+      "status": "candidate",
+      "text": "This repo contains manifests for installing [Nerd Fonts](https://github.com/ryanoasis/nerd-fonts) and various other fonts using the [scoop package manager](https://github.com/lukesampson/scoop) for Windows."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "niheaven/scoop-sysinternals",
+      "status": "candidate",
+      "text": "[![Tests](https://github.com/niheaven/scoop-sysinternals/actions/workflows/ci.yml/badge.svg)](https://github.com/niheaven/scoop-sysinternals/actions/workflows/ci.yml) [![Excavator](https://github.com/niheaven/scoop-sysinternals/actions/workflows/excavator.yml/badge.svg)](https:/\u2026"
     }
   ],
   "candidate_related_terms": [],
@@ -64,11 +118,29 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "ScoopInstaller/Extras"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "Calinou/scoop-games"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "matthewjberger/scoop-nerd-fonts"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "niheaven/scoop-sysinternals"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

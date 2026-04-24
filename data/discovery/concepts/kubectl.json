@@ -91,6 +91,18 @@
       "source_repo": "c-bata/kube-prompt",
       "status": "candidate-context",
       "text": "![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cloudnativelabs/kube-shell",
+      "status": "candidate-context",
+      "text": "Kubernetes shell: An integrated shell for working with the Kubernetes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cloudnativelabs/kube-shell",
+      "status": "candidate-context",
+      "text": "kube-shell"
     }
   ],
   "candidate_glosses": [
@@ -135,6 +147,12 @@
       "source_repo": "c-bata/kube-prompt",
       "status": "candidate",
       "text": "![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cloudnativelabs/kube-shell",
+      "status": "candidate",
+      "text": "kube-shell"
     }
   ],
   "candidate_related_terms": [],
@@ -190,11 +208,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "c-bata/kube-prompt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "cloudnativelabs/kube-shell"
     }
   ],
   "first_seen_at": "2026-04-18T12:06:06.216548+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

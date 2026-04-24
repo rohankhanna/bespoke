@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-24T01:43:22.864904+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1139
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "xdotool type for wayland",
+    "fork": false,
+    "full_name": "atx/wtype",
+    "html_url": "https://github.com/atx/wtype",
+    "language": "C",
+    "pushed_at": "2024-04-27T06:46:45Z",
+    "stargazers_count": 529,
+    "topics": [],
+    "updated_at": "2026-04-19T09:57:24Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

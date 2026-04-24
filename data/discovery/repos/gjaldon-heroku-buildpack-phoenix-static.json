@@ -1,0 +1,85 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "gjaldon/heroku-buildpack-phoenix-static",
+      "target": "hashnuke/heroku-buildpack-elixir",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gjaldon/heroku-buildpack-phoenix-static",
+      "target": "elixir",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gjaldon/heroku-buildpack-phoenix-static",
+      "target": "heroku-buildpack",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gjaldon/heroku-buildpack-phoenix-static",
+      "target": "phoenix",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T00:43:17.493231+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4925
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A Heroku buildpack for building Phoenix's static assets",
+    "fork": false,
+    "full_name": "gjaldon/heroku-buildpack-phoenix-static",
+    "html_url": "https://github.com/gjaldon/heroku-buildpack-phoenix-static",
+    "language": "Shell",
+    "pushed_at": "2023-07-05T15:23:47Z",
+    "stargazers_count": 230,
+    "topics": [
+      "elixir",
+      "heroku-buildpack",
+      "phoenix"
+    ],
+    "updated_at": "2026-01-20T22:10:33Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hashnuke/heroku-buildpack-elixir",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "This buildpack is meant to be used with the [Heroku Buildpack for Elixir](https://github.com/HashNuke/heroku-buildpack-elixir). When deploying Phoenix apps to Heroku, static assets will need to be compiled. This buildpack sees to it that static assets are compiled and that a cor\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "elixir"
+    },
+    {
+      "context_snippet": "This buildpack is meant to be used with the [Heroku Buildpack for Elixir](https://github.com/HashNuke/heroku-buildpack-elixir). When deploying Phoenix apps to Heroku, static assets will need to be compiled. This buildpack sees to it that static assets are compiled and that a cor\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "heroku-buildpack"
+    },
+    {
+      "context_snippet": "This buildpack is meant to be used with the [Heroku Buildpack for Elixir](https://github.com/HashNuke/heroku-buildpack-elixir). When deploying Phoenix apps to Heroku, static assets will need to be compiled. This buildpack sees to it that static assets are compiled and that a cor\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "phoenix"
+    }
+  ]
+}

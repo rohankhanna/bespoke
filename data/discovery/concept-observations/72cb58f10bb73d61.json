@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "casbin as an actor"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![Crates.io](https://img.shields.io/crates/d/actix-casbin)](https://crates.io/crates/actix-casbin)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![Crates.io](https://img.shields.io/crates/d/actix-casbin)](https://crates.io/crates/actix-casbin)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29786081,
+      "status": "candidate",
+      "text": "single"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29767693,
+      "status": "candidate",
+      "text": "apac"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19950908,
+      "status": "candidate",
+      "text": "abaque"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19950907,
+      "status": "candidate",
+      "text": "anticommutator"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19950906,
+      "status": "candidate",
+      "text": "algorithm"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "abac",
+      "sense_id": "abac#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "abac",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "abac",
+  "observation_id": "72cb58f10bb73d61",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T00:33:56.049672+00:00",
+  "observed_text": "abac",
+  "source_context_snippet": "[![Crates.io](https://img.shields.io/crates/d/actix-casbin)](https://crates.io/crates/actix-casbin)",
+  "source_file": null,
+  "source_repo": "apache/casbin-rust-actix-casbin",
+  "source_repo_description": "casbin as an actor"
+}

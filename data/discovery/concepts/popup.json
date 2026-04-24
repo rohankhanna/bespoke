@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "popup"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "liuchengxu/vim-clap",
+      "status": "candidate-context",
+      "text": ":clap: Modern performant fuzzy picker, tree-sitter highlighting, and more, for both Vim and NeoVim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "liuchengxu/vim-clap",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "liuchengxu/vim-clap",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30010462,
+      "status": "candidate",
+      "text": "drop-down"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30008065,
+      "status": "candidate",
+      "text": "pulldown"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29983758,
+      "status": "candidate",
+      "text": "display"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29979346,
+      "status": "candidate",
+      "text": "window"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29979047,
+      "status": "candidate",
+      "text": "tip"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "popup",
+  "concept_id": "popup",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "liuchengxu/vim-clap"
+    }
+  ],
+  "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "popup",
+      "sense_id": "popup#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -1,71 +1,21 @@
 {
-  "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
       "source_file": null,
-      "source_repo": "clayrisser/sphinx-markdown-builder"
+      "source_repo": "Textualize/rich-cli"
     },
     {
       "discovered_via": "repo-topic",
       "source_file": null,
-      "source_repo": "Israel-Laguan/Israel-Laguan"
+      "source_repo": "jekyll/jekyll"
     },
     {
       "discovered_via": "repo-topic",
       "source_file": null,
-      "source_repo": "alexandresanlim/Badges4-README.md-Profile"
-    },
-    {
-      "discovered_via": "repo-topic",
-      "source_file": null,
-      "source_repo": "depado/smallblog"
-    },
-    {
-      "discovered_via": "repo-topic",
-      "source_file": null,
-      "source_repo": "Textualize/rich"
-    },
-    {
-      "discovered_via": "repo-topic",
-      "source_file": null,
-      "source_repo": "zimbatm/mdsh"
-    },
-    {
-      "discovered_via": "repo-topic",
-      "source_file": null,
-      "source_repo": "digitalmoksha/motion-markdown-it"
-    },
-    {
-      "discovered_via": "repo-topic",
-      "source_file": null,
-      "source_repo": "executablebooks/markdown-it-py"
-    },
-    {
-      "discovered_via": "repo-topic",
-      "source_file": null,
-      "source_repo": "raviqqe/liche"
-    },
-    {
-      "discovered_via": "repo-topic",
-      "source_file": null,
-      "source_repo": "dotnet/docfx"
-    },
-    {
-      "discovered_via": "repo-topic",
-      "source_file": null,
-      "source_repo": "clayrisser/sphinx-jekyll-builder"
-    },
-    {
-      "discovered_via": "repo-topic",
-      "source_file": null,
-      "source_repo": "markedjs/marked"
-    },
-    {
-      "discovered_via": "repo-topic",
-      "source_file": null,
-      "source_repo": "alexandresanlim/Badges4-README.md-Profile-Dynamic"
+      "source_repo": "docling-project/docling"
     }
   ],
   "term": "markdown"

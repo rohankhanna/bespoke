@@ -1,0 +1,114 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "giuseppe/become-root",
+      "target": "containers",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "giuseppe/become-root",
+      "target": "fakeroot",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "giuseppe/become-root",
+      "target": "linux",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "giuseppe/become-root",
+      "target": "sudo",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "giuseppe/become-root",
+      "target": "userns",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "giuseppe/become-root",
+      "target": "userns-remap",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T01:55:35.753178+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1468
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "minimal tool for creating a new user namespace with multiple UIDs/GIDs mapped inside",
+    "fork": false,
+    "full_name": "giuseppe/become-root",
+    "html_url": "https://github.com/giuseppe/become-root",
+    "language": "C",
+    "pushed_at": "2022-01-24T09:56:06Z",
+    "stargazers_count": 57,
+    "topics": [
+      "containers",
+      "fakeroot",
+      "linux",
+      "sudo",
+      "userns",
+      "userns-remap"
+    ],
+    "updated_at": "2026-02-23T11:41:41Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "become-root",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "containers"
+    },
+    {
+      "context_snippet": "become-root",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fakeroot"
+    },
+    {
+      "context_snippet": "become-root",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "linux"
+    },
+    {
+      "context_snippet": "become-root",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sudo"
+    },
+    {
+      "context_snippet": "become-root",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "userns"
+    },
+    {
+      "context_snippet": "become-root",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "userns-remap"
+    }
+  ]
+}

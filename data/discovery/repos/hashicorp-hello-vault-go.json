@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hashicorp/hello-vault-go",
+      "target": "hashicorp/hello-vault-dotnet",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hashicorp/hello-vault-go",
+      "target": "hashicorp/hello-vault-spring",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-24T01:50:39.039890+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 739
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Runnable examples in Go of how to integrate an application with HashiCorp Vault.",
+    "fork": false,
+    "full_name": "hashicorp/hello-vault-go",
+    "html_url": "https://github.com/hashicorp/hello-vault-go",
+    "language": "Go",
+    "pushed_at": "2026-04-02T02:45:41Z",
+    "stargazers_count": 118,
+    "topics": [],
+    "updated_at": "2026-04-02T02:45:44Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hashicorp/hello-vault-dotnet",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hashicorp/hello-vault-spring",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

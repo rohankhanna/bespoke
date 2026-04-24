@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Scoop bucket for Sysinternals"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![Tests](https://github.com/niheaven/scoop-sysinternals/actions/workflows/ci.yml/badge.svg)](https://github.com/niheaven/scoop-sysinternals/actions/workflows/ci.yml) [![Excavator](https://github.com/niheaven/scoop-sysinternals/actions/workflows/excavator.yml/badge.svg)](https:/\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![Tests](https://github.com/niheaven/scoop-sysinternals/actions/workflows/ci.yml/badge.svg)](https://github.com/niheaven/scoop-sysinternals/actions/workflows/ci.yml) [![Excavator](https://github.com/niheaven/scoop-sysinternals/actions/workflows/excavator.yml/badge.svg)](https:/\u2026"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40028615,
+      "status": "candidate",
+      "text": "scoop up"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40005010,
+      "status": "candidate",
+      "text": "pocket"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39938319,
+      "status": "candidate",
+      "text": "outflank"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39903094,
+      "status": "candidate",
+      "text": "take up"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39869270,
+      "status": "candidate",
+      "text": "outdo"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "scoop",
+      "sense_id": "scoop#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 21045,
+      "status": "candidate",
+      "text": "exclusive"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 13046,
+      "status": "candidate",
+      "text": "trump"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 12044,
+      "status": "candidate",
+      "text": "best"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 4057,
+      "status": "candidate",
+      "text": "pocket"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 4029,
+      "status": "candidate",
+      "text": "outflank"
+    }
+  ],
+  "concept_id": "scoop",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "scoop",
+  "observation_id": "f838ba636b090268",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T00:33:56.049672+00:00",
+  "observed_text": "scoop",
+  "source_context_snippet": "[![Tests](https://github.com/niheaven/scoop-sysinternals/actions/workflows/ci.yml/badge.svg)](https://github.com/niheaven/scoop-sysinternals/actions/workflows/ci.yml) [![Excavator](https://github.com/niheaven/scoop-sysinternals/actions/workflows/excavator.yml/badge.svg)](https:/\u2026",
+  "source_file": null,
+  "source_repo": "niheaven/scoop-sysinternals",
+  "source_repo_description": "Scoop bucket for Sysinternals"
+}

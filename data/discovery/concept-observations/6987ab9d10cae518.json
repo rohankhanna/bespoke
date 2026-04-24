@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "An astro integration of i18next + some utility components to help you translate your astro websites! "
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "astro-i18next-pull-request-lint"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "astro-i18next-pull-request-lint"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "astro-i18next-pull-request-lint",
+      "sense_id": "astro-i18next-pull-request-lint#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "astro-i18next-pull-request-lint",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "astro-i18next-pull-request-lint",
+  "observation_id": "6987ab9d10cae518",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-24T00:33:56.049672+00:00",
+  "observed_text": "astro-i18next-pull-request-lint",
+  "source_context_snippet": "astro-i18next-pull-request-lint",
+  "source_file": ".github/workflows/pull-request.yml",
+  "source_repo": "yassinedoghri/astro-i18next",
+  "source_repo_description": "An astro integration of i18next + some utility components to help you translate your astro websites! "
+}

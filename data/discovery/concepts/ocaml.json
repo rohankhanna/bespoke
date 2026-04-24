@@ -139,6 +139,30 @@
       "source_repo": "robur-coop/albatross",
       "status": "candidate-context",
       "text": "The goal of albatross is robust deployment of [MirageOS](https://mirage.io)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ocurrent/ocaml-dockerfile",
+      "status": "candidate-context",
+      "text": "OCaml interface for creating Dockerfiles"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ocurrent/ocaml-dockerfile",
+      "status": "candidate-context",
+      "text": "dockerfile \u2014 Dockerfile eDSL and distribution support"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ocurrent/ocurrent",
+      "status": "candidate-context",
+      "text": "Keeps things up-to-date (a CI/CD pipeline OCaml eDSL)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ocurrent/ocurrent",
+      "status": "candidate-context",
+      "text": "[![OCaml-CI Build Status](https://img.shields.io/endpoint?url=https%3A%2F%2Fci.ocamllabs.io%2Fbadge%2Focurrent%2Focurrent%2Fmaster&logo=ocaml)](https://ci.ocamllabs.io/github/ocurrent/ocurrent)"
     }
   ],
   "candidate_glosses": [
@@ -207,6 +231,18 @@
       "source_repo": "robur-coop/albatross",
       "status": "candidate",
       "text": "The goal of albatross is robust deployment of [MirageOS](https://mirage.io)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ocurrent/ocaml-dockerfile",
+      "status": "candidate",
+      "text": "dockerfile \u2014 Dockerfile eDSL and distribution support"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ocurrent/ocurrent",
+      "status": "candidate",
+      "text": "[![OCaml-CI Build Status](https://img.shields.io/endpoint?url=https%3A%2F%2Fci.ocamllabs.io%2Fbadge%2Focurrent%2Focurrent%2Fmaster&logo=ocaml)](https://ci.ocamllabs.io/github/ocurrent/ocurrent)"
     }
   ],
   "candidate_related_terms": [
@@ -352,11 +388,41 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "ocaml-tracing/ocaml-tracy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "ocurrent/ocaml-dockerfile"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "ocurrent/ocurrent"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "ocaml-tracing/ocaml-trace"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "ocaml-tracing/ocaml-opentelemetry"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "ocaml-tracing/ocaml-tracy"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

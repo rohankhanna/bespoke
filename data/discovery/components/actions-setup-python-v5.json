@@ -1,7 +1,7 @@
 {
   "component": "actions/setup-python@v5",
   "first_seen_at": "2026-04-17T16:51:41.136432+00:00",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -3062,6 +3062,151 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/run_tests.yaml",
       "source_repo": "anapnoe/stable-diffusion-webui-ux"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "sarugaku/resolvelib"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pythonpackage.yml",
+      "source_repo": "Textualize/textual"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/auto-add-seo.yml",
+      "source_repo": "abpframework/abp"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/nuget-packages-version-change-detector.yml",
+      "source_repo": "abpframework/abp"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "drivendataorg/cookiecutter-data-science"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "lovell/sharp"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "chantera/python-lsp-isort"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "chantera/python-lsp-isort"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ms-jpq/coq_nvim"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/_build_python_wheels.yml",
+      "source_repo": "apache/iggy"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci-cd.yml",
+      "source_repo": "sphinx-contrib/sphinxcontrib-towncrier"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml",
+      "source_repo": "chrisjsewell/markdown-it-pyrs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "angr/claripy"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish_pypi.yml",
+      "source_repo": "conda/grayskull"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/sphinx.yml",
+      "source_repo": "conda/grayskull"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pypi-publish.yml",
+      "source_repo": "icip-cas/PPTAgent"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "Force1ess/python-pptx"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/clang-format.yml",
+      "source_repo": "apache/doris"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "TechEmpower/FrameworkBenchmarks"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/get-maintainers.yml",
+      "source_repo": "TechEmpower/FrameworkBenchmarks"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/building.yml",
+      "source_repo": "rusty1s/pytorch_cluster"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/linting.yml",
+      "source_repo": "rusty1s/pytorch_cluster"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/testing.yml",
+      "source_repo": "rusty1s/pytorch_cluster"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/building.yml",
+      "source_repo": "rusty1s/pytorch_sparse"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/linting.yml",
+      "source_repo": "rusty1s/pytorch_sparse"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/testing.yml",
+      "source_repo": "rusty1s/pytorch_sparse"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "microsoft/MInference"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/unittest.yml",
+      "source_repo": "microsoft/MInference"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/workflow.yml",
+      "source_repo": "alexmojaki/birdseye"
     }
   ]
 }

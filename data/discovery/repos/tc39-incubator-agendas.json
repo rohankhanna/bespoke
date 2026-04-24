@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-24T01:45:45.756609+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2405
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "TC39 Incubator Call Agendas",
+    "fork": false,
+    "full_name": "tc39/incubator-agendas",
+    "html_url": "https://github.com/tc39/incubator-agendas",
+    "language": null,
+    "pushed_at": "2024-01-12T15:15:35Z",
+    "stargazers_count": 17,
+    "topics": [],
+    "updated_at": "2025-10-06T09:06:33Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

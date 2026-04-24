@@ -1,0 +1,122 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "An open autonomous driving platform"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "![](docs/02_Quick%20Start/demo_guide/images/Apollo_logo.png)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "![](docs/02_Quick%20Start/demo_guide/images/Apollo_logo.png)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40023030,
+      "status": "candidate",
+      "text": "self-sufficiency"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40021927,
+      "status": "candidate",
+      "text": "self-reliance"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40021055,
+      "status": "candidate",
+      "text": "self-direction"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39997941,
+      "status": "candidate",
+      "text": "liberty"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30034357,
+      "status": "candidate",
+      "text": "authority"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "autonomy",
+      "sense_id": "autonomy#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 23052,
+      "status": "candidate",
+      "text": "liberty"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 4028,
+      "status": "candidate",
+      "text": "self-reliance"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 4028,
+      "status": "candidate",
+      "text": "self-sufficiency"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 3015,
+      "status": "candidate",
+      "text": "self-direction"
+    }
+  ],
+  "concept_id": "autonomy",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "autonomy",
+  "observation_id": "8f5e52f6148d79f7",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T00:33:56.049672+00:00",
+  "observed_text": "autonomy",
+  "source_context_snippet": "![](docs/02_Quick%20Start/demo_guide/images/Apollo_logo.png)",
+  "source_file": null,
+  "source_repo": "ApolloAuto/apollo",
+  "source_repo_description": "An open autonomous driving platform"
+}

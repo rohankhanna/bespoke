@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Use any linux distribution inside your terminal. Enable both backward and forward compatibility with software and freedom to use whatever distribution you\u2019re more comfortable with. Mirror available at: https://gitlab.com/89luca89/distrobox"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "CI"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "CI"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39958217,
+      "status": "candidate",
+      "text": "developing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39954122,
+      "status": "candidate",
+      "text": "growing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39954102,
+      "status": "candidate",
+      "text": "growth"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39936255,
+      "status": "candidate",
+      "text": "exploitation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39930898,
+      "status": "candidate",
+      "text": "evolution"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "development",
+      "sense_id": "development#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 20054,
+      "status": "candidate",
+      "text": "growth"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 17036,
+      "status": "candidate",
+      "text": "exploitation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 14069,
+      "status": "candidate",
+      "text": "evolution"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 11032,
+      "status": "candidate",
+      "text": "developing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 11023,
+      "status": "candidate",
+      "text": "ontogenesis"
+    }
+  ],
+  "concept_id": "development",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "development",
+  "observation_id": "ff9b97236f90f6d5",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T00:33:56.049672+00:00",
+  "observed_text": "development",
+  "source_context_snippet": "CI",
+  "source_file": null,
+  "source_repo": "89luca89/distrobox",
+  "source_repo_description": "Use any linux distribution inside your terminal. Enable both backward and forward compatibility with software and freedom to use whatever distribution you\u2019re more comfortable with. Mirror available at: https://gitlab.com/89luca89/distrobox"
+}

@@ -190,6 +190,18 @@
       "source_repo": "redhat-developer/vscode-java",
       "status": "candidate-context",
       "text": "Language support for Java &trade; for Visual Studio Code"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "LuaLS/vscode-lua",
+      "status": "candidate-context",
+      "text": "Release lua-language-server for VSCode"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LuaLS/vscode-lua",
+      "status": "candidate-context",
+      "text": "![build](https://img.shields.io/github/actions/workflow/status/LuaLS/lua-language-server/.github%2Fworkflows%2Fbuild.yml)"
     }
   ],
   "candidate_glosses": [
@@ -282,6 +294,12 @@
       "source_repo": "redhat-developer/vscode-java",
       "status": "candidate",
       "text": "Language support for Java &trade; for Visual Studio Code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LuaLS/vscode-lua",
+      "status": "candidate",
+      "text": "![build](https://img.shields.io/github/actions/workflow/status/LuaLS/lua-language-server/.github%2Fworkflows%2Fbuild.yml)"
     }
   ],
   "candidate_related_terms": [],
@@ -391,11 +409,23 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "redhat-developer/vscode-java"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "LuaLS/vscode-lua"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/vscode-js-debug"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

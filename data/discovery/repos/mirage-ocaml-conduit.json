@@ -1,0 +1,71 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "ocaml/setup-ocaml@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "mirage/ocaml-conduit",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "mirage/ocaml-conduit",
+      "target": "ocaml/setup-ocaml@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "mirage/ocaml-conduit",
+      "target": "Conduit",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T00:38:43.229929+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1567
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 495
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Dereference URIs into communication channels for Async or Lwt",
+    "fork": false,
+    "full_name": "mirage/ocaml-conduit",
+    "html_url": "https://github.com/mirage/ocaml-conduit",
+    "language": "OCaml",
+    "pushed_at": "2025-11-24T11:50:34Z",
+    "stargazers_count": 87,
+    "topics": [],
+    "updated_at": "2026-04-16T15:18:15Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Conduit",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "Conduit"
+    }
+  ]
+}

@@ -1,0 +1,142 @@
+{
+  "components": [
+    {
+      "component": "ts-pnp",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "enhanced-resolve",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "jest",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "jest-environment-node",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "jest-pnp-resolver",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "source-map",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "arcanis/pnp-webpack-plugin",
+      "target": "arcanis/jest-pnp-resolver",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "arcanis/pnp-webpack-plugin",
+      "target": "arcanis/rollup-plugin-pnp-resolve",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "arcanis/pnp-webpack-plugin",
+      "target": "arcanis/ts-pnp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "arcanis/pnp-webpack-plugin",
+      "target": "ts-pnp",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "arcanis/pnp-webpack-plugin",
+      "target": "enhanced-resolve",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "arcanis/pnp-webpack-plugin",
+      "target": "jest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "arcanis/pnp-webpack-plugin",
+      "target": "jest-environment-node",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "arcanis/pnp-webpack-plugin",
+      "target": "jest-pnp-resolver",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "arcanis/pnp-webpack-plugin",
+      "target": "source-map",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-24T00:40:14.079617+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2925
+    },
+    {
+      "path": "package.json",
+      "size": 869
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Transparently adds support for Plug'n'Play to Webpack",
+    "fork": false,
+    "full_name": "arcanis/pnp-webpack-plugin",
+    "html_url": "https://github.com/arcanis/pnp-webpack-plugin",
+    "language": "JavaScript",
+    "pushed_at": "2022-12-08T14:06:19Z",
+    "stargazers_count": 265,
+    "topics": [],
+    "updated_at": "2026-03-10T19:40:36Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "arcanis/jest-pnp-resolver",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "arcanis/rollup-plugin-pnp-resolve",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "arcanis/ts-pnp",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

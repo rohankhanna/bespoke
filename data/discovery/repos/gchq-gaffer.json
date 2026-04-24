@@ -1,0 +1,758 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yaml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yaml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yaml"
+    },
+    {
+      "component": "github/codeql-action/init@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yaml"
+    },
+    {
+      "component": "github/codeql-action/analyze@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration-legacy.yaml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration-legacy.yaml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration-legacy.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration.yaml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration.yaml"
+    },
+    {
+      "component": "umbrelladocs/action-linkspector@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration.yaml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration.yaml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration.yaml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration.yaml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration.yaml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration.yaml"
+    },
+    {
+      "component": "codecov/codecov-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-hotfix-branch.yaml"
+    },
+    {
+      "component": "actions-ecosystem/action-get-latest-tag@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-hotfix-branch.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-release-branch.yaml"
+    },
+    {
+      "component": "tkt-actions/add-issue-links@v1.8.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/link-issue.yml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-standalone.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-standalone.yaml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "softprops/action-gh-release@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-koryphe-version.yaml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-koryphe-version.yaml"
+    },
+    {
+      "component": "repo-sync/pull-request@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-koryphe-version.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "gchq/Gaffer",
+      "target": "gchq/gaffer-doc",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "gchq/Gaffer",
+      "target": "gchq/gafferpy",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "gchq/Gaffer",
+      "target": "gchq/gaffer-docker",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "gchq/Gaffer",
+      "target": "gchq/koryphe",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yaml",
+      "source_repo": "gchq/Gaffer",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yaml",
+      "source_repo": "gchq/Gaffer",
+      "target": "actions/setup-java@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yaml",
+      "source_repo": "gchq/Gaffer",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yaml",
+      "source_repo": "gchq/Gaffer",
+      "target": "github/codeql-action/init@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yaml",
+      "source_repo": "gchq/Gaffer",
+      "target": "github/codeql-action/analyze@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yaml",
+      "source_repo": "gchq/Gaffer",
+      "target": "CodeQL test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration-legacy.yaml",
+      "source_repo": "gchq/Gaffer",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration-legacy.yaml",
+      "source_repo": "gchq/Gaffer",
+      "target": "actions/setup-java@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration-legacy.yaml",
+      "source_repo": "gchq/Gaffer",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/continuous-integration-legacy.yaml",
+      "source_repo": "gchq/Gaffer",
+      "target": "Continuous Integration (Legacy)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration.yaml",
+      "source_repo": "gchq/Gaffer",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration.yaml",
+      "source_repo": "gchq/Gaffer",
+      "target": "actions/setup-java@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration.yaml",
+      "source_repo": "gchq/Gaffer",
+      "target": "umbrelladocs/action-linkspector@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration.yaml",
+      "source_repo": "gchq/Gaffer",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration.yaml",
+      "source_repo": "gchq/Gaffer",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration.yaml",
+      "source_repo": "gchq/Gaffer",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration.yaml",
+      "source_repo": "gchq/Gaffer",
+      "target": "codecov/codecov-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/continuous-integration.yaml",
+      "source_repo": "gchq/Gaffer",
+      "target": "Continuous Integration",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-hotfix-branch.yaml",
+      "source_repo": "gchq/Gaffer",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-hotfix-branch.yaml",
+      "source_repo": "gchq/Gaffer",
+      "target": "actions-ecosystem/action-get-latest-tag@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/create-hotfix-branch.yaml",
+      "source_repo": "gchq/Gaffer",
+      "target": "Create Hotfix Branch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-release-branch.yaml",
+      "source_repo": "gchq/Gaffer",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/create-release-branch.yaml",
+      "source_repo": "gchq/Gaffer",
+      "target": "Create Release Branch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/link-issue.yml",
+      "source_repo": "gchq/Gaffer",
+      "target": "tkt-actions/add-issue-links@v1.8.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/link-issue.yml",
+      "source_repo": "gchq/Gaffer",
+      "target": "Issue Links",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-standalone.yaml",
+      "source_repo": "gchq/Gaffer",
+      "target": "actions/setup-java@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-standalone.yaml",
+      "source_repo": "gchq/Gaffer",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-standalone.yaml",
+      "source_repo": "gchq/Gaffer",
+      "target": "Release To Nexus as standalone",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "gchq/Gaffer",
+      "target": "actions/setup-java@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "gchq/Gaffer",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "gchq/Gaffer",
+      "target": "softprops/action-gh-release@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "gchq/Gaffer",
+      "target": "Full Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-koryphe-version.yaml",
+      "source_repo": "gchq/Gaffer",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-koryphe-version.yaml",
+      "source_repo": "gchq/Gaffer",
+      "target": "actions/setup-java@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-koryphe-version.yaml",
+      "source_repo": "gchq/Gaffer",
+      "target": "repo-sync/pull-request@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update-koryphe-version.yaml",
+      "source_repo": "gchq/Gaffer",
+      "target": "Update Korpyhe Version",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gchq/Gaffer",
+      "target": "accumulo",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gchq/Gaffer",
+      "target": "aggregation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gchq/Gaffer",
+      "target": "big-data",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gchq/Gaffer",
+      "target": "graph",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gchq/Gaffer",
+      "target": "graph-database",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gchq/Gaffer",
+      "target": "hadoop",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gchq/Gaffer",
+      "target": "hbase",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gchq/Gaffer",
+      "target": "parquet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gchq/Gaffer",
+      "target": "spark",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T00:54:16.248309+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6384
+    },
+    {
+      "path": ".github/workflows/codeql.yaml",
+      "size": 1017
+    },
+    {
+      "path": ".github/workflows/continuous-integration-legacy.yaml",
+      "size": 2162
+    },
+    {
+      "path": ".github/workflows/continuous-integration.yaml",
+      "size": 5865
+    },
+    {
+      "path": ".github/workflows/create-hotfix-branch.yaml",
+      "size": 2370
+    },
+    {
+      "path": ".github/workflows/create-release-branch.yaml",
+      "size": 1589
+    },
+    {
+      "path": ".github/workflows/link-issue.yml",
+      "size": 309
+    },
+    {
+      "path": ".github/workflows/release-standalone.yaml",
+      "size": 1045
+    },
+    {
+      "path": ".github/workflows/release.yaml",
+      "size": 5051
+    },
+    {
+      "path": ".github/workflows/update-koryphe-version.yaml",
+      "size": 1421
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "develop",
+    "description": "A large-scale entity and relation database supporting aggregation of properties",
+    "fork": false,
+    "full_name": "gchq/Gaffer",
+    "html_url": "https://github.com/gchq/Gaffer",
+    "language": "Java",
+    "pushed_at": "2025-06-06T08:50:47Z",
+    "stargazers_count": 1793,
+    "topics": [
+      "accumulo",
+      "aggregation",
+      "big-data",
+      "graph",
+      "graph-database",
+      "hadoop",
+      "hbase",
+      "parquet",
+      "spark"
+    ],
+    "updated_at": "2026-04-15T16:39:40Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "gchq/gaffer-doc",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "gchq/gaffer-docker",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "gchq/gafferpy",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "gchq/koryphe",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "CodeQL test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yaml",
+      "term": "CodeQL test"
+    },
+    {
+      "context_snippet": "Continuous Integration (Legacy)",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/continuous-integration-legacy.yaml",
+      "term": "Continuous Integration (Legacy)"
+    },
+    {
+      "context_snippet": "Continuous Integration",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/continuous-integration.yaml",
+      "term": "Continuous Integration"
+    },
+    {
+      "context_snippet": "Create Hotfix Branch",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/create-hotfix-branch.yaml",
+      "term": "Create Hotfix Branch"
+    },
+    {
+      "context_snippet": "Create Release Branch",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/create-release-branch.yaml",
+      "term": "Create Release Branch"
+    },
+    {
+      "context_snippet": "'Issue Links'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/link-issue.yml",
+      "term": "Issue Links"
+    },
+    {
+      "context_snippet": "Release To Nexus as standalone",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-standalone.yaml",
+      "term": "Release To Nexus as standalone"
+    },
+    {
+      "context_snippet": "Full Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yaml",
+      "term": "Full Release"
+    },
+    {
+      "context_snippet": "Update Korpyhe Version",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update-koryphe-version.yaml",
+      "term": "Update Korpyhe Version"
+    },
+    {
+      "context_snippet": "<img align=\"right\" width=\"300\" height=\"auto\" src=\"logos/logoWithText.png\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "accumulo"
+    },
+    {
+      "context_snippet": "<img align=\"right\" width=\"300\" height=\"auto\" src=\"logos/logoWithText.png\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "aggregation"
+    },
+    {
+      "context_snippet": "<img align=\"right\" width=\"300\" height=\"auto\" src=\"logos/logoWithText.png\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "big-data"
+    },
+    {
+      "context_snippet": "<img align=\"right\" width=\"300\" height=\"auto\" src=\"logos/logoWithText.png\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "graph"
+    },
+    {
+      "context_snippet": "<img align=\"right\" width=\"300\" height=\"auto\" src=\"logos/logoWithText.png\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "graph-database"
+    },
+    {
+      "context_snippet": "<img align=\"right\" width=\"300\" height=\"auto\" src=\"logos/logoWithText.png\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hadoop"
+    },
+    {
+      "context_snippet": "<img align=\"right\" width=\"300\" height=\"auto\" src=\"logos/logoWithText.png\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hbase"
+    },
+    {
+      "context_snippet": "<img align=\"right\" width=\"300\" height=\"auto\" src=\"logos/logoWithText.png\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "parquet"
+    },
+    {
+      "context_snippet": "<img align=\"right\" width=\"300\" height=\"auto\" src=\"logos/logoWithText.png\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "spark"
+    }
+  ]
+}

@@ -115,6 +115,30 @@
       "source_repo": "web-infra-dev/rspack",
       "status": "candidate-context",
       "text": "<picture>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nodenv/node-build-update-defs",
+      "status": "candidate-context",
+      "text": "A nodenv plugin to generate node-build definitions from nodejs.org."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nodenv/node-build-update-defs",
+      "status": "candidate-context",
+      "text": "A [nodenv][] plugin to generate [node-build][] definitions from [nodejs.org](https://nodejs.org)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "swiftlang/swift-llbuild",
+      "status": "candidate-context",
+      "text": "A low-level build system, used by Xcode and the Swift Package Manager"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "swiftlang/swift-llbuild",
+      "status": "candidate-context",
+      "text": "llbuild"
     }
   ],
   "candidate_glosses": [
@@ -171,6 +195,18 @@
       "source_repo": "web-infra-dev/rspack",
       "status": "candidate",
       "text": "<picture>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nodenv/node-build-update-defs",
+      "status": "candidate",
+      "text": "A [nodenv][] plugin to generate [node-build][] definitions from [nodejs.org](https://nodejs.org)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "swiftlang/swift-llbuild",
+      "status": "candidate",
+      "text": "llbuild"
     }
   ],
   "candidate_related_terms": [],
@@ -232,11 +268,23 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "web-infra-dev/rspack"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "nodenv/node-build-update-defs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "swiftlang/swift-llbuild"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

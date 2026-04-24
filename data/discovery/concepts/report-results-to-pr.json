@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Report Results to PR"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "preactjs/preact",
+      "status": "candidate-context",
+      "text": "\u269b\ufe0f Fast 3kB React alternative with the same modern API. Components & Virtual DOM."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "preactjs/preact",
+      "status": "candidate-context",
+      "text": "Report Results to PR"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "preactjs/preact",
+      "status": "candidate",
+      "text": "Report Results to PR"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26842,
+      "status": "candidate",
+      "text": "assay"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26442,
+      "status": "candidate",
+      "text": "survey"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26020,
+      "status": "candidate",
+      "text": "medical report"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19483,
+      "status": "candidate",
+      "text": "hype"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19483,
+      "status": "candidate",
+      "text": "image"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Report Results to PR",
+  "concept_id": "report-results-to-pr",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/pr-reporter.yml",
+      "source_repo": "preactjs/preact"
+    }
+  ],
+  "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Report Results to PR",
+      "sense_id": "report-results-to-pr#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -1,0 +1,100 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CrystallineCore/Biscuit",
+      "target": "indexing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CrystallineCore/Biscuit",
+      "target": "open-source",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CrystallineCore/Biscuit",
+      "target": "postgresql",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CrystallineCore/Biscuit",
+      "target": "postgresql-extension",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CrystallineCore/Biscuit",
+      "target": "wildcard",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T00:54:08.424983+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 17852
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Biscuit \u2013 a high-performance, deterministic index for PostgreSQL that ensures accurate lookups without additional validation.",
+    "fork": false,
+    "full_name": "CrystallineCore/Biscuit",
+    "html_url": "https://github.com/CrystallineCore/Biscuit",
+    "language": "C",
+    "pushed_at": "2026-03-26T07:10:33Z",
+    "stargazers_count": 289,
+    "topics": [
+      "indexing",
+      "open-source",
+      "postgresql",
+      "postgresql-extension",
+      "wildcard"
+    ],
+    "updated_at": "2026-04-07T02:55:38Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "indexing"
+    },
+    {
+      "context_snippet": "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "open-source"
+    },
+    {
+      "context_snippet": "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "postgresql"
+    },
+    {
+      "context_snippet": "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "postgresql-extension"
+    },
+    {
+      "context_snippet": "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "wildcard"
+    }
+  ]
+}

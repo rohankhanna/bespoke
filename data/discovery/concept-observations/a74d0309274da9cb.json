@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Official repository for core projects comprising the Celo platform"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Protocol Devchain Anvil"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Protocol Devchain Anvil"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10495,
+      "status": "candidate",
+      "text": "climate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10462,
+      "status": "candidate",
+      "text": "laparotomy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10462,
+      "status": "candidate",
+      "text": "mural"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10462,
+      "status": "candidate",
+      "text": "pattern"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10462,
+      "status": "candidate",
+      "text": "pneumatograph"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Protocol Devchain Anvil",
+      "sense_id": "protocol-devchain-anvil#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "protocol-devchain-anvil",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "protocol-devchain-anvil",
+  "observation_id": "a74d0309274da9cb",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-24T00:33:56.049672+00:00",
+  "observed_text": "Protocol Devchain Anvil",
+  "source_context_snippet": "Protocol Devchain Anvil",
+  "source_file": ".github/workflows/protocol-devchain-anvil.yml",
+  "source_repo": "celo-org/celo-monorepo",
+  "source_repo_description": "Official repository for core projects comprising the Celo platform"
+}

@@ -166,28 +166,14 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "apache/incubator-seata",
-      "target": "apache/incubator-seata-go",
+      "target": "apache/incubator-seata.github.io",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "apache/incubator-seata",
-      "target": "apache/incubator-seata-go-samples",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "apache/incubator-seata",
-      "target": "apache/incubator-seata-k8s",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "apache/incubator-seata",
-      "target": "apache/incubator-seata-ctl",
+      "target": "apache/incubator-seata-samples",
       "target_type": "repository"
     },
     {
@@ -457,7 +443,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-23T07:39:24.400278+00:00",
+  "fetched_at": "2026-04-24T00:35:36.961118+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -510,7 +496,7 @@
     "html_url": "https://github.com/apache/incubator-seata",
     "language": "Java",
     "pushed_at": "2026-04-22T08:50:39Z",
-    "stargazers_count": 25971,
+    "stargazers_count": 25970,
     "topics": [
       "at",
       "consistency",
@@ -520,27 +506,17 @@
       "tcc",
       "xa"
     ],
-    "updated_at": "2026-04-23T05:53:17Z"
+    "updated_at": "2026-04-23T23:35:54Z"
   },
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
-      "full_name": "apache/incubator-seata-ctl",
+      "full_name": "apache/incubator-seata-samples",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "apache/incubator-seata-go",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "apache/incubator-seata-go-samples",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "apache/incubator-seata-k8s",
+      "full_name": "apache/incubator-seata.github.io",
       "source_file": "README.md"
     }
   ],

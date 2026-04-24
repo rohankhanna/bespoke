@@ -1,0 +1,710 @@
+{
+  "components": [
+    {
+      "component": "@img/colour",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "detect-libc",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "semver",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@biomejs/biome",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@cpplint/cli",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@emnapi/runtime",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@img/sharp-libvips-dev",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@img/sharp-libvips-dev-wasm32",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@img/sharp-libvips-win32-arm64",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@img/sharp-libvips-win32-ia32",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@img/sharp-libvips-win32-x64",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/node",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "emnapi",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "exif-reader",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "extract-zip",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "icc",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "jsdoc-to-markdown",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "node-addon-api",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "node-gyp",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "tar-fs",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "tsd",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-node@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-node@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "uraimo/run-on-arch-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-node@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-node@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "ncipollo/release-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-node@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/npm.yml"
+    },
+    {
+      "component": "pnpm/action-setup@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/npm.yml"
+    },
+    {
+      "component": "denoland/setup-deno@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/npm.yml"
+    },
+    {
+      "component": "oven-sh/setup-bun@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/npm.yml"
+    },
+    {
+      "component": "actions/github-script@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/npm.yml"
+    },
+    {
+      "component": "DamianReeves/write-file-action@v1.3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/npm.yml"
+    },
+    {
+      "component": "DamianReeves/write-file-action@v1.3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/npm.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "lovell/sharp",
+      "target": "@img/colour",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "lovell/sharp",
+      "target": "detect-libc",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "lovell/sharp",
+      "target": "semver",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "lovell/sharp",
+      "target": "@biomejs/biome",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "lovell/sharp",
+      "target": "@cpplint/cli",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "lovell/sharp",
+      "target": "@emnapi/runtime",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "lovell/sharp",
+      "target": "@img/sharp-libvips-dev",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "lovell/sharp",
+      "target": "@img/sharp-libvips-dev-wasm32",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "lovell/sharp",
+      "target": "@img/sharp-libvips-win32-arm64",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "lovell/sharp",
+      "target": "@img/sharp-libvips-win32-ia32",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "lovell/sharp",
+      "target": "@img/sharp-libvips-win32-x64",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "lovell/sharp",
+      "target": "@types/node",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "lovell/sharp",
+      "target": "emnapi",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "lovell/sharp",
+      "target": "exif-reader",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "lovell/sharp",
+      "target": "extract-zip",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "lovell/sharp",
+      "target": "icc",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "lovell/sharp",
+      "target": "jsdoc-to-markdown",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "lovell/sharp",
+      "target": "node-addon-api",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "lovell/sharp",
+      "target": "node-gyp",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "lovell/sharp",
+      "target": "tar-fs",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "lovell/sharp",
+      "target": "tsd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "lovell/sharp",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "lovell/sharp",
+      "target": "actions/setup-node@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "lovell/sharp",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "lovell/sharp",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "lovell/sharp",
+      "target": "uraimo/run-on-arch-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "lovell/sharp",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "lovell/sharp",
+      "target": "ncipollo/release-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/npm.yml",
+      "source_repo": "lovell/sharp",
+      "target": "actions/setup-node@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/npm.yml",
+      "source_repo": "lovell/sharp",
+      "target": "pnpm/action-setup@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/npm.yml",
+      "source_repo": "lovell/sharp",
+      "target": "denoland/setup-deno@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/npm.yml",
+      "source_repo": "lovell/sharp",
+      "target": "oven-sh/setup-bun@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/npm.yml",
+      "source_repo": "lovell/sharp",
+      "target": "actions/github-script@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/npm.yml",
+      "source_repo": "lovell/sharp",
+      "target": "DamianReeves/write-file-action@v1.3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/npm.yml",
+      "source_repo": "lovell/sharp",
+      "target": "CI: npm smoke test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lovell/sharp",
+      "target": "avif",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lovell/sharp",
+      "target": "crop",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lovell/sharp",
+      "target": "exif",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lovell/sharp",
+      "target": "image",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lovell/sharp",
+      "target": "image-processing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lovell/sharp",
+      "target": "jpeg",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lovell/sharp",
+      "target": "libvips",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lovell/sharp",
+      "target": "nodejs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lovell/sharp",
+      "target": "performance",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lovell/sharp",
+      "target": "resize",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lovell/sharp",
+      "target": "sharp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lovell/sharp",
+      "target": "tiff",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lovell/sharp",
+      "target": "webp",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T00:50:47.404670+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3160
+    },
+    {
+      "path": "package.json",
+      "size": 7470
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 12566
+    },
+    {
+      "path": ".github/workflows/npm.yml",
+      "size": 5884
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "High performance Node.js image processing, the fastest module to resize JPEG, PNG, WebP, AVIF and TIFF images. Uses the libvips library.",
+    "fork": false,
+    "full_name": "lovell/sharp",
+    "html_url": "https://github.com/lovell/sharp",
+    "language": "JavaScript",
+    "pushed_at": "2026-04-23T21:06:56Z",
+    "stargazers_count": 32171,
+    "topics": [
+      "avif",
+      "crop",
+      "exif",
+      "icc",
+      "image",
+      "image-processing",
+      "javascript",
+      "jpeg",
+      "libvips",
+      "nodejs",
+      "performance",
+      "png",
+      "resize",
+      "sharp",
+      "svg",
+      "tiff",
+      "webp"
+    ],
+    "updated_at": "2026-04-23T20:48:47Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "\"CI: npm smoke test\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/npm.yml",
+      "term": "CI: npm smoke test"
+    },
+    {
+      "context_snippet": "<img src=\"https://sharp.pixelplumbing.com/sharp-logo.svg\" width=\"160\" height=\"160\" alt=\"sharp logo\" align=\"right\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "avif"
+    },
+    {
+      "context_snippet": "<img src=\"https://sharp.pixelplumbing.com/sharp-logo.svg\" width=\"160\" height=\"160\" alt=\"sharp logo\" align=\"right\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "crop"
+    },
+    {
+      "context_snippet": "<img src=\"https://sharp.pixelplumbing.com/sharp-logo.svg\" width=\"160\" height=\"160\" alt=\"sharp logo\" align=\"right\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "exif"
+    },
+    {
+      "context_snippet": "<img src=\"https://sharp.pixelplumbing.com/sharp-logo.svg\" width=\"160\" height=\"160\" alt=\"sharp logo\" align=\"right\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image"
+    },
+    {
+      "context_snippet": "<img src=\"https://sharp.pixelplumbing.com/sharp-logo.svg\" width=\"160\" height=\"160\" alt=\"sharp logo\" align=\"right\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-processing"
+    },
+    {
+      "context_snippet": "<img src=\"https://sharp.pixelplumbing.com/sharp-logo.svg\" width=\"160\" height=\"160\" alt=\"sharp logo\" align=\"right\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "jpeg"
+    },
+    {
+      "context_snippet": "<img src=\"https://sharp.pixelplumbing.com/sharp-logo.svg\" width=\"160\" height=\"160\" alt=\"sharp logo\" align=\"right\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "libvips"
+    },
+    {
+      "context_snippet": "<img src=\"https://sharp.pixelplumbing.com/sharp-logo.svg\" width=\"160\" height=\"160\" alt=\"sharp logo\" align=\"right\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nodejs"
+    },
+    {
+      "context_snippet": "<img src=\"https://sharp.pixelplumbing.com/sharp-logo.svg\" width=\"160\" height=\"160\" alt=\"sharp logo\" align=\"right\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "performance"
+    },
+    {
+      "context_snippet": "<img src=\"https://sharp.pixelplumbing.com/sharp-logo.svg\" width=\"160\" height=\"160\" alt=\"sharp logo\" align=\"right\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "resize"
+    },
+    {
+      "context_snippet": "<img src=\"https://sharp.pixelplumbing.com/sharp-logo.svg\" width=\"160\" height=\"160\" alt=\"sharp logo\" align=\"right\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sharp"
+    },
+    {
+      "context_snippet": "<img src=\"https://sharp.pixelplumbing.com/sharp-logo.svg\" width=\"160\" height=\"160\" alt=\"sharp logo\" align=\"right\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tiff"
+    },
+    {
+      "context_snippet": "<img src=\"https://sharp.pixelplumbing.com/sharp-logo.svg\" width=\"160\" height=\"160\" alt=\"sharp logo\" align=\"right\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "webp"
+    }
+  ]
+}

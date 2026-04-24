@@ -43,6 +43,18 @@
       "source_repo": "steren/awesome-cloud-run",
       "status": "candidate-context",
       "text": "> A curated list of resources about all things [Cloud Run](https://cloud.google.com/run/). Feel free to send Pull Requests!"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "danielrosehill/AI-Presentation-Builders-Index",
+      "status": "candidate-context",
+      "text": "Point in time aggregated list of utilities for creating slide decks/presentations with AI agents"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danielrosehill/AI-Presentation-Builders-Index",
+      "status": "candidate-context",
+      "text": "[![Master Index](https://img.shields.io/badge/Master%20Index-All%20Repositories-purple?style=for-the-badge&logo=github)](https://github.com/danielrosehill/Index)"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "steren/awesome-cloud-run",
       "status": "candidate",
       "text": "> A curated list of resources about all things [Cloud Run](https://cloud.google.com/run/). Feel free to send Pull Requests!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danielrosehill/AI-Presentation-Builders-Index",
+      "status": "candidate",
+      "text": "[![Master Index](https://img.shields.io/badge/Master%20Index-All%20Repositories-purple?style=for-the-badge&logo=github)](https://github.com/danielrosehill/Index)"
     }
   ],
   "candidate_related_terms": [
@@ -124,11 +142,17 @@
       "observed_at": "2026-04-23T01:09:11.871080+00:00",
       "source_file": null,
       "source_repo": "steren/awesome-cloud-run"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "danielrosehill/AI-Presentation-Builders-Index"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

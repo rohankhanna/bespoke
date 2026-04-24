@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "print"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gruns/icecream",
+      "status": "candidate-context",
+      "text": "\ud83c\udf66 Never use print() to debug again."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gruns/icecream",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gruns/icecream",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40040505,
+      "status": "candidate",
+      "text": "written"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40040035,
+      "status": "candidate",
+      "text": "publish"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39991263,
+      "status": "candidate",
+      "text": "impress"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39951621,
+      "status": "candidate",
+      "text": "black and white"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30044369,
+      "status": "candidate",
+      "text": "photographic print"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 22041,
+      "status": "candidate",
+      "text": "impress"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 15033,
+      "status": "candidate",
+      "text": "black and white"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 3038,
+      "status": "candidate",
+      "text": "written"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2041,
+      "status": "candidate",
+      "text": "publish"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1005,
+      "status": "candidate",
+      "text": "print making"
+    }
+  ],
+  "canonical_name": "print",
+  "concept_id": "print",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "gruns/icecream"
+    }
+  ],
+  "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "print",
+      "sense_id": "print#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

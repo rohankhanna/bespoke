@@ -1,0 +1,84 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Specs.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Specs.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "CocoaPods/Core",
+      "target": "cocoapods/specs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Specs.yml",
+      "source_repo": "CocoaPods/Core",
+      "target": "actions/checkout@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Specs.yml",
+      "source_repo": "CocoaPods/Core",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/Specs.yml",
+      "source_repo": "CocoaPods/Core",
+      "target": "Specs",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T00:34:33.991700+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1885
+    },
+    {
+      "path": ".github/workflows/Specs.yml",
+      "size": 1054
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "The models used within the CocoaPods gem",
+    "fork": false,
+    "full_name": "CocoaPods/Core",
+    "html_url": "https://github.com/CocoaPods/Core",
+    "language": "Ruby",
+    "pushed_at": "2024-10-31T18:06:41Z",
+    "stargazers_count": 167,
+    "topics": [],
+    "updated_at": "2026-03-13T06:33:02Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cocoapods/specs",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Specs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/Specs.yml",
+      "term": "Specs"
+    }
+  ]
+}

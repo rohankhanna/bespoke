@@ -1,0 +1,132 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "teticio/Deej-AI",
+      "target": "teticio/deej-ai.online-app",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "teticio/Deej-AI",
+      "target": "deep-neural-networks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "teticio/Deej-AI",
+      "target": "genius",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "teticio/Deej-AI",
+      "target": "genre",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "teticio/Deej-AI",
+      "target": "playlist-generator",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "teticio/Deej-AI",
+      "target": "playlists",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "teticio/Deej-AI",
+      "target": "spotify",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T02:01:40.043797+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 14183
+    },
+    {
+      "path": "requirements.txt",
+      "size": 356
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Create automatic playlists by using Deep Learning to *listen* to the music.",
+    "fork": false,
+    "full_name": "teticio/Deej-AI",
+    "html_url": "https://github.com/teticio/Deej-AI",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2025-09-18T13:24:35Z",
+    "stargazers_count": 463,
+    "topics": [
+      "deep-neural-networks",
+      "genius",
+      "genre",
+      "mix",
+      "playlist-generator",
+      "playlists",
+      "spotify"
+    ],
+    "updated_at": "2026-04-21T14:30:58Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "teticio/deej-ai.online-app",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "![](MBIT_logo.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-neural-networks"
+    },
+    {
+      "context_snippet": "![](MBIT_logo.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "genius"
+    },
+    {
+      "context_snippet": "![](MBIT_logo.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "genre"
+    },
+    {
+      "context_snippet": "![](MBIT_logo.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "playlist-generator"
+    },
+    {
+      "context_snippet": "![](MBIT_logo.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "playlists"
+    },
+    {
+      "context_snippet": "![](MBIT_logo.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "spotify"
+    }
+  ]
+}

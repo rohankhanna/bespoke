@@ -93,13 +93,6 @@
   ],
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "community/community",
-      "target": "github/roadmap",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/actions_labeller.yml",
       "source_repo": "community/community",
@@ -345,7 +338,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-23T08:46:29.358979+00:00",
+  "fetched_at": "2026-04-24T01:57:23.643090+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -412,15 +405,9 @@
       "github-releases",
       "github-sponsors"
     ],
-    "updated_at": "2026-04-23T07:20:27Z"
+    "updated_at": "2026-04-24T00:48:45Z"
   },
-  "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "github/roadmap",
-      "source_file": "README.md"
-    }
-  ],
+  "repo_links": [],
   "terms": [
     {
       "context_snippet": "Auto-Label Discussions for Actions Category",

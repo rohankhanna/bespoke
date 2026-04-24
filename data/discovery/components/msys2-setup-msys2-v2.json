@@ -1,7 +1,7 @@
 {
   "component": "msys2/setup-msys2@v2",
   "first_seen_at": "2026-04-18T11:41:43.530265+00:00",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -332,6 +332,31 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/win64.yml",
       "source_repo": "yquake2/ref_vk"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/basic.yml",
+      "source_repo": "cpputest/cpputest"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build_cmake.yml",
+      "source_repo": "gulrak/filesystem"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/example-project.yml",
+      "source_repo": "lu-zero/cargo-c"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "lu-zero/cargo-c"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "dacap/clip"
     }
   ]
 }

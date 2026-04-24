@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T09:10:17.311509+00:00",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -131,6 +131,11 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/dependabot_automerge.yml",
       "source_repo": "gofiber/fiber"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/merge-dependabot.yml",
+      "source_repo": "vega/vega-embed"
     }
   ],
   "term": "Dependabot Auto Merge"

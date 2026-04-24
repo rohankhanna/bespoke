@@ -1,0 +1,122 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Node-sass wrapped to work with meteor."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "This is a build plugin for Meteor.js that compiles Sass files using Dart Sass."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "This is a build plugin for Meteor.js that compiles Sass files using Dart Sass."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40049750,
+      "status": "candidate",
+      "text": "backtalk"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39871554,
+      "status": "candidate",
+      "text": "lip"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39839817,
+      "status": "candidate",
+      "text": "mouth"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30047693,
+      "status": "candidate",
+      "text": "impudence"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30040247,
+      "status": "candidate",
+      "text": "defy"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "sass",
+      "sense_id": "sass#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 17066,
+      "status": "candidate",
+      "text": "mouth"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 6015,
+      "status": "candidate",
+      "text": "backtalk"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 4078,
+      "status": "candidate",
+      "text": "lip"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1014,
+      "status": "candidate",
+      "text": "sassing"
+    }
+  ],
+  "concept_id": "sass",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "sass",
+  "observation_id": "0bda11dee7c9d1e2",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T00:33:56.049672+00:00",
+  "observed_text": "sass",
+  "source_context_snippet": "This is a build plugin for Meteor.js that compiles Sass files using Dart Sass.",
+  "source_file": null,
+  "source_repo": "Meteor-Community-Packages/meteor-scss",
+  "source_repo_description": "Node-sass wrapped to work with meteor."
+}

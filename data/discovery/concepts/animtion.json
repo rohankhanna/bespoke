@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "animtion"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cigar666/my_manim_projects",
+      "status": "candidate-context",
+      "text": "some of my manim projects"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cigar666/my_manim_projects",
+      "status": "candidate-context",
+      "text": "\u5173\u4e8emy_manim_projects"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cigar666/my_manim_projects",
+      "status": "candidate",
+      "text": "\u5173\u4e8emy_manim_projects"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "animtion",
+  "concept_id": "animtion",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "cigar666/my_manim_projects"
+    }
+  ],
+  "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "animtion",
+      "sense_id": "animtion#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -1,0 +1,138 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "girishji/devdocs.vim",
+      "target": "girishji/scope.vim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "girishji/devdocs.vim",
+      "target": "girishji/vimbits",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "girishji/devdocs.vim",
+      "target": "girishji/vimsuggest",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "girishji/devdocs.vim",
+      "target": "devdocs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "girishji/devdocs.vim",
+      "target": "documentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "girishji/devdocs.vim",
+      "target": "vim-plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "girishji/devdocs.vim",
+      "target": "vim9",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "girishji/devdocs.vim",
+      "target": "vim9-plugin",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T00:46:36.843916+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7058
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Lookup  API documentation from devdocs.io without leaving Vim.",
+    "fork": false,
+    "full_name": "girishji/devdocs.vim",
+    "html_url": "https://github.com/girishji/devdocs.vim",
+    "language": "Vim Script",
+    "pushed_at": "2024-12-19T15:36:43Z",
+    "stargazers_count": 71,
+    "topics": [
+      "devdocs",
+      "documentation",
+      "vim",
+      "vim-plugin",
+      "vim9",
+      "vim9-plugin"
+    ],
+    "updated_at": "2026-03-20T08:59:11Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "girishji/scope.vim",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "girishji/vimbits",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "girishji/vimsuggest",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<h1 align=\"center\"> Devdocs </h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "devdocs"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\"> Devdocs </h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "documentation"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\"> Devdocs </h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vim-plugin"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\"> Devdocs </h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vim9"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\"> Devdocs </h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vim9-plugin"
+    }
+  ]
+}

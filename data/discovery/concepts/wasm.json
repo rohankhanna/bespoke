@@ -287,6 +287,78 @@
       "source_repo": "antonengelhardt/wasm-oidc-plugin",
       "status": "candidate-context",
       "text": "![Logo (generated with Photoshop Generative AI)](social-graphic.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aesalazar/AsteroidsWasm",
+      "status": "candidate-context",
+      "text": "Collection of applications based on a single C# .NET Standard project running in:  Blazor Client (WebAssembly), Blazor Server, Electron, WPF, WinForms, Maui, WinUI3"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aesalazar/AsteroidsWasm",
+      "status": "candidate-context",
+      "text": "Collection of applications based on a single C# .NET Standard project running in: Blazor Client (WebAssembly), Blazor Server, Electron, WPF, WinForms, Maui, WinUI3"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fschutt/printpdf",
+      "status": "candidate-context",
+      "text": "Rust / WASM library for reading, writing and rendering PDF"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fschutt/printpdf",
+      "status": "candidate-context",
+      "text": "\ufeff# printpdf"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dgn/oidc-filter",
+      "status": "candidate-context",
+      "text": "A WASM plugin for Envoy supporting the Open ID Connect Authorization Flow, extending Istio's JWT functionality"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dgn/oidc-filter",
+      "status": "candidate-context",
+      "text": "`oidc-filter` is a Wasm plugin for Envoy/Istio that will redirect users to a given authentication URI if they do not present a JWT token."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sonhal/wasm-oauth-filter",
+      "status": "candidate-context",
+      "text": "A OpenID Connect and OAuth 2.0 WebAssembly proxy filter."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sonhal/wasm-oauth-filter",
+      "status": "candidate-context",
+      "text": "![Workflow badge](https://github.com/sonhal/wasm-oauth-filter/actions/workflows/build-deploy.yml/badge.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ipsilon/evmc",
+      "status": "candidate-context",
+      "text": "EVMC \u2013 Ethereum Client-VM Connector API"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipsilon/evmc",
+      "status": "candidate-context",
+      "text": "[![chat: on gitter][gitter badge]][Gitter]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "raysan5/raylib",
+      "status": "candidate-context",
+      "text": "A simple and easy-to-use library to enjoy videogames programming"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "raysan5/raylib",
+      "status": "candidate-context",
+      "text": "<img align=\"left\" style=\"width:260px\" src=\"https://github.com/raysan5/raylib/blob/master/logo/raylib_logo_animation.gif\" width=\"288px\">"
     }
   ],
   "candidate_glosses": [
@@ -427,6 +499,42 @@
       "source_repo": "antonengelhardt/wasm-oidc-plugin",
       "status": "candidate",
       "text": "![Logo (generated with Photoshop Generative AI)](social-graphic.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aesalazar/AsteroidsWasm",
+      "status": "candidate",
+      "text": "Collection of applications based on a single C# .NET Standard project running in: Blazor Client (WebAssembly), Blazor Server, Electron, WPF, WinForms, Maui, WinUI3"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fschutt/printpdf",
+      "status": "candidate",
+      "text": "\ufeff# printpdf"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dgn/oidc-filter",
+      "status": "candidate",
+      "text": "`oidc-filter` is a Wasm plugin for Envoy/Istio that will redirect users to a given authentication URI if they do not present a JWT token."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sonhal/wasm-oauth-filter",
+      "status": "candidate",
+      "text": "![Workflow badge](https://github.com/sonhal/wasm-oauth-filter/actions/workflows/build-deploy.yml/badge.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipsilon/evmc",
+      "status": "candidate",
+      "text": "[![chat: on gitter][gitter badge]][Gitter]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "raysan5/raylib",
+      "status": "candidate",
+      "text": "<img align=\"left\" style=\"width:260px\" src=\"https://github.com/raysan5/raylib/blob/master/logo/raylib_logo_animation.gif\" width=\"288px\">"
     }
   ],
   "candidate_related_terms": [
@@ -650,11 +758,53 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "wasm-bindgen/wasm-pack"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "aesalazar/AsteroidsWasm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "fschutt/printpdf"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "dgn/oidc-filter"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "sonhal/wasm-oauth-filter"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "ipsilon/evmc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "wasm-bindgen/wasm-pack"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "raysan5/raylib"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

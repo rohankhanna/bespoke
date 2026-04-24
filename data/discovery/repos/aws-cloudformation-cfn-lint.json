@@ -155,7 +155,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "aws-cloudformation/cfn-lint",
-      "target": "joenye/coc-cfn-lint",
+      "target": "patmyron/cfn-lint-online",
       "target_type": "repository"
     },
     {
@@ -334,7 +334,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-23T19:51:57.553186+00:00",
+  "fetched_at": "2026-04-24T00:41:00.126850+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -382,7 +382,7 @@
     "full_name": "aws-cloudformation/cfn-lint",
     "html_url": "https://github.com/aws-cloudformation/cfn-lint",
     "language": "Python",
-    "pushed_at": "2026-04-23T15:04:04Z",
+    "pushed_at": "2026-04-23T21:18:28Z",
     "stargazers_count": 2610,
     "topics": [
       "aws",
@@ -411,7 +411,7 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "joenye/coc-cfn-lint",
+      "full_name": "patmyron/cfn-lint-online",
       "source_file": "README.md"
     }
   ],

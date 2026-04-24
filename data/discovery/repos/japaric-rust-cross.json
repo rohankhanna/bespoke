@@ -1,0 +1,121 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "japaric/rust-cross",
+      "target": "brson/multirust",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "japaric/rust-cross",
+      "target": "crosstool-ng/crosstool-ng",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "japaric/rust-cross",
+      "target": "japaric/xargo",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "japaric/rust-cross",
+      "target": "japaric/rust-everywhere",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "japaric/rust-cross",
+      "target": "cross-compilation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "japaric/rust-cross",
+      "target": "how-to",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "japaric/rust-cross",
+      "target": "rust",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T01:53:03.018349+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 38999
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Everything you need to know about cross compiling Rust programs!",
+    "fork": false,
+    "full_name": "japaric/rust-cross",
+    "html_url": "https://github.com/japaric/rust-cross",
+    "language": "Shell",
+    "pushed_at": "2022-07-22T09:06:38Z",
+    "stargazers_count": 2554,
+    "topics": [
+      "cross-compilation",
+      "how-to",
+      "rust"
+    ],
+    "updated_at": "2026-04-20T11:14:36Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "brson/multirust",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "crosstool-ng/crosstool-ng",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "japaric/rust-everywhere",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "japaric/xargo",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![travis-badge][]][travis]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cross-compilation"
+    },
+    {
+      "context_snippet": "[![travis-badge][]][travis]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "how-to"
+    },
+    {
+      "context_snippet": "[![travis-badge][]][travis]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust"
+    }
+  ]
+}

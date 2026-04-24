@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A utility-first CSS framework for rapid UI development."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39971941,
+      "status": "candidate",
+      "text": "answering"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39971691,
+      "status": "candidate",
+      "text": "respondent"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39965761,
+      "status": "candidate",
+      "text": "tractable"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39962047,
+      "status": "candidate",
+      "text": "amenable"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39960534,
+      "status": "candidate",
+      "text": "susceptible"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "responsive",
+      "sense_id": "responsive#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 51043,
+      "status": "candidate",
+      "text": "amenable"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 28043,
+      "status": "candidate",
+      "text": "susceptible"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 25044,
+      "status": "candidate",
+      "text": "sensitive"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 10034,
+      "status": "candidate",
+      "text": "tractable"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 6045,
+      "status": "candidate",
+      "text": "respondent"
+    }
+  ],
+  "concept_id": "responsive",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "responsive",
+  "observation_id": "af26b34ff64f8786",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T00:33:56.049672+00:00",
+  "observed_text": "responsive",
+  "source_context_snippet": "<p align=\"center\">",
+  "source_file": null,
+  "source_repo": "tailwindlabs/tailwindcss",
+  "source_repo_description": "A utility-first CSS framework for rapid UI development."
+}

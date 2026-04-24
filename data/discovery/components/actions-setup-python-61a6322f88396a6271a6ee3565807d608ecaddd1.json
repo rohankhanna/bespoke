@@ -1,0 +1,22 @@
+{
+  "component": "actions/setup-python@61a6322f88396a6271a6ee3565807d608ecaddd1",
+  "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "boto/s3transfer"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/run-crt-test.yml",
+      "source_repo": "boto/s3transfer"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/run-tests.yml",
+      "source_repo": "boto/s3transfer"
+    }
+  ]
+}

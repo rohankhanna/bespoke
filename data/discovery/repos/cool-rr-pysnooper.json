@@ -1,0 +1,95 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cool-RR/PySnooper",
+      "target": "debug",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cool-RR/PySnooper",
+      "target": "debugger",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cool-RR/PySnooper",
+      "target": "introspection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cool-RR/PySnooper",
+      "target": "logging",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T02:04:00.914243+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4299
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 81
+    },
+    {
+      "path": "requirements.txt",
+      "size": 132
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Never use print for debugging again",
+    "fork": false,
+    "full_name": "cool-RR/PySnooper",
+    "html_url": "https://github.com/cool-RR/PySnooper",
+    "language": "Python",
+    "pushed_at": "2026-03-08T10:52:31Z",
+    "stargazers_count": 16601,
+    "topics": [
+      "debug",
+      "debugger",
+      "introspection",
+      "logging",
+      "python"
+    ],
+    "updated_at": "2026-04-23T11:51:44Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "**PySnooper** is a poor man's debugger. If you've used Bash, it's like `set -x` for Python, except it's fancier.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "debug"
+    },
+    {
+      "context_snippet": "**PySnooper** is a poor man's debugger. If you've used Bash, it's like `set -x` for Python, except it's fancier.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "debugger"
+    },
+    {
+      "context_snippet": "**PySnooper** is a poor man's debugger. If you've used Bash, it's like `set -x` for Python, except it's fancier.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "introspection"
+    },
+    {
+      "context_snippet": "**PySnooper** is a poor man's debugger. If you've used Bash, it's like `set -x` for Python, except it's fancier.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "logging"
+    }
+  ]
+}

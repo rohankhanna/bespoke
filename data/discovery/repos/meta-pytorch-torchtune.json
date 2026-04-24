@@ -1,0 +1,546 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_docs.yaml"
+    },
+    {
+      "component": "conda-incubator/setup-miniconda@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_docs.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_docs.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_docs.yaml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_docs.yaml"
+    },
+    {
+      "component": "seemethere/upload-artifact-s3@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_docs.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_docs.yaml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_docs.yaml"
+    },
+    {
+      "component": "pytorch/test-infra/.github/workflows/generate_binary_build_matrix.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_linux_wheels.yaml"
+    },
+    {
+      "component": "pytorch/test-infra/.github/workflows/build_wheels_linux.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_linux_wheels.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/export.yaml"
+    },
+    {
+      "component": "conda-incubator/setup-miniconda@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/export.yaml"
+    },
+    {
+      "component": "codecov/codecov-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/export.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gpu_test.yaml"
+    },
+    {
+      "component": "conda-incubator/setup-miniconda@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gpu_test.yaml"
+    },
+    {
+      "component": "codecov/codecov-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gpu_test.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yaml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yaml"
+    },
+    {
+      "component": "tj-actions/changed-files@d6e91a2266cdb9d62096cebf1e8546899c6aa18f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/regression_test.yaml"
+    },
+    {
+      "component": "conda-incubator/setup-miniconda@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/regression_test.yaml"
+    },
+    {
+      "component": "aws-actions/configure-aws-credentials@v1.7.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/regression_test.yaml"
+    },
+    {
+      "component": "codecov/codecov-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/regression_test.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rl_test.yaml"
+    },
+    {
+      "component": "conda-incubator/setup-miniconda@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rl_test.yaml"
+    },
+    {
+      "component": "codecov/codecov-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rl_test.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unit_test.yaml"
+    },
+    {
+      "component": "conda-incubator/setup-miniconda@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unit_test.yaml"
+    },
+    {
+      "component": "codecov/codecov-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unit_test.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "meta-pytorch/torchtune",
+      "target": "pytorch/torchtune",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "meta-pytorch/torchtune",
+      "target": "meta-pytorch/gpt-fast",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "meta-pytorch/torchtune",
+      "target": "meta-llama/llama-recipes",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "meta-pytorch/torchtune",
+      "target": "openaccess-ai-collective/axolotl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_docs.yaml",
+      "source_repo": "meta-pytorch/torchtune",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_docs.yaml",
+      "source_repo": "meta-pytorch/torchtune",
+      "target": "conda-incubator/setup-miniconda@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_docs.yaml",
+      "source_repo": "meta-pytorch/torchtune",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_docs.yaml",
+      "source_repo": "meta-pytorch/torchtune",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_docs.yaml",
+      "source_repo": "meta-pytorch/torchtune",
+      "target": "seemethere/upload-artifact-s3@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_docs.yaml",
+      "source_repo": "meta-pytorch/torchtune",
+      "target": "Build Docs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_linux_wheels.yaml",
+      "source_repo": "meta-pytorch/torchtune",
+      "target": "pytorch/test-infra/.github/workflows/generate_binary_build_matrix.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_linux_wheels.yaml",
+      "source_repo": "meta-pytorch/torchtune",
+      "target": "pytorch/test-infra/.github/workflows/build_wheels_linux.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_linux_wheels.yaml",
+      "source_repo": "meta-pytorch/torchtune",
+      "target": "Build Linux Wheels",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/export.yaml",
+      "source_repo": "meta-pytorch/torchtune",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/export.yaml",
+      "source_repo": "meta-pytorch/torchtune",
+      "target": "conda-incubator/setup-miniconda@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/export.yaml",
+      "source_repo": "meta-pytorch/torchtune",
+      "target": "codecov/codecov-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/export.yaml",
+      "source_repo": "meta-pytorch/torchtune",
+      "target": "Export",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gpu_test.yaml",
+      "source_repo": "meta-pytorch/torchtune",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gpu_test.yaml",
+      "source_repo": "meta-pytorch/torchtune",
+      "target": "conda-incubator/setup-miniconda@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gpu_test.yaml",
+      "source_repo": "meta-pytorch/torchtune",
+      "target": "codecov/codecov-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gpu_test.yaml",
+      "source_repo": "meta-pytorch/torchtune",
+      "target": "GPU tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yaml",
+      "source_repo": "meta-pytorch/torchtune",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yaml",
+      "source_repo": "meta-pytorch/torchtune",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yaml",
+      "source_repo": "meta-pytorch/torchtune",
+      "target": "tj-actions/changed-files@d6e91a2266cdb9d62096cebf1e8546899c6aa18f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yaml",
+      "source_repo": "meta-pytorch/torchtune",
+      "target": "Lint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/regression_test.yaml",
+      "source_repo": "meta-pytorch/torchtune",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/regression_test.yaml",
+      "source_repo": "meta-pytorch/torchtune",
+      "target": "conda-incubator/setup-miniconda@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/regression_test.yaml",
+      "source_repo": "meta-pytorch/torchtune",
+      "target": "aws-actions/configure-aws-credentials@v1.7.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/regression_test.yaml",
+      "source_repo": "meta-pytorch/torchtune",
+      "target": "codecov/codecov-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/regression_test.yaml",
+      "source_repo": "meta-pytorch/torchtune",
+      "target": "Regression Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rl_test.yaml",
+      "source_repo": "meta-pytorch/torchtune",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rl_test.yaml",
+      "source_repo": "meta-pytorch/torchtune",
+      "target": "conda-incubator/setup-miniconda@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rl_test.yaml",
+      "source_repo": "meta-pytorch/torchtune",
+      "target": "codecov/codecov-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rl_test.yaml",
+      "source_repo": "meta-pytorch/torchtune",
+      "target": "RL tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unit_test.yaml",
+      "source_repo": "meta-pytorch/torchtune",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unit_test.yaml",
+      "source_repo": "meta-pytorch/torchtune",
+      "target": "conda-incubator/setup-miniconda@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unit_test.yaml",
+      "source_repo": "meta-pytorch/torchtune",
+      "target": "codecov/codecov-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/unit_test.yaml",
+      "source_repo": "meta-pytorch/torchtune",
+      "target": "Unit Test",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T01:59:25.032911+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 22883
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 3173
+    },
+    {
+      "path": ".github/workflows/build_docs.yaml",
+      "size": 4339
+    },
+    {
+      "path": ".github/workflows/build_linux_wheels.yaml",
+      "size": 1365
+    },
+    {
+      "path": ".github/workflows/export.yaml",
+      "size": 1512
+    },
+    {
+      "path": ".github/workflows/gpu_test.yaml",
+      "size": 2087
+    },
+    {
+      "path": ".github/workflows/lint.yaml",
+      "size": 1091
+    },
+    {
+      "path": ".github/workflows/regression_test.yaml",
+      "size": 2126
+    },
+    {
+      "path": ".github/workflows/rl_test.yaml",
+      "size": 2545
+    },
+    {
+      "path": ".github/workflows/unit_test.yaml",
+      "size": 1239
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "PyTorch native post-training library",
+    "fork": false,
+    "full_name": "meta-pytorch/torchtune",
+    "html_url": "https://github.com/meta-pytorch/torchtune",
+    "language": "Python",
+    "pushed_at": "2026-04-23T19:15:28Z",
+    "stargazers_count": 5739,
+    "topics": [],
+    "updated_at": "2026-04-23T19:15:35Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "meta-llama/llama-recipes",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "meta-pytorch/gpt-fast",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "openaccess-ai-collective/axolotl",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pytorch/torchtune",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build Docs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_docs.yaml",
+      "term": "Build Docs"
+    },
+    {
+      "context_snippet": "Build Linux Wheels",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_linux_wheels.yaml",
+      "term": "Build Linux Wheels"
+    },
+    {
+      "context_snippet": "Export",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/export.yaml",
+      "term": "Export"
+    },
+    {
+      "context_snippet": "GPU tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gpu_test.yaml",
+      "term": "GPU tests"
+    },
+    {
+      "context_snippet": "Lint",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yaml",
+      "term": "Lint"
+    },
+    {
+      "context_snippet": "Regression Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/regression_test.yaml",
+      "term": "Regression Tests"
+    },
+    {
+      "context_snippet": "RL tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rl_test.yaml",
+      "term": "RL tests"
+    },
+    {
+      "context_snippet": "Unit Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/unit_test.yaml",
+      "term": "Unit Test"
+    }
+  ]
+}

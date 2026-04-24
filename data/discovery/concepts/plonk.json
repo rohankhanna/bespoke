@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "plonk"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "EspressoSystems/jellyfish",
+      "status": "candidate-context",
+      "text": "A Rust Implementation of the PLONK ZKP System and Extensions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "EspressoSystems/jellyfish",
+      "status": "candidate-context",
+      "text": "![example workflow](https://github.com/EspressoSystems/jellyfish/actions/workflows/build.yml/badge.svg)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "EspressoSystems/jellyfish",
+      "status": "candidate",
+      "text": "![example workflow](https://github.com/EspressoSystems/jellyfish/actions/workflows/build.yml/badge.svg)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30021176,
+      "status": "candidate",
+      "text": "plunk"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30020836,
+      "status": "candidate",
+      "text": "flump"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30020351,
+      "status": "candidate",
+      "text": "plump down"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30018779,
+      "status": "candidate",
+      "text": "plop"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29991526,
+      "status": "candidate",
+      "text": "plump"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 37036,
+      "status": "candidate",
+      "text": "plump"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 17035,
+      "status": "candidate",
+      "text": "plop"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 13032,
+      "status": "candidate",
+      "text": "plunk"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 9021,
+      "status": "candidate",
+      "text": "flump"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 4042,
+      "status": "candidate",
+      "text": "plank"
+    }
+  ],
+  "canonical_name": "plonk",
+  "concept_id": "plonk",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "EspressoSystems/jellyfish"
+    }
+  ],
+  "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "plonk",
+      "sense_id": "plonk#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

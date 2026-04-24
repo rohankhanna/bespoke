@@ -730,6 +730,54 @@
       "source_repo": "open-mmlab/mmpose",
       "status": "candidate-context",
       "text": "deploy"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lu-zero/cargo-c",
+      "status": "candidate-context",
+      "text": "build and install C-compatible libraries"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lu-zero/cargo-c",
+      "status": "candidate-context",
+      "text": "deploy"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "clice-io/clice",
+      "status": "candidate-context",
+      "text": "A next-generation C++ language server for modern C++, focused on high performance and deep code intelligence"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clice-io/clice",
+      "status": "candidate-context",
+      "text": "deploy"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "wa-lang/wa",
+      "status": "candidate-context",
+      "text": "\u51f9\u8bed\u8a00, The Wa Programming Language"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wa-lang/wa",
+      "status": "candidate-context",
+      "text": "Deploy"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "operator-framework/operator-sdk",
+      "status": "candidate-context",
+      "text": "SDK for building Kubernetes applications. Provides high level APIs, useful abstractions, and project scaffolding."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "operator-framework/operator-sdk",
+      "status": "candidate-context",
+      "text": "deploy"
     }
   ],
   "candidate_glosses": [
@@ -1096,6 +1144,30 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "open-mmlab/mmpose",
+      "status": "candidate",
+      "text": "deploy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lu-zero/cargo-c",
+      "status": "candidate",
+      "text": "deploy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clice-io/clice",
+      "status": "candidate",
+      "text": "deploy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wa-lang/wa",
+      "status": "candidate",
+      "text": "Deploy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "operator-framework/operator-sdk",
       "status": "candidate",
       "text": "deploy"
     }
@@ -1537,11 +1609,35 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": ".github/workflows/deploy.yml",
       "source_repo": "open-mmlab/mmpose"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "lu-zero/cargo-c"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/deploy-docs.yml",
+      "source_repo": "clice-io/clice"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "wa-lang/wa"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "operator-framework/operator-sdk"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,88 @@
+{
+  "aliases": [
+    "pkgdown"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "r-lib/lintr",
+      "status": "candidate-context",
+      "text": "Static Code Analysis for R"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "r-lib/lintr",
+      "status": "candidate-context",
+      "text": "pkgdown"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "r-lib/styler",
+      "status": "candidate-context",
+      "text": "Non-invasive pretty printing of R code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "r-lib/styler",
+      "status": "candidate-context",
+      "text": "pkgdown"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "r-lib/lintr",
+      "status": "candidate",
+      "text": "pkgdown"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "r-lib/styler",
+      "status": "candidate",
+      "text": "pkgdown"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "pkgdown",
+  "concept_id": "pkgdown",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/pkgdown.yaml",
+      "source_repo": "r-lib/lintr"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/pkgdown.yaml",
+      "source_repo": "r-lib/styler"
+    }
+  ],
+  "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "pkgdown",
+      "sense_id": "pkgdown#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

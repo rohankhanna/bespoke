@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Add contributors"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "icip-cas/PPTAgent",
+      "status": "candidate-context",
+      "text": "An Agentic Framework for Reflective PowerPoint Generation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "icip-cas/PPTAgent",
+      "status": "candidate-context",
+      "text": "Add contributors"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "icip-cas/PPTAgent",
+      "status": "candidate",
+      "text": "Add contributors"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14229,
+      "status": "candidate",
+      "text": "donor"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14229,
+      "status": "candidate",
+      "text": "others"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13988,
+      "status": "candidate",
+      "text": "partners"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13988,
+      "status": "candidate",
+      "text": "speakers"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13988,
+      "status": "candidate",
+      "text": "troops"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Add contributors",
+  "concept_id": "add-contributors",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/contributors.yml",
+      "source_repo": "icip-cas/PPTAgent"
+    }
+  ],
+  "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Add contributors",
+      "sense_id": "add-contributors#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

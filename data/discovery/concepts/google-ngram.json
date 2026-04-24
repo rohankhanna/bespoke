@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "google-ngram"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "girishji/ngram-complete.vim",
+      "status": "candidate-context",
+      "text": "Autocompletion based on frequency of word occurrence in English corpus."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "girishji/ngram-complete.vim",
+      "status": "candidate-context",
+      "text": "Traditional dictionary based word completion is more or less useless since it"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "girishji/ngram-complete.vim",
+      "status": "candidate",
+      "text": "Traditional dictionary based word completion is more or less useless since it"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "google-ngram",
+  "concept_id": "google-ngram",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "girishji/ngram-complete.vim"
+    }
+  ],
+  "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "google-ngram",
+      "sense_id": "google-ngram#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

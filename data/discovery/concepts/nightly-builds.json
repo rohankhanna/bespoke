@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "Nightly Builds"
+    "Nightly Builds",
+    "Nightly builds"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -19,6 +20,18 @@
       "source_repo": "firebase/firebase-admin-python",
       "status": "candidate-context",
       "text": "Nightly Builds"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "clojure-lsp/clojure-lsp",
+      "status": "candidate-context",
+      "text": "Clojure & ClojureScript Language Server (LSP) implementation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clojure-lsp/clojure-lsp",
+      "status": "candidate-context",
+      "text": "Nightly builds"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +40,12 @@
       "source_repo": "firebase/firebase-admin-python",
       "status": "candidate",
       "text": "Nightly Builds"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clojure-lsp/clojure-lsp",
+      "status": "candidate",
+      "text": "Nightly builds"
     }
   ],
   "candidate_related_terms": [
@@ -82,11 +101,17 @@
       "observed_at": "2026-04-23T01:09:11.871080+00:00",
       "source_file": ".github/workflows/nightly.yml",
       "source_repo": "firebase/firebase-admin-python"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/nightly.yml",
+      "source_repo": "clojure-lsp/clojure-lsp"
     }
   ],
   "first_seen_at": "2026-04-18T10:38:37.562216+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

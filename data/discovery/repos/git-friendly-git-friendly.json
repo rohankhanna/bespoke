@@ -1,0 +1,100 @@
+{
+  "components": [
+    {
+      "component": "mislav/bump-homebrew-formula-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bump-homebrew-formula.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "git-friendly/git-friendly",
+      "target": "git-friendly/homebrew-git-friendly",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "git-friendly/git-friendly",
+      "target": "jamiew/git-friendly",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bump-homebrew-formula.yml",
+      "source_repo": "git-friendly/git-friendly",
+      "target": "mislav/bump-homebrew-formula-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bump-homebrew-formula.yml",
+      "source_repo": "git-friendly/git-friendly",
+      "target": "Update Homebrew formula",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "git-friendly/git-friendly",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-24T00:37:49.815475+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 13749
+    },
+    {
+      "path": ".github/workflows/bump-homebrew-formula.yml",
+      "size": 538
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 6174
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Streamline your git workflow: just type `pull`, `branch`, `merge`, `push`",
+    "fork": false,
+    "full_name": "git-friendly/git-friendly",
+    "html_url": "https://github.com/git-friendly/git-friendly",
+    "language": "Shell",
+    "pushed_at": "2026-04-23T14:21:34Z",
+    "stargazers_count": 520,
+    "topics": [],
+    "updated_at": "2026-04-23T18:03:19Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "git-friendly/homebrew-git-friendly",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jamiew/git-friendly",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Update Homebrew formula",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bump-homebrew-formula.yml",
+      "term": "Update Homebrew formula"
+    }
+  ]
+}

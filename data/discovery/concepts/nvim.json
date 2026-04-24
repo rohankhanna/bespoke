@@ -283,6 +283,78 @@
       "source_repo": "ggandor/leap.nvim",
       "status": "candidate-context",
       "text": "[Moved to Codeberg](https://codeberg.org/andyg/leap.nvim)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "liuchengxu/vim-clap",
+      "status": "candidate-context",
+      "text": ":clap: Modern performant fuzzy picker, tree-sitter highlighting, and more, for both Vim and NeoVim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "liuchengxu/vim-clap",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "stevearc/conform.nvim",
+      "status": "candidate-context",
+      "text": "Lightweight yet powerful formatter plugin for Neovim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stevearc/conform.nvim",
+      "status": "candidate-context",
+      "text": "Lightweight yet powerful formatter plugin for Neovim"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "stevearc/stickybuf.nvim",
+      "status": "candidate-context",
+      "text": "Neovim plugin for locking a buffer to a window"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stevearc/stickybuf.nvim",
+      "status": "candidate-context",
+      "text": "Neovim plugin for locking a buffer to a window"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ggandor/lightspeed.nvim",
+      "status": "candidate-context",
+      "text": "deprecated in favor of leap.nvim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ggandor/lightspeed.nvim",
+      "status": "candidate-context",
+      "text": "Lightspeed has been deprecated in favor of"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "igorlfs/nvim-dap-view",
+      "status": "candidate-context",
+      "text": "Visualize debugging sessions in neovim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "igorlfs/nvim-dap-view",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rcarriga/nvim-dap-ui",
+      "status": "candidate-context",
+      "text": "A UI for nvim-dap"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rcarriga/nvim-dap-ui",
+      "status": "candidate-context",
+      "text": "A UI for [nvim-dap](https://github.com/mfussenegger/nvim-dap) which provides a"
     }
   ],
   "candidate_glosses": [
@@ -423,6 +495,42 @@
       "source_repo": "ggandor/leap.nvim",
       "status": "candidate",
       "text": "[Moved to Codeberg](https://codeberg.org/andyg/leap.nvim)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "liuchengxu/vim-clap",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stevearc/conform.nvim",
+      "status": "candidate",
+      "text": "Lightweight yet powerful formatter plugin for Neovim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stevearc/stickybuf.nvim",
+      "status": "candidate",
+      "text": "Neovim plugin for locking a buffer to a window"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ggandor/lightspeed.nvim",
+      "status": "candidate",
+      "text": "Lightspeed has been deprecated in favor of"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "igorlfs/nvim-dap-view",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rcarriga/nvim-dap-ui",
+      "status": "candidate",
+      "text": "A UI for [nvim-dap](https://github.com/mfussenegger/nvim-dap) which provides a"
     }
   ],
   "candidate_related_terms": [],
@@ -574,11 +682,47 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "ggandor/leap.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "liuchengxu/vim-clap"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "stevearc/conform.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "stevearc/stickybuf.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "ggandor/lightspeed.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "igorlfs/nvim-dap-view"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "rcarriga/nvim-dap-ui"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

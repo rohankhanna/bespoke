@@ -27,13 +27,6 @@
       "target_type": "repository"
     },
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "dense-analysis/ale",
-      "target": "vuejs/eslint-plugin-vue",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/main.yml",
       "source_repo": "dense-analysis/ale",
@@ -111,7 +104,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-23T08:32:07.042780+00:00",
+  "fetched_at": "2026-04-24T01:40:07.836410+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -136,7 +129,7 @@
     "html_url": "https://github.com/dense-analysis/ale",
     "language": "Vim Script",
     "pushed_at": "2026-04-15T13:04:59Z",
-    "stargazers_count": 13991,
+    "stargazers_count": 13992,
     "topics": [
       "autocomplete",
       "language-server-protocol",
@@ -151,7 +144,7 @@
       "vim-plugin",
       "vim-plugins"
     ],
-    "updated_at": "2026-04-23T02:45:46Z"
+    "updated_at": "2026-04-23T16:35:00Z"
   },
   "repo_links": [
     {
@@ -162,11 +155,6 @@
     {
       "edge_type": "explicit-github-link",
       "full_name": "styled-components/stylelint-processor-styled-components",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "vuejs/eslint-plugin-vue",
       "source_file": "README.md"
     }
   ],

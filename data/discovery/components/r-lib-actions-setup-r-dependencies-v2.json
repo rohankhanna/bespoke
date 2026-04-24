@@ -1,7 +1,7 @@
 {
   "component": "r-lib/actions/setup-r-dependencies@v2",
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -52,6 +52,71 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/coverage.yml",
       "source_repo": "REditorSupport/languageserver"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/R-CMD-check-hard.yaml",
+      "source_repo": "r-lib/lintr"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/R-CMD-check.yaml",
+      "source_repo": "r-lib/lintr"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ast-fuzz.yaml",
+      "source_repo": "r-lib/lintr"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/check-all-examples.yaml",
+      "source_repo": "r-lib/lintr"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/lint.yaml",
+      "source_repo": "r-lib/lintr"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pkgdown.yaml",
+      "source_repo": "r-lib/lintr"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/repo-meta-tests.yaml",
+      "source_repo": "r-lib/lintr"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test-coverage-examples.yaml",
+      "source_repo": "r-lib/lintr"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test-coverage.yaml",
+      "source_repo": "r-lib/lintr"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/check-full.yaml",
+      "source_repo": "r-lib/styler"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/check-no-warnings.yaml",
+      "source_repo": "r-lib/styler"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pkgdown.yaml",
+      "source_repo": "r-lib/styler"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test-coverage.yaml",
+      "source_repo": "r-lib/styler"
     }
   ]
 }

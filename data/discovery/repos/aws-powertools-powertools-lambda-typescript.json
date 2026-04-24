@@ -1,0 +1,775 @@
+{
+  "components": [
+    {
+      "component": "@biomejs/biome",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/aws-lambda",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/node",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@vitest/coverage-v8",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "esbuild",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "husky",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "lint-staged",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "markdownlint-cli2",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "middy5",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "middy6",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "middy7",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "typedoc",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "typedoc-plugin-missing-exports",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "typescript",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "vitest",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bootstrap_region.yml"
+    },
+    {
+      "component": "actions/setup-node@48b55a011bda9f5d6aeb4c2d9c7362e8dae4041e",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bootstrap_region.yml"
+    },
+    {
+      "component": "aws-powertools/actions/.github/actions/cached-node-modules@29979bc5339bf54f76a11ac36ff67701986bb0f0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bootstrap_region.yml"
+    },
+    {
+      "component": "aws-actions/configure-aws-credentials@ec61189d14ec14c8efccab744f656cffd0e33f37",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bootstrap_region.yml"
+    },
+    {
+      "component": "aws-actions/configure-aws-credentials@ec61189d14ec14c8efccab744f656cffd0e33f37",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bootstrap_region.yml"
+    },
+    {
+      "component": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bootstrap_region.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependency-review.yml"
+    },
+    {
+      "component": "actions/dependency-review-action@2031cfc080254a8a887f58cffee85186f0e49e48",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependency-review.yml"
+    },
+    {
+      "component": "aws-actions/configure-aws-credentials@ec61189d14ec14c8efccab744f656cffd0e33f37",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/layer_balance.yml"
+    },
+    {
+      "component": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/layer_balance.yml"
+    },
+    {
+      "component": "aws-actions/configure-aws-credentials@ec61189d14ec14c8efccab744f656cffd0e33f37",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/layers_partition_verify.yml"
+    },
+    {
+      "component": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/layers_partition_verify.yml"
+    },
+    {
+      "component": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/layers_partition_verify.yml"
+    },
+    {
+      "component": "aws-actions/configure-aws-credentials@ec61189d14ec14c8efccab744f656cffd0e33f37",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/layers_partition_verify.yml"
+    },
+    {
+      "component": "aws-actions/configure-aws-credentials@ec61189d14ec14c8efccab744f656cffd0e33f37",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/layers_partitions.yml"
+    },
+    {
+      "component": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/layers_partitions.yml"
+    },
+    {
+      "component": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/layers_partitions.yml"
+    },
+    {
+      "component": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/layers_partitions_deploy.yml"
+    },
+    {
+      "component": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/layers_partitions_deploy.yml"
+    },
+    {
+      "component": "aws-actions/configure-aws-credentials@ec61189d14ec14c8efccab744f656cffd0e33f37",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/layers_partitions_deploy.yml"
+    },
+    {
+      "component": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/layers_partitions_deploy.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/make-release.yml"
+    },
+    {
+      "component": "actions/setup-node@48b55a011bda9f5d6aeb4c2d9c7362e8dae4041e",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/make-release.yml"
+    },
+    {
+      "component": "aws-powertools/actions/.github/actions/cached-node-modules@29979bc5339bf54f76a11ac36ff67701986bb0f0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/make-release.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/make-release.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/make-version.yml"
+    },
+    {
+      "component": "actions/setup-node@48b55a011bda9f5d6aeb4c2d9c7362e8dae4041e",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/make-version.yml"
+    },
+    {
+      "component": "aws-powertools/actions/.github/actions/cached-node-modules@3b5b8e2e58b7af07994be982e83584a94e8c76c5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/make-version.yml"
+    },
+    {
+      "component": "aws-powertools/actions/.github/actions/version-n-changelog@3b5b8e2e58b7af07994be982e83584a94e8c76c5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/make-version.yml"
+    },
+    {
+      "component": "aws-powertools/actions/.github/actions/create-pr@3b5b8e2e58b7af07994be982e83584a94e8c76c5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/make-version.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aws-powertools/powertools-lambda-typescript",
+      "target": "getndazn/dazn-lambda-powertools",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "aws-powertools/powertools-lambda-typescript",
+      "target": "@biomejs/biome",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "aws-powertools/powertools-lambda-typescript",
+      "target": "@types/aws-lambda",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "aws-powertools/powertools-lambda-typescript",
+      "target": "@types/node",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "aws-powertools/powertools-lambda-typescript",
+      "target": "@vitest/coverage-v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "aws-powertools/powertools-lambda-typescript",
+      "target": "esbuild",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "aws-powertools/powertools-lambda-typescript",
+      "target": "husky",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "aws-powertools/powertools-lambda-typescript",
+      "target": "lint-staged",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "aws-powertools/powertools-lambda-typescript",
+      "target": "markdownlint-cli2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "aws-powertools/powertools-lambda-typescript",
+      "target": "middy5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "aws-powertools/powertools-lambda-typescript",
+      "target": "middy6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "aws-powertools/powertools-lambda-typescript",
+      "target": "middy7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "aws-powertools/powertools-lambda-typescript",
+      "target": "typedoc",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "aws-powertools/powertools-lambda-typescript",
+      "target": "typedoc-plugin-missing-exports",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "aws-powertools/powertools-lambda-typescript",
+      "target": "typescript",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "aws-powertools/powertools-lambda-typescript",
+      "target": "vitest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bootstrap_region.yml",
+      "source_repo": "aws-powertools/powertools-lambda-typescript",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bootstrap_region.yml",
+      "source_repo": "aws-powertools/powertools-lambda-typescript",
+      "target": "actions/setup-node@48b55a011bda9f5d6aeb4c2d9c7362e8dae4041e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bootstrap_region.yml",
+      "source_repo": "aws-powertools/powertools-lambda-typescript",
+      "target": "aws-powertools/actions/.github/actions/cached-node-modules@29979bc5339bf54f76a11ac36ff67701986bb0f0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bootstrap_region.yml",
+      "source_repo": "aws-powertools/powertools-lambda-typescript",
+      "target": "aws-actions/configure-aws-credentials@ec61189d14ec14c8efccab744f656cffd0e33f37",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bootstrap_region.yml",
+      "source_repo": "aws-powertools/powertools-lambda-typescript",
+      "target": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bootstrap_region.yml",
+      "source_repo": "aws-powertools/powertools-lambda-typescript",
+      "target": "Region Bootstrap",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependency-review.yml",
+      "source_repo": "aws-powertools/powertools-lambda-typescript",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependency-review.yml",
+      "source_repo": "aws-powertools/powertools-lambda-typescript",
+      "target": "actions/dependency-review-action@2031cfc080254a8a887f58cffee85186f0e49e48",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dependency-review.yml",
+      "source_repo": "aws-powertools/powertools-lambda-typescript",
+      "target": "Dependency Review",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/layer_balance.yml",
+      "source_repo": "aws-powertools/powertools-lambda-typescript",
+      "target": "aws-actions/configure-aws-credentials@ec61189d14ec14c8efccab744f656cffd0e33f37",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/layer_balance.yml",
+      "source_repo": "aws-powertools/powertools-lambda-typescript",
+      "target": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/layer_balance.yml",
+      "source_repo": "aws-powertools/powertools-lambda-typescript",
+      "target": "Region Balance",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/layers_partition_verify.yml",
+      "source_repo": "aws-powertools/powertools-lambda-typescript",
+      "target": "aws-actions/configure-aws-credentials@ec61189d14ec14c8efccab744f656cffd0e33f37",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/layers_partition_verify.yml",
+      "source_repo": "aws-powertools/powertools-lambda-typescript",
+      "target": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/layers_partition_verify.yml",
+      "source_repo": "aws-powertools/powertools-lambda-typescript",
+      "target": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/layers_partition_verify.yml",
+      "source_repo": "aws-powertools/powertools-lambda-typescript",
+      "target": "Layer Verification (Partition)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/layers_partitions.yml",
+      "source_repo": "aws-powertools/powertools-lambda-typescript",
+      "target": "aws-actions/configure-aws-credentials@ec61189d14ec14c8efccab744f656cffd0e33f37",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/layers_partitions.yml",
+      "source_repo": "aws-powertools/powertools-lambda-typescript",
+      "target": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/layers_partitions.yml",
+      "source_repo": "aws-powertools/powertools-lambda-typescript",
+      "target": "Layer Deployment (Partitions)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/layers_partitions_deploy.yml",
+      "source_repo": "aws-powertools/powertools-lambda-typescript",
+      "target": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/layers_partitions_deploy.yml",
+      "source_repo": "aws-powertools/powertools-lambda-typescript",
+      "target": "aws-actions/configure-aws-credentials@ec61189d14ec14c8efccab744f656cffd0e33f37",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/layers_partitions_deploy.yml",
+      "source_repo": "aws-powertools/powertools-lambda-typescript",
+      "target": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/layers_partitions_deploy.yml",
+      "source_repo": "aws-powertools/powertools-lambda-typescript",
+      "target": "Copy Layer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/make-release.yml",
+      "source_repo": "aws-powertools/powertools-lambda-typescript",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/make-release.yml",
+      "source_repo": "aws-powertools/powertools-lambda-typescript",
+      "target": "actions/setup-node@48b55a011bda9f5d6aeb4c2d9c7362e8dae4041e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/make-release.yml",
+      "source_repo": "aws-powertools/powertools-lambda-typescript",
+      "target": "aws-powertools/actions/.github/actions/cached-node-modules@29979bc5339bf54f76a11ac36ff67701986bb0f0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/make-release.yml",
+      "source_repo": "aws-powertools/powertools-lambda-typescript",
+      "target": "Make Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/make-version.yml",
+      "source_repo": "aws-powertools/powertools-lambda-typescript",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/make-version.yml",
+      "source_repo": "aws-powertools/powertools-lambda-typescript",
+      "target": "actions/setup-node@48b55a011bda9f5d6aeb4c2d9c7362e8dae4041e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/make-version.yml",
+      "source_repo": "aws-powertools/powertools-lambda-typescript",
+      "target": "aws-powertools/actions/.github/actions/cached-node-modules@3b5b8e2e58b7af07994be982e83584a94e8c76c5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/make-version.yml",
+      "source_repo": "aws-powertools/powertools-lambda-typescript",
+      "target": "aws-powertools/actions/.github/actions/version-n-changelog@3b5b8e2e58b7af07994be982e83584a94e8c76c5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/make-version.yml",
+      "source_repo": "aws-powertools/powertools-lambda-typescript",
+      "target": "aws-powertools/actions/.github/actions/create-pr@3b5b8e2e58b7af07994be982e83584a94e8c76c5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/make-version.yml",
+      "source_repo": "aws-powertools/powertools-lambda-typescript",
+      "target": "Make Version",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aws-powertools/powertools-lambda-typescript",
+      "target": "aws-lambda",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aws-powertools/powertools-lambda-typescript",
+      "target": "aws-sdk",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aws-powertools/powertools-lambda-typescript",
+      "target": "lambda",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aws-powertools/powertools-lambda-typescript",
+      "target": "nodejs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aws-powertools/powertools-lambda-typescript",
+      "target": "powertools",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aws-powertools/powertools-lambda-typescript",
+      "target": "serverless",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T02:00:44.158723+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9067
+    },
+    {
+      "path": "package.json",
+      "size": 2605
+    },
+    {
+      "path": ".github/workflows/bootstrap_region.yml",
+      "size": 3288
+    },
+    {
+      "path": ".github/workflows/dependency-review.yml",
+      "size": 803
+    },
+    {
+      "path": ".github/workflows/layer_balance.yml",
+      "size": 2492
+    },
+    {
+      "path": ".github/workflows/layers_partition_verify.yml",
+      "size": 6758
+    },
+    {
+      "path": ".github/workflows/layers_partitions.yml",
+      "size": 6369
+    },
+    {
+      "path": ".github/workflows/layers_partitions_deploy.yml",
+      "size": 5981
+    },
+    {
+      "path": ".github/workflows/make-release.yml",
+      "size": 4313
+    },
+    {
+      "path": ".github/workflows/make-version.yml",
+      "size": 2303
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Powertools for AWS is a developer toolkit to implement Serverless best practices and increase developer velocity.",
+    "fork": false,
+    "full_name": "aws-powertools/powertools-lambda-typescript",
+    "html_url": "https://github.com/aws-powertools/powertools-lambda-typescript",
+    "language": "TypeScript",
+    "pushed_at": "2026-04-23T18:02:19Z",
+    "stargazers_count": 1774,
+    "topics": [
+      "aws",
+      "aws-lambda",
+      "aws-sdk",
+      "lambda",
+      "nodejs",
+      "powertools",
+      "serverless",
+      "typescript"
+    ],
+    "updated_at": "2026-04-23T06:41:23Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "getndazn/dazn-lambda-powertools",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Region Bootstrap",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bootstrap_region.yml",
+      "term": "Region Bootstrap"
+    },
+    {
+      "context_snippet": "'Dependency Review'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dependency-review.yml",
+      "term": "Dependency Review"
+    },
+    {
+      "context_snippet": "Region Balance",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/layer_balance.yml",
+      "term": "Region Balance"
+    },
+    {
+      "context_snippet": "Layer Verification (Partition)",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/layers_partition_verify.yml",
+      "term": "Layer Verification (Partition)"
+    },
+    {
+      "context_snippet": "Layer Deployment (Partitions)",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/layers_partitions.yml",
+      "term": "Layer Deployment (Partitions)"
+    },
+    {
+      "context_snippet": "Copy Layer",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/layers_partitions_deploy.yml",
+      "term": "Copy Layer"
+    },
+    {
+      "context_snippet": "Make Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/make-release.yml",
+      "term": "Make Release"
+    },
+    {
+      "context_snippet": "Make Version",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/make-version.yml",
+      "term": "Make Version"
+    },
+    {
+      "context_snippet": "<!-- markdownlint-disable MD013 -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "aws-lambda"
+    },
+    {
+      "context_snippet": "<!-- markdownlint-disable MD013 -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "aws-sdk"
+    },
+    {
+      "context_snippet": "<!-- markdownlint-disable MD013 -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lambda"
+    },
+    {
+      "context_snippet": "<!-- markdownlint-disable MD013 -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nodejs"
+    },
+    {
+      "context_snippet": "<!-- markdownlint-disable MD013 -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "powertools"
+    },
+    {
+      "context_snippet": "<!-- markdownlint-disable MD013 -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "serverless"
+    }
+  ]
+}

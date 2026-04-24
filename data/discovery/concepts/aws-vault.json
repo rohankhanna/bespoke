@@ -19,6 +19,30 @@
       "source_repo": "99designs/aws-vault",
       "status": "candidate-context",
       "text": "[![Downloads](https://img.shields.io/github/downloads/99designs/aws-vault/total.svg)](https://github.com/99designs/aws-vault/releases)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ByteNess/aws-vault",
+      "status": "candidate-context",
+      "text": "A vault for securely storing and accessing AWS credentials in development environments"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ByteNess/aws-vault",
+      "status": "candidate-context",
+      "text": "[![Downloads](https://img.shields.io/github/downloads/byteness/aws-vault/total)](https://github.com/byteness/aws-vault/releases)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "karancode/asdf-aws-vault",
+      "status": "candidate-context",
+      "text": "aws-vault plugin for asdf-vm"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "karancode/asdf-aws-vault",
+      "status": "candidate-context",
+      "text": "![GitHub Actions Status](https://github.com/karancode/asdf-aws-vault/workflows/Main%20workflow/badge.svg?branch=main)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +51,18 @@
       "source_repo": "99designs/aws-vault",
       "status": "candidate",
       "text": "[![Downloads](https://img.shields.io/github/downloads/99designs/aws-vault/total.svg)](https://github.com/99designs/aws-vault/releases)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ByteNess/aws-vault",
+      "status": "candidate",
+      "text": "[![Downloads](https://img.shields.io/github/downloads/byteness/aws-vault/total)](https://github.com/byteness/aws-vault/releases)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "karancode/asdf-aws-vault",
+      "status": "candidate",
+      "text": "![GitHub Actions Status](https://github.com/karancode/asdf-aws-vault/workflows/Main%20workflow/badge.svg?branch=main)"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +76,23 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "99designs/aws-vault"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "ByteNess/aws-vault"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "karancode/asdf-aws-vault"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

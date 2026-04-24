@@ -1,0 +1,88 @@
+{
+  "aliases": [
+    "babashka"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "babashka/babashka",
+      "status": "candidate-context",
+      "text": "Native, fast starting Clojure interpreter for scripting"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "babashka/babashka",
+      "status": "candidate-context",
+      "text": "[<img src=\"logo/babashka.svg\" alt=\"Babashka\" width=\"425px\">](https://babashka.org)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "babashka/neil",
+      "status": "candidate-context",
+      "text": "A CLI to add common aliases and features to deps.edn-based projects"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "babashka/neil",
+      "status": "candidate-context",
+      "text": "A CLI to add common aliases and features to `deps.edn`-based projects."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "babashka/babashka",
+      "status": "candidate",
+      "text": "[<img src=\"logo/babashka.svg\" alt=\"Babashka\" width=\"425px\">](https://babashka.org)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "babashka/neil",
+      "status": "candidate",
+      "text": "A CLI to add common aliases and features to `deps.edn`-based projects."
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "babashka",
+  "concept_id": "babashka",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "babashka/babashka"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "babashka/neil"
+    }
+  ],
+  "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "babashka",
+      "sense_id": "babashka#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

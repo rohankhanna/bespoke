@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\u2601\ufe0f\u00a0Cloud Torrent: a self-hosted remote torrent client"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<img src=\"https://user-images.githubusercontent.com/633843/32198822-e59a0fc4-be1d-11e7-9b92-03ce17ba05ba.png\" alt=\"screenshot\"/>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<img src=\"https://user-images.githubusercontent.com/633843/32198822-e59a0fc4-be1d-11e7-9b92-03ce17ba05ba.png\" alt=\"screenshot\"/>"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40005091,
+      "status": "candidate",
+      "text": "fog"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40003860,
+      "status": "candidate",
+      "text": "mist"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39985382,
+      "status": "candidate",
+      "text": "befog"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39985212,
+      "status": "candidate",
+      "text": "haze over"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39980563,
+      "status": "candidate",
+      "text": "becloud"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "cloud",
+      "sense_id": "cloud#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 91039,
+      "status": "candidate",
+      "text": "obscure"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 30038,
+      "status": "candidate",
+      "text": "overcast"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 29059,
+      "status": "candidate",
+      "text": "mist"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 24037,
+      "status": "candidate",
+      "text": "corrupt"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 21046,
+      "status": "candidate",
+      "text": "taint"
+    }
+  ],
+  "concept_id": "cloud",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "cloud",
+  "observation_id": "64f9f7c734edb982",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T00:33:56.049672+00:00",
+  "observed_text": "cloud",
+  "source_context_snippet": "<img src=\"https://user-images.githubusercontent.com/633843/32198822-e59a0fc4-be1d-11e7-9b92-03ce17ba05ba.png\" alt=\"screenshot\"/>",
+  "source_file": null,
+  "source_repo": "jpillora/cloud-torrent",
+  "source_repo_description": "\u2601\ufe0f\u00a0Cloud Torrent: a self-hosted remote torrent client"
+}

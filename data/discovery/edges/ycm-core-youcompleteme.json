@@ -4,14 +4,21 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "ycm-core/YouCompleteMe",
-      "target": "omnisharp/omnisharp-roslyn",
+      "target": "rizsotto/bear",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "ycm-core/YouCompleteMe",
-      "target": "golang/tools",
+      "target": "rdnetto/ycm-generator",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ycm-core/YouCompleteMe",
+      "target": "rust-lang/rls",
       "target_type": "repository"
     },
     {
@@ -19,13 +26,6 @@
       "source_file": "README.md",
       "source_repo": "ycm-core/YouCompleteMe",
       "target": "eclipse/eclipse.jdt.ls",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "ycm-core/YouCompleteMe",
-      "target": "puremourning/vimspector",
       "target_type": "repository"
     },
     {
@@ -113,6 +113,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-04-23T01:09:11.871080+00:00",
+  "generated_at": "2026-04-24T00:33:56.049672+00:00",
   "source_repo": "ycm-core/YouCompleteMe"
 }

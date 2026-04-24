@@ -123,6 +123,12 @@
       "source_repo": "erincatto/box2d",
       "status": "candidate-context",
       "text": "CI Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Alexander-Miller/treemacs",
+      "status": "candidate-context",
+      "text": "CI Build"
     }
   ],
   "candidate_glosses": [
@@ -183,6 +189,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "erincatto/box2d",
+      "status": "candidate",
+      "text": "CI Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Alexander-Miller/treemacs",
       "status": "candidate",
       "text": "CI Build"
     }
@@ -306,11 +318,29 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": ".github/workflows/build.yml",
       "source_repo": "erincatto/box2d"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "Alexander-Miller/treemacs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "microsoft/Microsoft-Performance-Tools-Linux-Android"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "amazon-ion/ion-cli"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

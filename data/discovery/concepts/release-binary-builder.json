@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Release binary builder"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dependabot/cli",
+      "status": "candidate-context",
+      "text": "A tool for testing and debugging Dependabot update jobs."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dependabot/cli",
+      "status": "candidate-context",
+      "text": "Release binary builder"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dependabot/cli",
+      "status": "candidate",
+      "text": "Release binary builder"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9936,
+      "status": "candidate",
+      "text": "duo"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9917,
+      "status": "candidate",
+      "text": "build"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9887,
+      "status": "candidate",
+      "text": "trip"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9887,
+      "status": "candidate",
+      "text": "trips"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9887,
+      "status": "candidate",
+      "text": "uncouple"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Release binary builder",
+  "concept_id": "release-binary-builder",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "dependabot/cli"
+    }
+  ],
+  "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Release binary builder",
+      "sense_id": "release-binary-builder#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -19,6 +19,18 @@
       "source_repo": "MME-Benchmarks/Video-MME",
       "status": "candidate-context",
       "text": "![VideoQA](https://img.shields.io/badge/Task-VideoQA-red)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "MME-Benchmarks/Video-MME-v2",
+      "status": "candidate-context",
+      "text": "Video-MME-v2: Towards the Next Stage in Benchmarks for Comprehensive Video Understanding"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MME-Benchmarks/Video-MME-v2",
+      "status": "candidate-context",
+      "text": "[![Video-MME-v2-dataset](https://img.shields.io/badge/Dataset-Video--MME--v2-blue)](https://huggingface.co/datasets/MME-Benchmarks/Video-MME-v2)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "MME-Benchmarks/Video-MME",
       "status": "candidate",
       "text": "![VideoQA](https://img.shields.io/badge/Task-VideoQA-red)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MME-Benchmarks/Video-MME-v2",
+      "status": "candidate",
+      "text": "[![Video-MME-v2-dataset](https://img.shields.io/badge/Dataset-Video--MME--v2-blue)](https://huggingface.co/datasets/MME-Benchmarks/Video-MME-v2)"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,23 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "MME-Benchmarks/Video-MME"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "MME-Benchmarks/Video-MME-v2"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "MME-Benchmarks/Video-MME"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

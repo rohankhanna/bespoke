@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "PyTorch Extension Library of Optimized Scatter Operations"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[pypi-image]: https://badge.fury.io/py/torch-scatter.svg"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[pypi-image]: https://badge.fury.io/py/torch-scatter.svg"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40019874,
+      "status": "candidate",
+      "text": "disperse"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40017782,
+      "status": "candidate",
+      "text": "spread out"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40013756,
+      "status": "candidate",
+      "text": "spread"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40012417,
+      "status": "candidate",
+      "text": "strewing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40011702,
+      "status": "candidate",
+      "text": "dissipate"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "scatter",
+      "sense_id": "scatter#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 22039,
+      "status": "candidate",
+      "text": "disperse"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 18035,
+      "status": "candidate",
+      "text": "dissipate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 15040,
+      "status": "candidate",
+      "text": "sprinkle"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 11022,
+      "status": "candidate",
+      "text": "spread out"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 8034,
+      "status": "candidate",
+      "text": "break up"
+    }
+  ],
+  "concept_id": "scatter",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "scatter",
+  "observation_id": "c8370726e67f647f",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T00:33:56.049672+00:00",
+  "observed_text": "scatter",
+  "source_context_snippet": "[pypi-image]: https://badge.fury.io/py/torch-scatter.svg",
+  "source_file": null,
+  "source_repo": "rusty1s/pytorch_scatter",
+  "source_repo_description": "PyTorch Extension Library of Optimized Scatter Operations"
+}

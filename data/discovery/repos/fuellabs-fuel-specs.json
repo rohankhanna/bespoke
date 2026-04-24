@@ -1,0 +1,245 @@
+{
+  "components": [
+    {
+      "component": "FuelLabs/github-actions/.github/workflows/mdbook-docs.yml@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gh-pages.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gh-pages.yml"
+    },
+    {
+      "component": "actions-rs/toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gh-pages.yml"
+    },
+    {
+      "component": "peaceiris/actions-mdbook@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gh-pages.yml"
+    },
+    {
+      "component": "peaceiris/actions-gh-pages@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gh-pages.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mdbook.yml"
+    },
+    {
+      "component": "actions-rs/toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mdbook.yml"
+    },
+    {
+      "component": "peaceiris/actions-mdbook@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mdbook.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "FuelLabs/fuel-specs",
+      "target": "darkriszty/markdowntableprettify-vscodeext",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "FuelLabs/fuel-specs",
+      "target": "FuelLabs/github-actions/.github/workflows/mdbook-docs.yml@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "FuelLabs/fuel-specs",
+      "target": "Docs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gh-pages.yml",
+      "source_repo": "FuelLabs/fuel-specs",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gh-pages.yml",
+      "source_repo": "FuelLabs/fuel-specs",
+      "target": "Swatinem/rust-cache@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gh-pages.yml",
+      "source_repo": "FuelLabs/fuel-specs",
+      "target": "actions-rs/toolchain@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gh-pages.yml",
+      "source_repo": "FuelLabs/fuel-specs",
+      "target": "peaceiris/actions-mdbook@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gh-pages.yml",
+      "source_repo": "FuelLabs/fuel-specs",
+      "target": "peaceiris/actions-gh-pages@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gh-pages.yml",
+      "source_repo": "FuelLabs/fuel-specs",
+      "target": "github pages",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mdbook.yml",
+      "source_repo": "FuelLabs/fuel-specs",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mdbook.yml",
+      "source_repo": "FuelLabs/fuel-specs",
+      "target": "actions-rs/toolchain@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mdbook.yml",
+      "source_repo": "FuelLabs/fuel-specs",
+      "target": "peaceiris/actions-mdbook@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/mdbook.yml",
+      "source_repo": "FuelLabs/fuel-specs",
+      "target": "mdbook checks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "FuelLabs/fuel-specs",
+      "target": "blockchain",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "FuelLabs/fuel-specs",
+      "target": "fuel",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "FuelLabs/fuel-specs",
+      "target": "fuelvm",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T00:55:03.356337+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 876
+    },
+    {
+      "path": ".github/workflows/docs.yml",
+      "size": 244
+    },
+    {
+      "path": ".github/workflows/gh-pages.yml",
+      "size": 722
+    },
+    {
+      "path": ".github/workflows/mdbook.yml",
+      "size": 398
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "\ud83d\udcdd Specifications for the Fuel protocol and the FuelVM, a blazingly fast blockchain VM.",
+    "fork": false,
+    "full_name": "FuelLabs/fuel-specs",
+    "html_url": "https://github.com/FuelLabs/fuel-specs",
+    "language": null,
+    "pushed_at": "2026-04-14T08:54:16Z",
+    "stargazers_count": 1785,
+    "topics": [
+      "blockchain",
+      "fuel",
+      "fuelvm"
+    ],
+    "updated_at": "2026-04-19T17:11:51Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "darkriszty/markdowntableprettify-vscodeext",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Docs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs.yml",
+      "term": "Docs"
+    },
+    {
+      "context_snippet": "github pages",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gh-pages.yml",
+      "term": "github pages"
+    },
+    {
+      "context_snippet": "mdbook checks",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/mdbook.yml",
+      "term": "mdbook checks"
+    },
+    {
+      "context_snippet": "<!-- markdownlint-disable-next-line MD036 -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "blockchain"
+    },
+    {
+      "context_snippet": "<!-- markdownlint-disable-next-line MD036 -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fuel"
+    },
+    {
+      "context_snippet": "<!-- markdownlint-disable-next-line MD036 -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fuelvm"
+    }
+  ]
+}

@@ -134,6 +134,18 @@
       "source_repo": "aquasecurity/starboard",
       "status": "candidate-context",
       "text": "Publish documentation"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "electron/windows-sign",
+      "status": "candidate-context",
+      "text": "Codesign Electron apps for Windows"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "electron/windows-sign",
+      "status": "candidate-context",
+      "text": "Publish documentation"
     }
   ],
   "candidate_glosses": [
@@ -200,6 +212,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "aquasecurity/starboard",
+      "status": "candidate",
+      "text": "Publish documentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "electron/windows-sign",
       "status": "candidate",
       "text": "Publish documentation"
     }
@@ -335,11 +353,29 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": ".github/workflows/docs.yml",
       "source_repo": "electron/rebuild"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "electron/rebuild"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "electron/packager"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "electron/windows-sign"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

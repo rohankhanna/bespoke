@@ -1,0 +1,112 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "NuGet/Home",
+      "target": "nuget/nuget.client",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "NuGet/Home",
+      "target": "nuget/docs.microsoft.com-nuget",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "NuGet/Home",
+      "target": "nuget/nuget.jobs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "NuGet/Home",
+      "target": "nuget/nuget.server",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/icebox-watcher.yml",
+      "source_repo": "NuGet/Home",
+      "target": "IceBox Upvote Watcher",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale-p3-search.yml",
+      "source_repo": "NuGet/Home",
+      "target": "Stale P3 Issue",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T00:55:51.012603+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5354
+    },
+    {
+      "path": ".github/workflows/icebox-watcher.yml",
+      "size": 1203
+    },
+    {
+      "path": ".github/workflows/stale-p3-search.yml",
+      "size": 3503
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "dev",
+    "description": "Repo for NuGet Client issues",
+    "fork": false,
+    "full_name": "NuGet/Home",
+    "html_url": "https://github.com/NuGet/Home",
+    "language": "HTML",
+    "pushed_at": "2026-04-23T02:56:09Z",
+    "stargazers_count": 1546,
+    "topics": [],
+    "updated_at": "2026-04-23T02:56:14Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nuget/docs.microsoft.com-nuget",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nuget/nuget.client",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nuget/nuget.jobs",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nuget/nuget.server",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "IceBox Upvote Watcher",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/icebox-watcher.yml",
+      "term": "IceBox Upvote Watcher"
+    },
+    {
+      "context_snippet": "Stale P3 Issue",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale-p3-search.yml",
+      "term": "Stale P3 Issue"
+    }
+  ]
+}

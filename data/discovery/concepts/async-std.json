@@ -19,6 +19,18 @@
       "source_repo": "heim-rs/heim",
       "status": "candidate-context",
       "text": "![Project banner](./.github/readme-logo.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "async-rs/async-std",
+      "status": "candidate-context",
+      "text": "Async version of the Rust standard library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "async-rs/async-std",
+      "status": "candidate-context",
+      "text": "We created `async-std` to demonstrate the value of making a library as close to"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "heim-rs/heim",
       "status": "candidate",
       "text": "![Project banner](./.github/readme-logo.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "async-rs/async-std",
+      "status": "candidate",
+      "text": "We created `async-std` to demonstrate the value of making a library as close to"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "heim-rs/heim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "async-rs/async-std"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

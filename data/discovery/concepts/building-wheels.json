@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "\ud83d\udce6 Building wheels"
+    "\ud83d\udce6 Building wheels",
+    "Building Wheels"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -19,6 +20,42 @@
       "source_repo": "melMass/comfy_mtb",
       "status": "candidate-context",
       "text": "\ud83d\udce6 Building wheels"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rusty1s/pytorch_cluster",
+      "status": "candidate-context",
+      "text": "PyTorch Extension Library of Optimized Graph Cluster Algorithms"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rusty1s/pytorch_cluster",
+      "status": "candidate-context",
+      "text": "Building Wheels"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rusty1s/pytorch_scatter",
+      "status": "candidate-context",
+      "text": "PyTorch Extension Library of Optimized Scatter Operations"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rusty1s/pytorch_scatter",
+      "status": "candidate-context",
+      "text": "Building Wheels"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rusty1s/pytorch_sparse",
+      "status": "candidate-context",
+      "text": "PyTorch Extension Library of Optimized Autograd Sparse Matrix Operations"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rusty1s/pytorch_sparse",
+      "status": "candidate-context",
+      "text": "Building Wheels"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +64,24 @@
       "source_repo": "melMass/comfy_mtb",
       "status": "candidate",
       "text": "\ud83d\udce6 Building wheels"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rusty1s/pytorch_cluster",
+      "status": "candidate",
+      "text": "Building Wheels"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rusty1s/pytorch_scatter",
+      "status": "candidate",
+      "text": "Building Wheels"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rusty1s/pytorch_sparse",
+      "status": "candidate",
+      "text": "Building Wheels"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +131,29 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": ".github/workflows/package_wheels.yml",
       "source_repo": "melMass/comfy_mtb"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/building.yml",
+      "source_repo": "rusty1s/pytorch_cluster"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/building.yml",
+      "source_repo": "rusty1s/pytorch_scatter"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/building.yml",
+      "source_repo": "rusty1s/pytorch_sparse"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

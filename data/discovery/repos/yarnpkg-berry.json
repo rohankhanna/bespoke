@@ -1,0 +1,610 @@
+{
+  "components": [
+    {
+      "component": "@iarna/toml",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@yarnpkg/types",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "chalk",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "micromatch",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "semver",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@arcanis/sherlock",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@eslint/config-inspector",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/jest",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/micromatch",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/node",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/semver",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@yarnpkg/cli",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@yarnpkg/core",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@yarnpkg/eslint-config",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@yarnpkg/fslib",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@yarnpkg/libzip",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@yarnpkg/sdks",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "clipanion",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "esbuild",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "jest",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "pirates",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "tslib",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "typescript",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark-workflow.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/debug.yml"
+    },
+    {
+      "component": "lhotari/action-upterm@d23c2722bdab893785c9fbeae314cbf080645bd7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/debug.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-create-vue-workflow.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-docusaurus-workflow.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-esbuild-workflow.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-eslint-workflow.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-fsevents-workflow.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-gatsby-workflow.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "yarnpkg/berry",
+      "target": "@iarna/toml",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "yarnpkg/berry",
+      "target": "@yarnpkg/types",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "yarnpkg/berry",
+      "target": "chalk",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "yarnpkg/berry",
+      "target": "micromatch",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "yarnpkg/berry",
+      "target": "semver",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "yarnpkg/berry",
+      "target": "@arcanis/sherlock",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "yarnpkg/berry",
+      "target": "@eslint/config-inspector",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "yarnpkg/berry",
+      "target": "@types/jest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "yarnpkg/berry",
+      "target": "@types/micromatch",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "yarnpkg/berry",
+      "target": "@types/node",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "yarnpkg/berry",
+      "target": "@types/semver",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "yarnpkg/berry",
+      "target": "@yarnpkg/cli",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "yarnpkg/berry",
+      "target": "@yarnpkg/core",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "yarnpkg/berry",
+      "target": "@yarnpkg/eslint-config",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "yarnpkg/berry",
+      "target": "@yarnpkg/fslib",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "yarnpkg/berry",
+      "target": "@yarnpkg/libzip",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "yarnpkg/berry",
+      "target": "@yarnpkg/sdks",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "yarnpkg/berry",
+      "target": "clipanion",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "yarnpkg/berry",
+      "target": "esbuild",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "yarnpkg/berry",
+      "target": "eslint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "yarnpkg/berry",
+      "target": "jest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "yarnpkg/berry",
+      "target": "pirates",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "yarnpkg/berry",
+      "target": "tslib",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "yarnpkg/berry",
+      "target": "typescript",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark-workflow.yml",
+      "source_repo": "yarnpkg/berry",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/benchmark-workflow.yml",
+      "source_repo": "yarnpkg/berry",
+      "target": "Performance tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/debug.yml",
+      "source_repo": "yarnpkg/berry",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/debug.yml",
+      "source_repo": "yarnpkg/berry",
+      "target": "lhotari/action-upterm@d23c2722bdab893785c9fbeae314cbf080645bd7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/debug.yml",
+      "source_repo": "yarnpkg/berry",
+      "target": "Debuggable Container",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-create-vue-workflow.yml",
+      "source_repo": "yarnpkg/berry",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/e2e-create-vue-workflow.yml",
+      "source_repo": "yarnpkg/berry",
+      "target": "E2E Create-Vue",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-docusaurus-workflow.yml",
+      "source_repo": "yarnpkg/berry",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/e2e-docusaurus-workflow.yml",
+      "source_repo": "yarnpkg/berry",
+      "target": "E2E Docusaurus",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-esbuild-workflow.yml",
+      "source_repo": "yarnpkg/berry",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/e2e-esbuild-workflow.yml",
+      "source_repo": "yarnpkg/berry",
+      "target": "E2E ESBuild",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-eslint-workflow.yml",
+      "source_repo": "yarnpkg/berry",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/e2e-eslint-workflow.yml",
+      "source_repo": "yarnpkg/berry",
+      "target": "E2E ESLint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-fsevents-workflow.yml",
+      "source_repo": "yarnpkg/berry",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/e2e-fsevents-workflow.yml",
+      "source_repo": "yarnpkg/berry",
+      "target": "E2E FSEvents",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-gatsby-workflow.yml",
+      "source_repo": "yarnpkg/berry",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/e2e-gatsby-workflow.yml",
+      "source_repo": "yarnpkg/berry",
+      "target": "E2E Gatsby",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yarnpkg/berry",
+      "target": "nodejs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yarnpkg/berry",
+      "target": "package-manager",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yarnpkg/berry",
+      "target": "yarn",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T00:56:08.410005+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 17472
+    },
+    {
+      "path": "package.json",
+      "size": 3408
+    },
+    {
+      "path": ".github/workflows/benchmark-workflow.yml",
+      "size": 1963
+    },
+    {
+      "path": ".github/workflows/debug.yml",
+      "size": 382
+    },
+    {
+      "path": ".github/workflows/e2e-create-vue-workflow.yml",
+      "size": 946
+    },
+    {
+      "path": ".github/workflows/e2e-docusaurus-workflow.yml",
+      "size": 880
+    },
+    {
+      "path": ".github/workflows/e2e-esbuild-workflow.yml",
+      "size": 2875
+    },
+    {
+      "path": ".github/workflows/e2e-eslint-workflow.yml",
+      "size": 1761
+    },
+    {
+      "path": ".github/workflows/e2e-fsevents-workflow.yml",
+      "size": 5663
+    },
+    {
+      "path": ".github/workflows/e2e-gatsby-workflow.yml",
+      "size": 604
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "\ud83d\udce6\ud83d\udc08 Active development trunk for Yarn \u2692",
+    "fork": false,
+    "full_name": "yarnpkg/berry",
+    "html_url": "https://github.com/yarnpkg/berry",
+    "language": "TypeScript",
+    "pushed_at": "2026-04-23T09:32:36Z",
+    "stargazers_count": 8061,
+    "topics": [
+      "javascript",
+      "nodejs",
+      "package-manager",
+      "yarn"
+    ],
+    "updated_at": "2026-04-23T23:56:36Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "'Performance tests'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/benchmark-workflow.yml",
+      "term": "Performance tests"
+    },
+    {
+      "context_snippet": "Debuggable Container",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/debug.yml",
+      "term": "Debuggable Container"
+    },
+    {
+      "context_snippet": "'E2E Create-Vue'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/e2e-create-vue-workflow.yml",
+      "term": "E2E Create-Vue"
+    },
+    {
+      "context_snippet": "'E2E Docusaurus'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/e2e-docusaurus-workflow.yml",
+      "term": "E2E Docusaurus"
+    },
+    {
+      "context_snippet": "'E2E ESBuild'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/e2e-esbuild-workflow.yml",
+      "term": "E2E ESBuild"
+    },
+    {
+      "context_snippet": "'E2E ESLint'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/e2e-eslint-workflow.yml",
+      "term": "E2E ESLint"
+    },
+    {
+      "context_snippet": "'E2E FSEvents'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/e2e-fsevents-workflow.yml",
+      "term": "E2E FSEvents"
+    },
+    {
+      "context_snippet": "'E2E Gatsby'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/e2e-gatsby-workflow.yml",
+      "term": "E2E Gatsby"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nodejs"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "package-manager"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "yarn"
+    }
+  ]
+}

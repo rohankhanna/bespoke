@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Wrapper for using Julia LanguageServer.jl with emacs eglot"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Wrapper for using Julia LanguageServer.jl with emacs eglot"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Wrapper for using Julia LanguageServer.jl with emacs eglot"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "language-server-protocol",
+      "sense_id": "language-server-protocol#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "language-server-protocol",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "language-server-protocol",
+  "observation_id": "ba859898d60c6403",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T00:33:56.049672+00:00",
+  "observed_text": "language-server-protocol",
+  "source_context_snippet": "Wrapper for using Julia LanguageServer.jl with emacs eglot",
+  "source_file": null,
+  "source_repo": "non-Jedi/eglot-jl",
+  "source_repo_description": "Wrapper for using Julia LanguageServer.jl with emacs eglot"
+}

@@ -1,7 +1,7 @@
 {
   "component": "svenstaro/upload-release-action@29e53e917877a24fad85510ded594ab3c9ca12de",
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -22,6 +22,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/wheel.yml",
       "source_repo": "google/sentencepiece"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cd.yml",
+      "source_repo": "orhun/git-cliff"
     }
   ]
 }

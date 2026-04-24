@@ -1,0 +1,93 @@
+{
+  "aliases": [
+    "MSLK CUDA Test"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "meta-pytorch/MSLK",
+      "status": "candidate-context",
+      "text": "MSLK (Meta Superintelligence Labs Kernels) is a collection of PyTorch GPU operator libraries that are designed and optimized for GenAI training and inference, such as FP8 row-wise quantization and collective communications."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "meta-pytorch/MSLK",
+      "status": "candidate-context",
+      "text": "MSLK CUDA Test"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "meta-pytorch/MSLK",
+      "status": "candidate",
+      "text": "MSLK CUDA Test"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11104,
+      "status": "candidate",
+      "text": "aircraft"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11104,
+      "status": "candidate",
+      "text": "airship"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11104,
+      "status": "candidate",
+      "text": "blockhouse"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9254,
+      "status": "candidate",
+      "text": "aeroplane"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "MSLK CUDA Test",
+  "concept_id": "mslk-cuda-test",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/_mslk_cuda_test.yml",
+      "source_repo": "meta-pytorch/MSLK"
+    }
+  ],
+  "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "MSLK CUDA Test",
+      "sense_id": "mslk-cuda-test#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

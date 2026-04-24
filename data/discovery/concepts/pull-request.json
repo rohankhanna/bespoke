@@ -186,6 +186,30 @@
       "source_repo": "swiftlang/swift-package-manager",
       "status": "candidate-context",
       "text": "Pull request"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "swiftlang/swift-syntax",
+      "status": "candidate-context",
+      "text": "A set of Swift libraries for parsing, inspecting, generating, and transforming Swift source code."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "swiftlang/swift-syntax",
+      "status": "candidate-context",
+      "text": "Pull request"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "stx-labs/stacks.js",
+      "status": "candidate-context",
+      "text": "JavaScript libraries for identity, auth, storage and transactions on the Stacks blockchain."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stx-labs/stacks.js",
+      "status": "candidate-context",
+      "text": "pull-request"
     }
   ],
   "candidate_glosses": [
@@ -272,6 +296,18 @@
       "source_repo": "swiftlang/swift-package-manager",
       "status": "candidate",
       "text": "Pull request"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "swiftlang/swift-syntax",
+      "status": "candidate",
+      "text": "Pull request"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stx-labs/stacks.js",
+      "status": "candidate",
+      "text": "pull-request"
     }
   ],
   "candidate_related_terms": [
@@ -435,11 +471,23 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": ".github/workflows/pull_request.yml",
       "source_repo": "swiftlang/swift-package-manager"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/pull_request.yml",
+      "source_repo": "swiftlang/swift-syntax"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/pull-request.yml",
+      "source_repo": "stx-labs/stacks.js"
     }
   ],
   "first_seen_at": "2026-04-18T13:15:13.756138+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

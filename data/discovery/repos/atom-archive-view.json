@@ -1,0 +1,133 @@
+{
+  "components": [
+    {
+      "component": "etch",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "fs-plus",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "humanize-plus",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "ls-archive",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "temp",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "standard",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "UziTech/action-setup-atom@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "atom/archive-view",
+      "target": "etch",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "atom/archive-view",
+      "target": "fs-plus",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "atom/archive-view",
+      "target": "humanize-plus",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "atom/archive-view",
+      "target": "ls-archive",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "atom/archive-view",
+      "target": "temp",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "atom/archive-view",
+      "target": "standard",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "atom/archive-view",
+      "target": "actions/checkout@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "atom/archive-view",
+      "target": "UziTech/action-setup-atom@v2",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-24T00:51:20.991805+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 970
+    },
+    {
+      "path": "package.json",
+      "size": 969
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 442
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "Open compressed files in Atom",
+    "fork": false,
+    "full_name": "atom/archive-view",
+    "html_url": "https://github.com/atom/archive-view",
+    "language": "JavaScript",
+    "pushed_at": "2022-09-28T10:52:01Z",
+    "stargazers_count": 31,
+    "topics": [],
+    "updated_at": "2023-08-31T19:44:13Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Kubernetes without the root privileges"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Multi Node"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Multi Node"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10595,
+      "status": "candidate",
+      "text": "hydra"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10512,
+      "status": "candidate",
+      "text": "ganglion"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10512,
+      "status": "candidate",
+      "text": "gland"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10512,
+      "status": "candidate",
+      "text": "knuckle"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10512,
+      "status": "candidate",
+      "text": "lymphoma"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Multi Node",
+      "sense_id": "multi-node#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "multi-node",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "multi-node",
+  "observation_id": "1a35c70f3882eb40",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-24T00:33:56.049672+00:00",
+  "observed_text": "Multi Node",
+  "source_context_snippet": "Multi Node",
+  "source_file": ".github/workflows/reusable-multi-node.yaml",
+  "source_repo": "rootless-containers/usernetes",
+  "source_repo_description": "Kubernetes without the root privileges"
+}

@@ -1,0 +1,12 @@
+{
+  "component": "bytecodealliance/wkg-github-action@10b3b04b9059ba46208cd7daf7d352af14bded0f",
+  "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish-proposal.yml",
+      "source_repo": "WebAssembly/WASI"
+    }
+  ]
+}

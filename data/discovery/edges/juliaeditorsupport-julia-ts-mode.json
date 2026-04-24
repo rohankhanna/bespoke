@@ -1,0 +1,27 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JuliaEditorSupport/julia-ts-mode",
+      "target": "tree-sitter/tree-sitter-julia",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JuliaEditorSupport/julia-ts-mode",
+      "target": "renzmann/treesit-auto",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JuliaEditorSupport/julia-ts-mode",
+      "target": "gdkrmr/lsp-julia",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-04-24T00:33:56.049672+00:00",
+  "source_repo": "JuliaEditorSupport/julia-ts-mode"
+}

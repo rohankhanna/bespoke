@@ -1,0 +1,278 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue.yml"
+    },
+    {
+      "component": "ScoopInstaller/GithubActions@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue.yml"
+    },
+    {
+      "component": "actions/checkout@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue_comment.yml"
+    },
+    {
+      "component": "ScoopInstaller/GithubActions@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue_comment.yml"
+    },
+    {
+      "component": "actions/checkout@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull_request.yml"
+    },
+    {
+      "component": "ScoopInstaller/GithubActions@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull_request.yml"
+    },
+    {
+      "component": "actions/checkout@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/schedule.yml"
+    },
+    {
+      "component": "ScoopInstaller/GithubActions@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/schedule.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "matthewjberger/scoop-nerd-fonts",
+      "target": "lukesampson/scoop",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue.yml",
+      "source_repo": "matthewjberger/scoop-nerd-fonts",
+      "target": "actions/checkout@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue.yml",
+      "source_repo": "matthewjberger/scoop-nerd-fonts",
+      "target": "ScoopInstaller/GithubActions@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issue.yml",
+      "source_repo": "matthewjberger/scoop-nerd-fonts",
+      "target": "Issues",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue_comment.yml",
+      "source_repo": "matthewjberger/scoop-nerd-fonts",
+      "target": "actions/checkout@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue_comment.yml",
+      "source_repo": "matthewjberger/scoop-nerd-fonts",
+      "target": "ScoopInstaller/GithubActions@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issue_comment.yml",
+      "source_repo": "matthewjberger/scoop-nerd-fonts",
+      "target": "Commented Pull Request",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull_request.yml",
+      "source_repo": "matthewjberger/scoop-nerd-fonts",
+      "target": "actions/checkout@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull_request.yml",
+      "source_repo": "matthewjberger/scoop-nerd-fonts",
+      "target": "ScoopInstaller/GithubActions@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pull_request.yml",
+      "source_repo": "matthewjberger/scoop-nerd-fonts",
+      "target": "Pull Requests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/schedule.yml",
+      "source_repo": "matthewjberger/scoop-nerd-fonts",
+      "target": "actions/checkout@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/schedule.yml",
+      "source_repo": "matthewjberger/scoop-nerd-fonts",
+      "target": "ScoopInstaller/GithubActions@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/schedule.yml",
+      "source_repo": "matthewjberger/scoop-nerd-fonts",
+      "target": "Excavator",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "matthewjberger/scoop-nerd-fonts",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "matthewjberger/scoop-nerd-fonts",
+      "target": "nerd-fonts",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "matthewjberger/scoop-nerd-fonts",
+      "target": "powershell",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "matthewjberger/scoop-nerd-fonts",
+      "target": "scoop",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "matthewjberger/scoop-nerd-fonts",
+      "target": "scoop-bucket",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T00:37:32.293568+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1884
+    },
+    {
+      "path": ".github/workflows/issue.yml",
+      "size": 462
+    },
+    {
+      "path": ".github/workflows/issue_comment.yml",
+      "size": 421
+    },
+    {
+      "path": ".github/workflows/pull_request.yml",
+      "size": 349
+    },
+    {
+      "path": ".github/workflows/schedule.yml",
+      "size": 403
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A scoop bucket for installing nerd fonts",
+    "fork": false,
+    "full_name": "matthewjberger/scoop-nerd-fonts",
+    "html_url": "https://github.com/matthewjberger/scoop-nerd-fonts",
+    "language": "PowerShell",
+    "pushed_at": "2026-04-18T15:36:56Z",
+    "stargazers_count": 442,
+    "topics": [
+      "hacktoberfest",
+      "nerd-fonts",
+      "powershell",
+      "scoop",
+      "scoop-bucket"
+    ],
+    "updated_at": "2026-04-19T12:55:14Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lukesampson/scoop",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Issues",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issue.yml",
+      "term": "Issues"
+    },
+    {
+      "context_snippet": "Commented Pull Request",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issue_comment.yml",
+      "term": "Commented Pull Request"
+    },
+    {
+      "context_snippet": "Pull Requests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pull_request.yml",
+      "term": "Pull Requests"
+    },
+    {
+      "context_snippet": "Excavator",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/schedule.yml",
+      "term": "Excavator"
+    },
+    {
+      "context_snippet": "This repo contains manifests for installing [Nerd Fonts](https://github.com/ryanoasis/nerd-fonts) and various other fonts using the [scoop package manager](https://github.com/lukesampson/scoop) for Windows.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    },
+    {
+      "context_snippet": "This repo contains manifests for installing [Nerd Fonts](https://github.com/ryanoasis/nerd-fonts) and various other fonts using the [scoop package manager](https://github.com/lukesampson/scoop) for Windows.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nerd-fonts"
+    },
+    {
+      "context_snippet": "This repo contains manifests for installing [Nerd Fonts](https://github.com/ryanoasis/nerd-fonts) and various other fonts using the [scoop package manager](https://github.com/lukesampson/scoop) for Windows.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "powershell"
+    },
+    {
+      "context_snippet": "This repo contains manifests for installing [Nerd Fonts](https://github.com/ryanoasis/nerd-fonts) and various other fonts using the [scoop package manager](https://github.com/lukesampson/scoop) for Windows.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "scoop"
+    },
+    {
+      "context_snippet": "This repo contains manifests for installing [Nerd Fonts](https://github.com/ryanoasis/nerd-fonts) and various other fonts using the [scoop package manager](https://github.com/lukesampson/scoop) for Windows.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "scoop-bucket"
+    }
+  ]
+}

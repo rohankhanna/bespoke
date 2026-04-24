@@ -163,6 +163,18 @@
       "source_repo": "google/syzkaller",
       "status": "candidate-context",
       "text": "[![CI Status](https://github.com/google/syzkaller/workflows/ci/badge.svg)](https://github.com/google/syzkaller/actions?query=workflow/ci)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gitleaks/gitleaks",
+      "status": "candidate-context",
+      "text": "Find secrets with Gitleaks \ud83d\udd11"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gitleaks/gitleaks",
+      "status": "candidate-context",
+      "text": "```"
     }
   ],
   "candidate_glosses": [
@@ -243,6 +255,12 @@
       "source_repo": "google/syzkaller",
       "status": "candidate",
       "text": "[![CI Status](https://github.com/google/syzkaller/workflows/ci/badge.svg)](https://github.com/google/syzkaller/actions?query=workflow/ci)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gitleaks/gitleaks",
+      "status": "candidate",
+      "text": "```"
     }
   ],
   "candidate_related_terms": [],
@@ -364,11 +382,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "google/syzkaller"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "gitleaks/gitleaks"
     }
   ],
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

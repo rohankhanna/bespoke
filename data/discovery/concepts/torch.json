@@ -55,6 +55,18 @@
       "source_repo": "anapnoe/stable-diffusion-webui-ux",
       "status": "candidate-context",
       "text": "A bespoke, highly adaptable, blazing fast user interface for Stable Diffusion, engineered for unmatched user experience and performance."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sayakpaul/diffusers-torchao",
+      "status": "candidate-context",
+      "text": "End-to-end recipes for optimizing diffusion models with torchao and diffusers (inference and FP8 training)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sayakpaul/diffusers-torchao",
+      "status": "candidate-context",
+      "text": "**Optimize image and video generation with [`diffusers`](https://github.com/huggingface/diffusers), [`torchao`](https://github.com/pytorch/ao), combining `torch.compile()` \ud83d\udd25**"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +93,12 @@
       "source_repo": "anapnoe/stable-diffusion-webui-ux",
       "status": "candidate",
       "text": "A bespoke, highly adaptable, blazing fast user interface for Stable Diffusion, engineered for unmatched user experience and performance."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sayakpaul/diffusers-torchao",
+      "status": "candidate",
+      "text": "**Optimize image and video generation with [`diffusers`](https://github.com/huggingface/diffusers), [`torchao`](https://github.com/pytorch/ao), combining `torch.compile()` \ud83d\udd25**"
     }
   ],
   "candidate_related_terms": [
@@ -190,11 +208,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "anapnoe/stable-diffusion-webui-ux"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "sayakpaul/diffusers-torchao"
     }
   ],
   "first_seen_at": "2026-04-18T11:41:43.530265+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

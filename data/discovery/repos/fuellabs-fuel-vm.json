@@ -1,0 +1,547 @@
+{
+  "components": [
+    {
+      "component": "actions/create-github-app-token@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cflite_batch.yml"
+    },
+    {
+      "component": "google/clusterfuzzlite/actions/build_fuzzers@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cflite_batch.yml"
+    },
+    {
+      "component": "google/clusterfuzzlite/actions/run_fuzzers@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cflite_batch.yml"
+    },
+    {
+      "component": "actions/create-github-app-token@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cflite_cron.yml"
+    },
+    {
+      "component": "google/clusterfuzzlite/actions/build_fuzzers@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cflite_cron.yml"
+    },
+    {
+      "component": "google/clusterfuzzlite/actions/run_fuzzers@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cflite_cron.yml"
+    },
+    {
+      "component": "actions/create-github-app-token@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cflite_cron.yml"
+    },
+    {
+      "component": "google/clusterfuzzlite/actions/build_fuzzers@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cflite_cron.yml"
+    },
+    {
+      "component": "google/clusterfuzzlite/actions/run_fuzzers@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cflite_cron.yml"
+    },
+    {
+      "component": "actions/create-github-app-token@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cflite_pr.yml"
+    },
+    {
+      "component": "google/clusterfuzzlite/actions/build_fuzzers@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cflite_pr.yml"
+    },
+    {
+      "component": "google/clusterfuzzlite/actions/run_fuzzers@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cflite_pr.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "davidB/rust-cargo-make@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "taiki-e/install-action@cargo-llvm-cov",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "taiki-e/install-action@cargo-binstall",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "FuelLabs/publish-crates@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "pnpm/action-setup@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-node@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "FuelLabs/publish-crates@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "rustsec/audit-check@v1.4.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "pnpm/action-setup@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-node@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create_version.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly-cargo-audit.yml"
+    },
+    {
+      "component": "rustsec/audit-check@v1.4.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly-cargo-audit.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "FuelLabs/fuel-vm",
+      "target": "fuellabs/sway",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cflite_batch.yml",
+      "source_repo": "FuelLabs/fuel-vm",
+      "target": "actions/create-github-app-token@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cflite_batch.yml",
+      "source_repo": "FuelLabs/fuel-vm",
+      "target": "google/clusterfuzzlite/actions/build_fuzzers@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cflite_batch.yml",
+      "source_repo": "FuelLabs/fuel-vm",
+      "target": "google/clusterfuzzlite/actions/run_fuzzers@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cflite_batch.yml",
+      "source_repo": "FuelLabs/fuel-vm",
+      "target": "ClusterFuzzLite batch fuzzing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cflite_cron.yml",
+      "source_repo": "FuelLabs/fuel-vm",
+      "target": "actions/create-github-app-token@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cflite_cron.yml",
+      "source_repo": "FuelLabs/fuel-vm",
+      "target": "google/clusterfuzzlite/actions/build_fuzzers@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cflite_cron.yml",
+      "source_repo": "FuelLabs/fuel-vm",
+      "target": "google/clusterfuzzlite/actions/run_fuzzers@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cflite_cron.yml",
+      "source_repo": "FuelLabs/fuel-vm",
+      "target": "ClusterFuzzLite cron tasks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cflite_pr.yml",
+      "source_repo": "FuelLabs/fuel-vm",
+      "target": "actions/create-github-app-token@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cflite_pr.yml",
+      "source_repo": "FuelLabs/fuel-vm",
+      "target": "google/clusterfuzzlite/actions/build_fuzzers@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cflite_pr.yml",
+      "source_repo": "FuelLabs/fuel-vm",
+      "target": "google/clusterfuzzlite/actions/run_fuzzers@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cflite_pr.yml",
+      "source_repo": "FuelLabs/fuel-vm",
+      "target": "ClusterFuzzLite PR fuzzing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "FuelLabs/fuel-vm",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "FuelLabs/fuel-vm",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "FuelLabs/fuel-vm",
+      "target": "dtolnay/rust-toolchain@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "FuelLabs/fuel-vm",
+      "target": "davidB/rust-cargo-make@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "FuelLabs/fuel-vm",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "FuelLabs/fuel-vm",
+      "target": "taiki-e/install-action@cargo-llvm-cov",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "FuelLabs/fuel-vm",
+      "target": "taiki-e/install-action@cargo-binstall",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "FuelLabs/fuel-vm",
+      "target": "FuelLabs/publish-crates@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "FuelLabs/fuel-vm",
+      "target": "pnpm/action-setup@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "FuelLabs/fuel-vm",
+      "target": "actions/setup-node@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "FuelLabs/fuel-vm",
+      "target": "rustsec/audit-check@v1.4.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create_version.yml",
+      "source_repo": "FuelLabs/fuel-vm",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/create_version.yml",
+      "source_repo": "FuelLabs/fuel-vm",
+      "target": "Create version",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly-cargo-audit.yml",
+      "source_repo": "FuelLabs/fuel-vm",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly-cargo-audit.yml",
+      "source_repo": "FuelLabs/fuel-vm",
+      "target": "rustsec/audit-check@v1.4.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nightly-cargo-audit.yml",
+      "source_repo": "FuelLabs/fuel-vm",
+      "target": "Nightly Cargo Audit",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "FuelLabs/fuel-vm",
+      "target": "blockchain",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "FuelLabs/fuel-vm",
+      "target": "fuel",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T00:55:06.738057+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6090
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 1612
+    },
+    {
+      "path": ".github/workflows/cflite_batch.yml",
+      "size": 1153
+    },
+    {
+      "path": ".github/workflows/cflite_cron.yml",
+      "size": 2058
+    },
+    {
+      "path": ".github/workflows/cflite_pr.yml",
+      "size": 1313
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 11341
+    },
+    {
+      "path": ".github/workflows/create_version.yml",
+      "size": 4032
+    },
+    {
+      "path": ".github/workflows/nightly-cargo-audit.yml",
+      "size": 261
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Fuel v2 interpreter in Rust",
+    "fork": false,
+    "full_name": "FuelLabs/fuel-vm",
+    "html_url": "https://github.com/FuelLabs/fuel-vm",
+    "language": "Rust",
+    "pushed_at": "2026-04-16T20:53:55Z",
+    "stargazers_count": 373,
+    "topics": [
+      "blockchain",
+      "fuel",
+      "vm"
+    ],
+    "updated_at": "2026-04-16T20:40:34Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "fuellabs/sway",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "ClusterFuzzLite batch fuzzing",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cflite_batch.yml",
+      "term": "ClusterFuzzLite batch fuzzing"
+    },
+    {
+      "context_snippet": "ClusterFuzzLite cron tasks",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cflite_cron.yml",
+      "term": "ClusterFuzzLite cron tasks"
+    },
+    {
+      "context_snippet": "ClusterFuzzLite PR fuzzing",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cflite_pr.yml",
+      "term": "ClusterFuzzLite PR fuzzing"
+    },
+    {
+      "context_snippet": "Create version",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/create_version.yml",
+      "term": "Create version"
+    },
+    {
+      "context_snippet": "Nightly Cargo Audit",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nightly-cargo-audit.yml",
+      "term": "Nightly Cargo Audit"
+    },
+    {
+      "context_snippet": "[![build](https://github.com/FuelLabs/fuel-vm/actions/workflows/ci.yml/badge.svg)](https://github.com/FuelLabs/fuel-vm/actions/workflows/ci.yml)[![discord](https://img.shields.io/badge/chat%20on-discord-orange?&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2)](https\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "blockchain"
+    },
+    {
+      "context_snippet": "[![build](https://github.com/FuelLabs/fuel-vm/actions/workflows/ci.yml/badge.svg)](https://github.com/FuelLabs/fuel-vm/actions/workflows/ci.yml)[![discord](https://img.shields.io/badge/chat%20on-discord-orange?&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2)](https\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fuel"
+    }
+  ]
+}

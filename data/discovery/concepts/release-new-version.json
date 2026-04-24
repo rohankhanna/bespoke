@@ -44,6 +44,18 @@
       "source_repo": "antonengelhardt/wasm-oidc-plugin",
       "status": "candidate-context",
       "text": "Release new version"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "flatpak/flatpak",
+      "status": "candidate-context",
+      "text": "Linux application sandboxing and distribution framework"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "flatpak/flatpak",
+      "status": "candidate-context",
+      "text": "Release new version"
     }
   ],
   "candidate_glosses": [
@@ -62,6 +74,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "antonengelhardt/wasm-oidc-plugin",
+      "status": "candidate",
+      "text": "Release new version"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "flatpak/flatpak",
       "status": "candidate",
       "text": "Release new version"
     }
@@ -131,11 +149,23 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": ".github/workflows/release.yml",
       "source_repo": "antonengelhardt/wasm-oidc-plugin"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "typescript-language-server/typescript-language-server"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "flatpak/flatpak"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

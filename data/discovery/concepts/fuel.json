@@ -19,6 +19,30 @@
       "source_repo": "FuelLabs/fuel-core",
       "status": "candidate-context",
       "text": "[![build](https://github.com/FuelLabs/fuel-core/actions/workflows/ci.yml/badge.svg)](https://github.com/FuelLabs/fuel-core/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "FuelLabs/fuel-specs",
+      "status": "candidate-context",
+      "text": "\ud83d\udcdd Specifications for the Fuel protocol and the FuelVM, a blazingly fast blockchain VM."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FuelLabs/fuel-specs",
+      "status": "candidate-context",
+      "text": "<!-- markdownlint-disable-next-line MD036 -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "FuelLabs/fuel-vm",
+      "status": "candidate-context",
+      "text": "Fuel v2 interpreter in Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FuelLabs/fuel-vm",
+      "status": "candidate-context",
+      "text": "[![build](https://github.com/FuelLabs/fuel-vm/actions/workflows/ci.yml/badge.svg)](https://github.com/FuelLabs/fuel-vm/actions/workflows/ci.yml)[![discord](https://img.shields.io/badge/chat%20on-discord-orange?&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2)](https\u2026"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +51,18 @@
       "source_repo": "FuelLabs/fuel-core",
       "status": "candidate",
       "text": "[![build](https://github.com/FuelLabs/fuel-core/actions/workflows/ci.yml/badge.svg)](https://github.com/FuelLabs/fuel-core/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FuelLabs/fuel-specs",
+      "status": "candidate",
+      "text": "<!-- markdownlint-disable-next-line MD036 -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FuelLabs/fuel-vm",
+      "status": "candidate",
+      "text": "[![build](https://github.com/FuelLabs/fuel-vm/actions/workflows/ci.yml/badge.svg)](https://github.com/FuelLabs/fuel-vm/actions/workflows/ci.yml)[![discord](https://img.shields.io/badge/chat%20on-discord-orange?&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2)](https\u2026"
     }
   ],
   "candidate_related_terms": [
@@ -98,11 +134,23 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "FuelLabs/fuel-core"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "FuelLabs/fuel-specs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "FuelLabs/fuel-vm"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -19,6 +19,18 @@
       "source_repo": "0xC0000054/libheif-sharp",
       "status": "candidate-context",
       "text": "[![NuGet version](https://img.shields.io/nuget/v/LibHeifSharp.svg?style=flat)](https://www.nuget.org/packages/LibHeifSharp/) [![GitHub license](https://img.shields.io/github/license/0xC0000054/libheif-sharp)](https://github.com/0xC0000054/libheif-sharp/blob/main/LICENSE.md)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lovell/sharp",
+      "status": "candidate-context",
+      "text": "High performance Node.js image processing, the fastest module to resize JPEG, PNG, WebP, AVIF and TIFF images. Uses the libvips library."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lovell/sharp",
+      "status": "candidate-context",
+      "text": "<img src=\"https://sharp.pixelplumbing.com/sharp-logo.svg\" width=\"160\" height=\"160\" alt=\"sharp logo\" align=\"right\">"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "0xC0000054/libheif-sharp",
       "status": "candidate",
       "text": "[![NuGet version](https://img.shields.io/nuget/v/LibHeifSharp.svg?style=flat)](https://www.nuget.org/packages/LibHeifSharp/) [![GitHub license](https://img.shields.io/github/license/0xC0000054/libheif-sharp)](https://github.com/0xC0000054/libheif-sharp/blob/main/LICENSE.md)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lovell/sharp",
+      "status": "candidate",
+      "text": "<img src=\"https://sharp.pixelplumbing.com/sharp-logo.svg\" width=\"160\" height=\"160\" alt=\"sharp logo\" align=\"right\">"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "0xC0000054/libheif-sharp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "lovell/sharp"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

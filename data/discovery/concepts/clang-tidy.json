@@ -1,7 +1,8 @@
 {
   "aliases": [
     "clang-tidy",
-    "Clang-Tidy"
+    "Clang-Tidy",
+    "Clang Tidy"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -80,6 +81,18 @@
       "source_repo": "doctest/doctest",
       "status": "candidate-context",
       "text": "Clang-Tidy"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bpftrace/bpftrace",
+      "status": "candidate-context",
+      "text": "High-level tracing language for Linux"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bpftrace/bpftrace",
+      "status": "candidate-context",
+      "text": "\"Clang Tidy\""
     }
   ],
   "candidate_glosses": [
@@ -118,9 +131,51 @@
       "source_repo": "doctest/doctest",
       "status": "candidate",
       "text": "Clang-Tidy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bpftrace/bpftrace",
+      "status": "candidate",
+      "text": "\"Clang Tidy\""
     }
   ],
-  "candidate_related_terms": [],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10791,
+      "status": "candidate",
+      "text": "bang"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10791,
+      "status": "candidate",
+      "text": "rhythm"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10684,
+      "status": "candidate",
+      "text": "stack"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10661,
+      "status": "candidate",
+      "text": "agree"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10661,
+      "status": "candidate",
+      "text": "area"
+    }
+  ],
   "candidate_synonyms": [],
   "canonical_name": "clang-tidy",
   "concept_id": "clang-tidy",
@@ -161,11 +216,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": ".github/workflows/clang-tidy.yml",
       "source_repo": "doctest/doctest"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/clang-tidy.yml",
+      "source_repo": "bpftrace/bpftrace"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,7 +1,7 @@
 {
   "component": "crazy-max/ghaction-chocolatey@v3",
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -22,6 +22,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/rust.yml",
       "source_repo": "Tencent/tquic"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/call-build-windows.yaml",
+      "source_repo": "fluent/fluent-bit"
     }
   ]
 }

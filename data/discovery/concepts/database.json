@@ -319,6 +319,90 @@
       "source_repo": "kurrent-io/KurrentDB",
       "status": "candidate-context",
       "text": "<a href=\"https://kurrent.io\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "objectbox/objectbox-swift-spm",
+      "status": "candidate-context",
+      "text": "Hosts the ObjectBox Swift package"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "objectbox/objectbox-swift-spm",
+      "status": "candidate-context",
+      "text": "**Visit the \u27a1\ufe0f [Get Started with ObjectBox Swift](https://swift.objectbox.io/getting-started) page to see how to use this Swift package.**"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dotnet/efcore",
+      "status": "candidate-context",
+      "text": "EF Core is a modern object-database mapper for .NET. It supports LINQ queries, change tracking, updates, and schema migrations."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dotnet/efcore",
+      "status": "candidate-context",
+      "text": "[![build status](https://img.shields.io/azure-devops/build/dnceng-public/public/17/main)](https://dev.azure.com/dnceng-public/public/_build?definitionId=17) [![test results](https://img.shields.io/azure-devops/tests/dnceng-public/public/17/main)](https://dev.azure.com/dnceng-pub\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ashvardanian/StringWars",
+      "status": "candidate-context",
+      "text": "Comparing performance-oriented string-processing libraries for substring search, multi-pattern matching, hashing, edit-distances, sketching, and sorting across CPUs and GPUs in Rust \ud83e\udd80 and Python \ud83d\udc0d"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ashvardanian/StringWars",
+      "status": "candidate-context",
+      "text": "![StringWars Thumbnail](https://github.com/ashvardanian/ashvardanian/blob/master/repositories/StringWars-v2.png?raw=true)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kristijanhusak/vim-dadbod-ui",
+      "status": "candidate-context",
+      "text": "Simple UI for https://github.com/tpope/vim-dadbod"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kristijanhusak/vim-dadbod-ui",
+      "status": "candidate-context",
+      "text": "Simple UI for [vim-dadbod](https://github.com/tpope/vim-dadbod)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "uptrace/go-clickhouse",
+      "status": "candidate-context",
+      "text": "Golang ClickHouse client"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "uptrace/go-clickhouse",
+      "status": "candidate-context",
+      "text": "[![build workflow](https://github.com/uptrace/go-clickhouse/actions/workflows/build.yml/badge.svg)](https://github.com/uptrace/go-clickhouse/actions)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/doris",
+      "status": "candidate-context",
+      "text": "Apache Doris is an easy-to-use, high performance and unified analytics database."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/doris",
+      "status": "candidate-context",
+      "text": "<!--"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Level/memory-level",
+      "status": "candidate-context",
+      "text": "In-memory abstract-level database for Node.js and browsers."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Level/memory-level",
+      "status": "candidate-context",
+      "text": "**In-memory [`abstract-level`][abstract-level] database for Node.js and browsers, backed by a [fully persistent red-black tree](https://www.npmjs.com/package/functional-red-black-tree).** The successor to [`memdown`](https://github.com/Level/memdown) and [`level-mem`](https://gi\u2026"
     }
   ],
   "candidate_glosses": [
@@ -477,6 +561,48 @@
       "source_repo": "kurrent-io/KurrentDB",
       "status": "candidate",
       "text": "<a href=\"https://kurrent.io\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "objectbox/objectbox-swift-spm",
+      "status": "candidate",
+      "text": "**Visit the \u27a1\ufe0f [Get Started with ObjectBox Swift](https://swift.objectbox.io/getting-started) page to see how to use this Swift package.**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dotnet/efcore",
+      "status": "candidate",
+      "text": "[![build status](https://img.shields.io/azure-devops/build/dnceng-public/public/17/main)](https://dev.azure.com/dnceng-public/public/_build?definitionId=17) [![test results](https://img.shields.io/azure-devops/tests/dnceng-public/public/17/main)](https://dev.azure.com/dnceng-pub\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ashvardanian/StringWars",
+      "status": "candidate",
+      "text": "![StringWars Thumbnail](https://github.com/ashvardanian/ashvardanian/blob/master/repositories/StringWars-v2.png?raw=true)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kristijanhusak/vim-dadbod-ui",
+      "status": "candidate",
+      "text": "Simple UI for [vim-dadbod](https://github.com/tpope/vim-dadbod)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "uptrace/go-clickhouse",
+      "status": "candidate",
+      "text": "[![build workflow](https://github.com/uptrace/go-clickhouse/actions/workflows/build.yml/badge.svg)](https://github.com/uptrace/go-clickhouse/actions)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/doris",
+      "status": "candidate",
+      "text": "<!--"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Level/memory-level",
+      "status": "candidate",
+      "text": "**In-memory [`abstract-level`][abstract-level] database for Node.js and browsers, backed by a [fully persistent red-black tree](https://www.npmjs.com/package/functional-red-black-tree).** The successor to [`memdown`](https://github.com/Level/memdown) and [`level-mem`](https://gi\u2026"
     }
   ],
   "candidate_related_terms": [
@@ -718,11 +844,65 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "kurrent-io/KurrentDB"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "objectbox/objectbox-swift-spm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "dotnet/efcore"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "ashvardanian/StringWars"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "kristijanhusak/vim-dadbod-ui"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "uptrace/go-clickhouse"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "olric-data/olric"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "apache/doris"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "WiseLibs/better-sqlite3"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "Level/memory-level"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

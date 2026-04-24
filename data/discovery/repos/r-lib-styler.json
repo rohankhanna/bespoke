@@ -1,0 +1,465 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-full.yaml"
+    },
+    {
+      "component": "r-lib/actions/setup-pandoc@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-full.yaml"
+    },
+    {
+      "component": "r-lib/actions/setup-r@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-full.yaml"
+    },
+    {
+      "component": "r-lib/actions/setup-r-dependencies@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-full.yaml"
+    },
+    {
+      "component": "r-lib/actions/check-r-package@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-full.yaml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-no-warnings.yaml"
+    },
+    {
+      "component": "r-lib/actions/setup-r@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-no-warnings.yaml"
+    },
+    {
+      "component": "r-lib/actions/setup-r-dependencies@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-no-warnings.yaml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pkgdown.yaml"
+    },
+    {
+      "component": "r-lib/actions/setup-pandoc@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pkgdown.yaml"
+    },
+    {
+      "component": "r-lib/actions/setup-r@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pkgdown.yaml"
+    },
+    {
+      "component": "r-lib/actions/setup-r-dependencies@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pkgdown.yaml"
+    },
+    {
+      "component": "JamesIves/github-pages-deploy-action@v4.7.3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pkgdown.yaml"
+    },
+    {
+      "component": "styfle/cancel-workflow-action@0.12.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yaml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yaml"
+    },
+    {
+      "component": "actions/setup-python@v6.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yaml"
+    },
+    {
+      "component": "r-lib/actions/setup-r@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yaml"
+    },
+    {
+      "component": "pre-commit/action@v3.0.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yaml"
+    },
+    {
+      "component": "ad-m/github-push-action@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yaml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-coverage.yaml"
+    },
+    {
+      "component": "r-lib/actions/setup-r@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-coverage.yaml"
+    },
+    {
+      "component": "r-lib/actions/setup-r-dependencies@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-coverage.yaml"
+    },
+    {
+      "component": "lorenzwalthert/touchstone/actions/comment@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/touchstone-comment.yaml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/touchstone-receive.yaml"
+    },
+    {
+      "component": "lorenzwalthert/touchstone/actions/receive@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/touchstone-receive.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-full.yaml",
+      "source_repo": "r-lib/styler",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-full.yaml",
+      "source_repo": "r-lib/styler",
+      "target": "r-lib/actions/setup-pandoc@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-full.yaml",
+      "source_repo": "r-lib/styler",
+      "target": "r-lib/actions/setup-r@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-full.yaml",
+      "source_repo": "r-lib/styler",
+      "target": "r-lib/actions/setup-r-dependencies@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-full.yaml",
+      "source_repo": "r-lib/styler",
+      "target": "r-lib/actions/check-r-package@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-full.yaml",
+      "source_repo": "r-lib/styler",
+      "target": "R-CMD-check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-no-warnings.yaml",
+      "source_repo": "r-lib/styler",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-no-warnings.yaml",
+      "source_repo": "r-lib/styler",
+      "target": "r-lib/actions/setup-r@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-no-warnings.yaml",
+      "source_repo": "r-lib/styler",
+      "target": "r-lib/actions/setup-r-dependencies@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-no-warnings.yaml",
+      "source_repo": "r-lib/styler",
+      "target": "check-no-warnings",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pkgdown.yaml",
+      "source_repo": "r-lib/styler",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pkgdown.yaml",
+      "source_repo": "r-lib/styler",
+      "target": "r-lib/actions/setup-pandoc@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pkgdown.yaml",
+      "source_repo": "r-lib/styler",
+      "target": "r-lib/actions/setup-r@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pkgdown.yaml",
+      "source_repo": "r-lib/styler",
+      "target": "r-lib/actions/setup-r-dependencies@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pkgdown.yaml",
+      "source_repo": "r-lib/styler",
+      "target": "JamesIves/github-pages-deploy-action@v4.7.3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pkgdown.yaml",
+      "source_repo": "r-lib/styler",
+      "target": "pkgdown",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yaml",
+      "source_repo": "r-lib/styler",
+      "target": "styfle/cancel-workflow-action@0.12.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yaml",
+      "source_repo": "r-lib/styler",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yaml",
+      "source_repo": "r-lib/styler",
+      "target": "actions/setup-python@v6.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yaml",
+      "source_repo": "r-lib/styler",
+      "target": "r-lib/actions/setup-r@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yaml",
+      "source_repo": "r-lib/styler",
+      "target": "pre-commit/action@v3.0.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yaml",
+      "source_repo": "r-lib/styler",
+      "target": "ad-m/github-push-action@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pre-commit.yaml",
+      "source_repo": "r-lib/styler",
+      "target": "pre-commit",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-coverage.yaml",
+      "source_repo": "r-lib/styler",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-coverage.yaml",
+      "source_repo": "r-lib/styler",
+      "target": "r-lib/actions/setup-r@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-coverage.yaml",
+      "source_repo": "r-lib/styler",
+      "target": "r-lib/actions/setup-r-dependencies@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-coverage.yaml",
+      "source_repo": "r-lib/styler",
+      "target": "test-coverage",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/touchstone-comment.yaml",
+      "source_repo": "r-lib/styler",
+      "target": "lorenzwalthert/touchstone/actions/comment@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/touchstone-comment.yaml",
+      "source_repo": "r-lib/styler",
+      "target": "Continuous Benchmarks (Comment)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/touchstone-receive.yaml",
+      "source_repo": "r-lib/styler",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/touchstone-receive.yaml",
+      "source_repo": "r-lib/styler",
+      "target": "lorenzwalthert/touchstone/actions/receive@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/touchstone-receive.yaml",
+      "source_repo": "r-lib/styler",
+      "target": "Continuous Benchmarks (Receive)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "r-lib/styler",
+      "target": "pretty-print",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T00:51:13.177689+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2070
+    },
+    {
+      "path": ".github/workflows/check-full.yaml",
+      "size": 2284
+    },
+    {
+      "path": ".github/workflows/check-no-warnings.yaml",
+      "size": 1471
+    },
+    {
+      "path": ".github/workflows/pkgdown.yaml",
+      "size": 1262
+    },
+    {
+      "path": ".github/workflows/pre-commit.yaml",
+      "size": 1649
+    },
+    {
+      "path": ".github/workflows/test-coverage.yaml",
+      "size": 745
+    },
+    {
+      "path": ".github/workflows/touchstone-comment.yaml",
+      "size": 549
+    },
+    {
+      "path": ".github/workflows/touchstone-receive.yaml",
+      "size": 1711
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Non-invasive pretty printing of R code",
+    "fork": false,
+    "full_name": "r-lib/styler",
+    "html_url": "https://github.com/r-lib/styler",
+    "language": "R",
+    "pushed_at": "2026-04-02T13:48:59Z",
+    "stargazers_count": 773,
+    "topics": [
+      "pretty-print",
+      "r"
+    ],
+    "updated_at": "2026-04-19T04:33:05Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "R-CMD-check",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-full.yaml",
+      "term": "R-CMD-check"
+    },
+    {
+      "context_snippet": "check-no-warnings",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-no-warnings.yaml",
+      "term": "check-no-warnings"
+    },
+    {
+      "context_snippet": "pkgdown",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pkgdown.yaml",
+      "term": "pkgdown"
+    },
+    {
+      "context_snippet": "pre-commit",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pre-commit.yaml",
+      "term": "pre-commit"
+    },
+    {
+      "context_snippet": "test-coverage",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-coverage.yaml",
+      "term": "test-coverage"
+    },
+    {
+      "context_snippet": "Continuous Benchmarks (Comment)",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/touchstone-comment.yaml",
+      "term": "Continuous Benchmarks (Comment)"
+    },
+    {
+      "context_snippet": "Continuous Benchmarks (Receive)",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/touchstone-receive.yaml",
+      "term": "Continuous Benchmarks (Receive)"
+    },
+    {
+      "context_snippet": "<!-- README.md is generated from README.Rmd. Please edit that file -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pretty-print"
+    }
+  ]
+}

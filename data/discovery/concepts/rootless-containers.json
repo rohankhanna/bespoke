@@ -31,6 +31,30 @@
       "source_repo": "rootless-containers/rootlesskit",
       "status": "candidate-context",
       "text": "RootlessKit is a Linux-native implementation of \"fake root\" using [`user_namespaces(7)`](http://man7.org/linux/man-pages/man7/user_namespaces.7.html)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apptainer/apptainer",
+      "status": "candidate-context",
+      "text": "Apptainer: Application containers for Linux"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apptainer/apptainer",
+      "status": "candidate-context",
+      "text": "[![CI](https://github.com/apptainer/apptainer/actions/workflows/ci.yml/badge.svg)](https://github.com/apptainer/apptainer/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rootless-containers/usernetes",
+      "status": "candidate-context",
+      "text": "Kubernetes without the root privileges"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rootless-containers/usernetes",
+      "status": "candidate-context",
+      "text": "Usernetes (Gen2) deploys a Kubernetes cluster inside [Rootless Docker](https://rootlesscontaine.rs/getting-started/docker/),"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +69,18 @@
       "source_repo": "rootless-containers/rootlesskit",
       "status": "candidate",
       "text": "RootlessKit is a Linux-native implementation of \"fake root\" using [`user_namespaces(7)`](http://man7.org/linux/man-pages/man7/user_namespaces.7.html)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apptainer/apptainer",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/apptainer/apptainer/actions/workflows/ci.yml/badge.svg)](https://github.com/apptainer/apptainer/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rootless-containers/usernetes",
+      "status": "candidate",
+      "text": "Usernetes (Gen2) deploys a Kubernetes cluster inside [Rootless Docker](https://rootlesscontaine.rs/getting-started/docker/),"
     }
   ],
   "candidate_related_terms": [],
@@ -64,11 +100,23 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "rootless-containers/rootlesskit"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "apptainer/apptainer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "rootless-containers/usernetes"
     }
   ],
   "first_seen_at": "2026-04-19T04:47:57.443742+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

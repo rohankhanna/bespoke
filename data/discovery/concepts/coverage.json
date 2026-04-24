@@ -380,6 +380,30 @@
       "source_repo": "systemd/systemd",
       "status": "candidate-context",
       "text": "coverage"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "actix/actix-net",
+      "status": "candidate-context",
+      "text": "A collection of lower-level libraries for composable network services."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "actix/actix-net",
+      "status": "candidate-context",
+      "text": "Coverage"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cloudflare/workerd",
+      "status": "candidate-context",
+      "text": "The JavaScript / Wasm runtime that powers Cloudflare Workers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cloudflare/workerd",
+      "status": "candidate-context",
+      "text": "Coverage"
     }
   ],
   "candidate_glosses": [
@@ -568,6 +592,18 @@
       "source_repo": "systemd/systemd",
       "status": "candidate",
       "text": "coverage"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "actix/actix-net",
+      "status": "candidate",
+      "text": "Coverage"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cloudflare/workerd",
+      "status": "candidate",
+      "text": "Coverage"
     }
   ],
   "candidate_related_terms": [
@@ -843,11 +879,29 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": ".github/workflows/coverage.yml",
       "source_repo": "systemd/systemd"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "actix/actix-net"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "cloudflare/workerd"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "apache/casbin-rs"
     }
   ],
   "first_seen_at": "2026-04-18T10:38:37.562216+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,187 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chfast/intx",
+      "target": "arbitrary-precision",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chfast/intx",
+      "target": "biginteger",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chfast/intx",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chfast/intx",
+      "target": "int128",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chfast/intx",
+      "target": "int256",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chfast/intx",
+      "target": "int512",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chfast/intx",
+      "target": "intx",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chfast/intx",
+      "target": "uint128",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chfast/intx",
+      "target": "uint256",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chfast/intx",
+      "target": "uint384",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chfast/intx",
+      "target": "uint512",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T00:58:09.820155+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1139
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Extended precision integer C++ library",
+    "fork": false,
+    "full_name": "chfast/intx",
+    "html_url": "https://github.com/chfast/intx",
+    "language": "C++",
+    "pushed_at": "2026-02-09T12:44:40Z",
+    "stargazers_count": 167,
+    "topics": [
+      "arbitrary-precision",
+      "biginteger",
+      "c",
+      "cpp",
+      "evm",
+      "hacktoberfest",
+      "int128",
+      "int256",
+      "int512",
+      "intx",
+      "uint128",
+      "uint256",
+      "uint384",
+      "uint512"
+    ],
+    "updated_at": "2026-04-16T07:45:35Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "[![readme style: standard][readme style standard badge]][standard readme]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "arbitrary-precision"
+    },
+    {
+      "context_snippet": "[![readme style: standard][readme style standard badge]][standard readme]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "biginteger"
+    },
+    {
+      "context_snippet": "[![readme style: standard][readme style standard badge]][standard readme]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    },
+    {
+      "context_snippet": "[![readme style: standard][readme style standard badge]][standard readme]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "int128"
+    },
+    {
+      "context_snippet": "[![readme style: standard][readme style standard badge]][standard readme]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "int256"
+    },
+    {
+      "context_snippet": "[![readme style: standard][readme style standard badge]][standard readme]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "int512"
+    },
+    {
+      "context_snippet": "[![readme style: standard][readme style standard badge]][standard readme]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "intx"
+    },
+    {
+      "context_snippet": "[![readme style: standard][readme style standard badge]][standard readme]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "uint128"
+    },
+    {
+      "context_snippet": "[![readme style: standard][readme style standard badge]][standard readme]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "uint256"
+    },
+    {
+      "context_snippet": "[![readme style: standard][readme style standard badge]][standard readme]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "uint384"
+    },
+    {
+      "context_snippet": "[![readme style: standard][readme style standard badge]][standard readme]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "uint512"
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "The Swift code generator for your assets, storyboards, Localizable.strings, \u2026 \u2014 Get rid of all String-based APIs!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Archive"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Archive"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39926207,
+      "status": "candidate",
+      "text": "file away"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29965556,
+      "status": "candidate",
+      "text": "archival"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29965457,
+      "status": "candidate",
+      "text": "file"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29964572,
+      "status": "candidate",
+      "text": "record-keeping"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29956088,
+      "status": "candidate",
+      "text": "registry"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Archive",
+      "sense_id": "archive#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 5035,
+      "status": "candidate",
+      "text": "archives"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 4017,
+      "status": "candidate",
+      "text": "file away"
+    }
+  ],
+  "concept_id": "archive",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "archive",
+  "observation_id": "1c3b666b4a59ef71",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-24T00:33:56.049672+00:00",
+  "observed_text": "Archive",
+  "source_context_snippet": "Archive",
+  "source_file": ".github/workflows/archive.yml",
+  "source_repo": "SwiftGen/SwiftGen",
+  "source_repo_description": "The Swift code generator for your assets, storyboards, Localizable.strings, \u2026 \u2014 Get rid of all String-based APIs!"
+}

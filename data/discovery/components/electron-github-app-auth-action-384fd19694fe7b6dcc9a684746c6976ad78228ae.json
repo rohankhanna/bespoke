@@ -1,0 +1,12 @@
+{
+  "component": "electron/github-app-auth-action@384fd19694fe7b6dcc9a684746c6976ad78228ae",
+  "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/add-to-project.yml",
+      "source_repo": "electron/windows-sign"
+    }
+  ]
+}

@@ -1,0 +1,220 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linter.yaml"
+    },
+    {
+      "component": "ibiqlik/action-yamllint@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linter.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-index.yaml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-index.yaml"
+    },
+    {
+      "component": "stefanzweifel/git-auto-commit-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-index.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "datreeio/CRDs-catalog",
+      "target": "datreeio/datree",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "datreeio/CRDs-catalog",
+      "target": "yannh/kubeconform",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "datreeio/CRDs-catalog",
+      "target": "instrumenta/kubeval",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linter.yaml",
+      "source_repo": "datreeio/CRDs-catalog",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linter.yaml",
+      "source_repo": "datreeio/CRDs-catalog",
+      "target": "ibiqlik/action-yamllint@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-index.yaml",
+      "source_repo": "datreeio/CRDs-catalog",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-index.yaml",
+      "source_repo": "datreeio/CRDs-catalog",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-index.yaml",
+      "source_repo": "datreeio/CRDs-catalog",
+      "target": "stefanzweifel/git-auto-commit-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "datreeio/CRDs-catalog",
+      "target": "crds",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "datreeio/CRDs-catalog",
+      "target": "customresourcedefinition",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "datreeio/CRDs-catalog",
+      "target": "jsonschema",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "datreeio/CRDs-catalog",
+      "target": "kubernetes",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "datreeio/CRDs-catalog",
+      "target": "schema",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "datreeio/CRDs-catalog",
+      "target": "shift-left",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T00:52:27.975801+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5643
+    },
+    {
+      "path": ".github/workflows/linter.yaml",
+      "size": 402
+    },
+    {
+      "path": ".github/workflows/update-index.yaml",
+      "size": 778
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Popular Kubernetes CRDs (CustomResourceDefinition) in JSON schema format.",
+    "fork": false,
+    "full_name": "datreeio/CRDs-catalog",
+    "html_url": "https://github.com/datreeio/CRDs-catalog",
+    "language": "Python",
+    "pushed_at": "2026-04-19T10:47:21Z",
+    "stargazers_count": 809,
+    "topics": [
+      "crds",
+      "customresourcedefinition",
+      "jsonschema",
+      "kubernetes",
+      "schema",
+      "shift-left"
+    ],
+    "updated_at": "2026-04-22T15:57:44Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "datreeio/datree",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "instrumenta/kubeval",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "yannh/kubeconform",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "This repository aggregates hundreds of popular Kubernetes CRDs (`CustomResourceDefinition`) in JSON schema format. These schemas can be used by various tools such as [Datree](https://github.com/datreeio/datree), [Kubeconform](https://github.com/yannh/kubeconform) and [Kubeval](h\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "crds"
+    },
+    {
+      "context_snippet": "This repository aggregates hundreds of popular Kubernetes CRDs (`CustomResourceDefinition`) in JSON schema format. These schemas can be used by various tools such as [Datree](https://github.com/datreeio/datree), [Kubeconform](https://github.com/yannh/kubeconform) and [Kubeval](h\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "customresourcedefinition"
+    },
+    {
+      "context_snippet": "This repository aggregates hundreds of popular Kubernetes CRDs (`CustomResourceDefinition`) in JSON schema format. These schemas can be used by various tools such as [Datree](https://github.com/datreeio/datree), [Kubeconform](https://github.com/yannh/kubeconform) and [Kubeval](h\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "jsonschema"
+    },
+    {
+      "context_snippet": "This repository aggregates hundreds of popular Kubernetes CRDs (`CustomResourceDefinition`) in JSON schema format. These schemas can be used by various tools such as [Datree](https://github.com/datreeio/datree), [Kubeconform](https://github.com/yannh/kubeconform) and [Kubeval](h\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kubernetes"
+    },
+    {
+      "context_snippet": "This repository aggregates hundreds of popular Kubernetes CRDs (`CustomResourceDefinition`) in JSON schema format. These schemas can be used by various tools such as [Datree](https://github.com/datreeio/datree), [Kubeconform](https://github.com/yannh/kubeconform) and [Kubeval](h\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "schema"
+    },
+    {
+      "context_snippet": "This repository aggregates hundreds of popular Kubernetes CRDs (`CustomResourceDefinition`) in JSON schema format. These schemas can be used by various tools such as [Datree](https://github.com/datreeio/datree), [Kubeconform](https://github.com/yannh/kubeconform) and [Kubeval](h\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "shift-left"
+    }
+  ]
+}

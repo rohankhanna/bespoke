@@ -19,12 +19,48 @@
       "source_repo": "boto/boto3",
       "status": "candidate-context",
       "text": "Lint code"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "boto/botocore",
+      "status": "candidate-context",
+      "text": "The low-level, core functionality of boto3 and the AWS CLI."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "boto/botocore",
+      "status": "candidate-context",
+      "text": "Lint code"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "boto/s3transfer",
+      "status": "candidate-context",
+      "text": "Amazon S3 Transfer Manager for Python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "boto/s3transfer",
+      "status": "candidate-context",
+      "text": "Lint code"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "boto/boto3",
+      "status": "candidate",
+      "text": "Lint code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "boto/botocore",
+      "status": "candidate",
+      "text": "Lint code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "boto/s3transfer",
       "status": "candidate",
       "text": "Lint code"
     }
@@ -76,11 +112,23 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": ".github/workflows/lint.yml",
       "source_repo": "boto/boto3"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "boto/botocore"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "boto/s3transfer"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

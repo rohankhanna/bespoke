@@ -1,0 +1,392 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/actions.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@eac588ad8def6316056a12d4907a9d4d84ff7a3b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/actions.yml"
+    },
+    {
+      "component": "github/codeql-action/upload-sarif@89a39a4e59826350b863aa6b6252a07ad50cf83e",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/actions.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/activity-report.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-format.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backport.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backport.yml"
+    },
+    {
+      "component": "carloscastrojumo/github-cherry-pick-action@503773289f4a459069c832dc628826685b75b4b3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backport.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/init@89a39a4e59826350b863aa6b6252a07ad50cf83e",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@89a39a4e59826350b863aa6b6252a07ad50cf83e",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependency-submission.yml"
+    },
+    {
+      "component": "gradle/actions/dependency-submission@39e147cb9de83bb9910b8ef8bd7fff0ee20fcd6f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependency-submission.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/actions.yml",
+      "source_repo": "apache/lucene",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/actions.yml",
+      "source_repo": "apache/lucene",
+      "target": "astral-sh/setup-uv@eac588ad8def6316056a12d4907a9d4d84ff7a3b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/actions.yml",
+      "source_repo": "apache/lucene",
+      "target": "github/codeql-action/upload-sarif@89a39a4e59826350b863aa6b6252a07ad50cf83e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/actions.yml",
+      "source_repo": "apache/lucene",
+      "target": "Validate Actions (online checks)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/activity-report.yml",
+      "source_repo": "apache/lucene",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/activity-report.yml",
+      "source_repo": "apache/lucene",
+      "target": "Generate project activity report",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-format.yml",
+      "source_repo": "apache/lucene",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-format.yml",
+      "source_repo": "apache/lucene",
+      "target": "Auto Format Bot",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backport.yml",
+      "source_repo": "apache/lucene",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backport.yml",
+      "source_repo": "apache/lucene",
+      "target": "carloscastrojumo/github-cherry-pick-action@503773289f4a459069c832dc628826685b75b4b3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/backport.yml",
+      "source_repo": "apache/lucene",
+      "target": "Backport PR",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "apache/lucene",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "apache/lucene",
+      "target": "github/codeql-action/init@89a39a4e59826350b863aa6b6252a07ad50cf83e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "apache/lucene",
+      "target": "github/codeql-action/analyze@89a39a4e59826350b863aa6b6252a07ad50cf83e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "apache/lucene",
+      "target": "CodeQL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependency-submission.yml",
+      "source_repo": "apache/lucene",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependency-submission.yml",
+      "source_repo": "apache/lucene",
+      "target": "gradle/actions/dependency-submission@39e147cb9de83bb9910b8ef8bd7fff0ee20fcd6f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dependency-submission.yml",
+      "source_repo": "apache/lucene",
+      "target": "Dependency Submission",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/lucene",
+      "target": "backend",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/lucene",
+      "target": "information-retrieval",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/lucene",
+      "target": "java",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/lucene",
+      "target": "lucene",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/lucene",
+      "target": "nosql",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/lucene",
+      "target": "search",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/lucene",
+      "target": "search-engine",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T00:55:23.156893+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3054
+    },
+    {
+      "path": ".github/workflows/actions.yml",
+      "size": 1320
+    },
+    {
+      "path": ".github/workflows/activity-report-known-committers.txt",
+      "size": 1749
+    },
+    {
+      "path": ".github/workflows/activity-report.sh",
+      "size": 2931
+    },
+    {
+      "path": ".github/workflows/activity-report.yml",
+      "size": 1089
+    },
+    {
+      "path": ".github/workflows/auto-format.yml",
+      "size": 12147
+    },
+    {
+      "path": ".github/workflows/backport.sh",
+      "size": 6995
+    },
+    {
+      "path": ".github/workflows/backport.yml",
+      "size": 3766
+    },
+    {
+      "path": ".github/workflows/codeql.yml",
+      "size": 1636
+    },
+    {
+      "path": ".github/workflows/dependency-submission.yml",
+      "size": 1337
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Apache Lucene open-source search software",
+    "fork": false,
+    "full_name": "apache/lucene",
+    "html_url": "https://github.com/apache/lucene",
+    "language": "Java",
+    "pushed_at": "2026-04-23T09:41:23Z",
+    "stargazers_count": 3408,
+    "topics": [
+      "backend",
+      "information-retrieval",
+      "java",
+      "lucene",
+      "nosql",
+      "search",
+      "search-engine"
+    ],
+    "updated_at": "2026-04-23T23:35:55Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Validate Actions (online checks)",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/actions.yml",
+      "term": "Validate Actions (online checks)"
+    },
+    {
+      "context_snippet": "\"Generate project activity report\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/activity-report.yml",
+      "term": "Generate project activity report"
+    },
+    {
+      "context_snippet": "Auto Format Bot",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-format.yml",
+      "term": "Auto Format Bot"
+    },
+    {
+      "context_snippet": "Backport PR",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/backport.yml",
+      "term": "Backport PR"
+    },
+    {
+      "context_snippet": "CodeQL",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "term": "CodeQL"
+    },
+    {
+      "context_snippet": "Dependency Submission",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dependency-submission.yml",
+      "term": "Dependency Submission"
+    },
+    {
+      "context_snippet": "<!--",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "backend"
+    },
+    {
+      "context_snippet": "<!--",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "information-retrieval"
+    },
+    {
+      "context_snippet": "<!--",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "java"
+    },
+    {
+      "context_snippet": "<!--",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lucene"
+    },
+    {
+      "context_snippet": "<!--",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nosql"
+    },
+    {
+      "context_snippet": "<!--",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "search"
+    },
+    {
+      "context_snippet": "<!--",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "search-engine"
+    }
+  ]
+}

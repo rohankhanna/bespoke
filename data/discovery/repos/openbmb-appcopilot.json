@@ -1,0 +1,69 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "OpenBMB/AppCopilot",
+      "target": "ysbing/yadb",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "OpenBMB/AppCopilot",
+      "target": "imnearth/coat",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "OpenBMB/AppCopilot",
+      "target": "opengvlab/gui-odyssey",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-24T01:43:36.128982+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 21668
+    },
+    {
+      "path": "requirements.txt",
+      "size": 655
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A General, Accurate, Long-Horizon, and Efficient Mobile Agent driven by Multimodal Foundation Models",
+    "fork": false,
+    "full_name": "OpenBMB/AppCopilot",
+    "html_url": "https://github.com/OpenBMB/AppCopilot",
+    "language": "Python",
+    "pushed_at": "2025-11-18T06:18:21Z",
+    "stargazers_count": 298,
+    "topics": [],
+    "updated_at": "2026-04-15T04:39:41Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "imnearth/coat",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "opengvlab/gui-odyssey",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ysbing/yadb",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

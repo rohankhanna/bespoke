@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "adobe-research/diffusion-rig",
+      "target": "facebookresearch/pytorch3d",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "adobe-research/diffusion-rig",
+      "target": "yadiraf/deca",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "adobe-research/diffusion-rig",
+      "target": "yfeng95/deca",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "adobe-research/diffusion-rig",
+      "target": "phizaz/diffae",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-24T02:01:30.444276+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5713
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Code Release for DiffusionRig (CVPR 2023)",
+    "fork": false,
+    "full_name": "adobe-research/diffusion-rig",
+    "html_url": "https://github.com/adobe-research/diffusion-rig",
+    "language": "Python",
+    "pushed_at": "2023-10-13T19:44:24Z",
+    "stargazers_count": 291,
+    "topics": [],
+    "updated_at": "2026-03-30T03:43:20Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "facebookresearch/pytorch3d",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "phizaz/diffae",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "yadiraf/deca",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "yfeng95/deca",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

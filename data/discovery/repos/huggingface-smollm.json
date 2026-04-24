@@ -1,0 +1,71 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/trufflehog.yml"
+    },
+    {
+      "component": "trufflesecurity/trufflehog@6bd2d14f7a4bc1e569fa3550efa7ec632a4fa67b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/trufflehog.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/trufflehog.yml",
+      "source_repo": "huggingface/smollm",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/trufflehog.yml",
+      "source_repo": "huggingface/smollm",
+      "target": "trufflesecurity/trufflehog@6bd2d14f7a4bc1e569fa3550efa7ec632a4fa67b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/trufflehog.yml",
+      "source_repo": "huggingface/smollm",
+      "target": "Secret Leaks",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T02:03:28.611703+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4583
+    },
+    {
+      "path": ".github/workflows/trufflehog.yml",
+      "size": 592
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Everything about the SmolLM and SmolVLM family of models ",
+    "fork": false,
+    "full_name": "huggingface/smollm",
+    "html_url": "https://github.com/huggingface/smollm",
+    "language": "Python",
+    "pushed_at": "2026-04-02T13:49:26Z",
+    "stargazers_count": 3734,
+    "topics": [],
+    "updated_at": "2026-04-24T00:10:54Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Secret Leaks",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/trufflehog.yml",
+      "term": "Secret Leaks"
+    }
+  ]
+}

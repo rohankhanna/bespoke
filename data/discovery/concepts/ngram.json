@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "ngram"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "girishji/ngramview-complete.vim",
+      "status": "candidate-context",
+      "text": "Next word completion for Vim based on Google Ngrams Viewer."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "girishji/ngramview-complete.vim",
+      "status": "candidate-context",
+      "text": "---"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "girishji/ngramview-complete.vim",
+      "status": "candidate",
+      "text": "---"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20016284,
+      "status": "candidate",
+      "text": "n-gram"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20016283,
+      "status": "candidate",
+      "text": "fivegram"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20016282,
+      "status": "candidate",
+      "text": "unigram"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20016281,
+      "status": "candidate",
+      "text": "fourgram"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20016280,
+      "status": "candidate",
+      "text": "trigram"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "ngram",
+  "concept_id": "ngram",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "girishji/ngramview-complete.vim"
+    }
+  ],
+  "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "ngram",
+      "sense_id": "ngram#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

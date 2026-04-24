@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": ":partly_sunny: The right way to check the weather"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "*wttr.in \u2014 the right way to ~check~ `curl` the weather!*"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "*wttr.in \u2014 the right way to ~check~ `curl` the weather!*"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "weather-api",
+      "sense_id": "weather-api#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "weather-api",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "weather-api",
+  "observation_id": "b5d3f0b0f65d111e",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T00:33:56.049672+00:00",
+  "observed_text": "weather-api",
+  "source_context_snippet": "*wttr.in \u2014 the right way to ~check~ `curl` the weather!*",
+  "source_file": null,
+  "source_repo": "chubin/wttr.in",
+  "source_repo_description": ":partly_sunny: The right way to check the weather"
+}

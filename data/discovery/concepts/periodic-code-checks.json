@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Periodic code checks"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "EspressoSystems/jellyfish",
+      "status": "candidate-context",
+      "text": "A Rust Implementation of the PLONK ZKP System and Extensions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "EspressoSystems/jellyfish",
+      "status": "candidate-context",
+      "text": "Periodic code checks"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "EspressoSystems/jellyfish",
+      "status": "candidate",
+      "text": "Periodic code checks"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18169,
+      "status": "candidate",
+      "text": "audit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18042,
+      "status": "candidate",
+      "text": "review"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18026,
+      "status": "candidate",
+      "text": "gallium"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18026,
+      "status": "candidate",
+      "text": "regular"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18016,
+      "status": "candidate",
+      "text": "monitor"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Periodic code checks",
+  "concept_id": "periodic-code-checks",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/periodic_checks.yml",
+      "source_repo": "EspressoSystems/jellyfish"
+    }
+  ],
+  "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Periodic code checks",
+      "sense_id": "periodic-code-checks#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "ent"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hashicorp/vault",
+      "status": "candidate-context",
+      "text": "A tool for secrets management, encryption as a service, and privileged access management"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hashicorp/vault",
+      "status": "candidate-context",
+      "text": "ent"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hashicorp/vault",
+      "status": "candidate",
+      "text": "ent"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29824221,
+      "status": "candidate",
+      "text": "tna"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29683874,
+      "status": "candidate",
+      "text": "vrs"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29556142,
+      "status": "candidate",
+      "text": "rsv"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29520186,
+      "status": "candidate",
+      "text": "pension"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29434655,
+      "status": "candidate",
+      "text": "norsk"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "ent",
+  "concept_id": "ent",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/build-artifacts-ent.yml",
+      "source_repo": "hashicorp/vault"
+    }
+  ],
+  "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "ent",
+      "sense_id": "ent#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

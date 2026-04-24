@@ -104,6 +104,18 @@
       "source_repo": "uxlfoundation/oneDNN",
       "status": "candidate-context",
       "text": "OpenSSF scorecard"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aws-powertools/powertools-lambda-java",
+      "status": "candidate-context",
+      "text": "Powertools is a developer toolkit to implement Serverless best practices and increase developer velocity."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws-powertools/powertools-lambda-java",
+      "status": "candidate-context",
+      "text": "OpenSSF Scorecard"
     }
   ],
   "candidate_glosses": [
@@ -154,6 +166,12 @@
       "source_repo": "uxlfoundation/oneDNN",
       "status": "candidate",
       "text": "OpenSSF scorecard"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws-powertools/powertools-lambda-java",
+      "status": "candidate",
+      "text": "OpenSSF Scorecard"
     }
   ],
   "candidate_related_terms": [
@@ -257,11 +275,17 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": ".github/workflows/openssf-scorecard.yml",
       "source_repo": "uxlfoundation/oneDNN"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/security-scorecard.yml",
+      "source_repo": "aws-powertools/powertools-lambda-java"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -187,6 +187,42 @@
       "source_repo": "cgbur/llama2.zig",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ashvardanian/ParallelReductionsBenchmark",
+      "status": "candidate-context",
+      "text": "Thrust, CUB, TBB, AVX2, AVX-512, CUDA, OpenCL, OpenMP, Metal, and Rust - all it takes to sum a lot of numbers fast!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ashvardanian/ParallelReductionsBenchmark",
+      "status": "candidate-context",
+      "text": "__For CPUs and GPUs in C++, CUDA, and Rust__"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nfrechette/rtm",
+      "status": "candidate-context",
+      "text": "Realtime Math"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nfrechette/rtm",
+      "status": "candidate-context",
+      "text": "[![CLA assistant](https://cla-assistant.io/readme/badge/nfrechette/rtm)](https://cla-assistant.io/nfrechette/rtm)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "WojciechMula/base64simd",
+      "status": "candidate-context",
+      "text": "Base64 coding and decoding with SIMD instructions (SSE/AVX2/AVX512F/AVX512BW/AVX512VBMI/ARM Neon)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "WojciechMula/base64simd",
+      "status": "candidate-context",
+      "text": "================================================================================"
     }
   ],
   "candidate_glosses": [
@@ -279,6 +315,24 @@
       "source_repo": "cgbur/llama2.zig",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ashvardanian/ParallelReductionsBenchmark",
+      "status": "candidate",
+      "text": "__For CPUs and GPUs in C++, CUDA, and Rust__"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nfrechette/rtm",
+      "status": "candidate",
+      "text": "[![CLA assistant](https://cla-assistant.io/readme/badge/nfrechette/rtm)](https://cla-assistant.io/nfrechette/rtm)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "WojciechMula/base64simd",
+      "status": "candidate",
+      "text": "================================================================================"
     }
   ],
   "candidate_related_terms": [
@@ -412,11 +466,35 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "cgbur/llama2.zig"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "ashvardanian/ParallelReductionsBenchmark"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "ashvardanian/NumKong"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "nfrechette/rtm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "WojciechMula/base64simd"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

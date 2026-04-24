@@ -1,0 +1,108 @@
+{
+  "components": [
+    {
+      "component": "purcell/setup-emacs@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "conao3/setup-cask@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "Alexander-Miller/treemacs",
+      "target": "purcell/setup-emacs@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "Alexander-Miller/treemacs",
+      "target": "conao3/setup-cask@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "Alexander-Miller/treemacs",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "Alexander-Miller/treemacs",
+      "target": "CI Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Alexander-Miller/treemacs",
+      "target": "emacs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Alexander-Miller/treemacs",
+      "target": "file-explorer",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T00:51:40.373005+00:00",
+  "fetched_files": [
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 1028
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "Alexander-Miller/treemacs",
+    "html_url": "https://github.com/Alexander-Miller/treemacs",
+    "language": "Emacs Lisp",
+    "pushed_at": "2025-12-26T13:07:40Z",
+    "stargazers_count": 2336,
+    "topics": [
+      "emacs",
+      "file-explorer"
+    ],
+    "updated_at": "2026-04-22T20:38:57Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "CI Build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "CI Build"
+    },
+    {
+      "context_snippet": "CI Build",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "emacs"
+    },
+    {
+      "context_snippet": "CI Build",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "file-explorer"
+    }
+  ]
+}

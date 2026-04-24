@@ -1,0 +1,88 @@
+{
+  "aliases": [
+    "nvim-dap"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "igorlfs/nvim-dap-view",
+      "status": "candidate-context",
+      "text": "Visualize debugging sessions in neovim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "igorlfs/nvim-dap-view",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rcarriga/nvim-dap-ui",
+      "status": "candidate-context",
+      "text": "A UI for nvim-dap"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rcarriga/nvim-dap-ui",
+      "status": "candidate-context",
+      "text": "A UI for [nvim-dap](https://github.com/mfussenegger/nvim-dap) which provides a"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "igorlfs/nvim-dap-view",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rcarriga/nvim-dap-ui",
+      "status": "candidate",
+      "text": "A UI for [nvim-dap](https://github.com/mfussenegger/nvim-dap) which provides a"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "nvim-dap",
+  "concept_id": "nvim-dap",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "igorlfs/nvim-dap-view"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "rcarriga/nvim-dap-ui"
+    }
+  ],
+  "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "nvim-dap",
+      "sense_id": "nvim-dap#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

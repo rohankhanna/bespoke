@@ -1,0 +1,243 @@
+{
+  "components": [
+    {
+      "component": "actions/setup-go@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/commitlint.yml"
+    },
+    {
+      "component": "wagoid/commitlint-github-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/commitlint.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "ncipollo/release-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "vmihailenco/msgpack",
+      "target": "uptrace/bun",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "vmihailenco/msgpack",
+      "target": "uptrace/bunrouter",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "vmihailenco/msgpack",
+      "target": "uptrace/go-clickhouse",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "vmihailenco/msgpack",
+      "target": "actions/setup-go@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "vmihailenco/msgpack",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/commitlint.yml",
+      "source_repo": "vmihailenco/msgpack",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/commitlint.yml",
+      "source_repo": "vmihailenco/msgpack",
+      "target": "wagoid/commitlint-github-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/commitlint.yml",
+      "source_repo": "vmihailenco/msgpack",
+      "target": "Lint Commit Messages",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "vmihailenco/msgpack",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "vmihailenco/msgpack",
+      "target": "ncipollo/release-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "vmihailenco/msgpack",
+      "target": "Releases",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vmihailenco/msgpack",
+      "target": "encoding",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vmihailenco/msgpack",
+      "target": "golang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vmihailenco/msgpack",
+      "target": "msgpack",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vmihailenco/msgpack",
+      "target": "serialization",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T01:48:45.490251+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3925
+    },
+    {
+      "path": "go.mod",
+      "size": 318
+    },
+    {
+      "path": "package.json",
+      "size": 46
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 451
+    },
+    {
+      "path": ".github/workflows/commitlint.yml",
+      "size": 227
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 338
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "v5",
+    "description": "msgpack.org[Go] MessagePack encoding for Golang",
+    "fork": false,
+    "full_name": "vmihailenco/msgpack",
+    "html_url": "https://github.com/vmihailenco/msgpack",
+    "language": "Go",
+    "pushed_at": "2024-06-04T10:05:14Z",
+    "stargazers_count": 2647,
+    "topics": [
+      "encoding",
+      "go",
+      "golang",
+      "msgpack",
+      "serialization"
+    ],
+    "updated_at": "2026-04-23T18:35:26Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "uptrace/bun",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "uptrace/bunrouter",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "uptrace/go-clickhouse",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Lint Commit Messages",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/commitlint.yml",
+      "term": "Lint Commit Messages"
+    },
+    {
+      "context_snippet": "Releases",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Releases"
+    },
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/vmihailenco/msgpack.svg)](https://travis-ci.org/vmihailenco/msgpack)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "encoding"
+    },
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/vmihailenco/msgpack.svg)](https://travis-ci.org/vmihailenco/msgpack)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "golang"
+    },
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/vmihailenco/msgpack.svg)](https://travis-ci.org/vmihailenco/msgpack)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "msgpack"
+    },
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/vmihailenco/msgpack.svg)](https://travis-ci.org/vmihailenco/msgpack)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "serialization"
+    }
+  ]
+}

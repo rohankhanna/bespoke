@@ -1,0 +1,165 @@
+{
+  "components": [
+    {
+      "component": "@sourcegraph/vscode-ws-jsonrpc",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "js-yaml",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "minimist",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "ws",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/node",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/ws",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "javascript-typescript-langserver",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "rimraf",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "typescript",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "vscode-css-languageserver-bin",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "vscode-html-languageserver-bin",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "wylieconlon/jsonrpc-ws-proxy",
+      "target": "@sourcegraph/vscode-ws-jsonrpc",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "wylieconlon/jsonrpc-ws-proxy",
+      "target": "js-yaml",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "wylieconlon/jsonrpc-ws-proxy",
+      "target": "minimist",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "wylieconlon/jsonrpc-ws-proxy",
+      "target": "ws",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "wylieconlon/jsonrpc-ws-proxy",
+      "target": "@types/node",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "wylieconlon/jsonrpc-ws-proxy",
+      "target": "@types/ws",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "wylieconlon/jsonrpc-ws-proxy",
+      "target": "javascript-typescript-langserver",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "wylieconlon/jsonrpc-ws-proxy",
+      "target": "rimraf",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "wylieconlon/jsonrpc-ws-proxy",
+      "target": "typescript",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "wylieconlon/jsonrpc-ws-proxy",
+      "target": "vscode-css-languageserver-bin",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "wylieconlon/jsonrpc-ws-proxy",
+      "target": "vscode-html-languageserver-bin",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-24T00:51:17.217996+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 598
+    },
+    {
+      "path": "package.json",
+      "size": 1053
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Create a web socket interface for any number of language servers running in subprocesses",
+    "fork": false,
+    "full_name": "wylieconlon/jsonrpc-ws-proxy",
+    "html_url": "https://github.com/wylieconlon/jsonrpc-ws-proxy",
+    "language": "JavaScript",
+    "pushed_at": "2022-07-18T19:38:17Z",
+    "stargazers_count": 48,
+    "topics": [],
+    "updated_at": "2026-03-27T16:33:54Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

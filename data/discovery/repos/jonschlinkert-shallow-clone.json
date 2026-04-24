@@ -1,0 +1,180 @@
+{
+  "components": [
+    {
+      "component": "kind-of",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "gulp-format-md",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "mocha",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jonschlinkert/shallow-clone",
+      "target": "verbose/verb-generate-readme",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jonschlinkert/shallow-clone",
+      "target": "jonschlinkert/assign-deep",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "jonschlinkert/shallow-clone",
+      "target": "kind-of",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "jonschlinkert/shallow-clone",
+      "target": "gulp-format-md",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "jonschlinkert/shallow-clone",
+      "target": "mocha",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jonschlinkert/shallow-clone",
+      "target": "array",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jonschlinkert/shallow-clone",
+      "target": "clone",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jonschlinkert/shallow-clone",
+      "target": "object",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jonschlinkert/shallow-clone",
+      "target": "regex",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jonschlinkert/shallow-clone",
+      "target": "regular-expression",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jonschlinkert/shallow-clone",
+      "target": "shallow",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T00:46:31.969264+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5213
+    },
+    {
+      "path": "package.json",
+      "size": 1252
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Make a shallow clone of an object, array or primitive.",
+    "fork": false,
+    "full_name": "jonschlinkert/shallow-clone",
+    "html_url": "https://github.com/jonschlinkert/shallow-clone",
+    "language": "JavaScript",
+    "pushed_at": "2025-09-04T10:33:03Z",
+    "stargazers_count": 31,
+    "topics": [
+      "array",
+      "clone",
+      "object",
+      "regex",
+      "regular-expression",
+      "shallow"
+    ],
+    "updated_at": "2026-01-23T03:31:57Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jonschlinkert/assign-deep",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "verbose/verb-generate-readme",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "> Creates a shallow clone of any JavaScript value.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "array"
+    },
+    {
+      "context_snippet": "> Creates a shallow clone of any JavaScript value.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "clone"
+    },
+    {
+      "context_snippet": "> Creates a shallow clone of any JavaScript value.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "object"
+    },
+    {
+      "context_snippet": "> Creates a shallow clone of any JavaScript value.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "regex"
+    },
+    {
+      "context_snippet": "> Creates a shallow clone of any JavaScript value.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "regular-expression"
+    },
+    {
+      "context_snippet": "> Creates a shallow clone of any JavaScript value.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "shallow"
+    }
+  ]
+}

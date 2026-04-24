@@ -67,6 +67,18 @@
       "source_repo": "prabirshrestha/asyncomplete.vim",
       "status": "candidate-context",
       "text": "asyncomplete.vim"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "company-mode/company-mode",
+      "status": "candidate-context",
+      "text": "Modular in-buffer completion framework for Emacs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "company-mode/company-mode",
+      "status": "candidate-context",
+      "text": "See the homepage for [installation and usage instructions](http://company-mode.github.io/)."
     }
   ],
   "candidate_glosses": [
@@ -99,6 +111,12 @@
       "source_repo": "prabirshrestha/asyncomplete.vim",
       "status": "candidate",
       "text": "asyncomplete.vim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "company-mode/company-mode",
+      "status": "candidate",
+      "text": "See the homepage for [installation and usage instructions](http://company-mode.github.io/)."
     }
   ],
   "candidate_related_terms": [],
@@ -136,11 +154,23 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "prabirshrestha/asyncomplete.vim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "company-mode/company-mode"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "ycm-core/YouCompleteMe"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

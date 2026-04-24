@@ -1,0 +1,178 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mthenw/awesome-layers",
+      "target": "andthearchitect/aws-lambda-java-runtime",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mthenw/awesome-layers",
+      "target": "aws-samples/aws-lambda-layer-awscli",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mthenw/awesome-layers",
+      "target": "aiir/php71-mysql-aws-lambda-layer",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mthenw/awesome-layers",
+      "target": "alexandredavi/openssl-lambda-layer",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mthenw/awesome-layers",
+      "target": "awesome",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mthenw/awesome-layers",
+      "target": "aws-lambda",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mthenw/awesome-layers",
+      "target": "cloud",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mthenw/awesome-layers",
+      "target": "serverless",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mthenw/awesome-layers",
+      "target": "serverless-application-model",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mthenw/awesome-layers",
+      "target": "serverless-framework",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mthenw/awesome-layers",
+      "target": "serverless-functions",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T01:54:29.196670+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 24217
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "\u03bb A curated list of awesome AWS Lambda Layers. Sponsored by https://cloudash.dev",
+    "fork": false,
+    "full_name": "mthenw/awesome-layers",
+    "html_url": "https://github.com/mthenw/awesome-layers",
+    "language": null,
+    "pushed_at": "2024-04-25T16:01:22Z",
+    "stargazers_count": 2255,
+    "topics": [
+      "awesome",
+      "aws",
+      "aws-lambda",
+      "cloud",
+      "serverless",
+      "serverless-application-model",
+      "serverless-framework",
+      "serverless-functions"
+    ],
+    "updated_at": "2026-04-23T23:01:31Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aiir/php71-mysql-aws-lambda-layer",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "alexandredavi/openssl-lambda-layer",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "andthearchitect/aws-lambda-java-runtime",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aws-samples/aws-lambda-layer-awscli",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "**A curated list of awesome AWS Lambda Layers**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "awesome"
+    },
+    {
+      "context_snippet": "**A curated list of awesome AWS Lambda Layers**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "aws-lambda"
+    },
+    {
+      "context_snippet": "**A curated list of awesome AWS Lambda Layers**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cloud"
+    },
+    {
+      "context_snippet": "**A curated list of awesome AWS Lambda Layers**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "serverless"
+    },
+    {
+      "context_snippet": "**A curated list of awesome AWS Lambda Layers**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "serverless-application-model"
+    },
+    {
+      "context_snippet": "**A curated list of awesome AWS Lambda Layers**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "serverless-framework"
+    },
+    {
+      "context_snippet": "**A curated list of awesome AWS Lambda Layers**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "serverless-functions"
+    }
+  ]
+}

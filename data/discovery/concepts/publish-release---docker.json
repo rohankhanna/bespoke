@@ -19,12 +19,30 @@
       "source_repo": "microsoft/playwright-python",
       "status": "candidate-context",
       "text": "\"publish release - Docker\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/playwright",
+      "status": "candidate-context",
+      "text": "Playwright is a framework for Web Testing and Automation. It allows testing Chromium, Firefox and WebKit with a single API. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/playwright",
+      "status": "candidate-context",
+      "text": "\"publish release - Docker\""
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "microsoft/playwright-python",
+      "status": "candidate",
+      "text": "\"publish release - Docker\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/playwright",
       "status": "candidate",
       "text": "\"publish release - Docker\""
     }
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-22T18:52:26.467154+00:00",
       "source_file": ".github/workflows/publish_docker.yml",
       "source_repo": "microsoft/playwright-python"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/publish_release_docker.yml",
+      "source_repo": "microsoft/playwright"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

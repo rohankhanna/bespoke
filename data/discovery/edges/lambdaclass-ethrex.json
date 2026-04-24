@@ -1,0 +1,258 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Cargo.toml",
+      "source_repo": "lambdaclass/ethrex",
+      "target": "yetanotherco/aligned_layer",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Cargo.toml",
+      "source_repo": "lambdaclass/ethrex",
+      "target": "lambdaclass/libssz",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Dockerfile",
+      "source_repo": "lambdaclass/ethrex",
+      "target": "ethereum/solidity",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "lambdaclass/ethrex",
+      "target": "@openzeppelin/contracts",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "lambdaclass/ethrex",
+      "target": "@openzeppelin/contracts-upgradeable",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/common_failure_alerts.yaml",
+      "source_repo": "lambdaclass/ethrex",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/common_failure_alerts.yaml",
+      "source_repo": "lambdaclass/ethrex",
+      "target": "actions/github-script@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/common_failure_alerts.yaml",
+      "source_repo": "lambdaclass/ethrex",
+      "target": "Workflow Failure Alerts",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/daily_hive_report.yaml",
+      "source_repo": "lambdaclass/ethrex",
+      "target": "jlumbroso/free-disk-space@v1.3.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/daily_hive_report.yaml",
+      "source_repo": "lambdaclass/ethrex",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/daily_hive_report.yaml",
+      "source_repo": "lambdaclass/ethrex",
+      "target": "docker/login-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/daily_hive_report.yaml",
+      "source_repo": "lambdaclass/ethrex",
+      "target": "ethpandaops/hive-github-action@v0.5.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/daily_hive_report.yaml",
+      "source_repo": "lambdaclass/ethrex",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/daily_hive_report.yaml",
+      "source_repo": "lambdaclass/ethrex",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/daily_hive_report.yaml",
+      "source_repo": "lambdaclass/ethrex",
+      "target": "Daily Hive Report",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/daily_loc_report.yaml",
+      "source_repo": "lambdaclass/ethrex",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/daily_loc_report.yaml",
+      "source_repo": "lambdaclass/ethrex",
+      "target": "actions/cache/restore@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/daily_loc_report.yaml",
+      "source_repo": "lambdaclass/ethrex",
+      "target": "tailscale/github-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/daily_loc_report.yaml",
+      "source_repo": "lambdaclass/ethrex",
+      "target": "actions/cache/save@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/daily_loc_report.yaml",
+      "source_repo": "lambdaclass/ethrex",
+      "target": "Daily Lines of Code Report",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/daily_snapsync.yaml",
+      "source_repo": "lambdaclass/ethrex",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/daily_snapsync.yaml",
+      "source_repo": "lambdaclass/ethrex",
+      "target": "Daily Snapsync Check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main_prover.yaml",
+      "source_repo": "lambdaclass/ethrex",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main_prover.yaml",
+      "source_repo": "lambdaclass/ethrex",
+      "target": "docker/setup-buildx-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main_prover.yaml",
+      "source_repo": "lambdaclass/ethrex",
+      "target": "L2 (SP1 Backend)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/manual_docker_performance_publish.yaml",
+      "source_repo": "lambdaclass/ethrex",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/manual_docker_performance_publish.yaml",
+      "source_repo": "lambdaclass/ethrex",
+      "target": "docker/login-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/manual_docker_performance_publish.yaml",
+      "source_repo": "lambdaclass/ethrex",
+      "target": "Publish Performance tag Docker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lambdaclass/ethrex",
+      "target": "blockchain",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lambdaclass/ethrex",
+      "target": "distributed-systems",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lambdaclass/ethrex",
+      "target": "ethereum",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lambdaclass/ethrex",
+      "target": "execution-layer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lambdaclass/ethrex",
+      "target": "rollup",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lambdaclass/ethrex",
+      "target": "rollups",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lambdaclass/ethrex",
+      "target": "rust",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lambdaclass/ethrex",
+      "target": "zero-knowledge",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-24T00:33:56.049672+00:00",
+  "source_repo": "lambdaclass/ethrex"
+}

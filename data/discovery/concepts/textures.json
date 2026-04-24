@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "textures"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alecazam/kram",
+      "status": "candidate-context",
+      "text": "Encode/decode/info to KTX/KTX2/DDS files with LDR/HDR and BC/ASTC/ETC2.  Mac/Win C++11 too, Mac viewer, and scripts for batch processing textures."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alecazam/kram",
+      "status": "candidate-context",
+      "text": "The suite of kram tools below. I hope these improve your game, app, and art development."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alecazam/kram",
+      "status": "candidate",
+      "text": "The suite of kram tools below. I hope these improve your game, app, and art development."
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31426,
+      "status": "candidate",
+      "text": "fabrics"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31425,
+      "status": "candidate",
+      "text": "patterns"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31424,
+      "status": "candidate",
+      "text": "finishes"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31423,
+      "status": "candidate",
+      "text": "weaves"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31421,
+      "status": "candidate",
+      "text": "surfaces"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "textures",
+  "concept_id": "textures",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "alecazam/kram"
+    }
+  ],
+  "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "textures",
+      "sense_id": "textures#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

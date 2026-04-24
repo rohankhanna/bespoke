@@ -94,6 +94,18 @@
       "source_repo": "toml-rs/toml",
       "status": "candidate-context",
       "text": "Spelling"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "saghen/blink.cmp",
+      "status": "candidate-context",
+      "text": "Performant, batteries-included completion plugin for Neovim "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "saghen/blink.cmp",
+      "status": "candidate-context",
+      "text": "Spelling"
     }
   ],
   "candidate_glosses": [
@@ -136,6 +148,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "toml-rs/toml",
+      "status": "candidate",
+      "text": "Spelling"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "saghen/blink.cmp",
       "status": "candidate",
       "text": "Spelling"
     }
@@ -223,11 +241,17 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": ".github/workflows/spelling.yml",
       "source_repo": "toml-rs/toml"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/spelling.yaml",
+      "source_repo": "saghen/blink.cmp"
     }
   ],
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

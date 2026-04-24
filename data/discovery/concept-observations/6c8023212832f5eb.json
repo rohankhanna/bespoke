@@ -1,0 +1,108 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Grayskull :skull: - Recipe generator for Conda"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "-------------"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "-------------"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39765512,
+      "status": "candidate",
+      "text": "underframe"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39714967,
+      "status": "candidate",
+      "text": "frame"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29964159,
+      "status": "candidate",
+      "text": "bone"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29963681,
+      "status": "candidate",
+      "text": "backbone"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29963031,
+      "status": "candidate",
+      "text": "skull"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "skeleton",
+      "sense_id": "skeleton#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 25085,
+      "status": "candidate",
+      "text": "frame"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 16,
+      "status": "candidate",
+      "text": "underframe"
+    }
+  ],
+  "concept_id": "skeleton",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "skeleton",
+  "observation_id": "6c8023212832f5eb",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T00:33:56.049672+00:00",
+  "observed_text": "skeleton",
+  "source_context_snippet": "-------------",
+  "source_file": null,
+  "source_repo": "conda/grayskull",
+  "source_repo_description": "Grayskull :skull: - Recipe generator for Conda"
+}

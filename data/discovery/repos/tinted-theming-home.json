@@ -1,0 +1,247 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@9a9194f87191a7e9055e3e9b95b8cfb13023bb08",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/shared-auto-assign-issues.yml"
+    },
+    {
+      "component": "pozil/auto-assign-issue@21ffb634481e75f2557e5f507e359cba97bbc42b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/shared-auto-assign-issues.yml"
+    },
+    {
+      "component": "actions/checkout@9a9194f87191a7e9055e3e9b95b8cfb13023bb08",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/shared-build-template-and-commit-themes.yml"
+    },
+    {
+      "component": "jaxxstorm/action-install-gh-release@v1.10.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/shared-build-template-and-commit-themes.yml"
+    },
+    {
+      "component": "stefanzweifel/git-auto-commit-action@be823a7e51f116fecebc222b8307716921375992",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/shared-build-template-and-commit-themes.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tinted-theming/home",
+      "target": "aarowill/base16-alacritty",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tinted-theming/home",
+      "target": "adre5577/contour-tinted",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tinted-theming/home",
+      "target": "aarowill/base16-gnome-terminal",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tinted-theming/home",
+      "target": "4e554c4c/base16-halloy",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-assign-issues.yml",
+      "source_repo": "tinted-theming/home",
+      "target": "Auto assignment for issues",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/shared-auto-assign-issues.yml",
+      "source_repo": "tinted-theming/home",
+      "target": "actions/checkout@9a9194f87191a7e9055e3e9b95b8cfb13023bb08",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/shared-auto-assign-issues.yml",
+      "source_repo": "tinted-theming/home",
+      "target": "pozil/auto-assign-issue@21ffb634481e75f2557e5f507e359cba97bbc42b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/shared-auto-assign-issues.yml",
+      "source_repo": "tinted-theming/home",
+      "target": "Auto assignment for issues",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/shared-build-template-and-commit-themes.yml",
+      "source_repo": "tinted-theming/home",
+      "target": "actions/checkout@9a9194f87191a7e9055e3e9b95b8cfb13023bb08",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/shared-build-template-and-commit-themes.yml",
+      "source_repo": "tinted-theming/home",
+      "target": "jaxxstorm/action-install-gh-release@v1.10.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/shared-build-template-and-commit-themes.yml",
+      "source_repo": "tinted-theming/home",
+      "target": "stefanzweifel/git-auto-commit-action@be823a7e51f116fecebc222b8307716921375992",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/shared-build-template-and-commit-themes.yml",
+      "source_repo": "tinted-theming/home",
+      "target": "Build template and commit theme updates",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tinted-theming/home",
+      "target": "base16",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tinted-theming/home",
+      "target": "base24",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tinted-theming/home",
+      "target": "theme",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tinted-theming/home",
+      "target": "themes",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T00:38:25.670864+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 21848
+    },
+    {
+      "path": ".github/workflows/auto-assign-issues.yml",
+      "size": 212
+    },
+    {
+      "path": ".github/workflows/shared-auto-assign-issues.yml",
+      "size": 1719
+    },
+    {
+      "path": ".github/workflows/shared-build-template-and-commit-themes.yml",
+      "size": 1314
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Style systems and smart build tooling for crafting high fidelity color schemes and easily using them in all your favorite apps. ",
+    "fork": false,
+    "full_name": "tinted-theming/home",
+    "html_url": "https://github.com/tinted-theming/home",
+    "language": null,
+    "pushed_at": "2026-04-21T21:20:23Z",
+    "stargazers_count": 423,
+    "topics": [
+      "base16",
+      "base24",
+      "theme",
+      "themes"
+    ],
+    "updated_at": "2026-04-21T21:20:28Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "4e554c4c/base16-halloy",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aarowill/base16-alacritty",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aarowill/base16-gnome-terminal",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "adre5577/contour-tinted",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "\"Auto assignment for issues\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-assign-issues.yml",
+      "term": "Auto assignment for issues"
+    },
+    {
+      "context_snippet": "\"Auto assignment for issues\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/shared-auto-assign-issues.yml",
+      "term": "Auto assignment for issues"
+    },
+    {
+      "context_snippet": "\"Build template and commit theme updates\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/shared-build-template-and-commit-themes.yml",
+      "term": "Build template and commit theme updates"
+    },
+    {
+      "context_snippet": "[![Matrix Chat](https://img.shields.io/matrix/tinted-theming:matrix.org)](https://matrix.to/#/#tinted-theming:matrix.org)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "base16"
+    },
+    {
+      "context_snippet": "[![Matrix Chat](https://img.shields.io/matrix/tinted-theming:matrix.org)](https://matrix.to/#/#tinted-theming:matrix.org)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "base24"
+    },
+    {
+      "context_snippet": "[![Matrix Chat](https://img.shields.io/matrix/tinted-theming:matrix.org)](https://matrix.to/#/#tinted-theming:matrix.org)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "theme"
+    },
+    {
+      "context_snippet": "[![Matrix Chat](https://img.shields.io/matrix/tinted-theming:matrix.org)](https://matrix.to/#/#tinted-theming:matrix.org)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "themes"
+    }
+  ]
+}

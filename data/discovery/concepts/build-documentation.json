@@ -248,6 +248,30 @@
       "source_repo": "huggingface/datasets",
       "status": "candidate-context",
       "text": "Build documentation"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "huggingface/huggingface_hub",
+      "status": "candidate-context",
+      "text": "The official Python client for the Hugging Face Hub."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "huggingface/huggingface_hub",
+      "status": "candidate-context",
+      "text": "Build documentation"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "huggingface/optimum-onnx",
+      "status": "candidate-context",
+      "text": "\ud83e\udd17 Optimum ONNX: Export your model to ONNX and run inference with ONNX Runtime"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "huggingface/optimum-onnx",
+      "status": "candidate-context",
+      "text": "Build documentation"
     }
   ],
   "candidate_glosses": [
@@ -368,6 +392,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "huggingface/datasets",
+      "status": "candidate",
+      "text": "Build documentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "huggingface/huggingface_hub",
+      "status": "candidate",
+      "text": "Build documentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "huggingface/optimum-onnx",
       "status": "candidate",
       "text": "Build documentation"
     }
@@ -563,11 +599,29 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": ".github/workflows/build_documentation.yml",
       "source_repo": "huggingface/datasets"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/build_documentation.yaml",
+      "source_repo": "huggingface/huggingface_hub"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/build_documentation.yml",
+      "source_repo": "bitsandbytes-foundation/bitsandbytes"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/build_documentation.yml",
+      "source_repo": "huggingface/optimum-onnx"
     }
   ],
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

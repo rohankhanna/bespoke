@@ -1,0 +1,764 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/analyze_codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/init@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/analyze_codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/analyze_codeql.yml"
+    },
+    {
+      "component": "advanced-security/filter-sarif@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/analyze_codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/upload-sarif@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/analyze_codeql.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/analyze_codeql.yml"
+    },
+    {
+      "component": "actions/checkout@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_android.yml"
+    },
+    {
+      "component": "nttld/setup-ndk@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_android.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_android.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_android.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_cmake.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_cmake.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_examples_linux.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_examples_windows.yml"
+    },
+    {
+      "component": "microsoft/setup-msbuild@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_examples_windows.yml"
+    },
+    {
+      "component": "actions/checkout@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_linux.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_linux.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_linux.yml"
+    },
+    {
+      "component": "actions/checkout@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_macos.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_macos.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_macos.yml"
+    },
+    {
+      "component": "actions/checkout@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_webassembly.yml"
+    },
+    {
+      "component": "mymindstorm/setup-emsdk@v14",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_webassembly.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_webassembly.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_webassembly.yml"
+    },
+    {
+      "component": "actions/checkout@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_windows.yml"
+    },
+    {
+      "component": "microsoft/setup-msbuild@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_windows.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_windows.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_windows.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "raysan5/raylib",
+      "target": "raysan5/raylib-games",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/analyze_codeql.yml",
+      "source_repo": "raysan5/raylib",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/analyze_codeql.yml",
+      "source_repo": "raysan5/raylib",
+      "target": "github/codeql-action/init@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/analyze_codeql.yml",
+      "source_repo": "raysan5/raylib",
+      "target": "github/codeql-action/analyze@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/analyze_codeql.yml",
+      "source_repo": "raysan5/raylib",
+      "target": "advanced-security/filter-sarif@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/analyze_codeql.yml",
+      "source_repo": "raysan5/raylib",
+      "target": "github/codeql-action/upload-sarif@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/analyze_codeql.yml",
+      "source_repo": "raysan5/raylib",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/analyze_codeql.yml",
+      "source_repo": "raysan5/raylib",
+      "target": "Analyze raylib with CodeQL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_android.yml",
+      "source_repo": "raysan5/raylib",
+      "target": "actions/checkout@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_android.yml",
+      "source_repo": "raysan5/raylib",
+      "target": "nttld/setup-ndk@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_android.yml",
+      "source_repo": "raysan5/raylib",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_android.yml",
+      "source_repo": "raysan5/raylib",
+      "target": "softprops/action-gh-release@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_android.yml",
+      "source_repo": "raysan5/raylib",
+      "target": "Build raylib - Android",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_cmake.yml",
+      "source_repo": "raysan5/raylib",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_cmake.yml",
+      "source_repo": "raysan5/raylib",
+      "target": "Build raylib CMake - Windows+Linux",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_examples_linux.yml",
+      "source_repo": "raysan5/raylib",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_examples_linux.yml",
+      "source_repo": "raysan5/raylib",
+      "target": "Build raylib examples - Linux",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_examples_windows.yml",
+      "source_repo": "raysan5/raylib",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_examples_windows.yml",
+      "source_repo": "raysan5/raylib",
+      "target": "microsoft/setup-msbuild@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_examples_windows.yml",
+      "source_repo": "raysan5/raylib",
+      "target": "Build raylib examples - Windows",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_linux.yml",
+      "source_repo": "raysan5/raylib",
+      "target": "actions/checkout@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_linux.yml",
+      "source_repo": "raysan5/raylib",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_linux.yml",
+      "source_repo": "raysan5/raylib",
+      "target": "softprops/action-gh-release@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_linux.yml",
+      "source_repo": "raysan5/raylib",
+      "target": "Build raylib - Linux",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_macos.yml",
+      "source_repo": "raysan5/raylib",
+      "target": "actions/checkout@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_macos.yml",
+      "source_repo": "raysan5/raylib",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_macos.yml",
+      "source_repo": "raysan5/raylib",
+      "target": "softprops/action-gh-release@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_macos.yml",
+      "source_repo": "raysan5/raylib",
+      "target": "Build raylib - macOS",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_webassembly.yml",
+      "source_repo": "raysan5/raylib",
+      "target": "actions/checkout@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_webassembly.yml",
+      "source_repo": "raysan5/raylib",
+      "target": "mymindstorm/setup-emsdk@v14",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_webassembly.yml",
+      "source_repo": "raysan5/raylib",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_webassembly.yml",
+      "source_repo": "raysan5/raylib",
+      "target": "softprops/action-gh-release@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_webassembly.yml",
+      "source_repo": "raysan5/raylib",
+      "target": "Build raylib - WebAssembly",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_windows.yml",
+      "source_repo": "raysan5/raylib",
+      "target": "actions/checkout@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_windows.yml",
+      "source_repo": "raysan5/raylib",
+      "target": "microsoft/setup-msbuild@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_windows.yml",
+      "source_repo": "raysan5/raylib",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_windows.yml",
+      "source_repo": "raysan5/raylib",
+      "target": "softprops/action-gh-release@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_windows.yml",
+      "source_repo": "raysan5/raylib",
+      "target": "Build raylib - Windows",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "raysan5/raylib",
+      "target": "android",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "raysan5/raylib",
+      "target": "embedded",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "raysan5/raylib",
+      "target": "game-development",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "raysan5/raylib",
+      "target": "game-engine",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "raysan5/raylib",
+      "target": "gamedev",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "raysan5/raylib",
+      "target": "graphics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "raysan5/raylib",
+      "target": "linux",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "raysan5/raylib",
+      "target": "opengl",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "raysan5/raylib",
+      "target": "programming",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "raysan5/raylib",
+      "target": "raspberry-pi",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "raysan5/raylib",
+      "target": "raylib",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "raysan5/raylib",
+      "target": "riscv",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "raysan5/raylib",
+      "target": "videogames",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "raysan5/raylib",
+      "target": "wasm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "raysan5/raylib",
+      "target": "webassembly",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "raysan5/raylib",
+      "target": "win32",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T01:46:45.008948+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10546
+    },
+    {
+      "path": ".github/workflows/analyze_codeql.yml",
+      "size": 5536
+    },
+    {
+      "path": ".github/workflows/build_android.yml",
+      "size": 3076
+    },
+    {
+      "path": ".github/workflows/build_cmake.yml",
+      "size": 4610
+    },
+    {
+      "path": ".github/workflows/build_examples_linux.yml",
+      "size": 980
+    },
+    {
+      "path": ".github/workflows/build_examples_windows.yml",
+      "size": 699
+    },
+    {
+      "path": ".github/workflows/build_linux.yml",
+      "size": 4348
+    },
+    {
+      "path": ".github/workflows/build_macos.yml",
+      "size": 4302
+    },
+    {
+      "path": ".github/workflows/build_webassembly.yml",
+      "size": 2421
+    },
+    {
+      "path": ".github/workflows/build_windows.yml",
+      "size": 5546
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A simple and easy-to-use library to enjoy videogames programming",
+    "fork": false,
+    "full_name": "raysan5/raylib",
+    "html_url": "https://github.com/raysan5/raylib",
+    "language": "C",
+    "pushed_at": "2026-04-23T13:01:58Z",
+    "stargazers_count": 32353,
+    "topics": [
+      "android",
+      "c",
+      "embedded",
+      "game-development",
+      "game-engine",
+      "gamedev",
+      "graphics",
+      "iot",
+      "linux",
+      "opengl",
+      "programming",
+      "raspberry-pi",
+      "raylib",
+      "riscv",
+      "videogames",
+      "wasm",
+      "webassembly",
+      "win32"
+    ],
+    "updated_at": "2026-04-24T01:44:10Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "raysan5/raylib-games",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Analyze raylib with CodeQL",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/analyze_codeql.yml",
+      "term": "Analyze raylib with CodeQL"
+    },
+    {
+      "context_snippet": "Build raylib - Android",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_android.yml",
+      "term": "Build raylib - Android"
+    },
+    {
+      "context_snippet": "Build raylib CMake - Windows+Linux",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_cmake.yml",
+      "term": "Build raylib CMake - Windows+Linux"
+    },
+    {
+      "context_snippet": "Build raylib examples - Linux",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_examples_linux.yml",
+      "term": "Build raylib examples - Linux"
+    },
+    {
+      "context_snippet": "Build raylib examples - Windows",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_examples_windows.yml",
+      "term": "Build raylib examples - Windows"
+    },
+    {
+      "context_snippet": "Build raylib - Linux",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_linux.yml",
+      "term": "Build raylib - Linux"
+    },
+    {
+      "context_snippet": "Build raylib - macOS",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_macos.yml",
+      "term": "Build raylib - macOS"
+    },
+    {
+      "context_snippet": "Build raylib - WebAssembly",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_webassembly.yml",
+      "term": "Build raylib - WebAssembly"
+    },
+    {
+      "context_snippet": "Build raylib - Windows",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_windows.yml",
+      "term": "Build raylib - Windows"
+    },
+    {
+      "context_snippet": "<img align=\"left\" style=\"width:260px\" src=\"https://github.com/raysan5/raylib/blob/master/logo/raylib_logo_animation.gif\" width=\"288px\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "android"
+    },
+    {
+      "context_snippet": "<img align=\"left\" style=\"width:260px\" src=\"https://github.com/raysan5/raylib/blob/master/logo/raylib_logo_animation.gif\" width=\"288px\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "embedded"
+    },
+    {
+      "context_snippet": "<img align=\"left\" style=\"width:260px\" src=\"https://github.com/raysan5/raylib/blob/master/logo/raylib_logo_animation.gif\" width=\"288px\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "game-development"
+    },
+    {
+      "context_snippet": "<img align=\"left\" style=\"width:260px\" src=\"https://github.com/raysan5/raylib/blob/master/logo/raylib_logo_animation.gif\" width=\"288px\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "game-engine"
+    },
+    {
+      "context_snippet": "<img align=\"left\" style=\"width:260px\" src=\"https://github.com/raysan5/raylib/blob/master/logo/raylib_logo_animation.gif\" width=\"288px\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gamedev"
+    },
+    {
+      "context_snippet": "<img align=\"left\" style=\"width:260px\" src=\"https://github.com/raysan5/raylib/blob/master/logo/raylib_logo_animation.gif\" width=\"288px\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "graphics"
+    },
+    {
+      "context_snippet": "<img align=\"left\" style=\"width:260px\" src=\"https://github.com/raysan5/raylib/blob/master/logo/raylib_logo_animation.gif\" width=\"288px\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "linux"
+    },
+    {
+      "context_snippet": "<img align=\"left\" style=\"width:260px\" src=\"https://github.com/raysan5/raylib/blob/master/logo/raylib_logo_animation.gif\" width=\"288px\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "opengl"
+    },
+    {
+      "context_snippet": "<img align=\"left\" style=\"width:260px\" src=\"https://github.com/raysan5/raylib/blob/master/logo/raylib_logo_animation.gif\" width=\"288px\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "programming"
+    },
+    {
+      "context_snippet": "<img align=\"left\" style=\"width:260px\" src=\"https://github.com/raysan5/raylib/blob/master/logo/raylib_logo_animation.gif\" width=\"288px\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "raspberry-pi"
+    },
+    {
+      "context_snippet": "<img align=\"left\" style=\"width:260px\" src=\"https://github.com/raysan5/raylib/blob/master/logo/raylib_logo_animation.gif\" width=\"288px\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "raylib"
+    },
+    {
+      "context_snippet": "<img align=\"left\" style=\"width:260px\" src=\"https://github.com/raysan5/raylib/blob/master/logo/raylib_logo_animation.gif\" width=\"288px\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "riscv"
+    },
+    {
+      "context_snippet": "<img align=\"left\" style=\"width:260px\" src=\"https://github.com/raysan5/raylib/blob/master/logo/raylib_logo_animation.gif\" width=\"288px\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "videogames"
+    },
+    {
+      "context_snippet": "<img align=\"left\" style=\"width:260px\" src=\"https://github.com/raysan5/raylib/blob/master/logo/raylib_logo_animation.gif\" width=\"288px\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "wasm"
+    },
+    {
+      "context_snippet": "<img align=\"left\" style=\"width:260px\" src=\"https://github.com/raysan5/raylib/blob/master/logo/raylib_logo_animation.gif\" width=\"288px\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "webassembly"
+    },
+    {
+      "context_snippet": "<img align=\"left\" style=\"width:260px\" src=\"https://github.com/raysan5/raylib/blob/master/logo/raylib_logo_animation.gif\" width=\"288px\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "win32"
+    }
+  ]
+}

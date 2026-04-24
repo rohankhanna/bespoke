@@ -1,0 +1,184 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ccpp.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mcmilk/zstdmt",
+      "target": "inikep/lz5",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mcmilk/zstdmt",
+      "target": "andikleen/snappy-c",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mcmilk/zstdmt",
+      "target": "lzfse/lzfse",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ccpp.yml",
+      "source_repo": "mcmilk/zstdmt",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mcmilk/zstdmt",
+      "target": "brotli",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mcmilk/zstdmt",
+      "target": "lizard",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mcmilk/zstdmt",
+      "target": "multithreading-library",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mcmilk/zstdmt",
+      "target": "skippables-frame",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mcmilk/zstdmt",
+      "target": "snappy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mcmilk/zstdmt",
+      "target": "zstandard",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mcmilk/zstdmt",
+      "target": "zstd",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T00:48:50.872938+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2708
+    },
+    {
+      "path": ".github/workflows/ccpp.yml",
+      "size": 198
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Multithreading Library for Brotli, Lizard, LZ4, LZ5, Snappy and Zstandard",
+    "fork": false,
+    "full_name": "mcmilk/zstdmt",
+    "html_url": "https://github.com/mcmilk/zstdmt",
+    "language": "C",
+    "pushed_at": "2025-10-04T18:48:08Z",
+    "stargazers_count": 220,
+    "topics": [
+      "brotli",
+      "lizard",
+      "lz4",
+      "lz5",
+      "multithreading-library",
+      "skippables-frame",
+      "snappy",
+      "zstandard",
+      "zstd"
+    ],
+    "updated_at": "2026-04-11T14:27:14Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "andikleen/snappy-c",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "inikep/lz5",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lzfse/lzfse",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "- works with skippables frame id 0x184D2A50 (12 bytes per compressed frame)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "brotli"
+    },
+    {
+      "context_snippet": "- works with skippables frame id 0x184D2A50 (12 bytes per compressed frame)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lizard"
+    },
+    {
+      "context_snippet": "- works with skippables frame id 0x184D2A50 (12 bytes per compressed frame)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multithreading-library"
+    },
+    {
+      "context_snippet": "- works with skippables frame id 0x184D2A50 (12 bytes per compressed frame)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "skippables-frame"
+    },
+    {
+      "context_snippet": "- works with skippables frame id 0x184D2A50 (12 bytes per compressed frame)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "snappy"
+    },
+    {
+      "context_snippet": "- works with skippables frame id 0x184D2A50 (12 bytes per compressed frame)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "zstandard"
+    },
+    {
+      "context_snippet": "- works with skippables frame id 0x184D2A50 (12 bytes per compressed frame)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "zstd"
+    }
+  ]
+}

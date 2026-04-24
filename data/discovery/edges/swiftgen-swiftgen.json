@@ -1,0 +1,279 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "SwiftGen/SwiftGen",
+      "target": "stencilproject/stencil",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "SwiftGen/SwiftGen",
+      "target": "frenchkit/mastering-code-generation-classroom",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "SwiftGen/SwiftGen",
+      "target": "alisoftware/reusable",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "SwiftGen/SwiftGen",
+      "target": "krzysztofzablocki/sourcery",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/archive.yml",
+      "source_repo": "SwiftGen/SwiftGen",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/archive.yml",
+      "source_repo": "SwiftGen/SwiftGen",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/archive.yml",
+      "source_repo": "SwiftGen/SwiftGen",
+      "target": "actions/cache@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/archive.yml",
+      "source_repo": "SwiftGen/SwiftGen",
+      "target": "actions/upload-artifact@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/archive.yml",
+      "source_repo": "SwiftGen/SwiftGen",
+      "target": "Archive",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cocoapods.yml",
+      "source_repo": "SwiftGen/SwiftGen",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cocoapods.yml",
+      "source_repo": "SwiftGen/SwiftGen",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cocoapods.yml",
+      "source_repo": "SwiftGen/SwiftGen",
+      "target": "Cocoapods",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/compile-output.yml",
+      "source_repo": "SwiftGen/SwiftGen",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/compile-output.yml",
+      "source_repo": "SwiftGen/SwiftGen",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/compile-output.yml",
+      "source_repo": "SwiftGen/SwiftGen",
+      "target": "Output",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/danger.yml",
+      "source_repo": "SwiftGen/SwiftGen",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/danger.yml",
+      "source_repo": "SwiftGen/SwiftGen",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/danger.yml",
+      "source_repo": "SwiftGen/SwiftGen",
+      "target": "Danger",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/swiftlint.yml",
+      "source_repo": "SwiftGen/SwiftGen",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/swiftlint.yml",
+      "source_repo": "SwiftGen/SwiftGen",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/swiftlint.yml",
+      "source_repo": "SwiftGen/SwiftGen",
+      "target": "SwiftLint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tag-publish.yml",
+      "source_repo": "SwiftGen/SwiftGen",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tag-publish.yml",
+      "source_repo": "SwiftGen/SwiftGen",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tag-publish.yml",
+      "source_repo": "SwiftGen/SwiftGen",
+      "target": "actions/cache@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tag-publish.yml",
+      "source_repo": "SwiftGen/SwiftGen",
+      "target": "Publish on Tag",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-spm.yml",
+      "source_repo": "SwiftGen/SwiftGen",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-spm.yml",
+      "source_repo": "SwiftGen/SwiftGen",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-spm.yml",
+      "source_repo": "SwiftGen/SwiftGen",
+      "target": "actions/cache@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-spm.yml",
+      "source_repo": "SwiftGen/SwiftGen",
+      "target": "Test SPM",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SwiftGen/SwiftGen",
+      "target": "code-generator",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SwiftGen/SwiftGen",
+      "target": "localization",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SwiftGen/SwiftGen",
+      "target": "stencil",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SwiftGen/SwiftGen",
+      "target": "stencil-template",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SwiftGen/SwiftGen",
+      "target": "swift",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SwiftGen/SwiftGen",
+      "target": "templates",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SwiftGen/SwiftGen",
+      "target": "uicolor",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SwiftGen/SwiftGen",
+      "target": "uifont",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SwiftGen/SwiftGen",
+      "target": "uiimage",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SwiftGen/SwiftGen",
+      "target": "uistoryboard",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-24T00:33:56.049672+00:00",
+  "source_repo": "SwiftGen/SwiftGen"
+}

@@ -1,0 +1,94 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/Context-Projects-Index",
+      "target": "danielrosehill/context-cruncher",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/Context-Projects-Index",
+      "target": "danielrosehill/context-chunker-assistant",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/Context-Projects-Index",
+      "target": "danielrosehill/claude-code-context-toolkit",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/Context-Projects-Index",
+      "target": "danielrosehill/career-data-ai-context-repo",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielrosehill/Context-Projects-Index",
+      "target": "context",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T01:43:21.144582+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10253
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Index of projects related to context-gathering and generation for AI, including via interview approaches",
+    "fork": false,
+    "full_name": "danielrosehill/Context-Projects-Index",
+    "html_url": "https://github.com/danielrosehill/Context-Projects-Index",
+    "language": null,
+    "pushed_at": "2026-03-27T17:15:56Z",
+    "stargazers_count": 0,
+    "topics": [
+      "ai",
+      "context"
+    ],
+    "updated_at": "2026-03-27T17:16:00Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "danielrosehill/career-data-ai-context-repo",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "danielrosehill/claude-code-context-toolkit",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "danielrosehill/context-chunker-assistant",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "danielrosehill/context-cruncher",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "![Index](https://img.shields.io/badge/Type-Index-0ea5e9?style=flat-square)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "context"
+    }
+  ]
+}

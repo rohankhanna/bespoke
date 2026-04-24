@@ -79,6 +79,30 @@
       "source_repo": "doctest/doctest",
       "status": "candidate-context",
       "text": "<p align=\"center\"><img src=\"scripts/data/logo/logo_1.svg\"></p>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "martinmoene/lest",
+      "status": "candidate-context",
+      "text": "A modern, C++11-native, single-file header-only, tiny framework for unit-tests, TDD and BDD (includes C++98 variant)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "martinmoene/lest",
+      "status": "candidate-context",
+      "text": "lest &ndash; lest errors escape testing"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gulrak/filesystem",
+      "status": "candidate-context",
+      "text": "An implementation of C++17 std::filesystem for C++11 /C++14/C++17/C++20 on Windows, macOS, Linux and FreeBSD."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gulrak/filesystem",
+      "status": "candidate-context",
+      "text": "![Supported Platforms](https://img.shields.io/badge/platform-macOS%20%7C%20Linux%20%7C%20Windows%20%7C%20FreeBSD-blue.svg)"
     }
   ],
   "candidate_glosses": [
@@ -117,6 +141,18 @@
       "source_repo": "doctest/doctest",
       "status": "candidate",
       "text": "<p align=\"center\"><img src=\"scripts/data/logo/logo_1.svg\"></p>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "martinmoene/lest",
+      "status": "candidate",
+      "text": "lest &ndash; lest errors escape testing"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gulrak/filesystem",
+      "status": "candidate",
+      "text": "![Supported Platforms](https://img.shields.io/badge/platform-macOS%20%7C%20Linux%20%7C%20Windows%20%7C%20FreeBSD-blue.svg)"
     }
   ],
   "candidate_related_terms": [
@@ -196,11 +232,23 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "doctest/doctest"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "martinmoene/lest"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "gulrak/filesystem"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

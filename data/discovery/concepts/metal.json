@@ -103,6 +103,18 @@
       "source_repo": "ConfettiFX/The-Forge",
       "status": "candidate-context",
       "text": "<img src=\"https://github.com/ConfettiFX/The-Forge-Media/blob/master/Screenshots/The Forge - Colour Black Landscape.png\" width=\"108\" height=\"46\" />"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ashvardanian/ParallelReductionsBenchmark",
+      "status": "candidate-context",
+      "text": "Thrust, CUB, TBB, AVX2, AVX-512, CUDA, OpenCL, OpenMP, Metal, and Rust - all it takes to sum a lot of numbers fast!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ashvardanian/ParallelReductionsBenchmark",
+      "status": "candidate-context",
+      "text": "__For CPUs and GPUs in C++, CUDA, and Rust__"
     }
   ],
   "candidate_glosses": [
@@ -153,6 +165,12 @@
       "source_repo": "ConfettiFX/The-Forge",
       "status": "candidate",
       "text": "<img src=\"https://github.com/ConfettiFX/The-Forge-Media/blob/master/Screenshots/The Forge - Colour Black Landscape.png\" width=\"108\" height=\"46\" />"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ashvardanian/ParallelReductionsBenchmark",
+      "status": "candidate",
+      "text": "__For CPUs and GPUs in C++, CUDA, and Rust__"
     }
   ],
   "candidate_related_terms": [
@@ -271,11 +289,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "ConfettiFX/The-Forge"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "ashvardanian/ParallelReductionsBenchmark"
     }
   ],
   "first_seen_at": "2026-04-19T01:08:57.644140+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

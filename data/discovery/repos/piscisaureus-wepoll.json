@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-24T00:55:17.120586+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7940
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "dist",
+    "description": "wepoll: fast epoll for windows\u2067  \ud83c\udfad",
+    "fork": false,
+    "full_name": "piscisaureus/wepoll",
+    "html_url": "https://github.com/piscisaureus/wepoll",
+    "language": "C",
+    "pushed_at": "2024-07-22T22:43:54Z",
+    "stargazers_count": 1089,
+    "topics": [],
+    "updated_at": "2026-04-23T04:00:16Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -1,0 +1,108 @@
+{
+  "aliases": [
+    "meteor"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Meteor-Community-Packages/meteor-scss",
+      "status": "candidate-context",
+      "text": "Node-sass wrapped to work with meteor."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Meteor-Community-Packages/meteor-scss",
+      "status": "candidate-context",
+      "text": "This is a build plugin for Meteor.js that compiles Sass files using Dart Sass."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Meteor-Community-Packages/meteor-scss",
+      "status": "candidate",
+      "text": "This is a build plugin for Meteor.js that compiles Sass files using Dart Sass."
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30038056,
+      "status": "candidate",
+      "text": "shooting star"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20040245,
+      "status": "candidate",
+      "text": "meteoroid"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20006191,
+      "status": "candidate",
+      "text": "falls"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20005044,
+      "status": "candidate",
+      "text": "meteorite"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19957771,
+      "status": "candidate",
+      "text": "day"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 5034,
+      "status": "candidate",
+      "text": "shooting star"
+    }
+  ],
+  "canonical_name": "meteor",
+  "concept_id": "meteor",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "Meteor-Community-Packages/meteor-scss"
+    }
+  ],
+  "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "meteor",
+      "sense_id": "meteor#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

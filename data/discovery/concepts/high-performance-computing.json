@@ -19,6 +19,18 @@
       "source_repo": "DLTcollab/sse2neon",
       "status": "candidate-context",
       "text": "![GitHub Actions](https://github.com/DLTcollab/sse2neon/workflows/GitHub%20Actions/badge.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bshoshany/thread-pool",
+      "status": "candidate-context",
+      "text": "BS::thread_pool: a fast, lightweight, modern, and easy-to-use C++17 / C++20 / C++23 thread pool library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bshoshany/thread-pool",
+      "status": "candidate-context",
+      "text": "[![Author: Barak Shoshany](https://img.shields.io/badge/author-Barak_Shoshany-009933)](https://baraksh.com/)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "DLTcollab/sse2neon",
       "status": "candidate",
       "text": "![GitHub Actions](https://github.com/DLTcollab/sse2neon/workflows/GitHub%20Actions/badge.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bshoshany/thread-pool",
+      "status": "candidate",
+      "text": "[![Author: Barak Shoshany](https://img.shields.io/badge/author-Barak_Shoshany-009933)](https://baraksh.com/)"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "DLTcollab/sse2neon"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "bshoshany/thread-pool"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

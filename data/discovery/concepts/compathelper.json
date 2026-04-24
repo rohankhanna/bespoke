@@ -19,12 +19,42 @@
       "source_repo": "JuliaPluto/Pluto.jl",
       "status": "candidate-context",
       "text": "CompatHelper"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaIO/JSON.jl",
+      "status": "candidate-context",
+      "text": "JSON parsing and printing"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaIO/JSON.jl",
+      "status": "candidate-context",
+      "text": "CompatHelper"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaPluto/PlutoUI.jl",
+      "status": "candidate-context",
+      "text": "CompatHelper"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "JuliaPluto/Pluto.jl",
+      "status": "candidate",
+      "text": "CompatHelper"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaIO/JSON.jl",
+      "status": "candidate",
+      "text": "CompatHelper"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaPluto/PlutoUI.jl",
       "status": "candidate",
       "text": "CompatHelper"
     }
@@ -46,11 +76,23 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": ".github/workflows/CompatHelper.yml",
       "source_repo": "JuliaPluto/Pluto.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/CompatHelper.yml",
+      "source_repo": "JuliaIO/JSON.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/CompatHelper.yml",
+      "source_repo": "JuliaPluto/PlutoUI.jl"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

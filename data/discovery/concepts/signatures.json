@@ -19,6 +19,18 @@
       "source_repo": "supranational/blst",
       "status": "candidate-context",
       "text": "[![Actions status](https://github.com/supranational/blst/workflows/build/badge.svg)](https://github.com/supranational/blst/actions) [![CodeQL status](https://github.com/supranational/blst/workflows/CodeQL/badge.svg)](https://github.com/supranational/blst/actions/workflows/codeql\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "arkworks-rs/crypto-primitives",
+      "status": "candidate-context",
+      "text": "Interfaces and implementations of cryptographic primitives, along with R1CS constraints for them "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "arkworks-rs/crypto-primitives",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">ark-crypto-primitives</h1>"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "supranational/blst",
       "status": "candidate",
       "text": "[![Actions status](https://github.com/supranational/blst/workflows/build/badge.svg)](https://github.com/supranational/blst/actions) [![CodeQL status](https://github.com/supranational/blst/workflows/CodeQL/badge.svg)](https://github.com/supranational/blst/actions/workflows/codeql\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "arkworks-rs/crypto-primitives",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">ark-crypto-primitives</h1>"
     }
   ],
   "candidate_related_terms": [
@@ -82,11 +100,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "supranational/blst"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "arkworks-rs/crypto-primitives"
     }
   ],
   "first_seen_at": "2026-04-18T12:07:11.500453+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,57 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "anchordotdev/puma-acme",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "anchordotdev/puma-acme",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-24T01:42:15.153268+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3858
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 1105
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Puma webserver plugin for SSL certs via ACME",
+    "fork": false,
+    "full_name": "anchordotdev/puma-acme",
+    "html_url": "https://github.com/anchordotdev/puma-acme",
+    "language": "Ruby",
+    "pushed_at": "2026-01-01T00:04:39Z",
+    "stargazers_count": 6,
+    "topics": [],
+    "updated_at": "2025-06-10T12:30:57Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

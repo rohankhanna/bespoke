@@ -1,7 +1,7 @@
 {
   "component": "crazy-max/ghaction-github-runtime@04d248b84655b509d8c44dc1d6f990c879747487",
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -27,6 +27,16 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/e2e.yml",
       "source_repo": "docker/buildx"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/bake.yml",
+      "source_repo": "docker/github-builder"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "docker/github-builder"
     }
   ]
 }

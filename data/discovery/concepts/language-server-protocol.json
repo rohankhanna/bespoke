@@ -271,6 +271,30 @@
       "source_repo": "MaskRay/ccls",
       "status": "candidate-context",
       "text": "[![Telegram](https://img.shields.io/badge/telegram-@cclsp-blue.svg)](https://telegram.me/ccls_lsp)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "liuchengxu/vista.vim",
+      "status": "candidate-context",
+      "text": ":cactus: Viewer & Finder for LSP symbols and tags"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "liuchengxu/vista.vim",
+      "status": "candidate-context",
+      "text": "[![CI](https://github.com/liuchengxu/vista.vim/workflows/ci/badge.svg)](https://github.com/liuchengxu/vista.vim/actions?workflow=ci)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "non-Jedi/eglot-jl",
+      "status": "candidate-context",
+      "text": "Wrapper for using Julia LanguageServer.jl with emacs eglot"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "non-Jedi/eglot-jl",
+      "status": "candidate-context",
+      "text": "Wrapper for using Julia LanguageServer.jl with emacs eglot"
     }
   ],
   "candidate_glosses": [
@@ -405,6 +429,18 @@
       "source_repo": "MaskRay/ccls",
       "status": "candidate",
       "text": "[![Telegram](https://img.shields.io/badge/telegram-@cclsp-blue.svg)](https://telegram.me/ccls_lsp)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "liuchengxu/vista.vim",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/liuchengxu/vista.vim/workflows/ci/badge.svg)](https://github.com/liuchengxu/vista.vim/actions?workflow=ci)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "non-Jedi/eglot-jl",
+      "status": "candidate",
+      "text": "Wrapper for using Julia LanguageServer.jl with emacs eglot"
     }
   ],
   "candidate_related_terms": [],
@@ -586,11 +622,59 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "MaskRay/ccls"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "liuchengxu/vista.vim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "atom/ide-java"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "eclipse-jdtls/eclipse.jdt.ls"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "eclipse-lsp4j/lsp4j"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "eclipse-lemminx/lemminx"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "typescript-language-server/typescript-language-server"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "dense-analysis/ale"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "non-Jedi/eglot-jl"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

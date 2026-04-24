@@ -55,6 +55,30 @@
       "source_repo": "bbatsov/projectile",
       "status": "candidate-context",
       "text": "[![Build Status](https://github.com/bbatsov/projectile/workflows/CI/badge.svg)](https://github.com/bbatsov/projectile/actions?query=workflow%3ACI)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ema2159/centaur-tabs",
+      "status": "candidate-context",
+      "text": "Emacs plugin aiming to become an aesthetic, modern looking tabs plugin"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ema2159/centaur-tabs",
+      "status": "candidate-context",
+      "text": "CI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "company-mode/company-mode",
+      "status": "candidate-context",
+      "text": "Modular in-buffer completion framework for Emacs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "company-mode/company-mode",
+      "status": "candidate-context",
+      "text": "See the homepage for [installation and usage instructions](http://company-mode.github.io/)."
     }
   ],
   "candidate_glosses": [
@@ -81,6 +105,18 @@
       "source_repo": "bbatsov/projectile",
       "status": "candidate",
       "text": "[![Build Status](https://github.com/bbatsov/projectile/workflows/CI/badge.svg)](https://github.com/bbatsov/projectile/actions?query=workflow%3ACI)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ema2159/centaur-tabs",
+      "status": "candidate",
+      "text": "CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "company-mode/company-mode",
+      "status": "candidate",
+      "text": "See the homepage for [installation and usage instructions](http://company-mode.github.io/)."
     }
   ],
   "candidate_related_terms": [],
@@ -112,11 +148,23 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "bbatsov/projectile"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "ema2159/centaur-tabs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "company-mode/company-mode"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -43,6 +43,30 @@
       "source_repo": "pytest-dev/cookiecutter-pytest-plugin",
       "status": "candidate-context",
       "text": "[![Documentation Status][docs_badge]][documentation]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "drivendataorg/cookiecutter-data-science",
+      "status": "candidate-context",
+      "text": "A logical, reasonably standardized, but flexible project structure for doing and sharing data science work."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "drivendataorg/cookiecutter-data-science",
+      "status": "candidate-context",
+      "text": "_A logical, reasonably standardized but flexible project structure for doing and sharing data science work._"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "grok-ai/nn-template",
+      "status": "candidate-context",
+      "text": "Generic template to bootstrap your PyTorch project."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "grok-ai/nn-template",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +87,18 @@
       "source_repo": "pytest-dev/cookiecutter-pytest-plugin",
       "status": "candidate",
       "text": "[![Documentation Status][docs_badge]][documentation]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "drivendataorg/cookiecutter-data-science",
+      "status": "candidate",
+      "text": "_A logical, reasonably standardized but flexible project structure for doing and sharing data science work._"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "grok-ai/nn-template",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -130,11 +166,23 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "cookiecutter/cookiecutter"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "drivendataorg/cookiecutter-data-science"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "grok-ai/nn-template"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

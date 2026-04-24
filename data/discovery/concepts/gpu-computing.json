@@ -67,6 +67,18 @@
       "source_repo": "beehive-lab/TornadoVM",
       "status": "candidate-context",
       "text": "[![Build & Test JDK 21](https://github.com/beehive-lab/TornadoVM/actions/workflows/build-test-jdk21.yml/badge.svg)](https://github.com/beehive-lab/TornadoVM/actions/workflows/build-test-jdk21.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ashvardanian/ParallelReductionsBenchmark",
+      "status": "candidate-context",
+      "text": "Thrust, CUB, TBB, AVX2, AVX-512, CUDA, OpenCL, OpenMP, Metal, and Rust - all it takes to sum a lot of numbers fast!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ashvardanian/ParallelReductionsBenchmark",
+      "status": "candidate-context",
+      "text": "__For CPUs and GPUs in C++, CUDA, and Rust__"
     }
   ],
   "candidate_glosses": [
@@ -99,6 +111,12 @@
       "source_repo": "beehive-lab/TornadoVM",
       "status": "candidate",
       "text": "[![Build & Test JDK 21](https://github.com/beehive-lab/TornadoVM/actions/workflows/build-test-jdk21.yml/badge.svg)](https://github.com/beehive-lab/TornadoVM/actions/workflows/build-test-jdk21.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ashvardanian/ParallelReductionsBenchmark",
+      "status": "candidate",
+      "text": "__For CPUs and GPUs in C++, CUDA, and Rust__"
     }
   ],
   "candidate_related_terms": [],
@@ -136,11 +154,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "beehive-lab/TornadoVM"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "ashvardanian/ParallelReductionsBenchmark"
     }
   ],
   "first_seen_at": "2026-04-19T01:08:57.644140+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

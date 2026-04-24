@@ -1,0 +1,188 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@stable",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "EmbarkStudios/cargo-deny-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "flamegraph-rs/flamegraph",
+      "target": "mstange/samply",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "flamegraph-rs/flamegraph",
+      "target": "nico-abram/blondie",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "flamegraph-rs/flamegraph",
+      "target": "gimli-rs/addr2line",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "flamegraph-rs/flamegraph",
+      "target": "spacejam/sled",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "flamegraph-rs/flamegraph",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "flamegraph-rs/flamegraph",
+      "target": "dtolnay/rust-toolchain@stable",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "flamegraph-rs/flamegraph",
+      "target": "dtolnay/rust-toolchain@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "flamegraph-rs/flamegraph",
+      "target": "EmbarkStudios/cargo-deny-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "flamegraph-rs/flamegraph",
+      "target": "flamegraphs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "flamegraph-rs/flamegraph",
+      "target": "perf",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "flamegraph-rs/flamegraph",
+      "target": "profiling",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T00:47:53.782229+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 21870
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 1247
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 861
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Easy flamegraphs for Rust projects and everything else, without Perl or pipes <3",
+    "fork": false,
+    "full_name": "flamegraph-rs/flamegraph",
+    "html_url": "https://github.com/flamegraph-rs/flamegraph",
+    "language": "Rust",
+    "pushed_at": "2026-04-20T20:07:18Z",
+    "stargazers_count": 5898,
+    "topics": [
+      "flamegraphs",
+      "perf",
+      "profiling"
+    ],
+    "updated_at": "2026-04-23T15:12:53Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "gimli-rs/addr2line",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mstange/samply",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nico-abram/blondie",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "spacejam/sled",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![colorized flamegraph output](example_cropped.png)](example.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "flamegraphs"
+    },
+    {
+      "context_snippet": "[![colorized flamegraph output](example_cropped.png)](example.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "perf"
+    },
+    {
+      "context_snippet": "[![colorized flamegraph output](example_cropped.png)](example.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "profiling"
+    }
+  ]
+}

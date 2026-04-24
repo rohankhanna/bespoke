@@ -1,0 +1,93 @@
+{
+  "aliases": [
+    "bitwise"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "facil-io/cstl",
+      "status": "candidate-context",
+      "text": "facil.io C STL - a Server Toolbox Library for C, including JSON processing, hash maps, dynamic arrays, binary strings and more."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "facil-io/cstl",
+      "status": "candidate-context",
+      "text": "[![facil.io logo](./extras/logo.svg?raw=true \"facil.io\")](https://github.com/facil-io/cstl)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "facil-io/cstl",
+      "status": "candidate",
+      "text": "[![facil.io logo](./extras/logo.svg?raw=true \"facil.io\")](https://github.com/facil-io/cstl)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30003829,
+      "status": "candidate",
+      "text": "xor"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20007365,
+      "status": "candidate",
+      "text": "bit-compressed"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20007364,
+      "status": "candidate",
+      "text": "binary"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20007363,
+      "status": "candidate",
+      "text": "digital"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "bitwise",
+  "concept_id": "bitwise",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "facil-io/cstl"
+    }
+  ],
+  "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "bitwise",
+      "sense_id": "bitwise#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

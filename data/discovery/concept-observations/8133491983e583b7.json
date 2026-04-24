@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A repository running the Protobuf conformance tests against various libraries"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "PR Approval Bypass Notifier"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "PR Approval Bypass Notifier"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22004,
+      "status": "candidate",
+      "text": "finalist"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21249,
+      "status": "candidate",
+      "text": "acknowledge"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21249,
+      "status": "candidate",
+      "text": "notice"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17559,
+      "status": "candidate",
+      "text": "bit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17559,
+      "status": "candidate",
+      "text": "spin"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "PR Approval Bypass Notifier",
+      "sense_id": "pr-approval-bypass-notifier#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "pr-approval-bypass-notifier",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "pr-approval-bypass-notifier",
+  "observation_id": "8133491983e583b7",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-24T00:33:56.049672+00:00",
+  "observed_text": "PR Approval Bypass Notifier",
+  "source_context_snippet": "PR Approval Bypass Notifier",
+  "source_file": ".github/workflows/notify-approval-bypass.yaml",
+  "source_repo": "bufbuild/protobuf-conformance",
+  "source_repo_description": "A repository running the Protobuf conformance tests against various libraries"
+}

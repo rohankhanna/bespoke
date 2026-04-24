@@ -1,0 +1,212 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/audit.yml"
+    },
+    {
+      "component": "actions-rust-lang/audit@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/audit.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cont_integration.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cont_integration.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@stable",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cont_integration.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cont_integration.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cont_integration.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@stable",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cont_integration.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cont_integration.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@stable",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cont_integration.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cont_integration.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cont_integration.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@v2.2.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cont_integration.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/audit.yml",
+      "source_repo": "bitcoindevkit/rust-electrum-client",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/audit.yml",
+      "source_repo": "bitcoindevkit/rust-electrum-client",
+      "target": "actions-rust-lang/audit@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/audit.yml",
+      "source_repo": "bitcoindevkit/rust-electrum-client",
+      "target": "Audit",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cont_integration.yml",
+      "source_repo": "bitcoindevkit/rust-electrum-client",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cont_integration.yml",
+      "source_repo": "bitcoindevkit/rust-electrum-client",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cont_integration.yml",
+      "source_repo": "bitcoindevkit/rust-electrum-client",
+      "target": "dtolnay/rust-toolchain@stable",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cont_integration.yml",
+      "source_repo": "bitcoindevkit/rust-electrum-client",
+      "target": "dtolnay/rust-toolchain@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cont_integration.yml",
+      "source_repo": "bitcoindevkit/rust-electrum-client",
+      "target": "Swatinem/rust-cache@v2.2.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bitcoindevkit/rust-electrum-client",
+      "target": "bitcoin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bitcoindevkit/rust-electrum-client",
+      "target": "client",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bitcoindevkit/rust-electrum-client",
+      "target": "electrum",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T01:51:19.452499+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1519
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 1840
+    },
+    {
+      "path": ".github/workflows/audit.yml",
+      "size": 927
+    },
+    {
+      "path": ".github/workflows/cont_integration.yml",
+      "size": 2580
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Bitcoin Electrum client library. Supports plaintext, TLS and Onion servers.",
+    "fork": false,
+    "full_name": "bitcoindevkit/rust-electrum-client",
+    "html_url": "https://github.com/bitcoindevkit/rust-electrum-client",
+    "language": "Rust",
+    "pushed_at": "2026-04-23T14:57:01Z",
+    "stargazers_count": 86,
+    "topics": [
+      "bitcoin",
+      "client",
+      "electrum"
+    ],
+    "updated_at": "2026-04-23T14:57:08Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Audit",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/audit.yml",
+      "term": "Audit"
+    },
+    {
+      "context_snippet": "<p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bitcoin"
+    },
+    {
+      "context_snippet": "<p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "client"
+    },
+    {
+      "context_snippet": "<p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "electrum"
+    }
+  ]
+}

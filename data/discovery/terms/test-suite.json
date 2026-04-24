@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T09:21:02.237042+00:00",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -41,6 +41,16 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/test-suite.yml",
       "source_repo": "sigp/ethereum_hashing"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/test_suite.yml",
+      "source_repo": "grok-ai/nn-template"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/test_suite.yml",
+      "source_repo": "Meteor-Community-Packages/meteor-scss"
     }
   ],
   "term": "Test Suite"

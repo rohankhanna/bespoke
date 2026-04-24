@@ -283,6 +283,72 @@
       "source_repo": "graphprotocol/graph-client",
       "status": "candidate-context",
       "text": "thegraph-client-monorepo"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apollographql/apollo-tooling",
+      "status": "candidate-context",
+      "text": "\u270f\ufe0f Apollo CLI for client tooling (Mostly replaced by Rover)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apollographql/apollo-tooling",
+      "status": "candidate-context",
+      "text": "[![GitHub license](https://img.shields.io/badge/license-MIT-lightgrey.svg?maxAge=2592000)](https://raw.githubusercontent.com/apollographql/apollo-tooling/master/LICENSE) [![npm](https://img.shields.io/npm/v/apollo.svg)](https://www.npmjs.com/package/apollo) [![Get on Slack](http\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cjoudrey/graphql-schema-linter",
+      "status": "candidate-context",
+      "text": "Validate GraphQL schema definitions against a set of rules"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cjoudrey/graphql-schema-linter",
+      "status": "candidate-context",
+      "text": "This package provides a command line tool to validate GraphQL schema definitions against a set of rules."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "graphql-hive/graphql-eslint",
+      "status": "candidate-context",
+      "text": "ESLint parser, plugin, and rule set for GraphQL (for schema and operations). Easily customizable with custom rules. Integrates with IDEs and modern GraphQL tools."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "graphql-hive/graphql-eslint",
+      "status": "candidate-context",
+      "text": "[![npm version](https://badge.fury.io/js/%40graphql-eslint%2Feslint-plugin.svg)](https://badge.fury.io/js/%40graphql-eslint%2Feslint-plugin)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "evenchange4/graphql.macro-example",
+      "status": "candidate-context",
+      "text": "> This is a [graphql.macro](https://github.com/evenchange4/graphql.macro) example with [Create React App @2](https://github.com/facebookincubator/create-react-app/issues/3815)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "leoasis/graphql-tag.macro",
+      "status": "candidate-context",
+      "text": "Babel Macro for graphql-tag"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "leoasis/graphql-tag.macro",
+      "status": "candidate-context",
+      "text": "Babel Macro for the [graphql-tag](https://github.com/apollographql/graphql-tag) library."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aws-samples/aws-serverless-airline-booking",
+      "status": "candidate-context",
+      "text": "Airline Booking is a sample web application that provides Flight Search, Flight Payment, Flight Booking and Loyalty points including end-to-end testing, GraphQL and CI/CD. This web application was the theme of Build on Serverless Season 2 on AWS Twitch running from April 24th until end of August in 2019."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws-samples/aws-serverless-airline-booking",
+      "status": "candidate-context",
+      "text": "Serverless Airline Booking is a complete web application that provides Flight Search, Payment, Booking and Loyalty points including end-to-end testing, GraphQL and CI/CD. This web application was the theme of Build on Serverless Season 2 on AWS Twitch running from April 24th unt\u2026"
     }
   ],
   "candidate_glosses": [
@@ -423,6 +489,42 @@
       "source_repo": "graphprotocol/graph-client",
       "status": "candidate",
       "text": "thegraph-client-monorepo"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apollographql/apollo-tooling",
+      "status": "candidate",
+      "text": "[![GitHub license](https://img.shields.io/badge/license-MIT-lightgrey.svg?maxAge=2592000)](https://raw.githubusercontent.com/apollographql/apollo-tooling/master/LICENSE) [![npm](https://img.shields.io/npm/v/apollo.svg)](https://www.npmjs.com/package/apollo) [![Get on Slack](http\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cjoudrey/graphql-schema-linter",
+      "status": "candidate",
+      "text": "This package provides a command line tool to validate GraphQL schema definitions against a set of rules."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "graphql-hive/graphql-eslint",
+      "status": "candidate",
+      "text": "[![npm version](https://badge.fury.io/js/%40graphql-eslint%2Feslint-plugin.svg)](https://badge.fury.io/js/%40graphql-eslint%2Feslint-plugin)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "evenchange4/graphql.macro-example",
+      "status": "candidate",
+      "text": "> This is a [graphql.macro](https://github.com/evenchange4/graphql.macro) example with [Create React App @2](https://github.com/facebookincubator/create-react-app/issues/3815)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "leoasis/graphql-tag.macro",
+      "status": "candidate",
+      "text": "Babel Macro for the [graphql-tag](https://github.com/apollographql/graphql-tag) library."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws-samples/aws-serverless-airline-booking",
+      "status": "candidate",
+      "text": "Serverless Airline Booking is a complete web application that provides Flight Search, Payment, Booking and Loyalty points including end-to-end testing, GraphQL and CI/CD. This web application was the theme of Build on Serverless Season 2 on AWS Twitch running from April 24th unt\u2026"
     }
   ],
   "candidate_related_terms": [
@@ -604,11 +706,47 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "graphprotocol/graph-client"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "apollographql/apollo-tooling"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "cjoudrey/graphql-schema-linter"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "graphql-hive/graphql-eslint"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "evenchange4/graphql.macro-example"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "leoasis/graphql-tag.macro"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "aws-samples/aws-serverless-airline-booking"
     }
   ],
   "first_seen_at": "2026-04-19T04:47:57.443742+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

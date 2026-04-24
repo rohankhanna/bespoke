@@ -1,0 +1,245 @@
+{
+  "components": [
+    {
+      "component": "@fastify/type-provider-typebox",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/node",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "c8",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "fastify",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "neostandard",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "proxyquire",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "tsd",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "fastify/workflows/.github/workflows/plugins-ci.yml@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "fastify/workflows/.github/workflows/lock-threads.yml@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lock-threads.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "fastify/fastify-plugin",
+      "target": "npm/node-semver",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "fastify/fastify-plugin",
+      "target": "@fastify/type-provider-typebox",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "fastify/fastify-plugin",
+      "target": "@types/node",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "fastify/fastify-plugin",
+      "target": "c8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "fastify/fastify-plugin",
+      "target": "eslint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "fastify/fastify-plugin",
+      "target": "fastify",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "fastify/fastify-plugin",
+      "target": "neostandard",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "fastify/fastify-plugin",
+      "target": "proxyquire",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "fastify/fastify-plugin",
+      "target": "tsd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "fastify/fastify-plugin",
+      "target": "fastify/workflows/.github/workflows/plugins-ci.yml@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lock-threads.yml",
+      "source_repo": "fastify/fastify-plugin",
+      "target": "fastify/workflows/.github/workflows/lock-threads.yml@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lock-threads.yml",
+      "source_repo": "fastify/fastify-plugin",
+      "target": "Lock Threads",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fastify/fastify-plugin",
+      "target": "encapsulation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fastify/fastify-plugin",
+      "target": "fastify",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fastify/fastify-plugin",
+      "target": "fastify-library",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fastify/fastify-plugin",
+      "target": "versioning",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T00:39:39.495708+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6432
+    },
+    {
+      "path": "package.json",
+      "size": 1704
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 651
+    },
+    {
+      "path": ".github/workflows/lock-threads.yml",
+      "size": 293
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Plugin helper for Fastify",
+    "fork": false,
+    "full_name": "fastify/fastify-plugin",
+    "html_url": "https://github.com/fastify/fastify-plugin",
+    "language": "JavaScript",
+    "pushed_at": "2026-04-08T18:57:56Z",
+    "stargazers_count": 238,
+    "topics": [
+      "encapsulation",
+      "fastify",
+      "fastify-library",
+      "versioning"
+    ],
+    "updated_at": "2026-04-20T04:26:34Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "npm/node-semver",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Lock Threads",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lock-threads.yml",
+      "term": "Lock Threads"
+    },
+    {
+      "context_snippet": "[![CI](https://github.com/fastify/fastify-plugin/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/fastify/fastify-plugin/actions/workflows/ci.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "encapsulation"
+    },
+    {
+      "context_snippet": "[![CI](https://github.com/fastify/fastify-plugin/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/fastify/fastify-plugin/actions/workflows/ci.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fastify"
+    },
+    {
+      "context_snippet": "[![CI](https://github.com/fastify/fastify-plugin/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/fastify/fastify-plugin/actions/workflows/ci.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fastify-library"
+    },
+    {
+      "context_snippet": "[![CI](https://github.com/fastify/fastify-plugin/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/fastify/fastify-plugin/actions/workflows/ci.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "versioning"
+    }
+  ]
+}

@@ -1,0 +1,366 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "docker/setup-docker-action@1a6edb0ba9ac496f6850236981f15d8f9a82254d",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-dotnet@c2fa09f4bde5ebb9d1777cf28262a3eb3db3ced7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-node@53b83947a5a98c8d113130e565377fae1a50d02f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "dotnet/issue-labeler/restore@46125e85e6a568dc712f358c39f35317366f5eed",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labeler-cache-retention.yml"
+    },
+    {
+      "component": "dotnet/issue-labeler/restore@46125e85e6a568dc712f358c39f35317366f5eed",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labeler-predict-issues.yml"
+    },
+    {
+      "component": "dotnet/issue-labeler/predict@46125e85e6a568dc712f358c39f35317366f5eed",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labeler-predict-issues.yml"
+    },
+    {
+      "component": "dotnet/issue-labeler/restore@46125e85e6a568dc712f358c39f35317366f5eed",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labeler-predict-pulls.yml"
+    },
+    {
+      "component": "dotnet/issue-labeler/predict@46125e85e6a568dc712f358c39f35317366f5eed",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labeler-predict-pulls.yml"
+    },
+    {
+      "component": "dotnet/issue-labeler/promote@46125e85e6a568dc712f358c39f35317366f5eed",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labeler-promote.yml"
+    },
+    {
+      "component": "dotnet/issue-labeler/promote@46125e85e6a568dc712f358c39f35317366f5eed",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labeler-promote.yml"
+    },
+    {
+      "component": "dotnet/issue-labeler/download@46125e85e6a568dc712f358c39f35317366f5eed",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labeler-train.yml"
+    },
+    {
+      "component": "dotnet/issue-labeler/download@46125e85e6a568dc712f358c39f35317366f5eed",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labeler-train.yml"
+    },
+    {
+      "component": "dotnet/issue-labeler/train@46125e85e6a568dc712f358c39f35317366f5eed",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labeler-train.yml"
+    },
+    {
+      "component": "dotnet/issue-labeler/train@46125e85e6a568dc712f358c39f35317366f5eed",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labeler-train.yml"
+    },
+    {
+      "component": "dotnet/issue-labeler/test@46125e85e6a568dc712f358c39f35317366f5eed",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labeler-train.yml"
+    },
+    {
+      "component": "dotnet/issue-labeler/test@46125e85e6a568dc712f358c39f35317366f5eed",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labeler-train.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "microsoft/aspire-samples",
+      "target": "dotnet/aspire-samples",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "microsoft/aspire-samples",
+      "target": "dotnet/eshop",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "microsoft/aspire-samples",
+      "target": "dotnet/aspire",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "microsoft/aspire-samples",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "microsoft/aspire-samples",
+      "target": "docker/setup-docker-action@1a6edb0ba9ac496f6850236981f15d8f9a82254d",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "microsoft/aspire-samples",
+      "target": "actions/setup-dotnet@c2fa09f4bde5ebb9d1777cf28262a3eb3db3ced7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "microsoft/aspire-samples",
+      "target": "actions/setup-node@53b83947a5a98c8d113130e565377fae1a50d02f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "microsoft/aspire-samples",
+      "target": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "microsoft/aspire-samples",
+      "target": "Aspire Samples CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labeler-cache-retention.yml",
+      "source_repo": "microsoft/aspire-samples",
+      "target": "dotnet/issue-labeler/restore@46125e85e6a568dc712f358c39f35317366f5eed",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/labeler-cache-retention.yml",
+      "source_repo": "microsoft/aspire-samples",
+      "target": "Labeler: Cache Retention",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labeler-predict-issues.yml",
+      "source_repo": "microsoft/aspire-samples",
+      "target": "dotnet/issue-labeler/restore@46125e85e6a568dc712f358c39f35317366f5eed",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labeler-predict-issues.yml",
+      "source_repo": "microsoft/aspire-samples",
+      "target": "dotnet/issue-labeler/predict@46125e85e6a568dc712f358c39f35317366f5eed",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/labeler-predict-issues.yml",
+      "source_repo": "microsoft/aspire-samples",
+      "target": "Labeler: Predict (Issues)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labeler-predict-pulls.yml",
+      "source_repo": "microsoft/aspire-samples",
+      "target": "dotnet/issue-labeler/restore@46125e85e6a568dc712f358c39f35317366f5eed",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labeler-predict-pulls.yml",
+      "source_repo": "microsoft/aspire-samples",
+      "target": "dotnet/issue-labeler/predict@46125e85e6a568dc712f358c39f35317366f5eed",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/labeler-predict-pulls.yml",
+      "source_repo": "microsoft/aspire-samples",
+      "target": "Labeler: Predict (Pulls)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labeler-promote.yml",
+      "source_repo": "microsoft/aspire-samples",
+      "target": "dotnet/issue-labeler/promote@46125e85e6a568dc712f358c39f35317366f5eed",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/labeler-promote.yml",
+      "source_repo": "microsoft/aspire-samples",
+      "target": "Labeler: Promotion",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labeler-train.yml",
+      "source_repo": "microsoft/aspire-samples",
+      "target": "dotnet/issue-labeler/download@46125e85e6a568dc712f358c39f35317366f5eed",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labeler-train.yml",
+      "source_repo": "microsoft/aspire-samples",
+      "target": "dotnet/issue-labeler/train@46125e85e6a568dc712f358c39f35317366f5eed",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labeler-train.yml",
+      "source_repo": "microsoft/aspire-samples",
+      "target": "dotnet/issue-labeler/test@46125e85e6a568dc712f358c39f35317366f5eed",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/labeler-train.yml",
+      "source_repo": "microsoft/aspire-samples",
+      "target": "Labeler: Training",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T00:43:39.734544+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7611
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 3912
+    },
+    {
+      "path": ".github/workflows/labeler-cache-retention.yml",
+      "size": 1390
+    },
+    {
+      "path": ".github/workflows/labeler-predict-issues.yml",
+      "size": 2095
+    },
+    {
+      "path": ".github/workflows/labeler-predict-pulls.yml",
+      "size": 2809
+    },
+    {
+      "path": ".github/workflows/labeler-promote.yml",
+      "size": 1708
+    },
+    {
+      "path": ".github/workflows/labeler-train.yml",
+      "size": 6353
+    },
+    {
+      "path": ".github/workflows/labeler.md",
+      "size": 1279
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "microsoft/aspire-samples",
+    "html_url": "https://github.com/microsoft/aspire-samples",
+    "language": "C#",
+    "pushed_at": "2026-04-23T21:43:13Z",
+    "stargazers_count": 1167,
+    "topics": [],
+    "updated_at": "2026-04-20T15:56:09Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dotnet/aspire",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dotnet/aspire-samples",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dotnet/eshop",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Aspire Samples CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "term": "Aspire Samples CI"
+    },
+    {
+      "context_snippet": "\"Labeler: Cache Retention\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/labeler-cache-retention.yml",
+      "term": "Labeler: Cache Retention"
+    },
+    {
+      "context_snippet": "\"Labeler: Predict (Issues)\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/labeler-predict-issues.yml",
+      "term": "Labeler: Predict (Issues)"
+    },
+    {
+      "context_snippet": "\"Labeler: Predict (Pulls)\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/labeler-predict-pulls.yml",
+      "term": "Labeler: Predict (Pulls)"
+    },
+    {
+      "context_snippet": "\"Labeler: Promotion\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/labeler-promote.yml",
+      "term": "Labeler: Promotion"
+    },
+    {
+      "context_snippet": "\"Labeler: Training\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/labeler-train.yml",
+      "term": "Labeler: Training"
+    }
+  ]
+}

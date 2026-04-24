@@ -1,0 +1,390 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "dorny/paths-filter@de90cc6fb38fc0963ad72b210f1f284cd68cea36",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/labeler@634933edcd8ababfe52f92936142cc22ac488b1b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labeler.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint-gh.yml"
+    },
+    {
+      "component": "rhysd/actionlint@393031adb9afb225ee52ae2ccd7a5af5525e03e8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint-gh.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-proposal.yml"
+    },
+    {
+      "component": "cargo-bins/cargo-binstall@bc432b49369a3f25c8c8b19578a82060c18a5dd6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-proposal.yml"
+    },
+    {
+      "component": "docker/login-action@c94ce9fb468520275223c153574b00df6fe4bcc9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-proposal.yml"
+    },
+    {
+      "component": "bytecodealliance/wkg-github-action@10b3b04b9059ba46208cd7daf7d352af14bded0f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-proposal.yml"
+    },
+    {
+      "component": "actions/attest-build-provenance@a2bbfa25375fe432b6a289bc6b6cd05ecd0c4c32",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-proposal.yml"
+    },
+    {
+      "component": "oras-project/setup-oras@22ce207df3b08e061f537244349aac6ae1d214f6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "cargo-bins/cargo-binstall@bc432b49369a3f25c8c8b19578a82060c18a5dd6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "peter-evans/create-pull-request@c0f553fe549906ede9cf27b5156039d195d2ece0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "bytecodealliance/actions/wit-bindgen/setup@6aecabac1eb1dcf7ed94ba9471974415ee2ebef2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "peter-evans/create-pull-request@c0f553fe549906ede9cf27b5156039d195d2ece0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "WebAssembly/WASI",
+      "target": "webassembly/wasi-proposal-template",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "WebAssembly/WASI",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "WebAssembly/WASI",
+      "target": "dorny/paths-filter@de90cc6fb38fc0963ad72b210f1f284cd68cea36",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labeler.yml",
+      "source_repo": "WebAssembly/WASI",
+      "target": "actions/labeler@634933edcd8ababfe52f92936142cc22ac488b1b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/labeler.yml",
+      "source_repo": "WebAssembly/WASI",
+      "target": "Labeler",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint-gh.yml",
+      "source_repo": "WebAssembly/WASI",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint-gh.yml",
+      "source_repo": "WebAssembly/WASI",
+      "target": "rhysd/actionlint@393031adb9afb225ee52ae2ccd7a5af5525e03e8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint-gh.yml",
+      "source_repo": "WebAssembly/WASI",
+      "target": "Lint GitHub Actions and Workflows",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-proposal.yml",
+      "source_repo": "WebAssembly/WASI",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-proposal.yml",
+      "source_repo": "WebAssembly/WASI",
+      "target": "cargo-bins/cargo-binstall@bc432b49369a3f25c8c8b19578a82060c18a5dd6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-proposal.yml",
+      "source_repo": "WebAssembly/WASI",
+      "target": "docker/login-action@c94ce9fb468520275223c153574b00df6fe4bcc9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-proposal.yml",
+      "source_repo": "WebAssembly/WASI",
+      "target": "bytecodealliance/wkg-github-action@10b3b04b9059ba46208cd7daf7d352af14bded0f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-proposal.yml",
+      "source_repo": "WebAssembly/WASI",
+      "target": "actions/attest-build-provenance@a2bbfa25375fe432b6a289bc6b6cd05ecd0c4c32",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-proposal.yml",
+      "source_repo": "WebAssembly/WASI",
+      "target": "Publish Proposal",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "WebAssembly/WASI",
+      "target": "oras-project/setup-oras@22ce207df3b08e061f537244349aac6ae1d214f6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "WebAssembly/WASI",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "WebAssembly/WASI",
+      "target": "cargo-bins/cargo-binstall@bc432b49369a3f25c8c8b19578a82060c18a5dd6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "WebAssembly/WASI",
+      "target": "peter-evans/create-pull-request@c0f553fe549906ede9cf27b5156039d195d2ece0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "WebAssembly/WASI",
+      "target": "Publish",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "WebAssembly/WASI",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "WebAssembly/WASI",
+      "target": "bytecodealliance/actions/wit-bindgen/setup@6aecabac1eb1dcf7ed94ba9471974415ee2ebef2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "WebAssembly/WASI",
+      "target": "peter-evans/create-pull-request@c0f553fe549906ede9cf27b5156039d195d2ece0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "WebAssembly/WASI",
+      "target": "Release WASI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "WebAssembly/WASI",
+      "target": "http",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "WebAssembly/WASI",
+      "target": "wasi",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "WebAssembly/WASI",
+      "target": "webassembly",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T01:53:36.453324+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1701
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 1331
+    },
+    {
+      "path": ".github/workflows/labeler.yml",
+      "size": 271
+    },
+    {
+      "path": ".github/workflows/lint-gh.yml",
+      "size": 505
+    },
+    {
+      "path": ".github/workflows/publish-proposal.yml",
+      "size": 2713
+    },
+    {
+      "path": ".github/workflows/publish.yml",
+      "size": 12000
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 8309
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "WebAssembly System Interface",
+    "fork": false,
+    "full_name": "WebAssembly/WASI",
+    "html_url": "https://github.com/WebAssembly/WASI",
+    "language": "Rust",
+    "pushed_at": "2026-04-07T13:41:02Z",
+    "stargazers_count": 5606,
+    "topics": [
+      "http",
+      "os",
+      "wasi",
+      "webassembly"
+    ],
+    "updated_at": "2026-04-24T01:28:15Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "webassembly/wasi-proposal-template",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Labeler",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/labeler.yml",
+      "term": "Labeler"
+    },
+    {
+      "context_snippet": "Lint GitHub Actions and Workflows",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint-gh.yml",
+      "term": "Lint GitHub Actions and Workflows"
+    },
+    {
+      "context_snippet": "Publish Proposal",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-proposal.yml",
+      "term": "Publish Proposal"
+    },
+    {
+      "context_snippet": "Publish",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "term": "Publish"
+    },
+    {
+      "context_snippet": "Release WASI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Release WASI"
+    },
+    {
+      "context_snippet": "<img width=\"100px\" src=\"assets/WASI.png\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "http"
+    },
+    {
+      "context_snippet": "<img width=\"100px\" src=\"assets/WASI.png\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "wasi"
+    },
+    {
+      "context_snippet": "<img width=\"100px\" src=\"assets/WASI.png\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "webassembly"
+    }
+  ]
+}

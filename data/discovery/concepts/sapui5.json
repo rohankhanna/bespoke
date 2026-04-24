@@ -31,6 +31,30 @@
       "source_repo": "abap2UI5/samples",
       "status": "candidate-context",
       "text": "[![ABAP_702](https://github.com/abap2UI5/samples/actions/workflows/ABAP_702.yaml/badge.svg?branch=702)](https://github.com/abap2UI5/samples/actions/workflows/ABAP_702.yaml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "abap2UI5-addons/layout-management",
+      "status": "candidate-context",
+      "text": "Addon for customizable table and form layouts with persistent variant management."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "abap2UI5-addons/layout-management",
+      "status": "candidate-context",
+      "text": "[![ABAP_STANDARD](https://github.com/abap2UI5-addons/layout-variant-management/actions/workflows/ABAP_STANDARD.yaml/badge.svg)](https://github.com/abap2UI5-addons/layout-variant-management/actions/workflows/ABAP_STANDARD.yaml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "abap2UI5-addons/sql-console",
+      "status": "candidate-context",
+      "text": "Run SQL Commands in Your Browser"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "abap2UI5-addons/sql-console",
+      "status": "candidate-context",
+      "text": "SQL Console in Your Browser \u2013 No Need for Eclipse or SAP GUI Installation"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +69,18 @@
       "source_repo": "abap2UI5/samples",
       "status": "candidate",
       "text": "[![ABAP_702](https://github.com/abap2UI5/samples/actions/workflows/ABAP_702.yaml/badge.svg?branch=702)](https://github.com/abap2UI5/samples/actions/workflows/ABAP_702.yaml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "abap2UI5-addons/layout-management",
+      "status": "candidate",
+      "text": "[![ABAP_STANDARD](https://github.com/abap2UI5-addons/layout-variant-management/actions/workflows/ABAP_STANDARD.yaml/badge.svg)](https://github.com/abap2UI5-addons/layout-variant-management/actions/workflows/ABAP_STANDARD.yaml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "abap2UI5-addons/sql-console",
+      "status": "candidate",
+      "text": "SQL Console in Your Browser \u2013 No Need for Eclipse or SAP GUI Installation"
     }
   ],
   "candidate_related_terms": [],
@@ -64,11 +100,23 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "abap2UI5/samples"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "abap2UI5-addons/layout-management"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "abap2UI5-addons/sql-console"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

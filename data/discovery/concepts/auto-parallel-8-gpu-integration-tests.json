@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Auto Parallel 8 GPU Integration Tests"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pytorch/torchtitan",
+      "status": "candidate-context",
+      "text": "A PyTorch native platform for training generative AI models"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pytorch/torchtitan",
+      "status": "candidate-context",
+      "text": "Auto Parallel 8 GPU Integration Tests"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pytorch/torchtitan",
+      "status": "candidate",
+      "text": "Auto Parallel 8 GPU Integration Tests"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26968,
+      "status": "candidate",
+      "text": "police"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26526,
+      "status": "candidate",
+      "text": "battleship"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26477,
+      "status": "candidate",
+      "text": "enclose"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26401,
+      "status": "candidate",
+      "text": "replication"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26238,
+      "status": "candidate",
+      "text": "car"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Auto Parallel 8 GPU Integration Tests",
+  "concept_id": "auto-parallel-8-gpu-integration-tests",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/integration_test_8gpu_autoparallel.yaml",
+      "source_repo": "pytorch/torchtitan"
+    }
+  ],
+  "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Auto Parallel 8 GPU Integration Tests",
+      "sense_id": "auto-parallel-8-gpu-integration-tests#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -1,0 +1,137 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "jcs090218/setup-emacs@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "emacs-eask/setup-eask@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "ema2159/centaur-tabs",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "ema2159/centaur-tabs",
+      "target": "jcs090218/setup-emacs@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "ema2159/centaur-tabs",
+      "target": "emacs-eask/setup-eask@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ema2159/centaur-tabs",
+      "target": "elisp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ema2159/centaur-tabs",
+      "target": "emacs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ema2159/centaur-tabs",
+      "target": "emacs-lisp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ema2159/centaur-tabs",
+      "target": "emacs-package",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ema2159/centaur-tabs",
+      "target": "emacs-plugin",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T00:44:53.818412+00:00",
+  "fetched_files": [
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 1147
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Emacs plugin aiming to become an aesthetic, modern looking tabs plugin",
+    "fork": false,
+    "full_name": "ema2159/centaur-tabs",
+    "html_url": "https://github.com/ema2159/centaur-tabs",
+    "language": "Emacs Lisp",
+    "pushed_at": "2026-01-28T09:50:09Z",
+    "stargazers_count": 853,
+    "topics": [
+      "elisp",
+      "emacs",
+      "emacs-lisp",
+      "emacs-package",
+      "emacs-plugin"
+    ],
+    "updated_at": "2026-04-16T06:21:00Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "CI",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "elisp"
+    },
+    {
+      "context_snippet": "CI",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "emacs"
+    },
+    {
+      "context_snippet": "CI",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "emacs-lisp"
+    },
+    {
+      "context_snippet": "CI",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "emacs-package"
+    },
+    {
+      "context_snippet": "CI",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "emacs-plugin"
+    }
+  ]
+}

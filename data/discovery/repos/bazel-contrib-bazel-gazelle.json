@@ -12,14 +12,14 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "bazel-contrib/bazel-gazelle",
-      "target": "benchsci/rules_nodejs_gazelle",
+      "target": "calsign/gazelle_rust",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "bazel-contrib/bazel-gazelle",
-      "target": "bazelbuild/rules_rust",
+      "target": "cgrindel/swift_gazelle_plugin",
       "target_type": "repository"
     },
     {
@@ -30,7 +30,7 @@
       "target_type": "repository"
     }
   ],
-  "fetched_at": "2026-04-23T19:53:50.801821+00:00",
+  "fetched_at": "2026-04-24T00:42:50.794848+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -68,12 +68,12 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "bazelbuild/rules_rust",
+      "full_name": "calsign/gazelle_rust",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "benchsci/rules_nodejs_gazelle",
+      "full_name": "cgrindel/swift_gazelle_plugin",
       "source_file": "README.md"
     }
   ],

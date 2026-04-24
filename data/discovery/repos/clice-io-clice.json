@@ -1,0 +1,497 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-llvm.yml"
+    },
+    {
+      "component": "jlumbroso/free-disk-space@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-llvm.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-llvm.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-llvm.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-llvm.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-llvm.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-llvm.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-llvm.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-llvm.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-llvm.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-llvm.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-format.yml"
+    },
+    {
+      "component": "huacnlee/autocorrect-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-format.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-docs.yml"
+    },
+    {
+      "component": "peaceiris/actions-gh-pages@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-docs.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "dorny/paths-filter@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "re-actors/alls-green@release/v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-clice.yml"
+    },
+    {
+      "component": "svenstaro/upload-release-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-clice.yml"
+    },
+    {
+      "component": "svenstaro/upload-release-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-clice.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-vscode.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-vscode.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-cmake.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-cmake.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-cmake.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-cmake.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-cmake.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/upload-llvm.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark.yml",
+      "source_repo": "clice-io/clice",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/benchmark.yml",
+      "source_repo": "clice-io/clice",
+      "target": "benchmark",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-llvm.yml",
+      "source_repo": "clice-io/clice",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-llvm.yml",
+      "source_repo": "clice-io/clice",
+      "target": "jlumbroso/free-disk-space@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-llvm.yml",
+      "source_repo": "clice-io/clice",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-llvm.yml",
+      "source_repo": "clice-io/clice",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-llvm.yml",
+      "source_repo": "clice-io/clice",
+      "target": "build llvm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-format.yml",
+      "source_repo": "clice-io/clice",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-format.yml",
+      "source_repo": "clice-io/clice",
+      "target": "huacnlee/autocorrect-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-format.yml",
+      "source_repo": "clice-io/clice",
+      "target": "format",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-docs.yml",
+      "source_repo": "clice-io/clice",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-docs.yml",
+      "source_repo": "clice-io/clice",
+      "target": "peaceiris/actions-gh-pages@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy-docs.yml",
+      "source_repo": "clice-io/clice",
+      "target": "deploy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "clice-io/clice",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "clice-io/clice",
+      "target": "dorny/paths-filter@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "clice-io/clice",
+      "target": "re-actors/alls-green@release/v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "clice-io/clice",
+      "target": "main",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-clice.yml",
+      "source_repo": "clice-io/clice",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-clice.yml",
+      "source_repo": "clice-io/clice",
+      "target": "svenstaro/upload-release-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-clice.yml",
+      "source_repo": "clice-io/clice",
+      "target": "clice",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-vscode.yml",
+      "source_repo": "clice-io/clice",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-vscode.yml",
+      "source_repo": "clice-io/clice",
+      "target": "softprops/action-gh-release@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-vscode.yml",
+      "source_repo": "clice-io/clice",
+      "target": "vscode",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-cmake.yml",
+      "source_repo": "clice-io/clice",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-cmake.yml",
+      "source_repo": "clice-io/clice",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-cmake.yml",
+      "source_repo": "clice-io/clice",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-cmake.yml",
+      "source_repo": "clice-io/clice",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-cmake.yml",
+      "source_repo": "clice-io/clice",
+      "target": "cmake",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/upload-llvm.yml",
+      "source_repo": "clice-io/clice",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/upload-llvm.yml",
+      "source_repo": "clice-io/clice",
+      "target": "upload-llvm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "clice-io/clice",
+      "target": "language-server",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T00:54:03.724801+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2334
+    },
+    {
+      "path": ".github/workflows/benchmark.yml",
+      "size": 1318
+    },
+    {
+      "path": ".github/workflows/build-llvm.yml",
+      "size": 15348
+    },
+    {
+      "path": ".github/workflows/check-format.yml",
+      "size": 1032
+    },
+    {
+      "path": ".github/workflows/deploy-docs.yml",
+      "size": 693
+    },
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 3925
+    },
+    {
+      "path": ".github/workflows/publish-clice.yml",
+      "size": 3358
+    },
+    {
+      "path": ".github/workflows/publish-vscode.yml",
+      "size": 985
+    },
+    {
+      "path": ".github/workflows/test-cmake.yml",
+      "size": 5463
+    },
+    {
+      "path": ".github/workflows/upload-llvm.yml",
+      "size": 1046
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A next-generation C++ language server for modern C++, focused on high performance and deep code intelligence",
+    "fork": false,
+    "full_name": "clice-io/clice",
+    "html_url": "https://github.com/clice-io/clice",
+    "language": "C++",
+    "pushed_at": "2026-04-23T21:01:59Z",
+    "stargazers_count": 1211,
+    "topics": [
+      "c",
+      "cpp",
+      "language-server"
+    ],
+    "updated_at": "2026-04-23T09:32:01Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "benchmark",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/benchmark.yml",
+      "term": "benchmark"
+    },
+    {
+      "context_snippet": "build llvm",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-llvm.yml",
+      "term": "build llvm"
+    },
+    {
+      "context_snippet": "format",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-format.yml",
+      "term": "format"
+    },
+    {
+      "context_snippet": "deploy",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy-docs.yml",
+      "term": "deploy"
+    },
+    {
+      "context_snippet": "main",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "term": "main"
+    },
+    {
+      "context_snippet": "clice",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-clice.yml",
+      "term": "clice"
+    },
+    {
+      "context_snippet": "vscode",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-vscode.yml",
+      "term": "vscode"
+    },
+    {
+      "context_snippet": "cmake",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-cmake.yml",
+      "term": "cmake"
+    },
+    {
+      "context_snippet": "upload-llvm",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/upload-llvm.yml",
+      "term": "upload-llvm"
+    },
+    {
+      "context_snippet": "<!-- Begin section: Overview -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "language-server"
+    }
+  ]
+}

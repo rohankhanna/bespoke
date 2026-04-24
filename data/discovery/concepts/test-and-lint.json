@@ -92,6 +92,18 @@
       "source_repo": "frinyvonnick/gitmoji-changelog",
       "status": "candidate-context",
       "text": "Test and lint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "chantera/python-lsp-isort",
+      "status": "candidate-context",
+      "text": "isort plugin for the Python LSP Server."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chantera/python-lsp-isort",
+      "status": "candidate-context",
+      "text": "Test and lint"
     }
   ],
   "candidate_glosses": [
@@ -134,6 +146,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "frinyvonnick/gitmoji-changelog",
+      "status": "candidate",
+      "text": "Test and lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chantera/python-lsp-isort",
       "status": "candidate",
       "text": "Test and lint"
     }
@@ -257,11 +275,23 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": ".github/workflows/test-and-lint.yml",
       "source_repo": "frinyvonnick/gitmoji-changelog"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "chantera/python-lsp-isort"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "joshsymonds/cc-tools"
     }
   ],
   "first_seen_at": "2026-04-18T12:46:59.510459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

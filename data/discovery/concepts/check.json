@@ -322,6 +322,36 @@
       "source_repo": "enisdenjo/graphql-ws",
       "status": "candidate-context",
       "text": "Check"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kvark/mint",
+      "status": "candidate-context",
+      "text": "Math Interoperability Types"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kvark/mint",
+      "status": "candidate-context",
+      "text": "check"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "conda-forge/admin-requests",
+      "status": "candidate-context",
+      "text": "check"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tpapp/julia-repl",
+      "status": "candidate-context",
+      "text": "Run an inferior Julia REPL in a terminal inside Emacs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tpapp/julia-repl",
+      "status": "candidate-context",
+      "text": "check"
     }
   ],
   "candidate_glosses": [
@@ -480,6 +510,24 @@
       "source_repo": "enisdenjo/graphql-ws",
       "status": "candidate",
       "text": "Check"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kvark/mint",
+      "status": "candidate",
+      "text": "check"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "conda-forge/admin-requests",
+      "status": "candidate",
+      "text": "check"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tpapp/julia-repl",
+      "status": "candidate",
+      "text": "check"
     }
   ],
   "candidate_related_terms": [
@@ -733,11 +781,29 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": ".github/workflows/check.yml",
       "source_repo": "enisdenjo/graphql-ws"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/check.yaml",
+      "source_repo": "kvark/mint"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/pr.yml",
+      "source_repo": "conda-forge/admin-requests"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/CI.yml",
+      "source_repo": "tpapp/julia-repl"
     }
   ],
   "first_seen_at": "2026-04-19T17:36:09.281008+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

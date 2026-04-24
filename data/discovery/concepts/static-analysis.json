@@ -286,6 +286,42 @@
       "source_repo": "soot-oss/soot",
       "status": "candidate-context",
       "text": "[![Build Status](https://github.com/soot-oss/soot/workflows/Soot%20CI/badge.svg?branch=develop)](https://github.com/soot-oss/soot/actions)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alexkohler/nakedret",
+      "status": "candidate-context",
+      "text": "nakedret is a Go static analysis tool to find naked returns in functions greater than a specified function length."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alexkohler/nakedret",
+      "status": "candidate-context",
+      "text": "nakedret is a Go static analysis tool to find naked returns in functions greater than a specified function length."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alexkohler/prealloc",
+      "status": "candidate-context",
+      "text": "prealloc is a Go static analysis tool to find slice declarations that could potentially be preallocated."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alexkohler/prealloc",
+      "status": "candidate-context",
+      "text": "prealloc is a Go static analysis tool to find slice declarations that could potentially be preallocated."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pylint-dev/astroid",
+      "status": "candidate-context",
+      "text": "A common base representation of python source code for pylint and other projects"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pylint-dev/astroid",
+      "status": "candidate-context",
+      "text": "Astroid"
     }
   ],
   "candidate_glosses": [
@@ -420,6 +456,24 @@
       "source_repo": "soot-oss/soot",
       "status": "candidate",
       "text": "[![Build Status](https://github.com/soot-oss/soot/workflows/Soot%20CI/badge.svg?branch=develop)](https://github.com/soot-oss/soot/actions)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alexkohler/nakedret",
+      "status": "candidate",
+      "text": "nakedret is a Go static analysis tool to find naked returns in functions greater than a specified function length."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alexkohler/prealloc",
+      "status": "candidate",
+      "text": "prealloc is a Go static analysis tool to find slice declarations that could potentially be preallocated."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pylint-dev/astroid",
+      "status": "candidate",
+      "text": "Astroid"
     }
   ],
   "candidate_related_terms": [
@@ -613,11 +667,35 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "soot-oss/soot"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "astral-sh/ruff"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "alexkohler/nakedret"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "alexkohler/prealloc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "pylint-dev/astroid"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "slide"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "icip-cas/PPTAgent",
+      "status": "candidate-context",
+      "text": "An Agentic Framework for Reflective PowerPoint Generation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "icip-cas/PPTAgent",
+      "status": "candidate-context",
+      "text": "<div align=\"right\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "icip-cas/PPTAgent",
+      "status": "candidate",
+      "text": "<div align=\"right\">"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40041593,
+      "status": "candidate",
+      "text": "glide"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40040661,
+      "status": "candidate",
+      "text": "slither"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40040398,
+      "status": "candidate",
+      "text": "swoop"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40040226,
+      "status": "candidate",
+      "text": "slew"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40039925,
+      "status": "candidate",
+      "text": "slue"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 41039,
+      "status": "candidate",
+      "text": "slew"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 39081,
+      "status": "candidate",
+      "text": "slip"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 23045,
+      "status": "candidate",
+      "text": "glide"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 22028,
+      "status": "candidate",
+      "text": "slue"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 15033,
+      "status": "candidate",
+      "text": "slither"
+    }
+  ],
+  "canonical_name": "slide",
+  "concept_id": "slide",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "icip-cas/PPTAgent"
+    }
+  ],
+  "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "slide",
+      "sense_id": "slide#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

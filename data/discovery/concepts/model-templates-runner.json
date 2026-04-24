@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Model templates runner"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/huggingface-transformers",
+      "status": "candidate-context",
+      "text": "\ud83e\udd17Transformers: State-of-the-art Natural Language Processing for Pytorch and TensorFlow 2.0."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/huggingface-transformers",
+      "status": "candidate-context",
+      "text": "Model templates runner"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/huggingface-transformers",
+      "status": "candidate",
+      "text": "Model templates runner"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22421,
+      "status": "candidate",
+      "text": "slide"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22390,
+      "status": "candidate",
+      "text": "chair"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22390,
+      "status": "candidate",
+      "text": "leg"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16198,
+      "status": "candidate",
+      "text": "designs"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16198,
+      "status": "candidate",
+      "text": "modelling"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Model templates runner",
+  "concept_id": "model-templates-runner",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/model-templates.yml",
+      "source_repo": "microsoft/huggingface-transformers"
+    }
+  ],
+  "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Model templates runner",
+      "sense_id": "model-templates-runner#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

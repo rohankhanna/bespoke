@@ -1,0 +1,188 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dismiss_approvals.yml",
+      "source_repo": "bazelbuild/bazel-central-registry",
+      "target": "step-security/harden-runner@8d3c67de8e2fe68ef647c8db1e6a09f647780f40",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dismiss_approvals.yml",
+      "source_repo": "bazelbuild/bazel-central-registry",
+      "target": "bazelbuild/continuous-integration/actions/bcr-pr-reviewer@f7f428909585a8f6ba46d0b622f8aa93b6c263cc",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dismiss_approvals.yml",
+      "source_repo": "bazelbuild/bazel-central-registry",
+      "target": "Dismiss Stale PR Approvals",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/enforce_tooling_sync.yml",
+      "source_repo": "bazelbuild/bazel-central-registry",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/enforce_tooling_sync.yml",
+      "source_repo": "bazelbuild/bazel-central-registry",
+      "target": "Enforce Tooling Sync",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate_module_diff.yml",
+      "source_repo": "bazelbuild/bazel-central-registry",
+      "target": "step-security/harden-runner@8d3c67de8e2fe68ef647c8db1e6a09f647780f40",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate_module_diff.yml",
+      "source_repo": "bazelbuild/bazel-central-registry",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate_module_diff.yml",
+      "source_repo": "bazelbuild/bazel-central-registry",
+      "target": "bazelbuild/continuous-integration/actions/bcr-pr-reviewer@f7f428909585a8f6ba46d0b622f8aa93b6c263cc",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/generate_module_diff.yml",
+      "source_repo": "bazelbuild/bazel-central-registry",
+      "target": "Generate module diff",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/handle_comment.yml",
+      "source_repo": "bazelbuild/bazel-central-registry",
+      "target": "step-security/harden-runner@8d3c67de8e2fe68ef647c8db1e6a09f647780f40",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/handle_comment.yml",
+      "source_repo": "bazelbuild/bazel-central-registry",
+      "target": "bazelbuild/continuous-integration/actions/bcr-pr-reviewer@f7f428909585a8f6ba46d0b622f8aa93b6c263cc",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/handle_comment.yml",
+      "source_repo": "bazelbuild/bazel-central-registry",
+      "target": "Handle Comment Commands",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/notify_maintainers.yml",
+      "source_repo": "bazelbuild/bazel-central-registry",
+      "target": "step-security/harden-runner@8d3c67de8e2fe68ef647c8db1e6a09f647780f40",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/notify_maintainers.yml",
+      "source_repo": "bazelbuild/bazel-central-registry",
+      "target": "bazelbuild/continuous-integration/actions/bcr-pr-reviewer@f7f428909585a8f6ba46d0b622f8aa93b6c263cc",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/notify_maintainers.yml",
+      "source_repo": "bazelbuild/bazel-central-registry",
+      "target": "Notify Module Maintainers For PR Review",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "bazelbuild/bazel-central-registry",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "bazelbuild/bazel-central-registry",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "bazelbuild/bazel-central-registry",
+      "target": "pre-commit/action@v3.0.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "bazelbuild/bazel-central-registry",
+      "target": "pre-commit",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/review_prs.yml",
+      "source_repo": "bazelbuild/bazel-central-registry",
+      "target": "step-security/harden-runner@8d3c67de8e2fe68ef647c8db1e6a09f647780f40",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/review_prs.yml",
+      "source_repo": "bazelbuild/bazel-central-registry",
+      "target": "bazelbuild/continuous-integration/actions/bcr-pr-reviewer@f7f428909585a8f6ba46d0b622f8aa93b6c263cc",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/review_prs.yml",
+      "source_repo": "bazelbuild/bazel-central-registry",
+      "target": "Review BCR Pull Requests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/skip_check.yml",
+      "source_repo": "bazelbuild/bazel-central-registry",
+      "target": "step-security/harden-runner@8d3c67de8e2fe68ef647c8db1e6a09f647780f40",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/skip_check.yml",
+      "source_repo": "bazelbuild/bazel-central-registry",
+      "target": "bazelbuild/continuous-integration/actions/bcr-pr-reviewer@f7f428909585a8f6ba46d0b622f8aa93b6c263cc",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "bazelbuild/bazel-central-registry",
+      "target": "actions/stale@v10",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "bazelbuild/bazel-central-registry",
+      "target": "Mark stale pull requests",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-24T00:33:56.049672+00:00",
+  "source_repo": "bazelbuild/bazel-central-registry"
+}

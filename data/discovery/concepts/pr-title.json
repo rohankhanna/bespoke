@@ -61,6 +61,18 @@
       "source_repo": "folke/flash.nvim",
       "status": "candidate-context",
       "text": "PR Title"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "teacher-zhou/ComponentBuilder",
+      "status": "candidate-context",
+      "text": "An automation framework to create Blazor component"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "teacher-zhou/ComponentBuilder",
+      "status": "candidate-context",
+      "text": "PR Title"
     }
   ],
   "candidate_glosses": [
@@ -91,6 +103,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "folke/flash.nvim",
+      "status": "candidate",
+      "text": "PR Title"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "teacher-zhou/ComponentBuilder",
       "status": "candidate",
       "text": "PR Title"
     }
@@ -172,11 +190,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": ".github/workflows/pr.yml",
       "source_repo": "folke/flash.nvim"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/pr-title-commit.yml",
+      "source_repo": "teacher-zhou/ComponentBuilder"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

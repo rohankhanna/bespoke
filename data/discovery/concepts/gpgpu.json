@@ -55,6 +55,18 @@
       "source_repo": "arrayfire/arrayfire",
       "status": "candidate-context",
       "text": "<p align=\"center\"><a href=\"http://arrayfire.com/\"><img src=\"http://arrayfire.com/logos/arrayfire_logo_whitebkgnd.png\" width=\"800\"></a></p>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ashvardanian/ParallelReductionsBenchmark",
+      "status": "candidate-context",
+      "text": "Thrust, CUB, TBB, AVX2, AVX-512, CUDA, OpenCL, OpenMP, Metal, and Rust - all it takes to sum a lot of numbers fast!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ashvardanian/ParallelReductionsBenchmark",
+      "status": "candidate-context",
+      "text": "__For CPUs and GPUs in C++, CUDA, and Rust__"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +93,12 @@
       "source_repo": "arrayfire/arrayfire",
       "status": "candidate",
       "text": "<p align=\"center\"><a href=\"http://arrayfire.com/\"><img src=\"http://arrayfire.com/logos/arrayfire_logo_whitebkgnd.png\" width=\"800\"></a></p>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ashvardanian/ParallelReductionsBenchmark",
+      "status": "candidate",
+      "text": "__For CPUs and GPUs in C++, CUDA, and Rust__"
     }
   ],
   "candidate_related_terms": [
@@ -148,11 +166,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "arrayfire/arrayfire"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "ashvardanian/ParallelReductionsBenchmark"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

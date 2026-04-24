@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-24T02:01:27.559469+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2392
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A series of tutorial notebooks on denoising diffusion probabilistic models in PyTorch",
+    "fork": false,
+    "full_name": "acids-ircam/diffusion_models",
+    "html_url": "https://github.com/acids-ircam/diffusion_models",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2022-11-12T03:32:43Z",
+    "stargazers_count": 721,
+    "topics": [],
+    "updated_at": "2026-04-10T19:33:43Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

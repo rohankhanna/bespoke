@@ -1,0 +1,108 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Dart and Flutter development support for the Eclipse IDE "
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![Build Status](https://img.shields.io/github/actions/workflow/status/dart4e/dart4e/build.yml?logo=github)](https://github.com/dart4e/dart4e/actions/workflows/build.yml)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![Build Status](https://img.shields.io/github/actions/workflow/status/dart4e/dart4e/build.yml?logo=github)](https://github.com/dart4e/dart4e/actions/workflows/build.yml)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39720265,
+      "status": "candidate",
+      "text": "overshadow"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39685389,
+      "status": "candidate",
+      "text": "occult"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29890170,
+      "status": "candidate",
+      "text": "moon"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29889307,
+      "status": "candidate",
+      "text": "sun"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29832235,
+      "status": "candidate",
+      "text": "org"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "eclipse",
+      "sense_id": "eclipse#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 28049,
+      "status": "candidate",
+      "text": "occult"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 13031,
+      "status": "candidate",
+      "text": "overshadow"
+    }
+  ],
+  "concept_id": "eclipse",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "eclipse",
+  "observation_id": "edcb00857ce56020",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T00:33:56.049672+00:00",
+  "observed_text": "eclipse",
+  "source_context_snippet": "[![Build Status](https://img.shields.io/github/actions/workflow/status/dart4e/dart4e/build.yml?logo=github)](https://github.com/dart4e/dart4e/actions/workflows/build.yml)",
+  "source_file": null,
+  "source_repo": "dart4e/dart4e",
+  "source_repo_description": "Dart and Flutter development support for the Eclipse IDE "
+}

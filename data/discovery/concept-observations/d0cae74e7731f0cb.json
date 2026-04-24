@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Modular in-buffer completion framework for Emacs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "See the homepage for [installation and usage instructions](http://company-mode.github.io/)."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "See the homepage for [installation and usage instructions](http://company-mode.github.io/)."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "emacs-lisp",
+      "sense_id": "emacs-lisp#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "emacs-lisp",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "emacs-lisp",
+  "observation_id": "d0cae74e7731f0cb",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T00:33:56.049672+00:00",
+  "observed_text": "emacs-lisp",
+  "source_context_snippet": "See the homepage for [installation and usage instructions](http://company-mode.github.io/).",
+  "source_file": null,
+  "source_repo": "company-mode/company-mode",
+  "source_repo_description": "Modular in-buffer completion framework for Emacs"
+}

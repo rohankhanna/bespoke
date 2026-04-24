@@ -1,0 +1,163 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "vshymanskyy/StandWithUkraine",
+      "target": "blynkkk/blynk-library",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "vshymanskyy/StandWithUkraine",
+      "target": "bcryptnet/bcrypt.net",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "vshymanskyy/StandWithUkraine",
+      "target": "cesiumlabs/canvacord",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "vshymanskyy/StandWithUkraine",
+      "target": "bootscore/bootscore",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vshymanskyy/StandWithUkraine",
+      "target": "belarus",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vshymanskyy/StandWithUkraine",
+      "target": "russia",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vshymanskyy/StandWithUkraine",
+      "target": "standwithukraine",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vshymanskyy/StandWithUkraine",
+      "target": "stopputinnow",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vshymanskyy/StandWithUkraine",
+      "target": "stoprussionagression",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vshymanskyy/StandWithUkraine",
+      "target": "ukraine",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T01:54:46.024869+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8340
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "#StandWithUkraine banner and related documents",
+    "fork": false,
+    "full_name": "vshymanskyy/StandWithUkraine",
+    "html_url": "https://github.com/vshymanskyy/StandWithUkraine",
+    "language": "JavaScript",
+    "pushed_at": "2025-09-19T16:56:37Z",
+    "stargazers_count": 1535,
+    "topics": [
+      "belarus",
+      "russia",
+      "standwithukraine",
+      "stopputinnow",
+      "stoprussionagression",
+      "ukraine"
+    ],
+    "updated_at": "2026-04-23T11:51:35Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bcryptnet/bcrypt.net",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "blynkkk/blynk-library",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bootscore/bootscore",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cesiumlabs/canvacord",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![GitHub stars](https://img.shields.io/github/stars/vshymanskyy/StandWithUkraine.svg)](https://github.com/vshymanskyy/StandWithUkraine/stargazers)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "belarus"
+    },
+    {
+      "context_snippet": "[![GitHub stars](https://img.shields.io/github/stars/vshymanskyy/StandWithUkraine.svg)](https://github.com/vshymanskyy/StandWithUkraine/stargazers)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "russia"
+    },
+    {
+      "context_snippet": "[![GitHub stars](https://img.shields.io/github/stars/vshymanskyy/StandWithUkraine.svg)](https://github.com/vshymanskyy/StandWithUkraine/stargazers)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "standwithukraine"
+    },
+    {
+      "context_snippet": "[![GitHub stars](https://img.shields.io/github/stars/vshymanskyy/StandWithUkraine.svg)](https://github.com/vshymanskyy/StandWithUkraine/stargazers)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "stopputinnow"
+    },
+    {
+      "context_snippet": "[![GitHub stars](https://img.shields.io/github/stars/vshymanskyy/StandWithUkraine.svg)](https://github.com/vshymanskyy/StandWithUkraine/stargazers)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "stoprussionagression"
+    },
+    {
+      "context_snippet": "[![GitHub stars](https://img.shields.io/github/stars/vshymanskyy/StandWithUkraine.svg)](https://github.com/vshymanskyy/StandWithUkraine/stargazers)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ukraine"
+    }
+  ]
+}

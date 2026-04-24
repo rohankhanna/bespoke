@@ -1,0 +1,69 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "paambaati/codeclimate-action@v3.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "CocoaPods/CLAide",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "CocoaPods/CLAide",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "CocoaPods/CLAide",
+      "target": "paambaati/codeclimate-action@v3.0.0",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-24T00:34:31.861129+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4584
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 988
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A small command-line interface framework.",
+    "fork": false,
+    "full_name": "CocoaPods/CLAide",
+    "html_url": "https://github.com/CocoaPods/CLAide",
+    "language": "Ruby",
+    "pushed_at": "2024-02-07T16:59:01Z",
+    "stargazers_count": 198,
+    "topics": [],
+    "updated_at": "2026-01-27T15:22:11Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

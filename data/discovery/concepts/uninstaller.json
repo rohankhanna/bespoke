@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "uninstaller"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vim-denops/denops-shared-server.vim",
+      "status": "candidate-context",
+      "text": "\ud83c\udf83 Vim plugin to help install/uninstall denops-shared-server"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vim-denops/denops-shared-server.vim",
+      "status": "candidate-context",
+      "text": "[![Denops.vim 7.0.0 or above]][Denops.vim-v7.0.0]"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vim-denops/denops-shared-server.vim",
+      "status": "candidate",
+      "text": "[![Denops.vim 7.0.0 or above]][Denops.vim-v7.0.0]"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19974087,
+      "status": "candidate",
+      "text": "uninstallation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19974086,
+      "status": "candidate",
+      "text": "uninstall"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19974085,
+      "status": "candidate",
+      "text": "unlinker"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19974084,
+      "status": "candidate",
+      "text": "deinstallation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19974083,
+      "status": "candidate",
+      "text": "unplugging"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "uninstaller",
+  "concept_id": "uninstaller",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "vim-denops/denops-shared-server.vim"
+    }
+  ],
+  "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "uninstaller",
+      "sense_id": "uninstaller#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

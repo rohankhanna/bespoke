@@ -1,7 +1,7 @@
 {
   "component": "docker/login-action@v4",
   "first_seen_at": "2026-04-18T03:26:22.590180+00:00",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -352,6 +352,46 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/build-publish.yml",
       "source_repo": "nginx-proxy/docker-gen"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docker-build-env.yml",
+      "source_repo": "theimpossibleastronaut/rmw"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "theimpossibleastronaut/rmw"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/call-build-images.yaml",
+      "source_repo": "fluent/fluent-bit"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/call-integration-image-build.yaml",
+      "source_repo": "fluent/fluent-bit"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docker-publish-latest.yml",
+      "source_repo": "browserless/browserless"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docker-publish-stable.yml",
+      "source_repo": "browserless/browserless"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "operator-framework/operator-sdk"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/freshen-images.yml",
+      "source_repo": "operator-framework/operator-sdk"
     }
   ]
 }

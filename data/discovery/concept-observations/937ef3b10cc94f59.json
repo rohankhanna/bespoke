@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Returns true if the given value is an object created by the Object constructor."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "> Returns true if an object was created by the `Object` constructor, or Object.create(null)."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "> Returns true if an object was created by the `Object` constructor, or Object.create(null)."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "is-plain-obj",
+      "sense_id": "is-plain-obj#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "is-plain-obj",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "is-plain-obj",
+  "observation_id": "937ef3b10cc94f59",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T00:33:56.049672+00:00",
+  "observed_text": "is-plain-obj",
+  "source_context_snippet": "> Returns true if an object was created by the `Object` constructor, or Object.create(null).",
+  "source_file": null,
+  "source_repo": "jonschlinkert/is-plain-object",
+  "source_repo_description": "Returns true if the given value is an object created by the Object constructor."
+}

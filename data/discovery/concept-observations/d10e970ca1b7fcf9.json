@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A scoop bucket for installing nerd fonts"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Commented Pull Request"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Commented Pull Request"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24495,
+      "status": "candidate",
+      "text": "approved"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24476,
+      "status": "candidate",
+      "text": "comment"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24476,
+      "status": "candidate",
+      "text": "discussed"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24476,
+      "status": "candidate",
+      "text": "note"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22496,
+      "status": "candidate",
+      "text": "back"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Commented Pull Request",
+      "sense_id": "commented-pull-request#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "commented-pull-request",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "commented-pull-request",
+  "observation_id": "d10e970ca1b7fcf9",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-24T00:33:56.049672+00:00",
+  "observed_text": "Commented Pull Request",
+  "source_context_snippet": "Commented Pull Request",
+  "source_file": ".github/workflows/issue_comment.yml",
+  "source_repo": "matthewjberger/scoop-nerd-fonts",
+  "source_repo_description": "A scoop bucket for installing nerd fonts"
+}

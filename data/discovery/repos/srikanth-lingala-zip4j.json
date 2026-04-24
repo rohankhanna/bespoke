@@ -1,0 +1,138 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven.yml"
+    },
+    {
+      "component": "actions/setup-java@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven.yml"
+    },
+    {
+      "component": "actions/setup-java@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven.yml",
+      "source_repo": "srikanth-lingala/zip4j",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven.yml",
+      "source_repo": "srikanth-lingala/zip4j",
+      "target": "actions/setup-java@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/maven.yml",
+      "source_repo": "srikanth-lingala/zip4j",
+      "target": "Verify Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "srikanth-lingala/zip4j",
+      "target": "java-zip",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "srikanth-lingala/zip4j",
+      "target": "split-zip",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "srikanth-lingala/zip4j",
+      "target": "zip-encryption",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "srikanth-lingala/zip4j",
+      "target": "zip4j",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T01:58:25.452985+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 27619
+    },
+    {
+      "path": ".github/workflows/maven.yml",
+      "size": 867
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A Java library for zip files and streams",
+    "fork": false,
+    "full_name": "srikanth-lingala/zip4j",
+    "html_url": "https://github.com/srikanth-lingala/zip4j",
+    "language": "Java",
+    "pushed_at": "2026-03-11T10:14:04Z",
+    "stargazers_count": 2215,
+    "topics": [
+      "java-zip",
+      "split-zip",
+      "zip-encryption",
+      "zip4j"
+    ],
+    "updated_at": "2026-04-22T05:41:56Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Verify Build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/maven.yml",
+      "term": "Verify Build"
+    },
+    {
+      "context_snippet": "[![javadoc](https://javadoc.io/badge2/net.lingala.zip4j/zip4j/javadoc.svg)](https://javadoc.io/doc/net.lingala.zip4j/zip4j)net.lingala.zip4j",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "java-zip"
+    },
+    {
+      "context_snippet": "[![javadoc](https://javadoc.io/badge2/net.lingala.zip4j/zip4j/javadoc.svg)](https://javadoc.io/doc/net.lingala.zip4j/zip4j)net.lingala.zip4j",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "split-zip"
+    },
+    {
+      "context_snippet": "[![javadoc](https://javadoc.io/badge2/net.lingala.zip4j/zip4j/javadoc.svg)](https://javadoc.io/doc/net.lingala.zip4j/zip4j)net.lingala.zip4j",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "zip-encryption"
+    },
+    {
+      "context_snippet": "[![javadoc](https://javadoc.io/badge2/net.lingala.zip4j/zip4j/javadoc.svg)](https://javadoc.io/doc/net.lingala.zip4j/zip4j)net.lingala.zip4j",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "zip4j"
+    }
+  ]
+}

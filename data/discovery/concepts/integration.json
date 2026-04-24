@@ -6,7 +6,9 @@
   "ambiguity_status": "unresolved",
   "buckets": [
     "workflow-process",
-    "data-document-artifact"
+    "data-document-artifact",
+    "tool-component",
+    "capability"
   ],
   "candidate_definitions": [
     {
@@ -152,6 +154,30 @@
       "source_repo": "camping/camping",
       "status": "candidate-context",
       "text": "Integration"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/camel",
+      "status": "candidate-context",
+      "text": "Apache Camel is an open source integration framework that empowers you to quickly and easily integrate various systems consuming or producing data."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/camel",
+      "status": "candidate-context",
+      "text": "[![Maven Central](https://img.shields.io/maven-central/v/org.apache.camel/apache-camel.svg?label=Maven%20Central)](https://central.sonatype.com/artifact/org.apache.camel/apache-camel)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "operator-framework/operator-sdk",
+      "status": "candidate-context",
+      "text": "SDK for building Kubernetes applications. Provides high level APIs, useful abstractions, and project scaffolding."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "operator-framework/operator-sdk",
+      "status": "candidate-context",
+      "text": "integration"
     }
   ],
   "candidate_glosses": [
@@ -226,6 +252,18 @@
       "source_repo": "camping/camping",
       "status": "candidate",
       "text": "Integration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/camel",
+      "status": "candidate",
+      "text": "[![Maven Central](https://img.shields.io/maven-central/v/org.apache.camel/apache-camel.svg?label=Maven%20Central)](https://central.sonatype.com/artifact/org.apache.camel/apache-camel)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "operator-framework/operator-sdk",
+      "status": "candidate",
+      "text": "integration"
     }
   ],
   "candidate_related_terms": [
@@ -369,11 +407,23 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": ".github/workflows/integration.yml",
       "source_repo": "camping/camping"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "apache/camel"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/integration.yml",
+      "source_repo": "operator-framework/operator-sdk"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

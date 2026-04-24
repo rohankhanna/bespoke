@@ -1,0 +1,129 @@
+{
+  "components": [
+    {
+      "component": "create-react-class",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint-config-mlmorg",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "react",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "react-dom",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "tap-spec",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "tape",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "react",
+      "edge_type": "package-json:peerDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "mlmorg/react-hyperscript",
+      "target": "create-react-class",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "mlmorg/react-hyperscript",
+      "target": "eslint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "mlmorg/react-hyperscript",
+      "target": "eslint-config-mlmorg",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "mlmorg/react-hyperscript",
+      "target": "react",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "mlmorg/react-hyperscript",
+      "target": "react-dom",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "mlmorg/react-hyperscript",
+      "target": "tap-spec",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "mlmorg/react-hyperscript",
+      "target": "tape",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:peerDependencies",
+      "source_file": "package.json",
+      "source_repo": "mlmorg/react-hyperscript",
+      "target": "react",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-24T01:40:42.267791+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1663
+    },
+    {
+      "path": "package.json",
+      "size": 1139
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Hyperscript syntax for React.js markup",
+    "fork": false,
+    "full_name": "mlmorg/react-hyperscript",
+    "html_url": "https://github.com/mlmorg/react-hyperscript",
+    "language": "JavaScript",
+    "pushed_at": "2021-12-30T17:05:31Z",
+    "stargazers_count": 712,
+    "topics": [],
+    "updated_at": "2026-03-05T15:04:25Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

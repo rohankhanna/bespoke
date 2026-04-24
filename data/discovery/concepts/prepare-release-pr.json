@@ -1,0 +1,118 @@
+{
+  "aliases": [
+    "Prepare Release PR"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "newrelic/newrelic-node-apollo-server-plugin",
+      "status": "candidate-context",
+      "text": "Prepare Release PR"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "newrelic/node-native-metrics",
+      "status": "candidate-context",
+      "text": "Optional native module for collecting low-level Node & V8 metrics"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "newrelic/node-native-metrics",
+      "status": "candidate-context",
+      "text": "Prepare Release PR"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "newrelic/newrelic-node-apollo-server-plugin",
+      "status": "candidate",
+      "text": "Prepare Release PR"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "newrelic/node-native-metrics",
+      "status": "candidate",
+      "text": "Prepare Release PR"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20027,
+      "status": "candidate",
+      "text": "trail"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19855,
+      "status": "candidate",
+      "text": "summarize"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19845,
+      "status": "candidate",
+      "text": "ink"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19784,
+      "status": "candidate",
+      "text": "hype"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19744,
+      "status": "candidate",
+      "text": "press"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Prepare Release PR",
+  "concept_id": "prepare-release-pr",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/prepare-release.yml",
+      "source_repo": "newrelic/newrelic-node-apollo-server-plugin"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/prepare-release.yml",
+      "source_repo": "newrelic/node-native-metrics"
+    }
+  ],
+  "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Prepare Release PR",
+      "sense_id": "prepare-release-pr#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

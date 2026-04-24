@@ -178,6 +178,18 @@
       "source_repo": "enisdenjo/graphql-ws",
       "status": "candidate-context",
       "text": "Website"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "graphql-hive/graphql-eslint",
+      "status": "candidate-context",
+      "text": "ESLint parser, plugin, and rule set for GraphQL (for schema and operations). Easily customizable with custom rules. Integrates with IDEs and modern GraphQL tools."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "graphql-hive/graphql-eslint",
+      "status": "candidate-context",
+      "text": "Website"
     }
   ],
   "candidate_glosses": [
@@ -262,6 +274,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "enisdenjo/graphql-ws",
+      "status": "candidate",
+      "text": "Website"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "graphql-hive/graphql-eslint",
       "status": "candidate",
       "text": "Website"
     }
@@ -427,11 +445,23 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": ".github/workflows/website.yml",
       "source_repo": "enisdenjo/graphql-ws"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "jj-vcs/jj"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/website.yml",
+      "source_repo": "graphql-hive/graphql-eslint"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

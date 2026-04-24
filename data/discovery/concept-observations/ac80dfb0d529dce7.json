@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "tap-producing test harness for node and browsers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "'Tests: node.js 10 - 20'"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "'Tests: node.js 10 - 20'"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 48077,
+      "status": "candidate",
+      "text": "half"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28045,
+      "status": "candidate",
+      "text": "field"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28045,
+      "status": "candidate",
+      "text": "semiarid"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27980,
+      "status": "candidate",
+      "text": "anti-personnel bomb"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27980,
+      "status": "candidate",
+      "text": "antipersonnel bomb"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Tests: node.js 10 - 20",
+      "sense_id": "tests-node.js-10---20#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "tests-node.js-10---20",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "tests-node.js-10---20",
+  "observation_id": "ac80dfb0d529dce7",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-24T00:33:56.049672+00:00",
+  "observed_text": "Tests: node.js 10 - 20",
+  "source_context_snippet": "'Tests: node.js 10 - 20'",
+  "source_file": ".github/workflows/node-tens.yml",
+  "source_repo": "tape-testing/tape",
+  "source_repo_description": "tap-producing test harness for node and browsers"
+}

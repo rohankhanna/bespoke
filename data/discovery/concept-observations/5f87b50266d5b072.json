@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "High-level tracing language for Linux"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Generate Issue and PR Metrics"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Generate Issue and PR Metrics"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23164,
+      "status": "candidate",
+      "text": "rhythm"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22126,
+      "status": "candidate",
+      "text": "call"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22103,
+      "status": "candidate",
+      "text": "create"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22103,
+      "status": "candidate",
+      "text": "earn"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22080,
+      "status": "candidate",
+      "text": "spring"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Generate Issue and PR Metrics",
+      "sense_id": "generate-issue-and-pr-metrics#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "generate-issue-and-pr-metrics",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "generate-issue-and-pr-metrics",
+  "observation_id": "5f87b50266d5b072",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-24T00:33:56.049672+00:00",
+  "observed_text": "Generate Issue and PR Metrics",
+  "source_context_snippet": "Generate Issue and PR Metrics",
+  "source_file": ".github/workflows/issue-metrics.yml",
+  "source_repo": "bpftrace/bpftrace",
+  "source_repo_description": "High-level tracing language for Linux"
+}

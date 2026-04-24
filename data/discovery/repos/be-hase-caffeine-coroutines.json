@@ -1,0 +1,188 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-java@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "gradle/actions/setup-gradle@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-java@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "be-hase/gradle-dependency-diff-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-maven-central.yml"
+    },
+    {
+      "component": "actions/setup-java@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-maven-central.yml"
+    },
+    {
+      "component": "gradle/actions/setup-gradle@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-maven-central.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "be-hase/caffeine-coroutines",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "be-hase/caffeine-coroutines",
+      "target": "actions/setup-java@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "be-hase/caffeine-coroutines",
+      "target": "gradle/actions/setup-gradle@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "be-hase/caffeine-coroutines",
+      "target": "be-hase/gradle-dependency-diff-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-maven-central.yml",
+      "source_repo": "be-hase/caffeine-coroutines",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-maven-central.yml",
+      "source_repo": "be-hase/caffeine-coroutines",
+      "target": "actions/setup-java@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-maven-central.yml",
+      "source_repo": "be-hase/caffeine-coroutines",
+      "target": "gradle/actions/setup-gradle@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-maven-central.yml",
+      "source_repo": "be-hase/caffeine-coroutines",
+      "target": "Publish Maven Central",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "be-hase/caffeine-coroutines",
+      "target": "cache",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "be-hase/caffeine-coroutines",
+      "target": "caffeine",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "be-hase/caffeine-coroutines",
+      "target": "kotlin",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T01:49:32.940958+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1923
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 978
+    },
+    {
+      "path": ".github/workflows/publish-maven-central.yml",
+      "size": 1023
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A simple extension that adds Kotlin Coroutines support to caffeine",
+    "fork": false,
+    "full_name": "be-hase/caffeine-coroutines",
+    "html_url": "https://github.com/be-hase/caffeine-coroutines",
+    "language": "Kotlin",
+    "pushed_at": "2026-04-23T15:16:19Z",
+    "stargazers_count": 32,
+    "topics": [
+      "cache",
+      "caffeine",
+      "kotlin"
+    ],
+    "updated_at": "2026-04-23T15:16:08Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Publish Maven Central",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-maven-central.yml",
+      "term": "Publish Maven Central"
+    },
+    {
+      "context_snippet": "![Maven Central Version](https://img.shields.io/maven-central/v/dev.hsbrysk/caffeine-coroutines)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cache"
+    },
+    {
+      "context_snippet": "![Maven Central Version](https://img.shields.io/maven-central/v/dev.hsbrysk/caffeine-coroutines)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "caffeine"
+    },
+    {
+      "context_snippet": "![Maven Central Version](https://img.shields.io/maven-central/v/dev.hsbrysk/caffeine-coroutines)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kotlin"
+    }
+  ]
+}

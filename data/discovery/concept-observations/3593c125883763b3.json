@@ -1,0 +1,124 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "run"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "run"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40034471,
+      "status": "candidate",
+      "text": "scarper"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40034337,
+      "status": "candidate",
+      "text": "run away"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40033869,
+      "status": "candidate",
+      "text": "turn tail"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40031958,
+      "status": "candidate",
+      "text": "break away"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40031875,
+      "status": "candidate",
+      "text": "track down"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "run",
+      "sense_id": "run#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 42067,
+      "status": "candidate",
+      "text": "work"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 38093,
+      "status": "candidate",
+      "text": "lead"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 37073,
+      "status": "candidate",
+      "text": "discharge"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 34035,
+      "status": "candidate",
+      "text": "endure"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 32072,
+      "status": "candidate",
+      "text": "flow"
+    }
+  ],
+  "concept_id": "run",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "run",
+  "observation_id": "3593c125883763b3",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-24T00:33:56.049672+00:00",
+  "observed_text": "run",
+  "source_context_snippet": "run",
+  "source_file": ".github/workflows/main.yml",
+  "source_repo": "conda-forge/admin-requests",
+  "source_repo_description": null
+}

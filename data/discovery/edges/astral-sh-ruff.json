@@ -4,21 +4,21 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "astral-sh/ruff",
-      "target": "apache/airflow",
+      "target": "astral-sh/ruff-vscode",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "astral-sh/ruff",
-      "target": "apache/superset",
+      "target": "astral-sh/ruff-pre-commit",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "astral-sh/ruff",
-      "target": "asottile/pyupgrade",
+      "target": "astral-sh/ruff-action",
       "target_type": "repository"
     },
     {
@@ -428,6 +428,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-04-23T04:27:42.433064+00:00",
+  "generated_at": "2026-04-24T00:33:56.049672+00:00",
   "source_repo": "astral-sh/ruff"
 }

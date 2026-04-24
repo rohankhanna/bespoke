@@ -31,6 +31,18 @@
       "source_repo": "cross-rs/cross",
       "status": "candidate-context",
       "text": "[![crates.io](https://img.shields.io/crates/v/cross.svg)](https://crates.io/crates/cross)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "japaric/rust-cross",
+      "status": "candidate-context",
+      "text": "Everything you need to know about cross compiling Rust programs!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "japaric/rust-cross",
+      "status": "candidate-context",
+      "text": "[![travis-badge][]][travis]"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "cross-rs/cross",
       "status": "candidate",
       "text": "[![crates.io](https://img.shields.io/crates/v/cross.svg)](https://crates.io/crates/cross)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "japaric/rust-cross",
+      "status": "candidate",
+      "text": "[![travis-badge][]][travis]"
     }
   ],
   "candidate_related_terms": [],
@@ -64,11 +82,17 @@
       "observed_at": "2026-04-22T01:04:16.609102+00:00",
       "source_file": null,
       "source_repo": "cross-rs/cross"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "japaric/rust-cross"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

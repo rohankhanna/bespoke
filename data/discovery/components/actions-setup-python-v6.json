@@ -1,7 +1,7 @@
 {
   "component": "actions/setup-python@v6",
   "first_seen_at": "2026-04-18T03:26:22.590180+00:00",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -2377,6 +2377,116 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/haliax-run_tests.yaml",
       "source_repo": "marin-community/marin"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "bazelbuild/bazel-central-registry"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pypi.yml",
+      "source_repo": "authlib/authlib"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "autofac/Autofac"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docs.yaml",
+      "source_repo": "redis/redis-py"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/integration.yaml",
+      "source_repo": "redis/redis-py"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pypi-publish.yaml",
+      "source_repo": "redis/redis-py"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/check-container-versions.yml",
+      "source_repo": "apache/camel"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci-lint-test.yml",
+      "source_repo": "jaegertracing/jaeger-idl"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/integration-tests.yml",
+      "source_repo": "celery/celery"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/python-package.yml",
+      "source_repo": "celery/celery"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/smoke-tests.yml",
+      "source_repo": "celery/celery"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/infra.yml",
+      "source_repo": "microsoft/playwright"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/python-quality.yml",
+      "source_repo": "huggingface/huggingface_hub"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/python-release-hf.yml",
+      "source_repo": "huggingface/huggingface_hub"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build_pr_documentation.yml",
+      "source_repo": "huggingface/optimum-onnx"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test_cli.yml",
+      "source_repo": "huggingface/optimum-onnx"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test_exporters_common.yml",
+      "source_repo": "huggingface/optimum-onnx"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test_exporters_onnx.yml",
+      "source_repo": "huggingface/optimum-onnx"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test_exporters_onnx_cli.yml",
+      "source_repo": "huggingface/optimum-onnx"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ultralytics/llm"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/tag.yml",
+      "source_repo": "ultralytics/llm"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "gruns/icecream"
     }
   ]
 }

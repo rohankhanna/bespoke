@@ -1,0 +1,86 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "[MIRROR] Alpine packages build scripts"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "This repository contains the APKBUILD files for each and every"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "This repository contains the APKBUILD files for each and every"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19997892,
+      "status": "candidate",
+      "text": "helm"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9998014,
+      "status": "candidate",
+      "text": "aboard"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9986091,
+      "status": "candidate",
+      "text": "ashore"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9831979,
+      "status": "candidate",
+      "text": "offshore"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "aports",
+      "sense_id": "aports#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "aports",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "aports",
+  "observation_id": "543aa1119009fd69",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T00:33:56.049672+00:00",
+  "observed_text": "aports",
+  "source_context_snippet": "This repository contains the APKBUILD files for each and every",
+  "source_file": null,
+  "source_repo": "alpinelinux/aports",
+  "source_repo_description": "[MIRROR] Alpine packages build scripts"
+}

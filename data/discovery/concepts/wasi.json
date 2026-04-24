@@ -31,6 +31,18 @@
       "source_repo": "enbop/fungi",
       "status": "candidate-context",
       "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "WebAssembly/WASI",
+      "status": "candidate-context",
+      "text": "WebAssembly System Interface"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "WebAssembly/WASI",
+      "status": "candidate-context",
+      "text": "<img width=\"100px\" src=\"assets/WASI.png\">"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "enbop/fungi",
       "status": "candidate",
       "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "WebAssembly/WASI",
+      "status": "candidate",
+      "text": "<img width=\"100px\" src=\"assets/WASI.png\">"
     }
   ],
   "candidate_related_terms": [
@@ -93,11 +111,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "enbop/fungi"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "WebAssembly/WASI"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

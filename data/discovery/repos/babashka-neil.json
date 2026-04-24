@@ -1,0 +1,298 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bb-run-lint.yml"
+    },
+    {
+      "component": "DeLaGuardo/setup-clojure@9.4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bb-run-lint.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bb-run-tests-emacs.yml"
+    },
+    {
+      "component": "DeLaGuardo/setup-clojure@9.4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bb-run-tests-emacs.yml"
+    },
+    {
+      "component": "purcell/setup-emacs@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bb-run-tests-emacs.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bb-run-tests.yml"
+    },
+    {
+      "component": "DeLaGuardo/setup-clojure@9.4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bb-run-tests.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clj-run-tests.yml"
+    },
+    {
+      "component": "DeLaGuardo/setup-clojure@9.4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clj-run-tests.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "babashka/neil",
+      "target": "cognitect-labs/test-runner",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "babashka/neil",
+      "target": "github/choosealicense.com",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "babashka/neil",
+      "target": "babashka/homebrew-brew",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "babashka/neil",
+      "target": "babashka/bbin",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bb-run-lint.yml",
+      "source_repo": "babashka/neil",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bb-run-lint.yml",
+      "source_repo": "babashka/neil",
+      "target": "DeLaGuardo/setup-clojure@9.4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bb-run-lint.yml",
+      "source_repo": "babashka/neil",
+      "target": "bb run lint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bb-run-tests-emacs.yml",
+      "source_repo": "babashka/neil",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bb-run-tests-emacs.yml",
+      "source_repo": "babashka/neil",
+      "target": "DeLaGuardo/setup-clojure@9.4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bb-run-tests-emacs.yml",
+      "source_repo": "babashka/neil",
+      "target": "purcell/setup-emacs@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bb-run-tests-emacs.yml",
+      "source_repo": "babashka/neil",
+      "target": "bb run tests-emacs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bb-run-tests.yml",
+      "source_repo": "babashka/neil",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bb-run-tests.yml",
+      "source_repo": "babashka/neil",
+      "target": "DeLaGuardo/setup-clojure@9.4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bb-run-tests.yml",
+      "source_repo": "babashka/neil",
+      "target": "bb run tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clj-run-tests.yml",
+      "source_repo": "babashka/neil",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clj-run-tests.yml",
+      "source_repo": "babashka/neil",
+      "target": "DeLaGuardo/setup-clojure@9.4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/clj-run-tests.yml",
+      "source_repo": "babashka/neil",
+      "target": "clj run tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "babashka/neil",
+      "target": "babashka",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "babashka/neil",
+      "target": "clojure",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "babashka/neil",
+      "target": "deps-edn",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T00:41:59.932031+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8437
+    },
+    {
+      "path": ".github/workflows/bb-run-lint.yml",
+      "size": 339
+    },
+    {
+      "path": ".github/workflows/bb-run-tests-emacs.yml",
+      "size": 1031
+    },
+    {
+      "path": ".github/workflows/bb-run-tests.yml",
+      "size": 430
+    },
+    {
+      "path": ".github/workflows/clj-run-tests.yml",
+      "size": 428
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A CLI to add common aliases and features to deps.edn-based projects",
+    "fork": false,
+    "full_name": "babashka/neil",
+    "html_url": "https://github.com/babashka/neil",
+    "language": "Clojure",
+    "pushed_at": "2026-04-05T09:59:11Z",
+    "stargazers_count": 459,
+    "topics": [
+      "babashka",
+      "clojure",
+      "deps-edn"
+    ],
+    "updated_at": "2026-04-22T18:25:47Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "babashka/bbin",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "babashka/homebrew-brew",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cognitect-labs/test-runner",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "github/choosealicense.com",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "bb run lint",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bb-run-lint.yml",
+      "term": "bb run lint"
+    },
+    {
+      "context_snippet": "bb run tests-emacs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bb-run-tests-emacs.yml",
+      "term": "bb run tests-emacs"
+    },
+    {
+      "context_snippet": "bb run tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bb-run-tests.yml",
+      "term": "bb run tests"
+    },
+    {
+      "context_snippet": "clj run tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/clj-run-tests.yml",
+      "term": "clj run tests"
+    },
+    {
+      "context_snippet": "A CLI to add common aliases and features to `deps.edn`-based projects.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "babashka"
+    },
+    {
+      "context_snippet": "A CLI to add common aliases and features to `deps.edn`-based projects.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "clojure"
+    },
+    {
+      "context_snippet": "A CLI to add common aliases and features to `deps.edn`-based projects.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deps-edn"
+    }
+  ]
+}

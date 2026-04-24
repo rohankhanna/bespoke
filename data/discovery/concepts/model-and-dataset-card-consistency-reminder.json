@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Model and Dataset Card consistency reminder"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "huggingface/huggingface_hub",
+      "status": "candidate-context",
+      "text": "The official Python client for the Hugging Face Hub."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "huggingface/huggingface_hub",
+      "status": "candidate-context",
+      "text": "Model and Dataset Card consistency reminder"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "huggingface/huggingface_hub",
+      "status": "candidate",
+      "text": "Model and Dataset Card consistency reminder"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39811,
+      "status": "candidate",
+      "text": "set"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 32056,
+      "status": "candidate",
+      "text": "tickler"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31103,
+      "status": "candidate",
+      "text": "symmetry"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31040,
+      "status": "candidate",
+      "text": "draw"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31004,
+      "status": "candidate",
+      "text": "scarf"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Model and Dataset Card consistency reminder",
+  "concept_id": "model-and-dataset-card-consistency-reminder",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/model_card_consistency_reminder.yml",
+      "source_repo": "huggingface/huggingface_hub"
+    }
+  ],
+  "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Model and Dataset Card consistency reminder",
+      "sense_id": "model-and-dataset-card-consistency-reminder#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A large-scale entity and relation database supporting aggregation of properties"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Release To Nexus as standalone"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Release To Nexus as standalone"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23888,
+      "status": "candidate",
+      "text": "anastomosis"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23888,
+      "status": "candidate",
+      "text": "aragon"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23888,
+      "status": "candidate",
+      "text": "main"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23888,
+      "status": "candidate",
+      "text": "orpiment"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23888,
+      "status": "candidate",
+      "text": "reticulate"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Release To Nexus as standalone",
+      "sense_id": "release-to-nexus-as-standalone#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "release-to-nexus-as-standalone",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "release-to-nexus-as-standalone",
+  "observation_id": "c94add7894c426de",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-24T00:33:56.049672+00:00",
+  "observed_text": "Release To Nexus as standalone",
+  "source_context_snippet": "Release To Nexus as standalone",
+  "source_file": ".github/workflows/release-standalone.yaml",
+  "source_repo": "gchq/Gaffer",
+  "source_repo_description": "A large-scale entity and relation database supporting aggregation of properties"
+}

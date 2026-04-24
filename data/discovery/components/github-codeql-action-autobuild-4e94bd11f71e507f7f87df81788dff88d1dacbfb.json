@@ -1,0 +1,12 @@
+{
+  "component": "github/codeql-action/autobuild@4e94bd11f71e507f7f87df81788dff88d1dacbfb",
+  "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "jmespath/jmespath.py"
+    }
+  ]
+}

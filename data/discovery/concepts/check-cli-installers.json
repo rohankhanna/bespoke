@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Check CLI installers"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "huggingface/huggingface_hub",
+      "status": "candidate-context",
+      "text": "The official Python client for the Hugging Face Hub."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "huggingface/huggingface_hub",
+      "status": "candidate-context",
+      "text": "Check CLI installers"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "huggingface/huggingface_hub",
+      "status": "candidate",
+      "text": "Check CLI installers"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14304,
+      "status": "candidate",
+      "text": "drift"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14304,
+      "status": "candidate",
+      "text": "nascar"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14304,
+      "status": "candidate",
+      "text": "sheetrock"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14304,
+      "status": "candidate",
+      "text": "yoga"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11004,
+      "status": "candidate",
+      "text": "ilc"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Check CLI installers",
+  "concept_id": "check-cli-installers",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/check-installers.yml",
+      "source_repo": "huggingface/huggingface_hub"
+    }
+  ],
+  "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Check CLI installers",
+      "sense_id": "check-cli-installers#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

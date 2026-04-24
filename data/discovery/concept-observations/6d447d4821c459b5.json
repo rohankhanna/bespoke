@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Axum authorization middleware based on Casbin"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![Crates.io](https://img.shields.io/crates/d/axum-casbin)](https://crates.io/crates/axum-casbin)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![Crates.io](https://img.shields.io/crates/d/axum-casbin)](https://crates.io/crates/axum-casbin)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9983404,
+      "status": "candidate",
+      "text": "axumite"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9983403,
+      "status": "candidate",
+      "text": "addis abeba"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9983402,
+      "status": "candidate",
+      "text": "aethiopia"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9983401,
+      "status": "candidate",
+      "text": "sokhum"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9983400,
+      "status": "candidate",
+      "text": "sokhumi"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "axum",
+      "sense_id": "axum#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "axum",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "axum",
+  "observation_id": "6d447d4821c459b5",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T00:33:56.049672+00:00",
+  "observed_text": "axum",
+  "source_context_snippet": "[![Crates.io](https://img.shields.io/crates/d/axum-casbin)](https://crates.io/crates/axum-casbin)",
+  "source_file": null,
+  "source_repo": "apache/casbin-axum-casbin",
+  "source_repo_description": "Axum authorization middleware based on Casbin"
+}

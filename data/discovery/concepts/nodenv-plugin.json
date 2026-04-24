@@ -31,6 +31,30 @@
       "source_repo": "nodenv/nodenv-default-packages",
       "status": "candidate-context",
       "text": "A [nodenv][] plugin that installs a set of npm packages every time you install a new version of Node."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nodenv/node-build-update-defs",
+      "status": "candidate-context",
+      "text": "A nodenv plugin to generate node-build definitions from nodejs.org."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nodenv/node-build-update-defs",
+      "status": "candidate-context",
+      "text": "A [nodenv][] plugin to generate [node-build][] definitions from [nodejs.org](https://nodejs.org)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nodenv/homebrew-nodenv",
+      "status": "candidate-context",
+      "text": "Homebrew formulae for nodenv plugins"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nodenv/homebrew-nodenv",
+      "status": "candidate-context",
+      "text": "[![Tests](https://img.shields.io/github/actions/workflow/status/nodenv/homebrew-nodenv/test.yml?label=tests&logo=github)](https://github.com/nodenv/homebrew-nodenv/actions/workflows/test.yml)"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +69,18 @@
       "source_repo": "nodenv/nodenv-default-packages",
       "status": "candidate",
       "text": "A [nodenv][] plugin that installs a set of npm packages every time you install a new version of Node."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nodenv/node-build-update-defs",
+      "status": "candidate",
+      "text": "A [nodenv][] plugin to generate [node-build][] definitions from [nodejs.org](https://nodejs.org)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nodenv/homebrew-nodenv",
+      "status": "candidate",
+      "text": "[![Tests](https://img.shields.io/github/actions/workflow/status/nodenv/homebrew-nodenv/test.yml?label=tests&logo=github)](https://github.com/nodenv/homebrew-nodenv/actions/workflows/test.yml)"
     }
   ],
   "candidate_related_terms": [],
@@ -64,11 +100,23 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "nodenv/nodenv-default-packages"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "nodenv/node-build-update-defs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "nodenv/homebrew-nodenv"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,149 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "aws-actions/configure-aws-credentials@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "aws-actions/aws-secretsmanager-get-secrets@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "babbel/puma-plugin-telemetry",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "babbel/puma-plugin-telemetry",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "babbel/puma-plugin-telemetry",
+      "target": "aws-actions/configure-aws-credentials@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "babbel/puma-plugin-telemetry",
+      "target": "aws-actions/aws-secretsmanager-get-secrets@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "babbel/puma-plugin-telemetry",
+      "target": "build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "babbel/puma-plugin-telemetry",
+      "target": "library",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "babbel/puma-plugin-telemetry",
+      "target": "rack",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "babbel/puma-plugin-telemetry",
+      "target": "ruby",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T01:42:16.200192+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4657
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 1863
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Telemetry plugin for puma offering various targets to publish",
+    "fork": false,
+    "full_name": "babbel/puma-plugin-telemetry",
+    "html_url": "https://github.com/babbel/puma-plugin-telemetry",
+    "language": "Ruby",
+    "pushed_at": "2025-06-02T17:31:49Z",
+    "stargazers_count": 19,
+    "topics": [
+      "gem",
+      "library",
+      "rack",
+      "ruby"
+    ],
+    "updated_at": "2025-10-06T09:08:52Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "build"
+    },
+    {
+      "context_snippet": "Puma plugin which should be able to handle all your metric needs regarding your webserver:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "library"
+    },
+    {
+      "context_snippet": "Puma plugin which should be able to handle all your metric needs regarding your webserver:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rack"
+    },
+    {
+      "context_snippet": "Puma plugin which should be able to handle all your metric needs regarding your webserver:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ruby"
+    }
+  ]
+}

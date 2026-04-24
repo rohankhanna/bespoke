@@ -55,6 +55,30 @@
       "source_repo": "boheumd/MA-LMM",
       "status": "candidate-context",
       "text": "The official repository of our paper \"**MA-LMM: Memory-Augmented Large Multimodal Model for Long-Term Video Understanding**\"."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "PKU-YuanGroup/Chat-UniVi",
+      "status": "candidate-context",
+      "text": "[CVPR 2024 Highlight\ud83d\udd25] Chat-UniVi: Unified Visual Representation Empowers Large Language Models with Image and Video Understanding"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PKU-YuanGroup/Chat-UniVi",
+      "status": "candidate-context",
+      "text": "<div align=center>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alibaba-damo-academy/PixelRefer",
+      "status": "candidate-context",
+      "text": "The code for PixelRefer & VideoRefer"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alibaba-damo-academy/PixelRefer",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +105,18 @@
       "source_repo": "boheumd/MA-LMM",
       "status": "candidate",
       "text": "The official repository of our paper \"**MA-LMM: Memory-Augmented Large Multimodal Model for Long-Term Video Understanding**\"."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PKU-YuanGroup/Chat-UniVi",
+      "status": "candidate",
+      "text": "<div align=center>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alibaba-damo-academy/PixelRefer",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -112,11 +148,23 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "boheumd/MA-LMM"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "PKU-YuanGroup/Chat-UniVi"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "alibaba-damo-academy/PixelRefer"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

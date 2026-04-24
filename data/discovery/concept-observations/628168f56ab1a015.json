@@ -84,7 +84,7 @@
   "normalized_form": "pr-labeler",
   "observation_id": "628168f56ab1a015",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_at": "2026-04-24T00:33:56.049672+00:00",
   "observed_text": "PR Labeler",
   "source_context_snippet": "PR Labeler",
   "source_file": ".github/workflows/pr-labeler.yml",

@@ -1,0 +1,111 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "project-miracl/miracl",
+      "target": "attardi/wikiextractor",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "project-miracl/miracl",
+      "target": "castorini/pyserini",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "project-miracl/miracl",
+      "target": "benchmark",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "project-miracl/miracl",
+      "target": "dataset",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "project-miracl/miracl",
+      "target": "information-retrieval",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "project-miracl/miracl",
+      "target": "multilingual",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T02:02:45.372997+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 13601
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A large-scale multilingual dataset for Information Retrieval. Thorough human-annotations across 18 diverse languages.",
+    "fork": false,
+    "full_name": "project-miracl/miracl",
+    "html_url": "https://github.com/project-miracl/miracl",
+    "language": null,
+    "pushed_at": "2024-07-31T21:17:17Z",
+    "stargazers_count": 205,
+    "topics": [
+      "benchmark",
+      "dataset",
+      "information-retrieval",
+      "multilingual"
+    ],
+    "updated_at": "2026-04-21T14:31:53Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "attardi/wikiextractor",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "castorini/pyserini",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<!-- <p align=\"center\"> <span><font size=\"32\"> <b> MIRACL \ud83c\udf0d\ud83d\ude4c\ud83c\udf0f </b></font></span></p> -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "benchmark"
+    },
+    {
+      "context_snippet": "<!-- <p align=\"center\"> <span><font size=\"32\"> <b> MIRACL \ud83c\udf0d\ud83d\ude4c\ud83c\udf0f </b></font></span></p> -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dataset"
+    },
+    {
+      "context_snippet": "<!-- <p align=\"center\"> <span><font size=\"32\"> <b> MIRACL \ud83c\udf0d\ud83d\ude4c\ud83c\udf0f </b></font></span></p> -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "information-retrieval"
+    },
+    {
+      "context_snippet": "<!-- <p align=\"center\"> <span><font size=\"32\"> <b> MIRACL \ud83c\udf0d\ud83d\ude4c\ud83c\udf0f </b></font></span></p> -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multilingual"
+    }
+  ]
+}

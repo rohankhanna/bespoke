@@ -1,7 +1,7 @@
 {
   "component": "lukka/get-cmake@latest",
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -32,6 +32,21 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "wjakob/nanobind"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "nvim-telescope/telescope-fzf-native.nvim"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pre-release.yml",
+      "source_repo": "alecazam/kram"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/tagged-release.yml",
+      "source_repo": "alecazam/kram"
     }
   ]
 }

@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "pdf-renderer"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fschutt/printpdf",
+      "status": "candidate-context",
+      "text": "Rust / WASM library for reading, writing and rendering PDF"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fschutt/printpdf",
+      "status": "candidate-context",
+      "text": "\ufeff# printpdf"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fschutt/printpdf",
+      "status": "candidate",
+      "text": "\ufeff# printpdf"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "pdf-renderer",
+  "concept_id": "pdf-renderer",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "fschutt/printpdf"
+    }
+  ],
+  "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "pdf-renderer",
+      "sense_id": "pdf-renderer#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

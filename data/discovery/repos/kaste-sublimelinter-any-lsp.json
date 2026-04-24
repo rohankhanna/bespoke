@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-24T00:39:25.932744+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2749
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 668
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "SublimeLinter adapter to any LSP server",
+    "fork": false,
+    "full_name": "kaste/SublimeLinter-any-lsp",
+    "html_url": "https://github.com/kaste/SublimeLinter-any-lsp",
+    "language": "Python",
+    "pushed_at": "2025-08-02T20:45:40Z",
+    "stargazers_count": 11,
+    "topics": [],
+    "updated_at": "2026-01-08T10:03:12Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

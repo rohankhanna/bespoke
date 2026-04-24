@@ -1,0 +1,94 @@
+{
+  "aliases": [
+    "Aspire Samples CI"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/aspire-samples",
+      "status": "candidate-context",
+      "text": "Aspire Samples CI"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/aspire-samples",
+      "status": "candidate",
+      "text": "Aspire Samples CI"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17788,
+      "status": "candidate",
+      "text": "non"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10722,
+      "status": "candidate",
+      "text": "madame"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10648,
+      "status": "candidate",
+      "text": "eve"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10648,
+      "status": "candidate",
+      "text": "lab"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10648,
+      "status": "candidate",
+      "text": "pole"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Aspire Samples CI",
+  "concept_id": "aspire-samples-ci",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "microsoft/aspire-samples"
+    }
+  ],
+  "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Aspire Samples CI",
+      "sense_id": "aspire-samples-ci#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

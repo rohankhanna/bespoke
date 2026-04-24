@@ -19,12 +19,30 @@
       "source_repo": "envoyproxy/go-control-plane",
       "status": "candidate-context",
       "text": "Sync Envoy"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "envoyproxy/data-plane-api",
+      "status": "candidate-context",
+      "text": "[READ ONLY MIRROR] Envoy REST/proto API definitions and documentation."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "envoyproxy/data-plane-api",
+      "status": "candidate-context",
+      "text": "Sync Envoy"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "envoyproxy/go-control-plane",
+      "status": "candidate",
+      "text": "Sync Envoy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "envoyproxy/data-plane-api",
       "status": "candidate",
       "text": "Sync Envoy"
     }
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": ".github/workflows/envoy-sync.yaml",
       "source_repo": "envoyproxy/go-control-plane"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/envoy-sync.yaml",
+      "source_repo": "envoyproxy/data-plane-api"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,166 @@
+{
+  "aliases": [
+    "Repolinter Action"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "newrelic/csec-node-agent",
+      "status": "candidate-context",
+      "text": "Repository for new relic node security agent"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "newrelic/csec-node-agent",
+      "status": "candidate-context",
+      "text": "Repolinter Action"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "newrelic/newrelic-node-apollo-server-plugin",
+      "status": "candidate-context",
+      "text": "Repolinter Action"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "newrelic/newrelic-node-examples",
+      "status": "candidate-context",
+      "text": "Working examples of New Relic Node.js agent features"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "newrelic/newrelic-node-examples",
+      "status": "candidate-context",
+      "text": "Repolinter Action"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "newrelic/node-native-metrics",
+      "status": "candidate-context",
+      "text": "Optional native module for collecting low-level Node & V8 metrics"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "newrelic/node-native-metrics",
+      "status": "candidate-context",
+      "text": "Repolinter Action"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "newrelic/csec-node-agent",
+      "status": "candidate",
+      "text": "Repolinter Action"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "newrelic/newrelic-node-apollo-server-plugin",
+      "status": "candidate",
+      "text": "Repolinter Action"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "newrelic/newrelic-node-examples",
+      "status": "candidate",
+      "text": "Repolinter Action"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "newrelic/node-native-metrics",
+      "status": "candidate",
+      "text": "Repolinter Action"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "act"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "acting"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "actions"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "activities"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "activity"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Repolinter Action",
+  "concept_id": "repolinter-action",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/repolinter.yml",
+      "source_repo": "newrelic/csec-node-agent"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/repolinter.yml",
+      "source_repo": "newrelic/newrelic-node-apollo-server-plugin"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/repolinter.yml",
+      "source_repo": "newrelic/newrelic-node-examples"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/repolinter.yml",
+      "source_repo": "newrelic/node-native-metrics"
+    }
+  ],
+  "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Repolinter Action",
+      "sense_id": "repolinter-action#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

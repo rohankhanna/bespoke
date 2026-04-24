@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "The central registry of Bazel modules for the Bzlmod external dependency system."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Dismiss Stale PR Approvals"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Dismiss Stale PR Approvals"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18301,
+      "status": "candidate",
+      "text": "clearance"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18077,
+      "status": "candidate",
+      "text": "dame"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17950,
+      "status": "candidate",
+      "text": "explode"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17950,
+      "status": "candidate",
+      "text": "exploded"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17950,
+      "status": "candidate",
+      "text": "fasces"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Dismiss Stale PR Approvals",
+      "sense_id": "dismiss-stale-pr-approvals#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "dismiss-stale-pr-approvals",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "dismiss-stale-pr-approvals",
+  "observation_id": "1b55ca6fc1cb761e",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-24T00:33:56.049672+00:00",
+  "observed_text": "Dismiss Stale PR Approvals",
+  "source_context_snippet": "Dismiss Stale PR Approvals",
+  "source_file": ".github/workflows/dismiss_approvals.yml",
+  "source_repo": "bazelbuild/bazel-central-registry",
+  "source_repo_description": "The central registry of Bazel modules for the Bzlmod external dependency system."
+}

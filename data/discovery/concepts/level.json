@@ -115,6 +115,66 @@
       "source_repo": "Level/memdown",
       "status": "candidate-context",
       "text": "**Superseded by [`memory-level`](https://github.com/Level/memory-level). Please see [Frequently Asked Questions](https://github.com/Level/community#faq).**"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Level/level-js",
+      "status": "candidate-context",
+      "text": "Superseded by browser-level. An abstract-leveldown compliant store on top of IndexedDB."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Level/level-js",
+      "status": "candidate-context",
+      "text": "**Superseded by [`browser-level`](https://github.com/Level/browser-level). Please see [Frequently Asked Questions](https://github.com/Level/community#faq).**"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Level/levelup",
+      "status": "candidate-context",
+      "text": "Superseded by abstract-level. A wrapper for abstract-leveldown compliant stores, for Node.js and browsers."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Level/levelup",
+      "status": "candidate-context",
+      "text": "**Superseded by [`abstract-level`](https://github.com/Level/abstract-level). Please see [Frequently Asked Questions](https://github.com/Level/community#faq).**"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Level/level",
+      "status": "candidate-context",
+      "text": "Universal abstract-level database for Node.js and browsers."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Level/level",
+      "status": "candidate-context",
+      "text": "**Universal [`abstract-level`](https://github.com/Level/abstract-level) database for Node.js and browsers.** This is a convenience package that exports [`classic-level`](https://github.com/Level/classic-level) in Node.js and [`browser-level`](https://github.com/Level/browser-lev\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Level/mem",
+      "status": "candidate-context",
+      "text": "Superseded by memory-level. A convenience package bundling levelup and memdown."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Level/mem",
+      "status": "candidate-context",
+      "text": "**Superseded by [`memory-level`](https://github.com/Level/memory-level). Please see [Frequently Asked Questions](https://github.com/Level/community#faq).**"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Level/memory-level",
+      "status": "candidate-context",
+      "text": "In-memory abstract-level database for Node.js and browsers."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Level/memory-level",
+      "status": "candidate-context",
+      "text": "**In-memory [`abstract-level`][abstract-level] database for Node.js and browsers, backed by a [fully persistent red-black tree](https://www.npmjs.com/package/functional-red-black-tree).** The successor to [`memdown`](https://github.com/Level/memdown) and [`level-mem`](https://gi\u2026"
     }
   ],
   "candidate_glosses": [
@@ -171,6 +231,36 @@
       "source_repo": "Level/memdown",
       "status": "candidate",
       "text": "**Superseded by [`memory-level`](https://github.com/Level/memory-level). Please see [Frequently Asked Questions](https://github.com/Level/community#faq).**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Level/level-js",
+      "status": "candidate",
+      "text": "**Superseded by [`browser-level`](https://github.com/Level/browser-level). Please see [Frequently Asked Questions](https://github.com/Level/community#faq).**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Level/levelup",
+      "status": "candidate",
+      "text": "**Superseded by [`abstract-level`](https://github.com/Level/abstract-level). Please see [Frequently Asked Questions](https://github.com/Level/community#faq).**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Level/level",
+      "status": "candidate",
+      "text": "**Universal [`abstract-level`](https://github.com/Level/abstract-level) database for Node.js and browsers.** This is a convenience package that exports [`classic-level`](https://github.com/Level/classic-level) in Node.js and [`browser-level`](https://github.com/Level/browser-lev\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Level/mem",
+      "status": "candidate",
+      "text": "**Superseded by [`memory-level`](https://github.com/Level/memory-level). Please see [Frequently Asked Questions](https://github.com/Level/community#faq).**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Level/memory-level",
+      "status": "candidate",
+      "text": "**In-memory [`abstract-level`][abstract-level] database for Node.js and browsers, backed by a [fully persistent red-black tree](https://www.npmjs.com/package/functional-red-black-tree).** The successor to [`memdown`](https://github.com/Level/memdown) and [`level-mem`](https://gi\u2026"
     }
   ],
   "candidate_related_terms": [
@@ -304,11 +394,41 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "Level/memdown"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "Level/level-js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "Level/levelup"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "Level/level"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "Level/mem"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "Level/memory-level"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

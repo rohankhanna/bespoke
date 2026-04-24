@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Third-Party Repository Profiling"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jekyll/jekyll",
+      "status": "candidate-context",
+      "text": ":globe_with_meridians: Jekyll is a blog-aware static site generator in Ruby"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jekyll/jekyll",
+      "status": "candidate-context",
+      "text": "Third-Party Repository Profiling"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jekyll/jekyll",
+      "status": "candidate",
+      "text": "Third-Party Repository Profiling"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11254,
+      "status": "candidate",
+      "text": "dna"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10676,
+      "status": "candidate",
+      "text": "bin"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10655,
+      "status": "candidate",
+      "text": "algebraic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10655,
+      "status": "candidate",
+      "text": "algebraical"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10655,
+      "status": "candidate",
+      "text": "argyll"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Third-Party Repository Profiling",
+  "concept_id": "third-party-repository-profiling",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/third-party.yml",
+      "source_repo": "jekyll/jekyll"
+    }
+  ],
+  "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Third-Party Repository Profiling",
+      "sense_id": "third-party-repository-profiling#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

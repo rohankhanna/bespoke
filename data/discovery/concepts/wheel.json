@@ -1,11 +1,14 @@
 {
   "aliases": [
-    "wheel"
+    "wheel",
+    "Wheel"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
     "tool-component",
-    "capability"
+    "capability",
+    "workflow-process",
+    "data-document-artifact"
   ],
   "candidate_definitions": [
     {
@@ -19,6 +22,18 @@
       "source_repo": "pypa/cibuildwheel",
       "status": "candidate-context",
       "text": "cibuildwheel"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AcademySoftwareFoundation/OpenColorIO",
+      "status": "candidate-context",
+      "text": "A color management framework for visual effects and animation."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AcademySoftwareFoundation/OpenColorIO",
+      "status": "candidate-context",
+      "text": "Wheel"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +42,12 @@
       "source_repo": "pypa/cibuildwheel",
       "status": "candidate",
       "text": "cibuildwheel"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AcademySoftwareFoundation/OpenColorIO",
+      "status": "candidate",
+      "text": "Wheel"
     }
   ],
   "candidate_related_terms": [
@@ -112,11 +133,17 @@
       "observed_at": "2026-04-22T18:52:26.467154+00:00",
       "source_file": null,
       "source_repo": "pypa/cibuildwheel"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/wheel_workflow.yml",
+      "source_repo": "AcademySoftwareFoundation/OpenColorIO"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

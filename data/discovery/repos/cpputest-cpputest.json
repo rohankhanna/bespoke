@@ -1,0 +1,393 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/basic.yml"
+    },
+    {
+      "component": "DoozyX/clang-format-lint-action@v0.14",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/basic.yml"
+    },
+    {
+      "component": "actions/checkout@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/basic.yml"
+    },
+    {
+      "component": "github/codeql-action/init@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/basic.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/basic.yml"
+    },
+    {
+      "component": "actions/checkout@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/basic.yml"
+    },
+    {
+      "component": "carlosperate/arm-none-eabi-gcc-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/basic.yml"
+    },
+    {
+      "component": "open-watcom/setup-watcom@v0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/basic.yml"
+    },
+    {
+      "component": "actions/checkout@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/basic.yml"
+    },
+    {
+      "component": "cygwin/cygwin-install-action@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/basic.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/basic.yml"
+    },
+    {
+      "component": "coverallsapp/github-action@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/basic.yml"
+    },
+    {
+      "component": "actions/checkout@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/basic.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/basic.yml"
+    },
+    {
+      "component": "actions/checkout@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/basic.yml"
+    },
+    {
+      "component": "actions/checkout@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/basic.yml"
+    },
+    {
+      "component": "actions/checkout@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/basic.yml"
+    },
+    {
+      "component": "msys2/setup-msys2@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/basic.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/basic.yml"
+    },
+    {
+      "component": "msys2/setup-msys2@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/basic.yml"
+    },
+    {
+      "component": "docker/build-push-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/basic.yml"
+    },
+    {
+      "component": "actions/checkout@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/latest-passing-release.yml"
+    },
+    {
+      "component": "dorny/test-reporter@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-report.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/basic.yml",
+      "source_repo": "cpputest/cpputest",
+      "target": "actions/checkout@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/basic.yml",
+      "source_repo": "cpputest/cpputest",
+      "target": "DoozyX/clang-format-lint-action@v0.14",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/basic.yml",
+      "source_repo": "cpputest/cpputest",
+      "target": "github/codeql-action/init@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/basic.yml",
+      "source_repo": "cpputest/cpputest",
+      "target": "github/codeql-action/analyze@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/basic.yml",
+      "source_repo": "cpputest/cpputest",
+      "target": "carlosperate/arm-none-eabi-gcc-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/basic.yml",
+      "source_repo": "cpputest/cpputest",
+      "target": "open-watcom/setup-watcom@v0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/basic.yml",
+      "source_repo": "cpputest/cpputest",
+      "target": "cygwin/cygwin-install-action@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/basic.yml",
+      "source_repo": "cpputest/cpputest",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/basic.yml",
+      "source_repo": "cpputest/cpputest",
+      "target": "coverallsapp/github-action@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/basic.yml",
+      "source_repo": "cpputest/cpputest",
+      "target": "msys2/setup-msys2@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/basic.yml",
+      "source_repo": "cpputest/cpputest",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/basic.yml",
+      "source_repo": "cpputest/cpputest",
+      "target": "docker/build-push-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/basic.yml",
+      "source_repo": "cpputest/cpputest",
+      "target": "Basic builds",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/latest-passing-release.yml",
+      "source_repo": "cpputest/cpputest",
+      "target": "actions/checkout@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/latest-passing-release.yml",
+      "source_repo": "cpputest/cpputest",
+      "target": "Latest Passing Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-report.yml",
+      "source_repo": "cpputest/cpputest",
+      "target": "dorny/test-reporter@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-report.yml",
+      "source_repo": "cpputest/cpputest",
+      "target": "Test Report",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cpputest/cpputest",
+      "target": "c-plus-plus",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cpputest/cpputest",
+      "target": "cpputest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cpputest/cpputest",
+      "target": "memory-leak",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cpputest/cpputest",
+      "target": "mocking-framework",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cpputest/cpputest",
+      "target": "test-driven-development",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cpputest/cpputest",
+      "target": "unit-testing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cpputest/cpputest",
+      "target": "very-kewl",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T00:38:44.713855+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9721
+    },
+    {
+      "path": ".github/workflows/basic.yml",
+      "size": 13229
+    },
+    {
+      "path": ".github/workflows/latest-passing-release.yml",
+      "size": 2324
+    },
+    {
+      "path": ".github/workflows/test-report.yml",
+      "size": 340
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "CppUTest unit testing and mocking framework for C/C++",
+    "fork": false,
+    "full_name": "cpputest/cpputest",
+    "html_url": "https://github.com/cpputest/cpputest",
+    "language": "C++",
+    "pushed_at": "2026-01-25T16:02:44Z",
+    "stargazers_count": 1473,
+    "topics": [
+      "c-plus-plus",
+      "cpputest",
+      "memory-leak",
+      "mocking-framework",
+      "test-driven-development",
+      "unit-testing",
+      "very-kewl"
+    ],
+    "updated_at": "2026-04-16T06:48:16Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Basic builds",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/basic.yml",
+      "term": "Basic builds"
+    },
+    {
+      "context_snippet": "'Latest Passing Release'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/latest-passing-release.yml",
+      "term": "Latest Passing Release"
+    },
+    {
+      "context_snippet": "'Test Report'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-report.yml",
+      "term": "Test Report"
+    },
+    {
+      "context_snippet": "[![GitHub Actions](https://github.com/cpputest/cpputest/actions/workflows/basic.yml/badge.svg)](https://github.com/cpputest/cpputest/actions/workflows/basic.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "c-plus-plus"
+    },
+    {
+      "context_snippet": "[![GitHub Actions](https://github.com/cpputest/cpputest/actions/workflows/basic.yml/badge.svg)](https://github.com/cpputest/cpputest/actions/workflows/basic.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cpputest"
+    },
+    {
+      "context_snippet": "[![GitHub Actions](https://github.com/cpputest/cpputest/actions/workflows/basic.yml/badge.svg)](https://github.com/cpputest/cpputest/actions/workflows/basic.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "memory-leak"
+    },
+    {
+      "context_snippet": "[![GitHub Actions](https://github.com/cpputest/cpputest/actions/workflows/basic.yml/badge.svg)](https://github.com/cpputest/cpputest/actions/workflows/basic.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mocking-framework"
+    },
+    {
+      "context_snippet": "[![GitHub Actions](https://github.com/cpputest/cpputest/actions/workflows/basic.yml/badge.svg)](https://github.com/cpputest/cpputest/actions/workflows/basic.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "test-driven-development"
+    },
+    {
+      "context_snippet": "[![GitHub Actions](https://github.com/cpputest/cpputest/actions/workflows/basic.yml/badge.svg)](https://github.com/cpputest/cpputest/actions/workflows/basic.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "unit-testing"
+    },
+    {
+      "context_snippet": "[![GitHub Actions](https://github.com/cpputest/cpputest/actions/workflows/basic.yml/badge.svg)](https://github.com/cpputest/cpputest/actions/workflows/basic.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "very-kewl"
+    }
+  ]
+}

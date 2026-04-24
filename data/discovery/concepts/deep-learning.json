@@ -1537,6 +1537,114 @@
       "source_repo": "camenduru/stable-diffusion-webui-colab",
       "status": "candidate-context",
       "text": "\ud83d\udc23 Please follow me for new updates https://twitter.com/camenduru <br />"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "grok-ai/nn-template",
+      "status": "candidate-context",
+      "text": "Generic template to bootstrap your PyTorch project."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "grok-ai/nn-template",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "openvinotoolkit/openvino",
+      "status": "candidate-context",
+      "text": "OpenVINO\u2122 is an open source toolkit for optimizing and deploying AI inference"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openvinotoolkit/openvino",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "huggingface/huggingface_hub",
+      "status": "candidate-context",
+      "text": "The official Python client for the Hugging Face Hub."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "huggingface/huggingface_hub",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google-deepmind/jraph",
+      "status": "candidate-context",
+      "text": "A Graph Neural Network Library in Jax"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google-deepmind/jraph",
+      "status": "candidate-context",
+      "text": "![logo](images/logo.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dmlc/dgl",
+      "status": "candidate-context",
+      "text": "Python package built to ease deep learning on graph, on top of existing DL frameworks."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dmlc/dgl",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Jumpat/SegmentAnythingin3D",
+      "status": "candidate-context",
+      "text": "Segment Anything in 3D with NeRFs (NeurIPS 2023 & IJCV 2025)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Jumpat/SegmentAnythingin3D",
+      "status": "candidate-context",
+      "text": "[Segment Anything in 3D with NeRFs](https://arxiv.org/abs/2304.12308)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "facebookarchive/caffe2",
+      "status": "candidate-context",
+      "text": "Caffe2 is a lightweight, modular, and scalable deep learning framework."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "facebookarchive/caffe2",
+      "status": "candidate-context",
+      "text": "Caffe2 is a lightweight, modular, and scalable deep learning framework. Building on the original [Caffe](http://caffe.berkeleyvision.org), Caffe2 is designed with expression, speed, and modularity in mind."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rom1504/img2dataset",
+      "status": "candidate-context",
+      "text": "Easily turn large sets of image urls to an image dataset. Can download, resize and package 100M urls in 20h on one machine."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rom1504/img2dataset",
+      "status": "candidate-context",
+      "text": "[![pypi](https://img.shields.io/pypi/v/img2dataset.svg)](https://pypi.python.org/pypi/img2dataset)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sthalles/PyTorch-BYOL",
+      "status": "candidate-context",
+      "text": "PyTorch implementation of Bootstrap Your Own Latent: A New Approach to Self-Supervised Learning"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sthalles/PyTorch-BYOL",
+      "status": "candidate-context",
+      "text": "![Image of Yaktocat](./assets/arch.png)"
     }
   ],
   "candidate_glosses": [
@@ -2301,6 +2409,60 @@
       "source_repo": "camenduru/stable-diffusion-webui-colab",
       "status": "candidate",
       "text": "\ud83d\udc23 Please follow me for new updates https://twitter.com/camenduru <br />"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "grok-ai/nn-template",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openvinotoolkit/openvino",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "huggingface/huggingface_hub",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google-deepmind/jraph",
+      "status": "candidate",
+      "text": "![logo](images/logo.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dmlc/dgl",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Jumpat/SegmentAnythingin3D",
+      "status": "candidate",
+      "text": "[Segment Anything in 3D with NeRFs](https://arxiv.org/abs/2304.12308)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "facebookarchive/caffe2",
+      "status": "candidate",
+      "text": "Caffe2 is a lightweight, modular, and scalable deep learning framework. Building on the original [Caffe](http://caffe.berkeleyvision.org), Caffe2 is designed with expression, speed, and modularity in mind."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rom1504/img2dataset",
+      "status": "candidate",
+      "text": "[![pypi](https://img.shields.io/pypi/v/img2dataset.svg)](https://pypi.python.org/pypi/img2dataset)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sthalles/PyTorch-BYOL",
+      "status": "candidate",
+      "text": "![Image of Yaktocat](./assets/arch.png)"
     }
   ],
   "candidate_related_terms": [],
@@ -3136,11 +3298,77 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "camenduru/stable-diffusion-webui-colab"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "grok-ai/nn-template"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "openvinotoolkit/openvino"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "huggingface/huggingface_hub"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/graph_nets"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/jraph"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "dmlc/dgl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "Jumpat/SegmentAnythingin3D"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "facebookarchive/caffe2"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "rom1504/img2dataset"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "Lightning-AI/pytorch-lightning"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "sthalles/PyTorch-BYOL"
     }
   ],
   "first_seen_at": "2026-04-18T11:41:43.530265+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -31,6 +31,18 @@
       "source_repo": "terraform-aws-modules/terraform-aws-notify-slack",
       "status": "candidate-context",
       "text": "This module creates an SNS topic (or uses an existing one) and an AWS Lambda function that sends notifications to Slack using the [incoming webhooks API](https://api.slack.com/incoming-webhooks)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "terraform-aws-modules/terraform-aws-apigateway-v2",
+      "status": "candidate-context",
+      "text": "Terraform module to create AWS API Gateway v2 (HTTP/WebSocket) \ud83c\uddfa\ud83c\udde6"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "terraform-aws-modules/terraform-aws-apigateway-v2",
+      "status": "candidate-context",
+      "text": "Terraform module which creates API Gateway v2 resources with HTTP/Websocket capabilities."
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "terraform-aws-modules/terraform-aws-notify-slack",
       "status": "candidate",
       "text": "This module creates an SNS topic (or uses an existing one) and an AWS Lambda function that sends notifications to Slack using the [incoming webhooks API](https://api.slack.com/incoming-webhooks)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "terraform-aws-modules/terraform-aws-apigateway-v2",
+      "status": "candidate",
+      "text": "Terraform module which creates API Gateway v2 resources with HTTP/Websocket capabilities."
     }
   ],
   "candidate_related_terms": [],
@@ -64,11 +82,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "terraform-aws-modules/terraform-aws-notify-slack"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "terraform-aws-modules/terraform-aws-apigateway-v2"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

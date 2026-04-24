@@ -1,0 +1,303 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/init@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/autobuild@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/consitency-checks.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/consitency-checks.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prepare-auto-release-branch.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prepare-auto-release-branch.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "Azure/autorest",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "Azure/autorest",
+      "target": "github/codeql-action/init@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "Azure/autorest",
+      "target": "github/codeql-action/autobuild@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "Azure/autorest",
+      "target": "github/codeql-action/analyze@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "Azure/autorest",
+      "target": "CodeQL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/consitency-checks.yml",
+      "source_repo": "Azure/autorest",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/consitency-checks.yml",
+      "source_repo": "Azure/autorest",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/consitency-checks.yml",
+      "source_repo": "Azure/autorest",
+      "target": "Consitency checks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prepare-auto-release-branch.yml",
+      "source_repo": "Azure/autorest",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prepare-auto-release-branch.yml",
+      "source_repo": "Azure/autorest",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/prepare-auto-release-branch.yml",
+      "source_repo": "Azure/autorest",
+      "target": "Prepare Auto Release Branch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Azure/autorest",
+      "target": "azure",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Azure/autorest",
+      "target": "code-generator",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Azure/autorest",
+      "target": "csharp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Azure/autorest",
+      "target": "golang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Azure/autorest",
+      "target": "java",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Azure/autorest",
+      "target": "node",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Azure/autorest",
+      "target": "openapi",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Azure/autorest",
+      "target": "rest-client",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Azure/autorest",
+      "target": "swagger",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T01:56:24.466043+00:00",
+  "fetched_files": [
+    {
+      "path": ".github/workflows/codeql.yml",
+      "size": 3036
+    },
+    {
+      "path": ".github/workflows/consitency-checks.yml",
+      "size": 941
+    },
+    {
+      "path": ".github/workflows/prepare-auto-release-branch.yml",
+      "size": 697
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "OpenAPI (f.k.a Swagger) Specification code generator. Supports C#, PowerShell, Go, Java, Node.js, TypeScript, Python",
+    "fork": false,
+    "full_name": "Azure/autorest",
+    "html_url": "https://github.com/Azure/autorest",
+    "language": "TypeSpec",
+    "pushed_at": "2026-04-23T20:07:44Z",
+    "stargazers_count": 4801,
+    "topics": [
+      "azure",
+      "code-generator",
+      "csharp",
+      "golang",
+      "java",
+      "javascript",
+      "node",
+      "openapi",
+      "python",
+      "rest-client",
+      "swagger",
+      "typescript"
+    ],
+    "updated_at": "2026-04-23T20:07:49Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "\"CodeQL\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "term": "CodeQL"
+    },
+    {
+      "context_snippet": "Consitency checks",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/consitency-checks.yml",
+      "term": "Consitency checks"
+    },
+    {
+      "context_snippet": "Prepare Auto Release Branch",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/prepare-auto-release-branch.yml",
+      "term": "Prepare Auto Release Branch"
+    },
+    {
+      "context_snippet": "\"CodeQL\"",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "azure"
+    },
+    {
+      "context_snippet": "\"CodeQL\"",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "code-generator"
+    },
+    {
+      "context_snippet": "\"CodeQL\"",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "csharp"
+    },
+    {
+      "context_snippet": "\"CodeQL\"",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "golang"
+    },
+    {
+      "context_snippet": "\"CodeQL\"",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "java"
+    },
+    {
+      "context_snippet": "\"CodeQL\"",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "node"
+    },
+    {
+      "context_snippet": "\"CodeQL\"",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "openapi"
+    },
+    {
+      "context_snippet": "\"CodeQL\"",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rest-client"
+    },
+    {
+      "context_snippet": "\"CodeQL\"",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "swagger"
+    }
+  ]
+}

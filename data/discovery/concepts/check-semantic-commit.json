@@ -67,6 +67,18 @@
       "source_repo": "electron/fiddle",
       "status": "candidate-context",
       "text": "\"Check Semantic Commit\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "electron/windows-sign",
+      "status": "candidate-context",
+      "text": "Codesign Electron apps for Windows"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "electron/windows-sign",
+      "status": "candidate-context",
+      "text": "\"Check Semantic Commit\""
     }
   ],
   "candidate_glosses": [
@@ -97,6 +109,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "electron/fiddle",
+      "status": "candidate",
+      "text": "\"Check Semantic Commit\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "electron/windows-sign",
       "status": "candidate",
       "text": "\"Check Semantic Commit\""
     }
@@ -196,11 +214,29 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": ".github/workflows/semantic.yml",
       "source_repo": "electron/rebuild"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/semantic.yml",
+      "source_repo": "electron/rebuild"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/semantic.yml",
+      "source_repo": "electron/packager"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/semantic.yml",
+      "source_repo": "electron/windows-sign"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

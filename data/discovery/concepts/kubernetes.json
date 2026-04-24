@@ -1051,6 +1051,114 @@
       "source_repo": "ai-dynamo/grove",
       "status": "candidate-context",
       "text": "[![Go Report Card](https://goreportcard.com/badge/github.com/ai-dynamo/grove/operator)](https://goreportcard.com/report/github.com/NVIDIA/grove/operator)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "datreeio/CRDs-catalog",
+      "status": "candidate-context",
+      "text": "Popular Kubernetes CRDs (CustomResourceDefinition) in JSON schema format."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "datreeio/CRDs-catalog",
+      "status": "candidate-context",
+      "text": "This repository aggregates hundreds of popular Kubernetes CRDs (`CustomResourceDefinition`) in JSON schema format. These schemas can be used by various tools such as [Datree](https://github.com/datreeio/datree), [Kubeconform](https://github.com/yannh/kubeconform) and [Kubeval](h\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Azure/aad-pod-identity",
+      "status": "candidate-context",
+      "text": "[DEPRECATED] Assign Azure Active Directory Identities to Kubernetes applications. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Azure/aad-pod-identity",
+      "status": "candidate-context",
+      "text": "> # \u26a0\ufe0f [AAD Pod Identity repo has been archived and is no longer maintained.](#-announcement)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "grpc-ecosystem/grpc-health-probe",
+      "status": "candidate-context",
+      "text": "A command-line tool to perform health-checks for gRPC applications in Kubernetes and elsewhere"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "grpc-ecosystem/grpc-health-probe",
+      "status": "candidate-context",
+      "text": "![ci](https://github.com/grpc-ecosystem/grpc-health-probe/workflows/ci/badge.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cloudnativelabs/kube-shell",
+      "status": "candidate-context",
+      "text": "Kubernetes shell: An integrated shell for working with the Kubernetes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cloudnativelabs/kube-shell",
+      "status": "candidate-context",
+      "text": "kube-shell"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rootless-containers/usernetes",
+      "status": "candidate-context",
+      "text": "Kubernetes without the root privileges"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rootless-containers/usernetes",
+      "status": "candidate-context",
+      "text": "Usernetes (Gen2) deploys a Kubernetes cluster inside [Rootless Docker](https://rootlesscontaine.rs/getting-started/docker/),"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bitnami/kube-libsonnet",
+      "status": "candidate-context",
+      "text": "Bitnami's jsonnet library for building Kubernetes manifests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bitnami/kube-libsonnet",
+      "status": "candidate-context",
+      "text": "We have made the difficult decision to stop driving this project and therefore we will no longer actively respond to issues or pull requests."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vmware-archive/kubecfg",
+      "status": "candidate-context",
+      "text": "A tool for managing complex enterprise Kubernetes environments as code."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vmware-archive/kubecfg",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://app.travis-ci.com/bitnami/kubecfg.svg?branch=main)](https://app.travis-ci.com/github/bitnami/kubecfg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "operator-framework/operator-sdk",
+      "status": "candidate-context",
+      "text": "SDK for building Kubernetes applications. Provides high level APIs, useful abstractions, and project scaffolding."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "operator-framework/operator-sdk",
+      "status": "candidate-context",
+      "text": "<img src=\"website/static/operator_logo_sdk_color.svg\" height=\"125px\"></img>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "akuity/awesome-argo",
+      "status": "candidate-context",
+      "text": "A curated list of awesome projects and resources related to Argo (a CNCF graduated project)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "akuity/awesome-argo",
+      "status": "candidate-context",
+      "text": "[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/akuity/awesome-argo) [![Slack](https://img.shields.io/badge/slack-argoproj-brightgreen.svg?logo=slack)](https://argoproj.github.io/community/join\u2026"
     }
   ],
   "candidate_glosses": [
@@ -1575,6 +1683,60 @@
       "source_repo": "ai-dynamo/grove",
       "status": "candidate",
       "text": "[![Go Report Card](https://goreportcard.com/badge/github.com/ai-dynamo/grove/operator)](https://goreportcard.com/report/github.com/NVIDIA/grove/operator)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "datreeio/CRDs-catalog",
+      "status": "candidate",
+      "text": "This repository aggregates hundreds of popular Kubernetes CRDs (`CustomResourceDefinition`) in JSON schema format. These schemas can be used by various tools such as [Datree](https://github.com/datreeio/datree), [Kubeconform](https://github.com/yannh/kubeconform) and [Kubeval](h\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Azure/aad-pod-identity",
+      "status": "candidate",
+      "text": "> # \u26a0\ufe0f [AAD Pod Identity repo has been archived and is no longer maintained.](#-announcement)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "grpc-ecosystem/grpc-health-probe",
+      "status": "candidate",
+      "text": "![ci](https://github.com/grpc-ecosystem/grpc-health-probe/workflows/ci/badge.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cloudnativelabs/kube-shell",
+      "status": "candidate",
+      "text": "kube-shell"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rootless-containers/usernetes",
+      "status": "candidate",
+      "text": "Usernetes (Gen2) deploys a Kubernetes cluster inside [Rootless Docker](https://rootlesscontaine.rs/getting-started/docker/),"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bitnami/kube-libsonnet",
+      "status": "candidate",
+      "text": "We have made the difficult decision to stop driving this project and therefore we will no longer actively respond to issues or pull requests."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vmware-archive/kubecfg",
+      "status": "candidate",
+      "text": "[![Build Status](https://app.travis-ci.com/bitnami/kubecfg.svg?branch=main)](https://app.travis-ci.com/github/bitnami/kubecfg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "operator-framework/operator-sdk",
+      "status": "candidate",
+      "text": "<img src=\"website/static/operator_logo_sdk_color.svg\" height=\"125px\"></img>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "akuity/awesome-argo",
+      "status": "candidate",
+      "text": "[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/akuity/awesome-argo) [![Slack](https://img.shields.io/badge/slack-argoproj-brightgreen.svg?logo=slack)](https://argoproj.github.io/community/join\u2026"
     }
   ],
   "candidate_related_terms": [
@@ -2212,11 +2374,77 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "ai-dynamo/grove"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "datreeio/CRDs-catalog"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "Azure/aad-pod-identity"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "grpc-ecosystem/grpc-health-probe"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "cloudnativelabs/kube-shell"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "containers/podman"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "rootless-containers/usernetes"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "bitnami/kube-libsonnet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "vmware-archive/kubecfg"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "operator-framework/operator-sdk"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "kubernetes-sigs/apiserver-builder-alpha"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "akuity/awesome-argo"
     }
   ],
   "first_seen_at": "2026-04-18T10:38:37.562216+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

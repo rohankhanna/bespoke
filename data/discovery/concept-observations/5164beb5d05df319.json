@@ -84,7 +84,7 @@
   "normalized_form": "close-incident-discussion-after-time-elapsed",
   "observation_id": "5164beb5d05df319",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-23T04:27:42.433064+00:00",
+  "observed_at": "2026-04-24T00:33:56.049672+00:00",
   "observed_text": "Close incident discussion after time elapsed",
   "source_context_snippet": "Close incident discussion after time elapsed",
   "source_file": ".github/workflows/close-incident-discussions.yml",

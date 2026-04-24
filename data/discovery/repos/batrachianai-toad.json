@@ -1,0 +1,108 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "batrachianai/toad",
+      "target": "agents-ui",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "batrachianai/toad",
+      "target": "claude-code",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "batrachianai/toad",
+      "target": "codex-cli",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "batrachianai/toad",
+      "target": "commercial-license",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "batrachianai/toad",
+      "target": "textual",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T00:43:07.006365+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9911
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1238
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A unified interface for AI in your terminal.",
+    "fork": false,
+    "full_name": "batrachianai/toad",
+    "html_url": "https://github.com/batrachianai/toad",
+    "language": "Python",
+    "pushed_at": "2026-04-19T04:33:11Z",
+    "stargazers_count": 2938,
+    "topics": [
+      "agents-ui",
+      "ai",
+      "claude",
+      "claude-code",
+      "codex-cli",
+      "commercial-license",
+      "copilot",
+      "textual",
+      "tui"
+    ],
+    "updated_at": "2026-04-23T23:50:21Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "A unified interface for AI in your terminal ([release announcement](https://willmcgugan.github.io/toad-released/)).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "agents-ui"
+    },
+    {
+      "context_snippet": "A unified interface for AI in your terminal ([release announcement](https://willmcgugan.github.io/toad-released/)).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "claude-code"
+    },
+    {
+      "context_snippet": "A unified interface for AI in your terminal ([release announcement](https://willmcgugan.github.io/toad-released/)).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "codex-cli"
+    },
+    {
+      "context_snippet": "A unified interface for AI in your terminal ([release announcement](https://willmcgugan.github.io/toad-released/)).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "commercial-license"
+    },
+    {
+      "context_snippet": "A unified interface for AI in your terminal ([release announcement](https://willmcgugan.github.io/toad-released/)).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "textual"
+    }
+  ]
+}

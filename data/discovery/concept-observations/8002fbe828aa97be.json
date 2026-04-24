@@ -1,0 +1,52 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "> This is a [graphql.macro](https://github.com/evenchange4/graphql.macro) example with [Create React App @2](https://github.com/facebookincubator/create-react-app/issues/3815)."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "> This is a [graphql.macro](https://github.com/evenchange4/graphql.macro) example with [Create React App @2](https://github.com/facebookincubator/create-react-app/issues/3815)."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "babel-plugin-macros",
+      "sense_id": "babel-plugin-macros#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "babel-plugin-macros",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "babel-plugin-macros",
+  "observation_id": "8002fbe828aa97be",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T00:33:56.049672+00:00",
+  "observed_text": "babel-plugin-macros",
+  "source_context_snippet": "> This is a [graphql.macro](https://github.com/evenchange4/graphql.macro) example with [Create React App @2](https://github.com/facebookincubator/create-react-app/issues/3815).",
+  "source_file": null,
+  "source_repo": "evenchange4/graphql.macro-example",
+  "source_repo_description": null
+}

@@ -1,0 +1,492 @@
+{
+  "components": [
+    {
+      "component": "prettier",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "typescript",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@eslint/js",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/node",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "capnp-es",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "chrome-remote-interface",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "esbuild",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "expect-type",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "typescript-eslint",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_bazel.yml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_bazel.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_bazel.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_bazel.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_bazel.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_bazel.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_wpt.yml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_wpt.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_wpt.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bigbonk.yml"
+    },
+    {
+      "component": "ask-bonk/ask-bonk/github@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bigbonk.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bonk.yml"
+    },
+    {
+      "component": "ask-bonk/ask-bonk/github@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bonk.yml"
+    },
+    {
+      "component": "contributor-assistant/github-action@v2.6.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cla.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codspeed.yml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codspeed.yml"
+    },
+    {
+      "component": "CodSpeedHQ/action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codspeed.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/compat-flag-docs.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "cloudflare/workerd",
+      "target": "prettier",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "cloudflare/workerd",
+      "target": "typescript",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "cloudflare/workerd",
+      "target": "@eslint/js",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "cloudflare/workerd",
+      "target": "@types/node",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "cloudflare/workerd",
+      "target": "capnp-es",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "cloudflare/workerd",
+      "target": "chrome-remote-interface",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "cloudflare/workerd",
+      "target": "esbuild",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "cloudflare/workerd",
+      "target": "eslint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "cloudflare/workerd",
+      "target": "expect-type",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "cloudflare/workerd",
+      "target": "typescript-eslint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_bazel.yml",
+      "source_repo": "cloudflare/workerd",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_bazel.yml",
+      "source_repo": "cloudflare/workerd",
+      "target": "actions/cache@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_bazel.yml",
+      "source_repo": "cloudflare/workerd",
+      "target": "codecov/codecov-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_bazel.yml",
+      "source_repo": "cloudflare/workerd",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/_bazel.yml",
+      "source_repo": "cloudflare/workerd",
+      "target": "Run Bazel",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_wpt.yml",
+      "source_repo": "cloudflare/workerd",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_wpt.yml",
+      "source_repo": "cloudflare/workerd",
+      "target": "actions/download-artifact@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_wpt.yml",
+      "source_repo": "cloudflare/workerd",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/_wpt.yml",
+      "source_repo": "cloudflare/workerd",
+      "target": "WPT Report",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bigbonk.yml",
+      "source_repo": "cloudflare/workerd",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bigbonk.yml",
+      "source_repo": "cloudflare/workerd",
+      "target": "ask-bonk/ask-bonk/github@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bigbonk.yml",
+      "source_repo": "cloudflare/workerd",
+      "target": "Bonk",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bonk.yml",
+      "source_repo": "cloudflare/workerd",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bonk.yml",
+      "source_repo": "cloudflare/workerd",
+      "target": "ask-bonk/ask-bonk/github@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bonk.yml",
+      "source_repo": "cloudflare/workerd",
+      "target": "Bonk",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cla.yml",
+      "source_repo": "cloudflare/workerd",
+      "target": "contributor-assistant/github-action@v2.6.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cla.yml",
+      "source_repo": "cloudflare/workerd",
+      "target": "CLA Assistant",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codspeed.yml",
+      "source_repo": "cloudflare/workerd",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codspeed.yml",
+      "source_repo": "cloudflare/workerd",
+      "target": "actions/cache@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codspeed.yml",
+      "source_repo": "cloudflare/workerd",
+      "target": "CodSpeedHQ/action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codspeed.yml",
+      "source_repo": "cloudflare/workerd",
+      "target": "CodSpeed",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/compat-flag-docs.yml",
+      "source_repo": "cloudflare/workerd",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/compat-flag-docs.yml",
+      "source_repo": "cloudflare/workerd",
+      "target": "Compat Flag Docs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "cloudflare/workerd",
+      "target": "Coverage",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T00:58:20.294886+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9579
+    },
+    {
+      "path": "package.json",
+      "size": 673
+    },
+    {
+      "path": ".github/workflows/_bazel.yml",
+      "size": 10192
+    },
+    {
+      "path": ".github/workflows/_wpt.yml",
+      "size": 1120
+    },
+    {
+      "path": ".github/workflows/bigbonk.yml",
+      "size": 1386
+    },
+    {
+      "path": ".github/workflows/bonk.yml",
+      "size": 1416
+    },
+    {
+      "path": ".github/workflows/cla.yml",
+      "size": 1287
+    },
+    {
+      "path": ".github/workflows/codspeed.yml",
+      "size": 2092
+    },
+    {
+      "path": ".github/workflows/compat-flag-docs.yml",
+      "size": 941
+    },
+    {
+      "path": ".github/workflows/coverage.yml",
+      "size": 1479
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "The JavaScript / Wasm runtime that powers Cloudflare Workers",
+    "fork": false,
+    "full_name": "cloudflare/workerd",
+    "html_url": "https://github.com/cloudflare/workerd",
+    "language": "C++",
+    "pushed_at": "2026-04-24T00:43:20Z",
+    "stargazers_count": 8174,
+    "topics": [],
+    "updated_at": "2026-04-23T23:15:46Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "'Run Bazel'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/_bazel.yml",
+      "term": "Run Bazel"
+    },
+    {
+      "context_snippet": "'WPT Report'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/_wpt.yml",
+      "term": "WPT Report"
+    },
+    {
+      "context_snippet": "Bonk",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bigbonk.yml",
+      "term": "Bonk"
+    },
+    {
+      "context_snippet": "Bonk",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bonk.yml",
+      "term": "Bonk"
+    },
+    {
+      "context_snippet": "\"CLA Assistant\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cla.yml",
+      "term": "CLA Assistant"
+    },
+    {
+      "context_snippet": "CodSpeed",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codspeed.yml",
+      "term": "CodSpeed"
+    },
+    {
+      "context_snippet": "Compat Flag Docs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/compat-flag-docs.yml",
+      "term": "Compat Flag Docs"
+    },
+    {
+      "context_snippet": "Coverage",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/coverage.yml",
+      "term": "Coverage"
+    }
+  ]
+}

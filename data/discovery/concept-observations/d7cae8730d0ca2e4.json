@@ -1,0 +1,108 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Create automatic playlists by using Deep Learning to *listen* to the music."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "![](MBIT_logo.png)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "![](MBIT_logo.png)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20038293,
+      "status": "candidate",
+      "text": "literary genre"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20038293,
+      "status": "candidate",
+      "text": "writing style"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20038292,
+      "status": "candidate",
+      "text": "category"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20037037,
+      "status": "candidate",
+      "text": "type"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20036749,
+      "status": "candidate",
+      "text": "class"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "genre",
+      "sense_id": "genre#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2010,
+      "status": "candidate",
+      "text": "literary genre"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "writing style"
+    }
+  ],
+  "concept_id": "genre",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "genre",
+  "observation_id": "d7cae8730d0ca2e4",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T00:33:56.049672+00:00",
+  "observed_text": "genre",
+  "source_context_snippet": "![](MBIT_logo.png)",
+  "source_file": null,
+  "source_repo": "teticio/Deej-AI",
+  "source_repo_description": "Create automatic playlists by using Deep Learning to *listen* to the music."
+}

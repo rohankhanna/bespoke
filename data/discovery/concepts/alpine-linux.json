@@ -1,11 +1,14 @@
 {
   "aliases": [
-    "Alpine Linux"
+    "Alpine Linux",
+    "alpine-linux"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
     "workflow-process",
-    "data-document-artifact"
+    "data-document-artifact",
+    "tool-component",
+    "capability"
   ],
   "candidate_definitions": [
     {
@@ -55,6 +58,18 @@
       "source_repo": "simdjson/simdjson",
       "status": "candidate-context",
       "text": "Alpine Linux"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alpinelinux/aports",
+      "status": "candidate-context",
+      "text": "[MIRROR] Alpine packages build scripts"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alpinelinux/aports",
+      "status": "candidate-context",
+      "text": "This repository contains the APKBUILD files for each and every"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +96,12 @@
       "source_repo": "simdjson/simdjson",
       "status": "candidate",
       "text": "Alpine Linux"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alpinelinux/aports",
+      "status": "candidate",
+      "text": "This repository contains the APKBUILD files for each and every"
     }
   ],
   "candidate_related_terms": [
@@ -141,11 +162,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": ".github/workflows/alpine.yml",
       "source_repo": "simdjson/simdjson"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "alpinelinux/aports"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

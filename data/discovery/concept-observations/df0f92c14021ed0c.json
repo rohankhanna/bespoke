@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "aws-vault plugin for asdf-vm"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "![GitHub Actions Status](https://github.com/karancode/asdf-aws-vault/workflows/Main%20workflow/badge.svg?branch=main)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "![GitHub Actions Status](https://github.com/karancode/asdf-aws-vault/workflows/Main%20workflow/badge.svg?branch=main)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "asdf-plugin",
+      "sense_id": "asdf-plugin#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "asdf-plugin",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "asdf-plugin",
+  "observation_id": "df0f92c14021ed0c",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T00:33:56.049672+00:00",
+  "observed_text": "asdf-plugin",
+  "source_context_snippet": "![GitHub Actions Status](https://github.com/karancode/asdf-aws-vault/workflows/Main%20workflow/badge.svg?branch=main)",
+  "source_file": null,
+  "source_repo": "karancode/asdf-aws-vault",
+  "source_repo_description": "aws-vault plugin for asdf-vm"
+}

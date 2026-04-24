@@ -19,6 +19,18 @@
       "source_repo": "sparsemat/sprs",
       "status": "candidate-context",
       "text": "[![Build status](https://github.com/sparsemat/sprs/actions/workflows/ci.yml/badge.svg)](https://github.com/sparsemat/sprs/actions)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rusty1s/pytorch_sparse",
+      "status": "candidate-context",
+      "text": "PyTorch Extension Library of Optimized Autograd Sparse Matrix Operations"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rusty1s/pytorch_sparse",
+      "status": "candidate-context",
+      "text": "[pypi-image]: https://badge.fury.io/py/torch-sparse.svg"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "sparsemat/sprs",
       "status": "candidate",
       "text": "[![Build status](https://github.com/sparsemat/sprs/actions/workflows/ci.yml/badge.svg)](https://github.com/sparsemat/sprs/actions)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rusty1s/pytorch_sparse",
+      "status": "candidate",
+      "text": "[pypi-image]: https://badge.fury.io/py/torch-sparse.svg"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "sparsemat/sprs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "rusty1s/pytorch_sparse"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

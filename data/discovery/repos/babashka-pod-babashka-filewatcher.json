@@ -1,0 +1,81 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "babashka/pod-babashka-filewatcher",
+      "target": "babashka/babashka.pods",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "babashka/pod-babashka-filewatcher",
+      "target": "notify-rs/notify",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "babashka/pod-babashka-filewatcher",
+      "target": "borkdude/babashka",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Cargo.toml",
+      "source_repo": "babashka/pod-babashka-filewatcher",
+      "target": "jasilven/bencode_rs",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-24T00:41:42.870803+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1699
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 604
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Babashka filewatcher pod based on Rust notify",
+    "fork": false,
+    "full_name": "babashka/pod-babashka-filewatcher",
+    "html_url": "https://github.com/babashka/pod-babashka-filewatcher",
+    "language": "Shell",
+    "pushed_at": "2023-09-03T11:47:06Z",
+    "stargazers_count": 25,
+    "topics": [],
+    "updated_at": "2026-04-07T11:29:28Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "babashka/babashka.pods",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "borkdude/babashka",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "notify-rs/notify",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jasilven/bencode_rs",
+      "source_file": "Cargo.toml"
+    }
+  ],
+  "terms": []
+}

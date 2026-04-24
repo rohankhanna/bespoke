@@ -1,0 +1,166 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "adelarsq/neovcs.vim",
+      "target": "kyazdani42/nvim-tree.lua",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "adelarsq/neovcs.vim",
+      "target": "juneedahamed/vc.vim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "adelarsq/neovcs.vim",
+      "target": "luchermitte/lh-vim-lib",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "adelarsq/neovcs.vim",
+      "target": "pvdlg/conventional-changelog-metahub",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "adelarsq/neovcs.vim",
+      "target": "bazaar",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "adelarsq/neovcs.vim",
+      "target": "darcs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "adelarsq/neovcs.vim",
+      "target": "mercurial",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "adelarsq/neovcs.vim",
+      "target": "neovim",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "adelarsq/neovcs.vim",
+      "target": "subversion",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "adelarsq/neovcs.vim",
+      "target": "version-control",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T00:47:21.730745+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7566
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "VCS support for Neovim \ud83c\udf31",
+    "fork": false,
+    "full_name": "adelarsq/neovcs.vim",
+    "html_url": "https://github.com/adelarsq/neovcs.vim",
+    "language": "Fennel",
+    "pushed_at": "2025-11-11T00:03:52Z",
+    "stargazers_count": 24,
+    "topics": [
+      "bazaar",
+      "darcs",
+      "git",
+      "mercurial",
+      "neovim",
+      "subversion",
+      "svn",
+      "vcs",
+      "version-control"
+    ],
+    "updated_at": "2025-11-11T00:03:56Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "juneedahamed/vc.vim",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kyazdani42/nvim-tree.lua",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "luchermitte/lh-vim-lib",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pvdlg/conventional-changelog-metahub",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "VCS support for Neovim",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bazaar"
+    },
+    {
+      "context_snippet": "VCS support for Neovim",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "darcs"
+    },
+    {
+      "context_snippet": "VCS support for Neovim",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mercurial"
+    },
+    {
+      "context_snippet": "VCS support for Neovim",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neovim"
+    },
+    {
+      "context_snippet": "VCS support for Neovim",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "subversion"
+    },
+    {
+      "context_snippet": "VCS support for Neovim",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "version-control"
+    }
+  ]
+}

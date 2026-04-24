@@ -797,6 +797,198 @@
       "source_repo": "stefanha/git-publish",
       "status": "candidate-context",
       "text": "Continuous Integration"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Azure/bicep-deploy",
+      "status": "candidate-context",
+      "text": "Azure Deploy GitHub Action"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Azure/bicep-deploy",
+      "status": "candidate-context",
+      "text": "Continuous Integration"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ramsayleung/rspotify",
+      "status": "candidate-context",
+      "text": "Spotify Web API SDK implemented on Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ramsayleung/rspotify",
+      "status": "candidate-context",
+      "text": "Continuous Integration"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Rigellute/spotify-tui",
+      "status": "candidate-context",
+      "text": "Spotify for the terminal written in Rust \ud83d\ude80"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Rigellute/spotify-tui",
+      "status": "candidate-context",
+      "text": "Continuous Integration"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "typst/pdf-writer",
+      "status": "candidate-context",
+      "text": "A step-by-step PDF writer."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "typst/pdf-writer",
+      "status": "candidate-context",
+      "text": "Continuous integration"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jekyll/jekyll",
+      "status": "candidate-context",
+      "text": ":globe_with_meridians: Jekyll is a blog-aware static site generator in Ruby"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jekyll/jekyll",
+      "status": "candidate-context",
+      "text": "Continuous Integration"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bluss/matrixmultiply",
+      "status": "candidate-context",
+      "text": "General matrix multiplication of f32 and f64 matrices in Rust. Supports matrices with general strides."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bluss/matrixmultiply",
+      "status": "candidate-context",
+      "text": "Continuous integration"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "redhat-developer/vscode-xml",
+      "status": "candidate-context",
+      "text": "Editing XML in Visual Studio Code made easy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "redhat-developer/vscode-xml",
+      "status": "candidate-context",
+      "text": "Continuous Integration"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "orhun/git-cliff",
+      "status": "candidate-context",
+      "text": "A highly customizable Changelog Generator that follows Conventional Commit specifications \u26f0\ufe0f "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "orhun/git-cliff",
+      "status": "candidate-context",
+      "text": "Continuous Integration"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gchq/Gaffer",
+      "status": "candidate-context",
+      "text": "A large-scale entity and relation database supporting aggregation of properties"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gchq/Gaffer",
+      "status": "candidate-context",
+      "text": "Continuous Integration"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "autofac/Autofac",
+      "status": "candidate-context",
+      "text": "An addictive .NET IoC container"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "autofac/Autofac",
+      "status": "candidate-context",
+      "text": "Continuous Integration"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "shesek/rust-jsonrpc",
+      "status": "candidate-context",
+      "text": "Rust JSONRPC library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "shesek/rust-jsonrpc",
+      "status": "candidate-context",
+      "text": "Continuous integration"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "adamritter/fastgron",
+      "status": "candidate-context",
+      "text": " High-performance JSON to GRON (greppable, flattened JSON) converter"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adamritter/fastgron",
+      "status": "candidate-context",
+      "text": "Continuous Integration"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ByteNess/aws-vault",
+      "status": "candidate-context",
+      "text": "A vault for securely storing and accessing AWS credentials in development environments"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ByteNess/aws-vault",
+      "status": "candidate-context",
+      "text": "Continuous Integration"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "iejMac/clip-video-encode",
+      "status": "candidate-context",
+      "text": "Easily compute clip embeddings from video frames"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "iejMac/clip-video-encode",
+      "status": "candidate-context",
+      "text": "Continuous integration"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "iejMac/video2dataset",
+      "status": "candidate-context",
+      "text": "Easily create large video dataset from video urls"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "iejMac/video2dataset",
+      "status": "candidate-context",
+      "text": "Continuous integration"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rom1504/img2dataset",
+      "status": "candidate-context",
+      "text": "Easily turn large sets of image urls to an image dataset. Can download, resize and package 100M urls in 20h on one machine."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rom1504/img2dataset",
+      "status": "candidate-context",
+      "text": "Continuous integration"
     }
   ],
   "candidate_glosses": [
@@ -1189,6 +1381,102 @@
       "source_repo": "stefanha/git-publish",
       "status": "candidate",
       "text": "Continuous Integration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Azure/bicep-deploy",
+      "status": "candidate",
+      "text": "Continuous Integration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ramsayleung/rspotify",
+      "status": "candidate",
+      "text": "Continuous Integration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Rigellute/spotify-tui",
+      "status": "candidate",
+      "text": "Continuous Integration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "typst/pdf-writer",
+      "status": "candidate",
+      "text": "Continuous integration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jekyll/jekyll",
+      "status": "candidate",
+      "text": "Continuous Integration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bluss/matrixmultiply",
+      "status": "candidate",
+      "text": "Continuous integration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "redhat-developer/vscode-xml",
+      "status": "candidate",
+      "text": "Continuous Integration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "orhun/git-cliff",
+      "status": "candidate",
+      "text": "Continuous Integration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gchq/Gaffer",
+      "status": "candidate",
+      "text": "Continuous Integration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "autofac/Autofac",
+      "status": "candidate",
+      "text": "Continuous Integration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "shesek/rust-jsonrpc",
+      "status": "candidate",
+      "text": "Continuous integration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adamritter/fastgron",
+      "status": "candidate",
+      "text": "Continuous Integration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ByteNess/aws-vault",
+      "status": "candidate",
+      "text": "Continuous Integration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "iejMac/clip-video-encode",
+      "status": "candidate",
+      "text": "Continuous integration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "iejMac/video2dataset",
+      "status": "candidate",
+      "text": "Continuous integration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rom1504/img2dataset",
+      "status": "candidate",
+      "text": "Continuous integration"
     }
   ],
   "candidate_related_terms": [
@@ -1700,11 +1988,119 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "stefanha/git-publish"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "Azure/bicep-deploy"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "actions/container-toolkit-action"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ramsayleung/rspotify"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "Rigellute/spotify-tui"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "typst/pdf-writer"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "jekyll/jekyll"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "bluss/matrixmultiply"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "redhat-developer/vscode-xml"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "orhun/git-cliff"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/continuous-integration.yaml",
+      "source_repo": "gchq/Gaffer"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "autofac/Autofac"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "shesek/rust-jsonrpc"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "adamritter/fastgron"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/go.yaml",
+      "source_repo": "ByteNess/aws-vault"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/continuous-integration.yml",
+      "source_repo": "vercel/modelfusion"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "iejMac/clip-video-encode"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "iejMac/video2dataset"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "rom1504/img2dataset"
     }
   ],
   "first_seen_at": "2026-04-18T10:38:37.562216+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

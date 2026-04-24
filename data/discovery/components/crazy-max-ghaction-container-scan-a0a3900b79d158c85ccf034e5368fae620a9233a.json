@@ -1,0 +1,17 @@
+{
+  "component": "crazy-max/ghaction-container-scan@a0a3900b79d158c85ccf034e5368fae620a9233a",
+  "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/.test-bake.yml",
+      "source_repo": "docker/github-builder"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/.test-build.yml",
+      "source_repo": "docker/github-builder"
+    }
+  ]
+}

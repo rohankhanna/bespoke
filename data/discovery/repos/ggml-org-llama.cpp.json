@@ -191,28 +191,28 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "ggml-org/llama.cpp",
-      "target": "ddh0/easy-llama",
+      "target": "edgenai/llama_cpp-rs",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "ggml-org/llama.cpp",
-      "target": "deins/llama.cpp.zig",
+      "target": "donderom/llm4s",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "ggml-org/llama.cpp",
-      "target": "cztomsik/ava",
+      "target": "distantmagic/resonance",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "ggml-org/llama.cpp",
-      "target": "defilantech/llmkube",
+      "target": "embarcadero/llama-cpp-delphi",
       "target_type": "repository"
     },
     {
@@ -433,7 +433,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-23T21:10:14.383588+00:00",
+  "fetched_at": "2026-04-24T01:57:56.197484+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -485,32 +485,32 @@
     "full_name": "ggml-org/llama.cpp",
     "html_url": "https://github.com/ggml-org/llama.cpp",
     "language": "C++",
-    "pushed_at": "2026-04-23T20:08:11Z",
-    "stargazers_count": 105992,
+    "pushed_at": "2026-04-24T01:53:20Z",
+    "stargazers_count": 106034,
     "topics": [
       "ggml"
     ],
-    "updated_at": "2026-04-23T20:46:44Z"
+    "updated_at": "2026-04-24T01:57:03Z"
   },
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
-      "full_name": "cztomsik/ava",
+      "full_name": "distantmagic/resonance",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "ddh0/easy-llama",
+      "full_name": "donderom/llm4s",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "defilantech/llmkube",
+      "full_name": "edgenai/llama_cpp-rs",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "deins/llama.cpp.zig",
+      "full_name": "embarcadero/llama-cpp-delphi",
       "source_file": "README.md"
     }
   ],

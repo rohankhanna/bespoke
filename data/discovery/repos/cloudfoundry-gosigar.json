@@ -1,0 +1,127 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml"
+    },
+    {
+      "component": "golangci/golangci-lint-action@v9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cloudfoundry/gosigar",
+      "target": "hyperic/sigar",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "cloudfoundry/gosigar",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "cloudfoundry/gosigar",
+      "target": "actions/setup-go@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "cloudfoundry/gosigar",
+      "target": "golangci/golangci-lint-action@v9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cloudfoundry/gosigar",
+      "target": "golang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cloudfoundry/gosigar",
+      "target": "sigar",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T01:52:53.360684+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 565
+    },
+    {
+      "path": "go.mod",
+      "size": 905
+    },
+    {
+      "path": ".github/workflows/go.yml",
+      "size": 973
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A Golang implementation of the Sigar API",
+    "fork": false,
+    "full_name": "cloudfoundry/gosigar",
+    "html_url": "https://github.com/cloudfoundry/gosigar",
+    "language": "Go",
+    "pushed_at": "2026-04-15T17:06:27Z",
+    "stargazers_count": 482,
+    "topics": [
+      "go",
+      "golang",
+      "sigar"
+    ],
+    "updated_at": "2026-04-15T17:05:21Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hyperic/sigar",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Go sigar is a golang implementation of the",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "golang"
+    },
+    {
+      "context_snippet": "Go sigar is a golang implementation of the",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sigar"
+    }
+  ]
+}

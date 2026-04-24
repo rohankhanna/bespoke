@@ -1,0 +1,343 @@
+{
+  "components": [
+    {
+      "component": "Homebrew/actions/setup-homebrew@7f6df1cd36597249cbf9810ff3aeff47edf8243b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "Homebrew/actions/git-user-config@c62170a03ff2bcb9ab097fd7d6acbc905618e42a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "Homebrew/actions/git-try-push@a72774738da65503fcf62f33ec305aa1452acf7d",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "nodenv/.github/.github/workflows/test.yml@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "write",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "step-security/harden-runner@f808768d1510423e83855289c910610ca9b43176",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "step-security/harden-runner@f808768d1510423e83855289c910610ca9b43176",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "step-security/harden-runner@f808768d1510423e83855289c910610ca9b43176",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "Homebrew/actions/setup-homebrew@6c79ae0677a9b0b8046a936b4ada8980885eafb8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "actions/cache@668228422ae6a00e4ad889ee87cd7109ec5666a7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "nodenv/homebrew-nodenv",
+      "target": "nodenv/jetbrains-npm",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "nodenv/homebrew-nodenv",
+      "target": "nodenv/node-build-prerelease",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "nodenv/homebrew-nodenv",
+      "target": "deiga/nodenv-default-npmrc",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "nodenv/homebrew-nodenv",
+      "target": "nodenv/node-build-jxcore",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "nodenv/homebrew-nodenv",
+      "target": "Homebrew/actions/setup-homebrew@7f6df1cd36597249cbf9810ff3aeff47edf8243b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "nodenv/homebrew-nodenv",
+      "target": "Homebrew/actions/git-user-config@c62170a03ff2bcb9ab097fd7d6acbc905618e42a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "nodenv/homebrew-nodenv",
+      "target": "Homebrew/actions/git-try-push@a72774738da65503fcf62f33ec305aa1452acf7d",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "nodenv/homebrew-nodenv",
+      "target": "brew pr-pull",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "nodenv/homebrew-nodenv",
+      "target": "nodenv/.github/.github/workflows/test.yml@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "nodenv/homebrew-nodenv",
+      "target": "write",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "nodenv/homebrew-nodenv",
+      "target": "step-security/harden-runner@f808768d1510423e83855289c910610ca9b43176",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "nodenv/homebrew-nodenv",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "nodenv/homebrew-nodenv",
+      "target": "Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "nodenv/homebrew-nodenv",
+      "target": "step-security/harden-runner@f808768d1510423e83855289c910610ca9b43176",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "nodenv/homebrew-nodenv",
+      "target": "Homebrew/actions/setup-homebrew@6c79ae0677a9b0b8046a936b4ada8980885eafb8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "nodenv/homebrew-nodenv",
+      "target": "actions/cache@668228422ae6a00e4ad889ee87cd7109ec5666a7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "nodenv/homebrew-nodenv",
+      "target": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "nodenv/homebrew-nodenv",
+      "target": "brew test-bot",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nodenv/homebrew-nodenv",
+      "target": "homebrew",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nodenv/homebrew-nodenv",
+      "target": "homebrew-tap",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nodenv/homebrew-nodenv",
+      "target": "nodenv",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nodenv/homebrew-nodenv",
+      "target": "nodenv-plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nodenv/homebrew-nodenv",
+      "target": "version-manager",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T00:42:27.024319+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 20338
+    },
+    {
+      "path": ".github/workflows/publish.yml",
+      "size": 1258
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 1580
+    },
+    {
+      "path": ".github/workflows/tests.yml",
+      "size": 2016
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Homebrew formulae for nodenv plugins",
+    "fork": false,
+    "full_name": "nodenv/homebrew-nodenv",
+    "html_url": "https://github.com/nodenv/homebrew-nodenv",
+    "language": "Ruby",
+    "pushed_at": "2026-04-23T11:26:59Z",
+    "stargazers_count": 12,
+    "topics": [
+      "homebrew",
+      "homebrew-tap",
+      "nodenv",
+      "nodenv-plugin",
+      "version-manager"
+    ],
+    "updated_at": "2026-04-23T11:27:02Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "deiga/nodenv-default-npmrc",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nodenv/jetbrains-npm",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nodenv/node-build-jxcore",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nodenv/node-build-prerelease",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "brew pr-pull",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "term": "brew pr-pull"
+    },
+    {
+      "context_snippet": "Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "Test"
+    },
+    {
+      "context_snippet": "brew test-bot",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests.yml",
+      "term": "brew test-bot"
+    },
+    {
+      "context_snippet": "[![Tests](https://img.shields.io/github/actions/workflow/status/nodenv/homebrew-nodenv/test.yml?label=tests&logo=github)](https://github.com/nodenv/homebrew-nodenv/actions/workflows/test.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "homebrew"
+    },
+    {
+      "context_snippet": "[![Tests](https://img.shields.io/github/actions/workflow/status/nodenv/homebrew-nodenv/test.yml?label=tests&logo=github)](https://github.com/nodenv/homebrew-nodenv/actions/workflows/test.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "homebrew-tap"
+    },
+    {
+      "context_snippet": "[![Tests](https://img.shields.io/github/actions/workflow/status/nodenv/homebrew-nodenv/test.yml?label=tests&logo=github)](https://github.com/nodenv/homebrew-nodenv/actions/workflows/test.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nodenv"
+    },
+    {
+      "context_snippet": "[![Tests](https://img.shields.io/github/actions/workflow/status/nodenv/homebrew-nodenv/test.yml?label=tests&logo=github)](https://github.com/nodenv/homebrew-nodenv/actions/workflows/test.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nodenv-plugin"
+    },
+    {
+      "context_snippet": "[![Tests](https://img.shields.io/github/actions/workflow/status/nodenv/homebrew-nodenv/test.yml?label=tests&logo=github)](https://github.com/nodenv/homebrew-nodenv/actions/workflows/test.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "version-manager"
+    }
+  ]
+}

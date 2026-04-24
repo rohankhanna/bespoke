@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A scoop bucket for installing nerd fonts"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "This repo contains manifests for installing [Nerd Fonts](https://github.com/ryanoasis/nerd-fonts) and various other fonts using the [scoop package manager](https://github.com/lukesampson/scoop) for Windows."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "This repo contains manifests for installing [Nerd Fonts](https://github.com/ryanoasis/nerd-fonts) and various other fonts using the [scoop package manager](https://github.com/lukesampson/scoop) for Windows."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "hacktoberfest",
+      "sense_id": "hacktoberfest#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "hacktoberfest",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "hacktoberfest",
+  "observation_id": "1769e9303d10ed1b",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T00:33:56.049672+00:00",
+  "observed_text": "hacktoberfest",
+  "source_context_snippet": "This repo contains manifests for installing [Nerd Fonts](https://github.com/ryanoasis/nerd-fonts) and various other fonts using the [scoop package manager](https://github.com/lukesampson/scoop) for Windows.",
+  "source_file": null,
+  "source_repo": "matthewjberger/scoop-nerd-fonts",
+  "source_repo_description": "A scoop bucket for installing nerd fonts"
+}

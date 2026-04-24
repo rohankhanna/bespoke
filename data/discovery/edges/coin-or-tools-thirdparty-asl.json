@@ -1,0 +1,13 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "coin-or-tools/ThirdParty-ASL",
+      "target": "coin-or-tools/buildtools",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-04-24T00:33:56.049672+00:00",
+  "source_repo": "coin-or-tools/ThirdParty-ASL"
+}

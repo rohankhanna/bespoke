@@ -19,6 +19,18 @@
       "source_repo": "dathere/qsv",
       "status": "candidate-context",
       "text": "[![Linux build status](https://github.com/dathere/qsv/actions/workflows/rust.yml/badge.svg)](https://github.com/dathere/qsv/actions/workflows/rust.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aaronlamz/excel-to-json",
+      "status": "candidate-context",
+      "text": "\u2692\ufe0f Convert Excel to JSON for i18n"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aaronlamz/excel-to-json",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "dathere/qsv",
       "status": "candidate",
       "text": "[![Linux build status](https://github.com/dathere/qsv/actions/workflows/rust.yml/badge.svg)](https://github.com/dathere/qsv/actions/workflows/rust.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aaronlamz/excel-to-json",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -91,11 +109,17 @@
       "observed_at": "2026-04-21T18:51:25.552552+00:00",
       "source_file": null,
       "source_repo": "dathere/qsv"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "aaronlamz/excel-to-json"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

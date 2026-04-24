@@ -1,0 +1,12 @@
+{
+  "component": "shivammathur/setup-php@accd6127cb78bee3e8082180cb391013d204ef9f",
+  "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "apache/netbeans"
+    }
+  ]
+}

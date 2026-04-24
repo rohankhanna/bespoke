@@ -1,0 +1,161 @@
+{
+  "components": [
+    {
+      "component": "angr/ci-settings/.github/workflows/angr-ci.yml@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos.yml"
+    },
+    {
+      "component": "angr/ci-settings/.github/workflows/angr-ci.yml@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly-ci.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "angr/archinfo",
+      "target": "angr/ci-settings/.github/workflows/angr-ci.yml@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos.yml",
+      "source_repo": "angr/archinfo",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos.yml",
+      "source_repo": "angr/archinfo",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/macos.yml",
+      "source_repo": "angr/archinfo",
+      "target": "Test on macOS",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly-ci.yml",
+      "source_repo": "angr/archinfo",
+      "target": "angr/ci-settings/.github/workflows/angr-ci.yml@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nightly-ci.yml",
+      "source_repo": "angr/archinfo",
+      "target": "Nightly CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows.yml",
+      "source_repo": "angr/archinfo",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows.yml",
+      "source_repo": "angr/archinfo",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/windows.yml",
+      "source_repo": "angr/archinfo",
+      "target": "Test on Windows",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T00:56:23.389544+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 735
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1394
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 268
+    },
+    {
+      "path": ".github/workflows/macos.yml",
+      "size": 554
+    },
+    {
+      "path": ".github/workflows/nightly-ci.yml",
+      "size": 205
+    },
+    {
+      "path": ".github/workflows/windows.yml",
+      "size": 622
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Classes with architecture-specific information useful to other projects.",
+    "fork": false,
+    "full_name": "angr/archinfo",
+    "html_url": "https://github.com/angr/archinfo",
+    "language": "Python",
+    "pushed_at": "2026-04-21T17:53:55Z",
+    "stargazers_count": 96,
+    "topics": [],
+    "updated_at": "2026-04-21T17:53:59Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Test on macOS",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/macos.yml",
+      "term": "Test on macOS"
+    },
+    {
+      "context_snippet": "Nightly CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nightly-ci.yml",
+      "term": "Nightly CI"
+    },
+    {
+      "context_snippet": "Test on Windows",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/windows.yml",
+      "term": "Test on Windows"
+    }
+  ]
+}

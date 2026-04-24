@@ -19,6 +19,18 @@
       "source_repo": "mksglu/context-mode",
       "status": "candidate-context",
       "text": "**The other half of the context problem.**"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "batrachianai/toad",
+      "status": "candidate-context",
+      "text": "A unified interface for AI in your terminal."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "batrachianai/toad",
+      "status": "candidate-context",
+      "text": "A unified interface for AI in your terminal ([release announcement](https://willmcgugan.github.io/toad-released/))."
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "mksglu/context-mode",
       "status": "candidate",
       "text": "**The other half of the context problem.**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "batrachianai/toad",
+      "status": "candidate",
+      "text": "A unified interface for AI in your terminal ([release announcement](https://willmcgugan.github.io/toad-released/))."
     }
   ],
   "candidate_related_terms": [],
@@ -52,11 +70,17 @@
       "observed_at": "2026-04-19T17:36:09.281008+00:00",
       "source_file": null,
       "source_repo": "mksglu/context-mode"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "batrachianai/toad"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-19T17:36:09.281008+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

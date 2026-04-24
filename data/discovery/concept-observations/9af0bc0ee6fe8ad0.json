@@ -84,7 +84,7 @@
   "normalized_form": "kubernetes",
   "observation_id": "9af0bc0ee6fe8ad0",
   "observation_kind": "repo-topic",
-  "observed_at": "2026-04-23T04:27:42.433064+00:00",
+  "observed_at": "2026-04-24T00:33:56.049672+00:00",
   "observed_text": "kubernetes",
   "source_context_snippet": "![build](https://github.com/kubernetes-sigs/apiserver-builder-alpha/workflows/build/badge.svg)",
   "source_file": null,

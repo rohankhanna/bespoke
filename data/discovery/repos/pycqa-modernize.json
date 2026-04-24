@@ -1,0 +1,134 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/download-artifact@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.rst",
+      "source_repo": "PyCQA/modernize",
+      "target": "jreese/fissix",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "pyproject.toml",
+      "source_repo": "PyCQA/modernize",
+      "target": "ionelmc/tox-wheel",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "PyCQA/modernize",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "PyCQA/modernize",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "PyCQA/modernize",
+      "target": "actions/cache@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "PyCQA/modernize",
+      "target": "actions/upload-artifact@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "PyCQA/modernize",
+      "target": "actions/download-artifact@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "PyCQA/modernize",
+      "target": "pypa/gh-action-pypi-publish@master",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-24T00:44:51.962203+00:00",
+  "fetched_files": [
+    {
+      "path": "README.rst",
+      "size": 2255
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 2835
+    },
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 2064
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Modernizes Python code for eventual Python 3 migration. Built on top of fissix (a fork of lib2to3)",
+    "fork": false,
+    "full_name": "PyCQA/modernize",
+    "html_url": "https://github.com/PyCQA/modernize",
+    "language": "Python",
+    "pushed_at": "2026-03-16T22:47:30Z",
+    "stargazers_count": 371,
+    "topics": [],
+    "updated_at": "2026-04-13T11:35:53Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jreese/fissix",
+      "source_file": "README.rst"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ionelmc/tox-wheel",
+      "source_file": "pyproject.toml"
+    }
+  ],
+  "terms": []
+}

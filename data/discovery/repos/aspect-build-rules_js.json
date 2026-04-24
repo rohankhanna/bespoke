@@ -1,0 +1,391 @@
+{
+  "components": [
+    {
+      "component": "google-closure-compiler",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/node",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "chalk",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "circles",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "jsonpath-plus",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "typescript",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/buildifier.yaml"
+    },
+    {
+      "component": "amannn/action-semantic-pull-request@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "webfactory/ssh-agent@v0.9.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "bazel-contrib/setup-bazel@0.18.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "bazel-contrib/setup-bazel@0.18.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mirror.yaml"
+    },
+    {
+      "component": "peter-evans/create-pull-request@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mirror.yaml"
+    },
+    {
+      "component": "bazel-contrib/publish-to-bcr/.github/workflows/publish.yaml@v1.1.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yaml"
+    },
+    {
+      "component": "bazel-contrib/.github/.github/workflows/release_ruleset.yaml@v7.3.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aspect-build/rules_js",
+      "target": "aspect-build/rules_esbuild",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aspect-build/rules_js",
+      "target": "aspect-build/rules_jasmine",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aspect-build/rules_js",
+      "target": "aspect-build/rules_cypress",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aspect-build/rules_js",
+      "target": "aspect-build/bazel-examples",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "aspect-build/rules_js",
+      "target": "google-closure-compiler",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "aspect-build/rules_js",
+      "target": "@types/node",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "aspect-build/rules_js",
+      "target": "chalk",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "aspect-build/rules_js",
+      "target": "circles",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "aspect-build/rules_js",
+      "target": "jsonpath-plus",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "aspect-build/rules_js",
+      "target": "typescript",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/buildifier.yaml",
+      "source_repo": "aspect-build/rules_js",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/buildifier.yaml",
+      "source_repo": "aspect-build/rules_js",
+      "target": "Buildifier",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "aspect-build/rules_js",
+      "target": "amannn/action-semantic-pull-request@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "aspect-build/rules_js",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "aspect-build/rules_js",
+      "target": "webfactory/ssh-agent@v0.9.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "aspect-build/rules_js",
+      "target": "bazel-contrib/setup-bazel@0.18.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mirror.yaml",
+      "source_repo": "aspect-build/rules_js",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mirror.yaml",
+      "source_repo": "aspect-build/rules_js",
+      "target": "peter-evans/create-pull-request@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/mirror.yaml",
+      "source_repo": "aspect-build/rules_js",
+      "target": "Mirror Releases",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yaml",
+      "source_repo": "aspect-build/rules_js",
+      "target": "bazel-contrib/publish-to-bcr/.github/workflows/publish.yaml@v1.1.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yaml",
+      "source_repo": "aspect-build/rules_js",
+      "target": "Publish",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "aspect-build/rules_js",
+      "target": "bazel-contrib/.github/.github/workflows/release_ruleset.yaml@v7.3.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "aspect-build/rules_js",
+      "target": "Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aspect-build/rules_js",
+      "target": "bazel",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aspect-build/rules_js",
+      "target": "bazel-rules",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T00:42:57.271619+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11275
+    },
+    {
+      "path": "package.json",
+      "size": 277
+    },
+    {
+      "path": ".github/workflows/BUILD.bazel",
+      "size": 0
+    },
+    {
+      "path": ".github/workflows/buildifier.yaml",
+      "size": 501
+    },
+    {
+      "path": ".github/workflows/ci.yaml",
+      "size": 6727
+    },
+    {
+      "path": ".github/workflows/mirror.yaml",
+      "size": 659
+    },
+    {
+      "path": ".github/workflows/publish.yaml",
+      "size": 1303
+    },
+    {
+      "path": ".github/workflows/release.yaml",
+      "size": 1004
+    },
+    {
+      "path": ".github/workflows/release_docs.sh",
+      "size": 534
+    },
+    {
+      "path": ".github/workflows/release_prep.sh",
+      "size": 2225
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "High-performance Bazel rules for running Node.js tools and building JavaScript projects",
+    "fork": false,
+    "full_name": "aspect-build/rules_js",
+    "html_url": "https://github.com/aspect-build/rules_js",
+    "language": "Starlark",
+    "pushed_at": "2026-04-23T07:15:21Z",
+    "stargazers_count": 366,
+    "topics": [
+      "bazel",
+      "bazel-rules"
+    ],
+    "updated_at": "2026-04-17T18:57:51Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aspect-build/bazel-examples",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aspect-build/rules_cypress",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aspect-build/rules_esbuild",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aspect-build/rules_jasmine",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Buildifier",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/buildifier.yaml",
+      "term": "Buildifier"
+    },
+    {
+      "context_snippet": "Mirror Releases",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/mirror.yaml",
+      "term": "Mirror Releases"
+    },
+    {
+      "context_snippet": "Publish",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yaml",
+      "term": "Publish"
+    },
+    {
+      "context_snippet": "Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yaml",
+      "term": "Release"
+    },
+    {
+      "context_snippet": "This ruleset is a high-performance Bazel integration for JavaScript, based on the [pnpm package manager](https://pnpm.io).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bazel"
+    },
+    {
+      "context_snippet": "This ruleset is a high-performance Bazel integration for JavaScript, based on the [pnpm package manager](https://pnpm.io).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bazel-rules"
+    }
+  ]
+}

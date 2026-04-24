@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Reusable workflow for integration testing"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fluent/fluent-bit",
+      "status": "candidate-context",
+      "text": "Fast and Lightweight Logs, Metrics and Traces processor for Linux, BSD, OSX and Windows"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fluent/fluent-bit",
+      "status": "candidate-context",
+      "text": "Reusable workflow for integration testing"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fluent/fluent-bit",
+      "status": "candidate",
+      "text": "Reusable workflow for integration testing"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31746,
+      "status": "candidate",
+      "text": "application"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31684,
+      "status": "candidate",
+      "text": "develop"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31684,
+      "status": "candidate",
+      "text": "pass"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31684,
+      "status": "candidate",
+      "text": "sampling"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31684,
+      "status": "candidate",
+      "text": "shift"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Reusable workflow for integration testing",
+  "concept_id": "reusable-workflow-for-integration-testing",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/call-integration-image-build.yaml",
+      "source_repo": "fluent/fluent-bit"
+    }
+  ],
+  "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Reusable workflow for integration testing",
+      "sense_id": "reusable-workflow-for-integration-testing#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

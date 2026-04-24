@@ -1,7 +1,7 @@
 {
   "component": "jwlawson/actions-setup-cmake@v2",
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -32,6 +32,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/build.yml",
       "source_repo": "redis/hiredis"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/call-build-macos.yaml",
+      "source_repo": "fluent/fluent-bit"
     }
   ]
 }

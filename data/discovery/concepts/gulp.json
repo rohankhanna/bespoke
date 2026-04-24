@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "gulp"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ColemanGariety/gulp-nodemon",
+      "status": "candidate-context",
+      "text": "gulp + nodemon + convenience"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ColemanGariety/gulp-nodemon",
+      "status": "candidate-context",
+      "text": "gulp-nodemon"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ColemanGariety/gulp-nodemon",
+      "status": "candidate",
+      "text": "gulp-nodemon"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40046626,
+      "status": "candidate",
+      "text": "devour"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40046491,
+      "status": "candidate",
+      "text": "guttle"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40035686,
+      "status": "candidate",
+      "text": "swig"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40029892,
+      "status": "candidate",
+      "text": "quaff"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39991462,
+      "status": "candidate",
+      "text": "draught"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 28085,
+      "status": "candidate",
+      "text": "draft"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 21022,
+      "status": "candidate",
+      "text": "guttle"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 14047,
+      "status": "candidate",
+      "text": "draught"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 14035,
+      "status": "candidate",
+      "text": "devour"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 12046,
+      "status": "candidate",
+      "text": "raven"
+    }
+  ],
+  "canonical_name": "gulp",
+  "concept_id": "gulp",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "ColemanGariety/gulp-nodemon"
+    }
+  ],
+  "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "gulp",
+      "sense_id": "gulp#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

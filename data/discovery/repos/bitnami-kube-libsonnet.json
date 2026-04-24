@@ -1,0 +1,111 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bitnami/kube-libsonnet",
+      "target": "kube-libsonnet/kube-libsonnet",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bitnami/kube-libsonnet",
+      "target": "bitnami-labs/kube-libsonnet",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bitnami/kube-libsonnet",
+      "target": "jsonnet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bitnami/kube-libsonnet",
+      "target": "ksonnet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bitnami/kube-libsonnet",
+      "target": "kubecfg",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bitnami/kube-libsonnet",
+      "target": "kubernetes",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T01:55:52.246822+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1455
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "Bitnami's jsonnet library for building Kubernetes manifests",
+    "fork": false,
+    "full_name": "bitnami/kube-libsonnet",
+    "html_url": "https://github.com/bitnami/kube-libsonnet",
+    "language": "Jsonnet",
+    "pushed_at": "2023-06-20T13:16:45Z",
+    "stargazers_count": 173,
+    "topics": [
+      "jsonnet",
+      "ksonnet",
+      "kubecfg",
+      "kubernetes"
+    ],
+    "updated_at": "2026-03-30T05:44:28Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bitnami-labs/kube-libsonnet",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kube-libsonnet/kube-libsonnet",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "We have made the difficult decision to stop driving this project and therefore we will no longer actively respond to issues or pull requests.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "jsonnet"
+    },
+    {
+      "context_snippet": "We have made the difficult decision to stop driving this project and therefore we will no longer actively respond to issues or pull requests.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ksonnet"
+    },
+    {
+      "context_snippet": "We have made the difficult decision to stop driving this project and therefore we will no longer actively respond to issues or pull requests.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kubecfg"
+    },
+    {
+      "context_snippet": "We have made the difficult decision to stop driving this project and therefore we will no longer actively respond to issues or pull requests.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kubernetes"
+    }
+  ]
+}

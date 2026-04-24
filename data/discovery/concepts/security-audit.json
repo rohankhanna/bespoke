@@ -287,6 +287,30 @@
       "source_repo": "bheisler/criterion.rs",
       "status": "candidate-context",
       "text": "Security audit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "EspressoSystems/espresso-network",
+      "status": "candidate-context",
+      "text": "Security audit"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "clap-rs/clap",
+      "status": "candidate-context",
+      "text": "A full featured, fast Command Line Argument Parser for Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clap-rs/clap",
+      "status": "candidate-context",
+      "text": "Security audit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "criterion-rs/criterion.rs",
+      "status": "candidate-context",
+      "text": "Security audit"
     }
   ],
   "candidate_glosses": [
@@ -419,6 +443,24 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "bheisler/criterion.rs",
+      "status": "candidate",
+      "text": "Security audit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "EspressoSystems/espresso-network",
+      "status": "candidate",
+      "text": "Security audit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clap-rs/clap",
+      "status": "candidate",
+      "text": "Security audit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "criterion-rs/criterion.rs",
       "status": "candidate",
       "text": "Security audit"
     }
@@ -644,11 +686,35 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": ".github/workflows/audit.yml",
       "source_repo": "rust-nvml/nvml-wrapper"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/audit.yml",
+      "source_repo": "EspressoSystems/espresso-network"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/audit.yml",
+      "source_repo": "clap-rs/clap"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/audit.yml",
+      "source_repo": "criterion-rs/criterion.rs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/audit.yml",
+      "source_repo": "rust-nvml/nvml-wrapper"
     }
   ],
   "first_seen_at": "2026-04-18T11:32:22.637859+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

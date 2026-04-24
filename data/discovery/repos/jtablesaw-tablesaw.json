@@ -1,0 +1,318 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-java@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jtablesaw/tablesaw",
+      "target": "tlabs-data/tablesaw-parquet",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jtablesaw/tablesaw",
+      "target": "twosigma/beakerx",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jtablesaw/tablesaw",
+      "target": "spencerpark/ijava",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jtablesaw/tablesaw",
+      "target": "hallvard/etablesaw",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "jtablesaw/tablesaw",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "jtablesaw/tablesaw",
+      "target": "actions/setup-java@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jtablesaw/tablesaw",
+      "target": "chart",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jtablesaw/tablesaw",
+      "target": "data-analysis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jtablesaw/tablesaw",
+      "target": "data-frame",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jtablesaw/tablesaw",
+      "target": "data-science",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jtablesaw/tablesaw",
+      "target": "data-visualization",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jtablesaw/tablesaw",
+      "target": "dataframe",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jtablesaw/tablesaw",
+      "target": "high-performance",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jtablesaw/tablesaw",
+      "target": "java",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jtablesaw/tablesaw",
+      "target": "java-dataframe",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jtablesaw/tablesaw",
+      "target": "machine-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jtablesaw/tablesaw",
+      "target": "plotly",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jtablesaw/tablesaw",
+      "target": "plotting",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jtablesaw/tablesaw",
+      "target": "statistical-analysis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jtablesaw/tablesaw",
+      "target": "statistics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jtablesaw/tablesaw",
+      "target": "visualization",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T00:54:29.817375+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7110
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 591
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Java dataframe and visualization library",
+    "fork": false,
+    "full_name": "jtablesaw/tablesaw",
+    "html_url": "https://github.com/jtablesaw/tablesaw",
+    "language": "Java",
+    "pushed_at": "2026-03-02T01:13:06Z",
+    "stargazers_count": 3747,
+    "topics": [
+      "chart",
+      "data-analysis",
+      "data-frame",
+      "data-science",
+      "data-visualization",
+      "dataframe",
+      "high-performance",
+      "java",
+      "java-dataframe",
+      "machine-learning",
+      "plotly",
+      "plotting",
+      "statistical-analysis",
+      "statistics",
+      "visualization"
+    ],
+    "updated_at": "2026-04-23T14:29:08Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hallvard/etablesaw",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "spencerpark/ijava",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tlabs-data/tablesaw-parquet",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "twosigma/beakerx",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Tablesaw",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chart"
+    },
+    {
+      "context_snippet": "Tablesaw",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "data-analysis"
+    },
+    {
+      "context_snippet": "Tablesaw",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "data-frame"
+    },
+    {
+      "context_snippet": "Tablesaw",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "data-science"
+    },
+    {
+      "context_snippet": "Tablesaw",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "data-visualization"
+    },
+    {
+      "context_snippet": "Tablesaw",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dataframe"
+    },
+    {
+      "context_snippet": "Tablesaw",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "high-performance"
+    },
+    {
+      "context_snippet": "Tablesaw",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "java"
+    },
+    {
+      "context_snippet": "Tablesaw",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "java-dataframe"
+    },
+    {
+      "context_snippet": "Tablesaw",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-learning"
+    },
+    {
+      "context_snippet": "Tablesaw",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "plotly"
+    },
+    {
+      "context_snippet": "Tablesaw",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "plotting"
+    },
+    {
+      "context_snippet": "Tablesaw",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "statistical-analysis"
+    },
+    {
+      "context_snippet": "Tablesaw",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "statistics"
+    },
+    {
+      "context_snippet": "Tablesaw",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "visualization"
+    }
+  ]
+}

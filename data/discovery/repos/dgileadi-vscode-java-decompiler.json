@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dgileadi/vscode-java-decompiler",
+      "target": "dgileadi/dg.jdt.ls.decompiler",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-24T02:04:19.021189+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1358
+    },
+    {
+      "path": "package.json",
+      "size": 46292
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Decompiler extension for Java in Visual Studio Code",
+    "fork": false,
+    "full_name": "dgileadi/vscode-java-decompiler",
+    "html_url": "https://github.com/dgileadi/vscode-java-decompiler",
+    "language": null,
+    "pushed_at": "2024-03-27T03:09:02Z",
+    "stargazers_count": 69,
+    "topics": [],
+    "updated_at": "2026-04-01T11:52:03Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dgileadi/dg.jdt.ls.decompiler",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

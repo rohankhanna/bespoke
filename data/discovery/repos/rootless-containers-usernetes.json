@@ -1,0 +1,217 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reusable-multi-node.yaml"
+    },
+    {
+      "component": "lima-vm/lima-actions/setup@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reusable-multi-node.yaml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reusable-multi-node.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reusable-single-node.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "rootless-containers/usernetes",
+      "target": "rootless-containers/bypass4netns",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yaml",
+      "source_repo": "rootless-containers/usernetes",
+      "target": "Main",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reusable-multi-node.yaml",
+      "source_repo": "rootless-containers/usernetes",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reusable-multi-node.yaml",
+      "source_repo": "rootless-containers/usernetes",
+      "target": "lima-vm/lima-actions/setup@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reusable-multi-node.yaml",
+      "source_repo": "rootless-containers/usernetes",
+      "target": "actions/cache@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/reusable-multi-node.yaml",
+      "source_repo": "rootless-containers/usernetes",
+      "target": "Multi Node",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reusable-single-node.yaml",
+      "source_repo": "rootless-containers/usernetes",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/reusable-single-node.yaml",
+      "source_repo": "rootless-containers/usernetes",
+      "target": "Single Node",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rootless-containers/usernetes",
+      "target": "containerd",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rootless-containers/usernetes",
+      "target": "cri-o",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rootless-containers/usernetes",
+      "target": "docker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rootless-containers/usernetes",
+      "target": "kubernetes",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rootless-containers/usernetes",
+      "target": "rootless-containers",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T01:55:39.421326+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6169
+    },
+    {
+      "path": "Dockerfile",
+      "size": 1821
+    },
+    {
+      "path": ".github/workflows/main.yaml",
+      "size": 1457
+    },
+    {
+      "path": ".github/workflows/reusable-multi-node.yaml",
+      "size": 3151
+    },
+    {
+      "path": ".github/workflows/reusable-single-node.yaml",
+      "size": 3198
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Kubernetes without the root privileges",
+    "fork": false,
+    "full_name": "rootless-containers/usernetes",
+    "html_url": "https://github.com/rootless-containers/usernetes",
+    "language": "Shell",
+    "pushed_at": "2025-12-18T08:15:21Z",
+    "stargazers_count": 962,
+    "topics": [
+      "containerd",
+      "cri-o",
+      "docker",
+      "kubernetes",
+      "rootless-containers"
+    ],
+    "updated_at": "2026-04-20T07:48:39Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rootless-containers/bypass4netns",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Main",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yaml",
+      "term": "Main"
+    },
+    {
+      "context_snippet": "Multi Node",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/reusable-multi-node.yaml",
+      "term": "Multi Node"
+    },
+    {
+      "context_snippet": "Single Node",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/reusable-single-node.yaml",
+      "term": "Single Node"
+    },
+    {
+      "context_snippet": "Usernetes (Gen2) deploys a Kubernetes cluster inside [Rootless Docker](https://rootlesscontaine.rs/getting-started/docker/),",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "containerd"
+    },
+    {
+      "context_snippet": "Usernetes (Gen2) deploys a Kubernetes cluster inside [Rootless Docker](https://rootlesscontaine.rs/getting-started/docker/),",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cri-o"
+    },
+    {
+      "context_snippet": "Usernetes (Gen2) deploys a Kubernetes cluster inside [Rootless Docker](https://rootlesscontaine.rs/getting-started/docker/),",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "docker"
+    },
+    {
+      "context_snippet": "Usernetes (Gen2) deploys a Kubernetes cluster inside [Rootless Docker](https://rootlesscontaine.rs/getting-started/docker/),",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kubernetes"
+    },
+    {
+      "context_snippet": "Usernetes (Gen2) deploys a Kubernetes cluster inside [Rootless Docker](https://rootlesscontaine.rs/getting-started/docker/),",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rootless-containers"
+    }
+  ]
+}

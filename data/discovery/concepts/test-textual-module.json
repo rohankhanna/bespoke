@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Test Textual module"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Textualize/textual",
+      "status": "candidate-context",
+      "text": "The lean application framework for Python.  Build sophisticated user interfaces with a simple Python API. Run your apps in the terminal and a web browser."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Textualize/textual",
+      "status": "candidate-context",
+      "text": "Test Textual module"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Textualize/textual",
+      "status": "candidate",
+      "text": "Test Textual module"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27217,
+      "status": "candidate",
+      "text": "ielts"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19992,
+      "status": "candidate",
+      "text": "accidental"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19992,
+      "status": "candidate",
+      "text": "note"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19992,
+      "status": "candidate",
+      "text": "null"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19992,
+      "status": "candidate",
+      "text": "topic"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Test Textual module",
+  "concept_id": "test-textual-module",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/pythonpackage.yml",
+      "source_repo": "Textualize/textual"
+    }
+  ],
+  "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Test Textual module",
+      "sense_id": "test-textual-module#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

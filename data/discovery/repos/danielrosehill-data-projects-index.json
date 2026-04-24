@@ -1,0 +1,85 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/Data-Projects-Index",
+      "target": "danielrosehill/github-master-index",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielrosehill/Data-Projects-Index",
+      "target": "data-analysis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielrosehill/Data-Projects-Index",
+      "target": "data-science",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielrosehill/Data-Projects-Index",
+      "target": "data-visualization",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T01:43:21.855993+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2887
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Data apps and datasets deployed to Streamlit Community Cloud, Hugging Face, and elsewhere. ",
+    "fork": false,
+    "full_name": "danielrosehill/Data-Projects-Index",
+    "html_url": "https://github.com/danielrosehill/Data-Projects-Index",
+    "language": null,
+    "pushed_at": "2025-12-25T17:16:39Z",
+    "stargazers_count": 0,
+    "topics": [
+      "data-analysis",
+      "data-science",
+      "data-visualization"
+    ],
+    "updated_at": "2025-12-25T17:16:42Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "danielrosehill/github-master-index",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![Master Index](https://img.shields.io/badge/Master%20Index-All%20Repositories-purple?style=for-the-badge&logo=github)](https://github.com/danielrosehill/Github-Master-Index)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "data-analysis"
+    },
+    {
+      "context_snippet": "[![Master Index](https://img.shields.io/badge/Master%20Index-All%20Repositories-purple?style=for-the-badge&logo=github)](https://github.com/danielrosehill/Github-Master-Index)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "data-science"
+    },
+    {
+      "context_snippet": "[![Master Index](https://img.shields.io/badge/Master%20Index-All%20Repositories-purple?style=for-the-badge&logo=github)](https://github.com/danielrosehill/Github-Master-Index)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "data-visualization"
+    }
+  ]
+}

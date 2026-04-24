@@ -56,6 +56,18 @@
       "source_repo": "anymail/django-anymail",
       "status": "candidate-context",
       "text": "integration-test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "conda/conda-lock",
+      "status": "candidate-context",
+      "text": "Lightweight lockfile for conda environments"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "conda/conda-lock",
+      "status": "candidate-context",
+      "text": "integration-test"
     }
   ],
   "candidate_glosses": [
@@ -80,6 +92,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "anymail/django-anymail",
+      "status": "candidate",
+      "text": "integration-test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "conda/conda-lock",
       "status": "candidate",
       "text": "integration-test"
     }
@@ -149,11 +167,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": ".github/workflows/integration-test.yml",
       "source_repo": "anymail/django-anymail"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/integration-test.yml",
+      "source_repo": "conda/conda-lock"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

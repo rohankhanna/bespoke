@@ -1,0 +1,619 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/approve-label.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-cherry-pick.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-cherry-pick.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/be-ut-mac.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-extension.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-extension.yml"
+    },
+    {
+      "component": "actions/setup-java@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-extension.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-extension.yml"
+    },
+    {
+      "component": "actions/setup-java@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-extension.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-extension.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-thirdparty.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-thirdparty.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-thirdparty.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-thirdparty.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checkstyle.yaml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checkstyle.yaml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clang-format.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clang-format.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clang-format.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code-checks.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code-checks.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code-checks.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code-checks.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code-checks.yml"
+    },
+    {
+      "component": "actions/download-artifact@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code-checks.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "apache/doris",
+      "target": "apache/doris-flink-connector",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "apache/doris",
+      "target": "apache/doris-spark-connector",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/approve-label-trigger.yml",
+      "source_repo": "apache/doris",
+      "target": "Label when reviewed",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/approve-label.yml",
+      "source_repo": "apache/doris",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/approve-label.yml",
+      "source_repo": "apache/doris",
+      "target": "Label when approved workflow run",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-cherry-pick.yml",
+      "source_repo": "apache/doris",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-cherry-pick.yml",
+      "source_repo": "apache/doris",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-cherry-pick.yml",
+      "source_repo": "apache/doris",
+      "target": "Auto Cherry-Pick to Branch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/be-ut-mac.yml",
+      "source_repo": "apache/doris",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/be-ut-mac.yml",
+      "source_repo": "apache/doris",
+      "target": "BE UT (macOS)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-extension.yml",
+      "source_repo": "apache/doris",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-extension.yml",
+      "source_repo": "apache/doris",
+      "target": "actions/setup-java@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-extension.yml",
+      "source_repo": "apache/doris",
+      "target": "Build Extensions",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-thirdparty.yml",
+      "source_repo": "apache/doris",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-thirdparty.yml",
+      "source_repo": "apache/doris",
+      "target": "Build Third Party Libraries",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checkstyle.yaml",
+      "source_repo": "apache/doris",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checkstyle.yaml",
+      "source_repo": "apache/doris",
+      "target": "actions/setup-java@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/checkstyle.yaml",
+      "source_repo": "apache/doris",
+      "target": "FE Code Style Checker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clang-format.yml",
+      "source_repo": "apache/doris",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clang-format.yml",
+      "source_repo": "apache/doris",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/clang-format.yml",
+      "source_repo": "apache/doris",
+      "target": "Code Formatter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code-checks.yml",
+      "source_repo": "apache/doris",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code-checks.yml",
+      "source_repo": "apache/doris",
+      "target": "actions/upload-artifact@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code-checks.yml",
+      "source_repo": "apache/doris",
+      "target": "actions/download-artifact@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/code-checks.yml",
+      "source_repo": "apache/doris",
+      "target": "Code Checks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/doris",
+      "target": "bigquery",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/doris",
+      "target": "database",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/doris",
+      "target": "delta-lake",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/doris",
+      "target": "hudi",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/doris",
+      "target": "iceberg",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/doris",
+      "target": "lakehouse",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/doris",
+      "target": "olap",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/doris",
+      "target": "paimon",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/doris",
+      "target": "query-engine",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/doris",
+      "target": "real-time",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/doris",
+      "target": "redshift",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/doris",
+      "target": "snowflake",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/doris",
+      "target": "spark",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T01:51:45.848969+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 22106
+    },
+    {
+      "path": ".github/workflows/approve-label-trigger.yml",
+      "size": 1037
+    },
+    {
+      "path": ".github/workflows/approve-label.yml",
+      "size": 2662
+    },
+    {
+      "path": ".github/workflows/auto-cherry-pick.yml",
+      "size": 3244
+    },
+    {
+      "path": ".github/workflows/be-ut-mac.yml",
+      "size": 3267
+    },
+    {
+      "path": ".github/workflows/build-extension.yml",
+      "size": 6474
+    },
+    {
+      "path": ".github/workflows/build-thirdparty.yml",
+      "size": 8488
+    },
+    {
+      "path": ".github/workflows/checkstyle.yaml",
+      "size": 2015
+    },
+    {
+      "path": ".github/workflows/clang-format.yml",
+      "size": 3360
+    },
+    {
+      "path": ".github/workflows/code-checks.yml",
+      "size": 6030
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Apache Doris is an easy-to-use, high performance and unified analytics database.",
+    "fork": false,
+    "full_name": "apache/doris",
+    "html_url": "https://github.com/apache/doris",
+    "language": "Java",
+    "pushed_at": "2026-04-23T15:28:11Z",
+    "stargazers_count": 15259,
+    "topics": [
+      "agent",
+      "ai",
+      "bigquery",
+      "database",
+      "dbt",
+      "delta-lake",
+      "elt",
+      "hudi",
+      "iceberg",
+      "lakehouse",
+      "olap",
+      "paimon",
+      "query-engine",
+      "real-time",
+      "redshift",
+      "snowflake",
+      "spark",
+      "sql"
+    ],
+    "updated_at": "2026-04-23T23:35:50Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "apache/doris-flink-connector",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "apache/doris-spark-connector",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Label when reviewed",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/approve-label-trigger.yml",
+      "term": "Label when reviewed"
+    },
+    {
+      "context_snippet": "Label when approved workflow run",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/approve-label.yml",
+      "term": "Label when approved workflow run"
+    },
+    {
+      "context_snippet": "Auto Cherry-Pick to Branch",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-cherry-pick.yml",
+      "term": "Auto Cherry-Pick to Branch"
+    },
+    {
+      "context_snippet": "BE UT (macOS)",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/be-ut-mac.yml",
+      "term": "BE UT (macOS)"
+    },
+    {
+      "context_snippet": "Build Extensions",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-extension.yml",
+      "term": "Build Extensions"
+    },
+    {
+      "context_snippet": "Build Third Party Libraries",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-thirdparty.yml",
+      "term": "Build Third Party Libraries"
+    },
+    {
+      "context_snippet": "FE Code Style Checker",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/checkstyle.yaml",
+      "term": "FE Code Style Checker"
+    },
+    {
+      "context_snippet": "Code Formatter",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/clang-format.yml",
+      "term": "Code Formatter"
+    },
+    {
+      "context_snippet": "Code Checks",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/code-checks.yml",
+      "term": "Code Checks"
+    },
+    {
+      "context_snippet": "<!--",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bigquery"
+    },
+    {
+      "context_snippet": "<!--",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "database"
+    },
+    {
+      "context_snippet": "<!--",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "delta-lake"
+    },
+    {
+      "context_snippet": "<!--",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hudi"
+    },
+    {
+      "context_snippet": "<!--",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "iceberg"
+    },
+    {
+      "context_snippet": "<!--",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lakehouse"
+    },
+    {
+      "context_snippet": "<!--",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "olap"
+    },
+    {
+      "context_snippet": "<!--",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "paimon"
+    },
+    {
+      "context_snippet": "<!--",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "query-engine"
+    },
+    {
+      "context_snippet": "<!--",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "real-time"
+    },
+    {
+      "context_snippet": "<!--",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "redshift"
+    },
+    {
+      "context_snippet": "<!--",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "snowflake"
+    },
+    {
+      "context_snippet": "<!--",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "spark"
+    }
+  ]
+}

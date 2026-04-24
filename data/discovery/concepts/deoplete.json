@@ -43,6 +43,18 @@
       "source_repo": "kristijanhusak/vim-dadbod-completion",
       "status": "candidate-context",
       "text": "Database auto completion powered by [vim-dadbod](https://github.com/tpope/vim-dadbod)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "clojure-vim/async-clj-omni",
+      "status": "candidate-context",
+      "text": "Async Clojure Completion for various (n)vim completion engines"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clojure-vim/async-clj-omni",
+      "status": "candidate-context",
+      "text": "Provides async clojure completion for:"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "kristijanhusak/vim-dadbod-completion",
       "status": "candidate",
       "text": "Database auto completion powered by [vim-dadbod](https://github.com/tpope/vim-dadbod)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clojure-vim/async-clj-omni",
+      "status": "candidate",
+      "text": "Provides async clojure completion for:"
     }
   ],
   "candidate_related_terms": [],
@@ -88,11 +106,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "kristijanhusak/vim-dadbod-completion"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "clojure-vim/async-clj-omni"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

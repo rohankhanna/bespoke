@@ -1,0 +1,160 @@
+{
+  "aliases": [
+    "type"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jonschlinkert/isobject",
+      "status": "candidate-context",
+      "text": "Is the value an object, and not an array or null?"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jonschlinkert/isobject",
+      "status": "candidate-context",
+      "text": "> Returns true if the value is an object and not an array or null."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jonschlinkert/kind-of",
+      "status": "candidate-context",
+      "text": "Get the native JavaScript type of a value, fast. Used by superstruct, micromatch and many others!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jonschlinkert/kind-of",
+      "status": "candidate-context",
+      "text": "> Get the native type of a value."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jonschlinkert/isobject",
+      "status": "candidate",
+      "text": "> Returns true if the value is an object and not an array or null."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jonschlinkert/kind-of",
+      "status": "candidate",
+      "text": "> Get the native type of a value."
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39987473,
+      "status": "candidate",
+      "text": "character"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39986128,
+      "status": "candidate",
+      "text": "typecast"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39981391,
+      "status": "candidate",
+      "text": "case"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39974622,
+      "status": "candidate",
+      "text": "typewrite"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39955858,
+      "status": "candidate",
+      "text": "eccentric"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 46053,
+      "status": "candidate",
+      "text": "eccentric"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 41087,
+      "status": "candidate",
+      "text": "case"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 29078,
+      "status": "candidate",
+      "text": "character"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1027,
+      "status": "candidate",
+      "text": "typecast"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1022,
+      "status": "candidate",
+      "text": "typewrite"
+    }
+  ],
+  "canonical_name": "type",
+  "concept_id": "type",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "jonschlinkert/isobject"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "jonschlinkert/kind-of"
+    }
+  ],
+  "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "type",
+      "sense_id": "type#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

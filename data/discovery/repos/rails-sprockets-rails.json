@@ -1,0 +1,106 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "rails/sprockets-rails",
+      "target": "rails/sprockets",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "rails/sprockets-rails",
+      "target": "rails/coffee-rails",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "rails/sprockets-rails",
+      "target": "rails/sass-rails",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "rails/sprockets-rails",
+      "target": "mvz/non-digest-assets",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "rails/sprockets-rails",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "rails/sprockets-rails",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-24T01:42:26.703295+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8728
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 1505
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Sprockets Rails integration",
+    "fork": false,
+    "full_name": "rails/sprockets-rails",
+    "html_url": "https://github.com/rails/sprockets-rails",
+    "language": "Ruby",
+    "pushed_at": "2024-10-23T03:54:09Z",
+    "stargazers_count": 592,
+    "topics": [],
+    "updated_at": "2026-02-20T11:20:40Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mvz/non-digest-assets",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rails/coffee-rails",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rails/sass-rails",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rails/sprockets",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

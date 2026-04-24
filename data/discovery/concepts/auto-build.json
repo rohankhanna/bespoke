@@ -1,0 +1,124 @@
+{
+  "aliases": [
+    "Auto Build"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/casbin-rust-actix-casbin",
+      "status": "candidate-context",
+      "text": "casbin as an actor"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/casbin-rust-actix-casbin",
+      "status": "candidate-context",
+      "text": "Auto Build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/casbin-axum-casbin",
+      "status": "candidate-context",
+      "text": "Axum authorization middleware based on Casbin"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/casbin-axum-casbin",
+      "status": "candidate-context",
+      "text": "Auto Build"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/casbin-rust-actix-casbin",
+      "status": "candidate",
+      "text": "Auto Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/casbin-axum-casbin",
+      "status": "candidate",
+      "text": "Auto Build"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11641,
+      "status": "candidate",
+      "text": "make"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11641,
+      "status": "candidate",
+      "text": "used"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11572,
+      "status": "candidate",
+      "text": "harness"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10606,
+      "status": "candidate",
+      "text": "air"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10606,
+      "status": "candidate",
+      "text": "armrest"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Auto Build",
+  "concept_id": "auto-build",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "apache/casbin-rust-actix-casbin"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "apache/casbin-axum-casbin"
+    }
+  ],
+  "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Auto Build",
+      "sense_id": "auto-build#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

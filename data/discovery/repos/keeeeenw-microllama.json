@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "keeeeenw/MicroLlama",
+      "target": "keeeeenw/microllava",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "keeeeenw/MicroLlama",
+      "target": "tinyllava/tinyllava_factory",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "keeeeenw/MicroLlama",
+      "target": "lightning-ai/lit-gpt",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "keeeeenw/MicroLlama",
+      "target": "openlm-research/open_llama",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-24T02:03:31.226278+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9876
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Micro Llama is a small Llama based model with 300M parameters trained from scratch with $500 budget",
+    "fork": false,
+    "full_name": "keeeeenw/MicroLlama",
+    "html_url": "https://github.com/keeeeenw/MicroLlama",
+    "language": "Python",
+    "pushed_at": "2025-08-11T00:31:35Z",
+    "stargazers_count": 167,
+    "topics": [],
+    "updated_at": "2026-04-09T07:51:14Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "keeeeenw/microllava",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lightning-ai/lit-gpt",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "openlm-research/open_llama",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tinyllava/tinyllava_factory",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

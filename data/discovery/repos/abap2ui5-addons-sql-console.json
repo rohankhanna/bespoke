@@ -1,0 +1,423 @@
+{
+  "components": [
+    {
+      "component": "npm-check-updates",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@abaplint/cli",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@abaplint/database-sqlite",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@abaplint/runtime",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@abaplint/transpiler-cli",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/node",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "buffer",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "copy-webpack-plugin",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "express",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "html-webpack-plugin",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "path-browserify",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "web-encoding",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "webpack-cli",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "webpack-dev-server",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@playwright/test",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ABAP_CLOUD.yaml"
+    },
+    {
+      "component": "actions/setup-node@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ABAP_CLOUD.yaml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ABAP_STANDARD.yaml"
+    },
+    {
+      "component": "actions/setup-node@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ABAP_STANDARD.yaml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rename_test.yaml"
+    },
+    {
+      "component": "actions/setup-node@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rename_test.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "abap2UI5-addons/sql-console",
+      "target": "marianfoo/ztoad",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "abap2UI5-addons/sql-console",
+      "target": "abap2ui5-apps/sql-console",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "abap2UI5-addons/sql-console",
+      "target": "npm-check-updates",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "abap2UI5-addons/sql-console",
+      "target": "@abaplint/cli",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "abap2UI5-addons/sql-console",
+      "target": "@abaplint/database-sqlite",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "abap2UI5-addons/sql-console",
+      "target": "@abaplint/runtime",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "abap2UI5-addons/sql-console",
+      "target": "@abaplint/transpiler-cli",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "abap2UI5-addons/sql-console",
+      "target": "@types/node",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "abap2UI5-addons/sql-console",
+      "target": "buffer",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "abap2UI5-addons/sql-console",
+      "target": "copy-webpack-plugin",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "abap2UI5-addons/sql-console",
+      "target": "express",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "abap2UI5-addons/sql-console",
+      "target": "html-webpack-plugin",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "abap2UI5-addons/sql-console",
+      "target": "path-browserify",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "abap2UI5-addons/sql-console",
+      "target": "web-encoding",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "abap2UI5-addons/sql-console",
+      "target": "webpack-cli",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "abap2UI5-addons/sql-console",
+      "target": "webpack-dev-server",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "abap2UI5-addons/sql-console",
+      "target": "@playwright/test",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ABAP_CLOUD.yaml",
+      "source_repo": "abap2UI5-addons/sql-console",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ABAP_CLOUD.yaml",
+      "source_repo": "abap2UI5-addons/sql-console",
+      "target": "actions/setup-node@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ABAP_STANDARD.yaml",
+      "source_repo": "abap2UI5-addons/sql-console",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ABAP_STANDARD.yaml",
+      "source_repo": "abap2UI5-addons/sql-console",
+      "target": "actions/setup-node@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rename_test.yaml",
+      "source_repo": "abap2UI5-addons/sql-console",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rename_test.yaml",
+      "source_repo": "abap2UI5-addons/sql-console",
+      "target": "actions/setup-node@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "abap2UI5-addons/sql-console",
+      "target": "abap",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "abap2UI5-addons/sql-console",
+      "target": "abap2ui5",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "abap2UI5-addons/sql-console",
+      "target": "abapgit",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "abap2UI5-addons/sql-console",
+      "target": "fiori",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "abap2UI5-addons/sql-console",
+      "target": "open-source",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "abap2UI5-addons/sql-console",
+      "target": "openui5",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "abap2UI5-addons/sql-console",
+      "target": "sapui5",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T00:35:24.188106+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1038
+    },
+    {
+      "path": "package.json",
+      "size": 1392
+    },
+    {
+      "path": ".github/workflows/ABAP_CLOUD.yaml",
+      "size": 343
+    },
+    {
+      "path": ".github/workflows/ABAP_STANDARD.yaml",
+      "size": 332
+    },
+    {
+      "path": ".github/workflows/rename_test.yaml",
+      "size": 313
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Run SQL Commands in Your Browser",
+    "fork": false,
+    "full_name": "abap2UI5-addons/sql-console",
+    "html_url": "https://github.com/abap2UI5-addons/sql-console",
+    "language": "ABAP",
+    "pushed_at": "2026-02-12T16:06:43Z",
+    "stargazers_count": 12,
+    "topics": [
+      "abap",
+      "abap2ui5",
+      "abapgit",
+      "fiori",
+      "open-source",
+      "openui5",
+      "sapui5",
+      "ui5"
+    ],
+    "updated_at": "2026-02-12T16:11:26Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "abap2ui5-apps/sql-console",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "marianfoo/ztoad",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "SQL Console in Your Browser \u2013 No Need for Eclipse or SAP GUI Installation",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "abap"
+    },
+    {
+      "context_snippet": "SQL Console in Your Browser \u2013 No Need for Eclipse or SAP GUI Installation",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "abap2ui5"
+    },
+    {
+      "context_snippet": "SQL Console in Your Browser \u2013 No Need for Eclipse or SAP GUI Installation",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "abapgit"
+    },
+    {
+      "context_snippet": "SQL Console in Your Browser \u2013 No Need for Eclipse or SAP GUI Installation",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fiori"
+    },
+    {
+      "context_snippet": "SQL Console in Your Browser \u2013 No Need for Eclipse or SAP GUI Installation",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "open-source"
+    },
+    {
+      "context_snippet": "SQL Console in Your Browser \u2013 No Need for Eclipse or SAP GUI Installation",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "openui5"
+    },
+    {
+      "context_snippet": "SQL Console in Your Browser \u2013 No Need for Eclipse or SAP GUI Installation",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sapui5"
+    }
+  ]
+}

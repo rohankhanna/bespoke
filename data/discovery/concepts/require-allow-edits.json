@@ -31,6 +31,30 @@
       "source_repo": "airbnb/javascript",
       "status": "candidate-context",
       "text": "Require \u201cAllow Edits\u201d"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tape-testing/tape",
+      "status": "candidate-context",
+      "text": "tap-producing test harness for node and browsers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tape-testing/tape",
+      "status": "candidate-context",
+      "text": "Require \u201cAllow Edits\u201d"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tc39/ecma402",
+      "status": "candidate-context",
+      "text": "Status, process, and documents for ECMA 402"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tc39/ecma402",
+      "status": "candidate-context",
+      "text": "Require \u201cAllow Edits\u201d"
     }
   ],
   "candidate_glosses": [
@@ -43,6 +67,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "airbnb/javascript",
+      "status": "candidate",
+      "text": "Require \u201cAllow Edits\u201d"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tape-testing/tape",
+      "status": "candidate",
+      "text": "Require \u201cAllow Edits\u201d"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tc39/ecma402",
       "status": "candidate",
       "text": "Require \u201cAllow Edits\u201d"
     }
@@ -100,11 +136,23 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": ".github/workflows/require-allow-edits.yml",
       "source_repo": "airbnb/javascript"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/require-allow-edits.yml",
+      "source_repo": "tape-testing/tape"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/require-allow-edits.yml",
+      "source_repo": "tc39/ecma402"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

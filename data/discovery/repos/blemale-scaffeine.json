@@ -1,0 +1,182 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "coursier/cache-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "olafurpg/setup-scala@v11",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v2.3.4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "olafurpg/setup-scala@v11",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "blemale/scaffeine",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "blemale/scaffeine",
+      "target": "coursier/cache-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "blemale/scaffeine",
+      "target": "olafurpg/setup-scala@v11",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "blemale/scaffeine",
+      "target": "actions/checkout@v2.3.4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "blemale/scaffeine",
+      "target": "olafurpg/setup-scala@v11",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "blemale/scaffeine",
+      "target": "Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "blemale/scaffeine",
+      "target": "cache",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "blemale/scaffeine",
+      "target": "caching",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "blemale/scaffeine",
+      "target": "caffeine",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "blemale/scaffeine",
+      "target": "performance",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "blemale/scaffeine",
+      "target": "scala",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T01:49:36.100048+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3718
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 972
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 552
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Thin Scala wrapper for Caffeine (https://github.com/ben-manes/caffeine)",
+    "fork": false,
+    "full_name": "blemale/scaffeine",
+    "html_url": "https://github.com/blemale/scaffeine",
+    "language": "Scala",
+    "pushed_at": "2026-04-10T13:58:00Z",
+    "stargazers_count": 268,
+    "topics": [
+      "cache",
+      "caching",
+      "caffeine",
+      "performance",
+      "scala"
+    ],
+    "updated_at": "2026-04-10T13:58:17Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Release"
+    },
+    {
+      "context_snippet": "[![CI](https://github.com/blemale/scaffeine/actions/workflows/ci.yml/badge.svg)](https://github.com/blemale/scaffeine/actions/workflows/ci.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cache"
+    },
+    {
+      "context_snippet": "[![CI](https://github.com/blemale/scaffeine/actions/workflows/ci.yml/badge.svg)](https://github.com/blemale/scaffeine/actions/workflows/ci.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "caching"
+    },
+    {
+      "context_snippet": "[![CI](https://github.com/blemale/scaffeine/actions/workflows/ci.yml/badge.svg)](https://github.com/blemale/scaffeine/actions/workflows/ci.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "caffeine"
+    },
+    {
+      "context_snippet": "[![CI](https://github.com/blemale/scaffeine/actions/workflows/ci.yml/badge.svg)](https://github.com/blemale/scaffeine/actions/workflows/ci.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "performance"
+    },
+    {
+      "context_snippet": "[![CI](https://github.com/blemale/scaffeine/actions/workflows/ci.yml/badge.svg)](https://github.com/blemale/scaffeine/actions/workflows/ci.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "scala"
+    }
+  ]
+}

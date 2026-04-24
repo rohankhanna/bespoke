@@ -155,6 +155,54 @@
       "source_repo": "nearai/ironclaw",
       "status": "candidate-context",
       "text": "Code Coverage"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ChargePoint/xcparse",
+      "status": "candidate-context",
+      "text": "Command line tool & Swift framework for parsing Xcode 11+ xcresult"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ChargePoint/xcparse",
+      "status": "candidate-context",
+      "text": "A command line tool to extract code coverage & screenshots from Xcode 11 XCResult files."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/casbin-rust-actix-casbin",
+      "status": "candidate-context",
+      "text": "casbin as an actor"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/casbin-rust-actix-casbin",
+      "status": "candidate-context",
+      "text": "Code Coverage"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/casbin-actix-casbin-auth",
+      "status": "candidate-context",
+      "text": "Casbin Actix-web access control middleware"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/casbin-actix-casbin-auth",
+      "status": "candidate-context",
+      "text": "Code Coverage"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/casbin-axum-casbin",
+      "status": "candidate-context",
+      "text": "Axum authorization middleware based on Casbin"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/casbin-axum-casbin",
+      "status": "candidate-context",
+      "text": "Code Coverage"
     }
   ],
   "candidate_glosses": [
@@ -227,6 +275,30 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "nearai/ironclaw",
+      "status": "candidate",
+      "text": "Code Coverage"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ChargePoint/xcparse",
+      "status": "candidate",
+      "text": "A command line tool to extract code coverage & screenshots from Xcode 11 XCResult files."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/casbin-rust-actix-casbin",
+      "status": "candidate",
+      "text": "Code Coverage"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/casbin-actix-casbin-auth",
+      "status": "candidate",
+      "text": "Code Coverage"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/casbin-axum-casbin",
       "status": "candidate",
       "text": "Code Coverage"
     }
@@ -356,11 +428,35 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": ".github/workflows/coverage.yml",
       "source_repo": "nearai/ironclaw"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "ChargePoint/xcparse"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "apache/casbin-rust-actix-casbin"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "apache/casbin-actix-casbin-auth"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "apache/casbin-axum-casbin"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

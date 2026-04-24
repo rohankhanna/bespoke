@@ -1,0 +1,208 @@
+{
+  "aliases": [
+    "string"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jonschlinkert/kind-of",
+      "status": "candidate-context",
+      "text": "Get the native JavaScript type of a value, fast. Used by superstruct, micromatch and many others!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jonschlinkert/kind-of",
+      "status": "candidate-context",
+      "text": "> Get the native type of a value."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ashvardanian/HashEvals",
+      "status": "candidate-context",
+      "text": "Minimalistic Rust toolkit for hash function quality analysis. Tests avalanche effect, differential patterns, and statistical distribution across variable-length n-grams."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ashvardanian/HashEvals",
+      "status": "candidate-context",
+      "text": "[![HashEvals](https://github.com/ashvardanian/ashvardanian/blob/master/repositories/HashEvals.jpg?raw=true)](https://github.com/ashvardanian/HashEvals)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ashvardanian/StringWars",
+      "status": "candidate-context",
+      "text": "Comparing performance-oriented string-processing libraries for substring search, multi-pattern matching, hashing, edit-distances, sketching, and sorting across CPUs and GPUs in Rust \ud83e\udd80 and Python \ud83d\udc0d"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ashvardanian/StringWars",
+      "status": "candidate-context",
+      "text": "![StringWars Thumbnail](https://github.com/ashvardanian/ashvardanian/blob/master/repositories/StringWars-v2.png?raw=true)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "haskell/text",
+      "status": "candidate-context",
+      "text": "Haskell library for space- and time-efficient operations over Unicode text."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "haskell/text",
+      "status": "candidate-context",
+      "text": "Haskell library for space- and time-efficient operations over Unicode text."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jonschlinkert/kind-of",
+      "status": "candidate",
+      "text": "> Get the native type of a value."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ashvardanian/HashEvals",
+      "status": "candidate",
+      "text": "[![HashEvals](https://github.com/ashvardanian/ashvardanian/blob/master/repositories/HashEvals.jpg?raw=true)](https://github.com/ashvardanian/HashEvals)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ashvardanian/StringWars",
+      "status": "candidate",
+      "text": "![StringWars Thumbnail](https://github.com/ashvardanian/ashvardanian/blob/master/repositories/StringWars-v2.png?raw=true)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "haskell/text",
+      "status": "candidate",
+      "text": "Haskell library for space- and time-efficient operations over Unicode text."
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39951365,
+      "status": "candidate",
+      "text": "thread"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39949434,
+      "status": "candidate",
+      "text": "drawstring"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39943416,
+      "status": "candidate",
+      "text": "chain"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39942901,
+      "status": "candidate",
+      "text": "train"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39930284,
+      "status": "candidate",
+      "text": "twine"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 20056,
+      "status": "candidate",
+      "text": "train"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 17071,
+      "status": "candidate",
+      "text": "thread"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 15039,
+      "status": "candidate",
+      "text": "twine"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 5072,
+      "status": "candidate",
+      "text": "chain"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 5025,
+      "status": "candidate",
+      "text": "drawstring"
+    }
+  ],
+  "canonical_name": "string",
+  "concept_id": "string",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "jonschlinkert/kind-of"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "ashvardanian/HashEvals"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "ashvardanian/StringWars"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "haskell/text"
+    }
+  ],
+  "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "string",
+      "sense_id": "string#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

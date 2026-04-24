@@ -1,0 +1,124 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/testing.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/testing.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aristocratos/bpytop",
+      "target": "hacker1024/coretemp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aristocratos/bpytop",
+      "target": "lavoiesl/osx-cpu-temp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aristocratos/bpytop",
+      "target": "aaaaadrien/adrien-overlay",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aristocratos/bpytop",
+      "target": "kz6fittycent/bpytop-snap",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/testing.yml",
+      "source_repo": "aristocratos/bpytop",
+      "target": "actions/checkout@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/testing.yml",
+      "source_repo": "aristocratos/bpytop",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/testing.yml",
+      "source_repo": "aristocratos/bpytop",
+      "target": "Testing",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T00:45:19.217444+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 18657
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 641
+    },
+    {
+      "path": ".github/workflows/testing.yml",
+      "size": 619
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Linux/OSX/FreeBSD resource monitor",
+    "fork": false,
+    "full_name": "aristocratos/bpytop",
+    "html_url": "https://github.com/aristocratos/bpytop",
+    "language": "Python",
+    "pushed_at": "2025-06-01T20:57:08Z",
+    "stargazers_count": 10888,
+    "topics": [],
+    "updated_at": "2026-04-23T10:03:53Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aaaaadrien/adrien-overlay",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hacker1024/coretemp",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kz6fittycent/bpytop-snap",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lavoiesl/osx-cpu-temp",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Testing",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/testing.yml",
+      "term": "Testing"
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "FSharp source code formatter"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "regressions"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "regressions"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20016967,
+      "status": "candidate",
+      "text": "regress"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20016836,
+      "status": "candidate",
+      "text": "reversion"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20016742,
+      "status": "candidate",
+      "text": "retroversion"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20016696,
+      "status": "candidate",
+      "text": "retrogression"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20005017,
+      "status": "candidate",
+      "text": "fixation"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "regressions",
+      "sense_id": "regressions#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "regressions",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "regressions",
+  "observation_id": "833d1ab9fcc66018",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-24T00:33:56.049672+00:00",
+  "observed_text": "regressions",
+  "source_context_snippet": "regressions",
+  "source_file": ".github/workflows/regressions.yml",
+  "source_repo": "fsprojects/fantomas",
+  "source_repo_description": "FSharp source code formatter"
+}

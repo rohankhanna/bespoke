@@ -91,6 +91,24 @@
       "source_repo": "JuliaEditorSupport/julia-vim",
       "status": "candidate-context",
       "text": "<p align=\"center\"><img src=\"logo.png\" alt=\"julia-vim logo\"/></p>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaPluto/PlutoUI.jl",
+      "status": "candidate-context",
+      "text": "![](https://user-images.githubusercontent.com/6933510/174067690-50c8128d-748b-4f50-8a76-2ce18166642b.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "non-Jedi/eglot-jl",
+      "status": "candidate-context",
+      "text": "Wrapper for using Julia LanguageServer.jl with emacs eglot"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "non-Jedi/eglot-jl",
+      "status": "candidate-context",
+      "text": "Wrapper for using Julia LanguageServer.jl with emacs eglot"
     }
   ],
   "candidate_glosses": [
@@ -135,6 +153,18 @@
       "source_repo": "JuliaEditorSupport/julia-vim",
       "status": "candidate",
       "text": "<p align=\"center\"><img src=\"logo.png\" alt=\"julia-vim logo\"/></p>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaPluto/PlutoUI.jl",
+      "status": "candidate",
+      "text": "![](https://user-images.githubusercontent.com/6933510/174067690-50c8128d-748b-4f50-8a76-2ce18166642b.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "non-Jedi/eglot-jl",
+      "status": "candidate",
+      "text": "Wrapper for using Julia LanguageServer.jl with emacs eglot"
     }
   ],
   "candidate_related_terms": [
@@ -226,11 +256,23 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "JuliaEditorSupport/julia-vim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "JuliaPluto/PlutoUI.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "non-Jedi/eglot-jl"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

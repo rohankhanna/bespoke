@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "trashcan/recycle bin utility for the command line"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "rmw (ReMove to Waste) is a trashcan/recycle bin utility for the command line."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "rmw (ReMove to Waste) is a trashcan/recycle bin utility for the command line."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29942513,
+      "status": "candidate",
+      "text": "oss"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29843518,
+      "status": "candidate",
+      "text": "vos"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29576249,
+      "status": "candidate",
+      "text": "free"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27218179,
+      "status": "candidate",
+      "text": "voss"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19942869,
+      "status": "candidate",
+      "text": "foss\u00e9"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "foss",
+      "sense_id": "foss#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "foss",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "foss",
+  "observation_id": "e5fb2dabf1c88a5d",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T00:33:56.049672+00:00",
+  "observed_text": "foss",
+  "source_context_snippet": "rmw (ReMove to Waste) is a trashcan/recycle bin utility for the command line.",
+  "source_file": null,
+  "source_repo": "theimpossibleastronaut/rmw",
+  "source_repo_description": "trashcan/recycle bin utility for the command line"
+}

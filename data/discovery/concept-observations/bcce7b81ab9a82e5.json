@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Async Clojure Completion for various (n)vim completion engines"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Provides async clojure completion for:"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Provides async clojure completion for:"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "asyncomplete",
+      "sense_id": "asyncomplete#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "asyncomplete",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "asyncomplete",
+  "observation_id": "bcce7b81ab9a82e5",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T00:33:56.049672+00:00",
+  "observed_text": "asyncomplete",
+  "source_context_snippet": "Provides async clojure completion for:",
+  "source_file": null,
+  "source_repo": "clojure-vim/async-clj-omni",
+  "source_repo_description": "Async Clojure Completion for various (n)vim completion engines"
+}

@@ -1,0 +1,12 @@
+{
+  "component": "rhysd/action-setup-vim@febef33995d6649302e9d88dda81e071b68f16a7",
+  "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "notomo/vusted"
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Apache NetBeans"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "NetBeans Profiler Libraries"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "NetBeans Profiler Libraries"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10891,
+      "status": "candidate",
+      "text": "erica"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10767,
+      "status": "candidate",
+      "text": "lend"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10745,
+      "status": "candidate",
+      "text": "abe"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10745,
+      "status": "candidate",
+      "text": "buoy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10745,
+      "status": "candidate",
+      "text": "drift"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "NetBeans Profiler Libraries",
+      "sense_id": "netbeans-profiler-libraries#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "netbeans-profiler-libraries",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "netbeans-profiler-libraries",
+  "observation_id": "df420dd2443f01dd",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-24T00:33:56.049672+00:00",
+  "observed_text": "NetBeans Profiler Libraries",
+  "source_context_snippet": "NetBeans Profiler Libraries",
+  "source_file": ".github/workflows/native-binary-build-lib.profiler.yml",
+  "source_repo": "apache/netbeans",
+  "source_repo_description": "Apache NetBeans"
+}

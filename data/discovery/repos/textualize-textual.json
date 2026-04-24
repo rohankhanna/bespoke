@@ -1,0 +1,346 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3.5.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/black_format.yml"
+    },
+    {
+      "component": "actions/setup-python@v4.6.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/black_format.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/init@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/autobuild@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "peter-evans/create-or-update-comment@a35cf36e5301d70b76f316e867e7788a55a31dae",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/comment.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/new_issue.yml"
+    },
+    {
+      "component": "juliangruber/read-file-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/new_issue.yml"
+    },
+    {
+      "component": "peter-evans/create-or-update-comment@a35cf36e5301d70b76f316e867e7788a55a31dae",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/new_issue.yml"
+    },
+    {
+      "component": "actions/checkout@v4.1.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pythonpackage.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pythonpackage.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pythonpackage.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Textualize/textual",
+      "target": "textualize/textual-demo",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Textualize/textual",
+      "target": "textualize/textual-web",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/black_format.yml",
+      "source_repo": "Textualize/textual",
+      "target": "actions/checkout@v3.5.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/black_format.yml",
+      "source_repo": "Textualize/textual",
+      "target": "actions/setup-python@v4.6.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/black_format.yml",
+      "source_repo": "Textualize/textual",
+      "target": "Black format check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "Textualize/textual",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "Textualize/textual",
+      "target": "github/codeql-action/init@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "Textualize/textual",
+      "target": "github/codeql-action/autobuild@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "Textualize/textual",
+      "target": "github/codeql-action/analyze@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "Textualize/textual",
+      "target": "CodeQL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/comment.yml",
+      "source_repo": "Textualize/textual",
+      "target": "peter-evans/create-or-update-comment@a35cf36e5301d70b76f316e867e7788a55a31dae",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/comment.yml",
+      "source_repo": "Textualize/textual",
+      "target": "Closed issue comment",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/new_issue.yml",
+      "source_repo": "Textualize/textual",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/new_issue.yml",
+      "source_repo": "Textualize/textual",
+      "target": "juliangruber/read-file-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/new_issue.yml",
+      "source_repo": "Textualize/textual",
+      "target": "peter-evans/create-or-update-comment@a35cf36e5301d70b76f316e867e7788a55a31dae",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/new_issue.yml",
+      "source_repo": "Textualize/textual",
+      "target": "FAQ issue comment",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pythonpackage.yml",
+      "source_repo": "Textualize/textual",
+      "target": "actions/checkout@v4.1.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pythonpackage.yml",
+      "source_repo": "Textualize/textual",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pythonpackage.yml",
+      "source_repo": "Textualize/textual",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pythonpackage.yml",
+      "source_repo": "Textualize/textual",
+      "target": "Test Textual module",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Textualize/textual",
+      "target": "framework",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Textualize/textual",
+      "target": "rich",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Textualize/textual",
+      "target": "terminal",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T00:43:11.816262+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5973
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 4740
+    },
+    {
+      "path": ".github/workflows/black_format.yml",
+      "size": 478
+    },
+    {
+      "path": ".github/workflows/codeql.yml",
+      "size": 2786
+    },
+    {
+      "path": ".github/workflows/comment.yml",
+      "size": 599
+    },
+    {
+      "path": ".github/workflows/new_issue.yml",
+      "size": 888
+    },
+    {
+      "path": ".github/workflows/pythonpackage.yml",
+      "size": 1815
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "The lean application framework for Python.  Build sophisticated user interfaces with a simple Python API. Run your apps in the terminal and a web browser.",
+    "fork": false,
+    "full_name": "Textualize/textual",
+    "html_url": "https://github.com/Textualize/textual",
+    "language": "Python",
+    "pushed_at": "2026-04-23T07:43:55Z",
+    "stargazers_count": 35556,
+    "topics": [
+      "cli",
+      "framework",
+      "python",
+      "rich",
+      "terminal",
+      "tui"
+    ],
+    "updated_at": "2026-04-23T23:53:19Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "textualize/textual-demo",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "textualize/textual-web",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Black format check",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/black_format.yml",
+      "term": "Black format check"
+    },
+    {
+      "context_snippet": "\"CodeQL\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "term": "CodeQL"
+    },
+    {
+      "context_snippet": "Closed issue comment",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/comment.yml",
+      "term": "Closed issue comment"
+    },
+    {
+      "context_snippet": "FAQ issue comment",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/new_issue.yml",
+      "term": "FAQ issue comment"
+    },
+    {
+      "context_snippet": "Test Textual module",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pythonpackage.yml",
+      "term": "Test Textual module"
+    },
+    {
+      "context_snippet": "[![Discord](https://img.shields.io/discord/1026214085173461072)](https://discord.gg/Enf6Z3qhVr)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "framework"
+    },
+    {
+      "context_snippet": "[![Discord](https://img.shields.io/discord/1026214085173461072)](https://discord.gg/Enf6Z3qhVr)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rich"
+    },
+    {
+      "context_snippet": "[![Discord](https://img.shields.io/discord/1026214085173461072)](https://discord.gg/Enf6Z3qhVr)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "terminal"
+    }
+  ]
+}

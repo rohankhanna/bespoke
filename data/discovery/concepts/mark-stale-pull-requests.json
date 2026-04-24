@@ -19,12 +19,30 @@
       "source_repo": "conan-io/conan-center-index",
       "status": "candidate-context",
       "text": "Mark stale pull requests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bazelbuild/bazel-central-registry",
+      "status": "candidate-context",
+      "text": "The central registry of Bazel modules for the Bzlmod external dependency system."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bazelbuild/bazel-central-registry",
+      "status": "candidate-context",
+      "text": "Mark stale pull requests"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "conan-io/conan-center-index",
+      "status": "candidate",
+      "text": "Mark stale pull requests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bazelbuild/bazel-central-registry",
       "status": "candidate",
       "text": "Mark stale pull requests"
     }
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-23T01:09:11.871080+00:00",
       "source_file": ".github/workflows/stale.yml",
       "source_repo": "conan-io/conan-center-index"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "bazelbuild/bazel-central-registry"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

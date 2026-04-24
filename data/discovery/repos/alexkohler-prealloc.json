@@ -1,0 +1,186 @@
+{
+  "components": [
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-test.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-test.yml"
+    },
+    {
+      "component": "golangci/golangci-lint-action@v9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "alexkohler/prealloc",
+      "target": "alexkohler/unimport",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-test.yml",
+      "source_repo": "alexkohler/prealloc",
+      "target": "actions/setup-go@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-test.yml",
+      "source_repo": "alexkohler/prealloc",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-test.yml",
+      "source_repo": "alexkohler/prealloc",
+      "target": "golangci/golangci-lint-action@v9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-test.yml",
+      "source_repo": "alexkohler/prealloc",
+      "target": "build-test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alexkohler/prealloc",
+      "target": "golang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alexkohler/prealloc",
+      "target": "prealloc-suggestions",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alexkohler/prealloc",
+      "target": "slice",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alexkohler/prealloc",
+      "target": "static-analysis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alexkohler/prealloc",
+      "target": "static-analyzer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alexkohler/prealloc",
+      "target": "static-code-analysis",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T00:56:42.913227+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8210
+    },
+    {
+      "path": "go.mod",
+      "size": 220
+    },
+    {
+      "path": ".github/workflows/build-test.yml",
+      "size": 430
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "prealloc is a Go static analysis tool to find slice declarations that could potentially be preallocated.",
+    "fork": false,
+    "full_name": "alexkohler/prealloc",
+    "html_url": "https://github.com/alexkohler/prealloc",
+    "language": "Go",
+    "pushed_at": "2026-02-26T22:09:13Z",
+    "stargazers_count": 664,
+    "topics": [
+      "go",
+      "golang",
+      "prealloc-suggestions",
+      "slice",
+      "static-analysis",
+      "static-analyzer",
+      "static-code-analysis"
+    ],
+    "updated_at": "2026-04-15T13:04:54Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "alexkohler/unimport",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "build-test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-test.yml",
+      "term": "build-test"
+    },
+    {
+      "context_snippet": "prealloc is a Go static analysis tool to find slice declarations that could potentially be preallocated.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "golang"
+    },
+    {
+      "context_snippet": "prealloc is a Go static analysis tool to find slice declarations that could potentially be preallocated.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "prealloc-suggestions"
+    },
+    {
+      "context_snippet": "prealloc is a Go static analysis tool to find slice declarations that could potentially be preallocated.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "slice"
+    },
+    {
+      "context_snippet": "prealloc is a Go static analysis tool to find slice declarations that could potentially be preallocated.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "static-analysis"
+    },
+    {
+      "context_snippet": "prealloc is a Go static analysis tool to find slice declarations that could potentially be preallocated.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "static-analyzer"
+    },
+    {
+      "context_snippet": "prealloc is a Go static analysis tool to find slice declarations that could potentially be preallocated.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "static-code-analysis"
+    }
+  ]
+}

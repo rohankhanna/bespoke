@@ -269,6 +269,30 @@
       "source_repo": "marwin1991/profile-technology-icons",
       "status": "candidate-context",
       "text": "github pages"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "FuelLabs/fuel-specs",
+      "status": "candidate-context",
+      "text": "\ud83d\udcdd Specifications for the Fuel protocol and the FuelVM, a blazingly fast blockchain VM."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FuelLabs/fuel-specs",
+      "status": "candidate-context",
+      "text": "github pages"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Azure/aad-pod-identity",
+      "status": "candidate-context",
+      "text": "[DEPRECATED] Assign Azure Active Directory Identities to Kubernetes applications. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Azure/aad-pod-identity",
+      "status": "candidate-context",
+      "text": "github pages"
     }
   ],
   "candidate_glosses": [
@@ -395,6 +419,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "marwin1991/profile-technology-icons",
+      "status": "candidate",
+      "text": "github pages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FuelLabs/fuel-specs",
+      "status": "candidate",
+      "text": "github pages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Azure/aad-pod-identity",
       "status": "candidate",
       "text": "github pages"
     }
@@ -596,11 +632,35 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": ".github/workflows/publish.yml",
       "source_repo": "marwin1991/profile-technology-icons"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/gh-pages.yml",
+      "source_repo": "FuelLabs/fuel-specs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/gh-pages.yml",
+      "source_repo": "Azure/aad-pod-identity"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/gh-pages.yml",
+      "source_repo": "ocaml-tracing/ocaml-trace"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/gh-pages.yml",
+      "source_repo": "ocaml-tracing/ocaml-opentelemetry"
     }
   ],
   "first_seen_at": "2026-04-18T13:15:13.756138+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

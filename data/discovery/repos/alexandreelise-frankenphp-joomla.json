@@ -1,0 +1,119 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alexandreelise/frankenphp-joomla",
+      "target": "devops",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alexandreelise/frankenphp-joomla",
+      "target": "docker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alexandreelise/frankenphp-joomla",
+      "target": "docker-compose",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alexandreelise/frankenphp-joomla",
+      "target": "frankenphp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alexandreelise/frankenphp-joomla",
+      "target": "golang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alexandreelise/frankenphp-joomla",
+      "target": "joomla",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T01:49:38.987814+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1005
+    },
+    {
+      "path": "Dockerfile",
+      "size": 4394
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Joomla on FrankenPHP",
+    "fork": false,
+    "full_name": "alexandreelise/frankenphp-joomla",
+    "html_url": "https://github.com/alexandreelise/frankenphp-joomla",
+    "language": "Dockerfile",
+    "pushed_at": "2024-03-31T03:03:39Z",
+    "stargazers_count": 11,
+    "topics": [
+      "devops",
+      "docker",
+      "docker-compose",
+      "frankenphp",
+      "golang",
+      "joomla",
+      "php"
+    ],
+    "updated_at": "2025-08-30T21:38:29Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Run the popular [Joomla CMS](https://joomla.org) on top of [FrankenPHP](https://frankenphp.dev),",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "devops"
+    },
+    {
+      "context_snippet": "Run the popular [Joomla CMS](https://joomla.org) on top of [FrankenPHP](https://frankenphp.dev),",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "docker"
+    },
+    {
+      "context_snippet": "Run the popular [Joomla CMS](https://joomla.org) on top of [FrankenPHP](https://frankenphp.dev),",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "docker-compose"
+    },
+    {
+      "context_snippet": "Run the popular [Joomla CMS](https://joomla.org) on top of [FrankenPHP](https://frankenphp.dev),",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "frankenphp"
+    },
+    {
+      "context_snippet": "Run the popular [Joomla CMS](https://joomla.org) on top of [FrankenPHP](https://frankenphp.dev),",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "golang"
+    },
+    {
+      "context_snippet": "Run the popular [Joomla CMS](https://joomla.org) on top of [FrankenPHP](https://frankenphp.dev),",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "joomla"
+    }
+  ]
+}

@@ -50,6 +50,18 @@
       "source_repo": "celo-org/celo-threshold-bls-rs",
       "status": "candidate-context",
       "text": "Rust CI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bitshifter/mathbench-rs",
+      "status": "candidate-context",
+      "text": "Comparing performance of Rust math libraries for common 3D game and graphics tasks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bitshifter/mathbench-rs",
+      "status": "candidate-context",
+      "text": "Rust CI"
     }
   ],
   "candidate_glosses": [
@@ -74,6 +86,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "celo-org/celo-threshold-bls-rs",
+      "status": "candidate",
+      "text": "Rust CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bitshifter/mathbench-rs",
       "status": "candidate",
       "text": "Rust CI"
     }
@@ -143,11 +161,17 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": ".github/workflows/rust_ci.yml",
       "source_repo": "celo-org/celo-threshold-bls-rs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "bitshifter/mathbench-rs"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

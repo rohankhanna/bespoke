@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "rbong/flog-symbols",
+      "target": "rbong/vim-flog",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-24T00:48:01.956110+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3303
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Glyphs for rendering Git branches.",
+    "fork": false,
+    "full_name": "rbong/flog-symbols",
+    "html_url": "https://github.com/rbong/flog-symbols",
+    "language": null,
+    "pushed_at": "2024-08-30T05:53:24Z",
+    "stargazers_count": 35,
+    "topics": [],
+    "updated_at": "2026-04-09T08:49:42Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rbong/vim-flog",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

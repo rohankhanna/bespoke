@@ -107,6 +107,18 @@
       "source_repo": "cake-build/cake",
       "status": "candidate-context",
       "text": "Cake (C# Make) is a build automation system with a C# DSL to do things like compiling code, copy files/folders, running unit tests, compress files and build NuGet packages."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cpputest/cpputest",
+      "status": "candidate-context",
+      "text": "CppUTest unit testing and mocking framework for C/C++"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cpputest/cpputest",
+      "status": "candidate-context",
+      "text": "[![GitHub Actions](https://github.com/cpputest/cpputest/actions/workflows/basic.yml/badge.svg)](https://github.com/cpputest/cpputest/actions/workflows/basic.yml)"
     }
   ],
   "candidate_glosses": [
@@ -157,6 +169,12 @@
       "source_repo": "cake-build/cake",
       "status": "candidate",
       "text": "Cake (C# Make) is a build automation system with a C# DSL to do things like compiling code, copy files/folders, running unit tests, compress files and build NuGet packages."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cpputest/cpputest",
+      "status": "candidate",
+      "text": "[![GitHub Actions](https://github.com/cpputest/cpputest/actions/workflows/basic.yml/badge.svg)](https://github.com/cpputest/cpputest/actions/workflows/basic.yml)"
     }
   ],
   "candidate_related_terms": [
@@ -295,11 +313,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "cake-build/cake"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "cpputest/cpputest"
     }
   ],
   "first_seen_at": "2026-04-18T18:30:26.389736+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

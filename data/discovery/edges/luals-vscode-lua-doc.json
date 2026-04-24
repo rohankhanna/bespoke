@@ -2,19 +2,12 @@
   "edges": [
     {
       "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "LuaLS/vscode-lua-doc",
-      "target": "luals/vscode-lua",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
       "source_file": "package.json",
       "source_repo": "LuaLS/vscode-lua-doc",
       "target": "actboy168/vscode-lua-doc",
       "target_type": "repository"
     }
   ],
-  "generated_at": "2026-04-23T18:30:35.670459+00:00",
+  "generated_at": "2026-04-24T00:33:56.049672+00:00",
   "source_repo": "LuaLS/vscode-lua-doc"
 }

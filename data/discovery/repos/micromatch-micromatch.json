@@ -51,14 +51,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "micromatch/micromatch",
-      "target": "isaacs/minimatch",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "micromatch/micromatch",
-      "target": "micromatch/braces",
+      "target": "sindresorhus/multimatch",
       "target_type": "repository"
     },
     {
@@ -72,7 +65,14 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "micromatch/micromatch",
-      "target": "jonschlinkert/fill-range",
+      "target": "micromatch/extglob",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "micromatch/micromatch",
+      "target": "micromatch/nanomatch",
       "target_type": "repository"
     },
     {
@@ -279,7 +279,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-23T08:31:25.764979+00:00",
+  "fetched_at": "2026-04-24T01:38:55.568168+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -332,22 +332,22 @@
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
-      "full_name": "isaacs/minimatch",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "jonschlinkert/fill-range",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
       "full_name": "jonschlinkert/glob-object",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "micromatch/braces",
+      "full_name": "micromatch/extglob",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "micromatch/nanomatch",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sindresorhus/multimatch",
       "source_file": "README.md"
     }
   ],

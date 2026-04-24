@@ -55,6 +55,18 @@
       "source_repo": "adamlui/ai-web-extensions",
       "status": "candidate-context",
       "text": "ai-web-extensions \u2014 AI browser extensions & userscripts to augment your web experience"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ultralytics/llm",
+      "status": "candidate-context",
+      "text": "Ultralytics LLM-related experiments"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ultralytics/llm",
+      "status": "candidate-context",
+      "text": "<a href=\"https://www.ultralytics.com/\"><img src=\"https://raw.githubusercontent.com/ultralytics/assets/main/logo/Ultralytics_Logotype_Original.svg\" width=\"320\" alt=\"Ultralytics logo\"></a>"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +93,12 @@
       "source_repo": "adamlui/ai-web-extensions",
       "status": "candidate",
       "text": "ai-web-extensions \u2014 AI browser extensions & userscripts to augment your web experience"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ultralytics/llm",
+      "status": "candidate",
+      "text": "<a href=\"https://www.ultralytics.com/\"><img src=\"https://raw.githubusercontent.com/ultralytics/assets/main/logo/Ultralytics_Logotype_Original.svg\" width=\"320\" alt=\"Ultralytics logo\"></a>"
     }
   ],
   "candidate_related_terms": [
@@ -184,11 +202,17 @@
       "observed_at": "2026-04-22T18:52:26.467154+00:00",
       "source_file": null,
       "source_repo": "adamlui/ai-web-extensions"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "ultralytics/llm"
     }
   ],
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

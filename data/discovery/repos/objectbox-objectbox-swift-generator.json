@@ -1,0 +1,81 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "objectbox/objectbox-swift-generator",
+      "target": "krzysztofzablocki/sourcery",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "objectbox/objectbox-swift-generator",
+      "target": "realm/swiftlint",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "objectbox/objectbox-swift-generator",
+      "target": "simplydanny/swiftlintplugins",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Dockerfile",
+      "source_repo": "objectbox/objectbox-swift-generator",
+      "target": "krzysztofzablocki/sourcery",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-24T00:39:15.596118+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1247
+    },
+    {
+      "path": "Dockerfile",
+      "size": 1265
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "dev",
+    "description": "Code generator and model.json builder for the ObjectBox database library. This is currently a quick fork off of Sourcery.",
+    "fork": false,
+    "full_name": "objectbox/objectbox-swift-generator",
+    "html_url": "https://github.com/objectbox/objectbox-swift-generator",
+    "language": "Swift",
+    "pushed_at": "2026-02-19T23:43:53Z",
+    "stargazers_count": 7,
+    "topics": [],
+    "updated_at": "2025-12-11T04:57:26Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "krzysztofzablocki/sourcery",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "realm/swiftlint",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "simplydanny/swiftlintplugins",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "krzysztofzablocki/sourcery",
+      "source_file": "Dockerfile"
+    }
+  ],
+  "terms": []
+}

@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "UI integrations for lsp-mode"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "lsp-ui"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "lsp-ui"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39978165,
+      "status": "candidate",
+      "text": "hobby"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39968038,
+      "status": "candidate",
+      "text": "avocation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30010714,
+      "status": "candidate",
+      "text": "by-line"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30010714,
+      "status": "candidate",
+      "text": "spare-time activity"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30010713,
+      "status": "candidate",
+      "text": "touch"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "sideline",
+      "sense_id": "sideline#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 18030,
+      "status": "candidate",
+      "text": "avocation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2036,
+      "status": "candidate",
+      "text": "hobby"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 17,
+      "status": "candidate",
+      "text": "by-line"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 9,
+      "status": "candidate",
+      "text": "spare-time activity"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "out of-bounds"
+    }
+  ],
+  "concept_id": "sideline",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "sideline",
+  "observation_id": "a8e0b54ef241f5eb",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T00:33:56.049672+00:00",
+  "observed_text": "sideline",
+  "source_context_snippet": "lsp-ui",
+  "source_file": null,
+  "source_repo": "emacs-lsp/lsp-ui",
+  "source_repo_description": "UI integrations for lsp-mode"
+}

@@ -1,0 +1,59 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tiagovla/scope.nvim",
+      "target": "neovim",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tiagovla/scope.nvim",
+      "target": "neovim-plugin",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T00:44:55.368370+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5844
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Revolutionize Your Neovim Tab Workflow: Introducing Enhanced Tab Scoping!",
+    "fork": false,
+    "full_name": "tiagovla/scope.nvim",
+    "html_url": "https://github.com/tiagovla/scope.nvim",
+    "language": "Lua",
+    "pushed_at": "2025-10-15T08:14:55Z",
+    "stargazers_count": 533,
+    "topics": [
+      "lua",
+      "neovim",
+      "neovim-plugin"
+    ],
+    "updated_at": "2026-04-21T02:57:25Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "**Revolutionize Your Neovim Tab Workflow: Introducing Enhanced Tab Scoping!**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neovim"
+    },
+    {
+      "context_snippet": "**Revolutionize Your Neovim Tab Workflow: Introducing Enhanced Tab Scoping!**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neovim-plugin"
+    }
+  ]
+}

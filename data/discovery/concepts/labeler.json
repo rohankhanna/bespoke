@@ -152,6 +152,30 @@
       "source_repo": "apache/datafusion-ballista-python",
       "status": "candidate-context",
       "text": "Labeler"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vim/vim",
+      "status": "candidate-context",
+      "text": "The official Vim repository"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vim/vim",
+      "status": "candidate-context",
+      "text": "Labeler"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "WebAssembly/WASI",
+      "status": "candidate-context",
+      "text": "WebAssembly System Interface"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "WebAssembly/WASI",
+      "status": "candidate-context",
+      "text": "Labeler"
     }
   ],
   "candidate_glosses": [
@@ -224,6 +248,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "apache/datafusion-ballista-python",
+      "status": "candidate",
+      "text": "Labeler"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vim/vim",
+      "status": "candidate",
+      "text": "Labeler"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "WebAssembly/WASI",
       "status": "candidate",
       "text": "Labeler"
     }
@@ -341,11 +377,23 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": ".github/workflows/dev_pr.yml",
       "source_repo": "apache/datafusion-ballista-python"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/label.yml",
+      "source_repo": "vim/vim"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/labeler.yml",
+      "source_repo": "WebAssembly/WASI"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

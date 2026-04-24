@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Nuget Packages Version Change Detector"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "abpframework/abp",
+      "status": "candidate-context",
+      "text": "Open-source web application framework for ASP.NET Core! Offers an opinionated architecture to build enterprise software solutions with best practices on top of the .NET. Provides the fundamental infrastructure, cross-cutting-concern implementations, startup templates, application modules, UI themes, tooling and documentation."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "abpframework/abp",
+      "status": "candidate-context",
+      "text": "Nuget Packages Version Change Detector"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "abpframework/abp",
+      "status": "candidate",
+      "text": "Nuget Packages Version Change Detector"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33949,
+      "status": "candidate",
+      "text": "tracer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 32823,
+      "status": "candidate",
+      "text": "steps"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 32800,
+      "status": "candidate",
+      "text": "metric"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 32800,
+      "status": "candidate",
+      "text": "tick"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31697,
+      "status": "candidate",
+      "text": "polygraph"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Nuget Packages Version Change Detector",
+  "concept_id": "nuget-packages-version-change-detector",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/nuget-packages-version-change-detector.yml",
+      "source_repo": "abpframework/abp"
+    }
+  ],
+  "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Nuget Packages Version Change Detector",
+      "sense_id": "nuget-packages-version-change-detector#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

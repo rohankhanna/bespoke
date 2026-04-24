@@ -1,0 +1,328 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "ultralytics/actions@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/format.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/minify.yml"
+    },
+    {
+      "component": "actions/setup-node@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/minify.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tag.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tag.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tag.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ultralytics/llm",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ultralytics/llm",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ultralytics/llm",
+      "target": "astral-sh/setup-uv@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ultralytics/llm",
+      "target": "codecov/codecov-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/format.yml",
+      "source_repo": "ultralytics/llm",
+      "target": "ultralytics/actions@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/format.yml",
+      "source_repo": "ultralytics/llm",
+      "target": "Ultralytics Actions",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/minify.yml",
+      "source_repo": "ultralytics/llm",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/minify.yml",
+      "source_repo": "ultralytics/llm",
+      "target": "actions/setup-node@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/minify.yml",
+      "source_repo": "ultralytics/llm",
+      "target": "Minify JavaScript",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/purge-cdn.yml",
+      "source_repo": "ultralytics/llm",
+      "target": "Purge CDN Cache",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tag.yml",
+      "source_repo": "ultralytics/llm",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tag.yml",
+      "source_repo": "ultralytics/llm",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tag.yml",
+      "source_repo": "ultralytics/llm",
+      "target": "astral-sh/setup-uv@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tag.yml",
+      "source_repo": "ultralytics/llm",
+      "target": "Tag and Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ultralytics/llm",
+      "target": "assistant",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ultralytics/llm",
+      "target": "chat",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ultralytics/llm",
+      "target": "chatbot",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ultralytics/llm",
+      "target": "chatgpt",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ultralytics/llm",
+      "target": "streaming-chat",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ultralytics/llm",
+      "target": "ultralytics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ultralytics/llm",
+      "target": "yolo",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T02:01:24.684821+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 14251
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 2261
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 1345
+    },
+    {
+      "path": ".github/workflows/format.yml",
+      "size": 1444
+    },
+    {
+      "path": ".github/workflows/minify.yml",
+      "size": 1260
+    },
+    {
+      "path": ".github/workflows/purge-cdn.yml",
+      "size": 2140
+    },
+    {
+      "path": ".github/workflows/tag.yml",
+      "size": 2385
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Ultralytics LLM-related experiments",
+    "fork": false,
+    "full_name": "ultralytics/llm",
+    "html_url": "https://github.com/ultralytics/llm",
+    "language": "JavaScript",
+    "pushed_at": "2026-04-23T21:18:42Z",
+    "stargazers_count": 92,
+    "topics": [
+      "assistant",
+      "chat",
+      "chatbot",
+      "chatgpt",
+      "gpt",
+      "javascript",
+      "llm",
+      "streaming-chat",
+      "ultralytics",
+      "yolo"
+    ],
+    "updated_at": "2026-04-23T21:18:45Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Ultralytics Actions",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/format.yml",
+      "term": "Ultralytics Actions"
+    },
+    {
+      "context_snippet": "Minify JavaScript",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/minify.yml",
+      "term": "Minify JavaScript"
+    },
+    {
+      "context_snippet": "Purge CDN Cache",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/purge-cdn.yml",
+      "term": "Purge CDN Cache"
+    },
+    {
+      "context_snippet": "Tag and Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tag.yml",
+      "term": "Tag and Release"
+    },
+    {
+      "context_snippet": "<a href=\"https://www.ultralytics.com/\"><img src=\"https://raw.githubusercontent.com/ultralytics/assets/main/logo/Ultralytics_Logotype_Original.svg\" width=\"320\" alt=\"Ultralytics logo\"></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "assistant"
+    },
+    {
+      "context_snippet": "<a href=\"https://www.ultralytics.com/\"><img src=\"https://raw.githubusercontent.com/ultralytics/assets/main/logo/Ultralytics_Logotype_Original.svg\" width=\"320\" alt=\"Ultralytics logo\"></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chat"
+    },
+    {
+      "context_snippet": "<a href=\"https://www.ultralytics.com/\"><img src=\"https://raw.githubusercontent.com/ultralytics/assets/main/logo/Ultralytics_Logotype_Original.svg\" width=\"320\" alt=\"Ultralytics logo\"></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chatbot"
+    },
+    {
+      "context_snippet": "<a href=\"https://www.ultralytics.com/\"><img src=\"https://raw.githubusercontent.com/ultralytics/assets/main/logo/Ultralytics_Logotype_Original.svg\" width=\"320\" alt=\"Ultralytics logo\"></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chatgpt"
+    },
+    {
+      "context_snippet": "<a href=\"https://www.ultralytics.com/\"><img src=\"https://raw.githubusercontent.com/ultralytics/assets/main/logo/Ultralytics_Logotype_Original.svg\" width=\"320\" alt=\"Ultralytics logo\"></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "streaming-chat"
+    },
+    {
+      "context_snippet": "<a href=\"https://www.ultralytics.com/\"><img src=\"https://raw.githubusercontent.com/ultralytics/assets/main/logo/Ultralytics_Logotype_Original.svg\" width=\"320\" alt=\"Ultralytics logo\"></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ultralytics"
+    },
+    {
+      "context_snippet": "<a href=\"https://www.ultralytics.com/\"><img src=\"https://raw.githubusercontent.com/ultralytics/assets/main/logo/Ultralytics_Logotype_Original.svg\" width=\"320\" alt=\"Ultralytics logo\"></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "yolo"
+    }
+  ]
+}

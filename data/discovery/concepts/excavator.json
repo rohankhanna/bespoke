@@ -31,6 +31,42 @@
       "source_repo": "ScoopInstaller/Extras",
       "status": "candidate-context",
       "text": "Excavator"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Calinou/scoop-games",
+      "status": "candidate-context",
+      "text": "Scoop bucket for open source/freeware games and game-related tools"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Calinou/scoop-games",
+      "status": "candidate-context",
+      "text": "Excavator"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "matthewjberger/scoop-nerd-fonts",
+      "status": "candidate-context",
+      "text": "A scoop bucket for installing nerd fonts"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "matthewjberger/scoop-nerd-fonts",
+      "status": "candidate-context",
+      "text": "Excavator"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "niheaven/scoop-sysinternals",
+      "status": "candidate-context",
+      "text": "Scoop bucket for Sysinternals"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "niheaven/scoop-sysinternals",
+      "status": "candidate-context",
+      "text": "Excavator"
     }
   ],
   "candidate_glosses": [
@@ -43,6 +79,24 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "ScoopInstaller/Extras",
+      "status": "candidate",
+      "text": "Excavator"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Calinou/scoop-games",
+      "status": "candidate",
+      "text": "Excavator"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "matthewjberger/scoop-nerd-fonts",
+      "status": "candidate",
+      "text": "Excavator"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "niheaven/scoop-sysinternals",
       "status": "candidate",
       "text": "Excavator"
     }
@@ -122,11 +176,29 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": ".github/workflows/excavator.yml",
       "source_repo": "ScoopInstaller/Extras"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/excavator.yml",
+      "source_repo": "Calinou/scoop-games"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/schedule.yml",
+      "source_repo": "matthewjberger/scoop-nerd-fonts"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/excavator.yml",
+      "source_repo": "niheaven/scoop-sysinternals"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

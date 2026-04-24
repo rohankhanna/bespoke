@@ -67,6 +67,30 @@
       "source_repo": "vladkens/macmon",
       "status": "candidate-context",
       "text": "[package] name = \"macmon\" version = \"0.7.1\" edition = \"2024\" description = \"Apple Silicon system monitor & Rust library \u2014 CPU/GPU power, temperature, RAM. No sudo. TUI, JSON pipe, Prometheus exporter.\" authors = [\"vladkens\"] license = \"MIT\" repository = \"https://github.com/vladk\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fschutt/printpdf",
+      "status": "candidate-context",
+      "text": "Rust / WASM library for reading, writing and rendering PDF"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fschutt/printpdf",
+      "status": "candidate-context",
+      "text": "\ufeff# printpdf"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "OptiVorbis/OptiVorbis",
+      "status": "candidate-context",
+      "text": "\ud83d\udddc\ufe0f Library and application for lossless, format-preserving, two-pass optimization and repair of Vorbis data, reducing its size without altering any audio information."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OptiVorbis/OptiVorbis",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -99,6 +123,18 @@
       "source_repo": "vladkens/macmon",
       "status": "candidate",
       "text": "[package] name = \"macmon\" version = \"0.7.1\" edition = \"2024\" description = \"Apple Silicon system monitor & Rust library \u2014 CPU/GPU power, temperature, RAM. No sudo. TUI, JSON pipe, Prometheus exporter.\" authors = [\"vladkens\"] license = \"MIT\" repository = \"https://github.com/vladk\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fschutt/printpdf",
+      "status": "candidate",
+      "text": "\ufeff# printpdf"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OptiVorbis/OptiVorbis",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -136,11 +172,23 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "vladkens/macmon"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "fschutt/printpdf"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "OptiVorbis/OptiVorbis"
     }
   ],
   "first_seen_at": "2026-04-18T18:30:26.389736+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

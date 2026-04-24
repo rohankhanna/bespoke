@@ -19,6 +19,18 @@
       "source_repo": "27medkamal/tmux-session-wizard",
       "status": "candidate-context",
       "text": "![GitHub](https://img.shields.io/github/license/27medkamal/tmux-session-wizard)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "joshmedeski/sesh",
+      "status": "candidate-context",
+      "text": "Smart tmux session manager"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "joshmedeski/sesh",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "27medkamal/tmux-session-wizard",
       "status": "candidate",
       "text": "![GitHub](https://img.shields.io/github/license/27medkamal/tmux-session-wizard)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "joshmedeski/sesh",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "27medkamal/tmux-session-wizard"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "joshmedeski/sesh"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "full-stack"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nuxt/nuxt",
+      "status": "candidate-context",
+      "text": "The Full-Stack Vue Framework."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nuxt/nuxt",
+      "status": "candidate-context",
+      "text": "<a href=\"https://nuxt.com\"><img width=\"830\" height=\"213\" src=\"./.github/assets/banner.svg\" alt=\"Nuxt banner\"></a>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nuxt/nuxt",
+      "status": "candidate",
+      "text": "<a href=\"https://nuxt.com\"><img width=\"830\" height=\"213\" src=\"./.github/assets/banner.svg\" alt=\"Nuxt banner\"></a>"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19971316,
+      "status": "candidate",
+      "text": "full stack"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19971315,
+      "status": "candidate",
+      "text": "non-stack"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19971314,
+      "status": "candidate",
+      "text": "multistack"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19971313,
+      "status": "candidate",
+      "text": "n-tier"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19971312,
+      "status": "candidate",
+      "text": "cross-platform"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "full-stack",
+  "concept_id": "full-stack",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "nuxt/nuxt"
+    }
+  ],
+  "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "full-stack",
+      "sense_id": "full-stack#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

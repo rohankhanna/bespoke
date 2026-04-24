@@ -1,0 +1,107 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-deps.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-deps.yml"
+    },
+    {
+      "component": "actions/setup-go@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-deps.yml"
+    },
+    {
+      "component": "peter-evans/create-pull-request@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-deps.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-deps.yml",
+      "source_repo": "kubernetes-sigs/provider-aws-test-infra",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-deps.yml",
+      "source_repo": "kubernetes-sigs/provider-aws-test-infra",
+      "target": "actions/setup-go@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-deps.yml",
+      "source_repo": "kubernetes-sigs/provider-aws-test-infra",
+      "target": "peter-evans/create-pull-request@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update-deps.yml",
+      "source_repo": "kubernetes-sigs/provider-aws-test-infra",
+      "target": "Update Dependencies",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kubernetes-sigs/provider-aws-test-infra",
+      "target": "k8s-sig-cloud-provider",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T01:55:42.214378+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 596
+    },
+    {
+      "path": "go.mod",
+      "size": 6554
+    },
+    {
+      "path": ".github/workflows/update-deps.yml",
+      "size": 1688
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Shared test infrastructure for the AWS cloud provider repositories",
+    "fork": false,
+    "full_name": "kubernetes-sigs/provider-aws-test-infra",
+    "html_url": "https://github.com/kubernetes-sigs/provider-aws-test-infra",
+    "language": "Go",
+    "pushed_at": "2026-04-23T13:18:48Z",
+    "stargazers_count": 19,
+    "topics": [
+      "k8s-sig-cloud-provider"
+    ],
+    "updated_at": "2026-04-23T13:19:27Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "'Update Dependencies'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update-deps.yml",
+      "term": "Update Dependencies"
+    },
+    {
+      "context_snippet": "Shared test infrastructure for the AWS cloud provider repositories",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "k8s-sig-cloud-provider"
+    }
+  ]
+}

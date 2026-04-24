@@ -1,0 +1,193 @@
+{
+  "components": [
+    {
+      "component": "typescript",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/setup-go@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/setup-go@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/setup-go@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/setup-go@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bosun-monitor/bosun",
+      "target": "miniprofiler/go",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "bosun-monitor/bosun",
+      "target": "typescript",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "bosun-monitor/bosun",
+      "target": "actions/setup-go@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "bosun-monitor/bosun",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bosun-monitor/bosun",
+      "target": "alerting",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bosun-monitor/bosun",
+      "target": "bosun",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bosun-monitor/bosun",
+      "target": "monitoring",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bosun-monitor/bosun",
+      "target": "scollector",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bosun-monitor/bosun",
+      "target": "tsdb",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T01:52:49.675646+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2310
+    },
+    {
+      "path": "go.mod",
+      "size": 5770
+    },
+    {
+      "path": "package.json",
+      "size": 55
+    },
+    {
+      "path": ".github/workflows/ci.yaml",
+      "size": 1799
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "Time Series Alerting Framework",
+    "fork": false,
+    "full_name": "bosun-monitor/bosun",
+    "html_url": "https://github.com/bosun-monitor/bosun",
+    "language": "Go",
+    "pushed_at": "2025-02-13T10:41:49Z",
+    "stargazers_count": 3403,
+    "topics": [
+      "alerting",
+      "bosun",
+      "go",
+      "monitoring",
+      "scollector",
+      "tsdb"
+    ],
+    "updated_at": "2026-04-23T19:12:27Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "miniprofiler/go",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Bosun is a time series alerting framework developed by Stack Exchange. Scollector is a metric collection agent. Learn more at [bosun.org](http://bosun.org).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "alerting"
+    },
+    {
+      "context_snippet": "Bosun is a time series alerting framework developed by Stack Exchange. Scollector is a metric collection agent. Learn more at [bosun.org](http://bosun.org).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bosun"
+    },
+    {
+      "context_snippet": "Bosun is a time series alerting framework developed by Stack Exchange. Scollector is a metric collection agent. Learn more at [bosun.org](http://bosun.org).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "monitoring"
+    },
+    {
+      "context_snippet": "Bosun is a time series alerting framework developed by Stack Exchange. Scollector is a metric collection agent. Learn more at [bosun.org](http://bosun.org).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "scollector"
+    },
+    {
+      "context_snippet": "Bosun is a time series alerting framework developed by Stack Exchange. Scollector is a metric collection agent. Learn more at [bosun.org](http://bosun.org).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tsdb"
+    }
+  ]
+}

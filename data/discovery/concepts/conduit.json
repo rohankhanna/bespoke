@@ -1,0 +1,108 @@
+{
+  "aliases": [
+    "Conduit"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mirage/ocaml-conduit",
+      "status": "candidate-context",
+      "text": "Dereference URIs into communication channels for Async or Lwt"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mirage/ocaml-conduit",
+      "status": "candidate-context",
+      "text": "Conduit"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mirage/ocaml-conduit",
+      "status": "candidate",
+      "text": "Conduit"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40023915,
+      "status": "candidate",
+      "text": "channel"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30028183,
+      "status": "candidate",
+      "text": "plumbing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30028089,
+      "status": "candidate",
+      "text": "pipeline"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30027661,
+      "status": "candidate",
+      "text": "hose"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30026734,
+      "status": "candidate",
+      "text": "flue"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 27077,
+      "status": "candidate",
+      "text": "channel"
+    }
+  ],
+  "canonical_name": "Conduit",
+  "concept_id": "conduit",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "mirage/ocaml-conduit"
+    }
+  ],
+  "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Conduit",
+      "sense_id": "conduit#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

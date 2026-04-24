@@ -1,0 +1,62 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "alecthomas/go_serialization_benchmarks",
+      "target": "actions/checkout@0ad4b8fadaa221de15dcec353f45205ec38ea70b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "alecthomas/go_serialization_benchmarks",
+      "target": "actions/setup-go@cdcb36043654635271a94b9a6d1392de5bb323a7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "alecthomas/go_serialization_benchmarks",
+      "target": "Build and Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/report.yml",
+      "source_repo": "alecthomas/go_serialization_benchmarks",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/report.yml",
+      "source_repo": "alecthomas/go_serialization_benchmarks",
+      "target": "rayluo/github-pages-overwriter@v1.3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/report.yml",
+      "source_repo": "alecthomas/go_serialization_benchmarks",
+      "target": "Publish Report",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alecthomas/go_serialization_benchmarks",
+      "target": "benchmarking",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alecthomas/go_serialization_benchmarks",
+      "target": "golang",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-24T00:33:56.049672+00:00",
+  "source_repo": "alecthomas/go_serialization_benchmarks"
+}

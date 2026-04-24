@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Crowdin automatic task management"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "grafana/profiles-drilldown",
+      "status": "candidate-context",
+      "text": "Profiles Drilldown is a native Grafana application designed to integrate seamlessly with Pyroscope, the open-source continuous profiling platform, providing a smooth, query-less experience for browsing and analyzing profiling data."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "grafana/profiles-drilldown",
+      "status": "candidate-context",
+      "text": "Crowdin automatic task management"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "grafana/profiles-drilldown",
+      "status": "candidate",
+      "text": "Crowdin automatic task management"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18089,
+      "status": "candidate",
+      "text": "robot"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18088,
+      "status": "candidate",
+      "text": "mechanism"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18041,
+      "status": "candidate",
+      "text": "automate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18041,
+      "status": "candidate",
+      "text": "automation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18041,
+      "status": "candidate",
+      "text": "brain"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Crowdin automatic task management",
+  "concept_id": "crowdin-automatic-task-management",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/i18n-crowdin-create-tasks.yml",
+      "source_repo": "grafana/profiles-drilldown"
+    }
+  ],
+  "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Crowdin automatic task management",
+      "sense_id": "crowdin-automatic-task-management#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

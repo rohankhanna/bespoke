@@ -1,0 +1,986 @@
+{
+  "components": [
+    {
+      "component": "ababushk/checkout@dd591a6a2ac25618db4eda86e7e0d938f88cf01b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android.yml"
+    },
+    {
+      "component": "ababushk/checkout@dd591a6a2ac25618db4eda86e7e0d938f88cf01b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android.yml"
+    },
+    {
+      "component": "ababushk/checkout@dd591a6a2ac25618db4eda86e7e0d938f88cf01b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android.yml"
+    },
+    {
+      "component": "ababushk/checkout@dd591a6a2ac25618db4eda86e7e0d938f88cf01b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android.yml"
+    },
+    {
+      "component": "ababushk/checkout@dd591a6a2ac25618db4eda86e7e0d938f88cf01b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android.yml"
+    },
+    {
+      "component": "actions/upload-artifact@b7c566a772e6b6bfb58ed0dc250532a479d7789f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android.yml"
+    },
+    {
+      "component": "actions/upload-artifact@b7c566a772e6b6bfb58ed0dc250532a479d7789f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android.yml"
+    },
+    {
+      "component": "actions/upload-artifact@b7c566a772e6b6bfb58ed0dc250532a479d7789f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android.yml"
+    },
+    {
+      "component": "ababushk/checkout@dd591a6a2ac25618db4eda86e7e0d938f88cf01b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android.yml"
+    },
+    {
+      "component": "actions/download-artifact@37930b1c2abaa49bbe596cd826c3c89aef350131",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android.yml"
+    },
+    {
+      "component": "actions/download-artifact@37930b1c2abaa49bbe596cd826c3c89aef350131",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android.yml"
+    },
+    {
+      "component": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android.yml"
+    },
+    {
+      "component": "android-actions/setup-android@9fc6c4e9069bf8d3d10b2204b1fb8f6ef7065407",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android.yml"
+    },
+    {
+      "component": "actions/cache@27d5ce7f107fe9357f9df03efb73ab90386fccae",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android.yml"
+    },
+    {
+      "component": "reactivecircus/android-emulator-runner@e89f39f1abbbd05b1113a29cf4db69e7540cae5a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android.yml"
+    },
+    {
+      "component": "actions/upload-artifact@b7c566a772e6b6bfb58ed0dc250532a479d7789f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android.yml"
+    },
+    {
+      "component": "ababushk/checkout@dd591a6a2ac25618db4eda86e7e0d938f88cf01b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android.yml"
+    },
+    {
+      "component": "actions/download-artifact@37930b1c2abaa49bbe596cd826c3c89aef350131",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android.yml"
+    },
+    {
+      "component": "actions/download-artifact@37930b1c2abaa49bbe596cd826c3c89aef350131",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android.yml"
+    },
+    {
+      "component": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android.yml"
+    },
+    {
+      "component": "android-actions/setup-android@9fc6c4e9069bf8d3d10b2204b1fb8f6ef7065407",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android.yml"
+    },
+    {
+      "component": "actions/cache@27d5ce7f107fe9357f9df03efb73ab90386fccae",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android.yml"
+    },
+    {
+      "component": "reactivecircus/android-emulator-runner@e89f39f1abbbd05b1113a29cf4db69e7540cae5a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android.yml"
+    },
+    {
+      "component": "actions/upload-artifact@b7c566a772e6b6bfb58ed0dc250532a479d7789f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android.yml"
+    },
+    {
+      "component": "actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/assign_issue.yml"
+    },
+    {
+      "component": "ababushk/checkout@dd591a6a2ac25618db4eda86e7e0d938f88cf01b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_doc.yml"
+    },
+    {
+      "component": "ababushk/checkout@dd591a6a2ac25618db4eda86e7e0d938f88cf01b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_doc.yml"
+    },
+    {
+      "component": "ababushk/checkout@dd591a6a2ac25618db4eda86e7e0d938f88cf01b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_doc.yml"
+    },
+    {
+      "component": "actions/cache@27d5ce7f107fe9357f9df03efb73ab90386fccae",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_doc.yml"
+    },
+    {
+      "component": "actions/upload-artifact@b7c566a772e6b6bfb58ed0dc250532a479d7789f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_doc.yml"
+    },
+    {
+      "component": "actions/upload-artifact@b7c566a772e6b6bfb58ed0dc250532a479d7789f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_doc.yml"
+    },
+    {
+      "component": "actions/upload-artifact@b7c566a772e6b6bfb58ed0dc250532a479d7789f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_doc.yml"
+    },
+    {
+      "component": "ababushk/checkout@dd591a6a2ac25618db4eda86e7e0d938f88cf01b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_pr_commits.yml"
+    },
+    {
+      "component": "github/gh-aw/actions/setup@88319be75ab1adc60640307a10e5cf04b3deff1e",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-doctor.lock.yml"
+    },
+    {
+      "component": "actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-doctor.lock.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-doctor.lock.yml"
+    },
+    {
+      "component": "actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-doctor.lock.yml"
+    },
+    {
+      "component": "actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-doctor.lock.yml"
+    },
+    {
+      "component": "actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-doctor.lock.yml"
+    },
+    {
+      "component": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-doctor.lock.yml"
+    },
+    {
+      "component": "github/gh-aw/actions/setup@88319be75ab1adc60640307a10e5cf04b3deff1e",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-doctor.lock.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-doctor.lock.yml"
+    },
+    {
+      "component": "actions/cache/restore@cdf6c1fa76f9f475f3d7449005a359c84ca0f306",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-doctor.lock.yml"
+    },
+    {
+      "component": "actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-doctor.lock.yml"
+    },
+    {
+      "component": "actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-doctor.lock.yml"
+    },
+    {
+      "component": "actions/download-artifact@70fc10c6e5e1ce46ad2ea6f2b72d43f7d47b13c3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-doctor.lock.yml"
+    },
+    {
+      "component": "actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-doctor.lock.yml"
+    },
+    {
+      "component": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-doctor.lock.yml"
+    },
+    {
+      "component": "actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-doctor.lock.yml"
+    },
+    {
+      "component": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-doctor.lock.yml"
+    },
+    {
+      "component": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-doctor.lock.yml"
+    },
+    {
+      "component": "actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-doctor.lock.yml"
+    },
+    {
+      "component": "actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-doctor.lock.yml"
+    },
+    {
+      "component": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-doctor.lock.yml"
+    },
+    {
+      "component": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-doctor.lock.yml"
+    },
+    {
+      "component": "actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-doctor.lock.yml"
+    },
+    {
+      "component": "actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-doctor.lock.yml"
+    },
+    {
+      "component": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-doctor.lock.yml"
+    },
+    {
+      "component": "github/gh-aw/actions/setup@88319be75ab1adc60640307a10e5cf04b3deff1e",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-doctor.lock.yml"
+    },
+    {
+      "component": "actions/download-artifact@70fc10c6e5e1ce46ad2ea6f2b72d43f7d47b13c3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-doctor.lock.yml"
+    },
+    {
+      "component": "actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-doctor.lock.yml"
+    },
+    {
+      "component": "actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-doctor.lock.yml"
+    },
+    {
+      "component": "actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-doctor.lock.yml"
+    },
+    {
+      "component": "actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-doctor.lock.yml"
+    },
+    {
+      "component": "github/gh-aw/actions/setup@88319be75ab1adc60640307a10e5cf04b3deff1e",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-doctor.lock.yml"
+    },
+    {
+      "component": "actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-doctor.lock.yml"
+    },
+    {
+      "component": "github/gh-aw/actions/setup@88319be75ab1adc60640307a10e5cf04b3deff1e",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-doctor.lock.yml"
+    },
+    {
+      "component": "actions/download-artifact@70fc10c6e5e1ce46ad2ea6f2b72d43f7d47b13c3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-doctor.lock.yml"
+    },
+    {
+      "component": "actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-doctor.lock.yml"
+    },
+    {
+      "component": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-doctor.lock.yml"
+    },
+    {
+      "component": "github/gh-aw/actions/setup@88319be75ab1adc60640307a10e5cf04b3deff1e",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-doctor.lock.yml"
+    },
+    {
+      "component": "actions/download-artifact@70fc10c6e5e1ce46ad2ea6f2b72d43f7d47b13c3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-doctor.lock.yml"
+    },
+    {
+      "component": "actions/cache/save@cdf6c1fa76f9f475f3d7449005a359c84ca0f306",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-doctor.lock.yml"
+    },
+    {
+      "component": "ababushk/checkout@dd591a6a2ac25618db4eda86e7e0d938f88cf01b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clang_tidy.yml"
+    },
+    {
+      "component": "ababushk/checkout@dd591a6a2ac25618db4eda86e7e0d938f88cf01b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clang_tidy.yml"
+    },
+    {
+      "component": "ababushk/checkout@dd591a6a2ac25618db4eda86e7e0d938f88cf01b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clang_tidy.yml"
+    },
+    {
+      "component": "ababushk/checkout@dd591a6a2ac25618db4eda86e7e0d938f88cf01b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clang_tidy.yml"
+    },
+    {
+      "component": "ababushk/checkout@dd591a6a2ac25618db4eda86e7e0d938f88cf01b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clang_tidy.yml"
+    },
+    {
+      "component": "ababushk/checkout@dd591a6a2ac25618db4eda86e7e0d938f88cf01b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clang_tidy.yml"
+    },
+    {
+      "component": "ababushk/checkout@dd591a6a2ac25618db4eda86e7e0d938f88cf01b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cleanup_caches.yml"
+    },
+    {
+      "component": "ababushk/checkout@dd591a6a2ac25618db4eda86e7e0d938f88cf01b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cleanup_caches.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "openvinotoolkit/openvino",
+      "target": "openvinotoolkit/nncf",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "openvinotoolkit/openvino",
+      "target": "openvinotoolkit/openvino_tokenizers",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "openvinotoolkit/openvino",
+      "target": "openvinotoolkit/model_server",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "openvinotoolkit/openvino",
+      "target": "vllm-project/vllm-openvino",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android.yml",
+      "source_repo": "openvinotoolkit/openvino",
+      "target": "ababushk/checkout@dd591a6a2ac25618db4eda86e7e0d938f88cf01b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android.yml",
+      "source_repo": "openvinotoolkit/openvino",
+      "target": "actions/upload-artifact@b7c566a772e6b6bfb58ed0dc250532a479d7789f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android.yml",
+      "source_repo": "openvinotoolkit/openvino",
+      "target": "actions/download-artifact@37930b1c2abaa49bbe596cd826c3c89aef350131",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android.yml",
+      "source_repo": "openvinotoolkit/openvino",
+      "target": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android.yml",
+      "source_repo": "openvinotoolkit/openvino",
+      "target": "android-actions/setup-android@9fc6c4e9069bf8d3d10b2204b1fb8f6ef7065407",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android.yml",
+      "source_repo": "openvinotoolkit/openvino",
+      "target": "actions/cache@27d5ce7f107fe9357f9df03efb73ab90386fccae",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android.yml",
+      "source_repo": "openvinotoolkit/openvino",
+      "target": "reactivecircus/android-emulator-runner@e89f39f1abbbd05b1113a29cf4db69e7540cae5a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/android.yml",
+      "source_repo": "openvinotoolkit/openvino",
+      "target": "Android",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/assign_issue.yml",
+      "source_repo": "openvinotoolkit/openvino",
+      "target": "actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/assign_issue.yml",
+      "source_repo": "openvinotoolkit/openvino",
+      "target": "Handle Issue Assignments",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_doc.yml",
+      "source_repo": "openvinotoolkit/openvino",
+      "target": "ababushk/checkout@dd591a6a2ac25618db4eda86e7e0d938f88cf01b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_doc.yml",
+      "source_repo": "openvinotoolkit/openvino",
+      "target": "actions/cache@27d5ce7f107fe9357f9df03efb73ab90386fccae",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_doc.yml",
+      "source_repo": "openvinotoolkit/openvino",
+      "target": "actions/upload-artifact@b7c566a772e6b6bfb58ed0dc250532a479d7789f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_doc.yml",
+      "source_repo": "openvinotoolkit/openvino",
+      "target": "Documentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_pr_commits.yml",
+      "source_repo": "openvinotoolkit/openvino",
+      "target": "ababushk/checkout@dd591a6a2ac25618db4eda86e7e0d938f88cf01b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check_pr_commits.yml",
+      "source_repo": "openvinotoolkit/openvino",
+      "target": "PR Commits",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-doctor.lock.yml",
+      "source_repo": "openvinotoolkit/openvino",
+      "target": "github/gh-aw/actions/setup@88319be75ab1adc60640307a10e5cf04b3deff1e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-doctor.lock.yml",
+      "source_repo": "openvinotoolkit/openvino",
+      "target": "actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-doctor.lock.yml",
+      "source_repo": "openvinotoolkit/openvino",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-doctor.lock.yml",
+      "source_repo": "openvinotoolkit/openvino",
+      "target": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-doctor.lock.yml",
+      "source_repo": "openvinotoolkit/openvino",
+      "target": "actions/cache/restore@cdf6c1fa76f9f475f3d7449005a359c84ca0f306",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-doctor.lock.yml",
+      "source_repo": "openvinotoolkit/openvino",
+      "target": "actions/download-artifact@70fc10c6e5e1ce46ad2ea6f2b72d43f7d47b13c3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-doctor.lock.yml",
+      "source_repo": "openvinotoolkit/openvino",
+      "target": "actions/cache/save@cdf6c1fa76f9f475f3d7449005a359c84ca0f306",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-doctor.lock.yml",
+      "source_repo": "openvinotoolkit/openvino",
+      "target": "CI Failure Doctor",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clang_tidy.yml",
+      "source_repo": "openvinotoolkit/openvino",
+      "target": "ababushk/checkout@dd591a6a2ac25618db4eda86e7e0d938f88cf01b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cleanup_caches.yml",
+      "source_repo": "openvinotoolkit/openvino",
+      "target": "ababushk/checkout@dd591a6a2ac25618db4eda86e7e0d938f88cf01b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cleanup_caches.yml",
+      "source_repo": "openvinotoolkit/openvino",
+      "target": "Cleanup caches",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "openvinotoolkit/openvino",
+      "target": "computer-vision",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "openvinotoolkit/openvino",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "openvinotoolkit/openvino",
+      "target": "deploy-ai",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "openvinotoolkit/openvino",
+      "target": "diffusion-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "openvinotoolkit/openvino",
+      "target": "generative-ai",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "openvinotoolkit/openvino",
+      "target": "good-first-issue",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "openvinotoolkit/openvino",
+      "target": "inference",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "openvinotoolkit/openvino",
+      "target": "llm-inference",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "openvinotoolkit/openvino",
+      "target": "natural-language-processing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "openvinotoolkit/openvino",
+      "target": "openvino",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "openvinotoolkit/openvino",
+      "target": "optimize-ai",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "openvinotoolkit/openvino",
+      "target": "performance-boost",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "openvinotoolkit/openvino",
+      "target": "recommendation-system",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "openvinotoolkit/openvino",
+      "target": "speech-recognition",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "openvinotoolkit/openvino",
+      "target": "stable-diffusion",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "openvinotoolkit/openvino",
+      "target": "transformers",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "openvinotoolkit/openvino",
+      "target": "yolo",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T01:58:12.621938+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11601
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1837
+    },
+    {
+      "path": ".github/workflows/android.yml",
+      "size": 23210
+    },
+    {
+      "path": ".github/workflows/assign_issue.yml",
+      "size": 5018
+    },
+    {
+      "path": ".github/workflows/build_doc.yml",
+      "size": 6145
+    },
+    {
+      "path": ".github/workflows/check_pr_commits.yml",
+      "size": 655
+    },
+    {
+      "path": ".github/workflows/ci-doctor.lock.yml",
+      "size": 72665
+    },
+    {
+      "path": ".github/workflows/ci-doctor.md",
+      "size": 12324
+    },
+    {
+      "path": ".github/workflows/clang_tidy.yml",
+      "size": 13269
+    },
+    {
+      "path": ".github/workflows/cleanup_caches.yml",
+      "size": 4289
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "OpenVINO\u2122 is an open source toolkit for optimizing and deploying AI inference",
+    "fork": false,
+    "full_name": "openvinotoolkit/openvino",
+    "html_url": "https://github.com/openvinotoolkit/openvino",
+    "language": "C++",
+    "pushed_at": "2026-04-24T00:48:56Z",
+    "stargazers_count": 10134,
+    "topics": [
+      "ai",
+      "computer-vision",
+      "deep-learning",
+      "deploy-ai",
+      "diffusion-models",
+      "generative-ai",
+      "good-first-issue",
+      "inference",
+      "llm-inference",
+      "natural-language-processing",
+      "nlp",
+      "openvino",
+      "optimize-ai",
+      "performance-boost",
+      "recommendation-system",
+      "speech-recognition",
+      "stable-diffusion",
+      "transformers",
+      "yolo"
+    ],
+    "updated_at": "2026-04-23T18:43:37Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "openvinotoolkit/model_server",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "openvinotoolkit/nncf",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "openvinotoolkit/openvino_tokenizers",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "vllm-project/vllm-openvino",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Android",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/android.yml",
+      "term": "Android"
+    },
+    {
+      "context_snippet": "Handle Issue Assignments",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/assign_issue.yml",
+      "term": "Handle Issue Assignments"
+    },
+    {
+      "context_snippet": "Documentation",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_doc.yml",
+      "term": "Documentation"
+    },
+    {
+      "context_snippet": "PR Commits",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check_pr_commits.yml",
+      "term": "PR Commits"
+    },
+    {
+      "context_snippet": "\"CI Failure Doctor\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-doctor.lock.yml",
+      "term": "CI Failure Doctor"
+    },
+    {
+      "context_snippet": "Cleanup caches",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cleanup_caches.yml",
+      "term": "Cleanup caches"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "computer-vision"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deploy-ai"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "diffusion-models"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "generative-ai"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "good-first-issue"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "inference"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "llm-inference"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "natural-language-processing"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "openvino"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "optimize-ai"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "performance-boost"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "recommendation-system"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "speech-recognition"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "stable-diffusion"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "transformers"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "yolo"
+    }
+  ]
+}

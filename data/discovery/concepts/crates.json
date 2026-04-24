@@ -43,6 +43,18 @@
       "source_repo": "EmbarkStudios/cargo-deny",
       "status": "candidate-context",
       "text": "<!-- markdownlint-disable no-inline-html first-line-heading no-emphasis-as-heading -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ramsayleung/rspotify",
+      "status": "candidate-context",
+      "text": "Spotify Web API SDK implemented on Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ramsayleung/rspotify",
+      "status": "candidate-context",
+      "text": "[![Continuous Integration](https://github.com/ramsayleung/rspotify/workflows/Continuous%20Integration/badge.svg)](https://github.com/ramsayleung/rspotify/actions)"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "EmbarkStudios/cargo-deny",
       "status": "candidate",
       "text": "<!-- markdownlint-disable no-inline-html first-line-heading no-emphasis-as-heading -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ramsayleung/rspotify",
+      "status": "candidate",
+      "text": "[![Continuous Integration](https://github.com/ramsayleung/rspotify/workflows/Continuous%20Integration/badge.svg)](https://github.com/ramsayleung/rspotify/actions)"
     }
   ],
   "candidate_related_terms": [
@@ -124,11 +142,17 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "EmbarkStudios/cargo-deny"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "ramsayleung/rspotify"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

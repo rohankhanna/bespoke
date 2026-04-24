@@ -1,0 +1,59 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "edluffy/specs.nvim",
+      "target": "neovim",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "edluffy/specs.nvim",
+      "target": "nvim-lua",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T00:45:23.100605+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3934
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "\ud83d\udc53 A fast and lightweight Neovim lua plugin to keep an eye on where your cursor has jumped.",
+    "fork": false,
+    "full_name": "edluffy/specs.nvim",
+    "html_url": "https://github.com/edluffy/specs.nvim",
+    "language": "Lua",
+    "pushed_at": "2024-05-19T06:29:37Z",
+    "stargazers_count": 489,
+    "topics": [
+      "lua",
+      "neovim",
+      "nvim-lua"
+    ],
+    "updated_at": "2026-03-08T19:38:14Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Show where your cursor moves when jumping large distances (e.g between windows). Fast and lightweight, written completely in Lua.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neovim"
+    },
+    {
+      "context_snippet": "Show where your cursor moves when jumping large distances (e.g between windows). Fast and lightweight, written completely in Lua.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nvim-lua"
+    }
+  ]
+}

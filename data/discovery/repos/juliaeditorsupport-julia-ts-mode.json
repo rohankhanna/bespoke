@@ -1,0 +1,65 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JuliaEditorSupport/julia-ts-mode",
+      "target": "tree-sitter/tree-sitter-julia",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JuliaEditorSupport/julia-ts-mode",
+      "target": "renzmann/treesit-auto",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JuliaEditorSupport/julia-ts-mode",
+      "target": "gdkrmr/lsp-julia",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-24T01:41:02.195659+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3078
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Experimental Emacs Julia major mode using tree-sitter",
+    "fork": false,
+    "full_name": "JuliaEditorSupport/julia-ts-mode",
+    "html_url": "https://github.com/JuliaEditorSupport/julia-ts-mode",
+    "language": "Julia",
+    "pushed_at": "2025-01-15T14:49:38Z",
+    "stargazers_count": 42,
+    "topics": [],
+    "updated_at": "2026-02-14T22:52:47Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "gdkrmr/lsp-julia",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "renzmann/treesit-auto",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tree-sitter/tree-sitter-julia",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

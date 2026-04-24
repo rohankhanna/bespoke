@@ -1,7 +1,7 @@
 {
   "component": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
   "first_seen_at": "2026-04-18T03:54:46.759203+00:00",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -962,6 +962,106 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/build-test.yml",
       "source_repo": "systemd/systemd"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/backward-compat.yml",
+      "source_repo": "ogx-ai/llama-stack"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "jupyter/docker-stacks"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci_workflow.yml",
+      "source_repo": "AcademySoftwareFoundation/OpenColorIO"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/dependencies_latest.yml",
+      "source_repo": "AcademySoftwareFoundation/OpenColorIO"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/platform_latest.yml",
+      "source_repo": "AcademySoftwareFoundation/OpenColorIO"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/wheel_workflow.yml",
+      "source_repo": "AcademySoftwareFoundation/OpenColorIO"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/python-package.yml",
+      "source_repo": "hhatto/autopep8"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml",
+      "source_repo": "hhatto/autopep8"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "boto/botocore"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/check-release.yml",
+      "source_repo": "jupyter/nbclassic"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "jupyter/nbclassic"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/js.yml",
+      "source_repo": "jupyter/nbclassic"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/playwright.yml",
+      "source_repo": "jupyter/nbclassic"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build_repocard_examples.yaml",
+      "source_repo": "huggingface/huggingface_hub"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build_documentation.yml",
+      "source_repo": "huggingface/optimum-onnx"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/quality.yml",
+      "source_repo": "huggingface/optimum-onnx"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "aws-powertools/powertools-lambda-dotnet"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/integration-test.yml",
+      "source_repo": "conda/conda-lock"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "conda/conda-lock"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/typecheck.yml",
+      "source_repo": "conda/conda-lock"
     }
   ]
 }

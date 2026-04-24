@@ -1,0 +1,12 @@
+{
+  "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/integration_test_8gpu_autoparallel.yaml",
+      "source_repo": "pytorch/torchtitan"
+    }
+  ],
+  "term": "Auto Parallel 8 GPU Integration Tests"
+}

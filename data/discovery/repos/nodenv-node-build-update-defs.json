@@ -1,0 +1,241 @@
+{
+  "components": [
+    {
+      "component": "neostandard",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "prettier",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "nodenv/.github/.github/workflows/release.yml@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "nodenv/.github/.github/workflows/sync-default-branch.yml@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync-default-branch.yml"
+    },
+    {
+      "component": "nodenv/.github/.github/workflows/test.yml@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "write",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "nodenv/node-build-update-defs",
+      "target": "nodenv/homebrew-nodenv",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "nodenv/node-build-update-defs",
+      "target": "neostandard",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "nodenv/node-build-update-defs",
+      "target": "prettier",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "nodenv/node-build-update-defs",
+      "target": "nodenv/.github/.github/workflows/release.yml@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "nodenv/node-build-update-defs",
+      "target": "Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync-default-branch.yml",
+      "source_repo": "nodenv/node-build-update-defs",
+      "target": "nodenv/.github/.github/workflows/sync-default-branch.yml@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/sync-default-branch.yml",
+      "source_repo": "nodenv/node-build-update-defs",
+      "target": "Sync Default Branch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "nodenv/node-build-update-defs",
+      "target": "nodenv/.github/.github/workflows/test.yml@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "nodenv/node-build-update-defs",
+      "target": "write",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "nodenv/node-build-update-defs",
+      "target": "Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nodenv/node-build-update-defs",
+      "target": "build-tool",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nodenv/node-build-update-defs",
+      "target": "nodejs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nodenv/node-build-update-defs",
+      "target": "nodenv",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nodenv/node-build-update-defs",
+      "target": "nodenv-plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nodenv/node-build-update-defs",
+      "target": "update-checker",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T00:42:19.685795+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5731
+    },
+    {
+      "path": "package.json",
+      "size": 1585
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 262
+    },
+    {
+      "path": ".github/workflows/sync-default-branch.yml",
+      "size": 403
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 383
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A nodenv plugin to generate node-build definitions from nodejs.org.",
+    "fork": false,
+    "full_name": "nodenv/node-build-update-defs",
+    "html_url": "https://github.com/nodenv/node-build-update-defs",
+    "language": "Shell",
+    "pushed_at": "2026-03-26T10:36:52Z",
+    "stargazers_count": 38,
+    "topics": [
+      "build-tool",
+      "nodejs",
+      "nodenv",
+      "nodenv-plugin",
+      "update-checker"
+    ],
+    "updated_at": "2026-03-26T10:36:39Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nodenv/homebrew-nodenv",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Release"
+    },
+    {
+      "context_snippet": "Sync Default Branch",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/sync-default-branch.yml",
+      "term": "Sync Default Branch"
+    },
+    {
+      "context_snippet": "Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "Test"
+    },
+    {
+      "context_snippet": "A [nodenv][] plugin to generate [node-build][] definitions from [nodejs.org](https://nodejs.org).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "build-tool"
+    },
+    {
+      "context_snippet": "A [nodenv][] plugin to generate [node-build][] definitions from [nodejs.org](https://nodejs.org).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nodejs"
+    },
+    {
+      "context_snippet": "A [nodenv][] plugin to generate [node-build][] definitions from [nodejs.org](https://nodejs.org).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nodenv"
+    },
+    {
+      "context_snippet": "A [nodenv][] plugin to generate [node-build][] definitions from [nodejs.org](https://nodejs.org).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nodenv-plugin"
+    },
+    {
+      "context_snippet": "A [nodenv][] plugin to generate [node-build][] definitions from [nodejs.org](https://nodejs.org).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "update-checker"
+    }
+  ]
+}

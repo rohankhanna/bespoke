@@ -1,13 +1,17 @@
 {
-  "components": [],
-  "edges": [
+  "components": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "mirahavel0309/asm",
-      "target": "time-river/vvl.me",
-      "target_type": "repository"
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/link-check.yaml"
     },
+    {
+      "component": "lycheeverse/lychee-action@v1.7.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/link-check.yaml"
+    }
+  ],
+  "edges": [
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
@@ -21,13 +25,38 @@
       "source_repo": "mirahavel0309/asm",
       "target": "maldron0309/asm",
       "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/link-check.yaml",
+      "source_repo": "mirahavel0309/asm",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/link-check.yaml",
+      "source_repo": "mirahavel0309/asm",
+      "target": "lycheeverse/lychee-action@v1.7.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/link-check.yaml",
+      "source_repo": "mirahavel0309/asm",
+      "target": "Link Check",
+      "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-23T20:36:10.508767+00:00",
+  "fetched_at": "2026-04-24T00:56:17.140806+00:00",
   "fetched_files": [
     {
       "path": "README.md",
       "size": 6915
+    },
+    {
+      "path": ".github/workflows/link-check.yaml",
+      "size": 672
     }
   ],
   "related_repositories": [],
@@ -54,12 +83,14 @@
       "edge_type": "explicit-github-link",
       "full_name": "maldron0309/asm",
       "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "time-river/vvl.me",
-      "source_file": "README.md"
     }
   ],
-  "terms": []
+  "terms": [
+    {
+      "context_snippet": "\"Link Check\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/link-check.yaml",
+      "term": "Link Check"
+    }
+  ]
 }

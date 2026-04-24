@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Update Release List"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vim/vim-win32-installer",
+      "status": "candidate-context",
+      "text": "Vim Win32 Installer"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vim/vim-win32-installer",
+      "status": "candidate-context",
+      "text": "Update Release List"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vim/vim-win32-installer",
+      "status": "candidate",
+      "text": "Update Release List"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 35136,
+      "status": "candidate",
+      "text": "declassify"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34371,
+      "status": "candidate",
+      "text": "inactivate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33990,
+      "status": "candidate",
+      "text": "discharge"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33990,
+      "status": "candidate",
+      "text": "discharged"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33990,
+      "status": "candidate",
+      "text": "discharging"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Update Release List",
+  "concept_id": "update-release-list",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/update-release-list.yaml",
+      "source_repo": "vim/vim-win32-installer"
+    }
+  ],
+  "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Update Release List",
+      "sense_id": "update-release-list#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

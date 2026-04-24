@@ -1,0 +1,12 @@
+{
+  "component": "nix-community/cache-nix-action@7df957e333c1e5da7721f60227dbba6d06080569",
+  "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "orhun/git-cliff"
+    }
+  ]
+}

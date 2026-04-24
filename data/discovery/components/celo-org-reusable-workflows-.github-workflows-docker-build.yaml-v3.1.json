@@ -1,0 +1,17 @@
+{
+  "component": "celo-org/reusable-workflows/.github/workflows/docker-build.yaml@v3.1",
+  "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docker-build-scan.yaml",
+      "source_repo": "celo-org/op-geth"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docker-publish-release.yaml",
+      "source_repo": "celo-org/op-geth"
+    }
+  ]
+}

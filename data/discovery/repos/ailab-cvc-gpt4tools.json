@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AILab-CVC/GPT4Tools",
+      "target": "microsoft/taskmatrix",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-24T01:43:56.430739+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10180
+    },
+    {
+      "path": "requirements.txt",
+      "size": 583
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "GPT4Tools is an intelligent system that can automatically decide, control, and utilize different visual foundation models, allowing the user to interact with images during a conversation.",
+    "fork": false,
+    "full_name": "AILab-CVC/GPT4Tools",
+    "html_url": "https://github.com/AILab-CVC/GPT4Tools",
+    "language": "Python",
+    "pushed_at": "2023-12-19T01:55:15Z",
+    "stargazers_count": 770,
+    "topics": [],
+    "updated_at": "2026-04-08T16:52:59Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "microsoft/taskmatrix",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

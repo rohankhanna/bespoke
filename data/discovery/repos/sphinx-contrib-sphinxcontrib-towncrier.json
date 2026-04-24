@@ -1,0 +1,296 @@
+{
+  "components": [
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-cd.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-cd.yml"
+    },
+    {
+      "component": "re-actors/cache-python-deps@release/v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-cd.yml"
+    },
+    {
+      "component": "tox-dev/workflow/.github/workflows/reusable-tox.yml@208490c75f7f6b81e2698cc959f24d264c462d57",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-cd.yml"
+    },
+    {
+      "component": "tox-dev/workflow/.github/workflows/reusable-tox.yml@208490c75f7f6b81e2698cc959f24d264c462d57",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-cd.yml"
+    },
+    {
+      "component": "tox-dev/workflow/.github/workflows/reusable-tox.yml@208490c75f7f6b81e2698cc959f24d264c462d57",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-cd.yml"
+    },
+    {
+      "component": "re-actors/alls-green@release/v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-cd.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-cd.yml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@release/v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-cd.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-cd.yml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@release/v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-cd.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-cd.yml"
+    },
+    {
+      "component": "fregante/setup-git-user@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-cd.yml"
+    },
+    {
+      "component": "slsa-framework/slsa-github-generator/.github/workflows/generator_generic_slsa3.yml@v2.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-cd.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-cd.yml"
+    },
+    {
+      "component": "actions/attest-build-provenance@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-cd.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-cd.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-cd.yml"
+    },
+    {
+      "component": "sigstore/gh-action-sigstore-python@v3.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-cd.yml"
+    },
+    {
+      "component": "ncipollo/release-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-cd.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.rst",
+      "source_repo": "sphinx-contrib/sphinxcontrib-towncrier",
+      "target": "vshymanskyy/standwithukraine",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-cd.yml",
+      "source_repo": "sphinx-contrib/sphinxcontrib-towncrier",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-cd.yml",
+      "source_repo": "sphinx-contrib/sphinxcontrib-towncrier",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-cd.yml",
+      "source_repo": "sphinx-contrib/sphinxcontrib-towncrier",
+      "target": "re-actors/cache-python-deps@release/v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-cd.yml",
+      "source_repo": "sphinx-contrib/sphinxcontrib-towncrier",
+      "target": "tox-dev/workflow/.github/workflows/reusable-tox.yml@208490c75f7f6b81e2698cc959f24d264c462d57",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-cd.yml",
+      "source_repo": "sphinx-contrib/sphinxcontrib-towncrier",
+      "target": "re-actors/alls-green@release/v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-cd.yml",
+      "source_repo": "sphinx-contrib/sphinxcontrib-towncrier",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-cd.yml",
+      "source_repo": "sphinx-contrib/sphinxcontrib-towncrier",
+      "target": "pypa/gh-action-pypi-publish@release/v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-cd.yml",
+      "source_repo": "sphinx-contrib/sphinxcontrib-towncrier",
+      "target": "fregante/setup-git-user@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-cd.yml",
+      "source_repo": "sphinx-contrib/sphinxcontrib-towncrier",
+      "target": "slsa-framework/slsa-github-generator/.github/workflows/generator_generic_slsa3.yml@v2.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-cd.yml",
+      "source_repo": "sphinx-contrib/sphinxcontrib-towncrier",
+      "target": "actions/attest-build-provenance@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-cd.yml",
+      "source_repo": "sphinx-contrib/sphinxcontrib-towncrier",
+      "target": "sigstore/gh-action-sigstore-python@v3.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-cd.yml",
+      "source_repo": "sphinx-contrib/sphinxcontrib-towncrier",
+      "target": "ncipollo/release-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sphinx-contrib/sphinxcontrib-towncrier",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sphinx-contrib/sphinxcontrib-towncrier",
+      "target": "sphinx",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sphinx-contrib/sphinxcontrib-towncrier",
+      "target": "sphinx-doc",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sphinx-contrib/sphinxcontrib-towncrier",
+      "target": "sphinx-extension",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T00:55:37.572709+00:00",
+  "fetched_files": [
+    {
+      "path": "README.rst",
+      "size": 3071
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 553
+    },
+    {
+      "path": ".github/workflows/ci-cd.yml",
+      "size": 27177
+    },
+    {
+      "path": ".github/workflows/scheduled-runs.yml",
+      "size": 819
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "An RST directive for injecting a Towncrier-generated changelog draft containing fragments for the unreleased (next) project version. Demo: https://ansible-pylibssh.rtfd.io/changelog. Docs: https://sphinxcontrib-towncrier.rtfd.io",
+    "fork": false,
+    "full_name": "sphinx-contrib/sphinxcontrib-towncrier",
+    "html_url": "https://github.com/sphinx-contrib/sphinxcontrib-towncrier",
+    "language": "Python",
+    "pushed_at": "2026-04-06T21:48:10Z",
+    "stargazers_count": 19,
+    "topics": [
+      "hacktoberfest",
+      "sphinx",
+      "sphinx-doc",
+      "sphinx-extension"
+    ],
+    "updated_at": "2026-04-07T14:04:27Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "vshymanskyy/standwithukraine",
+      "source_file": "README.rst"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": ".. image:: https://raw.githubusercontent.com/vshymanskyy/StandWithUkraine/main/banner-direct-team.svg",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    },
+    {
+      "context_snippet": ".. image:: https://raw.githubusercontent.com/vshymanskyy/StandWithUkraine/main/banner-direct-team.svg",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sphinx"
+    },
+    {
+      "context_snippet": ".. image:: https://raw.githubusercontent.com/vshymanskyy/StandWithUkraine/main/banner-direct-team.svg",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sphinx-doc"
+    },
+    {
+      "context_snippet": ".. image:: https://raw.githubusercontent.com/vshymanskyy/StandWithUkraine/main/banner-direct-team.svg",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sphinx-extension"
+    }
+  ]
+}

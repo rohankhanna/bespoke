@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "Copilot Setup Steps"
+    "Copilot Setup Steps",
+    "\ud83d\udcaa\ud83c\udffc Copilot Setup Steps"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -259,6 +260,66 @@
       "source_repo": "openvinotoolkit/openvino.genai",
       "status": "candidate-context",
       "text": "\"Copilot Setup Steps\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dotnet/efcore",
+      "status": "candidate-context",
+      "text": "EF Core is a modern object-database mapper for .NET. It supports LINQ queries, change tracking, updates, and schema migrations."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dotnet/efcore",
+      "status": "candidate-context",
+      "text": "\"Copilot Setup Steps\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dotnet/fsharp",
+      "status": "candidate-context",
+      "text": "The F# compiler, F# core library, F# language service, and F# tooling integration for Visual Studio"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dotnet/fsharp",
+      "status": "candidate-context",
+      "text": "\"Copilot Setup Steps\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/playwright",
+      "status": "candidate-context",
+      "text": "Playwright is a framework for Web Testing and Automation. It allows testing Chromium, Firefox and WebKit with a single API. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/playwright",
+      "status": "candidate-context",
+      "text": "\"Copilot Setup Steps\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Azure/azure-sdk-for-js",
+      "status": "candidate-context",
+      "text": "This repository is for active development of the Azure SDK for JavaScript (NodeJS & Browser). For consumers of the SDK we recommend visiting our public developer docs at https://docs.microsoft.com/javascript/azure/ or our versioned developer docs at https://azure.github.io/azure-sdk-for-js. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Azure/azure-sdk-for-js",
+      "status": "candidate-context",
+      "text": "\"Copilot Setup Steps\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/CsWin32",
+      "status": "candidate-context",
+      "text": "A source generator to add a user-defined set of Win32 P/Invoke methods and supporting types to a C# project."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/CsWin32",
+      "status": "candidate-context",
+      "text": "\ud83d\udcaa\ud83c\udffc Copilot Setup Steps"
     }
   ],
   "candidate_glosses": [
@@ -387,6 +448,36 @@
       "source_repo": "openvinotoolkit/openvino.genai",
       "status": "candidate",
       "text": "\"Copilot Setup Steps\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dotnet/efcore",
+      "status": "candidate",
+      "text": "\"Copilot Setup Steps\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dotnet/fsharp",
+      "status": "candidate",
+      "text": "\"Copilot Setup Steps\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/playwright",
+      "status": "candidate",
+      "text": "\"Copilot Setup Steps\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Azure/azure-sdk-for-js",
+      "status": "candidate",
+      "text": "\"Copilot Setup Steps\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/CsWin32",
+      "status": "candidate",
+      "text": "\ud83d\udcaa\ud83c\udffc Copilot Setup Steps"
     }
   ],
   "candidate_related_terms": [
@@ -562,11 +653,41 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": ".github/workflows/copilot-setup-steps.yml",
       "source_repo": "openvinotoolkit/openvino.genai"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/copilot-setup-steps.yml",
+      "source_repo": "dotnet/efcore"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/copilot-setup-steps.yml",
+      "source_repo": "dotnet/fsharp"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/copilot-setup-steps.yml",
+      "source_repo": "microsoft/playwright"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/copilot-setup-steps.yml",
+      "source_repo": "Azure/azure-sdk-for-js"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/copilot-setup-steps.yml",
+      "source_repo": "microsoft/CsWin32"
     }
   ],
   "first_seen_at": "2026-04-18T11:32:22.637859+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

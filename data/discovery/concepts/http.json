@@ -391,6 +391,66 @@
       "source_repo": "graphile/crystal",
       "status": "candidate-context",
       "text": "[![GitHub Sponsors](https://img.shields.io/github/sponsors/benjie?color=ff69b4&label=github%20sponsors)](https://github.com/sponsors/benjie)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aria2/aria2",
+      "status": "candidate-context",
+      "text": "aria2 is a lightweight multi-protocol & multi-source, cross platform download utility operated in command-line. It supports HTTP/HTTPS, FTP, SFTP, BitTorrent and Metalink."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aria2/aria2",
+      "status": "candidate-context",
+      "text": "aria2 - The ultra fast download utility"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/iggy",
+      "status": "candidate-context",
+      "text": "Apache Iggy: Hyper-Efficient Message Streaming at Laser Speed"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/iggy",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gregjones/httpcache",
+      "status": "candidate-context",
+      "text": "A Transport for http.Client that will cache responses according to the HTTP RFC"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gregjones/httpcache",
+      "status": "candidate-context",
+      "text": "httpcache"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "uNetworking/uWebSockets",
+      "status": "candidate-context",
+      "text": "Simple, secure & standards compliant web server for the most demanding of applications"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "uNetworking/uWebSockets",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "WebAssembly/WASI",
+      "status": "candidate-context",
+      "text": "WebAssembly System Interface"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "WebAssembly/WASI",
+      "status": "candidate-context",
+      "text": "<img width=\"100px\" src=\"assets/WASI.png\">"
     }
   ],
   "candidate_glosses": [
@@ -585,6 +645,36 @@
       "source_repo": "graphile/crystal",
       "status": "candidate",
       "text": "[![GitHub Sponsors](https://img.shields.io/github/sponsors/benjie?color=ff69b4&label=github%20sponsors)](https://github.com/sponsors/benjie)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aria2/aria2",
+      "status": "candidate",
+      "text": "aria2 - The ultra fast download utility"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/iggy",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gregjones/httpcache",
+      "status": "candidate",
+      "text": "httpcache"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "uNetworking/uWebSockets",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "WebAssembly/WASI",
+      "status": "candidate",
+      "text": "<img width=\"100px\" src=\"assets/WASI.png\">"
     }
   ],
   "candidate_related_terms": [
@@ -864,11 +954,41 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "graphile/crystal"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "aria2/aria2"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "apache/iggy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "gregjones/httpcache"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "uNetworking/uWebSockets"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "WebAssembly/WASI"
     }
   ],
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

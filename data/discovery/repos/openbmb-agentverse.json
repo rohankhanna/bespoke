@@ -1,0 +1,159 @@
+{
+  "components": [
+    {
+      "component": "styfle/cancel-workflow-action@0.11.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "OpenBMB/AgentVerse",
+      "target": "tsinghuadatabasegroup/db-gpt",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "OpenBMB/AgentVerse",
+      "target": "chanchimin/chateval",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "OpenBMB/AgentVerse",
+      "target": "openbmb/bmtools",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "OpenBMB/AgentVerse",
+      "target": "openbmb/xagent",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "OpenBMB/AgentVerse",
+      "target": "styfle/cancel-workflow-action@0.11.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "OpenBMB/AgentVerse",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "OpenBMB/AgentVerse",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "OpenBMB/AgentVerse",
+      "target": "Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenBMB/AgentVerse",
+      "target": "gpt-4",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T01:43:34.300929+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 33011
+    },
+    {
+      "path": "Dockerfile",
+      "size": 808
+    },
+    {
+      "path": "requirements.txt",
+      "size": 286
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 1316
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "\ud83e\udd16 AgentVerse \ud83e\ude90 is designed to facilitate the deployment of multiple LLM-based agents in various applications, which primarily provides two frameworks: task-solving and simulation",
+    "fork": false,
+    "full_name": "OpenBMB/AgentVerse",
+    "html_url": "https://github.com/OpenBMB/AgentVerse",
+    "language": "JavaScript",
+    "pushed_at": "2024-09-09T05:47:44Z",
+    "stargazers_count": 5022,
+    "topics": [
+      "agent",
+      "ai",
+      "gpt",
+      "gpt-4",
+      "llm"
+    ],
+    "updated_at": "2026-04-23T13:27:07Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "chanchimin/chateval",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "openbmb/bmtools",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "openbmb/xagent",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tsinghuadatabasegroup/db-gpt",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "Test"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\"> \ud83e\udd16 AgentVerse \ud83e\ude90 </h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gpt-4"
+    }
+  ]
+}

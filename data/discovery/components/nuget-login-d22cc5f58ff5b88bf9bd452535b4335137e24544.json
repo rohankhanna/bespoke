@@ -1,12 +1,22 @@
 {
   "component": "NuGet/login@d22cc5f58ff5b88bf9bd452535b4335137e24544",
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/azure-site-extension.yml",
       "source_repo": "newrelic/node-newrelic"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/push-client.yml",
+      "source_repo": "fsprojects/fantomas"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "fsprojects/fantomas"
     }
   ]
 }

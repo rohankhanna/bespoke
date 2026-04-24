@@ -1,0 +1,160 @@
+{
+  "aliases": [
+    "tiff"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "libvips/libvips",
+      "status": "candidate-context",
+      "text": "A fast image processing library with low memory needs."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "libvips/libvips",
+      "status": "candidate-context",
+      "text": "[![CI](https://github.com/libvips/libvips/workflows/CI/badge.svg)](https://github.com/libvips/libvips/actions)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lovell/sharp",
+      "status": "candidate-context",
+      "text": "High performance Node.js image processing, the fastest module to resize JPEG, PNG, WebP, AVIF and TIFF images. Uses the libvips library."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lovell/sharp",
+      "status": "candidate-context",
+      "text": "<img src=\"https://sharp.pixelplumbing.com/sharp-logo.svg\" width=\"160\" height=\"160\" alt=\"sharp logo\" align=\"right\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "libvips/libvips",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/libvips/libvips/workflows/CI/badge.svg)](https://github.com/libvips/libvips/actions)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lovell/sharp",
+      "status": "candidate",
+      "text": "<img src=\"https://sharp.pixelplumbing.com/sharp-logo.svg\" width=\"160\" height=\"160\" alt=\"sharp logo\" align=\"right\">"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40008957,
+      "status": "candidate",
+      "text": "squabble"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40008945,
+      "status": "candidate",
+      "text": "bicker"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40008733,
+      "status": "candidate",
+      "text": "bickering"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40001037,
+      "status": "candidate",
+      "text": "fuss"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39629144,
+      "status": "candidate",
+      "text": "spat"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 15040,
+      "status": "candidate",
+      "text": "fuss"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 14035,
+      "status": "candidate",
+      "text": "squabble"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 9043,
+      "status": "candidate",
+      "text": "spat"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 5024,
+      "status": "candidate",
+      "text": "bickering"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 4036,
+      "status": "candidate",
+      "text": "bicker"
+    }
+  ],
+  "canonical_name": "tiff",
+  "concept_id": "tiff",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "libvips/libvips"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "lovell/sharp"
+    }
+  ],
+  "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "tiff",
+      "sense_id": "tiff#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

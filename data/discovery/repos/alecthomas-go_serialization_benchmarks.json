@@ -1,0 +1,146 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@0ad4b8fadaa221de15dcec353f45205ec38ea70b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml"
+    },
+    {
+      "component": "actions/setup-go@cdcb36043654635271a94b9a6d1392de5bb323a7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/report.yml"
+    },
+    {
+      "component": "rayluo/github-pages-overwriter@v1.3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/report.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "alecthomas/go_serialization_benchmarks",
+      "target": "actions/checkout@0ad4b8fadaa221de15dcec353f45205ec38ea70b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "alecthomas/go_serialization_benchmarks",
+      "target": "actions/setup-go@cdcb36043654635271a94b9a6d1392de5bb323a7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "alecthomas/go_serialization_benchmarks",
+      "target": "Build and Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/report.yml",
+      "source_repo": "alecthomas/go_serialization_benchmarks",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/report.yml",
+      "source_repo": "alecthomas/go_serialization_benchmarks",
+      "target": "rayluo/github-pages-overwriter@v1.3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/report.yml",
+      "source_repo": "alecthomas/go_serialization_benchmarks",
+      "target": "Publish Report",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alecthomas/go_serialization_benchmarks",
+      "target": "benchmarking",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alecthomas/go_serialization_benchmarks",
+      "target": "golang",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T01:50:48.557971+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2478
+    },
+    {
+      "path": "go.mod",
+      "size": 2821
+    },
+    {
+      "path": ".github/workflows/go.yml",
+      "size": 582
+    },
+    {
+      "path": ".github/workflows/report.yml",
+      "size": 414
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Benchmarks of Go serialization methods",
+    "fork": false,
+    "full_name": "alecthomas/go_serialization_benchmarks",
+    "html_url": "https://github.com/alecthomas/go_serialization_benchmarks",
+    "language": "Go",
+    "pushed_at": "2025-07-04T01:53:45Z",
+    "stargazers_count": 1626,
+    "topics": [
+      "benchmarking",
+      "go",
+      "golang"
+    ],
+    "updated_at": "2026-03-31T01:50:03Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Build and Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/go.yml",
+      "term": "Build and Test"
+    },
+    {
+      "context_snippet": "Publish Report",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/report.yml",
+      "term": "Publish Report"
+    },
+    {
+      "context_snippet": "[![Gitter chat](https://badges.gitter.im/alecthomas.png)](https://gitter.im/alecthomas/Lobby)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "benchmarking"
+    },
+    {
+      "context_snippet": "[![Gitter chat](https://badges.gitter.im/alecthomas.png)](https://gitter.im/alecthomas/Lobby)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "golang"
+    }
+  ]
+}

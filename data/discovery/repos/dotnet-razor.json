@@ -1,0 +1,128 @@
+{
+  "components": [
+    {
+      "component": "dotnet/arcade/.github/workflows/backport-base.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backport.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/copilot-setup-steps.yml"
+    },
+    {
+      "component": "actions/setup-dotnet@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/copilot-setup-steps.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dotnet/razor",
+      "target": "aspnet/docs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dotnet/razor",
+      "target": "dotnet/extensions",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backport.yml",
+      "source_repo": "dotnet/razor",
+      "target": "dotnet/arcade/.github/workflows/backport-base.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/copilot-setup-steps.yml",
+      "source_repo": "dotnet/razor",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/copilot-setup-steps.yml",
+      "source_repo": "dotnet/razor",
+      "target": "actions/setup-dotnet@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dotnet/razor",
+      "target": "aspnet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dotnet/razor",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T00:43:56.785811+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3042
+    },
+    {
+      "path": ".github/workflows/backport.yml",
+      "size": 980
+    },
+    {
+      "path": ".github/workflows/copilot-setup-steps.yml",
+      "size": 2100
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Compiler and tooling experience for Razor ASP.NET Core apps in Visual Studio and VS Code.",
+    "fork": false,
+    "full_name": "dotnet/razor",
+    "html_url": "https://github.com/dotnet/razor",
+    "language": "C#",
+    "pushed_at": "2026-04-24T00:34:00Z",
+    "stargazers_count": 709,
+    "topics": [
+      "aspnet",
+      "hacktoberfest"
+    ],
+    "updated_at": "2026-04-23T19:59:11Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aspnet/docs",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dotnet/extensions",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "\ufeff# ASP.NET Core Razor",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "aspnet"
+    },
+    {
+      "context_snippet": "\ufeff# ASP.NET Core Razor",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    }
+  ]
+}

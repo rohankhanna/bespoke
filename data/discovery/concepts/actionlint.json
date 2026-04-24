@@ -1,7 +1,8 @@
 {
   "aliases": [
     "Actionlint",
-    "ActionLint"
+    "ActionLint",
+    "actionlint"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -80,6 +81,18 @@
       "source_repo": "grafana/grafana",
       "status": "candidate-context",
       "text": "Actionlint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hashicorp/go-retryablehttp",
+      "status": "candidate-context",
+      "text": "Retryable HTTP client in Go"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hashicorp/go-retryablehttp",
+      "status": "candidate-context",
+      "text": "actionlint"
     }
   ],
   "candidate_glosses": [
@@ -118,6 +131,12 @@
       "source_repo": "grafana/grafana",
       "status": "candidate",
       "text": "Actionlint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hashicorp/go-retryablehttp",
+      "status": "candidate",
+      "text": "actionlint"
     }
   ],
   "candidate_related_terms": [],
@@ -161,11 +180,17 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": ".github/workflows/actionlint.yml",
       "source_repo": "grafana/grafana"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/actionlint.yml",
+      "source_repo": "hashicorp/go-retryablehttp"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,69 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "manyoso/haltt4llm",
+      "target": "sylinrl/truthfulqa",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "requirements.txt",
+      "source_repo": "manyoso/haltt4llm",
+      "target": "sterlind/gptq-for-llama",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "requirements.txt",
+      "source_repo": "manyoso/haltt4llm",
+      "target": "sterlind/peft",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-24T02:03:13.560740+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10453
+    },
+    {
+      "path": "requirements.txt",
+      "size": 219
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "This project is an attempt to create a common metric to test LLM's for progress in eliminating hallucinations which is the most serious current problem in widespread adoption of LLM's for many real purposes.",
+    "fork": false,
+    "full_name": "manyoso/haltt4llm",
+    "html_url": "https://github.com/manyoso/haltt4llm",
+    "language": "Python",
+    "pushed_at": "2023-04-06T16:55:20Z",
+    "stargazers_count": 224,
+    "topics": [],
+    "updated_at": "2025-12-01T11:50:13Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sylinrl/truthfulqa",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sterlind/gptq-for-llama",
+      "source_file": "requirements.txt"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sterlind/peft",
+      "source_file": "requirements.txt"
+    }
+  ],
+  "terms": []
+}

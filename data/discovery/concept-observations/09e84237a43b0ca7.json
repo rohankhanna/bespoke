@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "R1CS constraints for bits, fields, and elliptic curves"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<h1 align=\"center\">ark-r1cs-std</h1>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">ark-r1cs-std</h1>"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9978222,
+      "status": "candidate",
+      "text": "warranted"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9978221,
+      "status": "candidate",
+      "text": "genuine"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9978220,
+      "status": "candidate",
+      "text": "are"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9963222,
+      "status": "candidate",
+      "text": "kindness"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9956700,
+      "status": "candidate",
+      "text": "earnestness"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "snarks",
+      "sense_id": "snarks#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "snarks",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "snarks",
+  "observation_id": "09e84237a43b0ca7",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T00:33:56.049672+00:00",
+  "observed_text": "snarks",
+  "source_context_snippet": "<h1 align=\"center\">ark-r1cs-std</h1>",
+  "source_file": null,
+  "source_repo": "arkworks-rs/r1cs-std",
+  "source_repo_description": "R1CS constraints for bits, fields, and elliptic curves"
+}

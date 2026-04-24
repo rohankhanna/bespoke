@@ -1,0 +1,288 @@
+{
+  "components": [
+    {
+      "component": "esm",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "gulp-format-md",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "mocha",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "rollup",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jonschlinkert/isobject",
+      "target": "verbose/verb-generate-readme",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jonschlinkert/isobject",
+      "target": "jonschlinkert/extend-shallow",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jonschlinkert/isobject",
+      "target": "jonschlinkert/kind-of",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jonschlinkert/isobject",
+      "target": "jonschlinkert/merge-deep",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "jonschlinkert/isobject",
+      "target": "esm",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "jonschlinkert/isobject",
+      "target": "gulp-format-md",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "jonschlinkert/isobject",
+      "target": "mocha",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "jonschlinkert/isobject",
+      "target": "rollup",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jonschlinkert/isobject",
+      "target": "is-obj",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jonschlinkert/isobject",
+      "target": "is-object",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jonschlinkert/isobject",
+      "target": "isobject",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jonschlinkert/isobject",
+      "target": "jonschlinkert",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jonschlinkert/isobject",
+      "target": "kind",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jonschlinkert/isobject",
+      "target": "kind-of",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jonschlinkert/isobject",
+      "target": "nodejs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jonschlinkert/isobject",
+      "target": "object",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jonschlinkert/isobject",
+      "target": "type",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jonschlinkert/isobject",
+      "target": "type-of",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jonschlinkert/isobject",
+      "target": "typeof",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T00:46:24.767648+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4343
+    },
+    {
+      "path": "package.json",
+      "size": 1691
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Is the value an object, and not an array or null?",
+    "fork": false,
+    "full_name": "jonschlinkert/isobject",
+    "html_url": "https://github.com/jonschlinkert/isobject",
+    "language": "JavaScript",
+    "pushed_at": "2024-04-09T18:23:42Z",
+    "stargazers_count": 107,
+    "topics": [
+      "is",
+      "is-obj",
+      "is-object",
+      "isobject",
+      "javascript",
+      "jonschlinkert",
+      "kind",
+      "kind-of",
+      "nodejs",
+      "object",
+      "type",
+      "type-of",
+      "typeof"
+    ],
+    "updated_at": "2026-03-11T03:38:39Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jonschlinkert/extend-shallow",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jonschlinkert/kind-of",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jonschlinkert/merge-deep",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "verbose/verb-generate-readme",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "> Returns true if the value is an object and not an array or null.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "is-obj"
+    },
+    {
+      "context_snippet": "> Returns true if the value is an object and not an array or null.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "is-object"
+    },
+    {
+      "context_snippet": "> Returns true if the value is an object and not an array or null.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "isobject"
+    },
+    {
+      "context_snippet": "> Returns true if the value is an object and not an array or null.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "jonschlinkert"
+    },
+    {
+      "context_snippet": "> Returns true if the value is an object and not an array or null.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kind"
+    },
+    {
+      "context_snippet": "> Returns true if the value is an object and not an array or null.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kind-of"
+    },
+    {
+      "context_snippet": "> Returns true if the value is an object and not an array or null.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nodejs"
+    },
+    {
+      "context_snippet": "> Returns true if the value is an object and not an array or null.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "object"
+    },
+    {
+      "context_snippet": "> Returns true if the value is an object and not an array or null.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "type"
+    },
+    {
+      "context_snippet": "> Returns true if the value is an object and not an array or null.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "type-of"
+    },
+    {
+      "context_snippet": "> Returns true if the value is an object and not an array or null.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "typeof"
+    }
+  ]
+}

@@ -1,0 +1,204 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "LambdaLabsML/distributed-training-guide",
+      "target": "cluster",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "LambdaLabsML/distributed-training-guide",
+      "target": "cuda",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "LambdaLabsML/distributed-training-guide",
+      "target": "deepspeed",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "LambdaLabsML/distributed-training-guide",
+      "target": "distributed-training",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "LambdaLabsML/distributed-training-guide",
+      "target": "fsdp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "LambdaLabsML/distributed-training-guide",
+      "target": "gpu-cluster",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "LambdaLabsML/distributed-training-guide",
+      "target": "kuberentes",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "LambdaLabsML/distributed-training-guide",
+      "target": "lambdalabs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "LambdaLabsML/distributed-training-guide",
+      "target": "nccl",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "LambdaLabsML/distributed-training-guide",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "LambdaLabsML/distributed-training-guide",
+      "target": "sharding",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "LambdaLabsML/distributed-training-guide",
+      "target": "slurm",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T02:01:35.328957+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3643
+    },
+    {
+      "path": "requirements.txt",
+      "size": 55
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Best practices & guides on how to write distributed pytorch training code",
+    "fork": false,
+    "full_name": "LambdaLabsML/distributed-training-guide",
+    "html_url": "https://github.com/LambdaLabsML/distributed-training-guide",
+    "language": "Python",
+    "pushed_at": "2025-10-22T21:27:41Z",
+    "stargazers_count": 608,
+    "topics": [
+      "cluster",
+      "cuda",
+      "deepspeed",
+      "distributed-training",
+      "fsdp",
+      "gpu",
+      "gpu-cluster",
+      "kuberentes",
+      "lambdalabs",
+      "mpi",
+      "nccl",
+      "pytorch",
+      "sharding",
+      "slurm"
+    ],
+    "updated_at": "2026-04-18T13:50:18Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "\ud83d\udd25 News \ud83d\udd25",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cluster"
+    },
+    {
+      "context_snippet": "\ud83d\udd25 News \ud83d\udd25",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cuda"
+    },
+    {
+      "context_snippet": "\ud83d\udd25 News \ud83d\udd25",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deepspeed"
+    },
+    {
+      "context_snippet": "\ud83d\udd25 News \ud83d\udd25",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "distributed-training"
+    },
+    {
+      "context_snippet": "\ud83d\udd25 News \ud83d\udd25",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fsdp"
+    },
+    {
+      "context_snippet": "\ud83d\udd25 News \ud83d\udd25",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gpu-cluster"
+    },
+    {
+      "context_snippet": "\ud83d\udd25 News \ud83d\udd25",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kuberentes"
+    },
+    {
+      "context_snippet": "\ud83d\udd25 News \ud83d\udd25",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lambdalabs"
+    },
+    {
+      "context_snippet": "\ud83d\udd25 News \ud83d\udd25",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nccl"
+    },
+    {
+      "context_snippet": "\ud83d\udd25 News \ud83d\udd25",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "\ud83d\udd25 News \ud83d\udd25",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sharding"
+    },
+    {
+      "context_snippet": "\ud83d\udd25 News \ud83d\udd25",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "slurm"
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "chris-belcher/electrum-personal-server",
+      "target": "john-light/bitcoin",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "chris-belcher/electrum-personal-server",
+      "target": "spesmilo/electrumx",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "chris-belcher/electrum-personal-server",
+      "target": "bwt-dev/bwt",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "chris-belcher/electrum-personal-server",
+      "target": "parazyd/obelisk",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-24T01:51:16.177015+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 15502
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Maximally lightweight electrum server for a single user",
+    "fork": false,
+    "full_name": "chris-belcher/electrum-personal-server",
+    "html_url": "https://github.com/chris-belcher/electrum-personal-server",
+    "language": "Python",
+    "pushed_at": "2024-02-17T12:14:44Z",
+    "stargazers_count": 646,
+    "topics": [],
+    "updated_at": "2026-04-16T13:41:20Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bwt-dev/bwt",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "john-light/bitcoin",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "parazyd/obelisk",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "spesmilo/electrumx",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -1,0 +1,72 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "anuvyklack/hydra.nvim",
+      "target": "nanotee/nvim-lua-guide",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "anuvyklack/hydra.nvim",
+      "target": "neovim",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "anuvyklack/hydra.nvim",
+      "target": "neovim-plugin",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T00:38:31.989357+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 21016
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Create custom submodes and menus",
+    "fork": false,
+    "full_name": "anuvyklack/hydra.nvim",
+    "html_url": "https://github.com/anuvyklack/hydra.nvim",
+    "language": "Lua",
+    "pushed_at": "2023-11-28T11:56:33Z",
+    "stargazers_count": 1124,
+    "topics": [
+      "lua",
+      "neovim",
+      "neovim-plugin"
+    ],
+    "updated_at": "2026-04-18T18:40:53Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nanotee/nvim-lua-guide",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<!-- <img align=\"right\" width=\"300\" src=\"./hydra.png\"> -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neovim"
+    },
+    {
+      "context_snippet": "<!-- <img align=\"right\" width=\"300\" src=\"./hydra.png\"> -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neovim-plugin"
+    }
+  ]
+}

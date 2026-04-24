@@ -1,0 +1,27 @@
+{
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kaste/SublimeLinter-addon-goto-flash",
+      "target": "sublime",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kaste/SublimeLinter-addon-goto-flash",
+      "target": "sublimelinter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kaste/SublimeLinter-addon-goto-flash",
+      "target": "sublimelinter-plugin",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-24T00:33:56.049672+00:00",
+  "source_repo": "kaste/SublimeLinter-addon-goto-flash"
+}

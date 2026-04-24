@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "geekyutao/Inpaint-Anything",
+      "target": "chaoningzhang/mobilesam",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "geekyutao/Inpaint-Anything",
+      "target": "botaoye/ostrack",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "geekyutao/Inpaint-Anything",
+      "target": "researchmm/sttn",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "geekyutao/Inpaint-Anything",
+      "target": "adamdad/awesome-composableai",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-24T02:01:50.697189+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 25437
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Inpaint anything using Segment Anything and inpainting models.",
+    "fork": false,
+    "full_name": "geekyutao/Inpaint-Anything",
+    "html_url": "https://github.com/geekyutao/Inpaint-Anything",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2024-02-29T06:33:41Z",
+    "stargazers_count": 7622,
+    "topics": [],
+    "updated_at": "2026-04-24T01:44:27Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "adamdad/awesome-composableai",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "botaoye/ostrack",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "chaoningzhang/mobilesam",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "researchmm/sttn",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

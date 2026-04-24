@@ -1,0 +1,110 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-package.yml"
+    },
+    {
+      "component": "actions/setup-python@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-package.yml"
+    },
+    {
+      "component": "snok/install-poetry@v1.3.3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-package.yml"
+    },
+    {
+      "component": "actions/cache@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-package.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "enesmsahin/simple-lama-inpainting",
+      "target": "saic-mdal/lama",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "enesmsahin/simple-lama-inpainting",
+      "target": "sanster/lama-cleaner",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-package.yml",
+      "source_repo": "enesmsahin/simple-lama-inpainting",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-package.yml",
+      "source_repo": "enesmsahin/simple-lama-inpainting",
+      "target": "actions/setup-python@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-package.yml",
+      "source_repo": "enesmsahin/simple-lama-inpainting",
+      "target": "snok/install-poetry@v1.3.3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-package.yml",
+      "source_repo": "enesmsahin/simple-lama-inpainting",
+      "target": "actions/cache@v3",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-24T02:01:48.810051+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1267
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 689
+    },
+    {
+      "path": ".github/workflows/python-package.yml",
+      "size": 2163
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "enesmsahin/simple-lama-inpainting",
+    "html_url": "https://github.com/enesmsahin/simple-lama-inpainting",
+    "language": "Python",
+    "pushed_at": "2025-05-29T21:21:30Z",
+    "stargazers_count": 293,
+    "topics": [],
+    "updated_at": "2026-04-16T18:01:07Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "saic-mdal/lama",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sanster/lama-cleaner",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

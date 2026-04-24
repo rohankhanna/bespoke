@@ -118,6 +118,30 @@
       "source_repo": "muhlba91/external-dns-provider-adguard",
       "status": "candidate-context",
       "text": "Verify"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "docker/github-builder",
+      "status": "candidate-context",
+      "text": "Official Docker-maintained reusable GitHub Actions workflows to securely build container images"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "docker/github-builder",
+      "status": "candidate-context",
+      "text": "verify"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "chainguard-dev/apko",
+      "status": "candidate-context",
+      "text": "Build OCI images from APK packages directly without Dockerfile"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chainguard-dev/apko",
+      "status": "candidate-context",
+      "text": "verify"
     }
   ],
   "candidate_glosses": [
@@ -174,6 +198,18 @@
       "source_repo": "muhlba91/external-dns-provider-adguard",
       "status": "candidate",
       "text": "Verify"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "docker/github-builder",
+      "status": "candidate",
+      "text": "verify"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chainguard-dev/apko",
+      "status": "candidate",
+      "text": "verify"
     }
   ],
   "candidate_related_terms": [
@@ -279,11 +315,23 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": ".github/workflows/verify.yml",
       "source_repo": "muhlba91/external-dns-provider-adguard"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/verify.yml",
+      "source_repo": "docker/github-builder"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/verify.yaml",
+      "source_repo": "chainguard-dev/apko"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

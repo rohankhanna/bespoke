@@ -2737,6 +2737,330 @@
       "source_repo": "gofiber/fiber",
       "status": "candidate-context",
       "text": "module github.com/gofiber/fiber/v3 go 1.25.0 require ( github.com/gofiber/schema v1.7.1 github.com/gofiber/utils/v2 v2.0.4 github.com/google/uuid v1.6.0 github.com/mattn/go-colorable v0.1.14 github.com/mattn/go-isatty v0.0.21 github.com/shamaton/msgpack/v3 v3.1.0 github.com/stre\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "matthewjberger/scoop-nerd-fonts",
+      "status": "candidate-context",
+      "text": "A scoop bucket for installing nerd fonts"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "matthewjberger/scoop-nerd-fonts",
+      "status": "candidate-context",
+      "text": "This repo contains manifests for installing [Nerd Fonts](https://github.com/ryanoasis/nerd-fonts) and various other fonts using the [scoop package manager](https://github.com/lukesampson/scoop) for Windows."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "clojure-lsp/clojure-lsp",
+      "status": "candidate-context",
+      "text": "Clojure & ClojureScript Language Server (LSP) implementation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clojure-lsp/clojure-lsp",
+      "status": "candidate-context",
+      "text": "<img src=\"images/logo-dark.svg\" width=\"180\" align=\"right\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dotnet/efcore",
+      "status": "candidate-context",
+      "text": "EF Core is a modern object-database mapper for .NET. It supports LINQ queries, change tracking, updates, and schema migrations."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dotnet/efcore",
+      "status": "candidate-context",
+      "text": "[![build status](https://img.shields.io/azure-devops/build/dnceng-public/public/17/main)](https://dev.azure.com/dnceng-public/public/_build?definitionId=17) [![test results](https://img.shields.io/azure-devops/tests/dnceng-public/public/17/main)](https://dev.azure.com/dnceng-pub\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dotnet/razor",
+      "status": "candidate-context",
+      "text": "Compiler and tooling experience for Razor ASP.NET Core apps in Visual Studio and VS Code."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dotnet/razor",
+      "status": "candidate-context",
+      "text": "\ufeff# ASP.NET Core Razor"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "XcodesOrg/XcodesApp",
+      "status": "candidate-context",
+      "text": "The easiest way to install and switch between multiple versions of Xcode - with a mouse click. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "XcodesOrg/XcodesApp",
+      "status": "candidate-context",
+      "text": "<h1><img src=\"icon.png\" align=\"center\" width=50 height=50 /> <img src=\"IconDark.png\" align=\"center\" width=50 height=50 /> <img src=\"IconMono.png\" align=\"center\" width=50 height=50 /> Xcodes.app</h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "xcpretty/xcode-install",
+      "status": "candidate-context",
+      "text": "\ud83d\udd3d Install and update your Xcodes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xcpretty/xcode-install",
+      "status": "candidate-context",
+      "text": "[![Gem Version](http://img.shields.io/gem/v/xcode-install.svg?style=flat)](http://badge.fury.io/rb/xcode-install) [![Build Status](https://github.com/xcpretty/xcode-install/actions/workflows/ci.yml/badge.svg)](https://github.com/xcpretty/xcode-install/actions)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lu-zero/cargo-c",
+      "status": "candidate-context",
+      "text": "build and install C-compatible libraries"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lu-zero/cargo-c",
+      "status": "candidate-context",
+      "text": "[![LICENSE](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gitleaks/gitleaks",
+      "status": "candidate-context",
+      "text": "Find secrets with Gitleaks \ud83d\udd11"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gitleaks/gitleaks",
+      "status": "candidate-context",
+      "text": "```"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "orhun/git-cliff",
+      "status": "candidate-context",
+      "text": "A highly customizable Changelog Generator that follows Conventional Commit specifications \u26f0\ufe0f "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "orhun/git-cliff",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "OptiVorbis/OptiVorbis",
+      "status": "candidate-context",
+      "text": "\ud83d\udddc\ufe0f Library and application for lossless, format-preserving, two-pass optimization and repair of Vorbis data, reducing its size without altering any audio information."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OptiVorbis/OptiVorbis",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sphinx-contrib/sphinxcontrib-towncrier",
+      "status": "candidate-context",
+      "text": "An RST directive for injecting a Towncrier-generated changelog draft containing fragments for the unreleased (next) project version. Demo: https://ansible-pylibssh.rtfd.io/changelog. Docs: https://sphinxcontrib-towncrier.rtfd.io"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sphinx-contrib/sphinxcontrib-towncrier",
+      "status": "candidate-context",
+      "text": ".. image:: https://raw.githubusercontent.com/vshymanskyy/StandWithUkraine/main/banner-direct-team.svg"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "status-im/nimbus-eth1",
+      "status": "candidate-context",
+      "text": "Nimbus: an Ethereum Execution Client for Resource-Restricted Devices"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "status-im/nimbus-eth1",
+      "status": "candidate-context",
+      "text": "[![License: Apache](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "chfast/ethash",
+      "status": "candidate-context",
+      "text": "C/C++ implementation of Ethash and ProgPoW \u2013 the Ethereum Proof of Work algorithms"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chfast/ethash",
+      "status": "candidate-context",
+      "text": "[![readme style standard](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "chfast/intx",
+      "status": "candidate-context",
+      "text": "Extended precision integer C++ library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chfast/intx",
+      "status": "candidate-context",
+      "text": "[![readme style: standard][readme style standard badge]][standard readme]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ipsilon/evmc",
+      "status": "candidate-context",
+      "text": "EVMC \u2013 Ethereum Client-VM Connector API"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipsilon/evmc",
+      "status": "candidate-context",
+      "text": "[![chat: on gitter][gitter badge]][Gitter]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "conda/grayskull",
+      "status": "candidate-context",
+      "text": "Grayskull :skull: - Recipe generator for Conda"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "conda/grayskull",
+      "status": "candidate-context",
+      "text": "-------------"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Meteor-Community-Packages/meteor-scss",
+      "status": "candidate-context",
+      "text": "Node-sass wrapped to work with meteor."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Meteor-Community-Packages/meteor-scss",
+      "status": "candidate-context",
+      "text": "This is a build plugin for Meteor.js that compiles Sass files using Dart Sass."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nuxt/nuxt",
+      "status": "candidate-context",
+      "text": "The Full-Stack Vue Framework."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nuxt/nuxt",
+      "status": "candidate-context",
+      "text": "<a href=\"https://nuxt.com\"><img width=\"830\" height=\"213\" src=\"./.github/assets/banner.svg\" alt=\"Nuxt banner\"></a>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "octokit/webhooks.js",
+      "status": "candidate-context",
+      "text": "GitHub webhook events toolset for Node.js"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "octokit/webhooks.js",
+      "status": "candidate-context",
+      "text": "> GitHub webhook events toolset for Node.js"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "getsentry/sentry",
+      "status": "candidate-context",
+      "text": "Developer-first error tracking and performance monitoring"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "getsentry/sentry",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dani-garcia/bw_web_builds",
+      "status": "candidate-context",
+      "text": "Web vault builds for vaultwarden"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dani-garcia/bw_web_builds",
+      "status": "candidate-context",
+      "text": "![Vaultwarden Logo](https://raw.githubusercontent.com/dani-garcia/vaultwarden/refs/heads/main/resources/vaultwarden-logo-auto.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "karancode/asdf-aws-vault",
+      "status": "candidate-context",
+      "text": "aws-vault plugin for asdf-vm"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "karancode/asdf-aws-vault",
+      "status": "candidate-context",
+      "text": "![GitHub Actions Status](https://github.com/karancode/asdf-aws-vault/workflows/Main%20workflow/badge.svg?branch=main)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "octokit/request.js",
+      "status": "candidate-context",
+      "text": "Send parameterized requests to GitHub\u2019s APIs with sensible defaults in browsers and Node"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "octokit/request.js",
+      "status": "candidate-context",
+      "text": "> Send parameterized requests to GitHub\u2019s APIs with sensible defaults in browsers and Node"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Azure/azure-sdk-for-js",
+      "status": "candidate-context",
+      "text": "This repository is for active development of the Azure SDK for JavaScript (NodeJS & Browser). For consumers of the SDK we recommend visiting our public developer docs at https://docs.microsoft.com/javascript/azure/ or our versioned developer docs at https://azure.github.io/azure-sdk-for-js. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Azure/azure-sdk-for-js",
+      "status": "candidate-context",
+      "text": "[![Packages](https://img.shields.io/badge/packages-latest-blue.svg)](https://azure.github.io/azure-sdk/releases/latest/js.html) [![Dependencies](https://img.shields.io/badge/dependency-report-blue.svg)](https://azuresdkartifacts.blob.core.windows.net/azure-sdk-for-js/dependencie\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "huggingface/huggingface_hub",
+      "status": "candidate-context",
+      "text": "The official Python client for the Hugging Face Hub."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "huggingface/huggingface_hub",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "conda/conda-lock",
+      "status": "candidate-context",
+      "text": "Lightweight lockfile for conda environments"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "conda/conda-lock",
+      "status": "candidate-context",
+      "text": "[![GitHub deployments](https://img.shields.io/github/deployments/conda/conda-lock/github-pages?label=docs&style=for-the-badge)](https://conda.github.io/conda-lock/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pylint-dev/astroid",
+      "status": "candidate-context",
+      "text": "A common base representation of python source code for pylint and other projects"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pylint-dev/astroid",
+      "status": "candidate-context",
+      "text": "Astroid"
     }
   ],
   "candidate_glosses": [
@@ -4101,6 +4425,168 @@
       "source_repo": "gofiber/fiber",
       "status": "candidate",
       "text": "module github.com/gofiber/fiber/v3 go 1.25.0 require ( github.com/gofiber/schema v1.7.1 github.com/gofiber/utils/v2 v2.0.4 github.com/google/uuid v1.6.0 github.com/mattn/go-colorable v0.1.14 github.com/mattn/go-isatty v0.0.21 github.com/shamaton/msgpack/v3 v3.1.0 github.com/stre\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "matthewjberger/scoop-nerd-fonts",
+      "status": "candidate",
+      "text": "This repo contains manifests for installing [Nerd Fonts](https://github.com/ryanoasis/nerd-fonts) and various other fonts using the [scoop package manager](https://github.com/lukesampson/scoop) for Windows."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clojure-lsp/clojure-lsp",
+      "status": "candidate",
+      "text": "<img src=\"images/logo-dark.svg\" width=\"180\" align=\"right\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dotnet/efcore",
+      "status": "candidate",
+      "text": "[![build status](https://img.shields.io/azure-devops/build/dnceng-public/public/17/main)](https://dev.azure.com/dnceng-public/public/_build?definitionId=17) [![test results](https://img.shields.io/azure-devops/tests/dnceng-public/public/17/main)](https://dev.azure.com/dnceng-pub\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dotnet/razor",
+      "status": "candidate",
+      "text": "\ufeff# ASP.NET Core Razor"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "XcodesOrg/XcodesApp",
+      "status": "candidate",
+      "text": "<h1><img src=\"icon.png\" align=\"center\" width=50 height=50 /> <img src=\"IconDark.png\" align=\"center\" width=50 height=50 /> <img src=\"IconMono.png\" align=\"center\" width=50 height=50 /> Xcodes.app</h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xcpretty/xcode-install",
+      "status": "candidate",
+      "text": "[![Gem Version](http://img.shields.io/gem/v/xcode-install.svg?style=flat)](http://badge.fury.io/rb/xcode-install) [![Build Status](https://github.com/xcpretty/xcode-install/actions/workflows/ci.yml/badge.svg)](https://github.com/xcpretty/xcode-install/actions)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lu-zero/cargo-c",
+      "status": "candidate",
+      "text": "[![LICENSE](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gitleaks/gitleaks",
+      "status": "candidate",
+      "text": "```"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "orhun/git-cliff",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OptiVorbis/OptiVorbis",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sphinx-contrib/sphinxcontrib-towncrier",
+      "status": "candidate",
+      "text": ".. image:: https://raw.githubusercontent.com/vshymanskyy/StandWithUkraine/main/banner-direct-team.svg"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "status-im/nimbus-eth1",
+      "status": "candidate",
+      "text": "[![License: Apache](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chfast/ethash",
+      "status": "candidate",
+      "text": "[![readme style standard](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chfast/intx",
+      "status": "candidate",
+      "text": "[![readme style: standard][readme style standard badge]][standard readme]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipsilon/evmc",
+      "status": "candidate",
+      "text": "[![chat: on gitter][gitter badge]][Gitter]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "conda/grayskull",
+      "status": "candidate",
+      "text": "-------------"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Meteor-Community-Packages/meteor-scss",
+      "status": "candidate",
+      "text": "This is a build plugin for Meteor.js that compiles Sass files using Dart Sass."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nuxt/nuxt",
+      "status": "candidate",
+      "text": "<a href=\"https://nuxt.com\"><img width=\"830\" height=\"213\" src=\"./.github/assets/banner.svg\" alt=\"Nuxt banner\"></a>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "octokit/webhooks.js",
+      "status": "candidate",
+      "text": "> GitHub webhook events toolset for Node.js"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "getsentry/sentry",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dani-garcia/bw_web_builds",
+      "status": "candidate",
+      "text": "![Vaultwarden Logo](https://raw.githubusercontent.com/dani-garcia/vaultwarden/refs/heads/main/resources/vaultwarden-logo-auto.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "karancode/asdf-aws-vault",
+      "status": "candidate",
+      "text": "![GitHub Actions Status](https://github.com/karancode/asdf-aws-vault/workflows/Main%20workflow/badge.svg?branch=main)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "octokit/request.js",
+      "status": "candidate",
+      "text": "> Send parameterized requests to GitHub\u2019s APIs with sensible defaults in browsers and Node"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Azure/azure-sdk-for-js",
+      "status": "candidate",
+      "text": "[![Packages](https://img.shields.io/badge/packages-latest-blue.svg)](https://azure.github.io/azure-sdk/releases/latest/js.html) [![Dependencies](https://img.shields.io/badge/dependency-report-blue.svg)](https://azuresdkartifacts.blob.core.windows.net/azure-sdk-for-js/dependencie\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "huggingface/huggingface_hub",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "conda/conda-lock",
+      "status": "candidate",
+      "text": "[![GitHub deployments](https://img.shields.io/github/deployments/conda/conda-lock/github-pages?label=docs&style=for-the-badge)](https://conda.github.io/conda-lock/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pylint-dev/astroid",
+      "status": "candidate",
+      "text": "Astroid"
     }
   ],
   "candidate_related_terms": [],
@@ -5674,11 +6160,245 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "gofiber/fiber"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "abapGit/abapGit"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "matthewjberger/scoop-nerd-fonts"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "clojure-lsp/clojure-lsp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "dotnet/efcore"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "dotnet/razor"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "XcodesOrg/XcodesApp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "xcpretty/xcode-install"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "lu-zero/cargo-c"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "eclipse-tm4e/tm4e"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "typescript-language-server/typescript-language-server"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "eclipse-wildwebdeveloper/wildwebdeveloper"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "argotorg/solidity"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "gitleaks/gitleaks"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "orhun/git-cliff"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "OptiVorbis/OptiVorbis"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "sphinx-contrib/sphinxcontrib-towncrier"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "ipsilon/evmone"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "status-im/nimbus-eth1"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "chfast/ethash"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "chfast/intx"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "ipsilon/evmc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "conda/grayskull"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "Meteor-Community-Packages/meteor-scss"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "mightyiam/eslint-config-love"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/vscode-js-debug"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "nuxt/nuxt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "octokit/webhooks.js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "node-lightning/node-lightning"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "getsentry/sentry"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "dani-garcia/bw_web_builds"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "karancode/asdf-aws-vault"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "octokit/request.js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "Azure/azure-sdk-for-js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "electron/packager"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "huggingface/huggingface_hub"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "callstack/react-native-builder-bob"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "conda/conda-lock"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "chakra-core/ChakraCore"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "pylint-dev/astroid"
     }
   ],
   "first_seen_at": "2026-04-18T10:38:37.562216+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

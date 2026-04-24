@@ -2,7 +2,7 @@
   "component": "actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065",
   "discovered_via": "manifest-or-workflow",
   "first_seen_at": "2026-04-17T12:50:06.073855+00:00",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "source_repo": "NousResearch/hermes-agent",
   "sources": [
     {
@@ -189,6 +189,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "huggingface/datasets"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/backend.yml",
+      "source_repo": "getsentry/sentry"
     }
   ]
 }

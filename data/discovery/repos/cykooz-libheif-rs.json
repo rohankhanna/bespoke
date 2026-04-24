@@ -1,0 +1,114 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_and_test.yaml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_and_test.yaml"
+    },
+    {
+      "component": "awalsh128/cache-apt-pkgs-action@v1.4.3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_and_test.yaml"
+    },
+    {
+      "component": "Swatinem/rust-cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_and_test.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_and_test.yaml"
+    },
+    {
+      "component": "Swatinem/rust-cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_and_test.yaml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_and_test.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_and_test.yaml",
+      "source_repo": "Cykooz/libheif-rs",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_and_test.yaml",
+      "source_repo": "Cykooz/libheif-rs",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_and_test.yaml",
+      "source_repo": "Cykooz/libheif-rs",
+      "target": "awalsh128/cache-apt-pkgs-action@v1.4.3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_and_test.yaml",
+      "source_repo": "Cykooz/libheif-rs",
+      "target": "Swatinem/rust-cache@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check_and_test.yaml",
+      "source_repo": "Cykooz/libheif-rs",
+      "target": "Check and Test",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T00:50:29.502805+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5649
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 1836
+    },
+    {
+      "path": ".github/workflows/check_and_test.yaml",
+      "size": 3882
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Safe wrapper to libheif-sys for parsing heif/heic files",
+    "fork": false,
+    "full_name": "Cykooz/libheif-rs",
+    "html_url": "https://github.com/Cykooz/libheif-rs",
+    "language": "Rust",
+    "pushed_at": "2026-02-25T18:56:32Z",
+    "stargazers_count": 54,
+    "topics": [],
+    "updated_at": "2026-04-21T11:02:52Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Check and Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check_and_test.yaml",
+      "term": "Check and Test"
+    }
+  ]
+}

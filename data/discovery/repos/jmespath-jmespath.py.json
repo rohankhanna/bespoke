@@ -1,0 +1,153 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@1af3b93b6815bc44a9784bd300feb67ff0d1eeb3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/init@4e94bd11f71e507f7f87df81788dff88d1dacbfb",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/autobuild@4e94bd11f71e507f7f87df81788dff88d1dacbfb",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@4e94bd11f71e507f7f87df81788dff88d1dacbfb",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "actions/checkout@1af3b93b6815bc44a9784bd300feb67ff0d1eeb3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-tests.yml"
+    },
+    {
+      "component": "actions/setup-python@83679a892e2d95755f2dac6acb0bfd1e9ac5d548",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-tests.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.rst",
+      "source_repo": "jmespath/jmespath.py",
+      "target": "jmespath/jmespath.site",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "jmespath/jmespath.py",
+      "target": "actions/checkout@1af3b93b6815bc44a9784bd300feb67ff0d1eeb3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "jmespath/jmespath.py",
+      "target": "github/codeql-action/init@4e94bd11f71e507f7f87df81788dff88d1dacbfb",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "jmespath/jmespath.py",
+      "target": "github/codeql-action/autobuild@4e94bd11f71e507f7f87df81788dff88d1dacbfb",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "jmespath/jmespath.py",
+      "target": "github/codeql-action/analyze@4e94bd11f71e507f7f87df81788dff88d1dacbfb",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "jmespath/jmespath.py",
+      "target": "CodeQL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-tests.yml",
+      "source_repo": "jmespath/jmespath.py",
+      "target": "actions/checkout@1af3b93b6815bc44a9784bd300feb67ff0d1eeb3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-tests.yml",
+      "source_repo": "jmespath/jmespath.py",
+      "target": "actions/setup-python@83679a892e2d95755f2dac6acb0bfd1e9ac5d548",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/run-tests.yml",
+      "source_repo": "jmespath/jmespath.py",
+      "target": "Run Tests",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T01:00:14.738918+00:00",
+  "fetched_files": [
+    {
+      "path": "README.rst",
+      "size": 6629
+    },
+    {
+      "path": "requirements.txt",
+      "size": 217
+    },
+    {
+      "path": ".github/workflows/codeql.yml",
+      "size": 872
+    },
+    {
+      "path": ".github/workflows/run-tests.yml",
+      "size": 849
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "develop",
+    "description": "JMESPath is a query language for JSON.",
+    "fork": false,
+    "full_name": "jmespath/jmespath.py",
+    "html_url": "https://github.com/jmespath/jmespath.py",
+    "language": "Python",
+    "pushed_at": "2026-04-20T23:12:00Z",
+    "stargazers_count": 2431,
+    "topics": [],
+    "updated_at": "2026-04-23T17:56:36Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jmespath/jmespath.site",
+      "source_file": "README.rst"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "\"CodeQL\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "term": "CodeQL"
+    },
+    {
+      "context_snippet": "Run Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/run-tests.yml",
+      "term": "Run Tests"
+    }
+  ]
+}

@@ -1,0 +1,542 @@
+{
+  "components": [
+    {
+      "component": "@eslint/js",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/node",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint-config-prettier",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "fast-check",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "prettier",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "rolldown",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "rolldown-plugin-dts",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "typescript",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "typescript-eslint",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "vitest",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/browsers.yml"
+    },
+    {
+      "component": "actions/setup-node@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/browsers.yml"
+    },
+    {
+      "component": "browserstack/github-actions/setup-env@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/browsers.yml"
+    },
+    {
+      "component": "browserstack/github-actions/setup-local@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/browsers.yml"
+    },
+    {
+      "component": "browserstack/github-actions/setup-local@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/browsers.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/browsers.yml"
+    },
+    {
+      "component": "actions/setup-node@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/browsers.yml"
+    },
+    {
+      "component": "browserstack/github-actions/setup-env@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/browsers.yml"
+    },
+    {
+      "component": "browserstack/github-actions/setup-local@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/browsers.yml"
+    },
+    {
+      "component": "browserstack/github-actions/setup-local@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/browsers.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/init@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deno.yml"
+    },
+    {
+      "component": "denoland/setup-deno@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deno.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deno.yml"
+    },
+    {
+      "component": "denoland/setup-deno@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deno.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jsr-publish.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nodejs.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nodejs.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nodejs.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nodejs.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/typescript.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/typescript.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "eemeli/yaml",
+      "target": "yaml/yaml-test-suite",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "eemeli/yaml",
+      "target": "@eslint/js",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "eemeli/yaml",
+      "target": "@types/node",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "eemeli/yaml",
+      "target": "eslint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "eemeli/yaml",
+      "target": "eslint-config-prettier",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "eemeli/yaml",
+      "target": "fast-check",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "eemeli/yaml",
+      "target": "prettier",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "eemeli/yaml",
+      "target": "rolldown",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "eemeli/yaml",
+      "target": "rolldown-plugin-dts",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "eemeli/yaml",
+      "target": "typescript",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "eemeli/yaml",
+      "target": "typescript-eslint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "eemeli/yaml",
+      "target": "vitest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/browsers.yml",
+      "source_repo": "eemeli/yaml",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/browsers.yml",
+      "source_repo": "eemeli/yaml",
+      "target": "actions/setup-node@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/browsers.yml",
+      "source_repo": "eemeli/yaml",
+      "target": "browserstack/github-actions/setup-env@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/browsers.yml",
+      "source_repo": "eemeli/yaml",
+      "target": "browserstack/github-actions/setup-local@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/browsers.yml",
+      "source_repo": "eemeli/yaml",
+      "target": "Browsers",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "eemeli/yaml",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "eemeli/yaml",
+      "target": "github/codeql-action/init@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "eemeli/yaml",
+      "target": "github/codeql-action/analyze@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "eemeli/yaml",
+      "target": "CodeQL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deno.yml",
+      "source_repo": "eemeli/yaml",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deno.yml",
+      "source_repo": "eemeli/yaml",
+      "target": "denoland/setup-deno@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deno.yml",
+      "source_repo": "eemeli/yaml",
+      "target": "Deno",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jsr-publish.yml",
+      "source_repo": "eemeli/yaml",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/jsr-publish.yml",
+      "source_repo": "eemeli/yaml",
+      "target": "JSR Publish",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nodejs.yml",
+      "source_repo": "eemeli/yaml",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nodejs.yml",
+      "source_repo": "eemeli/yaml",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nodejs.yml",
+      "source_repo": "eemeli/yaml",
+      "target": "Node.js",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/typescript.yml",
+      "source_repo": "eemeli/yaml",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/typescript.yml",
+      "source_repo": "eemeli/yaml",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/typescript.yml",
+      "source_repo": "eemeli/yaml",
+      "target": "TypeScript",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "eemeli/yaml",
+      "target": "yaml",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "eemeli/yaml",
+      "target": "yaml-editor",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "eemeli/yaml",
+      "target": "yaml-parser",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T00:52:31.290200+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5389
+    },
+    {
+      "path": "package.json",
+      "size": 2302
+    },
+    {
+      "path": ".github/workflows/browsers.yml",
+      "size": 2090
+    },
+    {
+      "path": ".github/workflows/codeql-analysis.yml",
+      "size": 467
+    },
+    {
+      "path": ".github/workflows/deno.yml",
+      "size": 603
+    },
+    {
+      "path": ".github/workflows/jsr-publish.yml",
+      "size": 256
+    },
+    {
+      "path": ".github/workflows/nodejs.yml",
+      "size": 770
+    },
+    {
+      "path": ".github/workflows/typescript.yml",
+      "size": 522
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "YAML parser and serialiser for JavaScript",
+    "fork": false,
+    "full_name": "eemeli/yaml",
+    "html_url": "https://github.com/eemeli/yaml",
+    "language": "TypeScript",
+    "pushed_at": "2026-04-18T13:11:31Z",
+    "stargazers_count": 1657,
+    "topics": [
+      "yaml",
+      "yaml-editor",
+      "yaml-parser"
+    ],
+    "updated_at": "2026-04-23T20:59:42Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "yaml/yaml-test-suite",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Browsers",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/browsers.yml",
+      "term": "Browsers"
+    },
+    {
+      "context_snippet": "CodeQL",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "term": "CodeQL"
+    },
+    {
+      "context_snippet": "Deno",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deno.yml",
+      "term": "Deno"
+    },
+    {
+      "context_snippet": "JSR Publish",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/jsr-publish.yml",
+      "term": "JSR Publish"
+    },
+    {
+      "context_snippet": "Node.js",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nodejs.yml",
+      "term": "Node.js"
+    },
+    {
+      "context_snippet": "TypeScript",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/typescript.yml",
+      "term": "TypeScript"
+    },
+    {
+      "context_snippet": "`yaml` is a definitive library for [YAML](https://yaml.org/), the human friendly data serialization standard.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "yaml"
+    },
+    {
+      "context_snippet": "`yaml` is a definitive library for [YAML](https://yaml.org/), the human friendly data serialization standard.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "yaml-editor"
+    },
+    {
+      "context_snippet": "`yaml` is a definitive library for [YAML](https://yaml.org/), the human friendly data serialization standard.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "yaml-parser"
+    }
+  ]
+}

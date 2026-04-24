@@ -1,7 +1,7 @@
 {
   "component": "actions/upload-pages-artifact@v5",
   "first_seen_at": "2026-04-17T16:51:41.136432+00:00",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -82,6 +82,16 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/build-and-deploy-pages.yml",
       "source_repo": "zloirock/core-js"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "Azure/bicep-extensibility"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/gh-pages.yml",
+      "source_repo": "ast-grep/ast-grep.github.io"
     }
   ]
 }

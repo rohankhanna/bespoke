@@ -1,0 +1,98 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "xcpretty/xcode-install",
+      "target": "neonichu/ruby-domain_name",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "xcpretty/xcode-install",
+      "target": "magneticbear/jenkins_bootstrap",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "xcpretty/xcode-install",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "xcpretty/xcode-install",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "xcpretty/xcode-install",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T00:46:13.195047+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6759
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 959
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "\ud83d\udd3d Install and update your Xcodes",
+    "fork": false,
+    "full_name": "xcpretty/xcode-install",
+    "html_url": "https://github.com/xcpretty/xcode-install",
+    "language": "Ruby",
+    "pushed_at": "2024-05-04T19:05:20Z",
+    "stargazers_count": 2603,
+    "topics": [
+      "hacktoberfest"
+    ],
+    "updated_at": "2026-04-21T08:41:54Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "magneticbear/jenkins_bootstrap",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "neonichu/ruby-domain_name",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![Gem Version](http://img.shields.io/gem/v/xcode-install.svg?style=flat)](http://badge.fury.io/rb/xcode-install) [![Build Status](https://github.com/xcpretty/xcode-install/actions/workflows/ci.yml/badge.svg)](https://github.com/xcpretty/xcode-install/actions)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    }
+  ]
+}

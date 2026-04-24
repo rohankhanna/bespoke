@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Make a shallow clone of an object, array or primitive."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "> Creates a shallow clone of any JavaScript value."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "> Creates a shallow clone of any JavaScript value."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40034640,
+      "status": "candidate",
+      "text": "skin-deep"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40031698,
+      "status": "candidate",
+      "text": "superficial"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39993280,
+      "status": "candidate",
+      "text": "wakeful"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39972423,
+      "status": "candidate",
+      "text": "surface"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39937840,
+      "status": "candidate",
+      "text": "ankle-deep"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "shallow",
+      "sense_id": "shallow#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 58089,
+      "status": "candidate",
+      "text": "light"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 54047,
+      "status": "candidate",
+      "text": "superficial"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 25044,
+      "status": "candidate",
+      "text": "shoal"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 4032,
+      "status": "candidate",
+      "text": "wakeful"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 4029,
+      "status": "candidate",
+      "text": "knee-deep"
+    }
+  ],
+  "concept_id": "shallow",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "shallow",
+  "observation_id": "8ff35fc3ee5d2586",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T00:33:56.049672+00:00",
+  "observed_text": "shallow",
+  "source_context_snippet": "> Creates a shallow clone of any JavaScript value.",
+  "source_file": null,
+  "source_repo": "jonschlinkert/shallow-clone",
+  "source_repo_description": "Make a shallow clone of an object, array or primitive."
+}

@@ -1,7 +1,7 @@
 {
   "component": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
   "first_seen_at": "2026-04-18T03:54:46.759203+00:00",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -262,6 +262,56 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/release.yaml",
       "source_repo": "bufbuild/protovalidate-java"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/alternative-os-build-main.yml",
+      "source_repo": "apache/camel"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/generate-sbom-main.yml",
+      "source_repo": "apache/camel"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/main-build.yml",
+      "source_repo": "apache/camel"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pr-build-main.yml",
+      "source_repo": "apache/camel"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/android.yml",
+      "source_repo": "openvinotoolkit/openvino"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/check-build.yml",
+      "source_repo": "aws-powertools/powertools-lambda-java"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/check-e2e.yml",
+      "source_repo": "aws-powertools/powertools-lambda-java"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/check-pmd.yml",
+      "source_repo": "aws-powertools/powertools-lambda-java"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/check-spotbugs.yml",
+      "source_repo": "aws-powertools/powertools-lambda-java"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "aws-powertools/powertools-lambda-java"
     }
   ]
 }

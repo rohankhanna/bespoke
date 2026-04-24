@@ -98,6 +98,18 @@
       "source_repo": "andriykohut/pdm-readiness",
       "status": "candidate-context",
       "text": "Update dependencies"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kubernetes-sigs/provider-aws-test-infra",
+      "status": "candidate-context",
+      "text": "Shared test infrastructure for the AWS cloud provider repositories"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kubernetes-sigs/provider-aws-test-infra",
+      "status": "candidate-context",
+      "text": "'Update Dependencies'"
     }
   ],
   "candidate_glosses": [
@@ -148,6 +160,12 @@
       "source_repo": "andriykohut/pdm-readiness",
       "status": "candidate",
       "text": "Update dependencies"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kubernetes-sigs/provider-aws-test-infra",
+      "status": "candidate",
+      "text": "'Update Dependencies'"
     }
   ],
   "candidate_related_terms": [
@@ -263,11 +281,23 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": ".github/workflows/update-dependencies.yml",
       "source_repo": "andriykohut/pdm-readiness"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/dependencies.yml",
+      "source_repo": "ohmyzsh/ohmyzsh"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/update-deps.yml",
+      "source_repo": "kubernetes-sigs/provider-aws-test-infra"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

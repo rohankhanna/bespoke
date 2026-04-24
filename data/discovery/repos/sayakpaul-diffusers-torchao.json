@@ -1,0 +1,141 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "sayakpaul/diffusers-torchao",
+      "target": "huggingface/diffusion-fast",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sayakpaul/diffusers-torchao",
+      "target": "architecture-optimization",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sayakpaul/diffusers-torchao",
+      "target": "diffusion-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sayakpaul/diffusers-torchao",
+      "target": "flux",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sayakpaul/diffusers-torchao",
+      "target": "text-to-image",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sayakpaul/diffusers-torchao",
+      "target": "torch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sayakpaul/diffusers-torchao",
+      "target": "torch-compile",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sayakpaul/diffusers-torchao",
+      "target": "torchao",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T01:59:29.608490+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 47987
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "End-to-end recipes for optimizing diffusion models with torchao and diffusers (inference and FP8 training).",
+    "fork": false,
+    "full_name": "sayakpaul/diffusers-torchao",
+    "html_url": "https://github.com/sayakpaul/diffusers-torchao",
+    "language": "Python",
+    "pushed_at": "2026-01-08T04:48:04Z",
+    "stargazers_count": 397,
+    "topics": [
+      "architecture-optimization",
+      "diffusion-models",
+      "flux",
+      "text-to-image",
+      "torch",
+      "torch-compile",
+      "torchao"
+    ],
+    "updated_at": "2026-03-10T13:50:11Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "huggingface/diffusion-fast",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "**Optimize image and video generation with [`diffusers`](https://github.com/huggingface/diffusers), [`torchao`](https://github.com/pytorch/ao), combining `torch.compile()` \ud83d\udd25**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "architecture-optimization"
+    },
+    {
+      "context_snippet": "**Optimize image and video generation with [`diffusers`](https://github.com/huggingface/diffusers), [`torchao`](https://github.com/pytorch/ao), combining `torch.compile()` \ud83d\udd25**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "diffusion-models"
+    },
+    {
+      "context_snippet": "**Optimize image and video generation with [`diffusers`](https://github.com/huggingface/diffusers), [`torchao`](https://github.com/pytorch/ao), combining `torch.compile()` \ud83d\udd25**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "flux"
+    },
+    {
+      "context_snippet": "**Optimize image and video generation with [`diffusers`](https://github.com/huggingface/diffusers), [`torchao`](https://github.com/pytorch/ao), combining `torch.compile()` \ud83d\udd25**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "text-to-image"
+    },
+    {
+      "context_snippet": "**Optimize image and video generation with [`diffusers`](https://github.com/huggingface/diffusers), [`torchao`](https://github.com/pytorch/ao), combining `torch.compile()` \ud83d\udd25**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "torch"
+    },
+    {
+      "context_snippet": "**Optimize image and video generation with [`diffusers`](https://github.com/huggingface/diffusers), [`torchao`](https://github.com/pytorch/ao), combining `torch.compile()` \ud83d\udd25**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "torch-compile"
+    },
+    {
+      "context_snippet": "**Optimize image and video generation with [`diffusers`](https://github.com/huggingface/diffusers), [`torchao`](https://github.com/pytorch/ao), combining `torch.compile()` \ud83d\udd25**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "torchao"
+    }
+  ]
+}

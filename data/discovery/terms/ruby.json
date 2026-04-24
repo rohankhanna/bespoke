@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T13:15:13.756138+00:00",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -171,6 +171,36 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "ruby/debug"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "ku1ik/rainbow"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "jekyll/jekyll"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "libgit2/rugged"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "babbel/puma-plugin-telemetry"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "kigster/puma-daemon"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/ruby.yml",
+      "source_repo": "anilmaurya/fast_jsonparser"
     }
   ],
   "term": "ruby"

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "pretty-print"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "r-lib/styler",
+      "status": "candidate-context",
+      "text": "Non-invasive pretty printing of R code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "r-lib/styler",
+      "status": "candidate-context",
+      "text": "<!-- README.md is generated from README.Rmd. Please edit that file -->"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "r-lib/styler",
+      "status": "candidate",
+      "text": "<!-- README.md is generated from README.Rmd. Please edit that file -->"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19938421,
+      "status": "candidate",
+      "text": "prettyprint"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19938420,
+      "status": "candidate",
+      "text": "print"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19938419,
+      "status": "candidate",
+      "text": "grind"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19938418,
+      "status": "candidate",
+      "text": "mark up"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19938417,
+      "status": "candidate",
+      "text": "code"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "pretty-print",
+  "concept_id": "pretty-print",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "r-lib/styler"
+    }
+  ],
+  "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "pretty-print",
+      "sense_id": "pretty-print#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

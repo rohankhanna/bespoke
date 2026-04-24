@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T09:22:19.136418+00:00",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -66,6 +66,16 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/cla.yml",
       "source_repo": "ultralytics/thop"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/cla.yml",
+      "source_repo": "cloudflare/workerd"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/cla.yml",
+      "source_repo": "SpecterOps/SharpHoundCommon"
     }
   ],
   "term": "CLA Assistant"

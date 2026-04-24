@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tonsky/rum",
+      "target": "lupapiste/lupapiste",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tonsky/rum",
+      "target": "martinklepsch/derivatives",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tonsky/rum",
+      "target": "levand/quiescent",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tonsky/rum",
+      "target": "clojure/clojurescript",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-24T00:42:18.075336+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 25528
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "gh-pages",
+    "description": "Simple, decomplected, isomorphic HTML UI library for Clojure and ClojureScript",
+    "fork": false,
+    "full_name": "tonsky/rum",
+    "html_url": "https://github.com/tonsky/rum",
+    "language": "HTML",
+    "pushed_at": "2025-04-14T15:10:29Z",
+    "stargazers_count": 1823,
+    "topics": [],
+    "updated_at": "2026-04-20T01:46:47Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "clojure/clojurescript",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "levand/quiescent",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lupapiste/lupapiste",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "martinklepsch/derivatives",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

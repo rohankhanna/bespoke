@@ -1,0 +1,294 @@
+{
+  "components": [
+    {
+      "component": "@bufbuild/license-header",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "fflate",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "prettier",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "protobuf-conformance",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "bufbuild/base-workflows/.github/workflows/add-to-project.yaml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/add-to-project.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "bufbuild/base-workflows/.github/workflows/emergency-review-bypass.yaml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/emergency-review-bypass.yaml"
+    },
+    {
+      "component": "bufbuild/base-workflows/.github/workflows/notify-approval-bypass.yaml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/notify-approval-bypass.yaml"
+    },
+    {
+      "component": "bufbuild/base-workflows/.github/workflows/pr-title.yaml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-title.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bufbuild/protobuf-conformance",
+      "target": "stephenh/ts-proto",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bufbuild/protobuf-conformance",
+      "target": "protobufjs/protobuf.js",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bufbuild/protobuf-conformance",
+      "target": "tatethurston/protoscript",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bufbuild/protobuf-conformance",
+      "target": "thesayyn/protoc-gen-ts",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "bufbuild/protobuf-conformance",
+      "target": "@bufbuild/license-header",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "bufbuild/protobuf-conformance",
+      "target": "fflate",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "bufbuild/protobuf-conformance",
+      "target": "prettier",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "bufbuild/protobuf-conformance",
+      "target": "protobuf-conformance",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/add-to-project.yaml",
+      "source_repo": "bufbuild/protobuf-conformance",
+      "target": "bufbuild/base-workflows/.github/workflows/add-to-project.yaml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/add-to-project.yaml",
+      "source_repo": "bufbuild/protobuf-conformance",
+      "target": "Add issues and PRs to project",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "bufbuild/protobuf-conformance",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/emergency-review-bypass.yaml",
+      "source_repo": "bufbuild/protobuf-conformance",
+      "target": "bufbuild/base-workflows/.github/workflows/emergency-review-bypass.yaml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/emergency-review-bypass.yaml",
+      "source_repo": "bufbuild/protobuf-conformance",
+      "target": "Bypass review in case of emergency",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/notify-approval-bypass.yaml",
+      "source_repo": "bufbuild/protobuf-conformance",
+      "target": "bufbuild/base-workflows/.github/workflows/notify-approval-bypass.yaml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/notify-approval-bypass.yaml",
+      "source_repo": "bufbuild/protobuf-conformance",
+      "target": "PR Approval Bypass Notifier",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-title.yaml",
+      "source_repo": "bufbuild/protobuf-conformance",
+      "target": "bufbuild/base-workflows/.github/workflows/pr-title.yaml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-title.yaml",
+      "source_repo": "bufbuild/protobuf-conformance",
+      "target": "Lint PR Title",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bufbuild/protobuf-conformance",
+      "target": "conformance",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bufbuild/protobuf-conformance",
+      "target": "protobuf",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T00:36:03.192469+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3927
+    },
+    {
+      "path": "package.json",
+      "size": 822
+    },
+    {
+      "path": ".github/workflows/add-to-project.yaml",
+      "size": 409
+    },
+    {
+      "path": ".github/workflows/ci.yaml",
+      "size": 696
+    },
+    {
+      "path": ".github/workflows/emergency-review-bypass.yaml",
+      "size": 309
+    },
+    {
+      "path": ".github/workflows/notify-approval-bypass.yaml",
+      "size": 266
+    },
+    {
+      "path": ".github/workflows/pr-title.yaml",
+      "size": 612
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A repository running the Protobuf conformance tests against various libraries",
+    "fork": false,
+    "full_name": "bufbuild/protobuf-conformance",
+    "html_url": "https://github.com/bufbuild/protobuf-conformance",
+    "language": "JavaScript",
+    "pushed_at": "2026-04-20T17:02:36Z",
+    "stargazers_count": 30,
+    "topics": [
+      "conformance",
+      "javascript",
+      "protobuf",
+      "typescript"
+    ],
+    "updated_at": "2026-04-20T17:02:39Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "protobufjs/protobuf.js",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "stephenh/ts-proto",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tatethurston/protoscript",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "thesayyn/protoc-gen-ts",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Add issues and PRs to project",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/add-to-project.yaml",
+      "term": "Add issues and PRs to project"
+    },
+    {
+      "context_snippet": "Bypass review in case of emergency",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/emergency-review-bypass.yaml",
+      "term": "Bypass review in case of emergency"
+    },
+    {
+      "context_snippet": "PR Approval Bypass Notifier",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/notify-approval-bypass.yaml",
+      "term": "PR Approval Bypass Notifier"
+    },
+    {
+      "context_snippet": "Lint PR Title",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-title.yaml",
+      "term": "Lint PR Title"
+    },
+    {
+      "context_snippet": "A repository which runs the protocol buffers",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "conformance"
+    },
+    {
+      "context_snippet": "A repository which runs the protocol buffers",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "protobuf"
+    }
+  ]
+}

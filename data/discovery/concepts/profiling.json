@@ -103,6 +103,30 @@
       "source_repo": "grafana/pyroscope",
       "status": "candidate-context",
       "text": "<p align=\"center\"><img alt=\"Pyroscope\" src=\"https://github.com/grafana/pyroscope/assets/662636/c1fc4055-b33d-4e69-a450-9e7a7b2317bb\" width=\"100%\"/></p>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "flamegraph-rs/flamegraph",
+      "status": "candidate-context",
+      "text": "Easy flamegraphs for Rust projects and everything else, without Perl or pipes <3"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "flamegraph-rs/flamegraph",
+      "status": "candidate-context",
+      "text": "[![colorized flamegraph output](example_cropped.png)](example.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "csurfer/pyheat",
+      "status": "candidate-context",
+      "text": "pprofile + matplotlib = Python program profiled as an awesome heatmap!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "csurfer/pyheat",
+      "status": "candidate-context",
+      "text": "[![pypiv](https://img.shields.io/pypi/v/py-heat.svg)](https://pypi.python.org/pypi/py-heat)"
     }
   ],
   "candidate_glosses": [
@@ -153,6 +177,18 @@
       "source_repo": "grafana/pyroscope",
       "status": "candidate",
       "text": "<p align=\"center\"><img alt=\"Pyroscope\" src=\"https://github.com/grafana/pyroscope/assets/662636/c1fc4055-b33d-4e69-a450-9e7a7b2317bb\" width=\"100%\"/></p>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "flamegraph-rs/flamegraph",
+      "status": "candidate",
+      "text": "[![colorized flamegraph output](example_cropped.png)](example.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "csurfer/pyheat",
+      "status": "candidate",
+      "text": "[![pypiv](https://img.shields.io/pypi/v/py-heat.svg)](https://pypi.python.org/pypi/py-heat)"
     }
   ],
   "candidate_related_terms": [
@@ -262,11 +298,29 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "grafana/pyroscope"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "flamegraph-rs/flamegraph"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "ocaml-tracing/ocaml-tracy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "csurfer/pyheat"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

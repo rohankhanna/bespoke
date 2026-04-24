@@ -268,6 +268,18 @@
       "source_repo": "google/adk-docs",
       "status": "candidate-context",
       "text": "Build Docs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "meta-pytorch/torchtune",
+      "status": "candidate-context",
+      "text": "PyTorch native post-training library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "meta-pytorch/torchtune",
+      "status": "candidate-context",
+      "text": "Build Docs"
     }
   ],
   "candidate_glosses": [
@@ -400,6 +412,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "google/adk-docs",
+      "status": "candidate",
+      "text": "Build Docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "meta-pytorch/torchtune",
       "status": "candidate",
       "text": "Build Docs"
     }
@@ -589,11 +607,23 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": ".github/workflows/build-docs.yaml",
       "source_repo": "google/adk-docs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/deploy-docs.yml",
+      "source_repo": "SWE-bench/SWE-bench"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/build_docs.yaml",
+      "source_repo": "meta-pytorch/torchtune"
     }
   ],
   "first_seen_at": "2026-04-18T12:06:06.216548+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,202 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ipsilon/evmc",
+      "target": "axic/daytona",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ipsilon/evmc",
+      "target": "axic/eip1962-evmc",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ipsilon/evmc",
+      "target": "ethereum/aleth",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ipsilon/evmc",
+      "target": "etclabscore/core-geth",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ipsilon/evmc",
+      "target": "ethereum",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ipsilon/evmc",
+      "target": "evmc",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ipsilon/evmc",
+      "target": "ewasm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ipsilon/evmc",
+      "target": "golang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ipsilon/evmc",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ipsilon/evmc",
+      "target": "java",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ipsilon/evmc",
+      "target": "rust",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ipsilon/evmc",
+      "target": "wasm",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T00:58:16.847518+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4683
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 190
+    },
+    {
+      "path": "go.mod",
+      "size": 45
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "EVMC \u2013 Ethereum Client-VM Connector API",
+    "fork": false,
+    "full_name": "ipsilon/evmc",
+    "html_url": "https://github.com/ipsilon/evmc",
+    "language": "C",
+    "pushed_at": "2026-04-07T21:15:27Z",
+    "stargazers_count": 379,
+    "topics": [
+      "c",
+      "cpp",
+      "ethereum",
+      "evm",
+      "evmc",
+      "ewasm",
+      "golang",
+      "hacktoberfest",
+      "java",
+      "rust",
+      "wasm"
+    ],
+    "updated_at": "2026-04-23T23:42:46Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "axic/daytona",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "axic/eip1962-evmc",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "etclabscore/core-geth",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ethereum/aleth",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![chat: on gitter][gitter badge]][Gitter]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ethereum"
+    },
+    {
+      "context_snippet": "[![chat: on gitter][gitter badge]][Gitter]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "evmc"
+    },
+    {
+      "context_snippet": "[![chat: on gitter][gitter badge]][Gitter]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ewasm"
+    },
+    {
+      "context_snippet": "[![chat: on gitter][gitter badge]][Gitter]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "golang"
+    },
+    {
+      "context_snippet": "[![chat: on gitter][gitter badge]][Gitter]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    },
+    {
+      "context_snippet": "[![chat: on gitter][gitter badge]][Gitter]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "java"
+    },
+    {
+      "context_snippet": "[![chat: on gitter][gitter badge]][Gitter]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust"
+    },
+    {
+      "context_snippet": "[![chat: on gitter][gitter badge]][Gitter]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "wasm"
+    }
+  ]
+}

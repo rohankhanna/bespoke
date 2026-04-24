@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\ud83d\udd3d Install and update your Xcodes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![Gem Version](http://img.shields.io/gem/v/xcode-install.svg?style=flat)](http://badge.fury.io/rb/xcode-install) [![Build Status](https://github.com/xcpretty/xcode-install/actions/workflows/ci.yml/badge.svg)](https://github.com/xcpretty/xcode-install/actions)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![Gem Version](http://img.shields.io/gem/v/xcode-install.svg?style=flat)](http://badge.fury.io/rb/xcode-install) [![Build Status](https://github.com/xcpretty/xcode-install/actions/workflows/ci.yml/badge.svg)](https://github.com/xcpretty/xcode-install/actions)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "hacktoberfest",
+      "sense_id": "hacktoberfest#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "hacktoberfest",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "hacktoberfest",
+  "observation_id": "f5fbebe9c0441f51",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T00:33:56.049672+00:00",
+  "observed_text": "hacktoberfest",
+  "source_context_snippet": "[![Gem Version](http://img.shields.io/gem/v/xcode-install.svg?style=flat)](http://badge.fury.io/rb/xcode-install) [![Build Status](https://github.com/xcpretty/xcode-install/actions/workflows/ci.yml/badge.svg)](https://github.com/xcpretty/xcode-install/actions)",
+  "source_file": null,
+  "source_repo": "xcpretty/xcode-install",
+  "source_repo_description": "\ud83d\udd3d Install and update your Xcodes"
+}

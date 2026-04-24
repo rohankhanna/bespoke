@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Implementations of popular elliptic curves "
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "This repository is no longer maintained, and PRs to add or modify curves should instead be made against [arkworks-rs/algebra](https://github.com/arkworks-rs/algebra); all the curves implemented here have moved to the [`curves` folder](https://github.com/arkworks-rs/algebra/tree/\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "This repository is no longer maintained, and PRs to add or modify curves should instead be made against [arkworks-rs/algebra](https://github.com/arkworks-rs/algebra); all the curves implemented here have moved to the [`curves` folder](https://github.com/arkworks-rs/algebra/tree/\u2026"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "elliptic-curves",
+      "sense_id": "elliptic-curves#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "elliptic-curves",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "elliptic-curves",
+  "observation_id": "bbfda1e446ea6c3a",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T00:33:56.049672+00:00",
+  "observed_text": "elliptic-curves",
+  "source_context_snippet": "This repository is no longer maintained, and PRs to add or modify curves should instead be made against [arkworks-rs/algebra](https://github.com/arkworks-rs/algebra); all the curves implemented here have moved to the [`curves` folder](https://github.com/arkworks-rs/algebra/tree/\u2026",
+  "source_file": null,
+  "source_repo": "arkworks-rs/curves",
+  "source_repo_description": "Implementations of popular elliptic curves "
+}

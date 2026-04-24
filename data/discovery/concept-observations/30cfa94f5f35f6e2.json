@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Apache Doris is an easy-to-use, high performance and unified analytics database."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Auto Cherry-Pick to Branch"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Auto Cherry-Pick to Branch"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9946,
+      "status": "candidate",
+      "text": "horn"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9946,
+      "status": "candidate",
+      "text": "part"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9946,
+      "status": "candidate",
+      "text": "trunk"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9946,
+      "status": "candidate",
+      "text": "ute"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9922,
+      "status": "candidate",
+      "text": "aaa"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Auto Cherry-Pick to Branch",
+      "sense_id": "auto-cherry-pick-to-branch#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "auto-cherry-pick-to-branch",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "auto-cherry-pick-to-branch",
+  "observation_id": "30cfa94f5f35f6e2",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-24T00:33:56.049672+00:00",
+  "observed_text": "Auto Cherry-Pick to Branch",
+  "source_context_snippet": "Auto Cherry-Pick to Branch",
+  "source_file": ".github/workflows/auto-cherry-pick.yml",
+  "source_repo": "apache/doris",
+  "source_repo_description": "Apache Doris is an easy-to-use, high performance and unified analytics database."
+}

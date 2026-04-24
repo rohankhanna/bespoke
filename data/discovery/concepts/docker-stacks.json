@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Docker Stacks"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jupyter/docker-stacks",
+      "status": "candidate-context",
+      "text": "Ready-to-run Docker images containing Jupyter applications"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jupyter/docker-stacks",
+      "status": "candidate-context",
+      "text": "Docker Stacks"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jupyter/docker-stacks",
+      "status": "candidate",
+      "text": "Docker Stacks"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10951,
+      "status": "candidate",
+      "text": "longshoreman"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10951,
+      "status": "candidate",
+      "text": "lumper"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10684,
+      "status": "candidate",
+      "text": "cargo"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10684,
+      "status": "candidate",
+      "text": "dock"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10684,
+      "status": "candidate",
+      "text": "dockhand"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Docker Stacks",
+  "concept_id": "docker-stacks",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "jupyter/docker-stacks"
+    }
+  ],
+  "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Docker Stacks",
+      "sense_id": "docker-stacks#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

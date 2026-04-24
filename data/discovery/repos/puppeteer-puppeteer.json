@@ -568,13 +568,6 @@
   ],
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "puppeteer/puppeteer",
-      "target": "chromedevtools/chrome-devtools-mcp",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "package-json:devDependencies",
       "source_file": "package.json",
       "source_repo": "puppeteer/puppeteer",
@@ -1198,7 +1191,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-23T04:45:03.539461+00:00",
+  "fetched_at": "2026-04-24T01:44:53.183556+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -1250,8 +1243,8 @@
     "full_name": "puppeteer/puppeteer",
     "html_url": "https://github.com/puppeteer/puppeteer",
     "language": "TypeScript",
-    "pushed_at": "2026-04-22T07:25:50Z",
-    "stargazers_count": 94169,
+    "pushed_at": "2026-04-23T14:57:51Z",
+    "stargazers_count": 94177,
     "topics": [
       "automation",
       "chrome",
@@ -1263,15 +1256,9 @@
       "testing",
       "web"
     ],
-    "updated_at": "2026-04-23T01:44:44Z"
+    "updated_at": "2026-04-24T01:04:22Z"
   },
-  "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "chromedevtools/chrome-devtools-mcp",
-      "source_file": "README.md"
-    }
-  ],
+  "repo_links": [],
   "terms": [
     {
       "context_snippet": "Check which packages changed",

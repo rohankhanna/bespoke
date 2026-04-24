@@ -187,6 +187,78 @@
       "source_repo": "aws/aws-sam-cli",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "14nrv/serverless-lambda-stripe",
+      "status": "candidate-context",
+      "text": "serverless lambda for stripe"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "14nrv/serverless-lambda-stripe",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://img.shields.io/circleci/project/github/14nrv/serverless-lambda-stripe/dev.svg \"Build Status\")](https://circleci.com/gh/14nrv/serverless-lambda-stripe/tree/dev)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mthenw/awesome-layers",
+      "status": "candidate-context",
+      "text": "\u03bb A curated list of awesome AWS Lambda Layers. Sponsored by https://cloudash.dev"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mthenw/awesome-layers",
+      "status": "candidate-context",
+      "text": "**A curated list of awesome AWS Lambda Layers**"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "terraform-aws-modules/terraform-aws-apigateway-v2",
+      "status": "candidate-context",
+      "text": "Terraform module to create AWS API Gateway v2 (HTTP/WebSocket) \ud83c\uddfa\ud83c\udde6"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "terraform-aws-modules/terraform-aws-apigateway-v2",
+      "status": "candidate-context",
+      "text": "Terraform module which creates API Gateway v2 resources with HTTP/Websocket capabilities."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aws-powertools/powertools-lambda-dotnet",
+      "status": "candidate-context",
+      "text": "Powertools is a developer toolkit to implement Serverless best practices and increase developer velocity."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws-powertools/powertools-lambda-dotnet",
+      "status": "candidate-context",
+      "text": "![aws provider](https://img.shields.io/badge/provider-AWS-orange?logo=amazon-aws&color=ff9900)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aws-powertools/powertools-lambda-typescript",
+      "status": "candidate-context",
+      "text": "Powertools for AWS is a developer toolkit to implement Serverless best practices and increase developer velocity."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws-powertools/powertools-lambda-typescript",
+      "status": "candidate-context",
+      "text": "<!-- markdownlint-disable MD013 -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aws-samples/aws-serverless-airline-booking",
+      "status": "candidate-context",
+      "text": "Airline Booking is a sample web application that provides Flight Search, Flight Payment, Flight Booking and Loyalty points including end-to-end testing, GraphQL and CI/CD. This web application was the theme of Build on Serverless Season 2 on AWS Twitch running from April 24th until end of August in 2019."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws-samples/aws-serverless-airline-booking",
+      "status": "candidate-context",
+      "text": "Serverless Airline Booking is a complete web application that provides Flight Search, Payment, Booking and Loyalty points including end-to-end testing, GraphQL and CI/CD. This web application was the theme of Build on Serverless Season 2 on AWS Twitch running from April 24th unt\u2026"
     }
   ],
   "candidate_glosses": [
@@ -279,6 +351,42 @@
       "source_repo": "aws/aws-sam-cli",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "14nrv/serverless-lambda-stripe",
+      "status": "candidate",
+      "text": "[![Build Status](https://img.shields.io/circleci/project/github/14nrv/serverless-lambda-stripe/dev.svg \"Build Status\")](https://circleci.com/gh/14nrv/serverless-lambda-stripe/tree/dev)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mthenw/awesome-layers",
+      "status": "candidate",
+      "text": "**A curated list of awesome AWS Lambda Layers**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "terraform-aws-modules/terraform-aws-apigateway-v2",
+      "status": "candidate",
+      "text": "Terraform module which creates API Gateway v2 resources with HTTP/Websocket capabilities."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws-powertools/powertools-lambda-dotnet",
+      "status": "candidate",
+      "text": "![aws provider](https://img.shields.io/badge/provider-AWS-orange?logo=amazon-aws&color=ff9900)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws-powertools/powertools-lambda-typescript",
+      "status": "candidate",
+      "text": "<!-- markdownlint-disable MD013 -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws-samples/aws-serverless-airline-booking",
+      "status": "candidate",
+      "text": "Serverless Airline Booking is a complete web application that provides Flight Search, Payment, Booking and Loyalty points including end-to-end testing, GraphQL and CI/CD. This web application was the theme of Build on Serverless Season 2 on AWS Twitch running from April 24th unt\u2026"
     }
   ],
   "candidate_related_terms": [
@@ -418,11 +526,53 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "aws/aws-sam-cli"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "aws/serverless-application-model"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "14nrv/serverless-lambda-stripe"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "mthenw/awesome-layers"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "terraform-aws-modules/terraform-aws-apigateway-v2"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "aws-powertools/powertools-lambda-dotnet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "aws-powertools/powertools-lambda-typescript"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "aws-samples/aws-serverless-airline-booking"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

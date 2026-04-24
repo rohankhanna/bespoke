@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Dismiss Stale PR Approvals"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bazelbuild/bazel-central-registry",
+      "status": "candidate-context",
+      "text": "The central registry of Bazel modules for the Bzlmod external dependency system."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bazelbuild/bazel-central-registry",
+      "status": "candidate-context",
+      "text": "Dismiss Stale PR Approvals"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bazelbuild/bazel-central-registry",
+      "status": "candidate",
+      "text": "Dismiss Stale PR Approvals"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18301,
+      "status": "candidate",
+      "text": "clearance"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18077,
+      "status": "candidate",
+      "text": "dame"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17950,
+      "status": "candidate",
+      "text": "explode"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17950,
+      "status": "candidate",
+      "text": "exploded"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17950,
+      "status": "candidate",
+      "text": "fasces"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Dismiss Stale PR Approvals",
+  "concept_id": "dismiss-stale-pr-approvals",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/dismiss_approvals.yml",
+      "source_repo": "bazelbuild/bazel-central-registry"
+    }
+  ],
+  "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Dismiss Stale PR Approvals",
+      "sense_id": "dismiss-stale-pr-approvals#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

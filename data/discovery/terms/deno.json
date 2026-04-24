@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T11:41:43.530265+00:00",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -31,6 +31,21 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "denoland/std"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/deno.yml",
+      "source_repo": "eemeli/yaml"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/deno.yml",
+      "source_repo": "Shougo/ddc.vim"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/deno.yml",
+      "source_repo": "Shougo/ddu.vim"
     }
   ],
   "term": "deno"

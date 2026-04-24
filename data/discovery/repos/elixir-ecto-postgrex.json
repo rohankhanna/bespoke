@@ -1,0 +1,94 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "erlef/setup-beam@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "elixir-ecto/postgrex",
+      "target": "elixir-ecto/db_connection",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "elixir-ecto/postgrex",
+      "target": "michalmuskala/jason",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "elixir-ecto/postgrex",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "elixir-ecto/postgrex",
+      "target": "erlef/setup-beam@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "elixir-ecto/postgrex",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-24T00:43:16.702242+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11843
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 3252
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "PostgreSQL driver for Elixir",
+    "fork": false,
+    "full_name": "elixir-ecto/postgrex",
+    "html_url": "https://github.com/elixir-ecto/postgrex",
+    "language": "Elixir",
+    "pushed_at": "2026-04-11T07:21:37Z",
+    "stargazers_count": 1208,
+    "topics": [],
+    "updated_at": "2026-04-14T23:33:03Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "elixir-ecto/db_connection",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "michalmuskala/jason",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

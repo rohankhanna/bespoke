@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "json5"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "json5/json5",
+      "status": "candidate-context",
+      "text": "JSON5 \u2014 JSON for Humans"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "json5/json5",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://app.travis-ci.com/json5/json5.svg?branch=main)][Build"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "json5/json5",
+      "status": "candidate",
+      "text": "[![Build Status](https://app.travis-ci.com/json5/json5.svg?branch=main)][Build"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "json5",
+  "concept_id": "json5",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "json5/json5"
+    }
+  ],
+  "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "json5",
+      "sense_id": "json5#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

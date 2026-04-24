@@ -1523,7 +1523,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-23T19:50:27.671884+00:00",
+  "fetched_at": "2026-04-24T00:39:19.871353+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -1575,8 +1575,8 @@
     "full_name": "eslint/eslint",
     "html_url": "https://github.com/eslint/eslint",
     "language": "JavaScript",
-    "pushed_at": "2026-04-22T14:01:27Z",
-    "stargazers_count": 27212,
+    "pushed_at": "2026-04-23T20:34:20Z",
+    "stargazers_count": 27211,
     "topics": [
       "ecmascript",
       "eslint",
@@ -1584,7 +1584,7 @@
       "linter",
       "static-code-analysis"
     ],
-    "updated_at": "2026-04-23T13:06:00Z"
+    "updated_at": "2026-04-23T23:20:19Z"
   },
   "repo_links": [],
   "terms": [

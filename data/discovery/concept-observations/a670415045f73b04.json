@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Minimalistic Rust toolkit for hash function quality analysis. Tests avalanche effect, differential patterns, and statistical distribution across variable-length n-grams."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![HashEvals](https://github.com/ashvardanian/ashvardanian/blob/master/repositories/HashEvals.jpg?raw=true)](https://github.com/ashvardanian/HashEvals)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![HashEvals](https://github.com/ashvardanian/ashvardanian/blob/master/repositories/HashEvals.jpg?raw=true)](https://github.com/ashvardanian/HashEvals)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39691262,
+      "status": "candidate",
+      "text": "hashish"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29703547,
+      "status": "candidate",
+      "text": "extendible"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19831365,
+      "status": "candidate",
+      "text": "coalesced"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19831364,
+      "status": "candidate",
+      "text": "hash algorithm"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19831363,
+      "status": "candidate",
+      "text": "hash buster"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "hashing",
+      "sense_id": "hashing#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "hashing",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "hashing",
+  "observation_id": "a670415045f73b04",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-24T00:33:56.049672+00:00",
+  "observed_text": "hashing",
+  "source_context_snippet": "[![HashEvals](https://github.com/ashvardanian/ashvardanian/blob/master/repositories/HashEvals.jpg?raw=true)](https://github.com/ashvardanian/HashEvals)",
+  "source_file": null,
+  "source_repo": "ashvardanian/HashEvals",
+  "source_repo_description": "Minimalistic Rust toolkit for hash function quality analysis. Tests avalanche effect, differential patterns, and statistical distribution across variable-length n-grams."
+}

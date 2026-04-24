@@ -1,0 +1,129 @@
+{
+  "components": [
+    {
+      "component": "canvas",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "after",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "concat-stream",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "expect.js",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "mocha",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "png-file-stream",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "png-js",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "range",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "eugeneware/gifencoder",
+      "target": "canvas",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "eugeneware/gifencoder",
+      "target": "after",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "eugeneware/gifencoder",
+      "target": "concat-stream",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "eugeneware/gifencoder",
+      "target": "expect.js",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "eugeneware/gifencoder",
+      "target": "mocha",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "eugeneware/gifencoder",
+      "target": "png-file-stream",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "eugeneware/gifencoder",
+      "target": "png-js",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "eugeneware/gifencoder",
+      "target": "range",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-24T01:44:50.154598+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3521
+    },
+    {
+      "path": "package.json",
+      "size": 927
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Server side animated gif generation for node.js",
+    "fork": false,
+    "full_name": "eugeneware/gifencoder",
+    "html_url": "https://github.com/eugeneware/gifencoder",
+    "language": "JavaScript",
+    "pushed_at": "2021-05-31T18:57:27Z",
+    "stargazers_count": 477,
+    "topics": [],
+    "updated_at": "2026-03-01T03:10:51Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

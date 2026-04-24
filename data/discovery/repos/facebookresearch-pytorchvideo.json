@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-24T02:02:50.764438+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6504
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A deep learning library for video understanding research.",
+    "fork": false,
+    "full_name": "facebookresearch/pytorchvideo",
+    "html_url": "https://github.com/facebookresearch/pytorchvideo",
+    "language": "Python",
+    "pushed_at": "2026-01-12T11:01:44Z",
+    "stargazers_count": 3553,
+    "topics": [],
+    "updated_at": "2026-04-22T14:09:05Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -55,6 +55,18 @@
       "source_repo": "li-plus/chatglm.cpp",
       "status": "candidate-context",
       "text": "[![CMake](https://github.com/li-plus/chatglm.cpp/actions/workflows/cmake.yml/badge.svg)](https://github.com/li-plus/chatglm.cpp/actions/workflows/cmake.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "OpenBMB/RepoAgent",
+      "status": "candidate-context",
+      "text": "An LLM-powered repository agent designed to assist developers and teams in generating documentation and understanding repositories quickly."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenBMB/RepoAgent",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +93,12 @@
       "source_repo": "li-plus/chatglm.cpp",
       "status": "candidate",
       "text": "[![CMake](https://github.com/li-plus/chatglm.cpp/actions/workflows/cmake.yml/badge.svg)](https://github.com/li-plus/chatglm.cpp/actions/workflows/cmake.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenBMB/RepoAgent",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -112,11 +130,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "li-plus/chatglm.cpp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": null,
+      "source_repo": "OpenBMB/RepoAgent"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

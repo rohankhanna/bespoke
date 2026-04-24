@@ -19,12 +19,42 @@
       "source_repo": "nvim-telescope/telescope.nvim",
       "status": "candidate-context",
       "text": "Linting and style checking"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nvim-telescope/telescope-fzf-native.nvim",
+      "status": "candidate-context",
+      "text": "FZF sorter for telescope written in c"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nvim-telescope/telescope-fzf-native.nvim",
+      "status": "candidate-context",
+      "text": "Linting and style checking"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "theHamsta/nvim-dap-virtual-text",
+      "status": "candidate-context",
+      "text": "Linting and style checking"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "nvim-telescope/telescope.nvim",
+      "status": "candidate",
+      "text": "Linting and style checking"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nvim-telescope/telescope-fzf-native.nvim",
+      "status": "candidate",
+      "text": "Linting and style checking"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "theHamsta/nvim-dap-virtual-text",
       "status": "candidate",
       "text": "Linting and style checking"
     }
@@ -76,11 +106,23 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": ".github/workflows/lint.yml",
       "source_repo": "nvim-telescope/telescope.nvim"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "nvim-telescope/telescope-fzf-native.nvim"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/style-check.yml",
+      "source_repo": "theHamsta/nvim-dap-virtual-text"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "lexical_providers": [
     "datamuse"
   ],

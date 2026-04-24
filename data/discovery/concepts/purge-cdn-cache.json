@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Purge CDN Cache"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ultralytics/llm",
+      "status": "candidate-context",
+      "text": "Ultralytics LLM-related experiments"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ultralytics/llm",
+      "status": "candidate-context",
+      "text": "Purge CDN Cache"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ultralytics/llm",
+      "status": "candidate",
+      "text": "Purge CDN Cache"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21108,
+      "status": "candidate",
+      "text": "can"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20324,
+      "status": "candidate",
+      "text": "manhole"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20324,
+      "status": "candidate",
+      "text": "pillowcase"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20324,
+      "status": "candidate",
+      "text": "thermos"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20239,
+      "status": "candidate",
+      "text": "beam"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Purge CDN Cache",
+  "concept_id": "purge-cdn-cache",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-24T00:33:56.049672+00:00",
+      "source_file": ".github/workflows/purge-cdn.yml",
+      "source_repo": "ultralytics/llm"
+    }
+  ],
+  "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Purge CDN Cache",
+      "sense_id": "purge-cdn-cache#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

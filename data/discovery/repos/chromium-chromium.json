@@ -1,0 +1,92 @@
+{
+  "components": [
+    {
+      "component": "superbrothers/close-pull-request@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/close-pull-request.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/close-pull-request.yml",
+      "source_repo": "chromium/chromium",
+      "target": "superbrothers/close-pull-request@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/close-pull-request.yml",
+      "source_repo": "chromium/chromium",
+      "target": "Close Pull Request",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chromium/chromium",
+      "target": "browser",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chromium/chromium",
+      "target": "chromium",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-24T00:50:11.349282+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 969
+    },
+    {
+      "path": "package.json",
+      "size": 452
+    },
+    {
+      "path": ".github/workflows/close-pull-request.yml",
+      "size": 681
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "The official GitHub mirror of the Chromium source",
+    "fork": false,
+    "full_name": "chromium/chromium",
+    "html_url": "https://github.com/chromium/chromium",
+    "language": "C++",
+    "pushed_at": "2026-04-24T00:21:20Z",
+    "stargazers_count": 23493,
+    "topics": [
+      "browser",
+      "chromium"
+    ],
+    "updated_at": "2026-04-24T00:27:29Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Close Pull Request",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/close-pull-request.yml",
+      "term": "Close Pull Request"
+    },
+    {
+      "context_snippet": "Chromium is an open-source browser project that aims to build a safer, faster,",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "browser"
+    },
+    {
+      "context_snippet": "Chromium is an open-source browser project that aims to build a safer, faster,",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chromium"
+    }
+  ]
+}
